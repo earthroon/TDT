@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-DEPTH-FIELD-WGSL-01",
+  "state": "SOURCE_BAKED_AWAITING_PHYSICAL_GPU",
+  "implementation": {
+    "schemaVersion": 1,
+    "patchId": "TDT-DEPTH-FIELD-WGSL-01",
+    "state": "SOURCE_BAKED_AWAITING_PHYSICAL_GPU",
+    "title": "Final EWA Terminal R1C Tangent Relief Analysis Authority Zero Readback Seal",
+    "specSha256": "957584484197df65ca4d78bb0c0664b6aadaf37b2b2ddfc45cef6589a9fe5859",
+    "sourceTreeDigest": "9d65fbd910c3120399c349a48d1b1ebb25789ec89c06e874aa25158fccddc20f",
+    "sourceFileCount": 1776,
+    "semanticId": "tdt.analysis.depth.tangent-relief.v1",
+    "producerId": "tdt.analysis.producer.depth.tangent-relief.wgsl",
+    "pipelineFamilyId": "tdt.pipeline.depth.tangent-relief.wgsl01.v1",
+    "kernelAbiId": "tdt.analysis.depth.abi.final-ewa-r1c.v1",
+    "output": {
+      "format": "rgba16float",
+      "channels": ["signed-relief", "magnitude", "confidence", "validity"],
+      "coordinateSpace": "output-pixel"
+    },
+    "formula": {
+      "nearRadius": 0.6,
+      "farRadius": 1.2,
+      "farWeight": 0.7,
+      "anisotropyFloor": 0.4,
+      "responseBound": 3.4
+    },
+    "commandGraph": {
+      "terminalR1CPassCount": 6,
+      "depthPassCount": 1,
+      "combinedPassCount": 7,
+      "uniformRingAllocationCount": 2,
+      "recorderCommandEncoderCount": 0,
+      "recorderQueueSubmitCount": 0,
+      "intermediateReadbackCount": 0
+    },
+    "authority": {
+      "claimLevel": "EFFECTIVE_EXECUTION",
+      "publicationAfterFence": true,
+      "callerDepthTextureAdmission": false,
+      "legacyDepthRuntimeAuthority": false
+    },
+    "registries": {
+      "semanticRegistryDigest": "b48a2b602842199dda17534047960f068668f4c80087b54fc0be95346cbcd56c",
+      "producerInventoryDigest": "4cd1ec6e361beec89627e28248e9846123101d58d298cea559ef1e8dac4d9fd3",
+      "producerCount": 11,
+      "activeGraphDigest": "dcf38fc5ca286181ffa77f9a08a42ef41b0dbca726fc8fd23bf20e19e33d10eb",
+      "activeNodeCount": 435,
+      "activeEdgeCount": 455,
+      "staticAdmissionDigest": "6e8aa67b2c200468d35f0e673f3a46363228893f43bbc26f4eaa3b4e06bfbd46",
+      "staticAdmissionRecordCount": 294
+    },
+    "codeZipExclusionPolicy": {
+      "specs": true,
+      "manifests": true,
+      "artifacts": true,
+      "nestedZip": true,
+      "githubEvidenceOnly": true
+    },
+    "changedFileManifestDigest": "f3f7040649b6837da3448f4af1ea055e21c7436e9b96b1795909b3eaa6e4c5e9",
+    "finalCodeZip": {
+      "name": "71_TDT_DEPTH_FIELD_WGSL_01_TANGENT_RELIEF_ANALYSIS_FIELD_SOURCE_BAKED_AWAITING_PHYSICAL_GPU.zip",
+      "sha256": "2a4639e5b8557c241f7169dac5b7679bfe0f1238baa10f9dbf4d805325d8b0b6",
+      "bytes": 6261979
+    },
+    "zipExclusionAudit": {
+      "schemaVersion": 1,
+      "patchId": "TDT-DEPTH-FIELD-WGSL-01",
+      "status": "PASS",
+      "specDirectoryCount": 0,
+      "manifestDirectoryCount": 0,
+      "artifactDirectoryCount": 0,
+      "toolDirectoryCount": 0,
+      "depthSpecFileCount": 0,
+      "depthManifestFileCount": 0,
+      "depthArtifactFileCount": 0,
+      "nestedZipCount": 0
+    },
+    "manifestDigest": "2dc632dda82fcf2c2f254231458da4384ffd15048ad9c75ff69cad52f0762453"
+  },
+  "changedFileSummary": {
+    "changedFileCount": 17,
+    "addedCount": 8,
+    "modifiedCount": 9,
+    "deletedCount": 0,
+    "changedFileManifestDigest": "f3f7040649b6837da3448f4af1ea055e21c7436e9b96b1795909b3eaa6e4c5e9"
+  },
+  "githubCommitScope": ["spec", "manifest", "artifact"],
+  "excludedFromGitHub": ["zip"],
+  "excludedFromCodeZip": ["spec", "manifest", "artifact"],
+  "manifestDigest": "e091e5d60b3e3c5db1370225c3b4302b187167c309c91698d40aa5d214c5dc15"
+}
