@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-07-26T07:27:41.619Z",
+  "records": [
+    {
+      "errors": [],
+      "path": "app/src/runtime/promotion/promotion-baseline-00-harness.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "path": "app/src/runtime/workers/encoder-worker-types.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "path": "app/src/runtime/workers/encoder-worker-broker-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "path": "app/src/runtime/export/export-authority-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "path": "app/src/boot/bootstrap-renderer.ts",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfDigest": "bb1e4169491809ce18de882ec71b120f75c1cbb5971d4e2f83983b5b280fb4cd",
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "state": "SOURCE_TYPESCRIPT_TRANSPILE_VERIFIED",
+  "status": "PASS"
+}

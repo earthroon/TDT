@@ -1,0 +1,46 @@
+TDT-RUNTIME-SSOT-01-R1 applied surface
+
+Root authority and build
+- package.json
+- vite.config.ts
+- tsconfig.json
+- tsconfig.node.json
+- electron.mjs
+- preload.cjs
+- app/index.html
+
+Vue, Pinia, boot and runtime source
+- app/src/**
+
+Legacy migration boundary
+- app/legacy-runtime/**
+- app/legacy-source/original-index.html
+
+Verification and generation tools
+- tools/runtime-manifest-lib.mjs
+- tools/generate-runtime-manifest.mjs
+- tools/vite-runtime-manifest-plugin.mjs
+- tools/generate-legacy-audit.mjs
+- tools/generate-source-bake-receipt.mjs
+- tools/start-electron-dev.mjs
+- tools/verify-index-entry.mjs
+- tools/verify-pinia-serializable.mjs
+- tools/verify-runtime-ownership.mjs
+- tools/verify-legacy-manifest.mjs
+- tools/verify-boot-determinism.mjs
+- tools/verify-ts-syntax.mjs
+- tools/verify-stable-error-codes.mjs
+- tools/verify-source-bake.mjs
+
+Specification and applied report
+- specs/TDT-RUNTIME-SSOT-01-R1_SPEC.md
+- specs/TDT-RUNTIME-SSOT-01-R1_SPEC.md.sha256
+- README_TDT_RUNTIME_SSOT_01_R1_APPLIED.md
+
+Bake evidence
+- artifacts/runtime/generated-runtime-manifest.source.json
+- artifacts/runtime/SOURCE_BAKE_GATE_REPORT.txt
+- artifacts/runtime/VITE_BUILD_ATTEMPT.log
+- artifacts/runtime/VITE_BUILD_ATTEMPT.exitcode
+- artifacts/runtime/TDT_RUNTIME_SSOT_01_R1_SOURCE_BAKE_RECEIPT.json
+- artifacts/runtime/TDT_RUNTIME_SSOT_01_R1_SOURCE_BAKE_RECEIPT.md

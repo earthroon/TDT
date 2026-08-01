@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "parentR12State": "RESAMPLE_RUNTIME_R12_ATOMIC_UPDATE_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_RELEASE_AND_R11_ACTIVE_INSTALLATION",
+  "parentR12Pass": 168,
+  "parentR12Pending": 358,
+  "parentR12Fail": 0,
+  "r11InstalledPending": 228,
+  "r10ReleasePending": 202,
+  "r9PhysicalPending": 187,
+  "qualifiedMultiInstallationFleetPresent": false,
+  "fleetExecutionPerformed": false,
+  "sourceState": "RESAMPLE_RUNTIME_R13_COHORT_ROLLOUT_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_MULTI_INSTALLATION_FLEET",
+  "productionPointerMutatedByR13": false,
+  "localActivationPointerMutatedByR13": false,
+  "pass": true,
+  "selfSha256": "2a86da69012089450bb78d8e676e957ad34f0e0bfb92e0a76290f887a948ade0"
+}

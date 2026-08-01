@@ -1,0 +1,41 @@
+
+> dadumdadum@1.0.0 verify:resample-runtime-01-r1a
+> node tools/resample-runtime-01-r1a/run.mjs
+
+PASS R1A source contract 40/40
+PASS R1A call audit findings=5
+PASS R1A mock runtime smoke
+TDT-RESAMPLE-RUNTIME-01-R1A 57 PASS / 11 DEFERRED / 0 FAIL
+PASS R1A source seal 26ad1b5008a92936f93b5449a27a6e45fb29cb137e3264e7d04fdf8eeff11e49 files=40
+
+> dadumdadum@1.0.0 verify:resample-runtime-01-r1b
+> node tools/resample-runtime-01-r1b/run.mjs
+
+PASS R1B planner fixtures 75/75
+PASS R1B source contract 44/44
+PASS R1B mock runtime 17/17
+TDT-RESAMPLE-RUNTIME-01-R1B 72 PASS / 12 DEFERRED / 0 FAIL
+PASS R1B source seal dc25461611840db48a85260b1d01531fd2b3991eadb8b8880a510c36b4f884c2 files=28
+
+> dadumdadum@1.0.0 verify:resample-runtime-01-r1c
+> node tools/resample-runtime-01-r1c/run.mjs
+
+PASS R1C source contract 90/90
+PASS R1C tensor math 15/15
+PASS R1C mock runtime 18/18
+TDT-RESAMPLE-RUNTIME-01-R1C 90 PASS / 6 DEFERRED / 0 FAIL
+PASS R1C source seal c5ef6c387eff5fc50bca2698ec258f6d604194b24cde512312d6b3ebdc9f9854 changed=37 sealed=40
+
+> dadumdadum@1.0.0 verify:resample-runtime-01-r1d
+> node tools/resample-runtime-01-r1d/run.mjs
+
+PASS R1D source contract 91/91
+PASS R1D runtime smoke 13/13
+TDT-RESAMPLE-RUNTIME-01-R1D 100 PASS / 8 DEFERRED / 0 FAIL
+
+> dadumdadum@1.0.0 verify:resample-runtime-01-r2
+> node tools/resample-runtime-01-r2/run.mjs
+
+PASS R2 source contract 25/25
+TDT-RESAMPLE-RUNTIME-01-R2 81 PASS / 27 DEFERRED / 0 FAIL
+PASS R2 mock runtime 10/10

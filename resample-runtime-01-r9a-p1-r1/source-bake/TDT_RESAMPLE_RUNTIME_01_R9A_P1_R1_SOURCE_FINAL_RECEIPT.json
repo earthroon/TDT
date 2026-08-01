@@ -1,0 +1,30 @@
+{
+  "buildLockR2FinalAdmitted": false,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 360,
+    "PENDING": 360,
+    "SKIPPED": 0
+  },
+  "directKernelDriverInvocationCount": 0,
+  "exportPublicEntryExecuted": false,
+  "externalSidecarEmitted": false,
+  "historicalPassCarryForward": 0,
+  "implementationManifestSha256": "66672a77bc1c3fe2afa12c1e74e274a10176ed35eabc871875a16801e6057a79",
+  "legacyFinalSurfaceBridgeInvocationCount": 0,
+  "localActivationPointerMutated": false,
+  "normalRuntimeCompositionExecuted": false,
+  "packagedClosureBound": false,
+  "parentR9AP1SourceReceiptSha256": "1538493276ae037bfbd8598ab810698411a6fd1dc18f448a99c8084d36aff73a",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R1",
+  "previewPublicEntryExecuted": false,
+  "productionPointerMutated": false,
+  "receiptKind": "resample-runtime-r9a-p1-r1-source-final",
+  "schemaVersion": 1,
+  "selfSha256": "b724304c2206a96043ab5f8be08c43b17ad83f616c11e0dce6205398cd0e2959",
+  "sourceGateReportSha256": "7ebc244f6b8b4c32958412382f63e07065d1160b8bd25fdd48f3d6fbc6f00b95",
+  "specSha256": "cd21fbbf71c06fc8766967c3c12bd8c46758310ec6ba0ef7f0643fff155fb1c9",
+  "state": "RESAMPLE_RUNTIME_R9A_P1_R1_EXTERNAL_BUILD_ADMISSION_AND_NORMAL_PRODUCT_ENTRY_SOURCE_SEALED_AWAITING_BUILD_LOCK_R2_WIN32_AND_PACKAGED_QUALIFICATION",
+  "summaryTrustCount": 0
+}

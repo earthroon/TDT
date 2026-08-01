@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "parentZip": "61_TDT_RESAMPLE_RUNTIME_01_R13_COHORT_ROLLOUT_PRIVACY_SOURCE_BAKED_AWAITING_FLEET.zip",
+  "parentZipSha256": "5d6d474f073357281199c739bbd6ea03ca97b55f426fae208bf043d5bff9b855",
+  "parentActiveFiles": {
+    "app/legacy-runtime/encoders/webp_api_forced.js": "f48a6ad46bbb4900bebe1bcf10f0dbdaf14c5d3e3bac95298267b55a53e57660",
+    "app/legacy-runtime/js/export/wgpu_export_install.js": "c961154b3f3e36f74dd0aa727d7f4135d7ef7e1e4bb5b87ae1fcc3f480d9fcca",
+    "app/legacy-runtime/js/passes/dk_autowire.js": "82ff290f4807d322daca958228572d74f25d684ea72614d74c9725309da3dc1f",
+    "app/src/runtime/resample/resample-worker-broker-service.ts": "6ee1dce0cf72d286bdef68253418b8588c06242269af9bb438b9a40429c9319c",
+    "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs": "fbce21acff91dde9a6c065978b3c1f19a4a3fd573c77a24cf4a53fac73f07635",
+    "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js": "54449264f4fd381b7c318fb7180da84e3216b914a9a175f8609bc5ca3f7b063e",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r8.mjs": "9d492931ac6849b9d2e3d2fe7d1f14475589cd8da705b02c9c79134e06c0cb7d",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v4.mjs": "e8880cc46d2eec796e360c44f326e87692db9b25c23d788c6dff30c0e357fcf6"
+  },
+  "mathFrozenFiles": {
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v4.mjs": "e8880cc46d2eec796e360c44f326e87692db9b25c23d788c6dff30c0e357fcf6",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_kernel_contract_v4.mjs": "ae644228f72503f8d751a24bcf97ed0eafd446361380fbe572cce5254bf8f56e",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v3.mjs": "2d4416d19684b68308e711e7a133c50477c487ef53bcb2ee45838976e5d9989f",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_support_envelope_r8.mjs": "8f890d38084d92bc2ef8044fb505b418be31d955bc87efd2f58bd63e34c31db5",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r8.mjs": "9d492931ac6849b9d2e3d2fe7d1f14475589cd8da705b02c9c79134e06c0cb7d",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl": "ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r8.wgsl": "848582c747543db92514fb5b73ee3b667cdc45efeef7aa7f32d2516471df0fc3",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r8.wgsl": "792cb27c7adcb4cc6d54324c524f62eabe00e22bbcce45e337cd24217aa16d09",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_source_prepare_r8.wgsl": "9980a95892426d47ce01d10d071693606d024e7a711ab6635d529c7e8496e0d9",
+    "app/legacy-runtime/modules/dk_resample/shaders/export_detail_residual_r8.wgsl": "ea58d734a914f611da1286ca601e9d35f54c6dba58c04c27582b68336f4685a3",
+    "app/legacy-runtime/modules/dk_resample/shaders/export_finalize_rgba8_r8.wgsl": "7103282a2b6e436372e7ce4614fa8c7ae392f728cb5ac9511d13aadf4c5a3854"
+  },
+  "historicalReceipts": {
+    "artifacts/resample-runtime-01-r9/source-bake/TDT_RESAMPLE_RUNTIME_01_R9_SOURCE_FINAL_RECEIPT.json": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+    "artifacts/resample-runtime-01-r10/source-bake/TDT_RESAMPLE_RUNTIME_01_R10_SOURCE_FINAL_RECEIPT.json": "76e47a1ea47f4ff662c50992dfd5fdcac262a38e73931da3c0bb3ede9cb52b77",
+    "artifacts/resample-runtime-01-r11/source-bake/TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_FINAL_RECEIPT.json": "755281a73d3ec201dfdf94e6f94c52f4a6a0f6a599f5f21dab296972b92e273e",
+    "artifacts/resample-runtime-01-r12/source-bake/TDT_RESAMPLE_RUNTIME_01_R12_SOURCE_FINAL_RECEIPT.json": "4bf9ae0efbd18ba97f996c3ba81032a7707cd9e4cc96076d71400a26eab5889c",
+    "artifacts/resample-runtime-01-r13/source-bake/TDT_RESAMPLE_RUNTIME_01_R13_SOURCE_FINAL_RECEIPT.json": "0023fbacaae88f442c653787dd2624e88966b0f7f4bc9e27c8cd3ee70814cb3d"
+  },
+  "productionPointers": {
+    "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+    "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+  }
+}

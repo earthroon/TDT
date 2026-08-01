@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 1,
+  "$id": "tdt.rollout.rollback-recommendation-batch.r13.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rolloutId",
+    "planDigest",
+    "recommendations",
+    "pointerMutationPerformed"
+  ],
+  "properties": {}
+}

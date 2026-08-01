@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-WORKER-03",
+  "title": "WebP Lossless / PNG8 PNG16 Canonical Worker Promotion / Main-thread Encoder Zero / Codec Semantic Truth Seal",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "15e5aa3464fd16388af057e6",
+  "promotable": false,
+  "codecAuthority": {
+    "webpWorkerId": "dadum.worker.encoder.webp-lossless-v1",
+    "pngFamilyWorkerId": "dadum.worker.encoder.png-family-v1",
+    "runtimeEncoderIds": [
+      "dadum.encoder.webp-lossless.v1",
+      "dadum.encoder.png.v1",
+      "dadum.encoder.png16.v1"
+    ],
+    "pngOperations": [
+      "encode.png8",
+      "encode.png16"
+    ],
+    "pngWasmInstanceAuthority": "single-shared-module-instance",
+    "mainThreadEncoderAllowed": false,
+    "semanticFallbackAllowed": false
+  },
+  "counts": {
+    "typescriptSourceUnits": 55,
+    "stableErrorCodesDeclared": 86,
+    "ew03StaticGates": 30,
+    "r7StaticGates": 15,
+    "ew01StaticGates": 20,
+    "ew02StaticGates": 24,
+    "determinismRuns": 100,
+    "workerDescriptorCount": 3,
+    "canonicalCodecCount": 3,
+    "legacyRootScripts": 50
+  },
+  "digests": {
+    "specSha256": "2dbd97de67aa8194a7496231ab0f66a903b98edcf53799037d3fa598406d1d8f",
+    "runtimeManifestSelfSha256": "87d7a2c56f3e635c5e436852933430c31c1782454d4694b4d18d8d2c02bd8631",
+    "runtimeSourceGraphSha256": "d2ff94195008567a9818f4d7d4fd39800f023ca5b3613ce140370bdc4bc35cb2",
+    "runtimePlanSha256": "152ceede1edd99d422e13e1f6bb64b541319189ad88db1650e1343db65bdfd32",
+    "servicePlanSha256": "cc8a7a7bcb1010b139a2ef0c56fab55a6ea726069718b512fd2de2e6ea0afd33",
+    "workerSourceManifestSha256": "5b7284b251bb989230704a9f7f2bcdd96832165df369f07bc0f5c1669f7b2d40",
+    "finalGateLogSha256": "17420d04192a026735e8b1160ab8108b6bccd0aa54775b181fbd20b98f906718",
+    "strictTypeScriptLogSha256": "60ba7484da3bf6f819fcc5d004f09bf6816dfbd95835e6e81220604ddccd8337",
+    "structureVerifierSmokeSha256": "2b69e8c35a193ee7f4a032b1a486ca2dc8cc825edb7fb46a3b56a163953e3424",
+    "fullVerifyAttemptLogSha256": "388f6f3f0578d2ae85b7e20030222923d50bfe661cbe8a13cc3430f814066855",
+    "mainThreadIsolationReportSha256": "efd421c92d737066b1a5df23198fb3313e0edecdf11dac00031ceab25d28cc45",
+    "pixelRoundTripReportSha256": "b4a6cfcf752cf82be80f6fb012b29a04bf006386ea27175b40a4bcd5cbb8252a",
+    "promotionCorpusManifestSha256": "7a644edffe170b91d41f75a455d129117f7efa031fea2499863bf2f9c9f6dcaa",
+    "patchDiffSha256": "279cdcf672e638cc729f5c9e4889e558dcb8dfd49ab3ae3dc47e82951ee54c6b",
+    "packageJsonSha256": "2690f74044f58f1942785213d28489742864c11a14006e24603b2d787a4ec0fe",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+  },
+  "gates": [
+    {
+      "id": "GATE-R1-INHERITED",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R7-01..15",
+      "result": "PASS",
+      "digest": "c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489"
+    },
+    {
+      "id": "GATE-EW01-01..20",
+      "result": "PASS",
+      "digest": "a10eec07b6d8665a765e9e919721613dacc99089bbbc96c025460d636808a1ab"
+    },
+    {
+      "id": "GATE-EW02-01..24",
+      "result": "PASS",
+      "digest": "5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb"
+    },
+    {
+      "id": "GATE-EW03-01..30",
+      "result": "PASS",
+      "digest": "7bf8f64e628c8e8143ce73ca6695db7a273a807b1ee5614e95f18b986b649523"
+    },
+    {
+      "id": "GATE-EW03-STRICT-TS",
+      "result": "PASS",
+      "scope": "changed Runtime codec, Worker, manifest, receipt, and export authority graph with dependency declaration stubs"
+    },
+    {
+      "id": "GATE-EW03-STRUCTURE-RUNTIME-SMOKE",
+      "result": "PASS",
+      "coverage": [
+        "PNG8 IHDR/CRC",
+        "PNG16 IHDR/CRC",
+        "VP8L acceptance",
+        "bad PNG CRC rejection",
+        "lossy VP8 rejection"
+      ]
+    },
+    {
+      "id": "GATE-EW03-VITE-BUILD",
+      "result": "BLOCKED",
+      "reason": "vue-tsc unavailable; node_modules not installed",
+      "exitCode": 127
+    },
+    {
+      "id": "GATE-EW03-WASM-E2E",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-EW03-PIXEL-ROUNDTRIP",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-EW03-EMITTED-ASSET-DIGEST",
+      "result": "NOT_RUN",
+      "mode": "source-graph-only"
+    }
+  ],
+  "blockers": [
+    {
+      "code": "BLOCK-EW03-DEPS-001",
+      "reason": "Current environment has no installed vue-tsc/Vite dependency graph."
+    },
+    {
+      "code": "BLOCK-EW03-BUNDLE-001",
+      "reason": "Production emitted Worker JS/WASM artifacts were not generated, so emitted-asset SHA verification is not claimed."
+    },
+    {
+      "code": "BLOCK-EW03-E2E-001",
+      "reason": "Real WebP Lossless and PNG8/PNG16 WASM encode E2E were not run in Electron."
+    },
+    {
+      "code": "BLOCK-EW03-ROUNDTRIP-001",
+      "reason": "Independent decoder pixel round-trip and transparent-RGB exactness were not executed."
+    },
+    {
+      "code": "BLOCK-EW03-LOCK-001",
+      "reason": "package-lock root dependency graph is inconsistent with package.json."
+    }
+  ],
+  "marker": "PASS_TDT_EXPORT_WORKER_03_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "e6edd9cb9ed7a5f279d5aa059e8f0dfe8370b14f2c509e460483182835b16277"
+}

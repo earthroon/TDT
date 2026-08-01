@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r2.packaged-physical-pending-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2",
+  "status": "PENDING",
+  "passCount": 0,
+  "pendingCount": 36,
+  "physicalCycleCount": 0,
+  "rows": [
+    {
+      "id": "R9AP1R2R2-P001",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P002",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P003",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P004",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P005",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P006",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P007",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P008",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P009",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P010",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P011",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P012",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P013",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P014",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P015",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P016",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P017",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P018",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P019",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P020",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P021",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P022",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P023",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P024",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P025",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P026",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P027",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P028",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P029",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P030",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P031",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P032",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P033",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P034",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P035",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R9AP1R2R2-P036",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    }
+  ]
+}

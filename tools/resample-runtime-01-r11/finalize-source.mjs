@@ -1,0 +1,12 @@
+import fs from 'node:fs';import path from 'node:path';import requirements from './gate-requirements.json' with {type:'json'};import {SOURCE,sourceArtifact,check,hashFile,seal} from './lib.mjs';import {SOURCE_STATE} from './identity.mjs';
+const gate=JSON.parse(fs.readFileSync(path.join(SOURCE,'R11_SOURCE_GATE_REPORT.json'),'utf8'));
+const pred=JSON.parse(fs.readFileSync(path.join(SOURCE,'R11_PREDECESSOR_REGRESSION_REPORT.json'),'utf8'));
+check(gate.pass&&gate.counts.PASS===148,'E_R11_FINAL_RECEIPT_INCOMPLETE','source gates incomplete');
+check(pred.pass,'E_R11_FINAL_RECEIPT_INCOMPLETE','predecessor regression incomplete');
+const childNames=['R11_EXPECTED_INSTALLATION_MANIFEST_SOURCE_CAPABILITY.json','R11_PARENT_FREEZE_RECEIPT.json','R11_PRIVACY_BOUNDARY_SOURCE_GATE.json','R11_NEGATIVE_CONTROL_SOURCE_GATE.json','R11_RUNTIME_MODULE_SELF_TEST.json','R11_SOURCE_GATE_REPORT.json','R11_PREDECESSOR_REGRESSION_REPORT.json'];
+const childArtifacts=childNames.map(name=>({name,sha256:hashFile(`artifacts/resample-runtime-01-r11/source-bake/${name}`)}));
+const installed=requirements.installedMandatory.map(g=>({id:g.id,requirement:g.requirement,status:'PENDING',reason:'requires-R10-final-production-release-and-packaged-Windows-installed-runtime-execution'}));
+const receipt=seal({schemaVersion:1,schemaId:'tdt.resample-runtime.r11.source-harness.v1',patchId:'TDT-RESAMPLE-RUNTIME-01-R11',state:SOURCE_STATE,counts:{PASS:148,PENDING:228,DEFERRED:0,SKIPPED:0,FAIL:0},sourcePass:148,installedPass:0,pending:228,deferred:0,skipped:0,fail:0,sourceGates:gate.gates,installedGates:installed,r10FinalReleaseReceiptPresent:false,runtimeAdmissionTokenIssued:false,quarantined:false,productionPointerMutated:false,pointerRawSha256:hashFile('artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json'),privacyViolations:0,networkTelemetryCount:0,specSha256:hashFile('specs/TDT-RESAMPLE-RUNTIME-01-R11_INSTALLED_RUNTIME_ATTESTATION_STARTUP_ARTIFACT_IDENTITY_REVALIDATION_POST_RELEASE_CANARY_DRIFT_DETECTION_CRASH_DEVICE_LOSS_QUARANTINE_AUTOMATIC_ROLLBACK_RECOMMENDATION_SEAL_SPEC.md'),childArtifacts});
+sourceArtifact('TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_RECEIPT.json',receipt);
+sourceArtifact('TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_FINAL_RECEIPT.json',receipt);
+console.log('TDT-RESAMPLE-RUNTIME-01-R11 148 SOURCE PASS / 228 INSTALLED PENDING / 0 FAIL');

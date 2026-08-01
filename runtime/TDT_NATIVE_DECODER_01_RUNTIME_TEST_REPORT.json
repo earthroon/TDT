@@ -1,0 +1,910 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-NATIVE-DECODER-01",
+  "scope": "SOURCE_RUNTIME_POLICY",
+  "passed": 150,
+  "total": 150,
+  "failed": [],
+  "tests": [
+    {
+      "id": "ND01-T001",
+      "name": "synthetic PE valid",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T002",
+      "name": "synthetic PE x64",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T003",
+      "name": "synthetic PE executable",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T004",
+      "name": "synthetic PE dll",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T005",
+      "name": "synthetic attestation pass",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T006",
+      "name": "synthetic state attested",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T007",
+      "name": "synthetic ABI",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T008",
+      "name": "synthetic digest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T009",
+      "name": "PE machine parse 332",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T010",
+      "name": "PE machine parse 43620",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T011",
+      "name": "PE machine parse 0",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T012",
+      "name": "short PE reject 0",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T013",
+      "name": "short PE reject 1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T014",
+      "name": "short PE reject 2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T015",
+      "name": "short PE reject 31",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T016",
+      "name": "bad MZ reject",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T017",
+      "name": "bad PE reject",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T018",
+      "name": "source audit canonicalPresent",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T019",
+      "name": "source audit releaseAddonCount",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T020",
+      "name": "source audit debugAddonCount",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T021",
+      "name": "source audit exactU16Source",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T022",
+      "name": "source audit metadataSource",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T023",
+      "name": "source audit limitsSource",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T024",
+      "name": "source audit canonicalLoader",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T025",
+      "name": "source audit pathDecodeRendererExposed",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T026",
+      "name": "source audit registryAttestationGate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T027",
+      "name": "source audit packageExactAddon",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T028",
+      "name": "root NAPI CLI exact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T029",
+      "name": "nested NAPI CLI removed",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T030",
+      "name": "rust token dadum-native-decoder-abi-v1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T031",
+      "name": "rust token rgba8unorm-u8-v1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T032",
+      "name": "rust token rgba16le-unorm-u16-v1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T033",
+      "name": "rust token sample.to_le_bytes()",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T034",
+      "name": "rust token parse_png_metadata",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T035",
+      "name": "rust token parse_jpeg_metadata",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T036",
+      "name": "rust token parse_webp_metadata",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T037",
+      "name": "rust token ZlibDecoder",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T038",
+      "name": "rust token iCCP",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T039",
+      "name": "rust token pHYs",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T040",
+      "name": "rust token ICC_PROFILE",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T041",
+      "name": "rust token ICCP",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T042",
+      "name": "rust token EXIF",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T043",
+      "name": "rust token XMP ",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T044",
+      "name": "rust token max_input_bytes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T045",
+      "name": "rust token max_pixels",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T046",
+      "name": "rust token max_metadata_bytes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T047",
+      "name": "rust token checked_mul",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T048",
+      "name": "rust token E_NATIVE_INPUT_TOO_LARGE",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T049",
+      "name": "rust token E_NATIVE_PIXEL_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T050",
+      "name": "rust token E_NATIVE_FORMAT_UNKNOWN",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T051",
+      "name": "rust token abi_descriptor",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T052",
+      "name": "rust token self_test",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T053",
+      "name": "rust token decode_buffer",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T054",
+      "name": "rust token decode_path",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T055",
+      "name": "rust token embedded-icc",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T056",
+      "name": "rust token unmanaged-source",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T057",
+      "name": "rust forbidden half::f16",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T058",
+      "name": "rust forbidden f16::from_f32",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T059",
+      "name": "rust forbidden rgba16float",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T060",
+      "name": "rust forbidden ImageFormat::Avif",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T061",
+      "name": "rust forbidden ImageFormat::Gif",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T062",
+      "name": "rust forbidden ImageFormat::Bmp",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T063",
+      "name": "rust forbidden ImageFormat::Tiff",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T064",
+      "name": "loader token decoder_rs.win32-x64-msvc.node",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T065",
+      "name": "loader token E_NATIVE_ADDON_ARCH_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T066",
+      "name": "loader token E_NATIVE_ADDON_MISSING",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T067",
+      "name": "loader token E_NATIVE_ADDON_LOAD_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T068",
+      "name": "loader token REQUIRED_RAW_EXPORTS",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T069",
+      "name": "loader token artifactSha256",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T070",
+      "name": "loader token selfTestVerified",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T071",
+      "name": "loader token abiVersion",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T072",
+      "name": "loader token decode_buffer",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T073",
+      "name": "loader token decodePath",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T074",
+      "name": "loader forbidden findFirstNodeBinary",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T075",
+      "name": "loader forbidden target/debug",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T076",
+      "name": "loader forbidden target/release",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T077",
+      "name": "loader forbidden dist/*.node",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T078",
+      "name": "loader forbidden decode_path ||",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T079",
+      "name": "loader forbidden dadum-native-decoder-win32",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T080",
+      "name": "electron token createNativeDecoderAttestation",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T081",
+      "name": "electron token publicNativeDecoderAttestation",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T082",
+      "name": "electron token getNativeDecoderAttestation",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T083",
+      "name": "electron token E_NATIVE_DECODER_NOT_ATTESTED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T084",
+      "name": "electron token sampleEncoding",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T085",
+      "name": "electron token rgba16le-unorm-u16-v1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T086",
+      "name": "electron forbidden dadum:native-decode-path",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T087",
+      "name": "electron forbidden invokeNativeDecodePath",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T088",
+      "name": "preload path API absent",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T089",
+      "name": "preload status",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T090",
+      "name": "preload buffer",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T091",
+      "name": "registry token await nativeHost.status()",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T092",
+      "name": "registry token status.attestationVerified === true",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T093",
+      "name": "registry token status.abiVersion === 'dadum-native-decoder-abi-v1'",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T094",
+      "name": "registry token artifactSha256: String(status.artifactSha256)",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T095",
+      "name": "registry token attestationProtocol: status.attestationProtocol",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T096",
+      "name": "registry native excludes avif",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T097",
+      "name": "registry native excludes gif",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T098",
+      "name": "registry native excludes bmp",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T099",
+      "name": "registry native excludes tiff",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T100",
+      "name": "canonical root CLI invocation",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T101",
+      "name": "package exact addon",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T102",
+      "name": "asar unpack exact addon",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T103",
+      "name": "stable E_NATIVE_TOOLCHAIN_PROFILE_MISSING",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T104",
+      "name": "stable E_NATIVE_RUST_TOOLCHAIN_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T105",
+      "name": "stable E_NATIVE_NAPI_CLI_IDENTITY_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T106",
+      "name": "stable E_NATIVE_CARGO_LOCK_MUTATED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T107",
+      "name": "stable E_NATIVE_NPM_LOCK_MUTATED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T108",
+      "name": "stable E_NATIVE_BUILD_A_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T109",
+      "name": "stable E_NATIVE_BUILD_B_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T110",
+      "name": "stable E_NATIVE_BUILD_NONDETERMINISTIC",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T111",
+      "name": "stable E_NATIVE_ADDON_MISSING",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T112",
+      "name": "stable E_NATIVE_ADDON_MULTIPLE",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T113",
+      "name": "stable E_NATIVE_ADDON_UNEXPECTED_NAME",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T114",
+      "name": "stable E_NATIVE_ADDON_ARCH_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T115",
+      "name": "stable E_NATIVE_ADDON_DEBUG_BUILD",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T116",
+      "name": "stable E_NATIVE_ADDON_SHA_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T117",
+      "name": "stable E_NATIVE_ADDON_IMPORT_POLICY_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T118",
+      "name": "stable E_NATIVE_ADDON_LOAD_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T119",
+      "name": "stable E_NATIVE_ABI_EXPORT_MISSING",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T120",
+      "name": "stable E_NATIVE_ABI_VERSION_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T121",
+      "name": "stable E_NATIVE_NAPI_FEATURE_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T122",
+      "name": "stable E_NATIVE_SELF_TEST_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T123",
+      "name": "stable E_NATIVE_ATTESTATION_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T124",
+      "name": "stable E_NATIVE_INPUT_EMPTY",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T125",
+      "name": "stable E_NATIVE_INPUT_TOO_LARGE",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T126",
+      "name": "stable E_NATIVE_FORMAT_UNKNOWN",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T127",
+      "name": "stable E_NATIVE_FORMAT_HINT_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T128",
+      "name": "stable E_NATIVE_DIMENSION_LIMIT",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T129",
+      "name": "stable E_NATIVE_PIXEL_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T130",
+      "name": "stable E_NATIVE_METADATA_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T131",
+      "name": "stable E_NATIVE_ANIMATION_UNSUPPORTED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T132",
+      "name": "stable E_NATIVE_DECODE_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T133",
+      "name": "stable E_NATIVE_OUTPUT_SCHEMA_INVALID",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T134",
+      "name": "stable E_NATIVE_OUTPUT_LENGTH_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T135",
+      "name": "stable E_NATIVE_OUTPUT_STORAGE_UNSUPPORTED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T136",
+      "name": "stable E_NATIVE_OUTPUT_DIGEST_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T137",
+      "name": "stable E_NATIVE_PNG16_EXACTNESS_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T138",
+      "name": "stable E_NATIVE_HIDDEN_RGB_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T139",
+      "name": "stable E_NATIVE_METADATA_PARSE_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T140",
+      "name": "stable E_NATIVE_DECODER_UNAVAILABLE",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T141",
+      "name": "stable E_NATIVE_DECODER_NOT_ATTESTED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T142",
+      "name": "stable E_NATIVE_DECODER_FALLBACK_FORBIDDEN",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T143",
+      "name": "stable E_NATIVE_DECODE_TIMEOUT",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T144",
+      "name": "stable E_NATIVE_DECODE_STALE_RESULT",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T145",
+      "name": "stable E_NATIVE_PATH_API_FORBIDDEN",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T146",
+      "name": "stable E_NATIVE_PACKAGE_CONTENT_MISMATCH",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T147",
+      "name": "stable E_NATIVE_PACKAGED_EXECUTION_FAILED",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T148",
+      "name": "surface chain rgba8unorm-u8-v1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T149",
+      "name": "surface chain rgba16le-unorm-u16-v1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "ND01-T150",
+      "name": "ABI closure invariant 150",
+      "ok": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "tdt-export-worker-07-independent-color-validation-report-v1",
+  "generatedAt": "2026-07-24T17:11:04.827Z",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "patchId": "TDT-EXPORT-WORKER-07",
+  "promotionEligible": false,
+  "independentPsdDecoderExecuted": false,
+  "independentCmykPixelValidationExecuted": false,
+  "sourceProfileDigestVerifiedAtRuntimeContract": true,
+  "destinationProfileDigestVerifiedAtRuntimeContract": true,
+  "workerPsdStructureVerifierExecuted": true,
+  "rgb8AndRgb16StructureSmokePassed": true,
+  "colorRoundTripVerified": false,
+  "hiddenRgbIndependentRoundTripVerified": false
+}

@@ -1,0 +1,16 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-10",
+  "required_tokens": [
+    "srgbToLinear1",
+    "oklabLFromGraySrgb",
+    "remapSplitLumaToOkLab",
+    "migrateBlendIfStateLumaV1ToOkLabV2",
+    "BLENDIF_METRIC_SPACE_LUMA_V1",
+    "BLENDIF_METRIC_SPACE_OKLAB_V2",
+    "TDT-BLENDIF-WGPU-10"
+  ],
+  "forbidden_artifacts": [
+    "scripts/apply-blendif-wgpu-10"
+  ],
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_10_PRESET_MIGRATION_IDEMPOTENT"
+}

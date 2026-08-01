@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "mirror-fetch.schema.json",
+  "type": "object",
+  "required": [
+    "sourceKind",
+    "objectGeneration",
+    "observedByteLength",
+    "observedSha256",
+    "fetchReceiptSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

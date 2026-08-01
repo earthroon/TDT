@@ -1,0 +1,6 @@
+import fs from 'node:fs';import path from 'node:path';import {RUN_ROOT,ensureDir,runId,check,atomicJson} from './lib.mjs';
+export function lockPath(){return path.join(RUN_ROOT,'.r10-global-promotion.lock');}
+export function acquireLock(){ensureDir(RUN_ROOT);const p=lockPath();let fd;try{fd=fs.openSync(p,'wx');}catch(e){throw Object.assign(new Error('promotion lock held'),{code:'E_R10_PROMOTION_LOCK_HELD',detail:p});}const receipt={schemaVersion:1,runId:runId(),pid:process.pid,createdAt:new Date().toISOString(),staleAutoDeleteAllowed:false,scope:'dadum.export.production-pointer'};fs.writeFileSync(fd,JSON.stringify(receipt,null,2)+'\n');fs.fsyncSync(fd);fs.closeSync(fd);return receipt;}
+export function assertLock(){const p=lockPath();check(fs.existsSync(p),'E_R10_PROMOTION_LOCK_HELD','promotion lock missing');const x=JSON.parse(fs.readFileSync(p,'utf8'));check(x.runId===runId(),'E_R10_PROMOTION_LOCK_HELD','lock owner mismatch');return x;}
+export function releaseLock(){assertLock();fs.unlinkSync(lockPath());return true;}
+export function recoverLock(){throw Object.assign(new Error('automatic stale lock deletion forbidden; create recovery receipt manually'),{code:'E_R10_PROMOTION_LOCK_RECOVERY_REQUIRED'});}

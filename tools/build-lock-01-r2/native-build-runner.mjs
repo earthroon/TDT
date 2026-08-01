@@ -1,0 +1,3 @@
+import {fail} from './contract.mjs'; import {seal} from './lib.mjs'; import {compareNativeArtifacts} from './native-toolchain-manifest.mjs';
+export function validateNativeBuildReceipt(receipt){for(const k of ['nativeAddonSha256','wasmBinarySha256','wasmGlueSha256','toolchainDigest'])if(!receipt?.[k])fail('E_BUILD_LOCK_R2_NATIVE_BUILD_FAILED','native build receipt missing',{key:k});return seal({schemaVersion:1,receiptKind:'build-lock-r2-native-build',...receipt});}
+export function compareNativeBuildReceipts(a,b){compareNativeArtifacts(a,b);if(a.toolchainDigest!==b.toolchainDigest)fail('E_BUILD_LOCK_R2_TOOLCHAIN_DRIFT','native build toolchain diverged');return true;}

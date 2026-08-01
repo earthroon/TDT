@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "status": "PASS",
+  "packageJsonBefore": "827678020310b13143dccaaca09ee7c625eb0d0775e4f45e5e45c23eff816e4c",
+  "packageJsonAfter": "827678020310b13143dccaaca09ee7c625eb0d0775e4f45e5e45c23eff816e4c",
+  "packageLockBefore": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "packageLockAfter": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "sourceTreeBefore": "a0be27a1f80d33fd741c16e171d4a52d2cbd1961c3d0519740b5fe59220994ce",
+  "sourceTreeAfter": "a0be27a1f80d33fd741c16e171d4a52d2cbd1961c3d0519740b5fe59220994ce",
+  "packageJsonMutationZero": true,
+  "packageLockMutationZero": true,
+  "sourceMutationZero": true,
+  "selfDigest": "6fd23aaf7a8db78118c36a8742f6134c748f076a70ed7a55e7ec127281f2d745"
+}

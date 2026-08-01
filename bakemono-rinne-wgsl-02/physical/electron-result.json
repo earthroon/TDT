@@ -1,0 +1,7 @@
+{
+  "status": "PENDING",
+  "reason": "ELECTRON_DEPENDENCY_UNAVAILABLE",
+  "physicalGateCount": 48,
+  "passCount": 0,
+  "pendingCount": 48
+}

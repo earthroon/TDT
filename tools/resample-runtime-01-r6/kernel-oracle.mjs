@@ -1,0 +1,3 @@
+import {EWA_R6_KERNEL_CONTRACT} from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_kernel_contract_v4.mjs';
+export function kernelWeight(q,params={}){const d=EWA_R6_KERNEL_CONTRACT.kernel.defaults;const s=Number(params.kernelSharpness??d.kernelSharpness),t=Number(params.kernelTaperExponent??d.kernelTaperExponent);if(!Number.isFinite(q)||q<0||q>1)return 0;const w=Math.exp(-s*q)*Math.pow(Math.max(0,1-q),t);return Number.isFinite(w)&&w>0?w:0;}
+export function normalizedSamples(values,qs,params={}){let sum=0,acc=0;for(let i=0;i<values.length;i++){const w=kernelWeight(qs[i],params);sum+=w;acc+=values[i]*w;}return sum>1e-15?acc/sum:values[0];}

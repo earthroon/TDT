@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl-01.implementation-manifest.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-01",
+  "parentBundle": "64_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R3_EXPLICIT_PIPELINE_REBUILD_SINGLE_FLIGHT_SOURCE_BAKED_AWAITING_EXTERNAL_BUILD_AND_THREE_CYCLE_PHYSICAL_GPU.zip",
+  "parentBundleSha256": "fce5bfa56823d223a36faecedcf2b552b82a4452ecb599b6ae894a92ada76d50",
+  "fileCount": 18,
+  "files": [
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_legacy_formula_inventory.mjs",
+      "byteLength": 6796,
+      "sha256": "f5ca825d427cf4276e693871fbd3eddd7a8241b01aeff0e5fd686c5350a5de5f"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_formula_contract.mjs",
+      "byteLength": 5758,
+      "sha256": "5137b7e149e0f08e6a1a4a3d2c6be30f94c920c8343425a848d66c752b09fd02"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_color_contract.mjs",
+      "byteLength": 2616,
+      "sha256": "f1aa22dea5aae1dc04bac5dce28212c08c6e356b69367839ba70a5560ccf67d2"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_scalar_profiles.mjs",
+      "byteLength": 3527,
+      "sha256": "1c340e0a8009691110b2363e3c1149bc748780f83af7047661f067b784f0cd24"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_tensor_admission.mjs",
+      "byteLength": 6013,
+      "sha256": "3f442a09ff9ac7593b025c56e94706adc10e5fc4bb49722c9a06652e251480e8"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_phase_contract.mjs",
+      "byteLength": 2227,
+      "sha256": "3b0c927de0dc7f5b572536fd90fabf13ac5b68e090f7ec6d039273bd62c82ac2"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_contract_receipt.mjs",
+      "byteLength": 4254,
+      "sha256": "7b2c54452dd39d40ad102f46e819b12f09ba1de39d0b16f42ab8a59d0eeab285"
+    },
+    {
+      "rel": "app/src/runtime/effects/bakemono-rinne/bakemono-rinne-types.ts",
+      "byteLength": 2494,
+      "sha256": "18a12b22296c1bc5b979355fad1a269cb3b4e82a7bb8650ad366581749980e40"
+    },
+    {
+      "rel": "app/src/runtime/effects/bakemono-rinne/generated-bakemono-rinne-formula-inventory.json",
+      "byteLength": 5699,
+      "sha256": "eae8809f207d73a58d0ff621ea92f77e312517b563de541749cadb41194a3733"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-01/verify-source.mjs",
+      "byteLength": 36273,
+      "sha256": "84761a389eacfd5141d83588c04b3d366cf161e6acec5bb2d6df3bee5e18c8df"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-01/verify-formula-oracle.mjs",
+      "byteLength": 4955,
+      "sha256": "2ca7bdba2f646b690f078cf58463afae45e0a40e1de018e3f1931c8b85084bdd"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-01/verify-tensor-negative-controls.mjs",
+      "byteLength": 6238,
+      "sha256": "b28a7edae9c190e7c0b77d26925e904175dd480a08394376fd54d051a4eafdc4"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-01/source-gate-catalog.json",
+      "byteLength": 16473,
+      "sha256": "443190627efa7ac5e8bec63ed5ce770845a8a344fec9bc5a7bbe743720176e49"
+    },
+    {
+      "rel": "specs/TDT-BAKEMONO-RINNE-WGSL-01_LEGACY_FORMULA_COLOR_SCALAR_R1C_TENSOR_PHASE_AUTHORITY_SEAL_SPEC.md",
+      "byteLength": 57772,
+      "sha256": "f0cd3c4cae942f4e7891adf0373129b604c6a606742a75b84319c402cec385c3"
+    },
+    {
+      "rel": "specs/TDT-BAKEMONO-RINNE-WGSL-01_LEGACY_FORMULA_COLOR_SCALAR_R1C_TENSOR_PHASE_AUTHORITY_SEAL_SPEC.md.sha256",
+      "byteLength": 171,
+      "sha256": "b508410895030fd637a03e36567857579acc3d9e4c02062ed486c7aa63616c63"
+    },
+    {
+      "rel": "README_TDT_BAKEMONO_RINNE_WGSL_01_APPLIED.md",
+      "byteLength": 1067,
+      "sha256": "f6d47c8d89ec6cdc6d6f1374cb8996d4486f1011615d30615b30b83f7605af72"
+    },
+    {
+      "rel": "patches/TDT_BAKEMONO_RINNE_WGSL_01_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 3919,
+      "sha256": "64d5470957fcb8de82dec82504e141777b18628ffd2aa445d64076516de6357f"
+    },
+    {
+      "rel": "package.json",
+      "byteLength": 48904,
+      "sha256": "1b5765df90670b39821b2ccbdf20c356444d2a6c42c819fb89d606190bf65f98"
+    }
+  ],
+  "selfSha256": "bffcf30f2a9efe623fd0b961e8d8c8fbbaf013e6de3777ba2715a9594d2c31dd"
+}

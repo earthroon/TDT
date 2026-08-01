@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R1",
+  "revisionId": "TDT-RUNTIME-SSOT-01-R1-R4",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "eee360738e92f72a44043680",
+  "authority": {
+    "viteEntry": "/src/main.ts",
+    "piniaSerializableStateOnly": true,
+    "runtimeServiceIsolation": true,
+    "globalRegistryPolicy": "inventory-only",
+    "globalWriteAdmission": "record.declaredGlobalWrites-only",
+    "asyncGlobalIdentityPolicy": "reserve-synchronously-before-async-activation",
+    "legacySourceIncludedInBuildDigest": true,
+    "sourceTraversalOrder": "deterministic-utf16-code-unit"
+  },
+  "counts": {
+    "legacyRootScripts": 50,
+    "legacyGlobalInventory": 1994,
+    "runtimeSourceRecords": 1211,
+    "runtimeModules": 13,
+    "runtimeServices": 12,
+    "receiptParityRuns": 100,
+    "typescriptSyntaxUnits": 48,
+    "stableErrorCodesReferenced": 29,
+    "stableErrorCodesDeclared": 29
+  },
+  "repairedOwnership": {
+    "observedModuleId": "dadum.legacy.patches-icc_default_loader.js",
+    "observedFalseUndeclaredGlobal": "icmsLittle",
+    "actualOwnerModuleId": "dadum.legacy.main.js",
+    "actualOwnerDeclaresGlobal": true,
+    "falseOwnerDeclaresGlobal": false,
+    "publicationModeBefore": "after-dynamic-import-resolution",
+    "publicationModeAfter": "synchronous-shell-reservation-then-object-mutation"
+  },
+  "digests": {
+    "sourceGraphSha256": "00b1a9d5daa351cee5d8063a62d58b11f617451aaceefae5e4310d9dcd660dfc",
+    "legacyManifestSha256": "c6dc5b5ed9d483491e6ea6d97477a213aa1bc2f11564db6e419180649feb35ef",
+    "runtimePlanSha256": "66ca69474f05b7e58183befa6bf7e2936d7a00f264f0516524420c269f78f32a",
+    "servicePlanSha256": "4b63dde751b530af9ff4b1b0525ead2676fe78dd9a1d672b98e76cb62903518f",
+    "runtimeManifestSelfSha256": "914fb5905840f4eaf3d4e4795a40b659b3e280ae23173d0b9847c6b1a52e7a77",
+    "legacyMainSha256": "a8d39eb1219550c499c0c18e0d26fcd7de02b64effd7b716a76834d9e22e1508",
+    "asyncReservationGateSha256": "f5a4ef39e9919d7159f28d9e1fa769cefada2c54f4170c46edf5cec5f6eda46f",
+    "runtimeManifestGeneratorSha256": "4b904f77caf4254b436b54738f7aa8c677ba9cb80a6565716b44ee04c366a1bc",
+    "runtimeManifestLibrarySha256": "880549fffe090ec67f0c75d3d2c0d87a9e2c40ee76b0bf323eef5d864980c4d6",
+    "packageJsonSha256": "e2ba534f14f64e05c9c05f43f3c0eb23f3bd2933da7e551c859132ebfc44f8ce",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "appliedReadmeSha256": "d466e2b927fa1c69abf2ee7aaac51bb24a8fe7de045570309d814aafbea7014e",
+    "patchDiffSha256": "eb669d9d11eed5df0a45133e1b97d076433fe9445d0dd679e83a427d983d4519",
+    "verifyReportSha256": "6485e681ad1c4bda57e472a50940914202f6bc7b3f409bf30404f60955bf2bb6",
+    "vueTscAttemptSha256": "5c0db149098600884755052733adeaf74448883e76f1e3d117645e57c9ca1fcf"
+  },
+  "receiptParityDigest": "ed8c2aec1a1658686c118207b34cfa61c23f579ad12b0dee224198c9631dd83c",
+  "gates": [
+    {
+      "id": "GATE-R1-01",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-02",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-06",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-07",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-08",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-11",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R3-GLOBAL-OWNERSHIP",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R4-ASYNC-GLOBAL-RESERVATION",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R2-DIAG",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-15",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-17",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-20",
+      "result": "PASS",
+      "runs": 100,
+      "digest": "ed8c2aec1a1658686c118207b34cfa61c23f579ad12b0dee224198c9631dd83c"
+    },
+    {
+      "id": "GATE-R1-TS-PARSE",
+      "result": "PASS",
+      "units": 48
+    },
+    {
+      "id": "GATE-R1-ERROR-CODE",
+      "result": "PASS",
+      "referenced": 29,
+      "declared": 29
+    },
+    {
+      "id": "GATE-R1-LOCK",
+      "result": "BLOCKED",
+      "details": {
+        "consistent": false,
+        "missing": [
+          {
+            "name": "pinia",
+            "expected": "3.0.1",
+            "actual": null
+          },
+          {
+            "name": "vue",
+            "expected": "3.5.40",
+            "actual": null
+          },
+          {
+            "name": "@napi-rs/cli",
+            "expected": "^2.18.4",
+            "actual": null
+          },
+          {
+            "name": "@vitejs/plugin-vue",
+            "expected": "6.0.7",
+            "actual": null
+          },
+          {
+            "name": "typescript",
+            "expected": "5.9.3",
+            "actual": null
+          },
+          {
+            "name": "vite",
+            "expected": "8.1.5",
+            "actual": null
+          },
+          {
+            "name": "vue-tsc",
+            "expected": "3.2.2",
+            "actual": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "GATE-R1-VUE-TSC",
+      "result": "BLOCKED",
+      "exitCode": 127
+    },
+    {
+      "id": "GATE-R1-VITE-BUILD",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-R1-ELECTRON-SMOKE",
+      "result": "NOT_RUN"
+    }
+  ],
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R4_ASYNC_GLOBAL_RESERVATION_TEMPORAL_OWNERSHIP_LEGACY_SOURCE_DIGEST_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "0aecd4472efb30a8a2b5936993c484a5336f587c4f557134d5a93ff2f20e5b02"
+}

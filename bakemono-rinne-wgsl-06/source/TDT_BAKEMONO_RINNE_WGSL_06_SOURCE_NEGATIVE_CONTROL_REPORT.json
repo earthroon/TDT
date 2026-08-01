@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr06.source-negative-controls.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-06",
+  "status": "PASS",
+  "mutantCount": 72,
+  "detectedCount": 72,
+  "rows": [
+    {
+      "id": "BKR06-N-001",
+      "name": "caller field qmap rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-002",
+      "name": "caller field qmapTexture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-003",
+      "name": "caller field qmapTex rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-004",
+      "name": "caller field scalar rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-005",
+      "name": "caller field scalarTexture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-006",
+      "name": "caller field alphaDepth rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-007",
+      "name": "caller field alphaDepthTexture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-008",
+      "name": "caller field highlight rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-009",
+      "name": "caller field highlightTexture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-010",
+      "name": "caller field maskEdge rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-011",
+      "name": "caller field edgeTexture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-012",
+      "name": "caller field legacyDeltaETexture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-013",
+      "name": "caller field retainCandidate rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CALLER_TEXTURE_FORBIDDEN",
+        "actual": "E_BKR06_CALLER_TEXTURE_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-014",
+      "name": "legacy deltaE final rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_LEGACY_DELTAE_FINAL_FORBIDDEN",
+        "actual": "E_BKR06_LEGACY_DELTAE_FINAL_FORBIDDEN"
+      }
+    },
+    {
+      "id": "BKR06-N-015",
+      "name": "shadow mode rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CANONICAL_ABI_MISMATCH",
+        "actual": "E_BKR06_CANONICAL_ABI_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-016",
+      "name": "publication permit required",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CANONICAL_ABI_MISMATCH",
+        "actual": "E_BKR06_CANONICAL_ABI_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-017",
+      "name": "purpose restricted",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CANONICAL_ABI_MISMATCH",
+        "actual": "E_BKR06_CANONICAL_ABI_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-018",
+      "name": "operation id required",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_FIELD_SET_INCOMPLETE",
+        "actual": "E_BKR06_FIELD_SET_INCOMPLETE"
+      }
+    },
+    {
+      "id": "BKR06-N-019",
+      "name": "qmap producer hold",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QMAP_PRODUCER_NOT_PROMOTED",
+        "actual": "E_BKR06_QMAP_PRODUCER_NOT_PROMOTED"
+      }
+    },
+    {
+      "id": "BKR06-N-020",
+      "name": "qmap semantic missing",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QMAP_SEMANTIC_MISSING",
+        "actual": "E_BKR06_QMAP_SEMANTIC_MISSING"
+      }
+    },
+    {
+      "id": "BKR06-N-021",
+      "name": "qmap revision stale",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_SOURCE_REVISION_MISMATCH",
+        "actual": "E_BKR06_SOURCE_REVISION_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-022",
+      "name": "qwave revision stale",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_SOURCE_REVISION_MISMATCH",
+        "actual": "E_BKR06_SOURCE_REVISION_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-023",
+      "name": "qmap epoch stale",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_DEVICE_EPOCH_MISMATCH",
+        "actual": "E_BKR06_DEVICE_EPOCH_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-024",
+      "name": "qwave epoch stale",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_DEVICE_EPOCH_MISMATCH",
+        "actual": "E_BKR06_DEVICE_EPOCH_MISMATCH"
+      }
+    },
+    {
+      "id": "BKR06-N-025",
+      "name": "field alias rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_FIELD_SET_ALIAS",
+        "actual": "E_BKR06_FIELD_SET_ALIAS"
+      }
+    },
+    {
+      "id": "BKR06-N-026",
+      "name": "qmap claim insufficient",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_ANALYSIS_CLAIM_INSUFFICIENT",
+        "actual": "E_BKR06_ANALYSIS_CLAIM_INSUFFICIENT"
+      }
+    },
+    {
+      "id": "BKR06-N-027",
+      "name": "qwave claim insufficient",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_ANALYSIS_CLAIM_INSUFFICIENT",
+        "actual": "E_BKR06_ANALYSIS_CLAIM_INSUFFICIENT"
+      }
+    },
+    {
+      "id": "BKR06-N-028",
+      "name": "qmap format rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QMAP_FIELD_FORMAT",
+        "actual": "E_BKR06_QMAP_FIELD_FORMAT"
+      }
+    },
+    {
+      "id": "BKR06-N-029",
+      "name": "qwave format rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QWAVE_FIELD_FORMAT",
+        "actual": "E_BKR06_QWAVE_FIELD_FORMAT"
+      }
+    },
+    {
+      "id": "BKR06-N-030",
+      "name": "qmap producer mismatch",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QMAP_FIELD_STALE",
+        "actual": "E_BKR06_QMAP_FIELD_STALE"
+      }
+    },
+    {
+      "id": "BKR06-N-031",
+      "name": "qwave producer mismatch",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QWAVE_FIELD_STALE",
+        "actual": "E_BKR06_QWAVE_FIELD_STALE"
+      }
+    },
+    {
+      "id": "BKR06-N-032",
+      "name": "qmap lifecycle stale",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QMAP_FIELD_STALE",
+        "actual": "E_BKR06_QMAP_FIELD_STALE"
+      }
+    },
+    {
+      "id": "BKR06-N-033",
+      "name": "qwave lifecycle stale",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_QWAVE_FIELD_STALE",
+        "actual": "E_BKR06_QWAVE_FIELD_STALE"
+      }
+    },
+    {
+      "id": "BKR06-N-034",
+      "name": "execution receipt invalid",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_FIELD_RECEIPT_INVALID",
+        "actual": "E_BKR06_FIELD_RECEIPT_INVALID"
+      }
+    },
+    {
+      "id": "BKR06-N-035",
+      "name": "consumer collision detected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR06_CONSUMER_REGISTRATION_COLLISION",
+        "actual": "E_BKR06_CONSUMER_REGISTRATION_COLLISION"
+      }
+    },
+    {
+      "id": "BKR06-N-036",
+      "name": "required source token 1",
+      "status": "PASS",
+      "evidence": {
+        "token": "BKR06_FORBIDDEN_PUBLIC_FIELDS"
+      }
+    },
+    {
+      "id": "BKR06-N-037",
+      "name": "required source token 2",
+      "status": "PASS",
+      "evidence": {
+        "token": "E_BKR06_QMAP_PRODUCER_NOT_PROMOTED"
+      }
+    },
+    {
+      "id": "BKR06-N-038",
+      "name": "required source token 3",
+      "status": "PASS",
+      "evidence": {
+        "token": "E_BKR06_FIELD_SET_ALIAS"
+      }
+    },
+    {
+      "id": "BKR06-N-039",
+      "name": "required source token 4",
+      "status": "PASS",
+      "evidence": {
+        "token": "qmapExecutionReceiptDigest"
+      }
+    },
+    {
+      "id": "BKR06-N-040",
+      "name": "required source token 5",
+      "status": "PASS",
+      "evidence": {
+        "token": "qwaveExecutionReceiptDigest"
+      }
+    },
+    {
+      "id": "BKR06-N-041",
+      "name": "required source token 6",
+      "status": "PASS",
+      "evidence": {
+        "token": "callerSuppliedTextureCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-042",
+      "name": "required source token 7",
+      "status": "PASS",
+      "evidence": {
+        "token": "analysisFieldPinCount:2"
+      }
+    },
+    {
+      "id": "BKR06-N-043",
+      "name": "required source token 8",
+      "status": "PASS",
+      "evidence": {
+        "token": "manualBilinearFieldCount:2"
+      }
+    },
+    {
+      "id": "BKR06-N-044",
+      "name": "required source token 9",
+      "status": "PASS",
+      "evidence": {
+        "token": "legacyMaskTextureCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-045",
+      "name": "required source token 10",
+      "status": "PASS",
+      "evidence": {
+        "token": "legacyDeltaETextureCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-046",
+      "name": "required source token 11",
+      "status": "PASS",
+      "evidence": {
+        "token": "sample_qmap"
+      }
+    },
+    {
+      "id": "BKR06-N-047",
+      "name": "required source token 12",
+      "status": "PASS",
+      "evidence": {
+        "token": "sample_qwave"
+      }
+    },
+    {
+      "id": "BKR06-N-048",
+      "name": "required source token 13",
+      "status": "PASS",
+      "evidence": {
+        "token": "maskHighlightWeight"
+      }
+    },
+    {
+      "id": "BKR06-N-049",
+      "name": "required source token 14",
+      "status": "PASS",
+      "evidence": {
+        "token": "params.scalarGain"
+      }
+    },
+    {
+      "id": "BKR06-N-050",
+      "name": "required source token 15",
+      "status": "PASS",
+      "evidence": {
+        "token": "terminalR1C"
+      }
+    },
+    {
+      "id": "BKR06-N-051",
+      "name": "required source token 16",
+      "status": "PASS",
+      "evidence": {
+        "token": "canonicalFieldSetReceiptDigest"
+      }
+    },
+    {
+      "id": "BKR06-N-052",
+      "name": "required source token 17",
+      "status": "PASS",
+      "evidence": {
+        "token": "qmapFieldGeneration"
+      }
+    },
+    {
+      "id": "BKR06-N-053",
+      "name": "required source token 18",
+      "status": "PASS",
+      "evidence": {
+        "token": "qwaveFieldGeneration"
+      }
+    },
+    {
+      "id": "BKR06-N-054",
+      "name": "required source token 19",
+      "status": "PASS",
+      "evidence": {
+        "token": "bakemonoRinneWgsl06"
+      }
+    },
+    {
+      "id": "BKR06-N-055",
+      "name": "required source token 20",
+      "status": "PASS",
+      "evidence": {
+        "token": "recordBakemonoRinneNativeIntegrationWgsl06"
+      }
+    },
+    {
+      "id": "BKR06-N-056",
+      "name": "required source token 21",
+      "status": "PASS",
+      "evidence": {
+        "token": "createBakemonoRinneAuthorityFieldPipelineFamilyWgsl06"
+      }
+    },
+    {
+      "id": "BKR06-N-057",
+      "name": "required source token 22",
+      "status": "PASS",
+      "evidence": {
+        "token": "pipelineFamilyCount: 4"
+      }
+    },
+    {
+      "id": "BKR06-N-058",
+      "name": "required source token 23",
+      "status": "PASS",
+      "evidence": {
+        "token": "future"
+      }
+    },
+    {
+      "id": "BKR06-N-059",
+      "name": "required source token 24",
+      "status": "PASS",
+      "evidence": {
+        "token": "0.0.0-unbound"
+      }
+    },
+    {
+      "id": "BKR06-N-060",
+      "name": "required source token 25",
+      "status": "PASS",
+      "evidence": {
+        "token": "tdt.analysis.qmap.normalized-response.v1"
+      }
+    },
+    {
+      "id": "BKR06-N-061",
+      "name": "required source token 26",
+      "status": "PASS",
+      "evidence": {
+        "token": "tdt.analysis.qwave.real-delta-k-compat.v1"
+      }
+    },
+    {
+      "id": "BKR06-N-062",
+      "name": "required source token 27",
+      "status": "PASS",
+      "evidence": {
+        "token": "intermediateReadbackCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-063",
+      "name": "required source token 28",
+      "status": "PASS",
+      "evidence": {
+        "token": "queueSubmitCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-064",
+      "name": "required source token 29",
+      "status": "PASS",
+      "evidence": {
+        "token": "uniformAllocationCount:2"
+      }
+    },
+    {
+      "id": "BKR06-N-065",
+      "name": "required source token 30",
+      "status": "PASS",
+      "evidence": {
+        "token": "standaloneUniformBufferCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-066",
+      "name": "required source token 31",
+      "status": "PASS",
+      "evidence": {
+        "token": "postSubmitHookCount:0"
+      }
+    },
+    {
+      "id": "BKR06-N-067",
+      "name": "required source token 32",
+      "status": "PASS",
+      "evidence": {
+        "token": "canonicalFinalTextureClaim:false"
+      }
+    },
+    {
+      "id": "BKR06-N-068",
+      "name": "required source token 33",
+      "status": "PASS",
+      "evidence": {
+        "token": "outputAuthority:BKR06_OUTPUT_AUTHORITY"
+      }
+    },
+    {
+      "id": "BKR06-N-069",
+      "name": "authority marker 69",
+      "status": "PASS",
+      "evidence": {
+        "marker": "receiptDigest"
+      }
+    },
+    {
+      "id": "BKR06-N-070",
+      "name": "authority marker 70",
+      "status": "PASS",
+      "evidence": {
+        "marker": "deviceEpoch"
+      }
+    },
+    {
+      "id": "BKR06-N-071",
+      "name": "authority marker 71",
+      "status": "PASS",
+      "evidence": {
+        "marker": "sourceRevision"
+      }
+    },
+    {
+      "id": "BKR06-N-072",
+      "name": "authority marker 72",
+      "status": "PASS",
+      "evidence": {
+        "marker": "EFFECTIVE_EXECUTION"
+      }
+    }
+  ],
+  "selfSha256": "496aeeca294c53f42d2a93f8b0240807a4615bee3b75543f066f032c4673c657"
+}

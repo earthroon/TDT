@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr05.regression-report.v1",
+  "status": "PASS",
+  "wgsl04SourcePassCount": 224,
+  "wgsl04SourceGateCount": 224,
+  "wgsl04NegativeCount": 56,
+  "wgsl03SourcePassCount": 208,
+  "wgsl03SourceGateCount": 208,
+  "r2r3RequalifiedPassCount": 120,
+  "r2r3RequalifiedGateCount": 120,
+  "activeGraphPassCount": 30,
+  "activeGraphDeferredCount": 10,
+  "activeGraphFailCount": 0,
+  "r2r3Note": "Historical changed-file manifest was regenerated only in isolated regression copy to account for WGSL-05 edits; parent evidence in final tree remains byte-preserved.",
+  "selfSha256": "7e125034b5bcc036accf299942392d2cc7d11d33f483ac0060b74f2cd40ab224"
+}

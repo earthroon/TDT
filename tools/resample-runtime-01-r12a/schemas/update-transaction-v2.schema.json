@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/update-transaction-v2.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "state",
+    "transactionSha256"
+  ],
+  "title": "R12A update-transaction-v2",
+  "type": "object"
+}

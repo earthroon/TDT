@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 5
+  },
+  "receiptKind": "r9a-p1-r1-runtime-self-test",
+  "schemaVersion": 1,
+  "selfSha256": "5b8136ba188739f8847791fdbe550a7a0740296028d597cf683d667f2cbe7d53",
+  "tests": [
+    {
+      "evidence": "74e828315a743f2733dae0af513a522f9ce2e651c5be8d350fa12f2c02a4b452",
+      "id": "closure-compute",
+      "status": "PASS"
+    },
+    {
+      "evidence": "e5bb805218f41e480086adf15750014cf3719989a97f0fe54bdccb2d7601ac5c",
+      "id": "sidecar-read",
+      "status": "PASS"
+    },
+    {
+      "evidence": "ad0e068f0fa2321925b68bbd39084dfd2f4e09efdefe80d4e542705358d39287",
+      "id": "closure-bind",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "bound": {
+          "partitionId": "test",
+          "rendererPid": 3,
+          "webContentsId": 2,
+          "windowId": 1
+        },
+        "generation": 1,
+        "mode": "packaged-qualification",
+        "openGrantCount": 0,
+        "openSaveSessions": 0,
+        "qualificationOnly": true,
+        "runId": "1111111111111111111111111111111111111111111111111111111111111111"
+      },
+      "id": "qualification-authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "2f4512e03caba91bddd9ee50779adb990d2cbbf02f079d6cd2568289b2450c45",
+      "id": "artifact-publisher-r1-manifest",
+      "status": "PASS"
+    }
+  ]
+}

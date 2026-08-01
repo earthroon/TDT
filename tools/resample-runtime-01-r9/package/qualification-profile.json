@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+  "platform": "win32",
+  "arch": "x64",
+  "backend": "D3D12",
+  "packagedElectronRequired": true,
+  "fallbackAllowed": false,
+  "discreteAdapterRequired": true,
+  "timestampQueryRequired": true,
+  "minimumWarmupIterations": 128,
+  "minimumPairedSamples": 256,
+  "residencyWarmupIterations": 32,
+  "residencyMeasuredIterations": 256,
+  "performanceThresholds": {
+    "R4MedianRatioMax": 0.8,
+    "R6MedianRatioMax": 0.9,
+    "productP95NotAboveReference": true
+  },
+  "memoryWindow": 64,
+  "memorySpreadBytes": 67108864,
+  "memorySpreadFraction": 0.05,
+  "deviceLossCycles": 3
+}

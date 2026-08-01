@@ -1,0 +1,7 @@
+import {sourceArtifact,seal,check} from './lib.mjs';
+import {admitR9APhysical,rejectHistorical,canonicalQualificationMap,assertSameIdentity} from './requalification-authority.mjs';
+const physical=seal({schemaVersion:1,patchId:'TDT-RESAMPLE-RUNTIME-01-R9A',state:'RESAMPLE_RUNTIME_R9A_SINGLE_SUBMIT_VALIDATED_PHYSICAL_GPU_PERFORMANCE_SEALED_AWAITING_R10A',counts:{PASS:500,PENDING:0,DEFERRED:0,SKIPPED:0,FAIL:0},canonicalJobEncoderCount:1,canonicalJobSubmitCount:1,validationDoubleDispatchCount:0,uniformInFlightOverwriteCount:0,buildId:'build-A',packageContentId:'a'.repeat(64),runtimeClosureDigest:'b'.repeat(64)});
+admitR9APhysical(physical);rejectHistorical({patchId:'TDT-RESAMPLE-RUNTIME-01-R9A'});
+const map=canonicalQualificationMap({r8aSourceSha256:'1'.repeat(64),r9aPhysicalSha256:'2'.repeat(64),fullProductSha256:'3'.repeat(64),rebuildSha256:'4'.repeat(64),activeGraphSha256:'5'.repeat(64),javascriptParseSha256:'6'.repeat(64)});check(Object.keys(map).length===6,'E_R10A_QUALIFICATION_SET_DIGEST_MISMATCH','qualification map count');assertSameIdentity([{buildId:'b',packageContentId:'p',runtimeClosureDigest:'r'},{buildId:'b',packageContentId:'p',runtimeClosureDigest:'r'}]);
+sourceArtifact('R10A_REQUALIFICATION_AUTHORITY_REPORT.json',seal({schemaVersion:1,pass:true,currentR8ARequired:true,currentR9APhysicalRequired:true,qualificationMapKeys:Object.keys(map),historicalR9Rejected:true,historicalR10Rejected:true}));
+console.log('R10A requalification authority PASS');

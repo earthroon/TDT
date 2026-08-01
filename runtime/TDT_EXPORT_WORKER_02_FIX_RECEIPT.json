@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-WORKER-02",
+  "title": "Unified Encoder RPC / Timeout Abort Cancel / Crash Restart / Pending Job Closure Seal",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "7ae69d05bf5e825df68983ec",
+  "promotable": false,
+  "workerAuthority": {
+    "bridgeAuthority": "dadum.runtime.encoder-worker-broker-ew02",
+    "rpcProtocolVersion": "dadum-worker-rpc-v1",
+    "controlProtocolVersion": "dadum-worker-control-v1",
+    "workerCount": 3,
+    "jobIdAuthority": "broker-only",
+    "pendingMapAuthority": "broker-only",
+    "queueDiscipline": "per-worker-fifo",
+    "exactlyOnceSettlement": true,
+    "rawLeaseProductApi": false
+  },
+  "counts": {
+    "typescriptSyntaxUnits": 59,
+    "stableErrorCodesReferenced": 79,
+    "stableErrorCodesDeclared": 79,
+    "ew02StaticGates": 24,
+    "receiptParityRuns": 100,
+    "runtimeSmokeRetiredReceipts": 6,
+    "runtimeSmokeRestartCount": 1,
+    "legacyRootScripts": 50
+  },
+  "digests": {
+    "specSha256": "b141693f66c63c081f3da2846552045c5ba910f4a5c75202440bb02b1a0c2bec",
+    "runtimeManifestSelfSha256": "13d6bace4d063f75ecabd8a4f6bc5684f99654ebe0c191ac09eca03b738f8716",
+    "runtimeSourceGraphSha256": "a6059f74b1bc5c4c8a64495ee4f532a67955630cf2e35b80d1dc19d2aa88ac79",
+    "runtimePlanSha256": "3a872adf8b31c730d088873219aec05ce8f55c490346395c8cffde8aa7faa40d",
+    "servicePlanSha256": "cc8a7a7bcb1010b139a2ef0c56fab55a6ea726069718b512fd2de2e6ea0afd33",
+    "workerSourceManifestSha256": "4e029d9934f5837c37fb02d5117751cec93490a217035dd7e1dfddbb9e900c1a",
+    "finalGateLogSha256": "80d077ce7f02dc932920831efe2bbb880a7980741b40bb7d0fc1e816348d5327",
+    "strictTypeScriptLogSha256": "7b469da8e309b0ce0b2143fbc8378656eb845923e525b01fa7c3f794e872bc43",
+    "runtimeSmokeLogSha256": "0b4daa3f41c2289083939b8a5241e2cccdb4da254382cd9a656cdd7402d0fe35",
+    "fullVerifyAttemptLogSha256": "f2c7e7ca35e7334be5c4e5045cc5eaa728b893a6152d7c13c291c289744de946",
+    "pendingClosureReportSha256": "a8bc9a2861de7ae368335826c33e85c4566e3804a95db693d1649c90ce2cd245",
+    "patchDiffSha256": "5eb9fb8b6f82e59e0c6e3edb402455554271a6ea4d606163205ce3387b9ecf8c",
+    "packageJsonSha256": "83ca6b1fa4e440444139691ae8137eef38c1e5460e0bee578a0a628039a75525",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+  },
+  "gates": [
+    {
+      "id": "GATE-R1-INHERITED",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R7-01..15",
+      "result": "PASS",
+      "digest": "c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489"
+    },
+    {
+      "id": "GATE-EW01-01..20",
+      "result": "PASS",
+      "digest": "86306a250391218bef098e1aa616784af2b133389680b19e1b9cd0f345fe1442"
+    },
+    {
+      "id": "GATE-EW02-01..24",
+      "result": "PASS",
+      "digest": "5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb"
+    },
+    {
+      "id": "GATE-EW02-STRICT-TS",
+      "result": "PASS",
+      "scope": "all app/src TypeScript with dependency declaration stubs"
+    },
+    {
+      "id": "GATE-EW02-RUNTIME-SMOKE",
+      "result": "PASS",
+      "coverage": [
+        "FIFO",
+        "queued-cancel",
+        "active-crash",
+        "generation-restart",
+        "queued-resume",
+        "pending-zero"
+      ]
+    },
+    {
+      "id": "GATE-EW02-VITE-BUILD",
+      "result": "BLOCKED",
+      "reason": "vue-tsc unavailable; node_modules not installed",
+      "exitCode": 127
+    },
+    {
+      "id": "GATE-EW02-ELECTRON-WASM-E2E",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-EW02-EMITTED-ASSET-DIGEST",
+      "result": "NOT_RUN",
+      "mode": "source-graph-only"
+    }
+  ],
+  "blockers": [
+    {
+      "code": "BLOCK-EW02-DEPS-001",
+      "reason": "Current environment has no installed vue-tsc/Vite dependency graph."
+    },
+    {
+      "code": "BLOCK-EW02-BUNDLE-001",
+      "reason": "Production emitted Worker JS/WASM artifacts were not generated, so emitted-asset SHA verification is not claimed."
+    },
+    {
+      "code": "BLOCK-EW02-E2E-001",
+      "reason": "Electron and real WebP/PNG16/PSD WASM encode E2E were not run in this container."
+    }
+  ],
+  "marker": "PASS_TDT_EXPORT_WORKER_02_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "b139a0fe420b0a6c4851da13ac6e30dd8c231c9b47ce8879010fae51f7026c52"
+}

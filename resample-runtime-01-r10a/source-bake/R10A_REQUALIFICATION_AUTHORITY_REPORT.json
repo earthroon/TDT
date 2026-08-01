@@ -1,0 +1,17 @@
+{
+  "currentR8ARequired": true,
+  "currentR9APhysicalRequired": true,
+  "historicalR10Rejected": true,
+  "historicalR9Rejected": true,
+  "pass": true,
+  "qualificationMapKeys": [
+    "tdt.resample-runtime.r8a.source",
+    "tdt.resample-runtime.r9a.physical",
+    "tdt.export.full-product",
+    "tdt.build.rebuild",
+    "tdt.active-graph",
+    "tdt.javascript-parse"
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "e770746bd6545fec199879e35544317041818c9fec026650821fc3a4d1b99aad"
+}

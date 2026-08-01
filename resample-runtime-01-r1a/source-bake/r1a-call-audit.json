@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1A",
+  "pass": true,
+  "findings": [
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "line": 320,
+      "head": "{ device, pipes, srcTex, tensorTex, ... })",
+      "kind": "object"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "line": 321,
+      "head": "device, pipes, frameInputs)",
+      "kind": "positional-or-definition"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "line": 323,
+      "head": "...args) {",
+      "kind": "positional-or-definition"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "line": 1400,
+      "head": "{",
+      "kind": "object"
+    },
+    {
+      "relative": "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs",
+      "line": 19,
+      "head": "{",
+      "kind": "object"
+    }
+  ],
+  "active": [
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "line": 320,
+      "head": "{ device, pipes, srcTex, tensorTex, ... })",
+      "kind": "object"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "line": 321,
+      "head": "device, pipes, frameInputs)",
+      "kind": "positional-or-definition"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "line": 323,
+      "head": "...args) {",
+      "kind": "positional-or-definition"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "line": 1400,
+      "head": "{",
+      "kind": "object"
+    }
+  ]
+}

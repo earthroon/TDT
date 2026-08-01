@@ -1,0 +1,2 @@
+FAIL EP02 dependency lock rootExact=false exactDirect=true integrityMissing=0
+exitCode=1

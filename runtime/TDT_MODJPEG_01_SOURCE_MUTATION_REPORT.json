@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-MODJPEG-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "sourceRuntimeManifestDigest": "8926e806306b9cfeef054129abc99a1ec00506df12326559a0afd0505d6d1d8e",
+  "sourceWorkerManifestDigest": "b0419fc269eb79df9e9de9a2386893fb0f311e3ddf26c167b14c12155fe9255b",
+  "artifactAdoptionId": "TDT-MODJPEG-01",
+  "artifactContractId": "dadum.modjpeg-pthread-pool-8-canonical-v1",
+  "workerId": "dadum.worker.encoder.modjpeg-canonical-v1",
+  "codecProtocolVersion": "dadum-modjpeg-canonical-worker-v1",
+  "workerArtifactSetDigest": "1883ff7a565f03ce9c8b2ae6b632fb4030fe08afd325cdfc66c8b1bce86551ff",
+  "canonicalPthreadArtifact": true,
+  "canonicalSingleThread": false,
+  "threadMode": "emscripten-pthread-pool-8-canonical-v1",
+  "pthreadPoolSize": 8,
+  "moduleSha256": "6c951106e5cc2b68b06b8f6290e448a892c2a31da017f3c5946f5fb7903b6166",
+  "wasmSha256": "6f669d33e1d7f47f95ca14c4562bbb55985942f5c43a01521aeb6f01dd2e0a14",
+  "artifactBytesPreserved": true,
+  "selfDigest": "3db68c155194ccddb89226fd29822935ace3ce42e117f98cf671a28c7981a241"
+}

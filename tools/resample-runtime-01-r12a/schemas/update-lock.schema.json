@@ -1,0 +1,13 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/update-lock.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "lockSha256"
+  ],
+  "title": "R12A update-lock",
+  "type": "object"
+}

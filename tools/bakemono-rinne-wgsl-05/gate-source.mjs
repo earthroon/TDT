@@ -1,0 +1,2 @@
+import { spawnSync } from 'node:child_process'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');for(const script of ['run-adoption-unit.mjs','verify-negative-controls.mjs','verify-source.mjs','gate-physical.mjs']){const result=spawnSync(process.execPath,[path.join(root,'tools/bakemono-rinne-wgsl-05',script)],{cwd:root,stdio:'inherit'});if(result.status!==0)process.exit(result.status??1);}console.log('PASS TDT-BAKEMONO-RINNE-WGSL-05 SOURCE_BAKED_AWAITING_PHYSICAL_GPU');

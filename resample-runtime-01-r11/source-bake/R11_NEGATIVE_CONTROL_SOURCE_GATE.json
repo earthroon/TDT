@@ -1,0 +1,22 @@
+{
+  "controls": [
+    {
+      "detected": true,
+      "id": "mutated-installed-file"
+    },
+    {
+      "detected": true,
+      "id": "stale-token"
+    },
+    {
+      "detected": true,
+      "id": "revoked-token"
+    },
+    {
+      "detected": true,
+      "id": "silent-clear"
+    }
+  ],
+  "pass": true,
+  "schemaVersion": 1
+}

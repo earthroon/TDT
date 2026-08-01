@@ -1,0 +1,288 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "SRC-productR4-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-partial",
+      "message": "partial group active-last clamp present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-origin",
+      "message": "tile origin uses phase-aware baseMin",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-barrier",
+      "message": "uniform barrier preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-fallback",
+      "message": "product direct-load fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-partial",
+      "message": "partial group active-last clamp present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-origin",
+      "message": "tile origin uses phase-aware baseMin",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-barrier",
+      "message": "uniform barrier preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-fallback",
+      "message": "product direct-load fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation-schema",
+      "message": "eight-word validation schema",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[0]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[1]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[2]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[3]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[4]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[5]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[6]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[7]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-digest-independence",
+      "message": "product and reference digests differ",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-r4-halo",
+      "message": "reach-4 halo exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-r6-halo",
+      "message": "reach-6 halo exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-weight",
+      "message": "radial weight identity preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-abi",
+      "message": "80-byte v3 ABI preserved",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "schemaVersion": 1
+}

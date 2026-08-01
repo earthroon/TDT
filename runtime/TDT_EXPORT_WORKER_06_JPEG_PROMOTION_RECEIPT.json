@@ -1,0 +1,27 @@
+{
+  "patchId": "TDT-EXPORT-WORKER-06",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "workerId": "dadum.worker.encoder.modjpeg-canonical-v1",
+  "codecProtocolVersion": "dadum-modjpeg-canonical-worker-v1",
+  "workerArtifactSetDigest": "cd0bca5d6c4406497c2f85ce5515a17d9d8e19dc722b38cfb0fd748df0cef395",
+  "artifactVerificationMode": "source-graph-only",
+  "schema": "tdt-export-worker-06-jpeg-promotion-receipt-v1",
+  "sourceAuthorityPromoted": true,
+  "dedicatedOuterWorker": true,
+  "canonicalSingleThread": false,
+  "activeArtifactKind": "inherited-emscripten-pthread-build",
+  "inheritedPthreadPoolSize": 8,
+  "actualModjpegEncodeExecuted": false,
+  "independentDecoderExecuted": false,
+  "lossyMetricExecuted": false,
+  "parentSealsPreserved": true,
+  "blockers": [
+    "single-thread MODJPEG artifact not rebuilt",
+    "Vite production Worker bundle not emitted",
+    "Electron JPEG E2E not executed",
+    "independent JPEG decoder round-trip not executed",
+    "lossy quality metric corpus not executed",
+    "pthread child closure not measured"
+  ]
+}

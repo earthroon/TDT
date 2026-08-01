@@ -1,0 +1,24 @@
+{
+  "coordinateConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "currentProductMathematicalStatus": "REJECTED_SHARED_FRACTIONAL_PHASE_ERROR",
+  "directReferenceStatus": "REJECTED_SHARED_FRACTIONAL_PHASE_ERROR",
+  "filesR4MustVersion": [
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r2.mjs"
+  ],
+  "negativeControlDetected": true,
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "physicalGpuExecutionClaim": false,
+  "productR4Status": "REJECTED_SHARED_FRACTIONAL_PHASE_ERROR",
+  "productR6Status": "REJECTED_SHARED_FRACTIONAL_PHASE_ERROR",
+  "productReferenceParitySufficiency": false,
+  "productionPointerMutated": false,
+  "requiredRepairPatch": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "schemaId": "tdt.ewa.current-product-rejection.r3.v1",
+  "schemaVersion": 1
+}

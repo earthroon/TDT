@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "png8": {
+    "width": 1,
+    "height": 1,
+    "bitDepth": 8,
+    "colorType": 6,
+    "chunkTypes": [
+      "IHDR",
+      "IDAT",
+      "IEND"
+    ],
+    "crcVerified": true
+  },
+  "png16": {
+    "width": 1,
+    "height": 1,
+    "bitDepth": 16,
+    "colorType": 6,
+    "chunkTypes": [
+      "IHDR",
+      "IDAT",
+      "IEND"
+    ],
+    "crcVerified": true
+  },
+  "webp": {
+    "chunkTypes": [
+      "VP8L"
+    ],
+    "vp8l": true,
+    "lossyVp8": false,
+    "animated": false,
+    "riffLengthVerified": true
+  },
+  "badCrcRejected": true,
+  "lossyVp8Rejected": true
+}

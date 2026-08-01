@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1A",
+  "state": "RESAMPLE_RUNTIME_R1A_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "sourceSealSha256": "26ad1b5008a92936f93b5449a27a6e45fb29cb137e3264e7d04fdf8eeff11e49",
+  "changedFileCount": 40,
+  "files": [
+    {
+      "relative": "README_TDT_RESAMPLE_RUNTIME_01_R1A_APPLIED.md",
+      "byteLength": 6482,
+      "sha256": "b32d3cc77174d73015382c38fa2ed94c85014b257a857d9e3fc1810781eb562a"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_gammaProof_webgpu.mjs",
+      "byteLength": 2513,
+      "sha256": "28ae1aef32b395caa1d8956aa6fc7d0e2a126b6ba6599edf4002497f6504cc60"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "byteLength": 13924,
+      "sha256": "b3b3b4c58f535a09ee7898a7f452c1134344555b2d18255f4e7e5bffb8a236f7"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+      "byteLength": 13385,
+      "sha256": "7bcca59dada980af953bf8ac369bbf54f838c4e07eba8103158d4ffc2b489141"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params.mjs",
+      "byteLength": 5022,
+      "sha256": "f4cac2bc78858475877597f4419d18e58c0c49c7905b78357b63a4eae04041dc"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_runtime_receipt.mjs",
+      "byteLength": 850,
+      "sha256": "459cf74225b941eff22381765c80501098367985f72f1595dbc4702d30e39547"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "byteLength": 13784,
+      "sha256": "43f2d3b2b08006ef581ac16992a6ca7cd2c358d37180d0bb58fa6ccd2220592c"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "byteLength": 61866,
+      "sha256": "2eb81ff78d6423d172b6501dc6c4d97325497f4683006ebba9927dba1a2f7f8b"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime_patch.diff",
+      "byteLength": 1420,
+      "sha256": "c5232c0bb190a94d1b88a6b995134092fd00746d150e792e717cfba04c9da6fc"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/adaptive_policy_projection_r1d.wgsl",
+      "byteLength": 1598,
+      "sha256": "3602951807672a520bf045a164abc697e61a63b00fc54afa519384fc4affceec"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_parity_compare_r2.wgsl",
+      "byteLength": 1894,
+      "sha256": "c7fd2b23b9a8cfaf95abc52986cef79759e0f0ecf33430f870d8b92127062bf5"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v1.wgsl",
+      "byteLength": 3433,
+      "sha256": "a5783e1607b030b547a1a83a6ae7fbd0562bbe7fc7a16fb5399ce25c31bf11c8"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v1_legacy.wgsl",
+      "byteLength": 3433,
+      "sha256": "a5783e1607b030b547a1a83a6ae7fbd0562bbe7fc7a16fb5399ce25c31bf11c8"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl",
+      "byteLength": 2511,
+      "sha256": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl",
+      "byteLength": 3638,
+      "sha256": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl",
+      "byteLength": 3638,
+      "sha256": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v2.wgsl",
+      "byteLength": 4892,
+      "sha256": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v2_legacy.wgsl",
+      "byteLength": 4892,
+      "sha256": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v3.wgsl",
+      "byteLength": 3693,
+      "sha256": "c1b8dab861942d59634c0482024ba6056d819027bc8efa293aa1ffbfe6d84641"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl",
+      "byteLength": 3846,
+      "sha256": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl",
+      "byteLength": 3846,
+      "sha256": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_blur_h_r1c.wgsl",
+      "byteLength": 915,
+      "sha256": "3a61bff829b29a8cfee2a6cd034f80c907f9818419a2ff11872f3694827f0dad"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_blur_v_r1c.wgsl",
+      "byteLength": 915,
+      "sha256": "b107acc388179159aa0baf32abba2be445b4d91b34e73d0c40539e785497d038"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_eigen_r1c.wgsl",
+      "byteLength": 1413,
+      "sha256": "c4560743a9d42718e261c2cd2f069289aed6efabd341dc11b89c7c765ff38728"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_gradient_r1c.wgsl",
+      "byteLength": 1660,
+      "sha256": "8684b23a8ce508cdc3f924c33d1aa953d9f7f385caf5946f9abde60a0125d523"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_outer_r1c.wgsl",
+      "byteLength": 707,
+      "sha256": "9f5efaf050770153aff11f8ac75fc23e58be0dd645bf447bfbb77b5db46acab7"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 72456,
+      "sha256": "1f37ae32928690f7dbc58a5db13ae0b0270c5e1e5ec242303a7ab227739caf1d"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106337,
+      "sha256": "ce22aef4ace11103188ced466f13ee23c9d338971989e6747fc5bc004cecfbf9"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 214770,
+      "sha256": "47583b66f2c2840b1828c250c5ca2746361cdf0e1970f797899de728ed4161ff"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 40441,
+      "sha256": "5b2e0d4e94f2a26514103472166f6119936d0f8ad46219f5bea4045928b6f14b"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 23990,
+      "sha256": "fa42abf9f9034fd2405e0c97cc5facc4fba69b5700b57c0e2f2a1b2698ed6a45"
+    },
+    {
+      "relative": "specs/TDT-RESAMPLE-RUNTIME-01-R1A_LEGACY_ABI_PRESERVATION_DELTAK_EWA_EXECUTION_REPAIR_UNIFORM_BARRIER_SHARED_TILE_CORRECTNESS_SPEC.md",
+      "byteLength": 60800,
+      "sha256": "b33830cb530bd22dbd3b2e148b432158d82fa922a4acc19f782e0fb679428581"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 15264,
+      "sha256": "e508ae74241d9bdabca352040b69ac01361fdc87c04ed2fcc7c7f44439f8f969"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/audit-calls.mjs",
+      "byteLength": 1100,
+      "sha256": "2175047070d493ce666fc298f3dc3bdbe4a31e7c5c655c6f3c9eb225cdbf21ca"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/finalize.mjs",
+      "byteLength": 2044,
+      "sha256": "4c7088d926269f6a8a2b2d185d62926cf3c33eb560bf2e9a01900da6661d535e"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/gate.mjs",
+      "byteLength": 1234,
+      "sha256": "a4017361566a413209244a6e3a25aa319949560e85263a68b98e24eea4ff3acc"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/lib.mjs",
+      "byteLength": 1370,
+      "sha256": "27cc51ae7ef8ad99029955a68f39f84e085c956b8cbe76921dcb80fead054a94"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/run.mjs",
+      "byteLength": 305,
+      "sha256": "8a2733bda2e1c5c902139638f9697f4f6014b0411a1768275294356c545d4782"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/runtime-smoke.mjs",
+      "byteLength": 7491,
+      "sha256": "645e1109ebb77cdfdaa587f4935c5891442379e070a4f3bc34c1b16a52a74ecc"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/verify-source-contract.mjs",
+      "byteLength": 7116,
+      "sha256": "875b1ac2b9c639413d07a8257d3718901088e4852cfcd6c577c396480fef3647"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 57,
+    "DEFERRED": 11
+  },
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false
+}

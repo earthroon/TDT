@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "coordinateMismatchCount": 0,
+        "maxOracleError": 5.551115123125783e-16
+      },
+      "id": "ORACLE-01",
+      "message": "R4 model agrees with R3 oracle",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxNegativeDifference": 0.3882438642874789,
+        "negativeControlSeparatedCount": 95
+      },
+      "id": "ORACLE-02",
+      "message": "round-centered negative control remains rejected",
+      "pass": true
+    },
+    {
+      "detail": {
+        "fixtureCount": 102,
+        "negativeControlSeparatedCount": 95
+      },
+      "id": "ORACLE-03",
+      "message": "negative control detection retains broad coverage",
+      "pass": true
+    }
+  ],
+  "coordinateMismatchCount": 0,
+  "fixtureCount": 102,
+  "maxNegativeDifference": 0.3882438642874789,
+  "maxOracleError": 5.551115123125783e-16,
+  "negativeControlSeparatedCount": 95,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "schemaVersion": 1
+}

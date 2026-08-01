@@ -1,0 +1,16 @@
+{
+  "schema": "tdt-export-worker-05-jxl-pthread-closure-v1",
+  "status": "SOURCE_GRAPH_ONLY",
+  "promotionEligible": false,
+  "compiledPoolSize": 4,
+  "requestedThreadRange": [
+    1,
+    4
+  ],
+  "silentClampAllowed": false,
+  "sharedMemoryGatePresent": true,
+  "crossOriginIsolationGatePresent": true,
+  "actualPthreadPoolReadyMeasured": false,
+  "childClosureVerified": false,
+  "childCountAfterDispose": null
+}

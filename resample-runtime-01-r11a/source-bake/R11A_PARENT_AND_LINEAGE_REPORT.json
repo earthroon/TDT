@@ -1,0 +1,16 @@
+{
+  "historicalPassCarryForward": 0,
+  "historicalR11ReceiptCurrent": false,
+  "localActivationPointerMutated": false,
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "parentSourceReceiptSha256": "2fa87a9f3a2c1a36798265d84512cf89932c6aeb2316052a6a049a0793a76d0b",
+  "parentSourceState": "RESAMPLE_RUNTIME_R10A_RELEASE_REQUALIFICATION_HARNESS_SOURCE_SEALED_AWAITING_R9A_PHYSICAL_AND_PRODUCTION_REBUILD",
+  "parentZipSha256": "51db717c12656c0767bdf7d6715e261d273308e99ba1c198a25add9d058d0d21",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "pointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "productionPointerMutated": false,
+  "r10aReleaseCurrent": false,
+  "schemaVersion": 1,
+  "selfSha256": "0f573d699fd007f3cac206cc90ad88043fcf557ef73ab886ad9e8ba97ee3172c"
+}

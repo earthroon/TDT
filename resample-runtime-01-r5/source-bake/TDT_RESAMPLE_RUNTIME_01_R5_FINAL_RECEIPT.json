@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R5",
+  "state": "RESAMPLE_RUNTIME_R5_AXIAL_SUBPIXEL_CONTINUITY_SEALED_AWAITING_R6",
+  "counts": {
+    "PASS": 132,
+    "DEFERRED": 5
+  },
+  "files": [
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_axial_r5.wgsl",
+      "sha256": "2f00744b42416f0730682bdf397bca3fc05fce3d5dc10a2d2e27f32563725bca",
+      "bytes": 1279
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r5.wgsl",
+      "sha256": "7e2bc7b8f1daa181bf6bc13754b664d11a71a8cdb564745d8b7d652c5f333e52",
+      "bytes": 6746
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r5.wgsl",
+      "sha256": "a40bea61442074b0a19bfad3ab96c8a21b436119c41832243e0049601d5c205d",
+      "bytes": 6746
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r5.wgsl",
+      "sha256": "b0aeb90dca2a076d293e2907b91c541000258bb1784a50ce6261ea9e49f68535",
+      "bytes": 8137
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r5.wgsl",
+      "sha256": "8c85b53f78e4880f9ad03264478d184b7bab582cc2586b93fdbc9bcafcf7b6fd",
+      "bytes": 8137
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v4_r5.wgsl",
+      "sha256": "4f8a4574ff9ad5fb0f5eeaad5e687e8d83d1639698f4d90ba4c146568d2bfd5b",
+      "bytes": 5420
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "sha256": "097d8a9cc5fc292df53e7db71e7598d05701d16569d8c978aae298ec852e9708",
+      "bytes": 13745
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "sha256": "92dbd206f747a6cbada1ae6f2b810ebd3cff74a64bd8197a1d21fce29e009b59",
+      "bytes": 16364
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "sha256": "8d99b6b52336a63a6f5a1c52f49c0419ac20c7530c1ed6974982fcf49db8fc8f",
+      "bytes": 14264
+    }
+  ],
+  "productionPointerMutated": false,
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R6"
+}

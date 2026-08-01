@@ -1,0 +1,152 @@
+{
+  "count": 24,
+  "pass": true,
+  "results": [
+    {
+      "actualCode": "E_R10A_R9A_SOURCE_AS_PHYSICAL",
+      "expectedCode": "E_R10A_R9A_SOURCE_AS_PHYSICAL",
+      "name": "R9A source submitted as physical",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_R9_HISTORICAL_RECEIPT_REJECTED",
+      "expectedCode": "E_R10A_R9_HISTORICAL_RECEIPT_REJECTED",
+      "name": "historical R9 submitted",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_R10_HISTORICAL_RECEIPT_REJECTED",
+      "expectedCode": "E_R10A_R10_HISTORICAL_RECEIPT_REJECTED",
+      "name": "historical R10 submitted",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_QUALIFICATION_SET_MIXED_PACKAGE",
+      "expectedCode": "E_R10A_QUALIFICATION_SET_MIXED_PACKAGE",
+      "name": "mixed package identity",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_RUNTIME_CLOSURE_MISMATCH",
+      "expectedCode": "E_R10A_RUNTIME_CLOSURE_MISMATCH",
+      "name": "runtime closure changed",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_GENERATED_WGSL_MISMATCH",
+      "expectedCode": "E_R10A_GENERATED_WGSL_MISMATCH",
+      "name": "WGSL manifest changed",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_ACTIVE_GRAPH_MISMATCH",
+      "expectedCode": "E_R10A_ACTIVE_GRAPH_MISMATCH",
+      "name": "Active Graph changed",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_QUALIFICATION_SET_MIXED_BUILD",
+      "expectedCode": "E_R10A_QUALIFICATION_SET_MIXED_BUILD",
+      "name": "full product build spoof",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_BOOTSTRAP_PREVIOUS_REQUIRED",
+      "expectedCode": "E_R10A_BOOTSTRAP_PREVIOUS_REQUIRED",
+      "name": "bootstrap previous missing",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_PACKAGE_NOT_DISTINCT",
+      "expectedCode": "E_R10A_PACKAGE_NOT_DISTINCT",
+      "name": "same target and previous",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_QUALIFICATION_SET_SUPERSEDED_INPUT",
+      "expectedCode": "E_R10A_QUALIFICATION_SET_SUPERSEDED_INPUT",
+      "name": "superseded previous",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_OPERATOR_APPROVAL_MISMATCH",
+      "expectedCode": "E_R10A_OPERATOR_APPROVAL_MISMATCH",
+      "name": "approval generation tamper",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_QUALIFICATION_SET_DIGEST_MISMATCH",
+      "expectedCode": "E_R10A_QUALIFICATION_SET_DIGEST_MISMATCH",
+      "name": "qualification child replaced",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_POINTER_MIRROR_MISMATCH",
+      "expectedCode": "E_R10A_POINTER_MIRROR_MISMATCH",
+      "name": "pointer mirror mutation",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_POINTER_CAS_MISMATCH",
+      "expectedCode": "E_R10A_POINTER_CAS_MISMATCH",
+      "name": "stale raw hash retry",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_SMOKE_IDENTITY_MISMATCH",
+      "expectedCode": "E_R10A_SMOKE_IDENTITY_MISMATCH",
+      "name": "smoke with other package",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_PARTIAL_ROLLBACK_FORBIDDEN",
+      "expectedCode": "E_R10A_PARTIAL_ROLLBACK_FORBIDDEN",
+      "name": "partial rollback",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_STATE_SKIP_FORBIDDEN",
+      "expectedCode": "E_R10A_STATE_SKIP_FORBIDDEN",
+      "name": "repromotion before rollback",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_POINTER_GENERATION_MISMATCH",
+      "expectedCode": "E_R10A_POINTER_GENERATION_MISMATCH",
+      "name": "generation jump",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_RELEASE_RECEIPT_INCOMPLETE",
+      "expectedCode": "E_R10A_RELEASE_RECEIPT_INCOMPLETE",
+      "name": "final before child receipts",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_RELEASE_RECEIPT_INCOMPLETE",
+      "expectedCode": "E_R10A_RELEASE_RECEIPT_INCOMPLETE",
+      "name": "final receipt child missing",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_LINEAGE_FALSE_CURRENT",
+      "expectedCode": "E_R10A_LINEAGE_FALSE_CURRENT",
+      "name": "R11A falsely current",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_RECEIPT_SELF_HASH_INVALID",
+      "expectedCode": "E_R10A_RECEIPT_SELF_HASH_INVALID",
+      "name": "circular self hash",
+      "status": "PASS"
+    },
+    {
+      "actualCode": "E_R10A_SOURCE_CANNOT_RELEASE",
+      "expectedCode": "E_R10A_SOURCE_CANNOT_RELEASE",
+      "name": "source pointer writer",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "d345487dfaee1e4da445fccbf76391b8bc76c6ebbc983a54dd55cff378624a95"
+}

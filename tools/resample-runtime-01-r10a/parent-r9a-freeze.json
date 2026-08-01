@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "parentZipSha256": "d209eb1060f4cd8428a7b48abb4e8a2dfd7f7b46ab243ad6356b1c3a4a564ac0",
+  "files": {
+    "r9aSource": {
+      "path": "artifacts/resample-runtime-01-r9a/source-bake/TDT_RESAMPLE_RUNTIME_01_R9A_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "a70e3b088b3fc09f3f8e039fc7965c65f1d241c9a3300a35cc11389bbbeb0ab8"
+    },
+    "r8aSource": {
+      "path": "artifacts/resample-runtime-01-r8a/source-bake/TDT_RESAMPLE_RUNTIME_01_R8A_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "a00c4de12951068a80e04e6ea3c91f31f965ba4deec10393905ecca8cca84702"
+    },
+    "r8aSpec": {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R8A_ACTIVE_REQUIRED_JAVASCRIPT_PARSE_CLOSURE_CANONICAL_RESAMPLE_EXECUTOR_REGISTRATION_ACTUAL_KERNEL_IDENTITY_PROPAGATION_REPEATED_DEVICE_LOSS_RE_REGISTRATION_ZERO_SILENT_EXPORT_FALLBACK_SEAL_SPEC.md",
+      "sha256": "fa0d411bcca0a58f86dc51729c0dd4452dc0422f4d03039daf7a95b603647a52"
+    },
+    "r9aSpec": {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R9A_PRODUCTION_VALIDATION_COUNTER_SAMPLING_SINGLE_SUBMIT_MULTI_STAGE_COMMAND_GRAPH_UNIFORM_RING_ALLOCATION_QUEUE_FENCE_RETIREMENT_PHYSICAL_GPU_PERFORMANCE_CLOSURE_SEAL_SPEC.md",
+      "sha256": "a6bcd275e8d5df1f1a813c7b7f2ed96c851378fc1971eee430c96a5eb7a06b2d"
+    },
+    "r10aSpec": {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R10A_R8A_R9A_RELEASE_REQUALIFICATION_PRODUCTION_CANDIDATE_REBUILD_PRODUCTION_POINTER_CAS_REPLAY_ROLLBACK_DRILL_REPLAY_DOWNSTREAM_RECEIPT_LINEAGE_RESTORATION_SEAL_SPEC.md",
+      "sha256": "a81c2a65af855663137ab3269351d9ef17e1eb2c7ec71fbcfcdf81c6ba282aea"
+    },
+    "pointerA": {
+      "path": "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    "pointerB": {
+      "path": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    "r8aInvalidation": {
+      "path": "artifacts/resample-runtime-01-r8a/source-bake/TDT_RESAMPLE_RUNTIME_01_R8A_DOWNSTREAM_INVALIDATION_RECEIPT.json",
+      "sha256": "e31dd3c731aaf27a96e8f2b4331e5bbcc8a801c625356b2a5d9056cd54f97f9a"
+    },
+    "r9aInvalidation": {
+      "path": "artifacts/resample-runtime-01-r9a/source-bake/R9A_DOWNSTREAM_INVALIDATION_RECEIPT.json",
+      "sha256": "2d8164c7117e6861f92c043147732a01424195819451439acacdfaa9ce3af29a"
+    }
+  },
+  "historical": {
+    "r9": {
+      "path": "artifacts/resample-runtime-01-r9/source-bake/TDT_RESAMPLE_RUNTIME_01_R9_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d"
+    },
+    "r10": {
+      "path": "artifacts/resample-runtime-01-r10/source-bake/TDT_RESAMPLE_RUNTIME_01_R10_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "76e47a1ea47f4ff662c50992dfd5fdcac262a38e73931da3c0bb3ede9cb52b77"
+    },
+    "r11": {
+      "path": "artifacts/resample-runtime-01-r11/source-bake/TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "755281a73d3ec201dfdf94e6f94c52f4a6a0f6a599f5f21dab296972b92e273e"
+    },
+    "r12": {
+      "path": "artifacts/resample-runtime-01-r12/source-bake/TDT_RESAMPLE_RUNTIME_01_R12_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "4bf9ae0efbd18ba97f996c3ba81032a7707cd9e4cc96076d71400a26eab5889c"
+    },
+    "r13": {
+      "path": "artifacts/resample-runtime-01-r13/source-bake/TDT_RESAMPLE_RUNTIME_01_R13_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "0023fbacaae88f442c653787dd2624e88966b0f7f4bc9e27c8cd3ee70814cb3d"
+    }
+  }
+}

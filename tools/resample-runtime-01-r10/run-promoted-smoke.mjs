@@ -1,0 +1,1 @@
+import {verifySmoke} from './smoke-common.mjs';export function runPromotedSmoke(){return verifySmoke('DADUM_R10_PROMOTED_SMOKE_RECEIPT','R10_PROMOTED_SMOKE_RECEIPT.json','E_R10_PROMOTED_SMOKE_FAILED');}if(import.meta.url===`file://${process.argv[1]}`)runPromotedSmoke();

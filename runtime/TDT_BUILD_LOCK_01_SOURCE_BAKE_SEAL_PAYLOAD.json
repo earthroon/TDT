@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "INPUT_PROFILE_SEALED",
+  "buildId": "504fb9a14ff3026416a33b41",
+  "buildAuthorityDigest": "6a1b3ce0b25db34ca260ba5838be3d1fb4edb04f4ab096b85d5803d0a364d6bb",
+  "sourceGraphDigest": "80afa71e093828b857813c190f85b5bb9c72e9fb0bb9b07852cc1c71f9b0e11a",
+  "runtimeManifestDigest": "4b7878158f31fd1fd84cc658238759b5a80fc347e83aa1ee3d5f04c3661a02d9",
+  "workerManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+  "originalLockPromoted": false,
+  "productionPointerMutationPerformed": false,
+  "evidence": {
+    "packageJson": {
+      "path": "package.json",
+      "sha256": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+      "byteLength": 8705
+    },
+    "packageLock": {
+      "path": "package-lock.json",
+      "sha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+      "byteLength": 164589
+    },
+    "spec": {
+      "path": "specs/TDT-BUILD-LOCK-01_CANONICAL_DEPENDENCY_LOCK_RECOVERY_IMMUTABLE_NPM_CI_REGISTRY_CACHE_INPUT_IDENTITY_INSTALL_GRAPH_REPRODUCIBILITY_LOCK_MUTATION_ZERO_SPEC.md",
+      "sha256": "7e577a45534a571ae726fe70fcfb72421d3236dd67975ef1a7a63009cb6f258c",
+      "byteLength": 43075
+    },
+    "inputProfile": {
+      "path": "tools/dependency-input-profile.json",
+      "sha256": "0f97163dbb9d958d8858e9e52540cd24f9958fafaa5a649eeec3a8595f448688",
+      "byteLength": 769
+    },
+    "registryProfile": {
+      "path": "tools/registry-input-profile.json",
+      "sha256": "b67215168c1c1cb7710e12b2146c92fd71c920e67bf842c058efa0b90b6b2b10",
+      "byteLength": 392
+    },
+    "npmrc": {
+      "path": "tools/npmrc.lock-recovery",
+      "sha256": "4c5480f5812f38f1fd936d94d9741fd05517b3087489f40f4cc474a2c9af635a",
+      "byteLength": 409
+    },
+    "library": {
+      "path": "tools/build-lock-01-lib.mjs",
+      "sha256": "6eb882c92e6bcab30555bff5c38f175443ddcb99858b0f7584cf788e18bc0c05",
+      "byteLength": 17122
+    },
+    "runner": {
+      "path": "tools/run-build-lock-01.mjs",
+      "sha256": "e1bf2e11447019c50ac099a84eaa68199bc61531fd1ed462f686dce65ec07d01",
+      "byteLength": 19719
+    },
+    "promoter": {
+      "path": "tools/promote-build-lock-01.mjs",
+      "sha256": "cea2e6d566bc95decd266a285efe04b5b6f53baef0e2b58448de887d691efd94",
+      "byteLength": 1492
+    },
+    "gate": {
+      "path": "tools/gate-build-lock-01.mjs",
+      "sha256": "53665928694d224b228ca46e2857e2fcbf95b2aeccf6c8ad56d48115503d6e28",
+      "byteLength": 8864
+    },
+    "runtimeTests": {
+      "path": "tools/verify-build-lock-01-runtime.mjs",
+      "sha256": "3e5de21c697fafd5e47d4b542d10f5ee30da924e9e4ec3e844ba2e4db5522528",
+      "byteLength": 12847
+    },
+    "sourceVerifier": {
+      "path": "tools/verify-build-lock-01-source.mjs",
+      "sha256": "4cd67d9115098f2a512e9798d3d191a0825a7bfd85fcb9d17fceda4ff9f7e48a",
+      "byteLength": 1027
+    },
+    "promotionReceipt": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_PROMOTION_RECEIPT.json",
+      "sha256": "f6bd4492fd5b28c5cac696fb5bee6ecbc0c040d15fb1efea205f71e6a61caab9",
+      "byteLength": 439
+    },
+    "oldLockForensic": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_OLD_LOCK_FORENSIC_REPORT.json",
+      "sha256": "53a32a4d2c899a29670a165cab01e9a7ef62e810cd011968ddc75842baf128a8",
+      "byteLength": 2184
+    },
+    "registryReport": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_REGISTRY_IDENTITY_REPORT.json",
+      "sha256": "9f1e3a2be5adf885d4910114fad994dfc09023ca0fb6f20ecc50428dbe5360d4",
+      "byteLength": 639
+    },
+    "mutationReport": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_LOCK_MUTATION_ZERO_REPORT.json",
+      "sha256": "3cc338e3842fdfa099c2ea4654aa3be7e6bbf7c1de3ee56c98f276ef05fe1f87",
+      "byteLength": 1228
+    },
+    "finalVerify": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_FINAL_VERIFY.txt",
+      "sha256": "b0b0e0659d1a19ada11fe2985c6b6c43e2a8f931001a664eceaa8315150c3c99",
+      "byteLength": 16000
+    },
+    "strictTypeScript": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_STRICT_TYPESCRIPT_VERIFY.txt",
+      "sha256": "4a3894a7a760b2cfc1df85a673d47ce12240eed294a0fdb11fbfbee63d898e7e",
+      "byteLength": 263
+    },
+    "dependencyVerifyAttempt": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_DEPENDENCY_VERIFY_ATTEMPT.txt",
+      "sha256": "e54a6ec987fdcabdd85a695c945e5e1f9fd2d9081ae132ed4d6898f3c5a9948e",
+      "byteLength": 161
+    },
+    "productionBuildAttempt": {
+      "path": "artifacts/runtime/TDT_BUILD_LOCK_01_PRODUCTION_BUILD_ATTEMPT.txt",
+      "sha256": "b38de62e9ae6264a393b28c59b1181b27803cddea9f620918e73b66b11342831",
+      "byteLength": 1047
+    }
+  },
+  "sourceBakeSeal": "40958ee29c6c74179bfde8d06a7ad5d375ee6b0825ea27be825b32d2ab1eda8c"
+}

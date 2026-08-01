@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 16,
+  "passed": 16,
+  "failed": [],
+  "checks": [
+    {
+      "id": "sign-invariant-x",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "sign-invariant-diagonal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "unit-axial",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "constant-zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "positive-half",
+      "pass": true,
+      "detail": "{\"omega\":6.283185307179586,\"n\":1,\"charge\":0.5,\"residual\":0}"
+    },
+    {
+      "id": "negative-half",
+      "pass": true,
+      "detail": "{\"omega\":-6.283185307179586,\"n\":-1,\"charge\":-0.5,\"residual\":0}"
+    },
+    {
+      "id": "unit-charge-component-sum",
+      "pass": true,
+      "detail": "{\"unitCharges\":[0,0.5,0,0.5,0,0,0,0,0],\"unitTotal\":1}"
+    },
+    {
+      "id": "half-away-positive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "half-away-negative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "wrap-upper",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "wrap-lower",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "checker-sign-zero",
+      "pass": true,
+      "detail": "{\"omega\":0,\"n\":0,\"charge\":0,\"residual\":0}"
+    },
+    {
+      "id": "coherence-constant",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "invalid-exact-zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "defect-dimension",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "single-writer-plaquette",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+export const PATCH_ID='TDT-RESAMPLE-RUNTIME-01-R9A-P1';
+export const SOURCE_STATE='RESAMPLE_RUNTIME_R9A_P1_PACKAGED_PRODUCT_GRAPH_INSTRUMENTATION_SOURCE_SEALED_AWAITING_BUILD_LOCK_R2_WIN32_AND_PHYSICAL_GPU';
+export const FINAL_STATE='RESAMPLE_RUNTIME_R9A_P1_PACKAGED_PRODUCT_GRAPH_PHYSICAL_VALIDATED_AWAITING_R10A_REPLAY';
+export const SOURCE_PASS=360;export const PHYSICAL_PENDING=480;
+export const SPEC='specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1_PACKAGED_PRODUCT_GRAPH_INSTRUMENTATION_SINGLE_ENCODER_SINGLE_SUBMIT_OBSERVATION_VALIDATION_COUNTER_FAULT_INJECTION_UNIFORM_RING_LIFETIME_TIMESTAMP_PERFORMANCE_RESIDENCY_PLATEAU_DEVICE_LOSS_RECOVERY_PHYSICAL_SEAL_SPEC.md';
+export const SPEC_SHA256='73a85965294e99fc14ea549b046fd22f554678e98fb62d38d573c5350995f212';
+export const PARENT_BUNDLE_SHA256='4b9414a4edc5aed983879eec21cd003833e917ece83b452d658a5727ef677eb7';
+export const PARENT_RECEIPT='artifacts/build-lock-01-r2/source-bake/TDT_BUILD_LOCK_01_R2_SOURCE_FINAL_RECEIPT.json';
+export const PARENT_RECEIPT_SHA256='cdc6476a0ae6fda4b8dd1f4744d7d9122442a1125038f8014dc72323089c99ed';
+export const PARENT_RECEIPT_SELF_SHA256='83ffd28e7d14cf7b72662cc2a0848e00a1d799964ba6d8c3fdfde76d704535dd';
+export const PACKAGE_LOCK_SHA256='b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847';
+export const POINTER_A='artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json';export const POINTER_B='artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json';export const POINTER_SHA256='1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8';
+export const AUTHORITY_FILES=['package.json','package-lock.json','electron.mjs','preload.cjs','vite.config.ts','app/legacy-runtime/core/compute/qmap_webgpu/ewa_command_graph_r9a.mjs','app/legacy-runtime/core/compute/qmap_webgpu/ewa_uniform_ring_r9a.mjs','app/legacy-runtime/core/compute/qmap_webgpu/ewa_submission_fence_registry_r9a.mjs','app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs','app/src/runtime/gpu/gpu-device-authority-service.ts'];

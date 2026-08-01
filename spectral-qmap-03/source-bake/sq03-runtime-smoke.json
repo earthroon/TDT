@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 30,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "layout-deterministic",
+      "pass": true
+    },
+    {
+      "name": "layout-count",
+      "pass": true
+    },
+    {
+      "name": "power-normalization",
+      "pass": true
+    },
+    {
+      "name": "dc-preserved-in-power",
+      "pass": true
+    },
+    {
+      "name": "half-plane-no-duplicates",
+      "pass": true
+    },
+    {
+      "name": "self-conjugate-excluded",
+      "pass": true
+    },
+    {
+      "name": "policy-default-min-radius",
+      "pass": true
+    },
+    {
+      "name": "policy-default-minimum-band-power",
+      "pass": true
+    },
+    {
+      "name": "entropy-range",
+      "pass": true
+    },
+    {
+      "name": "peak-orientation-horizontal-frequency-is-vertical-feature",
+      "pass": true
+    },
+    {
+      "name": "orientation-unit-vector",
+      "pass": true
+    },
+    {
+      "name": "peak-tie-lower-index",
+      "pass": true
+    },
+    {
+      "name": "recursive-merge-preserves-runner-up",
+      "pass": true
+    },
+    {
+      "name": "confidence-conservative",
+      "pass": true
+    },
+    {
+      "name": "phase-unit-vector",
+      "pass": true
+    },
+    {
+      "name": "non-finite-invalidates-window",
+      "pass": true
+    },
+    {
+      "name": "neutral-zero-power",
+      "pass": true
+    },
+    {
+      "name": "field-set-all-or-none",
+      "pass": true
+    },
+    {
+      "name": "field-set-duplicate-reject",
+      "pass": true
+    },
+    {
+      "name": "field-set-shared-digest",
+      "pass": true
+    },
+    {
+      "name": "zero-readback",
+      "pass": true
+    },
+    {
+      "name": "recursive-levels",
+      "pass": true
+    },
+    {
+      "name": "rectangular-frequency-normalization",
+      "pass": true
+    },
+    {
+      "name": "center-convention",
+      "pass": true
+    },
+    {
+      "name": "phase-anchor-sign",
+      "pass": true
+    },
+    {
+      "name": "summary-layout",
+      "pass": true
+    },
+    {
+      "name": "publication-count-once",
+      "pass": true
+    },
+    {
+      "name": "generation-no-preflight-mutation",
+      "pass": true
+    },
+    {
+      "name": "cancel-no-output",
+      "pass": true
+    },
+    {
+      "name": "source-lineage",
+      "pass": true
+    }
+  ]
+}

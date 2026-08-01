@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "status": "PASS",
+  "buildId": "1bc226b555eba090152ee2bf",
+  "sourceBakeSeal": "70bfaf6504ddbf7c14153fda0eee36a604cc487a487bf3a34130c34be0357286",
+  "promotionPointerSha256": "02fb8993c08fee3436c6c96bca183c71364d83b3b46279b1f8f5068ccdd2741a",
+  "fixtureCorpusDigest": "ce6abed114d85241866523700d6430a2b9dbeb0144a334fee5c218b09ac725b7",
+  "generationCount": 2,
+  "buildIdStable": true,
+  "sourceBakeSealStable": true,
+  "pointerDigestStable": true
+}

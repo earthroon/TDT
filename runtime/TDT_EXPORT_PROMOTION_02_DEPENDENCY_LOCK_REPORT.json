@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01-R2",
+  "policyId": "exact-direct-version-v1",
+  "consistent": false,
+  "directVersionsExact": true,
+  "rootGraphExact": false,
+  "mismatches": [
+    {
+      "group": "dependencies",
+      "name": "jszip",
+      "expected": "3.10.1",
+      "actual": "^3.10.1"
+    },
+    {
+      "group": "dependencies",
+      "name": "pako",
+      "expected": "2.1.0",
+      "actual": "^2.1.0"
+    },
+    {
+      "group": "dependencies",
+      "name": "pinia",
+      "expected": "3.0.1",
+      "actual": null
+    },
+    {
+      "group": "dependencies",
+      "name": "sharp",
+      "expected": "0.33.2",
+      "actual": "^0.33.2"
+    },
+    {
+      "group": "dependencies",
+      "name": "vue",
+      "expected": "3.5.40",
+      "actual": null
+    },
+    {
+      "group": "devDependencies",
+      "name": "@napi-rs/cli",
+      "expected": "2.18.4",
+      "actual": null
+    },
+    {
+      "group": "devDependencies",
+      "name": "@vitejs/plugin-vue",
+      "expected": "6.0.7",
+      "actual": null
+    },
+    {
+      "group": "devDependencies",
+      "name": "electron",
+      "expected": "29.0.0",
+      "actual": "^29.0.0"
+    },
+    {
+      "group": "devDependencies",
+      "name": "electron-builder",
+      "expected": "24.13.3",
+      "actual": "^24.13.3"
+    },
+    {
+      "group": "devDependencies",
+      "name": "typescript",
+      "expected": "5.9.3",
+      "actual": null
+    },
+    {
+      "group": "devDependencies",
+      "name": "vite",
+      "expected": "8.1.5",
+      "actual": null
+    },
+    {
+      "group": "devDependencies",
+      "name": "vue-tsc",
+      "expected": "3.2.2",
+      "actual": null
+    }
+  ],
+  "packageEntryCount": 360,
+  "integrityMissing": [],
+  "resolvedMissing": [],
+  "packageJsonSha256": "e1f8c034e54f37087c368d0339fc64b0d53210b29d3ab4f1ab94a6651727bb39",
+  "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "dependencyGraphDigest": "d5e03476389df21445dc11d6dcf6444e94349edd62a5e75c3c00be18ee32b140",
+  "r2ReceiptPresent": false,
+  "r2ReceiptMatchesCurrentLock": false,
+  "status": "BLOCKED"
+}

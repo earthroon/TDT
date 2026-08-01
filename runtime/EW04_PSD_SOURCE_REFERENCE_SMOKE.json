@@ -1,0 +1,76 @@
+{
+  "schema": "dadum-ew04-psd-source-reference-smoke-v1",
+  "status": "PASS",
+  "serializerBackendKind": "source-reference-js",
+  "canonicalRustWasm": false,
+  "requestCodecVersion": 2,
+  "serializerAbiVersion": 2,
+  "selfTest": {
+    "pass": true,
+    "backend": "source-reference-js",
+    "canonicalRustWasm": false
+  },
+  "caseCount": 4,
+  "cases": [
+    {
+      "id": "layered-rgb8-raw",
+      "requestByteLength": 103,
+      "channels": 4,
+      "width": 2,
+      "height": 2,
+      "depth": 8,
+      "colorMode": 3,
+      "layerCount": 1,
+      "compression": 0,
+      "resolution": 1,
+      "icc": 0,
+      "byteLength": 218,
+      "eofExact": true
+    },
+    {
+      "id": "flat-rgb8-rle",
+      "requestByteLength": 86,
+      "channels": 3,
+      "width": 3,
+      "height": 2,
+      "depth": 8,
+      "colorMode": 3,
+      "layerCount": 0,
+      "compression": 1,
+      "resolution": 1,
+      "icc": 0,
+      "byteLength": 92,
+      "eofExact": true
+    },
+    {
+      "id": "flat-rgb16-raw",
+      "requestByteLength": 80,
+      "channels": 3,
+      "width": 2,
+      "height": 1,
+      "depth": 16,
+      "colorMode": 3,
+      "layerCount": 0,
+      "compression": 0,
+      "resolution": 1,
+      "icc": 0,
+      "byteLength": 80,
+      "eofExact": true
+    },
+    {
+      "id": "flat-cmyk8-rle",
+      "requestByteLength": 96,
+      "channels": 4,
+      "width": 2,
+      "height": 2,
+      "depth": 8,
+      "colorMode": 4,
+      "layerCount": 0,
+      "compression": 1,
+      "resolution": 1,
+      "icc": 1,
+      "byteLength": 124,
+      "eofExact": true
+    }
+  ]
+}

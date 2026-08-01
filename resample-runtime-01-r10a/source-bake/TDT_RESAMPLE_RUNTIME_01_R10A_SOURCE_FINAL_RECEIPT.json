@@ -1,0 +1,3697 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 260,
+    "PENDING": 300,
+    "SKIPPED": 0
+  },
+  "currentPointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "deferred": 0,
+  "fail": 0,
+  "historicalPassCarryForward": 0,
+  "localActivationPointerMutated": false,
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "pending": 300,
+  "productionPointerMutated": false,
+  "r10aReleaseCurrent": false,
+  "r11aStatus": "REQUIRED_NOT_CURRENT",
+  "r12aStatus": "REQUIRED_NOT_CURRENT",
+  "r13aStatus": "REQUIRED_NOT_CURRENT",
+  "r8aSourceCurrent": true,
+  "r9aPhysicalCurrent": false,
+  "r9aSourceCurrent": true,
+  "releaseGates": [
+    {
+      "evidence": null,
+      "id": "R10A-P001",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PHYSICAL_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P002",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PHYSICAL_RECEIPT_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P003",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PHYSICAL_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P004",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_FINAL_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P005",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_TOTAL_PASS_500",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P006",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_SOURCE_PASS_286",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P007",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PHYSICAL_PASS_214",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P008",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P009",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_DEFERRED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P010",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_SKIPPED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P011",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_FAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P012",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PRODUCTION_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P013",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_LOCAL_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P014",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_BUILD_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P015",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_CONTENT_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P016",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_PATH_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P017",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_EXISTS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P018",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_READ_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P019",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_PRE_HASH_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P020",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_POST_HASH_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P021",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PACKAGE_PRE_POST_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P022",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_RUNTIME_CLOSURE_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P023",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_CHILD_MANIFEST_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P024",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_ADAPTER_PROFILE_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P025",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_D3D12_HARDWARE_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P026",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_SOFTWARE_ADAPTER_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P027",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_TIMESTAMP_QUERY_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P028",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_CANONICAL_ENCODER_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P029",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_CANONICAL_SUBMIT_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P030",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_EXPORT_PREMAP_FENCE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P031",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_VALIDATION_DOUBLE_DISPATCH_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P032",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_UNIFORM_OVERWRITE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P033",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_PERFORMANCE_CLOSURE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P034",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "R9A_RECEIPT_READ_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P035",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_REBUILD_INPUT_SET_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P036",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_REBUILD_INPUT_SET_SELF_HASH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P037",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_SOURCE_COMMIT_FROZEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P038",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_DEPENDENCY_LOCK_FROZEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P039",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_TOOLCHAIN_IDENTITY_FROZEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P040",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_BUILD_ENVIRONMENT_FROZEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P041",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_CLEAN_WORKTREE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P042",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_NETWORK_DISABLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P043",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_EMIT_A_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P044",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_EMIT_B_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P045",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_EMIT_A_INPUT_DIGEST",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P046",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_EMIT_B_INPUT_DIGEST",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P047",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_EMIT_INPUT_DIGEST_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P048",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_RUNTIME_CLOSURE_A_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P049",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_RUNTIME_CLOSURE_B_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P050",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_RUNTIME_CLOSURE_DIGEST_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P051",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_ACTIVE_GRAPH_A_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P052",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_ACTIVE_GRAPH_B_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P053",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_ACTIVE_GRAPH_DIGEST_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P054",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PARSE_REPORT_A_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P055",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PARSE_REPORT_B_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P056",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PARSE_COUNT_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P057",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_GENERATED_WGSL_DIGEST_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P058",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_R8A_KERNEL_IDENTITY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P059",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_R9A_GRAPH_IDENTITY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P060",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_R9A_SAMPLING_POLICY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P061",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_R9A_UNIFORM_RING_IDENTITY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P062",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_ASSEMBLED_FROM_EMIT_A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P063",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_MANIFEST_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P064",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_PATH_NORMALIZED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P065",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_EXTRA_EXECUTABLE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P066",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_SYMLINK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P067",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_RECOMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P068",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P069",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P070",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_RUNTIME_CLOSURE_MATCH_R9A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P071",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_BUILD_ID_MATCH_R9A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P072",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_ID_MATCH_R9A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P073",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_FULL_PRODUCT_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P074",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_FULL_PRODUCT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P075",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_FULL_PRODUCT_BLOCKERS_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P076",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_FULL_PRODUCT_IDENTITY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P077",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_QUALIFIED_PACKAGE_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P078",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "TARGET_PACKAGE_MUTATION_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P079",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_MODE_DECLARED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P080",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "BOOTSTRAP_OR_EXISTING_MODE_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P081",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "BOOTSTRAP_PREVIOUS_REQUIRED_WHEN_ACTIVE_NULL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P082",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "EXISTING_ACTIVE_REQUIRED_WHEN_NON_NULL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P083",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_BUILD_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P084",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P085",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_PATH_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P086",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_EXISTS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P087",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_READ_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P088",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_DISTINCT_FROM_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P089",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_RUNTIME_CLOSURE_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P090",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_R8A_CURRENT_LINEAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P091",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_R9A_PHYSICAL_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P092",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_R9A_PHYSICAL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P093",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_FULL_PRODUCT_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P094",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_FULL_PRODUCT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P095",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_BUILD_IDENTITY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P096",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_IDENTITY_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P097",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_RUNTIME_CLOSURE_MATCH_OWN_R9A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P098",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_QUALIFIED_PACKAGE_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P099",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_QUALIFICATION_SET_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P100",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_POINTER_MAP_CANONICAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P101",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_NO_SUPERSEDED_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P102",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PACKAGE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P103",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_SOURCE_TREE_INACCESSIBLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P104",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_DEV_SERVER_DISABLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P105",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_NETWORK_DISABLED_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P106",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PREVIEW_SMOKE_CAPABLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P107",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_STRICT_EXPORT_SMOKE_CAPABLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P108",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P109",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P110",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_PENDING_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P111",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_ROLLBACK_ELIGIBLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P112",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PREVIOUS_FAKE_BUILD_ID_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P113",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P114",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P115",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P116",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_TARGET_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P117",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_PREVIOUS_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P118",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_R8A_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P119",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_R9A_PHYSICAL_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P120",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_FULL_PRODUCT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P121",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_REBUILD_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P122",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_ACTIVE_GRAPH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P123",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_PARSE_REPORT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P124",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_RUNTIME_CLOSURE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P125",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_KERNEL_IDENTITY_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P126",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_COMMAND_GRAPH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P127",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_UNIFORM_RING_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P128",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_SAMPLING_POLICY_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P129",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_DIGEST_RECOMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P130",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_MIXED_BUILD_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P131",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_MIXED_PACKAGE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P132",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "QUALIFICATION_SET_SUPERSEDED_INPUT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P133",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P134",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P135",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_TARGET_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P136",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_PREVIOUS_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P137",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_POINTER_HASH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P138",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_POINTER_GENERATION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P139",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_QUALIFICATION_DIGEST_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P140",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_RUN_ID_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P141",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_EXPLICIT_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P142",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "OPERATOR_APPROVAL_NOT_EMBEDDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P143",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RUN_ID_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P144",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "EVIDENCE_DIRECTORY_EMPTY_AT_START",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P145",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "GLOBAL_RELEASE_LOCK_ACQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P146",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LOCK_OWNER_RUN_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P147",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LOCK_EXPECTED_POINTER_HASH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P148",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LOCK_EXPECTED_POINTER_GENERATION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P149",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LOCK_STALE_AUTO_DELETE_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P150",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "MAINTENANCE_BARRIER_ENTERED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P151",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "NEW_JOB_ADMISSION_BLOCKED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P152",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PENDING_GPU_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P153",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PENDING_READBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P154",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PENDING_SAVE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P155",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ACTIVE_WORKER_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P156",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ACTIVE_RENDERER_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P157",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROCESS_QUIESCENCE_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P158",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ACTIVE_PROCESS_EXITED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P159",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FORCED_KILL_UNUSED_OR_RECEIPTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P160",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_BEFORE_READ",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P161",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_BEFORE_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P162",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_BEFORE_RAW_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P163",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_BEFORE_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P164",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_BEFORE_MIRRORS_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P165",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_EXPECTED_HASH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P166",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "POINTER_EXPECTED_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P167",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_INTENT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P168",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_INTENT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P169",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_INTENT_TARGET_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P170",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_INTENT_PREVIOUS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P171",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_INTENT_QUALIFICATION_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P172",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_INTENT_APPROVAL_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P173",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_CAS_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P174",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P175",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_ACTIVE_TARGET_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P176",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_PREVIOUS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P177",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_QUALIFICATION_MAP_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P178",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_POINTER_MIRRORS_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P179",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_POINTER_READBACK_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P180",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_CAS_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P181",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_PACKAGE_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P182",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTION_NO_PARTIAL_SELECTION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P183",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_RELAUNCH_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P184",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_LAUNCH_PATH_FROM_POINTER",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P185",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_BUILD_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P186",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_PACKAGE_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P187",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_RUNTIME_CLOSURE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P188",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_PACKAGE_PRE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P189",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_R8A_KERNEL_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P190",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_R9A_COMMAND_GRAPH_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P191",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_ENCODER_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P192",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_SUBMIT_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P193",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_EXPORT_PREMAP_FENCE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P194",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P195",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_UNIFORM_OVERWRITE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P196",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_PREVIEW_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P197",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_STRICT_EXPORT_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P198",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_PREVIEW_EXPORT_IDENTITY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P199",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_ALPHA_BORDER_DC_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P200",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_CPU_FALLBACK_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P201",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P202",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_SOURCE_TREE_INACCESSIBLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P203",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_DEV_SERVER_DISABLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P204",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_NETWORK_DISABLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P205",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_PENDING_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P206",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P207",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_RECEIPT_PACKAGE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P208",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "PROMOTED_SMOKE_GATE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P209",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_TRIGGER_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P210",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_TRIGGER_EVIDENCE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P211",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_TRIGGER_TARGET_FAILURE_NOT_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P212",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_INTENT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P213",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_INTENT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P214",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_INTENT_POINTER_HASH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P215",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_INTENT_POINTER_GENERATION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P216",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_INTENT_PREVIOUS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P217",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_CAS_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P218",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P219",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_ACTIVE_PREVIOUS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P220",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_PREVIOUS_TARGET_SNAPSHOT_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P221",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_QUALIFICATION_MAP_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P222",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_POINTER_MIRRORS_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P223",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_POINTER_READBACK_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P224",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_RELAUNCH_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P225",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_LAUNCHED_PACKAGE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P226",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_RUNTIME_CLOSURE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P227",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_PACKAGE_PRE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P228",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_PREVIEW_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P229",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_STRICT_EXPORT_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P230",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_R8A_KERNEL_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P231",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_R9A_COMMAND_GRAPH_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P232",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P233",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_CPU_FALLBACK_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P234",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P235",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_PENDING_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P236",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_NO_PARTIAL_COMPONENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P237",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_CAS_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P238",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "ROLLBACK_SMOKE_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P239",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_INTENT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P240",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_INTENT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P241",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_INTENT_POINTER_HASH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P242",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_INTENT_POINTER_GENERATION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P243",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_INTENT_TARGET_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P244",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_CAS_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P245",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P246",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_ACTIVE_TARGET_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P247",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_PREVIOUS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P248",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_QUALIFICATION_MAP_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P249",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_POINTER_MIRRORS_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P250",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_POINTER_READBACK_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P251",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELAUNCH_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P252",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_LAUNCHED_PACKAGE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P253",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RUNTIME_CLOSURE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P254",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_PACKAGE_PRE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P255",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_PREVIEW_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P256",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_STRICT_EXPORT_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P257",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_R8A_KERNEL_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P258",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_R9A_COMMAND_GRAPH_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P259",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_ENCODER_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P260",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_SUBMIT_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P261",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P262",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_CPU_FALLBACK_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P263",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P264",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_PENDING_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P265",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_POINTER_TARGET_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P266",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_POINTER_PREVIOUS_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P267",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "REPROMOTION_CAS_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P268",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_SMOKE_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P269",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_LEDGER_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P270",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_LEDGER_HASH_CHAIN_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P271",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_LEDGER_PROMOTION_INCLUDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P272",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_LEDGER_ROLLBACK_INCLUDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P273",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_LEDGER_REPROMOTION_INCLUDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P274",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_LEDGER_GENERATIONS_CONSECUTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P275",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_GATE_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P276",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_GATE_COUNT_300_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P277",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_GATE_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P278",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_GATE_DEFERRED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P279",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_GATE_SKIPPED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P280",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "RELEASE_GATE_FAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P281",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P282",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_RECEIPT_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P283",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P284",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P285",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_TARGET_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P286",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_PREVIOUS_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P287",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_QUALIFICATION_DIGEST_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P288",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_POINTER_HASH_CHAIN_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P289",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_WHOLE_BUILD_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P290",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_LEGACY_FALLBACK_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P291",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "FINAL_RELEASE_BLOCKERS_EMPTY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P292",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_RESTORATION_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P293",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_RESTORATION_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P294",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_RESTORATION_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P295",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_HEAD_R10A_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P296",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_ROOT_DIGEST_RECOMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P297",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_CURRENT_RECEIPTS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P298",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_SUPERSEDED_RECEIPTS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P299",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "LINEAGE_R11A_R12A_R13A_PENDING",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R10A-P300",
+      "reason": "requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay",
+      "requirement": "GLOBAL_LOCK_RELEASED_AFTER_FINALIZE",
+      "status": "PENDING"
+    }
+  ],
+  "releasePass": 0,
+  "schemaId": "tdt.resample.release-requalification.r10a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "e75b6dd730f020b0e0d328a995e5d1a8fa1891fc024f5a2045c6708b0aab8169",
+  "skipped": 0,
+  "sourceGates": [
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S001",
+      "requirement": "PARENT_ZIP_SHA256_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S002",
+      "requirement": "PARENT_SPEC_SHA256_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S003",
+      "requirement": "PARENT_SOURCE_RECEIPT_SHA256_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S004",
+      "requirement": "PARENT_SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S005",
+      "requirement": "PARENT_SOURCE_COUNTS_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S006",
+      "requirement": "PARENT_NEXT_AUTHORITY_R10A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S007",
+      "requirement": "R8A_SPEC_SHA256_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S008",
+      "requirement": "R8A_SOURCE_RECEIPT_SHA256_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S009",
+      "requirement": "R8A_SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S010",
+      "requirement": "R8A_ACTIVE_REQUIRED_PARSE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S011",
+      "requirement": "R8A_EXECUTOR_REGISTERED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S012",
+      "requirement": "R8A_KERNEL_IDENTITY_PROPAGATED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S013",
+      "requirement": "R8A_REPEATED_DEVICE_LOSS_THREE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S014",
+      "requirement": "R8A_SILENT_FALLBACK_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S015",
+      "requirement": "R8A_POINTER_MUTATION_FALSE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S016",
+      "requirement": "R9A_DOWNSTREAM_INVALIDATION_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S017",
+      "requirement": "R8A_DOWNSTREAM_INVALIDATION_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S018",
+      "requirement": "HISTORICAL_R9_RECEIPT_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S019",
+      "requirement": "HISTORICAL_R10_RECEIPT_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S020",
+      "requirement": "HISTORICAL_R11_RECEIPT_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S021",
+      "requirement": "HISTORICAL_R12_RECEIPT_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S022",
+      "requirement": "HISTORICAL_R13_RECEIPT_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S023",
+      "requirement": "SUPERSEDED_RECEIPT_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S024",
+      "requirement": "REPLAY_ORDER_R10A_R11A_R12A_R13A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S025",
+      "requirement": "CURRENT_POINTER_RAW_SHA_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S026",
+      "requirement": "POINTER_MIRRORS_EQUAL_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S027",
+      "requirement": "CURRENT_POINTER_SOURCE_UNCHANGED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S028",
+      "requirement": "LINEAGE_ROOT_INPUT_ORDER_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S029",
+      "requirement": "PATCH_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S030",
+      "requirement": "R10A_SOLE_RELEASE_REPLAY_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S031",
+      "requirement": "R10_HISTORICAL_AUTHORITY_RETIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S032",
+      "requirement": "R8A_RUNTIME_AUTHORITY_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S033",
+      "requirement": "R9A_PHYSICAL_AUTHORITY_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S034",
+      "requirement": "FULL_PRODUCT_AUTHORITY_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S035",
+      "requirement": "PRODUCTION_POINTER_IDENTITY_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S036",
+      "requirement": "WHOLE_BUILD_POINTER_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S037",
+      "requirement": "NO_COMPONENT_POINTER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S038",
+      "requirement": "NO_KERNEL_POINTER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S039",
+      "requirement": "NO_ENCODER_POINTER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S040",
+      "requirement": "NO_REMOTE_POINTER_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S041",
+      "requirement": "NO_SOURCE_MODE_POINTER_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S042",
+      "requirement": "NO_LOCAL_ACTIVATION_POINTER_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S043",
+      "requirement": "SOURCE_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S044",
+      "requirement": "FINAL_RELEASE_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S045",
+      "requirement": "FINAL_LINEAGE_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S046",
+      "requirement": "REJECTED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S047",
+      "requirement": "STATE_TRANSITIONS_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S048",
+      "requirement": "STATE_SKIP_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S049",
+      "requirement": "STATE_REGRESSION_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S050",
+      "requirement": "NEXT_AUTHORITY_R11A_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S051",
+      "requirement": "REBUILD_INPUT_SET_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S052",
+      "requirement": "CLEAN_EMIT_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S053",
+      "requirement": "RUNTIME_CLOSURE_MANIFEST_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S054",
+      "requirement": "SIGNED_PACKAGE_MANIFEST_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S055",
+      "requirement": "PACKAGE_REBUILD_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S056",
+      "requirement": "R8A_ADMISSION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S057",
+      "requirement": "R9A_PHYSICAL_ADMISSION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S058",
+      "requirement": "FULL_PRODUCT_ADMISSION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S059",
+      "requirement": "QUALIFIED_PACKAGE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S060",
+      "requirement": "QUALIFICATION_SET_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S061",
+      "requirement": "OPERATOR_APPROVAL_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S062",
+      "requirement": "TRANSITION_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S063",
+      "requirement": "PROMOTION_CAS_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S064",
+      "requirement": "ROLLBACK_CAS_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S065",
+      "requirement": "REPROMOTION_CAS_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S066",
+      "requirement": "RELAUNCH_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S067",
+      "requirement": "PROMOTED_SMOKE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S068",
+      "requirement": "ROLLBACK_SMOKE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S069",
+      "requirement": "FINAL_SMOKE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S070",
+      "requirement": "RELEASE_LEDGER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S071",
+      "requirement": "FINAL_RELEASE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S072",
+      "requirement": "LINEAGE_RESTORATION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S073",
+      "requirement": "REJECTION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S074",
+      "requirement": "RUN_LOCK_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S075",
+      "requirement": "MAINTENANCE_BARRIER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S076",
+      "requirement": "CHILD_DIGEST_MANIFEST_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S077",
+      "requirement": "CANONICAL_JSON_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S078",
+      "requirement": "SELF_HASH_EXCLUSION_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S079",
+      "requirement": "RECEIPT_NO_CIRCULAR_HASH",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S080",
+      "requirement": "RECEIPT_IMMUTABLE_AFTER_SEAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S081",
+      "requirement": "VOLATILE_FIELD_EXCLUSION_POLICY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S082",
+      "requirement": "ATOMIC_RECEIPT_WRITE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S083",
+      "requirement": "CLEAN_WORKTREE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S084",
+      "requirement": "DEPENDENCY_LOCK_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S085",
+      "requirement": "REGISTRY_INPUT_IDENTITY_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S086",
+      "requirement": "BUILD_TOOLCHAIN_IDENTITY_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S087",
+      "requirement": "NODE_ELECTRON_CHROMIUM_VERSIONS_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S088",
+      "requirement": "WINDOWS_X64_TARGET_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S089",
+      "requirement": "RELEASE_PROFILE_FULL_PRODUCT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S090",
+      "requirement": "NETWORK_DISABLED_DURING_BUILD",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S091",
+      "requirement": "SOURCE_DATE_EPOCH_POLICY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S092",
+      "requirement": "NONDETERMINISTIC_BUILD_INPUT_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S093",
+      "requirement": "DUAL_CLEAN_EMIT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S094",
+      "requirement": "EMIT_A_ISOLATED_DIRECTORY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S095",
+      "requirement": "EMIT_B_ISOLATED_DIRECTORY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S096",
+      "requirement": "EMIT_INPUT_DIGEST_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S097",
+      "requirement": "UNSIGNED_RUNTIME_CLOSURE_DIGEST_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S098",
+      "requirement": "ACTIVE_GRAPH_DIGEST_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S099",
+      "requirement": "ACTIVE_REQUIRED_PARSE_REPORT_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S100",
+      "requirement": "GENERATED_WGSL_MANIFEST_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S101",
+      "requirement": "R8A_KERNEL_IDENTITY_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S102",
+      "requirement": "R9A_COMMAND_GRAPH_IDENTITY_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S103",
+      "requirement": "R9A_SAMPLING_POLICY_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S104",
+      "requirement": "R9A_UNIFORM_RING_CONTRACT_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S105",
+      "requirement": "PACKAGE_ASSEMBLY_FROM_VERIFIED_EMIT_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S106",
+      "requirement": "PACKAGE_SOURCE_TREE_EXCLUDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S107",
+      "requirement": "PACKAGE_DEV_SERVER_EXCLUDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S108",
+      "requirement": "PACKAGE_DEBUG_OVERRIDE_EXCLUDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S109",
+      "requirement": "PACKAGE_EXECUTABLE_CLOSURE_COMPLETE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S110",
+      "requirement": "PACKAGE_EXTRA_EXECUTABLE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S111",
+      "requirement": "PACKAGE_PATH_COLLISION_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S112",
+      "requirement": "PACKAGE_SYMLINK_REPARSE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S113",
+      "requirement": "PACKAGE_CONTENT_ID_SHA256",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S114",
+      "requirement": "PACKAGE_POST_BUILD_REHASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S115",
+      "requirement": "PACKAGE_READ_ONLY_AFTER_QUALIFICATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S116",
+      "requirement": "BUILD_ID_CANONICAL_INPUT_DERIVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S117",
+      "requirement": "BUILD_ID_WALL_CLOCK_INDEPENDENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S118",
+      "requirement": "RUNTIME_CLOSURE_DIGEST_BOUND_TO_PACKAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S119",
+      "requirement": "R8A_SOURCE_RECEIPT_CURRENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S120",
+      "requirement": "R8A_SOURCE_RECEIPT_REHASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S121",
+      "requirement": "R8A_RECEIPT_PACKAGE_EXPECTATION_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S122",
+      "requirement": "R9A_PHYSICAL_FINAL_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S123",
+      "requirement": "R9A_FINAL_STATE_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REBUILD_AUTHORITY_REPORT.json",
+      "id": "R10A-S124",
+      "requirement": "R9A_FINAL_COUNTS_500_PASS_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S125",
+      "requirement": "R9A_SOURCE_PASS_286_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S126",
+      "requirement": "R9A_PHYSICAL_PASS_214_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S127",
+      "requirement": "R9A_PENDING_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S128",
+      "requirement": "R9A_DEFERRED_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S129",
+      "requirement": "R9A_SKIPPED_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S130",
+      "requirement": "R9A_FAIL_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S131",
+      "requirement": "R9A_PACKAGE_IDENTITY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S132",
+      "requirement": "R9A_PACKAGE_PRE_POST_HASH_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S133",
+      "requirement": "R9A_RUNTIME_CLOSURE_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S134",
+      "requirement": "R9A_SINGLE_ENCODER_ONE_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S135",
+      "requirement": "R9A_SINGLE_SUBMIT_ONE_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S136",
+      "requirement": "R9A_EXPORT_PREMAP_FENCE_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S137",
+      "requirement": "R9A_VALIDATION_DOUBLE_DISPATCH_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S138",
+      "requirement": "R9A_UNIFORM_OVERWRITE_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S139",
+      "requirement": "R9A_PERFORMANCE_THRESHOLDS_PASS_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S140",
+      "requirement": "FULL_PRODUCT_RECEIPT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S141",
+      "requirement": "FULL_PRODUCT_BLOCKERS_EMPTY_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S142",
+      "requirement": "FULL_PRODUCT_PACKAGE_ID_EQUAL_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S143",
+      "requirement": "FULL_PRODUCT_BUILD_ID_EQUAL_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S144",
+      "requirement": "FULL_PRODUCT_RUNTIME_CLOSURE_EQUAL_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S145",
+      "requirement": "ACTIVE_GRAPH_RECEIPT_CURRENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S146",
+      "requirement": "JAVASCRIPT_PARSE_RECEIPT_CURRENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S147",
+      "requirement": "QUALIFICATION_MAP_CANONICAL_KEYS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S148",
+      "requirement": "QUALIFICATION_SET_DIGEST_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S149",
+      "requirement": "QUALIFICATION_INPUTS_SAME_PACKAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S150",
+      "requirement": "MIXED_LINEAGE_ARTIFACT_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S151",
+      "requirement": "SUPERSEDED_R9_RECEIPT_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_REQUALIFICATION_AUTHORITY_REPORT.json",
+      "id": "R10A-S152",
+      "requirement": "SUPERSEDED_R10_RECEIPT_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S153",
+      "requirement": "POINTER_V2_READ_COMPATIBILITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S154",
+      "requirement": "POINTER_V3_WRITE_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S155",
+      "requirement": "POINTER_SCHEMA_DOWNGRADE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S156",
+      "requirement": "POINTER_UNKNOWN_FIELD_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S157",
+      "requirement": "POINTER_CANONICAL_JSON",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S158",
+      "requirement": "POINTER_SELF_HASH_VALID",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S159",
+      "requirement": "POINTER_RAW_HASH_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S160",
+      "requirement": "POINTER_GENERATION_U64",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S161",
+      "requirement": "POINTER_MIRRORS_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S162",
+      "requirement": "POINTER_MIRROR_ATOMICITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S163",
+      "requirement": "POINTER_SAME_VOLUME_TEMP",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S164",
+      "requirement": "POINTER_FILE_FLUSH",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S165",
+      "requirement": "POINTER_READBACK_VERIFY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S166",
+      "requirement": "POINTER_EXPECTED_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S167",
+      "requirement": "POINTER_EXPECTED_GENERATION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S168",
+      "requirement": "CAS_HASH_AND_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S169",
+      "requirement": "CAS_MISMATCH_NO_RETRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S170",
+      "requirement": "CAS_ABA_PREVENTION",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S171",
+      "requirement": "CAS_SINGLE_WRITER_LOCK",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S172",
+      "requirement": "CAS_PARTIAL_WRITE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S173",
+      "requirement": "PROMOTION_INTENT_TARGET_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S174",
+      "requirement": "PROMOTION_INTENT_PREVIOUS_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S175",
+      "requirement": "PROMOTION_INTENT_QUALIFICATION_SET_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S176",
+      "requirement": "PROMOTION_INTENT_APPROVAL_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S177",
+      "requirement": "ROLLBACK_INTENT_PREVIOUS_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S178",
+      "requirement": "REPROMOTION_INTENT_TARGET_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S179",
+      "requirement": "TRANSITION_ID_192_BIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S180",
+      "requirement": "TRANSITION_KIND_ENUM",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S181",
+      "requirement": "GENERATION_INCREMENT_EXACT_ONE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S182",
+      "requirement": "ACTIVE_QUALIFICATION_MAP_WRITTEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S183",
+      "requirement": "PREVIOUS_QUALIFICATION_MAP_WRITTEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S184",
+      "requirement": "CANDIDATE_FIELDS_CLEARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S185",
+      "requirement": "ROLLBACK_UNIT_WHOLE_BUILD_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S186",
+      "requirement": "LEGACY_FALLBACK_FALSE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S187",
+      "requirement": "PER_ENCODER_ROLLBACK_FALSE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S188",
+      "requirement": "PER_KERNEL_ROLLBACK_FALSE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S189",
+      "requirement": "SOURCE_POINTER_RAW_BYTES_UNCHANGED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_POINTER_REPLAY_REPORT.json",
+      "id": "R10A-S190",
+      "requirement": "SOURCE_POINTER_GENERATION_UNCHANGED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S191",
+      "requirement": "STABLE_LAUNCHER_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S192",
+      "requirement": "LAUNCHED_PACKAGE_IDENTITY_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S193",
+      "requirement": "LAUNCHED_RUNTIME_CLOSURE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S194",
+      "requirement": "SOURCE_TREE_INACCESSIBLE_AT_RUNTIME",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S195",
+      "requirement": "NETWORK_DISABLED_DURING_SMOKE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S196",
+      "requirement": "PROMOTED_PREVIEW_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S197",
+      "requirement": "PROMOTED_STRICT_EXPORT_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S198",
+      "requirement": "PROMOTED_R8A_KERNEL_IDENTITY_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S199",
+      "requirement": "PROMOTED_R9A_SINGLE_SUBMIT_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S200",
+      "requirement": "PROMOTED_VALIDATION_COUNTER_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S201",
+      "requirement": "PROMOTED_SILENT_FALLBACK_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S202",
+      "requirement": "PROMOTED_PENDING_JOB_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S203",
+      "requirement": "ROLLBACK_TRIGGER_EVIDENCE_BOUND_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S204",
+      "requirement": "ROLLBACK_TARGET_QUALIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S205",
+      "requirement": "ROLLBACK_PACKAGE_DISTINCT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S206",
+      "requirement": "ROLLBACK_PREVIEW_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S207",
+      "requirement": "ROLLBACK_STRICT_EXPORT_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S208",
+      "requirement": "ROLLBACK_RUNTIME_IDENTITY_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S209",
+      "requirement": "ROLLBACK_PENDING_JOB_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S210",
+      "requirement": "REPROMOTION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S211",
+      "requirement": "REPROMOTION_TARGET_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S212",
+      "requirement": "FINAL_PREVIEW_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S213",
+      "requirement": "FINAL_STRICT_EXPORT_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S214",
+      "requirement": "FINAL_R8A_R9A_IDENTITY_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S215",
+      "requirement": "FINAL_POINTER_TARGET_ACTIVE_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S216",
+      "requirement": "FINAL_POINTER_PREVIOUS_RECORDED_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S217",
+      "requirement": "FINAL_PENDING_JOB_ZERO_RULE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S218",
+      "requirement": "FINAL_PACKAGE_POST_HASH_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S219",
+      "requirement": "LINEAGE_SCHEMA_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S220",
+      "requirement": "LINEAGE_HEAD_R10A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S221",
+      "requirement": "LINEAGE_ROOT_DIGEST_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S222",
+      "requirement": "LINEAGE_ORDER_R8A_R9A_R10A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S223",
+      "requirement": "R8A_SOURCE_RECEIPT_CURRENT_MARKER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S224",
+      "requirement": "R9A_SOURCE_RECEIPT_CURRENT_MARKER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S225",
+      "requirement": "R9A_PHYSICAL_RECEIPT_CURRENT_MARKER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S226",
+      "requirement": "R10A_RELEASE_RECEIPT_CURRENT_MARKER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S227",
+      "requirement": "R9_HISTORICAL_MARKER_SUPERSEDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S228",
+      "requirement": "R10_HISTORICAL_MARKER_SUPERSEDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S229",
+      "requirement": "R11_HISTORICAL_MARKER_SUPERSEDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S230",
+      "requirement": "R12_HISTORICAL_MARKER_SUPERSEDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S231",
+      "requirement": "R13_HISTORICAL_MARKER_SUPERSEDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S232",
+      "requirement": "R11A_STATUS_REQUIRED_NOT_CURRENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S233",
+      "requirement": "R12A_STATUS_REQUIRED_NOT_CURRENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S234",
+      "requirement": "R13A_STATUS_REQUIRED_NOT_CURRENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S235",
+      "requirement": "CURRENT_PROMOTION_EVIDENCE_NO_OLD_RECEIPT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S236",
+      "requirement": "HISTORICAL_RECEIPTS_NOT_DELETED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S237",
+      "requirement": "HISTORICAL_RECEIPTS_BYTE_IMMUTABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S238",
+      "requirement": "LINEAGE_CHILD_DIGESTS_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S239",
+      "requirement": "LINEAGE_RECEIPT_FINAL_WRITER_SINGLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S240",
+      "requirement": "LINEAGE_RESTORATION_AFTER_RELEASE_SEAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S241",
+      "requirement": "LINEAGE_NO_POINTER_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SMOKE_AND_LINEAGE_REPORT.json",
+      "id": "R10A-S242",
+      "requirement": "NEXT_REPLAY_ORDER_R11A_R12A_R13A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S243",
+      "requirement": "SOURCE_VERIFY_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S244",
+      "requirement": "REBUILD_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S245",
+      "requirement": "ADMIT_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S246",
+      "requirement": "PROMOTE_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S247",
+      "requirement": "ROLLBACK_DRILL_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S248",
+      "requirement": "FINALIZE_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S249",
+      "requirement": "REJECT_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S250",
+      "requirement": "PREDECESSOR_REGRESSION_COMMAND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S251",
+      "requirement": "WINDOWS_RELEASE_ENTRYPOINT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S252",
+      "requirement": "STABLE_ERROR_CODE_REGISTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R10A-S253",
+      "requirement": "NEGATIVE_CONTROL_MANIFEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R10A-S254",
+      "requirement": "ACTIVE_GRAPH_ADMISSION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R10A-S255",
+      "requirement": "ACTIVE_REQUIRED_PARSE_CLOSURE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R10A-S256",
+      "requirement": "R8_R9A_BEHAVIORAL_REGRESSION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R10A-S257",
+      "requirement": "OUTPUT_DIRECTORY_EMPTY_GUARD",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R10A-S258",
+      "requirement": "RUN_ID_UNIQUE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S259",
+      "requirement": "SOURCE_GATE_COUNT_260_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r10a/source-bake/R10A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R10A-S260",
+      "requirement": "RELEASE_GATE_COUNT_300_DECLARED",
+      "status": "PASS"
+    }
+  ],
+  "sourcePass": 260,
+  "specSha256": "a81c2a65af855663137ab3269351d9ef17e1eb2c7ec71fbcfcdf81c6ba282aea",
+  "state": "RESAMPLE_RUNTIME_R10A_RELEASE_REQUALIFICATION_HARNESS_SOURCE_SEALED_AWAITING_R9A_PHYSICAL_AND_PRODUCTION_REBUILD"
+}

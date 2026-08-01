@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.resample-runtime.r11.negative-controls.v1",
+  "controls": [
+    "mutated-manifest-hash",
+    "missing-installed-file",
+    "extra-executable-file",
+    "stale-session-token",
+    "revoked-session-token",
+    "lazy-asset-drift",
+    "silent-quarantine-clear",
+    "pointer-write-attempt",
+    "user-content-field",
+    "network-telemetry-field"
+  ]
+}

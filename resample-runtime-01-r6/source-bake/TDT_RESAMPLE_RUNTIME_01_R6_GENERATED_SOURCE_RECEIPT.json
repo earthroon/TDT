@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "manifestDigest": "11f3bcca8ee3540a30f48433e1a9f2a5ea2f5bfa04dbf8ac9de14d3bc8669a47",
+  "checks": [
+    {
+      "name": "output-count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest-id",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest-replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "replay:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "newline:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "header:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-volatile:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "digest:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "marker:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd"
+    },
+    {
+      "name": "marker:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "name": "marker:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6"
+    },
+    {
+      "name": "marker:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449"
+    },
+    {
+      "name": "marker:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb"
+    },
+    {
+      "name": "replay:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "newline:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "header:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-volatile:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "digest:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "marker:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd"
+    },
+    {
+      "name": "marker:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "name": "marker:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6"
+    },
+    {
+      "name": "marker:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449"
+    },
+    {
+      "name": "marker:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb"
+    },
+    {
+      "name": "replay:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "newline:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "header:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-volatile:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "digest:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "marker:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd"
+    },
+    {
+      "name": "marker:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "name": "marker:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6"
+    },
+    {
+      "name": "marker:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449"
+    },
+    {
+      "name": "marker:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb"
+    },
+    {
+      "name": "replay:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "newline:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "header:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-volatile:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "digest:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "marker:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd"
+    },
+    {
+      "name": "marker:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "name": "marker:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6"
+    },
+    {
+      "name": "marker:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449"
+    },
+    {
+      "name": "marker:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb"
+    },
+    {
+      "name": "replay:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "newline:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "header:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-volatile:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "digest:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "marker:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:ABI:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd"
+    },
+    {
+      "name": "marker:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:COORDINATE:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "name": "marker:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:AXIAL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6"
+    },
+    {
+      "name": "marker:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:BORDER:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449"
+    },
+    {
+      "name": "marker:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fragment:KERNEL:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb"
+    },
+    {
+      "name": "full-digests-independent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "product-tiled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference-direct-load",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference-no-tile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-literal-kernel-defaults",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative-output-mutation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative-template-stale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative-contract-stale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative-manifest-mutation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "profile-pair",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

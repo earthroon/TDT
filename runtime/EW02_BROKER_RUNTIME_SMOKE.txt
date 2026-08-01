@@ -1,0 +1,1 @@
+PASS RT-EW02-SMOKE FIFO=2 queued-cancel=1 crash-restart=1 receipts=6 restarts=1

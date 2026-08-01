@@ -1,0 +1,2 @@
+
+import fs from 'node:fs'; const file=process.env.DADUM_R13A_FLEET_INPUT; if(!file||!fs.existsSync(file)) throw Object.assign(new Error('R13A qualified fleet input is missing'),{code:'E_R13A_R12A_INSTALLED_RECEIPT_MISSING'}); const input=JSON.parse(fs.readFileSync(file,'utf8')); if(!input.r12aInstalledReceipts?.length) throw Object.assign(new Error('R12A installed evidence batch is missing'),{code:'E_R13A_R12A_INSTALLED_RECEIPT_MISSING'}); console.log(JSON.stringify({accepted:true,installationCount:input.r12aInstalledReceipts.length},null,2));

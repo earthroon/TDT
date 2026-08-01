@@ -1,0 +1,2 @@
+import path from 'node:path';import {ROOT} from './lib.mjs';import {resolveRunDir,readRunJson} from './physical/read-run.mjs';
+const runId=process.env.DADUM_R9_RUN_ID;if(!runId)throw Object.assign(new Error('DADUM_R9_RUN_ID is required'),{code:'E_R9_PENDING_PHYSICAL_GATE'});const dir=resolveRunDir(ROOT,runId),r=readRunJson(dir,'R9_ORACLE_ULP_REPORT.json');if(!(r.exceeded===0))throw Object.assign(new Error('compare-oracle failed'),{code:r.errorCode??'E_R9_SOURCE_HARNESS_INCOMPLETE',detail:r});console.log('compare-oracle PASS');

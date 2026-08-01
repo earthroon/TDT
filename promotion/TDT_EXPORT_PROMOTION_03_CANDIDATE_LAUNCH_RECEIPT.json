@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_CANDIDATE_LAUNCH_RECEIPT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "packaged-candidate-not-launched",
+    "packaged-electron-content-not-verified",
+    "production-icc-fixtures-missing"
+  ],
+  "packageContentId": null,
+  "rendererBuildId": "24a051fd97023b761a9ddadc",
+  "fixtureCorpusDigest": "ce6abed114d85241866523700d6430a2b9dbeb0144a334fee5c218b09ac725b7",
+  "packagedProcessObserved": false,
+  "sourceTreeBypassRejected": true,
+  "devServerRejected": true,
+  "launchIdentityProtocol": "dadum-packaged-e2e-launch-v1"
+}

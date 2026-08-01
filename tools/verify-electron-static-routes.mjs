@@ -1,0 +1,21 @@
+import path from 'node:path';
+import { createStaticCoiServer } from '../app/electron/static-coi-server.mjs';
+import { ARTIFACT_DIR, ROOT, createSyntheticStaticServer, probeServer, readJson, writeJson } from './build-emit-01-lib.mjs';
+const dist = path.join(ROOT, 'dist', 'renderer');
+const manifest = readJson(path.join(ARTIFACT_DIR, 'TDT_BUILD_EMIT_01_STATIC_ROUTE_MANIFEST.json'));
+const routes = [...manifest.routes, { route: '/__missing__', expectedStatus: 404 }, { route: '/%2e%2e/package.json', expectedStatus: 403 }];
+const synthetic = await probeServer(createSyntheticStaticServer(dist), routes);
+const electron = await probeServer(createStaticCoiServer(dist), routes);
+const expected = new Map(manifest.routes.map((route)=>[route.route, route]));
+const judge = (records) => records.map((record) => {
+  const route = expected.get(record.route);
+  const special = record.route === '/__missing__' ? 404 : record.route.includes('%2e%2e') ? 403 : 200;
+  return { ...record, ok: record.status === special && record.coop === 'same-origin' && record.coep === 'require-corp' && record.corp === 'same-origin' && record.cacheControl === 'no-store' && (!route || (record.bodySha256 === route.sha256 && record.byteLength === route.byteLength && record.contentType === route.contentType)) };
+});
+const syntheticResults = judge(synthetic); const electronResults = judge(electron);
+const parity = syntheticResults.map((left, index) => { const right = electronResults[index]; return { route: left.route, ok: left.status===right.status && left.bodySha256===right.bodySha256 && left.byteLength===right.byteLength && left.contentType===right.contentType && left.coop===right.coop && left.coep===right.coep && left.corp===right.corp && left.cacheControl===right.cacheControl }; });
+writeJson(path.join(ARTIFACT_DIR, 'TDT_BUILD_EMIT_01_SYNTHETIC_COI_ROUTE_REPORT.json'), { schemaVersion:1,patchId:'TDT-BUILD-EMIT-01',status:syntheticResults.every(x=>x.ok)?'STATIC_COI_ROUTES_VERIFIED':'BLOCKED',results:syntheticResults });
+writeJson(path.join(ARTIFACT_DIR, 'TDT_BUILD_EMIT_01_ELECTRON_COI_ROUTE_REPORT.json'), { schemaVersion:1,patchId:'TDT-BUILD-EMIT-01',status:electronResults.every(x=>x.ok)?'ELECTRON_COI_ROUTES_VERIFIED':'BLOCKED',results:electronResults });
+writeJson(path.join(ARTIFACT_DIR, 'TDT_BUILD_EMIT_01_SERVER_PARITY_REPORT.json'), { schemaVersion:1,patchId:'TDT-BUILD-EMIT-01',status:parity.every(x=>x.ok)?'PASS':'BLOCKED',results:parity });
+if (![...syntheticResults,...electronResults,...parity].every(x=>x.ok)) throw new Error('E_COI_SERVER_PARITY_MISMATCH');
+console.log(`PASS BUILD-EMIT-01 electron route parity ${parity.length}`);

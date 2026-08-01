@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "SMOKE-01",
+      "message": "bounded oracle repeatability",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxModelError": 0
+      },
+      "id": "SMOKE-02",
+      "message": "R2 model equals negative control",
+      "pass": true
+    },
+    {
+      "detail": {
+        "mappingError": 0
+      },
+      "id": "SMOKE-03",
+      "message": "raster mapping formula exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-04",
+      "message": "signed WGSL round mirror",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-05",
+      "message": "missing fixture digest rejected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-06",
+      "message": "oversized fixture rejected at 64x64 bound",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-07",
+      "message": "non-finite source rejected",
+      "pass": true
+    },
+    {
+      "detail": {
+        "fixtureCount": 8,
+        "maxPremulExcess": 0
+      },
+      "id": "SMOKE-08",
+      "message": "premultiplied alpha relation preserved",
+      "pass": true
+    },
+    {
+      "detail": {
+        "fixtureCount": 102
+      },
+      "id": "SMOKE-09",
+      "message": "fixture count and dimensions bounded",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-10",
+      "message": "stable identities exact",
+      "pass": true
+    }
+  ],
+  "diagnosticOnlyMemoryEvidence": true,
+  "oracleFixtureCount": 102,
+  "packagedElectronClaim": false,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "peakFixtureBytes": 12896,
+  "physicalGpuClaim": false,
+  "schemaVersion": 1,
+  "selectedFixtureCount": 24
+}

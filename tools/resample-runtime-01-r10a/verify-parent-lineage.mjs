@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import {check,json,sha256File,sourceArtifact,seal} from './lib.mjs';
+import {PARENT_ZIP_SHA256} from './identity.mjs';
+import {admitR8A} from './requalification-authority.mjs';
+const freeze=json('tools/resample-runtime-01-r10a/parent-r9a-freeze.json');
+check(freeze.parentZipSha256===PARENT_ZIP_SHA256,'E_R10A_PARENT_IDENTITY_MISMATCH','parent zip identity mismatch');
+for(const row of Object.values(freeze.files))check(sha256File(row.path)===row.sha256,'E_R10A_PARENT_IDENTITY_MISMATCH','frozen file changed',row.path);
+for(const row of Object.values(freeze.historical))check(sha256File(row.path)===row.sha256,'E_R10A_PARENT_IDENTITY_MISMATCH','historical receipt changed',row.path);
+const r9a=json(freeze.files.r9aSource.path);check(r9a.patchId==='TDT-RESAMPLE-RUNTIME-01-R9A'&&r9a.state==='RESAMPLE_RUNTIME_R9A_SINGLE_SUBMIT_VALIDATION_AND_PERFORMANCE_HARNESS_SOURCE_SEALED_AWAITING_PHYSICAL_GPU','E_R10A_PARENT_IDENTITY_MISMATCH','R9A source state mismatch');check(r9a.counts.PASS===286&&r9a.counts.PENDING===214&&r9a.counts.FAIL===0,'E_R10A_PARENT_IDENTITY_MISMATCH','R9A counts mismatch');check(r9a.nextAuthority==='TDT-RESAMPLE-RUNTIME-01-R10A','E_R10A_PARENT_IDENTITY_MISMATCH','R9A next authority mismatch');
+const r8a=admitR8A(json(freeze.files.r8aSource.path));
+const inv8=json(freeze.files.r8aInvalidation.path),inv9=json(freeze.files.r9aInvalidation.path);check(inv8.carryForwardPassCount===0&&inv9.historicalPassCarryForward===0,'E_R10A_QUALIFICATION_SET_SUPERSEDED_INPUT','historical carry forward nonzero');check(inv9.replayOrder.join('|')==='TDT-RESAMPLE-RUNTIME-01-R10A|TDT-RESAMPLE-RUNTIME-01-R11A|TDT-RESAMPLE-RUNTIME-01-R12A|TDT-RESAMPLE-RUNTIME-01-R13A','E_R10A_PARENT_IDENTITY_MISMATCH','replay order mismatch');
+const a=fs.readFileSync(freeze.files.pointerA.path),b=fs.readFileSync(freeze.files.pointerB.path);check(a.equals(b),'E_R10A_POINTER_MIRROR_MISMATCH','pointer mirrors differ');
+sourceArtifact('R10A_PARENT_AND_LINEAGE_REPORT.json',seal({schemaVersion:1,pass:true,parentZipSha256:PARENT_ZIP_SHA256,r8aState:r8a.state,r9aState:r9a.state,pointerRawSha256:freeze.files.pointerA.sha256,historicalReceiptCount:Object.keys(freeze.historical).length,historicalPassCarryForward:0,replayOrder:inv9.replayOrder}));
+console.log('R10A parent and lineage PASS');

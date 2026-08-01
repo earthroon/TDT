@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 25,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "singleton",
+      "pass": true
+    },
+    {
+      "name": "semantic-registration",
+      "pass": true
+    },
+    {
+      "name": "unknown-semantic",
+      "pass": true
+    },
+    {
+      "name": "visual-rejection",
+      "pass": true
+    },
+    {
+      "name": "producer-registration",
+      "pass": true
+    },
+    {
+      "name": "future-producer-fail",
+      "pass": true
+    },
+    {
+      "name": "consumer-registration",
+      "pass": true
+    },
+    {
+      "name": "begin-build",
+      "pass": true
+    },
+    {
+      "name": "publish-before-submit",
+      "pass": true
+    },
+    {
+      "name": "cpu-fallback-reject",
+      "pass": true
+    },
+    {
+      "name": "submission",
+      "pass": true
+    },
+    {
+      "name": "publish-before-fence",
+      "pass": true
+    },
+    {
+      "name": "fence",
+      "pass": true
+    },
+    {
+      "name": "publish",
+      "pass": true
+    },
+    {
+      "name": "deterministic-receipt",
+      "pass": true
+    },
+    {
+      "name": "require-field",
+      "pass": true
+    },
+    {
+      "name": "stale-source",
+      "pass": true
+    },
+    {
+      "name": "pin",
+      "pass": true
+    },
+    {
+      "name": "pinned-dispose-blocked",
+      "pass": true
+    },
+    {
+      "name": "release-dispose",
+      "pass": true
+    },
+    {
+      "name": "superseded-publish",
+      "pass": true
+    },
+    {
+      "name": "neutral-field",
+      "pass": true
+    },
+    {
+      "name": "device-loss",
+      "pass": true
+    },
+    {
+      "name": "compatibility-facade-preserved",
+      "pass": true
+    },
+    {
+      "name": "close",
+      "pass": true
+    }
+  ],
+  "physicalGpuClaims": false
+}

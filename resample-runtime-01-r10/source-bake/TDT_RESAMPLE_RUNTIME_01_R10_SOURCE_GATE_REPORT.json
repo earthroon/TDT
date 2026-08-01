@@ -1,0 +1,1612 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 129
+  },
+  "evidence": [
+    {
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "id": "parent",
+      "key": "parent",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "id": "r9",
+      "key": "r9",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "id": "pointer",
+      "key": "pointer",
+      "status": "PASS"
+    },
+    {
+      "evidence": 30,
+      "id": "files",
+      "key": "files",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "pointerModel",
+      "key": "pointerModel",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "id": "schemas",
+      "key": "schemas",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "cas",
+      "key": "cas",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "E_R10_R9_FINAL_RECEIPT_MISSING",
+        "E_R10_R9_FINAL_STATE_MISMATCH",
+        "E_R10_R9_PENDING_GATE",
+        "E_R10_FULL_PRODUCT_RECEIPT_MISSING",
+        "E_R10_QUALIFICATION_IDENTITY_MISMATCH",
+        "E_R10_PACKAGE_MUTATED",
+        "E_R10_POINTER_SCHEMA_INVALID",
+        "E_R10_POINTER_SELF_HASH_MISMATCH",
+        "E_R10_POINTER_CAS_MISMATCH",
+        "E_R10_POINTER_GENERATION_MISMATCH",
+        "E_R10_PROMOTION_LOCK_HELD",
+        "E_R10_PROMOTION_LOCK_RECOVERY_REQUIRED",
+        "E_R10_MAINTENANCE_DRAIN_TIMEOUT",
+        "E_R10_PENDING_JOB_NONZERO",
+        "E_R10_OPERATOR_APPROVAL_MISSING",
+        "E_R10_ATOMIC_REPLACE_FAILED",
+        "E_R10_POINTER_READBACK_MISMATCH",
+        "E_R10_PROMOTED_IDENTITY_MISMATCH",
+        "E_R10_PROMOTED_SMOKE_FAILED",
+        "E_R10_ROLLBACK_TARGET_MISSING",
+        "E_R10_ROLLBACK_TARGET_UNQUALIFIED",
+        "E_R10_PARTIAL_ROLLBACK_FORBIDDEN",
+        "E_R10_ROLLBACK_CAS_FAILED",
+        "E_R10_ROLLBACK_SMOKE_FAILED",
+        "E_R10_REPROMOTION_CAS_FAILED",
+        "E_R10_FINAL_SMOKE_FAILED",
+        "E_R10_BOOTSTRAP_SECOND_PACKAGE_REQUIRED",
+        "E_R10_RELEASE_LEDGER_BROKEN",
+        "E_R10_RELEASE_RECEIPT_INCOMPLETE",
+        "E_R10_SOURCE_CANNOT_PROMOTE"
+      ],
+      "id": "errors",
+      "key": "errors",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "noMutation",
+      "key": "noMutation",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "lock",
+      "key": "lock",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "barrier",
+      "key": "barrier",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "bootstrap",
+      "key": "bootstrap",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "releaseFlow",
+      "key": "releaseFlow",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "sha256": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl"
+        },
+        {
+          "sha256": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl"
+        },
+        {
+          "sha256": "ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl"
+        }
+      ],
+      "id": "graph",
+      "key": "graph",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "scripts",
+      "key": "scripts",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "network",
+      "key": "network",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "approval",
+      "key": "approval",
+      "status": "PASS"
+    },
+    {
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "id": "sourceState",
+      "key": "sourceState",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "release": 202,
+        "source": 129
+      },
+      "id": "gateCount",
+      "key": "gateCount",
+      "status": "PASS"
+    }
+  ],
+  "gates": [
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S001",
+      "message": null,
+      "requirement": "PARENT_BUNDLE_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S002",
+      "message": null,
+      "requirement": "PARENT_SPEC_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S003",
+      "message": null,
+      "requirement": "PARENT_SOURCE_RECEIPT_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S004",
+      "message": null,
+      "requirement": "PARENT_FINALIZER_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S005",
+      "message": null,
+      "requirement": "PARENT_SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S006",
+      "message": null,
+      "requirement": "REQUIRED_R9_FINAL_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S007",
+      "message": null,
+      "requirement": "R9_FINAL_RECEIPT_PATH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S008",
+      "message": null,
+      "requirement": "R9_COUNTS_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "evidenceKey": "pointer",
+      "id": "R10-S009",
+      "message": null,
+      "requirement": "R9_POINTER_UNCHANGED_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S010",
+      "message": null,
+      "requirement": "R9_PACKAGE_IDENTITY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S011",
+      "message": null,
+      "requirement": "R9_ADAPTER_PROFILE_BOUND",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S012",
+      "message": null,
+      "requirement": "R9_CHILD_DIGEST_MANIFEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S013",
+      "message": null,
+      "requirement": "R9_RECEIPT_IMMUTABLE_INPUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S014",
+      "message": null,
+      "requirement": "R9_SOURCE_ONLY_REJECTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S015",
+      "message": null,
+      "requirement": "R9_PENDING_REJECTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S016",
+      "message": null,
+      "requirement": "GLOBAL_POINTER_IDENTITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S017",
+      "message": null,
+      "requirement": "GLOBAL_POINTER_V2_INPUT_SUPPORT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S018",
+      "message": null,
+      "requirement": "GLOBAL_POINTER_V3_OUTPUT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S019",
+      "message": null,
+      "requirement": "NO_COMPONENT_SELECTION_POINTER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S020",
+      "message": null,
+      "requirement": "WHOLE_BUILD_POINTER_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "evidenceKey": "pointer",
+      "id": "R10-S021",
+      "message": null,
+      "requirement": "CURRENT_POINTER_DIGEST_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "evidenceKey": "pointer",
+      "id": "R10-S022",
+      "message": null,
+      "requirement": "CURRENT_POINTER_MIRRORS_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S023",
+      "message": null,
+      "requirement": "CURRENT_ACTIVE_NULL_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S024",
+      "message": null,
+      "requirement": "CURRENT_CANDIDATE_UNPROMOTED_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S025",
+      "message": null,
+      "requirement": "CURRENT_POINTER_NOT_ELIGIBLE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S026",
+      "message": null,
+      "requirement": "FULL_PRODUCT_ADMISSION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S027",
+      "message": null,
+      "requirement": "EP03_OR_EQUIVALENT_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S028",
+      "message": null,
+      "requirement": "QUALIFICATION_SET_IDENTITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S029",
+      "message": null,
+      "requirement": "BUILD_ID_EQUALITY_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S030",
+      "message": null,
+      "requirement": "PACKAGE_ID_EQUALITY_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S031",
+      "message": null,
+      "requirement": "POINTER_V3_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S032",
+      "message": null,
+      "requirement": "POINTER_CANONICAL_JSON",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S033",
+      "message": null,
+      "requirement": "POINTER_SELF_HASH_EXCLUSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S034",
+      "message": null,
+      "requirement": "POINTER_RAW_FILE_HASH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S035",
+      "message": null,
+      "requirement": "POINTER_GENERATION_U64",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S036",
+      "message": null,
+      "requirement": "POINTER_EXPECTED_GENERATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S037",
+      "message": null,
+      "requirement": "POINTER_EXPECTED_FILE_HASH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S038",
+      "message": null,
+      "requirement": "POINTER_TRANSITION_ID",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S039",
+      "message": null,
+      "requirement": "POINTER_TRANSITION_KIND_ENUM",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S040",
+      "message": null,
+      "requirement": "POINTER_QUALIFICATION_MAP",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S041",
+      "message": null,
+      "requirement": "POINTER_ACTIVE_RELEASE_PROFILE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S042",
+      "message": null,
+      "requirement": "POINTER_PREVIOUS_SNAPSHOT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S043",
+      "message": null,
+      "requirement": "POINTER_CANDIDATE_CLEARED_FINAL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S044",
+      "message": null,
+      "requirement": "POINTER_NO_CIRCULAR_RECEIPT_HASH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S045",
+      "message": null,
+      "requirement": "POINTER_COMPAT_READER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S046",
+      "message": null,
+      "requirement": "POINTER_V2_WRITE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S047",
+      "message": null,
+      "requirement": "POINTER_MIRROR_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S048",
+      "message": null,
+      "requirement": "POINTER_MIRROR_ATOMICITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S049",
+      "message": null,
+      "requirement": "POINTER_SCHEMA_DOWNGRADE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S050",
+      "message": null,
+      "requirement": "POINTER_UNKNOWN_FIELD_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S051",
+      "message": null,
+      "requirement": "PROMOTION_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S052",
+      "message": null,
+      "requirement": "ROLLBACK_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S053",
+      "message": null,
+      "requirement": "REPROMOTION_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S054",
+      "message": null,
+      "requirement": "CAS_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S055",
+      "message": null,
+      "requirement": "RELAUNCH_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S056",
+      "message": null,
+      "requirement": "SMOKE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S057",
+      "message": null,
+      "requirement": "ROLLBACK_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S058",
+      "message": null,
+      "requirement": "FINAL_RELEASE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S059",
+      "message": null,
+      "requirement": "RELEASE_LEDGER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S060",
+      "message": null,
+      "requirement": "REJECTION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S061",
+      "message": null,
+      "requirement": "ATOMIC_JSON_WRITE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S062",
+      "message": null,
+      "requirement": "RECEIPT_CHILD_DIGESTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S063",
+      "message": null,
+      "requirement": "RECEIPT_NO_SELF_CYCLE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S064",
+      "message": null,
+      "requirement": "RECEIPT_IMMUTABLE_AFTER_SEAL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S065",
+      "message": null,
+      "requirement": "RECEIPT_VOLATILE_FIELD_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "E_R10_R9_FINAL_RECEIPT_MISSING",
+        "E_R10_R9_FINAL_STATE_MISMATCH",
+        "E_R10_R9_PENDING_GATE",
+        "E_R10_FULL_PRODUCT_RECEIPT_MISSING",
+        "E_R10_QUALIFICATION_IDENTITY_MISMATCH",
+        "E_R10_PACKAGE_MUTATED",
+        "E_R10_POINTER_SCHEMA_INVALID",
+        "E_R10_POINTER_SELF_HASH_MISMATCH",
+        "E_R10_POINTER_CAS_MISMATCH",
+        "E_R10_POINTER_GENERATION_MISMATCH",
+        "E_R10_PROMOTION_LOCK_HELD",
+        "E_R10_PROMOTION_LOCK_RECOVERY_REQUIRED",
+        "E_R10_MAINTENANCE_DRAIN_TIMEOUT",
+        "E_R10_PENDING_JOB_NONZERO",
+        "E_R10_OPERATOR_APPROVAL_MISSING",
+        "E_R10_ATOMIC_REPLACE_FAILED",
+        "E_R10_POINTER_READBACK_MISMATCH",
+        "E_R10_PROMOTED_IDENTITY_MISMATCH",
+        "E_R10_PROMOTED_SMOKE_FAILED",
+        "E_R10_ROLLBACK_TARGET_MISSING",
+        "E_R10_ROLLBACK_TARGET_UNQUALIFIED",
+        "E_R10_PARTIAL_ROLLBACK_FORBIDDEN",
+        "E_R10_ROLLBACK_CAS_FAILED",
+        "E_R10_ROLLBACK_SMOKE_FAILED",
+        "E_R10_REPROMOTION_CAS_FAILED",
+        "E_R10_FINAL_SMOKE_FAILED",
+        "E_R10_BOOTSTRAP_SECOND_PACKAGE_REQUIRED",
+        "E_R10_RELEASE_LEDGER_BROKEN",
+        "E_R10_RELEASE_RECEIPT_INCOMPLETE",
+        "E_R10_SOURCE_CANNOT_PROMOTE"
+      ],
+      "evidenceKey": "errors",
+      "id": "R10-S066",
+      "message": null,
+      "requirement": "STABLE_ERROR_CODE_REGISTRY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S067",
+      "message": null,
+      "requirement": "SOURCE_AND_RELEASE_GATE_SPLIT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S068",
+      "message": null,
+      "requirement": "NO_RELEASE_PASS_FROM_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S069",
+      "message": null,
+      "requirement": "NO_POINTER_MUTATION_FROM_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S070",
+      "message": null,
+      "requirement": "NO_PACKAGE_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S071",
+      "message": null,
+      "requirement": "PROMOTION_LOCK_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S072",
+      "message": null,
+      "requirement": "LOCK_EXCLUSIVE_CREATE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S073",
+      "message": null,
+      "requirement": "LOCK_AUTO_STALE_DELETE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S074",
+      "message": null,
+      "requirement": "LOCK_RECOVERY_RECEIPT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S075",
+      "message": null,
+      "requirement": "LOCK_SCOPE_GLOBAL_POINTER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S076",
+      "message": null,
+      "requirement": "LOCK_HELD_THROUGH_DRILL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S077",
+      "message": null,
+      "requirement": "LOCK_RELEASE_AFTER_FINAL_SMOKE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S078",
+      "message": null,
+      "requirement": "MAINTENANCE_BARRIER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S079",
+      "message": null,
+      "requirement": "NEW_JOB_ADMISSION_BLOCK",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S080",
+      "message": null,
+      "requirement": "PENDING_JOB_DRAIN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S081",
+      "message": null,
+      "requirement": "DRAIN_TIMEOUT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S082",
+      "message": null,
+      "requirement": "NO_HOT_SWAP_RUNNING_PROCESS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S083",
+      "message": null,
+      "requirement": "PROCESS_TERMINATION_BEFORE_SWITCH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S084",
+      "message": null,
+      "requirement": "PROCESS_KILL_FALLBACK_RECEIPT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S085",
+      "message": null,
+      "requirement": "SOURCE_TREE_ISOLATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S086",
+      "message": null,
+      "requirement": "PACKAGE_READ_ONLY_GUARD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S087",
+      "message": null,
+      "requirement": "SAME_VOLUME_TEMP_POINTER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S088",
+      "message": null,
+      "requirement": "WINDOWS_ATOMIC_REPLACE_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S089",
+      "message": null,
+      "requirement": "POINTER_FILE_FLUSH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S090",
+      "message": null,
+      "requirement": "POINTER_DIRECTORY_DURABILITY_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S091",
+      "message": null,
+      "requirement": "POINTER_READBACK_VERIFY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S092",
+      "message": null,
+      "requirement": "CAS_MISMATCH_NO_RETRY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S093",
+      "message": null,
+      "requirement": "CAS_SINGLE_WRITER_TEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S094",
+      "message": null,
+      "requirement": "CAS_ABA_PREVENTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S095",
+      "message": null,
+      "requirement": "CAS_PARTIAL_WRITE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S096",
+      "message": null,
+      "requirement": "BOOTSTRAP_POLICY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S097",
+      "message": null,
+      "requirement": "BOOTSTRAP_DISTINCT_CONTENT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S098",
+      "message": null,
+      "requirement": "BOOTSTRAP_BOTH_QUALIFIED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S099",
+      "message": null,
+      "requirement": "BOOTSTRAP_FAKE_BUILD_ID_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S100",
+      "message": null,
+      "requirement": "ROLLBACK_TRIGGER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S101",
+      "message": null,
+      "requirement": "ROLLBACK_TRIGGER_NO_PACKAGE_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S102",
+      "message": null,
+      "requirement": "ROLLBACK_WHOLE_BUILD_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S103",
+      "message": null,
+      "requirement": "ROLLBACK_POINTER_CAS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S104",
+      "message": null,
+      "requirement": "ROLLBACK_PREVIOUS_IDENTITY_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S105",
+      "message": null,
+      "requirement": "ROLLBACK_RELAUNCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S106",
+      "message": null,
+      "requirement": "ROLLBACK_MINIMUM_SMOKE_DEFINED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S107",
+      "message": null,
+      "requirement": "REPROMOTION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S108",
+      "message": null,
+      "requirement": "REPROMOTION_NEW_GENERATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S109",
+      "message": null,
+      "requirement": "FINAL_CANDIDATE_ACTIVE_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S110",
+      "message": null,
+      "requirement": "FINAL_LOCK_CLEANUP",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S111",
+      "message": null,
+      "requirement": "NO_LEGACY_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S112",
+      "message": null,
+      "requirement": "NO_ENV_BUILD_OVERRIDE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S113",
+      "message": null,
+      "requirement": "NO_PERCENT_ROLLOUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S114",
+      "message": null,
+      "requirement": "NO_BACKGROUND_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        {
+          "sha256": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl"
+        },
+        {
+          "sha256": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl"
+        },
+        {
+          "sha256": "ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl"
+        }
+      ],
+      "evidenceKey": "graph",
+      "id": "R10-S115",
+      "message": null,
+      "requirement": "ACTIVE_GRAPH_ADMISSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S116",
+      "message": null,
+      "requirement": "R8_R9_RUNTIME_HASH_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R10-S117",
+      "message": null,
+      "requirement": "PREDECESSOR_REGRESSION_COMMAND",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R10-S118",
+      "message": null,
+      "requirement": "SCRIPT_ENTRYPOINTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R10-S119",
+      "message": null,
+      "requirement": "POWERSHELL_ENTRYPOINTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S120",
+      "message": null,
+      "requirement": "RUN_ID_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S121",
+      "message": null,
+      "requirement": "OUTPUT_OVERWRITE_GUARD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "network",
+      "id": "R10-S122",
+      "message": null,
+      "requirement": "NETWORK_DISABLED_BY_DEFAULT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "approval",
+      "id": "R10-S123",
+      "message": null,
+      "requirement": "OPERATOR_APPROVAL_INPUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "approval",
+      "id": "R10-S124",
+      "message": null,
+      "requirement": "APPROVAL_NOT_EMBEDDED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S125",
+      "message": null,
+      "requirement": "SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S126",
+      "message": null,
+      "requirement": "RELEASE_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S127",
+      "message": null,
+      "requirement": "REJECTED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S128",
+      "message": null,
+      "requirement": "NO_IMPLICIT_NEXT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "release": 202,
+        "source": 129
+      },
+      "evidenceKey": "gateCount",
+      "id": "R10-S129",
+      "message": null,
+      "requirement": "SOURCE_GATE_COUNT_EXACT",
+      "status": "PASS"
+    }
+  ],
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R10",
+  "pointerRawSha256Before": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "schemaVersion": 1,
+  "state": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT"
+}

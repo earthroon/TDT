@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt.resample.package-rebuild-receipt.r10a.v1",
+  "title": "package-rebuild-receipt",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId"
+  ]
+}

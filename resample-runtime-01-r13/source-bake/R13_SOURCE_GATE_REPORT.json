@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.rollout.source-gate-report.r13.v1",
+  "state": "RESAMPLE_RUNTIME_R13_COHORT_ROLLOUT_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_MULTI_INSTALLATION_FLEET",
+  "counts": {
+    "PASS": 192,
+    "FAIL": 0
+  },
+  "gates": [
+    {
+      "id": "R13-S001",
+      "name": "PARENT_BUNDLE_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S002",
+      "name": "PARENT_BUNDLE_SHA256_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_SHA256_EXACT"
+      }
+    },
+    {
+      "id": "R13-S003",
+      "name": "PARENT_R12_SPEC_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SPEC_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S004",
+      "name": "PARENT_R12_SPEC_SHA256_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SPEC_SHA256_EXACT"
+      }
+    },
+    {
+      "id": "R13-S005",
+      "name": "PARENT_R12_SOURCE_RECEIPT_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_RECEIPT_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S006",
+      "name": "PARENT_R12_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_RECEIPT_SHA256_EXACT"
+      }
+    },
+    {
+      "id": "R13-S007",
+      "name": "PARENT_R12_SOURCE_STATE_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_STATE_EXACT"
+      }
+    },
+    {
+      "id": "R13-S008",
+      "name": "PARENT_R12_SOURCE_PASS_168",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_PASS_168"
+      }
+    },
+    {
+      "id": "R13-S009",
+      "name": "PARENT_R12_INSTALLED_PENDING_358",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_INSTALLED_PENDING_358"
+      }
+    },
+    {
+      "id": "R13-S010",
+      "name": "PARENT_R12_FAIL_ZERO",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_FAIL_ZERO"
+      }
+    },
+    {
+      "id": "R13-S011",
+      "name": "PARENT_PRODUCTION_POINTER_NOT_MUTATED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_PRODUCTION_POINTER_NOT_MUTATED"
+      }
+    },
+    {
+      "id": "R13-S012",
+      "name": "PARENT_LOCAL_POINTER_NOT_MUTATED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_LOCAL_POINTER_NOT_MUTATED"
+      }
+    },
+    {
+      "id": "R13-S013",
+      "name": "R10_POINTER_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R10_POINTER_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S014",
+      "name": "R11_ADMISSION_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R11_ADMISSION_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S015",
+      "name": "R12_INSTALL_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R12_INSTALL_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S016",
+      "name": "R13_ROLLOUT_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_ROLLOUT_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S017",
+      "name": "R13_PARENT_FREEZE_MANIFEST_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_PARENT_FREEZE_MANIFEST_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S018",
+      "name": "R13_PARENT_FREEZE_CHILD_DIGESTS_COMPLETE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_PARENT_FREEZE_CHILD_DIGESTS_COMPLETE"
+      }
+    },
+    {
+      "id": "R13-S019",
+      "name": "R13_SOURCE_MODE_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_SOURCE_MODE_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S020",
+      "name": "R13_FLEET_EXECUTION_ABSENT_RECORDED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_FLEET_EXECUTION_ABSENT_RECORDED"
+      }
+    },
+    {
+      "id": "R13-S021",
+      "name": "R13_NO_PARENT_RECEIPT_REWRITE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_NO_PARENT_RECEIPT_REWRITE"
+      }
+    },
+    {
+      "id": "R13-S022",
+      "name": "R13_NO_PARENT_POINTER_WRITE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_NO_PARENT_POINTER_WRITE"
+      }
+    },
+    {
+      "id": "R13-S023",
+      "name": "R13_PREDECESSOR_REGRESSION_ENTRY_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_PREDECESSOR_REGRESSION_ENTRY_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S024",
+      "name": "R13_CURRENT_FACTS_RECEIPT_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_CURRENT_FACTS_RECEIPT_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S025",
+      "name": "ROLLOUT_PLAN_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S026",
+      "name": "ROLLOUT_LEDGER_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_LEDGER_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S027",
+      "name": "FLEET_ENROLLMENT_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FLEET_ENROLLMENT_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S028",
+      "name": "COHORT_ASSIGNMENT_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_ASSIGNMENT_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S029",
+      "name": "RING_ADMISSION_LEASE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_ADMISSION_LEASE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S030",
+      "name": "LOCAL_EVIDENCE_ENVELOPE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_ENVELOPE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S031",
+      "name": "FLEET_AGGREGATE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FLEET_AGGREGATE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S032",
+      "name": "RING_DECISION_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_DECISION_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S033",
+      "name": "CONTAINMENT_DIRECTIVE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S034",
+      "name": "ROLLBACK_RECOMMENDATION_BATCH_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_BATCH_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S035",
+      "name": "PRIVACY_PROFILE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PRIVACY_PROFILE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S036",
+      "name": "FINAL_ROLLOUT_RECEIPT_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FINAL_ROLLOUT_RECEIPT_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S037",
+      "name": "ROLLOUT_PLAN_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S038",
+      "name": "LOCAL_R10_POINTER_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R10_POINTER_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S039",
+      "name": "LOCAL_R12_ACTIVATION_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R12_ACTIVATION_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S040",
+      "name": "LOCAL_R11_ADMISSION_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R11_ADMISSION_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S041",
+      "name": "R13_POINTER_MUTATION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_POINTER_MUTATION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S042",
+      "name": "R13_LOCAL_INSTALL_MUTATION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_LOCAL_INSTALL_MUTATION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S043",
+      "name": "R13_USER_JOB_AUTHORITY_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_USER_JOB_AUTHORITY_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S044",
+      "name": "R13_RELEASE_QUALIFICATION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_RELEASE_QUALIFICATION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S045",
+      "name": "R13_CANARY_RING_COUNT_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_CANARY_RING_COUNT_PINNED"
+      }
+    },
+    {
+      "id": "R13-S046",
+      "name": "R13_BASIS_POINT_DOMAIN_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_BASIS_POINT_DOMAIN_PINNED"
+      }
+    },
+    {
+      "id": "R13-S047",
+      "name": "R13_GATE_COUNT_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_GATE_COUNT_PINNED"
+      }
+    },
+    {
+      "id": "R13-S048",
+      "name": "R13_STATE_MACHINE_VERSION_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_STATE_MACHINE_VERSION_PINNED"
+      }
+    },
+    {
+      "id": "R13-S049",
+      "name": "INSTALLATION_ENROLLMENT_ID_RANDOM",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "INSTALLATION_ENROLLMENT_ID_RANDOM"
+      }
+    },
+    {
+      "id": "R13-S050",
+      "name": "INSTALLATION_ENROLLMENT_ID_NOT_HARDWARE_DERIVED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "INSTALLATION_ENROLLMENT_ID_NOT_HARDWARE_DERIVED"
+      }
+    },
+    {
+      "id": "R13-S051",
+      "name": "INSTALLATION_ENROLLMENT_ID_NOT_USER_DERIVED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "INSTALLATION_ENROLLMENT_ID_NOT_USER_DERIVED"
+      }
+    },
+    {
+      "id": "R13-S052",
+      "name": "ROLLOUT_PSEUDONYM_HMAC_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PSEUDONYM_HMAC_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S053",
+      "name": "ROLLOUT_PSEUDONYM_RELEASE_SCOPED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PSEUDONYM_RELEASE_SCOPED"
+      }
+    },
+    {
+      "id": "R13-S054",
+      "name": "ROLLOUT_PSEUDONYM_NO_RAW_ENROLLMENT_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PSEUDONYM_NO_RAW_ENROLLMENT_ID"
+      }
+    },
+    {
+      "id": "R13-S055",
+      "name": "COHORT_HMAC_SHA256_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_HMAC_SHA256_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S056",
+      "name": "COHORT_BUCKET_0_9999_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_BUCKET_0_9999_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S057",
+      "name": "COHORT_SECRET_NOT_DISTRIBUTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_SECRET_NOT_DISTRIBUTED"
+      }
+    },
+    {
+      "id": "R13-S058",
+      "name": "ENROLLMENT_KEY_ROTATION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ENROLLMENT_KEY_ROTATION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S059",
+      "name": "EVIDENCE_SIGNING_KEY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "EVIDENCE_SIGNING_KEY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S060",
+      "name": "EVIDENCE_REPLAY_NONCE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "EVIDENCE_REPLAY_NONCE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S061",
+      "name": "EVIDENCE_MONOTONIC_SEQUENCE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "EVIDENCE_MONOTONIC_SEQUENCE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S062",
+      "name": "NO_IMAGE_BYTES_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_IMAGE_BYTES_FIELD"
+      }
+    },
+    {
+      "id": "R13-S063",
+      "name": "NO_PIXEL_HASH_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_PIXEL_HASH_FIELD"
+      }
+    },
+    {
+      "id": "R13-S064",
+      "name": "NO_FILE_NAME_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_FILE_NAME_FIELD"
+      }
+    },
+    {
+      "id": "R13-S065",
+      "name": "NO_USER_PATH_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_USER_PATH_FIELD"
+      }
+    },
+    {
+      "id": "R13-S066",
+      "name": "NO_EXIF_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_EXIF_FIELD"
+      }
+    },
+    {
+      "id": "R13-S067",
+      "name": "NO_DOCUMENT_METADATA_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_DOCUMENT_METADATA_FIELD"
+      }
+    },
+    {
+      "id": "R13-S068",
+      "name": "NO_ACCOUNT_NAME_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_ACCOUNT_NAME_FIELD"
+      }
+    },
+    {
+      "id": "R13-S069",
+      "name": "NO_EMAIL_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_EMAIL_FIELD"
+      }
+    },
+    {
+      "id": "R13-S070",
+      "name": "NO_PRECISE_LOCATION_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_PRECISE_LOCATION_FIELD"
+      }
+    },
+    {
+      "id": "R13-S071",
+      "name": "NO_STABLE_HARDWARE_SERIAL_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_STABLE_HARDWARE_SERIAL_FIELD"
+      }
+    },
+    {
+      "id": "R13-S072",
+      "name": "ADAPTER_FAMILY_BUCKET_ONLY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ADAPTER_FAMILY_BUCKET_ONLY"
+      }
+    },
+    {
+      "id": "R13-S073",
+      "name": "DRIVER_VERSION_BUCKET_POLICY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "DRIVER_VERSION_BUCKET_POLICY"
+      }
+    },
+    {
+      "id": "R13-S074",
+      "name": "TIME_BUCKET_COARSENING_POLICY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "TIME_BUCKET_COARSENING_POLICY"
+      }
+    },
+    {
+      "id": "R13-S075",
+      "name": "RETENTION_TTL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RETENTION_TTL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S076",
+      "name": "LOCAL_ONLY_MODE_SUPPORTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_ONLY_MODE_SUPPORTED"
+      }
+    },
+    {
+      "id": "R13-S077",
+      "name": "ROLLOUT_ID_192BIT_RANDOM",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_ID_192BIT_RANDOM"
+      }
+    },
+    {
+      "id": "R13-S078",
+      "name": "ROLLOUT_PLAN_CANONICAL_JSON",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_CANONICAL_JSON"
+      }
+    },
+    {
+      "id": "R13-S079",
+      "name": "ROLLOUT_PLAN_SELF_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_SELF_HASH"
+      }
+    },
+    {
+      "id": "R13-S080",
+      "name": "ROLLOUT_PLAN_SIGNATURE_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_SIGNATURE_FIELD"
+      }
+    },
+    {
+      "id": "R13-S081",
+      "name": "ROLLOUT_PLAN_GENERATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_GENERATION"
+      }
+    },
+    {
+      "id": "R13-S082",
+      "name": "ROLLOUT_PLAN_RAW_HASH_CAS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_RAW_HASH_CAS"
+      }
+    },
+    {
+      "id": "R13-S083",
+      "name": "TARGET_BUILD_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "TARGET_BUILD_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S084",
+      "name": "TARGET_PACKAGE_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "TARGET_PACKAGE_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S085",
+      "name": "SOURCE_BUILD_SET_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_BUILD_SET_BOUND"
+      }
+    },
+    {
+      "id": "R13-S086",
+      "name": "R10_RELEASE_RECEIPT_DIGEST_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R10_RELEASE_RECEIPT_DIGEST_BOUND"
+      }
+    },
+    {
+      "id": "R13-S087",
+      "name": "R9_PHYSICAL_RECEIPT_DIGEST_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R9_PHYSICAL_RECEIPT_DIGEST_BOUND"
+      }
+    },
+    {
+      "id": "R13-S088",
+      "name": "RING_LAB_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_LAB_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S089",
+      "name": "RING_CANARY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_CANARY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S090",
+      "name": "RING_EARLY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_EARLY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S091",
+      "name": "RING_BROAD_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_BROAD_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S092",
+      "name": "RING_MAJORITY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MAJORITY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S093",
+      "name": "RING_FULL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_FULL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S094",
+      "name": "RING_TARGET_BASIS_POINTS_MONOTONIC",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_TARGET_BASIS_POINTS_MONOTONIC"
+      }
+    },
+    {
+      "id": "R13-S095",
+      "name": "RING_MIN_INSTALLATIONS_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MIN_INSTALLATIONS_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S096",
+      "name": "RING_MIN_SESSIONS_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MIN_SESSIONS_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S097",
+      "name": "RING_MIN_DWELL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MIN_DWELL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S098",
+      "name": "RING_EVIDENCE_COVERAGE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_EVIDENCE_COVERAGE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S099",
+      "name": "RING_ADVANCE_SINGLE_STEP",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_ADVANCE_SINGLE_STEP"
+      }
+    },
+    {
+      "id": "R13-S100",
+      "name": "RING_REGRESSION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_REGRESSION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S101",
+      "name": "RING_PAUSE_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_PAUSE_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S102",
+      "name": "RING_CONTAIN_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_CONTAIN_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S103",
+      "name": "RING_COMPLETE_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_COMPLETE_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S104",
+      "name": "RING_REJECT_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_REJECT_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S105",
+      "name": "PLAN_SUPERSESSION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_SUPERSESSION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S106",
+      "name": "PLAN_SPLIT_BRAIN_DETECTION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_SPLIT_BRAIN_DETECTION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S107",
+      "name": "PLAN_APPEND_ONLY_LEDGER_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_APPEND_ONLY_LEDGER_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S108",
+      "name": "PLAN_OPERATOR_APPROVAL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_OPERATOR_APPROVAL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S109",
+      "name": "LEASE_ROLLOUT_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_ROLLOUT_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S110",
+      "name": "LEASE_PLAN_DIGEST_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_PLAN_DIGEST_BOUND"
+      }
+    },
+    {
+      "id": "R13-S111",
+      "name": "LEASE_RING_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_RING_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S112",
+      "name": "LEASE_COHORT_BUCKET_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_COHORT_BUCKET_BOUND"
+      }
+    },
+    {
+      "id": "R13-S113",
+      "name": "LEASE_INSTALLATION_PSEUDONYM_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_INSTALLATION_PSEUDONYM_BOUND"
+      }
+    },
+    {
+      "id": "R13-S114",
+      "name": "LEASE_TARGET_BUILD_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_TARGET_BUILD_BOUND"
+      }
+    },
+    {
+      "id": "R13-S115",
+      "name": "LEASE_TARGET_PACKAGE_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_TARGET_PACKAGE_BOUND"
+      }
+    },
+    {
+      "id": "R13-S116",
+      "name": "LEASE_SOURCE_BUILD_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_SOURCE_BUILD_BOUND"
+      }
+    },
+    {
+      "id": "R13-S117",
+      "name": "LEASE_LOCAL_R10_EXPECTED_GENERATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_LOCAL_R10_EXPECTED_GENERATION"
+      }
+    },
+    {
+      "id": "R13-S118",
+      "name": "LEASE_LOCAL_R10_EXPECTED_RAW_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_LOCAL_R10_EXPECTED_RAW_HASH"
+      }
+    },
+    {
+      "id": "R13-S119",
+      "name": "LEASE_NOT_BEFORE_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_NOT_BEFORE_BOUND"
+      }
+    },
+    {
+      "id": "R13-S120",
+      "name": "LEASE_EXPIRES_AT_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_EXPIRES_AT_BOUND"
+      }
+    },
+    {
+      "id": "R13-S121",
+      "name": "LEASE_SINGLE_USE_NONCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_SINGLE_USE_NONCE"
+      }
+    },
+    {
+      "id": "R13-S122",
+      "name": "LEASE_SIGNATURE_REQUIRED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_SIGNATURE_REQUIRED"
+      }
+    },
+    {
+      "id": "R13-S123",
+      "name": "LEASE_REVOCATION_ID_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_REVOCATION_ID_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S124",
+      "name": "LEASE_REPLAY_REJECTED_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_REPLAY_REJECTED_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S125",
+      "name": "LEASE_WRONG_RING_REJECTED_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_WRONG_RING_REJECTED_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S126",
+      "name": "LEASE_WRONG_PACKAGE_REJECTED_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_WRONG_PACKAGE_REJECTED_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S127",
+      "name": "LEASE_STALE_R10_REJECTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_STALE_R10_REJECTED"
+      }
+    },
+    {
+      "id": "R13-S128",
+      "name": "LEASE_OFFLINE_EXPIRY_REJECTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_OFFLINE_EXPIRY_REJECTED"
+      }
+    },
+    {
+      "id": "R13-S129",
+      "name": "LEASE_ONLY_AUTHORIZES_LOCAL_R10",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_ONLY_AUTHORIZES_LOCAL_R10"
+      }
+    },
+    {
+      "id": "R13-S130",
+      "name": "LEASE_CANNOT_WRITE_LOCAL_R10",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_CANNOT_WRITE_LOCAL_R10"
+      }
+    },
+    {
+      "id": "R13-S131",
+      "name": "LEASE_CANNOT_WRITE_R12_POINTER",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_CANNOT_WRITE_R12_POINTER"
+      }
+    },
+    {
+      "id": "R13-S132",
+      "name": "LEASE_CANNOT_ISSUE_R11_TOKEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_CANNOT_ISSUE_R11_TOKEN"
+      }
+    },
+    {
+      "id": "R13-S133",
+      "name": "LOCAL_R10_CAS_HANDOFF_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R10_CAS_HANDOFF_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S134",
+      "name": "LOCAL_R12_UPDATE_HANDOFF_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R12_UPDATE_HANDOFF_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S135",
+      "name": "LOCAL_R11_ATTESTATION_HANDOFF_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R11_ATTESTATION_HANDOFF_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S136",
+      "name": "UNADMITTED_INSTALLATION_REMAINS_ON_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "UNADMITTED_INSTALLATION_REMAINS_ON_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S137",
+      "name": "LOCAL_EVIDENCE_ALLOWLIST_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_ALLOWLIST_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S138",
+      "name": "LOCAL_EVIDENCE_SCHEMA_VERSIONED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SCHEMA_VERSIONED"
+      }
+    },
+    {
+      "id": "R13-S139",
+      "name": "LOCAL_EVIDENCE_RELEASE_SCOPED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_RELEASE_SCOPED"
+      }
+    },
+    {
+      "id": "R13-S140",
+      "name": "LOCAL_EVIDENCE_RING_SCOPED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_RING_SCOPED"
+      }
+    },
+    {
+      "id": "R13-S141",
+      "name": "LOCAL_EVIDENCE_INSTALLATION_PSEUDONYM",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_INSTALLATION_PSEUDONYM"
+      }
+    },
+    {
+      "id": "R13-S142",
+      "name": "LOCAL_EVIDENCE_SEQUENCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SEQUENCE"
+      }
+    },
+    {
+      "id": "R13-S143",
+      "name": "LOCAL_EVIDENCE_NONCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_NONCE"
+      }
+    },
+    {
+      "id": "R13-S144",
+      "name": "LOCAL_EVIDENCE_SIGNATURE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SIGNATURE"
+      }
+    },
+    {
+      "id": "R13-S145",
+      "name": "LOCAL_EVIDENCE_SELF_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SELF_HASH"
+      }
+    },
+    {
+      "id": "R13-S146",
+      "name": "LOCAL_EVIDENCE_R10_RESULT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_R10_RESULT"
+      }
+    },
+    {
+      "id": "R13-S147",
+      "name": "LOCAL_EVIDENCE_R12_RESULT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_R12_RESULT"
+      }
+    },
+    {
+      "id": "R13-S148",
+      "name": "LOCAL_EVIDENCE_R11_RESULT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_R11_RESULT"
+      }
+    },
+    {
+      "id": "R13-S149",
+      "name": "LOCAL_EVIDENCE_CANARY_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_CANARY_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S150",
+      "name": "LOCAL_EVIDENCE_CRASH_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_CRASH_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S151",
+      "name": "LOCAL_EVIDENCE_DEVICE_LOSS_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_DEVICE_LOSS_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S152",
+      "name": "LOCAL_EVIDENCE_QUARANTINE_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_QUARANTINE_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S153",
+      "name": "LOCAL_EVIDENCE_SESSION_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SESSION_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S154",
+      "name": "LOCAL_EVIDENCE_EXPOSURE_DURATION_BUCKET",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_EXPOSURE_DURATION_BUCKET"
+      }
+    },
+    {
+      "id": "R13-S155",
+      "name": "LOCAL_EVIDENCE_ADAPTER_FAMILY_BUCKET",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_ADAPTER_FAMILY_BUCKET"
+      }
+    },
+    {
+      "id": "R13-S156",
+      "name": "LOCAL_EVIDENCE_NO_RAW_LOGS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_NO_RAW_LOGS"
+      }
+    },
+    {
+      "id": "R13-S157",
+      "name": "AGGREGATOR_SIGNATURE_VERIFICATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_SIGNATURE_VERIFICATION"
+      }
+    },
+    {
+      "id": "R13-S158",
+      "name": "AGGREGATOR_REPLAY_DEDUP",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_REPLAY_DEDUP"
+      }
+    },
+    {
+      "id": "R13-S159",
+      "name": "AGGREGATOR_SEQUENCE_MONOTONIC",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_SEQUENCE_MONOTONIC"
+      }
+    },
+    {
+      "id": "R13-S160",
+      "name": "AGGREGATOR_UNIQUE_PSEUDONYM_COUNT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_UNIQUE_PSEUDONYM_COUNT"
+      }
+    },
+    {
+      "id": "R13-S161",
+      "name": "AGGREGATOR_LATE_EVIDENCE_BUCKET",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_LATE_EVIDENCE_BUCKET"
+      }
+    },
+    {
+      "id": "R13-S162",
+      "name": "AGGREGATOR_MISSING_EVIDENCE_NOT_SUCCESS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_MISSING_EVIDENCE_NOT_SUCCESS"
+      }
+    },
+    {
+      "id": "R13-S163",
+      "name": "AGGREGATOR_EXACT_DECISION_VIEW",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_EXACT_DECISION_VIEW"
+      }
+    },
+    {
+      "id": "R13-S164",
+      "name": "AGGREGATOR_PUBLIC_PRIVACY_VIEW",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_PUBLIC_PRIVACY_VIEW"
+      }
+    },
+    {
+      "id": "R13-S165",
+      "name": "AGGREGATE_CHILD_DIGESTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_CHILD_DIGESTS"
+      }
+    },
+    {
+      "id": "R13-S166",
+      "name": "AGGREGATE_SELF_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_SELF_HASH"
+      }
+    },
+    {
+      "id": "R13-S167",
+      "name": "AGGREGATE_APPEND_ONLY_LEDGER",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_APPEND_ONLY_LEDGER"
+      }
+    },
+    {
+      "id": "R13-S168",
+      "name": "AGGREGATE_DECISION_INPUT_FREEZE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_DECISION_INPUT_FREEZE"
+      }
+    },
+    {
+      "id": "R13-S169",
+      "name": "CRITICAL_BREAKER_TABLE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CRITICAL_BREAKER_TABLE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S170",
+      "name": "NONCRITICAL_THRESHOLD_TABLE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NONCRITICAL_THRESHOLD_TABLE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S171",
+      "name": "WILSON_UPPER_BOUND_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "WILSON_UPPER_BOUND_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S172",
+      "name": "BASELINE_COMPARISON_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "BASELINE_COMPARISON_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S173",
+      "name": "ZERO_CRITICAL_EVENT_POLICY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ZERO_CRITICAL_EVENT_POLICY"
+      }
+    },
+    {
+      "id": "R13-S174",
+      "name": "PAUSE_STOPS_NEW_LEASES",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PAUSE_STOPS_NEW_LEASES"
+      }
+    },
+    {
+      "id": "R13-S175",
+      "name": "PAUSE_REVOKES_UNCONSUMED_LEASES",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PAUSE_REVOKES_UNCONSUMED_LEASES"
+      }
+    },
+    {
+      "id": "R13-S176",
+      "name": "CONTAINMENT_DIRECTIVE_SIGNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_SIGNED"
+      }
+    },
+    {
+      "id": "R13-S177",
+      "name": "CONTAINMENT_DIRECTIVE_RELEASE_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_RELEASE_BOUND"
+      }
+    },
+    {
+      "id": "R13-S178",
+      "name": "CONTAINMENT_DIRECTIVE_GENERATION_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_GENERATION_BOUND"
+      }
+    },
+    {
+      "id": "R13-S179",
+      "name": "CONTAINMENT_DIRECTIVE_EXPIRY_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_EXPIRY_BOUND"
+      }
+    },
+    {
+      "id": "R13-S180",
+      "name": "CONTAINMENT_CANNOT_MUTATE_POINTER",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_CANNOT_MUTATE_POINTER"
+      }
+    },
+    {
+      "id": "R13-S181",
+      "name": "CONTAINMENT_CAN_REQUEST_R11_QUARANTINE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_CAN_REQUEST_R11_QUARANTINE"
+      }
+    },
+    {
+      "id": "R13-S182",
+      "name": "ROLLBACK_RECOMMENDATION_PER_INSTALLATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_PER_INSTALLATION"
+      }
+    },
+    {
+      "id": "R13-S183",
+      "name": "ROLLBACK_RECOMMENDATION_R10_ONLY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_R10_ONLY"
+      }
+    },
+    {
+      "id": "R13-S184",
+      "name": "ROLLBACK_RECOMMENDATION_EXPECTED_CAS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_EXPECTED_CAS"
+      }
+    },
+    {
+      "id": "R13-S185",
+      "name": "NO_ROLLBACK_TARGET_INVENTION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_ROLLBACK_TARGET_INVENTION"
+      }
+    },
+    {
+      "id": "R13-S186",
+      "name": "NO_REMOTE_SILENT_ROLLBACK",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_REMOTE_SILENT_ROLLBACK"
+      }
+    },
+    {
+      "id": "R13-S187",
+      "name": "SMALL_CELL_SUPPRESSION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SMALL_CELL_SUPPRESSION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S188",
+      "name": "K_ANONYMITY_MINIMUM_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "K_ANONYMITY_MINIMUM_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S189",
+      "name": "SOURCE_NEGATIVE_CONTROLS_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_NEGATIVE_CONTROLS_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S190",
+      "name": "SOURCE_FINALIZER_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_FINALIZER_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S191",
+      "name": "SOURCE_GATE_REPORT_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_GATE_REPORT_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S192",
+      "name": "FLEET_GATES_PENDING_IN_SOURCE_MODE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FLEET_GATES_PENDING_IN_SOURCE_MODE"
+      }
+    }
+  ],
+  "pass": true,
+  "selfSha256": "db2fa61534d007acc2f026afde19f50d6f68ec4846cf7b087fe070fd466ee7d3"
+}

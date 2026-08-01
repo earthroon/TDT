@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "graphRelative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+  "graphDigest": "6b36dbb7f80157c6c2a50b68287d62740969f6821d7a59cd9d87a9792eed4bfe",
+  "rootCount": 56,
+  "nodeCount": 365,
+  "edgeCount": 374,
+  "sideEffectCount": 7,
+  "quarantineCount": 1,
+  "baselineReceiptDigest": null,
+  "receiptDigest": "8ffbeed95751185457b8c0e87d115b5c259c2a80c43586975737ffb26de7708b"
+}

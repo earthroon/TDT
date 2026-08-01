@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "manifest-present",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "r8-runtime-assets-admitted",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "tools-not-admitted",
+      "pass": true,
+      "value": true
+    }
+  ]
+}

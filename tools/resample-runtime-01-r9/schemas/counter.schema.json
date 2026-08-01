@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt://schemas/resample-runtime-01-r9/counter.schema.json",
+  "title": "TDT R9 counter evidence",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "dispatchResults",
+    "counterWidth",
+    "allAdmittedZero"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": [
+        "string",
+        "number",
+        "integer",
+        "boolean",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "dispatchResults": {
+      "type": [
+        "string",
+        "number",
+        "integer",
+        "boolean",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "counterWidth": {
+      "type": [
+        "string",
+        "number",
+        "integer",
+        "boolean",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "allAdmittedZero": {
+      "type": [
+        "string",
+        "number",
+        "integer",
+        "boolean",
+        "array",
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

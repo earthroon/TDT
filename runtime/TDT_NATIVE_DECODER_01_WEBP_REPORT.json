@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-NATIVE-DECODER-01",
+  "status": "BLOCKED_RELEASE_ADDON_MISSING",
+  "evidenceState": "SOURCE_BAKED_UNPROMOTED",
+  "blockers": [
+    "release-addon-missing",
+    "win32-x64-release-build-not-run",
+    "packaged-electron-execution-not-run",
+    "independent-pixel-roundtrip-not-run"
+  ],
+  "expectedSurface": "rgba8unorm-u8-v1",
+  "hiddenRgbVerified": false,
+  "selfDigest": "bba43cba8075d555b810081006f6f55e70604e14b8558a81fed81b74594bb1b4"
+}

@@ -1,0 +1,31 @@
+{
+  "patchId": "TDT-EXPORT-WORKER-04",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "buildId": "22997b711a2f00ce5912c49e",
+  "generatedAt": "2026-07-24T15:23:36.631299Z",
+  "workerSourceManifestDigest": "230bd177fa54495b276913d1eb5702fa3b022b1420bed9bd396fdda468dae0f7",
+  "artifactVerificationMode": "source-graph-only",
+  "schema": "dadum-ew04-independent-roundtrip-report-v1",
+  "result": "NOT_RUN",
+  "independentDecoderVerified": false,
+  "pixelPlaneRoundTripVerified": false,
+  "structureVerifierSourceIncluded": true,
+  "sourceReferenceStructureSmokePassed": true,
+  "verifiedInSourceBake": [
+    "8BPS/version/reserved bytes",
+    "dimensions/channels/depth/color mode",
+    "resource 1005 count",
+    "resource 1039 count",
+    "layer count",
+    "RAW/RLE merged compression",
+    "exact EOF"
+  ],
+  "notVerified": [
+    "independent PSD decoder decode",
+    "plane digest parity",
+    "hidden RGB round-trip",
+    "Photoshop interoperability",
+    "Electron file export/open"
+  ],
+  "reason": "No independent PSD decoder runtime and no built canonical Rust/WASM v2 artifact were available in the container."
+}

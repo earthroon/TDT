@@ -1,0 +1,1 @@
+import {generateCandidateLock} from './candidate-lock.mjs';const workspace=process.argv[2];if(!workspace)throw Object.assign(new Error('workspace required'),{code:'E_BUILD_LOCK_R2_WIN32_RECEIPT_MISSING'});console.log(JSON.stringify(generateCandidateLock({workspace,allowNetwork:true}),null,2));

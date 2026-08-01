@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-MODJPEG-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "CANONICAL_PTHREAD_ARTIFACT_SOURCE_ADOPTED",
+  "buildId": "24a051fd97023b761a9ddadc",
+  "sourceBakeSeal": "e56f1babb1843c8e53d54578b7c8d1cc7bba552a3ddfaa4ca561264af28ca2e5",
+  "buildAuthorityDigest": "9d6e81e9fdecded8db3c53badaf650cdb8056c32e121f47a5cd4b7718abb5846",
+  "sourceWorkerManifestDigest": "435ac3eac48b6ec05a84df1d687d4c0d36886c633b9d418c2917d1cf11c8e3ab",
+  "modjpegWorkerArtifactSetDigest": "1883ff7a565f03ce9c8b2ae6b632fb4030fe08afd325cdfc66c8b1bce86551ff",
+  "canonicalArtifactBytesPreserved": true,
+  "canonicalPthreadArtifact": true,
+  "pthreadPoolSize": 8,
+  "sharedMemoryContractVerifiedAtSource": true,
+  "viteDevCoiConfigured": true,
+  "vitePreviewCoiConfigured": true,
+  "electronCoiConfigured": true,
+  "childWorkerTrackerRuntimeSmokePassed": true,
+  "abiPreserved": true,
+  "baseline444StructureSmokePassed": true,
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "noncanonical-build-host",
+    "production-emitted-pthread-child-bootstrap-not-verified",
+    "packaged-electron-coi-generation-closure-not-executed",
+    "jpeg-output-identity-repetition-corpus-not-executed"
+  ],
+  "receiptDigest": "a1d43caf42ecc2e65b315ef32b97271bcac7cac2878d3b1c9f67c9569ce8756b"
+}

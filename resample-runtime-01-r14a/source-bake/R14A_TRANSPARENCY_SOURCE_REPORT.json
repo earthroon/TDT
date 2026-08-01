@@ -1,0 +1,11 @@
+{
+  "checkpointSha256": "b5f848fabe3b1521fd937dc25d258315477849bd1df35c56450ecc69b779269c",
+  "failCount": 0,
+  "leafSha256": "add7a129838da5a67963d96811990db8615fbbf335f24ca86e336e07d601ddbf",
+  "passCount": 5,
+  "rootHash": "2def72c30673fd1142f2d047d1acde449a404827fa34810c054e5b2641977d1b",
+  "schemaVersion": 1,
+  "selfSha256": "d4b7f591f19d662f756ae1e83629514a0406a49673cfe074a0baf033925e13ae",
+  "treeSize": 1,
+  "witnessSetSha256": "e8f2edebd0bcec97e3c51646dc8b1f1995b658be620d567a9340802c7449bbb1"
+}

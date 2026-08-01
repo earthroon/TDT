@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "negative-radius-clamp",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "negative-center-fallback",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "negative-minor-underestimate",
+      "pass": true,
+      "value": {
+        "old": 1,
+        "now": 2
+      }
+    },
+    {
+      "id": "negative-neutral-uninitialized",
+      "pass": true,
+      "value": {
+        "bad": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "good": [
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "negative-border-dedup",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "negative-alpha-static",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "negative-fault-clamp",
+      "pass": true,
+      "value": true
+    }
+  ]
+}

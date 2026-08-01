@@ -1,0 +1,15 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/source-gate-report.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "patchId",
+    "pass",
+    "counts",
+    "gates",
+    "selfSha256"
+  ],
+  "title": "R12A source-gate-report",
+  "type": "object"
+}

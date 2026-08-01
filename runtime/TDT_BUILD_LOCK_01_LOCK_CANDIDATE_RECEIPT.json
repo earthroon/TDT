@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "state": "INPUT_PROFILE_SEALED",
+  "generated": false,
+  "blocker": "REGISTRY_AVAILABILITY_5XX",
+  "packageJsonMutationZero": true
+}

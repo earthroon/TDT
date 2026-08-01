@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.resample.downstream-invalidation.r8a.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "state": "R9_TO_R13_SOURCE_RECEIPTS_SUPERSEDED_BY_R8A_REBASE_REQUIRED",
+  "reason": "active-runtime-code-mutated-after-r9-r13-source-receipts",
+  "historicalReceipts": [
+    {
+      "relativePath": "artifacts/resample-runtime-01-r9/source-bake/TDT_RESAMPLE_RUNTIME_01_R9_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+      "status": "SUPERSEDED_BY_R8A",
+      "retainedReadOnly": true,
+      "currentPromotionEvidence": false
+    },
+    {
+      "relativePath": "artifacts/resample-runtime-01-r10/source-bake/TDT_RESAMPLE_RUNTIME_01_R10_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "76e47a1ea47f4ff662c50992dfd5fdcac262a38e73931da3c0bb3ede9cb52b77",
+      "status": "SUPERSEDED_BY_R8A",
+      "retainedReadOnly": true,
+      "currentPromotionEvidence": false
+    },
+    {
+      "relativePath": "artifacts/resample-runtime-01-r11/source-bake/TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "755281a73d3ec201dfdf94e6f94c52f4a6a0f6a599f5f21dab296972b92e273e",
+      "status": "SUPERSEDED_BY_R8A",
+      "retainedReadOnly": true,
+      "currentPromotionEvidence": false
+    },
+    {
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/TDT_RESAMPLE_RUNTIME_01_R12_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "4bf9ae0efbd18ba97f996c3ba81032a7707cd9e4cc96076d71400a26eab5889c",
+      "status": "SUPERSEDED_BY_R8A",
+      "retainedReadOnly": true,
+      "currentPromotionEvidence": false
+    },
+    {
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/TDT_RESAMPLE_RUNTIME_01_R13_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "0023fbacaae88f442c653787dd2624e88966b0f7f4bc9e27c8cd3ee70814cb3d",
+      "status": "SUPERSEDED_BY_R8A",
+      "retainedReadOnly": true,
+      "currentPromotionEvidence": false
+    }
+  ],
+  "replayOrder": [
+    "TDT-RESAMPLE-RUNTIME-01-R8A",
+    "TDT-RESAMPLE-RUNTIME-01-R9A",
+    "TDT-RESAMPLE-RUNTIME-01-R10",
+    "TDT-RESAMPLE-RUNTIME-01-R11",
+    "TDT-RESAMPLE-RUNTIME-01-R12",
+    "TDT-RESAMPLE-RUNTIME-01-R13"
+  ],
+  "carryForwardPassCount": 0,
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R9A",
+  "productionPointerMutated": false,
+  "localActivationPointerMutated": false,
+  "selfSha256": "49fbcb468c9e7fe0ed92e4a7284e0055a0e7c767e118dc9e2e801a1620e76dfe"
+}

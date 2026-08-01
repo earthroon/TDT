@@ -1,0 +1,60 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-08",
+  "name": "WGSL Split Mask / QMap Feather Clamp Seal Real Code Patch",
+  "status": "PASS",
+  "created_at": "2026-07-06T04:54:40Z",
+  "depends_on": [
+    "TDT-BLENDIF-WGPU-01",
+    "TDT-BLENDIF-WGPU-02",
+    "TDT-BLENDIF-WGPU-03",
+    "TDT-BLENDIF-WGPU-04",
+    "TDT-BLENDIF-WGPU-05",
+    "TDT-BLENDIF-WGPU-06",
+    "TDT-BLENDIF-WGPU-07"
+  ],
+  "mutation_policy": "direct-source-edit-no-apply-script",
+  "changed_files": [
+    "app/js/passes/blendif_webgpu_wgsl.js"
+  ],
+  "checked_files": [
+    "app/js/passes/blendif_webgpu_pass.js",
+    "app/js/passes/dk_after_final_color_webgpu.js",
+    "app/js/blendif/blendif_schema.js",
+    "app/blendif_ui.js"
+  ],
+  "split_mask": {
+    "ramp_up": true,
+    "ramp_down": true,
+    "split_mask_function": true,
+    "legacy_range_mask_used": false,
+    "under_mask_uses_underSplit": true,
+    "this_mask_uses_thisSplit": true
+  },
+  "qmap_feather_clamp": {
+    "qmap_feather_preserved": true,
+    "qf_formula": "q * qmapSigma",
+    "qfeather_max_used": true,
+    "gap_clamp_used": true,
+    "invariant_after_qf": "bHi <= wLo"
+  },
+  "params_policy": {
+    "params_struct_changed": false,
+    "uniform_bytes_changed": false,
+    "pack_params_changed": false,
+    "qFeatherMax_source": "P.blend.z"
+  },
+  "forbidden_mutations_checked": {
+    "params_struct_changed": false,
+    "uniform_layout_changed": false,
+    "pack_params_rewritten": false,
+    "split_ui_changed_again": false,
+    "oklab_added": false,
+    "use_oklab_removed": false,
+    "preset_migration_added": false,
+    "webgl_fallback_revived": false,
+    "blend_mode_changed_again": false,
+    "range_mapping_policy_changed": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_08_SPLIT_MASK_QMAP_CLAMP"
+}

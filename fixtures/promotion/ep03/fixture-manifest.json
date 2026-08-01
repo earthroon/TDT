@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "fixtureManifestId": "dadum.export.ep03-fixture-corpus-v1",
+  "records": [
+    {
+      "fixtureId": "rgba8-opaque-grid-v1",
+      "width": 8,
+      "height": 8,
+      "storage": "rgba8unorm",
+      "byteLength": 256,
+      "sha256": "8cc41a10ee441e538ed89c30d74e8ee453e0ae1de8a0276407ec9243fd5e6243",
+      "relativePath": "fixtures/promotion/ep03/rgba8-opaque-grid-v1.rgba8unorm.bin",
+      "purposes": [
+        "png8",
+        "webp",
+        "jpeg",
+        "jxl",
+        "psd-rgb8"
+      ]
+    },
+    {
+      "fixtureId": "rgba8-hidden-rgb-v1",
+      "width": 8,
+      "height": 8,
+      "storage": "rgba8unorm",
+      "byteLength": 256,
+      "sha256": "fcb4d166c2fdf3302b0b5e79573dbbc494f4b8fbb3ef94de6efdacbb5e86c0df",
+      "relativePath": "fixtures/promotion/ep03/rgba8-hidden-rgb-v1.rgba8unorm.bin",
+      "purposes": [
+        "png8",
+        "webp",
+        "jxl",
+        "psd-rgb8",
+        "hidden-rgb"
+      ]
+    },
+    {
+      "fixtureId": "rgba8-alpha-matte-v1",
+      "width": 8,
+      "height": 8,
+      "storage": "rgba8unorm",
+      "byteLength": 256,
+      "sha256": "45c0f27ccd38f68735c0d9e34c1cebb3766ba42ebf96ed0deca8bbccb272b02d",
+      "relativePath": "fixtures/promotion/ep03/rgba8-alpha-matte-v1.rgba8unorm.bin",
+      "purposes": [
+        "jpeg-matte",
+        "psd-alpha"
+      ]
+    },
+    {
+      "fixtureId": "rgba16le-gradient-v1",
+      "width": 8,
+      "height": 8,
+      "storage": "rgba16le",
+      "byteLength": 512,
+      "sha256": "b0c991390ad345c6fd34fdc08e42fdd178318251f8e743c421c8568acb3c8503",
+      "relativePath": "fixtures/promotion/ep03/rgba16le-gradient-v1.rgba16le.bin",
+      "purposes": [
+        "png16",
+        "psd-rgb16"
+      ]
+    }
+  ],
+  "requiredColorProfiles": [
+    {
+      "profileId": "ep03-source-srgb-v1",
+      "role": "source-rgb",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "profileId": "ep03-destination-cmyk-a-v1",
+      "role": "destination-cmyk",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "profileId": "ep03-destination-cmyk-b-v1",
+      "role": "destination-cmyk",
+      "present": false,
+      "sha256": null
+    }
+  ],
+  "corpusDigest": "ce6abed114d85241866523700d6430a2b9dbeb0144a334fee5c218b09ac725b7"
+}

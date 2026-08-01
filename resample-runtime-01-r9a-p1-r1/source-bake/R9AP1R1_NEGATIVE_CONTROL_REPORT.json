@@ -1,0 +1,153 @@
+{
+  "failCount": 0,
+  "passCount": 36,
+  "receiptKind": "r9a-p1-r1-negative-controls",
+  "schemaVersion": 1,
+  "selfSha256": "adf3dd1fba5443c173fce9b3efedd61268b2eafea998bbc0c5422fd6061614fc",
+  "tests": [
+    {
+      "id": "NC01-CLOSURE-DIGEST",
+      "status": "PASS"
+    },
+    {
+      "id": "NC02-CLOSURE-ROW-COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC03-CLOSURE-ROW-MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "id": "NC04-CLOSURE-MISSING-ROW",
+      "status": "PASS"
+    },
+    {
+      "id": "NC05-PERMIT-WINDOW",
+      "status": "PASS"
+    },
+    {
+      "id": "NC06-BOOT-CHALLENGE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC07-SESSION-ID",
+      "status": "PASS"
+    },
+    {
+      "id": "NC08-SESSION-MAC",
+      "status": "PASS"
+    },
+    {
+      "id": "NC09-OPERATION-DENY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC10-GRANT-BINDING",
+      "status": "PASS"
+    },
+    {
+      "id": "NC11-GRANT-REPLAY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC12-DIRECT-RUNDELTAK",
+      "status": "PASS"
+    },
+    {
+      "id": "NC13-DIRECT-DOWNSCALE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC14-DIRECT-COMMAND-GRAPH",
+      "status": "PASS"
+    },
+    {
+      "id": "NC15-PRIVATE-GPU-AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC16-LEGACY-PUBLISH",
+      "status": "PASS"
+    },
+    {
+      "id": "NC17-OLD-VITE-ENTRY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC18-PACKAGE-INTERNAL-SIDECAR",
+      "status": "PASS"
+    },
+    {
+      "id": "NC19-NORMAL-BOOTSTRAP",
+      "status": "PASS"
+    },
+    {
+      "id": "NC20-PREVIEW-PUBLIC",
+      "status": "PASS"
+    },
+    {
+      "id": "NC21-EXPORT-PUBLIC",
+      "status": "PASS"
+    },
+    {
+      "id": "NC22-EVIDENCE-SINK",
+      "status": "PASS"
+    },
+    {
+      "id": "NC23-POINTER-WRITE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC24-INSTALLED-CLAIM",
+      "status": "PASS"
+    },
+    {
+      "id": "NC25-NORMAL-WORK",
+      "status": "PASS"
+    },
+    {
+      "id": "NC26-ARBITRARY-FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC27-FIXTURE-REPLAY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC28-SCHEDULE-DIGEST",
+      "status": "PASS"
+    },
+    {
+      "id": "NC29-PNG-ENCODER",
+      "status": "PASS"
+    },
+    {
+      "id": "NC30-SHARED-TUPLE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC31-SIDECAR-PATH-RAW-EXPOSURE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC32-DIRECT-DRIVER-COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC33-USER-DIALOG-ZERO",
+      "status": "PASS"
+    },
+    {
+      "id": "NC34-PARENT-CARRY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC35-SUMMARY-ONLY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC36-PACKAGED-WITHOUT-RECEIPT",
+      "status": "PASS"
+    }
+  ]
+}

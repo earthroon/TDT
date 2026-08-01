@@ -1,0 +1,4 @@
+PASS surface source contract checks=25
+PASS surface call-site audit files=784 filteredRgba8Assignments=0
+PASS actual Surface Authority runtime smoke deferred-dispose device-loss ledger shutdown
+TDT-SURFACE-LIFECYCLE-01 52 PASS / 8 DEFERRED / 0 FAIL

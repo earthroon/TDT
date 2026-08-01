@@ -1,0 +1,2391 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "policyId": "dadum.legacy-static-admission-v1",
+  "sourceRoot": "app/legacy-runtime",
+  "records": [
+    {
+      "sourceRelative": "app/legacy-runtime/ac_wire.js",
+      "route": "/legacy/ac_wire.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.ac_wire.js",
+      "sourceSha256": "4aa9ecc12a89c787e5fb806e7fffdf1da66f1afff178fd5b04461e9d4c73b513",
+      "sourceByteLength": 4344,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/icms-auto-binding.js",
+      "route": "/legacy/active-graph/icms-auto-binding.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "dfe52b4d7f77b9f3438b8f0dadbf054411cdb4b673a02c16a679bde7bb6244a8",
+      "sourceByteLength": 135,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-ash-qmap-binding.js",
+      "route": "/legacy/active-graph/legacy-ash-qmap-binding.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "ef497f3065856af0ecd69357f6779e248de55f56c885e6142b1bb23f45fef648",
+      "sourceByteLength": 337,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-batch-queue.js",
+      "route": "/legacy/active-graph/legacy-batch-queue.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "0c8301cc5bb879e4214074463f9401673f74dd8ac1efd0fbfda3f1e61fe6571f",
+      "sourceByteLength": 170,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-delta-k-controls.js",
+      "route": "/legacy/active-graph/legacy-delta-k-controls.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "1bd239816d12363e066479a0186cba40139adff086c6e61f3e5bc24d682ef11d",
+      "sourceByteLength": 212,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-filter-worker-bridge.js",
+      "route": "/legacy/active-graph/legacy-filter-worker-bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "c6b8018e13a188b688d2cce872669029d5e2cc921dcd882a46b84178839752d1",
+      "sourceByteLength": 359,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-main-entry.js",
+      "route": "/legacy/active-graph/legacy-main-entry.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "b463073746dc63946ef988253c1b0d9c210736dc707d0856ea305e33db51ab04",
+      "sourceByteLength": 1321,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-spot-psd-binding.js",
+      "route": "/legacy/active-graph/legacy-spot-psd-binding.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "a06cd54f144d1c27951233b8e7cafc5d4fe78780851566dda2adf3de1f0897fc",
+      "sourceByteLength": 2242,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/applyEmotionPreblurFusion.js",
+      "route": "/legacy/applyEmotionPreblurFusion.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "sourceSha256": "9117cf41900c288ee96608cbaaaa24218b4c494fac24c83814eec8cc7aba61c6",
+      "sourceByteLength": 2815,
+      "parent": "app/legacy-runtime/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/applyFinalTensorSharpen.js",
+      "route": "/legacy/applyFinalTensorSharpen.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "sourceSha256": "05821b22749fa93003f32a8125bb01dd829d5807c82ae81bb0ec92f66bcb0f46",
+      "sourceByteLength": 608,
+      "parent": "app/legacy-runtime/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_combine.js",
+      "route": "/legacy/ASH_QMAP_PostPatch_kit/js/qmap_combine.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "3785408f67ef21cf7d8e0e668a6b871584ac30ca74f440a1b22af4c8cb8b2d30",
+      "sourceByteLength": 5790,
+      "parent": "app/legacy-runtime/export_webp_near_adaptive.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_fft.js",
+      "route": "/legacy/ASH_QMAP_PostPatch_kit/js/qmap_fft.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "8adb834e974cecb13646931275594203cfb9ef6b500a14373a56f8b22842962b",
+      "sourceByteLength": 3999,
+      "parent": "app/legacy-runtime/export_webp_near_adaptive.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/batchExportColorMask.js",
+      "route": "/legacy/batchExportColorMask.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "d5e8ab0345c01e2622ffe65753fe0823357d9de9363a22734f5d2e7d8bec9b3b",
+      "sourceByteLength": 1152,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/blendif_ui.js",
+      "route": "/legacy/blendif_ui.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.blendif_ui.js",
+      "sourceSha256": "5306d7c14fe3e96f89728f19871151542a8c341600db6c931226216005e17077",
+      "sourceByteLength": 27914,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/computeQmapCentroid.js",
+      "route": "/legacy/computeQmapCentroid.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "sourceSha256": "ca5bc1edceb18507d046ee9ba71b8926198eb07ed5af7cb1f46a7a560db80f49",
+      "sourceByteLength": 758,
+      "parent": "app/legacy-runtime/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/constants/artifactClean.const.js",
+      "route": "/legacy/constants/artifactClean.const.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.ac_wire.js",
+      "sourceSha256": "70a867eff32a564fb0c33f5be43b1e291779687cb5187b2fda8dc4ff6dfe4074",
+      "sourceByteLength": 4998,
+      "parent": "app/legacy-runtime/ac_wire.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/ASH_GrainDecisionKernel.js",
+      "route": "/legacy/core/ASH_GrainDecisionKernel.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "0ee3bb528c187e1d617a42d90606b07dd8cf71cfb2c797261d2bf53d07c56ed0",
+      "sourceByteLength": 2433,
+      "parent": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/ASH_output.js",
+      "route": "/legacy/core/ASH_output.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "3de54d4a4d940051a1c3ea0a5e59c4035a080adf37e4d47bc5d52d6b09deb06a",
+      "sourceByteLength": 573,
+      "parent": "app/legacy-runtime/core/ASH_GrainDecisionKernel.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/ASH_TextureSense.js",
+      "route": "/legacy/core/ASH_TextureSense.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "5c0bad1cb0c2ee93322c2c78e836360770677b57e3ddf9d3bd4f0be05925c358",
+      "sourceByteLength": 1333,
+      "parent": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/ash/ASH_Adapter.js",
+      "route": "/legacy/core/ash/ASH_Adapter.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "e3420fad2ad0a23072dd1793ce60f41d3bcc9f813bf9cc816c533c2434bf203b",
+      "sourceByteLength": 2630,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/ash/ASH_QMapBridge.js",
+      "route": "/legacy/core/ash/ASH_QMapBridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "9c6c51a7334f33a8f31faa9869fcccd39edbc8161ed6225d08452440c4f323a7",
+      "sourceByteLength": 1726,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/bind_depth_pipeline.js",
+      "route": "/legacy/core/bind_depth_pipeline.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "cf777fbde4f9115de29b2df795535600ea7da66dcb79f84c63ed7c617480989d",
+      "sourceByteLength": 6132,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/filter_gated_apply.wgsl",
+      "route": "/legacy/core/compute/mask_webgpu/filter_gated_apply.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "b26b6ed2f29fba1392c8cd680de4917c6ab7bf104c1186e76f555bd803bbf9a7",
+      "sourceByteLength": 2305,
+      "parent": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "route": "/legacy/core/compute/mask_webgpu/mask_localized_manager.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "8bef11af28fee3c12aa0467e20907b990374277adc8b05902c8d2fb3f93dee63",
+      "sourceByteLength": 30665,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_pass.wgsl",
+      "route": "/legacy/core/compute/mask_webgpu/mask_localized_pass.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "dd17b55b3567df0afb97c80ebe0877f6c1e24f8bc0fcb55e964c1306b1613981",
+      "sourceByteLength": 2226,
+      "parent": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/mask_morph3x3.wgsl",
+      "route": "/legacy/core/compute/mask_webgpu/mask_morph3x3.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "c610546f27eb1cf36906afc6245e750e8d08bb02052a3886bf30695d1d4bd243",
+      "sourceByteLength": 1253,
+      "parent": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adapter.js",
+      "route": "/legacy/core/compute/qmap_webgpu/adapter.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "f8dd7604707c4f2f95f3b0ea50bc74c51eb5d73fa41760e140635aabafe420f1",
+      "sourceByteLength": 3484,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_contract.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/adaptive_policy_r1d_contract.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "ccbde7d53457e36b24f2db23e9202e362cdfbc94deb8cb0934e8dfbc6c921852",
+      "sourceByteLength": 4028,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_params.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/adaptive_policy_r1d_params.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "b2551ee2dae987247b3318793ecf9191ec4ecf073f184f9526b6b264a4183e9d",
+      "sourceByteLength": 1305,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_receipt.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/adaptive_policy_r1d_receipt.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "00001e4a3bdd44f2d880eb0d090189410a0e9182a10639c1937610beae4fe7b4",
+      "sourceByteLength": 786,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "42012bea8f920fbb2b528585132630438ef45f18fa77d77564816ccc041a1f3a",
+      "sourceByteLength": 4935,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/bilateral_preblur_tile_rgba16f.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/bilateral_preblur_tile_rgba16f.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "678da3426fab942a94cb7bcb2952f52d989d9b977572247633840715527f01a2",
+      "sourceByteLength": 2640,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/preblur_webgpu.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_rgba16f.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deband_dither_rgba16f.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "0a782b94c9d897cd6e0f507a3a715e92db46bee45ee914ee8222bcd80708018d",
+      "sourceByteLength": 2974,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_webgpu.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/deband_dither_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "9c25490084fd6d1d2ad4befc4e75f1be01a69d070ed6626a8f4cc47e33ce3136",
+      "sourceByteLength": 4214,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_rgba16f.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deblock_rgba16f.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "2518c28980b1a33c73d1e3c3b2c1bcd0427af96506dde5ce6e4f6246b6607785",
+      "sourceByteLength": 2790,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_webgpu.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/deblock_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "4c9d8853ac9a9a46ef6379cb3b0476b203df82e7e8c6296522106d7216474b3c",
+      "sourceByteLength": 3992,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_compare.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaE_compare.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "7414455ae8a2a91ec9504c26a8c30f0bb2627f3fd1d743591b0869ed25f55c74",
+      "sourceByteLength": 3407,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_safe_blend_rgba16f.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaE_safe_blend_rgba16f.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "1ef7ceb1bfbf59a0bc3447bec210a000a99584469443de2b6595cf42ffd88330",
+      "sourceByteLength": 2649,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "fe15fafebd1e6a6d236639b85194d81db1fbb583b3c399ee5ff7bb10fe060e73",
+      "sourceByteLength": 8345,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_downscale_only.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaK_downscale_only.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "18796da2cac32c6998bab54b10a89d25c199f85675143966ca8dcbcf4f5b66e5",
+      "sourceByteLength": 3685,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_gammaProof_webgpu.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaK_gammaProof_webgpu.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "28ae1aef32b395caa1d8956aa6fc7d0e2a126b6ba6599edf4002497f6504cc60",
+      "sourceByteLength": 2513,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_material_qmap_fused.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaK_material_qmap_fused.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "5b3a2616c47c2a6cb3ca2207154f945a4c5fc755fe7dc73776e63fb0c3a8e813",
+      "sourceByteLength": 4273,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_qmap_only.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaK_qmap_only.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "d7b3a03e40a63a821f591edd492cafd7875b5e01df80e3b222c02f0788f1a7c1",
+      "sourceByteLength": 3584,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "8d99b6b52336a63a6f5a1c52f49c0419ac20c7530c1ed6974982fcf49db8fc8f",
+      "sourceByteLength": 14264,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "7bcca59dada980af953bf8ac369bbf54f838c4e07eba8103158d4ffc2b489141",
+      "sourceByteLength": 13385,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v3.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_aniso_params_v3.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "7a46125442b519bd7b65b98b319260b1b7fcce5b46e98a4632f73d795accdc62",
+      "sourceByteLength": 1690,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_aniso_params.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "f4cac2bc78858475877597f4419d18e58c0c49c7905b78357b63a4eae04041dc",
+      "sourceByteLength": 5022,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_runtime_receipt.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_aniso_runtime_receipt.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "459cf74225b941eff22381765c80501098367985f72f1595dbc4702d30e39547",
+      "sourceByteLength": 850,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "92dbd206f747a6cbada1ae6f2b810ebd3cff74a64bd8197a1d21fce29e009b59",
+      "sourceByteLength": 16364,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_axial_contract_r5.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_axial_contract_r5.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "80d49122501f83157c76107a78365079cab53061a61d0693cadadefe570b2705",
+      "sourceByteLength": 613,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_multistage_runtime_receipt.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_multistage_runtime_receipt.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "8e06c87fcf4dc3614a3de0483d6f0f373dde00f251c5d567e66950a822706f24",
+      "sourceByteLength": 2849,
+      "parent": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_optimization_receipt_r4.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_optimization_receipt_r4.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "8b9ce4913616d684a8e08e66846d995883c77971c3785cc0da5340a4cec1ddb6",
+      "sourceByteLength": 1454,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_stage_planner.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "c4758506b719d763734470b311379f6aac155ae144206504171445d1abcf40f7",
+      "sourceByteLength": 8502,
+      "parent": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r4.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/ewa_tiled_profile_r4.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "008c48ed1e326952ec42b0e7f101957759f17942a364b2a6241fa1156aa3536a",
+      "sourceByteLength": 7995,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "084fa392a3083625edde22aa2996e9f0837d220b81171292e0cc266ada084cf7",
+      "sourceByteLength": 11578,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/index.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/guided_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/guided_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "96958a15c5475c12d6e3859b2fd7dde141ef331cb3a4ced1678f53067825f2b4",
+      "sourceByteLength": 8966,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/index.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/index.js",
+      "route": "/legacy/core/compute/qmap_webgpu/index.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "4d9a5fcab7460d0ec5a2554846065a897ea45b08077f2e6a582c4764fcbbaed1",
+      "sourceByteLength": 16951,
+      "parent": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_rgba16f.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/oklab_chroma_denoise_rgba16f.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "043437dc9059f9c3c5d1845b18f726a91892ab452f29982fbc9905e5f6668aa9",
+      "sourceByteLength": 4374,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_webgpu.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/oklab_chroma_denoise_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "5cc0b463fc21079e6dbcfa6db32e83705f9e440d0754bc0b0528ad7b07ff4da2",
+      "sourceByteLength": 4344,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/preblur_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/preblur_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "9e4c205ca1bb70a2d25439921052ce60148f5e42b7e3968e4cd22e1d92c95108",
+      "sourceByteLength": 3991,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/index.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/qmap_core.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/qmap_core.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "d13119dbbe7acc46fc08009de115500143e77f785e8d1cba79724c359b5e9292",
+      "sourceByteLength": 3293,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/index.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/resize_webgpu.js",
+      "route": "/legacy/core/compute/qmap_webgpu/resize_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "21e6893b4030dc6b9c4350bf789f9efc97e30bcf318350755fdd83c52be05b85",
+      "sourceByteLength": 7825,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "route": "/legacy/core/compute/qmap_webgpu/runtime.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "2eb81ff78d6423d172b6501dc6c4d97325497f4683006ebba9927dba1a2f7f8b",
+      "sourceByteLength": 61866,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/adaptive_policy_projection_r1d.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/adaptive_policy_projection_r1d.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "3602951807672a520bf045a164abc697e61a63b00fc54afa519384fc4affceec",
+      "sourceByteLength": 1598,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_parity_compare_r2.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_parity_compare_r2.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "c7fd2b23b9a8cfaf95abc52986cef79759e0f0ecf33430f870d8b92127062bf5",
+      "sourceByteLength": 1894,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v4_r5.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v4_r5.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "4f8a4574ff9ad5fb0f5eeaad5e687e8d83d1639698f4d90ba4c146568d2bfd5b",
+      "sourceByteLength": 5420,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r5.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r5.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "7e2bc7b8f1daa181bf6bc13754b664d11a71a8cdb564745d8b7d652c5f333e52",
+      "sourceByteLength": 6746,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r5.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r5.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "a40bea61442074b0a19bfad3ab96c8a21b436119c41832243e0049601d5c205d",
+      "sourceByteLength": 6746,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v2_legacy.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v2_legacy.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8",
+      "sourceByteLength": 4892,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r5.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r5.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "b0aeb90dca2a076d293e2907b91c541000258bb1784a50ce6261ea9e49f68535",
+      "sourceByteLength": 8137,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r5.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r5.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "8c85b53f78e4880f9ad03264478d184b7bab582cc2586b93fdbc9bcafcf7b6fd",
+      "sourceByteLength": 8137,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_axial_r5.wgsl",
+      "route": "/legacy/core/compute/qmap_webgpu/shaders/structure_tensor_axial_r5.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "2f00744b42416f0730682bdf397bca3fc05fce3d5dc10a2d2e27f32563725bca",
+      "sourceByteLength": 1279,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_params.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/structure_tensor_params.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "3340bd9853573ef4c43a3321cc94a7130af0f7056657159281273403bbf486dd",
+      "sourceByteLength": 3247,
+      "parent": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime_receipt.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/structure_tensor_runtime_receipt.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "71f44d513a40461520a152af1aa17ef472c5f88e8fa6291ad0801989fa9fd627",
+      "sourceByteLength": 596,
+      "parent": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "route": "/legacy/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "097d8a9cc5fc292df53e7db71e7598d05701d16569d8c978aae298ec852e9708",
+      "sourceByteLength": 13745,
+      "parent": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/patch/passA_colorDenoise_bind.js",
+      "route": "/legacy/core/patch/passA_colorDenoise_bind.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "9bef5d5919b7f6adc59bddeb99f6a4dfc134786aa1fe3b16b659ea1f1a1969a4",
+      "sourceByteLength": 1996,
+      "parent": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/path_stabilizer_from_src.js",
+      "route": "/legacy/core/path_stabilizer_from_src.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "545bd4e5556a61989981b38e455b2ebdfbd1aa0877d65b00a1792c8ffb2270fb",
+      "sourceByteLength": 5959,
+      "parent": "app/legacy-runtime/core/bind_depth_pipeline.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/qmap/dk_bind_main_patch.js",
+      "route": "/legacy/core/qmap/dk_bind_main_patch.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "123b5de18ed4092e72b23fff09a3fd17525071fcc9ff158744c30292d863ea04",
+      "sourceByteLength": 3262,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/qmap/dk_fft_qmap_webgpu_v2.js",
+      "route": "/legacy/core/qmap/dk_fft_qmap_webgpu_v2.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "a90a209d4581ce6b3e4c6941e22c8e2338654c7430860504d928eb190cac37d0",
+      "sourceByteLength": 2595,
+      "parent": "app/legacy-runtime/core/qmap/dk_bind_main_patch.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/reactorDecision.js",
+      "route": "/legacy/core/reactorDecision.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "8691602f2f23e78dbb226e3e6bf6e5031af09e93a9626f41e511e0d4749d5d0d",
+      "sourceByteLength": 377,
+      "parent": "app/legacy-runtime/core/ASH_GrainDecisionKernel.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/shaders.wgsl",
+      "route": "/legacy/core/shaders.wgsl",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "ffb6f4e0856dfeab82df68b68dfd20cba869269ba1bec626c26426829ecf2959",
+      "sourceByteLength": 4045,
+      "parent": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/utils_color.js",
+      "route": "/legacy/core/utils_color.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "6d5361cc27f4b2cd3e66b29b09f61ff1c5aa53167a6ed4700538aaa1591f4352",
+      "sourceByteLength": 3183,
+      "parent": "app/legacy-runtime/core/bind_depth_pipeline.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/webgl2_view.js",
+      "route": "/legacy/core/webgl2_view.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "8891075f4d9c360bdc4ed5b660a723009fca64e210779cc24ac38190d82e4692",
+      "sourceByteLength": 3311,
+      "parent": "app/legacy-runtime/core/bind_depth_pipeline.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "route": "/legacy/core/webgpu_depth_bake.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "fb72b352b32676a3adc353d16c56a7d1feff3bc9c4ea0f1b61b82d9735f9f8a3",
+      "sourceByteLength": 23329,
+      "parent": "app/legacy-runtime/core/bind_depth_pipeline.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/core/worker_p99.js",
+      "route": "/legacy/core/worker_p99.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.core-bind_depth_pipeline.js",
+      "sourceSha256": "2adb23ffee5615a9c559d560dd0b514b122b08ef3ac2195a7e67dc76efc61593",
+      "sourceByteLength": 931,
+      "parent": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_integration_patch.js",
+      "route": "/legacy/dadum_artifact_integration_patch.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "ea73bee924e63a48de9d0303647afd00c5b0aec1ca9dc9c53cb37bb79f0c139f",
+      "sourceByteLength": 1073,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_suppressor_bridge.js",
+      "route": "/legacy/dadum_artifact_suppressor_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "6678c89afca058b9bd59785cfb7f6e4e935e40f53ad6035519171b7006569d56",
+      "sourceByteLength": 2512,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_suppressor_worker.js",
+      "route": "/legacy/dadum_artifact_suppressor_worker.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "8f9d2372c6c45b1f868175d1fcd8e742bae3edfbd9f0f86032ac91a92ff4a669",
+      "sourceByteLength": 727,
+      "parent": "app/legacy-runtime/dadum_artifact_suppressor_bridge.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_suppressor.js",
+      "route": "/legacy/dadum_artifact_suppressor.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "2751f810f25a3bbda8a11580ac3b9b0e1018d35445ebe8047277d9a3a5df3c03",
+      "sourceByteLength": 2425,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/debug/tilemask_overlay.js",
+      "route": "/legacy/debug/tilemask_overlay.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.ui_bind.js",
+      "sourceSha256": "4a69c864baa92ca426b4aafcea540e4e21c2ad56566684607aeb171d3b6957a3",
+      "sourceByteLength": 3455,
+      "parent": "app/legacy-runtime/ui_bind.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/alpha_hygiene.js",
+      "route": "/legacy/decoders/alpha_hygiene.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "1265d1310628a98f5570c1ed8b0bf946854423cea29f92ed52352e032dad4328",
+      "sourceByteLength": 12798,
+      "parent": "app/legacy-runtime/resize_export_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/decode_jxl_surface.js",
+      "route": "/legacy/decoders/decode_jxl_surface.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "52d859de62fcb830d2d43fdf372b4a04bc921c83fa55956fef4725c0862203a9",
+      "sourceByteLength": 1417,
+      "parent": "app/legacy-runtime/decoders/decoder_registry.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/decode_native_surface.js",
+      "route": "/legacy/decoders/decode_native_surface.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "ebbb1ccc16e75a534d4c90945f6a457d94b25aa95af30b790a2d196795eb3394",
+      "sourceByteLength": 2982,
+      "parent": "app/legacy-runtime/decoders/decoder_registry.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/decode_psd_surface.js",
+      "route": "/legacy/decoders/decode_psd_surface.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "31c1ecb9882b2934b4ff262a439bec4d9cbef4050579a77b12daaddb208615e5",
+      "sourceByteLength": 7218,
+      "parent": "app/legacy-runtime/decoders/decoder_registry.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/decoded_surface.js",
+      "route": "/legacy/decoders/decoded_surface.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "7c4b9bf03f861842730de370e1a111a45d8e79701444b46acaeab483c46effb2",
+      "sourceByteLength": 755,
+      "parent": "app/legacy-runtime/decoders/decode_native_surface.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/decoder_registry.js",
+      "route": "/legacy/decoders/decoder_registry.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "f3d0803d30dfc4d38d5a4a554da3df0d6b686e94bd16671b4257b6a24ed3187c",
+      "sourceByteLength": 2310,
+      "parent": "app/legacy-runtime/image_input_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/psd_decode_worker.js",
+      "route": "/legacy/decoders/psd_decode_worker.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "435b1de01685b081ea83c4e21e1280394bd78ddf974551d4b70b8c7b6b9690a1",
+      "sourceByteLength": 12841,
+      "parent": "app/legacy-runtime/decoders/psd_worker_bridge.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/decoders/psd_worker_bridge.js",
+      "route": "/legacy/decoders/psd_worker_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "e78ea11b732d5da8c8fbadad94c3bc778e0d44ae1dba1f2c3ace8a94f32ecef7",
+      "sourceByteLength": 1662,
+      "parent": "app/legacy-runtime/decoders/decode_psd_surface.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "route": "/legacy/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "sourceSha256": "509d3f4f014a39dc56e8b85388d35dc998ae5c99402bbee960e36a9bea4ccb33",
+      "sourceByteLength": 3455,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/EmotionPipeline_preblurFusion_patch.js",
+      "route": "/legacy/EmotionPipeline_preblurFusion_patch.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.EmotionPipeline_preblurFusion_patch.js",
+      "sourceSha256": "3775d687fe494a7b5fb25bf1bc5a2ab3ba60f1b60f614276c682934c83759122",
+      "sourceByteLength": 1133,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/EmotionPipeline_qmap_patch.js",
+      "route": "/legacy/EmotionPipeline_qmap_patch.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.EmotionPipeline_qmap_patch.js",
+      "sourceSha256": "060847a1747138d901d4e965de828736c69c2ffc0eb66c2355373489c048192e",
+      "sourceByteLength": 919,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/EmotionRenderer.js",
+      "route": "/legacy/EmotionRenderer.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.EmotionRenderer.js",
+      "sourceSha256": "dbe1abaa1770be749c8de61f1c83ab5fd9ec3b2c9ce43900fe2d7539b1ce267b",
+      "sourceByteLength": 3972,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/encoders/encodeRGBAtoJXL.js",
+      "route": "/legacy/encoders/encodeRGBAtoJXL.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "f55b7cacf0be0d518eb7e33e447ebcde975ab012b3cf69850b3b9e748bb3737f",
+      "sourceByteLength": 1116,
+      "parent": "app/legacy-runtime/encoders/jxl_worker.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/encoders/export_autotune_jxl.mjs",
+      "route": "/legacy/encoders/export_autotune_jxl.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "e0422f12d58b01a3dfef6169274fcda3f0271d13d466e475328b10b8f9d025e2",
+      "sourceByteLength": 2151,
+      "parent": "app/legacy-runtime/encoders/webp_api_forced.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/encoders/jxl_loader.js",
+      "route": "/legacy/encoders/jxl_loader.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "b9a709fd6daffd780c67bfdb3bec52c939d53cd08e83a0cb86b2725a877c4635",
+      "sourceByteLength": 2444,
+      "parent": "app/legacy-runtime/encoders/encodeRGBAtoJXL.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/encoders/jxl_worker.js",
+      "route": "/legacy/encoders/jxl_worker.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "24640685ba2243725a07475710d1a6005ac30158b178ab33de8b196cb1c34409",
+      "sourceByteLength": 708,
+      "parent": "app/legacy-runtime/encoders/export_autotune_jxl.mjs",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/encoders/webp_api_forced.js",
+      "route": "/legacy/encoders/webp_api_forced.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "f48a6ad46bbb4900bebe1bcf10f0dbdaf14c5d3e3bac95298267b55a53e57660",
+      "sourceByteLength": 1997,
+      "parent": "app/legacy-runtime/index-inline-01.mjs",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/engine/passes/brushedMetalHook.js",
+      "route": "/legacy/engine/passes/brushedMetalHook.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.engine-passes-brushedMetalHook.js",
+      "sourceSha256": "92fa2b100c83df45dc341cf551afe81c5b657ffa24f72da286d09b852a4e52ce",
+      "sourceByteLength": 2212,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/engine/passes/brushedMetalPass.js",
+      "route": "/legacy/engine/passes/brushedMetalPass.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.engine-passes-brushedMetalPass.js",
+      "sourceSha256": "ca34c7c0fdc3f8919f5f7c29432782dfb34c6996c006a5897baecd73bff65323",
+      "sourceByteLength": 5178,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/export_autotune_jxl.mjs",
+      "route": "/legacy/export_autotune_jxl.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.renderer.js",
+      "sourceSha256": "0de03ca374b87642a773e47d8d632dafc8a5e093cb5a01eaec45eb7ea5a1567a",
+      "sourceByteLength": 5628,
+      "parent": "app/legacy-runtime/renderer.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/export_kwebp_PATCHED.js",
+      "route": "/legacy/export_kwebp_PATCHED.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "7584fca0a06a77e54f8b392ea3a874e545c3c8ab48c9b89750c6368b8d108414",
+      "sourceByteLength": 1421,
+      "parent": "app/legacy-runtime/export-unified.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/export_manager.js",
+      "route": "/legacy/export_manager.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.export_manager.js",
+      "sourceSha256": "a85af148dd1eec25cdee4542904236c531a80a8d06226057aae121a7bbdd8084",
+      "sourceByteLength": 35795,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/export_pipeline_patch_qcoupled.js",
+      "route": "/legacy/export_pipeline_patch_qcoupled.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-02.mjs",
+      "sourceSha256": "38a6302db03ba0b793c6016951eb67e62cc15bd45fabea9b51b18e616ca8e83a",
+      "sourceByteLength": 2460,
+      "parent": "app/legacy-runtime/index-inline-02.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/export_webp_near_adaptive.js",
+      "route": "/legacy/export_webp_near_adaptive.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "9773e991075db52ad429cefa414ea5fd908f8f4b2304b206d9cceb0c167a877f",
+      "sourceByteLength": 2755,
+      "parent": "app/legacy-runtime/export-unified.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/export-unified.js",
+      "route": "/legacy/export-unified.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "03a533095fc4d9d3355e285d3d4bb045f4580937b2385b27960eed1970012ffb",
+      "sourceByteLength": 1579,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/filters/awb_auto_deltaEK.js",
+      "route": "/legacy/filters/awb_auto_deltaEK.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "e11b0eb7a937c8ecdd0549c133c016fe87d3bd53b2a8ed12cc1c49e9bca73b86",
+      "sourceByteLength": 1201,
+      "parent": "app/legacy-runtime/filters/awb_inject_helper.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/filters/awb_inject_helper.js",
+      "route": "/legacy/filters/awb_inject_helper.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "568cbc40ac16380c2a85128d9340d691e17f216441d7b88eff9fd05978e4f25a",
+      "sourceByteLength": 1188,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/filterWorker.js",
+      "route": "/legacy/filterWorker.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "000850ec72899511f7c6236f08d3413107cae768cbf143749ca256610955a7e8",
+      "sourceByteLength": 18576,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/finalize_pass.js",
+      "route": "/legacy/finalize_pass.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "29e00e828eec22252bbbdaf30d3426b3a47985d4e93097e3f80cdecac7bc0baf",
+      "sourceByteLength": 3483,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gaborBank.js",
+      "route": "/legacy/gaborBank.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "c5ee6356e86e86f27eca47bf5d9813f5536d53c891a45c7ea9c949baf9035f41",
+      "sourceByteLength": 2074,
+      "parent": "app/legacy-runtime/tensorQmapModule.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/generateQMap.js",
+      "route": "/legacy/generateQMap.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "c4f7a1cb23015fd92c49422459ca5d8e890bca6f581ea480c181bcda8467f775",
+      "sourceByteLength": 5727,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gl_fastlane_patch.js",
+      "route": "/legacy/gl_fastlane_patch.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "04f6f6fdda56100aca5804130bf2d4d5b3d98d74d5a085e0f41789b2b36b1bd6",
+      "sourceByteLength": 773,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gl_getcontext_patch.js",
+      "route": "/legacy/gl_getcontext_patch.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "9d85ebc486778d7e9fb55192958192c88d3089bdd4ebe1b16614e37225da8a33",
+      "sourceByteLength": 759,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gl_state_trim.js",
+      "route": "/legacy/gl_state_trim.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "b69a86971ba64c79e288779f46a8ede4ee970c84451ab735c0a5812f0715a3a3",
+      "sourceByteLength": 512,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gl/curvesafe_downscale.js",
+      "route": "/legacy/gl/curvesafe_downscale.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "d994687854902b6be8705b3284b03333b17e0df6ded7a0e48b399c9f1d62bb83",
+      "sourceByteLength": 715,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gl/qmap_tensor_from_cpu.js",
+      "route": "/legacy/gl/qmap_tensor_from_cpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "92b8c5ac39639656f7f2590730c916cafae46599014406be5a54075b6f2c228d",
+      "sourceByteLength": 2377,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/gl/qtensor_from_qmap.js",
+      "route": "/legacy/gl/qtensor_from_qmap.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "555f94e809e471efcc499e4ac27df8ac04393453bfad377e35694b04451f2f6c",
+      "sourceByteLength": 3136,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/hooks/afterRenderHook.js",
+      "route": "/legacy/hooks/afterRenderHook.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.hooks-afterRenderHook.js",
+      "sourceSha256": "be1b507bab3c59e8702144ae687ec0bbcfc035c3ab65f70a0dd655ca5c0beccb",
+      "sourceByteLength": 739,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/image_input_bind.js",
+      "route": "/legacy/image_input_bind.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "ac9350fa46619fd7470ebb0228c7005f1e6fa8cb66958003aff2f7e3ad8a4d76",
+      "sourceByteLength": 18426,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/index-inline-01.mjs",
+      "route": "/legacy/index-inline-01.mjs",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "c7285a8e6b29733758e88cffa9a98d2aea60f543b8fab5d4aa7fad7f9e015830",
+      "sourceByteLength": 2052,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/index-inline-02.mjs",
+      "route": "/legacy/index-inline-02.mjs",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.index-inline-02.mjs",
+      "sourceSha256": "783d9c026d2d5b6565d13a534ee30d374da4a25c1abcc2e36e7274c31fed5caa",
+      "sourceByteLength": 380,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/index-inline-03.mjs",
+      "route": "/legacy/index-inline-03.mjs",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.index-inline-03.mjs",
+      "sourceSha256": "812c6541feb2140295630ceff827669a56f181aa2e3c27d4c6a4de2bdda8d216",
+      "sourceByteLength": 403,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/index-inline-04.mjs",
+      "route": "/legacy/index-inline-04.mjs",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.index-inline-04.mjs",
+      "sourceSha256": "d623b4dfdd6202259d9ebb56fcb2e0cf3fd8586ebadf6fe5c2581f5e3d3f6315",
+      "sourceByteLength": 3197,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/index-inline-05.mjs",
+      "route": "/legacy/index-inline-05.mjs",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.index-inline-05.mjs",
+      "sourceSha256": "e294e7fe925445d5c9f754b394b51ffb0a46e3d978bc3220d21b96762f2d69bc",
+      "sourceByteLength": 888,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/index-inline-06.js",
+      "route": "/legacy/index-inline-06.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.index-inline-06.js",
+      "sourceSha256": "248ca6af60a20095389c6d101b7e8550e2f8a875bf3460d87b174aacdb6bd050",
+      "sourceByteLength": 61,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/init_once.js",
+      "route": "/legacy/init_once.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.init_once.js",
+      "sourceSha256": "7010bcbf96f46b97063867b43da9c52da67fb087d4af4b7d4fb8fb5811ef1440",
+      "sourceByteLength": 1075,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/export_capture_ssot.js",
+      "route": "/legacy/input/export_capture_ssot.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "b7c15011a2c5e32b47c0838e871fd2d50b750da76984eb3412a629a19316cde6",
+      "sourceByteLength": 8123,
+      "parent": "app/legacy-runtime/resize_export_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/export_download_bridge.js",
+      "route": "/legacy/input/export_download_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "69b36b56884983e73b398801256b149e9b99d304732ba99e213e84ec3a10b4b5",
+      "sourceByteLength": 4404,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/export_surface_ssot.js",
+      "route": "/legacy/input/export_surface_ssot.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.export_manager.js",
+      "sourceSha256": "8bbcbbcf9fcdce4b5ed45d80bf29a8777deeeaa4cd135b7c645d5ed7559399bc",
+      "sourceByteLength": 10635,
+      "parent": "app/legacy-runtime/export_manager.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/filtered_surface_bridge.js",
+      "route": "/legacy/input/filtered_surface_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "3e0a33cf044b838d26b76675fd18df731972603720d9aa5771d52e31638892e6",
+      "sourceByteLength": 6618,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/offscreen_surface_ssot.js",
+      "route": "/legacy/input/offscreen_surface_ssot.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "42c1da5d9a20b97dac166764ba4dabeda16986821ad2447f814ffa2cf7500dc9",
+      "sourceByteLength": 7887,
+      "parent": "app/legacy-runtime/input/export_capture_ssot.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/source_surface_state.js",
+      "route": "/legacy/input/source_surface_state.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "aae0ac7f8a910f0598406f8d364454c9050f527199b8fadbde6f9ed0c8da5b13",
+      "sourceByteLength": 7304,
+      "parent": "app/legacy-runtime/image_input_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/webgpu_preview_presenter.js",
+      "route": "/legacy/input/webgpu_preview_presenter.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "3d93567a568cc89a83e86ae6baa7bd5cf9740e900d0d24a392dc318a726430d5",
+      "sourceByteLength": 1285,
+      "parent": "app/legacy-runtime/image_input_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/input/webgpu_source_bridge.js",
+      "route": "/legacy/input/webgpu_source_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "7250613f917d54914562e684f082f26b582f2a74d5b4fda84e10d327156c0598",
+      "sourceByteLength": 2982,
+      "parent": "app/legacy-runtime/image_input_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/integrateIntoDadumdadum.js",
+      "route": "/legacy/integrateIntoDadumdadum.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "3601a34b558b1ba185de2800cf42c285df43c08e40740fcc73eb65d0eff1eb52",
+      "sourceByteLength": 1148,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/blendif/blendif_schema.js",
+      "route": "/legacy/js/blendif/blendif_schema.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.blendif_ui.js",
+      "sourceSha256": "1b2b2c13d1a62b6d6a4e7b6b9ef0fb8b9b6dcef2b5e8d44dbe673b7e18a5adc0",
+      "sourceByteLength": 9039,
+      "parent": "app/legacy-runtime/blendif_ui.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/chroma_blue_dither_pass.js",
+      "route": "/legacy/js/chroma_blue_dither_pass.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-chroma_blue_dither_pass.js",
+      "sourceSha256": "de6f20db62805b5e41a0ac56ff9df9558f18911e88f51d307842424c37f52b5c",
+      "sourceByteLength": 4205,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/compression_preprocess_ab.js",
+      "route": "/legacy/js/compression_preprocess_ab.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-compression_preprocess_ab.js",
+      "sourceSha256": "cd1c3c8e914e6860114cf5da5be0b0cb87a0b9ea5b6a185979af725378fb6b52",
+      "sourceByteLength": 4960,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/core/pipeline_rev.js",
+      "route": "/legacy/js/core/pipeline_rev.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-core-pipeline_rev.js",
+      "sourceSha256": "b4104890a22e4ddc41555e414a21b34dc64a1fb6477bdb09a8d94b823fd6ca35",
+      "sourceByteLength": 1678,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_install.js",
+      "route": "/legacy/js/export/wgpu_export_install.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "c961154b3f3e36f74dd0aa727d7f4135d7ef7e1e4bb5b87ae1fcc3f480d9fcca",
+      "sourceByteLength": 13620,
+      "parent": "app/legacy-runtime/js/passes/dk_autowire.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_jxl.js",
+      "route": "/legacy/js/export/wgpu_export_jxl.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "fd8de881bff61f8fe3d8ebd931b88a29779ad31c0186c85814ade129639c642d",
+      "sourceByteLength": 8783,
+      "parent": "app/legacy-runtime/js/export/wgpu_export_install.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_png.js",
+      "route": "/legacy/js/export/wgpu_export_png.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "bf4eefff48d2c7e9d531a3e6ce2a1a603eda0d69df62c56002aeb1842257836d",
+      "sourceByteLength": 3837,
+      "parent": "app/legacy-runtime/js/export/wgpu_export_install.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_webp.js",
+      "route": "/legacy/js/export/wgpu_export_webp.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "30c25d289d4d6acd333ecdc11d32f07d5dfba915880b99319ed72f004640111a",
+      "sourceByteLength": 1903,
+      "parent": "app/legacy-runtime/js/export/wgpu_export_install.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/modules/artifactClean.presets.js",
+      "route": "/legacy/js/modules/artifactClean.presets.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.ac_wire.js",
+      "sourceSha256": "ad1effb24ef4fda549baeadee8632464466d1cf6ca1d37d35b4f94a8f613b08e",
+      "sourceByteLength": 420,
+      "parent": "app/legacy-runtime/js/ui/artifactCleanPanel.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/modules/artifactCleanPass.js",
+      "route": "/legacy/js/modules/artifactCleanPass.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.ac_wire.js",
+      "sourceSha256": "c3e07d983d29b8e34dc6d4b8732c8639d07125723ce77a8b9463213ed836ae24",
+      "sourceByteLength": 2010,
+      "parent": "app/legacy-runtime/ac_wire.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/attach_adaptive_sharpen_pass.js",
+      "route": "/legacy/js/passes/attach_adaptive_sharpen_pass.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "5822f9ef92c5d7872d8bc65db0dd9ed1920b061a03db1e9b1eccbf83c45d8345",
+      "sourceByteLength": 3748,
+      "parent": "app/legacy-runtime/js/passes/dk_sharpen_bootstrap.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/attach_qwave_bake_pass.js",
+      "route": "/legacy/js/passes/attach_qwave_bake_pass.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "ad6f70f67b9dce053954098b842bb1a0cc94659f6a815505ded4ba796a106d68",
+      "sourceByteLength": 4595,
+      "parent": "app/legacy-runtime/js/passes/dk_sharpen_bootstrap.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/blendif_webgpu_pass.js",
+      "route": "/legacy/js/passes/blendif_webgpu_pass.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.wire_blendif_hook.js",
+      "sourceSha256": "dbf2e18792d537edb38dda84823ac07bd10de53d2655eaeeae309edacf892e79",
+      "sourceByteLength": 6567,
+      "parent": "app/legacy-runtime/wire_blendif_hook.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/blendif_webgpu_wgsl.js",
+      "route": "/legacy/js/passes/blendif_webgpu_wgsl.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.wire_blendif_hook.js",
+      "sourceSha256": "64ed41cd7b8459bb44275565367e27603dd89fef3482269395d3465d20449886",
+      "sourceByteLength": 7346,
+      "parent": "app/legacy-runtime/js/passes/blendif_webgpu_pass.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/blit_webgpu.js",
+      "route": "/legacy/js/passes/blit_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "bf08e6b32159abf2342b2b651f67fb113b145e844e8501f982ebfbc1d80c35ca",
+      "sourceByteLength": 4103,
+      "parent": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "route": "/legacy/js/passes/dk_after_final_color_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "e79406d00d33bb01720ad995e69adffbe3ea49ac7324c822fa2464f0dd7543cb",
+      "sourceByteLength": 18004,
+      "parent": "app/legacy-runtime/js/passes/dk_sharpen_bootstrap.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_afterfinal_wgpu_wire.js",
+      "route": "/legacy/js/passes/dk_afterfinal_wgpu_wire.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "sourceSha256": "249dc095c10674069f8f9e826668c7408aa206c4df6b8d09337c3a2e50b8ad3c",
+      "sourceByteLength": 4693,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_autowire.js",
+      "route": "/legacy/js/passes/dk_autowire.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "82ff290f4807d322daca958228572d74f25d684ea72614d74c9725309da3dc1f",
+      "sourceByteLength": 5491,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_builder_webgpu_compute.js",
+      "route": "/legacy/js/passes/dk_builder_webgpu_compute.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "942e9ffc6e4fb95bc05f40851463a38c7e177ebe78ff3e7dffdd8d59ef4283e9",
+      "sourceByteLength": 8680,
+      "parent": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_preview_wire.js",
+      "route": "/legacy/js/passes/dk_preview_wire.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-passes-dk_preview_wire.js",
+      "sourceSha256": "54bd4d457338bbd8b7c4be3df5b2bfd81fe7ebe8b1bb41c7c1416a2378b71fcd",
+      "sourceByteLength": 10929,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_sharpen_bootstrap.js",
+      "route": "/legacy/js/passes/dk_sharpen_bootstrap.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "4342726ed7c0abff678e0bc243d529e2d636fc5af00a23fbaa57f6cb3952786f",
+      "sourceByteLength": 6835,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/present_webgpu.js",
+      "route": "/legacy/js/passes/present_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "ab49829547ad83a85084d6857afc4a1681efe6cd82b65e7de0f02e32f389a55f",
+      "sourceByteLength": 381,
+      "parent": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "route": "/legacy/js/passes/qwave_builder_webgpu_compute.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "dd54ff8b59af0424619d68899dfd738233bae67fb68adedf72f27c782eefb182",
+      "sourceByteLength": 1805,
+      "parent": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/qwave_warp_webgpu_pass.js",
+      "route": "/legacy/js/passes/qwave_warp_webgpu_pass.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "b069a32c69e15b502e433748fbee87f3ec41cd85ebe6313e9d1f2890ca489a8e",
+      "sourceByteLength": 6949,
+      "parent": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/qwave_warp_webgpu_wgsl.js",
+      "route": "/legacy/js/passes/qwave_warp_webgpu_wgsl.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "sourceSha256": "9895d12eb6f929abbd98577a3509f3fd2e64c9a2cec1b43078272f5d9f627730",
+      "sourceByteLength": 3790,
+      "parent": "app/legacy-runtime/js/passes/qwave_warp_webgpu_pass.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/passes/upgrade_pipeline_to_webgpu.js",
+      "route": "/legacy/js/passes/upgrade_pipeline_to_webgpu.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "sourceSha256": "0be27204863558adf5e5c5dddaad007746c093796c24843a1fed42245c5f5fab",
+      "sourceByteLength": 6339,
+      "parent": "app/legacy-runtime/js/passes/dk_afterfinal_wgpu_wire.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/pipeline.downscale.curvesafe.js",
+      "route": "/legacy/js/pipeline.downscale.curvesafe.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "0206cf5a8aa3c96c10f15a0102c543dee74a86a9f391536dbed2a4560610b30d",
+      "sourceByteLength": 9818,
+      "parent": "app/legacy-runtime/gl/curvesafe_downscale.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/texture_preserve_patch.js",
+      "route": "/legacy/js/texture_preserve_patch.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.js-texture_preserve_patch.js",
+      "sourceSha256": "1da9d2fa66c5ac8a4ac93cce88ac6eb99b41ea04c023af9ef240a4c17d2be331",
+      "sourceByteLength": 8290,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/js/ui/artifactCleanPanel.js",
+      "route": "/legacy/js/ui/artifactCleanPanel.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.ac_wire.js",
+      "sourceSha256": "974c86e82076d3ed1dec107a67dd0b60fbc2c1ffded1ce7bb06d7aae06232121",
+      "sourceByteLength": 6929,
+      "parent": "app/legacy-runtime/ac_wire.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/lib/upng.js",
+      "route": "/legacy/lib/upng.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.lib-upng.js",
+      "sourceSha256": "813083fb6a46f1c2b2ffc57829bdf4bc34a91ca16c97e4e20c645607ac4f1156",
+      "sourceByteLength": 50446,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icms_little.js",
+      "route": "/legacy/libs/icms_little/icms_little.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "bee19fa72b1c471e1238b176dfaf802fedd07a8901bb8e18d22b4ed67a5feada",
+      "sourceByteLength": 14412,
+      "parent": "app/legacy-runtime/libs/icms_little/icmsLittleLoader.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icms_little.wasm",
+      "route": "/legacy/libs/icms_little/icms_little.wasm",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "557e2ee4708ed9fa834f32152600127c8ddc64de352c80199a2a3879d12edd37",
+      "sourceByteLength": 129141,
+      "parent": "app/legacy-runtime/libs/icms_little/icms_little.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icmsLittleBridge.js",
+      "route": "/legacy/libs/icms_little/icmsLittleBridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "dce93a033d506cf2d675632e21cb3d06f66032e2d25e4bbdb9c661c8931e8e20",
+      "sourceByteLength": 3004,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icmsLittleLoader.js",
+      "route": "/legacy/libs/icms_little/icmsLittleLoader.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "be69229c43c8c3f0636a4efd008d6a6fd380f3aa5844fd176b3e603e176de044",
+      "sourceByteLength": 872,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/libs/lcms/cmyk_view.js",
+      "route": "/legacy/libs/lcms/cmyk_view.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "77b2d62fa8cf8564d08194f394842bd815af603ab286859b2b5675c5be085394",
+      "sourceByteLength": 3674,
+      "parent": "app/legacy-runtime/decoders/decode_psd_surface.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/libs/psd/psd_export_bridge.js",
+      "route": "/legacy/libs/psd/psd_export_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.export_manager.js",
+      "sourceSha256": "381908cfde035f635c4268a8b93d20de05913e453689e3d5e3fc3d69f7000dac",
+      "sourceByteLength": 15787,
+      "parent": "app/legacy-runtime/export_manager.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/main.js",
+      "route": "/legacy/main.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "6cf010e49a5cc8e4aa2e4f924f1242932d28b3a9042bcb4d52d4c1fd88e75529",
+      "sourceByteLength": 187506,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "route": "/legacy/modules/dk_resample/export_wgsl_downscale.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "2e34a0423f3065d0d9828661f816b63ccbe2c22f0478d2221eabeb0c6b80aa7f",
+      "sourceByteLength": 17350,
+      "parent": "app/legacy-runtime/resize_export_bind.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/native/native_decode_bridge.js",
+      "route": "/legacy/native/native_decode_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "6d2f85eb8c898cce23463771f0a4e4fb76a74f4688f68a50e73219dcc0ccb2ed",
+      "sourceByteLength": 4384,
+      "parent": "app/legacy-runtime/decoders/decode_native_surface.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/noink_qmap_render.js",
+      "route": "/legacy/noink_qmap_render.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "1788574ee1857bc98ab8672ab11f380bab6c654379a00000d768a0c7e83ca1d9",
+      "sourceByteLength": 3257,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/packs/dadum_all_packs_loader.js",
+      "route": "/legacy/packs/dadum_all_packs_loader.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.packs-dadum_all_packs_loader.js",
+      "sourceSha256": "cf037606cf874010ef407426b63ed557e64d6909d9fe1f23d5552c914fe08970",
+      "sourceByteLength": 633,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/export_pipeline_patch_qcoupled_plus.js",
+      "route": "/legacy/patch/export_pipeline_patch_qcoupled_plus.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-03.mjs",
+      "sourceSha256": "38aa5494901cc09e9c5d9c677277040eee52785b12fa51013a02a682c4a652b7",
+      "sourceByteLength": 2230,
+      "parent": "app/legacy-runtime/index-inline-03.mjs",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/export_pipeline_zero_fullencode.js",
+      "route": "/legacy/patch/export_pipeline_zero_fullencode.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "9a33e5e5b88310b1694af9024074a2473d61ca5d6c2d59db205b0e81ce36f5c9",
+      "sourceByteLength": 3025,
+      "parent": "app/legacy-runtime/index-inline-01.mjs",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/export_qsampler_reduce.js",
+      "route": "/legacy/patch/export_qsampler_reduce.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-03.mjs",
+      "sourceSha256": "0609dd5713b75b67a66d584f6c0ee35e942c7423efa9e2a68690e131b6f3f7d8",
+      "sourceByteLength": 3351,
+      "parent": "app/legacy-runtime/patch/export_pipeline_patch_qcoupled_plus.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/lab_delta_sampler.js",
+      "route": "/legacy/patch/lab_delta_sampler.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "473598637448fd85416d9fbe31025121eac032e28b25e67a89e22007539c24d4",
+      "sourceByteLength": 2945,
+      "parent": "app/legacy-runtime/patch/export_pipeline_zero_fullencode.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/map_quality_curves_pro.js",
+      "route": "/legacy/patch/map_quality_curves_pro.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "718db5767f70f4a5c217e1a35b184b87bb68259405e1cf93413b65cedf2fb49b",
+      "sourceByteLength": 630,
+      "parent": "app/legacy-runtime/patch/export_pipeline_zero_fullencode.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/save/savePNG16.js",
+      "route": "/legacy/patch/save/savePNG16.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "9913baf2fc4accda21ad667d5df4bbb00438ca6c5bac658826c7c285014a52e4",
+      "sourceByteLength": 62,
+      "parent": "app/legacy-runtime/patch/export_pipeline_zero_fullencode.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patch/zero_copy_pool_fullencode.js",
+      "route": "/legacy/patch/zero_copy_pool_fullencode.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-01.mjs",
+      "sourceSha256": "63b67a3780ecce365f2ad32b68ad167d72155e496552fc54d3958aae511be5dd",
+      "sourceByteLength": 642,
+      "parent": "app/legacy-runtime/patch/export_pipeline_zero_fullencode.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches_gl2_squeeze/gl_resource_tracker.js",
+      "route": "/legacy/patches_gl2_squeeze/gl_resource_tracker.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches_gl2_squeeze-gl_resource_tracker.js",
+      "sourceSha256": "1c9c7896b0d9acc20703d2fb125f8349491dc45f2ebd5c2d924c8afa518b5611",
+      "sourceByteLength": 2956,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches_gl2_squeeze/gl2_pbo_reader.js",
+      "route": "/legacy/patches_gl2_squeeze/gl2_pbo_reader.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js",
+      "sourceSha256": "7fea06c2cb899eae905701be35460312c048513d65c91783b5c2e543ccc03ba4",
+      "sourceByteLength": 898,
+      "parent": "app/legacy-runtime/patches_gl2_squeeze/gl2_squeeze_autowire.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches_gl2_squeeze/gl2_squeeze_autowire.js",
+      "route": "/legacy/patches_gl2_squeeze/gl2_squeeze_autowire.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js",
+      "sourceSha256": "b1ad422a22d6e1ac914fd55d624924c1fcf6bf555eadb1b235cb60d1a5493685",
+      "sourceByteLength": 2335,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches_mrt_pbo/mrt_fbo_setup.js",
+      "route": "/legacy/patches_mrt_pbo/mrt_fbo_setup.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches_mrt_pbo-mrt_fbo_setup.js",
+      "sourceSha256": "75a86ea72640ae3bdc3af2c0e34f8e1444ded77d7a2b5ccf0e79ab82b274ce86",
+      "sourceByteLength": 3303,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches_mrt_pbo/pbo_readback.js",
+      "route": "/legacy/patches_mrt_pbo/pbo_readback.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches_mrt_pbo-pbo_readback.js",
+      "sourceSha256": "b0e70031676e7e76060a895a17637ec604c34596b692271ea50ad307a063d1b9",
+      "sourceByteLength": 2452,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches/ash_engine_orchestrator.js",
+      "route": "/legacy/patches/ash_engine_orchestrator.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "sourceSha256": "0156d562a42abdeda1c6c2aec7b0f40708b4b31ff0ca87c81050ed6d19274292",
+      "sourceByteLength": 435,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches/canvas2d_willReadFrequently_patch.js",
+      "route": "/legacy/patches/canvas2d_willReadFrequently_patch.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches-canvas2d_willReadFrequently_patch.js",
+      "sourceSha256": "66df22e8e9e44050ec31e77390869d12105be5b2ea62529c25296885763d0bbc",
+      "sourceByteLength": 330,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches/icc_default_loader.js",
+      "route": "/legacy/patches/icc_default_loader.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches-icc_default_loader.js",
+      "sourceSha256": "685438f3c41a4c040da7e850c7d2e2999dd00faa2e062a4af9fecfd3b6f26cba",
+      "sourceByteLength": 170,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches/patches/integration_snippets/psi_pipeline_patch.js",
+      "route": "/legacy/patches/patches/integration_snippets/psi_pipeline_patch.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "sourceSha256": "3c82b8a963a3d7a8680f3ee1c7c40c6ebe957d51208eeb3d47f6f97d37273dd2",
+      "sourceByteLength": 55,
+      "parent": "app/legacy-runtime/patches/ash_engine_orchestrator.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches/patches/integration_snippets/use_adaptive_policy.js",
+      "route": "/legacy/patches/patches/integration_snippets/use_adaptive_policy.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "sourceSha256": "ebad3cf6137d1f3eb99405bd7ec2243a82bfccc9c7f6214909781cf81279dff7",
+      "sourceByteLength": 59,
+      "parent": "app/legacy-runtime/patches/ash_engine_orchestrator.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/patches/preload_assets.js",
+      "route": "/legacy/patches/preload_assets.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.patches-preload_assets.js",
+      "sourceSha256": "2b2cdfb3bfa224fba2e01db624ff42e28ca9488ce9f747fde2cac5a3d51bacbf",
+      "sourceByteLength": 156,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/pipeline_bind_guard.js",
+      "route": "/legacy/pipeline_bind_guard.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.pipeline_bind_guard.js",
+      "sourceSha256": "527aed3d79da868b4e15f4da321499a43b6b17936d20de3381cd954ab1628625",
+      "sourceByteLength": 495,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/preview_fit_bind.js",
+      "route": "/legacy/preview_fit_bind.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.preview_fit_bind.js",
+      "sourceSha256": "52cb1618ecb4d090a8e979bc59ee69d370f99b94872a31e2b3891b5f9cb25714",
+      "sourceByteLength": 400,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/qwave/qwave_boot.js",
+      "route": "/legacy/qwave/qwave_boot.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.qwave-qwave_boot.js",
+      "sourceSha256": "708cf9196bac0a1c01b169b1f05f6e46a7e5d6adb2c3b472359b3c8395d0009c",
+      "sourceByteLength": 8016,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/qwave/qwave_system.js",
+      "route": "/legacy/qwave/qwave_system.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.qwave-qwave_boot.js",
+      "sourceSha256": "f86ed74ed1cd222a73ee25b35833cabf7c362c321c7e9fd62d27516dc7d1bfb2",
+      "sourceByteLength": 20183,
+      "parent": "app/legacy-runtime/qwave/qwave_boot.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/renderer.js",
+      "route": "/legacy/renderer.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.renderer.js",
+      "sourceSha256": "2c67dbd68fe6d9a6eb56c4bdc4443cbc52bb1270bcda9b649cdf54089f94fb74",
+      "sourceByteLength": 14318,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/resize_export_bind.js",
+      "route": "/legacy/resize_export_bind.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.resize_export_bind.js",
+      "sourceSha256": "29d2107e9d3387557fac1b559890fef84fbdaca6314eeed65844297c05b94052",
+      "sourceByteLength": 23723,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/save/savePNG16.js",
+      "route": "/legacy/save/savePNG16.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "a003e4535cf1d3981b60c511db58bd8b400ba94b217753f494b32055cd78c804",
+      "sourceByteLength": 4925,
+      "parent": "app/legacy-runtime/export_kwebp_PATCHED.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/save/upng-16bit-wrapper.js",
+      "route": "/legacy/save/upng-16bit-wrapper.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "e85a4328b5bef61e10d25adafe2903f35531f9e465f2dc66d1fdc54aacda6e9a",
+      "sourceByteLength": 457,
+      "parent": "app/legacy-runtime/save/savePNG16.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/scripts/colorRegionRenderer.js",
+      "route": "/legacy/scripts/colorRegionRenderer.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.scripts-colorRegionRenderer.js",
+      "sourceSha256": "39e81d77e1b419a9fff4e742371f8d93223ddf94d12ee47b378681541809c59c",
+      "sourceByteLength": 92,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/scripts/encoder/webp_enc.wasm",
+      "route": "/legacy/scripts/encoder/webp_enc.wasm",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "cd5d4935a48c0672cb06407bb443bc0087aff947c6b864bac886982c73b3027f",
+      "sourceByteLength": 4,
+      "parent": "app/legacy-runtime/webp_enc.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/share-modal.safe.js",
+      "route": "/legacy/share-modal.safe.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.share-modal.safe.js",
+      "sourceSha256": "5cf1a27742a14831cad19f906394828b4f3900b5139f41eb84d497decf66aa59",
+      "sourceByteLength": 754,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/shims_runtime.js",
+      "route": "/legacy/shims_runtime.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.shims_runtime.js",
+      "sourceSha256": "0ab476786f6c69bebc4c8d0cc6d9e44414496417bb145c7586861c4cf1f68be5",
+      "sourceByteLength": 502,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/tensorQmapModule.js",
+      "route": "/legacy/tensorQmapModule.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "3cdb2cdf2b3dbd8e3a96c9e30ee09c4585cbeca1812b93e30e02b279f994f399",
+      "sourceByteLength": 2522,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/tex_upload_hints.js",
+      "route": "/legacy/tex_upload_hints.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "2202534991010c05498ac93a9ba968d144e2beb50fc2b0279676b640bd3da824",
+      "sourceByteLength": 845,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/tile_encoder_worker_qaware.js",
+      "route": "/legacy/tile_encoder_worker_qaware.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.index-inline-02.mjs",
+      "sourceSha256": "44f99e3643d0c4127ad8b7c86175a24b0f12dbc69e673b5504e6d170e038b234",
+      "sourceByteLength": 4188,
+      "parent": "app/legacy-runtime/index-inline-02.mjs",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/ui_bind.js",
+      "route": "/legacy/ui_bind.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.ui_bind.js",
+      "sourceSha256": "941205611a20ed31d5797dba355cf4aaa74bacf271f22573af4dd0ecfc8fa4cd",
+      "sourceByteLength": 8692,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/ui_ssot_layout.js",
+      "route": "/legacy/ui_ssot_layout.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.ui_ssot_layout.js",
+      "sourceSha256": "b668a887d653ec17da52de57da149601b9335765f995d78784a95752ea4ef58e",
+      "sourceByteLength": 2547,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/utils/readPixels.js",
+      "route": "/legacy/utils/readPixels.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "c2c527ad9fa05ee1a588708d65682af02f11545380bb02e60f136583281fbc59",
+      "sourceByteLength": 860,
+      "parent": "app/legacy-runtime/dadum_artifact_suppressor_bridge.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_decode.js",
+      "route": "/legacy/vendor/jxl_wgpu_bridge/jxl_decode.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "f620ce4dfc3a136b9ac63ac770874b2214c241604d650249c02408870c1b0f7e",
+      "sourceByteLength": 2085,
+      "parent": "app/legacy-runtime/decoders/decode_jxl_surface.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge_bg.wasm",
+      "route": "/legacy/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge_bg.wasm",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3",
+      "sourceByteLength": 1572224,
+      "parent": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_decode.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge.js",
+      "route": "/legacy/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "28e848c7503e29286db47827819402363990f82d3574ba7451b3a62c8b8ca8b2",
+      "sourceByteLength": 9557,
+      "parent": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_decode.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/piexif.min.js",
+      "route": "/legacy/vendor/piexif.min.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.vendor-piexif.min.js",
+      "sourceSha256": "24454b5d718418a9a7362c2504e2f0c2d86912356ba417e7d0e4b63da57b2929",
+      "sourceByteLength": 35,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/psd/psd_core.mjs",
+      "route": "/legacy/vendor/psd/psd_core.mjs",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "fd40e6650b00225e033ace87a938c6c9fa0cbec3edce7aa448ba79f323df67a7",
+      "sourceByteLength": 18511,
+      "parent": "app/legacy-runtime/decoders/psd_decode_worker.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/psd/psd_core.wasm",
+      "route": "/legacy/vendor/psd/psd_core.wasm",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "7acf14e838c63d6ede977e756d2ea643c856f14a7a6c4d28175ada1aeb14984b",
+      "sourceByteLength": 414161,
+      "parent": "app/legacy-runtime/decoders/psd_decode_worker.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/UPNG.js",
+      "route": "/legacy/vendor/UPNG.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "5e832eab114e1b174520a1e138a10918e551e1301af3e6ff4f96b0a1169c13e9",
+      "sourceByteLength": 47691,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "runtime-asset"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/vendor/upng16/UPNG.js",
+      "route": "/legacy/vendor/upng16/UPNG.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "5e832eab114e1b174520a1e138a10918e551e1301af3e6ff4f96b0a1169c13e9",
+      "sourceByteLength": 47691,
+      "parent": "app/legacy-runtime/save/upng-16bit-wrapper.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/webglUtils.js",
+      "route": "/legacy/webglUtils.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "sourceSha256": "557535752c9820fe9e3814f6d8f7d7ddacbdb972442c13ca6b56c37882e953d6",
+      "sourceByteLength": 2675,
+      "parent": "app/legacy-runtime/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/webgpu_runtime.js",
+      "route": "/legacy/webgpu_runtime.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "sourceSha256": "364dbd001b933812479d3db5f77e2c2466074663bd0a14360824f0e06ee5b185",
+      "sourceByteLength": 3249,
+      "parent": "app/legacy-runtime/js/passes/dk_afterfinal_wgpu_wire.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/webp_enc.js",
+      "route": "/legacy/webp_enc.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.js-passes-dk_autowire.js",
+      "sourceSha256": "dd5676d6f238eaccc39341d92a92b815d308852fa6b01ce08f50e1ba51c5c41d",
+      "sourceByteLength": 1742,
+      "parent": "app/legacy-runtime/js/export/wgpu_export_webp.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/wire_blendif_hook.js",
+      "route": "/legacy/wire_blendif_hook.js",
+      "reason": "legacy-bootstrap",
+      "owner": "dadum.legacy.wire_blendif_hook.js",
+      "sourceSha256": "51c161a0cccbbb6699b999b54c40eafbc0fc0be0a9ffa4cb63bdd177eb3c9678",
+      "sourceByteLength": 3325,
+      "parent": null,
+      "edgeKind": "manifest-reference"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/workers/ashWorkerHandle.js",
+      "route": "/legacy/workers/ashWorkerHandle.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.main.js",
+      "sourceSha256": "6c6035b8813359b8d7d1cad3eaee858e82b1db29e89c4f37ac71aca1314b6b0b",
+      "sourceByteLength": 1235,
+      "parent": "app/legacy-runtime/main.js",
+      "edgeKind": "dynamic-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/workers/lcmsWorker.js",
+      "route": "/legacy/workers/lcmsWorker.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "ceb0d14baa67ea883f8643ed6e4bebc758544d1b5b5ae327e04e6684f330d4fd",
+      "sourceByteLength": 3091,
+      "parent": "app/legacy-runtime/workers/lcmsWorkerClient.js",
+      "edgeKind": "new-url"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/workers/lcmsWorkerClient.js",
+      "route": "/legacy/workers/lcmsWorkerClient.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "a841fa84e68411af3c485653225312ef04452aba523bbd4aa765e816f61a9c0e",
+      "sourceByteLength": 1262,
+      "parent": "app/legacy-runtime/libs/lcms/cmyk_view.js",
+      "edgeKind": "static-import"
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/workers/workerRpc.js",
+      "route": "/legacy/workers/workerRpc.js",
+      "reason": "runtime-import",
+      "owner": "dadum.legacy.image_input_bind.js",
+      "sourceSha256": "6b062ae6630aabf93f6a53f9f99b31b268b3f380a04d70a36314fa5b05ce597e",
+      "sourceByteLength": 2789,
+      "parent": "app/legacy-runtime/workers/lcmsWorkerClient.js",
+      "edgeKind": "static-import"
+    }
+  ],
+  "recordCount": 238,
+  "fullLegacyFileCount": 1277,
+  "digest": "f7b9c5fa9d7cf2ce902f43467d65f4a6ecb2e2751df761af1c5b51fb204ea4c7"
+}

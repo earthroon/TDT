@@ -1,0 +1,1725 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl02.fixture-manifest.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "fixtureCount": 86,
+  "pixelCount": 1605,
+  "rows": [
+    {
+      "fixtureId": "unit-000-transparent-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "65174898c39b13b0ecc3552292fe5d7638ac73fede3f1772b2f7100cdda4a3e5",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "86959bacd9ff0c86274cf8513e1badc062c148d014f6db707aca7ef23d729dc5",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "transparent-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-001-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "4efba93a63cf86fafa16040c5653f16218e864cf45368d7cb42b7d40e4fdbd43",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "black"
+      ]
+    },
+    {
+      "fixtureId": "unit-002-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "fdcd8ac96889eec063eb3d21d1027ee8e3a6224d141e03c735f239fa6148db61",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "white"
+      ]
+    },
+    {
+      "fixtureId": "unit-003-red",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "9989f3e4fd14ed3a006b64f8074e2f754f86e0eaf4068596850461b0e5f0a6c1",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "red"
+      ]
+    },
+    {
+      "fixtureId": "unit-004-green",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "74316418efa880ce85f0865edc03b6568050f50b4c738ef2307125a148eb4612",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "green"
+      ]
+    },
+    {
+      "fixtureId": "unit-005-blue",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "d0b54304a00c24b66a30afd48ffbb0fad73c55b0cd18f247a159b886525b583d",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "f2c07414a51cbd9f47eaa1d2d55d79e5a7f0f204b05721e1fae5a32e79854bdb",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "blue"
+      ]
+    },
+    {
+      "fixtureId": "unit-006-cyan",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ce58fb37a5938983afb576ee88f67b7bd02eec11b38ed1b249422654e6622fcb",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "cyan"
+      ]
+    },
+    {
+      "fixtureId": "unit-007-magenta",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "893afaf665d71d6589ba83e000c9977e9c252dab27ea452ba262ee5d002bdc76",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "5de074f52014c7a10289700047971f84d3faf0bd01975f23096208e5666b6bcc",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "magenta"
+      ]
+    },
+    {
+      "fixtureId": "unit-008-yellow",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "89b5a17c618ce62a0b2b767dcad6b167f28057a69a8c5438dd127ded6980bb8a",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "yellow"
+      ]
+    },
+    {
+      "fixtureId": "unit-009-gray018",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "a1bf5909ba16b760944c2dfb56fad841f92352d5fe075e2ab4e12ea5012c26a9",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray018"
+      ]
+    },
+    {
+      "fixtureId": "unit-010-gray05",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "54cc98cd07ede67b5454e21e054b678f70459b17bd5741f90857fc217e47f6ea",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "8ad4c477c8cc06601f6b93124002fe9d3d0a41b596fa88b5cf85d5bb76c4a858",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray05"
+      ]
+    },
+    {
+      "fixtureId": "unit-011-near-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "4d379477b6b636f65bea37af663859ed8bd428aea828961f34b5637ddafbc361",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-012-near-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "f1f4aff071d826d7c70b44f61d6d267af521bac1e52701beda5194e5a4776714",
+      "canonicalBaseF16Digest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-white"
+      ]
+    },
+    {
+      "fixtureId": "unit-013-transparent-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "1563e5be91480663b38b996d0dc24c34dcde99e94e4ef07965877478cc4fbb9f",
+      "canonicalBaseF16Digest": "e726f8fce4d67e19ab840f6ba7324175d5809314c162d119bd05e75e571939b1",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "e726f8fce4d67e19ab840f6ba7324175d5809314c162d119bd05e75e571939b1",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "transparent-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-014-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "b962cc67b9028a177d0453b7096dbea41592c754c988724cc9ead18701d66b7b",
+      "canonicalBaseF16Digest": "e726f8fce4d67e19ab840f6ba7324175d5809314c162d119bd05e75e571939b1",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "2bb973cc1d260019be2d37613379db55e6eae9ec799ee616ed320c4ac9735a29",
+      "expectedCpuOracleDigest": "e726f8fce4d67e19ab840f6ba7324175d5809314c162d119bd05e75e571939b1",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "black"
+      ]
+    },
+    {
+      "fixtureId": "unit-015-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "e4d8d7b45316ffb64d0b644227c31cfab3e02b743fc7fbc8df9b3284c8543e70",
+      "canonicalBaseF16Digest": "930ffb24169071f66adfeb72b3069827f98a337a00f6273df4f12cf6b8c4004b",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "96173796dfd111a0457c96f7f277db8a0536917feb9100da398dc6c42d7a264c",
+      "expectedCpuOracleDigest": "f4f0ab8f3cc7a51a9bdfdb7b996664aba7745b0db6eba8e61237ae39ae0a57db",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "white"
+      ]
+    },
+    {
+      "fixtureId": "unit-016-red",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "d7698b15cd28f2e4f4d6460b50377c5c9ff3a9064d4360c22821468f892a02ef",
+      "canonicalBaseF16Digest": "4872fcba789feee5f5422fbc2fa6ef417fdc67e3e3414fbcc014ef46f465649a",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "66d1472a14c1ab930026321e2ef4d1057ca1e2ada4e261416e02d2fe1125b89a",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "red"
+      ]
+    },
+    {
+      "fixtureId": "unit-017-green",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ef528bfd21b52a3f2304351fbfd2de9b2cc79d41f8b017e05de40968f06b51f9",
+      "canonicalBaseF16Digest": "00b2dce88357191649705c176500dc388d24057e2bdea45a1b6e281d19524c88",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "06cc5f1f19355a760675b8de5e0525f899d266e54ecfaa08d9714ff3c96425fc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "green"
+      ]
+    },
+    {
+      "fixtureId": "unit-018-blue",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "b36df2afde4711da909695da8e81eb9e5ba41f94c4e822098a332daa2a1866f2",
+      "canonicalBaseF16Digest": "70a27c692ecb7e27942d2cfa72ff9a5e4147eae0ca61f69f6ea7c29a8a20f9c8",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "70a27c692ecb7e27942d2cfa72ff9a5e4147eae0ca61f69f6ea7c29a8a20f9c8",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "blue"
+      ]
+    },
+    {
+      "fixtureId": "unit-019-cyan",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "5bd2732477ebd886ec851ecad5eccfeb0cde72af1ed129550dfb531b899749d6",
+      "canonicalBaseF16Digest": "185fb6bb3fc72afce1769f9beba60378b00de228cc8f10a95171a3a4f88f4133",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "4d6d65923685a8a58b3ff59de3647e2be389c615913fd3c82550cf654c402937",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "cyan"
+      ]
+    },
+    {
+      "fixtureId": "unit-020-magenta",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "4d368adb4aac3624154574e42be942def7c335f74b0f6255646725f65ea6b3fe",
+      "canonicalBaseF16Digest": "dcced58d48c92c550502fda2adcaa08b34abcbb9830d4489a93aef1ea61853ba",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "90b10fba22d66d7da0f48df4c6d12bcb00d2a1be137415db6fab89a640c672b7",
+      "expectedCpuOracleDigest": "dcced58d48c92c550502fda2adcaa08b34abcbb9830d4489a93aef1ea61853ba",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "magenta"
+      ]
+    },
+    {
+      "fixtureId": "unit-021-yellow",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "a106bd0a05f8820bb7e309fbcaeee241bc9e6259288f992fc11c90faaae1fb9b",
+      "canonicalBaseF16Digest": "917e05dfc3aaa1d34c3786ee4e748ad63808576dd2806e2a5c96e7493e622e43",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "1f2408432ebff9fdc6efddbc25a5b6f59d353813c97beb5a4e080517ea6f527d",
+      "expectedCpuOracleDigest": "917e05dfc3aaa1d34c3786ee4e748ad63808576dd2806e2a5c96e7493e622e43",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "yellow"
+      ]
+    },
+    {
+      "fixtureId": "unit-022-gray018",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "67140c058a99aff77802531195a3077d7a7ba28e0e12db840b39aaf0e501ffdc",
+      "canonicalBaseF16Digest": "1e527bdc9374c579c0f0ccd4182aaf5578e6ea4e76267dcf19f1a32387f4eee9",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "01cb18160813c5fcdc199529457529d35c7971f6aa21fa7c3b4d753f24714eaf",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray018"
+      ]
+    },
+    {
+      "fixtureId": "unit-023-gray05",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "2113ac46b9961c69f47e0a318d630d5ad62f0d2f3816d96a2ae575e0d56f6eac",
+      "canonicalBaseF16Digest": "1e10f8342aff3f00afeaf0578f5855a876d62c42a46c567d20e6a2515d52e79c",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "806e07880445fa97d7f0d6bf262744d0c999bda653de71bcdab9e6c031e0cf78",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray05"
+      ]
+    },
+    {
+      "fixtureId": "unit-024-near-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "7749e0c62151f0d75e17a333c9803d64e414feac6ef0756e4c318c5360e36a9a",
+      "canonicalBaseF16Digest": "6940ccb87c3f8ff30dc02bf487950ac82566a5ab7c64f1495d9db8b9075cde1c",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "e9ad21919c91763c1799e31468a7e4cb6e0d9f1b93ce95b0225c03bcac3c2de2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-025-near-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "be1a00bf67fa79b61445543431a461da98fdbea4f26a12aecc4f94b6f04e3967",
+      "canonicalBaseF16Digest": "a804560a4ccfc3d99639ac62987334d25491805a5cceba160c4185cf392f42ee",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "4a16adc47aff5f29c85a3fc80535becb9d34dca9e1267719f70997bb865d55aa",
+      "expectedCpuOracleDigest": "782a9ceae26057184b327e3b2766d10dc36e3dba34a18e0e3ff66546236a5a50",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-white"
+      ]
+    },
+    {
+      "fixtureId": "unit-026-transparent-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ce3181be596d0f704bf0646be0b8a099c3b8295132325c89ad4b215ec099c524",
+      "canonicalBaseF16Digest": "948c7b26c730ea4a849c9bc10a0cd941503753c8b6e548a6ec43dd00a3162ff3",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "948c7b26c730ea4a849c9bc10a0cd941503753c8b6e548a6ec43dd00a3162ff3",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "transparent-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-027-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ba00dab754dcd754a2d50d436fa10ab67fff005ead82ac3f0665087f13e56c28",
+      "canonicalBaseF16Digest": "948c7b26c730ea4a849c9bc10a0cd941503753c8b6e548a6ec43dd00a3162ff3",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "948c7b26c730ea4a849c9bc10a0cd941503753c8b6e548a6ec43dd00a3162ff3",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "black"
+      ]
+    },
+    {
+      "fixtureId": "unit-028-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "14de6cb206d5ba8a3d4999c80bd1bed6d86606d13d95f1af39f24e988ea6cf32",
+      "canonicalBaseF16Digest": "23cac2275bc00f0148b8589f08eac432d197dd86a4c8ab8a8f40931befa6b711",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "6910e60e1f6eb07b6f9b9835643fcf0e4c4f2e765604ba02ef6d52181746db26",
+      "expectedCpuOracleDigest": "23cac2275bc00f0148b8589f08eac432d197dd86a4c8ab8a8f40931befa6b711",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "white"
+      ]
+    },
+    {
+      "fixtureId": "unit-029-red",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "909a133e8a885a2d7c895dbaec2a8077bbd1dc49af03e219248b5e49c874d99f",
+      "canonicalBaseF16Digest": "66eaa16af1f2c6ccf51c9f6ed96ffbe9f3021ad69ccd350362d5b020b89f552f",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "66eaa16af1f2c6ccf51c9f6ed96ffbe9f3021ad69ccd350362d5b020b89f552f",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "red"
+      ]
+    },
+    {
+      "fixtureId": "unit-030-green",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "7acb0190a600bc67649b1ce568e5cbb27fc09555140ecdc23a2c38bbb3e93ad7",
+      "canonicalBaseF16Digest": "4e44bc0a586a2fd0397951cbd13e475ed10850a622f29b761e0b161f7df53d15",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "ad1ffd1c546bdb8713da2df8fa0a9cdc873d77c50f4b7fce999835177156dcba",
+      "expectedCpuOracleDigest": "4e44bc0a586a2fd0397951cbd13e475ed10850a622f29b761e0b161f7df53d15",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "green"
+      ]
+    },
+    {
+      "fixtureId": "unit-031-blue",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "f0c9a722f00137750102e16f532f0230b7ebff57445d946a2b813d3c5f0eb46c",
+      "canonicalBaseF16Digest": "15b01a47cde76d6cc0f3377b4054f4510c7e61b51d726eda9b94062045088e87",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "15b01a47cde76d6cc0f3377b4054f4510c7e61b51d726eda9b94062045088e87",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "blue"
+      ]
+    },
+    {
+      "fixtureId": "unit-032-cyan",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "3cda4b9946359ae494dbfeb12dcb709bfaa857e7bd87e2290b999dc3b2e0b0b9",
+      "canonicalBaseF16Digest": "dcc6cef6e1586a7daf6bb8e22ef3dc70d2fc062b35b8f760034ef51a6d0f6e54",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "dcc6cef6e1586a7daf6bb8e22ef3dc70d2fc062b35b8f760034ef51a6d0f6e54",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "cyan"
+      ]
+    },
+    {
+      "fixtureId": "unit-033-magenta",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "b030839c76eed591808a4d71e68bdb66091742a59d68f346eaafdd6f5ff0e981",
+      "canonicalBaseF16Digest": "9da2d7ccbdc851c2b244e3998a842a598d3a6dcef3c39f0473e3df80fa10b52b",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "9da2d7ccbdc851c2b244e3998a842a598d3a6dcef3c39f0473e3df80fa10b52b",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "magenta"
+      ]
+    },
+    {
+      "fixtureId": "unit-034-yellow",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "34104315ea188d659267e7e7d76ff51b9bde579ad0b842a9f67e06d9fdb9322b",
+      "canonicalBaseF16Digest": "b3022d835ed8b1c7a46ba54a738db1da9e183c72fadc740b85aba0708c126c73",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "b3022d835ed8b1c7a46ba54a738db1da9e183c72fadc740b85aba0708c126c73",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "yellow"
+      ]
+    },
+    {
+      "fixtureId": "unit-035-gray018",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "c1d9f9b93572d936a07dcbcdb5bd462985f7d6011b184b719c1f76e2908306a2",
+      "canonicalBaseF16Digest": "1b3c4db8a981fb939de5b1c1854456e598679e0cda5e7d30be2f2c0722a2e20b",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "f04ebd3e17c12ff8a29387611df0d7c5f98ea1c8ba1566459e1daabc6a28d52c",
+      "expectedCpuOracleDigest": "1b3c4db8a981fb939de5b1c1854456e598679e0cda5e7d30be2f2c0722a2e20b",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray018"
+      ]
+    },
+    {
+      "fixtureId": "unit-036-gray05",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "643473ef1b6658b72fdacf43b98a79d8c05b6c492a7bcbe2d3e3dfdcf666e78d",
+      "canonicalBaseF16Digest": "37baa5f0e2dd6f18ad521d327beff28352468d13d4065e734718a31700292fc9",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "cdbd9ac9f99dfbaea6aac6774cbc649b7c500f900c810b29cb78b5f55e5f977f",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray05"
+      ]
+    },
+    {
+      "fixtureId": "unit-037-near-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "fa636e1d3f2ca3678ded4f85a09053297968b8bee2f3a78759fd20e3f80a7f78",
+      "canonicalBaseF16Digest": "355368512081ed4d5a8470e680dcbe2f62c157b2cc9bbcc70ca27c886d112bbd",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "ed923d3e9b4412f8da0fcef3d9272cc00d1b9d8d23bc30bff4231e943e657239",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-038-near-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "9ca92c2ca88a1e8327fef43591923b368558189dae687c9eb020d35fec4cec97",
+      "canonicalBaseF16Digest": "0f78d3a803c7f391c90c34d5fcb45b96cf75c1ed8e7402180047878f8d88bd4a",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "da3f18b4f2fc377f01f2dfdf252495e9743b71d097a34fcc0e88caebc815eeac",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-white"
+      ]
+    },
+    {
+      "fixtureId": "unit-039-transparent-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ff62d299652baccf63e311c7cd92309ffca2d0fc843a4e3ebbc4ef956b4d6002",
+      "canonicalBaseF16Digest": "f08533ddeeda991622a71d5def2f6c8f7c2e275269acaefaa18af3ed638d69a2",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "f08533ddeeda991622a71d5def2f6c8f7c2e275269acaefaa18af3ed638d69a2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "transparent-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-040-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "a1ebd9d25a9018a9354a2f575549d538243ca9f0b530d0225edcdcda3fbb7d5d",
+      "canonicalBaseF16Digest": "f08533ddeeda991622a71d5def2f6c8f7c2e275269acaefaa18af3ed638d69a2",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "8ad4c477c8cc06601f6b93124002fe9d3d0a41b596fa88b5cf85d5bb76c4a858",
+      "expectedCpuOracleDigest": "f08533ddeeda991622a71d5def2f6c8f7c2e275269acaefaa18af3ed638d69a2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "black"
+      ]
+    },
+    {
+      "fixtureId": "unit-041-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "60a31ce0489215154c9f581244e5a601dcc21c50bb4b3f7cf9a57647acfc0024",
+      "canonicalBaseF16Digest": "f93d981d5763020514a4923037c6a588f79c01a24e981de68ac1100b9113aa4e",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "ab30f6ffcf36784d806f4d3a24885af5da82877888194fe2425e30ab11e8b1fc",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "white"
+      ]
+    },
+    {
+      "fixtureId": "unit-042-red",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "938af1e6c082751680166213c7e8117e02fa8d5acf66ed610d0dc667dcf0c695",
+      "canonicalBaseF16Digest": "b25265b767e38050cc5dc77adc0d61e113bb70097e1faaf0c41393e5c62839de",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "ff281513de858ffb93287eecf47872bf68cc7e81267e736c738962a524474bf4",
+      "expectedCpuOracleDigest": "b25265b767e38050cc5dc77adc0d61e113bb70097e1faaf0c41393e5c62839de",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "red"
+      ]
+    },
+    {
+      "fixtureId": "unit-043-green",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "a3310aa496a561df3915aa3239de3c3b3ac1b72cb27b0512cc21f316421cdae0",
+      "canonicalBaseF16Digest": "ddae49ba989a99a4fc22e8dc7a17dcd877b0d0073314d9499df23fa49c9b0d89",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "3f0f05640393d2f67227d2a0b1ca0a1448c312f31cf92fac16e6d3a1cceb7d05",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "green"
+      ]
+    },
+    {
+      "fixtureId": "unit-044-blue",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ac4a7d03110eedb03a6e137ace3d8341893a98679030597d7e4fc3a8f3819897",
+      "canonicalBaseF16Digest": "cbfacb6c28e5c1ab59bc4a90063fbfce9f97c4619c533b52c906b7f16534080b",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "d6b058e449c481a97aca7a5fe3d28a4db84079c79a90d828321ef2e23b2c5254",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "blue"
+      ]
+    },
+    {
+      "fixtureId": "unit-045-cyan",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "7980478e528a86cf25f94020bfaa1aebba6151d131e734a5c8b5d8dc5616d15c",
+      "canonicalBaseF16Digest": "81d73b2b46b4e81793ecca8225302186b9867854dadf195590a98bac76b826a6",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "96173796dfd111a0457c96f7f277db8a0536917feb9100da398dc6c42d7a264c",
+      "expectedCpuOracleDigest": "b6704582836c0dca1bfc7238b7b3f0eb9242ee31cd1d1da4a1512f3ef6210e39",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "cyan"
+      ]
+    },
+    {
+      "fixtureId": "unit-046-magenta",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "e7cfbe8131c6a7e1a3b797661896db0a7b41215d92883b9c8499b334003adb9f",
+      "canonicalBaseF16Digest": "389ca999ab0a890ce2ed2edc3ecabce16aeb9b8fff5291cd4b584c24912f10cc",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "5f2a74fab74d6e889343ed2f852a0550ef95fe01a9ff1d486d86e9e0bf8bd551",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "magenta"
+      ]
+    },
+    {
+      "fixtureId": "unit-047-yellow",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "bb3579e2948f615584bcfd6bb60178d44c97b90f44dcb304734d704cb41e2343",
+      "canonicalBaseF16Digest": "27a34d9620760bb6a55e4170f530cf55a8a0670c6fdcb2dc815473176cc3a1fc",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "d3ec147a4e0950410176aacf10f5cdad96e90547ad4f0bb0cd6a844b53e74cae",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "yellow"
+      ]
+    },
+    {
+      "fixtureId": "unit-048-gray018",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "cffadcf92f4911c6da716eae14dca1e1987799b00e5093a2a8fe2631b7b4e241",
+      "canonicalBaseF16Digest": "41b616a1800d5c569ed83a0f6f9417065c2e2fb363764cb7e694dff35d357e7e",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "41b616a1800d5c569ed83a0f6f9417065c2e2fb363764cb7e694dff35d357e7e",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray018"
+      ]
+    },
+    {
+      "fixtureId": "unit-049-gray05",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "4ceb78a27d8921c05a58a49e4f4eb6d43aa201d246e3d08f6d70e956f406f9ea",
+      "canonicalBaseF16Digest": "b2c1df2ca3ca0d89e72d0b3c05fc10ca904e30b2fcc5cbee6b3afa16ad9f597f",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "5de074f52014c7a10289700047971f84d3faf0bd01975f23096208e5666b6bcc",
+      "expectedCpuOracleDigest": "b2c1df2ca3ca0d89e72d0b3c05fc10ca904e30b2fcc5cbee6b3afa16ad9f597f",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray05"
+      ]
+    },
+    {
+      "fixtureId": "unit-050-near-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "74f692ff86f6aa2c39ee326d68253345eaba3be2f150443b708e175b0ad51553",
+      "canonicalBaseF16Digest": "51f8858438c05b0f1efc2691c2d916d134b4fd21e230ead2afd1c54d3ba522fa",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "90b10fba22d66d7da0f48df4c6d12bcb00d2a1be137415db6fab89a640c672b7",
+      "expectedCpuOracleDigest": "11f14c0f515db67e9962f63f9d44cd3ea6178e23f00de1df78501a9b282f5607",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-051-near-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "846132f0ea86d441249eb775814b04e0d8ebe15f0bcb570c5c76590c3847a18d",
+      "canonicalBaseF16Digest": "72d7c882e5ada82403ec7bd3af7c6c48f6e2639743cd9e025bc485dd6db19f1c",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "8f1f1b77cfc5e2a233328f97a858a104b5715b6f12c927ca97f8fb7333a5013e",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-white"
+      ]
+    },
+    {
+      "fixtureId": "unit-052-transparent-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "a9131ea9b7e47f718f8a7c542f829eb354a2ca7045d29fd749fe94695efdbe0b",
+      "canonicalBaseF16Digest": "354381cb30da9b722459680f5b2bd9fe405a31cfbb5751a1f5bd9034ba369918",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "0e8d20e55c1c95c380a0d4408ad205702325619796220022cb3dd9b5b9a744ed",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "transparent-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-053-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "5283e7a9308468ed98a264a388ce4853f89598ab2a4d85ce7745a4488041ffdf",
+      "canonicalBaseF16Digest": "354381cb30da9b722459680f5b2bd9fe405a31cfbb5751a1f5bd9034ba369918",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "354381cb30da9b722459680f5b2bd9fe405a31cfbb5751a1f5bd9034ba369918",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "black"
+      ]
+    },
+    {
+      "fixtureId": "unit-054-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "cb6abd669c1edb55c8cd9bb21d154d92fc0d94a90bdfbbbc56103cb24965f336",
+      "canonicalBaseF16Digest": "d37d5e6021d8e5bd0a5ad489e2f95425550af59c41c19437897fb4a7843ef4f2",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "d37d5e6021d8e5bd0a5ad489e2f95425550af59c41c19437897fb4a7843ef4f2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "white"
+      ]
+    },
+    {
+      "fixtureId": "unit-055-red",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ad0ea3ab34847fd7c7e9dfa545acd2a2ad3eeb34f4454510e4c1417bffa4d444",
+      "canonicalBaseF16Digest": "f6cbf074d12ae7d671a9708b4582bf9793f1b058cffd0788173c5baf36b1cda2",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "4a16adc47aff5f29c85a3fc80535becb9d34dca9e1267719f70997bb865d55aa",
+      "expectedCpuOracleDigest": "3c2c9365a2802c22519dfad0e8e3e4ec9dcb01c098f87d1dba4a0390c8e843f2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "red"
+      ]
+    },
+    {
+      "fixtureId": "unit-056-green",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "4ef8c653ddae7afd8c238f82f7826221cc61a272fdc71462b3c3544f78ecd99b",
+      "canonicalBaseF16Digest": "ef2cb6fc293615cbc107690d544ce2f21cd9830e278a31d6942ac9db3311f652",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "2bb973cc1d260019be2d37613379db55e6eae9ec799ee616ed320c4ac9735a29",
+      "expectedCpuOracleDigest": "ef2cb6fc293615cbc107690d544ce2f21cd9830e278a31d6942ac9db3311f652",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "green"
+      ]
+    },
+    {
+      "fixtureId": "unit-057-blue",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "b7b3781fdfa6340b9a60dce7404da357ba600420b151a875be6e4c9dc665ec8b",
+      "canonicalBaseF16Digest": "011529a0aa84ac43fd77a47fd78f79fa0c5160794be6b3d03078b681d0255605",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "011529a0aa84ac43fd77a47fd78f79fa0c5160794be6b3d03078b681d0255605",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "blue"
+      ]
+    },
+    {
+      "fixtureId": "unit-058-cyan",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "d93d524894807986090bf08e00f2121eb83d09ed7f1194e6db830d9f69ad73d1",
+      "canonicalBaseF16Digest": "3c2c9365a2802c22519dfad0e8e3e4ec9dcb01c098f87d1dba4a0390c8e843f2",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "3c2c9365a2802c22519dfad0e8e3e4ec9dcb01c098f87d1dba4a0390c8e843f2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "cyan"
+      ]
+    },
+    {
+      "fixtureId": "unit-059-magenta",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "9e0b3e98d1386ec04bbd4f4a94b048885a4c98fad33d41272192db3c424e202c",
+      "canonicalBaseF16Digest": "bd30c78b25bf05159d7031afc40558bb82e4831b95e35689df94f3823d0d8b80",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "bd30c78b25bf05159d7031afc40558bb82e4831b95e35689df94f3823d0d8b80",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "magenta"
+      ]
+    },
+    {
+      "fixtureId": "unit-060-yellow",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "9d780c309523720d0a957ef66d78a9b3c5c43eaea8a273c697f6019bc04dbef6",
+      "canonicalBaseF16Digest": "b3d4b9a8e2ee563a1b89c1fdb7ffe947544fb63f412edbdcc7b232f3dabce94c",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "ad1ffd1c546bdb8713da2df8fa0a9cdc873d77c50f4b7fce999835177156dcba",
+      "expectedCpuOracleDigest": "b3d4b9a8e2ee563a1b89c1fdb7ffe947544fb63f412edbdcc7b232f3dabce94c",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "yellow"
+      ]
+    },
+    {
+      "fixtureId": "unit-061-gray018",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "c2875b8a69ef59ba66d59a71b395925094c311e61e034065d39399852baf60bc",
+      "canonicalBaseF16Digest": "aaa5e1c865be3d54a1fda80236d1ab47d66b224591944ae2fb995074b517058d",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "aaa5e1c865be3d54a1fda80236d1ab47d66b224591944ae2fb995074b517058d",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray018"
+      ]
+    },
+    {
+      "fixtureId": "unit-062-gray05",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "97666bfae3b1dab400a06222d9ec63fa2768a08b799a59f276f2263aefaeff69",
+      "canonicalBaseF16Digest": "72f3ed5eae990c58307e90c81ccf8338fb86546d70ccd198eb1e108401ab6413",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "72f3ed5eae990c58307e90c81ccf8338fb86546d70ccd198eb1e108401ab6413",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "gray05"
+      ]
+    },
+    {
+      "fixtureId": "unit-063-near-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "65fff3c833542718b39b59b54b1d2ca577832df29db35d0eae8c7bc1530ea522",
+      "canonicalBaseF16Digest": "f9794110382deb19263f283bb2b3c030e26c5865d843a7be81a91e54a7dc8f8f",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "1f2408432ebff9fdc6efddbc25a5b6f59d353813c97beb5a4e080517ea6f527d",
+      "expectedCpuOracleDigest": "f9794110382deb19263f283bb2b3c030e26c5865d843a7be81a91e54a7dc8f8f",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-064-near-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "cb5b2ddb32bb3fc430c7f6ce1f0b1eba528e0a70a552c2c73d6197ed1cf4cb23",
+      "canonicalBaseF16Digest": "d3acfb2cd61fd076aad911f09aa461b7aa02183bb66fb759dfb6f0a7b8e21906",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "ca583497eac4875b339e0cfb3cab3585554952ccd13fd6db6bb4fb5f318be6cd",
+      "expectedCpuOracleDigest": "8a478d1dedf273d6b7802e4bca692a287305e78cc8451903001aecfa92337a79",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "near-white"
+      ]
+    },
+    {
+      "fixtureId": "unit-065-transparent-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "2c40604e6c205c721d353ac5e56882086c179ea8ea03d4e193b3d24b19fd60be",
+      "canonicalBaseF16Digest": "d3acbee208db03263a380e43a98c8f174e4cbf780829adc7cc4e7254a9200c52",
+      "qmapF16Digest": "92c1b4dbf316a35335ffd86d933acd6e8fd7ad3a3c39758dae9bd5490da64ddb",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "f2c07414a51cbd9f47eaa1d2d55d79e5a7f0f204b05721e1fae5a32e79854bdb",
+      "expectedCpuOracleDigest": "41b116e55785fd921e18dde9d916c10a3c09182d07ac452feec7147c7f08dc26",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "transparent-black"
+      ]
+    },
+    {
+      "fixtureId": "unit-066-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "6572bc957e4c10b6db35246ff38364d26101952bbf472a25a7c349719894334c",
+      "canonicalBaseF16Digest": "d3acbee208db03263a380e43a98c8f174e4cbf780829adc7cc4e7254a9200c52",
+      "qmapF16Digest": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "d7a4468c7466385aea0ebd8a037c133fda80748d64adea2b2909f9b8d97aa1ba",
+      "expectedCpuOracleDigest": "7b763b598078a19a649e13834166acd263b092234ac9cc70865fc2cea0fc92c4",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "black"
+      ]
+    },
+    {
+      "fixtureId": "unit-067-white",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "2445474bde9112b4e4f54bab0c99aad3aa1acdb8a7a3ebbe98517c5b61d292f0",
+      "canonicalBaseF16Digest": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
+      "qmapF16Digest": "9485183637e5068ff92bc7dd8a92d4e18158fbb6f96c2ba594922af1b5f807ff",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "687790dd93fbc99206c3871ed2227c09f1254b96dab457a4ca91714d2539fce0",
+      "expectedCpuOracleDigest": "c156e5cb4fd6000312e10c5569d2bb68badc4c2695f157e0100531f391212d68",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "white"
+      ]
+    },
+    {
+      "fixtureId": "unit-068-red",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "6c4f1b16fe218155cde1f4b75597e7539a5f68eba2decabdc6fc598ee5888d90",
+      "canonicalBaseF16Digest": "314751446dcce24e540f85fef0e101b1a75bfc90b95e9c09283e0c8ad87f234f",
+      "qmapF16Digest": "651a61ed3ce72a1b360497a8e50ffc9e0b58eb364cce56728c382405559b4fb8",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "bc95db1ebf7afae8ae5a6ab425a6d6c9f5a61daca61d57e64690eb86ec73d116",
+      "parameterDigest": "bce701d98b242548bc01355a98851c79b95bd187947dc53ba60495d0a0af934f",
+      "expectedCpuOracleDigest": "314751446dcce24e540f85fef0e101b1a75bfc90b95e9c09283e0c8ad87f234f",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "red"
+      ]
+    },
+    {
+      "fixtureId": "unit-069-green",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "c8b4a5f3044e56a4a47a286806c7d559195c7a3f3fd29975467f1aaca1df388c",
+      "canonicalBaseF16Digest": "fbdd7f2e63eca5cce856dfaea70fe152bfb312d7f539ec34ac81d4a153bc0d03",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "db3426e878068d28d269b6c87172322ce5372b65756d0789001d34835f601c03",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "phaseReceiptDigest": "59b857991d95ca36b15cd383f600ce5e2c09a00db61c6c107e46068e67527d93",
+      "parameterDigest": "e7fca3353519efe2a68194c769455c48c7aec921ae0a1d8aec51c92771c85b8e",
+      "expectedCpuOracleDigest": "907a50cc35628fc0103eb91a23ddf72405656676f31404668449c46622a93738",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "green"
+      ]
+    },
+    {
+      "fixtureId": "unit-070-blue",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "73d8c5501a2d6993dad83b61a50948c0baed109f544511d653c87a459d74bf7d",
+      "canonicalBaseF16Digest": "a38d572d516a0be61427cec3541b41159a1b9a1da9e594271dd20e69d5d8d491",
+      "qmapF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "19d4d258e6945408911767db45765827a0cb499966eed100876fdfb550051d12",
+      "parameterDigest": "82d267230b05463ba59fa377348eb39ba0b02ebf6186e15dbd9e25535f65dad3",
+      "expectedCpuOracleDigest": "a38d572d516a0be61427cec3541b41159a1b9a1da9e594271dd20e69d5d8d491",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "blue"
+      ]
+    },
+    {
+      "fixtureId": "unit-071-cyan",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "83c77e26769635949ba4c5c0148e1c463d9e5bfca3ea3263bb2bb04f4c89225b",
+      "canonicalBaseF16Digest": "473b60645cbb01a07468f628143eff490d1626f27118b71a2e0962d087c1f0e4",
+      "qmapF16Digest": "4cd55cf235765166fb1b06dacd65d8463cd9ae7ef2d738bb301cc75e149e3cf1",
+      "scalarF16Digest": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "5c200a277e6897f5d803f843da3ff8ef322fc633740ee12133d1cba920aa582c",
+      "parameterDigest": "206431f23a8c01c0c87bac5f8b2afaf72425578b15eb09c24d9e2d85024e3cb0",
+      "expectedCpuOracleDigest": "e866a41b97f72896e18cc8354b2572107258336dda666d2b3f5bc5b963835fc2",
+      "pixelCount": 1,
+      "tags": [
+        "formula-unit",
+        "cyan"
+      ]
+    },
+    {
+      "fixtureId": "surface-2x2",
+      "width": 2,
+      "height": 2,
+      "encodedStraightSourceDigest": "dd0fd3c3833a487422353e3495980d6a17c1e56b77f8abfa31d8ccdf2166b452",
+      "canonicalBaseF16Digest": "6b50f5cde92d70b54518073af94b83753a5d48b08ceb0ec2ef5c15d7a4565e60",
+      "qmapF16Digest": "fbdd7f2e63eca5cce856dfaea70fe152bfb312d7f539ec34ac81d4a153bc0d03",
+      "scalarF16Digest": "a38d572d516a0be61427cec3541b41159a1b9a1da9e594271dd20e69d5d8d491",
+      "alphaDepthF16Digest": "79cb268cfbf5e71b7a376be54762e8a0655af448dcaf8ca80f46303615347349",
+      "highlightF16Digest": "fbdd7f2e63eca5cce856dfaea70fe152bfb312d7f539ec34ac81d4a153bc0d03",
+      "edgeF16Digest": "a38d572d516a0be61427cec3541b41159a1b9a1da9e594271dd20e69d5d8d491",
+      "phaseReceiptDigest": "8d1340736e4661ab862c226d405636fda086d59fd21842d06d887c9f6b5ec2d1",
+      "parameterDigest": "6a42deec914c52b185d2d2b4535045a03ed82bc4bc56809bfe512574523d069e",
+      "expectedCpuOracleDigest": "27b907678657c69ab38e962759dfef755960192c5669683ad0d8a52f93ea8ed1",
+      "pixelCount": 4,
+      "tags": [
+        "surface",
+        "odd-dimension"
+      ]
+    },
+    {
+      "fixtureId": "surface-7x5",
+      "width": 7,
+      "height": 5,
+      "encodedStraightSourceDigest": "95d7e760b31555f596952ee611cc39906f5ceecdd7604efdbcf24089f0904818",
+      "canonicalBaseF16Digest": "cfa9593a4b4f94cf24f14fd4eea62179f9f5f84527cbc28ac9647e0d0b6762b3",
+      "qmapF16Digest": "2ff4836dbb1e7e240c8742683bf54c443a404523cd9d1a7d6a68b41e51ef6ec4",
+      "scalarF16Digest": "890ae5a138ee8906d746ce74c57c8e1beb98711557740d70dc097a446173ebcc",
+      "alphaDepthF16Digest": "d6dbe14f013a8bfccbbd8bd7c8b5c588c6f037a64c1d553f020cec4d04920987",
+      "highlightF16Digest": "4d5a54c2c530cae349fa6c7d155c8a54f25f8af8ac3239bb5c73ff8fe1cec951",
+      "edgeF16Digest": "300d6f7eb0090559d819a808e60de07430fbf29a14cf66872a118fb6837a83cf",
+      "phaseReceiptDigest": "8d1340736e4661ab862c226d405636fda086d59fd21842d06d887c9f6b5ec2d1",
+      "parameterDigest": "741abe44c1ea1465c2f50d09541e2102b293bdcad141e2602e693969ba77f915",
+      "expectedCpuOracleDigest": "3e32fdd8eeeceb6ac0069e34c2e564ab49e8217ddc187b5737aa4928ac098980",
+      "pixelCount": 35,
+      "tags": [
+        "surface",
+        "odd-dimension"
+      ]
+    },
+    {
+      "fixtureId": "surface-17x13",
+      "width": 17,
+      "height": 13,
+      "encodedStraightSourceDigest": "14a4fc0aa629dc2a11e0d757b2ee9e26ffff2c6840ef861883ba20bfd64e3bb7",
+      "canonicalBaseF16Digest": "3f1b43226a9a4fec7bba44c3ae17a607c531529ce13807e999fa163047e1ea07",
+      "qmapF16Digest": "fd5ecebf6f0d4cc243055a45af9c7475d6f5f2775f53e4f908db49aa2e17ba76",
+      "scalarF16Digest": "acb8872b9a4edcc82e15fec9b04231d1b1b6124408e93d9b367b83e4b741a313",
+      "alphaDepthF16Digest": "f8ff10275051d25ec1184f80f1db6797e19a4d38eebac4dfc65e3b89fb2ec518",
+      "highlightF16Digest": "3b57429f79ceea3b79550b534a70d71de9c8d327421c6dc96cb448954430eaea",
+      "edgeF16Digest": "4c05981e3c8757693ed59a1ced5eaf4b51bbbdbabd1d6484de0d034feb0a59fa",
+      "phaseReceiptDigest": "8d1340736e4661ab862c226d405636fda086d59fd21842d06d887c9f6b5ec2d1",
+      "parameterDigest": "da7118f5928b58fdd81da79ceb849640dc1e11e388dee2ad8c0e4ab5169998cc",
+      "expectedCpuOracleDigest": "cac8fd6bc3a5c34471cd10f337a2070e126c94c9c7bc597db2099b7e0349f50a",
+      "pixelCount": 221,
+      "tags": [
+        "surface",
+        "odd-dimension"
+      ]
+    },
+    {
+      "fixtureId": "surface-33x33",
+      "width": 33,
+      "height": 33,
+      "encodedStraightSourceDigest": "db542f72c37356aa43276da89cfa3116466aaf1eb5263be2eb52b1b4d72c7de8",
+      "canonicalBaseF16Digest": "02e335ef62226d7645d86be9650b68e92c6cc45bc68872e9ba46e4935df962ad",
+      "qmapF16Digest": "aefd330ca7fd6def44eca1b01f0290b3a0247dcf4ac2592fdaf6c8d7f63cb5a7",
+      "scalarF16Digest": "d661df286dfcaab3cf704b4005ce1e4af086744271006287fe0a14ed20cf6565",
+      "alphaDepthF16Digest": "a19f29fe3f8f5b33c26a86b8d5e6685fdb94df5fab8751ad6211d38d7dcba72e",
+      "highlightF16Digest": "030c82b4c9d09a2a68781d9b796be8e9e408caf09f00b2e699117cf1dce14283",
+      "edgeF16Digest": "b936d4fa813ef7f120d595dca6c0ad4357ed9c4844570468fc8eec38c1735683",
+      "phaseReceiptDigest": "8d1340736e4661ab862c226d405636fda086d59fd21842d06d887c9f6b5ec2d1",
+      "parameterDigest": "8bdb656e0a4f3f984797e5364d797efcc5a19ddeacff0c66c4bbe1cd1fc58651",
+      "expectedCpuOracleDigest": "0db6f49d1896f48d2a4ba6a6080cf40811054ef784e8259d193b6440a05d0c98",
+      "pixelCount": 1089,
+      "tags": [
+        "surface",
+        "odd-dimension"
+      ]
+    },
+    {
+      "fixtureId": "ramp-alpha-33x1",
+      "width": 33,
+      "height": 1,
+      "encodedStraightSourceDigest": "3b6a46045185054820b0f8953e8ad5bd4e1dfc048590aa11a7ddf86713538970",
+      "canonicalBaseF16Digest": "14398e7e0d5a865e7c79001e2bf7d7b240ea3164e3fe29600b09b65ff676aee3",
+      "qmapF16Digest": "a52d77e3444ec8b547ebedb9df70ef82cfe69402cc4091e4e6fce22b1f7cbcb1",
+      "scalarF16Digest": "a52d77e3444ec8b547ebedb9df70ef82cfe69402cc4091e4e6fce22b1f7cbcb1",
+      "alphaDepthF16Digest": "2c446e170a04acdb1216726b065b860daebb848b9a2a01e8b35d9b569b14f024",
+      "highlightF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "edgeF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "phaseReceiptDigest": "b8ccd56671812d09da3e5fa7792a56181ffc7db0ef0342effc37a99b2a526a89",
+      "parameterDigest": "790474117641d68c499bebd164aa7ad5649a2e86656f7ea9a3f2f12f88b89543",
+      "expectedCpuOracleDigest": "d66917e3d0d0fcfcc4411a2d678289aadd70fb535a65d46d16edff75c212b408",
+      "pixelCount": 33,
+      "tags": [
+        "alpha-ramp"
+      ]
+    },
+    {
+      "fixtureId": "ramp-q-threshold-33x1",
+      "width": 33,
+      "height": 1,
+      "encodedStraightSourceDigest": "1a2d083f4758ad70261b4cad7348295a85c8e39aa948e7fa1f4d61d13561cbcf",
+      "canonicalBaseF16Digest": "a5282bf6d573725b69c39afa1840b79a0de60fedbd30811ea4108e57dc825da4",
+      "qmapF16Digest": "293875806e374451883676f33a549778fa240c6056f5721c5957b5a433d9ca23",
+      "scalarF16Digest": "18c7ab4fd782a85cea4d6a2d4f59f08c89cd7e8deff81e548d5172fe8114e1e8",
+      "alphaDepthF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "highlightF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "edgeF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "1d2e652bc6a3d0355f3ba0c8322b44fec3c9532461a725e818cc66b9573a50d5",
+      "expectedCpuOracleDigest": "8afbcb5c806999122aecd34523616d5d499de3f37cfd67ac62fa999b452d0fcf",
+      "pixelCount": 33,
+      "tags": [
+        "q-threshold-ramp"
+      ]
+    },
+    {
+      "fixtureId": "ramp-scalar-33x1",
+      "width": 33,
+      "height": 1,
+      "encodedStraightSourceDigest": "3babe1c9d838b768a9b0c2280fd9a1318939febe910e9154a54e95a00fe38ff2",
+      "canonicalBaseF16Digest": "69a0cbc70044854d0b871d9f4c5a7b8c3af45a795b91a49da79ce62ff5bea35c",
+      "qmapF16Digest": "5782ecf2f83775d7eb460179daf451a76c9c2641badbb4adfa2ce88f64665e10",
+      "scalarF16Digest": "2c446e170a04acdb1216726b065b860daebb848b9a2a01e8b35d9b569b14f024",
+      "alphaDepthF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "highlightF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "edgeF16Digest": "1d7261a96013c9b66d8b954492c4b155a009ca91b20dd716305fd9611d3cf41c",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "1d2e652bc6a3d0355f3ba0c8322b44fec3c9532461a725e818cc66b9573a50d5",
+      "expectedCpuOracleDigest": "53ca01a351c3f379f5a4f7f35306d2ddc31b6d03af952d5d00509709c594d1e5",
+      "pixelCount": 33,
+      "tags": [
+        "scalar-ramp"
+      ]
+    },
+    {
+      "fixtureId": "grid-phase-quadrants-8x8",
+      "width": 8,
+      "height": 8,
+      "encodedStraightSourceDigest": "43379b28c06c53940b751c359aecdf7983a2c111350c461586ad0c87f513c92a",
+      "canonicalBaseF16Digest": "070259b2602e5246f2953984c1539ca5f99a07e2a8cc1b9496717b65869c0ac6",
+      "qmapF16Digest": "0a2f3ac22aa350f89d6f5ccd53fbbfb0065765d263b626dafcac2e2ea205abf0",
+      "scalarF16Digest": "975d104c08285d7f2e4c35e917305a4ae68538ddde12e91c7c26f25e8cd38856",
+      "alphaDepthF16Digest": "dba486f693668dded9ad2fad9f62bb399b36545c771207f7c52e496e98f036aa",
+      "highlightF16Digest": "dba486f693668dded9ad2fad9f62bb399b36545c771207f7c52e496e98f036aa",
+      "edgeF16Digest": "dba486f693668dded9ad2fad9f62bb399b36545c771207f7c52e496e98f036aa",
+      "phaseReceiptDigest": "aef03ef3f82b70c42ce7cd9262d230feca7acd0c9b877097c7f6f9d7ef97abb4",
+      "parameterDigest": "a6715f8eaf20fa5a52211b259438732cd17c447e1ad2a770bb57f1cf09562a6f",
+      "expectedCpuOracleDigest": "4668b810b786cdb94b3fb180948b4a8555a96e47f8b51bd869579a5f4ca36220",
+      "pixelCount": 64,
+      "tags": [
+        "phase-quadrant"
+      ]
+    },
+    {
+      "fixtureId": "grid-mask-combinations-4x4",
+      "width": 4,
+      "height": 4,
+      "encodedStraightSourceDigest": "7a48f3d281bb3a6fccd108a2045f9b9cfe4e10e0ed69cfde2707107025128ce6",
+      "canonicalBaseF16Digest": "370680f5a141859a503abb19b39ef2f7e304ffce4d153a14497d8036d44afff5",
+      "qmapF16Digest": "7cb39db914fb2228605160986a5798c655b343e7a884932f6bcbf22bcce40610",
+      "scalarF16Digest": "36d8de76de37af7577469534e3186f39524278ca2a3651e6895759d298522067",
+      "alphaDepthF16Digest": "40050de40fd2ffbe9430cdcd6a9f8c474554c934b762c2083b79fbe99db883b0",
+      "highlightF16Digest": "2b710973e170cb19afd6b52ff2ced0bc6ead3d7fd82abe83592687b72413e0e5",
+      "edgeF16Digest": "fdb06888146b44eb736345bb9e38d467fa5d68bd92c6a43387c85bf31ccbd013",
+      "phaseReceiptDigest": "3ca8f632c69a86f5283d8e1fd2e1bbe91dccf24c0741dd1731789a314b1294bc",
+      "parameterDigest": "b69b413b2e52c3c93e5f23172575d275d6432b32321e128e3b58455cc49362b6",
+      "expectedCpuOracleDigest": "fb5bdf0f5f0b8bff69e449aee9569db1cbb7d528b7270817fc4ac3b25dc8a34e",
+      "pixelCount": 16,
+      "tags": [
+        "mask-combination"
+      ]
+    },
+    {
+      "fixtureId": "stress-cmyk-black",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "afbdfe29dddcb8a792b86a9b200bfdc945c9fecf04ba07a6ee3454e43bb24b70",
+      "canonicalBaseF16Digest": "d3acbee208db03263a380e43a98c8f174e4cbf780829adc7cc4e7254a9200c52",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "1f61c770a64d823775db68596dcde76c71596ada54239efd95e87be7dde214da",
+      "parameterDigest": "2758c77a1358792d3fa00b49f1e1fc17f185babbb3bcb557680c17e0440de495",
+      "expectedCpuOracleDigest": "d3acbee208db03263a380e43a98c8f174e4cbf780829adc7cc4e7254a9200c52",
+      "pixelCount": 1,
+      "tags": [
+        "stress",
+        "cmyk-black-branch"
+      ]
+    },
+    {
+      "fixtureId": "stress-lab-threshold",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "7b4ee3dd59af6e90e565ca7ae0acecd5fb91e2fdc085f1457ecaddabdf9cf273",
+      "canonicalBaseF16Digest": "60ddfdec74697b591968734f551a840e0c29212d2b0fdc52b1cf47cdd7269762",
+      "qmapF16Digest": "1a88a699ebea879e1307a01d7c381c6aac72dd6f3189b26330744edb750fdac7",
+      "scalarF16Digest": "e633f9f6fd906ba68d19793c378491be749bc39db930205ca54bb1906beffc9a",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "b83516557f03be1684c2afb7e1f059e924a8489cbfa54dd22d27e48874f1c9b2",
+      "parameterDigest": "d51f2804fbd82fb6c991fd9735efe5ed47e3b3aad6aeb77f6839563fb28350f8",
+      "expectedCpuOracleDigest": "d3acbee208db03263a380e43a98c8f174e4cbf780829adc7cc4e7254a9200c52",
+      "pixelCount": 1,
+      "tags": [
+        "stress",
+        "lab-threshold"
+      ]
+    },
+    {
+      "fixtureId": "stress-out-of-gamut",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "d42b925eba6428c121de438ad11a50e076963fa0abdf290b2f6d33538068ee28",
+      "canonicalBaseF16Digest": "b72d28e80c2be9c31a64b58205cddaa215331ae3b776ba09a3882cd67cdfd3d1",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "a27b6bd483d52817047f7be66c591708639ebf07e406863d62834896a1ced04c",
+      "parameterDigest": "ba9a658787b5d6ffb00626a5b3e85329c45ba3b28da585f609a646b943bb554f",
+      "expectedCpuOracleDigest": "b4fc59e3aae920ba22397214c3bc358f772f873533fe00594d33f5da5d3a94a4",
+      "pixelCount": 1,
+      "tags": [
+        "stress",
+        "out-of-gamut"
+      ]
+    },
+    {
+      "fixtureId": "stress-tiny-alpha-below",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "ca513932edfbb150832c7cebe2d956863cd9c5e58baac9fa2fc0700eeb060312",
+      "canonicalBaseF16Digest": "2f42d7d7a8106b19ddc8f721790d0e3c42cfc6cda717a2b86f93a3bed342b1a3",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "b8ccd56671812d09da3e5fa7792a56181ffc7db0ef0342effc37a99b2a526a89",
+      "parameterDigest": "a1b01419b236655bbbf9a5279b54fdbb3d5472c53c532e875428a8cf6af00253",
+      "expectedCpuOracleDigest": "7df7e25947701db963590b170f230b1fbe8e5e5a0d8e2419e523b952bf4070c3",
+      "pixelCount": 1,
+      "tags": [
+        "stress",
+        "alpha-epsilon"
+      ]
+    },
+    {
+      "fixtureId": "stress-tiny-alpha-above",
+      "width": 1,
+      "height": 1,
+      "encodedStraightSourceDigest": "592df1a60495f3e05739ad3e0bb0b2b89f60ea5adf563dd4e4a30ad306076439",
+      "canonicalBaseF16Digest": "b0bd0171a11e24cdf810322dc7475cc35a37c95fb1ca1c49e1cbe36082eaa985",
+      "qmapF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "scalarF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "alphaDepthF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "highlightF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "edgeF16Digest": "505114fe537172ea35e17ca1a7516edac516a89b31f983f7c6387d5d2bb462aa",
+      "phaseReceiptDigest": "b8ccd56671812d09da3e5fa7792a56181ffc7db0ef0342effc37a99b2a526a89",
+      "parameterDigest": "a1b01419b236655bbbf9a5279b54fdbb3d5472c53c532e875428a8cf6af00253",
+      "expectedCpuOracleDigest": "fb1f76ce265ac3ad8d2df87327dcddf2ed98c5a9ed80aa7f876070f9d71f647b",
+      "pixelCount": 1,
+      "tags": [
+        "stress",
+        "alpha-epsilon"
+      ]
+    }
+  ],
+  "manifestDigest": "2f27778714fdf5d86dd25985e1e1a3eeb23643e80908e190fea8f7f38c257e26"
+}

@@ -1,0 +1,14 @@
+{
+  "appendOnlyHashChain": true,
+  "exclusiveLock": true,
+  "intentBeforeEffect": true,
+  "journalEntryCount": 3,
+  "lastStateTested": "STAGED_CANARY_PASSED",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "schemaVersion": 1,
+  "selfSha256": "924f1ba937301075f9eb8d9aa05fec39694b428206a33b8910a8475e0e183027",
+  "staleLockUsesPidStartTransactionJournalPointer": true,
+  "stateCount": 16,
+  "transactionSchemaVersion": 2
+}

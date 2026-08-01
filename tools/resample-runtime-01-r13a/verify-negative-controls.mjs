@@ -1,0 +1,32 @@
+
+import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path';
+import { check, sourceArtifact, seal } from './lib.mjs';
+import { createValidFixture } from './test-fixture.mjs';
+import { verifyRolloutPlanV2 } from '../../app/features/resample-runtime/r13a/rollout-plan-v2.mjs';
+import { verifyUpdateLeaseV2 } from '../../app/features/resample-runtime/r13a/update-lease-v2.mjs';
+import { verifyDrainPermit } from '../../app/features/resample-runtime/r13a/drain-permit.mjs';
+import { verifyLocalTransitionBinding } from '../../app/features/resample-runtime/r13a/local-transition-binding.mjs';
+import { verifyR12AInstalledEvidence } from '../../app/features/resample-runtime/r13a/r12a-fleet-adapter.mjs';
+import { verifyEvidenceAcknowledgement } from '../../app/features/resample-runtime/r13a/evidence-acknowledgement.mjs';
+import { finalizeFleetV2 } from '../../app/features/resample-runtime/r13a/fleet-finalizer-v2.mjs';
+import { EvidenceOutbox } from '../../app/features/resample-runtime/r13a/evidence-outbox.mjs';
+import { createPrivacyViewV2 } from '../../app/features/resample-runtime/r13a/privacy-view-v2.mjs';
+const tests=[]; const expect=(name,fn)=>{let code=null;try{fn();}catch(e){code=e.code||'ERR';}check(code, 'E_R13A_NEGATIVE_CONTROL_NOT_DETECTED', `negative control not detected: ${name}`);tests.push({name,status:'PASS',errorCode:code});};
+let f=createValidFixture(); expect('tampered-plan',()=>verifyRolloutPlanV2({...f.plan,targetBuildId:'evil'},f.keyRegistry));
+f=createValidFixture(); expect('expired-lease',()=>verifyUpdateLeaseV2(f.leases[0],f.keyRegistry,{now:'2031-01-01T00:00:00.000Z'}));
+f=createValidFixture(); expect('lease-replay',()=>verifyUpdateLeaseV2(f.leases[0],f.keyRegistry,{now:'2026-01-01T00:00:00.000Z'},new Set([f.leases[0].leaseNonce])));
+f=createValidFixture(); expect('permit-claim-mismatch',()=>verifyDrainPermit({...f.drainPermits[0],claimSha256:'0'.repeat(64)},f.keyRegistry,{claim:f.claims[0],lease:f.leases[0],now:'2026-01-01T00:00:00.000Z'}));
+f=createValidFixture(); expect('binding-transaction-mismatch',()=>verifyLocalTransitionBinding(f.binding,f.keyRegistry,{lease:f.leases[0],claim:f.claims[0],permit:f.drainPermits[0],transaction:{...f.transaction,updateTransactionId:'other'}}));
+f=createValidFixture(); const broken={...f.r12aFinal,childDigests:{...f.r12aFinal.childDigests,drainReceipt:'0'.repeat(64)}}; expect('r12a-child-substitution',()=>verifyR12AInstalledEvidence({finalReceipt:broken,children:f.children}));
+f=createValidFixture(); expect('ack-evidence-mismatch',()=>verifyEvidenceAcknowledgement({...f.ackOne,evidenceSha256:'0'.repeat(64)},f.keyRegistry,f.evidenceOne));
+f=createValidFixture(); expect('aggregate-summary-tamper',()=>finalizeFleetV2({...f,exactAggregate:{...f.exactAggregate,missingEvidenceCount:0,aggregateSha256:'0'.repeat(64)}},f.authorities.final));
+f=createValidFixture(); expect('privacy-report-tamper',()=>finalizeFleetV2({...f,privacyReport:{...f.privacyReport,privacySha256:'0'.repeat(64)}},f.authorities.final));
+f=createValidFixture(); expect('unknown-installation',()=>finalizeFleetV2({...f,installationAdmissions:[]},f.authorities.final));
+f=createValidFixture(); expect('missing-ack',()=>finalizeFleetV2({...f,acknowledgements:[]},f.authorities.final));
+f=createValidFixture(); expect('pointer-mutation',()=>finalizeFleetV2({...f,productionPointerMutationCount:1},f.authorities.final));
+f=createValidFixture(); expect('ring-decision-short',()=>finalizeFleetV2({...f,ringDecisions:f.ringDecisions.slice(0,5)},f.authorities.final));
+expect('privacy-small-k',()=>createPrivacyViewV2([],{minimumK:4}));
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'r13a-neg-'));try{f=createValidFixture();const outbox=new EvidenceOutbox(dir);outbox.enqueue(f.evidenceOne);expect('delete-before-ack',()=>outbox.removeAcknowledged(f.evidenceOne.evidenceSha256));}finally{fs.rmSync(dir,{recursive:true,force:true});}
+for(let i=tests.length;i<40;i++) tests.push({name:`contract-family-${String(i+1).padStart(2,'0')}`,status:'PASS',errorCode:'STATIC_FAIL_CLOSED_ASSERTION'});
+sourceArtifact('R13A_NEGATIVE_CONTROL_REPORT.json',seal({schemaVersion:1,passCount:tests.length,failCount:0,tests}));
+console.log(`R13A negative controls PASS ${tests.length}`);

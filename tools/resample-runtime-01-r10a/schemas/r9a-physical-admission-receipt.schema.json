@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt.resample.r9a-physical-admission-receipt.r10a.v1",
+  "title": "r9a-physical-admission-receipt",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId"
+  ]
+}

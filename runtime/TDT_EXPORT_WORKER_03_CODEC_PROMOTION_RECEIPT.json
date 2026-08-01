@@ -1,0 +1,51 @@
+{
+  "schema": "dadum-ew03-codec-promotion-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-03",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "canonicalWorkerIds": [
+    "dadum.worker.encoder.webp-lossless-v1",
+    "dadum.worker.encoder.png-family-v1"
+  ],
+  "canonicalRuntimeEncoderIds": [
+    "dadum.encoder.webp-lossless.v1",
+    "dadum.encoder.png.v1",
+    "dadum.encoder.png16.v1"
+  ],
+  "webpSemanticContract": {
+    "lossless": true,
+    "nearLossless": 100,
+    "exactTransparentRgbRequested": true,
+    "requiredChunk": "VP8L",
+    "forbiddenChunks": [
+      "VP8 ",
+      "ANIM",
+      "ANMF"
+    ],
+    "canvasFallbackAllowed": false
+  },
+  "pngFamilyContract": {
+    "operations": [
+      "encode.png8",
+      "encode.png16"
+    ],
+    "singleModuleInstanceRequired": true,
+    "png8": {
+      "bitDepth": 8,
+      "colorType": 6
+    },
+    "png16": {
+      "bitDepth": 16,
+      "colorType": 6
+    },
+    "explicitPrecisionExpansionPolicy": "rgba8-to-rgba16-x257-explicit-v1"
+  },
+  "sourceGraphVerified": true,
+  "emittedArtifactSha256Verified": false,
+  "pixelRoundTripVerified": false,
+  "electronE2EVerified": false,
+  "promotionEligible": false,
+  "buildId": "15e5aa3464fd16388af057e6",
+  "runtimeSourceGraphSha256": "d2ff94195008567a9818f4d7d4fd39800f023ca5b3613ce140370bdc4bc35cb2",
+  "workerSourceManifestSha256": "5b7284b251bb989230704a9f7f2bcdd96832165df369f07bc0f5c1669f7b2d40",
+  "sourceBakeSealSha256": "e6edd9cb9ed7a5f279d5aa059e8f0dfe8370b14f2c509e460483182835b16277"
+}

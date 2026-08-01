@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "BLOCKED_LOCK_NOT_PROMOTED",
+  "buildId": "66b1d18b47c407755d5fe7db",
+  "buildAuthorityDigest": "5ca3b2fb2815c96433bc8bbe4908575a8975c923960de53a56127012acfa1389",
+  "buildInputManifestDigest": "f53c5054b81786098a1a7ac28ee433bd6c6a891e3cd72bd784b29e6c43f7af8a",
+  "workerSourceManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+  "legacyStaticAdmissionDigest": "8a67df377d8bcdb348e4a4aff2fb5db397f94bb628d5c77a8fc72a04d9b82239",
+  "legacyStaticAdmittedCount": 214,
+  "legacyStaticFullCount": 1170,
+  "productionBytesObserved": false,
+  "emittedArtifactIdentityVerified": false,
+  "sourceMutationZero": true,
+  "blockers": [
+    "E_BUILD_EMIT_LOCK_NOT_PROMOTED",
+    "E_BUILD_EMIT_NONCANONICAL_HOST"
+  ],
+  "evidence": {
+    "specSha256": "2c0fe13db4e3d8bbbf1eea99e68cbfce7e5b04a4befbae146c9410fc0ee872f5",
+    "readmeSha256": "3ee22f1c66038ea47570253318beaff9fe3f11033d9cf59a38a504a670abd96d",
+    "packageJsonSha256": "68289fe4777ecce06b28f2582a3305a4cf79fbaa5a5aec723941fd3d6b06659b",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "runtimeManifestSha256": "741630f22e2eff6af357ef70c64697ee56dc1a28a2b3c81439028163252a0d85",
+    "workerManifestSha256": "df7caf7d6f9013e3efa0e52e752be10badd78c2e1134ae7e04195ed856f74929",
+    "buildInputManifestSha256": "43fc4c538e41f168cd1cf8e00ddbd338fe5cb9a6813d238d6df431045f882760",
+    "legacyAdmissionSha256": "4c59970572e5285cde3be6be84e887709507658dfa50725427ab48701e277190",
+    "gateReportSha256": "d1427df220261e92425d71d183a5f9620dabf44cb4181d4f3fc2798e203cdb3f",
+    "runtimeTestReportSha256": "f798c7fe6e0e44a74d08640352709428c5180301a34bc43a1d7eb83b7c61e745",
+    "strictTypeScriptReportSha256": "78229ce7df81fd3f63a3fb7eafb46a1b17df833f84f7f95b0f5315de4094868d",
+    "finalVerifySha256": "127c394f9c78a0919387b56e3d22e1f9fa5b926c52c96621e0e3f797b4742cd1",
+    "aggregateFinalVerifySha256": "6c3a7f759085d1065691aafe9648e34ef28a9e7f665f48177c05a64a2216c387",
+    "productionBuildAttemptSha256": "dbd74963a39a0a4e0a8a652be8a52f7bde0c7f7f23b354373fa5c0e91ea7dd30",
+    "sourceMutationReportSha256": "d34e0a217740f100686ba4cd192f89106f476eb50765a2185d804b9cdc255bac",
+    "buildProvenanceSha256": "44cb7193deb79350dd6cf1ecdea0b17c5ce4cd228166e7db5a557c48b0d394a7",
+    "diffSha256": "df21a76707779bbda2bfa43dfcb6326a9faa2fde6458d2c59163e24feacb6d7e"
+  },
+  "selfDigest": "0c02c5e60046842af42b37925ab5df2bdc53b2e45727cc5df990342c555b4696"
+}

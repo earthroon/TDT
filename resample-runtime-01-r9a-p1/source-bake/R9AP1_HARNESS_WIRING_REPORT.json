@@ -1,0 +1,58 @@
+{
+  "failCount": 0,
+  "passCount": 10,
+  "schemaVersion": 1,
+  "selfSha256": "a49fe96380705332584111404aad14094a0693ce39eda8e983151da87059d4b8",
+  "tests": [
+    {
+      "evidence": true,
+      "id": "R9AP1-ELECTRON-COORDINATOR",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-HIDDEN-WINDOW",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-PHYSICAL-BRANCH-FIRST",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-PRELOAD-NARROW",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-VITE-ENTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-RUN-LOCK",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-CHALLENGE-HMAC",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-ARTIFACT-ATOMIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-NETWORK-DISABLED-FILE-ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-BUILD-LOCK-FINAL-REQUIRED",
+      "status": "PASS"
+    }
+  ]
+}

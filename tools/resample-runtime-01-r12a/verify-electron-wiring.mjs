@@ -1,0 +1,11 @@
+import { read, check, sourceArtifact, seal } from './lib.mjs';
+const electron = read('electron.mjs'); const preload = read('preload.cjs');
+const coordinator = read('app/features/resample-runtime/r12a/main-update-coordinator.mjs');
+const controller = read('app/features/resample-runtime/r11a/electron-admission-controller.mjs');
+for (const token of ['createR12AMainUpdateCoordinator', 'r12aCoordinator.bootRecoveryPreflight()', 'setWindowShowAuthority', 'r12aCoordinator.registerIpc()', 'r12aCoordinator?.bindWindow(win)', 'r12aCoordinator.canShowNormalWindow()']) check(electron.includes(token), 'E_R12A_R11A_INSTALLED_ADMISSION_MISSING', `Electron R12A wiring missing: ${token}`);
+for (const token of ['runtimeUpdate', 'dadum:r12a-status', 'dadum:r12a-request-update', 'dadum:r12a-acknowledge-drain', 'dadum:r12a-cancel-before-activation', 'dadum:r12a-drain-requested']) check(preload.includes(token), 'E_R12A_R11A_INSTALLED_ADMISSION_MISSING', `preload R12A capability missing: ${token}`);
+for (const token of ["ipcMain.handle('dadum:r12a-status'", "ipcMain.handle('dadum:r12a-request-update'", 'bootRecoveryPreflight', 'requestDrainAcknowledgement', 'awaitDrainAcks', 'commitLocalActivationPointer', 'writeRelaunchRequest']) check(coordinator.includes(token), 'E_R12A_TRANSACTION_INVALID', `coordinator wiring missing: ${token}`);
+for (const token of ['blockNewAdmissions', 'drainAllSessions', 'abortAllSaveSessions', 'setWindowShowAuthority', 'validateSourceSession', 'runtimeSnapshot']) check(controller.includes(token), 'E_R12A_R11A_INSTALLED_ADMISSION_MISSING', `R11A drain integration missing: ${token}`);
+check(!preload.includes('LOCAL_ACTIVATION_POINTER') && !preload.includes('UPDATE_JOURNAL_V2') && !preload.includes('masterKey'), 'E_R12A_PRODUCTION_POINTER_WRITE_ATTEMPT', 'preload exposes update persistence or signing authority');
+sourceArtifact('R12A_ELECTRON_WIRING_REPORT.json', seal({ schemaVersion: 1, patchId: 'TDT-RESAMPLE-RUNTIME-01-R12A', pass: true, bootRecoveryBeforeWindow: true, mainCoordinatorSingleton: true, narrowUpdateIpc: true, preloadExposesPointerPath: false, preloadExposesJournalPath: false, preloadExposesSigningKey: false, r11aWindowShowDelegatedToR12A: true, appQuitHookBound: true }));
+console.log('R12A Electron wiring PASS');

@@ -1,0 +1,13 @@
+{
+  "finalSequence": 8,
+  "finalState": "COMMITTED",
+  "journalEntries": 2,
+  "journalHashChain": true,
+  "pass": true,
+  "receiptSha256": "103611db9c3926e02eb53a3e5b3d375f157e5dbf88958bf8ad7dae628adc962d",
+  "rewindRejectedByContract": true,
+  "schemaVersion": 1,
+  "skipRejectedByContract": true,
+  "statesVisited": 9,
+  "transactionId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

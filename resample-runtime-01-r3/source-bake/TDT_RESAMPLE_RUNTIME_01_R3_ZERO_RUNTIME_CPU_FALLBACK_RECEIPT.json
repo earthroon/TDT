@@ -1,0 +1,66 @@
+{
+  "activeGraphMatchCount": 0,
+  "checks": [
+    {
+      "detail": [],
+      "id": "ISO-01",
+      "message": "runtime roots import no R3 oracle module",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "id": "ISO-02",
+      "message": "no public runtime CPU oracle selector",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "id": "ISO-03",
+      "message": "no WebGPU failure branch invokes CPU/Canvas/WebGL EWA fallback",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "id": "ISO-04",
+      "message": "no R3 runtime asset authority entry",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "id": "ISO-05",
+      "message": "no R3 active production graph node",
+      "pass": true
+    },
+    {
+      "detail": {
+        "existing": [],
+        "matches": []
+      },
+      "id": "ISO-06",
+      "message": "oracle absent from renderer output when output exists",
+      "pass": true
+    },
+    {
+      "detail": {
+        "existing": [],
+        "matches": []
+      },
+      "id": "ISO-07",
+      "message": "oracle absent from packaged content when package exists",
+      "pass": true
+    }
+  ],
+  "cpuFallbackWiringMatchCount": 0,
+  "packagedContentStatus": "DEFERRED_NO_PACKAGE_INPUT",
+  "packagedOracleMatchCount": 0,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "publicForbiddenApiCount": 0,
+  "rendererEmitOracleMatchCount": 0,
+  "rendererEmitStatus": "DEFERRED_NO_EMIT_INPUT",
+  "runtimeAssetAuthorityMatchCount": 0,
+  "runtimeForbiddenImportCount": 0,
+  "runtimeScannedFileCount": 1042,
+  "schemaVersion": 1,
+  "userImageIngressStatus": "SEALED_FIXTURE_ONLY_MAX_64X64"
+}

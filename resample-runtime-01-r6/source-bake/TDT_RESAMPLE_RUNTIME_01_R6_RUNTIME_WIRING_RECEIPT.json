@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "checks": [
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r5.wgsl",
+      "pass": true,
+      "detail": {
+        "actual": "7e2bc7b8f1daa181bf6bc13754b664d11a71a8cdb564745d8b7d652c5f333e52",
+        "expected": "7e2bc7b8f1daa181bf6bc13754b664d11a71a8cdb564745d8b7d652c5f333e52"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r5.wgsl",
+      "pass": true,
+      "detail": {
+        "actual": "a40bea61442074b0a19bfad3ab96c8a21b436119c41832243e0049601d5c205d",
+        "expected": "a40bea61442074b0a19bfad3ab96c8a21b436119c41832243e0049601d5c205d"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r5.wgsl",
+      "pass": true,
+      "detail": {
+        "actual": "b0aeb90dca2a076d293e2907b91c541000258bb1784a50ce6261ea9e49f68535",
+        "expected": "b0aeb90dca2a076d293e2907b91c541000258bb1784a50ce6261ea9e49f68535"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r5.wgsl",
+      "pass": true,
+      "detail": {
+        "actual": "8c85b53f78e4880f9ad03264478d184b7bab582cc2586b93fdbc9bcafcf7b6fd",
+        "expected": "8c85b53f78e4880f9ad03264478d184b7bab582cc2586b93fdbc9bcafcf7b6fd"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v4_r5.wgsl",
+      "pass": true,
+      "detail": {
+        "actual": "4f8a4574ff9ad5fb0f5eeaad5e687e8d83d1639698f4d90ba4c146568d2bfd5b",
+        "expected": "4f8a4574ff9ad5fb0f5eeaad5e687e8d83d1639698f4d90ba4c146568d2bfd5b"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_axial_r5.wgsl",
+      "pass": true,
+      "detail": {
+        "actual": "2f00744b42416f0730682bdf397bca3fc05fce3d5dc10a2d2e27f32563725bca",
+        "expected": "2f00744b42416f0730682bdf397bca3fc05fce3d5dc10a2d2e27f32563725bca"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v3.mjs",
+      "pass": true,
+      "detail": {
+        "actual": "7a46125442b519bd7b65b98b319260b1b7fcce5b46e98a4632f73d795accdc62",
+        "expected": "7a46125442b519bd7b65b98b319260b1b7fcce5b46e98a4632f73d795accdc62"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r4.mjs",
+      "pass": true,
+      "detail": {
+        "actual": "008c48ed1e326952ec42b0e7f101957759f17942a364b2a6241fa1156aa3536a",
+        "expected": "008c48ed1e326952ec42b0e7f101957759f17942a364b2a6241fa1156aa3536a"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/ewa_axial_contract_r5.mjs",
+      "pass": true,
+      "detail": {
+        "actual": "80d49122501f83157c76107a78365079cab53061a61d0693cadadefe570b2705",
+        "expected": "80d49122501f83157c76107a78365079cab53061a61d0693cadadefe570b2705"
+      }
+    },
+    {
+      "name": "freeze:app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r5.mjs",
+      "pass": true,
+      "detail": {
+        "actual": "582b68cea539e8a9c13811d81d3bbc2c1a6be6c3c8489e7d0fbcb8cc1ca76e3b",
+        "expected": "582b68cea539e8a9c13811d81d3bbc2c1a6be6c3c8489e7d0fbcb8cc1ca76e3b"
+      }
+    },
+    {
+      "name": "freeze:specs/TDT-RESAMPLE-RUNTIME-01-R5_AXIAL_TENSOR_INTERPOLATION_SUBPIXEL_DIRECTION_CONTINUITY_DOUBLE_ANGLE_FIELD_SAMPLING_COHERENCE_EDGE_PHASE_CONTINUITY_SEAL_SPEC.md",
+      "pass": true,
+      "detail": {
+        "actual": "7d614934b3b688ee327c10eadfad2fc116ebda977d562a2ef939fea3b40a4c22",
+        "expected": "7d614934b3b688ee327c10eadfad2fc116ebda977d562a2ef939fea3b40a4c22"
+      }
+    },
+    {
+      "name": "freeze:README_TDT_RESAMPLE_RUNTIME_01_R5_APPLIED.md",
+      "pass": true,
+      "detail": {
+        "actual": "1333c1645c3ab8f99fb6907e68ba8db82363ff8a7ef40c0aa82eb8ac79f193fd",
+        "expected": "1333c1645c3ab8f99fb6907e68ba8db82363ff8a7ef40c0aa82eb8ac79f193fd"
+      }
+    },
+    {
+      "name": "packer:EWA_R6_PARAM_BYTES",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "packer:new ArrayBuffer(EWA_R6_PARAM_BYTES)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "packer:u32[23]=EWA_R6_ABI_VERSION",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "packer:f32[16]=kernel.kernelSharpness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "packer:f32[17]=kernel.kernelTaperExponent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contract:tdt.delta-k-ewa.params.v4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contract:tdt.ewa.kernel-contract.r6.v1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contract:tdt.ewa.ellipse.phase-correct-parametric-r6.v1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contract:tdt.ewa.border.clamp-extension-logical-distance-v1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime-asset:ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime-asset:ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime-asset:ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime-asset:ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime-asset:ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime-asset:ewa_generated_manifest_r6.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:schemaVersion:7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:parameterAbiId:EWA_R6_ABI_ID",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:parameterBytes:EWA_R6_PARAM_BYTES",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:generatedManifestDigest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:E_R6_CANONICAL_V3_FALLBACK",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:EWA_R6_PARAM_BYTES",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:kernelTaperExponent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime:productDirectLoadFallback:false",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "profile-reuses-r4-proof",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stack-taper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stack-phase",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stack-border",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "normalizer-ssot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "taper-alias",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/assets/generated-runtime-asset-manifest.json:ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/assets/generated-runtime-asset-manifest.json:ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/assets/generated-runtime-asset-manifest.json:ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/assets/generated-runtime-asset-manifest.json:ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/assets/generated-runtime-asset-manifest.json:ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/assets/generated-runtime-asset-manifest.json:ewa_generated_manifest_r6.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/active-graph/generated-active-runtime-graph.json:ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/active-graph/generated-active-runtime-graph.json:ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/active-graph/generated-active-runtime-graph.json:ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/active-graph/generated-active-runtime-graph.json:ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/active-graph/generated-active-runtime-graph.json:ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/runtime/active-graph/generated-active-runtime-graph.json:ewa_generated_manifest_r6.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/legacy/generated-legacy-static-admission.json:ewa_aniso_tile_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/legacy/generated-legacy-static-admission.json:ewa_aniso_tile_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/legacy/generated-legacy-static-admission.json:ewa_aniso_tile_validation_r4_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/legacy/generated-legacy-static-admission.json:ewa_aniso_tile_validation_r6_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/legacy/generated-legacy-static-admission.json:ewa_aniso_reference_v5_r6.wgsl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "app/src/legacy/generated-legacy-static-admission.json:ewa_generated_manifest_r6.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-generator-runtime-import",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-oracle-runtime-import",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference-role-only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-canvas-webgl-fallback",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

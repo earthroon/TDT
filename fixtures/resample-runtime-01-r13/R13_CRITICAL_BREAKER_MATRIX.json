@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "zeroTolerance": ["artifactDrift","packageDigestMismatch","crossGenerationAsset","validationCounterNonZero","faultSentinelObserved","nonfiniteOutput","startupCanaryFailure","r12RecoveryAmbiguous","unauthorizedPointerMutation","silentCpuCanvasWebglFallback"],
+  "singleEventDecision": "CONTAIN"
+}

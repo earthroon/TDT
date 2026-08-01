@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R1-R2",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "issue": {
+    "stableErrorCode": "E_LEGACY_GLOBAL_WRITE_UNDECLARED",
+    "moduleId": "dadum.legacy.main.js",
+    "undeclaredGlobal": "ΔKCore",
+    "cause": "main.js static ES module graph imports core/index.js, which publishes window.ΔKCore",
+    "duplicateDiagnosticCountObserved": 3
+  },
+  "fix": {
+    "globalOwnership": "dadum.legacy.main.js.declaredGlobalWrites",
+    "globalRegistryWildcardAdded": false,
+    "diagnosticPolicy": "same code/message/detail is emitted once across propagation layers"
+  },
+  "verification": {
+    "mainDeclaresDeltaKCore": true,
+    "mainSource": "boot-manifest-v1+static-import-graph",
+    "legacyAdmissionPass": true,
+    "diagnosticSingleEmissionPass": true,
+    "receiptParityPass": true,
+    "typescriptSyntaxPass": true,
+    "stableErrorRegistryPass": true
+  },
+  "digests": {
+    "legacyManifestSha256": "5248bd3cf7a40a85d58f910c78d4f7566776bdcfa7185c28416f68869a9183a3",
+    "diagnosticsServiceSha256": "76d7bdc7fab1d3b80bbd161dcc0004846f8c2b245d7ce6b25a5aa844c9d62059",
+    "legacyAdapterSha256": "02a39b1eabee2eda404e8bbd42dc7d4bb0db70dcff18377ef9b24eb8dae85cab",
+    "bootstrapRendererSha256": "80efabccfeef12bacf74978dde1334706549fd780627ca582c200f4b6eecc20c",
+    "gateReportSha256": "1b4ad57037bf4803493eb15322dc3f4b7db0cceafe819f25da66078fb6eb424e",
+    "patchDiffSha256": "bce0f8a64076ef82da18a81b53bcb2ceeb58db719b21775ba06e68733f9950b6"
+  },
+  "promotion": {
+    "sourceGatePassed": true,
+    "vueTsc": "NOT_RUN_IN_CONTAINER",
+    "viteBuild": "BLOCKED_BY_MISSING_INSTALLED_DEPENDENCIES",
+    "electronSmoke": "NOT_RUN_IN_CONTAINER"
+  },
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R2_LEGACY_GLOBAL_OWNERSHIP_DIAGNOSTIC_SINGLE_EMISSION_SOURCE_BAKE_UNPROMOTED",
+  "sealSha256": "75551fdafadf6d8e7d32322dca2576854580e03305dd91cf6ad2ad573079e341"
+}

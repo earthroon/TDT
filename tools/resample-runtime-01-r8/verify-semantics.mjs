@@ -1,0 +1,16 @@
+import {report,capture,check,expectError} from './lib.mjs';
+import {normalizeSourceSemanticsR8,normalizeOutputSemanticsR8,isCanonicalInternalSurfaceR8,TDT_TRANSFER_LINEAR,TDT_TRANSFER_SRGB,TDT_ALPHA_STRAIGHT,TDT_ALPHA_PREMULTIPLIED} from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_surface_semantics_r8.mjs';
+import {EWA_R8_INTERNAL_SURFACE_ID} from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_support_envelope_r8.mjs';
+function decode(c){return c<=.04045?c/12.92:((c+.055)/1.055)**2.4;}function encode(c){return c<=.0031308?12.92*c:1.055*Math.max(c,0)**(1/2.4)-.055;}
+function prepare(rgba,transfer,alpha,eps=1e-6){const a=Math.min(1,Math.max(0,rgba[3]));if(a<=eps)return[0,0,0,a];let straight=rgba.slice(0,3);if(alpha===TDT_ALPHA_PREMULTIPLIED)straight=straight.map(v=>v/a);if(transfer===TDT_TRANSFER_SRGB)straight=straight.map(v=>decode(Math.min(1,Math.max(0,v))));return[...straight.map(v=>v*a),a];}
+function finalize(rgba,transfer,alpha,eps=1e-6){const a=Math.min(1,Math.max(0,rgba[3]));let straight=[0,0,0];if(a>eps)straight=rgba.slice(0,3).map(v=>v/a);if(transfer===TDT_TRANSFER_SRGB)straight=straight.map(v=>encode(Math.max(0,v)));const rgb=alpha===TDT_ALPHA_PREMULTIPLIED?straight.map(v=>v*a):straight;return[...rgb,a];}
+const checks=[];
+checks.push(capture('explicit-source',()=>normalizeSourceSemanticsR8({sourceTransferId:TDT_TRANSFER_SRGB,sourceAlphaMode:TDT_ALPHA_STRAIGHT,sourceFormat:'rgba8unorm'})));
+checks.push(capture('unknown-source-reject',()=>expectError(()=>normalizeSourceSemanticsR8({sourceTransferId:TDT_TRANSFER_SRGB,sourceAlphaMode:TDT_ALPHA_STRAIGHT}),'E_R8_SOURCE_SEMANTIC_UNKNOWN')));
+checks.push(capture('legacy-output-only',()=>{const x=normalizeOutputSemanticsR8({alphaMode:'premultiplied'});check(x.outputAlphaMode===TDT_ALPHA_PREMULTIPLIED,'E_R8_OUTPUT_ALPHA','legacy output');return x;}));
+checks.push(capture('canonical-internal',()=>isCanonicalInternalSurfaceR8({sourceTransferId:TDT_TRANSFER_LINEAR,sourceAlphaMode:TDT_ALPHA_PREMULTIPLIED,sourceFormat:'rgba16float',sourceSemanticId:EWA_R8_INTERNAL_SURFACE_ID})));
+checks.push(capture('straight-srgb-roundtrip',()=>{const src=[.7,.2,.1,.5],p=prepare(src,TDT_TRANSFER_SRGB,TDT_ALPHA_STRAIGHT),out=finalize(p,TDT_TRANSFER_SRGB,TDT_ALPHA_STRAIGHT);const err=Math.max(...src.map((v,i)=>Math.abs(v-out[i])));check(err<1e-12,'E_R8_ALPHA_ROUNDTRIP','roundtrip',{src,p,out,err});return err;}));
+checks.push(capture('premult-srgb-correct-domain',()=>{const straight=[.7,.2,.1,.5],encodedPremult=[.35,.1,.05,.5],p=prepare(encodedPremult,TDT_TRANSFER_SRGB,TDT_ALPHA_PREMULTIPLIED),expected=prepare(straight,TDT_TRANSFER_SRGB,TDT_ALPHA_STRAIGHT);const err=Math.max(...p.map((v,i)=>Math.abs(v-expected[i])));check(err<1e-12,'E_R8_PREMULT_DOMAIN','premult domain',{p,expected});return err;}));
+checks.push(capture('hidden-rgb-zero',()=>{const p=prepare([1,.2,.7,0],TDT_TRANSFER_SRGB,TDT_ALPHA_STRAIGHT);check(p[0]===0&&p[1]===0&&p[2]===0,'E_R8_HIDDEN_RGB','hidden rgb');return p;}));
+checks.push(capture('no-double-premultiply',()=>{const p=prepare([.3,.1,.05,.5],TDT_TRANSFER_LINEAR,TDT_ALPHA_PREMULTIPLIED);check(Math.abs(p[0]-.3)<1e-12,'E_R8_DOUBLE_PREMULT','double premultiply');return p;}));
+report('TDT_RESAMPLE_RUNTIME_01_R8_SEMANTICS_REPORT.json',checks);if(checks.some(x=>!x.pass))process.exit(1);

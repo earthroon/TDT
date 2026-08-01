@@ -1,0 +1,9 @@
+PASS generated GPU consumer manifest receipt consumers=10
+PASS direct GPU authority scan files=800 findings=0
+PASS pipeline ownership scan files=800 findings=0
+PASS GPU Authority boots before Legacy Runtime
+PASS GPU Authority source checks=16
+PASS GPU Authority contract model smoke
+PASS actual GPU Authority class runtime smoke epoch=1->2 adapterRequests=1 deviceRequests=2
+TDT-GPU-DEVICE-SSOT-01 30 PASS / 30 DEFERRED / 0 FAIL
+PASS finalized GPU DEVICE SSOT source receipt files=80 seal=2717b5a625f23dcd70d94321e10d2c8a2f94b56b39aa78b061077b1df632a8d0

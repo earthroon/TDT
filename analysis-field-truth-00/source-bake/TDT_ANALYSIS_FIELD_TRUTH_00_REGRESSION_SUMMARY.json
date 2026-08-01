@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ANALYSIS-FIELD-TRUTH-00",
+  "state": "ANALYSIS_FIELD_TRUTH_00_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "analysisFieldTruth00": {
+    "sourceContract": "61/61 PASS",
+    "zeroCpuProductAudit": "PASS",
+    "claimTruthAudit": "PASS",
+    "mockRuntime": "25/25 PASS",
+    "gate": {
+      "PASS": 120,
+      "DEFERRED": 8,
+      "FAIL": 0
+    },
+    "semanticDescriptorCount": 18,
+    "producerCount": 7,
+    "classifiedImplementationCount": 47,
+    "registeredConsumerCount": 4
+  },
+  "predecessors": {
+    "R2": "81 PASS / 27 DEFERRED / 0 FAIL",
+    "R1D": "100 PASS / 8 DEFERRED / 0 FAIL",
+    "R1C": "90 PASS / 6 DEFERRED / 0 FAIL",
+    "R1B": "72 PASS / 12 DEFERRED / 0 FAIL",
+    "R1A": "57 PASS / 11 DEFERRED / 0 FAIL"
+  },
+  "runtime": {
+    "activeGraph": "30 PASS / 10 DEFERRED",
+    "activeGraphRegression": "19/19 PASS",
+    "activeGraphTranspile": "8/8 PASS",
+    "activeGraphRoots": 56,
+    "activeGraphNodes": 304,
+    "activeGraphEdges": 311,
+    "activeGraphDigest": "87a5af3cd797a413038499dc002d628f7d5e661835627b42abee8cb1ff850dc4",
+    "gpuDeviceSsot": "30 PASS / 30 DEFERRED / 0 FAIL",
+    "surfaceLifecycle": "52 PASS / 8 DEFERRED / 0 FAIL",
+    "previewPresenter": "50 PASS / 10 DEFERRED / 0 FAIL",
+    "runtimeR7": "PASS"
+  },
+  "export": {
+    "worker01": "PASS",
+    "worker02": "PASS",
+    "worker03": "PASS",
+    "worker04": "PASS",
+    "worker05": "PASS",
+    "worker06": "PASS",
+    "worker07": "PASS",
+    "promotion01": "54/54 PASS",
+    "promotion02": "60/60 PASS",
+    "promotion03": "68/68 PASS"
+  },
+  "buildAndCodecs": {
+    "buildLock": "72/72 PASS",
+    "buildEmit": "84/84 PASS",
+    "modjpeg": "84/84 PASS",
+    "nativeDecoder": "120/120 PASS",
+    "jxlCodec": "108/108 PASS",
+    "psdDecoder": "112/112 PASS",
+    "promotionBaselineSource": "66/66 PASS"
+  },
+  "static": {
+    "stableErrors": "660/660 PASS",
+    "typescriptSyntax": "103 files PASS",
+    "runtimeAssetCount": 27,
+    "fullVueTsc": "NOT_RUN_DEPENDENCIES_NOT_INSTALLED"
+  },
+  "claims": {
+    "physicalGpu": false,
+    "fftEffectiveExecution": false,
+    "hannakairoTopologyEffectiveExecution": false,
+    "analyticQwaveEffectiveExecution": false,
+    "persistentAtlasEffectiveExecution": false,
+    "zeroIntermediateReadbackPhysicalProof": false,
+    "windowsPackagedElectron": false,
+    "productionPointerMutated": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "failCount": 0,
+  "passCount": 10,
+  "schemaVersion": 1,
+  "selfSha256": "dfd9525e4ab2e1b682adb848ac8ef0da25479ccccebf09a8673236fce3a76e18",
+  "tests": [
+    {
+      "evidence": true,
+      "id": "R9AP1-PREVIEW-PRODUCT-ENTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-EXPORT-PRODUCT-ENTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-NO-DIRECT-GRAPH-IMPORT",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-GPU-AUTHORITY-OBSERVER",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-RUNTIME-EPOCH-BINDING",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-RAW-COUNTER-OBSERVATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-RAW-TIMESTAMP-OBSERVATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-FAULT-INJECTION-IN-GRAPH",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-TICKET-LOST-TERMINAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-UNIFORM-EPOCH-INVALIDATION",
+      "status": "PASS"
+    }
+  ]
+}

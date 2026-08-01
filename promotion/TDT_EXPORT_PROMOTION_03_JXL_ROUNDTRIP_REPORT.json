@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_JXL_ROUNDTRIP_REPORT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "jxl-exact-roundtrip-not-run",
+    "jxl-hidden-rgb-not-run",
+    "native-raster-decoder-addon-missing",
+    "packaged-candidate-not-launched",
+    "packaged-electron-content-not-verified",
+    "packaged-independent-decoder-execution-not-run",
+    "production-icc-fixtures-missing"
+  ],
+  "packageContentId": null,
+  "rendererBuildId": "24a051fd97023b761a9ddadc",
+  "sourceWorkerManifestDigest": "435ac3eac48b6ec05a84df1d687d4c0d36886c633b9d418c2917d1cf11c8e3ab",
+  "fixtureCorpusDigest": "ce6abed114d85241866523700d6430a2b9dbeb0144a334fee5c218b09ac725b7",
+  "decoderId": "dadum.decoder.jxl-independent-v1",
+  "decoderIndependent": true,
+  "encodeReceiptDigests": [],
+  "saveReceiptDigests": [],
+  "decoderReceiptDigests": []
+}

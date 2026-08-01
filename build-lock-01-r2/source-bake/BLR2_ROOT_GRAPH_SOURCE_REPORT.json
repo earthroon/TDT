@@ -1,0 +1,11 @@
+{
+  "candidateGenerationExecuted": false,
+  "currentMismatchCount": 12,
+  "directVersionsExact": true,
+  "failCount": 0,
+  "passCount": 8,
+  "rootGraphReceiptSha256": "7358ace573f73f087c9e79ca031ff27d9a9dc90bb17d2a1234a42c7c3a9f5e26",
+  "schemaVersion": 1,
+  "selfSha256": "e4a2b024b2c4fb376b5618f41a2a5992ba4d2073f7caab4ffbcd68bcec11d6e8",
+  "sourceLockPreserved": true
+}

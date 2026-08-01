@@ -1,0 +1,10 @@
+import {read,sourceArtifact,seal,check,sha256File} from './lib.mjs';import {PATCH_ID,SPEC,SPEC_SHA256,SOURCE_PASS,PHYSICAL_PENDING,SOURCE_STATE,PARENT_BUNDLE_SHA256} from './identity.mjs';
+const text=read(SPEC);check(sha256File(SPEC)===SPEC_SHA256,'E_R9AP1_SPEC_MISMATCH','spec digest mismatch');
+const source=[...text.matchAll(/\| `R9AP1-S(\d{3})` \| ([^|]+) \|/g)].map(m=>({id:`R9AP1-S${m[1]}`,requirement:m[2].trim()}));
+const physical=[...text.matchAll(/\| `R9AP1-P(\d{3})` \| ([^|]+) \|/g)].map(m=>({id:`R9AP1-P${m[1]}`,requirement:m[2].trim()}));
+check(source.length===SOURCE_PASS&&physical.length===PHYSICAL_PENDING,'E_R9AP1_GATE_CATALOG','gate count mismatch',{source:source.length,physical:physical.length});
+check(new Set(source.map(x=>x.id)).size===SOURCE_PASS&&new Set(physical.map(x=>x.id)).size===PHYSICAL_PENDING,'E_R9AP1_GATE_DUPLICATE','duplicate gate ID');
+sourceArtifact('R9AP1_GATE_REQUIREMENTS.json',seal({schemaVersion:1,patchId:PATCH_ID,specSha256:SPEC_SHA256,sourceMandatory:source,physicalMandatory:physical}));
+sourceArtifact('R9AP1_SOURCE_INPUT_PROFILE.json',seal({schemaVersion:1,patchId:PATCH_ID,state:SOURCE_STATE,parentBundleSha256:PARENT_BUNDLE_SHA256,sourceGateCount:SOURCE_PASS,physicalGateCount:PHYSICAL_PENDING,packagedPhysicalExecuted:false,historicalPassCarryForward:0}));
+sourceArtifact('R9AP1_FIXTURE_SCHEDULE.json',seal({schemaVersion:1,schemaId:'tdt.r9a-p1.fixture-schedule.v1',warmupIterations:128,pairedSamples:256,residencyWarmup:128,residencyMeasuredJobs:1024,deviceLossCycles:3,adapterRoles:['performance-canonical','minimum-compatibility'],surfaces:['preview','export']}));
+console.log(`R9A-P1 gate catalog ${source.length} source / ${physical.length} physical`);

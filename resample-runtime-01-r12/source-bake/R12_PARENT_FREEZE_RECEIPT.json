@@ -1,0 +1,46 @@
+{
+  "parentBundleSha256": "8c87d8fd14fced8a3064bef24eb038c44aea3cab42e36b92ac0e09d945ee037f",
+  "parentFiles": [
+    {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R11_INSTALLED_RUNTIME_ATTESTATION_STARTUP_ARTIFACT_IDENTITY_REVALIDATION_POST_RELEASE_CANARY_DRIFT_DETECTION_CRASH_DEVICE_LOSS_QUARANTINE_AUTOMATIC_ROLLBACK_RECOMMENDATION_SEAL_SPEC.md",
+      "sha256": "b76dbb1c914758825c7e0ce37e4ed53e46eb85309f13aa67f4a721e2ab13ba19"
+    },
+    {
+      "path": "artifacts/resample-runtime-01-r11/source-bake/TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "755281a73d3ec201dfdf94e6f94c52f4a6a0f6a599f5f21dab296972b92e273e"
+    },
+    {
+      "path": "artifacts/resample-runtime-01-r10/source-bake/TDT_RESAMPLE_RUNTIME_01_R10_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "76e47a1ea47f4ff662c50992dfd5fdcac262a38e73931da3c0bb3ede9cb52b77"
+    },
+    {
+      "path": "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    {
+      "path": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    }
+  ],
+  "pass": true,
+  "productionPointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "r10Counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 129,
+    "PENDING": 202,
+    "SKIPPED": 0
+  },
+  "r10State": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+  "r11Counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 148,
+    "PENDING": 228,
+    "SKIPPED": 0
+  },
+  "r11State": "RESAMPLE_RUNTIME_R11_ATTESTATION_HARNESS_SOURCE_BAKED_AWAITING_R10_PRODUCTION_RELEASE",
+  "receiptSha256": "2e9e9a6cb3fd10d9a8ffacb8b234130cf8f8bef5990549a8cb7e033b8ff61845",
+  "schemaId": "tdt.resample-runtime.r12.parent-freeze.v1",
+  "schemaVersion": 1
+}

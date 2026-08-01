@@ -1,0 +1,92 @@
+{
+  "canonicalRunnerProbe": {
+    "exitCode": 1,
+    "observedHost": "linux-x64",
+    "requiredHost": "win32-x64",
+    "status": "EXPECTED_FAIL_CLOSED",
+    "stoppedBeforeLockMutation": true,
+    "stoppedBeforePackageExecution": true,
+    "stoppedBeforeProductionPointerMutation": true
+  },
+  "createdAt": "2026-07-25T10:32:05.360Z",
+  "inheritedGates": [
+    {
+      "id": "TDT-RUNTIME-R7-EXPORT-TRUTH",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-WORKER-02",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-WORKER-03",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-WORKER-04",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-WORKER-05",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-WORKER-06",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-WORKER-07",
+      "pass": 100,
+      "total": 100
+    },
+    {
+      "id": "TDT-EXPORT-PROMOTION-01",
+      "pass": 54,
+      "total": 54
+    },
+    {
+      "id": "TDT-EXPORT-PROMOTION-02",
+      "pass": 60,
+      "total": 60
+    },
+    {
+      "id": "TDT-EXPORT-PROMOTION-03",
+      "pass": 68,
+      "total": 68
+    },
+    {
+      "id": "TDT-BUILD-LOCK-01",
+      "pass": 72,
+      "total": 72
+    },
+    {
+      "id": "TDT-BUILD-EMIT-01",
+      "pass": 84,
+      "total": 84
+    },
+    {
+      "id": "TDT-PSD-DECODER-01",
+      "pass": 112,
+      "total": 112
+    }
+  ],
+  "schemaVersion": 1,
+  "selfDigest": "6f25e2f84cfaf228a9f816c0f5a46df3e0284ed0d630c27480fed1bc77191421",
+  "sourceGate": {
+    "pass": 66,
+    "total": 66
+  },
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "state": "SOURCE_INTEGRATION_VALIDATED",
+  "status": "PASS",
+  "typescriptTranspile": {
+    "pass": 5,
+    "total": 5
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 420,
+    "PENDING": 580,
+    "SKIPPED": 0
+  },
+  "patchId": "TDT-BUILD-LOCK-01-R2",
+  "schemaVersion": 1,
+  "selfSha256": "1330b14c473d547309443ba7bda2447cdb9e58b258b71ebbd58e0ad5b7c502eb",
+  "state": "BUILD_LOCK_R2_EXACT_ROOT_GRAPH_AND_PRODUCTION_ADMISSION_HARNESS_SOURCE_SEALED_AWAITING_CANONICAL_WIN32_X64"
+}

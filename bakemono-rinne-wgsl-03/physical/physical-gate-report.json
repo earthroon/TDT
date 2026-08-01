@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl03-physical-gate-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-03",
+  "status": "PENDING_PHYSICAL",
+  "gateCount": 56,
+  "passCount": 0,
+  "failCount": 0,
+  "pendingCount": 56,
+  "rows": [
+    {
+      "id": "BKR03-PHY-001",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-002",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-003",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-004",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-005",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-006",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-007",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-008",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-009",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-010",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-011",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-012",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-013",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-014",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-015",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-016",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-017",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-018",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-019",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-020",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-021",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-022",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-023",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-024",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-025",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-026",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-027",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-028",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-029",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-030",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-031",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-032",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-033",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-034",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-035",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-036",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-037",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-038",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-039",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-040",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-041",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-042",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-043",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-044",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-045",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-046",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-047",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-048",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-049",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-050",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-051",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-052",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-053",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-054",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-055",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    },
+    {
+      "id": "BKR03-PHY-056",
+      "description": "Physical WebGPU terminal-R1C and canonical shadow qualification",
+      "status": "PENDING",
+      "evidence": "Requires Electron WebGPU execution on an admitted adapter/device"
+    }
+  ],
+  "selfSha256": "563678df9c34c5f6b45b549e2d170dd26f28527ac6ee3526ce14035839f6cd16"
+}

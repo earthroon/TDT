@@ -1,0 +1,1530 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "counts": {
+    "PASS": 253,
+    "FAIL": 0
+  },
+  "gates": [
+    {
+      "id": "R8A-S001",
+      "requirement": "Parent bundle digest exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S002",
+      "requirement": "Logical R8 correction parent declared",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S003",
+      "requirement": "Repository R13 application parent declared",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S004",
+      "requirement": "Parent active file digests exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S005",
+      "requirement": "Production pointer mutation forbidden",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S006",
+      "requirement": "Local activation pointer mutation forbidden",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S007",
+      "requirement": "R8 math identity frozen",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S008",
+      "requirement": "R8 support identity frozen",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S009",
+      "requirement": "R9-R13 historical receipts inventoried",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S010",
+      "requirement": "Downstream invalidation receipt schema exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S011",
+      "requirement": "Downstream active-code mutation reason exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S012",
+      "requirement": "Historical receipts retained read-only",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S013",
+      "requirement": "Historical receipts rejected as current",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S014",
+      "requirement": "Replay order R8A through R13 exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S015",
+      "requirement": "No downstream PASS carry-forward",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S016",
+      "requirement": "R8A final state exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S017",
+      "requirement": "R9A next authority exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S018",
+      "requirement": "Parent regression entrypoint present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_PARENT_AND_LINEAGE_REPORT.json"
+    },
+    {
+      "id": "R8A-S019",
+      "requirement": "Active Graph node manifest loaded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S020",
+      "requirement": "All ACTIVE_REQUIRED JS inventoried",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S021",
+      "requirement": "All ACTIVE_REQUIRED MJS inventoried",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S022",
+      "requirement": "Loading edge recorded per asset",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S023",
+      "requirement": "Static import classifies ESM",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S024",
+      "requirement": "Dynamic import classifies ESM",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S025",
+      "requirement": "Module script classifies ESM",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S026",
+      "requirement": "Classic script classifies classic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S027",
+      "requirement": "Module worker classifies module worker",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S028",
+      "requirement": "Classic worker classifies classic worker",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S029",
+      "requirement": "Extension-only inference forbidden",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S030",
+      "requirement": "WebP adapter classified ESM",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S031",
+      "requirement": "WGPU export installer classified ESM",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S032",
+      "requirement": "Parser ID recorded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S033",
+      "requirement": "Source digest recorded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S034",
+      "requirement": "Owner root recorded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S035",
+      "requirement": "ESM parse pass required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S036",
+      "requirement": "Classic parse pass required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S037",
+      "requirement": "Module worker parse pass required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S038",
+      "requirement": "Classic worker parse pass required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S039",
+      "requirement": "Top-level return negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S040",
+      "requirement": "Duplicate declaration negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S041",
+      "requirement": "Static import in classic negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S042",
+      "requirement": "Unresolved static import negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S043",
+      "requirement": "Missing dynamic import target negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S044",
+      "requirement": "Dynamic target semantic mismatch negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S045",
+      "requirement": "Parser diagnostic code stable",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S046",
+      "requirement": "Parser diagnostic location recorded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S047",
+      "requirement": "Required parse failure blocks build",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S048",
+      "requirement": "Optional asset cannot mask required failure",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S049",
+      "requirement": "Parse report self-hash",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S050",
+      "requirement": "Parse inventory deterministic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S051",
+      "requirement": "Parse inventory path order canonical",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S052",
+      "requirement": "Symlink target excluded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S053",
+      "requirement": "Path traversal excluded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S054",
+      "requirement": "Generated admission manifest refreshed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S055",
+      "requirement": "Generated active graph refreshed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S056",
+      "requirement": "Runtime asset manifest refreshed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S057",
+      "requirement": "Parser gate in verify renderer chain",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S058",
+      "requirement": "Parser gate in build emit chain",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S059",
+      "requirement": "Parser report receipt emitted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S060",
+      "requirement": "Zero unparsed ACTIVE_REQUIRED assets",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_JAVASCRIPT_PARSE_CLOSURE_REPORT.json"
+    },
+    {
+      "id": "R8A-S061",
+      "requirement": "WebP adapter has no top-level return",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S062",
+      "requirement": "WebP adapter has no import-time DOM query",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S063",
+      "requirement": "WebP adapter has no import-time canvas readback",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S064",
+      "requirement": "WebP adapter has no import-time file save",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S065",
+      "requirement": "WebP adapter has no auto-run IIFE",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S066",
+      "requirement": "ensureWebPReady exported",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S067",
+      "requirement": "encodeRGBAtoWebP exported",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S068",
+      "requirement": "encodeRGBAtoWebPLossless exported",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S069",
+      "requirement": "encodeLosslessRGBA exported",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S070",
+      "requirement": "WebP namespace exported",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S071",
+      "requirement": "Default export API parity",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S072",
+      "requirement": "Lossless alias delegates canonical encoder",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S073",
+      "requirement": "Returned bytes are Uint8Array",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S074",
+      "requirement": "Zero-byte WebP rejected",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S075",
+      "requirement": "WebP shim import smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S076",
+      "requirement": "WebP shim ensure ready smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S077",
+      "requirement": "Tile worker module import smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S078",
+      "requirement": "Tile worker lossless method smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S079",
+      "requirement": "Worker transfer result smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S080",
+      "requirement": "JXL fallback absent from adapter",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S081",
+      "requirement": "PNG fallback absent from adapter",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S082",
+      "requirement": "Unknown format router absent",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S083",
+      "requirement": "Explicit one-shot action separated",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S084",
+      "requirement": "Explicit one-shot action returns outcome",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S085",
+      "requirement": "WebP adapter API receipt emitted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S086",
+      "requirement": "Legacy callers regression pass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S087",
+      "requirement": "WGPU export module parser pass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S088",
+      "requirement": "Single format mapper declaration",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S089",
+      "requirement": "Supported PNG mapping exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S090",
+      "requirement": "Supported WebP mapping exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S091",
+      "requirement": "Supported JXL mapping exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S092",
+      "requirement": "JPEG unsupported error exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S093",
+      "requirement": "Unknown format unsupported error exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S094",
+      "requirement": "No implicit PNG coercion",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S095",
+      "requirement": "UI disables unsupported format",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S096",
+      "requirement": "UI internal format parity",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S097",
+      "requirement": "UI remap visible state",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S098",
+      "requirement": "Hook install idempotent",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S099",
+      "requirement": "Hook collision detected",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S100",
+      "requirement": "PNG dispatch smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S101",
+      "requirement": "WebP dispatch smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S102",
+      "requirement": "JXL dispatch smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S103",
+      "requirement": "Missing pipeline error exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S104",
+      "requirement": "Missing output texture error exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S105",
+      "requirement": "Missing dimensions error exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S106",
+      "requirement": "Device acquisition error propagated",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S107",
+      "requirement": "Module browser import smoke",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S108",
+      "requirement": "No swallowed install exception",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S109",
+      "requirement": "Installer authority marker exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S110",
+      "requirement": "Module receipt emitted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S111",
+      "requirement": "Fallback policy enum exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S112",
+      "requirement": "WGPU backend default forbid",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S113",
+      "requirement": "WGPU-only implies forbid",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S114",
+      "requirement": "WGPU prepass failure throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S115",
+      "requirement": "Missing surface throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S116",
+      "requirement": "Module load failure throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S117",
+      "requirement": "Unsupported format throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S118",
+      "requirement": "Encoder failure throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S119",
+      "requirement": "Zero output throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S120",
+      "requirement": "Missing receipt throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S121",
+      "requirement": "Save failure throws",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S122",
+      "requirement": "Cancellation explicit",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S123",
+      "requirement": "No bare return on WGPU failure",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S124",
+      "requirement": "No console-only failure",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S125",
+      "requirement": "Legacy fallback requires explicit policy",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S126",
+      "requirement": "Legacy fallback forbidden in WGPU-only",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S127",
+      "requirement": "Fallback reason allowlisted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S128",
+      "requirement": "Fallback target named",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S129",
+      "requirement": "Fallback visible state required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S130",
+      "requirement": "Fallback receipt required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S131",
+      "requirement": "Fallback receipt carries WGPU failure code",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S132",
+      "requirement": "Fallback cannot claim canonical publication",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S133",
+      "requirement": "Fallback output success required",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S134",
+      "requirement": "Success outcome status exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S135",
+      "requirement": "Success receipt byte length positive",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S136",
+      "requirement": "Success receipt saved true",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S137",
+      "requirement": "Success receipt source surface present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S138",
+      "requirement": "Success receipt lowpass digest present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S139",
+      "requirement": "Success receipt actual kernel present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S140",
+      "requirement": "Success receipt ABI present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S141",
+      "requirement": "Success receipt planner present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S142",
+      "requirement": "Output digest present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S143",
+      "requirement": "Autowire returns terminal outcome",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S144",
+      "requirement": "silentFallbackCount exactly zero",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_ZERO_SILENT_FALLBACK_REPORT.json"
+    },
+    {
+      "id": "R8A-S145",
+      "requirement": "Dedicated executor adapter exists",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S146",
+      "requirement": "Executor adapter in admitted runtime graph",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S147",
+      "requirement": "Broker resolved from service container",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S148",
+      "requirement": "GPU service resolved from service container",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S149",
+      "requirement": "Registration after broker initialization",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S150",
+      "requirement": "Registration after GPU initialization",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S151",
+      "requirement": "Exactly one executor registered",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S152",
+      "requirement": "Registration receipt emitted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S153",
+      "requirement": "Unregister function retained",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S154",
+      "requirement": "Dispose unregisters once",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S155",
+      "requirement": "Different executor collision rejected",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S156",
+      "requirement": "Same executor duplicate handled deterministically",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S157",
+      "requirement": "Canonical request output mode checked",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S158",
+      "requirement": "Source width positive",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S159",
+      "requirement": "Source height positive",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S160",
+      "requirement": "Target width positive",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S161",
+      "requirement": "Target height positive",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S162",
+      "requirement": "Runtime epoch exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S163",
+      "requirement": "Request ID unique",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S164",
+      "requirement": "Source alpha semantic explicit",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S165",
+      "requirement": "Source transfer semantic explicit",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S166",
+      "requirement": "Abort before start honored",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S167",
+      "requirement": "Abort between stages honored",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S168",
+      "requirement": "Abort after submit rejects stale result",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S169",
+      "requirement": "Current GPU device resolved per request",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S170",
+      "requirement": "Device epoch attached",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S171",
+      "requirement": "Runtime epoch attached",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S172",
+      "requirement": "R8 policy normalized",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S173",
+      "requirement": "Canonical lowpass executed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S174",
+      "requirement": "CPU scaling absent",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S175",
+      "requirement": "Compatibility exact-size passthrough preserved",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S176",
+      "requirement": "Scaled compatibility bytes rejected",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S177",
+      "requirement": "Canonical surface ID present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S178",
+      "requirement": "Canonical receipt ID present",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S179",
+      "requirement": "Canonical receipt digest recomputed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_EXPORT_AND_EXECUTOR_SOURCE_REPORT.json"
+    },
+    {
+      "id": "R8A-S180",
+      "requirement": "Actual kernel ID derived from lowpass receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S181",
+      "requirement": "Kernel contract ID derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S182",
+      "requirement": "Kernel contract digest derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S183",
+      "requirement": "Parameter ABI ID derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S184",
+      "requirement": "Planner ID derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S185",
+      "requirement": "Plan digest derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S186",
+      "requirement": "Generated manifest ID derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S187",
+      "requirement": "Generated manifest digest derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S188",
+      "requirement": "Shader digest set derived from receipt",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S189",
+      "requirement": "Hard-coded compatibility kernel removed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S190",
+      "requirement": "Historical adapter ID separately named",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S191",
+      "requirement": "Compatibility result kernel equals lowpass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S192",
+      "requirement": "Broker result kernel equals lowpass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S193",
+      "requirement": "Export receipt kernel equals lowpass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S194",
+      "requirement": "R9A expected kernel equals lowpass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S195",
+      "requirement": "Kernel mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S196",
+      "requirement": "Contract mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S197",
+      "requirement": "Contract digest mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S198",
+      "requirement": "ABI mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S199",
+      "requirement": "Planner mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S200",
+      "requirement": "Plan digest mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S201",
+      "requirement": "Manifest mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S202",
+      "requirement": "Shader digest mismatch fail closed",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S203",
+      "requirement": "Caller-forged identity negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S204",
+      "requirement": "Receipt digest mismatch negative control",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S205",
+      "requirement": "Identity bundle self-hash",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S206",
+      "requirement": "Identity parity report emitted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S207",
+      "requirement": "Zero canonical identity fallback strings",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S208",
+      "requirement": "Facade authority record exists",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S209",
+      "requirement": "Current state referenced indirectly",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S210",
+      "requirement": "Recovery closure avoids first-state capture",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S211",
+      "requirement": "Participant registered once per bridge",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S212",
+      "requirement": "Participant unregister retained",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S213",
+      "requirement": "Old bridge unregister before replacement",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S214",
+      "requirement": "Current state dispose idempotent",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S215",
+      "requirement": "Tensor pipeline dispose once",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S216",
+      "requirement": "EWA pipeline dispose once",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S217",
+      "requirement": "Lease release once",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S218",
+      "requirement": "State promise cleared on loss",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S219",
+      "requirement": "Recovery generation increments",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S220",
+      "requirement": "Pending job rejected on loss",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S221",
+      "requirement": "Next request acquires fresh lease",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S222",
+      "requirement": "Next request rebuilds tensor pipeline",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S223",
+      "requirement": "Next request rebuilds EWA pipeline",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S224",
+      "requirement": "New device epoch recorded",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S225",
+      "requirement": "Stale state dispatch rejected",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S226",
+      "requirement": "Stale completion rejected",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S227",
+      "requirement": "Loss cycle one pass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S228",
+      "requirement": "Loss cycle two pass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S229",
+      "requirement": "Loss cycle three pass",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S230",
+      "requirement": "Epoch one to two exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S231",
+      "requirement": "Epoch two to three exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S232",
+      "requirement": "Epoch three to four exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S233",
+      "requirement": "Participant count plateau one",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S234",
+      "requirement": "No old bridge participant leak",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S235",
+      "requirement": "Executor cache invalidated on loss",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S236",
+      "requirement": "Executor registration remains authoritative",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S237",
+      "requirement": "Repeated-loss report emitted",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_RUNTIME_MODULE_SELF_TEST.json"
+    },
+    {
+      "id": "R8A-S238",
+      "requirement": "Parser pass counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S239",
+      "requirement": "Parser fail counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S240",
+      "requirement": "Executor registration counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S241",
+      "requirement": "Executor collision counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S242",
+      "requirement": "Executor request counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S243",
+      "requirement": "Identity propagation counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S244",
+      "requirement": "Identity mismatch counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S245",
+      "requirement": "Recovery invalidation counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S246",
+      "requirement": "Recovery rebuild counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S247",
+      "requirement": "Stale epoch rejection counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S248",
+      "requirement": "WGPU export success counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S249",
+      "requirement": "WGPU export failure counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S250",
+      "requirement": "Explicit fallback counter monotonic",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S251",
+      "requirement": "Silent fallback counter zero",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S252",
+      "requirement": "R8A final receipt schema exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    },
+    {
+      "id": "R8A-S253",
+      "requirement": "R8A final receipt child digests exact",
+      "status": "PASS",
+      "evidence": "artifacts/resample-runtime-01-r8a/source-bake/R8A_SOURCE_CONTRACT_REPORT.json"
+    }
+  ],
+  "selfSha256": "38d8bed11d462da02ee4ab8ae2f2f28650e1b79909de6306d751c948d406496a"
+}

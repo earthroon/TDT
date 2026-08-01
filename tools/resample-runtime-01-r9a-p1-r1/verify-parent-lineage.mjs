@@ -1,0 +1,10 @@
+import { check, json, sha256File, sourceArtifact, seal } from './lib.mjs';
+import { PARENT_RECEIPT, PARENT_RECEIPT_SHA256, PARENT_RECEIPT_SELF_SHA256, PACKAGE_LOCK_SHA256, POINTER_A, POINTER_B, POINTER_SHA256, SPEC, SPEC_SHA256 } from './identity.mjs';
+const parent = json(PARENT_RECEIPT);
+check(sha256File(PARENT_RECEIPT) === PARENT_RECEIPT_SHA256, 'E_R9AP1R1_PARENT_RECEIPT', 'parent P1 receipt file digest mismatch');
+check(parent.selfSha256 === PARENT_RECEIPT_SELF_SHA256, 'E_R9AP1R1_PARENT_RECEIPT', 'parent P1 receipt self digest mismatch');
+check(sha256File(SPEC) === SPEC_SHA256, 'E_R9AP1R1_SPEC_DIGEST', 'R1 spec digest mismatch');
+check(sha256File('package-lock.json') === PACKAGE_LOCK_SHA256, 'E_R9AP1R1_PACKAGE_LOCK_MUTATED', 'package-lock changed during R1 source bake');
+check(sha256File(POINTER_A) === POINTER_SHA256 && sha256File(POINTER_B) === POINTER_SHA256, 'E_R9AP1R1_POINTER_MUTATED', 'promotion pointer changed');
+sourceArtifact('R9AP1R1_PARENT_FREEZE_RECEIPT.json', seal({ schemaVersion: 1, receiptKind: 'r9a-p1-r1-parent-freeze', parentReceiptSha256: PARENT_RECEIPT_SHA256, parentReceiptSelfSha256: PARENT_RECEIPT_SELF_SHA256, packageLockSha256: PACKAGE_LOCK_SHA256, pointerSha256: POINTER_SHA256, parentMutationCount: 0 }));
+console.log('R9A-P1-R1 parent and pointer freeze PASS');

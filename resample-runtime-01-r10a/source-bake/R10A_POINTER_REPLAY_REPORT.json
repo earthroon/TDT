@@ -1,0 +1,11 @@
+{
+  "intentSha256": "4a84ccf1d2e3a9c0bb26e9d8f4a8e1797fc8c1363154b2deb2382c9bfa450bb3",
+  "pass": true,
+  "pointerGeneration": 0,
+  "pointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "productionPointerMutated": false,
+  "schemaVersion": 1,
+  "selfSha256": "a2cf161cebc35bde3a8b2b0b68c70e0c1cfe44c14422804b77d0b6da296a5982",
+  "sourceModeWriteDenied": true,
+  "transitionIdBits": 192
+}

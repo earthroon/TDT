@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "distribution-admission.schema.json",
+  "type": "object",
+  "required": [
+    "releaseSequence",
+    "packageContentId",
+    "manifestSha256",
+    "checkpointSha256",
+    "nextTrustStateSha256",
+    "receiptSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

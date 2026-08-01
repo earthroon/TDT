@@ -1,0 +1,56 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 9
+  },
+  "receiptKind": "r9a-p1-r1-javascript-parse",
+  "rows": [
+    {
+      "file": "electron.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "preload.cjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/artifact-publisher.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r1/lib.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r1/external-build-admission-sidecar.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r1/packaged-closure-binding.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r1/qualification-boot-authority.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/emit-external-admission-sidecar.mjs",
+      "status": "PASS",
+      "stderr": ""
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "ef76d1266dbc54197eaf4e80839b7bb9945dd3350aa44c21ceda787751681a7f"
+}

@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr05.source-negative-controls.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-05",
+  "status": "PASS",
+  "mutantCount": 64,
+  "detectedCount": 64,
+  "rows": [
+    {
+      "id": "BKR05-NC-001",
+      "name": "unknown mode rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_MODE_NOT_ADMITTED",
+        "actual": "E_BKR05_FINAL_MODE_NOT_ADMITTED"
+      }
+    },
+    {
+      "id": "BKR05-NC-002",
+      "name": "final missing purpose rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_MODE_NOT_ADMITTED",
+        "actual": "E_BKR05_FINAL_MODE_NOT_ADMITTED"
+      }
+    },
+    {
+      "id": "BKR05-NC-003",
+      "name": "final missing allow flag rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_MODE_NOT_ADMITTED",
+        "actual": "E_BKR05_FINAL_MODE_NOT_ADMITTED"
+      }
+    },
+    {
+      "id": "BKR05-NC-004",
+      "name": "caller retainCandidate rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_MODE_NOT_ADMITTED",
+        "actual": "E_BKR05_FINAL_MODE_NOT_ADMITTED"
+      }
+    },
+    {
+      "id": "BKR05-NC-005",
+      "name": "candidate without texture rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_CANDIDATE_REQUIRED",
+        "actual": "E_BKR05_FINAL_CANDIDATE_REQUIRED"
+      }
+    },
+    {
+      "id": "BKR05-NC-006",
+      "name": "graph without untrack rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_IDENTITY",
+        "actual": "E_BKR05_FINAL_TEXTURE_IDENTITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-007",
+      "name": "candidate width mismatch rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_DIMENSION",
+        "actual": "E_BKR05_FINAL_TEXTURE_DIMENSION"
+      }
+    },
+    {
+      "id": "BKR05-NC-008",
+      "name": "candidate device mismatch rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_EPOCH",
+        "actual": "E_BKR05_FINAL_TEXTURE_EPOCH"
+      }
+    },
+    {
+      "id": "BKR05-NC-009",
+      "name": "candidate missing digest rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_COMPOSITE_RECEIPT_MISSING",
+        "actual": "E_BKR05_COMPOSITE_RECEIPT_MISSING"
+      }
+    },
+    {
+      "id": "BKR05-NC-010",
+      "name": "candidate replay rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_CANDIDATE_REPLAY",
+        "actual": "E_BKR05_FINAL_CANDIDATE_REPLAY"
+      }
+    },
+    {
+      "id": "BKR05-NC-011",
+      "name": "released candidate adoption rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_CANDIDATE_RELEASED",
+        "actual": "E_BKR05_FINAL_CANDIDATE_RELEASED"
+      }
+    },
+    {
+      "id": "BKR05-NC-012",
+      "name": "disabled mode candidate rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_DUAL_FINAL_AUTHORITY",
+        "actual": "E_BKR05_DUAL_FINAL_AUTHORITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-013",
+      "name": "final missing candidate rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_CANDIDATE_REQUIRED",
+        "actual": "E_BKR05_FINAL_CANDIDATE_REQUIRED"
+      }
+    },
+    {
+      "id": "BKR05-NC-014",
+      "name": "selection after submit rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_SELECTION_AFTER_SUBMIT",
+        "actual": "E_BKR05_FINAL_SELECTION_AFTER_SUBMIT"
+      }
+    },
+    {
+      "id": "BKR05-NC-015",
+      "name": "base format mismatch rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_IDENTITY",
+        "actual": "E_BKR05_FINAL_TEXTURE_IDENTITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-016",
+      "name": "base graph mismatch rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_IDENTITY",
+        "actual": "E_BKR05_FINAL_TEXTURE_IDENTITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-017",
+      "name": "base epoch mismatch rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_EPOCH",
+        "actual": "E_BKR05_FINAL_TEXTURE_EPOCH"
+      }
+    },
+    {
+      "id": "BKR05-NC-018",
+      "name": "base candidate alias rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_DUAL_FINAL_AUTHORITY",
+        "actual": "E_BKR05_DUAL_FINAL_AUTHORITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-019",
+      "name": "receipt body tamper detected",
+      "status": "PASS",
+      "evidence": {
+        "valid": true
+      }
+    },
+    {
+      "id": "BKR05-NC-020",
+      "name": "receipt self hash tamper detected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR05-NC-021",
+      "name": "descriptor authority mutant rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_IDENTITY",
+        "actual": "E_BKR05_FINAL_TEXTURE_IDENTITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-022",
+      "name": "descriptor format mutant rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_FORMAT",
+        "actual": "E_BKR05_FINAL_TEXTURE_FORMAT"
+      }
+    },
+    {
+      "id": "BKR05-NC-023",
+      "name": "descriptor semantic mutant rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_IDENTITY",
+        "actual": "E_BKR05_FINAL_TEXTURE_IDENTITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-024",
+      "name": "descriptor width mutant rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_DIMENSION",
+        "actual": "E_BKR05_FINAL_TEXTURE_DIMENSION"
+      }
+    },
+    {
+      "id": "BKR05-NC-025",
+      "name": "descriptor digest mutant rejected",
+      "status": "PASS",
+      "evidence": {
+        "expected": "E_BKR05_FINAL_TEXTURE_IDENTITY",
+        "actual": "E_BKR05_FINAL_TEXTURE_IDENTITY"
+      }
+    },
+    {
+      "id": "BKR05-NC-026",
+      "name": "adoption required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "candidateStates = new WeakMap",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-027",
+      "name": "adoption required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "internal.state = 'ADOPTED'",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-028",
+      "name": "adoption required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "graph.untrackTransient(metadata.texture)",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-029",
+      "name": "adoption required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "superseded-final-ewa-terminal",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-030",
+      "name": "adoption required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "canonicalFinalTextureClaim: true",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-031",
+      "name": "adoption required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "queueSubmitCountAtSelection: 0",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-032",
+      "name": "identity required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "orderedKernelGraph",
+        "before": 6,
+        "after": 5
+      }
+    },
+    {
+      "id": "BKR05-NC-033",
+      "name": "identity required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "role: 'TERMINAL_R1C'",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-034",
+      "name": "identity required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "role: 'FINAL_EFFECT'",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-035",
+      "name": "identity required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "queueSubmitCount !== 1",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-036",
+      "name": "identity required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "intermediateReadbackCount: 0",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-037",
+      "name": "r9a required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "upgradeWgsl04CandidateForFinalWgsl05",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-038",
+      "name": "r9a required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "selectCanonicalFinalTextureWgsl05",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-039",
+      "name": "r9a required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "createCanonicalFinalOutputReceiptWgsl05",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-040",
+      "name": "r9a required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "baseLowpassTexture",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-041",
+      "name": "r9a required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "nativeEffectCandidate: null",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-042",
+      "name": "r9a required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "graph.submit",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-043",
+      "name": "stack required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "canonicalFinalOutputReceipt",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-044",
+      "name": "stack required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "finalTextureDescriptorDigest",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-045",
+      "name": "stack required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "outputReceipts.set(result.terminalTexture",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-046",
+      "name": "surface required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "assertPayloadOwnershipAvailable",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-047",
+      "name": "surface required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "prepareFinalOwnershipAdoption",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-048",
+      "name": "surface required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "commitFinalOwnershipAdoption",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-049",
+      "name": "surface required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "record.allocationClass = 'final'",
+        "before": 2,
+        "after": 1
+      }
+    },
+    {
+      "id": "BKR05-NC-050",
+      "name": "surface required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "state.state = 'COMMITTED'",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-051",
+      "name": "pipeline required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "expectedOwnerServiceId: SERVICE_IDS.resampleWorkerBroker",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-052",
+      "name": "pipeline required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "targetOwnerServiceId: SERVICE_IDS.pipeline",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-053",
+      "name": "pipeline required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "ownership commit is authoritative",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-054",
+      "name": "pipeline required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "W_BKR05_PREVIOUS_FINAL_RETIREMENT_DEFERRED",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-055",
+      "name": "ledger required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "record.evidence.canonicalFinalTexture !== true",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-056",
+      "name": "ledger required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "record.ownerServiceId !== SERVICE_IDS.pipeline",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-057",
+      "name": "ledger required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "record.allocationClass !== 'final'",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-058",
+      "name": "bridge required token removal detected",
+      "status": "PASS",
+      "evidence": {
+        "token": "E_BKR05_LEGACY_BRIDGE_REENTRY",
+        "before": 1,
+        "after": 0
+      }
+    },
+    {
+      "id": "BKR05-NC-059",
+      "name": "r9a authority marker mutant 59",
+      "status": "PASS",
+      "evidence": {
+        "marker": "finalRole"
+      }
+    },
+    {
+      "id": "BKR05-NC-060",
+      "name": "stack authority marker mutant 60",
+      "status": "PASS",
+      "evidence": {
+        "marker": "sourceRevision"
+      }
+    },
+    {
+      "id": "BKR05-NC-061",
+      "name": "surface authority marker mutant 61",
+      "status": "PASS",
+      "evidence": {
+        "marker": "finalRevision"
+      }
+    },
+    {
+      "id": "BKR05-NC-062",
+      "name": "pipeline authority marker mutant 62",
+      "status": "PASS",
+      "evidence": {
+        "marker": "resampleReceiptDigest"
+      }
+    },
+    {
+      "id": "BKR05-NC-063",
+      "name": "ledger authority marker mutant 63",
+      "status": "PASS",
+      "evidence": {
+        "marker": "canonicalFinalTexture"
+      }
+    },
+    {
+      "id": "BKR05-NC-064",
+      "name": "bridge authority marker mutant 64",
+      "status": "PASS",
+      "evidence": {
+        "marker": "PipelineService"
+      }
+    }
+  ],
+  "selfSha256": "f57d6c14edc9940502e7009bb3e5967a3e6265d0743271c7138ebd3a84b33e5f"
+}

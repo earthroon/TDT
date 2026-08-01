@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "status": "BLOCKED",
+  "packageContentId": null,
+  "appAsarPresent": false,
+  "nativeAddonCount": 0,
+  "reason": "unpacked Electron package not built"
+}

@@ -1,0 +1,23 @@
+{
+  "failCount": 0,
+  "passCount": 3,
+  "rows": [
+    {
+      "errors": [],
+      "file": "app/src/runtime/gpu/gpu-device-qualification-observer.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "vite.config.ts",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "fdd22911ba3ef81ddf01fc2f80ee183f20ae9af1ff0553f4b3c770fb49f9d175"
+}

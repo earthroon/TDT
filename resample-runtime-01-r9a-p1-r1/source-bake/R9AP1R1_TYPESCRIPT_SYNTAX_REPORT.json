@@ -1,0 +1,56 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 9
+  },
+  "receiptKind": "r9a-p1-r1-typescript-syntax",
+  "rows": [
+    {
+      "errors": [],
+      "file": "vite.config.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/main.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/env.d.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/boot/bootstrap-renderer.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/admission/installed-admission-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/distribution/release-distribution-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/qualification/r9a-p1-r1-qualification-types.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/qualification/r9a-p1-r1-qualification-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/qualification/r9a-p1-r1-qualification-runner.ts",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "842a93370c04c74e65ac5911521e90983c57d5b7ca1578c7388209696ff1bafc"
+}

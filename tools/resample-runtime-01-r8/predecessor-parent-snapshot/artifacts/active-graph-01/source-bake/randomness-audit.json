@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "admittedSourceCount": 397,
+  "activeRandomnessSourceCount": 0,
+  "findings": [],
+  "auditDigest": "f50fe0600beb4b8f9df5f1b103b69917350c348d2c4fe46a6d63545edb0974f7"
+}

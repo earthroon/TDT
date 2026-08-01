@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "status": "BLOCKED",
+  "attempted": true,
+  "reason": "see EP02_NPM_LOCK_INSTALL_ATTEMPT.txt",
+  "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+}

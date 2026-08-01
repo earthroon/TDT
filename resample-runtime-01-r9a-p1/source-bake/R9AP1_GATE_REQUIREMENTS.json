@@ -1,0 +1,3370 @@
+{
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1",
+  "physicalMandatory": [
+    {
+      "id": "R9AP1-P001",
+      "requirement": "Canonical run executes on Windows x64"
+    },
+    {
+      "id": "R9AP1-P002",
+      "requirement": "Canonical run executes from electron-builder win-unpacked package"
+    },
+    {
+      "id": "R9AP1-P003",
+      "requirement": "Build Lock R2 final admission receipt exists"
+    },
+    {
+      "id": "R9AP1-P004",
+      "requirement": "Build Lock R2 final admission receipt self-hash is valid"
+    },
+    {
+      "id": "R9AP1-P005",
+      "requirement": "Build Lock R2 productionBuildAdmitted is true"
+    },
+    {
+      "id": "R9AP1-P006",
+      "requirement": "Executing packageContentId equals Build Lock R2 packageContentId"
+    },
+    {
+      "id": "R9AP1-P007",
+      "requirement": "Executing ASAR digest equals Build Lock R2 ASAR digest"
+    },
+    {
+      "id": "R9AP1-P008",
+      "requirement": "Executing native addon digest equals Build Lock R2 digest"
+    },
+    {
+      "id": "R9AP1-P009",
+      "requirement": "Executing WASM closure digest equals Build Lock R2 digest"
+    },
+    {
+      "id": "R9AP1-P010",
+      "requirement": "Executing runtime manifest digest equals Build Lock R2 digest"
+    },
+    {
+      "id": "R9AP1-P011",
+      "requirement": "No dev server is reachable"
+    },
+    {
+      "id": "R9AP1-P012",
+      "requirement": "No source tree module is imported"
+    },
+    {
+      "id": "R9AP1-P013",
+      "requirement": "Network is disabled during canonical run"
+    },
+    {
+      "id": "R9AP1-P014",
+      "requirement": "Qualification window remains hidden"
+    },
+    {
+      "id": "R9AP1-P015",
+      "requirement": "Qualification session partition is isolated"
+    },
+    {
+      "id": "R9AP1-P016",
+      "requirement": "Hardware D3D12 backend is active"
+    },
+    {
+      "id": "R9AP1-P017",
+      "requirement": "Software adapter is rejected"
+    },
+    {
+      "id": "R9AP1-P018",
+      "requirement": "Primary adapter identity is recorded"
+    },
+    {
+      "id": "R9AP1-P019",
+      "requirement": "Driver identity is recorded"
+    },
+    {
+      "id": "R9AP1-P020",
+      "requirement": "OS build identity is recorded"
+    },
+    {
+      "id": "R9AP1-P021",
+      "requirement": "Electron and Chromium versions are recorded"
+    },
+    {
+      "id": "R9AP1-P022",
+      "requirement": "Power plan is recorded"
+    },
+    {
+      "id": "R9AP1-P023",
+      "requirement": "Display state is recorded"
+    },
+    {
+      "id": "R9AP1-P024",
+      "requirement": "GPU preference is high-performance"
+    },
+    {
+      "id": "R9AP1-P025",
+      "requirement": "Exclusive run lock is held"
+    },
+    {
+      "id": "R9AP1-P026",
+      "requirement": "Interruption marker exists"
+    },
+    {
+      "id": "R9AP1-P027",
+      "requirement": "Fixture schedule digest matches challenge"
+    },
+    {
+      "id": "R9AP1-P028",
+      "requirement": "Run challenge has not expired"
+    },
+    {
+      "id": "R9AP1-P029",
+      "requirement": "BrowserWindow and webContents identity match challenge"
+    },
+    {
+      "id": "R9AP1-P030",
+      "requirement": "Renderer OS process identity matches challenge"
+    },
+    {
+      "id": "R9AP1-P031",
+      "requirement": "Package bytes are unchanged after run"
+    },
+    {
+      "id": "R9AP1-P032",
+      "requirement": "Production Pointer is unchanged"
+    },
+    {
+      "id": "R9AP1-P033",
+      "requirement": "Local Activation Pointer is unchanged"
+    },
+    {
+      "id": "R9AP1-P034",
+      "requirement": "No user document is opened"
+    },
+    {
+      "id": "R9AP1-P035",
+      "requirement": "Packaged environment child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P036",
+      "requirement": "Primary adapter role is PERFORMANCE_CANONICAL"
+    },
+    {
+      "id": "R9AP1-P037",
+      "requirement": "Primary adapter is RTX 3080 class or explicitly approved replacement"
+    },
+    {
+      "id": "R9AP1-P038",
+      "requirement": "Primary adapter backend is D3D12"
+    },
+    {
+      "id": "R9AP1-P039",
+      "requirement": "Primary adapter is not fallback"
+    },
+    {
+      "id": "R9AP1-P040",
+      "requirement": "Primary adapter exposes timestamp-query"
+    },
+    {
+      "id": "R9AP1-P041",
+      "requirement": "Primary adapter limits satisfy R9A shader requirements"
+    },
+    {
+      "id": "R9AP1-P042",
+      "requirement": "minUniformBufferOffsetAlignment is recorded"
+    },
+    {
+      "id": "R9AP1-P043",
+      "requirement": "maxBufferSize is recorded"
+    },
+    {
+      "id": "R9AP1-P044",
+      "requirement": "maxStorageBufferBindingSize is recorded"
+    },
+    {
+      "id": "R9AP1-P045",
+      "requirement": "maxComputeWorkgroupsPerDimension is recorded"
+    },
+    {
+      "id": "R9AP1-P046",
+      "requirement": "maxComputeInvocationsPerWorkgroup is recorded"
+    },
+    {
+      "id": "R9AP1-P047",
+      "requirement": "Adapter vendor and architecture family are recorded without serial number"
+    },
+    {
+      "id": "R9AP1-P048",
+      "requirement": "Device identity is stable for baseline and candidate"
+    },
+    {
+      "id": "R9AP1-P049",
+      "requirement": "Device epoch starts from admitted value"
+    },
+    {
+      "id": "R9AP1-P050",
+      "requirement": "Pipeline compilation completes without validation error"
+    },
+    {
+      "id": "R9AP1-P051",
+      "requirement": "Generated WGSL manifest digest matches package"
+    },
+    {
+      "id": "R9AP1-P052",
+      "requirement": "R4 product shader digest matches package"
+    },
+    {
+      "id": "R9AP1-P053",
+      "requirement": "R6 product shader digest matches package"
+    },
+    {
+      "id": "R9AP1-P054",
+      "requirement": "Validation shader digest matches package"
+    },
+    {
+      "id": "R9AP1-P055",
+      "requirement": "Kernel ABI identity matches package"
+    },
+    {
+      "id": "R9AP1-P056",
+      "requirement": "Planner identity matches package"
+    },
+    {
+      "id": "R9AP1-P057",
+      "requirement": "Command graph identity matches package"
+    },
+    {
+      "id": "R9AP1-P058",
+      "requirement": "GPU Authority lease is current"
+    },
+    {
+      "id": "R9AP1-P059",
+      "requirement": "Adapter admission has no silent fallback"
+    },
+    {
+      "id": "R9AP1-P060",
+      "requirement": "Primary adapter child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P061",
+      "requirement": "Primary device uncaptured error count is zero before fixtures"
+    },
+    {
+      "id": "R9AP1-P062",
+      "requirement": "Primary device uncaptured error listener is active"
+    },
+    {
+      "id": "R9AP1-P063",
+      "requirement": "Primary adapter does not change during run"
+    },
+    {
+      "id": "R9AP1-P064",
+      "requirement": "Driver reset outside controlled loss invalidates run"
+    },
+    {
+      "id": "R9AP1-P065",
+      "requirement": "Power state change invalidates performance run"
+    },
+    {
+      "id": "R9AP1-P066",
+      "requirement": "Preview R4 1-stage dc executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P067",
+      "requirement": "Preview R4 1-stage fractional-impulse executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P068",
+      "requirement": "Preview R4 1-stage diagonal-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P069",
+      "requirement": "Preview R4 1-stage border-corner executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P070",
+      "requirement": "Preview R4 1-stage alpha-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P071",
+      "requirement": "Preview R4 1-stage transparent-hidden-rgb executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P072",
+      "requirement": "Preview R4 1-stage one-by-one executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P073",
+      "requirement": "Preview R4 1-stage one-by-n executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P074",
+      "requirement": "Preview R4 2-stage dc executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P075",
+      "requirement": "Preview R4 2-stage fractional-impulse executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P076",
+      "requirement": "Preview R4 2-stage diagonal-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P077",
+      "requirement": "Preview R4 2-stage border-corner executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P078",
+      "requirement": "Preview R4 2-stage alpha-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P079",
+      "requirement": "Preview R4 2-stage transparent-hidden-rgb executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P080",
+      "requirement": "Preview R4 2-stage one-by-one executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P081",
+      "requirement": "Preview R4 2-stage one-by-n executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P082",
+      "requirement": "Preview R4 3-plus-stage dc executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P083",
+      "requirement": "Preview R4 3-plus-stage fractional-impulse executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P084",
+      "requirement": "Preview R4 3-plus-stage diagonal-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P085",
+      "requirement": "Preview R4 3-plus-stage border-corner executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P086",
+      "requirement": "Preview R4 3-plus-stage alpha-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P087",
+      "requirement": "Preview R4 3-plus-stage transparent-hidden-rgb executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P088",
+      "requirement": "Preview R4 3-plus-stage one-by-one executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P089",
+      "requirement": "Preview R4 3-plus-stage one-by-n executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P090",
+      "requirement": "Preview R6 1-stage dc executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P091",
+      "requirement": "Preview R6 1-stage fractional-impulse executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P092",
+      "requirement": "Preview R6 1-stage diagonal-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P093",
+      "requirement": "Preview R6 1-stage border-corner executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P094",
+      "requirement": "Preview R6 1-stage alpha-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P095",
+      "requirement": "Preview R6 1-stage transparent-hidden-rgb executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P096",
+      "requirement": "Preview R6 1-stage one-by-one executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P097",
+      "requirement": "Preview R6 1-stage one-by-n executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P098",
+      "requirement": "Preview R6 2-stage dc executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P099",
+      "requirement": "Preview R6 2-stage fractional-impulse executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P100",
+      "requirement": "Preview R6 2-stage diagonal-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P101",
+      "requirement": "Preview R6 2-stage border-corner executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P102",
+      "requirement": "Preview R6 2-stage alpha-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P103",
+      "requirement": "Preview R6 2-stage transparent-hidden-rgb executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P104",
+      "requirement": "Preview R6 2-stage one-by-one executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P105",
+      "requirement": "Preview R6 2-stage one-by-n executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P106",
+      "requirement": "Preview R6 3-plus-stage dc executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P107",
+      "requirement": "Preview R6 3-plus-stage fractional-impulse executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P108",
+      "requirement": "Preview R6 3-plus-stage diagonal-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P109",
+      "requirement": "Preview R6 3-plus-stage border-corner executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P110",
+      "requirement": "Preview R6 3-plus-stage alpha-edge executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P111",
+      "requirement": "Preview R6 3-plus-stage transparent-hidden-rgb executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P112",
+      "requirement": "Preview R6 3-plus-stage one-by-one executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P113",
+      "requirement": "Preview R6 3-plus-stage one-by-n executes through product graph with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P114",
+      "requirement": "Preview product graph observation child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P115",
+      "requirement": "Preview final surface identity matches product receipt"
+    },
+    {
+      "id": "R9AP1-P116",
+      "requirement": "Export png R4 1-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P117",
+      "requirement": "Export png R4 1-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P118",
+      "requirement": "Export png R4 1-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P119",
+      "requirement": "Export png R4 1-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P120",
+      "requirement": "Export png R4 1-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P121",
+      "requirement": "Export png R4 2-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P122",
+      "requirement": "Export png R4 2-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P123",
+      "requirement": "Export png R4 2-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P124",
+      "requirement": "Export png R4 2-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P125",
+      "requirement": "Export png R4 2-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P126",
+      "requirement": "Export png R4 3-plus-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P127",
+      "requirement": "Export png R4 3-plus-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P128",
+      "requirement": "Export png R4 3-plus-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P129",
+      "requirement": "Export png R4 3-plus-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P130",
+      "requirement": "Export png R4 3-plus-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P131",
+      "requirement": "Export png R6 1-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P132",
+      "requirement": "Export png R6 1-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P133",
+      "requirement": "Export png R6 1-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P134",
+      "requirement": "Export png R6 1-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P135",
+      "requirement": "Export png R6 1-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P136",
+      "requirement": "Export png R6 2-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P137",
+      "requirement": "Export png R6 2-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P138",
+      "requirement": "Export png R6 2-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P139",
+      "requirement": "Export png R6 2-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P140",
+      "requirement": "Export png R6 2-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P141",
+      "requirement": "Export png R6 3-plus-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P142",
+      "requirement": "Export png R6 3-plus-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P143",
+      "requirement": "Export png R6 3-plus-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P144",
+      "requirement": "Export png R6 3-plus-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P145",
+      "requirement": "Export png R6 3-plus-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P146",
+      "requirement": "Export webp R4 1-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P147",
+      "requirement": "Export webp R4 1-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P148",
+      "requirement": "Export webp R4 1-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P149",
+      "requirement": "Export webp R4 1-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P150",
+      "requirement": "Export webp R4 1-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P151",
+      "requirement": "Export webp R4 2-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P152",
+      "requirement": "Export webp R4 2-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P153",
+      "requirement": "Export webp R4 2-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P154",
+      "requirement": "Export webp R4 2-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P155",
+      "requirement": "Export webp R4 2-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P156",
+      "requirement": "Export webp R4 3-plus-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P157",
+      "requirement": "Export webp R4 3-plus-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P158",
+      "requirement": "Export webp R4 3-plus-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P159",
+      "requirement": "Export webp R4 3-plus-stage alpha-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P160",
+      "requirement": "Export webp R4 3-plus-stage border-corner executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P161",
+      "requirement": "Export webp R6 1-stage dc executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P162",
+      "requirement": "Export webp R6 1-stage fractional-impulse executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P163",
+      "requirement": "Export webp R6 1-stage diagonal-edge executes through product authority with one encoder and one submit"
+    },
+    {
+      "id": "R9AP1-P164",
+      "requirement": "Export product graph observation child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P165",
+      "requirement": "Export encoder and save-discard receipt bind the same R9A submission"
+    },
+    {
+      "id": "R9AP1-P166",
+      "requirement": "First job of initial device epoch is sampled"
+    },
+    {
+      "id": "R9AP1-P167",
+      "requirement": "First job of each kernel digest is sampled"
+    },
+    {
+      "id": "R9AP1-P168",
+      "requirement": "First job of each planner digest is sampled"
+    },
+    {
+      "id": "R9AP1-P169",
+      "requirement": "Periodic sample ordinal is exact"
+    },
+    {
+      "id": "R9AP1-P170",
+      "requirement": "Explicit strict Export is sampled"
+    },
+    {
+      "id": "R9AP1-P171",
+      "requirement": "Unsampled job dispatches product variant once"
+    },
+    {
+      "id": "R9AP1-P172",
+      "requirement": "Sampled job dispatches validation variant once"
+    },
+    {
+      "id": "R9AP1-P173",
+      "requirement": "Sampled job does not dispatch product variant"
+    },
+    {
+      "id": "R9AP1-P174",
+      "requirement": "Sampled output matches unsampled output"
+    },
+    {
+      "id": "R9AP1-P175",
+      "requirement": "Normal R4 counters are all zero"
+    },
+    {
+      "id": "R9AP1-P176",
+      "requirement": "Normal R6 counters are all zero"
+    },
+    {
+      "id": "R9AP1-P177",
+      "requirement": "Reserved counters are all zero"
+    },
+    {
+      "id": "R9AP1-P178",
+      "requirement": "Counter readback contains exactly 32 words"
+    },
+    {
+      "id": "R9AP1-P179",
+      "requirement": "Counter clear event precedes dispatch"
+    },
+    {
+      "id": "R9AP1-P180",
+      "requirement": "Counter copy event follows dispatch"
+    },
+    {
+      "id": "R9AP1-P181",
+      "requirement": "Counter readback is not inferred"
+    },
+    {
+      "id": "R9AP1-P182",
+      "requirement": "Preview sampled observer does not block frame publication path"
+    },
+    {
+      "id": "R9AP1-P183",
+      "requirement": "Export strict observer blocks save until counters verified"
+    },
+    {
+      "id": "R9AP1-P184",
+      "requirement": "Counter buffer is reclaimed after completion"
+    },
+    {
+      "id": "R9AP1-P185",
+      "requirement": "Counter readback buffer is unmapped and destroyed"
+    },
+    {
+      "id": "R9AP1-P186",
+      "requirement": "Controlled radius-undercoverage R4 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P187",
+      "requirement": "Controlled radius-undercoverage R6 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P188",
+      "requirement": "Controlled radius-undercoverage increments no unrelated counter"
+    },
+    {
+      "id": "R9AP1-P189",
+      "requirement": "Controlled radius-undercoverage fault output is not published"
+    },
+    {
+      "id": "R9AP1-P190",
+      "requirement": "Controlled radius-undercoverage fault output is not saved"
+    },
+    {
+      "id": "R9AP1-P191",
+      "requirement": "Controlled radius-undercoverage raw counter bytes are retained"
+    },
+    {
+      "id": "R9AP1-P192",
+      "requirement": "Controlled radius-undercoverage event ledger binds fault challenge"
+    },
+    {
+      "id": "R9AP1-P193",
+      "requirement": "Controlled zero-total-weight R4 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P194",
+      "requirement": "Controlled zero-total-weight R6 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P195",
+      "requirement": "Controlled zero-total-weight increments no unrelated counter"
+    },
+    {
+      "id": "R9AP1-P196",
+      "requirement": "Controlled zero-total-weight fault output is not published"
+    },
+    {
+      "id": "R9AP1-P197",
+      "requirement": "Controlled zero-total-weight fault output is not saved"
+    },
+    {
+      "id": "R9AP1-P198",
+      "requirement": "Controlled zero-total-weight raw counter bytes are retained"
+    },
+    {
+      "id": "R9AP1-P199",
+      "requirement": "Controlled zero-total-weight event ledger binds fault challenge"
+    },
+    {
+      "id": "R9AP1-P200",
+      "requirement": "Controlled nonfinite-weight R4 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P201",
+      "requirement": "Controlled nonfinite-weight R6 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P202",
+      "requirement": "Controlled nonfinite-weight increments no unrelated counter"
+    },
+    {
+      "id": "R9AP1-P203",
+      "requirement": "Controlled nonfinite-weight fault output is not published"
+    },
+    {
+      "id": "R9AP1-P204",
+      "requirement": "Controlled nonfinite-weight fault output is not saved"
+    },
+    {
+      "id": "R9AP1-P205",
+      "requirement": "Controlled nonfinite-weight raw counter bytes are retained"
+    },
+    {
+      "id": "R9AP1-P206",
+      "requirement": "Controlled nonfinite-weight event ledger binds fault challenge"
+    },
+    {
+      "id": "R9AP1-P207",
+      "requirement": "Controlled nonfinite-accumulation R4 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P208",
+      "requirement": "Controlled nonfinite-accumulation R6 increments expected counter"
+    },
+    {
+      "id": "R9AP1-P209",
+      "requirement": "Controlled nonfinite-accumulation increments no unrelated counter"
+    },
+    {
+      "id": "R9AP1-P210",
+      "requirement": "Controlled nonfinite-accumulation fault output is not published"
+    },
+    {
+      "id": "R9AP1-P211",
+      "requirement": "Controlled nonfinite-accumulation fault output is not saved"
+    },
+    {
+      "id": "R9AP1-P212",
+      "requirement": "Controlled nonfinite-accumulation raw counter bytes are retained"
+    },
+    {
+      "id": "R9AP1-P213",
+      "requirement": "Controlled nonfinite-accumulation event ledger binds fault challenge"
+    },
+    {
+      "id": "R9AP1-P214",
+      "requirement": "Normal counter nonzero fails qualification"
+    },
+    {
+      "id": "R9AP1-P215",
+      "requirement": "Missing fault increment fails qualification"
+    },
+    {
+      "id": "R9AP1-P216",
+      "requirement": "Duplicate validation dispatch fails qualification"
+    },
+    {
+      "id": "R9AP1-P217",
+      "requirement": "Validation shader digest mismatch fails qualification"
+    },
+    {
+      "id": "R9AP1-P218",
+      "requirement": "Fault challenge replay fails qualification"
+    },
+    {
+      "id": "R9AP1-P219",
+      "requirement": "Fault mode outside qualification is rejected"
+    },
+    {
+      "id": "R9AP1-P220",
+      "requirement": "Counter buffer reuse is fence safe"
+    },
+    {
+      "id": "R9AP1-P221",
+      "requirement": "Uniform ring buffer is created once per device epoch"
+    },
+    {
+      "id": "R9AP1-P222",
+      "requirement": "Uniform slot stride respects device alignment"
+    },
+    {
+      "id": "R9AP1-P223",
+      "requirement": "All uniform writes stay within slot bounds"
+    },
+    {
+      "id": "R9AP1-P224",
+      "requirement": "Each recorded pass has one uniform allocation or explicit zero-allocation reason"
+    },
+    {
+      "id": "R9AP1-P225",
+      "requirement": "Slot transition FREE to RECORDED is observed"
+    },
+    {
+      "id": "R9AP1-P226",
+      "requirement": "Slot transition RECORDED to IN_FLIGHT is observed"
+    },
+    {
+      "id": "R9AP1-P227",
+      "requirement": "Slot transition IN_FLIGHT to FREE is observed"
+    },
+    {
+      "id": "R9AP1-P228",
+      "requirement": "No slot returns FREE before completion"
+    },
+    {
+      "id": "R9AP1-P229",
+      "requirement": "No IN_FLIGHT slot overwrite occurs"
+    },
+    {
+      "id": "R9AP1-P230",
+      "requirement": "Forced ring exhaustion yields E_R9A_UNIFORM_RING_EXHAUSTED"
+    },
+    {
+      "id": "R9AP1-P231",
+      "requirement": "Ring exhaustion produces no queue submit"
+    },
+    {
+      "id": "R9AP1-P232",
+      "requirement": "Physical submission serial sequence is strictly monotonic within device epoch"
+    },
+    {
+      "id": "R9AP1-P233",
+      "requirement": "One completion ticket exists per submit"
+    },
+    {
+      "id": "R9AP1-P234",
+      "requirement": "Queue-observer ticket settles exactly once"
+    },
+    {
+      "id": "R9AP1-P235",
+      "requirement": "External-terminal-map ticket binds exactly once"
+    },
+    {
+      "id": "R9AP1-P236",
+      "requirement": "Unbound external completion fails run"
+    },
+    {
+      "id": "R9AP1-P237",
+      "requirement": "Ticket retire removes exact ticket"
+    },
+    {
+      "id": "R9AP1-P238",
+      "requirement": "Tracked ticket count returns to zero"
+    },
+    {
+      "id": "R9AP1-P239",
+      "requirement": "Uniform RECORDED count returns to zero"
+    },
+    {
+      "id": "R9AP1-P240",
+      "requirement": "Uniform IN_FLIGHT count returns to zero"
+    },
+    {
+      "id": "R9AP1-P241",
+      "requirement": "Transient texture live count returns to zero"
+    },
+    {
+      "id": "R9AP1-P242",
+      "requirement": "Validation buffer live count returns to zero"
+    },
+    {
+      "id": "R9AP1-P243",
+      "requirement": "Readback buffer live count returns to zero"
+    },
+    {
+      "id": "R9AP1-P244",
+      "requirement": "Timestamp query set live count returns to zero"
+    },
+    {
+      "id": "R9AP1-P245",
+      "requirement": "Unknown queue submit count is zero"
+    },
+    {
+      "id": "R9AP1-P246",
+      "requirement": "Stage-level queue fence count is zero"
+    },
+    {
+      "id": "R9AP1-P247",
+      "requirement": "Preview onSubmittedWorkDone count is zero"
+    },
+    {
+      "id": "R9AP1-P248",
+      "requirement": "Export pre-map onSubmittedWorkDone count is zero"
+    },
+    {
+      "id": "R9AP1-P249",
+      "requirement": "Command buffer count equals job count"
+    },
+    {
+      "id": "R9AP1-P250",
+      "requirement": "Command encoder count equals job count"
+    },
+    {
+      "id": "R9AP1-P251",
+      "requirement": "Submission ticket completion matches terminal map completion"
+    },
+    {
+      "id": "R9AP1-P252",
+      "requirement": "Recording failure emits zero submit"
+    },
+    {
+      "id": "R9AP1-P253",
+      "requirement": "Double submit negative control is rejected"
+    },
+    {
+      "id": "R9AP1-P254",
+      "requirement": "Record-after-submit negative control is rejected"
+    },
+    {
+      "id": "R9AP1-P255",
+      "requirement": "Foreign encoder negative control is rejected"
+    },
+    {
+      "id": "R9AP1-P256",
+      "requirement": "Hidden compatibility submit negative control is rejected"
+    },
+    {
+      "id": "R9AP1-P257",
+      "requirement": "Hidden compatibility fence negative control is rejected"
+    },
+    {
+      "id": "R9AP1-P258",
+      "requirement": "Stale ticket cannot reclaim current ring"
+    },
+    {
+      "id": "R9AP1-P259",
+      "requirement": "Uniform lifetime raw ledger digest is valid"
+    },
+    {
+      "id": "R9AP1-P260",
+      "requirement": "Fence lifetime raw ledger digest is valid"
+    },
+    {
+      "id": "R9AP1-P261",
+      "requirement": "Uniform lifetime child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P262",
+      "requirement": "Fence registry child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P263",
+      "requirement": "Cleanup after interrupted graph closes"
+    },
+    {
+      "id": "R9AP1-P264",
+      "requirement": "Final live uniform slot count is zero"
+    },
+    {
+      "id": "R9AP1-P265",
+      "requirement": "Final live submission ticket count is zero"
+    },
+    {
+      "id": "R9AP1-P266",
+      "requirement": "GPU query set is created on primary adapter"
+    },
+    {
+      "id": "R9AP1-P267",
+      "requirement": "Graph begin timestamp is written"
+    },
+    {
+      "id": "R9AP1-P268",
+      "requirement": "Graph end timestamp is written"
+    },
+    {
+      "id": "R9AP1-P269",
+      "requirement": "Source prepare begin and end timestamps are written"
+    },
+    {
+      "id": "R9AP1-P270",
+      "requirement": "Tensor total begin and end timestamps are written"
+    },
+    {
+      "id": "R9AP1-P271",
+      "requirement": "Adaptive policy begin and end timestamps are written"
+    },
+    {
+      "id": "R9AP1-P272",
+      "requirement": "EWA total begin and end timestamps are written"
+    },
+    {
+      "id": "R9AP1-P273",
+      "requirement": "Residual begin and end timestamps are written when executed"
+    },
+    {
+      "id": "R9AP1-P274",
+      "requirement": "Finalization begin and end timestamps are written when executed"
+    },
+    {
+      "id": "R9AP1-P275",
+      "requirement": "Timestamp resolve occurs in canonical encoder"
+    },
+    {
+      "id": "R9AP1-P276",
+      "requirement": "Timestamp copy occurs in canonical encoder"
+    },
+    {
+      "id": "R9AP1-P277",
+      "requirement": "Raw timestamp ticks are retained"
+    },
+    {
+      "id": "R9AP1-P278",
+      "requirement": "Timestamp query count matches phase plan"
+    },
+    {
+      "id": "R9AP1-P279",
+      "requirement": "CPU wall clock is not used as GPU substitute"
+    },
+    {
+      "id": "R9AP1-P280",
+      "requirement": "CPU encode-submit time uses monotonic clock"
+    },
+    {
+      "id": "R9AP1-P281",
+      "requirement": "Warmup count is at least 128"
+    },
+    {
+      "id": "R9AP1-P282",
+      "requirement": "Paired sample count is at least 256"
+    },
+    {
+      "id": "R9AP1-P283",
+      "requirement": "ABBA ordering is balanced"
+    },
+    {
+      "id": "R9AP1-P284",
+      "requirement": "Baseline partition is test-only"
+    },
+    {
+      "id": "R9AP1-P285",
+      "requirement": "Baseline partition is absent from Active Graph product selection"
+    },
+    {
+      "id": "R9AP1-P286",
+      "requirement": "Baseline and candidate use identical packageContentId"
+    },
+    {
+      "id": "R9AP1-P287",
+      "requirement": "Baseline and candidate use identical fixture digest"
+    },
+    {
+      "id": "R9AP1-P288",
+      "requirement": "Baseline and candidate use identical parameter digest"
+    },
+    {
+      "id": "R9AP1-P289",
+      "requirement": "R4 one-stage median ratio is at most 1.05"
+    },
+    {
+      "id": "R9AP1-P290",
+      "requirement": "R6 one-stage median ratio is at most 1.05"
+    },
+    {
+      "id": "R9AP1-P291",
+      "requirement": "R4 two-stage median ratio is at most 0.90"
+    },
+    {
+      "id": "R9AP1-P292",
+      "requirement": "R6 two-stage median ratio is at most 0.90"
+    },
+    {
+      "id": "R9AP1-P293",
+      "requirement": "R4 three-plus-stage median ratio is at most 0.80"
+    },
+    {
+      "id": "R9AP1-P294",
+      "requirement": "R6 three-plus-stage median ratio is at most 0.85"
+    },
+    {
+      "id": "R9AP1-P295",
+      "requirement": "R4 multi-stage p95 ratio is at most 0.95"
+    },
+    {
+      "id": "R9AP1-P296",
+      "requirement": "R6 multi-stage p95 ratio is at most 0.95"
+    },
+    {
+      "id": "R9AP1-P297",
+      "requirement": "Preview CPU encode-submit ratio is at most 0.60"
+    },
+    {
+      "id": "R9AP1-P298",
+      "requirement": "Export CPU encode-submit ratio is at most 0.60"
+    },
+    {
+      "id": "R9AP1-P299",
+      "requirement": "Unsampled validation overhead is at most 3 percent"
+    },
+    {
+      "id": "R9AP1-P300",
+      "requirement": "Sampled validation overhead is at most 15 percent"
+    },
+    {
+      "id": "R9AP1-P301",
+      "requirement": "One-stage and multi-stage samples are separate"
+    },
+    {
+      "id": "R9AP1-P302",
+      "requirement": "R4 and R6 samples are separate"
+    },
+    {
+      "id": "R9AP1-P303",
+      "requirement": "Preview and Export samples are separate"
+    },
+    {
+      "id": "R9AP1-P304",
+      "requirement": "Sampled and unsampled samples are separate"
+    },
+    {
+      "id": "R9AP1-P305",
+      "requirement": "Median recomputation from raw samples matches receipt"
+    },
+    {
+      "id": "R9AP1-P306",
+      "requirement": "p95 recomputation from raw samples matches receipt"
+    },
+    {
+      "id": "R9AP1-P307",
+      "requirement": "Raw sample digest matches files"
+    },
+    {
+      "id": "R9AP1-P308",
+      "requirement": "Outlier policy is applied exactly"
+    },
+    {
+      "id": "R9AP1-P309",
+      "requirement": "Thermal state remains within declared range"
+    },
+    {
+      "id": "R9AP1-P310",
+      "requirement": "Power state remains constant"
+    },
+    {
+      "id": "R9AP1-P311",
+      "requirement": "Background load anomaly count is zero"
+    },
+    {
+      "id": "R9AP1-P312",
+      "requirement": "Driver reset count outside controlled suite is zero"
+    },
+    {
+      "id": "R9AP1-P313",
+      "requirement": "Correctness passes before performance is evaluated"
+    },
+    {
+      "id": "R9AP1-P314",
+      "requirement": "Performance child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P315",
+      "requirement": "All declared performance thresholds pass"
+    },
+    {
+      "id": "R9AP1-P316",
+      "requirement": "No threshold is supplied by renderer"
+    },
+    {
+      "id": "R9AP1-P317",
+      "requirement": "No pass boolean is supplied by renderer"
+    },
+    {
+      "id": "R9AP1-P318",
+      "requirement": "Timestamp period metadata is recorded"
+    },
+    {
+      "id": "R9AP1-P319",
+      "requirement": "Performance raw samples have no nonfinite values"
+    },
+    {
+      "id": "R9AP1-P320",
+      "requirement": "Performance run cleanup ledger closes"
+    },
+    {
+      "id": "R9AP1-P321",
+      "requirement": "Primary residency warmup completes"
+    },
+    {
+      "id": "R9AP1-P322",
+      "requirement": "Primary residency measured iterations are at least 1024"
+    },
+    {
+      "id": "R9AP1-P323",
+      "requirement": "Uniform arena live bytes plateau"
+    },
+    {
+      "id": "R9AP1-P324",
+      "requirement": "Validation counter arena live bytes plateau"
+    },
+    {
+      "id": "R9AP1-P325",
+      "requirement": "Timestamp arena live bytes plateau"
+    },
+    {
+      "id": "R9AP1-P326",
+      "requirement": "Transient texture live bytes plateau"
+    },
+    {
+      "id": "R9AP1-P327",
+      "requirement": "Readback buffer live bytes plateau"
+    },
+    {
+      "id": "R9AP1-P328",
+      "requirement": "Bind group cardinality plateaus"
+    },
+    {
+      "id": "R9AP1-P329",
+      "requirement": "Pipeline cache cardinality plateaus"
+    },
+    {
+      "id": "R9AP1-P330",
+      "requirement": "Surface Registry pin count plateaus"
+    },
+    {
+      "id": "R9AP1-P331",
+      "requirement": "Mapped buffer count plateaus at zero"
+    },
+    {
+      "id": "R9AP1-P332",
+      "requirement": "Submission ticket count plateaus at zero"
+    },
+    {
+      "id": "R9AP1-P333",
+      "requirement": "Completion callback count plateaus at zero"
+    },
+    {
+      "id": "R9AP1-P334",
+      "requirement": "Last 64 uniform-byte slope is nonpositive"
+    },
+    {
+      "id": "R9AP1-P335",
+      "requirement": "Last 64 texture-byte slope is nonpositive"
+    },
+    {
+      "id": "R9AP1-P336",
+      "requirement": "Last 64 renderer-private-memory slope is within threshold"
+    },
+    {
+      "id": "R9AP1-P337",
+      "requirement": "Last 64 GPU-process-memory slope is within threshold"
+    },
+    {
+      "id": "R9AP1-P338",
+      "requirement": "Renderer private memory samples come from main process"
+    },
+    {
+      "id": "R9AP1-P339",
+      "requirement": "GPU process memory samples come from main process"
+    },
+    {
+      "id": "R9AP1-P340",
+      "requirement": "No per-stage uniform buffer allocation occurs"
+    },
+    {
+      "id": "R9AP1-P341",
+      "requirement": "No per-stage readback buffer allocation occurs"
+    },
+    {
+      "id": "R9AP1-P342",
+      "requirement": "No resource identity is reused before destruction"
+    },
+    {
+      "id": "R9AP1-P343",
+      "requirement": "No destroyed resource receives later event"
+    },
+    {
+      "id": "R9AP1-P344",
+      "requirement": "Garbage collection is not used as proof of GPU resource release"
+    },
+    {
+      "id": "R9AP1-P345",
+      "requirement": "Residency raw samples are retained"
+    },
+    {
+      "id": "R9AP1-P346",
+      "requirement": "Residency slope recomputation matches receipt"
+    },
+    {
+      "id": "R9AP1-P347",
+      "requirement": "Plateau threshold is fixed before run"
+    },
+    {
+      "id": "R9AP1-P348",
+      "requirement": "Residency run uses normal validation mode mix"
+    },
+    {
+      "id": "R9AP1-P349",
+      "requirement": "Residency run uses Preview and Export batches"
+    },
+    {
+      "id": "R9AP1-P350",
+      "requirement": "Residency run includes R4 and R6"
+    },
+    {
+      "id": "R9AP1-P351",
+      "requirement": "Residency run includes one-stage and multi-stage"
+    },
+    {
+      "id": "R9AP1-P352",
+      "requirement": "Residency run package bytes remain stable"
+    },
+    {
+      "id": "R9AP1-P353",
+      "requirement": "Residency run adapter remains stable"
+    },
+    {
+      "id": "R9AP1-P354",
+      "requirement": "Residency child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P355",
+      "requirement": "Final mapped buffer count is zero"
+    },
+    {
+      "id": "R9AP1-P356",
+      "requirement": "Final Surface Registry extra pin count is zero"
+    },
+    {
+      "id": "R9AP1-P357",
+      "requirement": "Final resource ledger open count is zero"
+    },
+    {
+      "id": "R9AP1-P358",
+      "requirement": "Renderer memory anomaly invalidates run"
+    },
+    {
+      "id": "R9AP1-P359",
+      "requirement": "GPU process memory anomaly invalidates run"
+    },
+    {
+      "id": "R9AP1-P360",
+      "requirement": "All residency thresholds pass"
+    },
+    {
+      "id": "R9AP1-P361",
+      "requirement": "Controlled device loss cycle one is initiated through GPU Authority"
+    },
+    {
+      "id": "R9AP1-P362",
+      "requirement": "Controlled device loss cycle one increments device epoch"
+    },
+    {
+      "id": "R9AP1-P363",
+      "requirement": "Controlled device loss cycle one rejects pending ticket"
+    },
+    {
+      "id": "R9AP1-P364",
+      "requirement": "Controlled device loss cycle one invalidates uniform ring"
+    },
+    {
+      "id": "R9AP1-P365",
+      "requirement": "Controlled device loss cycle one disposes pipeline cache"
+    },
+    {
+      "id": "R9AP1-P366",
+      "requirement": "Controlled device loss cycle one reacquires hardware D3D12 device"
+    },
+    {
+      "id": "R9AP1-P367",
+      "requirement": "Controlled device loss cycle one first job is sampled"
+    },
+    {
+      "id": "R9AP1-P368",
+      "requirement": "Controlled device loss cycle one parity passes"
+    },
+    {
+      "id": "R9AP1-P369",
+      "requirement": "Controlled device loss cycle one counters are zero"
+    },
+    {
+      "id": "R9AP1-P370",
+      "requirement": "Controlled device loss cycle one residency returns to plateau"
+    },
+    {
+      "id": "R9AP1-P371",
+      "requirement": "Controlled device loss cycle two is initiated through GPU Authority"
+    },
+    {
+      "id": "R9AP1-P372",
+      "requirement": "Controlled device loss cycle two increments device epoch"
+    },
+    {
+      "id": "R9AP1-P373",
+      "requirement": "Controlled device loss cycle two rejects pending ticket"
+    },
+    {
+      "id": "R9AP1-P374",
+      "requirement": "Controlled device loss cycle two invalidates uniform ring"
+    },
+    {
+      "id": "R9AP1-P375",
+      "requirement": "Controlled device loss cycle two disposes pipeline cache"
+    },
+    {
+      "id": "R9AP1-P376",
+      "requirement": "Controlled device loss cycle two reacquires hardware D3D12 device"
+    },
+    {
+      "id": "R9AP1-P377",
+      "requirement": "Controlled device loss cycle two first job is sampled"
+    },
+    {
+      "id": "R9AP1-P378",
+      "requirement": "Controlled device loss cycle two parity passes"
+    },
+    {
+      "id": "R9AP1-P379",
+      "requirement": "Controlled device loss cycle two counters are zero"
+    },
+    {
+      "id": "R9AP1-P380",
+      "requirement": "Controlled device loss cycle two residency returns to plateau"
+    },
+    {
+      "id": "R9AP1-P381",
+      "requirement": "Controlled device loss cycle three is initiated through GPU Authority"
+    },
+    {
+      "id": "R9AP1-P382",
+      "requirement": "Controlled device loss cycle three increments device epoch"
+    },
+    {
+      "id": "R9AP1-P383",
+      "requirement": "Controlled device loss cycle three rejects pending ticket"
+    },
+    {
+      "id": "R9AP1-P384",
+      "requirement": "Controlled device loss cycle three invalidates uniform ring"
+    },
+    {
+      "id": "R9AP1-P385",
+      "requirement": "Controlled device loss cycle three disposes pipeline cache"
+    },
+    {
+      "id": "R9AP1-P386",
+      "requirement": "Controlled device loss cycle three reacquires hardware D3D12 device"
+    },
+    {
+      "id": "R9AP1-P387",
+      "requirement": "Controlled device loss cycle three first job is sampled"
+    },
+    {
+      "id": "R9AP1-P388",
+      "requirement": "Controlled device loss cycle three parity passes"
+    },
+    {
+      "id": "R9AP1-P389",
+      "requirement": "Controlled device loss cycle three counters are zero"
+    },
+    {
+      "id": "R9AP1-P390",
+      "requirement": "Controlled device loss cycle three residency returns to plateau"
+    },
+    {
+      "id": "R9AP1-P391",
+      "requirement": "Loss during pending Preview graph is covered"
+    },
+    {
+      "id": "R9AP1-P392",
+      "requirement": "Loss during pending Export graph is covered"
+    },
+    {
+      "id": "R9AP1-P393",
+      "requirement": "Old ticket promise rejects with device-loss code"
+    },
+    {
+      "id": "R9AP1-P394",
+      "requirement": "Old ticket cannot later transition COMPLETE"
+    },
+    {
+      "id": "R9AP1-P395",
+      "requirement": "Old completion callback cannot reclaim new epoch slot"
+    },
+    {
+      "id": "R9AP1-P396",
+      "requirement": "Old texture cannot enter new Surface Registry publication"
+    },
+    {
+      "id": "R9AP1-P397",
+      "requirement": "Old pipeline cannot dispatch on new device"
+    },
+    {
+      "id": "R9AP1-P398",
+      "requirement": "New submission serial binds new device epoch"
+    },
+    {
+      "id": "R9AP1-P399",
+      "requirement": "Post-loss Preview product E2E passes"
+    },
+    {
+      "id": "R9AP1-P400",
+      "requirement": "Post-loss Export product E2E passes"
+    },
+    {
+      "id": "R9AP1-P401",
+      "requirement": "Device-loss raw epoch ledger is valid"
+    },
+    {
+      "id": "R9AP1-P402",
+      "requirement": "Device-loss child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P403",
+      "requirement": "Final stale completion count is zero"
+    },
+    {
+      "id": "R9AP1-P404",
+      "requirement": "Final old-epoch live resource count is zero"
+    },
+    {
+      "id": "R9AP1-P405",
+      "requirement": "Device-loss suite cleanup ledger closes"
+    },
+    {
+      "id": "R9AP1-P406",
+      "requirement": "Minimum compatibility adapter role is COMPATIBILITY_MINIMUM"
+    },
+    {
+      "id": "R9AP1-P407",
+      "requirement": "Minimum adapter is GTX 950M class or explicit approved equivalent"
+    },
+    {
+      "id": "R9AP1-P408",
+      "requirement": "Minimum adapter backend is D3D12"
+    },
+    {
+      "id": "R9AP1-P409",
+      "requirement": "Minimum adapter is not software fallback"
+    },
+    {
+      "id": "R9AP1-P410",
+      "requirement": "Minimum adapter packageContentId equals primary package"
+    },
+    {
+      "id": "R9AP1-P411",
+      "requirement": "Minimum adapter correctness fixture set passes"
+    },
+    {
+      "id": "R9AP1-P412",
+      "requirement": "Minimum adapter Preview one encoder one submit passes"
+    },
+    {
+      "id": "R9AP1-P413",
+      "requirement": "Minimum adapter Export one encoder one submit passes"
+    },
+    {
+      "id": "R9AP1-P414",
+      "requirement": "Minimum adapter validation normal counters are zero"
+    },
+    {
+      "id": "R9AP1-P415",
+      "requirement": "Minimum adapter controlled fault detection passes"
+    },
+    {
+      "id": "R9AP1-P416",
+      "requirement": "Minimum adapter uniform overwrite count is zero"
+    },
+    {
+      "id": "R9AP1-P417",
+      "requirement": "Minimum adapter submission ticket leak count is zero"
+    },
+    {
+      "id": "R9AP1-P418",
+      "requirement": "Minimum adapter mapped buffer leak count is zero"
+    },
+    {
+      "id": "R9AP1-P419",
+      "requirement": "Minimum adapter device loss recovery passes at least once"
+    },
+    {
+      "id": "R9AP1-P420",
+      "requirement": "Minimum adapter post-loss first job is sampled"
+    },
+    {
+      "id": "R9AP1-P421",
+      "requirement": "Minimum adapter post-loss parity passes"
+    },
+    {
+      "id": "R9AP1-P422",
+      "requirement": "Minimum adapter residency bounded run closes"
+    },
+    {
+      "id": "R9AP1-P423",
+      "requirement": "Minimum adapter unsupported timestamp-query is reported as UNSUPPORTED not inferred"
+    },
+    {
+      "id": "R9AP1-P424",
+      "requirement": "Minimum adapter does not contribute canonical performance thresholds when timestamp-query unsupported"
+    },
+    {
+      "id": "R9AP1-P425",
+      "requirement": "Minimum adapter feature set is recorded"
+    },
+    {
+      "id": "R9AP1-P426",
+      "requirement": "Minimum adapter limits are recorded"
+    },
+    {
+      "id": "R9AP1-P427",
+      "requirement": "Minimum adapter driver identity is recorded"
+    },
+    {
+      "id": "R9AP1-P428",
+      "requirement": "Minimum adapter no-silent-fallback is observed"
+    },
+    {
+      "id": "R9AP1-P429",
+      "requirement": "Minimum adapter child receipt is valid"
+    },
+    {
+      "id": "R9AP1-P430",
+      "requirement": "Declared minimum support is withdrawn if compatibility run fails"
+    },
+    {
+      "id": "R9AP1-P431",
+      "requirement": "All packaged environment gates pass"
+    },
+    {
+      "id": "R9AP1-P432",
+      "requirement": "All primary adapter gates pass"
+    },
+    {
+      "id": "R9AP1-P433",
+      "requirement": "All Preview product graph gates pass"
+    },
+    {
+      "id": "R9AP1-P434",
+      "requirement": "All Export product graph gates pass"
+    },
+    {
+      "id": "R9AP1-P435",
+      "requirement": "All validation fault gates pass"
+    },
+    {
+      "id": "R9AP1-P436",
+      "requirement": "All uniform ring and fence gates pass"
+    },
+    {
+      "id": "R9AP1-P437",
+      "requirement": "All timestamp performance gates pass"
+    },
+    {
+      "id": "R9AP1-P438",
+      "requirement": "All residency gates pass"
+    },
+    {
+      "id": "R9AP1-P439",
+      "requirement": "All device loss gates pass"
+    },
+    {
+      "id": "R9AP1-P440",
+      "requirement": "All minimum adapter gates pass"
+    },
+    {
+      "id": "R9AP1-P441",
+      "requirement": "All child receipts are present"
+    },
+    {
+      "id": "R9AP1-P442",
+      "requirement": "All child receipt self-hashes are valid"
+    },
+    {
+      "id": "R9AP1-P443",
+      "requirement": "All child receipts bind one run challenge"
+    },
+    {
+      "id": "R9AP1-P444",
+      "requirement": "All child receipts bind one packageContentId"
+    },
+    {
+      "id": "R9AP1-P445",
+      "requirement": "All primary child receipts bind one adapter identity"
+    },
+    {
+      "id": "R9AP1-P446",
+      "requirement": "No source mock receipt is admitted"
+    },
+    {
+      "id": "R9AP1-P447",
+      "requirement": "No summary-only child receipt is admitted"
+    },
+    {
+      "id": "R9AP1-P448",
+      "requirement": "Finalizer recomputes encoder count"
+    },
+    {
+      "id": "R9AP1-P449",
+      "requirement": "Finalizer recomputes submit count"
+    },
+    {
+      "id": "R9AP1-P450",
+      "requirement": "Finalizer recomputes fence count"
+    },
+    {
+      "id": "R9AP1-P451",
+      "requirement": "Finalizer recomputes map count"
+    },
+    {
+      "id": "R9AP1-P452",
+      "requirement": "Finalizer recomputes validation counters"
+    },
+    {
+      "id": "R9AP1-P453",
+      "requirement": "Finalizer recomputes controlled fault outcomes"
+    },
+    {
+      "id": "R9AP1-P454",
+      "requirement": "Finalizer recomputes uniform state transitions"
+    },
+    {
+      "id": "R9AP1-P455",
+      "requirement": "Finalizer recomputes ticket settlements"
+    },
+    {
+      "id": "R9AP1-P456",
+      "requirement": "Finalizer recomputes performance medians"
+    },
+    {
+      "id": "R9AP1-P457",
+      "requirement": "Finalizer recomputes performance p95"
+    },
+    {
+      "id": "R9AP1-P458",
+      "requirement": "Physical finalizer recomputes every residency slope from raw samples"
+    },
+    {
+      "id": "R9AP1-P459",
+      "requirement": "Finalizer recomputes device epoch sequence"
+    },
+    {
+      "id": "R9AP1-P460",
+      "requirement": "Finalizer verifies Preview product entry path"
+    },
+    {
+      "id": "R9AP1-P461",
+      "requirement": "Finalizer verifies Export product entry path"
+    },
+    {
+      "id": "R9AP1-P462",
+      "requirement": "Finalizer verifies Build Lock R2 lineage"
+    },
+    {
+      "id": "R9AP1-P463",
+      "requirement": "Finalizer verifies package byte immutability"
+    },
+    {
+      "id": "R9AP1-P464",
+      "requirement": "Finalizer verifies pointer immutability"
+    },
+    {
+      "id": "R9AP1-P465",
+      "requirement": "Finalizer verifies zero historical pass carry-forward"
+    },
+    {
+      "id": "R9AP1-P466",
+      "requirement": "Physical final receipt state is exact"
+    },
+    {
+      "id": "R9AP1-P467",
+      "requirement": "Physical final receipt counts are 360 source and 480 physical"
+    },
+    {
+      "id": "R9AP1-P468",
+      "requirement": "Physical final receipt pending count is zero"
+    },
+    {
+      "id": "R9AP1-P469",
+      "requirement": "Physical final receipt deferred count is zero"
+    },
+    {
+      "id": "R9AP1-P470",
+      "requirement": "Physical final receipt skipped count is zero"
+    },
+    {
+      "id": "R9AP1-P471",
+      "requirement": "Physical final receipt fail count is zero"
+    },
+    {
+      "id": "R9AP1-P472",
+      "requirement": "Physical final receipt self-hash is valid"
+    },
+    {
+      "id": "R9AP1-P473",
+      "requirement": "Physical verifier replays all raw evidence"
+    },
+    {
+      "id": "R9AP1-P474",
+      "requirement": "R10A replay-required receipt is emitted"
+    },
+    {
+      "id": "R9AP1-P475",
+      "requirement": "R11A through R14A remain replay-required"
+    },
+    {
+      "id": "R9AP1-P476",
+      "requirement": "No Production Pointer mutation occurs"
+    },
+    {
+      "id": "R9AP1-P477",
+      "requirement": "No Local Activation Pointer mutation occurs"
+    },
+    {
+      "id": "R9AP1-P478",
+      "requirement": "Final open resource count is zero"
+    },
+    {
+      "id": "R9AP1-P479",
+      "requirement": "Final open ticket count is zero"
+    },
+    {
+      "id": "R9AP1-P480",
+      "requirement": "R9A P1 final state awaits R10A replay"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "39eea864765959c3431b0a607c9d0837d00a08f5b560b2755f5b2c6fc23f767e",
+  "sourceMandatory": [
+    {
+      "id": "R9AP1-S001",
+      "requirement": "Parent bundle SHA-256 equals 4b9414a4edc5aed983879eec21cd003833e917ece83b452d658a5727ef677eb7"
+    },
+    {
+      "id": "R9AP1-S002",
+      "requirement": "Build Lock R2 specification SHA-256 equals c7fcc062defe7b03ddef4d00bf8c21a29d3e482e8651324067071c5e458c63c8"
+    },
+    {
+      "id": "R9AP1-S003",
+      "requirement": "Build Lock R2 source receipt SHA-256 equals cdc6476a0ae6fda4b8dd1f4744d7d9122442a1125038f8014dc72323089c99ed"
+    },
+    {
+      "id": "R9AP1-S004",
+      "requirement": "Build Lock R2 source state is exact and not promoted"
+    },
+    {
+      "id": "R9AP1-S005",
+      "requirement": "Build Lock R2 Win32 final receipt is required only by physical execution"
+    },
+    {
+      "id": "R9AP1-S006",
+      "requirement": "Current package-lock remains unpromoted during P1 source bake"
+    },
+    {
+      "id": "R9AP1-S007",
+      "requirement": "Original R9A specification SHA-256 equals a6bcd275e8d5df1f1a813c7b7f2ed96c851378fc1971eee430c96a5eb7a06b2d"
+    },
+    {
+      "id": "R9AP1-S008",
+      "requirement": "Original R9A source receipt SHA-256 equals a70e3b088b3fc09f3f8e039fc7965c65f1d241c9a3300a35cc11389bbbeb0ab8"
+    },
+    {
+      "id": "R9AP1-S009",
+      "requirement": "Original R9A 286 source gates are replay inputs and not pass carry-forward"
+    },
+    {
+      "id": "R9AP1-S010",
+      "requirement": "Original R9A 214 physical gates are superseded by P1 physical gates"
+    },
+    {
+      "id": "R9AP1-S011",
+      "requirement": "R8A mathematical and shader authority remains frozen"
+    },
+    {
+      "id": "R9AP1-S012",
+      "requirement": "R9A product command graph identity remains tdt.ewa.command-graph.r9a.v1"
+    },
+    {
+      "id": "R9AP1-S013",
+      "requirement": "R9A runtime identity remains tdt.ewa.single-submit-runtime.r9a.v1"
+    },
+    {
+      "id": "R9AP1-S014",
+      "requirement": "R9A validation sampling identity remains tdt.ewa.validation-sampling.r9a.v1"
+    },
+    {
+      "id": "R9AP1-S015",
+      "requirement": "R9A uniform ring identity remains tdt.ewa.uniform-ring.r9a.v1"
+    },
+    {
+      "id": "R9AP1-S016",
+      "requirement": "R9A submission fence identity remains tdt.ewa.submission-fence-registry.r9a.v1"
+    },
+    {
+      "id": "R9AP1-S017",
+      "requirement": "R10A through R14A receipts are marked replay-required"
+    },
+    {
+      "id": "R9AP1-S018",
+      "requirement": "Production Pointer is read-only to P1"
+    },
+    {
+      "id": "R9AP1-S019",
+      "requirement": "Local Activation Pointer is read-only to P1"
+    },
+    {
+      "id": "R9AP1-S020",
+      "requirement": "Historical pass carry-forward equals zero"
+    },
+    {
+      "id": "R9AP1-S021",
+      "requirement": "Parent source receipt bytes remain immutable"
+    },
+    {
+      "id": "R9AP1-S022",
+      "requirement": "Parent package-lock bytes remain immutable during source verification"
+    },
+    {
+      "id": "R9AP1-S023",
+      "requirement": "Parent pointer mirror bytes remain immutable"
+    },
+    {
+      "id": "R9AP1-S024",
+      "requirement": "P1 source verifier runs predecessor checks in isolated tree"
+    },
+    {
+      "id": "R9AP1-S025",
+      "requirement": "P1 source finalizer binds parent hashes by raw bytes"
+    },
+    {
+      "id": "R9AP1-S026",
+      "requirement": "P1 cannot consume a future Build Lock R2 receipt by filename only"
+    },
+    {
+      "id": "R9AP1-S027",
+      "requirement": "Build Lock R2 final receipt schema and child digests are mandatory in physical mode"
+    },
+    {
+      "id": "R9AP1-S028",
+      "requirement": "Build Lock R2 packageContentId must equal executing packaged bytes"
+    },
+    {
+      "id": "R9AP1-S029",
+      "requirement": "R9A P1 lineage head is explicit"
+    },
+    {
+      "id": "R9AP1-S030",
+      "requirement": "No downstream receipt is silently rewritten by source verification"
+    },
+    {
+      "id": "R9AP1-S031",
+      "requirement": "physical-runner placeholder is detected and must be replaced"
+    },
+    {
+      "id": "R9AP1-S032",
+      "requirement": "command-graph-observer is detected as unwired in parent"
+    },
+    {
+      "id": "R9AP1-S033",
+      "requirement": "performance suite summary-only admission is rejected"
+    },
+    {
+      "id": "R9AP1-S034",
+      "requirement": "residency suite summary-only admission is rejected"
+    },
+    {
+      "id": "R9AP1-S035",
+      "requirement": "validation suite summary-only admission is rejected"
+    },
+    {
+      "id": "R9AP1-S036",
+      "requirement": "physical verifier file-existence-only behavior is rejected"
+    },
+    {
+      "id": "R9AP1-S037",
+      "requirement": "absence of timestamp query recording is detected"
+    },
+    {
+      "id": "R9AP1-S038",
+      "requirement": "absence of packaged qualification orchestrator is detected"
+    },
+    {
+      "id": "R9AP1-S039",
+      "requirement": "absence of raw event ledger is detected"
+    },
+    {
+      "id": "R9AP1-S040",
+      "requirement": "absence of fixture schedule binding is detected"
+    },
+    {
+      "id": "R9AP1-S041",
+      "requirement": "absence of main-process run lock is detected"
+    },
+    {
+      "id": "R9AP1-S042",
+      "requirement": "absence of renderer qualification capability is detected"
+    },
+    {
+      "id": "R9AP1-S043",
+      "requirement": "absence of package identity binding in observations is detected"
+    },
+    {
+      "id": "R9AP1-S044",
+      "requirement": "absence of window and renderer process binding is detected"
+    },
+    {
+      "id": "R9AP1-S045",
+      "requirement": "absence of device epoch chain in observations is detected"
+    },
+    {
+      "id": "R9AP1-S046",
+      "requirement": "absence of resource create-destroy ledger is detected"
+    },
+    {
+      "id": "R9AP1-S047",
+      "requirement": "absence of query-set resolve ledger is detected"
+    },
+    {
+      "id": "R9AP1-S048",
+      "requirement": "absence of controlled fault authority is detected"
+    },
+    {
+      "id": "R9AP1-S049",
+      "requirement": "absence of old-session rejection after device loss is detected"
+    },
+    {
+      "id": "R9AP1-S050",
+      "requirement": "current rejectEpoch promise-settlement defect is covered"
+    },
+    {
+      "id": "R9AP1-S051",
+      "requirement": "stale completion transition from REJECTED to COMPLETE is covered"
+    },
+    {
+      "id": "R9AP1-S052",
+      "requirement": "uniform ring has explicit epoch invalidation requirement"
+    },
+    {
+      "id": "R9AP1-S053",
+      "requirement": "uniform ring authority disposal is externally reachable through device authority"
+    },
+    {
+      "id": "R9AP1-S054",
+      "requirement": "validation counter buffer lifetime is measurable"
+    },
+    {
+      "id": "R9AP1-S055",
+      "requirement": "baseline path cannot be selected as product path"
+    },
+    {
+      "id": "R9AP1-S056",
+      "requirement": "direct low-level harness imports cannot claim Preview E2E"
+    },
+    {
+      "id": "R9AP1-S057",
+      "requirement": "direct low-level harness imports cannot claim Export E2E"
+    },
+    {
+      "id": "R9AP1-S058",
+      "requirement": "dev server execution cannot claim physical pass"
+    },
+    {
+      "id": "R9AP1-S059",
+      "requirement": "source fixture mocks cannot claim physical pass"
+    },
+    {
+      "id": "R9AP1-S060",
+      "requirement": "software adapter cannot claim hardware pass"
+    },
+    {
+      "id": "R9AP1-S061",
+      "requirement": "Main process owns qualification run lock"
+    },
+    {
+      "id": "R9AP1-S062",
+      "requirement": "Main process issues 192-bit run challenge"
+    },
+    {
+      "id": "R9AP1-S063",
+      "requirement": "Main process binds challenge to packageContentId"
+    },
+    {
+      "id": "R9AP1-S064",
+      "requirement": "Main process binds challenge to Build Lock R2 receipt"
+    },
+    {
+      "id": "R9AP1-S065",
+      "requirement": "Main process binds challenge to BrowserWindow id"
+    },
+    {
+      "id": "R9AP1-S066",
+      "requirement": "Main process binds challenge to webContents id"
+    },
+    {
+      "id": "R9AP1-S067",
+      "requirement": "Main process binds challenge to renderer OS process id"
+    },
+    {
+      "id": "R9AP1-S068",
+      "requirement": "Main process binds challenge to fixture schedule digest"
+    },
+    {
+      "id": "R9AP1-S069",
+      "requirement": "Main process binds challenge to requested adapter role"
+    },
+    {
+      "id": "R9AP1-S070",
+      "requirement": "Main process binds challenge to expiration"
+    },
+    {
+      "id": "R9AP1-S071",
+      "requirement": "Qualification BrowserWindow is hidden"
+    },
+    {
+      "id": "R9AP1-S072",
+      "requirement": "Qualification BrowserWindow has isolated session partition"
+    },
+    {
+      "id": "R9AP1-S073",
+      "requirement": "Qualification BrowserWindow has no user document access"
+    },
+    {
+      "id": "R9AP1-S074",
+      "requirement": "Qualification BrowserWindow has no arbitrary navigation"
+    },
+    {
+      "id": "R9AP1-S075",
+      "requirement": "Qualification BrowserWindow has no devtools in canonical run"
+    },
+    {
+      "id": "R9AP1-S076",
+      "requirement": "Qualification BrowserWindow has network disabled"
+    },
+    {
+      "id": "R9AP1-S077",
+      "requirement": "Qualification BrowserWindow loads packaged file URL only"
+    },
+    {
+      "id": "R9AP1-S078",
+      "requirement": "Preload exposes narrow qualification capability"
+    },
+    {
+      "id": "R9AP1-S079",
+      "requirement": "Preload does not expose filesystem paths"
+    },
+    {
+      "id": "R9AP1-S080",
+      "requirement": "Preload does not expose pointer writers"
+    },
+    {
+      "id": "R9AP1-S081",
+      "requirement": "Preload validates sender identity"
+    },
+    {
+      "id": "R9AP1-S082",
+      "requirement": "Preload validates challenge nonce"
+    },
+    {
+      "id": "R9AP1-S083",
+      "requirement": "Renderer cannot choose fixture order"
+    },
+    {
+      "id": "R9AP1-S084",
+      "requirement": "Renderer cannot choose expected thresholds"
+    },
+    {
+      "id": "R9AP1-S085",
+      "requirement": "Renderer cannot choose package identity"
+    },
+    {
+      "id": "R9AP1-S086",
+      "requirement": "Renderer cannot choose adapter role"
+    },
+    {
+      "id": "R9AP1-S087",
+      "requirement": "Renderer cannot finalize physical receipt"
+    },
+    {
+      "id": "R9AP1-S088",
+      "requirement": "Main process owns interruption marker"
+    },
+    {
+      "id": "R9AP1-S089",
+      "requirement": "Main process owns run state transitions"
+    },
+    {
+      "id": "R9AP1-S090",
+      "requirement": "Main process owns final artifact publication"
+    },
+    {
+      "id": "R9AP1-S091",
+      "requirement": "Run states are CREATED PRECHECK RUNNING DRAINING FINALIZING COMMITTED FAILED INTERRUPTED"
+    },
+    {
+      "id": "R9AP1-S092",
+      "requirement": "State transitions are monotonic"
+    },
+    {
+      "id": "R9AP1-S093",
+      "requirement": "Run state journal is append-only"
+    },
+    {
+      "id": "R9AP1-S094",
+      "requirement": "Run artifact writes are atomic"
+    },
+    {
+      "id": "R9AP1-S095",
+      "requirement": "Run directory is unique per challenge"
+    },
+    {
+      "id": "R9AP1-S096",
+      "requirement": "Concurrent qualification runs are rejected"
+    },
+    {
+      "id": "R9AP1-S097",
+      "requirement": "Abandoned run is recoverable as INTERRUPTED"
+    },
+    {
+      "id": "R9AP1-S098",
+      "requirement": "Normal application workspace is not shown during qualification"
+    },
+    {
+      "id": "R9AP1-S099",
+      "requirement": "Qualification mode cannot issue R11A normal installed session"
+    },
+    {
+      "id": "R9AP1-S100",
+      "requirement": "Qualification evidence contains no user content"
+    },
+    {
+      "id": "R9AP1-S101",
+      "requirement": "GPU Device Authority owns low-level observation hooks"
+    },
+    {
+      "id": "R9AP1-S102",
+      "requirement": "R9A command graph owns semantic observation hooks"
+    },
+    {
+      "id": "R9AP1-S103",
+      "requirement": "Low-level and semantic ledgers share run id"
+    },
+    {
+      "id": "R9AP1-S104",
+      "requirement": "Low-level and semantic ledgers share job id"
+    },
+    {
+      "id": "R9AP1-S105",
+      "requirement": "Low-level and semantic ledgers share device epoch"
+    },
+    {
+      "id": "R9AP1-S106",
+      "requirement": "Low-level observer records createCommandEncoder"
+    },
+    {
+      "id": "R9AP1-S107",
+      "requirement": "Low-level observer records encoder finish"
+    },
+    {
+      "id": "R9AP1-S108",
+      "requirement": "Low-level observer records queue submit"
+    },
+    {
+      "id": "R9AP1-S109",
+      "requirement": "Low-level observer records onSubmittedWorkDone"
+    },
+    {
+      "id": "R9AP1-S110",
+      "requirement": "Low-level observer records buffer mapAsync"
+    },
+    {
+      "id": "R9AP1-S111",
+      "requirement": "Low-level observer records buffer unmap"
+    },
+    {
+      "id": "R9AP1-S112",
+      "requirement": "Low-level observer records buffer create and destroy"
+    },
+    {
+      "id": "R9AP1-S113",
+      "requirement": "Low-level observer records texture create and destroy"
+    },
+    {
+      "id": "R9AP1-S114",
+      "requirement": "Low-level observer records query set create and destroy"
+    },
+    {
+      "id": "R9AP1-S115",
+      "requirement": "Low-level observer records query resolve copy"
+    },
+    {
+      "id": "R9AP1-S116",
+      "requirement": "Low-level observer records device lost"
+    },
+    {
+      "id": "R9AP1-S117",
+      "requirement": "Semantic observer records source prepare pass"
+    },
+    {
+      "id": "R9AP1-S118",
+      "requirement": "Semantic observer records tensor passes"
+    },
+    {
+      "id": "R9AP1-S119",
+      "requirement": "Semantic observer records adaptive policy pass"
+    },
+    {
+      "id": "R9AP1-S120",
+      "requirement": "Semantic observer records every EWA stage pass"
+    },
+    {
+      "id": "R9AP1-S121",
+      "requirement": "Semantic observer records residual pass"
+    },
+    {
+      "id": "R9AP1-S122",
+      "requirement": "Semantic observer records finalization pass"
+    },
+    {
+      "id": "R9AP1-S123",
+      "requirement": "Semantic observer records validation counter clear"
+    },
+    {
+      "id": "R9AP1-S124",
+      "requirement": "Semantic observer records validation counter copy"
+    },
+    {
+      "id": "R9AP1-S125",
+      "requirement": "Semantic observer records terminal readback copy"
+    },
+    {
+      "id": "R9AP1-S126",
+      "requirement": "Each event has monotonic sequence"
+    },
+    {
+      "id": "R9AP1-S127",
+      "requirement": "Each event has monotonic timestamp"
+    },
+    {
+      "id": "R9AP1-S128",
+      "requirement": "Each event binds encoder identity"
+    },
+    {
+      "id": "R9AP1-S129",
+      "requirement": "Each event binds submission serial when applicable"
+    },
+    {
+      "id": "R9AP1-S130",
+      "requirement": "Each event binds resource identity when applicable"
+    },
+    {
+      "id": "R9AP1-S131",
+      "requirement": "Each event binds stage index and stage count when applicable"
+    },
+    {
+      "id": "R9AP1-S132",
+      "requirement": "Event ledger uses canonical JSON"
+    },
+    {
+      "id": "R9AP1-S133",
+      "requirement": "Event ledger forms a hash chain"
+    },
+    {
+      "id": "R9AP1-S134",
+      "requirement": "Event ledger rejects duplicate sequence"
+    },
+    {
+      "id": "R9AP1-S135",
+      "requirement": "Event ledger rejects sequence gap"
+    },
+    {
+      "id": "R9AP1-S136",
+      "requirement": "Event ledger rejects unknown event kind"
+    },
+    {
+      "id": "R9AP1-S137",
+      "requirement": "Observer cannot mutate WebGPU arguments"
+    },
+    {
+      "id": "R9AP1-S138",
+      "requirement": "Observer cannot add queue submissions"
+    },
+    {
+      "id": "R9AP1-S139",
+      "requirement": "Observer cannot add CPU fences"
+    },
+    {
+      "id": "R9AP1-S140",
+      "requirement": "Observer is disabled outside qualification mode"
+    },
+    {
+      "id": "R9AP1-S141",
+      "requirement": "Observer overhead is measured separately"
+    },
+    {
+      "id": "R9AP1-S142",
+      "requirement": "Observer raw ledger is retained for finalizer replay"
+    },
+    {
+      "id": "R9AP1-S143",
+      "requirement": "Command graph receipt is derived from events"
+    },
+    {
+      "id": "R9AP1-S144",
+      "requirement": "No summary-only command graph receipt is accepted"
+    },
+    {
+      "id": "R9AP1-S145",
+      "requirement": "Hidden submits outside R9A graph are attributed to caller and fail the job"
+    },
+    {
+      "id": "R9AP1-S146",
+      "requirement": "Preview qualification enters through product runtime surface"
+    },
+    {
+      "id": "R9AP1-S147",
+      "requirement": "Preview qualification reaches runDeltaKStack active caller"
+    },
+    {
+      "id": "R9AP1-S148",
+      "requirement": "Preview qualification reaches executeCanonicalEwaLowpassR9A"
+    },
+    {
+      "id": "R9AP1-S149",
+      "requirement": "Preview qualification uses GPU Device Authority lease"
+    },
+    {
+      "id": "R9AP1-S150",
+      "requirement": "Preview qualification publishes through Surface Registry"
+    },
+    {
+      "id": "R9AP1-S151",
+      "requirement": "Preview harness cannot import createEwaCommandGraphR9A directly"
+    },
+    {
+      "id": "R9AP1-S152",
+      "requirement": "Preview harness cannot import shader modules directly"
+    },
+    {
+      "id": "R9AP1-S153",
+      "requirement": "Preview fixture injection is qualification-only"
+    },
+    {
+      "id": "R9AP1-S154",
+      "requirement": "Preview fixture bytes are canonical generated fixtures"
+    },
+    {
+      "id": "R9AP1-S155",
+      "requirement": "Preview output receipt binds final surface identity"
+    },
+    {
+      "id": "R9AP1-S156",
+      "requirement": "Export qualification enters through DadumRuntimeExport or ExportAuthorityService"
+    },
+    {
+      "id": "R9AP1-S157",
+      "requirement": "Export qualification reaches downscaleRGBAWithWGSL through product binding"
+    },
+    {
+      "id": "R9AP1-S158",
+      "requirement": "Export qualification reaches executeCanonicalEwaLowpassR9A"
+    },
+    {
+      "id": "R9AP1-S159",
+      "requirement": "Export qualification uses normal encoder selection"
+    },
+    {
+      "id": "R9AP1-S160",
+      "requirement": "Export qualification uses normal save admission in discard-only test target"
+    },
+    {
+      "id": "R9AP1-S161",
+      "requirement": "Export harness cannot call executeDownscale private function"
+    },
+    {
+      "id": "R9AP1-S162",
+      "requirement": "Export harness cannot import createEwaCommandGraphR9A directly"
+    },
+    {
+      "id": "R9AP1-S163",
+      "requirement": "Export output receipt binds format encoder identity"
+    },
+    {
+      "id": "R9AP1-S164",
+      "requirement": "Preview and Export use same lowpass identity"
+    },
+    {
+      "id": "R9AP1-S165",
+      "requirement": "Preview and Export use same kernel digest"
+    },
+    {
+      "id": "R9AP1-S166",
+      "requirement": "Preview and Export use same planner digest"
+    },
+    {
+      "id": "R9AP1-S167",
+      "requirement": "Preview and Export use same package bytes"
+    },
+    {
+      "id": "R9AP1-S168",
+      "requirement": "Preview and Export fixture request digests are recorded"
+    },
+    {
+      "id": "R9AP1-S169",
+      "requirement": "Preview and Export completion semantics remain product semantics"
+    },
+    {
+      "id": "R9AP1-S170",
+      "requirement": "Qualification cannot enable CPU fallback"
+    },
+    {
+      "id": "R9AP1-S171",
+      "requirement": "Qualification cannot enable WebGL fallback"
+    },
+    {
+      "id": "R9AP1-S172",
+      "requirement": "Qualification cannot skip admission guards"
+    },
+    {
+      "id": "R9AP1-S173",
+      "requirement": "Qualification cannot bypass Surface Registry"
+    },
+    {
+      "id": "R9AP1-S174",
+      "requirement": "Qualification cannot bypass Export Authority"
+    },
+    {
+      "id": "R9AP1-S175",
+      "requirement": "Qualification cannot write final user files"
+    },
+    {
+      "id": "R9AP1-S176",
+      "requirement": "One canonical job creates exactly one command encoder"
+    },
+    {
+      "id": "R9AP1-S177",
+      "requirement": "One canonical job finishes exactly one command buffer"
+    },
+    {
+      "id": "R9AP1-S178",
+      "requirement": "One canonical job calls queue.submit exactly once"
+    },
+    {
+      "id": "R9AP1-S179",
+      "requirement": "Source prepare emits no independent submit"
+    },
+    {
+      "id": "R9AP1-S180",
+      "requirement": "Tensor emits no independent submit"
+    },
+    {
+      "id": "R9AP1-S181",
+      "requirement": "Adaptive policy emits no independent submit"
+    },
+    {
+      "id": "R9AP1-S182",
+      "requirement": "EWA stage loop emits no independent submit"
+    },
+    {
+      "id": "R9AP1-S183",
+      "requirement": "Residual emits no independent submit"
+    },
+    {
+      "id": "R9AP1-S184",
+      "requirement": "Finalization emits no independent submit"
+    },
+    {
+      "id": "R9AP1-S185",
+      "requirement": "Validation counter copy is in the same encoder"
+    },
+    {
+      "id": "R9AP1-S186",
+      "requirement": "Timestamp resolve is in the same encoder"
+    },
+    {
+      "id": "R9AP1-S187",
+      "requirement": "Export terminal copy is in the same encoder"
+    },
+    {
+      "id": "R9AP1-S188",
+      "requirement": "Preview uses zero map operations"
+    },
+    {
+      "id": "R9AP1-S189",
+      "requirement": "Export uses exactly one terminal map operation"
+    },
+    {
+      "id": "R9AP1-S190",
+      "requirement": "Preview uses zero onSubmittedWorkDone calls"
+    },
+    {
+      "id": "R9AP1-S191",
+      "requirement": "Export uses zero pre-map onSubmittedWorkDone calls"
+    },
+    {
+      "id": "R9AP1-S192",
+      "requirement": "Queue observer completion is counted separately from product CPU fence"
+    },
+    {
+      "id": "R9AP1-S193",
+      "requirement": "Command pass order is deterministic"
+    },
+    {
+      "id": "R9AP1-S194",
+      "requirement": "Pass count equals semantic plan"
+    },
+    {
+      "id": "R9AP1-S195",
+      "requirement": "Stage count equals planner receipt"
+    },
+    {
+      "id": "R9AP1-S196",
+      "requirement": "Command buffer labels bind job id"
+    },
+    {
+      "id": "R9AP1-S197",
+      "requirement": "Encoder labels bind run id"
+    },
+    {
+      "id": "R9AP1-S198",
+      "requirement": "Submission serial is monotonic"
+    },
+    {
+      "id": "R9AP1-S199",
+      "requirement": "Completion ticket is one per submit"
+    },
+    {
+      "id": "R9AP1-S200",
+      "requirement": "Completion ticket settles exactly once"
+    },
+    {
+      "id": "R9AP1-S201",
+      "requirement": "Recording failure before submit produces zero submits"
+    },
+    {
+      "id": "R9AP1-S202",
+      "requirement": "Double submit is rejected"
+    },
+    {
+      "id": "R9AP1-S203",
+      "requirement": "Record after submit is rejected"
+    },
+    {
+      "id": "R9AP1-S204",
+      "requirement": "Foreign encoder context is rejected"
+    },
+    {
+      "id": "R9AP1-S205",
+      "requirement": "Compatibility wrapper hidden submit is rejected"
+    },
+    {
+      "id": "R9AP1-S206",
+      "requirement": "Unknown queue submit during job is rejected"
+    },
+    {
+      "id": "R9AP1-S207",
+      "requirement": "Graph event digest is included in product receipt"
+    },
+    {
+      "id": "R9AP1-S208",
+      "requirement": "Graph event digest is included in physical child receipt"
+    },
+    {
+      "id": "R9AP1-S209",
+      "requirement": "Graph observation is bound to device epoch"
+    },
+    {
+      "id": "R9AP1-S210",
+      "requirement": "Graph observation is bound to packageContentId"
+    },
+    {
+      "id": "R9AP1-S211",
+      "requirement": "Validation sampling first job rule remains deterministic"
+    },
+    {
+      "id": "R9AP1-S212",
+      "requirement": "Validation periodic interval remains deterministic"
+    },
+    {
+      "id": "R9AP1-S213",
+      "requirement": "Post-loss first job is mandatory sample"
+    },
+    {
+      "id": "R9AP1-S214",
+      "requirement": "Post-pipeline-rebuild first job is mandatory sample"
+    },
+    {
+      "id": "R9AP1-S215",
+      "requirement": "Explicit strict Export is mandatory sample"
+    },
+    {
+      "id": "R9AP1-S216",
+      "requirement": "Validation decision is independent of user pixels"
+    },
+    {
+      "id": "R9AP1-S217",
+      "requirement": "Validation decision is independent of randomness"
+    },
+    {
+      "id": "R9AP1-S218",
+      "requirement": "Validation decision is independent of wall clock"
+    },
+    {
+      "id": "R9AP1-S219",
+      "requirement": "Validation variant dispatch replaces product variant and does not duplicate it"
+    },
+    {
+      "id": "R9AP1-S220",
+      "requirement": "Validation output path equals product output path"
+    },
+    {
+      "id": "R9AP1-S221",
+      "requirement": "Counter buffer contains exactly 32 u32 words"
+    },
+    {
+      "id": "R9AP1-S222",
+      "requirement": "Counter buffer clear precedes sampled dispatch"
+    },
+    {
+      "id": "R9AP1-S223",
+      "requirement": "Counter copy follows all sampled dispatches"
+    },
+    {
+      "id": "R9AP1-S224",
+      "requirement": "Counter readback happens after submit"
+    },
+    {
+      "id": "R9AP1-S225",
+      "requirement": "Counter readback cannot infer zero from missing buffer"
+    },
+    {
+      "id": "R9AP1-S226",
+      "requirement": "Controlled fault mode is main-challenge gated"
+    },
+    {
+      "id": "R9AP1-S227",
+      "requirement": "Controlled fault mode is unavailable in normal runtime"
+    },
+    {
+      "id": "R9AP1-S228",
+      "requirement": "Controlled radius fault has dedicated counter"
+    },
+    {
+      "id": "R9AP1-S229",
+      "requirement": "Controlled zero-weight fault has dedicated counter"
+    },
+    {
+      "id": "R9AP1-S230",
+      "requirement": "Controlled nonfinite-weight fault has dedicated counter"
+    },
+    {
+      "id": "R9AP1-S231",
+      "requirement": "Controlled nonfinite-accumulation fault has dedicated counter"
+    },
+    {
+      "id": "R9AP1-S232",
+      "requirement": "Only expected counter increments for each controlled fault"
+    },
+    {
+      "id": "R9AP1-S233",
+      "requirement": "Reserved counters remain zero"
+    },
+    {
+      "id": "R9AP1-S234",
+      "requirement": "Fault fixture output cannot be published"
+    },
+    {
+      "id": "R9AP1-S235",
+      "requirement": "Fault fixture output cannot be saved"
+    },
+    {
+      "id": "R9AP1-S236",
+      "requirement": "Fault injection parameters are not user options"
+    },
+    {
+      "id": "R9AP1-S237",
+      "requirement": "Fault shader digest is recorded"
+    },
+    {
+      "id": "R9AP1-S238",
+      "requirement": "Normal validation shader digest is recorded"
+    },
+    {
+      "id": "R9AP1-S239",
+      "requirement": "Product shader digest is recorded"
+    },
+    {
+      "id": "R9AP1-S240",
+      "requirement": "Fault run is isolated from performance run"
+    },
+    {
+      "id": "R9AP1-S241",
+      "requirement": "Fault run is isolated from residency run"
+    },
+    {
+      "id": "R9AP1-S242",
+      "requirement": "Fault counter evidence uses raw readback bytes"
+    },
+    {
+      "id": "R9AP1-S243",
+      "requirement": "Finalizer recomputes counters from raw bytes"
+    },
+    {
+      "id": "R9AP1-S244",
+      "requirement": "Nonzero normal counter fails immediately"
+    },
+    {
+      "id": "R9AP1-S245",
+      "requirement": "Missing controlled fault increment fails immediately"
+    },
+    {
+      "id": "R9AP1-S246",
+      "requirement": "Uniform ring slot has explicit device epoch"
+    },
+    {
+      "id": "R9AP1-S247",
+      "requirement": "Uniform ring slot has explicit runtime epoch"
+    },
+    {
+      "id": "R9AP1-S248",
+      "requirement": "Uniform ring slot has job id and pass id"
+    },
+    {
+      "id": "R9AP1-S249",
+      "requirement": "Uniform ring slot transitions FREE to RECORDED to IN_FLIGHT to FREE"
+    },
+    {
+      "id": "R9AP1-S250",
+      "requirement": "Uniform ring cannot overwrite IN_FLIGHT slot"
+    },
+    {
+      "id": "R9AP1-S251",
+      "requirement": "Uniform ring exhaustion is stable error"
+    },
+    {
+      "id": "R9AP1-S252",
+      "requirement": "Uniform payload alignment is checked"
+    },
+    {
+      "id": "R9AP1-S253",
+      "requirement": "Uniform payload bounds are checked"
+    },
+    {
+      "id": "R9AP1-S254",
+      "requirement": "Uniform buffer creation count is bounded per device epoch"
+    },
+    {
+      "id": "R9AP1-S255",
+      "requirement": "Uniform slots reclaim only after ticket completion"
+    },
+    {
+      "id": "R9AP1-S256",
+      "requirement": "Device loss invalidates all old-epoch slots"
+    },
+    {
+      "id": "R9AP1-S257",
+      "requirement": "Device loss destroys old ring buffer"
+    },
+    {
+      "id": "R9AP1-S258",
+      "requirement": "New device epoch creates new ring authority"
+    },
+    {
+      "id": "R9AP1-S259",
+      "requirement": "Old allocation cannot bind to new device"
+    },
+    {
+      "id": "R9AP1-S260",
+      "requirement": "Fence registry owns explicit deferred completion"
+    },
+    {
+      "id": "R9AP1-S261",
+      "requirement": "rejectEpoch rejects pending completion promise"
+    },
+    {
+      "id": "R9AP1-S262",
+      "requirement": "rejectEpoch prevents later COMPLETE transition"
+    },
+    {
+      "id": "R9AP1-S263",
+      "requirement": "Completion callback checks epoch and ticket state"
+    },
+    {
+      "id": "R9AP1-S264",
+      "requirement": "Ticket retirement is idempotent"
+    },
+    {
+      "id": "R9AP1-S265",
+      "requirement": "Ticket ledger records LOST distinctly from FAILED"
+    },
+    {
+      "id": "R9AP1-S266",
+      "requirement": "External terminal map completion must be bound exactly once"
+    },
+    {
+      "id": "R9AP1-S267",
+      "requirement": "Unbound external completion is finalization failure"
+    },
+    {
+      "id": "R9AP1-S268",
+      "requirement": "Stale completion cannot reclaim new epoch slot"
+    },
+    {
+      "id": "R9AP1-S269",
+      "requirement": "Fence registry dispose rejects pending tickets"
+    },
+    {
+      "id": "R9AP1-S270",
+      "requirement": "Physical runner can snapshot exact live ticket count"
+    },
+    {
+      "id": "R9AP1-S271",
+      "requirement": "Physical runner can snapshot exact slot state counts"
+    },
+    {
+      "id": "R9AP1-S272",
+      "requirement": "Uniform and ticket ledgers are included in raw evidence"
+    },
+    {
+      "id": "R9AP1-S273",
+      "requirement": "No synthetic zero leak counts are accepted"
+    },
+    {
+      "id": "R9AP1-S274",
+      "requirement": "No finalizer summary trust is allowed"
+    },
+    {
+      "id": "R9AP1-S275",
+      "requirement": "Cleanup after interrupted run is explicit"
+    },
+    {
+      "id": "R9AP1-S276",
+      "requirement": "Primary adapter requires timestamp-query feature"
+    },
+    {
+      "id": "R9AP1-S277",
+      "requirement": "Query set is created once per bounded batch"
+    },
+    {
+      "id": "R9AP1-S278",
+      "requirement": "Each logical phase has beginning and end query indices"
+    },
+    {
+      "id": "R9AP1-S279",
+      "requirement": "Graph total has beginning and end query indices"
+    },
+    {
+      "id": "R9AP1-S280",
+      "requirement": "Query resolve is recorded in canonical encoder"
+    },
+    {
+      "id": "R9AP1-S281",
+      "requirement": "Query copy is recorded in canonical encoder"
+    },
+    {
+      "id": "R9AP1-S282",
+      "requirement": "Raw timestamp ticks are preserved"
+    },
+    {
+      "id": "R9AP1-S283",
+      "requirement": "Timestamp period identity is recorded when available"
+    },
+    {
+      "id": "R9AP1-S284",
+      "requirement": "CPU wall clock cannot replace GPU timestamp"
+    },
+    {
+      "id": "R9AP1-S285",
+      "requirement": "CPU encode-submit uses monotonic high-resolution clock"
+    },
+    {
+      "id": "R9AP1-S286",
+      "requirement": "Warmup count minimum is 128"
+    },
+    {
+      "id": "R9AP1-S287",
+      "requirement": "Paired sample count minimum is 256"
+    },
+    {
+      "id": "R9AP1-S288",
+      "requirement": "ABBA order is deterministic and balanced"
+    },
+    {
+      "id": "R9AP1-S289",
+      "requirement": "Baseline is packaged test-only partition"
+    },
+    {
+      "id": "R9AP1-S290",
+      "requirement": "Baseline cannot become Active Graph product node"
+    },
+    {
+      "id": "R9AP1-S291",
+      "requirement": "Baseline and candidate use identical fixture and parameters"
+    },
+    {
+      "id": "R9AP1-S292",
+      "requirement": "Baseline and candidate use identical package bytes"
+    },
+    {
+      "id": "R9AP1-S293",
+      "requirement": "One-stage and multi-stage are measured separately"
+    },
+    {
+      "id": "R9AP1-S294",
+      "requirement": "R4 and R6 are measured separately"
+    },
+    {
+      "id": "R9AP1-S295",
+      "requirement": "Preview and Export are measured separately"
+    },
+    {
+      "id": "R9AP1-S296",
+      "requirement": "Sampled and unsampled runs are measured separately"
+    },
+    {
+      "id": "R9AP1-S297",
+      "requirement": "Median and p95 algorithms are fixed"
+    },
+    {
+      "id": "R9AP1-S298",
+      "requirement": "Outlier policy is fixed before run"
+    },
+    {
+      "id": "R9AP1-S299",
+      "requirement": "Thermal and power invalidation policy is explicit"
+    },
+    {
+      "id": "R9AP1-S300",
+      "requirement": "Correctness failure invalidates performance result"
+    },
+    {
+      "id": "R9AP1-S301",
+      "requirement": "Resource ledger tracks buffer live bytes"
+    },
+    {
+      "id": "R9AP1-S302",
+      "requirement": "Resource ledger tracks texture live bytes"
+    },
+    {
+      "id": "R9AP1-S303",
+      "requirement": "Resource ledger tracks query set count"
+    },
+    {
+      "id": "R9AP1-S304",
+      "requirement": "Resource ledger tracks bind group count"
+    },
+    {
+      "id": "R9AP1-S305",
+      "requirement": "Resource ledger tracks pipeline cache count"
+    },
+    {
+      "id": "R9AP1-S306",
+      "requirement": "Resource ledger tracks mapped buffer count"
+    },
+    {
+      "id": "R9AP1-S307",
+      "requirement": "Resource ledger tracks submission ticket count"
+    },
+    {
+      "id": "R9AP1-S308",
+      "requirement": "Resource ledger tracks completion callback count"
+    },
+    {
+      "id": "R9AP1-S309",
+      "requirement": "Resource ledger tracks Surface Registry pins"
+    },
+    {
+      "id": "R9AP1-S310",
+      "requirement": "Residency plateau uses raw samples"
+    },
+    {
+      "id": "R9AP1-S311",
+      "requirement": "Last-64 slope policy is fixed"
+    },
+    {
+      "id": "R9AP1-S312",
+      "requirement": "Renderer private memory is sampled by main process"
+    },
+    {
+      "id": "R9AP1-S313",
+      "requirement": "GPU process memory is sampled by main process"
+    },
+    {
+      "id": "R9AP1-S314",
+      "requirement": "Controlled device loss uses GPU Authority recovery path"
+    },
+    {
+      "id": "R9AP1-S315",
+      "requirement": "Three sequential controlled losses are required"
+    },
+    {
+      "id": "R9AP1-S316",
+      "requirement": "Loss during pending Preview job is covered"
+    },
+    {
+      "id": "R9AP1-S317",
+      "requirement": "Loss during pending Export job is covered"
+    },
+    {
+      "id": "R9AP1-S318",
+      "requirement": "Each loss increments device epoch"
+    },
+    {
+      "id": "R9AP1-S319",
+      "requirement": "Old graph authority is disposed after loss"
+    },
+    {
+      "id": "R9AP1-S320",
+      "requirement": "Old pipeline cache is disposed after loss"
+    },
+    {
+      "id": "R9AP1-S321",
+      "requirement": "Post-loss first job is sampled"
+    },
+    {
+      "id": "R9AP1-S322",
+      "requirement": "Post-loss parity is mandatory"
+    },
+    {
+      "id": "R9AP1-S323",
+      "requirement": "Post-loss residency returns to plateau"
+    },
+    {
+      "id": "R9AP1-S324",
+      "requirement": "No stale completion crosses epoch"
+    },
+    {
+      "id": "R9AP1-S325",
+      "requirement": "Cleanup ledger closes after loss suite"
+    },
+    {
+      "id": "R9AP1-S326",
+      "requirement": "Packaged environment child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S327",
+      "requirement": "Product graph observation child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S328",
+      "requirement": "Validation fault child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S329",
+      "requirement": "Uniform lifetime child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S330",
+      "requirement": "Performance child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S331",
+      "requirement": "Residency child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S332",
+      "requirement": "Device loss child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S333",
+      "requirement": "Preview E2E child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S334",
+      "requirement": "Export E2E child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S335",
+      "requirement": "Adapter matrix child receipt schema exists"
+    },
+    {
+      "id": "R9AP1-S336",
+      "requirement": "Raw event ledger schema exists"
+    },
+    {
+      "id": "R9AP1-S337",
+      "requirement": "Raw counter bytes manifest schema exists"
+    },
+    {
+      "id": "R9AP1-S338",
+      "requirement": "Raw timestamp sample manifest schema exists"
+    },
+    {
+      "id": "R9AP1-S339",
+      "requirement": "Finalizer reads raw child artifacts from disk"
+    },
+    {
+      "id": "R9AP1-S340",
+      "requirement": "Finalizer recomputes graph counts"
+    },
+    {
+      "id": "R9AP1-S341",
+      "requirement": "Finalizer recomputes counter values"
+    },
+    {
+      "id": "R9AP1-S342",
+      "requirement": "Finalizer recomputes performance statistics"
+    },
+    {
+      "id": "R9AP1-S343",
+      "requirement": "Finalizer recomputes residency slopes"
+    },
+    {
+      "id": "R9AP1-S344",
+      "requirement": "Finalizer recomputes device epoch chain"
+    },
+    {
+      "id": "R9AP1-S345",
+      "requirement": "Finalizer rejects externally supplied pass booleans"
+    },
+    {
+      "id": "R9AP1-S346",
+      "requirement": "Finalizer rejects missing child artifact"
+    },
+    {
+      "id": "R9AP1-S347",
+      "requirement": "Finalizer rejects child digest mismatch"
+    },
+    {
+      "id": "R9AP1-S348",
+      "requirement": "Finalizer rejects package identity mismatch"
+    },
+    {
+      "id": "R9AP1-S349",
+      "requirement": "Finalizer rejects run challenge mismatch"
+    },
+    {
+      "id": "R9AP1-S350",
+      "requirement": "Finalizer rejects mixed adapter run"
+    },
+    {
+      "id": "R9AP1-S351",
+      "requirement": "Finalizer rejects mixed package bytes"
+    },
+    {
+      "id": "R9AP1-S352",
+      "requirement": "Finalizer rejects incomplete fixture matrix"
+    },
+    {
+      "id": "R9AP1-S353",
+      "requirement": "Final receipt is written atomically"
+    },
+    {
+      "id": "R9AP1-S354",
+      "requirement": "Final receipt has self SHA-256"
+    },
+    {
+      "id": "R9AP1-S355",
+      "requirement": "Physical verifier replays final receipt and all children"
+    },
+    {
+      "id": "R9AP1-S356",
+      "requirement": "Physical verifier rejects source-mode final receipt"
+    },
+    {
+      "id": "R9AP1-S357",
+      "requirement": "Physical verifier rejects missing raw ledger roots"
+    },
+    {
+      "id": "R9AP1-S358",
+      "requirement": "Physical verifier rejects future-schema child receipt"
+    },
+    {
+      "id": "R9AP1-S359",
+      "requirement": "Physical verifier rejects duplicate child receipt kind"
+    },
+    {
+      "id": "R9AP1-S360",
+      "requirement": "Physical verifier records zero summary trust count"
+    }
+  ],
+  "specSha256": "73a85965294e99fc14ea549b046fd22f554678e98fb62d38d573c5350995f212"
+}

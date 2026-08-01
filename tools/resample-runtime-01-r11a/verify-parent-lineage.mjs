@@ -1,0 +1,10 @@
+import { check, json, sha256File, sourceArtifact, seal } from './lib.mjs';
+import { PARENT_SOURCE_RECEIPT, POINTER_A, POINTER_B, PARENT_ZIP_SHA256 } from './identity.mjs';
+const parent = json(PARENT_SOURCE_RECEIPT);
+check(parent.state === 'RESAMPLE_RUNTIME_R10A_RELEASE_REQUALIFICATION_HARNESS_SOURCE_SEALED_AWAITING_R9A_PHYSICAL_AND_PRODUCTION_REBUILD', 'E_R11A_PARENT_IDENTITY_MISMATCH', 'R10A parent state mismatch', parent.state);
+check(parent.counts?.PASS === 260 && parent.counts?.PENDING === 300 && parent.counts?.FAIL === 0, 'E_R11A_PARENT_IDENTITY_MISMATCH', 'R10A parent counts mismatch', parent.counts);
+const pointerA = sha256File(POINTER_A);
+const pointerB = sha256File(POINTER_B);
+check(pointerA === pointerB, 'E_R11A_POINTER_MUTATION_FORBIDDEN', 'production pointer mirrors differ');
+sourceArtifact('R11A_PARENT_AND_LINEAGE_REPORT.json', seal({ schemaVersion: 1, patchId: 'TDT-RESAMPLE-RUNTIME-01-R11A', pass: true, parentPatchId: 'TDT-RESAMPLE-RUNTIME-01-R10A', parentZipSha256: PARENT_ZIP_SHA256, parentSourceReceiptSha256: sha256File(PARENT_SOURCE_RECEIPT), parentSourceState: parent.state, r10aReleaseCurrent: false, historicalR11ReceiptCurrent: false, pointerRawSha256: pointerA, productionPointerMutated: false, localActivationPointerMutated: false, historicalPassCarryForward: 0 }));
+console.log('R11A parent and lineage PASS');

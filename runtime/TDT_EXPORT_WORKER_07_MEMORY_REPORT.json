@@ -1,0 +1,34 @@
+{
+  "schema": "tdt-export-worker-07-memory-report-v1",
+  "generatedAt": "2026-07-24T17:11:04.827Z",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "patchId": "TDT-EXPORT-WORKER-07",
+  "promotionEligible": false,
+  "memoryPolicyId": "psd-owned-allocation-budget-v1",
+  "defaultSourceProfileBudgetBytes": 805306368,
+  "inheritedLcmsFixedHeapBytes": 536870912,
+  "lcmsMemoryMode": "fixed-shared-512m-inherited",
+  "lcmsMemoryPromotionState": "unpromoted",
+  "workerPeakAccountingIncludesGenerationResidentBytes": true,
+  "lowBudgetRejectedBeforeLcms": true,
+  "terminalLiveOwnedBytesZero": true,
+  "rgbFixturePeaks": [
+    {
+      "id": "layered-rgb8-raw",
+      "peakOwnedBytes": 366,
+      "generationResidentBytes": 0
+    },
+    {
+      "id": "flattened-rgb8-rle",
+      "peakOwnedBytes": 232,
+      "generationResidentBytes": 0
+    },
+    {
+      "id": "flattened-rgb16-raw",
+      "peakOwnedBytes": 272,
+      "generationResidentBytes": 0
+    }
+  ],
+  "actualCmykPeakMeasured": false,
+  "processRssMeasured": false
+}

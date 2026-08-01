@@ -1,0 +1,17 @@
+[TDT-EXPORT-WORKER-02] generated build 7ae69d05bf5e825df68983ec; lockConsistent=false
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+PASS GATE-R1-08 Pinia static serializability gate
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect
+PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry
+PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js
+PASS GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION unique prior owner / owner-finished-while-absent claim / one-shot claim consumption / receipt evidence
+PASS GATE-R1-R6-PLACEHOLDER-QUARANTINE non-authoritative legacy placeholder isolation and receipt evidence
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+PASS GATE-R1-20 deterministic receipt parity 100/100 dcd44a9d3aef3f4ef8b33bfdc6fadf3ed40b62b228094efc5bed462c06303df3
+PASS TypeScript syntax 59 files
+PASS GATE-R1-ERROR-CODE stable error registry 79/79 referenced codes declared
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 86306a250391218bef098e1aa616784af2b133389680b19e1b9cd0f345fe1442
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS_TDT_EXPORT_WORKER_02_SOURCE_BAKE_UNPROMOTED

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.packaged-gate-catalog.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "gateCount": 36,
+  "rows": [
+    {
+      "id": "R2R3-P001",
+      "description": "old epoch invalidation receipt exists"
+    },
+    {
+      "id": "R2R3-P002",
+      "description": "one physical pipeline build"
+    },
+    {
+      "id": "R2R3-P003",
+      "description": "EWA new identity exact"
+    },
+    {
+      "id": "R2R3-P004",
+      "description": "Tensor new identity exact"
+    },
+    {
+      "id": "R2R3-P005",
+      "description": "Adaptive new identity exact"
+    },
+    {
+      "id": "R2R3-P006",
+      "description": "old active count zero"
+    },
+    {
+      "id": "R2R3-P007",
+      "description": "recovered event includes rebuild set"
+    },
+    {
+      "id": "R2R3-P008",
+      "description": "Preview lost operation rejects"
+    },
+    {
+      "id": "R2R3-P009",
+      "description": "closure includes rebuild lineage"
+    },
+    {
+      "id": "R2R3-P010",
+      "description": "validation Preview no lazy build"
+    },
+    {
+      "id": "R2R3-P011",
+      "description": "validation Export no lazy build"
+    },
+    {
+      "id": "R2R3-P012",
+      "description": "old pipeline reuse denied"
+    },
+    {
+      "id": "R2R3-P013",
+      "description": "old epoch invalidation receipt exists"
+    },
+    {
+      "id": "R2R3-P014",
+      "description": "one physical pipeline build"
+    },
+    {
+      "id": "R2R3-P015",
+      "description": "EWA new identity exact"
+    },
+    {
+      "id": "R2R3-P016",
+      "description": "Tensor new identity exact"
+    },
+    {
+      "id": "R2R3-P017",
+      "description": "Adaptive new identity exact"
+    },
+    {
+      "id": "R2R3-P018",
+      "description": "old active count zero"
+    },
+    {
+      "id": "R2R3-P019",
+      "description": "recovered event includes rebuild set"
+    },
+    {
+      "id": "R2R3-P020",
+      "description": "Export terminal map rejects"
+    },
+    {
+      "id": "R2R3-P021",
+      "description": "host save contamination zero"
+    },
+    {
+      "id": "R2R3-P022",
+      "description": "closure includes rebuild lineage"
+    },
+    {
+      "id": "R2R3-P023",
+      "description": "validation operations no lazy build"
+    },
+    {
+      "id": "R2R3-P024",
+      "description": "old pipeline reuse denied"
+    },
+    {
+      "id": "R2R3-P025",
+      "description": "old epoch invalidation receipt exists"
+    },
+    {
+      "id": "R2R3-P026",
+      "description": "one physical pipeline build"
+    },
+    {
+      "id": "R2R3-P027",
+      "description": "EWA new identity exact"
+    },
+    {
+      "id": "R2R3-P028",
+      "description": "Tensor new identity exact"
+    },
+    {
+      "id": "R2R3-P029",
+      "description": "Adaptive new identity exact"
+    },
+    {
+      "id": "R2R3-P030",
+      "description": "old active count zero"
+    },
+    {
+      "id": "R2R3-P031",
+      "description": "recovered event includes rebuild set"
+    },
+    {
+      "id": "R2R3-P032",
+      "description": "Preview lost operation rejects"
+    },
+    {
+      "id": "R2R3-P033",
+      "description": "closure includes rebuild lineage"
+    },
+    {
+      "id": "R2R3-P034",
+      "description": "validation operations no lazy build"
+    },
+    {
+      "id": "R2R3-P035",
+      "description": "old pipeline reuse denied"
+    },
+    {
+      "id": "R2R3-P036",
+      "description": "total physical build count exactly three"
+    }
+  ]
+}

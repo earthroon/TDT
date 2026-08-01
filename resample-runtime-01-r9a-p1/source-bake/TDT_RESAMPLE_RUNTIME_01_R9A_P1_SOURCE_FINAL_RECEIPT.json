@@ -1,0 +1,25 @@
+{
+  "buildLockR2FinalAdmitted": false,
+  "buildLockR2SourceCurrent": true,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 360,
+    "PENDING": 480,
+    "SKIPPED": 0
+  },
+  "historicalPassCarryForward": 0,
+  "implementationManifestSha256": "0efb772c4dbb79fa1bbdae466b49b17cc6b7325f8251c192a5d89f13c598a46b",
+  "localActivationPointerMutated": false,
+  "packagedPhysicalExecuted": false,
+  "parentBuildLockR2SourceReceiptSha256": "cdc6476a0ae6fda4b8dd1f4744d7d9122442a1125038f8014dc72323089c99ed",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1",
+  "productionPointerMutated": false,
+  "receiptKind": "resample-runtime-r9a-p1-source-final",
+  "schemaVersion": 1,
+  "selfSha256": "fc3496f45190141655b1bf908ca90533f86e19cfa94f8286c93e083cb222684a",
+  "sourceGateReportSha256": "97fca595a8b02f48a79c33853e6e2156acdd2550e64511b323c4851bd85a101a",
+  "specSha256": "73a85965294e99fc14ea549b046fd22f554678e98fb62d38d573c5350995f212",
+  "state": "RESAMPLE_RUNTIME_R9A_P1_PACKAGED_PRODUCT_GRAPH_INSTRUMENTATION_SOURCE_SEALED_AWAITING_BUILD_LOCK_R2_WIN32_AND_PHYSICAL_GPU",
+  "summaryTrustCount": 0
+}

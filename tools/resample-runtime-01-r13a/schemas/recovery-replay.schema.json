@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt.rollout.recovery-replay.r13a.v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "schemaId"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "schemaId": {
+      "const": "tdt.rollout.recovery-replay.r13a.v1"
+    }
+  },
+  "additionalProperties": true
+}

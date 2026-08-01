@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "PASS",
+  "policyId": "dadum.npm-config.lock-recovery-v1",
+  "canonicalNpmrcSha256": "4c5480f5812f38f1fd936d94d9741fd05517b3087489f40f4cc474a2c9af635a",
+  "registryOriginSha256": "010482bebe08863dca17247a9f43b2fd68dbe2fae576d34641d7a5ff212e1377",
+  "strictSsl": true,
+  "replaceRegistryHost": "npmjs",
+  "installStrategy": "hoisted",
+  "legacyPeerDeps": false,
+  "strictPeerDeps": true,
+  "ignoreScripts": true,
+  "packageLock": true,
+  "lockfileVersion": 3,
+  "offline": false,
+  "preferOffline": false,
+  "preferOnline": false,
+  "credentialPresent": false,
+  "credentialSourceId": "process-secret-channel-v1",
+  "environmentProjection": {
+    "nodeOptionsEmpty": true,
+    "unknownNpmConfig": [],
+    "ci": true,
+    "pathDigest": "5820248d6145d15b68db0b57693db3472502f2d28e862634f4a34d7486b9c390",
+    "homePolicy": "isolated-run-home-v1",
+    "tempPolicy": "isolated-run-temp-v1"
+  }
+}

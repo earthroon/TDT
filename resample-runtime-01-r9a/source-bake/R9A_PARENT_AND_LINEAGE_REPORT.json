@@ -1,0 +1,56 @@
+{
+  "downstreamReplayRequired": [
+    "R10A",
+    "R11A",
+    "R12A",
+    "R13A"
+  ],
+  "frozenFiles": [
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl",
+      "sha256": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl",
+      "sha256": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r8.wgsl",
+      "sha256": "848582c747543db92514fb5b73ee3b667cdc45efeef7aa7f32d2516471df0fc3"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r8.wgsl",
+      "sha256": "792cb27c7adcb4cc6d54324c524f62eabe00e22bbcce45e337cd24217aa16d09"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_generated_manifest_r8.json",
+      "sha256": "e1b57005fb27f5ac076551ecee9676411b7560d3f0b732fba27a37ebaa97d57e"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v3.mjs",
+      "sha256": "2d4416d19684b68308e711e7a133c50477c487ef53bcb2ee45838976e5d9989f"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v4.mjs",
+      "sha256": "e8880cc46d2eec796e360c44f326e87692db9b25c23d788c6dff30c0e357fcf6"
+    }
+  ],
+  "localActivationPointerMutated": false,
+  "parentZipSha256": "dfaf8c637ad87d0251b6bfdfc7aa71ef83b5dc36d44d2aca2a6e48f94e7cddc4",
+  "pass": true,
+  "pointerHashes": [
+    {
+      "path": "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    {
+      "path": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    }
+  ],
+  "productionPointerMutated": false,
+  "r8MathAndGeneratedShadersFrozen": true,
+  "r8aReceiptSelfSha256": "352639671cd2d90063043886fc45b5dff199c407683e72943acfd576faac4697",
+  "schemaVersion": 1,
+  "selfSha256": "d47482b8a3e1e665f73c237314a78d36ea7bc61f9cb74f0f3421b2282522348b"
+}

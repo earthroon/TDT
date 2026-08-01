@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-04",
+  "gateCount": 224,
+  "gates": [
+    {
+      "id": "BKR04-BASE-001",
+      "description": "Requirement: Parent WGSL-03 source final receipt digest is exact."
+    },
+    {
+      "id": "BKR04-BASE-002",
+      "description": "Requirement: WGSL-03 generated canonical shader digest is unchanged."
+    },
+    {
+      "id": "BKR04-BASE-003",
+      "description": "Requirement: WGSL-03 canonical ABI ID is reused exactly."
+    },
+    {
+      "id": "BKR04-BASE-004",
+      "description": "Requirement: WGSL-03 bind group layout remains 9 bindings."
+    },
+    {
+      "id": "BKR04-BASE-005",
+      "description": "Requirement: WGSL-03 uniform byte length remains 128."
+    },
+    {
+      "id": "BKR04-BASE-006",
+      "description": "Requirement: WGSL-03 structure gate formula identity is unchanged."
+    },
+    {
+      "id": "BKR04-BASE-007",
+      "description": "Requirement: WGSL-03 lambda2 receipt schema remains accepted."
+    },
+    {
+      "id": "BKR04-BASE-008",
+      "description": "Requirement: WGSL-03 terminal R1C pass order remains six passes."
+    },
+    {
+      "id": "BKR04-BASE-009",
+      "description": "Requirement: Compatibility WGSL-02 ABI remains tensor-free."
+    },
+    {
+      "id": "BKR04-BASE-010",
+      "description": "Requirement: Canonical final texture claim remains false."
+    },
+    {
+      "id": "BKR04-BASE-011",
+      "description": "Requirement: Preview publish claim remains false."
+    },
+    {
+      "id": "BKR04-BASE-012",
+      "description": "Requirement: Export publish claim remains false."
+    },
+    {
+      "id": "BKR04-BASE-013",
+      "description": "Requirement: Surface registry publish count remains zero."
+    },
+    {
+      "id": "BKR04-BASE-014",
+      "description": "Requirement: No generated WGSL body mutation is introduced."
+    },
+    {
+      "id": "BKR04-BASE-015",
+      "description": "Requirement: No legacy tensor shader becomes authority."
+    },
+    {
+      "id": "BKR04-BASE-016",
+      "description": "Requirement: No stage-local tensor becomes terminal tensor."
+    },
+    {
+      "id": "BKR04-BASE-017",
+      "description": "Requirement: No axial field becomes effect fieldTexture."
+    },
+    {
+      "id": "BKR04-BASE-018",
+      "description": "Requirement: No per-operation lambda2 probe is introduced."
+    },
+    {
+      "id": "BKR04-BASE-019",
+      "description": "Requirement: No per-operation lambda2 readback is introduced."
+    },
+    {
+      "id": "BKR04-BASE-020",
+      "description": "Requirement: Formula profile remains canonical R1C-gated profile."
+    },
+    {
+      "id": "BKR04-BASE-021",
+      "description": "Requirement: Deterministic phase receipt remains required."
+    },
+    {
+      "id": "BKR04-BASE-022",
+      "description": "Requirement: Encoded-straight color adapter contract is unchanged."
+    },
+    {
+      "id": "BKR04-BASE-023",
+      "description": "Requirement: R1C field semantic ID is unchanged."
+    },
+    {
+      "id": "BKR04-BASE-024",
+      "description": "Requirement: R1C packing ID is unchanged."
+    },
+    {
+      "id": "BKR04-BASE-025",
+      "description": "Requirement: Output format remains rgba16float."
+    },
+    {
+      "id": "BKR04-BASE-026",
+      "description": "Requirement: Output transfer remains linear."
+    },
+    {
+      "id": "BKR04-BASE-027",
+      "description": "Requirement: Output alpha remains premultiplied."
+    },
+    {
+      "id": "BKR04-BASE-028",
+      "description": "Requirement: Parent receipt bytes are preserved."
+    },
+    {
+      "id": "BKR04-REG-001",
+      "description": "Requirement: WGSL-04 owner exists in GPU consumer manifest."
+    },
+    {
+      "id": "BKR04-REG-002",
+      "description": "Requirement: WGSL-04 pipeline family factory is exported."
+    },
+    {
+      "id": "BKR04-REG-003",
+      "description": "Requirement: Pipeline family build does not require operation texture request."
+    },
+    {
+      "id": "BKR04-REG-004",
+      "description": "Requirement: Pipeline family build does not require terminal tensor token."
+    },
+    {
+      "id": "BKR04-REG-005",
+      "description": "Requirement: Pipeline family build does not require phase receipt."
+    },
+    {
+      "id": "BKR04-REG-006",
+      "description": "Requirement: Pipeline family identity includes runtime epoch."
+    },
+    {
+      "id": "BKR04-REG-007",
+      "description": "Requirement: Pipeline family identity includes device epoch."
+    },
+    {
+      "id": "BKR04-REG-008",
+      "description": "Requirement: Pipeline family identity includes device identity."
+    },
+    {
+      "id": "BKR04-REG-009",
+      "description": "Requirement: Pipeline family identity includes kernel ID."
+    },
+    {
+      "id": "BKR04-REG-010",
+      "description": "Requirement: Pipeline family identity includes kernel ABI ID."
+    },
+    {
+      "id": "BKR04-REG-011",
+      "description": "Requirement: Pipeline family identity includes generated WGSL digest."
+    },
+    {
+      "id": "BKR04-REG-012",
+      "description": "Requirement: Pipeline family identity includes manifest digest."
+    },
+    {
+      "id": "BKR04-REG-013",
+      "description": "Requirement: Pipeline family identity includes layout digest."
+    },
+    {
+      "id": "BKR04-REG-014",
+      "description": "Requirement: Pipeline family identity includes uniform ABI digest."
+    },
+    {
+      "id": "BKR04-REG-015",
+      "description": "Requirement: Pipeline family identity includes canonical delta digest."
+    },
+    {
+      "id": "BKR04-REG-016",
+      "description": "Requirement: Pipeline family identity includes structure gate digest."
+    },
+    {
+      "id": "BKR04-REG-017",
+      "description": "Requirement: Pipeline family exposes disposed state."
+    },
+    {
+      "id": "BKR04-REG-018",
+      "description": "Requirement: Pipeline family dispose is idempotent."
+    },
+    {
+      "id": "BKR04-REG-019",
+      "description": "Requirement: createDeltaKStack builds four families."
+    },
+    {
+      "id": "BKR04-REG-020",
+      "description": "Requirement: EWA bundle attaches bakemonoRinneWgsl04."
+    },
+    {
+      "id": "BKR04-REG-021",
+      "description": "Requirement: EWA disposal cascades to WGSL-04 family."
+    },
+    {
+      "id": "BKR04-REG-022",
+      "description": "Requirement: Registry completeness requires four families."
+    },
+    {
+      "id": "BKR04-REG-023",
+      "description": "Requirement: Registry rejects missing effect family."
+    },
+    {
+      "id": "BKR04-REG-024",
+      "description": "Requirement: Registry rejects disposed effect family."
+    },
+    {
+      "id": "BKR04-REG-025",
+      "description": "Requirement: Pipeline set identity includes effect family."
+    },
+    {
+      "id": "BKR04-REG-026",
+      "description": "Requirement: Pipeline family count is exactly four."
+    },
+    {
+      "id": "BKR04-REG-027",
+      "description": "Requirement: Pipeline set digest changes when effect identity mutates."
+    },
+    {
+      "id": "BKR04-REG-028",
+      "description": "Requirement: Stale device epoch effect family is rejected."
+    },
+    {
+      "id": "BKR04-GRAPH-001",
+      "description": "Requirement: Graph-native tensor recorder accepts R9A graph."
+    },
+    {
+      "id": "BKR04-GRAPH-002",
+      "description": "Requirement: Graph-native effect recorder accepts R9A graph."
+    },
+    {
+      "id": "BKR04-GRAPH-003",
+      "description": "Requirement: Tensor recorder uses graph.beginComputePass."
+    },
+    {
+      "id": "BKR04-GRAPH-004",
+      "description": "Requirement: Effect recorder uses graph.beginComputePass."
+    },
+    {
+      "id": "BKR04-GRAPH-005",
+      "description": "Requirement: Tensor recorder never calls createCommandEncoder."
+    },
+    {
+      "id": "BKR04-GRAPH-006",
+      "description": "Requirement: Effect recorder never calls createCommandEncoder."
+    },
+    {
+      "id": "BKR04-GRAPH-007",
+      "description": "Requirement: Tensor recorder never calls queue.submit."
+    },
+    {
+      "id": "BKR04-GRAPH-008",
+      "description": "Requirement: Effect recorder never calls queue.submit."
+    },
+    {
+      "id": "BKR04-GRAPH-009",
+      "description": "Requirement: Integration coordinator never calls queue.submit."
+    },
+    {
+      "id": "BKR04-GRAPH-010",
+      "description": "Requirement: Owned R9A path submits exactly once."
+    },
+    {
+      "id": "BKR04-GRAPH-011",
+      "description": "Requirement: Borrowed graph path submits zero times locally."
+    },
+    {
+      "id": "BKR04-GRAPH-012",
+      "description": "Requirement: Nested encoder count remains zero."
+    },
+    {
+      "id": "BKR04-GRAPH-013",
+      "description": "Requirement: Nested submit count remains zero."
+    },
+    {
+      "id": "BKR04-GRAPH-014",
+      "description": "Requirement: Effect active mode adds six tensor passes."
+    },
+    {
+      "id": "BKR04-GRAPH-015",
+      "description": "Requirement: Effect active mode adds one effect pass."
+    },
+    {
+      "id": "BKR04-GRAPH-016",
+      "description": "Requirement: Effect active mode adds exactly seven passes."
+    },
+    {
+      "id": "BKR04-GRAPH-017",
+      "description": "Requirement: Effect disabled mode adds zero passes."
+    },
+    {
+      "id": "BKR04-GRAPH-018",
+      "description": "Requirement: Effect pass is recorded before graph submit."
+    },
+    {
+      "id": "BKR04-GRAPH-019",
+      "description": "Requirement: No record occurs after graph submitted state."
+    },
+    {
+      "id": "BKR04-GRAPH-020",
+      "description": "Requirement: Raw graph.encoder use is absent from new recorders."
+    },
+    {
+      "id": "BKR04-GRAPH-021",
+      "description": "Requirement: Pass labels are deterministic."
+    },
+    {
+      "id": "BKR04-GRAPH-022",
+      "description": "Requirement: Pass order receipt matches actual graph order."
+    },
+    {
+      "id": "BKR04-GRAPH-023",
+      "description": "Requirement: Command graph ID is exact through all receipts."
+    },
+    {
+      "id": "BKR04-GRAPH-024",
+      "description": "Requirement: Runtime epoch is exact through all receipts."
+    },
+    {
+      "id": "BKR04-GRAPH-025",
+      "description": "Requirement: Device epoch is exact through all receipts."
+    },
+    {
+      "id": "BKR04-GRAPH-026",
+      "description": "Requirement: Device identity is exact through all receipts."
+    },
+    {
+      "id": "BKR04-GRAPH-027",
+      "description": "Requirement: Graph snapshot after record includes added passes."
+    },
+    {
+      "id": "BKR04-GRAPH-028",
+      "description": "Requirement: Post-submit runDeltaKCore execution is impossible."
+    },
+    {
+      "id": "BKR04-UNIF-001",
+      "description": "Requirement: Tensor params use graph.allocateUniform."
+    },
+    {
+      "id": "BKR04-UNIF-002",
+      "description": "Requirement: Effect params use graph.allocateUniform."
+    },
+    {
+      "id": "BKR04-UNIF-003",
+      "description": "Requirement: Tensor recorder creates zero standalone uniform buffers."
+    },
+    {
+      "id": "BKR04-UNIF-004",
+      "description": "Requirement: Effect recorder creates zero standalone uniform buffers."
+    },
+    {
+      "id": "BKR04-UNIF-005",
+      "description": "Requirement: Tensor recorder performs zero direct queue.writeBuffer calls."
+    },
+    {
+      "id": "BKR04-UNIF-006",
+      "description": "Requirement: Effect recorder performs zero direct queue.writeBuffer calls."
+    },
+    {
+      "id": "BKR04-UNIF-007",
+      "description": "Requirement: Recording receipt reports two uniform ring allocations."
+    },
+    {
+      "id": "BKR04-UNIF-008",
+      "description": "Requirement: Uniform payload digest is recorded for tensor params."
+    },
+    {
+      "id": "BKR04-UNIF-009",
+      "description": "Requirement: Uniform payload digest is recorded for effect params."
+    },
+    {
+      "id": "BKR04-UNIF-010",
+      "description": "Requirement: Uniform offsets respect ring alignment."
+    },
+    {
+      "id": "BKR04-UNIF-011",
+      "description": "Requirement: Uniform binding sizes match ABI."
+    },
+    {
+      "id": "BKR04-UNIF-012",
+      "description": "Requirement: Uniform allocations bind supplied offset."
+    },
+    {
+      "id": "BKR04-UNIF-013",
+      "description": "Requirement: Uniform allocations bind supplied size."
+    },
+    {
+      "id": "BKR04-UNIF-014",
+      "description": "Requirement: Uniform allocations are submission-scoped."
+    },
+    {
+      "id": "BKR04-UNIF-015",
+      "description": "Requirement: Uniform allocations retire on submission completion."
+    },
+    {
+      "id": "BKR04-UNIF-016",
+      "description": "Requirement: Terminal R1C textures enter transient ledger after effect record."
+    },
+    {
+      "id": "BKR04-UNIF-017",
+      "description": "Requirement: Candidate enters transient ledger when not retained."
+    },
+    {
+      "id": "BKR04-UNIF-018",
+      "description": "Requirement: Retained candidate remains caller-owned."
+    },
+    {
+      "id": "BKR04-UNIF-019",
+      "description": "Requirement: Candidate release is idempotent."
+    },
+    {
+      "id": "BKR04-UNIF-020",
+      "description": "Requirement: Tensor handle release is idempotent."
+    },
+    {
+      "id": "BKR04-UNIF-021",
+      "description": "Requirement: Failure path tracks all created textures."
+    },
+    {
+      "id": "BKR04-UNIF-022",
+      "description": "Requirement: Failure path leaks zero standalone buffers."
+    },
+    {
+      "id": "BKR04-UNIF-023",
+      "description": "Requirement: Private capability uses object identity only."
+    },
+    {
+      "id": "BKR04-UNIF-024",
+      "description": "Requirement: Private capability uses zero UUID calls."
+    },
+    {
+      "id": "BKR04-UNIF-025",
+      "description": "Requirement: Private capability uses zero Date calls."
+    },
+    {
+      "id": "BKR04-UNIF-026",
+      "description": "Requirement: Private capability uses zero performance clock calls."
+    },
+    {
+      "id": "BKR04-UNIF-027",
+      "description": "Requirement: Private capability uses zero random calls."
+    },
+    {
+      "id": "BKR04-UNIF-028",
+      "description": "Requirement: No opaque capability enters receipt digest."
+    },
+    {
+      "id": "BKR04-INPUT-001",
+      "description": "Requirement: Effect mode defaults to DISABLED."
+    },
+    {
+      "id": "BKR04-INPUT-002",
+      "description": "Requirement: Active mode requires explicit purpose."
+    },
+    {
+      "id": "BKR04-INPUT-003",
+      "description": "Requirement: Base texture is derived from Final EWA descriptor."
+    },
+    {
+      "id": "BKR04-INPUT-004",
+      "description": "Requirement: Caller supplied arbitrary base is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-005",
+      "description": "Requirement: Q-map descriptor is required."
+    },
+    {
+      "id": "BKR04-INPUT-006",
+      "description": "Requirement: Scalar descriptor is required."
+    },
+    {
+      "id": "BKR04-INPUT-007",
+      "description": "Requirement: Alpha-depth descriptor is required."
+    },
+    {
+      "id": "BKR04-INPUT-008",
+      "description": "Requirement: Highlight descriptor is required."
+    },
+    {
+      "id": "BKR04-INPUT-009",
+      "description": "Requirement: Mask-edge descriptor is required."
+    },
+    {
+      "id": "BKR04-INPUT-010",
+      "description": "Requirement: All direct inputs match terminal width."
+    },
+    {
+      "id": "BKR04-INPUT-011",
+      "description": "Requirement: All direct inputs match terminal height."
+    },
+    {
+      "id": "BKR04-INPUT-012",
+      "description": "Requirement: All direct inputs match runtime epoch."
+    },
+    {
+      "id": "BKR04-INPUT-013",
+      "description": "Requirement: All direct inputs match device epoch."
+    },
+    {
+      "id": "BKR04-INPUT-014",
+      "description": "Requirement: All direct inputs match device identity."
+    },
+    {
+      "id": "BKR04-INPUT-015",
+      "description": "Requirement: Q-map semantic is admitted explicitly."
+    },
+    {
+      "id": "BKR04-INPUT-016",
+      "description": "Requirement: Scalar semantic is admitted explicitly."
+    },
+    {
+      "id": "BKR04-INPUT-017",
+      "description": "Requirement: Input content digest or receipt is required."
+    },
+    {
+      "id": "BKR04-INPUT-018",
+      "description": "Requirement: Base-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-019",
+      "description": "Requirement: Qmap-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-020",
+      "description": "Requirement: Scalar-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-021",
+      "description": "Requirement: AlphaDepth-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-022",
+      "description": "Requirement: Highlight-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-023",
+      "description": "Requirement: MaskEdge-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-024",
+      "description": "Requirement: TerminalR1C-output alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-025",
+      "description": "Requirement: TerminalR1C-base alias is rejected."
+    },
+    {
+      "id": "BKR04-INPUT-026",
+      "description": "Requirement: Qmap-scalar alias is rejected in canonical mode."
+    },
+    {
+      "id": "BKR04-INPUT-027",
+      "description": "Requirement: Missing active input does not create neutral texture."
+    },
+    {
+      "id": "BKR04-INPUT-028",
+      "description": "Requirement: No input bridge or implicit resample is performed."
+    },
+    {
+      "id": "BKR04-L2-001",
+      "description": "Requirement: Lambda2 qualification resolver is authority-owned."
+    },
+    {
+      "id": "BKR04-L2-002",
+      "description": "Requirement: Caller cannot inject arbitrary receipt object."
+    },
+    {
+      "id": "BKR04-L2-003",
+      "description": "Requirement: Receipt status must be PHYSICAL_PASS."
+    },
+    {
+      "id": "BKR04-L2-004",
+      "description": "Requirement: Receipt physicalExecution must be true."
+    },
+    {
+      "id": "BKR04-L2-005",
+      "description": "Requirement: Receipt pass must be true."
+    },
+    {
+      "id": "BKR04-L2-006",
+      "description": "Requirement: Receipt digest replay must pass."
+    },
+    {
+      "id": "BKR04-L2-007",
+      "description": "Requirement: Shader set digest must match."
+    },
+    {
+      "id": "BKR04-L2-008",
+      "description": "Requirement: Tensor parameter digest must match."
+    },
+    {
+      "id": "BKR04-L2-009",
+      "description": "Requirement: Tensor pipeline identity must match."
+    },
+    {
+      "id": "BKR04-L2-010",
+      "description": "Requirement: Adapter identity must match."
+    },
+    {
+      "id": "BKR04-L2-011",
+      "description": "Requirement: Device identity must match."
+    },
+    {
+      "id": "BKR04-L2-012",
+      "description": "Requirement: Fixture corpus digest must match."
+    },
+    {
+      "id": "BKR04-L2-013",
+      "description": "Requirement: Missing receipt fails closed."
+    },
+    {
+      "id": "BKR04-L2-014",
+      "description": "Requirement: Pending receipt fails closed."
+    },
+    {
+      "id": "BKR04-L2-015",
+      "description": "Requirement: Failed receipt fails closed."
+    },
+    {
+      "id": "BKR04-L2-016",
+      "description": "Requirement: Cross-device receipt is rejected."
+    },
+    {
+      "id": "BKR04-L2-017",
+      "description": "Requirement: Cross-adapter receipt is rejected."
+    },
+    {
+      "id": "BKR04-L2-018",
+      "description": "Requirement: Cross-shader receipt is rejected."
+    },
+    {
+      "id": "BKR04-L2-019",
+      "description": "Requirement: Cross-parameter receipt is rejected."
+    },
+    {
+      "id": "BKR04-L2-020",
+      "description": "Requirement: Per-operation probe dispatch count is zero."
+    },
+    {
+      "id": "BKR04-L2-021",
+      "description": "Requirement: Per-operation lambda2 readback count is zero."
+    },
+    {
+      "id": "BKR04-L2-022",
+      "description": "Requirement: Integrated tensor stays private."
+    },
+    {
+      "id": "BKR04-L2-023",
+      "description": "Requirement: Raw tensor stays private."
+    },
+    {
+      "id": "BKR04-L2-024",
+      "description": "Requirement: Axial tensor stays private."
+    },
+    {
+      "id": "BKR04-L2-025",
+      "description": "Requirement: Public handle exposes fieldTexture only."
+    },
+    {
+      "id": "BKR04-L2-026",
+      "description": "Requirement: Terminal tensor source is Final EWA only."
+    },
+    {
+      "id": "BKR04-L2-027",
+      "description": "Requirement: Terminal tensor coordinate mapping is identity output pixel."
+    },
+    {
+      "id": "BKR04-L2-028",
+      "description": "Requirement: Terminal tensor dimensions equal final output."
+    },
+    {
+      "id": "BKR04-RCPT-001",
+      "description": "Requirement: Graph recording receipt schema is exact."
+    },
+    {
+      "id": "BKR04-RCPT-002",
+      "description": "Requirement: Submission closure receipt schema is exact."
+    },
+    {
+      "id": "BKR04-RCPT-003",
+      "description": "Requirement: Recording receipt binds pipeline set identity."
+    },
+    {
+      "id": "BKR04-RCPT-004",
+      "description": "Requirement: Recording receipt binds effect pipeline identity."
+    },
+    {
+      "id": "BKR04-RCPT-005",
+      "description": "Requirement: Recording receipt binds lowpass receipt digest."
+    },
+    {
+      "id": "BKR04-RCPT-006",
+      "description": "Requirement: Recording receipt binds lowpass plan digest."
+    },
+    {
+      "id": "BKR04-RCPT-007",
+      "description": "Requirement: Recording receipt binds Final EWA descriptor digest."
+    },
+    {
+      "id": "BKR04-RCPT-008",
+      "description": "Requirement: Recording receipt binds terminal tensor receipt."
+    },
+    {
+      "id": "BKR04-RCPT-009",
+      "description": "Requirement: Recording receipt binds tensor admission digest."
+    },
+    {
+      "id": "BKR04-RCPT-010",
+      "description": "Requirement: Recording receipt binds lambda2 qualification digest."
+    },
+    {
+      "id": "BKR04-RCPT-011",
+      "description": "Requirement: Recording receipt binds kernel receipt digest."
+    },
+    {
+      "id": "BKR04-RCPT-012",
+      "description": "Requirement: Recording receipt binds effect dispatch receipt digest."
+    },
+    {
+      "id": "BKR04-RCPT-013",
+      "description": "Requirement: Recording receipt binds formula receipt digest."
+    },
+    {
+      "id": "BKR04-RCPT-014",
+      "description": "Requirement: Recording receipt binds phase receipt digest."
+    },
+    {
+      "id": "BKR04-RCPT-015",
+      "description": "Requirement: Recording receipt binds input set digest."
+    },
+    {
+      "id": "BKR04-RCPT-016",
+      "description": "Requirement: Recording receipt binds tensor parameter digest."
+    },
+    {
+      "id": "BKR04-RCPT-017",
+      "description": "Requirement: Recording receipt binds effect parameter digest."
+    },
+    {
+      "id": "BKR04-RCPT-018",
+      "description": "Requirement: Recording receipt binds pass count before."
+    },
+    {
+      "id": "BKR04-RCPT-019",
+      "description": "Requirement: Recording receipt binds pass count after."
+    },
+    {
+      "id": "BKR04-RCPT-020",
+      "description": "Requirement: Recording receipt reports added pass count seven."
+    },
+    {
+      "id": "BKR04-RCPT-021",
+      "description": "Requirement: Recording receipt reports zero recorder submit."
+    },
+    {
+      "id": "BKR04-RCPT-022",
+      "description": "Requirement: Recording receipt reports zero image readback."
+    },
+    {
+      "id": "BKR04-RCPT-023",
+      "description": "Requirement: Recording receipt reports zero mapAsync."
+    },
+    {
+      "id": "BKR04-RCPT-024",
+      "description": "Requirement: Recording receipt reports zero standalone uniform buffer."
+    },
+    {
+      "id": "BKR04-RCPT-025",
+      "description": "Requirement: Candidate authority is graph shadow only."
+    },
+    {
+      "id": "BKR04-RCPT-026",
+      "description": "Requirement: Candidate canonical final claim is false."
+    },
+    {
+      "id": "BKR04-RCPT-027",
+      "description": "Requirement: Candidate publication counts are zero."
+    },
+    {
+      "id": "BKR04-RCPT-028",
+      "description": "Requirement: Receipt canonical JSON replay succeeds."
+    },
+    {
+      "id": "BKR04-REGR-001",
+      "description": "Requirement: WGSL-03 source gate remains passing."
+    },
+    {
+      "id": "BKR04-REGR-002",
+      "description": "Requirement: WGSL-02 source gate remains passing."
+    },
+    {
+      "id": "BKR04-REGR-003",
+      "description": "Requirement: WGSL-01 source gate remains passing."
+    },
+    {
+      "id": "BKR04-REGR-004",
+      "description": "Requirement: R2-R3 registry source gate remains passing."
+    },
+    {
+      "id": "BKR04-REGR-005",
+      "description": "Requirement: R9A source contract remains passing."
+    },
+    {
+      "id": "BKR04-REGR-006",
+      "description": "Requirement: R1C tensor source contract remains passing."
+    },
+    {
+      "id": "BKR04-REGR-007",
+      "description": "Requirement: Adaptive policy source contract remains passing."
+    },
+    {
+      "id": "BKR04-REGR-008",
+      "description": "Requirement: EWA kernel source contract remains passing."
+    },
+    {
+      "id": "BKR04-REGR-009",
+      "description": "Requirement: Active graph parse closure remains passing."
+    },
+    {
+      "id": "BKR04-REGR-010",
+      "description": "Requirement: JavaScript parse closure remains passing."
+    },
+    {
+      "id": "BKR04-REGR-011",
+      "description": "Requirement: TypeScript syntax closure remains passing."
+    },
+    {
+      "id": "BKR04-REGR-012",
+      "description": "Requirement: GPU consumer manifest remains sorted and valid."
+    },
+    {
+      "id": "BKR04-REGR-013",
+      "description": "Requirement: Effect disabled path returns original terminal texture."
+    },
+    {
+      "id": "BKR04-REGR-014",
+      "description": "Requirement: Effect active path still returns original terminal texture in WGSL-04."
+    },
+    {
+      "id": "BKR04-REGR-015",
+      "description": "Requirement: Native candidate is returned separately."
+    },
+    {
+      "id": "BKR04-REGR-016",
+      "description": "Requirement: Original terminal texture is not demoted."
+    },
+    {
+      "id": "BKR04-REGR-017",
+      "description": "Requirement: Surface Registry is not called."
+    },
+    {
+      "id": "BKR04-REGR-018",
+      "description": "Requirement: PreviewPresenter is not called."
+    },
+    {
+      "id": "BKR04-REGR-019",
+      "description": "Requirement: ExportAuthority is not called."
+    },
+    {
+      "id": "BKR04-REGR-020",
+      "description": "Requirement: WebGL effect runtime is not imported into R9A."
+    },
+    {
+      "id": "BKR04-REGR-021",
+      "description": "Requirement: WGSL-03 isolated physical harness remains available."
+    },
+    {
+      "id": "BKR04-REGR-022",
+      "description": "Requirement: WGSL-03 shadow owner remains qualification-only."
+    },
+    {
+      "id": "BKR04-REGR-023",
+      "description": "Requirement: runDeltaKCore hook is fail-closed."
+    },
+    {
+      "id": "BKR04-REGR-024",
+      "description": "Requirement: No second encoder source token is present in recorders."
+    },
+    {
+      "id": "BKR04-REGR-025",
+      "description": "Requirement: No second submit source token is present in recorders."
+    },
+    {
+      "id": "BKR04-REGR-026",
+      "description": "Requirement: No image readback source token is present in recorders."
+    },
+    {
+      "id": "BKR04-REGR-027",
+      "description": "Requirement: No nondeterministic capability source token remains."
+    },
+    {
+      "id": "BKR04-REGR-028",
+      "description": "Requirement: WGSL-05 is named as next authority patch."
+    }
+  ]
+}

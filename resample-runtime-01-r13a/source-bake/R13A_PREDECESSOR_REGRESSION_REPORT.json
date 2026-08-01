@@ -1,0 +1,10 @@
+{
+  "failed": 0,
+  "isolatedRun": true,
+  "oldR13ReceiptSha256": "0023fbacaae88f442c653787dd2624e88966b0f7f4bc9e27c8cd3ee70814cb3d",
+  "parentReceiptSha256": "b5f3a951820633bdb572435766487aaabd7ddaf51cb24ffd2fdc9511a52fbca4",
+  "parentSnapshot": "immutable-hash-snapshot",
+  "passed": 2,
+  "schemaVersion": 1,
+  "selfSha256": "331755bc2ba4588e1faf9396512c86fc9a96994df0304bcdc0072bb9697eb4b9"
+}

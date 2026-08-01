@@ -1,0 +1,9 @@
+{
+  "registryProbe": {
+    "exitCode": 1,
+    "failureClass": "REGISTRY_AVAILABILITY_5XX",
+    "stdout": "{\n  \"error\": {\n    \"code\": \"E503\",\n    \"summary\": \"503 Service Temporarily Unavailable - GET <registry-origin-redacted>\",\n    \"detail\": \"\"\n  }\n}\n",
+    "stderr": "npm notice PING <registry-origin-redacted>\nnpm error code E503\nnpm error 503 Service Temporarily Unavailable - GET <registry-origin-redacted>\nnpm error A complete log of this run can be found in: <build-lock-workspace>\n"
+  },
+  "candidateCommand": null
+}

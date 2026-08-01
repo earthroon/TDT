@@ -1,0 +1,154 @@
+{
+  "schema": "dadum-ew06-fix-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-06",
+  "title": "MODJPEG Dedicated Worker Promotion / Alpha / Quality / 4:4:4 / Marker / Pthread Retirement Truth",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "promotionGranted": false,
+  "buildId": "8e69f8d57a78a504b0a2ef22",
+  "sourceBakeSeal": "d4d62f7509279b086ba56f0297d3286af7dd85847368d9ebf0fabff1cb556d9e",
+  "generatedAt": "2026-07-24T16:47:01.177626Z",
+  "parentPatchId": "TDT-EXPORT-WORKER-05",
+  "parentArchive": "44_TDT_EXPORT_WORKER_05_JXL_DEDICATED_WORKER_PROMOTION_ABI_BITDEPTH_PTHREAD_CONTAINER_TRUTH_SOURCE_BAKED_UNPROMOTED.zip",
+  "scope": [
+    "dedicated canonical MODJPEG worker and EW02 broker operation",
+    "encode_mozjpeg_RGB ABI preservation",
+    "worker-local RGBA8 to RGB8 conversion and explicit alpha policy",
+    "quality percent contract and explicit legacy ratio adaptation",
+    "baseline 8-bit three-component 4:4:4 structure verification",
+    "worker-local JFIF DPI and ICC APP2 marker finalization",
+    "JPEG output mutation seal and EW06 export receipt evidence",
+    "pthread artifact truth and false single-thread promotion prevention"
+  ],
+  "canonicalJpegTarget": {
+    "workerId": "dadum.worker.encoder.modjpeg-canonical-v1",
+    "operation": "encode.jpeg-baseline-444",
+    "codecProtocolVersion": "dadum-modjpeg-canonical-worker-v1",
+    "abiSymbol": "encode_mozjpeg_RGB",
+    "inputStorage": "rgba8unorm-srgb",
+    "bitDepthsAdvertised": [
+      8
+    ],
+    "subsampling": "4:4:4",
+    "frameMode": "baseline-sequential",
+    "alphaPolicies": [
+      "reject-nonopaque-v1",
+      "composite-over-matte-srgb8-v1"
+    ],
+    "qualityUnit": "percent",
+    "activeArtifactKind": "inherited-emscripten-pthread-build",
+    "canonicalSingleThread": false,
+    "pthreadPoolSize": 8,
+    "sharedMemoryRequired": true,
+    "moduleArtifactSha256": "6c951106e5cc2b68b06b8f6290e448a892c2a31da017f3c5946f5fb7903b6166",
+    "wasmArtifactSha256": "6f669d33e1d7f47f95ca14c4562bbb55985942f5c43a01521aeb6f01dd2e0a14",
+    "actualWasmEncodeExecuted": false
+  },
+  "validation": {
+    "inheritedGates": "PASS R1-R7 and EW01-EW05",
+    "ew06StaticGates": "PASS 44/44",
+    "jpegStructureSourceSmoke": "PASS",
+    "strictTypescriptClosure": "PASS",
+    "changedJavaScriptSyntax": "PASS",
+    "stableErrorRegistry": "PASS 202/202 referenced codes",
+    "fullVueTscViteElectron": "BLOCKED vue-tsc/node_modules unavailable",
+    "actualModjpegWasmEncode": "NOT_RUN",
+    "independentDecoderRoundtrip": "NOT_RUN",
+    "lossyMetricCorpus": "NOT_RUN",
+    "pthreadRetirement": "NOT_PROVEN",
+    "lockConsistency": {
+      "consistent": false,
+      "missing": [
+        {
+          "name": "pinia",
+          "expected": "3.0.1",
+          "actual": null
+        },
+        {
+          "name": "vue",
+          "expected": "3.5.40",
+          "actual": null
+        },
+        {
+          "name": "@napi-rs/cli",
+          "expected": "^2.18.4",
+          "actual": null
+        },
+        {
+          "name": "@vitejs/plugin-vue",
+          "expected": "6.0.7",
+          "actual": null
+        },
+        {
+          "name": "typescript",
+          "expected": "5.9.3",
+          "actual": null
+        },
+        {
+          "name": "vite",
+          "expected": "8.1.5",
+          "actual": null
+        },
+        {
+          "name": "vue-tsc",
+          "expected": "3.2.2",
+          "actual": null
+        }
+      ]
+    }
+  },
+  "workerManifest": {
+    "sourceManifestDigest": "1c6a110140a587c01fda30ce929924750a5dc186d6982fc47e67eb4bd90363e9",
+    "artifactVerificationMode": "source-graph-only",
+    "workerCount": 5,
+    "jpegWorkerId": "dadum.worker.encoder.modjpeg-canonical-v1",
+    "jpegArtifactSetDigest": "cd0bca5d6c4406497c2f85ce5515a17d9d8e19dc722b38cfb0fd748df0cef395"
+  },
+  "sealComponents": {
+    "schema": "dadum-ew06-source-bake-seal-v1",
+    "patchId": "TDT-EXPORT-WORKER-06",
+    "status": "SOURCE_BAKED_UNPROMOTED",
+    "buildId": "8e69f8d57a78a504b0a2ef22",
+    "parentPatchId": "TDT-EXPORT-WORKER-05",
+    "runtimeManifestSelfDigest": "9bb134a7c78c85b9105d142395f238a3d6b6cfe8bad2ba579f385f93f431902d",
+    "runtimeSourceGraphDigest": "71d2a6f0c94459f91da1de7fcb9d17d877cb2821120c8cb3a15837f38113f219",
+    "runtimePlanDigest": "cf42ecd820a72d28f278a04bb0b0aba98a510951332e4a7c40b2380528868816",
+    "legacyManifestDigest": "9768a4205004019ab2278d3a1f4bd59851032c5fbd06b4641aa471c9c097a51d",
+    "workerSourceManifestDigest": "1c6a110140a587c01fda30ce929924750a5dc186d6982fc47e67eb4bd90363e9",
+    "jpegWorkerArtifactSetDigest": "cd0bca5d6c4406497c2f85ce5515a17d9d8e19dc722b38cfb0fd748df0cef395",
+    "modjpegModuleSha256": "6c951106e5cc2b68b06b8f6290e448a892c2a31da017f3c5946f5fb7903b6166",
+    "modjpegWasmSha256": "6f669d33e1d7f47f95ca14c4562bbb55985942f5c43a01521aeb6f01dd2e0a14",
+    "promotionEligible": false,
+    "canonicalSingleThread": false,
+    "inheritedPthreadPoolSize": 8,
+    "actualModjpegEncodeExecuted": false,
+    "independentDecoderExecuted": false,
+    "lossyMetricExecuted": false,
+    "pthreadRetirementVerified": false,
+    "packageLockConsistent": false,
+    "specSha256": "e8a282e15b8d391ff69e4228e75cf0611095161621feb3c2d051d90205504e47",
+    "sourceVerifySha256": "6d309d25b453a9827be251d18c06b21ce267c9028c18d579f812b1195af1ee87",
+    "strictTsSha256": "8ba0046cfcc8e3f5f9cf7dc37b9dd31847cec448f322db1286104954c34b1ee7",
+    "fullVerifySha256": "1fc4780cab946b54a25a6c9f8d13618e8a1de55ea65aef226b254956507a8f22",
+    "syntaxSha256": "3f8a484e4b29029b62886f7a454bd5a339bc4ea872561bbe99c4fa4394f617bf",
+    "structureSmokeSha256": "c5101c8566839d84f1755f319c6dd90084355576b00ae1d3e5020f4d55a79d7c",
+    "promotionReceiptSha256": "52fecfda3352631729a30076158d40e97bea10b1eeac1cd5742d230d5813fc57",
+    "pthreadReportSha256": "38291bcd7b0b0d751f534ecdb5332aee901e80544c94fce0d918e406d9c637c0",
+    "roundtripReportSha256": "f4856650dae9daac4de78fc69ddb946ceefa0523e7ce883ddecd23acc99f3ffd",
+    "isolationReportSha256": "9490e4d34fd9fb23f567de613ca5cee45a48e9e4299a6893c854901a7af9eb63",
+    "artifactReportSha256": "fac7028a4a968c3ca5564b6d290115acfcb973d9fccfa2ea50bc6ef7261331cf",
+    "sourceBakeSealPayloadSha256": "d4d62f7509279b086ba56f0297d3286af7dd85847368d9ebf0fabff1cb556d9e",
+    "diffSha256": "3f058e403b1b37d809c403604fe25c9076b6bea09540968ee638c3563b930227",
+    "appliedReadmeSha256": "60401c8a87bcb8b0d461af8baecfe089cd5e1d7d6929af504d99944f064f68d3"
+  },
+  "blockers": [
+    "vite-production-build-not-run",
+    "electron-worker-e2e-not-run",
+    "single-thread-modjpeg-artifact-not-built",
+    "actual-modjpeg-wasm-encode-not-run",
+    "independent-jpeg-decoder-roundtrip-not-run",
+    "lossy-metric-corpus-not-run",
+    "pthread-child-closure-not-measured",
+    "package-lock-inconsistent"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "tdt-export-worker-05-jxl-abi-fixture-v1",
+  "status": "STATIC_ABI_PRESERVED_RUNTIME_UNVERIFIED",
+  "promotionEligible": false,
+  "abiSymbol": "jxl_encode_qmap_ex",
+  "freeSymbol": "jxl_free",
+  "abiAdapterSourceSha256": "f10586684857e6282501d4ad4590afbf2791bd0ca4acbe413db7fb47d484dc12",
+  "wasmArtifactSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+  "rgba8AbiStaticallyBound": true,
+  "rgba8AbiRuntimeVerified": false,
+  "rgba16AbiVerified": false,
+  "rgba16Advertised": false,
+  "u16LittleEndianVerified": false
+}

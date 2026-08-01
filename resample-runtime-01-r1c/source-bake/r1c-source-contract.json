@@ -1,0 +1,560 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1C",
+  "pass": true,
+  "counts": {
+    "pass": 90,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "RC01",
+      "pass": true,
+      "message": "spec identity",
+      "detail": null
+    },
+    {
+      "id": "RC02",
+      "pass": true,
+      "message": "DeltaK facade preserved",
+      "detail": null
+    },
+    {
+      "id": "RC03",
+      "pass": true,
+      "message": "Export facade preserved",
+      "detail": null
+    },
+    {
+      "id": "RC04",
+      "pass": true,
+      "message": "two tensor modes",
+      "detail": null
+    },
+    {
+      "id": "RC05",
+      "pass": true,
+      "message": "positional ABI legacy mode",
+      "detail": null
+    },
+    {
+      "id": "RC06",
+      "pass": true,
+      "message": "legacy requires tensor",
+      "detail": null
+    },
+    {
+      "id": "RC07",
+      "pass": true,
+      "message": "legacy tensor presence receipt input",
+      "detail": null
+    },
+    {
+      "id": "RC08",
+      "pass": true,
+      "message": "DeltaK tensor bundle creation",
+      "detail": null
+    },
+    {
+      "id": "RC09",
+      "pass": true,
+      "message": "DeltaK per-stage tensor build",
+      "detail": null
+    },
+    {
+      "id": "RC10",
+      "pass": true,
+      "message": "DeltaK tensor release",
+      "detail": null
+    },
+    {
+      "id": "RC11",
+      "pass": true,
+      "message": "tensor ABI identity",
+      "detail": null
+    },
+    {
+      "id": "RC12",
+      "pass": true,
+      "message": "tensor ABI 64 bytes",
+      "detail": null
+    },
+    {
+      "id": "RC13",
+      "pass": true,
+      "message": "kernel radius 4",
+      "detail": null
+    },
+    {
+      "id": "RC14",
+      "pass": true,
+      "message": "tensor pack exact and zero padding",
+      "detail": null
+    },
+    {
+      "id": "RC15",
+      "pass": true,
+      "message": "tensor sigma range",
+      "detail": null
+    },
+    {
+      "id": "RC16",
+      "pass": true,
+      "message": "minor coverage range",
+      "detail": null
+    },
+    {
+      "id": "RC17",
+      "pass": true,
+      "message": "declared sRGB tensor decode",
+      "detail": null
+    },
+    {
+      "id": "RC18",
+      "pass": true,
+      "message": "Scharr gradient",
+      "detail": null
+    },
+    {
+      "id": "RC19",
+      "pass": true,
+      "message": "outer product",
+      "detail": null
+    },
+    {
+      "id": "RC20",
+      "pass": true,
+      "message": "9-tap horizontal integration",
+      "detail": null
+    },
+    {
+      "id": "RC21",
+      "pass": true,
+      "message": "9-tap vertical integration",
+      "detail": null
+    },
+    {
+      "id": "RC22",
+      "pass": true,
+      "message": "eigen decomposition",
+      "detail": null
+    },
+    {
+      "id": "RC23",
+      "pass": true,
+      "message": "coherence formula",
+      "detail": null
+    },
+    {
+      "id": "RC24",
+      "pass": true,
+      "message": "deterministic tangent",
+      "detail": null
+    },
+    {
+      "id": "RC25",
+      "pass": true,
+      "message": "field RGBA schema",
+      "detail": null
+    },
+    {
+      "id": "RC26",
+      "pass": true,
+      "message": "runtime field schema",
+      "detail": null
+    },
+    {
+      "id": "RC27",
+      "pass": true,
+      "message": "four tensor intermediates recorded",
+      "detail": null
+    },
+    {
+      "id": "RC28",
+      "pass": true,
+      "message": "five tensor textures owned",
+      "detail": null
+    },
+    {
+      "id": "RC29",
+      "pass": true,
+      "message": "tensor submission fence",
+      "detail": null
+    },
+    {
+      "id": "RC30",
+      "pass": true,
+      "message": "stale epoch rejected",
+      "detail": null
+    },
+    {
+      "id": "RC31",
+      "pass": true,
+      "message": "EWA v3 identity",
+      "detail": null
+    },
+    {
+      "id": "RC32",
+      "pass": true,
+      "message": "EWA v3 80 bytes",
+      "detail": null
+    },
+    {
+      "id": "RC33",
+      "pass": true,
+      "message": "EWA v3 final offset",
+      "detail": null
+    },
+    {
+      "id": "RC34",
+      "pass": true,
+      "message": "v2 compatibility pipeline retained",
+      "detail": null
+    },
+    {
+      "id": "RC35",
+      "pass": true,
+      "message": "v3 canonical pipeline retained through R2 profiles",
+      "detail": null
+    },
+    {
+      "id": "RC36",
+      "pass": true,
+      "message": "independent reference pipeline",
+      "detail": null
+    },
+    {
+      "id": "RC37",
+      "pass": true,
+      "message": "dispatch selects canonical mode",
+      "detail": null
+    },
+    {
+      "id": "RC38",
+      "pass": true,
+      "message": "dual ABI packers",
+      "detail": null
+    },
+    {
+      "id": "RC39",
+      "pass": true,
+      "message": "layout size matches ABI",
+      "detail": null
+    },
+    {
+      "id": "RC40",
+      "pass": true,
+      "message": "dispatch truth receipt",
+      "detail": null
+    },
+    {
+      "id": "RC41",
+      "pass": true,
+      "message": "tangent scale projection",
+      "detail": null
+    },
+    {
+      "id": "RC42",
+      "pass": true,
+      "message": "normal scale projection",
+      "detail": null
+    },
+    {
+      "id": "RC43",
+      "pass": true,
+      "message": "edge gate",
+      "detail": null
+    },
+    {
+      "id": "RC44",
+      "pass": true,
+      "message": "coherence exponent",
+      "detail": null
+    },
+    {
+      "id": "RC45",
+      "pass": true,
+      "message": "bounded anisotropy",
+      "detail": null
+    },
+    {
+      "id": "RC46",
+      "pass": true,
+      "message": "minor coverage floor",
+      "detail": null
+    },
+    {
+      "id": "RC47",
+      "pass": true,
+      "message": "physical lattice traversal",
+      "detail": null
+    },
+    {
+      "id": "RC48",
+      "pass": true,
+      "message": "ellipse membership and radial window",
+      "detail": null
+    },
+    {
+      "id": "RC49",
+      "pass": true,
+      "message": "zero-weight guard",
+      "detail": null
+    },
+    {
+      "id": "RC50",
+      "pass": true,
+      "message": "tiled/reference independence",
+      "detail": null
+    },
+    {
+      "id": "RC51",
+      "pass": true,
+      "message": "shader digest independence",
+      "detail": null
+    },
+    {
+      "id": "RC52",
+      "pass": true,
+      "message": "legacy normalized field preserved",
+      "detail": null
+    },
+    {
+      "id": "RC53",
+      "pass": true,
+      "message": "stage tensor mode receipt",
+      "detail": null
+    },
+    {
+      "id": "RC54",
+      "pass": true,
+      "message": "legacy consumed flag",
+      "detail": null
+    },
+    {
+      "id": "RC55",
+      "pass": true,
+      "message": "tensor receipt nested",
+      "detail": null
+    },
+    {
+      "id": "RC56",
+      "pass": true,
+      "message": "DeltaK core preserved",
+      "detail": null
+    },
+    {
+      "id": "RC57",
+      "pass": true,
+      "message": "Export tensor bundle",
+      "detail": null
+    },
+    {
+      "id": "RC58",
+      "pass": true,
+      "message": "Export per-stage tensor build",
+      "detail": null
+    },
+    {
+      "id": "RC59",
+      "pass": true,
+      "message": "Export source domain recorded",
+      "detail": null
+    },
+    {
+      "id": "RC60",
+      "pass": true,
+      "message": "Export binds eigen field",
+      "detail": null
+    },
+    {
+      "id": "RC61",
+      "pass": true,
+      "message": "Export releases tensor resources",
+      "detail": null
+    },
+    {
+      "id": "RC62",
+      "pass": true,
+      "message": "Export ABI expanded to 80",
+      "detail": null
+    },
+    {
+      "id": "RC63",
+      "pass": true,
+      "message": "Export R1C offsets",
+      "detail": null
+    },
+    {
+      "id": "RC64",
+      "pass": true,
+      "message": "four-neighbor authority removed",
+      "detail": null
+    },
+    {
+      "id": "RC65",
+      "pass": true,
+      "message": "lowpass tensor binding",
+      "detail": null
+    },
+    {
+      "id": "RC66",
+      "pass": true,
+      "message": "recompose tensor binding",
+      "detail": null
+    },
+    {
+      "id": "RC67",
+      "pass": true,
+      "message": "lowpass uses field ellipse",
+      "detail": null
+    },
+    {
+      "id": "RC68",
+      "pass": true,
+      "message": "final uses field ellipse",
+      "detail": null
+    },
+    {
+      "id": "RC69",
+      "pass": true,
+      "message": "linear stage uses field ellipse",
+      "detail": null
+    },
+    {
+      "id": "RC70",
+      "pass": true,
+      "message": "R1B IO conservation",
+      "detail": null
+    },
+    {
+      "id": "RC71",
+      "pass": true,
+      "message": "Export tensor receipt",
+      "detail": null
+    },
+    {
+      "id": "RC72",
+      "pass": true,
+      "message": "Export tensor disposal receipt",
+      "detail": null
+    },
+    {
+      "id": "RC73",
+      "pass": true,
+      "message": "canonical EWA asset sealed",
+      "detail": null
+    },
+    {
+      "id": "RC74",
+      "pass": true,
+      "message": "tensor assets sealed",
+      "detail": null
+    },
+    {
+      "id": "RC75",
+      "pass": true,
+      "message": "Export WGSL assets resealed",
+      "detail": null
+    },
+    {
+      "id": "RC76",
+      "pass": true,
+      "message": "production pointer unchanged",
+      "detail": null
+    },
+    {
+      "id": "RC77",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC78",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC79",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC80",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC81",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC82",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC83",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC84",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC85",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC86",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC87",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC88",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC89",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    },
+    {
+      "id": "RC90",
+      "pass": true,
+      "message": "reserved source contract gate",
+      "detail": null
+    }
+  ],
+  "shaderDigests": {
+    "gradient": "8684b23a8ce508cdc3f924c33d1aa953d9f7f385caf5946f9abde60a0125d523",
+    "outer": "9f5efaf050770153aff11f8ac75fc23e58be0dd645bf447bfbb77b5db46acab7",
+    "blurH": "3a61bff829b29a8cfee2a6cd034f80c907f9818419a2ff11872f3694827f0dad",
+    "blurV": "b107acc388179159aa0baf32abba2be445b4d91b34e73d0c40539e785497d038",
+    "eigen": "c4560743a9d42718e261c2cd2f069289aed6efabd341dc11b89c7c765ff38728",
+    "product": "c1b8dab861942d59634c0482024ba6056d819027bc8efa293aa1ffbfe6d84641",
+    "reference": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb"
+  }
+}

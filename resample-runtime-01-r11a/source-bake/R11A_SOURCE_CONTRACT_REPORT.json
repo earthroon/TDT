@@ -1,0 +1,20 @@
+{
+  "browserWindowShowAfterRendererReady": true,
+  "exportGrantRequired": true,
+  "historicalPassCarryForward": 0,
+  "hostSaveGrantRequired": true,
+  "installedSessionIssued": false,
+  "installedStrictPhysicalCanaryPending": true,
+  "legacyFrameCaptureWriteDisabled": true,
+  "localActivationPointerMutated": false,
+  "mainProcessIsAdmissionSsot": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "preloadIsCapabilityOnly": true,
+  "previewGrantRequired": true,
+  "productionPointerMutated": false,
+  "rendererCannotMintSession": true,
+  "schemaVersion": 1,
+  "selfSha256": "a3d6f66879f2f720faf60abb40c7b2c2241f6d351d21cbf54e3279aec8207ad0",
+  "specSha256": "a2a2d68ab276b5c1733dfd91bf478d237ca11d6c6498a345b0f318f679aaaff5"
+}

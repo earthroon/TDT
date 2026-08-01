@@ -1,0 +1,98 @@
+{
+  "detected": 22,
+  "evidence": [
+    {
+      "errorCode": "E_R12_PATH_TRAVERSAL",
+      "name": "traversal"
+    },
+    {
+      "errorCode": "E_R12_PATH_TRAVERSAL",
+      "name": "absolute"
+    },
+    {
+      "errorCode": "E_R12_ADS_FORBIDDEN",
+      "name": "ads"
+    },
+    {
+      "errorCode": "E_R12_CASE_COLLISION",
+      "name": "case-collision"
+    },
+    {
+      "errorCode": "E_R12_PATH_TRAVERSAL",
+      "name": "reserved-name"
+    },
+    {
+      "errorCode": "E_R12_PATH_TRAVERSAL",
+      "name": "trailing-dot"
+    },
+    {
+      "errorCode": "E_R12_FINAL_RECEIPT_INCOMPLETE",
+      "name": "transaction-skip"
+    },
+    {
+      "errorCode": "E_R12_FINAL_RECEIPT_INCOMPLETE",
+      "name": "transaction-rewind"
+    },
+    {
+      "name": "journal-corrupt-tail",
+      "preservedEntries": 2
+    },
+    {
+      "errorCode": "E_R12_REPARSE_POINT_FORBIDDEN",
+      "name": "external-hardlink"
+    },
+    {
+      "errorCode": "E_R12_PACKAGE_CLOSURE_INCOMPLETE",
+      "name": "mutated-package"
+    },
+    {
+      "errorCode": "E_R12_REPARSE_POINT_FORBIDDEN",
+      "name": "junction-or-symlink"
+    },
+    {
+      "errorCode": "E_R12_CONTENT_ID_COLLISION",
+      "name": "content-id-collision"
+    },
+    {
+      "errorCode": "E_R12_CROSS_GENERATION_HANDSHAKE",
+      "name": "old-worker"
+    },
+    {
+      "errorCode": "E_R12_CROSS_GENERATION_HANDSHAKE",
+      "name": "old-wasm-helper"
+    },
+    {
+      "errorCode": "E_R12_CROSS_GENERATION_HANDSHAKE",
+      "name": "old-native-addon"
+    },
+    {
+      "errorCode": "E_R12_PRODUCTION_POINTER_STALE",
+      "name": "stale-r10-pointer"
+    },
+    {
+      "errorCode": "E_R12_LOCAL_POINTER_CAS_MISMATCH",
+      "name": "stale-local-pointer"
+    },
+    {
+      "errorCode": "E_R12_LOCAL_POINTER_CAS_MISMATCH",
+      "name": "pointer-generation-mismatch"
+    },
+    {
+      "name": "post-cas-kill",
+      "recovery": "RETRY_R11_HANDOFF"
+    },
+    {
+      "name": "r11-handoff-kill",
+      "recovery": "RESTORE_PREVIOUS_RECOVERY_ONLY"
+    },
+    {
+      "errorCode": "E_R12_PRODUCTION_POINTER_WRITE_ATTEMPT",
+      "name": "production-pointer-write"
+    }
+  ],
+  "pass": true,
+  "productionPointerMutated": false,
+  "receiptSha256": "2a0e0bae720943642c1e96ab6eaaa6e417139047daaa9023185d86f0c43a7389",
+  "schemaId": "tdt.resample-runtime.r12.negative-controls.v1",
+  "schemaVersion": 1
+}

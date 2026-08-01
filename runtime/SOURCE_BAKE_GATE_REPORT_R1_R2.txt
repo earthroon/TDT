@@ -1,0 +1,10 @@
+[TDT-RUNTIME-SSOT-01-R1] generated build e535532987da689d769e168d; lockConsistent=false
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+PASS GATE-R1-08 Pinia static serializability gate
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, syntax clean, no /app path dialect
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+PASS GATE-R1-20 deterministic receipt parity 100/100 03874c9cd21023ad73df9e2d82fb8464c169d0c064f50ceff27358bf1ec33aa7
+PASS TypeScript syntax 48 files
+PASS GATE-R1-ERROR-CODE stable error registry 29/29 referenced codes declared
+PASS_TDT_RUNTIME_SSOT_01_R1_R2_SOURCE_BAKE_UNPROMOTED

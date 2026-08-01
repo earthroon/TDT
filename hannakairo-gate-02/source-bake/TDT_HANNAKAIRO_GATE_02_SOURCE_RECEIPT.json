@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-HANNAKAIRO-GATE-02",
+  "state": "HANNAKAIRO_GATE_02_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-HANNAKAIRO-PHASE-01",
+  "parentZipSha256": "41f4cdc1feb6cace2e3390b8d5df1f8ebec8d3a30cfeaf6f4694a6dbb493bb91",
+  "parentSourceSealSha256": "d0538fcd7df0c25aad45bead9ff28df00793a690cda8801523939cb8c9a99b86",
+  "sourceSealSha256": "a9bb251d9b6c47794538aaf524211ab27ab6de1c5face366c01b4291426a544a",
+  "changedFileCount": 84,
+  "sealedFileCount": 50,
+  "observationalFileCount": 36,
+  "files": [
+    {
+      "relative": "README_TDT_HANNAKAIRO_GATE_02_APPLIED.md",
+      "byteLength": 4970,
+      "sha256": "5d649b256b958eb584988fd817ff3134ac024476d638636e6d0842b83698ab28"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-directional-gate-finalize.wgsl",
+      "byteLength": 1356,
+      "sha256": "07da2465b2de380b8b0ac7926a2fd2f9be4ec99c58988856612cbba4e9153f37"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-compare.wgsl",
+      "byteLength": 1531,
+      "sha256": "eb58078520b63a039d8ccdad6852ff6f3907c87d81f21b528c4bc973990e28b8"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-fixture-generator.wgsl",
+      "byteLength": 1137,
+      "sha256": "158021bf01afb6bc5ef4dc267116541dd39737f4c0ad5a90e462b822ff2acdfb"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-reference.wgsl",
+      "byteLength": 1433,
+      "sha256": "3be01a1b6939087234ef08bdae4293fded3d4d5f0b346a5fc84dd39c060d6441"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-spectral-project-stage.wgsl",
+      "byteLength": 3296,
+      "sha256": "aa65c90899181e44c0ef1e92361d404f16f5438aa45607a92cc98306ac039a36"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-tensor-spectral-align.wgsl",
+      "byteLength": 2706,
+      "sha256": "cf36ed1d9532d0854da860a52553ab6c5168a165efd21a5d12eddb7d579b6be2"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/hannakairo_gate_bridge.mjs",
+      "byteLength": 1803,
+      "sha256": "575a6397e61558e2aea6f165e88da6fee57a3a217f6043115ea43ade958fa93e"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 27697,
+      "sha256": "479bcbcde7f760ad027fd2593999c5f58de3f3a54dbd2756abb6327221981198"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 27706,
+      "sha256": "1e9f7bbe1414fb01f13c855d2ce556bccb4583ea91c5c00b0c10b4a0b9bf5066"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 72028,
+      "sha256": "ee5da15c9f522c35e8827c9f80b192a43afb6542e7945605b8272a93593d7f0a"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106337,
+      "sha256": "ff2a59e149395cc2dfa6f0168a7c6d382652fbde11f5bd63c345577dbde4c078"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 204996,
+      "sha256": "6ffd7b28d1bbbfa6acb8d0521efda52272faf79ac8d6c36a9a2cd41104f50014"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-global.d.ts",
+      "byteLength": 789,
+      "sha256": "1f04087ba312dfae80a7a5521bf26a692a47c8929ae25a7587c7217953b14a27"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-claim-report.json",
+      "byteLength": 5062,
+      "sha256": "d6f28cee55a9aef2a061ac741036cd253234df9ad37e17349aac91d3b3ecd5a9"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-compatibility-classification.json",
+      "byteLength": 30233,
+      "sha256": "e002d3164daa3bd752d8d836ee3f00a01281b8db3810750918608eaf6dc2b6da"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-producer-inventory.json",
+      "byteLength": 9902,
+      "sha256": "9b8b0d06ca61bad4ce76fe342a58d48d1b3cef7a08257bc2ebc285af6fc9efce"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-semantic-registry.json",
+      "byteLength": 37048,
+      "sha256": "2a62c163a6ef9e0324edf4d17ff5bb5340c61bcaf391086d8831fe13055138dd"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-gate-job-arena.ts",
+      "byteLength": 1591,
+      "sha256": "8f37aa3fbf0c218eb40f7ade1f46d9a9ae292ce486ae773c164bc930ca17c90d"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-gate-parameters.ts",
+      "byteLength": 3269,
+      "sha256": "6ec33145fd7323e9effa0e99c58200ae675bfe18457dbb675d7fe32d2c8710c3"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-gate-receipt.ts",
+      "byteLength": 1288,
+      "sha256": "d2e9017a5abeb28f3acc5f4680bde0f6d496cb1295dc481fd14929d3a426a8c4"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-gate-service.ts",
+      "byteLength": 20835,
+      "sha256": "94a081e350b7fc4edc1e88f2cc63f6898d3929e4a4ed146baa24debca0d62a5b"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-gate-types.ts",
+      "byteLength": 2730,
+      "sha256": "262365db7661d495b8ab7a37d317e70243e4dd8bb4f1405ca66b83c22b037dbc"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 30726,
+      "sha256": "dd797ae52493265a84156bba4a55f18535afedd6c1e91874b08fd5deba2617d1"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "byteLength": 1635,
+      "sha256": "64e2f9bc8b24b94ea5c7be910793ebd2f395b5365d1de3b161e41fd7b7bef03c"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1613,
+      "sha256": "9f11cdf3b7c5beb4e1649fe3cc039e71c5c167636c9191ace933eea7b1822dc2"
+    },
+    {
+      "relative": "artifacts/hannakairo-gate-02/source-bake/TDT_HANNAKAIRO_GATE_02_REGRESSION_SUMMARY.json",
+      "byteLength": 3850,
+      "sha256": "bccfd5fff59ae7a1799f37eec837143d166a6585c19ef1fdb8e99858f919750a"
+    },
+    {
+      "relative": "artifacts/hannakairo-gate-02/source-bake/TDT_HANNAKAIRO_GATE_02_SOURCE_GATE.json",
+      "byteLength": 20668,
+      "sha256": "e982a93ddba6c417446bf994ac5bdb8ae98756ad6a13ddd181f40b6b9e934204"
+    },
+    {
+      "relative": "artifacts/hannakairo-gate-02/source-bake/hg02-runtime-smoke.json",
+      "byteLength": 3397,
+      "sha256": "987ca5bd4d9ff5d7e5c950a22dbc3141c4671ca8f6251991be9902479f7a4aa7"
+    },
+    {
+      "relative": "artifacts/hannakairo-gate-02/source-bake/hg02-source-contract.json",
+      "byteLength": 12413,
+      "sha256": "11bdfb98fd3e5dca2d0937280ad532515f3a1339302d16a1fc999cfa5825ae5d"
+    },
+    {
+      "relative": "artifacts/hannakairo-gate-02/source-bake/hg02-wgsl-contract.json",
+      "byteLength": 8185,
+      "sha256": "1729bf93c254d7a02c292d3a545f15cbaf8911a1dc771b4d6b6a104dbd71915e"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 21431,
+      "sha256": "d63718e4a0a860d9353e51ef4dc2399d840f8bf5434a38b2f48387b5a4f922ac"
+    },
+    {
+      "relative": "patches/TDT_HANNAKAIRO_GATE_02_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 31818,
+      "sha256": "58ad56f7ef43e5e0d780f59594d5009b94416fbe527f287bd68314e1f5133248"
+    },
+    {
+      "relative": "patches/TDT_HANNAKAIRO_GATE_02_directional_gate_repair_tensor_spectral_alignment_neutral_identity.diff",
+      "byteLength": 202232,
+      "sha256": "0b4162d53e31f48bfcfb6b15ada6634dbac824f7d5109c976f4ab11a3c9a3ecf"
+    },
+    {
+      "relative": "specs/TDT-HANNAKAIRO-GATE-02_DIRECTIONAL_GATE_REPAIR_TENSOR_SPECTRAL_ALIGNMENT_NEUTRAL_IDENTITY_SEAL_SPEC.md",
+      "byteLength": 26906,
+      "sha256": "397b909bd08f7f6bac29e56fc53486920d6969bb146c11ab7cf1ff1ba50afa2f"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 11954,
+      "sha256": "0ca415cbc2dc013da6fb3617c252af6bccacd94d424dafd57700834c7df8a0ae"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-error-codes.mjs",
+      "byteLength": 1943,
+      "sha256": "dd16571e31478a951151353cb58dfb62fd9638ac5df5765415fb5b810a18c3c5"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+      "byteLength": 6236,
+      "sha256": "2deb0f4277177e6b9979fcd9cd2caf4c61c738dd6b9291aeef04afb0b8b4ff48"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+      "byteLength": 8051,
+      "sha256": "3b181376a747f8f4fb47fcd493d3812342cb9b72f45afc48fbc007b13560c249"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-source-contract.mjs",
+      "byteLength": 8651,
+      "sha256": "02e8afa8b5db7e06130c5db3eda2c0ba949923dae978eccaff2932b1b3e336ac"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/finalize.mjs",
+      "byteLength": 3483,
+      "sha256": "5631df8683a158886f466db5e7c3b4b277514ad0b2d10a175d7b19a2464d7949"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/gate.mjs",
+      "byteLength": 1434,
+      "sha256": "8311223bf1f09b988c1a437a06dbaee60136f99922427ef876bb0ab6e6938e82"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/lib.mjs",
+      "byteLength": 1076,
+      "sha256": "5f18e1ba9260ce30d6f2904f7a479571a86d91399b59a03ff7f02be14ab38686"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/run.mjs",
+      "byteLength": 124,
+      "sha256": "c43815bc416e0a4ad5c374a8524ec0e10b00711814c68fbe165782df35cdc58e"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/runtime-smoke.mjs",
+      "byteLength": 5603,
+      "sha256": "cf09812296a819662f839ddb3e276fad96fdd5505dcb692e3e3a14e826339f4b"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/verify-source-contract.mjs",
+      "byteLength": 5840,
+      "sha256": "191395b6d691c10f63b031ed1c0a452f62a91e28a2a7e9c60f32206b04caca56"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/verify-wgsl-contract.mjs",
+      "byteLength": 2986,
+      "sha256": "dfd5024b466d71eda0f59700de28a0258dd8ae16b961c72189414b65a3a99dc5"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/verify-source-contract.mjs",
+      "byteLength": 4429,
+      "sha256": "497d258c0c97e49e9e769fc8177a5eca23d85f52f384b9ec0cada4e41758b11e"
+    },
+    {
+      "relative": "tools/spectral-qmap-02/verify-source-contract.mjs",
+      "byteLength": 8654,
+      "sha256": "4a2370ef50958286f5140b06c8a936722fa7795b78c7516a9eb867cd9ee0cdb4"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/verify-source-contract.mjs",
+      "byteLength": 6534,
+      "sha256": "b17ac8bbd4354129e0884fd75d639e94bd7547e1ea26dd760f86a8887113033e"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 172,
+    "DEFERRED": 12,
+    "FAIL": 0
+  },
+  "semanticRegistryVersion": "tdt.analysis.semantic-registry.hannakairo-gate-02.v1",
+  "analysisFieldAuthorityId": "dadum.analysis-field-authority.aft00",
+  "hannakairoGateAuthorityId": "dadum.hannakairo-gate-authority.hg02",
+  "producerId": "tdt.analysis.producer.hannakairo.directional-gate",
+  "inputSemanticIds": [
+    "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1",
+    "tdt.analysis.spectral.window-peak-orientation.v1",
+    "tdt.analysis.hannakairo.phase-coherence.v1"
+  ],
+  "outputSemanticIds": [
+    "tdt.analysis.hannakairo.tensor-spectral-alignment.v1",
+    "tdt.analysis.hannakairo.directional-gate.v2"
+  ],
+  "queueSubmissionCount": 1,
+  "intermediateReadbackCount": 0,
+  "cpuProductComputeClaim": false,
+  "neutralIdentitySourceClaim": true,
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false
+}

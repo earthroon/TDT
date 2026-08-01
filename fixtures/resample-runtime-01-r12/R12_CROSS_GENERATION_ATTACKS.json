@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "attacks": [
+    "OLD_WORKER",
+    "OLD_WASM_HELPER",
+    "OLD_NATIVE_ADDON",
+    "OLD_WGSL_BYTES",
+    "STALE_R11_TOKEN",
+    "GENERATION_NEUTRAL_CACHE"
+  ]
+}

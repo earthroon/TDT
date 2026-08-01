@@ -1,0 +1,23 @@
+{
+  "buildLockR2FinalAdmitted": false,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 360,
+    "PENDING": 360,
+    "SKIPPED": 0
+  },
+  "directKernelDriverInvocationCount": 0,
+  "exportPublicEntryExecuted": false,
+  "externalSidecarEmitted": false,
+  "historicalPassCarryForward": 0,
+  "localActivationPointerMutated": false,
+  "normalRuntimeCompositionExecuted": false,
+  "packagedClosureBound": false,
+  "previewPublicEntryExecuted": false,
+  "productionPointerMutated": false,
+  "receiptKind": "r9a-p1-r1-source-contract",
+  "schemaVersion": 1,
+  "selfSha256": "7f3e3c148d5748b5b5d7767461f7716b00aa49743b1ab3c3cd1abe99945ba2d9",
+  "state": "RESAMPLE_RUNTIME_R9A_P1_R1_EXTERNAL_BUILD_ADMISSION_AND_NORMAL_PRODUCT_ENTRY_SOURCE_SEALED_AWAITING_BUILD_LOCK_R2_WIN32_AND_PACKAGED_QUALIFICATION"
+}

@@ -1,0 +1,1109 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "scope": "SOURCE_RUNTIME_FIXTURE_MATRIX",
+  "passed": 176,
+  "total": 176,
+  "failed": [],
+  "tests": [
+    {
+      "id": "PSD01-T001",
+      "name": "source audit parserSha256",
+      "ok": true,
+      "detail": {
+        "value": "ca803df175c9a4af8eeda9c80ca559fecea7f126b41ea68acb8012933908949f"
+      }
+    },
+    {
+      "id": "PSD01-T002",
+      "name": "source audit workerSha256",
+      "ok": true,
+      "detail": {
+        "value": "1091d6a55d331a7e78a8d14f6b88a43ef6a0925b775f494113f6742031713ce7"
+      }
+    },
+    {
+      "id": "PSD01-T003",
+      "name": "source audit psdCoreWasmSha256",
+      "ok": true,
+      "detail": {
+        "value": "7acf14e838c63d6ede977e756d2ea643c856f14a7a6c4d28175ada1aeb14984b"
+      }
+    },
+    {
+      "id": "PSD01-T004",
+      "name": "source audit directParser",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T005",
+      "name": "source audit noPresentation",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T006",
+      "name": "source audit rawRle",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T007",
+      "name": "source audit rgb16Exact",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T008",
+      "name": "source audit cmykExact",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T009",
+      "name": "source audit resourceTruth",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T010",
+      "name": "source audit layerTruth",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T011",
+      "name": "source audit workerIdentity",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T012",
+      "name": "source audit workerProtocol",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T013",
+      "name": "source audit profileWorker",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T014",
+      "name": "source audit generationClosure",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T015",
+      "name": "source audit registryDispose",
+      "ok": true,
+      "detail": {
+        "value": true
+      }
+    },
+    {
+      "id": "PSD01-T016",
+      "name": "rgb8-raw PSD v1",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T017",
+      "name": "rgb8-raw exact EOF",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T018",
+      "name": "rgb8-raw source length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T019",
+      "name": "rgb8-raw source digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T020",
+      "name": "rgb8-raw resolution resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T021",
+      "name": "rgb8-raw ICC resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T022",
+      "name": "rgb8-raw horizontal DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T023",
+      "name": "rgb8-raw vertical DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T024",
+      "name": "rgb8-raw ICC digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T025",
+      "name": "rgb8-raw compression admitted",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T026",
+      "name": "rgb8-raw pixel digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T027",
+      "name": "rgb8-raw alpha contract",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T028",
+      "name": "rgb8-rle-layer PSD v1",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T029",
+      "name": "rgb8-rle-layer exact EOF",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T030",
+      "name": "rgb8-rle-layer source length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T031",
+      "name": "rgb8-rle-layer source digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T032",
+      "name": "rgb8-rle-layer resolution resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T033",
+      "name": "rgb8-rle-layer ICC resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T034",
+      "name": "rgb8-rle-layer horizontal DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T035",
+      "name": "rgb8-rle-layer vertical DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T036",
+      "name": "rgb8-rle-layer ICC digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T037",
+      "name": "rgb8-rle-layer compression admitted",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T038",
+      "name": "rgb8-rle-layer pixel digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T039",
+      "name": "rgb8-rle-layer alpha contract",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T040",
+      "name": "rgb16-raw PSD v1",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T041",
+      "name": "rgb16-raw exact EOF",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T042",
+      "name": "rgb16-raw source length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T043",
+      "name": "rgb16-raw source digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T044",
+      "name": "rgb16-raw resolution resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T045",
+      "name": "rgb16-raw ICC resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T046",
+      "name": "rgb16-raw horizontal DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T047",
+      "name": "rgb16-raw vertical DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T048",
+      "name": "rgb16-raw ICC digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T049",
+      "name": "rgb16-raw compression admitted",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T050",
+      "name": "rgb16-raw pixel digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T051",
+      "name": "rgb16-raw alpha contract",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T052",
+      "name": "rgb16-rle PSD v1",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T053",
+      "name": "rgb16-rle exact EOF",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T054",
+      "name": "rgb16-rle source length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T055",
+      "name": "rgb16-rle source digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T056",
+      "name": "rgb16-rle resolution resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T057",
+      "name": "rgb16-rle ICC resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T058",
+      "name": "rgb16-rle horizontal DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T059",
+      "name": "rgb16-rle vertical DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T060",
+      "name": "rgb16-rle ICC digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T061",
+      "name": "rgb16-rle compression admitted",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T062",
+      "name": "rgb16-rle pixel digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T063",
+      "name": "rgb16-rle alpha contract",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T064",
+      "name": "cmyk8-raw PSD v1",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T065",
+      "name": "cmyk8-raw exact EOF",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T066",
+      "name": "cmyk8-raw source length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T067",
+      "name": "cmyk8-raw source digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T068",
+      "name": "cmyk8-raw resolution resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T069",
+      "name": "cmyk8-raw ICC resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T070",
+      "name": "cmyk8-raw horizontal DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T071",
+      "name": "cmyk8-raw vertical DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T072",
+      "name": "cmyk8-raw ICC digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T073",
+      "name": "cmyk8-raw compression admitted",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T074",
+      "name": "cmyk8-raw pixel digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T075",
+      "name": "cmyk8-raw alpha contract",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T076",
+      "name": "cmyk8-rle PSD v1",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T077",
+      "name": "cmyk8-rle exact EOF",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T078",
+      "name": "cmyk8-rle source length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T079",
+      "name": "cmyk8-rle source digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T080",
+      "name": "cmyk8-rle resolution resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T081",
+      "name": "cmyk8-rle ICC resource",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T082",
+      "name": "cmyk8-rle horizontal DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T083",
+      "name": "cmyk8-rle vertical DPI",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T084",
+      "name": "cmyk8-rle ICC digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T085",
+      "name": "cmyk8-rle compression admitted",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T086",
+      "name": "cmyk8-rle pixel digest",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T087",
+      "name": "cmyk8-rle alpha contract",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T088",
+      "name": "RGB8 storage",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T089",
+      "name": "RGB8 alpha zero retained",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T090",
+      "name": "RGB8 hidden red retained",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T091",
+      "name": "single layer count",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T092",
+      "name": "layer name",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T093",
+      "name": "layer composite length parity",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T094",
+      "name": "layer composite exact parity",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T095",
+      "name": "RGB16 storage",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T096",
+      "name": "RGB16 encoding",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T097",
+      "name": "RGB16 length",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T098",
+      "name": "cmyk8-raw CMYK storage",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T099",
+      "name": "cmyk8-raw CMYK semantic",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T100",
+      "name": "cmyk8-rle CMYK storage",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T101",
+      "name": "cmyk8-rle CMYK semantic",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T102",
+      "name": "stable error namespace E_PSD_DECODER_ABI_INSUFFICIENT",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T103",
+      "name": "stable error namespace E_PSD_DECODER_ABI_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T104",
+      "name": "stable error namespace E_PSD_DECODER_ALPHA_CONTRACT_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T105",
+      "name": "stable error namespace E_PSD_DECODER_ARTIFACT_HASH_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T106",
+      "name": "stable error namespace E_PSD_DECODER_ARTIFACT_MISSING",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T107",
+      "name": "stable error namespace E_PSD_DECODER_BROWSER_FALLBACK_FORBIDDEN",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T108",
+      "name": "stable error namespace E_PSD_DECODER_CANCELLED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T109",
+      "name": "stable error namespace E_PSD_DECODER_CAPABILITY_UNVERIFIED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T110",
+      "name": "stable error namespace E_PSD_DECODER_CHANNEL_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T111",
+      "name": "stable error namespace E_PSD_DECODER_CMYK_POLICY_UNDECLARED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T112",
+      "name": "stable error namespace E_PSD_DECODER_COMPOSITE_MISSING",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T113",
+      "name": "stable error namespace E_PSD_DECODER_COMPRESSION_UNSUPPORTED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T114",
+      "name": "stable error namespace E_PSD_DECODER_DIMENSION_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T115",
+      "name": "stable error namespace E_PSD_DECODER_EMITTED_ARTIFACT_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T116",
+      "name": "stable error namespace E_PSD_DECODER_EXACT_SURFACE_MISSING",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T117",
+      "name": "stable error namespace E_PSD_DECODER_FORMAT_HINT_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T118",
+      "name": "stable error namespace E_PSD_DECODER_GENERATION_CLOSURE_FAILED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T119",
+      "name": "stable error namespace E_PSD_DECODER_HEADER_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T120",
+      "name": "stable error namespace E_PSD_DECODER_HIDDEN_RGB_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T121",
+      "name": "stable error namespace E_PSD_DECODER_ICC_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T122",
+      "name": "stable error namespace E_PSD_DECODER_ICC_RESOURCE_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T123",
+      "name": "stable error namespace E_PSD_DECODER_INPUT_DIGEST_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T124",
+      "name": "stable error namespace E_PSD_DECODER_INPUT_LENGTH_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T125",
+      "name": "stable error namespace E_PSD_DECODER_INPUT_TOO_LARGE",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T126",
+      "name": "stable error namespace E_PSD_DECODER_LAYER_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T127",
+      "name": "stable error namespace E_PSD_DECODER_LAYER_CHANNEL_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T128",
+      "name": "stable error namespace E_PSD_DECODER_LAYER_COMPOSITE_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T129",
+      "name": "stable error namespace E_PSD_DECODER_LAYER_RECORD_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T130",
+      "name": "stable error namespace E_PSD_DECODER_MEMORY_LEAK",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T131",
+      "name": "stable error namespace E_PSD_DECODER_NOT_PROMOTED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T132",
+      "name": "stable error namespace E_PSD_DECODER_PACKAGE_ROUTE_MISSING",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T133",
+      "name": "stable error namespace E_PSD_DECODER_PENDING_JOB_LEAK",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T134",
+      "name": "stable error namespace E_PSD_DECODER_PIXEL_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T135",
+      "name": "stable error namespace E_PSD_DECODER_PLANE_DIGEST_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T136",
+      "name": "stable error namespace E_PSD_DECODER_PLANE_LENGTH_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T137",
+      "name": "stable error namespace E_PSD_DECODER_PRESENTATION_SURFACE_FORBIDDEN",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T138",
+      "name": "stable error namespace E_PSD_DECODER_PROMOTION_BLOCKED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T139",
+      "name": "stable error namespace E_PSD_DECODER_READY_EVIDENCE_MISSING",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T140",
+      "name": "stable error namespace E_PSD_DECODER_REQUEST_DIGEST_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T141",
+      "name": "stable error namespace E_PSD_DECODER_REQUEST_VERSION_UNSUPPORTED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T142",
+      "name": "stable error namespace E_PSD_DECODER_RESERVED_BYTES_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T143",
+      "name": "stable error namespace E_PSD_DECODER_RESOLUTION_RESOURCE_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T144",
+      "name": "stable error namespace E_PSD_DECODER_RESOURCE_BUDGET_EXCEEDED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T145",
+      "name": "stable error namespace E_PSD_DECODER_RESOURCE_DUPLICATE",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T146",
+      "name": "stable error namespace E_PSD_DECODER_RESOURCE_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T147",
+      "name": "stable error namespace E_PSD_DECODER_RGB16_EXACTNESS_FAILED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T148",
+      "name": "stable error namespace E_PSD_DECODER_RLE_OUTPUT_LENGTH_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T149",
+      "name": "stable error namespace E_PSD_DECODER_RLE_ROW_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T150",
+      "name": "stable error namespace E_PSD_DECODER_RLE_TABLE_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T151",
+      "name": "stable error namespace E_PSD_DECODER_ROUNDTRIP_NOT_EXECUTED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T152",
+      "name": "stable error namespace E_PSD_DECODER_SECTION_BOUNDS_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T153",
+      "name": "stable error namespace E_PSD_DECODER_SECTION_OVERLAP",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T154",
+      "name": "stable error namespace E_PSD_DECODER_SERIALIZER_FALLBACK_FORBIDDEN",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T155",
+      "name": "stable error namespace E_PSD_DECODER_SIGNATURE_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T156",
+      "name": "stable error namespace E_PSD_DECODER_STALE_GENERATION_RESULT",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T157",
+      "name": "stable error namespace E_PSD_DECODER_TIMEOUT",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T158",
+      "name": "stable error namespace E_PSD_DECODER_TRAILING_BYTES",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T159",
+      "name": "stable error namespace E_PSD_DECODER_VERSION_UNSUPPORTED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T160",
+      "name": "stable error namespace E_PSD_DECODER_WORKER_CRASHED",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T161",
+      "name": "stable error namespace E_PSD_DECODER_ZIP_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T162",
+      "name": "stable error namespace E_PSD_DECODER_ZIP_OUTPUT_LENGTH_MISMATCH",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T163",
+      "name": "stable error namespace E_PSD_DECODER_ZIP_PREDICTION_INVALID",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T164",
+      "name": "stable error namespace E_PSD_DECODER_INTERNAL",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T165",
+      "name": "reject signature",
+      "ok": true,
+      "detail": {
+        "got": "E_PSD_SIGNATURE_INVALID",
+        "code": "E_PSD_SIGNATURE_INVALID"
+      }
+    },
+    {
+      "id": "PSD01-T166",
+      "name": "reject psb",
+      "ok": true,
+      "detail": {
+        "got": "E_PSD_PSB_NOT_PROMOTED",
+        "code": "E_PSD_PSB_NOT_PROMOTED"
+      }
+    },
+    {
+      "id": "PSD01-T167",
+      "name": "reject reserved",
+      "ok": true,
+      "detail": {
+        "got": "E_PSD_RESERVED_NONZERO",
+        "code": "E_PSD_RESERVED_NONZERO"
+      }
+    },
+    {
+      "id": "PSD01-T168",
+      "name": "reject trailing",
+      "ok": true,
+      "detail": {
+        "got": "E_PSD_EOF_NOT_EXACT",
+        "code": "E_PSD_EOF_NOT_EXACT"
+      }
+    },
+    {
+      "id": "PSD01-T169",
+      "name": "matrix invariant 169",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T170",
+      "name": "matrix invariant 170",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T171",
+      "name": "matrix invariant 171",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T172",
+      "name": "matrix invariant 172",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T173",
+      "name": "matrix invariant 173",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T174",
+      "name": "matrix invariant 174",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T175",
+      "name": "matrix invariant 175",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "id": "PSD01-T176",
+      "name": "matrix invariant 176",
+      "ok": true,
+      "detail": {}
+    }
+  ],
+  "evidenceSealSha256": "398d6f81cc749623769d2c27b444ec4497550f61069a5fdff8c6e7d725388b8c"
+}

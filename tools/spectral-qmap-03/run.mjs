@@ -1,0 +1,1 @@
+import{spawnSync}from'node:child_process';for(const s of['tools/spectral-qmap-03/verify-source-contract.mjs','tools/spectral-qmap-03/verify-wgsl-contract.mjs','tools/spectral-qmap-03/runtime-smoke.mjs','tools/spectral-qmap-03/gate.mjs']){const r=spawnSync(process.execPath,[s],{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1);}

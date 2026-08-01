@@ -1,0 +1,21 @@
+{
+  "schema": "dadum-ew03-main-thread-isolation-report-v1",
+  "patchId": "TDT-EXPORT-WORKER-03",
+  "status": "SOURCE_STATIC_VERIFIED",
+  "runtimeObserved": false,
+  "canonicalEncoders": [
+    "dadum.encoder.webp-lossless.v1",
+    "dadum.encoder.png.v1",
+    "dadum.encoder.png16.v1"
+  ],
+  "activeExportManagerUPNGEncodeReferences": 0,
+  "activeExportManagerDirectWorkerConstructors": 0,
+  "canonicalResultRequiresMainThreadEncoderUsedFalse": true,
+  "canonicalResultRequiresFallbackUsedFalse": true,
+  "promotionEligible": false,
+  "unverified": [
+    "Electron main-thread long-task trace",
+    "Vite emitted Worker asset execution",
+    "real WebP and PNG encode E2E"
+  ]
+}

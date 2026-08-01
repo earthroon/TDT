@@ -1,0 +1,11 @@
+{
+  "failCount": 0,
+  "newRootVersion": 2,
+  "oldRootVersion": 1,
+  "passCount": 2,
+  "revocationGeneration": 1,
+  "revocationSha256": "32a22c81bc86f42f1ca9d3f195ef0982cbcbfd17cce7cd003d13784bdb59977c",
+  "rotationReceiptSha256": "e5c3b3f88d14b91fbd2968c23940db355be5575fb75f4970971f465276824697",
+  "schemaVersion": 1,
+  "selfSha256": "72f351ebcd07da0d4942a01ef0159f9a63212fa96609bf62baf07a7a658046f4"
+}

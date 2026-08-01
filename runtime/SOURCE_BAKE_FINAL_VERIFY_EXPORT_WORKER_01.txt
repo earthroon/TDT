@@ -1,0 +1,95 @@
+TDT-EXPORT-WORKER-01 SOURCE BAKE FINAL VERIFY
+status=SOURCE_BAKED_UNPROMOTED
+verified_at_utc=2026-07-24T12:22:42Z
+
+== generated manifests ==
+[TDT-EXPORT-WORKER-01] generated 3 worker descriptors dc78d3ea1966c1f7cac24ed0abd19a2fe7495136e19bd97bd1947712d6edade4
+[TDT-EXPORT-WORKER-01] generated build 25944c4f0d4d15b8dda57555; lockConsistent=false
+
+== JavaScript / MJS syntax ==
+PASS node --check app/legacy-runtime/encoders/png16_lode_bridge.mjs
+PASS node --check app/legacy-runtime/encoders/webp_api.js
+PASS node --check app/legacy-runtime/export_manager.js
+PASS node --check app/legacy-runtime/libs/psd/psd_export_bridge.js
+PASS node --check app/legacy-runtime/worker-codecs/webp-lossless-handler.js
+PASS node --check app/legacy-runtime/worker-codecs/png16-handler.js
+PASS node --check app/legacy-runtime/worker-codecs/psd-export-handler.js
+PASS node --check tools/generate-runtime-worker-manifest.mjs
+PASS node --check tools/gate-export-worker-01.mjs
+PASS node --check tools/generate-runtime-manifest.mjs
+PASS node --check tools/runtime-manifest-lib.mjs
+PASS node --check tools/verify-r7-export-truth.mjs
+PASS node --check tools/vite-runtime-manifest-plugin.mjs
+
+== strict TypeScript closure ==
+PASS strict TypeScript Worker/Broker closure
+PASS strict TypeScript Runtime composition/export closure with temporary Pinia declaration shim
+
+== static and deterministic gates ==
+
+> dadumdadum@1.0.0 verify:runtime-entry
+> node tools/verify-index-entry.mjs
+
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+
+> dadumdadum@1.0.0 verify:pinia
+> node tools/verify-pinia-serializable.mjs
+
+PASS GATE-R1-08 Pinia static serializability gate
+
+> dadumdadum@1.0.0 verify:runtime-ownership
+> node tools/verify-runtime-ownership.mjs
+
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+
+> dadumdadum@1.0.0 verify:legacy-manifest
+> node tools/verify-legacy-manifest.mjs
+
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect
+
+> dadumdadum@1.0.0 verify:legacy-global-ownership
+> node tools/verify-legacy-global-ownership.mjs
+
+PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry
+
+> dadumdadum@1.0.0 verify:async-global-reservation
+> node tools/verify-async-global-reservation.mjs
+
+PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js
+
+> dadumdadum@1.0.0 verify:deferred-global-attribution
+> node tools/verify-deferred-global-attribution.mjs
+
+PASS GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION unique prior owner / owner-finished-while-absent claim / one-shot claim consumption / receipt evidence
+
+> dadumdadum@1.0.0 verify:placeholder-quarantine
+> node tools/verify-placeholder-quarantine.mjs
+
+PASS GATE-R1-R6-PLACEHOLDER-QUARANTINE non-authoritative legacy placeholder isolation and receipt evidence
+
+> dadumdadum@1.0.0 verify:diagnostic-single-emission
+> node tools/verify-diagnostic-single-emission.mjs
+
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+
+> dadumdadum@1.0.0 verify:boot-determinism
+> node tools/verify-boot-determinism.mjs
+
+PASS GATE-R1-20 deterministic receipt parity 100/100 a38ceb6c61b43f3b1fe124110fe678eff994f58264c988e79f1a4c6d8594edca
+
+> dadumdadum@1.0.0 verify:r7-export-truth
+> node tools/verify-r7-export-truth.mjs
+
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+
+> dadumdadum@1.0.0 verify:export-worker-01
+> node tools/gate-export-worker-01.mjs
+
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 f0c2de0b12b28af51facc1f3c6f8b1ebff6927c901dae760dfe7da4d96f77277
+
+== promotion blockers ==
+vue-tsc=missing
+vite=missing
+node_modules=missing
+Vite/Electron Worker E2E and emitted-artifact SHA verification were not executed in this container.
+Native decoder/dav1d status is outside EW01 scope.

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import {sourceArtifact,seal,check,json,sha256File} from './lib.mjs';
+import {createTransitionIntent,validateIntent,sourceModeCasDenied} from './pointer-replay.mjs';
+import {createQualificationSet} from './qualification-set.mjs';
+import {transition,assertNoRegression} from './state-machine.mjs';
+import {SOURCE_STATE,CANDIDATE_STATE,PROMOTED_STATE} from './identity.mjs';
+const target=seal({schemaVersion:1,schemaId:'tdt.resample.qualified-package.r10a.v1',buildId:'target',packageContentId:'a'.repeat(64),runtimeClosureDigest:'b'.repeat(64),packagePath:'packages/a',qualificationReceipts:{},qualificationDigest:'c'.repeat(64),currentLineage:[],supersededInputCount:0,rollbackUnit:'whole-build-only',legacyFallbackAllowed:false});
+const previous=seal({...target,buildId:'previous',packageContentId:'d'.repeat(64),packagePath:'packages/d'});const set=createQualificationSet({target,previous});
+const freeze=json('tools/resample-runtime-01-r10a/parent-r9a-freeze.json');const pointer={pointerId:'dadum.export.production-pointer',generation:0,rawSha256:freeze.files.pointerA.sha256};const intent=createTransitionIntent({kind:'PROMOTE',pointer,qualificationSet:set,approvalSha256:'e'.repeat(64),transitionId:'1'.repeat(48)});validateIntent(intent);transition(SOURCE_STATE,CANDIDATE_STATE);transition(CANDIDATE_STATE,PROMOTED_STATE);assertNoRegression(SOURCE_STATE,PROMOTED_STATE);
+let denied=false;try{sourceModeCasDenied();}catch(e){denied=e.code==='E_R10A_SOURCE_CANNOT_RELEASE';}check(denied,'E_R10A_POINTER_WRITE_FORBIDDEN','source mode CAS was not denied');
+const writer=fs.readFileSync('tools/resample-runtime-01-r10/pointer-writer.mjs','utf8');for(const token of ['expectedRawSha256','expectedGeneration','fs.fsyncSync','DADUM_R10_RELEASE_MODE','atomic-replace.ps1'])check(writer.includes(token),'E_R10A_POINTER_SCHEMA_INVALID','pointer writer contract missing',token);
+sourceArtifact('R10A_POINTER_REPLAY_REPORT.json',seal({schemaVersion:1,pass:true,intentSha256:intent.selfSha256,transitionIdBits:192,sourceModeWriteDenied:true,pointerRawSha256:freeze.files.pointerA.sha256,pointerGeneration:0,productionPointerMutated:false}));
+console.log('R10A pointer replay source PASS');

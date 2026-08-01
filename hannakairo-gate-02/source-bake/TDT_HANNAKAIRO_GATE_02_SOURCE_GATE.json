@@ -1,0 +1,939 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-HANNAKAIRO-GATE-02",
+  "state": "HANNAKAIRO_GATE_02_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "pass": 172,
+  "deferred": 12,
+  "fail": 0,
+  "failCount": 0,
+  "counts": {
+    "PASS": 172,
+    "DEFERRED": 12,
+    "FAIL": 0
+  },
+  "gates": [
+    {
+      "gateId": "HG02-001",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-service.ts"
+    },
+    {
+      "gateId": "HG02-002",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-types.ts"
+    },
+    {
+      "gateId": "HG02-003",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-parameters.ts"
+    },
+    {
+      "gateId": "HG02-004",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-receipt.ts"
+    },
+    {
+      "gateId": "HG02-005",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-job-arena.ts"
+    },
+    {
+      "gateId": "HG02-006",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/hannakairo_gate_bridge.mjs"
+    },
+    {
+      "gateId": "HG02-007",
+      "status": "PASS",
+      "detail": "specs/TDT-HANNAKAIRO-GATE-02_DIRECTIONAL_GATE_REPAIR_TENSOR_SPECTRAL_ALIGNMENT_NEUTRAL_IDENTITY_SEAL_SPEC.md"
+    },
+    {
+      "gateId": "HG02-008",
+      "status": "PASS",
+      "detail": "publishFieldSet"
+    },
+    {
+      "gateId": "HG02-009",
+      "status": "PASS",
+      "detail": "windowLayoutReceiptDigest"
+    },
+    {
+      "gateId": "HG02-010",
+      "status": "PASS",
+      "detail": "queue.submit"
+    },
+    {
+      "gateId": "HG02-011",
+      "status": "PASS",
+      "detail": "onSubmittedWorkDone"
+    },
+    {
+      "gateId": "HG02-012",
+      "status": "PASS",
+      "detail": "intermediatePixelReadbackCount:0"
+    },
+    {
+      "gateId": "HG02-013",
+      "status": "PASS",
+      "detail": "cpuPixelComputeUsed:false"
+    },
+    {
+      "gateId": "HG02-014",
+      "status": "PASS",
+      "detail": "webglPixelComputeUsed:false"
+    },
+    {
+      "gateId": "HG02-015",
+      "status": "PASS",
+      "detail": "canvasPixelComputeUsed:false"
+    },
+    {
+      "gateId": "HG02-016",
+      "status": "PASS",
+      "detail": "pinField"
+    },
+    {
+      "gateId": "HG02-017",
+      "status": "PASS",
+      "detail": "registerRecoveryParticipant"
+    },
+    {
+      "gateId": "HG02-018",
+      "status": "PASS",
+      "detail": "stage-pixel"
+    },
+    {
+      "gateId": "HG02-019",
+      "status": "PASS",
+      "detail": "neutralIdentityProfile"
+    },
+    {
+      "gateId": "HG02-020",
+      "status": "PASS",
+      "detail": "tensor and spectral pins released"
+    },
+    {
+      "gateId": "HG02-021",
+      "status": "PASS",
+      "detail": "HANNAKAIRO_ALIGNMENT_SEMANTIC_ID"
+    },
+    {
+      "gateId": "HG02-022",
+      "status": "PASS",
+      "detail": "HANNAKAIRO_GATE_SEMANTIC_ID"
+    },
+    {
+      "gateId": "HG02-023",
+      "status": "PASS",
+      "detail": "HANNAKAIRO_GATE_PRODUCER_ID"
+    },
+    {
+      "gateId": "HG02-024",
+      "status": "PASS",
+      "detail": "SPECTRAL_PEAK_ORIENTATION_SEMANTIC_ID"
+    },
+    {
+      "gateId": "HG02-025",
+      "status": "PASS",
+      "detail": "HANNAKAIRO_PHASE_COHERENCE_SEMANTIC_ID"
+    },
+    {
+      "gateId": "HG02-026",
+      "status": "PASS",
+      "detail": "strength, 0.15"
+    },
+    {
+      "gateId": "HG02-027",
+      "status": "PASS",
+      "detail": "minMultiplier, 0.85"
+    },
+    {
+      "gateId": "HG02-028",
+      "status": "PASS",
+      "detail": "phaseCoherenceWeight, 0"
+    },
+    {
+      "gateId": "HG02-029",
+      "status": "PASS",
+      "detail": "epsilon, 1e-6"
+    },
+    {
+      "gateId": "HG02-030",
+      "status": "PASS",
+      "detail": "phase_gate_hannakairo"
+    },
+    {
+      "gateId": "HG02-031",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_CPU_INPUT_FORBIDDEN"
+    },
+    {
+      "gateId": "HG02-032",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_WEBGL_INPUT_FORBIDDEN"
+    },
+    {
+      "gateId": "HG02-033",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_CANVAS_INPUT_FORBIDDEN"
+    },
+    {
+      "gateId": "HG02-034",
+      "status": "PASS",
+      "detail": "HannakairoGateService"
+    },
+    {
+      "gateId": "HG02-035",
+      "status": "PASS",
+      "detail": "SERVICE_IDS.hannakairoGate"
+    },
+    {
+      "gateId": "HG02-036",
+      "status": "PASS",
+      "detail": "dadum.module.hannakairo-gate-02-v1"
+    },
+    {
+      "gateId": "HG02-037",
+      "status": "PASS",
+      "detail": "tdt.analysis.consumer.hannakairo-gate"
+    },
+    {
+      "gateId": "HG02-038",
+      "status": "PASS",
+      "detail": "dadum.analysis.hannakairo.directional-gate"
+    },
+    {
+      "gateId": "HG02-039",
+      "status": "PASS",
+      "detail": "global-bridge"
+    },
+    {
+      "gateId": "HG02-040",
+      "status": "PASS",
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "gateId": "HG02-041",
+      "status": "PASS",
+      "detail": "tdt.analysis.hannakairo.tensor-spectral-alignment.v1"
+    },
+    {
+      "gateId": "HG02-042",
+      "status": "PASS",
+      "detail": "rgba16float"
+    },
+    {
+      "gateId": "HG02-043",
+      "status": "PASS",
+      "detail": "stage-pixel"
+    },
+    {
+      "gateId": "HG02-044",
+      "status": "PASS",
+      "detail": "tdt.analysis.hannakairo.directional-gate.v2"
+    },
+    {
+      "gateId": "HG02-045",
+      "status": "PASS",
+      "detail": "rgba16float"
+    },
+    {
+      "gateId": "HG02-046",
+      "status": "PASS",
+      "detail": "stage-pixel"
+    },
+    {
+      "gateId": "HG02-047",
+      "status": "PASS",
+      "detail": "[1,0,0,0]"
+    },
+    {
+      "gateId": "HG02-048",
+      "status": "PASS",
+      "detail": "canonical"
+    },
+    {
+      "gateId": "HG02-049",
+      "status": "PASS",
+      "detail": "2.0.0"
+    },
+    {
+      "gateId": "HG02-050",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "gateId": "HG02-051",
+      "status": "PASS",
+      "detail": "3"
+    },
+    {
+      "gateId": "HG02-052",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "gateId": "HG02-053",
+      "status": "PASS",
+      "detail": "dadum.asset.shader.hannakairo-spectral-project-stage-v2"
+    },
+    {
+      "gateId": "HG02-054",
+      "status": "PASS",
+      "detail": "dadum.asset.shader.hannakairo-tensor-spectral-align-v2"
+    },
+    {
+      "gateId": "HG02-055",
+      "status": "PASS",
+      "detail": "dadum.asset.shader.hannakairo-directional-gate-finalize-v2"
+    },
+    {
+      "gateId": "HG02-056",
+      "status": "PASS",
+      "detail": "dadum.asset.shader.hannakairo-gate-fixture-generator-v2"
+    },
+    {
+      "gateId": "HG02-057",
+      "status": "PASS",
+      "detail": "dadum.asset.shader.hannakairo-gate-reference-v2"
+    },
+    {
+      "gateId": "HG02-058",
+      "status": "PASS",
+      "detail": "dadum.asset.shader.hannakairo-gate-compare-v2"
+    },
+    {
+      "gateId": "HG02-059",
+      "status": "PASS",
+      "detail": "owner admitted"
+    },
+    {
+      "gateId": "HG02-060",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_INPUT_TENSOR_REQUIRED"
+    },
+    {
+      "gateId": "HG02-061",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_INPUT_SPECTRAL_REQUIRED"
+    },
+    {
+      "gateId": "HG02-062",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_LAYOUT_RECEIPT_REQUIRED"
+    },
+    {
+      "gateId": "HG02-063",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_LAYOUT_DIGEST_MISMATCH"
+    },
+    {
+      "gateId": "HG02-064",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_SOURCE_REVISION_MISMATCH"
+    },
+    {
+      "gateId": "HG02-065",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_STAGE_IDENTITY_MISMATCH"
+    },
+    {
+      "gateId": "HG02-066",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_DEVICE_EPOCH_MISMATCH"
+    },
+    {
+      "gateId": "HG02-067",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_CPU_INPUT_FORBIDDEN"
+    },
+    {
+      "gateId": "HG02-068",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_WEBGL_INPUT_FORBIDDEN"
+    },
+    {
+      "gateId": "HG02-069",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_CANVAS_INPUT_FORBIDDEN"
+    },
+    {
+      "gateId": "HG02-070",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_PARAMETER_INVALID"
+    },
+    {
+      "gateId": "HG02-071",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_PUBLICATION_PARTIAL"
+    },
+    {
+      "gateId": "HG02-072",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_OUTPUT_NONFINITE"
+    },
+    {
+      "gateId": "HG02-073",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_DEVICE_LOST"
+    },
+    {
+      "gateId": "HG02-074",
+      "status": "PASS",
+      "detail": "E_HANNAKAIRO_GATE_CANCELLED"
+    },
+    {
+      "gateId": "HG02-075",
+      "status": "PASS",
+      "detail": "MAP_READ"
+    },
+    {
+      "gateId": "HG02-076",
+      "status": "PASS",
+      "detail": "mapAsync("
+    },
+    {
+      "gateId": "HG02-077",
+      "status": "PASS",
+      "detail": "getMappedRange("
+    },
+    {
+      "gateId": "HG02-078",
+      "status": "PASS",
+      "detail": "getImageData("
+    },
+    {
+      "gateId": "HG02-079",
+      "status": "PASS",
+      "detail": "readPixels("
+    },
+    {
+      "gateId": "HG02-080",
+      "status": "PASS",
+      "detail": "GLSL not imported"
+    },
+    {
+      "gateId": "HG02-081",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-spectral-project-stage.wgsl"
+    },
+    {
+      "gateId": "HG02-082",
+      "status": "PASS",
+      "detail": "braces"
+    },
+    {
+      "gateId": "HG02-083",
+      "status": "PASS",
+      "detail": "compute"
+    },
+    {
+      "gateId": "HG02-084",
+      "status": "PASS",
+      "detail": "workgroup"
+    },
+    {
+      "gateId": "HG02-085",
+      "status": "PASS",
+      "detail": "no readback"
+    },
+    {
+      "gateId": "HG02-086",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-tensor-spectral-align.wgsl"
+    },
+    {
+      "gateId": "HG02-087",
+      "status": "PASS",
+      "detail": "braces"
+    },
+    {
+      "gateId": "HG02-088",
+      "status": "PASS",
+      "detail": "compute"
+    },
+    {
+      "gateId": "HG02-089",
+      "status": "PASS",
+      "detail": "workgroup"
+    },
+    {
+      "gateId": "HG02-090",
+      "status": "PASS",
+      "detail": "no readback"
+    },
+    {
+      "gateId": "HG02-091",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-directional-gate-finalize.wgsl"
+    },
+    {
+      "gateId": "HG02-092",
+      "status": "PASS",
+      "detail": "braces"
+    },
+    {
+      "gateId": "HG02-093",
+      "status": "PASS",
+      "detail": "compute"
+    },
+    {
+      "gateId": "HG02-094",
+      "status": "PASS",
+      "detail": "workgroup"
+    },
+    {
+      "gateId": "HG02-095",
+      "status": "PASS",
+      "detail": "no readback"
+    },
+    {
+      "gateId": "HG02-096",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-fixture-generator.wgsl"
+    },
+    {
+      "gateId": "HG02-097",
+      "status": "PASS",
+      "detail": "braces"
+    },
+    {
+      "gateId": "HG02-098",
+      "status": "PASS",
+      "detail": "compute"
+    },
+    {
+      "gateId": "HG02-099",
+      "status": "PASS",
+      "detail": "workgroup"
+    },
+    {
+      "gateId": "HG02-100",
+      "status": "PASS",
+      "detail": "no readback"
+    },
+    {
+      "gateId": "HG02-101",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-reference.wgsl"
+    },
+    {
+      "gateId": "HG02-102",
+      "status": "PASS",
+      "detail": "braces"
+    },
+    {
+      "gateId": "HG02-103",
+      "status": "PASS",
+      "detail": "compute"
+    },
+    {
+      "gateId": "HG02-104",
+      "status": "PASS",
+      "detail": "workgroup"
+    },
+    {
+      "gateId": "HG02-105",
+      "status": "PASS",
+      "detail": "no readback"
+    },
+    {
+      "gateId": "HG02-106",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-compare.wgsl"
+    },
+    {
+      "gateId": "HG02-107",
+      "status": "PASS",
+      "detail": "braces"
+    },
+    {
+      "gateId": "HG02-108",
+      "status": "PASS",
+      "detail": "compute"
+    },
+    {
+      "gateId": "HG02-109",
+      "status": "PASS",
+      "detail": "workgroup"
+    },
+    {
+      "gateId": "HG02-110",
+      "status": "PASS",
+      "detail": "no readback"
+    },
+    {
+      "gateId": "HG02-111",
+      "status": "PASS",
+      "detail": "grid_width"
+    },
+    {
+      "gateId": "HG02-112",
+      "status": "PASS",
+      "detail": "grid_height"
+    },
+    {
+      "gateId": "HG02-113",
+      "status": "PASS",
+      "detail": "window_width"
+    },
+    {
+      "gateId": "HG02-114",
+      "status": "PASS",
+      "detail": "window_height"
+    },
+    {
+      "gateId": "HG02-115",
+      "status": "PASS",
+      "detail": "stride_x"
+    },
+    {
+      "gateId": "HG02-116",
+      "status": "PASS",
+      "detail": "stride_y"
+    },
+    {
+      "gateId": "HG02-117",
+      "status": "PASS",
+      "detail": "plane_count"
+    },
+    {
+      "gateId": "HG02-118",
+      "status": "PASS",
+      "detail": "candidate_weight"
+    },
+    {
+      "gateId": "HG02-119",
+      "status": "PASS",
+      "detail": "valid_count"
+    },
+    {
+      "gateId": "HG02-120",
+      "status": "PASS",
+      "detail": "inverseSqrt"
+    },
+    {
+      "gateId": "HG02-121",
+      "status": "PASS",
+      "detail": "textureStore"
+    },
+    {
+      "gateId": "HG02-122",
+      "status": "PASS",
+      "detail": "2x2"
+    },
+    {
+      "gateId": "HG02-123",
+      "status": "PASS",
+      "detail": "coverage"
+    },
+    {
+      "gateId": "HG02-124",
+      "status": "PASS",
+      "detail": "invalid"
+    },
+    {
+      "gateId": "HG02-125",
+      "status": "PASS",
+      "detail": "tensor_axial_raw"
+    },
+    {
+      "gateId": "HG02-126",
+      "status": "PASS",
+      "detail": "signed_dot"
+    },
+    {
+      "gateId": "HG02-127",
+      "status": "PASS",
+      "detail": "0.5 * (signed_dot + 1.0)"
+    },
+    {
+      "gateId": "HG02-128",
+      "status": "PASS",
+      "detail": "tensor_confidence * spectral_confidence"
+    },
+    {
+      "gateId": "HG02-129",
+      "status": "PASS",
+      "detail": "phase_coherence_weight"
+    },
+    {
+      "gateId": "HG02-130",
+      "status": "PASS",
+      "detail": "textureStore"
+    },
+    {
+      "gateId": "HG02-131",
+      "status": "PASS",
+      "detail": "params.enabled == 0u"
+    },
+    {
+      "gateId": "HG02-132",
+      "status": "PASS",
+      "detail": "params.strength == 0.0"
+    },
+    {
+      "gateId": "HG02-133",
+      "status": "PASS",
+      "detail": "vec4<f32>(1.0, 0.0, 0.0, 0.0)"
+    },
+    {
+      "gateId": "HG02-134",
+      "status": "PASS",
+      "detail": "1.0 - attenuation"
+    },
+    {
+      "gateId": "HG02-135",
+      "status": "PASS",
+      "detail": "params.min_multiplier"
+    },
+    {
+      "gateId": "HG02-136",
+      "status": "PASS",
+      "detail": "no tanh"
+    },
+    {
+      "gateId": "HG02-137",
+      "status": "PASS",
+      "detail": "no epsilon subtraction"
+    },
+    {
+      "gateId": "HG02-138",
+      "status": "PASS",
+      "detail": "angle reference"
+    },
+    {
+      "gateId": "HG02-139",
+      "status": "PASS",
+      "detail": "bit exact"
+    },
+    {
+      "gateId": "HG02-140",
+      "status": "PASS",
+      "detail": "errors"
+    },
+    {
+      "gateId": "HG02-141",
+      "status": "PASS",
+      "detail": "1,1,1,1"
+    },
+    {
+      "gateId": "HG02-142",
+      "status": "PASS",
+      "detail": "1,1,1,1"
+    },
+    {
+      "gateId": "HG02-143",
+      "status": "PASS",
+      "detail": "0,-1,1,1"
+    },
+    {
+      "gateId": "HG02-144",
+      "status": "PASS",
+      "detail": "0.85,0,1,1"
+    },
+    {
+      "gateId": "HG02-145",
+      "status": "PASS",
+      "detail": "invariant"
+    },
+    {
+      "gateId": "HG02-146",
+      "status": "PASS",
+      "detail": "double-angle invariant"
+    },
+    {
+      "gateId": "HG02-147",
+      "status": "PASS",
+      "detail": "orthogonal director"
+    },
+    {
+      "gateId": "HG02-148",
+      "status": "PASS",
+      "detail": "[1,0,0,0]"
+    },
+    {
+      "gateId": "HG02-149",
+      "status": "PASS",
+      "detail": "3f800000"
+    },
+    {
+      "gateId": "HG02-150",
+      "status": "PASS",
+      "detail": "bits"
+    },
+    {
+      "gateId": "HG02-151",
+      "status": "PASS",
+      "detail": "bits"
+    },
+    {
+      "gateId": "HG02-152",
+      "status": "PASS",
+      "detail": "invalid"
+    },
+    {
+      "gateId": "HG02-153",
+      "status": "PASS",
+      "detail": "[1,0,1,1]"
+    },
+    {
+      "gateId": "HG02-154",
+      "status": "PASS",
+      "detail": "center"
+    },
+    {
+      "gateId": "HG02-155",
+      "status": "PASS",
+      "detail": "invalid"
+    },
+    {
+      "gateId": "HG02-156",
+      "status": "PASS",
+      "detail": "[1,0,0.7499999999999999,1]"
+    },
+    {
+      "gateId": "HG02-157",
+      "status": "PASS",
+      "detail": "[1,0,0.7499999999999999,1]"
+    },
+    {
+      "gateId": "HG02-158",
+      "status": "PASS",
+      "detail": "odd"
+    },
+    {
+      "gateId": "HG02-159",
+      "status": "PASS",
+      "detail": "even"
+    },
+    {
+      "gateId": "HG02-160",
+      "status": "PASS",
+      "detail": "1,1,1,1"
+    },
+    {
+      "gateId": "HG02-161",
+      "status": "PASS",
+      "detail": "0,0,0,0"
+    },
+    {
+      "gateId": "HG02-162",
+      "status": "PASS",
+      "detail": "product"
+    },
+    {
+      "gateId": "HG02-163",
+      "status": "PASS",
+      "detail": "bounds"
+    },
+    {
+      "gateId": "HG02-164",
+      "status": "PASS",
+      "detail": "finite"
+    },
+    {
+      "gateId": "HG02-165",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-166",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-167",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-168",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-169",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-170",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-171",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-172",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-173",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-174",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-175",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-176",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "HG02-177",
+      "status": "PASS",
+      "detail": "invalid"
+    },
+    {
+      "gateId": "HG02-178",
+      "status": "PASS",
+      "detail": "c5267d0605f3e5b559f0d4794f2e55d8c78e8b2f3b0ae2cb2322739a5b2ef1d5"
+    },
+    {
+      "gateId": "HG02-179",
+      "status": "PASS",
+      "detail": "coverage tent only"
+    },
+    {
+      "gateId": "HG02-180",
+      "status": "PASS",
+      "detail": "service preflight"
+    },
+    {
+      "gateId": "HG02-181",
+      "status": "PASS",
+      "detail": "service preflight"
+    },
+    {
+      "gateId": "HG02-182",
+      "status": "PASS",
+      "detail": "service preflight"
+    },
+    {
+      "gateId": "HG02-183",
+      "status": "PASS",
+      "detail": "abort checks before submit/fence"
+    },
+    {
+      "gateId": "HG02-184",
+      "status": "PASS",
+      "detail": "publishFieldSet"
+    }
+  ],
+  "physicalGpuClaims": false,
+  "productionPointerMutation": false,
+  "gateDigest": "1f0fe67e1906eeae64d3f5eecb4caa681ef31a741a4421f0442b56a6540b9773"
+}

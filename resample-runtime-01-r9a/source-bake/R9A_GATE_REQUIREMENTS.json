@@ -1,0 +1,2010 @@
+{
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A",
+  "physicalMandatory": [
+    {
+      "id": "R9A-P001",
+      "requirement": "Windows x64 packaged Electron execution"
+    },
+    {
+      "id": "R9A-P002",
+      "requirement": "Hardware D3D12 adapter admitted"
+    },
+    {
+      "id": "R9A-P003",
+      "requirement": "Software adapter rejected"
+    },
+    {
+      "id": "R9A-P004",
+      "requirement": "timestamp-query feature admitted"
+    },
+    {
+      "id": "R9A-P005",
+      "requirement": "R8A packaged module parse and import"
+    },
+    {
+      "id": "R9A-P006",
+      "requirement": "R8A canonical executor physical dispatch"
+    },
+    {
+      "id": "R9A-P007",
+      "requirement": "Same package bytes before and after run"
+    },
+    {
+      "id": "R9A-P008",
+      "requirement": "Source tree inaccessible from package"
+    },
+    {
+      "id": "R9A-P009",
+      "requirement": "Vite dev server disabled"
+    },
+    {
+      "id": "R9A-P010",
+      "requirement": "Network disabled during qualification"
+    },
+    {
+      "id": "R9A-P011",
+      "requirement": "Package content ID frozen"
+    },
+    {
+      "id": "R9A-P012",
+      "requirement": "GPU device identity frozen for run"
+    },
+    {
+      "id": "R9A-P013",
+      "requirement": "Power state recorded"
+    },
+    {
+      "id": "R9A-P014",
+      "requirement": "Display state recorded"
+    },
+    {
+      "id": "R9A-P015",
+      "requirement": "Driver identity recorded"
+    },
+    {
+      "id": "R9A-P016",
+      "requirement": "Electron version recorded"
+    },
+    {
+      "id": "R9A-P017",
+      "requirement": "Chromium version recorded"
+    },
+    {
+      "id": "R9A-P018",
+      "requirement": "Run lock is exclusive"
+    },
+    {
+      "id": "R9A-P019",
+      "requirement": "Interruption marker is present"
+    },
+    {
+      "id": "R9A-P020",
+      "requirement": "Cleanup ledger closes"
+    },
+    {
+      "id": "R9A-P021",
+      "requirement": "R4 one-stage product/reference raw16 exact"
+    },
+    {
+      "id": "R9A-P022",
+      "requirement": "R6 one-stage product/reference raw16 exact"
+    },
+    {
+      "id": "R9A-P023",
+      "requirement": "R4 multi-stage product/reference raw16 exact"
+    },
+    {
+      "id": "R9A-P024",
+      "requirement": "R6 multi-stage product/reference raw16 exact"
+    },
+    {
+      "id": "R9A-P025",
+      "requirement": "R4 oracle max ULP within 1"
+    },
+    {
+      "id": "R9A-P026",
+      "requirement": "R6 oracle max ULP within 1"
+    },
+    {
+      "id": "R9A-P027",
+      "requirement": "Fractional phase matrix exact"
+    },
+    {
+      "id": "R9A-P028",
+      "requirement": "Negative coordinate matrix exact"
+    },
+    {
+      "id": "R9A-P029",
+      "requirement": "Border corner matrix exact"
+    },
+    {
+      "id": "R9A-P030",
+      "requirement": "One-by-one fixture exact"
+    },
+    {
+      "id": "R9A-P031",
+      "requirement": "One-by-N fixture exact"
+    },
+    {
+      "id": "R9A-P032",
+      "requirement": "N-by-one fixture exact"
+    },
+    {
+      "id": "R9A-P033",
+      "requirement": "Premultiplied alpha fixture exact"
+    },
+    {
+      "id": "R9A-P034",
+      "requirement": "Transparent hidden RGB fixture exact"
+    },
+    {
+      "id": "R9A-P035",
+      "requirement": "Constant DC fixture exact"
+    },
+    {
+      "id": "R9A-P036",
+      "requirement": "Neutral policy fixture exact"
+    },
+    {
+      "id": "R9A-P037",
+      "requirement": "Adaptive policy fixture exact"
+    },
+    {
+      "id": "R9A-P038",
+      "requirement": "Residual disabled identity exact"
+    },
+    {
+      "id": "R9A-P039",
+      "requirement": "Residual alpha invariant exact"
+    },
+    {
+      "id": "R9A-P040",
+      "requirement": "Source preparation exact"
+    },
+    {
+      "id": "R9A-P041",
+      "requirement": "Single-submit output equals R8A baseline output"
+    },
+    {
+      "id": "R9A-P042",
+      "requirement": "Pass order physical observation matches receipt"
+    },
+    {
+      "id": "R9A-P043",
+      "requirement": "Stage count physical observation matches planner"
+    },
+    {
+      "id": "R9A-P044",
+      "requirement": "No intermediate CPU readback"
+    },
+    {
+      "id": "R9A-P045",
+      "requirement": "No intermediate texture-to-buffer copy"
+    },
+    {
+      "id": "R9A-P046",
+      "requirement": "Preview terminal texture semantic exact"
+    },
+    {
+      "id": "R9A-P047",
+      "requirement": "Export final byte semantic exact"
+    },
+    {
+      "id": "R9A-P048",
+      "requirement": "R4 validation variant output equals product output"
+    },
+    {
+      "id": "R9A-P049",
+      "requirement": "R6 validation variant output equals product output"
+    },
+    {
+      "id": "R9A-P050",
+      "requirement": "Validation pipeline shader digest exact"
+    },
+    {
+      "id": "R9A-P051",
+      "requirement": "Product pipeline shader digest exact"
+    },
+    {
+      "id": "R9A-P052",
+      "requirement": "Generated manifest digest exact"
+    },
+    {
+      "id": "R9A-P053",
+      "requirement": "Kernel contract identity exact"
+    },
+    {
+      "id": "R9A-P054",
+      "requirement": "Parameter ABI identity exact"
+    },
+    {
+      "id": "R9A-P055",
+      "requirement": "Planner identity exact"
+    },
+    {
+      "id": "R9A-P056",
+      "requirement": "Command graph digest exact"
+    },
+    {
+      "id": "R9A-P057",
+      "requirement": "No nonfinite output"
+    },
+    {
+      "id": "R9A-P058",
+      "requirement": "No fault sentinel output"
+    },
+    {
+      "id": "R9A-P059",
+      "requirement": "No support clipping"
+    },
+    {
+      "id": "R9A-P060",
+      "requirement": "No center fallback"
+    },
+    {
+      "id": "R9A-P061",
+      "requirement": "First job per device epoch sampled"
+    },
+    {
+      "id": "R9A-P062",
+      "requirement": "First job per kernel digest sampled"
+    },
+    {
+      "id": "R9A-P063",
+      "requirement": "First job per plan digest sampled"
+    },
+    {
+      "id": "R9A-P064",
+      "requirement": "Periodic sample schedule exact"
+    },
+    {
+      "id": "R9A-P065",
+      "requirement": "Post-device-loss first job sampled"
+    },
+    {
+      "id": "R9A-P066",
+      "requirement": "Post-pipeline-rebuild first job sampled"
+    },
+    {
+      "id": "R9A-P067",
+      "requirement": "Unsampled job uses product pipeline"
+    },
+    {
+      "id": "R9A-P068",
+      "requirement": "Sampled job uses validation pipeline"
+    },
+    {
+      "id": "R9A-P069",
+      "requirement": "Sampled job dispatch count remains one"
+    },
+    {
+      "id": "R9A-P070",
+      "requirement": "Sampled output equals unsampled output"
+    },
+    {
+      "id": "R9A-P071",
+      "requirement": "All admitted counters zero"
+    },
+    {
+      "id": "R9A-P072",
+      "requirement": "All reserved counters zero"
+    },
+    {
+      "id": "R9A-P073",
+      "requirement": "Controlled radius fault counter increments"
+    },
+    {
+      "id": "R9A-P074",
+      "requirement": "Controlled zero-weight fault counter increments"
+    },
+    {
+      "id": "R9A-P075",
+      "requirement": "Controlled nonfinite weight counter increments"
+    },
+    {
+      "id": "R9A-P076",
+      "requirement": "Controlled nonfinite accumulation counter increments"
+    },
+    {
+      "id": "R9A-P077",
+      "requirement": "Only expected counter increments per fault"
+    },
+    {
+      "id": "R9A-P078",
+      "requirement": "Counter clear precedes dispatch"
+    },
+    {
+      "id": "R9A-P079",
+      "requirement": "Counter copy follows dispatch"
+    },
+    {
+      "id": "R9A-P080",
+      "requirement": "Counter readback exact 32 words"
+    },
+    {
+      "id": "R9A-P081",
+      "requirement": "Counter observer asynchronous in Preview"
+    },
+    {
+      "id": "R9A-P082",
+      "requirement": "Preview sampled frame does not CPU-stall"
+    },
+    {
+      "id": "R9A-P083",
+      "requirement": "Export strict sample rejects nonzero counter"
+    },
+    {
+      "id": "R9A-P084",
+      "requirement": "Export strict sample saves only after zero counter"
+    },
+    {
+      "id": "R9A-P085",
+      "requirement": "Validation sample receipt exact"
+    },
+    {
+      "id": "R9A-P086",
+      "requirement": "Validation trigger reason exact"
+    },
+    {
+      "id": "R9A-P087",
+      "requirement": "Validation shader digest exact"
+    },
+    {
+      "id": "R9A-P088",
+      "requirement": "Counter buffer reuse is fence-safe"
+    },
+    {
+      "id": "R9A-P089",
+      "requirement": "Counter buffer live bytes plateau"
+    },
+    {
+      "id": "R9A-P090",
+      "requirement": "Counter readback buffer is unmapped"
+    },
+    {
+      "id": "R9A-P091",
+      "requirement": "Counter observer survives 256 jobs"
+    },
+    {
+      "id": "R9A-P092",
+      "requirement": "Counter observer recovers after loss"
+    },
+    {
+      "id": "R9A-P093",
+      "requirement": "No inferred zero counters"
+    },
+    {
+      "id": "R9A-P094",
+      "requirement": "No duplicate validation dispatch"
+    },
+    {
+      "id": "R9A-P095",
+      "requirement": "Validation overhead receipt complete"
+    },
+    {
+      "id": "R9A-P096",
+      "requirement": "Preview one-stage encoder count equals one"
+    },
+    {
+      "id": "R9A-P097",
+      "requirement": "Preview one-stage submit count equals one"
+    },
+    {
+      "id": "R9A-P098",
+      "requirement": "Preview multi-stage encoder count equals one"
+    },
+    {
+      "id": "R9A-P099",
+      "requirement": "Preview multi-stage submit count equals one"
+    },
+    {
+      "id": "R9A-P100",
+      "requirement": "Export one-stage encoder count equals one"
+    },
+    {
+      "id": "R9A-P101",
+      "requirement": "Export one-stage submit count equals one"
+    },
+    {
+      "id": "R9A-P102",
+      "requirement": "Export multi-stage encoder count equals one"
+    },
+    {
+      "id": "R9A-P103",
+      "requirement": "Export multi-stage submit count equals one"
+    },
+    {
+      "id": "R9A-P104",
+      "requirement": "Source preparation stage submit count equals zero"
+    },
+    {
+      "id": "R9A-P105",
+      "requirement": "Tensor stage submit count equals zero"
+    },
+    {
+      "id": "R9A-P106",
+      "requirement": "Adaptive stage submit count equals zero"
+    },
+    {
+      "id": "R9A-P107",
+      "requirement": "EWA stage submit count equals zero"
+    },
+    {
+      "id": "R9A-P108",
+      "requirement": "Residual stage submit count equals zero"
+    },
+    {
+      "id": "R9A-P109",
+      "requirement": "Finalization stage submit count equals zero"
+    },
+    {
+      "id": "R9A-P110",
+      "requirement": "Preview onSubmittedWorkDone count equals zero"
+    },
+    {
+      "id": "R9A-P111",
+      "requirement": "Export pre-map onSubmittedWorkDone count equals zero"
+    },
+    {
+      "id": "R9A-P112",
+      "requirement": "Stage loop fence count equals zero"
+    },
+    {
+      "id": "R9A-P113",
+      "requirement": "Terminal Export map count equals one"
+    },
+    {
+      "id": "R9A-P114",
+      "requirement": "Preview map count equals zero"
+    },
+    {
+      "id": "R9A-P115",
+      "requirement": "Validation Preview asynchronous map count bounded"
+    },
+    {
+      "id": "R9A-P116",
+      "requirement": "Submission serial monotonic"
+    },
+    {
+      "id": "R9A-P117",
+      "requirement": "Completion ticket count equals submit count"
+    },
+    {
+      "id": "R9A-P118",
+      "requirement": "Completion ticket settles exactly once"
+    },
+    {
+      "id": "R9A-P119",
+      "requirement": "Uniform slots reclaim after completion"
+    },
+    {
+      "id": "R9A-P120",
+      "requirement": "Transient textures reclaim after completion"
+    },
+    {
+      "id": "R9A-P121",
+      "requirement": "Same-queue downstream consumer starts without CPU fence"
+    },
+    {
+      "id": "R9A-P122",
+      "requirement": "No hidden compatibility wrapper submit"
+    },
+    {
+      "id": "R9A-P123",
+      "requirement": "No hidden compatibility wrapper fence"
+    },
+    {
+      "id": "R9A-P124",
+      "requirement": "Command buffer count equals one"
+    },
+    {
+      "id": "R9A-P125",
+      "requirement": "Timestamp query resolve in same submit"
+    },
+    {
+      "id": "R9A-P126",
+      "requirement": "Validation counter copy in same submit"
+    },
+    {
+      "id": "R9A-P127",
+      "requirement": "Export terminal copy in same submit"
+    },
+    {
+      "id": "R9A-P128",
+      "requirement": "No partial submit on injected recording failure"
+    },
+    {
+      "id": "R9A-P129",
+      "requirement": "Device loss rejects pending ticket"
+    },
+    {
+      "id": "R9A-P130",
+      "requirement": "Post-loss new job uses new submission epoch"
+    },
+    {
+      "id": "R9A-P131",
+      "requirement": "R4 one-stage median GPU time no worse than 1.05 baseline"
+    },
+    {
+      "id": "R9A-P132",
+      "requirement": "R6 one-stage median GPU time no worse than 1.05 baseline"
+    },
+    {
+      "id": "R9A-P133",
+      "requirement": "R4 two-stage median GPU time at most 0.90 baseline"
+    },
+    {
+      "id": "R9A-P134",
+      "requirement": "R6 two-stage median GPU time at most 0.90 baseline"
+    },
+    {
+      "id": "R9A-P135",
+      "requirement": "R4 three-plus-stage median GPU time at most 0.80 baseline"
+    },
+    {
+      "id": "R9A-P136",
+      "requirement": "R6 three-plus-stage median GPU time at most 0.85 baseline"
+    },
+    {
+      "id": "R9A-P137",
+      "requirement": "R4 multi-stage p95 at most 0.95 baseline"
+    },
+    {
+      "id": "R9A-P138",
+      "requirement": "R6 multi-stage p95 at most 0.95 baseline"
+    },
+    {
+      "id": "R9A-P139",
+      "requirement": "Preview CPU encode-submit time at most 0.60 baseline"
+    },
+    {
+      "id": "R9A-P140",
+      "requirement": "Export CPU encode-submit time at most 0.60 baseline"
+    },
+    {
+      "id": "R9A-P141",
+      "requirement": "Submit count reduction matches stage count collapse"
+    },
+    {
+      "id": "R9A-P142",
+      "requirement": "Fence wait CPU time is zero for Preview"
+    },
+    {
+      "id": "R9A-P143",
+      "requirement": "Unsampled validation overhead at most 3 percent"
+    },
+    {
+      "id": "R9A-P144",
+      "requirement": "Sampled validation overhead at most 15 percent"
+    },
+    {
+      "id": "R9A-P145",
+      "requirement": "Uniform ring allocation count plateaus"
+    },
+    {
+      "id": "R9A-P146",
+      "requirement": "Bind group allocation count is bounded"
+    },
+    {
+      "id": "R9A-P147",
+      "requirement": "Command encoder allocation count equals job count"
+    },
+    {
+      "id": "R9A-P148",
+      "requirement": "No per-stage uniform buffer creation"
+    },
+    {
+      "id": "R9A-P149",
+      "requirement": "No per-stage readback buffer creation"
+    },
+    {
+      "id": "R9A-P150",
+      "requirement": "Timestamp raw ticks preserved"
+    },
+    {
+      "id": "R9A-P151",
+      "requirement": "AB/BA benchmark order balanced"
+    },
+    {
+      "id": "R9A-P152",
+      "requirement": "Warmup at least 128 iterations"
+    },
+    {
+      "id": "R9A-P153",
+      "requirement": "Measured paired samples at least 256"
+    },
+    {
+      "id": "R9A-P154",
+      "requirement": "R4 and R6 measured separately"
+    },
+    {
+      "id": "R9A-P155",
+      "requirement": "One-stage and multi-stage measured separately"
+    },
+    {
+      "id": "R9A-P156",
+      "requirement": "Preview and Export measured separately"
+    },
+    {
+      "id": "R9A-P157",
+      "requirement": "Sampled and unsampled measured separately"
+    },
+    {
+      "id": "R9A-P158",
+      "requirement": "Median calculation is deterministic"
+    },
+    {
+      "id": "R9A-P159",
+      "requirement": "p95 calculation is deterministic"
+    },
+    {
+      "id": "R9A-P160",
+      "requirement": "Outlier rejection policy is explicit"
+    },
+    {
+      "id": "R9A-P161",
+      "requirement": "No wall-clock substitution for GPU timestamps"
+    },
+    {
+      "id": "R9A-P162",
+      "requirement": "CPU timings use monotonic high-resolution clock"
+    },
+    {
+      "id": "R9A-P163",
+      "requirement": "Thermal state is recorded"
+    },
+    {
+      "id": "R9A-P164",
+      "requirement": "Power state changes invalidate run"
+    },
+    {
+      "id": "R9A-P165",
+      "requirement": "Driver reset invalidates run"
+    },
+    {
+      "id": "R9A-P166",
+      "requirement": "Background load anomaly invalidates run"
+    },
+    {
+      "id": "R9A-P167",
+      "requirement": "Baseline and candidate use same package bytes"
+    },
+    {
+      "id": "R9A-P168",
+      "requirement": "Baseline is test-only and cannot become product"
+    },
+    {
+      "id": "R9A-P169",
+      "requirement": "Performance receipt contains raw sample digest"
+    },
+    {
+      "id": "R9A-P170",
+      "requirement": "All performance thresholds pass"
+    },
+    {
+      "id": "R9A-P171",
+      "requirement": "Uniform arena live bytes plateau"
+    },
+    {
+      "id": "R9A-P172",
+      "requirement": "Counter arena live bytes plateau"
+    },
+    {
+      "id": "R9A-P173",
+      "requirement": "Timestamp arena live bytes plateau"
+    },
+    {
+      "id": "R9A-P174",
+      "requirement": "Transient texture live bytes plateau"
+    },
+    {
+      "id": "R9A-P175",
+      "requirement": "Bind group cache cardinality plateaus"
+    },
+    {
+      "id": "R9A-P176",
+      "requirement": "Pipeline cache cardinality plateaus"
+    },
+    {
+      "id": "R9A-P177",
+      "requirement": "Last 64 iteration slope is nonpositive"
+    },
+    {
+      "id": "R9A-P178",
+      "requirement": "Renderer private memory slope acceptable"
+    },
+    {
+      "id": "R9A-P179",
+      "requirement": "GPU process memory slope acceptable"
+    },
+    {
+      "id": "R9A-P180",
+      "requirement": "No mapped buffer leak"
+    },
+    {
+      "id": "R9A-P181",
+      "requirement": "No submission ticket leak"
+    },
+    {
+      "id": "R9A-P182",
+      "requirement": "No completion callback leak"
+    },
+    {
+      "id": "R9A-P183",
+      "requirement": "No Surface Registry leak"
+    },
+    {
+      "id": "R9A-P184",
+      "requirement": "Device loss cycle one recovers"
+    },
+    {
+      "id": "R9A-P185",
+      "requirement": "Device loss cycle two recovers"
+    },
+    {
+      "id": "R9A-P186",
+      "requirement": "Device loss cycle three recovers"
+    },
+    {
+      "id": "R9A-P187",
+      "requirement": "Each loss revokes old graph tickets"
+    },
+    {
+      "id": "R9A-P188",
+      "requirement": "Each loss invalidates old uniform slots"
+    },
+    {
+      "id": "R9A-P189",
+      "requirement": "Each loss rebuilds arenas"
+    },
+    {
+      "id": "R9A-P190",
+      "requirement": "Each loss rebuilds pipelines"
+    },
+    {
+      "id": "R9A-P191",
+      "requirement": "Post-loss sampled validation passes"
+    },
+    {
+      "id": "R9A-P192",
+      "requirement": "Post-loss parity passes"
+    },
+    {
+      "id": "R9A-P193",
+      "requirement": "Post-loss residency returns to baseline"
+    },
+    {
+      "id": "R9A-P194",
+      "requirement": "Stale completion cannot corrupt new epoch"
+    },
+    {
+      "id": "R9A-P195",
+      "requirement": "Cleanup ledger closes after loss suite"
+    },
+    {
+      "id": "R9A-P196",
+      "requirement": "Preview canonical broker uses R9A graph"
+    },
+    {
+      "id": "R9A-P197",
+      "requirement": "Preview Surface Registry handoff succeeds"
+    },
+    {
+      "id": "R9A-P198",
+      "requirement": "Preview returns without queue fence"
+    },
+    {
+      "id": "R9A-P199",
+      "requirement": "Preview sampled validation alert path works"
+    },
+    {
+      "id": "R9A-P200",
+      "requirement": "Export canonical path uses R9A graph"
+    },
+    {
+      "id": "R9A-P201",
+      "requirement": "Export terminal readback count equals one"
+    },
+    {
+      "id": "R9A-P202",
+      "requirement": "Export strict validation prevents bad save"
+    },
+    {
+      "id": "R9A-P203",
+      "requirement": "PNG success receipt contains R9A submission identity"
+    },
+    {
+      "id": "R9A-P204",
+      "requirement": "WebP success receipt contains R9A submission identity"
+    },
+    {
+      "id": "R9A-P205",
+      "requirement": "JXL success receipt contains R9A submission identity"
+    },
+    {
+      "id": "R9A-P206",
+      "requirement": "Zero silent fallback remains observed"
+    },
+    {
+      "id": "R9A-P207",
+      "requirement": "Actual kernel identity propagates to all export receipts"
+    },
+    {
+      "id": "R9A-P208",
+      "requirement": "Packaged Preview and Export outputs share lowpass identity"
+    },
+    {
+      "id": "R9A-P209",
+      "requirement": "All 214 physical gates PASS"
+    },
+    {
+      "id": "R9A-P210",
+      "requirement": "No physical gate PENDING"
+    },
+    {
+      "id": "R9A-P211",
+      "requirement": "No physical gate DEFERRED"
+    },
+    {
+      "id": "R9A-P212",
+      "requirement": "No physical gate SKIPPED"
+    },
+    {
+      "id": "R9A-P213",
+      "requirement": "No physical gate FAIL"
+    },
+    {
+      "id": "R9A-P214",
+      "requirement": "R9A final physical receipt self-hash valid"
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceMandatory": [
+    {
+      "id": "R9A-S001",
+      "requirement": "R8A final source receipt is present and digest-verified"
+    },
+    {
+      "id": "R9A-S002",
+      "requirement": "R8A final state is exact"
+    },
+    {
+      "id": "R9A-S003",
+      "requirement": "R8A 253 source gates remain PASS"
+    },
+    {
+      "id": "R9A-S004",
+      "requirement": "R8A physical gates remain DEFERRED until R9A execution"
+    },
+    {
+      "id": "R9A-S005",
+      "requirement": "R8A Active Graph parse closure remains exact"
+    },
+    {
+      "id": "R9A-S006",
+      "requirement": "R8A canonical executor registration remains present"
+    },
+    {
+      "id": "R9A-S007",
+      "requirement": "R8A actual kernel identity bundle remains source of truth"
+    },
+    {
+      "id": "R9A-S008",
+      "requirement": "R8A repeated device-loss authority remains admitted"
+    },
+    {
+      "id": "R9A-S009",
+      "requirement": "R8A zero-silent-fallback contract remains admitted"
+    },
+    {
+      "id": "R9A-S010",
+      "requirement": "R8 mathematical kernel files remain hash-frozen"
+    },
+    {
+      "id": "R9A-S011",
+      "requirement": "R8 support planner v3 remains hash-frozen"
+    },
+    {
+      "id": "R9A-S012",
+      "requirement": "R8 generated WGSL manifest remains hash-frozen"
+    },
+    {
+      "id": "R9A-S013",
+      "requirement": "R8A downstream invalidation receipt remains byte-identical"
+    },
+    {
+      "id": "R9A-S014",
+      "requirement": "R9 through R13 historical receipts remain historical only"
+    },
+    {
+      "id": "R9A-S015",
+      "requirement": "No superseded downstream receipt is accepted as current"
+    },
+    {
+      "id": "R9A-S016",
+      "requirement": "Production Pointer mirrors remain byte-identical"
+    },
+    {
+      "id": "R9A-S017",
+      "requirement": "Local activation pointer is not created by source bake"
+    },
+    {
+      "id": "R9A-S018",
+      "requirement": "Parent package.json expansion is isolated from frozen runtime files"
+    },
+    {
+      "id": "R9A-S019",
+      "requirement": "Lineage manifest names R8A as immediate parent"
+    },
+    {
+      "id": "R9A-S020",
+      "requirement": "Next current authority is R9A only"
+    },
+    {
+      "id": "R9A-S021",
+      "requirement": "R9A owns command recording and submission policy only"
+    },
+    {
+      "id": "R9A-S022",
+      "requirement": "R9A does not change EWA kernel math"
+    },
+    {
+      "id": "R9A-S023",
+      "requirement": "R9A does not change planner stage geometry"
+    },
+    {
+      "id": "R9A-S024",
+      "requirement": "R9A does not change alpha or transfer semantics"
+    },
+    {
+      "id": "R9A-S025",
+      "requirement": "R9A does not mutate Production Pointer"
+    },
+    {
+      "id": "R9A-S026",
+      "requirement": "R9A does not mutate local activation pointer"
+    },
+    {
+      "id": "R9A-S027",
+      "requirement": "R9A does not issue R11 runtime admission tokens"
+    },
+    {
+      "id": "R9A-S028",
+      "requirement": "R9A does not perform fleet rollout"
+    },
+    {
+      "id": "R9A-S029",
+      "requirement": "GPUDevice Authority remains single device owner"
+    },
+    {
+      "id": "R9A-S030",
+      "requirement": "Surface Registry remains texture ownership authority"
+    },
+    {
+      "id": "R9A-S031",
+      "requirement": "Validation sampling policy has one SSOT"
+    },
+    {
+      "id": "R9A-S032",
+      "requirement": "Submission fence registry has one SSOT"
+    },
+    {
+      "id": "R9A-S033",
+      "requirement": "Uniform arena has one owner per device epoch"
+    },
+    {
+      "id": "R9A-S034",
+      "requirement": "Physical promotion cannot be inferred from source PASS"
+    },
+    {
+      "id": "R9A-S035",
+      "requirement": "Canonical command graph schema exists"
+    },
+    {
+      "id": "R9A-S036",
+      "requirement": "Graph identity includes job and device epoch"
+    },
+    {
+      "id": "R9A-S037",
+      "requirement": "Exactly one encoder is created per canonical job"
+    },
+    {
+      "id": "R9A-S038",
+      "requirement": "Source preparation records into supplied encoder"
+    },
+    {
+      "id": "R9A-S039",
+      "requirement": "Stage tensor records into supplied encoder"
+    },
+    {
+      "id": "R9A-S040",
+      "requirement": "Adaptive policy records into supplied encoder"
+    },
+    {
+      "id": "R9A-S041",
+      "requirement": "EWA product records into supplied encoder"
+    },
+    {
+      "id": "R9A-S042",
+      "requirement": "Validation variant records into supplied encoder"
+    },
+    {
+      "id": "R9A-S043",
+      "requirement": "Residual records into supplied encoder"
+    },
+    {
+      "id": "R9A-S044",
+      "requirement": "Finalization records into supplied encoder"
+    },
+    {
+      "id": "R9A-S045",
+      "requirement": "Terminal texture copy records into supplied encoder"
+    },
+    {
+      "id": "R9A-S046",
+      "requirement": "Timestamp resolves record into supplied encoder"
+    },
+    {
+      "id": "R9A-S047",
+      "requirement": "Validation counter copy records into supplied encoder"
+    },
+    {
+      "id": "R9A-S048",
+      "requirement": "No stage helper submits when encoder is supplied"
+    },
+    {
+      "id": "R9A-S049",
+      "requirement": "No stage helper awaits queue completion when encoder is supplied"
+    },
+    {
+      "id": "R9A-S050",
+      "requirement": "Graph pass order is deterministic"
+    },
+    {
+      "id": "R9A-S051",
+      "requirement": "Graph resource dependency edges are explicit"
+    },
+    {
+      "id": "R9A-S052",
+      "requirement": "Each stage consumes previous stage texture in-order"
+    },
+    {
+      "id": "R9A-S053",
+      "requirement": "Tensor pass precedes its EWA pass"
+    },
+    {
+      "id": "R9A-S054",
+      "requirement": "Adaptive policy pass precedes its EWA pass"
+    },
+    {
+      "id": "R9A-S055",
+      "requirement": "Residual is terminal-stage-only"
+    },
+    {
+      "id": "R9A-S056",
+      "requirement": "Finalization follows selected lowpass or residual texture"
+    },
+    {
+      "id": "R9A-S057",
+      "requirement": "Export readback copy is last GPU operation"
+    },
+    {
+      "id": "R9A-S058",
+      "requirement": "Preview graph contains no readback copy"
+    },
+    {
+      "id": "R9A-S059",
+      "requirement": "Graph abort before submit destroys all unsubmitted resources"
+    },
+    {
+      "id": "R9A-S060",
+      "requirement": "Graph recording error cannot submit partial work"
+    },
+    {
+      "id": "R9A-S061",
+      "requirement": "Graph cannot be submitted twice"
+    },
+    {
+      "id": "R9A-S062",
+      "requirement": "Graph completion ticket is immutable"
+    },
+    {
+      "id": "R9A-S063",
+      "requirement": "Graph receipt contains exact pass sequence"
+    },
+    {
+      "id": "R9A-S064",
+      "requirement": "Graph receipt contains exact stage count"
+    },
+    {
+      "id": "R9A-S065",
+      "requirement": "Graph receipt contains encoder count"
+    },
+    {
+      "id": "R9A-S066",
+      "requirement": "Graph receipt contains submit count"
+    },
+    {
+      "id": "R9A-S067",
+      "requirement": "Graph receipt contains validation sample decision"
+    },
+    {
+      "id": "R9A-S068",
+      "requirement": "Graph receipt contains uniform slot identities"
+    },
+    {
+      "id": "R9A-S069",
+      "requirement": "Graph receipt contains timestamp query range"
+    },
+    {
+      "id": "R9A-S070",
+      "requirement": "Graph receipt digest is canonical"
+    },
+    {
+      "id": "R9A-S071",
+      "requirement": "prepareCanonicalSourceR9A accepts encoder context"
+    },
+    {
+      "id": "R9A-S072",
+      "requirement": "buildStageLocalTensorR9A accepts encoder context"
+    },
+    {
+      "id": "R9A-S073",
+      "requirement": "buildAdaptivePolicyFieldR9A accepts encoder context"
+    },
+    {
+      "id": "R9A-S074",
+      "requirement": "recordEwaDispatchR9A accepts encoder context"
+    },
+    {
+      "id": "R9A-S075",
+      "requirement": "recordExportResidualR9A accepts encoder context"
+    },
+    {
+      "id": "R9A-S076",
+      "requirement": "recordExportFinalizationR9A accepts encoder context"
+    },
+    {
+      "id": "R9A-S077",
+      "requirement": "Standalone compatibility wrappers remain available"
+    },
+    {
+      "id": "R9A-S078",
+      "requirement": "Standalone wrappers submit exactly once"
+    },
+    {
+      "id": "R9A-S079",
+      "requirement": "Encoder-aware helpers submit zero times"
+    },
+    {
+      "id": "R9A-S080",
+      "requirement": "Encoder-aware helpers fence zero times"
+    },
+    {
+      "id": "R9A-S081",
+      "requirement": "Recorded pass receipt is returned without claiming completion"
+    },
+    {
+      "id": "R9A-S082",
+      "requirement": "Completion fields are set only by graph finalizer"
+    },
+    {
+      "id": "R9A-S083",
+      "requirement": "Stage helper cannot destroy resources before submission completion"
+    },
+    {
+      "id": "R9A-S084",
+      "requirement": "Stage helper cannot reuse stale encoder context"
+    },
+    {
+      "id": "R9A-S085",
+      "requirement": "Stage helper verifies device identity"
+    },
+    {
+      "id": "R9A-S086",
+      "requirement": "Stage helper verifies device epoch"
+    },
+    {
+      "id": "R9A-S087",
+      "requirement": "Stage helper verifies command graph identity"
+    },
+    {
+      "id": "R9A-S088",
+      "requirement": "Stage helper rejects foreign uniform arena"
+    },
+    {
+      "id": "R9A-S089",
+      "requirement": "Stage helper rejects foreign counter arena"
+    },
+    {
+      "id": "R9A-S090",
+      "requirement": "Stage helper rejects unsupported texture semantics"
+    },
+    {
+      "id": "R9A-S091",
+      "requirement": "Legacy raw pipeline path remains outside canonical graph"
+    },
+    {
+      "id": "R9A-S092",
+      "requirement": "Canonical path cannot fall back to standalone helper"
+    },
+    {
+      "id": "R9A-S093",
+      "requirement": "API migration manifest lists every replaced call site"
+    },
+    {
+      "id": "R9A-S094",
+      "requirement": "Old stage-level submit calls are absent from active canonical path"
+    },
+    {
+      "id": "R9A-S095",
+      "requirement": "Uniform ring schema exists"
+    },
+    {
+      "id": "R9A-S096",
+      "requirement": "Uniform ring is device-epoch scoped"
+    },
+    {
+      "id": "R9A-S097",
+      "requirement": "Uniform ring stride uses minUniformBufferOffsetAlignment"
+    },
+    {
+      "id": "R9A-S098",
+      "requirement": "EWA 96-byte payload fits one aligned slot"
+    },
+    {
+      "id": "R9A-S099",
+      "requirement": "Tensor payload fits aligned typed slot"
+    },
+    {
+      "id": "R9A-S100",
+      "requirement": "Source preparation payload fits aligned typed slot"
+    },
+    {
+      "id": "R9A-S101",
+      "requirement": "Adaptive policy payload fits aligned typed slot"
+    },
+    {
+      "id": "R9A-S102",
+      "requirement": "Residual payload fits aligned typed slot"
+    },
+    {
+      "id": "R9A-S103",
+      "requirement": "Finalization payload fits aligned typed slot"
+    },
+    {
+      "id": "R9A-S104",
+      "requirement": "Slot identity includes arena generation"
+    },
+    {
+      "id": "R9A-S105",
+      "requirement": "Slot identity includes submission serial"
+    },
+    {
+      "id": "R9A-S106",
+      "requirement": "Slot identity includes job identity"
+    },
+    {
+      "id": "R9A-S107",
+      "requirement": "Slot identity includes pass identity"
+    },
+    {
+      "id": "R9A-S108",
+      "requirement": "Dynamic offsets are alignment-valid"
+    },
+    {
+      "id": "R9A-S109",
+      "requirement": "Bind group layouts admit dynamic offsets where required"
+    },
+    {
+      "id": "R9A-S110",
+      "requirement": "No shared mutable single uniform buffer remains in canonical path"
+    },
+    {
+      "id": "R9A-S111",
+      "requirement": "CPU writes never overwrite in-flight slot"
+    },
+    {
+      "id": "R9A-S112",
+      "requirement": "Ring exhaustion is fail-closed"
+    },
+    {
+      "id": "R9A-S113",
+      "requirement": "Ring exhaustion does not allocate silent unbounded buffers"
+    },
+    {
+      "id": "R9A-S114",
+      "requirement": "Overflow pool has explicit bounded policy"
+    },
+    {
+      "id": "R9A-S115",
+      "requirement": "Overflow pool use is receipted"
+    },
+    {
+      "id": "R9A-S116",
+      "requirement": "Slot reclamation occurs only after submission completion"
+    },
+    {
+      "id": "R9A-S117",
+      "requirement": "Slot reclamation is idempotent"
+    },
+    {
+      "id": "R9A-S118",
+      "requirement": "Slot release before submit aborts cleanly"
+    },
+    {
+      "id": "R9A-S119",
+      "requirement": "Device loss invalidates all slots"
+    },
+    {
+      "id": "R9A-S120",
+      "requirement": "Old epoch slot cannot bind to new device"
+    },
+    {
+      "id": "R9A-S121",
+      "requirement": "Arena disposal destroys backing buffers once"
+    },
+    {
+      "id": "R9A-S122",
+      "requirement": "Arena live-byte accounting is exact"
+    },
+    {
+      "id": "R9A-S123",
+      "requirement": "Arena high-water mark is receipted"
+    },
+    {
+      "id": "R9A-S124",
+      "requirement": "Arena capacity is configurable but bounded"
+    },
+    {
+      "id": "R9A-S125",
+      "requirement": "Preview and Export may share arena under same device authority"
+    },
+    {
+      "id": "R9A-S126",
+      "requirement": "Preview and Export cannot share a slot concurrently"
+    },
+    {
+      "id": "R9A-S127",
+      "requirement": "Per-job slot count is derivable from stage plan"
+    },
+    {
+      "id": "R9A-S128",
+      "requirement": "Ring wraparound negative control exists"
+    },
+    {
+      "id": "R9A-S129",
+      "requirement": "Misaligned dynamic offset negative control exists"
+    },
+    {
+      "id": "R9A-S130",
+      "requirement": "Premature slot reuse negative control exists"
+    },
+    {
+      "id": "R9A-S131",
+      "requirement": "Stale epoch slot negative control exists"
+    },
+    {
+      "id": "R9A-S132",
+      "requirement": "Uniform byte digest is recorded per pass"
+    },
+    {
+      "id": "R9A-S133",
+      "requirement": "Validation sampling policy schema exists"
+    },
+    {
+      "id": "R9A-S134",
+      "requirement": "Policy identity is canonical and digest-bound"
+    },
+    {
+      "id": "R9A-S135",
+      "requirement": "Policy includes build identity"
+    },
+    {
+      "id": "R9A-S136",
+      "requirement": "Policy includes device identity class"
+    },
+    {
+      "id": "R9A-S137",
+      "requirement": "Policy includes kernel contract digest"
+    },
+    {
+      "id": "R9A-S138",
+      "requirement": "Policy includes planner identity"
+    },
+    {
+      "id": "R9A-S139",
+      "requirement": "Policy includes sampling denominator"
+    },
+    {
+      "id": "R9A-S140",
+      "requirement": "Policy includes mandatory trigger set"
+    },
+    {
+      "id": "R9A-S141",
+      "requirement": "First canonical job per device epoch is sampled"
+    },
+    {
+      "id": "R9A-S142",
+      "requirement": "First job per kernel digest is sampled"
+    },
+    {
+      "id": "R9A-S143",
+      "requirement": "First job per plan digest is sampled"
+    },
+    {
+      "id": "R9A-S144",
+      "requirement": "First job after device loss is sampled"
+    },
+    {
+      "id": "R9A-S145",
+      "requirement": "First job after pipeline rebuild is sampled"
+    },
+    {
+      "id": "R9A-S146",
+      "requirement": "Periodic deterministic sample is supported"
+    },
+    {
+      "id": "R9A-S147",
+      "requirement": "Sampling decision is deterministic for same inputs"
+    },
+    {
+      "id": "R9A-S148",
+      "requirement": "Sampling decision uses monotonic canonical job sequence"
+    },
+    {
+      "id": "R9A-S149",
+      "requirement": "Sampling decision does not use user file name"
+    },
+    {
+      "id": "R9A-S150",
+      "requirement": "Sampling decision does not use image pixel hash"
+    },
+    {
+      "id": "R9A-S151",
+      "requirement": "Sampling decision does not use wall-clock randomness"
+    },
+    {
+      "id": "R9A-S152",
+      "requirement": "Unsampled stage uses product pipeline"
+    },
+    {
+      "id": "R9A-S153",
+      "requirement": "Sampled stage uses validation pipeline in product position"
+    },
+    {
+      "id": "R9A-S154",
+      "requirement": "Sampled stage is not dispatched twice"
+    },
+    {
+      "id": "R9A-S155",
+      "requirement": "Validation output texture is canonical product output"
+    },
+    {
+      "id": "R9A-S156",
+      "requirement": "Validation counter buffer has 32 u32 words"
+    },
+    {
+      "id": "R9A-S157",
+      "requirement": "Counter buffer is cleared before sampled graph"
+    },
+    {
+      "id": "R9A-S158",
+      "requirement": "Reserved counters must remain zero"
+    },
+    {
+      "id": "R9A-S159",
+      "requirement": "Counter copy occurs in same command graph"
+    },
+    {
+      "id": "R9A-S160",
+      "requirement": "Counter readback buffer is ring-managed"
+    },
+    {
+      "id": "R9A-S161",
+      "requirement": "Preview counter readback is asynchronous"
+    },
+    {
+      "id": "R9A-S162",
+      "requirement": "Preview counter failure revokes subsequent admission"
+    },
+    {
+      "id": "R9A-S163",
+      "requirement": "Export strict sample waits before save"
+    },
+    {
+      "id": "R9A-S164",
+      "requirement": "Export non-sampled job does not add readback"
+    },
+    {
+      "id": "R9A-S165",
+      "requirement": "Counter nonzero discards sampled Export output"
+    },
+    {
+      "id": "R9A-S166",
+      "requirement": "Counter nonzero emits structured fault receipt"
+    },
+    {
+      "id": "R9A-S167",
+      "requirement": "Counter observer is device-epoch scoped"
+    },
+    {
+      "id": "R9A-S168",
+      "requirement": "Counter observer survives multiple jobs"
+    },
+    {
+      "id": "R9A-S169",
+      "requirement": "Counter observer is re-created after device loss"
+    },
+    {
+      "id": "R9A-S170",
+      "requirement": "Counter sample rate is receipted"
+    },
+    {
+      "id": "R9A-S171",
+      "requirement": "Counter trigger reason is receipted"
+    },
+    {
+      "id": "R9A-S172",
+      "requirement": "Counter values are preserved exactly"
+    },
+    {
+      "id": "R9A-S173",
+      "requirement": "No counter value is replaced by inferred zero"
+    },
+    {
+      "id": "R9A-S174",
+      "requirement": "Validation shader identity equals generated manifest record"
+    },
+    {
+      "id": "R9A-S175",
+      "requirement": "Canonical source preparation has no onSubmittedWorkDone"
+    },
+    {
+      "id": "R9A-S176",
+      "requirement": "Canonical tensor stage has no onSubmittedWorkDone"
+    },
+    {
+      "id": "R9A-S177",
+      "requirement": "Canonical adaptive policy stage has no onSubmittedWorkDone"
+    },
+    {
+      "id": "R9A-S178",
+      "requirement": "Canonical EWA stage has no onSubmittedWorkDone"
+    },
+    {
+      "id": "R9A-S179",
+      "requirement": "Canonical residual stage has no onSubmittedWorkDone"
+    },
+    {
+      "id": "R9A-S180",
+      "requirement": "Canonical finalization stage has no onSubmittedWorkDone"
+    },
+    {
+      "id": "R9A-S181",
+      "requirement": "Canonical multi-stage loop has no stage fence"
+    },
+    {
+      "id": "R9A-S182",
+      "requirement": "One queue submit occurs per canonical job"
+    },
+    {
+      "id": "R9A-S183",
+      "requirement": "Preview returns without CPU queue fence by default"
+    },
+    {
+      "id": "R9A-S184",
+      "requirement": "Export uses mapAsync as terminal synchronization"
+    },
+    {
+      "id": "R9A-S185",
+      "requirement": "Explicit strict validation may await counter map only"
+    },
+    {
+      "id": "R9A-S186",
+      "requirement": "No redundant onSubmittedWorkDone precedes mapAsync"
+    },
+    {
+      "id": "R9A-S187",
+      "requirement": "Submission fence registry schema exists"
+    },
+    {
+      "id": "R9A-S188",
+      "requirement": "Submission serial is monotonic per device epoch"
+    },
+    {
+      "id": "R9A-S189",
+      "requirement": "Completion promise is created once per submission"
+    },
+    {
+      "id": "R9A-S190",
+      "requirement": "Completion promise is shared by all resource owners"
+    },
+    {
+      "id": "R9A-S191",
+      "requirement": "Completion observer does not resubmit commands"
+    },
+    {
+      "id": "R9A-S192",
+      "requirement": "Completion observer releases uniform slots"
+    },
+    {
+      "id": "R9A-S193",
+      "requirement": "Completion observer releases transient resources"
+    },
+    {
+      "id": "R9A-S194",
+      "requirement": "Completion observer records GPU completion status"
+    },
+    {
+      "id": "R9A-S195",
+      "requirement": "Device loss rejects all pending completion tickets"
+    },
+    {
+      "id": "R9A-S196",
+      "requirement": "Stale completion cannot release new epoch resources"
+    },
+    {
+      "id": "R9A-S197",
+      "requirement": "Downstream same-queue consumers use texture dependency not CPU wait"
+    },
+    {
+      "id": "R9A-S198",
+      "requirement": "External CPU consumer must request explicit completion"
+    },
+    {
+      "id": "R9A-S199",
+      "requirement": "Compatibility wrapper fence use is receipted"
+    },
+    {
+      "id": "R9A-S200",
+      "requirement": "Queue fence count is measured physically"
+    },
+    {
+      "id": "R9A-S201",
+      "requirement": "Submit count is measured physically"
+    },
+    {
+      "id": "R9A-S202",
+      "requirement": "Silent fallback to stage-level fencing is forbidden"
+    },
+    {
+      "id": "R9A-S203",
+      "requirement": "Graph resource ledger schema exists"
+    },
+    {
+      "id": "R9A-S204",
+      "requirement": "Every transient texture has one owner"
+    },
+    {
+      "id": "R9A-S205",
+      "requirement": "Every transient buffer has one owner"
+    },
+    {
+      "id": "R9A-S206",
+      "requirement": "Retained terminal inputs have explicit lease"
+    },
+    {
+      "id": "R9A-S207",
+      "requirement": "Intermediate textures release after submission completion"
+    },
+    {
+      "id": "R9A-S208",
+      "requirement": "Terminal texture lifetime is caller-owned"
+    },
+    {
+      "id": "R9A-S209",
+      "requirement": "Preview surface registry transfer is explicit"
+    },
+    {
+      "id": "R9A-S210",
+      "requirement": "Export terminal readback buffer is destroyed after unmap"
+    },
+    {
+      "id": "R9A-S211",
+      "requirement": "Validation counter readback buffer is destroyed after observation"
+    },
+    {
+      "id": "R9A-S212",
+      "requirement": "Timestamp buffers are pooled or bounded"
+    },
+    {
+      "id": "R9A-S213",
+      "requirement": "No mapped buffer remains after job completion"
+    },
+    {
+      "id": "R9A-S214",
+      "requirement": "Graph abort destroys unsubmitted resources"
+    },
+    {
+      "id": "R9A-S215",
+      "requirement": "Graph submit transfers cleanup to completion registry"
+    },
+    {
+      "id": "R9A-S216",
+      "requirement": "Completion cleanup is exactly-once"
+    },
+    {
+      "id": "R9A-S217",
+      "requirement": "Device loss aborts recording graph"
+    },
+    {
+      "id": "R9A-S218",
+      "requirement": "Device loss rejects submitted graph ticket"
+    },
+    {
+      "id": "R9A-S219",
+      "requirement": "Device loss clears uniform arena"
+    },
+    {
+      "id": "R9A-S220",
+      "requirement": "Device loss clears counter arena"
+    },
+    {
+      "id": "R9A-S221",
+      "requirement": "Device loss clears timestamp arena"
+    },
+    {
+      "id": "R9A-S222",
+      "requirement": "Device loss clears pipeline graph cache"
+    },
+    {
+      "id": "R9A-S223",
+      "requirement": "Device loss preserves historical receipt only"
+    },
+    {
+      "id": "R9A-S224",
+      "requirement": "New epoch builds new arenas"
+    },
+    {
+      "id": "R9A-S225",
+      "requirement": "New epoch builds new command graph authority"
+    },
+    {
+      "id": "R9A-S226",
+      "requirement": "Three consecutive device-loss cycles remain supported"
+    },
+    {
+      "id": "R9A-S227",
+      "requirement": "Post-loss first job is mandatorily sampled"
+    },
+    {
+      "id": "R9A-S228",
+      "requirement": "Post-loss output parity is revalidated"
+    },
+    {
+      "id": "R9A-S229",
+      "requirement": "Resource live bytes return to baseline"
+    },
+    {
+      "id": "R9A-S230",
+      "requirement": "Resource cardinality returns to baseline"
+    },
+    {
+      "id": "R9A-S231",
+      "requirement": "No old epoch bind group is reused"
+    },
+    {
+      "id": "R9A-S232",
+      "requirement": "No stale graph can submit after recovery"
+    },
+    {
+      "id": "R9A-S233",
+      "requirement": "R9A command graph receipt schema exists"
+    },
+    {
+      "id": "R9A-S234",
+      "requirement": "R9A submission receipt schema exists"
+    },
+    {
+      "id": "R9A-S235",
+      "requirement": "R9A uniform arena receipt schema exists"
+    },
+    {
+      "id": "R9A-S236",
+      "requirement": "R9A validation sample receipt schema exists"
+    },
+    {
+      "id": "R9A-S237",
+      "requirement": "R9A performance receipt schema exists"
+    },
+    {
+      "id": "R9A-S238",
+      "requirement": "Actual R8A kernel identity is embedded"
+    },
+    {
+      "id": "R9A-S239",
+      "requirement": "Actual generated shader digest set is embedded"
+    },
+    {
+      "id": "R9A-S240",
+      "requirement": "Actual ABI identity is embedded"
+    },
+    {
+      "id": "R9A-S241",
+      "requirement": "Actual planner identity is embedded"
+    },
+    {
+      "id": "R9A-S242",
+      "requirement": "R8A lowpass receipt digest is embedded"
+    },
+    {
+      "id": "R9A-S243",
+      "requirement": "Pass sequence digest is embedded"
+    },
+    {
+      "id": "R9A-S244",
+      "requirement": "Uniform payload digest set is embedded"
+    },
+    {
+      "id": "R9A-S245",
+      "requirement": "Validation counter digest is embedded when sampled"
+    },
+    {
+      "id": "R9A-S246",
+      "requirement": "Timestamp raw digest is embedded when measured"
+    },
+    {
+      "id": "R9A-S247",
+      "requirement": "Submission serial is embedded"
+    },
+    {
+      "id": "R9A-S248",
+      "requirement": "Device epoch is embedded"
+    },
+    {
+      "id": "R9A-S249",
+      "requirement": "Package content identity is reserved for physical receipt"
+    },
+    {
+      "id": "R9A-S250",
+      "requirement": "No source receipt claims hardware timing"
+    },
+    {
+      "id": "R9A-S251",
+      "requirement": "No source receipt claims physical counter values"
+    },
+    {
+      "id": "R9A-S252",
+      "requirement": "Source and physical states are distinct"
+    },
+    {
+      "id": "R9A-S253",
+      "requirement": "Receipt child artifact digests are canonical"
+    },
+    {
+      "id": "R9A-S254",
+      "requirement": "Receipt self-hash is verified"
+    },
+    {
+      "id": "R9A-S255",
+      "requirement": "Stage helper standalone submit inside graph is detected"
+    },
+    {
+      "id": "R9A-S256",
+      "requirement": "Stage helper queue fence inside graph is detected"
+    },
+    {
+      "id": "R9A-S257",
+      "requirement": "Second encoder creation is detected"
+    },
+    {
+      "id": "R9A-S258",
+      "requirement": "Second queue submit is detected"
+    },
+    {
+      "id": "R9A-S259",
+      "requirement": "Uniform slot misalignment is detected"
+    },
+    {
+      "id": "R9A-S260",
+      "requirement": "Uniform slot premature reuse is detected"
+    },
+    {
+      "id": "R9A-S261",
+      "requirement": "Uniform arena unbounded growth is detected"
+    },
+    {
+      "id": "R9A-S262",
+      "requirement": "Validation job double dispatch is detected"
+    },
+    {
+      "id": "R9A-S263",
+      "requirement": "Validation counter inferred-zero substitution is detected"
+    },
+    {
+      "id": "R9A-S264",
+      "requirement": "Sample schedule randomness is detected"
+    },
+    {
+      "id": "R9A-S265",
+      "requirement": "Counter readback omission is detected"
+    },
+    {
+      "id": "R9A-S266",
+      "requirement": "Preview synchronous fence regression is detected"
+    },
+    {
+      "id": "R9A-S267",
+      "requirement": "Export pre-map queue fence regression is detected"
+    },
+    {
+      "id": "R9A-S268",
+      "requirement": "Partial graph submit after recording error is detected"
+    },
+    {
+      "id": "R9A-S269",
+      "requirement": "Stale device epoch graph submit is detected"
+    },
+    {
+      "id": "R9A-S270",
+      "requirement": "Stale completion cleanup is detected"
+    },
+    {
+      "id": "R9A-S271",
+      "requirement": "Old kernel identity propagation is detected"
+    },
+    {
+      "id": "R9A-S272",
+      "requirement": "Historical R9 receipt reuse is detected"
+    },
+    {
+      "id": "R9A-S273",
+      "requirement": "Production pointer mutation is detected"
+    },
+    {
+      "id": "R9A-S274",
+      "requirement": "CPU resample fallback is detected"
+    },
+    {
+      "id": "R9A-S275",
+      "requirement": "R9A source tools are parser-valid"
+    },
+    {
+      "id": "R9A-S276",
+      "requirement": "R9A runtime modules are parser-valid"
+    },
+    {
+      "id": "R9A-S277",
+      "requirement": "R9A TypeScript modules transpile"
+    },
+    {
+      "id": "R9A-S278",
+      "requirement": "R9A active runtime nodes are admitted"
+    },
+    {
+      "id": "R9A-S279",
+      "requirement": "R9A command graph edges are admitted"
+    },
+    {
+      "id": "R9A-S280",
+      "requirement": "R9A validation shaders remain active assets"
+    },
+    {
+      "id": "R9A-S281",
+      "requirement": "R9A test-only baseline remains quarantined"
+    },
+    {
+      "id": "R9A-S282",
+      "requirement": "Source gate catalog has 286 unique IDs"
+    },
+    {
+      "id": "R9A-S283",
+      "requirement": "Physical gate catalog has 214 unique IDs"
+    },
+    {
+      "id": "R9A-S284",
+      "requirement": "Source final state is exact"
+    },
+    {
+      "id": "R9A-S285",
+      "requirement": "Physical final state is unreachable with pending gates"
+    },
+    {
+      "id": "R9A-S286",
+      "requirement": "Next authority is R10A replay"
+    }
+  ],
+  "specSha256": "a6bcd275e8d5df1f1a813c7b7f2ed96c851378fc1971eee430c96a5eb7a06b2d",
+  "selfSha256": "b6b992465ffe9eec6e05db960bdfddc3e055afeb907bf33d1c9dcbe869a29825"
+}

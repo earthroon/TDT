@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "profileId": "dadum.dependency-input.win32-x64-v1",
+  "nodeVersion": "22.16.0",
+  "npmVersion": "10.9.2",
+  "lockfileVersion": 3,
+  "targetPlatform": "win32",
+  "targetArch": "x64",
+  "installStrategy": "hoisted",
+  "directVersionPolicy": "exact-semver-v1",
+  "peerPolicy": "strict-no-legacy-v1",
+  "lifecyclePolicy": "ignore-all-during-lock-proof-v1",
+  "recoveryMode": "registry-online-then-frozen-cache-v1",
+  "logicalResolvedHostPolicy": "canonical-npmjs-v1",
+  "registryIdentityRef": "tools/registry-input-profile.json",
+  "cachePolicyId": "project-closure-frozen-cache-v1",
+  "networkPolicy": "registry-only-during-acquisition-v1",
+  "offlineReplayRequired": true,
+  "offlineReplayCount": 2,
+  "lockMutationPolicy": "raw-byte-zero-v1"
+}

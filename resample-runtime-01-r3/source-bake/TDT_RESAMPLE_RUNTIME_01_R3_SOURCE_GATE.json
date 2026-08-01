@@ -1,0 +1,595 @@
+{
+  "counts": {
+    "DEFERRED": 2,
+    "PASS": 86
+  },
+  "deterministicFreshProcessReceipts": true,
+  "failCount": 0,
+  "gates": [
+    {
+      "id": "R3-01",
+      "reason": "verified",
+      "requirement": "parent bundle identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-02",
+      "reason": "verified",
+      "requirement": "R4 product immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-03",
+      "reason": "verified",
+      "requirement": "R6 product immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-04",
+      "reason": "verified",
+      "requirement": "R4 validation immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-05",
+      "reason": "verified",
+      "requirement": "R6 validation immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-06",
+      "reason": "verified",
+      "requirement": "direct reference immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-07",
+      "reason": "verified",
+      "requirement": "profile selector immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-08",
+      "reason": "verified",
+      "requirement": "parity runtime immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-09",
+      "reason": "verified",
+      "requirement": "coordinate convention identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-10",
+      "reason": "verified",
+      "requirement": "oracle identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-11",
+      "reason": "verified",
+      "requirement": "source mapping",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-12",
+      "reason": "verified",
+      "requirement": "floor base",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-13",
+      "reason": "verified",
+      "requirement": "base plus offset",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-14",
+      "reason": "verified",
+      "requirement": "sample minus p distance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-15",
+      "reason": "verified",
+      "requirement": "logical border distance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-16",
+      "reason": "verified",
+      "requirement": "binary64 primary path",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-17",
+      "reason": "verified",
+      "requirement": "fixed candidate order",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-18",
+      "reason": "verified",
+      "requirement": "compensated accumulation",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-19",
+      "reason": "verified",
+      "requirement": "non-finite rejection",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-20",
+      "reason": "verified",
+      "requirement": "zero weight rejection",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-21",
+      "reason": "verified",
+      "requirement": "matrix crosscheck",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-22",
+      "reason": "verified",
+      "requirement": "constant conservation",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-23",
+      "reason": "verified",
+      "requirement": "translation covariance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-24",
+      "reason": "verified",
+      "requirement": "axis covariance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-25",
+      "reason": "verified",
+      "requirement": "tangent sign invariance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-26",
+      "reason": "verified",
+      "requirement": "isotropic rotation invariance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-27",
+      "reason": "verified",
+      "requirement": "weight positivity and monotonicity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-28",
+      "reason": "verified",
+      "requirement": "no randomness or clock identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-29",
+      "reason": "verified",
+      "requirement": "byte-identical fixture regeneration",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-30",
+      "reason": "verified",
+      "requirement": "1D phase coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-31",
+      "reason": "verified",
+      "requirement": "2D phase coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-32",
+      "reason": "verified",
+      "requirement": "raster ratio coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-33",
+      "reason": "verified",
+      "requirement": "source pattern coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-34",
+      "reason": "verified",
+      "requirement": "ellipse coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-35",
+      "reason": "verified",
+      "requirement": "border coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-36",
+      "reason": "verified",
+      "requirement": "alpha coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-37",
+      "reason": "verified",
+      "requirement": "negative identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-38",
+      "reason": "verified",
+      "requirement": "WGSL round behavior",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-39",
+      "reason": "verified",
+      "requirement": "round fetch anchor",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-40",
+      "reason": "verified",
+      "requirement": "offset-only distance",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-41",
+      "reason": "verified",
+      "requirement": "separate coordinate implementations",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-42",
+      "reason": "verified",
+      "requirement": "16 mismatch minimum",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-43",
+      "reason": "verified",
+      "requirement": "X-phase mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-44",
+      "reason": "verified",
+      "requirement": "Y-phase mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-45",
+      "reason": "verified",
+      "requirement": "diagonal mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-46",
+      "reason": "verified",
+      "requirement": "anisotropic mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-47",
+      "reason": "verified",
+      "requirement": "border mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-48",
+      "reason": "verified",
+      "requirement": "alpha mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-49",
+      "reason": "verified",
+      "requirement": "non-integer ratio mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-50",
+      "reason": "verified",
+      "requirement": "2:1 mismatch",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-51",
+      "reason": "verified",
+      "requirement": "mutation sensitivity",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-52",
+      "reason": "verified",
+      "requirement": "R4 shared signature",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-53",
+      "reason": "verified",
+      "requirement": "R6 shared signature",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-54",
+      "reason": "verified",
+      "requirement": "validation R4 signature",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-55",
+      "reason": "verified",
+      "requirement": "validation R6 signature",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-56",
+      "reason": "verified",
+      "requirement": "reference shared signature",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-57",
+      "reason": "verified",
+      "requirement": "R2 model agreement",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-58",
+      "reason": "verified",
+      "requirement": "current product rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-59",
+      "reason": "verified",
+      "requirement": "parity insufficiency",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-60",
+      "reason": "verified",
+      "requirement": "R4 repair authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-61",
+      "reason": "verified",
+      "requirement": "validation-root confinement",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-62",
+      "reason": "verified",
+      "requirement": "no product-math imports",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-63",
+      "reason": "verified",
+      "requirement": "renderer import isolation",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-64",
+      "reason": "verified",
+      "requirement": "worker import isolation",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-65",
+      "reason": "verified",
+      "requirement": "preview/export import isolation",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-66",
+      "reason": "verified",
+      "requirement": "no CPU selector",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-67",
+      "reason": "verified",
+      "requirement": "no GPU failure CPU EWA",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-68",
+      "reason": "verified",
+      "requirement": "no Canvas/WebGL fallback introduced",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-69",
+      "reason": "verified",
+      "requirement": "no automatic reference fallback",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-70",
+      "reason": "verified",
+      "requirement": "sealed bounded ingress",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-71",
+      "reason": "renderer-emit-not-present-no-claim",
+      "requirement": "renderer emit exclusion",
+      "status": "DEFERRED"
+    },
+    {
+      "id": "R3-72",
+      "reason": "package-not-present-no-claim",
+      "requirement": "package exclusion",
+      "status": "DEFERRED"
+    },
+    {
+      "id": "R3-73",
+      "reason": "verified",
+      "requirement": "runtime asset exclusion",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-74",
+      "reason": "verified",
+      "requirement": "active graph exclusion",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-75",
+      "reason": "verified",
+      "requirement": "stable errors",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-76",
+      "reason": "verified",
+      "requirement": "bounded schema-valid receipts",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-77",
+      "reason": "verified",
+      "requirement": "fresh-process determinism",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-78",
+      "reason": "verified",
+      "requirement": "R1A regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-79",
+      "reason": "verified",
+      "requirement": "R1B regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-80",
+      "reason": "verified",
+      "requirement": "R1C regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-81",
+      "reason": "verified",
+      "requirement": "R1D regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-82",
+      "reason": "verified",
+      "requirement": "R2 regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-83",
+      "reason": "verified",
+      "requirement": "Production Pointer unchanged",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-84",
+      "reason": "verified",
+      "requirement": "source-bake state",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-85",
+      "reason": "verified",
+      "requirement": "verified state",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-86",
+      "reason": "verified",
+      "requirement": "no false physical GPU claim",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-87",
+      "reason": "verified",
+      "requirement": "no false packaged claim",
+      "status": "PASS"
+    },
+    {
+      "id": "R3-88",
+      "reason": "verified",
+      "requirement": "README reject-not-repair statement",
+      "status": "PASS"
+    }
+  ],
+  "packagedElectronClaims": false,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "physicalGpuClaims": false,
+  "predecessor": [
+    {
+      "gateDigest": "60c700651ac915debd2b6d1a2e8c3c57b3d098b6b81f19ef588a65d8a303c884",
+      "gatePath": "artifacts/resample-runtime-01-r1a/source-bake/TDT_RESAMPLE_RUNTIME_01_R1A_SOURCE_GATE.json",
+      "gateState": "RESAMPLE_RUNTIME_R1A_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+      "id": "r1a",
+      "pass": true,
+      "receiptDigest": "9437d9a78d8dc44a078080ff45f3a896c51b6b797bcd5f42fab5c72617b648b9",
+      "receiptPath": "artifacts/resample-runtime-01-r1a/source-bake/TDT_RESAMPLE_RUNTIME_01_R1A_SOURCE_RECEIPT.json"
+    },
+    {
+      "gateDigest": "e77140f5ee1f04a9453b2370f18df99b395bcff1afcef77194f62b381acc887d",
+      "gatePath": "artifacts/resample-runtime-01-r1b/source-bake/TDT_RESAMPLE_RUNTIME_01_R1B_SOURCE_GATE.json",
+      "gateState": "RESAMPLE_RUNTIME_R1B_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+      "id": "r1b",
+      "pass": true,
+      "receiptDigest": "6090f2ceae3a46c2cb9b4be89b6dcc71bd2ab5472dc03f4ad2a8afd67fe97ec6",
+      "receiptPath": "artifacts/resample-runtime-01-r1b/source-bake/TDT_RESAMPLE_RUNTIME_01_R1B_SOURCE_RECEIPT.json"
+    },
+    {
+      "gateDigest": "8d2acf8a295b79d05c80519296c8aa6f5038682cd512fce1e9e65e6cbbe53cbc",
+      "gatePath": "artifacts/resample-runtime-01-r1c/source-bake/TDT_RESAMPLE_RUNTIME_01_R1C_SOURCE_GATE.json",
+      "gateState": "RESAMPLE_RUNTIME_R1C_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+      "id": "r1c",
+      "pass": true,
+      "receiptDigest": "1cab0377052f7b07a6298878f09ccba2330d23b1bd28f176f75e282310c87cf7",
+      "receiptPath": "artifacts/resample-runtime-01-r1c/source-bake/TDT_RESAMPLE_RUNTIME_01_R1C_SOURCE_RECEIPT.json"
+    },
+    {
+      "gateDigest": "ccb00e3208e600200cd0544656984fad95635614fa25ea699c6f7e8b184369b7",
+      "gatePath": "artifacts/resample-runtime-01-r1d/source-bake/TDT_RESAMPLE_RUNTIME_01_R1D_SOURCE_GATE.json",
+      "gateState": "RESAMPLE_RUNTIME_R1D_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+      "id": "r1d",
+      "pass": true,
+      "receiptDigest": "d48b8a0ad6fe42b8898ef8eb030c0213d18f7b66694ffa999e6e74e1f76c9fc4",
+      "receiptPath": "artifacts/resample-runtime-01-r1d/source-bake/TDT_RESAMPLE_RUNTIME_01_R1D_SOURCE_RECEIPT.json"
+    },
+    {
+      "gateDigest": "748ba311ea119bb01498506be43d27e260a5e8a5db3e4a8b3ea69fa57e4ecb67",
+      "gatePath": "artifacts/resample-runtime-01-r2/source-bake/TDT_RESAMPLE_RUNTIME_01_R2_SOURCE_GATE.json",
+      "gateState": "RESAMPLE_RUNTIME_R2_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+      "id": "r2",
+      "pass": true,
+      "receiptDigest": "093a8977678dd2deaa570c86d01bb0441f850ac1b9ef145826f6e6cd1fc81ca4",
+      "receiptPath": "artifacts/resample-runtime-01-r2/source-bake/TDT_RESAMPLE_RUNTIME_01_R2_SOURCE_RECEIPT.json"
+    }
+  ],
+  "probeDigest": "4435e48ada0cedc203ac89b1f5b1558fe83209e0b00e75516be7e74c602e08eb",
+  "productPromoted": false,
+  "productRepairPerformed": false,
+  "productionPointerMutated": false,
+  "schemaVersion": 1,
+  "sourceBakeState": "RESAMPLE_RUNTIME_R3_ORACLE_BAKED_CURRENT_PRODUCT_REJECTED",
+  "state": "RESAMPLE_RUNTIME_R3_ORACLE_VERIFIED_R4_REQUIRED"
+}

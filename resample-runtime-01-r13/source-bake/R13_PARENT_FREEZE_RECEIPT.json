@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R12",
+  "parentState": "RESAMPLE_RUNTIME_R12_ATOMIC_UPDATE_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_RELEASE_AND_R11_ACTIVE_INSTALLATION",
+  "parentCounts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 168,
+    "PENDING": 358,
+    "SKIPPED": 0
+  },
+  "parentFiles": 56,
+  "mismatches": [],
+  "productionPointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "productionPointerMutated": false,
+  "localActivationPointerMutated": false,
+  "r13SourceState": "RESAMPLE_RUNTIME_R13_COHORT_ROLLOUT_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_MULTI_INSTALLATION_FLEET",
+  "pass": true,
+  "selfSha256": "88f93c48218324de3419a81d91feeec57a2a8675f465cc621fd82e6e765760ff"
+}

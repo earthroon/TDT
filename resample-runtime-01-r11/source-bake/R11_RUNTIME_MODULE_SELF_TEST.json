@@ -1,0 +1,10 @@
+{
+  "attestationPass": true,
+  "ledgerEntries": 2,
+  "pass": true,
+  "quarantinePersisted": true,
+  "rollbackRecommendationNoPointerMutation": true,
+  "schemaVersion": 1,
+  "sourceModeRejected": true,
+  "tokenPass": true
+}

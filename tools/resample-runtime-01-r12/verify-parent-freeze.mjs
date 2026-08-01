@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';import {ROOT,json,hashFile,check,sourceArtifact,seal} from './lib.mjs';
+const f=json('tools/resample-runtime-01-r12/parent-r11-freeze.json');
+check(f.parentBundleSha256==='8c87d8fd14fced8a3064bef24eb038c44aea3cab42e36b92ac0e09d945ee037f','E_R12_PARENT_TRUTH_MISMATCH','parent bundle hash mismatch');
+for(const e of f.files)check(hashFile(e.path)===e.sha256,'E_R12_PARENT_TRUTH_MISMATCH',`parent file changed ${e.path}`);
+const r11=json('artifacts/resample-runtime-01-r11/source-bake/TDT_RESAMPLE_RUNTIME_01_R11_SOURCE_FINAL_RECEIPT.json');
+check(r11.state==='RESAMPLE_RUNTIME_R11_ATTESTATION_HARNESS_SOURCE_BAKED_AWAITING_R10_PRODUCTION_RELEASE','E_R12_PARENT_TRUTH_MISMATCH','R11 state mismatch');
+check(r11.counts.PASS===148&&r11.counts.PENDING===228&&r11.counts.FAIL===0,'E_R12_PARENT_TRUTH_MISMATCH','R11 counts mismatch');
+const r10=json('artifacts/resample-runtime-01-r10/source-bake/TDT_RESAMPLE_RUNTIME_01_R10_SOURCE_FINAL_RECEIPT.json');
+check(r10.counts.PASS===129&&r10.counts.PENDING===202&&r10.productionPointerMutated===false,'E_R12_PARENT_TRUTH_MISMATCH','R10 source truth mismatch');
+const a=fs.readFileSync(path.join(ROOT,'artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json'));
+const b=fs.readFileSync(path.join(ROOT,'artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json'));
+check(a.equals(b),'E_R12_PARENT_TRUTH_MISMATCH','production pointer mirrors differ');
+const p=JSON.parse(a);check(p.schemaVersion===2&&p.pointerId==='dadum.export.production-pointer'&&p.activeBuildId===null&&p.activePackageContentId===null,'E_R12_PARENT_TRUTH_MISMATCH','current pointer truth mismatch');
+sourceArtifact('R12_PARENT_FREEZE_RECEIPT.json',seal({schemaVersion:1,schemaId:'tdt.resample-runtime.r12.parent-freeze.v1',parentBundleSha256:f.parentBundleSha256,parentFiles:f.files,r11State:r11.state,r11Counts:r11.counts,r10State:r10.state,r10Counts:r10.counts,productionPointerRawSha256:hashFile('artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json'),pass:true}));
+console.log('R12 parent freeze PASS');

@@ -1,0 +1,65 @@
+
+> dadumdadum@1.0.0 verify:export-promotion-02
+> node tools/gate-export-promotion-02.mjs
+
+PASS GATE-EP02-01 exact npm packageManager
+PASS GATE-EP02-02 exact node engine
+PASS GATE-EP02-03 exact npm engine
+PASS GATE-EP02-04 direct versions exact
+PASS GATE-EP02-05 toolchain profile id
+PASS GATE-EP02-06 canonical package target
+PASS GATE-EP02-07 offline build policy
+PASS GATE-EP02-08 dependency policy
+PASS GATE-EP02-09 zero policy exceptions
+PASS GATE-EP02-10 toolchain script
+PASS GATE-EP02-11 lock script
+PASS GATE-EP02-12 emitted generator script
+PASS GATE-EP02-13 production manifest script
+PASS GATE-EP02-14 route probe script
+PASS GATE-EP02-15 build starts with authority gates
+PASS GATE-EP02-16 production Vite mode
+PASS GATE-EP02-17 postbuild emitted manifest
+PASS GATE-EP02-18 postbuild emitted verify
+PASS GATE-EP02-19 postbuild COI probe
+PASS GATE-EP02-20 EP02 in full verify
+PASS GATE-EP02-21 unpacked canonical target
+PASS GATE-EP02-22 native package gate
+PASS GATE-EP02-23 package content generation
+PASS GATE-EP02-24 native release allowlist
+PASS GATE-EP02-25 broad native glob removed
+PASS GATE-EP02-26 minimal asar unpack
+PASS GATE-EP02-27 no implicit native rebuild
+PASS GATE-EP02-28 no node-gyp package rebuild
+PASS GATE-EP02-29 no source dependency rebuild
+PASS GATE-EP02-30 runtime promotion lineage
+PASS GATE-EP02-31 lock root exactness
+PASS GATE-EP02-32 transitive integrity check
+PASS GATE-EP02-33 toolchain in build identity
+PASS GATE-EP02-34 dependency digest in manifest
+PASS GATE-EP02-35 source manifest truth
+PASS GATE-EP02-36 source cannot self promote
+PASS GATE-EP02-37 Vite prebuild remains source mode
+PASS GATE-EP02-38 emitted mode generator
+PASS GATE-EP02-39 worker emitted closure digest
+PASS GATE-EP02-40 ambiguous worker fail closed
+PASS GATE-EP02-41 renderer build identity
+PASS GATE-EP02-42 runtime binds worker digest
+PASS GATE-EP02-43 runtime binds Vite digest
+PASS GATE-EP02-44 EP02 cannot final promote
+PASS GATE-EP02-45 COOP probe
+PASS GATE-EP02-46 COEP probe
+PASS GATE-EP02-47 WASM MIME probe
+PASS GATE-EP02-48 ICC MIME probe
+PASS GATE-EP02-49 PE x64 machine check
+PASS GATE-EP02-50 native addon discovery
+PASS GATE-EP02-51 release addon singularity
+PASS GATE-EP02-52 debug addon exclusion
+PASS GATE-EP02-53 ASAR authority
+PASS GATE-EP02-54 package content id
+PASS GATE-EP02-55 source/intermediate exclusion
+PASS GATE-EP02-56 package native singularity
+PASS GATE-EP02-57 lock receipt state
+PASS GATE-EP02-58 toolchain receipt state
+PASS GATE-EP02-59 production source manifest error
+PASS GATE-EP02-60 spec retained
+PASS TDT-EXPORT-PROMOTION-02 60/60

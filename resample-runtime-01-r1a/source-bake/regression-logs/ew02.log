@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 verify:export-worker-02
+> node tools/gate-export-worker-02.mjs
+
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb

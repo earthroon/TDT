@@ -1,0 +1,213 @@
+{
+  "cases": [
+    {
+      "evidence": {
+        "expectedError": "E_R11A_BOOTSTRAP_CHALLENGE_INVALID"
+      },
+      "id": "wrong-bootstrap-nonce",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_SESSION_REQUIRED"
+      },
+      "id": "forged-session-mac",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_SESSION_BINDING_MISMATCH"
+      },
+      "id": "wrong-window-binding",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_SESSION_BINDING_MISMATCH"
+      },
+      "id": "wrong-webcontents-binding",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_SESSION_BINDING_MISMATCH"
+      },
+      "id": "wrong-renderer-pid",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_JOB_GRANT_INVALID"
+      },
+      "id": "unknown-operation",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_JOB_GRANT_INVALID"
+      },
+      "id": "forged-grant-mac",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_JOB_GRANT_BINDING_MISMATCH"
+      },
+      "id": "wrong-grant-operation",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_JOB_GRANT_BINDING_MISMATCH"
+      },
+      "id": "wrong-grant-binding",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_JOB_GRANT_REPLAY"
+      },
+      "id": "grant-replay",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_JOB_GRANT_EXPIRED"
+      },
+      "id": "grant-expired",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_SESSION_REVOKED"
+      },
+      "id": "revoked-session",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedError": "E_R11A_POST_LOSS_CANARY_REQUIRED"
+      },
+      "id": "strict-source-canary-rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "renderer-secret-exposure",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "legacy-frame-capture-write",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "save-begin-without-grant",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "save-chunk-after-revoke",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "save-commit-after-revoke",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "window-show-before-ready",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "session-reuse-after-device-loss",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "silent-quarantine-clear",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "R10A-source-as-final-release",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "pointer-v2-installed-admission",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "manifest-package-mismatch",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "startup-canary-counter-nonzero",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "startup-canary-oracle-over-ulp",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedFailure": true,
+        "sourceGuarded": true
+      },
+      "id": "startup-canary-software-adapter",
+      "status": "PASS"
+    }
+  ],
+  "count": 27,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "quarantineEvents": [],
+  "schemaVersion": 1,
+  "selfSha256": "aa58babc3985c44743eb254a8f7777b022c242529724085366fc05060adf757a"
+}

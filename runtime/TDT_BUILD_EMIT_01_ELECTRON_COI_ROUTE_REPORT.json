@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "artifact": "TDT_BUILD_EMIT_01_ELECTRON_COI_ROUTE_REPORT.json",
+  "status": "BLOCKED_LOCK_NOT_PROMOTED",
+  "blockers": [
+    "E_BUILD_EMIT_LOCK_NOT_PROMOTED",
+    "E_BUILD_EMIT_NONCANONICAL_HOST"
+  ],
+  "evidenceState": "BLOCKED_LOCK_NOT_PROMOTED",
+  "buildInputManifestDigest": "261764d0d862a76d7a7680342b791aed12f69eafa0c5efde4cad0be83257e332",
+  "legacyStaticAdmissionDigest": "3c1cca5ac5bb6c072f6b7148518a0337ff39ae5f645c6d32828793f84ecc407e",
+  "productionBytesObserved": false,
+  "selfDigest": "1d045a4b325a0ea9818aa85fb685ad2dbcd05a9e5e8c7d5cc65e37c9a85603f9"
+}

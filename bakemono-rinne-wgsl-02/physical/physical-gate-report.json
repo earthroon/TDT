@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl-02.physical-gate-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "status": "PENDING_PHYSICAL",
+  "gateCount": 48,
+  "passCount": 0,
+  "failCount": 0,
+  "pendingCount": 48,
+  "rows": [
+    {
+      "id": "BKR02-PHY-001",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-002",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-003",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-004",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-005",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-006",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-007",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-008",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-009",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-010",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-011",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-012",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-013",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-014",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-015",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-016",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-017",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-018",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-019",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-020",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-021",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-022",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-023",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-024",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-025",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-026",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-027",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-028",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-029",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-030",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-031",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-032",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-033",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-034",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-035",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-036",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-037",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-038",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-039",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-040",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-041",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-042",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-043",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-044",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-045",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-046",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-047",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    },
+    {
+      "id": "BKR02-PHY-048",
+      "description": "Physical qualification pending",
+      "status": "PENDING",
+      "evidence": "Requires packaged Electron WebGPU + WebGL execution"
+    }
+  ],
+  "selfSha256": "72aa81facb1e380cf9b49b94fc2fbc2ecf537f7c1a22a44ca575fa4608b2bb34"
+}

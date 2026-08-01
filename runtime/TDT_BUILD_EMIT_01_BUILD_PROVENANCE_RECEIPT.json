@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "status": "BLOCKED_LOCK_NOT_PROMOTED",
+  "buildInputManifestDigest": "261764d0d862a76d7a7680342b791aed12f69eafa0c5efde4cad0be83257e332",
+  "legacyStaticAdmissionDigest": "3c1cca5ac5bb6c072f6b7148518a0337ff39ae5f645c6d32828793f84ecc407e",
+  "sourceMutationZeroDigest": "6fd23aaf7a8db78118c36a8742f6134c748f076a70ed7a55e7ec127281f2d745",
+  "productionBytesObserved": false,
+  "blockers": [
+    "E_BUILD_EMIT_LOCK_NOT_PROMOTED",
+    "E_BUILD_EMIT_NONCANONICAL_HOST"
+  ],
+  "selfDigest": "3355aedd8e57e169f3c5e9bff24b2e25367f7ad33460f192dd138c4b8f50e32c"
+}

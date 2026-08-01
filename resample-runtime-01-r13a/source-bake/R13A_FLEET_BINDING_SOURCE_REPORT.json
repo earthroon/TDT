@@ -1,0 +1,9 @@
+{
+  "drainPermitPassed": true,
+  "leaseClaimPassed": true,
+  "localBindingPassed": true,
+  "localCompletionPassed": true,
+  "r12aChildChainReplayPassed": true,
+  "schemaVersion": 1,
+  "selfSha256": "56952dba615aeb7da0a33ff1e676c5877704ac7c43c0b9056f1dd00469f36d00"
+}

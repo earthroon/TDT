@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.packaged-physical-pending-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "status": "PENDING",
+  "passCount": 0,
+  "pendingCount": 36,
+  "physicalCycleCount": 0,
+  "rows": [
+    {
+      "id": "R2R3-P001",
+      "description": "old epoch invalidation receipt exists",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P002",
+      "description": "one physical pipeline build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P003",
+      "description": "EWA new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P004",
+      "description": "Tensor new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P005",
+      "description": "Adaptive new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P006",
+      "description": "old active count zero",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P007",
+      "description": "recovered event includes rebuild set",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P008",
+      "description": "Preview lost operation rejects",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P009",
+      "description": "closure includes rebuild lineage",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P010",
+      "description": "validation Preview no lazy build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P011",
+      "description": "validation Export no lazy build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P012",
+      "description": "old pipeline reuse denied",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P013",
+      "description": "old epoch invalidation receipt exists",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P014",
+      "description": "one physical pipeline build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P015",
+      "description": "EWA new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P016",
+      "description": "Tensor new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P017",
+      "description": "Adaptive new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P018",
+      "description": "old active count zero",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P019",
+      "description": "recovered event includes rebuild set",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P020",
+      "description": "Export terminal map rejects",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P021",
+      "description": "host save contamination zero",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P022",
+      "description": "closure includes rebuild lineage",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P023",
+      "description": "validation operations no lazy build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P024",
+      "description": "old pipeline reuse denied",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P025",
+      "description": "old epoch invalidation receipt exists",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P026",
+      "description": "one physical pipeline build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P027",
+      "description": "EWA new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P028",
+      "description": "Tensor new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P029",
+      "description": "Adaptive new identity exact",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P030",
+      "description": "old active count zero",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P031",
+      "description": "recovered event includes rebuild set",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P032",
+      "description": "Preview lost operation rejects",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P033",
+      "description": "closure includes rebuild lineage",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P034",
+      "description": "validation operations no lazy build",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P035",
+      "description": "old pipeline reuse denied",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    },
+    {
+      "id": "R2R3-P036",
+      "description": "total physical build count exactly three",
+      "status": "PENDING",
+      "reason": "packaged Electron physical GPU replay not executed in source bake"
+    }
+  ],
+  "selfSha256": "c58487fa7c567a21fe4ab0411a30c5b63d962ed19d68fda288fa0ba5d8e82d4d"
+}

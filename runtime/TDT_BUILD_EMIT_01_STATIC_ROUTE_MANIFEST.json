@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "artifact": "TDT_BUILD_EMIT_01_STATIC_ROUTE_MANIFEST.json",
+  "status": "BLOCKED_LOCK_NOT_PROMOTED",
+  "blockers": [
+    "E_BUILD_EMIT_LOCK_NOT_PROMOTED",
+    "E_BUILD_EMIT_NONCANONICAL_HOST"
+  ],
+  "evidenceState": "BLOCKED_LOCK_NOT_PROMOTED",
+  "buildInputManifestDigest": "261764d0d862a76d7a7680342b791aed12f69eafa0c5efde4cad0be83257e332",
+  "legacyStaticAdmissionDigest": "3c1cca5ac5bb6c072f6b7148518a0337ff39ae5f645c6d32828793f84ecc407e",
+  "productionBytesObserved": false,
+  "selfDigest": "b67e75e4f120a9f9c864aad64ed56c84fa212f46d1533ebfd19149d3b082c39b"
+}

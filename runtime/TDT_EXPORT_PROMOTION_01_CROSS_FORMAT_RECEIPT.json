@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-01",
+  "buildId": "429c1a7b691c53cbf11234b6",
+  "stableApiId": "dadum.runtime.export",
+  "stableApiVersion": 1,
+  "legacyFacadeState": "RETIRED_AT_RUNTIME_ADOPTION",
+  "formats": [
+    {
+      "format": "png",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "format": "png16",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "format": "webp-lossless",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "format": "jxl",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "format": "jpg",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "format": "psd-rgb",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "format": "psd-cmyk",
+      "sourceAuthorityWired": true,
+      "productionVerified": false,
+      "promotionState": "SOURCE_BAKED_UNPROMOTED"
+    }
+  ],
+  "productProfiles": {
+    "core-raster-v1": "SOURCE_BAKED_UNPROMOTED",
+    "psd-rgb-v1": "SOURCE_BAKED_UNPROMOTED",
+    "psd-cmyk-v1": "BLOCKED",
+    "full-product-v1": "BLOCKED"
+  },
+  "blockers": [
+    "dependency-lock-not-verified-in-this-environment",
+    "production-vite-build-not-verified",
+    "packaged-electron-artifact-not-verified",
+    "electron-cross-format-e2e-not-run",
+    "independent-decoder-matrix-incomplete",
+    "psd-cmyk-production-lcms-validation-incomplete",
+    "jxl-independent-roundtrip-incomplete",
+    "modjpeg-single-thread-rebuild-incomplete"
+  ],
+  "promotionEligible": false,
+  "productionVerified": false,
+  "receiptSha256": "545cf0c6008f8024e049e211ec69fe00dfaa571ba5e7833f51c368f6ec59f37b"
+}

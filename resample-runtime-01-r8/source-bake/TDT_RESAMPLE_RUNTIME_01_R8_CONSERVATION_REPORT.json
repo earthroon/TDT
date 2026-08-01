@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "dc-1x1-4",
+      "pass": true,
+      "value": {
+        "err": 2.220446049250313e-16,
+        "tapCount": 52,
+        "uniqueLogical": 52,
+        "uniqueFetch": 1
+      }
+    },
+    {
+      "id": "dc-17x19-4",
+      "pass": true,
+      "value": {
+        "err": 0,
+        "tapCount": 51,
+        "uniqueLogical": 51,
+        "uniqueFetch": 20
+      }
+    },
+    {
+      "id": "dc-17x19-6",
+      "pass": true,
+      "value": {
+        "err": 1.1102230246251565e-16,
+        "tapCount": 112,
+        "uniqueLogical": 112,
+        "uniqueFetch": 29
+      }
+    },
+    {
+      "id": "border-logical-duplicates-retained",
+      "pass": true,
+      "value": {
+        "tapCount": 49,
+        "uniqueFetch": 1
+      }
+    },
+    {
+      "id": "residual-alpha-static",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "finalize-safe-division",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "source-prepare-gpu-only",
+      "pass": true,
+      "value": true
+    }
+  ]
+}

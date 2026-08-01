@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "PSD_DECODER_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-psd-e2e-not-run",
+    "serializer-independent-roundtrip-corpus-not-run",
+    "production-worker-generation-closure-not-measured",
+    "psb-zip-capabilities-not-promoted"
+  ],
+  "pendingKey": "generation+requestId",
+  "pendingPromiseRejectionSourceVerified": true,
+  "disposeSourceVerified": true,
+  "staleResultAdmission": false,
+  "productionGenerationClosureVerified": false,
+  "evidenceSealSha256": "b560d7f8df7fafee29417e0b264488ac107e8a3aad52655714582588469d1e55"
+}

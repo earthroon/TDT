@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "state": "RESAMPLE_RUNTIME_R7_CANONICAL_LOWPASS_CONVERGENCE_SEALED_AWAITING_R8",
+  "counts": {
+    "PASS": 172,
+    "DEFERRED": 5
+  },
+  "gates": [
+    {
+      "id": "R7-001",
+      "requirement": "PARENT_BUNDLE_IDENTITY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-002",
+      "requirement": "R6_SPEC_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-003",
+      "requirement": "R6_README_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-004",
+      "requirement": "R6_KERNEL_CONTRACT_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-005",
+      "requirement": "R6_ABI_PACKER_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-006",
+      "requirement": "R6_PRODUCT_R4_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-007",
+      "requirement": "R6_PRODUCT_R6_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-008",
+      "requirement": "R6_REFERENCE_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-009",
+      "requirement": "R6_GENERATED_MANIFEST_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-010",
+      "requirement": "R5_AXIAL_SHADER_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-011",
+      "requirement": "R5_AXIAL_CONTRACT_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-012",
+      "requirement": "R4_COORDINATE_IDENTITY_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-013",
+      "requirement": "R4_TILE_PROOF_IDENTITY_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-014",
+      "requirement": "R6_KERNEL_IDENTITY_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-015",
+      "requirement": "R6_ABI_IDENTITY_FROZEN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-016",
+      "requirement": "PLANNER_V2_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-017",
+      "requirement": "PLANNER_V2_VERSION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-018",
+      "requirement": "PLANNER_SINGLE_CANONICAL_PROFILE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-019",
+      "requirement": "PLANNER_PROFILE_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-020",
+      "requirement": "PLANNER_RATIO_2_TO_1",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-021",
+      "requirement": "PLANNER_REACH_6",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-022",
+      "requirement": "PLANNER_NO_TERMINAL_EXCEPTION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-023",
+      "requirement": "PLANNER_SAFE_INTEGER_DIMENSIONS",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-024",
+      "requirement": "PLANNER_NO_UPSCALE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-025",
+      "requirement": "PLANNER_STAGE_LIMIT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-026",
+      "requirement": "PLANNER_EXACT_TARGET",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-027",
+      "requirement": "PLANNER_AXIS_RECURRENCE_X",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-028",
+      "requirement": "PLANNER_AXIS_RECURRENCE_Y",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-029",
+      "requirement": "PLANNER_ROLE_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-030",
+      "requirement": "PLANNER_RESIDUAL_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-031",
+      "requirement": "PLANNER_FORMAT_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-032",
+      "requirement": "PLANNER_READBACK_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-033",
+      "requirement": "PLANNER_JOB_ID_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-034",
+      "requirement": "PLANNER_LOW_PASS_PARAMS_INCLUDED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-035",
+      "requirement": "PLANNER_KERNEL_CONTRACT_INCLUDED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-036",
+      "requirement": "PLANNER_COORDINATE_INCLUDED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-037",
+      "requirement": "PLANNER_AXIAL_INCLUDED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-038",
+      "requirement": "PLANNER_PLAN_DIGEST_REPLAY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-039",
+      "requirement": "PLANNER_PREVIEW_EXPORT_EQUAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-040",
+      "requirement": "PLANNER_RESIDUAL_SENSITIVITY_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-041",
+      "requirement": "PLANNER_ENCODER_SENSITIVITY_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-042",
+      "requirement": "PLANNER_GEOMETRY_SENSITIVITY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-043",
+      "requirement": "PLANNER_KERNEL_SENSITIVITY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-044",
+      "requirement": "PLANNER_LEGACY_PROFILE_REJECT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-045",
+      "requirement": "PLANNER_LEGACY_DELTA_PROFILE_NORMALIZED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-046",
+      "requirement": "SHARED_RUNTIME_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-047",
+      "requirement": "SHARED_STAGE_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-048",
+      "requirement": "SHARED_RUNTIME_SINGLE_IMPLEMENTATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-049",
+      "requirement": "SHARED_RUNTIME_PREVIEW_DELEGATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-050",
+      "requirement": "SHARED_RUNTIME_EXPORT_DELEGATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-051",
+      "requirement": "SHARED_RUNTIME_NO_ROLE_PIXEL_BRANCH",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-052",
+      "requirement": "SHARED_RUNTIME_DEVICE_LEASE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-053",
+      "requirement": "SHARED_RUNTIME_DEVICE_EPOCH",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-054",
+      "requirement": "SHARED_RUNTIME_CANCELLATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-055",
+      "requirement": "SHARED_RUNTIME_STAGE_TEXTURE_FORMAT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-056",
+      "requirement": "SHARED_RUNTIME_STAGE_TENSOR",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-057",
+      "requirement": "SHARED_RUNTIME_AXIAL_FIELD",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-058",
+      "requirement": "SHARED_RUNTIME_NO_TANGENT_FALLBACK",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-059",
+      "requirement": "SHARED_RUNTIME_PROFILE_SELECTOR",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-060",
+      "requirement": "SHARED_RUNTIME_V4_PACKER",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-061",
+      "requirement": "SHARED_RUNTIME_BUFFER_96",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-062",
+      "requirement": "SHARED_RUNTIME_PHASE_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-063",
+      "requirement": "SHARED_RUNTIME_BORDER_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-064",
+      "requirement": "SHARED_RUNTIME_PRODUCT_SHADER",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-065",
+      "requirement": "SHARED_RUNTIME_NO_REFERENCE_PRODUCT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-066",
+      "requirement": "SHARED_RUNTIME_DISPATCH_GEOMETRY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-067",
+      "requirement": "SHARED_RUNTIME_INTERMEDIATE_GPU_RESIDENT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-068",
+      "requirement": "SHARED_RUNTIME_INTERMEDIATE_DESTROY_ONCE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-069",
+      "requirement": "SHARED_RUNTIME_TERMINAL_TRANSFER",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-070",
+      "requirement": "SHARED_RUNTIME_RECEIPT_ROLE_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-071",
+      "requirement": "SHARED_RUNTIME_PLAN_DIGEST_PROPAGATED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-072",
+      "requirement": "SHARED_RUNTIME_PARAM_DIGEST_PROPAGATED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-073",
+      "requirement": "SHARED_RUNTIME_SHADER_DIGEST_PROPAGATED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-074",
+      "requirement": "SHARED_RUNTIME_IDENTITY_ZERO_STAGE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-075",
+      "requirement": "PREVIEW_PUBLIC_SIGNATURE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-076",
+      "requirement": "PREVIEW_RETURN_TEXTURE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-077",
+      "requirement": "PREVIEW_SOURCE_OWNERSHIP",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-078",
+      "requirement": "PREVIEW_UPLOAD_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-079",
+      "requirement": "PREVIEW_READBACK_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-080",
+      "requirement": "PREVIEW_INTERMEDIATE_READBACK_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-081",
+      "requirement": "PREVIEW_RESIDUAL_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-082",
+      "requirement": "PREVIEW_FINALIZATION_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-083",
+      "requirement": "PREVIEW_STAGE_RECEIPT_CANONICAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-084",
+      "requirement": "PREVIEW_DELTAK_OUTSIDE_LOWPASS",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-085",
+      "requirement": "PREVIEW_IDENTITY_SOURCE_RETAINED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-086",
+      "requirement": "EXPORT_PUBLIC_ENTRYPOINTS",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-087",
+      "requirement": "EXPORT_RETURN_BYTES",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-088",
+      "requirement": "EXPORT_UPLOAD_EXACT_ONE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-089",
+      "requirement": "EXPORT_SHARED_LOWPASS_CALL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-090",
+      "requirement": "EXPORT_STAGE_OUTPUT_PURE_LOWPASS",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-091",
+      "requirement": "EXPORT_NO_INTERMEDIATE_RECOMPOSE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-092",
+      "requirement": "EXPORT_NO_INTERMEDIATE_UNPREMULTIPLY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-093",
+      "requirement": "EXPORT_NO_INTERMEDIATE_QUANTIZE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-094",
+      "requirement": "EXPORT_TERMINAL_LOWPASS_RGBA16",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-095",
+      "requirement": "EXPORT_TERMINAL_READBACK_ONE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-096",
+      "requirement": "EXPORT_INTERMEDIATE_READBACK_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-097",
+      "requirement": "EXPORT_LOW_PASS_RECEIPT_CANONICAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-098",
+      "requirement": "EXPORT_LOW_PASS_PLAN_EQUAL_PREVIEW",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-099",
+      "requirement": "EXPORT_LOW_PASS_SHADER_EQUAL_PREVIEW",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-100",
+      "requirement": "EXPORT_LOW_PASS_UNIFORM_EQUAL_PREVIEW",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-101",
+      "requirement": "EXPORT_LOW_PASS_AXIAL_EQUAL_PREVIEW",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-102",
+      "requirement": "EXPORT_LEGACY_LOWPASS_FETCH_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-103",
+      "requirement": "EXPORT_FILTERING_SAMPLER_LOW_PASS_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-104",
+      "requirement": "EXPORT_TEXTURE_SAMPLE_LEVEL_LOW_PASS_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-105",
+      "requirement": "EXPORT_LEGACY_ABI_LOW_PASS_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-106",
+      "requirement": "EXPORT_IDENTITY_COPY_CONTRACT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-107",
+      "requirement": "EXPORT_SOURCE_TEXTURE_DESTROY_ONCE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-108",
+      "requirement": "EXPORT_TERMINAL_TEXTURE_DESTROY_ONCE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-109",
+      "requirement": "LEGACY_ALIAS_RADIUS_MAP",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-110",
+      "requirement": "LEGACY_ALIAS_SIGMA_MAP",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-111",
+      "requirement": "LEGACY_ALIAS_CONFLICT_REJECT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-112",
+      "requirement": "LEGACY_ALIAS_RECEIPT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-113",
+      "requirement": "LEGACY_UNMAPPABLE_REJECT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-114",
+      "requirement": "RESIDUAL_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-115",
+      "requirement": "RESIDUAL_ABI_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-116",
+      "requirement": "RESIDUAL_ABI_BYTES",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-117",
+      "requirement": "RESIDUAL_RESERVED_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-118",
+      "requirement": "RESIDUAL_FINAL_STAGE_ONLY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-119",
+      "requirement": "RESIDUAL_EXECUTION_COUNT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-120",
+      "requirement": "RESIDUAL_DISABLED_DETAIL_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-121",
+      "requirement": "RESIDUAL_DISABLED_LOW_PASS_IDENTITY",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-122",
+      "requirement": "RESIDUAL_NO_INTERMEDIATE_INPUT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-123",
+      "requirement": "RESIDUAL_FEEDBACK_GUARD",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-124",
+      "requirement": "RESIDUAL_SEPARATE_PARAM_DIGEST",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-125",
+      "requirement": "RESIDUAL_SEPARATE_SHADER_DIGEST",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-126",
+      "requirement": "RESIDUAL_SEPARATE_RECEIPT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-127",
+      "requirement": "RESIDUAL_NO_KERNEL_ID_COLLISION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-128",
+      "requirement": "RESIDUAL_LOW_PASS_RECEIPT_IMMUTABLE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-129",
+      "requirement": "RESIDUAL_OUTPUT_RGBA16",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-130",
+      "requirement": "RESIDUAL_SOURCE_HANDLE_RETENTION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-131",
+      "requirement": "RESIDUAL_AXIAL_HANDLE_RETENTION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-132",
+      "requirement": "RESIDUAL_STALE_EPOCH_REJECT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-133",
+      "requirement": "RESIDUAL_RESOURCE_RELEASE_ONCE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-134",
+      "requirement": "RESIDUAL_DEFAULT_SHARPNESS_SCOPED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-135",
+      "requirement": "RESIDUAL_PARAMS_EXCLUDED_PLAN",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-136",
+      "requirement": "FINALIZATION_ID",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-137",
+      "requirement": "FINALIZATION_AFTER_RESIDUAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-138",
+      "requirement": "FINALIZATION_INPUT_RECEIPT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-139",
+      "requirement": "FINALIZATION_OUTPUT_RGBA8",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-140",
+      "requirement": "FINALIZATION_LOW_PASS_RECEIPT_IMMUTABLE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-141",
+      "requirement": "CONVERGENCE_RECEIPT_SCHEMA",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-142",
+      "requirement": "CONVERGENCE_RECEIPT_LOW_PASS_FIELDS",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-143",
+      "requirement": "CONVERGENCE_RECEIPT_RESIDUAL_SEPARATE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-144",
+      "requirement": "CONVERGENCE_RECEIPT_FINALIZATION_SEPARATE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-145",
+      "requirement": "CONVERGENCE_RECEIPT_PREVIEW_EXPORT_MATCH",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-146",
+      "requirement": "CONVERGENCE_RECEIPT_ROLE_ENVELOPE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-147",
+      "requirement": "PARITY_SURFACE_RGBA16",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-148",
+      "requirement": "PARITY_STAGE_BY_STAGE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-149",
+      "requirement": "PARITY_EXCLUDES_RESIDUAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-150",
+      "requirement": "PARITY_EXCLUDES_QUANTIZATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-151",
+      "requirement": "NEGATIVE_LEGACY_PROFILE_DETECTED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-152",
+      "requirement": "NEGATIVE_FILTERED_TAP_DETECTED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-153",
+      "requirement": "NEGATIVE_TANGENT_FIELD_DETECTED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-154",
+      "requirement": "NEGATIVE_INTERMEDIATE_RESIDUAL_DETECTED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-155",
+      "requirement": "NEGATIVE_RESIDUAL_FEEDBACK_DETECTED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-156",
+      "requirement": "NEGATIVE_ABI_WORD_DIVERGENCE_DETECTED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-157",
+      "requirement": "TELEMETRY_FORBIDDEN_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-158",
+      "requirement": "ACTIVE_GRAPH_SHARED_RUNTIME",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-159",
+      "requirement": "ACTIVE_GRAPH_RESIDUAL",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-160",
+      "requirement": "ACTIVE_GRAPH_FINALIZATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-161",
+      "requirement": "ACTIVE_GRAPH_LEGACY_LOWPASS_EXCLUDED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-162",
+      "requirement": "ACTIVE_GRAPH_TOOLS_EXCLUDED",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-163",
+      "requirement": "NO_CPU_FALLBACK",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-164",
+      "requirement": "NO_CANVAS_WEBGL_FALLBACK",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-165",
+      "requirement": "NO_REFERENCE_AS_PRODUCT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-166",
+      "requirement": "NO_PRODUCTION_POINTER_MUTATION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-167",
+      "requirement": "RESOURCE_DOUBLE_DESTROY_ZERO",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-168",
+      "requirement": "DETERMINISTIC_FIXTURES",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-169",
+      "requirement": "DETERMINISTIC_RECEIPTS",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-170",
+      "requirement": "PREDECESSOR_R1A_R6_REGRESSION",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-171",
+      "requirement": "SOURCE_RECEIPT_COMPLETE",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-172",
+      "requirement": "FINAL_STATE_CORRECT",
+      "status": "PASS",
+      "reason": "source-planner-runtime-residual-receipt-graph-and-mock-evidence-verified"
+    },
+    {
+      "id": "R7-173",
+      "requirement": "PHYSICAL_WGSL_COMPILE",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R7-174",
+      "requirement": "PHYSICAL_STAGE_TEXTURE_PARITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R7-175",
+      "requirement": "PHYSICAL_RESIDUAL_DISABLED_IDENTITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R7-176",
+      "requirement": "PHYSICAL_TIMESTAMP_AND_MEMORY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R7-177",
+      "requirement": "PACKAGED_ELECTRON_IDENTITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuExecuted": false,
+  "packagedElectronVerified": false,
+  "residualOutputIsCanonicalLowpass": false,
+  "finalRgba8IsCanonicalParitySurface": false,
+  "failCount": 0
+}

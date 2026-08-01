@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { ARTIFACT_DIR, ROOT, readJson, sha256Bytes, canonicalJson, writeJson } from './build-emit-01-lib.mjs';
+const file = path.join(ROOT, 'dist', 'renderer', 'dadum-vite-entry-manifest.json');
+if (!fs.existsSync(file)) throw new Error('E_VITE_MANIFEST_MISSING');
+const graph = readJson(file);
+const base = { ...graph }; delete base.digest;
+if (graph.schemaVersion !== 2 || graph.patchId !== 'TDT-BUILD-EMIT-01' || graph.digest !== sha256Bytes(canonicalJson(base))) throw new Error('E_VITE_MANIFEST_MISSING');
+const entries = (graph.chunks ?? []).filter((chunk) => chunk.isEntry && chunk.facadeModuleId === 'app/src/main.ts');
+if (entries.length !== 1) throw new Error(entries.length ? 'E_VITE_ENTRY_AMBIGUOUS' : 'E_VITE_ENTRY_MISSING');
+writeJson(path.join(ARTIFACT_DIR, 'TDT_BUILD_EMIT_01_VITE_ENTRY_GRAPH.json'), graph);
+console.log(`PASS BUILD-EMIT-01 vite entry graph ${graph.digest}`);

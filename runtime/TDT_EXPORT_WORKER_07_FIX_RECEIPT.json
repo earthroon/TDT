@@ -1,0 +1,120 @@
+{
+  "schema": "dadum-ew07-fix-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-07",
+  "title": "PSD Plane Split / LCMS Worker Closure / Peak Memory / Color Transform / Final Main-thread Isolation Seal",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "promotionGranted": false,
+  "buildId": "a9c880b7c5e674017778f9a5",
+  "sourceBakeSeal": "9efeb4cf8f54d1484282d2d842bd93e1266f15f390ccedcc51729dabb0029218",
+  "generatedAt": "2026-07-24T17:11:39.728318Z",
+  "parentPatchId": "TDT-EXPORT-WORKER-06",
+  "parentArchive": "44_TDT_EXPORT_WORKER_06_MODJPEG_DEDICATED_WORKER_PROMOTION_ALPHA_QUALITY_444_MARKER_PTHREAD_RETIREMENT_TRUTH_SOURCE_BAKED_UNPROMOTED.zip",
+  "scope": [
+    "raw final-surface PSD command v2",
+    "worker-local LCMS and plane preparation",
+    "native/stored CMYK semantic separation",
+    "PSD Document Plan and serializer closure",
+    "worker-local PSD structure verification",
+    "allocation ledger and memory budget fail-closed",
+    "final main-thread isolation receipt seal"
+  ],
+  "validation": {
+    "inheritedGates": "PASS R1-R7 and EW01-EW06",
+    "ew07StaticGates": "PASS 46/46",
+    "workerClosureSmoke": "PASS 3 RGB fixtures plus fail-closed fixtures",
+    "strictTypescriptClosure": "PASS",
+    "stableErrorRegistry": "PASS 235/235",
+    "actualCmykLcmsTransform": "NOT_RUN",
+    "independentColorValidation": "NOT_RUN",
+    "viteElectron": "BLOCKED dependency graph unavailable",
+    "lockConsistency": {
+      "consistent": false,
+      "missing": [
+        {
+          "name": "pinia",
+          "expected": "3.0.1",
+          "actual": null
+        },
+        {
+          "name": "vue",
+          "expected": "3.5.40",
+          "actual": null
+        },
+        {
+          "name": "@napi-rs/cli",
+          "expected": "^2.18.4",
+          "actual": null
+        },
+        {
+          "name": "@vitejs/plugin-vue",
+          "expected": "6.0.7",
+          "actual": null
+        },
+        {
+          "name": "typescript",
+          "expected": "5.9.3",
+          "actual": null
+        },
+        {
+          "name": "vite",
+          "expected": "8.1.5",
+          "actual": null
+        },
+        {
+          "name": "vue-tsc",
+          "expected": "3.2.2",
+          "actual": null
+        }
+      ]
+    }
+  },
+  "workerManifest": {
+    "sourceManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+    "artifactVerificationMode": "source-graph-only",
+    "workerCount": 5,
+    "psdWorkerId": "dadum.worker.encoder.psd-canonical-v2",
+    "psdArtifactSetDigest": "d92533278e1c652adb02c43f99f636e8e3e53d0e1adba1bfb1be8e744f72a271"
+  },
+  "sealComponents": {
+    "schema": "dadum-ew07-source-bake-seal-v1",
+    "patchId": "TDT-EXPORT-WORKER-07",
+    "status": "SOURCE_BAKED_UNPROMOTED",
+    "buildId": "a9c880b7c5e674017778f9a5",
+    "parentPatchId": "TDT-EXPORT-WORKER-06",
+    "runtimeManifestSelfDigest": "cae2804d41b41cd4a49cf4cb88500f790996912d6656ff3ae89b03aa76ec9d3e",
+    "runtimeSourceGraphDigest": "14b39a22858f44b62f59be69b72f752d70b8ac4fce5fed5189b6776a8ed334ba",
+    "runtimePlanDigest": "cf42ecd820a72d28f278a04bb0b0aba98a510951332e4a7c40b2380528868816",
+    "legacyManifestDigest": "9768a4205004019ab2278d3a1f4bd59851032c5fbd06b4641aa471c9c097a51d",
+    "workerSourceManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+    "psdWorkerArtifactSetDigest": "d92533278e1c652adb02c43f99f636e8e3e53d0e1adba1bfb1be8e744f72a271",
+    "lcmsGlueSha256": "c387a706008c06f0ae9b6ea48335f9435323836e6c5a22052956a4fd4d257b65",
+    "lcmsWasmSha256": "65eb2ea60f1d61aea14978b4b631bd2bcdf188e3c0a1b25d2af612f5b745699e",
+    "promotionEligible": false,
+    "actualCmykTransformExecuted": false,
+    "independentColorValidationExecuted": false,
+    "canonicalRustWasm": false,
+    "bundledSrgbProfilePresent": false,
+    "packageLockConsistent": false,
+    "specSha256": "41cfe424a356383d779214af04889389f90af80643c1f49ac2e32dd6f006a348",
+    "sourceVerifySha256": "279f0be8f6a3e4d85dc8d991efa517b8be7a51a2d7f39c3805f5cfa87c4c87ed",
+    "strictTsSha256": "418a5c17f33c70e99b0cc0a07fce69191489cfedc94164bfa903785777c5bd4b",
+    "fullVerifySha256": "2703ed238dbdd1dcbcd428638d7a8cee554b2d1bbe24d0a02ecff02c792023c0",
+    "smokeSha256": "4e506df3a3aca7c78d4f88316061bf2e19028f0034304ed43f019701e404a6ab",
+    "promotionReceiptSha256": "edf310f9b2a40c44ad84811d2835d06e916bcc410637d7bce78637045bef7829",
+    "memoryReportSha256": "61c9ec87d253be732660107facae7f1c21104e79877c4da9efee4431a38f54d3",
+    "isolationReportSha256": "d537039d8f505ece5f9f21e202126ff25761d3e95acb1ff289eda70e02c61de1",
+    "colorReportSha256": "86b11ff92d03e01f3740c0ebf183f93cfedff72a7c2b8312d934c4e05b120ba6",
+    "independentReportSha256": "0fe68c5a0a4fbc5957fa480776c7088b99c2522f2caebc4bddd7866d98496201",
+    "sourceBakeSealPayloadSha256": "9efeb4cf8f54d1484282d2d842bd93e1266f15f390ccedcc51729dabb0029218"
+  },
+  "blockers": [
+    "actual-cmyk-lcms-transform-not-run",
+    "independent-color-validation-not-run",
+    "bundled-srgb-icc-absent",
+    "canonical-rust-wasm-not-built",
+    "vite-production-build-not-run",
+    "electron-e2e-not-run",
+    "package-lock-inconsistent"
+  ]
+}

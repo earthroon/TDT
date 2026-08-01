@@ -1,0 +1,1355 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 168
+  },
+  "gates": [
+    {
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_SHA256_EXACT"
+      },
+      "id": "R12-S001",
+      "name": "PARENT_BUNDLE_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_SPEC_SHA256_EXACT"
+      },
+      "id": "R12-S002",
+      "name": "PARENT_R11_SPEC_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_SOURCE_RECEIPT_SHA256_EXACT"
+      },
+      "id": "R12-S003",
+      "name": "PARENT_R11_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_STATE_EXACT"
+      },
+      "id": "R12-S004",
+      "name": "PARENT_R11_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_SOURCE_PASS_148"
+      },
+      "id": "R12-S005",
+      "name": "PARENT_R11_SOURCE_PASS_148",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_INSTALLED_PENDING_228"
+      },
+      "id": "R12-S006",
+      "name": "PARENT_R11_INSTALLED_PENDING_228",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_FAIL_ZERO"
+      },
+      "id": "R12-S007",
+      "name": "PARENT_R11_FAIL_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_R10_SOURCE_STATE_RECORDED"
+      },
+      "id": "R12-S008",
+      "name": "CURRENT_R10_SOURCE_STATE_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_R10_RELEASE_PENDING_RECORDED"
+      },
+      "id": "R12-S009",
+      "name": "CURRENT_R10_RELEASE_PENDING_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_PRODUCTION_POINTER_SCHEMA_V2_RECORDED"
+      },
+      "id": "R12-S010",
+      "name": "CURRENT_PRODUCTION_POINTER_SCHEMA_V2_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_PRODUCTION_POINTER_ACTIVE_NULL_RECORDED"
+      },
+      "id": "R12-S011",
+      "name": "CURRENT_PRODUCTION_POINTER_ACTIVE_NULL_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_PRODUCTION_POINTER_RAW_HASH_RECORDED"
+      },
+      "id": "R12-S012",
+      "name": "CURRENT_PRODUCTION_POINTER_RAW_HASH_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_STATE_EXACT"
+      },
+      "id": "R12-S013",
+      "name": "SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_GATE_COUNT_168"
+      },
+      "id": "R12-S014",
+      "name": "SOURCE_GATE_COUNT_168",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALLED_GATE_COUNT_358"
+      },
+      "id": "R12-S015",
+      "name": "INSTALLED_GATE_COUNT_358",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TOTAL_GATE_COUNT_526"
+      },
+      "id": "R12-S016",
+      "name": "TOTAL_GATE_COUNT_526",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_PRODUCTION_AUTHORITY_READ_ONLY"
+      },
+      "id": "R12-S017",
+      "name": "R10_PRODUCTION_AUTHORITY_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R12_LOCAL_POINTER_AUTHORITY_ONLY"
+      },
+      "id": "R12-S018",
+      "name": "R12_LOCAL_POINTER_AUTHORITY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_RUNTIME_ADMISSION_AUTHORITY_ONLY"
+      },
+      "id": "R12-S019",
+      "name": "R11_RUNTIME_ADMISSION_AUTHORITY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRODUCTION_POINTER_WRITER_NOT_IMPORTED"
+      },
+      "id": "R12-S020",
+      "name": "PRODUCTION_POINTER_WRITER_NOT_IMPORTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_ID_EXACT"
+      },
+      "id": "R12-S021",
+      "name": "LOCAL_POINTER_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_SCHEMA_V1"
+      },
+      "id": "R12-S022",
+      "name": "LOCAL_POINTER_SCHEMA_V1",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RECOVERY_ONLY_MODE_EXPLICIT"
+      },
+      "id": "R12-S023",
+      "name": "RECOVERY_ONLY_MODE_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_NORMAL_RUNTIME_ON_POINTER_MISMATCH"
+      },
+      "id": "R12-S024",
+      "name": "NO_NORMAL_RUNTIME_ON_POINTER_MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_ACTIVE_DIRECTORY_SSOT"
+      },
+      "id": "R12-S025",
+      "name": "NO_ACTIVE_DIRECTORY_SSOT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "IMMUTABLE_PACKAGE_STORE_AUTHORITY"
+      },
+      "id": "R12-S026",
+      "name": "IMMUTABLE_PACKAGE_STORE_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STABLE_LAUNCHER_OUTSIDE_PACKAGE_GENERATION"
+      },
+      "id": "R12-S027",
+      "name": "STABLE_LAUNCHER_OUTSIDE_PACKAGE_GENERATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_HOT_PATCH_AUTHORITY"
+      },
+      "id": "R12-S028",
+      "name": "NO_HOT_PATCH_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_DELTA_PATCH_AUTHORITY"
+      },
+      "id": "R12-S029",
+      "name": "NO_DELTA_PATCH_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_CPU_FALLBACK_AUTHORITY"
+      },
+      "id": "R12-S030",
+      "name": "NO_CPU_FALLBACK_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_LEGACY_SHADER_FALLBACK_AUTHORITY"
+      },
+      "id": "R12-S031",
+      "name": "NO_LEGACY_SHADER_FALLBACK_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_AUTOMATIC_R10_ROLLBACK"
+      },
+      "id": "R12-S032",
+      "name": "NO_AUTOMATIC_R10_ROLLBACK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALL_ROOT_LAYOUT_DECLARED"
+      },
+      "id": "R12-S033",
+      "name": "INSTALL_ROOT_LAYOUT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCHER_ROOT_DECLARED"
+      },
+      "id": "R12-S034",
+      "name": "LAUNCHER_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGES_ROOT_DECLARED"
+      },
+      "id": "R12-S035",
+      "name": "PACKAGES_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGING_ROOT_DECLARED"
+      },
+      "id": "R12-S036",
+      "name": "STAGING_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STATE_ROOT_DECLARED"
+      },
+      "id": "R12-S037",
+      "name": "STATE_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_ROOT_DECLARED"
+      },
+      "id": "R12-S038",
+      "name": "JOURNAL_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCK_ROOT_DECLARED"
+      },
+      "id": "R12-S039",
+      "name": "LOCK_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_ROOT_DECLARED"
+      },
+      "id": "R12-S040",
+      "name": "QUARANTINE_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SAME_VOLUME_REQUIREMENT"
+      },
+      "id": "R12-S041",
+      "name": "SAME_VOLUME_REQUIREMENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CASE_INSENSITIVE_CANONICAL_SET"
+      },
+      "id": "R12-S042",
+      "name": "CASE_INSENSITIVE_CANONICAL_SET",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ABSOLUTE_PATH_REJECTED"
+      },
+      "id": "R12-S043",
+      "name": "ABSOLUTE_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRAVERSAL_PATH_REJECTED"
+      },
+      "id": "R12-S044",
+      "name": "TRAVERSAL_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNC_PATH_REJECTED"
+      },
+      "id": "R12-S045",
+      "name": "UNC_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RESERVED_DEVICE_NAME_REJECTED"
+      },
+      "id": "R12-S046",
+      "name": "RESERVED_DEVICE_NAME_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRAILING_DOT_SPACE_REJECTED"
+      },
+      "id": "R12-S047",
+      "name": "TRAILING_DOT_SPACE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CASE_COLLISION_REJECTED"
+      },
+      "id": "R12-S048",
+      "name": "CASE_COLLISION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ADS_REJECTED"
+      },
+      "id": "R12-S049",
+      "name": "ADS_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SYMLINK_REJECTED"
+      },
+      "id": "R12-S050",
+      "name": "SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JUNCTION_REJECTED"
+      },
+      "id": "R12-S051",
+      "name": "JUNCTION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "REPARSE_POINT_REJECTED"
+      },
+      "id": "R12-S052",
+      "name": "REPARSE_POINT_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SCHEMA_ID_EXACT"
+      },
+      "id": "R12-S053",
+      "name": "TRANSACTION_SCHEMA_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_ID_ENTROPY_BOUND"
+      },
+      "id": "R12-S054",
+      "name": "TRANSACTION_ID_ENTROPY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SOURCE_IDENTITY_BOUND"
+      },
+      "id": "R12-S055",
+      "name": "TRANSACTION_SOURCE_IDENTITY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_TARGET_IDENTITY_BOUND"
+      },
+      "id": "R12-S056",
+      "name": "TRANSACTION_TARGET_IDENTITY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_PRODUCTION_POINTER_BOUND"
+      },
+      "id": "R12-S057",
+      "name": "TRANSACTION_PRODUCTION_POINTER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_LOCAL_POINTER_BOUND"
+      },
+      "id": "R12-S058",
+      "name": "TRANSACTION_LOCAL_POINTER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_STAGING_ROOT_BOUND"
+      },
+      "id": "R12-S059",
+      "name": "TRANSACTION_STAGING_ROOT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_STATE_MONOTONIC"
+      },
+      "id": "R12-S060",
+      "name": "TRANSACTION_STATE_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SKIP_REJECTED"
+      },
+      "id": "R12-S061",
+      "name": "TRANSACTION_SKIP_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_REWIND_REJECTED"
+      },
+      "id": "R12-S062",
+      "name": "TRANSACTION_REWIND_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_SCHEMA_ID_EXACT"
+      },
+      "id": "R12-S063",
+      "name": "JOURNAL_SCHEMA_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_SEQUENCE_MONOTONIC"
+      },
+      "id": "R12-S064",
+      "name": "JOURNAL_SEQUENCE_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_HASH_CHAIN_REQUIRED"
+      },
+      "id": "R12-S065",
+      "name": "JOURNAL_HASH_CHAIN_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_INTENT_BEFORE_EFFECT"
+      },
+      "id": "R12-S066",
+      "name": "JOURNAL_INTENT_BEFORE_EFFECT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_FLUSH_REQUIRED"
+      },
+      "id": "R12-S067",
+      "name": "JOURNAL_FLUSH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_READBACK_REQUIRED"
+      },
+      "id": "R12-S068",
+      "name": "JOURNAL_READBACK_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_CORRUPT_TAIL_PRESERVED"
+      },
+      "id": "R12-S069",
+      "name": "JOURNAL_CORRUPT_TAIL_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_STATE_ATOMIC_REPLACE"
+      },
+      "id": "R12-S070",
+      "name": "TRANSACTION_STATE_ATOMIC_REPLACE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SELF_HASH_REQUIRED"
+      },
+      "id": "R12-S071",
+      "name": "TRANSACTION_SELF_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SINGLE_ACTIVE_TRANSACTION"
+      },
+      "id": "R12-S072",
+      "name": "SINGLE_ACTIVE_TRANSACTION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_FINAL_RELEASE_INPUT_REQUIRED"
+      },
+      "id": "R12-S073",
+      "name": "R10_FINAL_RELEASE_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_EXPECTED_MANIFEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S074",
+      "name": "R11_EXPECTED_MANIFEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_CONTENT_MANIFEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S075",
+      "name": "PACKAGE_CONTENT_MANIFEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R9_PHYSICAL_DIGEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S076",
+      "name": "R9_PHYSICAL_DIGEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "FULL_PRODUCT_DIGEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S077",
+      "name": "FULL_PRODUCT_DIGEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TARGET_MUST_MATCH_R10_ACTIVE"
+      },
+      "id": "R12-S078",
+      "name": "TARGET_MUST_MATCH_R10_ACTIVE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SEMVER_NOT_AUTHORITY"
+      },
+      "id": "R12-S079",
+      "name": "SEMVER_NOT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PAYLOAD_PARTIAL_DIRECTORY_REQUIRED"
+      },
+      "id": "R12-S080",
+      "name": "PAYLOAD_PARTIAL_DIRECTORY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PAYLOAD_VERIFIED_DIRECTORY_REQUIRED"
+      },
+      "id": "R12-S081",
+      "name": "PAYLOAD_VERIFIED_DIRECTORY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_FILE_COUNT_BOUND"
+      },
+      "id": "R12-S082",
+      "name": "MANIFEST_FILE_COUNT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_TOTAL_BYTES_BOUND"
+      },
+      "id": "R12-S083",
+      "name": "MANIFEST_TOTAL_BYTES_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PER_FILE_SHA256_REQUIRED"
+      },
+      "id": "R12-S084",
+      "name": "PER_FILE_SHA256_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PATH_SET_DIGEST_REQUIRED"
+      },
+      "id": "R12-S085",
+      "name": "PATH_SET_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNEXPECTED_FILE_REJECTED"
+      },
+      "id": "R12-S086",
+      "name": "UNEXPECTED_FILE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNEXPECTED_EXECUTABLE_REJECTED"
+      },
+      "id": "R12-S087",
+      "name": "UNEXPECTED_EXECUTABLE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "HARDLINK_EXTERNALIZATION_REJECTED"
+      },
+      "id": "R12-S088",
+      "name": "HARDLINK_EXTERNALIZATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_SELF_EXCLUSION_FIXED"
+      },
+      "id": "R12-S089",
+      "name": "MANIFEST_SELF_EXCLUSION_FIXED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CONTENT_ID_STORE_PATH_FIXED"
+      },
+      "id": "R12-S090",
+      "name": "CONTENT_ID_STORE_PATH_FIXED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CONTENT_ID_COLLISION_FAIL_CLOSED"
+      },
+      "id": "R12-S091",
+      "name": "CONTENT_ID_COLLISION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_STORE_MERGE_FORBIDDEN"
+      },
+      "id": "R12-S092",
+      "name": "PACKAGE_STORE_MERGE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_EXECUTION_ROLE_EXPLICIT"
+      },
+      "id": "R12-S093",
+      "name": "STAGED_EXECUTION_ROLE_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_PACKAGE_ROOT_EXPLICIT"
+      },
+      "id": "R12-S094",
+      "name": "STAGED_PACKAGE_ROOT_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_GENERATION_EXPLICIT"
+      },
+      "id": "R12-S095",
+      "name": "STAGED_GENERATION_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_TRANSACTION_ID_EXPLICIT"
+      },
+      "id": "R12-S096",
+      "name": "STAGED_TRANSACTION_ID_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVE_ROOT_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S097",
+      "name": "ACTIVE_ROOT_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIOUS_ROOT_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S098",
+      "name": "PREVIOUS_ROOT_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_TREE_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S099",
+      "name": "SOURCE_TREE_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DEV_SERVER_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S100",
+      "name": "DEV_SERVER_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "GENERATION_NEUTRAL_CACHE_FORBIDDEN"
+      },
+      "id": "R12-S101",
+      "name": "GENERATION_NEUTRAL_CACHE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "OLD_NATIVE_PATH_FALLBACK_FORBIDDEN"
+      },
+      "id": "R12-S102",
+      "name": "OLD_NATIVE_PATH_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCH_ENVELOPE_SCHEMA_EXACT"
+      },
+      "id": "R12-S103",
+      "name": "LAUNCH_ENVELOPE_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CHILD_HANDSHAKE_REQUIRED"
+      },
+      "id": "R12-S104",
+      "name": "CHILD_HANDSHAKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_R11_FIXTURE_AUTHORITY_REUSED"
+      },
+      "id": "R12-S105",
+      "name": "STAGED_R11_FIXTURE_AUTHORITY_REUSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_CANARY_NO_TOKEN_ISSUE"
+      },
+      "id": "R12-S106",
+      "name": "STAGED_CANARY_NO_TOKEN_ISSUE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "HARDWARE_GPU_REQUIRED"
+      },
+      "id": "R12-S107",
+      "name": "HARDWARE_GPU_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRODUCT_REFERENCE_RAW16_EXACT_REQUIRED"
+      },
+      "id": "R12-S108",
+      "name": "PRODUCT_REFERENCE_RAW16_EXACT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "GPU_ORACLE_ULP_BOUND_REQUIRED"
+      },
+      "id": "R12-S109",
+      "name": "GPU_ORACLE_ULP_BOUND_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "VALIDATION_POSITIVE_CONTROL_REQUIRED"
+      },
+      "id": "R12-S110",
+      "name": "VALIDATION_POSITIVE_CONTROL_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIEW_EXPORT_SMOKE_REQUIRED"
+      },
+      "id": "R12-S111",
+      "name": "PREVIEW_EXPORT_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CPU_FALLBACK_ZERO_REQUIRED"
+      },
+      "id": "R12-S112",
+      "name": "CPU_FALLBACK_ZERO_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_REQUIRED_FIELDS_DECLARED"
+      },
+      "id": "R12-S113",
+      "name": "LOCAL_POINTER_REQUIRED_FIELDS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_SELF_HASH_REQUIRED"
+      },
+      "id": "R12-S114",
+      "name": "LOCAL_POINTER_SELF_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_RAW_HASH_CAS_REQUIRED"
+      },
+      "id": "R12-S115",
+      "name": "LOCAL_POINTER_RAW_HASH_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_GENERATION_CAS_REQUIRED"
+      },
+      "id": "R12-S116",
+      "name": "LOCAL_POINTER_GENERATION_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALL_GENERATION_MONOTONIC"
+      },
+      "id": "R12-S117",
+      "name": "INSTALL_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_SCHEMA_EXACT"
+      },
+      "id": "R12-S118",
+      "name": "ACTIVATION_INTENT_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_POINTERS_FROZEN"
+      },
+      "id": "R12-S119",
+      "name": "ACTIVATION_INTENT_POINTERS_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_CANARY_BOUND"
+      },
+      "id": "R12-S120",
+      "name": "ACTIVATION_INTENT_CANARY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_QUIESCENCE_BOUND"
+      },
+      "id": "R12-S121",
+      "name": "ACTIVATION_INTENT_QUIESCENCE_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_STALE_REJECTED"
+      },
+      "id": "R12-S122",
+      "name": "ACTIVATION_INTENT_STALE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_STORE_COMMIT_PRECEDES_POINTER_CAS"
+      },
+      "id": "R12-S123",
+      "name": "PACKAGE_STORE_COMMIT_PRECEDES_POINTER_CAS",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_CAS_IS_COMMIT_POINT"
+      },
+      "id": "R12-S124",
+      "name": "POINTER_CAS_IS_COMMIT_POINT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SAME_DIRECTORY_TEMP_REQUIRED"
+      },
+      "id": "R12-S125",
+      "name": "SAME_DIRECTORY_TEMP_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "FLUSH_BEFORE_REPLACE_REQUIRED"
+      },
+      "id": "R12-S126",
+      "name": "FLUSH_BEFORE_REPLACE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ATOMIC_REPLACE_REQUIRED"
+      },
+      "id": "R12-S127",
+      "name": "ATOMIC_REPLACE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_READBACK_REQUIRED"
+      },
+      "id": "R12-S128",
+      "name": "POINTER_READBACK_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "OLD_PACKAGE_NOT_MOVED_ON_ACTIVATION"
+      },
+      "id": "R12-S129",
+      "name": "OLD_PACKAGE_NOT_MOVED_ON_ACTIVATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCHER_POINTER_SINGLE_READ"
+      },
+      "id": "R12-S130",
+      "name": "LAUNCHER_POINTER_SINGLE_READ",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_PRODUCTION_POINTER_WRITE_PATH"
+      },
+      "id": "R12-S131",
+      "name": "NO_PRODUCTION_POINTER_WRITE_PATH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CAS_AUTO_RETRY_FORBIDDEN"
+      },
+      "id": "R12-S132",
+      "name": "CAS_AUTO_RETRY_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RECOVERY_MATRIX_ALL_BOUNDARIES_DECLARED"
+      },
+      "id": "R12-S133",
+      "name": "RECOVERY_MATRIX_ALL_BOUNDARIES_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRECOMMIT_ACTIVE_UNCHANGED"
+      },
+      "id": "R12-S134",
+      "name": "PRECOMMIT_ACTIVE_UNCHANGED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POST_CAS_HANDOFF_PENDING_RECONSTRUCTED"
+      },
+      "id": "R12-S135",
+      "name": "POST_CAS_HANDOFF_PENDING_RECONSTRUCTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_PASS_COMMIT_RECONSTRUCTED"
+      },
+      "id": "R12-S136",
+      "name": "R11_PASS_COMMIT_RECONSTRUCTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_FAIL_TARGET_QUARANTINED"
+      },
+      "id": "R12-S137",
+      "name": "R11_FAIL_TARGET_QUARANTINED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIOUS_RESTORE_RECOVERY_ONLY"
+      },
+      "id": "R12-S138",
+      "name": "PREVIOUS_RESTORE_RECOVERY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIOUS_NORMAL_RUNTIME_REQUIRES_R10_MATCH"
+      },
+      "id": "R12-S139",
+      "name": "PREVIOUS_NORMAL_RUNTIME_REQUIRES_R10_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_AND_POINTER_JOINT_AUTHORITY"
+      },
+      "id": "R12-S140",
+      "name": "JOURNAL_AND_POINTER_JOINT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "AMBIGUOUS_RECOVERY_FAIL_CLOSED"
+      },
+      "id": "R12-S141",
+      "name": "AMBIGUOUS_RECOVERY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCH_ENVELOPE_GENERATION_BOUND"
+      },
+      "id": "R12-S142",
+      "name": "LAUNCH_ENVELOPE_GENERATION_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MAIN_RENDERER_GENERATION_MATCH"
+      },
+      "id": "R12-S143",
+      "name": "MAIN_RENDERER_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RENDERER_WORKER_GENERATION_MATCH"
+      },
+      "id": "R12-S144",
+      "name": "RENDERER_WORKER_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WORKER_WASM_GENERATION_MATCH"
+      },
+      "id": "R12-S145",
+      "name": "WORKER_WASM_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WASM_PTHREAD_GENERATION_MATCH"
+      },
+      "id": "R12-S146",
+      "name": "WASM_PTHREAD_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "APP_NATIVE_GENERATION_MATCH"
+      },
+      "id": "R12-S147",
+      "name": "APP_NATIVE_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WGSL_MANIFEST_BYTES_GENERATION_MATCH"
+      },
+      "id": "R12-S148",
+      "name": "WGSL_MANIFEST_BYTES_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PIPELINE_CACHE_GENERATION_KEYED"
+      },
+      "id": "R12-S149",
+      "name": "PIPELINE_CACHE_GENERATION_KEYED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_TOKEN_INSTALL_GENERATION_BOUND"
+      },
+      "id": "R12-S150",
+      "name": "R11_TOKEN_INSTALL_GENERATION_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CACHE_PARTITION_PACKAGE_BOUND"
+      },
+      "id": "R12-S151",
+      "name": "CACHE_PARTITION_PACKAGE_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SERVICE_WORKER_GENERATION_POLICY"
+      },
+      "id": "R12-S152",
+      "name": "SERVICE_WORKER_GENERATION_POLICY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_MUTATED_PACKAGE_DETECTED"
+      },
+      "id": "R12-S153",
+      "name": "NEGATIVE_MUTATED_PACKAGE_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_CASE_COLLISION_DETECTED"
+      },
+      "id": "R12-S154",
+      "name": "NEGATIVE_CASE_COLLISION_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_TRAVERSAL_DETECTED"
+      },
+      "id": "R12-S155",
+      "name": "NEGATIVE_TRAVERSAL_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_ADS_DETECTED"
+      },
+      "id": "R12-S156",
+      "name": "NEGATIVE_ADS_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_JUNCTION_DETECTED"
+      },
+      "id": "R12-S157",
+      "name": "NEGATIVE_JUNCTION_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_CONTENT_ID_COLLISION_DETECTED"
+      },
+      "id": "R12-S158",
+      "name": "NEGATIVE_CONTENT_ID_COLLISION_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_OLD_WORKER_DETECTED"
+      },
+      "id": "R12-S159",
+      "name": "NEGATIVE_OLD_WORKER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_OLD_WASM_HELPER_DETECTED"
+      },
+      "id": "R12-S160",
+      "name": "NEGATIVE_OLD_WASM_HELPER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_OLD_NATIVE_ADDON_DETECTED"
+      },
+      "id": "R12-S161",
+      "name": "NEGATIVE_OLD_NATIVE_ADDON_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_STALE_R10_POINTER_DETECTED"
+      },
+      "id": "R12-S162",
+      "name": "NEGATIVE_STALE_R10_POINTER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_STALE_LOCAL_POINTER_DETECTED"
+      },
+      "id": "R12-S163",
+      "name": "NEGATIVE_STALE_LOCAL_POINTER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_POINTER_HASH_MISMATCH_DETECTED"
+      },
+      "id": "R12-S164",
+      "name": "NEGATIVE_POINTER_HASH_MISMATCH_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_POST_CAS_KILL_RECOVERED"
+      },
+      "id": "R12-S165",
+      "name": "NEGATIVE_POST_CAS_KILL_RECOVERED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_R11_HANDOFF_KILL_RECOVERED"
+      },
+      "id": "R12-S166",
+      "name": "NEGATIVE_R11_HANDOFF_KILL_RECOVERED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_PRODUCTION_POINTER_WRITE_REJECTED"
+      },
+      "id": "R12-S167",
+      "name": "NEGATIVE_PRODUCTION_POINTER_WRITE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_FINAL_RECEIPT_SEALED"
+      },
+      "id": "R12-S168",
+      "name": "SOURCE_FINAL_RECEIPT_SEALED",
+      "status": "PASS"
+    }
+  ],
+  "pass": true,
+  "schemaId": "tdt.resample-runtime.r12.source-gate-report.v1",
+  "schemaVersion": 1
+}

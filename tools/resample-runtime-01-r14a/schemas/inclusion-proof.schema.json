@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "inclusion-proof.schema.json",
+  "type": "object",
+  "required": [
+    "index",
+    "treeSize",
+    "rootHash",
+    "path"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

@@ -1,0 +1,27 @@
+TDT-EXPORT-WORKER-07 SOURCE BAKE FINAL VERIFY
+UTC 2026-07-24T17:11:03Z
+BUILD_ID a9c880b7c5e674017778f9a5
+WORKER_SOURCE_MANIFEST 5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d
+
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+PASS GATE-R1-08 Pinia static serializability gate
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect
+PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry
+PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js
+PASS GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION unique prior owner / owner-finished-while-absent claim / one-shot claim consumption / receipt evidence
+PASS GATE-R1-R6-PLACEHOLDER-QUARANTINE non-authoritative legacy placeholder isolation and receipt evidence
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+PASS GATE-R1-20 deterministic receipt parity 100/100 796a6f9cd8db796646a2bca4d3231318a530f948d72316669be24df640f3149c
+PASS GATE-R1-ERROR-CODE stable error registry 235/235 referenced codes declared
+PASS TypeScript syntax 69 files
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 c92bfa5aec39cfe4028989f4325e057852f39ef5e29e224fbec8ae5dcaf51741
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 02cfab6548c4eccf50599049be008be2db027b0955cd5020f56ffc530df4d7b2
+PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 50f30d1c3d9f52dfd680a45d8982081f5b5995ba4916e673e366f27f97b39b4d
+PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 52a6d8c4855f4bea7d099473fa91aa100ccb5517e7e759ab01d6e21a89792ddf
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a96fc9db56134b9ae50a08be616bdba429f646ab310b688f23ef21f0d0997bb8
+PASS RT-EW07-PSD-CLOSURE cases=3 budget-reject=1 digest-reject=1 length-reject=1
+PASS generated EW07 source reports
+PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 89c0fa7e3433904230744188f62226102afcd51baff6c472f161601e0229df36

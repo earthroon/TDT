@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-GPU-TILE-ATLAS-01",
+  "state": "GPU_TILE_ATLAS_01_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-QWAVE-PHASE-03",
+  "parentZipSha256": "9b3800e6103fd783584bad673f50145f626544c5ff535178972468fa0b3efa83",
+  "parentSourceSealSha256": "005206125334e903ff3ab9dff5d8bc76010fda6a7e8177ff21515298331e1f58",
+  "sourceSealSha256": "4263549a069bdfef78b707493a39724a3cd786c576e64d10c458e0f6c4565cb0",
+  "changedFileCount": 92,
+  "sealedFileCount": 59,
+  "observationalFileCount": 35,
+  "files": [
+    {
+      "relative": "README_TDT_GPU_TILE_ATLAS_01_APPLIED.md",
+      "byteLength": 7460,
+      "sha256": "eb097c928d4ba10ae24b0d76e049bab61452d8131e18d11a3d2549013f8ce5fa"
+    },
+    {
+      "relative": "app/legacy-runtime/atlas/atlas_bridge.js",
+      "byteLength": 1006,
+      "sha256": "3fd0dbe4dd884996fb1c9da6d31d3fc7b7b3ef9548f5cb1a0457c1d8e8edfcdd"
+    },
+    {
+      "relative": "app/legacy-runtime/atlas/atlas_defs.js",
+      "byteLength": 543,
+      "sha256": "65531cea989d89f4696fcd40276842a1d4259c454e83c2fae03611f655c8f099"
+    },
+    {
+      "relative": "app/legacy-runtime/atlas/build_quality_atlas.js",
+      "byteLength": 207,
+      "sha256": "208edc0a717690fa93649f1e277749653f162c09c38b4f2768169953385c4ea6"
+    },
+    {
+      "relative": "app/legacy-runtime/patches/atlas_loader.js",
+      "byteLength": 317,
+      "sha256": "c0807cae46fa9a6ff42d0c0e4965b22472963a2f84b426d5369593483672a033"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 30676,
+      "sha256": "4e32f48035149b41404a5010aeeb51235550f2ff9333c3044134b8089945caab"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 29867,
+      "sha256": "0391be24b98ad0aa32afefc431a8d1c17af1998fdeec85a2c1470d94c05c944d"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 72456,
+      "sha256": "1f37ae32928690f7dbc58a5db13ae0b0270c5e1e5ec242303a7ab227739caf1d"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 214770,
+      "sha256": "47583b66f2c2840b1828c250c5ca2746361cdf0e1970f797899de728ed4161ff"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-errors.ts",
+      "byteLength": 3178,
+      "sha256": "34c3d22bce27aa30716fcb99cd6045db46182c3189f1fd25787ca291adbef78b"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-global.d.ts",
+      "byteLength": 1051,
+      "sha256": "d08f59910b3d6ff06ee1966fc1eef3dd7c1d6f1fe2a195c0a1c9a46a42765cf0"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-authority-service.ts",
+      "byteLength": 43527,
+      "sha256": "90ff807cc5e2b5975016c18bc16fad89e70f749dd762877c1d6ff5b087feb576"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-errors.ts",
+      "byteLength": 1442,
+      "sha256": "c4db4dbceed5bc1708f09903666dadfa4539358dc3f797bb8fcb193731eadb99"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-global.d.ts",
+      "byteLength": 181,
+      "sha256": "7e92817ab249d78958dd112275e41169f72815a1c8b0e3bcd0dd34bb29f3a153"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-key.ts",
+      "byteLength": 2099,
+      "sha256": "4df56eac49b838cf11b6d698195240024a0ee6150123dd3fdf6e7a5f13a94bb5"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-ledger.ts",
+      "byteLength": 1393,
+      "sha256": "e1d9087e9c17025b90c7d4977fa00f9226fdac2145d0c908b05c8b041436a275"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-page-table.ts",
+      "byteLength": 1542,
+      "sha256": "bceba2ee2571fe75ab5b0311ca3ca3f367fa9a40d48af774820660e629ffa4d4"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-profile.json",
+      "byteLength": 344,
+      "sha256": "3c890241797cf9900f13dae287db02ca79232c722f57cce5af9943d9533b59b4"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-receipt.ts",
+      "byteLength": 403,
+      "sha256": "2459d50e2ac91a5902a4882a144b19b05a0ce05714f9dab3ce038ba151999ff4"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/gpu-tile-atlas-types.ts",
+      "byteLength": 5344,
+      "sha256": "625ac883974f21f612ebc2d1b23b7a14ba7b7e2b72796d38a46d530c14fc9ac6"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-compare.wgsl",
+      "byteLength": 841,
+      "sha256": "1ed9e4f9e349a93cfcc7a0497cd0c8a0cf9dfb6d8d594bf40b2a7f1760da274e"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-fixture-generator.wgsl",
+      "byteLength": 250,
+      "sha256": "3395bc3367aa810295116f73f0b8de170dd561aa3394978339c6e188d6cbe97a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-materialize-window-batch.wgsl",
+      "byteLength": 2365,
+      "sha256": "a1871dc211bfc3782b21e3a193899e594a89e91fc34bfa2348adb6b1e6d36a75"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-page-table-validate.wgsl",
+      "byteLength": 1219,
+      "sha256": "7ebdb46974979f65e03e28905fe7f9f05318bbd9a034ff66aaf0a327b0620f96"
+    },
+    {
+      "relative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-reference-copy.wgsl",
+      "byteLength": 342,
+      "sha256": "9f8d6c39b74f0b64c0ec54b6cfd11dad9d40efc02eef7575dbba2988cf4328f8"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-claim-report.json",
+      "byteLength": 5725,
+      "sha256": "8a6b6af4507c627888fce534985d438f7413b40af21d61290957a2eb3156b927"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-compatibility-classification.json",
+      "byteLength": 36851,
+      "sha256": "c8c462c9a6025dd9bfc27b5620eb766e0e9a12fa18f24cc10282e7b3d87471dc"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-producer-inventory.json",
+      "byteLength": 12850,
+      "sha256": "52c11bb82bf31056958c3b76626958edbb1897bd08c0f4377176423c8d97b192"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-semantic-registry.json",
+      "byteLength": 41823,
+      "sha256": "b8162ea5009072aa7e2354431874a58e88418fa1772d45e642923d424f5e35bc"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 40441,
+      "sha256": "5b2e0d4e94f2a26514103472166f6119936d0f8ad46219f5bea4045928b6f14b"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "byteLength": 2049,
+      "sha256": "ea2b7dc72d354bba905366a84aa9739f70a3f19c588b8f7540ddbba14989e031"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1704,
+      "sha256": "4b70bfee616a4994a43585659b1392e7419e6c62e38f74dd99effcfc04de29a8"
+    },
+    {
+      "relative": "app/src/runtime/surfaces/surface-types.ts",
+      "byteLength": 4030,
+      "sha256": "be02dd62b2bcd0edf9a564143ea1582949d823f99dfcdb7a18ae5ede3ee18c04"
+    },
+    {
+      "relative": "artifacts/gpu-tile-atlas-01/source-bake/TDT_GPU_TILE_ATLAS_01_REGRESSION_SUMMARY.json",
+      "byteLength": 3461,
+      "sha256": "935f82bda2cde65560eed955c44cf732fb8140ad7f33b97a53b44127e1bf7c60"
+    },
+    {
+      "relative": "artifacts/gpu-tile-atlas-01/source-bake/TDT_GPU_TILE_ATLAS_01_SOURCE_GATE.json",
+      "byteLength": 26693,
+      "sha256": "4fa218d93992c068176d31bf7815eacfcc54a19f15020ee584092af2552c1d90"
+    },
+    {
+      "relative": "artifacts/gpu-tile-atlas-01/source-bake/gta01-runtime-smoke.json",
+      "byteLength": 6310,
+      "sha256": "8d9a6e6fb209d40757baddbe7fbd05e6946d804e465eca1d32e6fcd9b95c79b4"
+    },
+    {
+      "relative": "artifacts/gpu-tile-atlas-01/source-bake/gta01-source-contract.json",
+      "byteLength": 14057,
+      "sha256": "6d001a4908b99b3efc2005b8b0fadd430bb7bad0024a2bb502ccbf3ab2e72fca"
+    },
+    {
+      "relative": "artifacts/gpu-tile-atlas-01/source-bake/gta01-wgsl-contract.json",
+      "byteLength": 8144,
+      "sha256": "06e2f6cbe9e2331ec15ee8389fec55eb601861407082d8bfb4c1c11581dafa8b"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 23124,
+      "sha256": "0867839fa8d1788e266673f1b148da59b5b178ba9f92709db192c344cf7ee84e"
+    },
+    {
+      "relative": "patches/TDT_GPU_TILE_ATLAS_01_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 34352,
+      "sha256": "52976a8a1c7e355fd14b3e4313441f755a72c6e7811ef9c90a28e6e1bcde000b"
+    },
+    {
+      "relative": "patches/TDT_GPU_TILE_ATLAS_01_analysis_window_persistent_tile_atlas_page_table_generation_fence_aware_residency.diff",
+      "byteLength": 477206,
+      "sha256": "bbf2a48e3cab3fd893e896e9d1cd59c5d04130dbc62935178a23f0ecbe68986e"
+    },
+    {
+      "relative": "specs/TDT-GPU-TILE-ATLAS-01_ANALYSIS_WINDOW_ATLAS_PERSISTENT_TILE_ATLAS_AUTHORITY_PAGE_TABLE_GENERATION_FENCE_AWARE_RESIDENCY_SEAL_SPEC.md",
+      "byteLength": 129585,
+      "sha256": "0103cb55ed79616697213109b055739383d3a4462aeab8dd55f9f6b574b81b39"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 15264,
+      "sha256": "e508ae74241d9bdabca352040b69ac01361fdc87c04ed2fcc7c7f44439f8f969"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-error-codes.mjs",
+      "byteLength": 3864,
+      "sha256": "65cc47d2222d014af890dd4d305f5ba24f1d2a3c3ba8e88ffea1ae58600f2e6d"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+      "byteLength": 8091,
+      "sha256": "377b3df9aa0c89e70bc4351930474a0dabe92cf188b6b01f1e1e1925e2c96bd5"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+      "byteLength": 9104,
+      "sha256": "0a0b0c344a79d62917b39ff4df78a42cb81a5f9f6945a255b7d7e5799f419b20"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-source-contract.mjs",
+      "byteLength": 8756,
+      "sha256": "bd0ae2fafc4fa92ce63884afa0f1172d9d01e8836fd1ec459ffdaaa519c47347"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/finalize.mjs",
+      "byteLength": 4070,
+      "sha256": "0fa281791645183ab2b30b62c1abb3fcda175116d14f5c94da94459a0af7c399"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/gate.mjs",
+      "byteLength": 1429,
+      "sha256": "d97dbf74d92f9221452a904e41520867cc7f2768f8206e9933067fe201c1046a"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/lib.mjs",
+      "byteLength": 971,
+      "sha256": "8757eaba38a4b9391d1ce25813c29f32f9c8bbe1009b45ceb83c7179b971e4c7"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/run.mjs",
+      "byteLength": 145,
+      "sha256": "d5c60b3b7362a366bad57cf9f5972b4b7fb476eecb254a86bf6bb50df9f1ff3f"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/runtime-smoke.mjs",
+      "byteLength": 6422,
+      "sha256": "24f68360e9dfccf44cae8c75f3629f1553355fd8767e81c1447d76b027af06b9"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/verify-source-contract.mjs",
+      "byteLength": 7929,
+      "sha256": "7675a36a70d89d17cf63465604cf0217dff432e6f8a319b4901b081534c718f9"
+    },
+    {
+      "relative": "tools/gpu-tile-atlas-01/verify-wgsl-contract.mjs",
+      "byteLength": 3791,
+      "sha256": "be28fdf76167899b1d39ed899bd1f6cf42d0bc5c4f7b34b5798294568aaf9a26"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/verify-source-contract.mjs",
+      "byteLength": 5955,
+      "sha256": "4d55b21358d18d3c9601e4b1a0ad2721b63ea0e28ab76be4a1a1a39311fe42f6"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/verify-source-contract.mjs",
+      "byteLength": 4534,
+      "sha256": "75c6532194f178216a7dfd5b72b17f9dd440564a532d5091677a2044896e29e6"
+    },
+    {
+      "relative": "tools/qwave-phase-03/verify-source-contract.mjs",
+      "byteLength": 7395,
+      "sha256": "e953e46f405131d2f0bd418b80cffa86b510b877ba76e3cef5dba787ae5301ff"
+    },
+    {
+      "relative": "tools/spectral-qmap-02/verify-source-contract.mjs",
+      "byteLength": 8759,
+      "sha256": "e1032f4184b3c51e52c11385a1f5a4888d3e58200a8f5634654e5b1006a74f08"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/verify-source-contract.mjs",
+      "byteLength": 6639,
+      "sha256": "4028288ac09b02d5a931a13cfb5dbe3be3d9ca1bbec002fd7b57a45e83dfc520"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 212,
+    "DEFERRED": 12,
+    "FAIL": 0
+  },
+  "semanticRegistryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+  "semanticRegistryDigest": "65a3b14f73c1d4912f3f04cf67a9be7bce9fcc953e36c206abcfec458a6bf96d",
+  "producerInventoryDigest": "98686a73d7309ef3a610af493da2e833b4c506eae47a7f4bf8a1b23c871a6619",
+  "analysisFieldAuthorityId": "dadum.analysis-field-authority.aft00",
+  "tileAtlasAuthorityId": "dadum.gpu-tile-atlas-authority.gta01",
+  "surfaceRegistryAuthorityModel": "canonical-surface-registry-sl01",
+  "gpuAuthorityId": "dadum.gpu.authority.v1",
+  "producerId": "tdt.analysis.producer.tile-atlas.materializer",
+  "poolId": "tdt.gpu.tile-atlas.pool.complex-f32-window.v1",
+  "payloadSemanticId": "tdt.analysis.spectral.window-spatial-complex.v1",
+  "pageEntryBytes": 48,
+  "generationAxes": [
+    "deviceEpoch",
+    "atlasEpoch",
+    "pageTableGeneration",
+    "virtualGeneration",
+    "slotGeneration",
+    "pageGeneration"
+  ],
+  "cpuShadowPageTableSsot": true,
+  "gpuPageTableExecutionMirror": true,
+  "atomicWriteFenceCommit": true,
+  "fenceAwareReadPins": true,
+  "deterministicEviction": true,
+  "deviceLossEmptyRebuild": true,
+  "intermediateReadbackCount": 0,
+  "cpuProductComputeClaim": false,
+  "webglProductComputeClaim": false,
+  "canvasProductComputeClaim": false,
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false
+}

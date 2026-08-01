@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_ELECTRON_SAVE_E2E_REPORT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "electron-save-e2e-not-run",
+    "packaged-candidate-not-launched",
+    "packaged-electron-content-not-verified",
+    "production-icc-fixtures-missing"
+  ],
+  "saveProtocolVersion": "dadum-electron-export-save-v1",
+  "savePathSelectionMode": "e2e-preauthorized-root-v1",
+  "chunkBytes": 8388608,
+  "digestChainVerified": false,
+  "frameCaptureIpcUsed": false
+}

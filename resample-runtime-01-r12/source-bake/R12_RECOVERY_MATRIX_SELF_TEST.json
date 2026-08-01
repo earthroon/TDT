@@ -1,0 +1,10 @@
+{
+  "ambiguousFailsClosed": true,
+  "pass": true,
+  "postCasHandoffReconstructed": true,
+  "precommitActiveUnchanged": true,
+  "previousRecoveryOnly": true,
+  "receiptSha256": "42a85094f0687c47ea9ea357277605e60f92225d68cc0c640d287a78ca183210",
+  "recoveryAction": "RETRY_R11_HANDOFF",
+  "schemaVersion": 1
+}

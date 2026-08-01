@@ -1,0 +1,42 @@
+{
+  "borderDistance": "logical-coordinate",
+  "candidateBase": "floor(p)",
+  "candidateCoordinate": "base+integerOffset",
+  "checks": [
+    {
+      "detail": null,
+      "id": "COORD-01",
+      "message": "R3 and R4 coordinate identity exact",
+      "pass": true
+    },
+    {
+      "detail": {
+        "fixtureCount": 102,
+        "maximumChannelError": 5.551115123125783e-16,
+        "maximumWeightError": 1.7763568394002505e-15,
+        "mismatchCount": 0
+      },
+      "id": "COORD-02",
+      "message": "R4 coordinate model agrees with independent R3 oracle",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "COORD-03",
+      "message": "floor base and exact sample distance",
+      "pass": true
+    }
+  ],
+  "coordinateConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "distance": "sampleCoord-p",
+  "fixtureCount": 102,
+  "maximumChannelError": 5.551115123125783e-16,
+  "maximumWeightError": 1.7763568394002505e-15,
+  "mismatchCount": 0,
+  "offsetOnlyDistanceSignatureCount": 0,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "productCoordinateId": "tdt.ewa.product-coordinate.phase-correct-r4.v1",
+  "roundCenteredSignatureCount": 0,
+  "schemaVersion": 1
+}

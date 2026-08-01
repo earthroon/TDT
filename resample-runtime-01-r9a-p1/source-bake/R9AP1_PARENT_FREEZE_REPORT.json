@@ -1,0 +1,35 @@
+{
+  "failCount": 0,
+  "parentBundleSha256": "4b9414a4edc5aed983879eec21cd003833e917ece83b452d658a5727ef677eb7",
+  "passCount": 5,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1",
+  "schemaVersion": 1,
+  "selfSha256": "2178d553aabcbdd1b8f318653db791c6555cfbb990c437f8117e1e9aef6611ad",
+  "tests": [
+    {
+      "evidence": true,
+      "id": "R9AP1-PARENT-RECEIPT-FILE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "BUILD_LOCK_R2_EXACT_ROOT_GRAPH_AND_PRODUCTION_ADMISSION_HARNESS_SOURCE_SEALED_AWAITING_CANONICAL_WIN32_X64",
+      "id": "R9AP1-PARENT-RECEIPT-SELF",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-PACKAGE-LOCK-FREEZE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-POINTER-A-FREEZE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-POINTER-B-FREEZE",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+import {read,sourceArtifact,seal,sha256File,check,json} from './lib.mjs';
+import {PATCH_ID,SPEC,SOURCE_PASS,RELEASE_PENDING,SOURCE_STATE} from './identity.mjs';
+const text=read(SPEC);
+const rows=[...text.matchAll(/\| `((?:R10A-S|R10A-P)\d{3})` \| `([^`]+)`/g)].map(m=>({id:m[1],requirement:m[2].trim()}));
+const sourceMandatory=rows.filter(x=>x.id.startsWith('R10A-S'));
+const releaseMandatory=rows.filter(x=>x.id.startsWith('R10A-P'));
+check(sourceMandatory.length===SOURCE_PASS,'E_R10A_RELEASE_RECEIPT_INCOMPLETE','source gate count mismatch',sourceMandatory.length);
+check(releaseMandatory.length===RELEASE_PENDING,'E_R10A_RELEASE_RECEIPT_INCOMPLETE','release gate count mismatch',releaseMandatory.length);
+sourceArtifact('R10A_GATE_REQUIREMENTS.json',seal({schemaVersion:1,schemaId:'tdt.resample.gate-catalog.r10a.v1',patchId:PATCH_ID,specSha256:sha256File(SPEC),sourceMandatory,releaseMandatory}));
+sourceArtifact('R10A_RELEASE_GATE_STATUS.json',seal({schemaVersion:1,schemaId:'tdt.resample.release-gate-status.r10a.v1',patchId:PATCH_ID,state:'AWAITING_R9A_PHYSICAL_AND_PRODUCTION_REBUILD',counts:{PASS:0,PENDING:RELEASE_PENDING,DEFERRED:0,SKIPPED:0,FAIL:0},gates:releaseMandatory.map(g=>({...g,status:'PENDING',evidence:null,reason:'requires-current-R9A-physical-dual-clean-rebuild-two-qualified-packages-pointer-CAS-and-rollback-replay'}))}));
+sourceArtifact('R10A_DOWNSTREAM_LINEAGE_STATUS.json',seal({schemaVersion:1,schemaId:'tdt.resample.downstream-lineage-status.r10a.v1',patchId:PATCH_ID,currentAuthority:'TDT-RESAMPLE-RUNTIME-01-R10A',currentReceipts:['TDT-RESAMPLE-RUNTIME-01-R8A-SOURCE','TDT-RESAMPLE-RUNTIME-01-R9A-SOURCE'],awaiting:['TDT-RESAMPLE-RUNTIME-01-R9A-PHYSICAL','TDT-RESAMPLE-RUNTIME-01-R10A-RELEASE','TDT-RESAMPLE-RUNTIME-01-R11A','TDT-RESAMPLE-RUNTIME-01-R12A','TDT-RESAMPLE-RUNTIME-01-R13A'],superseded:['TDT-RESAMPLE-RUNTIME-01-R9','TDT-RESAMPLE-RUNTIME-01-R10','TDT-RESAMPLE-RUNTIME-01-R11','TDT-RESAMPLE-RUNTIME-01-R12','TDT-RESAMPLE-RUNTIME-01-R13'],historicalPassCarryForward:0,productionPointerMutated:false,localActivationPointerMutated:false}));
+sourceArtifact('R10A_SOURCE_EXPECTED_STATE.json',seal({schemaVersion:1,patchId:PATCH_ID,state:SOURCE_STATE,counts:{PASS:SOURCE_PASS,PENDING:RELEASE_PENDING,DEFERRED:0,SKIPPED:0,FAIL:0}}));
+console.log(`R10A gate catalog ${sourceMandatory.length} source / ${releaseMandatory.length} release`);

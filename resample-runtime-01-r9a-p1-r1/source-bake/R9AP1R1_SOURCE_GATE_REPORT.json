@@ -1,0 +1,1811 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 360
+  },
+  "receiptKind": "r9a-p1-r1-source-gate-report",
+  "rows": [
+    {
+      "id": "R9AP1R1-S001",
+      "requirement": "Parent bundle SHA-256 equals the declared R9A-P1 source bundle digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S002",
+      "requirement": "Parent P1 spec SHA-256 equals the declared digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S003",
+      "requirement": "Parent P1 source receipt file SHA-256 equals the declared digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S004",
+      "requirement": "Parent P1 source receipt self-hash is valid",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S005",
+      "requirement": "Parent P1 source state is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S006",
+      "requirement": "Parent P1 counts are 360 source PASS and 480 physical PENDING",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S007",
+      "requirement": "Historical pass carry-forward is zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S008",
+      "requirement": "Production Pointer before-image is recorded",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S009",
+      "requirement": "Local Activation Pointer before-image is recorded",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S010",
+      "requirement": "Current physical coordinator package-internal Build Lock path is detected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S011",
+      "requirement": "Current electron-builder file list omits Build Lock final receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S012",
+      "requirement": "Build Lock final receipt post-build timing is documented",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S013",
+      "requirement": "Package identity circular dependency is classified as P0",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S014",
+      "requirement": "Current qualification index bypasses normal renderer entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S015",
+      "requirement": "Current product runtime constructs a private GPU authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S016",
+      "requirement": "Current preview driver directly imports private product runtime",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S017",
+      "requirement": "Current export driver directly imports private downscale API",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S018",
+      "requirement": "Existing PreviewPresenter public authority is detected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S019",
+      "requirement": "Existing ExportAuthority public authority is detected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S020",
+      "requirement": "P1-R1 scope excludes device-loss performance residency and adapter matrix finalization",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S021",
+      "requirement": "External sidecar schema ID is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S022",
+      "requirement": "External sidecar receipt kind is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S023",
+      "requirement": "External sidecar has a valid self-hash field",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S024",
+      "requirement": "External sidecar binds win32 platform",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S025",
+      "requirement": "External sidecar binds x64 architecture",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S026",
+      "requirement": "External sidecar binds one build ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S027",
+      "requirement": "External sidecar binds one Build Lock final receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S028",
+      "requirement": "External sidecar embeds or references the complete admitted child set",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S029",
+      "requirement": "External sidecar binds one package closure manifest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S030",
+      "requirement": "External sidecar binds app.asar SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S031",
+      "requirement": "External sidecar binds main executable SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S032",
+      "requirement": "External sidecar binds native addon SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S033",
+      "requirement": "External sidecar binds runtime manifest SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S034",
+      "requirement": "External sidecar binds package content manifest SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S035",
+      "requirement": "External sidecar path must be absolute",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S036",
+      "requirement": "External sidecar path must be outside package root",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S037",
+      "requirement": "External sidecar path must be outside evidence run root",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S038",
+      "requirement": "External sidecar path may not traverse a reparse point",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S039",
+      "requirement": "External sidecar expected SHA is supplied separately by launcher",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S040",
+      "requirement": "External sidecar raw path is not exposed to renderer",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S041",
+      "requirement": "Build Lock root graph child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S042",
+      "requirement": "Build Lock lock candidate child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S043",
+      "requirement": "Build Lock cache closure child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S044",
+      "requirement": "Build Lock install A child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S045",
+      "requirement": "Build Lock install B child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S046",
+      "requirement": "Build Lock lifecycle A child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S047",
+      "requirement": "Build Lock lifecycle B child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S048",
+      "requirement": "Build Lock install parity child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S049",
+      "requirement": "Build Lock native toolchain child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S050",
+      "requirement": "Build Lock native build A child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S051",
+      "requirement": "Build Lock native build B child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S052",
+      "requirement": "Build Lock production build A child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S053",
+      "requirement": "Build Lock production build B child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S054",
+      "requirement": "Build Lock build parity child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S055",
+      "requirement": "Build Lock mutation zero child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S056",
+      "requirement": "Build Lock promotion intent child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S057",
+      "requirement": "Build Lock promotion effect child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S058",
+      "requirement": "Build Lock post-promotion replay child is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S059",
+      "requirement": "Every Build Lock child self-hash is replayed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S060",
+      "requirement": "Summary-only Build Lock admission is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S061",
+      "requirement": "Canonical package root derives from process executable path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S062",
+      "requirement": "Canonical resources root derives from process resources path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S063",
+      "requirement": "Closure paths use forward slashes",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S064",
+      "requirement": "Closure paths are relative and contain no drive letter",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S065",
+      "requirement": "Closure paths reject parent traversal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S066",
+      "requirement": "Closure paths reject alternate data streams",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S067",
+      "requirement": "Closure paths reject Windows reserved device names",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S068",
+      "requirement": "Closure detects case-insensitive path collisions",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S069",
+      "requirement": "Closure rejects symlinks",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S070",
+      "requirement": "Closure rejects junctions",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S071",
+      "requirement": "Closure rejects reparse points",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S072",
+      "requirement": "Closure rows include byte length",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S073",
+      "requirement": "Closure rows include SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S074",
+      "requirement": "Closure rows include file class",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S075",
+      "requirement": "Closure rows are canonical-path sorted",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S076",
+      "requirement": "Closure record count is explicit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S077",
+      "requirement": "Closure digest covers every row",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S078",
+      "requirement": "Closure manifest has a valid self-hash",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S079",
+      "requirement": "app.asar is an explicit closure row",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S080",
+      "requirement": "Unpacked native addon is an explicit closure row",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S081",
+      "requirement": "Expected closure digest comes only from verified sidecar",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S082",
+      "requirement": "Observed closure digest is recomputed by main process",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S083",
+      "requirement": "Expected and observed closure digests must match exactly",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S084",
+      "requirement": "Expected and observed app.asar hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S085",
+      "requirement": "Expected and observed executable hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S086",
+      "requirement": "Expected and observed native addon hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S087",
+      "requirement": "Expected and observed runtime manifest hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S088",
+      "requirement": "Expected and observed package content manifest hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S089",
+      "requirement": "Closure comparison uses exact row set equality",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S090",
+      "requirement": "Extra package file fails closure binding",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S091",
+      "requirement": "Missing package file fails closure binding",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S092",
+      "requirement": "Changed byte length fails closure binding",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S093",
+      "requirement": "Changed file hash fails closure binding",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S094",
+      "requirement": "Package closure is recomputed before window creation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S095",
+      "requirement": "Package closure is recomputed at run finalization",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S096",
+      "requirement": "Initial and final package closures must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S097",
+      "requirement": "Sidecar is rehashed at run finalization",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S098",
+      "requirement": "Initial and final sidecar hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S099",
+      "requirement": "Closure binding receipt is main-process authored",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S100",
+      "requirement": "Renderer cannot write closure binding receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S101",
+      "requirement": "Launcher requires explicit physical mode",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S102",
+      "requirement": "Launcher requires a 64-hex run ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S103",
+      "requirement": "Launcher requires an absolute evidence root",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S104",
+      "requirement": "Launcher requires an absolute sidecar path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S105",
+      "requirement": "Launcher requires expected sidecar SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S106",
+      "requirement": "Launcher does not auto-select newest sidecar",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S107",
+      "requirement": "Main verifies packaged Electron mode",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S108",
+      "requirement": "Main rejects dev-server URL",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S109",
+      "requirement": "Main acquires exclusive run lock before window creation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S110",
+      "requirement": "Main rejects pre-existing run output directory",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S111",
+      "requirement": "Main reads sidecar before renderer process creation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S112",
+      "requirement": "Main verifies sidecar file is regular",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S113",
+      "requirement": "Main verifies sidecar path ownership boundaries",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S114",
+      "requirement": "Main stores an immutable in-memory sidecar snapshot",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S115",
+      "requirement": "Main writes a sidecar snapshot receipt without raw private path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S116",
+      "requirement": "Main writes Build Lock replay receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S117",
+      "requirement": "Main writes closure binding receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S118",
+      "requirement": "Main refuses renderer launch on any admission failure",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S119",
+      "requirement": "Main records process executable identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S120",
+      "requirement": "Main records exact package root basename without absolute user path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S121",
+      "requirement": "Qualification boot permit schema ID is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S122",
+      "requirement": "Qualification boot permit protocol is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S123",
+      "requirement": "Permit binds run ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S124",
+      "requirement": "Permit binds qualification generation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S125",
+      "requirement": "Permit binds package closure digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S126",
+      "requirement": "Permit binds sidecar SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S127",
+      "requirement": "Permit binds Build Lock final receipt SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S128",
+      "requirement": "Permit binds fixture schedule digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S129",
+      "requirement": "Permit binds BrowserWindow ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S130",
+      "requirement": "Permit binds webContents ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S131",
+      "requirement": "Permit binds renderer PID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S132",
+      "requirement": "Permit binds isolated partition ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S133",
+      "requirement": "Permit lists exact allowed operations",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S134",
+      "requirement": "Permit limits fixture count",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S135",
+      "requirement": "Permit limits export formats to canonical PNG for R1",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S136",
+      "requirement": "Permit binds evidence root digest without exposing path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S137",
+      "requirement": "Permit has monotonic issue time",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S138",
+      "requirement": "Permit has bounded expiry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S139",
+      "requirement": "Permit has cryptographic nonce",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S140",
+      "requirement": "Permit has main-process MAC",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S141",
+      "requirement": "Qualification window loads normal renderer index",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S142",
+      "requirement": "Qualification window does not load the legacy qualification index",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S143",
+      "requirement": "Qualification renderer executes app/src/main.ts",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S144",
+      "requirement": "Qualification renderer mounts normal Vue application",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S145",
+      "requirement": "Qualification renderer installs normal Pinia plugins",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S146",
+      "requirement": "Qualification renderer calls bootstrapRenderer",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S147",
+      "requirement": "Qualification renderer loads and validates normal manifests",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S148",
+      "requirement": "Qualification renderer calls createRuntimeComposition",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S149",
+      "requirement": "Qualification renderer uses normal runtime module descriptors",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S150",
+      "requirement": "Qualification renderer validates normal module dependency order",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S151",
+      "requirement": "Qualification renderer initializes normal service IDs",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S152",
+      "requirement": "Qualification renderer activates PreviewPresenterService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S153",
+      "requirement": "Qualification renderer activates ExportAuthorityService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S154",
+      "requirement": "Qualification renderer activates SurfaceRegistryAuthorityService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S155",
+      "requirement": "Qualification renderer activates PipelineService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S156",
+      "requirement": "Qualification renderer activates ResampleWorkerBrokerService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S157",
+      "requirement": "Qualification renderer activates InstalledAdmissionService in explicit qualification mode",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S158",
+      "requirement": "Qualification renderer emits the normal boot receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S159",
+      "requirement": "Qualification renderer emits a separate qualification extension receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S160",
+      "requirement": "Qualification boot does not claim normal production promotability",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S161",
+      "requirement": "Qualification session mode is packaged-qualification",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S162",
+      "requirement": "Qualification session marks qualificationOnly true",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S163",
+      "requirement": "Qualification session marks installedAdmissionClaimed false",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S164",
+      "requirement": "Qualification session marks normalUserWorkAllowed false",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S165",
+      "requirement": "Qualification session binds run ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S166",
+      "requirement": "Qualification session binds package content ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S167",
+      "requirement": "Qualification session binds package closure digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S168",
+      "requirement": "Qualification session binds sidecar SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S169",
+      "requirement": "Qualification session binds window identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S170",
+      "requirement": "Qualification session binds renderer PID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S171",
+      "requirement": "Qualification session allowed operations are exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S172",
+      "requirement": "Qualification session is main-MAC protected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S173",
+      "requirement": "Preview grant binds qualification session",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S174",
+      "requirement": "Export grant binds qualification session",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S175",
+      "requirement": "Fixture publication grant binds qualification session",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S176",
+      "requirement": "Grant binding includes final revision where applicable",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S177",
+      "requirement": "Grant binding includes fixture ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S178",
+      "requirement": "Grant expiry is bounded",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S179",
+      "requirement": "Grant replay is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S180",
+      "requirement": "Qualification grants cannot authorize normal user UI work",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S181",
+      "requirement": "Qualification facade authority ID is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S182",
+      "requirement": "Qualification facade API version is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S183",
+      "requirement": "Qualification facade is exposed only in qualification mode",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S184",
+      "requirement": "Fixture request accepts fixture ID only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S185",
+      "requirement": "Fixture request accepts expected schedule digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S186",
+      "requirement": "Fixture request rejects arbitrary shader input",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S187",
+      "requirement": "Fixture request rejects arbitrary device input",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S188",
+      "requirement": "Fixture request rejects arbitrary kernel ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S189",
+      "requirement": "Fixture request rejects arbitrary dimensions outside schedule",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S190",
+      "requirement": "Fixture request rejects arbitrary byte payload",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S191",
+      "requirement": "Fixture schedule is packaged and hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S192",
+      "requirement": "Fixture bytes are generated deterministically",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S193",
+      "requirement": "Fixture service uses ResampleWorkerBrokerService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S194",
+      "requirement": "Fixture service uses the canonical registered executor",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S195",
+      "requirement": "Canonical result includes surface ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S196",
+      "requirement": "Canonical result includes resample receipt identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S197",
+      "requirement": "Fixture service publishes through PipelineService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S198",
+      "requirement": "Fixture service records final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S199",
+      "requirement": "Fixture service records publication sequence",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S200",
+      "requirement": "Legacy final-surface bridge is not used",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S201",
+      "requirement": "Preview qualification caller uses window.DadumPreviewPresenter",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S202",
+      "requirement": "Preview authority equals dadum.runtime.preview-presenter-pp01",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S203",
+      "requirement": "Preview caller invokes requestPresent",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S204",
+      "requirement": "Preview caller supplies expected final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S205",
+      "requirement": "Preview caller does not access PreviewPresenterService instance",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S206",
+      "requirement": "Preview caller does not create WebGPU canvas context directly",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S207",
+      "requirement": "Preview caller does not create GPU device directly",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S208",
+      "requirement": "Preview uses canonical app-shell canvas",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S209",
+      "requirement": "Preview uses canonical viewport",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S210",
+      "requirement": "Preview scheduler consumes current final publication",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S211",
+      "requirement": "Preview operation grant is issued",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S212",
+      "requirement": "Preview grant binds surface and revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S213",
+      "requirement": "Preview receipt disposition must be PRESENTED",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S214",
+      "requirement": "Preview receipt binds surface ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S215",
+      "requirement": "Preview receipt binds final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S216",
+      "requirement": "Preview receipt binds resample receipt digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S217",
+      "requirement": "Preview receipt binds device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S218",
+      "requirement": "Preview consumption ledger row is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S219",
+      "requirement": "Preview public-entry receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S220",
+      "requirement": "Preview public-entry receipt is main-finalizer replayable",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S221",
+      "requirement": "Export qualification caller uses window.DadumRuntimeExport",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S222",
+      "requirement": "Export authority equals dadum.runtime.export",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S223",
+      "requirement": "Export API version equals 1",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S224",
+      "requirement": "Export caller invokes listEncoders before export",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S225",
+      "requirement": "Canonical PNG encoder availability is verified",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S226",
+      "requirement": "Export caller invokes exportFinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S227",
+      "requirement": "Export caller supplies expected final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S228",
+      "requirement": "Export caller does not access ExportAuthorityService instance",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S229",
+      "requirement": "Export caller does not call private encoder registry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S230",
+      "requirement": "Export caller does not call private downscale function",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S231",
+      "requirement": "Export operation grant is issued",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S232",
+      "requirement": "Export grant binds surface and revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S233",
+      "requirement": "Export uses EncoderRegistryService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S234",
+      "requirement": "Export uses EncoderWorkerBrokerService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S235",
+      "requirement": "Export pins canonical final surface",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S236",
+      "requirement": "Export receipt binds output SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S237",
+      "requirement": "Export receipt binds output byte length",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S238",
+      "requirement": "Export receipt ledger row is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S239",
+      "requirement": "Export consumption ledger row is required",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S240",
+      "requirement": "Export public-entry receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S241",
+      "requirement": "Evidence save uses normal HostBridgeService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S242",
+      "requirement": "Evidence save uses normal chunk protocol",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S243",
+      "requirement": "Evidence save requires qualification export grant",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S244",
+      "requirement": "Evidence save path is derived only from run root and fixture ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S245",
+      "requirement": "Evidence save rejects user supplied absolute path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S246",
+      "requirement": "Evidence save rejects parent traversal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S247",
+      "requirement": "Evidence save does not show save dialog",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S248",
+      "requirement": "Evidence save does not touch user Documents",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S249",
+      "requirement": "Evidence save does not touch Desktop",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S250",
+      "requirement": "Evidence save uses exclusive temporary file",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S251",
+      "requirement": "Evidence save verifies every chunk hash",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S252",
+      "requirement": "Evidence save verifies sequence and offset",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S253",
+      "requirement": "Evidence save uses atomic rename",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S254",
+      "requirement": "Evidence save fsyncs file",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S255",
+      "requirement": "Evidence save fsyncs parent directory",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S256",
+      "requirement": "Evidence save recomputes on-disk SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S257",
+      "requirement": "Evidence save output and on-disk hashes must match",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S258",
+      "requirement": "Evidence save receipt binds export job ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S259",
+      "requirement": "Evidence save receipt marks userPathTouched false",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S260",
+      "requirement": "Evidence save receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S261",
+      "requirement": "Qualification runner has zero import of deltaK_stack_autoEWA",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S262",
+      "requirement": "Qualification runner has zero import of export_wgsl_downscale",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S263",
+      "requirement": "Qualification runner has zero import of createEwaCommandGraphR9A",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S264",
+      "requirement": "Qualification runner has zero import of createDeltaKStack",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S265",
+      "requirement": "Qualification runner has zero import of runDeltaKStack",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S266",
+      "requirement": "Qualification runner has zero import of executeCanonicalEwaLowpassR9A",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S267",
+      "requirement": "Qualification runner does not instantiate GpuDeviceAuthorityService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S268",
+      "requirement": "Qualification runner does not import private shader modules",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S269",
+      "requirement": "Qualification runner does not mutate Surface Registry directly",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S270",
+      "requirement": "Qualification runner does not call legacy final-surface bridge",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S271",
+      "requirement": "Legacy product-runtime driver is removed from active entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S272",
+      "requirement": "Legacy preview-product-driver is removed from active entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S273",
+      "requirement": "Legacy export-product-driver is removed from active entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S274",
+      "requirement": "Legacy qualification index is removed from active entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S275",
+      "requirement": "Vite emitted graph contains no active direct-driver chunk",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S276",
+      "requirement": "Active Graph contains qualification runner to public facade edge",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S277",
+      "requirement": "Active Graph contains public facade to broker and pipeline edges",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S278",
+      "requirement": "Runtime fixture evidence marks legacyPromotion false",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S279",
+      "requirement": "Runtime public-entry lineage is recorded",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S280",
+      "requirement": "No-direct-driver receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S281",
+      "requirement": "Every artifact uses a common run envelope",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S282",
+      "requirement": "Every artifact binds run ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S283",
+      "requirement": "Every artifact binds package closure digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S284",
+      "requirement": "Every artifact binds sidecar SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S285",
+      "requirement": "Every artifact binds Build Lock final receipt SHA-256",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S286",
+      "requirement": "Every artifact binds qualification permit digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S287",
+      "requirement": "Every artifact binds fixture schedule digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S288",
+      "requirement": "Every artifact binds runtime epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S289",
+      "requirement": "Every artifact binds qualification generation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S290",
+      "requirement": "Artifact sequence is monotonic",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S291",
+      "requirement": "Artifact previous digest chain is continuous",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S292",
+      "requirement": "Artifact manifest contains every required artifact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S293",
+      "requirement": "Artifact manifest contains exact byte lengths",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S294",
+      "requirement": "Artifact manifest contains exact SHA-256 values",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S295",
+      "requirement": "Finalizer replays Build Lock child chain",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S296",
+      "requirement": "Finalizer recomputes package closure equality",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S297",
+      "requirement": "Finalizer verifies normal module set and order",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S298",
+      "requirement": "Finalizer verifies Preview and Export public authority IDs",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S299",
+      "requirement": "Finalizer verifies shared final-surface tuple",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S300",
+      "requirement": "Finalizer rejects renderer summary booleans",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S301",
+      "requirement": "Package-internal sidecar negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S302",
+      "requirement": "Evidence-root sidecar negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S303",
+      "requirement": "Sidecar SHA mismatch negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S304",
+      "requirement": "Sidecar child missing negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S305",
+      "requirement": "Summary-only Build Lock negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S306",
+      "requirement": "Extra package file negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S307",
+      "requirement": "Missing package file negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S308",
+      "requirement": "app.asar mutation negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S309",
+      "requirement": "Permit window mismatch negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S310",
+      "requirement": "Permit renderer PID mismatch negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S311",
+      "requirement": "Expired permit negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S312",
+      "requirement": "Module skip negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S313",
+      "requirement": "Direct preview driver import negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S314",
+      "requirement": "Direct export driver import negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S315",
+      "requirement": "Legacy final-surface publication negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S316",
+      "requirement": "Preview public entry omission negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S317",
+      "requirement": "Export public entry omission negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S318",
+      "requirement": "User save dialog negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S319",
+      "requirement": "Shared surface mismatch negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S320",
+      "requirement": "Pointer mutation negative control fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S321",
+      "requirement": "Electron main imports the R1 coordinator",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S322",
+      "requirement": "Electron main creates qualification window only after admission",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S323",
+      "requirement": "Electron main loads normal renderer index",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S324",
+      "requirement": "Preload exposes narrow R1 qualification capability",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S325",
+      "requirement": "Preload API surface does not expose sidecar path",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S326",
+      "requirement": "Preload does not expose Build Lock child bodies",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S327",
+      "requirement": "Runtime env typings define qualification capability",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S328",
+      "requirement": "Runtime modules register qualification service",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S329",
+      "requirement": "Qualification service is inert in normal mode",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S330",
+      "requirement": "Qualification service owns no normal user authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S331",
+      "requirement": "bootstrapRenderer returns or publishes sealed boot outcome",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S332",
+      "requirement": "main.ts starts qualification runner only after READY outcome",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S333",
+      "requirement": "PreviewPresenter public API remains backward compatible",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S334",
+      "requirement": "ExportAuthority public API remains backward compatible",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S335",
+      "requirement": "Host save receipt type admits evidence-sink mode",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S336",
+      "requirement": "Generated runtime manifest contains qualification module identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S337",
+      "requirement": "Active Graph contains qualification module node",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S338",
+      "requirement": "Active Graph contains no direct driver root",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S339",
+      "requirement": "R8A active-required parser still passes",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S340",
+      "requirement": "Parent P1 source verifier remains reproducible in isolated tree",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S341",
+      "requirement": "All source schemas exist",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S342",
+      "requirement": "All source modules parse",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S343",
+      "requirement": "All changed TypeScript transpiles",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S344",
+      "requirement": "All source self-tests pass",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S345",
+      "requirement": "All static wiring gates pass",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S346",
+      "requirement": "All source no-direct-driver gates pass",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S347",
+      "requirement": "All negative controls pass",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S348",
+      "requirement": "Implementation manifest covers every R1 source file",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S349",
+      "requirement": "Implementation manifest digest is recorded",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S350",
+      "requirement": "Parent P1 receipt remains byte-identical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S351",
+      "requirement": "Build Lock R2 source receipt remains byte-identical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S352",
+      "requirement": "package-lock.json remains byte-identical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S353",
+      "requirement": "Production Pointer remains byte-identical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S354",
+      "requirement": "Local Activation Pointer remains byte-identical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S355",
+      "requirement": "Package execution is not performed during source bake",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S356",
+      "requirement": "Build Lock Win32 admission is not claimed during source bake",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S357",
+      "requirement": "Packaged qualification is not claimed during source bake",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S358",
+      "requirement": "Source final receipt counts are exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S359",
+      "requirement": "Source final receipt self-hash is valid",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R1-S360",
+      "requirement": "Source final state awaits Build Lock R2 Win32 and packaged qualification",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "7ebc244f6b8b4c32958412382f63e07065d1160b8bd25fdd48f3d6fbc6f00b95"
+}

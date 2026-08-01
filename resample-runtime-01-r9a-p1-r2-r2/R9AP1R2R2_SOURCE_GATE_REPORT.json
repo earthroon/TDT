@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r2.source-gate-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2",
+  "status": "PASS",
+  "passCount": 120,
+  "failCount": 0,
+  "rows": [
+    {
+      "id": "FILE_01",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-codec.mjs"
+    },
+    {
+      "id": "FILE_02",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs"
+    },
+    {
+      "id": "FILE_03",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs"
+    },
+    {
+      "id": "FILE_04",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/evidence-finalizer.mjs"
+    },
+    {
+      "id": "FILE_05",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs"
+    },
+    {
+      "id": "FILE_06",
+      "status": "PASS",
+      "rel": "preload.cjs"
+    },
+    {
+      "id": "FILE_07",
+      "status": "PASS",
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts"
+    },
+    {
+      "id": "FILE_08",
+      "status": "PASS",
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts"
+    },
+    {
+      "id": "FILE_09",
+      "status": "PASS",
+      "rel": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts"
+    },
+    {
+      "id": "FILE_10",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts"
+    },
+    {
+      "id": "FILE_11",
+      "status": "PASS",
+      "rel": "app/src/boot/stable-error.ts"
+    },
+    {
+      "id": "FILE_12",
+      "status": "PASS",
+      "rel": "app/src/env.d.ts"
+    },
+    {
+      "id": "FILE_13",
+      "status": "PASS",
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2_JIT_CONTROLLED_LOSS_PERMIT_FULL_FIELD_SENDER_OWNERSHIP_SINGLE_USE_TOMBSTONE_SEAL_SPEC.md"
+    },
+    {
+      "id": "FILE_14",
+      "status": "PASS",
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2_JIT_CONTROLLED_LOSS_PERMIT_FULL_FIELD_SENDER_OWNERSHIP_SINGLE_USE_TOMBSTONE_SEAL_SPEC.md.sha256"
+    },
+    {
+      "id": "AUTH_JIT_FACTORY",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "createRecoveryPermitAuthorityR9AP1R2R2"
+    },
+    {
+      "id": "AUTH_PLAN_V2",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "recovery-plan.v2"
+    },
+    {
+      "id": "AUTH_PERMIT_V2",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "controlled-loss-permit.v2"
+    },
+    {
+      "id": "AUTH_EXACT_BODY",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "exactCanonicalEqual(permit, record.permit)"
+    },
+    {
+      "id": "AUTH_TOMBSTONE",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "CONSUMED_SINGLE_USE"
+    },
+    {
+      "id": "AUTH_SYNC_SECTION",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "Synchronous authority critical section"
+    },
+    {
+      "id": "AUTH_CLOSE_ACK",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "token": "acknowledgeCycleClosure"
+    },
+    {
+      "id": "OWNER_DOC_NONCE",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs",
+      "token": "documentInstanceNonceDigest"
+    },
+    {
+      "id": "OWNER_WINDOW",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs",
+      "token": "senderWindowId"
+    },
+    {
+      "id": "OWNER_WEB_CONTENTS",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs",
+      "token": "senderWebContentsId"
+    },
+    {
+      "id": "OWNER_PID",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs",
+      "token": "senderRendererPid"
+    },
+    {
+      "id": "OWNER_PARTITION",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs",
+      "token": "senderPartitionId"
+    },
+    {
+      "id": "CODEC_ACCESSOR_DENIAL",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-codec.mjs",
+      "token": "Accessor properties are forbidden"
+    },
+    {
+      "id": "CODEC_SYMBOL_DENIAL",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-codec.mjs",
+      "token": "Symbol keys are forbidden"
+    },
+    {
+      "id": "CODEC_UNDEFINED_DENIAL",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-codec.mjs",
+      "token": "Undefined values are forbidden"
+    },
+    {
+      "id": "IPC_LEGACY_PLAN_DENIAL",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "token": "Legacy R2 plan channel is disabled"
+    },
+    {
+      "id": "IPC_LEGACY_CONSUME_DENIAL",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "token": "Legacy R2 consume channel is disabled"
+    },
+    {
+      "id": "IPC_JIT_ISSUE",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "token": "dadum:r9a-p1-r2-r2-issue-permit"
+    },
+    {
+      "id": "IPC_CLOSE",
+      "status": "PASS",
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "token": "dadum:r9a-p1-r2-r2-close-cycle"
+    },
+    {
+      "id": "PRELOAD_DOC_NONCE",
+      "status": "PASS",
+      "rel": "preload.cjs",
+      "token": "documentInstanceNonce"
+    },
+    {
+      "id": "PRELOAD_WRAP",
+      "status": "PASS",
+      "rel": "preload.cjs",
+      "token": "recoveryEnvelope"
+    },
+    {
+      "id": "RUNNER_JIT_ISSUE",
+      "status": "PASS",
+      "rel": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "token": "issueCyclePermit"
+    },
+    {
+      "id": "RUNNER_NO_SPREAD_OVERRIDE",
+      "status": "PASS",
+      "rel": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "token": "deviceEpoch: before.deviceEpoch"
+    },
+    {
+      "id": "RUNNER_CLOSE_BEFORE_NEXT",
+      "status": "PASS",
+      "rel": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "token": "acknowledgeCycleClosure"
+    },
+    {
+      "id": "HOLDER_API_V3",
+      "status": "PASS",
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "token": "apiVersion: 3"
+    },
+    {
+      "id": "HOLDER_PLAN_DIGEST",
+      "status": "PASS",
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "token": "planDigest"
+    },
+    {
+      "id": "HOLDER_TOMBSTONE_REPLAY",
+      "status": "PASS",
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "token": "permitTombstoneDigest"
+    },
+    {
+      "id": "GPU_EVENT_OWNER",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "token": "ownerBindingDigest: binding?.ownerBindingDigest"
+    },
+    {
+      "id": "GPU_EVENT_PERMIT",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "token": "parentPermitDigest: binding?.parentPermitDigest"
+    },
+    {
+      "id": "GPU_EVENT_TOMBSTONE",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "token": "permitTombstoneDigest: binding?.permitTombstoneDigest"
+    },
+    {
+      "id": "GPU_EVENT_ISSUE",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "token": "permitIssueReceiptDigest: binding?.permitIssueReceiptDigest"
+    },
+    {
+      "id": "GPU_EXACT_MATCH_OWNER",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "token": "detail.ownerBindingDigest === binding.ownerBindingDigest"
+    },
+    {
+      "id": "GPU_EXACT_MATCH_TOMBSTONE",
+      "status": "PASS",
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "token": "detail.permitTombstoneDigest === binding.permitTombstoneDigest"
+    },
+    {
+      "id": "ERROR_CODES",
+      "status": "PASS",
+      "rel": "app/src/boot/stable-error.ts",
+      "token": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "ENV_JIT_API",
+      "status": "PASS",
+      "rel": "app/src/env.d.ts",
+      "token": "issueCyclePermit"
+    },
+    {
+      "id": "ENV_CLOSE_API",
+      "status": "PASS",
+      "rel": "app/src/env.d.ts",
+      "token": "acknowledgeCycleClosure"
+    },
+    {
+      "id": "RUNTIME_PLAN_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_PLAN_SEQUENCE",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_PLAN_NO_PERMITS",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_WRONG_DOCUMENT",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_DOCUMENT_MISMATCH"
+      ],
+      "observedCode": "E_R9AP1R2R2_DOCUMENT_MISMATCH"
+    },
+    {
+      "id": "RUNTIME_WRONG_WINDOW",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_OWNER_MISMATCH"
+      ],
+      "observedCode": "E_R9AP1R2R2_OWNER_MISMATCH"
+    },
+    {
+      "id": "RUNTIME_WRONG_WEB_CONTENTS",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_OWNER_MISMATCH"
+      ],
+      "observedCode": "E_R9AP1R2R2_OWNER_MISMATCH"
+    },
+    {
+      "id": "RUNTIME_WRONG_PID",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_OWNER_MISMATCH"
+      ],
+      "observedCode": "E_R9AP1R2R2_OWNER_MISMATCH"
+    },
+    {
+      "id": "RUNTIME_WRONG_PARTITION",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_OWNER_MISMATCH"
+      ],
+      "observedCode": "E_R9AP1R2R2_OWNER_MISMATCH"
+    },
+    {
+      "id": "RUNTIME_JIT_PERMIT_1",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_ISSUE_NONCE_REPLAY",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_ISSUE_REQUEST_REPLAY",
+        "E_R9AP1R2R2_PERMIT_ALREADY_ISSUED"
+      ],
+      "observedCode": "E_R9AP1R2R2_ISSUE_REQUEST_REPLAY"
+    },
+    {
+      "id": "RUNTIME_NEXT_BEFORE_CLOSE",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_ISSUE_SEQUENCE",
+        "E_R9AP1R2R2_NEXT_CYCLE_BEFORE_CLOSE"
+      ],
+      "observedCode": "E_R9AP1R2R2_ISSUE_SEQUENCE"
+    },
+    {
+      "id": "MUTATE_SCHEMAVERSION",
+      "status": "PASS",
+      "key": "schemaVersion",
+      "code": "E_R9AP1R2R2_LEGACY_PERMIT_DENIED"
+    },
+    {
+      "id": "MUTATE_SCHEMAID",
+      "status": "PASS",
+      "key": "schemaId",
+      "code": "E_R9AP1R2R2_LEGACY_PERMIT_DENIED"
+    },
+    {
+      "id": "MUTATE_RUNID",
+      "status": "PASS",
+      "key": "runId",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_PLANDIGEST",
+      "status": "PASS",
+      "key": "planDigest",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_OWNERBINDINGDIGEST",
+      "status": "PASS",
+      "key": "ownerBindingDigest",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_CYCLEORDINAL",
+      "status": "PASS",
+      "key": "cycleOrdinal",
+      "code": "E_R9AP1R2R2_CONSUME_STATE"
+    },
+    {
+      "id": "MUTATE_ISSUESEQUENCE",
+      "status": "PASS",
+      "key": "issueSequence",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_OPERATIONKIND",
+      "status": "PASS",
+      "key": "operationKind",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_OPERATIONID",
+      "status": "PASS",
+      "key": "operationId",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_HOOKID",
+      "status": "PASS",
+      "key": "hookId",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_EXPECTEDRUNTIMEEPOCH",
+      "status": "PASS",
+      "key": "expectedRuntimeEpoch",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_EXPECTEDDEVICEEPOCH",
+      "status": "PASS",
+      "key": "expectedDeviceEpoch",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_EXPECTEDDEVICEIDENTITY",
+      "status": "PASS",
+      "key": "expectedDeviceIdentity",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_EXPECTEDADAPTERIDENTITY",
+      "status": "PASS",
+      "key": "expectedAdapterIdentity",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_IDENTITYSNAPSHOTDIGEST",
+      "status": "PASS",
+      "key": "identitySnapshotDigest",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_PACKAGECLOSUREDIGEST",
+      "status": "PASS",
+      "key": "packageClosureDigest",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_R1BOOTPERMITDIGEST",
+      "status": "PASS",
+      "key": "r1BootPermitDigest",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_QUALIFICATIONSESSIONDIGEST",
+      "status": "PASS",
+      "key": "qualificationSessionDigest",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_NONCE",
+      "status": "PASS",
+      "key": "nonce",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_ISSUEDATMS",
+      "status": "PASS",
+      "key": "issuedAtMs",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_NOTBEFOREMS",
+      "status": "PASS",
+      "key": "notBeforeMs",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_EXPIRESATMS",
+      "status": "PASS",
+      "key": "expiresAtMs",
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "MUTATE_PERMITDIGEST",
+      "status": "PASS",
+      "key": "permitDigest",
+      "code": "E_R9AP1R2R2_PERMIT_DIGEST"
+    },
+    {
+      "id": "MUTATE_SELFSHA256",
+      "status": "PASS",
+      "key": "selfSha256",
+      "code": "E_R9AP1R2R2_PERMIT_DIGEST"
+    },
+    {
+      "id": "RUNTIME_UNKNOWN_PERMIT_FIELD",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_PERMIT_KEYS",
+        "E_R9AP1R2R2_PERMIT_DIGEST"
+      ],
+      "observedCode": "E_R9AP1R2R2_PERMIT_DIGEST"
+    },
+    {
+      "id": "RUNTIME_ISSUE_RECEIPT_MUTATION",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_PERMIT_BODY_MISMATCH",
+        "E_R9AP1R2R2_PERMIT_SELF_HASH"
+      ],
+      "observedCode": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "id": "RUNTIME_CONSUME_1",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_DOUBLE_CONSUME_1",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_PERMIT_ALREADY_CONSUMED"
+      ],
+      "observedCode": "E_R9AP1R2R2_PERMIT_ALREADY_CONSUMED"
+    },
+    {
+      "id": "RUNTIME_CLOSE_1",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_ATOMIC_ONE_SUCCESS",
+      "status": "PASS",
+      "concurrent": [
+        {
+          "status": "fulfilled",
+          "value": {
+            "consumed": true,
+            "cycleOrdinal": 2,
+            "remaining": 1,
+            "binding": {
+              "cycleOrdinal": 2,
+              "expectedAdapterIdentity": "adapter-1",
+              "expectedNewDeviceEpoch": 13,
+              "expectedOldDeviceEpoch": 12,
+              "expectedOldDeviceIdentity": "device-12",
+              "expectedRuntimeEpoch": 1,
+              "expiresAtMs": 1800000060001,
+              "hookId": "R9AP1R2R1_EXPORT_TERMINAL_MAP_PENDING",
+              "issuedAtMs": 1800000000001,
+              "operationDetailDigest": "d9de1eaa32ed8ab9754a28ede436109dd9429b5377d7f9af001a30a34fdc4ec2",
+              "operationId": "r9a-p1-r2-r2:111111111111:2:export:40dcfd58de0dbe7e",
+              "operationKind": "export",
+              "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+              "packageClosureDigest": "2222222222222222222222222222222222222222222222222222222222222222",
+              "parentPermitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+              "parentPermitSelfSha256": "09de4336eaec29f859c9f431dbbe9bb61d3dbe4ba857ea8fd2b6112cd87a2b6b",
+              "permitIssueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+              "permitTombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788",
+              "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+              "r1BootPermitDigest": "3333333333333333333333333333333333333333333333333333333333333333",
+              "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+              "schemaId": "tdt.r9a-p1-r2-r2.cycle-binding-receipt.v2",
+              "schemaVersion": 2,
+              "senderRendererPid": 2701,
+              "senderWindowId": 7,
+              "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+              "selfSha256": "73f744b68e9ac672efe81f4bb0524f8ed1dff23f2cdf54f4d7976e9ec3313ef4"
+            },
+            "tombstone": {
+              "schemaVersion": 1,
+              "schemaId": "tdt.r9a-p1-r2-r2.permit-tombstone.v1",
+              "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+              "cycleOrdinal": 2,
+              "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+              "permitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+              "permitSelfSha256": "09de4336eaec29f859c9f431dbbe9bb61d3dbe4ba857ea8fd2b6112cd87a2b6b",
+              "nonceDigest": "52ede3fe6ec5aec3db73a6c68da762a49ed7ac777e8f31b6a6a3f5bd49d1c8f6",
+              "issueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+              "consumeRequestDigest": "178dd0235813497cd6a70d903ba8bacf30a5752060b9d8667d274106e8ef550c",
+              "consumedAtMs": 1800000000001,
+              "terminalState": "CONSUMED_SINGLE_USE",
+              "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+              "tombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788",
+              "selfSha256": "bfc1295030b9567eb0ce70e55908e1ff43cdf9bdd6d40eb16e071cdcffbaa1b7"
+            }
+          }
+        },
+        {
+          "status": "rejected",
+          "reason": {
+            "code": "E_R9AP1R2R2_NONCE_REPLAY",
+            "detail": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUNTIME_ATOMIC_ONE_REJECT",
+      "status": "PASS",
+      "concurrent": [
+        {
+          "status": "fulfilled",
+          "value": {
+            "consumed": true,
+            "cycleOrdinal": 2,
+            "remaining": 1,
+            "binding": {
+              "cycleOrdinal": 2,
+              "expectedAdapterIdentity": "adapter-1",
+              "expectedNewDeviceEpoch": 13,
+              "expectedOldDeviceEpoch": 12,
+              "expectedOldDeviceIdentity": "device-12",
+              "expectedRuntimeEpoch": 1,
+              "expiresAtMs": 1800000060001,
+              "hookId": "R9AP1R2R1_EXPORT_TERMINAL_MAP_PENDING",
+              "issuedAtMs": 1800000000001,
+              "operationDetailDigest": "d9de1eaa32ed8ab9754a28ede436109dd9429b5377d7f9af001a30a34fdc4ec2",
+              "operationId": "r9a-p1-r2-r2:111111111111:2:export:40dcfd58de0dbe7e",
+              "operationKind": "export",
+              "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+              "packageClosureDigest": "2222222222222222222222222222222222222222222222222222222222222222",
+              "parentPermitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+              "parentPermitSelfSha256": "09de4336eaec29f859c9f431dbbe9bb61d3dbe4ba857ea8fd2b6112cd87a2b6b",
+              "permitIssueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+              "permitTombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788",
+              "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+              "r1BootPermitDigest": "3333333333333333333333333333333333333333333333333333333333333333",
+              "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+              "schemaId": "tdt.r9a-p1-r2-r2.cycle-binding-receipt.v2",
+              "schemaVersion": 2,
+              "senderRendererPid": 2701,
+              "senderWindowId": 7,
+              "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+              "selfSha256": "73f744b68e9ac672efe81f4bb0524f8ed1dff23f2cdf54f4d7976e9ec3313ef4"
+            },
+            "tombstone": {
+              "schemaVersion": 1,
+              "schemaId": "tdt.r9a-p1-r2-r2.permit-tombstone.v1",
+              "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+              "cycleOrdinal": 2,
+              "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+              "permitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+              "permitSelfSha256": "09de4336eaec29f859c9f431dbbe9bb61d3dbe4ba857ea8fd2b6112cd87a2b6b",
+              "nonceDigest": "52ede3fe6ec5aec3db73a6c68da762a49ed7ac777e8f31b6a6a3f5bd49d1c8f6",
+              "issueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+              "consumeRequestDigest": "178dd0235813497cd6a70d903ba8bacf30a5752060b9d8667d274106e8ef550c",
+              "consumedAtMs": 1800000000001,
+              "terminalState": "CONSUMED_SINGLE_USE",
+              "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+              "tombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788",
+              "selfSha256": "bfc1295030b9567eb0ce70e55908e1ff43cdf9bdd6d40eb16e071cdcffbaa1b7"
+            }
+          }
+        },
+        {
+          "status": "rejected",
+          "reason": {
+            "code": "E_R9AP1R2R2_NONCE_REPLAY",
+            "detail": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUNTIME_ATOMIC_REJECT_CODE",
+      "status": "PASS",
+      "code": "E_R9AP1R2R2_NONCE_REPLAY"
+    },
+    {
+      "id": "RUNTIME_COMPLETE",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_ISSUE_COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_CONSUME_COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_TOMBSTONE_COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_CLOSURE_COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_UNIQUE_PERMITS",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_UNIQUE_TOMBSTONES",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_CONTINUITY_LEDGER",
+      "status": "PASS"
+    },
+    {
+      "id": "RUNTIME_ISSUE_AFTER_COMPLETE",
+      "status": "PASS",
+      "expectedCodes": [
+        "E_R9AP1R2R2_AUTHORITY_COMPLETED"
+      ],
+      "observedCode": "E_R9AP1R2R2_AUTHORITY_COMPLETED"
+    },
+    {
+      "id": "POLICY_TTL_60S",
+      "status": "PASS"
+    },
+    {
+      "id": "POLICY_PLAN_TTL_15M",
+      "status": "PASS"
+    },
+    {
+      "id": "POLICY_REQUEST_SKEW_5S",
+      "status": "PASS"
+    },
+    {
+      "id": "KEYSET_PLAN_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 12
+    },
+    {
+      "id": "KEYSET_PLAN_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 12
+    },
+    {
+      "id": "KEYSET_INTENT_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 4
+    },
+    {
+      "id": "KEYSET_INTENT_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 4
+    },
+    {
+      "id": "KEYSET_ISSUE_REQUEST_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 17
+    },
+    {
+      "id": "KEYSET_ISSUE_REQUEST_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 17
+    },
+    {
+      "id": "KEYSET_PERMIT_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 24
+    },
+    {
+      "id": "KEYSET_PERMIT_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 24
+    },
+    {
+      "id": "KEYSET_ISSUE_RECEIPT_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 13
+    },
+    {
+      "id": "KEYSET_ISSUE_RECEIPT_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 13
+    },
+    {
+      "id": "KEYSET_CONSUME_REQUEST_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 8
+    },
+    {
+      "id": "KEYSET_CONSUME_REQUEST_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 8
+    },
+    {
+      "id": "KEYSET_CLOSURE_KEYS_NONEMPTY",
+      "status": "PASS",
+      "count": 17
+    },
+    {
+      "id": "KEYSET_CLOSURE_KEYS_UNIQUE",
+      "status": "PASS",
+      "count": 17
+    },
+    {
+      "id": "KEYSET_SELF_HASH_POLICY",
+      "status": "PASS"
+    }
+  ]
+}

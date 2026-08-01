@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 39,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "stage-workgroup",
+      "pass": true,
+      "detail": "256x1"
+    },
+    {
+      "id": "stage-single-writer-bound",
+      "pass": true,
+      "detail": "N/2 butterfly count"
+    },
+    {
+      "id": "stage-two-output-writes",
+      "pass": true,
+      "detail": "exactly two output writes"
+    },
+    {
+      "id": "stage-readonly-source",
+      "pass": true,
+      "detail": "source read only"
+    },
+    {
+      "id": "stage-readwrite-destination",
+      "pass": true,
+      "detail": "destination write"
+    },
+    {
+      "id": "stage-no-barrier",
+      "pass": true,
+      "detail": "out-of-place stage has no unnecessary barrier"
+    },
+    {
+      "id": "stage-no-atomic",
+      "pass": true,
+      "detail": "product stage has no atomic"
+    },
+    {
+      "id": "stage-twiddle",
+      "pass": true,
+      "detail": "complex twiddle"
+    },
+    {
+      "id": "stage-natural-stockham",
+      "pass": true,
+      "detail": "Stockham addressing"
+    },
+    {
+      "id": "stage-abi",
+      "pass": true,
+      "detail": "ABI gate"
+    },
+    {
+      "id": "transpose-workgroup",
+      "pass": true,
+      "detail": "16x16"
+    },
+    {
+      "id": "transpose-padding",
+      "pass": true,
+      "detail": "16x17 tile"
+    },
+    {
+      "id": "transpose-one-barrier",
+      "pass": true,
+      "detail": "one barrier"
+    },
+    {
+      "id": "transpose-no-return-before-barrier",
+      "pass": true,
+      "detail": "uniform barrier"
+    },
+    {
+      "id": "transpose-zero-invalid",
+      "pass": true,
+      "detail": "invalid lanes zero fill"
+    },
+    {
+      "id": "transpose-layered",
+      "pass": true,
+      "detail": "batch layers"
+    },
+    {
+      "id": "transpose-distinct-indices",
+      "pass": true,
+      "detail": "bank-safe swap"
+    },
+    {
+      "id": "writer-atomic",
+      "pass": true,
+      "detail": "two ownership counts"
+    },
+    {
+      "id": "writer-same-addressing",
+      "pass": true,
+      "detail": "matches product addressing"
+    },
+    {
+      "id": "dft-independent",
+      "pass": true,
+      "detail": "independent O(N^2) reference"
+    },
+    {
+      "id": "dft-batch",
+      "pass": true,
+      "detail": "batch support"
+    },
+    {
+      "id": "compare-nan",
+      "pass": true,
+      "detail": "NaN check"
+    },
+    {
+      "id": "compare-inf",
+      "pass": true,
+      "detail": "Infinity check"
+    },
+    {
+      "id": "compare-first-mismatch",
+      "pass": true,
+      "detail": "first mismatch"
+    },
+    {
+      "id": "compare-atomic",
+      "pass": true,
+      "detail": "summary atomics"
+    },
+    {
+      "id": "fixture-kinds",
+      "pass": true,
+      "detail": "fixture kind"
+    },
+    {
+      "id": "fixture-complex",
+      "pass": true,
+      "detail": "complex output"
+    },
+    {
+      "id": "stage-brace-balance",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "id": "stage-no-placeholder",
+      "pass": true,
+      "detail": "no placeholder"
+    },
+    {
+      "id": "transpose-brace-balance",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "id": "transpose-no-placeholder",
+      "pass": true,
+      "detail": "no placeholder"
+    },
+    {
+      "id": "writer-brace-balance",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "id": "writer-no-placeholder",
+      "pass": true,
+      "detail": "no placeholder"
+    },
+    {
+      "id": "dft-brace-balance",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "id": "dft-no-placeholder",
+      "pass": true,
+      "detail": "no placeholder"
+    },
+    {
+      "id": "compare-brace-balance",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "id": "compare-no-placeholder",
+      "pass": true,
+      "detail": "no placeholder"
+    },
+    {
+      "id": "fixture-brace-balance",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "id": "fixture-no-placeholder",
+      "pass": true,
+      "detail": "no placeholder"
+    }
+  ],
+  "physicalCompilationClaim": false
+}

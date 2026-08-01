@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R1",
+  "revisionId": "TDT-RUNTIME-SSOT-01-R1-R2",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "e535532987da689d769e168d",
+  "promotable": false,
+  "authority": {
+    "viteEntry": "/src/main.ts",
+    "vueShell": true,
+    "piniaSerializableStateOnly": true,
+    "runtimeServiceIsolation": true,
+    "legacyAdapterRequired": true,
+    "finalSurfaceExportRequired": true
+  },
+  "counts": {
+    "rootExecutableEntries": 1,
+    "legacyRootScripts": 50,
+    "legacyGlobalRegistry": 1988,
+    "runtimeModules": 13,
+    "runtimeServices": 12,
+    "receiptParityRuns": 100,
+    "stableErrorCodesReferenced": 29,
+    "stableErrorCodesDeclared": 29
+  },
+  "digests": {
+    "specSha256": "f684bcb090fe5c7e7489a07de3c48d0015ea88edf87facea2b34f601b688f5c9",
+    "appliedReadmeSha256": "aeefb31e439613151a27aed7b1b095190c94e53a28d9b0dd9d4b8115d8245783",
+    "revisionReadmeSha256": "320cb58ac71d6799c83a7d6eb0f0dcc8274752ed4e288f7ae0620bcdafa8b399",
+    "packageJsonSha256": "f6451413093b0d8bc5868b2141f7ba87d850dc69a65a3b792091116588ea5526",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "appIndexSha256": "2d56875bc0b0f6c828ca2498c1b740adc4bf0d9d4d6e09f11e7cbc07e3e77985",
+    "sourceGraphSha256": "c9de87adb09b6ddbff7efaaad86e018fe1862644f700e45e98d4d85c1b5e45aa",
+    "legacyManifestSha256": "5248bd3cf7a40a85d58f910c78d4f7566776bdcfa7185c28416f68869a9183a3",
+    "runtimePlanSha256": "66ca69474f05b7e58183befa6bf7e2936d7a00f264f0516524420c269f78f32a",
+    "servicePlanSha256": "4b63dde751b530af9ff4b1b0525ead2676fe78dd9a1d672b98e76cb62903518f",
+    "runtimeManifestSelfSha256": "30c8945f4db7df3bfa73b65aa683a40ca549f89e664f1e116a914735c85c4437",
+    "staticGateReportSha256": "1b4ad57037bf4803493eb15322dc3f4b7db0cceafe819f25da66078fb6eb424e",
+    "viteBuildAttemptLogSha256": "fdbd5cbc3d7ad7e386ff461d11a24152eeee16755598598a108de18af6d7f97a"
+  },
+  "gates": [
+    {
+      "id": "GATE-R1-01",
+      "result": "PASS",
+      "name": "Vite entry closure"
+    },
+    {
+      "id": "GATE-R1-02",
+      "result": "PASS",
+      "name": "Production source serving closure"
+    },
+    {
+      "id": "GATE-R1-06",
+      "result": "PASS",
+      "name": "Capability ownership"
+    },
+    {
+      "id": "GATE-R1-07",
+      "result": "PASS",
+      "name": "Service ownership"
+    },
+    {
+      "id": "GATE-R1-08",
+      "result": "PASS",
+      "name": "Pinia static serializability"
+    },
+    {
+      "id": "GATE-R1-11",
+      "result": "PASS",
+      "name": "Legacy admission and syntax"
+    },
+    {
+      "id": "GATE-R1-15",
+      "result": "PASS",
+      "name": "Runtime resource isolation"
+    },
+    {
+      "id": "GATE-R1-R2-DIAG",
+      "result": "PASS",
+      "name": "Diagnostic error single-emission"
+    },
+    {
+      "id": "GATE-R1-17",
+      "result": "PASS",
+      "name": "Final export authority"
+    },
+    {
+      "id": "GATE-R1-20",
+      "result": "PASS",
+      "name": "Deterministic receipt parity",
+      "runs": 100,
+      "digest": "03874c9cd21023ad73df9e2d82fb8464c169d0c064f50ceff27358bf1ec33aa7"
+    },
+    {
+      "id": "GATE-R1-TS-PARSE",
+      "result": "PASS",
+      "name": "TypeScript parser syntax",
+      "units": 48
+    },
+    {
+      "id": "GATE-R1-ERROR-CODE",
+      "result": "PASS",
+      "name": "Stable error registry",
+      "referenced": 29,
+      "declared": 29
+    },
+    {
+      "id": "GATE-R1-LOCK",
+      "result": "BLOCKED",
+      "name": "Package lock consistency",
+      "details": {
+        "consistent": false,
+        "missing": [
+          {
+            "name": "pinia",
+            "expected": "3.0.1",
+            "actual": null
+          },
+          {
+            "name": "vue",
+            "expected": "3.5.40",
+            "actual": null
+          },
+          {
+            "name": "@napi-rs/cli",
+            "expected": "^2.18.4",
+            "actual": null
+          },
+          {
+            "name": "@vitejs/plugin-vue",
+            "expected": "6.0.7",
+            "actual": null
+          },
+          {
+            "name": "typescript",
+            "expected": "5.9.3",
+            "actual": null
+          },
+          {
+            "name": "vite",
+            "expected": "8.1.5",
+            "actual": null
+          },
+          {
+            "name": "vue-tsc",
+            "expected": "3.2.2",
+            "actual": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "GATE-R1-VITE-BUILD",
+      "result": "BLOCKED",
+      "name": "Vite production bundle",
+      "exitCode": 127
+    },
+    {
+      "id": "GATE-R1-VUE-TSC",
+      "result": "NOT_RUN",
+      "name": "Vue semantic typecheck"
+    },
+    {
+      "id": "GATE-R1-ELECTRON-SMOKE",
+      "result": "NOT_RUN",
+      "name": "Electron renderer smoke"
+    }
+  ],
+  "blockers": [
+    {
+      "code": "BLOCK-R1-LOCK-001",
+      "reason": "package-lock.json does not include the new Vue, Pinia, Vite dependency graph"
+    },
+    {
+      "code": "BLOCK-R1-BUILD-001",
+      "reason": "local vite binary is unavailable because dependencies could not be installed in the current environment",
+      "exitCode": 127
+    }
+  ],
+  "hotfixes": [
+    {
+      "id": "R1-R2-LEGACY-GLOBAL-001",
+      "moduleId": "dadum.legacy.main.js",
+      "declaredGlobal": "ΔKCore",
+      "ownership": "static-import-graph"
+    },
+    {
+      "id": "R1-R2-DIAG-001",
+      "behavior": "single-emission-by-code-message-detail"
+    }
+  ],
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R2_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "751071d037adaeb646aca52200f3457e54bd11199d123d38f4bbef6c412233c2"
+}

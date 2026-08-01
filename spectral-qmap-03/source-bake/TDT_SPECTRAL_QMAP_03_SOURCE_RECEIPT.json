@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-SPECTRAL-QMAP-03",
+  "state": "SPECTRAL_QMAP_03_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-SPECTRAL-QMAP-02",
+  "parentZipSha256": "ad2802ce38c6fc4c7b5b7797fbd5c7bd583d877209cc880b3a22c62f1e2c12f7",
+  "parentSourceSealSha256": "f53838c2f57f94d6e12437fa42809cfa151acab362f80fb5355b460cf124f633",
+  "sourceSealSha256": "af0227a5858ba14f13e1a56d68909299cd029b8636970817f3d32627b2f268fd",
+  "changedFileCount": 63,
+  "sealedFileCount": 65,
+  "files": [
+    {
+      "relative": "README_TDT_SPECTRAL_QMAP_03_APPLIED.md",
+      "byteLength": 3828,
+      "sha256": "16d9a5d85ff0a0cd5c224f417c8ebbb9580239fd369c671e7997835aea350049"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-field-set-compare.wgsl",
+      "byteLength": 5280,
+      "sha256": "7973daf773db0654bae70e0f9de6a81d59ea8694994954ba7d8da149f72ce4ec"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-finalize-fields.wgsl",
+      "byteLength": 3818,
+      "sha256": "15dc4975e18543e2c1bb26af0702b43a82dc3d940e41349ab7b2d674ddd9cedd"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-merge.wgsl",
+      "byteLength": 2353,
+      "sha256": "f25390af4306c07eb2035e2ebacd2e14c6147a0dbdb74eeb9b6b25e84fdba675"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-reduce.wgsl",
+      "byteLength": 3736,
+      "sha256": "1994e856e22be0957fafc83ce0dc2330290b7733582b35544167f7dec5a4fcca"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-power-normalize.wgsl",
+      "byteLength": 616,
+      "sha256": "cd3a9b398711a7151042efa52b71502f28d6c794daae5da61ca8382e81ca1243"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-reduction-reference.wgsl",
+      "byteLength": 5971,
+      "sha256": "82d79acfad2476eba7a033069d2ab428ba22883e68fb124330e6a8e7cd05db10"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/spectral/spectral_field_reduction.mjs",
+      "byteLength": 818,
+      "sha256": "13a8a9f20a72362368b17c77f71be1dc1698e4e027d596151b8d0770a2bf49d5"
+    },
+    {
+      "relative": "app/legacy-runtime/js/modules/qmapFFTBuilder.js",
+      "byteLength": 1922,
+      "sha256": "3e6d49a05f60dc10979c66f2d0d5b28fe4e578a86d384098dd2e269ce963f35b"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 24822,
+      "sha256": "9e3294121c955a8310d1355bb2c0b57b9110c11ac466b41b07082c1f249d3e76"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 26369,
+      "sha256": "d97ab45bb7fecf08858a84d347db5e3443bb2e150190e26b56330f05d72ffa9b"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 71904,
+      "sha256": "2d9672d9afb8b3af8dff258c48381c01bbd40b3540e9be79e8b6414841c192fc"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106336,
+      "sha256": "e5d63f133aa29e5de123920a6129662a9c7ec4e7723e33a106494609c8ec7d37"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 197262,
+      "sha256": "9f0aa7d8fd5976ad3d2571febfd5522fb18d9dd635f454e863fd228d053d7f04"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-authority-service.ts",
+      "byteLength": 35813,
+      "sha256": "bed1afe77abaac2cd7c9e135296af0d82e0d38bb4b7106dad3004cce31fee36a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-execution-ledger-service.ts",
+      "byteLength": 769,
+      "sha256": "02969e19813e964534daa389c535b1d399af162de0183e580839f214fd960335"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-global.d.ts",
+      "byteLength": 491,
+      "sha256": "1ef11efd41923490c05cc1c19747de415e8dca0c9742fd10b976bcec45f1642a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-types.ts",
+      "byteLength": 10726,
+      "sha256": "ac501634627b329ad8103e53a4805f171fba6494ddff60899b78dee57fa1365f"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-claim-report.json",
+      "byteLength": 5035,
+      "sha256": "703b8b56b87c7c65a0581cd1ca634739fb83a231e5eabebf076415a39dda922a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-compatibility-classification.json",
+      "byteLength": 22348,
+      "sha256": "3f3b6b82d3fd77e9c3ad9c12236631bcccb06f82a49f3c1adfb3c2102d1c82a8"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-producer-inventory.json",
+      "byteLength": 8190,
+      "sha256": "969b5e58ac54f07ee56405ccd92e23263ab44f570d90fff39f67c605e5940f3f"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-semantic-registry.json",
+      "byteLength": 32443,
+      "sha256": "db7985f0eff5bf69272f03ed19e0c1b4094bd77de059a433e132e553b097bb17"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-fft-types.ts",
+      "byteLength": 3755,
+      "sha256": "b9d75776e26fb7132a1c08ac3f110de2020f839d8c93e7844be6d940e292843a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-reduction-job-arena.ts",
+      "byteLength": 890,
+      "sha256": "4ff4bc46d2a1fd2b409e448644bc887dbfeee77c986f9d60fe21493b4873263a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-reduction-plan.ts",
+      "byteLength": 3385,
+      "sha256": "e8ebfc863535197d261639649609ed8b9b228feb8ea894cdc345ede732b25a1c"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-reduction-receipt.ts",
+      "byteLength": 722,
+      "sha256": "7ae3b78a2fa3fb46df87e6e0f78f6185250e98b651a32e27ee98450611198d51"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-reduction-service.ts",
+      "byteLength": 19624,
+      "sha256": "261b466af188669aa94b069487f7155ef8d351045e163bc3633f9946c3a8ff3c"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-reduction-types.ts",
+      "byteLength": 3364,
+      "sha256": "72f4a33496105b3de59e86e0f327bd9b130acb3979f7a95aabb8d1e880f72c77"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-stockham-executor-service.ts",
+      "byteLength": 22638,
+      "sha256": "42615807a55cc152f06dea17eb745049ff3019dafbbee80c7d5e52a8a031950c"
+    },
+    {
+      "relative": "app/src/runtime/analysis/spectral/spectral-window-layout-receipt.ts",
+      "byteLength": 3640,
+      "sha256": "9526f2a13b177c815553f25c902ea3842e0ae681613773f105029ffbc0fd2f88"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 23179,
+      "sha256": "7ff3723f3db4e0d8932ffb66c5b85118e5e5d0b285dd19671fd7c6ae7151f6be"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1509,
+      "sha256": "99e2e654748725e88931f4c3a5155f4145ca35d6034e95e9ea49d0f39f4741c8"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/dynamic-asset-manifest-receipt.json",
+      "byteLength": 402,
+      "sha256": "965997eb2cbd939b970e6d1fe02511ea94affc02dab3e85203fde44e70ce879e"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/edge-manifest.json",
+      "byteLength": 62296,
+      "sha256": "517e5776a7cabddc08bcb33ab536d70e1e8cc890607d7e5032b5a2fb80beb54c"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "byteLength": 460,
+      "sha256": "352e13f45c9a7622c7031c089e46120b263c7db4705a2fc29dc60c97818cd597"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/node-manifest.json",
+      "byteLength": 120387,
+      "sha256": "d13c11366b6be5a4a7db083826f36a590dfc5d94c98a6e2227ed26e2be23e61a"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "byteLength": 230,
+      "sha256": "680fc9bc88d08d80f4ca1a029053c154fbf0bbc8e4787638d6bd991c6e7b1716"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "byteLength": 9987,
+      "sha256": "ebdb5b5b21c8d0cd383412eb9fde6b9b355ad499b5901534b376ac170c78c4a3"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-gate-report.json",
+      "byteLength": 9286,
+      "sha256": "98e322c028336c628411b2ce88bba2ecad6b661155aa7fd97163344de3ac82cd"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_CLAIM_REPORT.json",
+      "byteLength": 5035,
+      "sha256": "703b8b56b87c7c65a0581cd1ca634739fb83a231e5eabebf076415a39dda922a"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_IMPLEMENTATION_CLASSIFICATION.json",
+      "byteLength": 22348,
+      "sha256": "3f3b6b82d3fd77e9c3ad9c12236631bcccb06f82a49f3c1adfb3c2102d1c82a8"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_PRODUCER_INVENTORY.json",
+      "byteLength": 8190,
+      "sha256": "969b5e58ac54f07ee56405ccd92e23263ab44f570d90fff39f67c605e5940f3f"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_SEMANTIC_REGISTRY.json",
+      "byteLength": 32443,
+      "sha256": "db7985f0eff5bf69272f03ed19e0c1b4094bd77de059a433e132e553b097bb17"
+    },
+    {
+      "relative": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "byteLength": 106336,
+      "sha256": "e5d63f133aa29e5de123920a6129662a9c7ec4e7723e33a106494609c8ec7d37"
+    },
+    {
+      "relative": "artifacts/spectral-qmap-03/source-bake/TDT_SPECTRAL_QMAP_03_REGRESSION_SUMMARY.json",
+      "byteLength": 2943,
+      "sha256": "1d0419b071978cb1f4c2cce1246e16110217ec764583cf0fe93047a239ef48fb"
+    },
+    {
+      "relative": "artifacts/spectral-qmap-03/source-bake/TDT_SPECTRAL_QMAP_03_SOURCE_GATE.json",
+      "byteLength": 30295,
+      "sha256": "4c8cecdbf559fafd2f6a666e32f95a974361e136396244ebf974ba94e2e6c6e8"
+    },
+    {
+      "relative": "artifacts/spectral-qmap-03/source-bake/sq03-runtime-smoke.json",
+      "byteLength": 2267,
+      "sha256": "644ccd9a26fea963cb802d5d9c10828add5687474a22f2fd53596661f8f5e734"
+    },
+    {
+      "relative": "artifacts/spectral-qmap-03/source-bake/sq03-source-contract.json",
+      "byteLength": 11096,
+      "sha256": "3e4cb9a503f08d16427cd12169d31d10797c8045eac0ceab96281d8ff26f5fb2"
+    },
+    {
+      "relative": "artifacts/spectral-qmap-03/source-bake/sq03-wgsl-contract.json",
+      "byteLength": 11337,
+      "sha256": "7a59540fc11ea676f01d0dc60598d032c924ba283c9897a4b27eea0f37d04d93"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 21286,
+      "sha256": "3aaaa901211bcda193414ea6116caae96ea2a678dea63e3d4cac9741ae4084cd"
+    },
+    {
+      "relative": "patches/TDT_SPECTRAL_QMAP_03_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 16256,
+      "sha256": "3c70e74f6c32d38cfe48442d153791b6a8872f328427e17e02d074fd409b61aa"
+    },
+    {
+      "relative": "patches/TDT_SPECTRAL_QMAP_03_power_entropy_peak_orientation_complex_phase_reduction_spectral_field_publication.diff",
+      "byteLength": 395378,
+      "sha256": "6b23e9db68947c82d017eed38b7663dd1b86b7dcdc95e759693fe7f19970af61"
+    },
+    {
+      "relative": "specs/TDT-SPECTRAL-QMAP-03_POWER_ENTROPY_PEAK_ORIENTATION_COMPLEX_PHASE_REDUCTION_SPECTRAL_FIELD_PUBLICATION_SEAL_SPEC.md",
+      "byteLength": 58750,
+      "sha256": "a517d7d9e1bdaa9695254a19d806e2399286e76766e212113305300248cc8268"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 9218,
+      "sha256": "1954419c3b3339e58af04c5526e46752f8e3b4d4d3356c012ebf9f76f1956ec5"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+      "byteLength": 4786,
+      "sha256": "2d69b338eef7b2232e376d4207999049cfbb777a363216c4bbc6efc22ee18b54"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+      "byteLength": 7255,
+      "sha256": "1d73efba898e199a438aeb5342b1937439cf7330cb52738d71c0ef6660937035"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-source-contract.mjs",
+      "byteLength": 8540,
+      "sha256": "0dcc3161888642819fb11053d5e92fb5c37cf7ec3727bd53aaa41cc4525fb996"
+    },
+    {
+      "relative": "tools/spectral-qmap-02/verify-source-contract.mjs",
+      "byteLength": 8543,
+      "sha256": "a5441277dfa4f3729f9759cd61c9442c86573ba0f7ea4bfdbccd61bca3847087"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/finalize.mjs",
+      "byteLength": 2687,
+      "sha256": "e92c09a7cadf8f229d089e6638ecac5e08c98e4d5196426eb766faa83a3b5848"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/gate.mjs",
+      "byteLength": 1092,
+      "sha256": "f9bd31e92dfe06cb0d26a255bd309aae9ed4cedd9d38b1ca756851054ab7cc4b"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/lib.mjs",
+      "byteLength": 1592,
+      "sha256": "6d5dc68c13351caa2c295a27507872b1d3835f894e4b891a43af1e4a660cbbad"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/run.mjs",
+      "byteLength": 339,
+      "sha256": "fdbbc7526cddc2ee20924001e9ff58fc7bff39d94d903d091cf27333f7c52df7"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/runtime-smoke.mjs",
+      "byteLength": 10391,
+      "sha256": "3e487b21b7af1de936f5742ecc39a36b41a81c7c13ac5d3f1d91a4be025326ad"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/verify-source-contract.mjs",
+      "byteLength": 6413,
+      "sha256": "2cd3381181dc4cf6c7ac37c61b065b6e81451a50f642dddd19122228cc67b226"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/verify-wgsl-contract.mjs",
+      "byteLength": 4308,
+      "sha256": "23c37fd58ba5c1aa026b49007baeb631ab388cccc438cdfde35f9322eb21e7e8"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 204,
+    "DEFERRED": 12
+  },
+  "semanticRegistryVersion": "tdt.analysis.semantic-registry.sq03.v1",
+  "analysisFieldAuthorityId": "dadum.analysis-field-authority.aft00",
+  "spectralReductionAuthorityId": "dadum.spectral-reduction-authority.sq03",
+  "outputSemanticIds": [
+    "tdt.analysis.spectral.window-power-spectrum.v1",
+    "tdt.analysis.spectral.window-entropy.v1",
+    "tdt.analysis.spectral.window-peak-orientation.v1",
+    "tdt.analysis.spectral.window-complex-phase.v1",
+    "tdt.analysis.spectral.window-summary.v1"
+  ],
+  "intermediateReadbackCount": 0,
+  "cpuProductComputeClaim": false,
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false
+}

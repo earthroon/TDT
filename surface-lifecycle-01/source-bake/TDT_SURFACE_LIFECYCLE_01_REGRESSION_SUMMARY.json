@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-SURFACE-LIFECYCLE-01",
+  "suiteCount": 22,
+  "passCount": 22,
+  "failCount": 0,
+  "suites": [
+    {
+      "name": "promotion-baseline-00",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-PROMOTION-BASELINE-00 66/66 state=SOURCE_BAKED_UNPROMOTED"
+    },
+    {
+      "name": "active-graph-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "DEFERRED TDT-ACTIVE-GRAPH-01 runtime state=SOURCE_BAKED_AWAITING_PACKAGED_BASELINE"
+    },
+    {
+      "name": "gpu-device-ssot-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS finalized GPU DEVICE SSOT source receipt files=80 seal=2717b5a625f23dcd70d94321e10d2c8a2f94b56b39aa78b061077b1df632a8d0"
+    },
+    {
+      "name": "runtime-r7",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489"
+    },
+    {
+      "name": "export-worker-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 e2dd2a106fa1882c448190970d987038c1b08998fb13d41b7cd73422631a8ba7"
+    },
+    {
+      "name": "export-worker-02",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb"
+    },
+    {
+      "name": "export-worker-03",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 93c7aa4dd5541eae0901adf1c23fcab19b7a0ab2c3943e385f3f452352405306"
+    },
+    {
+      "name": "export-worker-04",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 1b7b1eb13cdaa681c1c2d1f24dde90509315deafd65a30375cc30a15440a2458"
+    },
+    {
+      "name": "export-worker-05",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 661dbd57144a9b2638e2c12866dece598869398f404fcaa7c3d1d1362776368a"
+    },
+    {
+      "name": "export-worker-06",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a9baf7c99d0df495809daac38539f3346bf8bd867ef37c746b7d187c1f307e0d"
+    },
+    {
+      "name": "export-worker-07",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 e8c2c2ab16b1708f25e8adac6bca2486d37eb48f574b2c597b9a39efbc6ef8ad"
+    },
+    {
+      "name": "export-promotion-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-EXPORT-PROMOTION-01 54/54"
+    },
+    {
+      "name": "export-promotion-02",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-EXPORT-PROMOTION-02 60/60"
+    },
+    {
+      "name": "export-promotion-03",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-EXPORT-PROMOTION-03 68/68"
+    },
+    {
+      "name": "build-lock-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-BUILD-LOCK-01 72/72"
+    },
+    {
+      "name": "build-emit-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS BUILD-EMIT-01 SOURCE GATES 84/84"
+    },
+    {
+      "name": "modjpeg-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-MODJPEG-01 GATES 84/84"
+    },
+    {
+      "name": "native-decoder-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-NATIVE-DECODER-01 GATES 120/120"
+    },
+    {
+      "name": "jxl-codec-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-JXL-CODEC-01 GATES 108/108"
+    },
+    {
+      "name": "psd-decoder-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TDT-PSD-DECODER-01 GATES 112/112"
+    },
+    {
+      "name": "surface-lifecycle-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "TDT-SURFACE-LIFECYCLE-01 52 PASS / 8 DEFERRED / 0 FAIL"
+    },
+    {
+      "name": "ts-syntax",
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "PASS TypeScript syntax 87 files"
+    }
+  ]
+}

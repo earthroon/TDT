@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "attacks": ["raw-enrollment-id","image-bytes","pixel-hash","file-name","user-path","exif","account-email","precise-location","hardware-serial","raw-crash-dump","raw-log","small-cell-disclosure"],
+  "minimumK": 5,
+  "suppressedCellRepresentation": "SUPPRESSED_WITHOUT_ZERO_COUNT"
+}

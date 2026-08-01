@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "candidateState": "SOURCE_BAKED_UNPROMOTED",
+  "productionPointerMutationPerformed": false,
+  "sourceBuildId": "9589f94c2952ceaf55425a60",
+  "sourceRuntimeManifestDigest": "2e47d1633cbd8b88b5636a22b135d183aede2d9cf859126d66b9f624371f9960",
+  "sourceWorkerManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+  "toolchainProfileDigest": "267e6960598f8141f3b5c896528c6ae89d2fbb7356678d958ad1c63fd76e26dd",
+  "dependencyGraphDigest": "d5e03476389df21445dc11d6dcf6444e94349edd62a5e75c3c00be18ee32b140",
+  "packageContentId": null,
+  "installerEnvelopeId": null,
+  "promotionPointerSha256": "24a25f6c5f3d29fd49bea2d0864962409f2a14d546287e4aa998620de8a5ab6f",
+  "receiptDigest": "3cb29f2c94ccb3425c20af5aef2b58ac5e93d4db455a5b9f4d62941d08c85065"
+}

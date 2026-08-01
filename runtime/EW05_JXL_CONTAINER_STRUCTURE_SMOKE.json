@@ -1,0 +1,23 @@
+{
+  "schema": "tdt-export-worker-05-jxl-container-structure-smoke-v1",
+  "status": "PASS",
+  "sourceBakeOnly": true,
+  "actualJxlEncodeExecuted": false,
+  "independentDecoderExecuted": false,
+  "containerByteLength": 483,
+  "boxTypes": [
+    "JXL ",
+    "ftyp",
+    "Exif",
+    "xml ",
+    "jxlc"
+  ],
+  "ftypCount": 1,
+  "jxlcCount": 1,
+  "jxlpCount": 0,
+  "exifCount": 1,
+  "xmlCount": 1,
+  "eofExact": true,
+  "truncatedRejected": true,
+  "carrierConflictRejected": true
+}

@@ -1,0 +1,16 @@
+{
+  "exportGrantConsumed": true,
+  "exportGrantIssued": true,
+  "mainSecretExposedToRenderer": false,
+  "mode": "source-development",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "previewGrantConsumed": true,
+  "previewGrantIssued": true,
+  "quarantineEvents": [],
+  "schemaVersion": 1,
+  "selfSha256": "e86da61108b28b217bd6269be898aebf143459a939f5a3334f0f2589a7db66dd",
+  "senderBindingVerified": true,
+  "sessionIssued": true,
+  "sessionMacPresent": true
+}

@@ -1,0 +1,14 @@
+TDT-EXPORT-WORKER-05 changed JavaScript/MJS syntax verification
+PASS app/legacy-runtime/encoders/jxl-canonical-adapter.mjs
+PASS app/legacy-runtime/export_manager.js
+PASS app/legacy-runtime/worker-codecs/jxl-canonical-handler.mjs
+PASS tools/gate-export-worker-01.mjs
+PASS tools/gate-export-worker-02.mjs
+PASS tools/gate-export-worker-03.mjs
+PASS tools/gate-export-worker-05.mjs
+PASS tools/generate-ew05-source-reports.mjs
+PASS tools/generate-runtime-manifest.mjs
+PASS tools/generate-runtime-worker-manifest.mjs
+PASS tools/runtime-manifest-lib.mjs
+PASS tools/verify-ew05-jxl-structure-runtime.mjs
+PASS tools/verify-r7-export-truth.mjs

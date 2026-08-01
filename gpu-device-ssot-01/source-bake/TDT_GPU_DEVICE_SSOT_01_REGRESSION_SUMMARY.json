@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-GPU-DEVICE-SSOT-01",
+  "state": "GPU_DEVICE_SSOT_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "gpuSourceGate": {
+    "pass": 30,
+    "deferred": 30,
+    "fail": 0
+  },
+  "directAuthorityScan": {
+    "filesScanned": 798,
+    "findings": 0
+  },
+  "pipelineOwnershipScan": {
+    "filesScanned": 798,
+    "findings": 0
+  },
+  "actualAuthorityClassSmoke": {
+    "pass": true,
+    "runtimeEpoch": 11,
+    "deviceEpochBefore": 1,
+    "deviceEpochAfter": 2,
+    "adapterRequests": 1,
+    "deviceRequests": 2
+  },
+  "regressions": {
+    "typescriptSyntaxFiles": 85,
+    "runtimeR7": "PASS",
+    "exportWorkers": "01-07 PASS",
+    "exportPromotions": "01-03 PASS",
+    "buildLock": "PASS",
+    "buildEmit": "PASS",
+    "modjpeg": "PASS",
+    "nativeDecoder": "PASS",
+    "jxlCodec": "108/108 PASS",
+    "psdDecoder": "112/112 PASS",
+    "promotionBaseline": "66/66 PASS",
+    "activeGraphSource": "30 PASS / 10 DEFERRED / 0 FAIL",
+    "activeGraphRegression": "19/19 PASS"
+  },
+  "productionPointerMutated": false,
+  "packagedClaims": false
+}

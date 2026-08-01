@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PREVIEW-PRESENTER-01",
+  "canonicalCanvasId": "dadumPreviewCanvas",
+  "canonicalOwnerServiceId": "dadum.runtime.preview-presenter",
+  "allowedWriters": [
+    "app/src/runtime/preview/preview-presenter-service.ts",
+    "app/src/runtime/preview/preview-layout-authority.ts"
+  ],
+  "stagingCanvasExceptions": [],
+  "legacyProcessingCanvasId": "canvas",
+  "visibleCanvasReadbackAllowed": false,
+  "exportCaptureAllowed": false
+}

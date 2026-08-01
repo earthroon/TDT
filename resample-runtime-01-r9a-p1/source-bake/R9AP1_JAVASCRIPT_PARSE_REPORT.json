@@ -1,0 +1,196 @@
+{
+  "failCount": 0,
+  "passCount": 47,
+  "rows": [
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/artifact-publisher.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/challenge-authority.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/ipc-contract.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/lib.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/physical-run-coordinator.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/process-memory-sampler.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/run-lock.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/device-loss-driver.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/export-product-driver.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/fixture-scheduler.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/packaged-product-runner.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/physical-bridge.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/preview-product-driver.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/product-runtime.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/residency-driver.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/timestamp-performance-driver.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/validation-fault-driver.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/contract.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/finalize-physical.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/finalize-source.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/gate-source.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/generate-implementation-manifest.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/generate-source-artifacts.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/identity.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/lib.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/raw-replay.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/run-physical.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/run-source.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-harness-wiring.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-javascript-parse.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-negative-controls.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-parent-lineage.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-physical.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-product-wiring.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-runtime-self-tests.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-source-contract.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-source.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-typescript-syntax.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_command_graph_r9a.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_uniform_ring_r9a.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_submission_fence_registry_r9a.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_physical_observation_r9a_p1.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "status": "PASS"
+    },
+    {
+      "file": "app/renderer/physical-r9a/physical-runner.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "electron.mjs",
+      "status": "PASS"
+    },
+    {
+      "file": "preload.cjs",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "865c49903e3b760546c74d411fe0bd9ad05a793e6838a94c848a5655a49529bf"
+}

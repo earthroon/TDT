@@ -1,0 +1,42 @@
+{
+  "bindings": [
+    "buildId",
+    "packageContentId",
+    "releaseProfileId",
+    "r10ChildArtifacts"
+  ],
+  "coverage": [
+    "app.asar",
+    "unpacked-runtime",
+    "workers",
+    "wasm",
+    "native-addons",
+    "wgsl",
+    "generated-manifest",
+    "runtime-asset-manifest",
+    "active-graph"
+  ],
+  "finalSchemaId": "tdt.resample-runtime.expected-installation-manifest.r11.v1",
+  "generator": "app/features/resample-runtime/r11/expected-installation-manifest.mjs",
+  "loadModes": [
+    "executable",
+    "data"
+  ],
+  "receiptSha256": "abdf898c31dc096914ffa376434ce7acaf683ee795b7c2f44eeee22d07a92dd3",
+  "relativePathsOnly": true,
+  "roles": [
+    "app-asar",
+    "runtime",
+    "worker",
+    "wasm",
+    "native-addon",
+    "wgsl",
+    "manifest",
+    "active-graph"
+  ],
+  "schemaId": "tdt.resample-runtime.expected-installation-manifest.source-capability.r11.v1",
+  "schemaVersion": 1,
+  "selfReferenceExcluded": true,
+  "sourceSpecSha256": "b76dbb1c914758825c7e0ce37e4ed53e46eb85309f13aa67f4a721e2ab13ba19",
+  "treeRootMode": "packaged-resources-root"
+}

@@ -1,0 +1,12 @@
+import { read, sourceArtifact, seal, sha256File, check } from './lib.mjs';
+import { PATCH_ID, SPEC, SOURCE_PASS, INSTALLED_PENDING, SOURCE_STATE } from './identity.mjs';
+const text = read(SPEC);
+const rows = [...text.matchAll(/^- `((?:R11A-S|R11A-P)\d{3})` `([^`]+)`/gm)].map((match) => ({ id: match[1], requirement: match[2].trim() }));
+const sourceMandatory = rows.filter((row) => row.id.startsWith('R11A-S'));
+const installedMandatory = rows.filter((row) => row.id.startsWith('R11A-P'));
+check(sourceMandatory.length === SOURCE_PASS, 'E_R11A_SOURCE_RECEIPT_INVALID', 'source gate count mismatch', sourceMandatory.length);
+check(installedMandatory.length === INSTALLED_PENDING, 'E_R11A_SOURCE_RECEIPT_INVALID', 'installed gate count mismatch', installedMandatory.length);
+sourceArtifact('R11A_GATE_REQUIREMENTS.json', seal({ schemaVersion: 1, schemaId: 'tdt.resample.gate-catalog.r11a.v1', patchId: PATCH_ID, specSha256: sha256File(SPEC), sourceMandatory, installedMandatory }));
+sourceArtifact('R11A_INSTALLED_GATE_STATUS.json', seal({ schemaVersion: 1, schemaId: 'tdt.resample.installed-gate-status.r11a.v1', patchId: PATCH_ID, state: 'AWAITING_R10A_RELEASE_AND_INSTALLED_ELECTRON', counts: { PASS: 0, PENDING: INSTALLED_PENDING, DEFERRED: 0, SKIPPED: 0, FAIL: 0 }, gates: installedMandatory.map((gate) => ({ ...gate, status: 'PENDING', evidence: null, reason: 'requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills' })) }));
+sourceArtifact('R11A_SOURCE_EXPECTED_STATE.json', seal({ schemaVersion: 1, patchId: PATCH_ID, state: SOURCE_STATE, counts: { PASS: SOURCE_PASS, PENDING: INSTALLED_PENDING, DEFERRED: 0, SKIPPED: 0, FAIL: 0 } }));
+console.log(`R11A gate catalog ${sourceMandatory.length} source / ${installedMandatory.length} installed`);

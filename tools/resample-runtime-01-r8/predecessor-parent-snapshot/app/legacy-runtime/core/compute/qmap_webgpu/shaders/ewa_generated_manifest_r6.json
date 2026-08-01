@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "manifestId": "tdt.ewa.generated-shader-manifest.r6.v1",
+  "generatorId": "tdt.ewa.wgsl-generator.r6.v1",
+  "generatorDigest": "db14fac3db16b668d981865f43fda9267243849207c5fc76b1620826da578641",
+  "kernelContractId": "tdt.ewa.kernel-contract.r6.v1",
+  "kernelContractDigest": "18d413d630172515d463e6598d9f9e90c6a221c1fca41824defeae3e19da8909",
+  "parameterAbiId": "tdt.delta-k-ewa.params.v4",
+  "parameterBytes": 96,
+  "phaseConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "phaseConventionEnum": 2,
+  "borderId": "tdt.ewa.border.clamp-extension-logical-distance-v1",
+  "borderEnum": 1,
+  "outputs": [
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "role": "PRODUCT",
+      "profile": "R4",
+      "templatePath": "tools/resample-runtime-01-r6/templates/product-tiled.wgsl.tmpl",
+      "templateDigest": "e7f609cb0e193c81c65c1489cdd667b08ffc9cc5dae0fc54ecbed3eb92499a0d",
+      "outputDigest": "c8f1a893b6ea0f3cf7c7b0fab4a4fcfbbf24a77627517f5fb30fd7b0446c65a8",
+      "abiFragmentDigest": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd",
+      "kernelFragmentDigest": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb",
+      "borderFragmentDigest": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449",
+      "axialInterpolationFragmentDigest": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6",
+      "coordinateFragmentDigest": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "role": "PRODUCT",
+      "profile": "R6",
+      "templatePath": "tools/resample-runtime-01-r6/templates/product-tiled.wgsl.tmpl",
+      "templateDigest": "e7f609cb0e193c81c65c1489cdd667b08ffc9cc5dae0fc54ecbed3eb92499a0d",
+      "outputDigest": "4c1229695396f4c11dc14502f99e2c25242924fd83a9fcb52f7169abb3912b71",
+      "abiFragmentDigest": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd",
+      "kernelFragmentDigest": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb",
+      "borderFragmentDigest": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449",
+      "axialInterpolationFragmentDigest": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6",
+      "coordinateFragmentDigest": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "role": "VALIDATION",
+      "profile": "R4",
+      "templatePath": "tools/resample-runtime-01-r6/templates/validation-tiled.wgsl.tmpl",
+      "templateDigest": "7d1a74aa7d23d58a164ac293e69ec65f6cea846e4918627a56414004e6a152d8",
+      "outputDigest": "5eb574cec5c5b1612a592ccee0011e3623051cfe645938062dab97f4b3df4696",
+      "abiFragmentDigest": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd",
+      "kernelFragmentDigest": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb",
+      "borderFragmentDigest": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449",
+      "axialInterpolationFragmentDigest": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6",
+      "coordinateFragmentDigest": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "role": "VALIDATION",
+      "profile": "R6",
+      "templatePath": "tools/resample-runtime-01-r6/templates/validation-tiled.wgsl.tmpl",
+      "templateDigest": "7d1a74aa7d23d58a164ac293e69ec65f6cea846e4918627a56414004e6a152d8",
+      "outputDigest": "60320808e0f6749d7975ca86afa8b0085ca5c256f392b2fdd531e02a0c8ce71d",
+      "abiFragmentDigest": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd",
+      "kernelFragmentDigest": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb",
+      "borderFragmentDigest": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449",
+      "axialInterpolationFragmentDigest": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6",
+      "coordinateFragmentDigest": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    },
+    {
+      "path": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "role": "REFERENCE",
+      "profile": "REFERENCE",
+      "templatePath": "tools/resample-runtime-01-r6/templates/reference-direct.wgsl.tmpl",
+      "templateDigest": "3fa640e2495bf1b4f3cd07eda5e620ebd5972ecda5372c0192569832f844279d",
+      "outputDigest": "70ae9edc4c5fd221a46ed546e8bbb3935b4176277aad62948078c2270892e81f",
+      "abiFragmentDigest": "de0b5731b1e36c2635ffb6b53be33377e0e8ce6c4edaac6c97ab71a0d8c1bbdd",
+      "kernelFragmentDigest": "b74394510b554eff6e73d4138535f8db6d96cbe790ce25543fcd8c9082411bfb",
+      "borderFragmentDigest": "bd981712dc674680696f5ec865ae2bb4db18a1108a9eea897f1c8c41b707c449",
+      "axialInterpolationFragmentDigest": "1a01786dc98c6e098d49ef1944daaaff5dd042843f57f28b9c48621003e63cb6",
+      "coordinateFragmentDigest": "a398c39f5ebeb309806577787526c799df203636605eaf64b7b5692103214d8d"
+    }
+  ]
+}

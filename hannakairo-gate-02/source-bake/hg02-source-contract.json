@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 80,
+  "passed": 80,
+  "failed": [],
+  "checks": [
+    {
+      "name": "file:app/src/runtime/analysis/hannakairo/hannakairo-gate-service.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-service.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/hannakairo/hannakairo-gate-types.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-types.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/hannakairo/hannakairo-gate-parameters.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-parameters.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/hannakairo/hannakairo-gate-receipt.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-receipt.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/hannakairo/hannakairo-gate-job-arena.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-gate-job-arena.ts"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/hannakairo/hannakairo_gate_bridge.mjs",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/hannakairo_gate_bridge.mjs"
+    },
+    {
+      "name": "file:specs/TDT-HANNAKAIRO-GATE-02_DIRECTIONAL_GATE_REPAIR_TENSOR_SPECTRAL_ALIGNMENT_NEUTRAL_IDENTITY_SEAL_SPEC.md",
+      "pass": true,
+      "detail": "specs/TDT-HANNAKAIRO-GATE-02_DIRECTIONAL_GATE_REPAIR_TENSOR_SPECTRAL_ALIGNMENT_NEUTRAL_IDENTITY_SEAL_SPEC.md"
+    },
+    {
+      "name": "service:publishFieldSet",
+      "pass": true,
+      "detail": "publishFieldSet"
+    },
+    {
+      "name": "service:windowLayoutReceiptDigest",
+      "pass": true,
+      "detail": "windowLayoutReceiptDigest"
+    },
+    {
+      "name": "service:queue.submit",
+      "pass": true,
+      "detail": "queue.submit"
+    },
+    {
+      "name": "service:onSubmittedWorkDone",
+      "pass": true,
+      "detail": "onSubmittedWorkDone"
+    },
+    {
+      "name": "service:intermediatePixelReadbackCount:0",
+      "pass": true,
+      "detail": "intermediatePixelReadbackCount:0"
+    },
+    {
+      "name": "service:cpuPixelComputeUsed:false",
+      "pass": true,
+      "detail": "cpuPixelComputeUsed:false"
+    },
+    {
+      "name": "service:webglPixelComputeUsed:false",
+      "pass": true,
+      "detail": "webglPixelComputeUsed:false"
+    },
+    {
+      "name": "service:canvasPixelComputeUsed:false",
+      "pass": true,
+      "detail": "canvasPixelComputeUsed:false"
+    },
+    {
+      "name": "service:pinField",
+      "pass": true,
+      "detail": "pinField"
+    },
+    {
+      "name": "service:registerRecoveryParticipant",
+      "pass": true,
+      "detail": "registerRecoveryParticipant"
+    },
+    {
+      "name": "service:stage-pixel",
+      "pass": true,
+      "detail": "stage-pixel"
+    },
+    {
+      "name": "service:neutralIdentityProfile",
+      "pass": true,
+      "detail": "neutralIdentityProfile"
+    },
+    {
+      "name": "service:pin-release",
+      "pass": true,
+      "detail": "tensor and spectral pins released"
+    },
+    {
+      "name": "types:HANNAKAIRO_ALIGNMENT_SEMANTIC_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_ALIGNMENT_SEMANTIC_ID"
+    },
+    {
+      "name": "types:HANNAKAIRO_GATE_SEMANTIC_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_GATE_SEMANTIC_ID"
+    },
+    {
+      "name": "types:HANNAKAIRO_GATE_PRODUCER_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_GATE_PRODUCER_ID"
+    },
+    {
+      "name": "types:SPECTRAL_PEAK_ORIENTATION_SEMANTIC_ID",
+      "pass": true,
+      "detail": "SPECTRAL_PEAK_ORIENTATION_SEMANTIC_ID"
+    },
+    {
+      "name": "types:HANNAKAIRO_PHASE_COHERENCE_SEMANTIC_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_PHASE_COHERENCE_SEMANTIC_ID"
+    },
+    {
+      "name": "params:strength, 0.15",
+      "pass": true,
+      "detail": "strength, 0.15"
+    },
+    {
+      "name": "params:minMultiplier, 0.85",
+      "pass": true,
+      "detail": "minMultiplier, 0.85"
+    },
+    {
+      "name": "params:phaseCoherenceWeight, 0",
+      "pass": true,
+      "detail": "phaseCoherenceWeight, 0"
+    },
+    {
+      "name": "params:epsilon, 1e-6",
+      "pass": true,
+      "detail": "epsilon, 1e-6"
+    },
+    {
+      "name": "facade:phase_gate_hannakairo",
+      "pass": true,
+      "detail": "phase_gate_hannakairo"
+    },
+    {
+      "name": "facade:E_HANNAKAIRO_GATE_CPU_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_CPU_INPUT_FORBIDDEN"
+    },
+    {
+      "name": "facade:E_HANNAKAIRO_GATE_WEBGL_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_WEBGL_INPUT_FORBIDDEN"
+    },
+    {
+      "name": "facade:E_HANNAKAIRO_GATE_CANVAS_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_CANVAS_INPUT_FORBIDDEN"
+    },
+    {
+      "name": "module:HannakairoGateService",
+      "pass": true,
+      "detail": "HannakairoGateService"
+    },
+    {
+      "name": "module:SERVICE_IDS.hannakairoGate",
+      "pass": true,
+      "detail": "SERVICE_IDS.hannakairoGate"
+    },
+    {
+      "name": "module:dadum.module.hannakairo-gate-02-v1",
+      "pass": true,
+      "detail": "dadum.module.hannakairo-gate-02-v1"
+    },
+    {
+      "name": "module:tdt.analysis.consumer.hannakairo-gate",
+      "pass": true,
+      "detail": "tdt.analysis.consumer.hannakairo-gate"
+    },
+    {
+      "name": "module:dadum.analysis.hannakairo.directional-gate",
+      "pass": true,
+      "detail": "dadum.analysis.hannakairo.directional-gate"
+    },
+    {
+      "name": "global-bridge",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "registry-version",
+      "pass": true,
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.hannakairo.tensor-spectral-alignment.v1",
+      "pass": true,
+      "detail": "tdt.analysis.hannakairo.tensor-spectral-alignment.v1"
+    },
+    {
+      "name": "semantic-format:tdt.analysis.hannakairo.tensor-spectral-alignment.v1",
+      "pass": true,
+      "detail": "rgba16float"
+    },
+    {
+      "name": "semantic-coordinate:tdt.analysis.hannakairo.tensor-spectral-alignment.v1",
+      "pass": true,
+      "detail": "stage-pixel"
+    },
+    {
+      "name": "semantic:tdt.analysis.hannakairo.directional-gate.v2",
+      "pass": true,
+      "detail": "tdt.analysis.hannakairo.directional-gate.v2"
+    },
+    {
+      "name": "semantic-format:tdt.analysis.hannakairo.directional-gate.v2",
+      "pass": true,
+      "detail": "rgba16float"
+    },
+    {
+      "name": "semantic-coordinate:tdt.analysis.hannakairo.directional-gate.v2",
+      "pass": true,
+      "detail": "stage-pixel"
+    },
+    {
+      "name": "gate-neutral",
+      "pass": true,
+      "detail": "[1,0,0,0]"
+    },
+    {
+      "name": "producer-canonical",
+      "pass": true,
+      "detail": "canonical"
+    },
+    {
+      "name": "producer-version",
+      "pass": true,
+      "detail": "2.0.0"
+    },
+    {
+      "name": "producer-outputs",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "producer-inputs",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "producer-assets",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "asset:dadum.asset.shader.hannakairo-spectral-project-stage-v2",
+      "pass": true,
+      "detail": "dadum.asset.shader.hannakairo-spectral-project-stage-v2"
+    },
+    {
+      "name": "asset:dadum.asset.shader.hannakairo-tensor-spectral-align-v2",
+      "pass": true,
+      "detail": "dadum.asset.shader.hannakairo-tensor-spectral-align-v2"
+    },
+    {
+      "name": "asset:dadum.asset.shader.hannakairo-directional-gate-finalize-v2",
+      "pass": true,
+      "detail": "dadum.asset.shader.hannakairo-directional-gate-finalize-v2"
+    },
+    {
+      "name": "asset:dadum.asset.shader.hannakairo-gate-fixture-generator-v2",
+      "pass": true,
+      "detail": "dadum.asset.shader.hannakairo-gate-fixture-generator-v2"
+    },
+    {
+      "name": "asset:dadum.asset.shader.hannakairo-gate-reference-v2",
+      "pass": true,
+      "detail": "dadum.asset.shader.hannakairo-gate-reference-v2"
+    },
+    {
+      "name": "asset:dadum.asset.shader.hannakairo-gate-compare-v2",
+      "pass": true,
+      "detail": "dadum.asset.shader.hannakairo-gate-compare-v2"
+    },
+    {
+      "name": "gpu-consumer",
+      "pass": true,
+      "detail": "owner admitted"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_INPUT_TENSOR_REQUIRED",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_INPUT_TENSOR_REQUIRED"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_INPUT_SPECTRAL_REQUIRED",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_INPUT_SPECTRAL_REQUIRED"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_LAYOUT_RECEIPT_REQUIRED",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_LAYOUT_RECEIPT_REQUIRED"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_LAYOUT_DIGEST_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_LAYOUT_DIGEST_MISMATCH"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_SOURCE_REVISION_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_SOURCE_REVISION_MISMATCH"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_STAGE_IDENTITY_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_STAGE_IDENTITY_MISMATCH"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_DEVICE_EPOCH_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_DEVICE_EPOCH_MISMATCH"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_CPU_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_CPU_INPUT_FORBIDDEN"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_WEBGL_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_WEBGL_INPUT_FORBIDDEN"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_CANVAS_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_CANVAS_INPUT_FORBIDDEN"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_PARAMETER_INVALID",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_PARAMETER_INVALID"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_PUBLICATION_PARTIAL",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_PUBLICATION_PARTIAL"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_OUTPUT_NONFINITE",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_OUTPUT_NONFINITE"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_DEVICE_LOST",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_DEVICE_LOST"
+    },
+    {
+      "name": "error:E_HANNAKAIRO_GATE_CANCELLED",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_GATE_CANCELLED"
+    },
+    {
+      "name": "forbidden:MAP_READ",
+      "pass": true,
+      "detail": "MAP_READ"
+    },
+    {
+      "name": "forbidden:mapAsync(",
+      "pass": true,
+      "detail": "mapAsync("
+    },
+    {
+      "name": "forbidden:getMappedRange(",
+      "pass": true,
+      "detail": "getMappedRange("
+    },
+    {
+      "name": "forbidden:getImageData(",
+      "pass": true,
+      "detail": "getImageData("
+    },
+    {
+      "name": "forbidden:readPixels(",
+      "pass": true,
+      "detail": "readPixels("
+    },
+    {
+      "name": "legacy-glsl-not-product",
+      "pass": true,
+      "detail": "GLSL not imported"
+    }
+  ],
+  "sourceDigests": {
+    "app/src/runtime/analysis/hannakairo/hannakairo-gate-service.ts": "94a081e350b7fc4edc1e88f2cc63f6898d3929e4a4ed146baa24debca0d62a5b",
+    "app/src/runtime/analysis/hannakairo/hannakairo-gate-types.ts": "262365db7661d495b8ab7a37d317e70243e4dd8bb4f1405ca66b83c22b037dbc",
+    "app/src/runtime/analysis/hannakairo/hannakairo-gate-parameters.ts": "6ec33145fd7323e9effa0e99c58200ae675bfe18457dbb675d7fe32d2c8710c3",
+    "app/src/runtime/analysis/hannakairo/hannakairo-gate-receipt.ts": "d2e9017a5abeb28f3acc5f4680bde0f6d496cb1295dc481fd14929d3a426a8c4",
+    "app/src/runtime/analysis/hannakairo/hannakairo-gate-job-arena.ts": "8f37aa3fbf0c218eb40f7ade1f46d9a9ae292ce486ae773c164bc930ca17c90d",
+    "app/legacy-runtime/core/analysis/hannakairo/hannakairo_gate_bridge.mjs": "575a6397e61558e2aea6f165e88da6fee57a3a217f6043115ea43ade958fa93e",
+    "specs/TDT-HANNAKAIRO-GATE-02_DIRECTIONAL_GATE_REPAIR_TENSOR_SPECTRAL_ALIGNMENT_NEUTRAL_IDENTITY_SEAL_SPEC.md": "397b909bd08f7f6bac29e56fc53486920d6969bb146c11ab7cf1ff1ba50afa2f"
+  }
+}

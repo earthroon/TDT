@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-01",
+  "buildId": "429c1a7b691c53cbf11234b6",
+  "pointerId": "dadum.export.production-pointer",
+  "rollbackUnit": "whole-build-only",
+  "legacyFallbackAllowed": false,
+  "perEncoderRollbackAllowed": false,
+  "candidatePointerMutationPerformed": false,
+  "activePromotedBuildId": null,
+  "rollbackExecuted": false,
+  "status": "SOURCE_CONTRACT_WIRED_UNTESTED_IN_PACKAGED_APP"
+}

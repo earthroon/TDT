@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-04",
+  "status": "PASS",
+  "caseCount": 56,
+  "passCount": 56,
+  "failCount": 0,
+  "rows": [
+    {
+      "id": "BKR04-NC-001",
+      "name": "unknown mode rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-002",
+      "name": "unknown purpose rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-003",
+      "name": "missing operation rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-004",
+      "name": "missing formulaContractReceipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-005",
+      "name": "missing phaseReceipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-006",
+      "name": "missing qmap rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-007",
+      "name": "missing scalar rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-008",
+      "name": "missing alphaDepth rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-009",
+      "name": "missing highlight rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-010",
+      "name": "missing maskEdge rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-011",
+      "name": "submitted graph rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-012",
+      "name": "missing graph rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-013",
+      "name": "missing family rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-014",
+      "name": "disposed family rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-015",
+      "name": "stale runtime epoch rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-016",
+      "name": "stale device epoch rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-017",
+      "name": "stale device identity rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-018",
+      "name": "family missing pipeline rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-019",
+      "name": "family missing layout rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-020",
+      "name": "family missing digest rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-021",
+      "name": "input missing texture rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-022",
+      "name": "input missing digest rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-023",
+      "name": "input dimension rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-024",
+      "name": "input runtime epoch rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-025",
+      "name": "input device epoch rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-026",
+      "name": "input device identity rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-027",
+      "name": "input format rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-028",
+      "name": "base/input alias rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-029",
+      "name": "final role rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-030",
+      "name": "final format rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-031",
+      "name": "final transfer rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-032",
+      "name": "final receipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-033",
+      "name": "missing lambda resolver falls closed on missing exact receipt",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-034",
+      "name": "missing lambda receipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-035",
+      "name": "mismatched lambda receipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-036",
+      "name": "invalid formula receipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-037",
+      "name": "invalid phase receipt rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-038",
+      "name": "qmap active dimension rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-039",
+      "name": "scalar active dimension rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-040",
+      "name": "alphaDepth active dimension rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-041",
+      "name": "highlight active dimension rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-042",
+      "name": "maskEdge active dimension rejected",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-043",
+      "name": "tensor createCommandEncoder absent",
+      "status": "PASS",
+      "evidence": "createCommandEncoder"
+    },
+    {
+      "id": "BKR04-NC-044",
+      "name": "tensor queue.submit absent",
+      "status": "PASS",
+      "evidence": "queue.submit"
+    },
+    {
+      "id": "BKR04-NC-045",
+      "name": "tensor mapAsync absent",
+      "status": "PASS",
+      "evidence": "mapAsync"
+    },
+    {
+      "id": "BKR04-NC-046",
+      "name": "tensor randomUUID absent",
+      "status": "PASS",
+      "evidence": "randomUUID"
+    },
+    {
+      "id": "BKR04-NC-047",
+      "name": "tensor Date.now absent",
+      "status": "PASS",
+      "evidence": "Date.now"
+    },
+    {
+      "id": "BKR04-NC-048",
+      "name": "tensor Math.random absent",
+      "status": "PASS",
+      "evidence": "Math.random"
+    },
+    {
+      "id": "BKR04-NC-049",
+      "name": "effect createCommandEncoder absent",
+      "status": "PASS",
+      "evidence": "createCommandEncoder"
+    },
+    {
+      "id": "BKR04-NC-050",
+      "name": "effect queue.submit absent",
+      "status": "PASS",
+      "evidence": "queue.submit"
+    },
+    {
+      "id": "BKR04-NC-051",
+      "name": "effect createBuffer absent",
+      "status": "PASS",
+      "evidence": "createBuffer"
+    },
+    {
+      "id": "BKR04-NC-052",
+      "name": "effect writeBuffer absent",
+      "status": "PASS",
+      "evidence": "writeBuffer"
+    },
+    {
+      "id": "BKR04-NC-053",
+      "name": "effect mapAsync absent",
+      "status": "PASS",
+      "evidence": "mapAsync"
+    },
+    {
+      "id": "BKR04-NC-054",
+      "name": "integration readPixels absent",
+      "status": "PASS",
+      "evidence": "readPixels"
+    },
+    {
+      "id": "BKR04-NC-055",
+      "name": "post-submit hook explicitly denied",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-NC-056",
+      "name": "post-submit callback invocation removed",
+      "status": "PASS",
+      "evidence": null
+    }
+  ],
+  "selfSha256": "b6a68d1d9ad567f8108fd24832bd75fbee592baf6c3d7824be51ca8e44f872d0"
+}

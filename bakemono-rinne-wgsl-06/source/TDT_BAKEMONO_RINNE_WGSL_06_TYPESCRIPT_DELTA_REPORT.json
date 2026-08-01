@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "receiptKind": "tdt-bakemono-rinne-wgsl-06-typescript-delta",
+  "standaloneContractCompilePass": true,
+  "parentErrorCount": 1,
+  "worktreeErrorCount": 1,
+  "newErrorCount": 0,
+  "resolvedErrorCount": 0,
+  "newErrors": [],
+  "resolvedErrors": []
+}

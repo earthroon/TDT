@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "PSD_DECODER_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-psd-e2e-not-run",
+    "serializer-independent-roundtrip-corpus-not-run",
+    "production-worker-generation-closure-not-measured",
+    "psb-zip-capabilities-not-promoted"
+  ],
+  "requiredMatrix": [
+    [
+      "psd-v1",
+      "rgb8",
+      "raw"
+    ],
+    [
+      "psd-v1",
+      "rgb8",
+      "rle"
+    ],
+    [
+      "psd-v1",
+      "rgb16",
+      "raw"
+    ],
+    [
+      "psd-v1",
+      "rgb16",
+      "rle"
+    ],
+    [
+      "psd-v1",
+      "cmyk8",
+      "raw"
+    ],
+    [
+      "psd-v1",
+      "cmyk8",
+      "rle"
+    ]
+  ],
+  "sourceFixtureMatrixVerified": true,
+  "productionMatrixVerified": false,
+  "corpus": [
+    {
+      "id": "rgb8-raw",
+      "sourceSha256": "b78c92ffe9ea26e659ef07ede0c7c9b32761da29ab3aba2bc0db7e99ba8d9c85",
+      "pixelSha256": "0239382de7c5c7311eaf45b033101b070387037b91d3fe8ef8b52ab462a1b8af",
+      "storage": "rgba8unorm",
+      "compression": "raw",
+      "layerCount": 0,
+      "iccSha256": "72bd6931ccf4816a8b98531c361b73c22266b912f340cdc8e5223ea0c67e7cf5",
+      "resolutionSha256": "ea8a4c5591588509e1cf948fa50b7c74323e1cb62ba8968f04c84a703db16fdd"
+    },
+    {
+      "id": "rgb8-rle-layer",
+      "sourceSha256": "b558aac3903a7df8982db5ef689ee7bdd59d32327697fe934576e47662eae458",
+      "pixelSha256": "f465901d2f8d4151ad5e0d74cbd51e576550ea71ca9c2247b73fe65aa071534e",
+      "storage": "rgba8unorm",
+      "compression": "rle",
+      "layerCount": 1,
+      "iccSha256": "72bd6931ccf4816a8b98531c361b73c22266b912f340cdc8e5223ea0c67e7cf5",
+      "resolutionSha256": "ea8a4c5591588509e1cf948fa50b7c74323e1cb62ba8968f04c84a703db16fdd"
+    },
+    {
+      "id": "rgb16-raw",
+      "sourceSha256": "0a7e5f73d98f4c99b6d8a5bfb5c0bb9332dbe9698d226e8c9d5df003b00d2ff0",
+      "pixelSha256": "7cab1ee095e81977a78ccd5c7582a0961ee5626e92018167cea38702a7fe8485",
+      "storage": "rgba16le-unorm-u16",
+      "compression": "raw",
+      "layerCount": 0,
+      "iccSha256": "72bd6931ccf4816a8b98531c361b73c22266b912f340cdc8e5223ea0c67e7cf5",
+      "resolutionSha256": "ea8a4c5591588509e1cf948fa50b7c74323e1cb62ba8968f04c84a703db16fdd"
+    },
+    {
+      "id": "rgb16-rle",
+      "sourceSha256": "ca8cc3131a03a9515cdd02dfdabf3d7ded8ef5cc3f1465385a97cc2439d20e9e",
+      "pixelSha256": "ddc49437ff2a105a96a7f1bae2bd48b85e72018aeabfdd2fd4caf1a96d1ea344",
+      "storage": "rgba16le-unorm-u16",
+      "compression": "rle",
+      "layerCount": 0,
+      "iccSha256": "72bd6931ccf4816a8b98531c361b73c22266b912f340cdc8e5223ea0c67e7cf5",
+      "resolutionSha256": "ea8a4c5591588509e1cf948fa50b7c74323e1cb62ba8968f04c84a703db16fdd"
+    },
+    {
+      "id": "cmyk8-raw",
+      "sourceSha256": "8cd323c0405381dd3e795ebd005ee141c7b13bf74411fac8e446a653bfb086c6",
+      "pixelSha256": "fc4726659f41d1a71c5f077a8079ad0f1af7a75233f00382e88296a373544889",
+      "storage": "cmyk8-planar",
+      "compression": "raw",
+      "layerCount": 0,
+      "iccSha256": "72bd6931ccf4816a8b98531c361b73c22266b912f340cdc8e5223ea0c67e7cf5",
+      "resolutionSha256": "ea8a4c5591588509e1cf948fa50b7c74323e1cb62ba8968f04c84a703db16fdd"
+    },
+    {
+      "id": "cmyk8-rle",
+      "sourceSha256": "c1ab4fef265b34f5396857ef4801b5a2ac5f86b9cc1a40c321c59acf1d7d360b",
+      "pixelSha256": "63843d4f661ec76c16c880d40449db5729dc17a095656d613babac12c2be353b",
+      "storage": "cmyk8-planar",
+      "compression": "rle",
+      "layerCount": 0,
+      "iccSha256": "72bd6931ccf4816a8b98531c361b73c22266b912f340cdc8e5223ea0c67e7cf5",
+      "resolutionSha256": "ea8a4c5591588509e1cf948fa50b7c74323e1cb62ba8968f04c84a703db16fdd"
+    }
+  ],
+  "evidenceSealSha256": "e2126be27571b47bf5087fe7072b65b1a77be877a2b765bb1752ac2852bbf0b8"
+}

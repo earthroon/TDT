@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "roots": [
+    {
+      "rootId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.EmotionPipeline_preblurFusion_patch.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.EmotionPipeline_preblurFusion_patch.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.EmotionPipeline_qmap_patch.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.EmotionPipeline_qmap_patch.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.EmotionRenderer.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.EmotionRenderer.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.ac_wire.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.ac_wire.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.blendif_ui.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.blendif_ui.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.engine-passes-brushedMetalHook.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.engine-passes-brushedMetalHook.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.engine-passes-brushedMetalPass.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.engine-passes-brushedMetalPass.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.export_manager.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.export_manager.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.hooks-afterRenderHook.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.hooks-afterRenderHook.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.image_input_bind.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.image_input_bind.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.index-inline-01.mjs",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.index-inline-01.mjs",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.index-inline-02.mjs",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.index-inline-02.mjs",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.index-inline-03.mjs",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.index-inline-03.mjs",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.index-inline-04.mjs",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.index-inline-04.mjs",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.index-inline-05.mjs",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.index-inline-05.mjs",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.index-inline-06.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.index-inline-06.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.init_once.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.init_once.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-chroma_blue_dither_pass.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-chroma_blue_dither_pass.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-compression_preprocess_ab.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-compression_preprocess_ab.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-core-pipeline_rev.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-core-pipeline_rev.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-passes-dk_autowire.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-passes-dk_autowire.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-passes-dk_preview_wire.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-passes-dk_preview_wire.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.js-texture_preserve_patch.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.js-texture_preserve_patch.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.lib-upng.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.lib-upng.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.main.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.main.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.packs-dadum_all_packs_loader.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.packs-dadum_all_packs_loader.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches-canvas2d_willReadFrequently_patch.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches-canvas2d_willReadFrequently_patch.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches-icc_default_loader.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches-icc_default_loader.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches-preload_assets.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches-preload_assets.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches_gl2_squeeze-gl_resource_tracker.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches_gl2_squeeze-gl_resource_tracker.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches_mrt_pbo-mrt_fbo_setup.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches_mrt_pbo-mrt_fbo_setup.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.patches_mrt_pbo-pbo_readback.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.patches_mrt_pbo-pbo_readback.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.pipeline_bind_guard.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.pipeline_bind_guard.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.preview_fit_bind.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.preview_fit_bind.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.qwave-qwave_boot.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.qwave-qwave_boot.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.renderer.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.renderer.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.resize_export_bind.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.resize_export_bind.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.scripts-colorRegionRenderer.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.scripts-colorRegionRenderer.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.share-modal.safe.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.share-modal.safe.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.shims_runtime.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.shims_runtime.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.ui_bind.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.ui_bind.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.ui_ssot_layout.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.ui_ssot_layout.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.vendor-piexif.min.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.vendor-piexif.min.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.legacy.wire_blendif_hook.js",
+      "rootKind": "legacy-root-script",
+      "nodeId": "dadum.legacy.wire_blendif_hook.js",
+      "required": true
+    },
+    {
+      "rootId": "dadum.renderer.entry",
+      "rootKind": "renderer-entry",
+      "nodeId": "dadum.renderer.entry",
+      "required": true
+    },
+    {
+      "rootId": "dadum.worker.encoder.jxl-canonical-v1",
+      "rootKind": "worker-entry",
+      "nodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "required": true
+    },
+    {
+      "rootId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "rootKind": "worker-entry",
+      "nodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "required": true
+    },
+    {
+      "rootId": "dadum.worker.encoder.png-family-v1",
+      "rootKind": "worker-entry",
+      "nodeId": "dadum.worker.encoder.png-family-v1",
+      "required": true
+    },
+    {
+      "rootId": "dadum.worker.encoder.psd-canonical-v2",
+      "rootKind": "worker-entry",
+      "nodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "required": true
+    },
+    {
+      "rootId": "dadum.worker.encoder.webp-lossless-v1",
+      "rootKind": "worker-entry",
+      "nodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "required": true
+    }
+  ],
+  "digest": "fadd99d6ee6f0a4f70615d8e2e6e443fc96037af608359aabd3e66e7480e8f63"
+}

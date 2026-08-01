@@ -1,0 +1,9 @@
+{
+  "bindingSelfSha256": "841d17af58009834260efba268b57c9e6d4530fa191223019943cd490f717d87",
+  "cycleBindingDigest": "6ef577139e50f1b259f79e79ceb4cdf122b83fe42da50c02dcd09b0934407cfb",
+  "negativeMutationsRejected": 2,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1",
+  "schemaId": "tdt.r9a-p1-r2-r1.cycle-binding-unit-report.v1",
+  "schemaVersion": 1,
+  "selfSha256": "2bd13acc8a37bbe1496fa15e7baba893ef47b8d31a8a531ef96d97b20a4ffdf9"
+}

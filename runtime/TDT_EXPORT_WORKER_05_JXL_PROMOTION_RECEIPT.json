@@ -1,0 +1,27 @@
+{
+  "schema": "tdt-export-worker-05-jxl-promotion-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-05",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "parentSealsPreserved": true,
+  "sourceManifestDigest": "bd4afde4b9e85c3bf481bf9556bf71cc29d9b8b9a430373ccbf66cdd6c13f43f",
+  "workerArtifactSetDigest": "1e63113465767d6efa40304de9e86df9728fef0d1698cff4973c47a0c028380d",
+  "wasmArtifactSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+  "capability": {
+    "rgba8LosslessDeclared": true,
+    "rgba8LosslessRuntimeVerified": false,
+    "rgba16Advertised": false,
+    "rgba16AbiVerified": false,
+    "lossyPromoted": false,
+    "customIccPromoted": false,
+    "containerStructureSourceSmoke": true
+  },
+  "blockers": [
+    "vite-production-build-not-run",
+    "electron-worker-e2e-not-run",
+    "actual-jxl-wasm-encode-not-run",
+    "independent-jxl-decoder-roundtrip-not-run",
+    "pthread-child-closure-not-measured",
+    "rgba16-abi-fixture-not-run"
+  ]
+}

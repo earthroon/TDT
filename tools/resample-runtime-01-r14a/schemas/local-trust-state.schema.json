@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "local-trust-state.schema.json",
+  "type": "object",
+  "required": [
+    "highestRootVersion",
+    "highestReleaseSequence",
+    "highestTransparencyTreeSize",
+    "trustStateSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

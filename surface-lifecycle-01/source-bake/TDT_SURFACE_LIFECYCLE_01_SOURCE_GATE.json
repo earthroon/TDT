@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-SURFACE-LIFECYCLE-01",
+  "state": "SURFACE_LIFECYCLE_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "counts": {
+    "PASS": 52,
+    "DEFERRED": 8
+  },
+  "gates": [
+    {
+      "id": "SL01-01",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-02",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-03",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-04",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-05",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-06",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-07",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-08",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-09",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-10",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-11",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-12",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-13",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-14",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-15",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-16",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-17",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-18",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-19",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-20",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-21",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-22",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-23",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-24",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-25",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-26",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-27",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-28",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-29",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-30",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-31",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-32",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-33",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-34",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-35",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-36",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-37",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-38",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-39",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-40",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-41",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-42",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-43",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-44",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-45",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-46",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-47",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-48",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-49",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-50",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-51",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-52",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-53",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-54",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-55",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-56",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-57",
+      "status": "DEFERRED",
+      "reason": "requires-transfer-worker-staging-readback-or-packaged-runtime-observation"
+    },
+    {
+      "id": "SL01-58",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-59",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "SL01-60",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    }
+  ],
+  "productionPointerMutated": false,
+  "packagedClaims": false,
+  "failCount": 0
+}

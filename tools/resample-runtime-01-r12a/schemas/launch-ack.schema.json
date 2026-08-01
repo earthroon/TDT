@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/launch-ack.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "launchNonce",
+    "ackSha256"
+  ],
+  "title": "R12A launch-ack",
+  "type": "object"
+}

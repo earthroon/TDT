@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "scope": "SOURCE_CONTRACT_AND_BLOCKED_PRODUCTION",
+  "passed": 112,
+  "total": 112,
+  "failed": [],
+  "gates": [
+    {
+      "id": "PSD01-G001",
+      "name": "spec title",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G002",
+      "name": "spec exact plane",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G003",
+      "name": "direct parser",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G004",
+      "name": "presentation excluded",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G005",
+      "name": "raw rle",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G006",
+      "name": "rgb16 exact",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G007",
+      "name": "cmyk exact",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G008",
+      "name": "resource truth",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G009",
+      "name": "layer truth",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G010",
+      "name": "worker identity",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G011",
+      "name": "worker protocol",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G012",
+      "name": "profile worker URL",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G013",
+      "name": "generation closure",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G014",
+      "name": "registry dispose",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G015",
+      "name": "worker transfer closure",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G016",
+      "name": "PSB fail closed",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G017",
+      "name": "ZIP fail closed",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G018",
+      "name": "ZIP prediction fail closed",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G019",
+      "name": "no ImageBitmap",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G020",
+      "name": "no rgba16float",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G021",
+      "name": "stale generation reject",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G022",
+      "name": "pending clear after reject",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G023",
+      "name": "source manifest",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G024",
+      "name": "package source script",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G025",
+      "name": "build emit source manifest",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G026",
+      "name": "runtime tests 176",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G027",
+      "name": "stable E_PSD_DECODER_ABI_INSUFFICIENT",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G028",
+      "name": "stable E_PSD_DECODER_ABI_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G029",
+      "name": "stable E_PSD_DECODER_ALPHA_CONTRACT_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G030",
+      "name": "stable E_PSD_DECODER_ARTIFACT_HASH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G031",
+      "name": "stable E_PSD_DECODER_ARTIFACT_MISSING",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G032",
+      "name": "stable E_PSD_DECODER_BROWSER_FALLBACK_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G033",
+      "name": "stable E_PSD_DECODER_CANCELLED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G034",
+      "name": "stable E_PSD_DECODER_CAPABILITY_UNVERIFIED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G035",
+      "name": "stable E_PSD_DECODER_CHANNEL_BUDGET_EXCEEDED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G036",
+      "name": "stable E_PSD_DECODER_CMYK_POLICY_UNDECLARED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G037",
+      "name": "stable E_PSD_DECODER_COMPOSITE_MISSING",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G038",
+      "name": "stable E_PSD_DECODER_COMPRESSION_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G039",
+      "name": "stable E_PSD_DECODER_DIMENSION_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G040",
+      "name": "stable E_PSD_DECODER_EMITTED_ARTIFACT_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G041",
+      "name": "stable E_PSD_DECODER_EXACT_SURFACE_MISSING",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G042",
+      "name": "stable E_PSD_DECODER_FORMAT_HINT_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G043",
+      "name": "stable E_PSD_DECODER_GENERATION_CLOSURE_FAILED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G044",
+      "name": "stable E_PSD_DECODER_HEADER_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G045",
+      "name": "stable E_PSD_DECODER_HIDDEN_RGB_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G046",
+      "name": "stable E_PSD_DECODER_ICC_BUDGET_EXCEEDED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G047",
+      "name": "stable E_PSD_DECODER_ICC_RESOURCE_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G048",
+      "name": "stable E_PSD_DECODER_INPUT_DIGEST_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G049",
+      "name": "stable E_PSD_DECODER_INPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G050",
+      "name": "stable E_PSD_DECODER_INPUT_TOO_LARGE",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G051",
+      "name": "stable E_PSD_DECODER_LAYER_BUDGET_EXCEEDED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G052",
+      "name": "stable E_PSD_DECODER_LAYER_CHANNEL_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G053",
+      "name": "stable E_PSD_DECODER_LAYER_COMPOSITE_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G054",
+      "name": "stable E_PSD_DECODER_LAYER_RECORD_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G055",
+      "name": "stable E_PSD_DECODER_MEMORY_LEAK",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G056",
+      "name": "stable E_PSD_DECODER_NOT_PROMOTED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G057",
+      "name": "stable E_PSD_DECODER_PACKAGE_ROUTE_MISSING",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G058",
+      "name": "stable E_PSD_DECODER_PENDING_JOB_LEAK",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G059",
+      "name": "stable E_PSD_DECODER_PIXEL_BUDGET_EXCEEDED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G060",
+      "name": "stable E_PSD_DECODER_PLANE_DIGEST_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G061",
+      "name": "stable E_PSD_DECODER_PLANE_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G062",
+      "name": "stable E_PSD_DECODER_PRESENTATION_SURFACE_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G063",
+      "name": "stable E_PSD_DECODER_PROMOTION_BLOCKED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G064",
+      "name": "stable E_PSD_DECODER_READY_EVIDENCE_MISSING",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G065",
+      "name": "stable E_PSD_DECODER_REQUEST_DIGEST_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G066",
+      "name": "stable E_PSD_DECODER_REQUEST_VERSION_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G067",
+      "name": "stable E_PSD_DECODER_RESERVED_BYTES_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G068",
+      "name": "stable E_PSD_DECODER_RESOLUTION_RESOURCE_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G069",
+      "name": "stable E_PSD_DECODER_RESOURCE_BUDGET_EXCEEDED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G070",
+      "name": "stable E_PSD_DECODER_RESOURCE_DUPLICATE",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G071",
+      "name": "stable E_PSD_DECODER_RESOURCE_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G072",
+      "name": "stable E_PSD_DECODER_RGB16_EXACTNESS_FAILED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G073",
+      "name": "stable E_PSD_DECODER_RLE_OUTPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G074",
+      "name": "stable E_PSD_DECODER_RLE_ROW_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G075",
+      "name": "stable E_PSD_DECODER_RLE_TABLE_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G076",
+      "name": "stable E_PSD_DECODER_ROUNDTRIP_NOT_EXECUTED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G077",
+      "name": "stable E_PSD_DECODER_SECTION_BOUNDS_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G078",
+      "name": "stable E_PSD_DECODER_SECTION_OVERLAP",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G079",
+      "name": "stable E_PSD_DECODER_SERIALIZER_FALLBACK_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G080",
+      "name": "stable E_PSD_DECODER_SIGNATURE_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G081",
+      "name": "stable E_PSD_DECODER_STALE_GENERATION_RESULT",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G082",
+      "name": "stable E_PSD_DECODER_TIMEOUT",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G083",
+      "name": "stable E_PSD_DECODER_TRAILING_BYTES",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G084",
+      "name": "stable E_PSD_DECODER_VERSION_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G085",
+      "name": "stable E_PSD_DECODER_WORKER_CRASHED",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G086",
+      "name": "stable E_PSD_DECODER_ZIP_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G087",
+      "name": "stable E_PSD_DECODER_ZIP_OUTPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G088",
+      "name": "stable E_PSD_DECODER_ZIP_PREDICTION_INVALID",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G089",
+      "name": "stable E_PSD_DECODER_INTERNAL",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G090",
+      "name": "sealed TDT_PSD_DECODER_01_ARTIFACT_IDENTITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G091",
+      "name": "sealed TDT_PSD_DECODER_01_ABI_CAPABILITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G092",
+      "name": "sealed TDT_PSD_DECODER_01_COMPRESSION_MATRIX_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G093",
+      "name": "sealed TDT_PSD_DECODER_01_EXACT_PLANE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G094",
+      "name": "sealed TDT_PSD_DECODER_01_RGB16_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G095",
+      "name": "sealed TDT_PSD_DECODER_01_CMYK_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G096",
+      "name": "sealed TDT_PSD_DECODER_01_LAYER_COMPOSITE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G097",
+      "name": "sealed TDT_PSD_DECODER_01_RESOURCE_METADATA_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G098",
+      "name": "sealed TDT_PSD_DECODER_01_HIDDEN_RGB_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G099",
+      "name": "sealed TDT_PSD_DECODER_01_GENERATION_CLOSURE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G100",
+      "name": "sealed TDT_PSD_DECODER_01_INDEPENDENCE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G101",
+      "name": "sealed TDT_PSD_DECODER_01_EXPORT_ROUNDTRIP_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G102",
+      "name": "sealed TDT_PSD_DECODER_01_REPEATABILITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G103",
+      "name": "sealed TDT_PSD_DECODER_01_BUILD_EMIT_CLOSURE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G104",
+      "name": "sealed TDT_PSD_DECODER_01_PACKAGED_RUNTIME_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G105",
+      "name": "sealed TDT_PSD_DECODER_01_PROMOTION_RECEIPT.json",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G106",
+      "name": "promotion blocked truth",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G107",
+      "name": "fix source truth",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G108",
+      "name": "production evidence not claimed",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G109",
+      "name": "source invariant 109",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G110",
+      "name": "source invariant 110",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G111",
+      "name": "source invariant 111",
+      "ok": true
+    },
+    {
+      "id": "PSD01-G112",
+      "name": "source invariant 112",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "counts": {
+    "DEFERRED": 4,
+    "PASS": 102
+  },
+  "failCount": 0,
+  "gates": [
+    {
+      "id": "R4-001",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "parent bundle identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-002",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 reach-4 product immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-003",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 reach-6 product immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-004",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 reach-4 validation immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-005",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 reach-6 validation immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-006",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 direct reference immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-007",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 profile selector immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-008",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 parity runtime immutable",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-009",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 fixture manifest present",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-010",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 oracle identity preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-011",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 rejection receipt preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-012",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "coordinate convention identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-013",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "versioned reach-4 product exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-014",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "versioned reach-6 product exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-015",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "versioned reach-4 validation exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-016",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "versioned reach-6 validation exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-017",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "versioned direct reference exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-018",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "product/reference digest independence",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-019",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "destination-center mapping",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-020",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "floor candidate base",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-021",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "base plus integer offset",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-022",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "sample minus p distance",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-023",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "round-centered signature absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-024",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "offset-only distance absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-025",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "logical border distance",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-026",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "clamped physical fetch",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-027",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "phase-correct center fallback",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-028",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "candidate completeness reach 4",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-029",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "candidate completeness reach 6",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-030",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 phase set coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-031",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 XY phase coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-032",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 border coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-033",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 alpha coverage",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-034",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R4 coordinate model oracle agreement",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-035",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "negative control remains rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-036",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "integer translation covariance",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-037",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "axis swap covariance",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-038",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "tangent sign invariance preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-039",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "radial weight identity preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-040",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "parameter ABI identity preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-041",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "workgroup size preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-042",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reach-4 halo equals reach",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-043",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reach-6 halo equals reach",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-044",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "phase-aware first source position",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-045",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "phase-aware last source position",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-046",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "partial group active-last clamp",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-047",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "base minimum floor",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-048",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "base maximum floor",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-049",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "tile origin baseMin minus reach",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-050",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "required extent span plus two reach",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-051",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "axis-independent proof",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-052",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "all workgroups enumerated",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-053",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "witness retained",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-054",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reach-4 tile width proven",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-055",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reach-4 tile height proven",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-056",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reach-6 tile width proven",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-057",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reach-6 tile height proven",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-058",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "odd dimension tile fixtures",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-059",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "one-pixel axis fixtures",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-060",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "noninteger scale tile fixtures",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-061",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "exact 2:1 tile fixture",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-062",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "anisotropic XY scale fixtures",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-063",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "profile input validation",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-064",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "footprint unsupported failure",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-065",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "workgroup storage limit failure",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-066",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "tile insufficiency failure",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-067",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "product direct-load fallback absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-068",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "validation out-of-tile counter",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-069",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "validation zero-weight counter",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-070",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "validation nonfinite counter",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-071",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "validation local range counters",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-072",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "uniform barrier source proof",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-073",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "canonical loader uses R4 shaders",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-074",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "canonical profile selection uses R4",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-075",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R2 profile not canonical",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-076",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "bundle coordinate identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-077",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "pipeline cache coordinate identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-078",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "runtime epoch preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-079",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "device epoch preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-080",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "device identity preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-081",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "device-loss invalidation",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-082",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "active asset manifest admits R4",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-083",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "static admission admits R4",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-084",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "active graph canonical identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-085",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "generated manifests current",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-086",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "runtime CPU fallback absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-087",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "Canvas fallback absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-088",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "WebGL fallback absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-089",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "reference-as-product absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-090",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "R3 oracle bundle exclusion",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-091",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "mock runtime resource closure",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-092",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "mock runtime no pixel claim",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-093",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "deterministic fixture generation",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-094",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "deterministic receipts",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-095",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "predecessor R1A regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-096",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "predecessor R1B regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-097",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "predecessor R1C regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-098",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "predecessor R1D regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-099",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "predecessor R2 regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-100",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "predecessor R3 regression",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-101",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "Production Pointer unchanged",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-102",
+      "reason": "source-coordinate-tile-runtime-and-regression-evidence-verified",
+      "requirement": "source receipt complete",
+      "status": "PASS"
+    },
+    {
+      "id": "R4-103",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence",
+      "requirement": "physical GPU compile evidence",
+      "status": "DEFERRED"
+    },
+    {
+      "id": "R4-104",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence",
+      "requirement": "physical product/reference parity",
+      "status": "DEFERRED"
+    },
+    {
+      "id": "R4-105",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence",
+      "requirement": "physical validation counter readback",
+      "status": "DEFERRED"
+    },
+    {
+      "id": "R4-106",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence",
+      "requirement": "packaged Electron content identity",
+      "status": "DEFERRED"
+    }
+  ],
+  "packagedElectronVerified": false,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "physicalGpuExecuted": false,
+  "productionPointerMutated": false,
+  "schemaVersion": 1,
+  "state": "RESAMPLE_RUNTIME_R4_PHASE_CORRECT_PRODUCT_REFERENCE_REPAIRED_AWAITING_R5"
+}

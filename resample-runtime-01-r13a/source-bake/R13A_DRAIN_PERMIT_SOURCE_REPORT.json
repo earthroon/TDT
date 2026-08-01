@@ -1,0 +1,7 @@
+{
+  "deadlineMs": 30000,
+  "permitBeforeDrainEnforced": true,
+  "ringConcurrencyEnforced": true,
+  "schemaVersion": 1,
+  "selfSha256": "9ba1ee59a0841dacef1216d518b52b246238a0cbb9ec39af50eaf10b4933b816"
+}

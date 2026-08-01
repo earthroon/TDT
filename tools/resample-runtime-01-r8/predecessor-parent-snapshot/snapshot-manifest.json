@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 2,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "sourceParentZip": "61_TDT_RESAMPLE_RUNTIME_01_R7_PREVIEW_EXPORT_CANONICAL_EWA_LOWPASS_CONVERGENCE_SHARED_STAGE_PLANNER_KERNEL_IDENTITY_RESIDUAL_IDENTITY_SEPARATION_BAKED_AWAITING_PHYSICAL_GPU.zip",
+  "sourceParentZipSha256": "61e277ee6328dbb62583cab54699d9344ff7a504a22ec6870530d99e2be58433",
+  "files": [
+    {
+      "relativePath": "README_TDT_RESAMPLE_RUNTIME_01_R7_APPLIED.md",
+      "sha256": "0551165c756872c2984ec1736f1955485a964c97512c69aba4d965cbe0ec6370",
+      "bytes": 1078,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "sha256": "42012bea8f920fbb2b528585132630438ef45f18fa77d77564816ccc041a1f3a",
+      "bytes": 4935
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "sha256": "b5424e33492dbb2556a8423a72c0e156c2f6c891a7df4bcbca33009a36ed740d",
+      "bytes": 5698
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v4.mjs",
+      "sha256": "e8880cc46d2eec796e360c44f326e87692db9b25c23d788c6dff30c0e357fcf6",
+      "bytes": 4502,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "sha256": "58ba24e685caa4d40f2ed81b184963b175104f25166d53717bc9b3406ed741ed",
+      "bytes": 19199
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_axial_contract_r5.mjs",
+      "sha256": "80d49122501f83157c76107a78365079cab53061a61d0693cadadefe570b2705",
+      "bytes": 613,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_contract_r7.mjs",
+      "sha256": "d0f7538f44209409d2bf06b652afe27afda96f6aaee5284fd1236fe0a2a96952",
+      "bytes": 6320,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r7.mjs",
+      "sha256": "63eefdc4d1d737803950770e0020a0e23ace78ab66d27bdcdf7c4d0377e08ba9",
+      "bytes": 12210,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_convergence_receipt_r7.mjs",
+      "sha256": "ca409f430dd8f4564490fbc0b44c2af52a3a24a6587fc3776ef7734114dc66fb",
+      "bytes": 3702,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_kernel_contract_v4.mjs",
+      "sha256": "ae644228f72503f8d751a24bcf97ed0eafd446361380fbe572cce5254bf8f56e",
+      "bytes": 6414,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v2.mjs",
+      "sha256": "30a404d447100d499b656bc68b6a14ed6093ff835333ebabcb79f6090a4b09ca",
+      "bytes": 9140,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r6.mjs",
+      "sha256": "9cba998b53c84345a34d43f6451968b0d27989ea38998f5c693b7b01e9b67382",
+      "bytes": 1714,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "sha256": "70ae9edc4c5fd221a46ed546e8bbb3935b4176277aad62948078c2270892e81f",
+      "bytes": 7042,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "sha256": "c8f1a893b6ea0f3cf7c7b0fab4a4fcfbbf24a77627517f5fb30fd7b0446c65a8",
+      "bytes": 8416,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "sha256": "4c1229695396f4c11dc14502f99e2c25242924fd83a9fcb52f7169abb3912b71",
+      "bytes": 8416,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_generated_manifest_r6.json",
+      "sha256": "11f3bcca8ee3540a30f48433e1a9f2a5ea2f5bfa04dbf8ac9de14d3bc8669a47",
+      "bytes": 5334,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "sha256": "da068d8715605d3ab06329c6208d61728032e88914cd09057e7e9eee37834c56",
+      "bytes": 10900
+    },
+    {
+      "relativePath": "app/src/legacy/generated-legacy-manifest.json",
+      "sha256": "1f37ae32928690f7dbc58a5db13ae0b0270c5e1e5ec242303a7ab227739caf1d",
+      "bytes": 72456
+    },
+    {
+      "relativePath": "app/src/legacy/generated-legacy-static-admission.json",
+      "sha256": "39cc8a119c07c13a116a5d7f7a5c85d33b7f39797c142e95ff3606aee708f0af",
+      "bytes": 113383
+    },
+    {
+      "relativePath": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "sha256": "e3ad30a73b9ad6deb883a10e7131d103c760a3c225e66a33644c48f01800478c",
+      "bytes": 232258
+    },
+    {
+      "relativePath": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "sha256": "213ad7a8397bd905bf5fc3f77541857a37b23e0cd2c031430af2b805521eeeaa",
+      "bytes": 50262
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/dynamic-asset-manifest-receipt.json",
+      "sha256": "02eba3270e68e48aa8492c9205afcabfea4b18adcda62d3744fc77a275874a78",
+      "bytes": 402
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/edge-manifest.json",
+      "sha256": "9c2efd489ae081b2aeb6735db85d0251b89fb373fc3ae93b75d361aa9428644d",
+      "bytes": 74330
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "sha256": "ecc92e2d0b436d77ea970e3fca4a20779a349a4d16578c39a8e853b4e9259e99",
+      "bytes": 460
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/node-manifest.json",
+      "sha256": "a37afcfa347199bb11dbfea9db6d45571f0d525756768833431f7a54ffa5ce3a",
+      "bytes": 143349
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "sha256": "5a18af98fadec987533fe6d0b60da3ef951a79d0696b6e7f11371762fd311bed",
+      "bytes": 230
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "sha256": "52aafb58f597b73f2a74607303f0b41ba6d59c3fd1236e397f0bb825d7bce934",
+      "bytes": 9988
+    },
+    {
+      "relativePath": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "sha256": "39cc8a119c07c13a116a5d7f7a5c85d33b7f39797c142e95ff3606aee708f0af",
+      "bytes": 113383
+    },
+    {
+      "relativePath": "package.json",
+      "sha256": "b578a59a1b47f2781c60f686b107539fe64d93946920c06fc756072453a3e497",
+      "bytes": 27819
+    },
+    {
+      "relativePath": "specs/TDT-RESAMPLE-RUNTIME-01-R7_PREVIEW_EXPORT_CANONICAL_EWA_LOWPASS_CONVERGENCE_SHARED_STAGE_PLANNER_KERNEL_IDENTITY_RESIDUAL_IDENTITY_SEPARATION_SEAL_SPEC.md",
+      "sha256": "7d100c5538717b2336eb4234ffbb3a98dc44257df45c5c83d1a4646b64f8dd55",
+      "bytes": 127849,
+      "frozenEvidenceOnly": true
+    },
+    {
+      "relativePath": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "sha256": "f6500b85a08ef30aa6dd7639e4ac88ee6824d0277e5435217631f18d6cc60aa5",
+      "bytes": 19041
+    }
+  ],
+  "removeFiles": [
+    "README_TDT_RESAMPLE_RUNTIME_01_R8_APPLIED.md",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_contract_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_conservation_receipt_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_source_prepare_runtime_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v3.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_support_envelope_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_surface_semantics_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r8.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r8.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r8.wgsl",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_generated_manifest_r8.json",
+    "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_source_prepare_r8.wgsl",
+    "app/legacy-runtime/modules/dk_resample/export_finalize_runtime_r8.mjs",
+    "app/legacy-runtime/modules/dk_resample/export_residual_runtime_r8.mjs",
+    "app/legacy-runtime/modules/dk_resample/shaders/export_detail_residual_r8.wgsl",
+    "app/legacy-runtime/modules/dk_resample/shaders/export_finalize_rgba8_r8.wgsl",
+    "specs/TDT-RESAMPLE-RUNTIME-01-R8_UNCLIPPED_SUPPORT_ALPHA_BORDER_DC_CONSERVATION_ZERO_SILENT_DEGRADATION_SEAL_SPEC.md",
+    "specs/TDT-RESAMPLE-RUNTIME-01-R8_UNCLIPPED_SUPPORT_ALPHA_BORDER_DC_CONSERVATION_ZERO_SILENT_DEGRADATION_SEAL_SPEC.md.sha256",
+    "tools/resample-runtime-01-r8/finalize.mjs",
+    "tools/resample-runtime-01-r8/gate-requirements.json",
+    "tools/resample-runtime-01-r8/gate.mjs",
+    "tools/resample-runtime-01-r8/generate-active-graph.mjs",
+    "tools/resample-runtime-01-r8/generate-fixtures.mjs",
+    "tools/resample-runtime-01-r8/generate-wgsl.mjs",
+    "tools/resample-runtime-01-r8/lib.mjs",
+    "tools/resample-runtime-01-r8/run.mjs",
+    "tools/resample-runtime-01-r8/runtime-smoke.mjs",
+    "tools/resample-runtime-01-r8/templates/product-tiled.wgsl.tmpl",
+    "tools/resample-runtime-01-r8/templates/reference-direct.wgsl.tmpl",
+    "tools/resample-runtime-01-r8/templates/validation-tiled.wgsl.tmpl",
+    "tools/resample-runtime-01-r8/verify-active-graph.mjs",
+    "tools/resample-runtime-01-r8/verify-conservation.mjs",
+    "tools/resample-runtime-01-r8/verify-generated-sources.mjs",
+    "tools/resample-runtime-01-r8/verify-negative-controls.mjs",
+    "tools/resample-runtime-01-r8/verify-parent.mjs",
+    "tools/resample-runtime-01-r8/verify-predecessor-regression.mjs",
+    "tools/resample-runtime-01-r8/verify-runtime-wiring.mjs",
+    "tools/resample-runtime-01-r8/verify-semantics.mjs",
+    "tools/resample-runtime-01-r8/verify-support.mjs"
+  ]
+}

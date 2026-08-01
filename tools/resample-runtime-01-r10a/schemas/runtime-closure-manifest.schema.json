@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt.resample.runtime-closure-manifest.r10a.v1",
+  "title": "runtime-closure-manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId"
+  ]
+}

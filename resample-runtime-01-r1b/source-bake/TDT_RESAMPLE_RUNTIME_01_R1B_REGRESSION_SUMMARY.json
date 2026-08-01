@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1B",
+  "state": "RESAMPLE_RUNTIME_R1B_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "results": {
+    "r1b": {
+      "pass": 72,
+      "deferred": 12,
+      "fail": 0,
+      "plannerFixtures": "75/75",
+      "sourceContract": "44/44",
+      "mockRuntime": "17/17"
+    },
+    "r1a": {
+      "pass": 57,
+      "deferred": 11,
+      "fail": 0
+    },
+    "activeGraph": {
+      "pass": 30,
+      "deferred": 10,
+      "fail": 0,
+      "regression": "19/19"
+    },
+    "gpuDeviceSsot": {
+      "pass": 30,
+      "deferred": 30,
+      "fail": 0
+    },
+    "surfaceLifecycle": {
+      "pass": 52,
+      "deferred": 8,
+      "fail": 0
+    },
+    "previewPresenter": {
+      "pass": 50,
+      "deferred": 10,
+      "fail": 0
+    },
+    "runtimeR7": "PASS",
+    "exportWorkers": "01-07 PASS",
+    "exportPromotion": {
+      "ep01": "54/54",
+      "ep02": "60/60",
+      "ep03": "68/68"
+    },
+    "buildLock": "PASS",
+    "buildEmit": "PASS",
+    "modjpeg": "PASS",
+    "nativeDecoder": "PASS",
+    "jxlCodec": "PASS",
+    "psdDecoder": "112/112",
+    "promotionBaseline": "66/66",
+    "typescriptSyntax": "91 files PASS"
+  },
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false
+}

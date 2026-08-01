@@ -1,0 +1,248 @@
+{
+  "entries": [
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/artifact-publisher.mjs",
+      "sha256": "5ac4a45359acb1f70038083cea8509f08f8cf0ee71377e7cd0b1765682d09604"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/challenge-authority.mjs",
+      "sha256": "3dde26671e3d8d4373a0e7b5bd6e72f01d6fa435f23d019200bd881466e643d6"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/ipc-contract.mjs",
+      "sha256": "02f873423827920bf9e87b71b42eab25113a929985cb3d861408eced5febc29c"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/lib.mjs",
+      "sha256": "2a162670f43a3609302a8670f75bfeb20ac3c2a87617be4431fa0bb4564c1b32"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/physical-run-coordinator.mjs",
+      "sha256": "4c8b1c452e50b2d16fbb3de88b9440eaba194ab2e4b032790408a28c14bc56fc"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/process-memory-sampler.mjs",
+      "sha256": "b5fa0545429224fbb5a9daa00c303fb2c5537c18c09e291dc97dac0016916c33"
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1/run-lock.mjs",
+      "sha256": "ca95fbd282ca4b57f5188db6d67135b203e07e95a9a0c7dc25c97377de61cc3c"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_command_graph_r9a.mjs",
+      "sha256": "b76fb29d5f2a1ad5bb66286cd249a585b7cbb7c2b3cbdf82de7648b0776583e7"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_physical_observation_r9a_p1.mjs",
+      "sha256": "9743383ef3c66413c5126c93c6fe08e82e89dd154606ac55d3d441053018e890"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs",
+      "sha256": "72acb9c45f8bfdde69f34a76ddb9f9bfdd4a6aafe1ca1dc7c647dcc66a9b6552"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_submission_fence_registry_r9a.mjs",
+      "sha256": "9ca2adc81e9e4f4b8b2719f5f1465e717de6a28f4ea88434ed8db99a2382e306"
+    },
+    {
+      "file": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_uniform_ring_r9a.mjs",
+      "sha256": "8ace9f302f17fa1b90aba09a7def6b56a235417b3eb0e94814a556a578185f20"
+    },
+    {
+      "file": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "sha256": "be975a8d97a3cde6ff6d3a66420df2cd40c59e79f7b66837387cf4836eeb4db9"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/device-loss-driver.mjs",
+      "sha256": "abeaa3c354d56e6d002bce2f01ab11081446f76a2c2bdfaacdfc0e8e22e7ade5"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/export-product-driver.mjs",
+      "sha256": "9e94d704b22fbd9dad6224dbe684e7ef0298981a94001c42d44ff373b5011639"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/fixture-scheduler.mjs",
+      "sha256": "e21741e7a8519c100271669b0bc36491d57ba966bab5c42c821aeefb7af3da3c"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/index.html",
+      "sha256": "fe205cea373b38dfea528cec9ae1ccd640779df6f22baa79b4f3925f0595cf49"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/packaged-product-runner.mjs",
+      "sha256": "b30c9aa4e538abfe9e9fa1e5f687cb79759794c0d59bddc7f171206932b90f8f"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/physical-bridge.mjs",
+      "sha256": "54c5eba8a5d0c0d94eb19d7f5ac3e60ffda8b07ee5be817c8bb66bbbf081a86d"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/preview-product-driver.mjs",
+      "sha256": "136d43ecec6965be13e5100fb83dc19a467cbb6e7d70c239d35fb54e223e413b"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/product-runtime.mjs",
+      "sha256": "f79412829ed31c0d5f89f40b7d73565c5c97d2b46c836b9d785c1ac07733d8d5"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/residency-driver.mjs",
+      "sha256": "d11131b20cec01d47c03c4e9b2f26b77149c9329d7db00e3e22c1b15b48fa621"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/timestamp-performance-driver.mjs",
+      "sha256": "0fb2b4327038bef898e599b3569c3c5cbabb02bfb18acb34ab551c5cdcfd0cb0"
+    },
+    {
+      "file": "app/renderer/physical-r9a-p1/validation-fault-driver.mjs",
+      "sha256": "91c5d0ac25f634cbde10acd7d44030c98619fab1d43306965015bceda358743b"
+    },
+    {
+      "file": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "sha256": "47a33d92550e129a2e42732b1409066f996a8dd7d64d01f1a4ff6c5c9c2471c7"
+    },
+    {
+      "file": "app/src/runtime/gpu/gpu-device-qualification-observer.ts",
+      "sha256": "aeea635e89c72b63f1a2688a66d3c6c07896226275fee6e9a0f4652d8fce8b92"
+    },
+    {
+      "file": "electron.mjs",
+      "sha256": "33d62fef1be3862686fd959d75c3a2cf09afc987dbe3d4b912a7310c39607176"
+    },
+    {
+      "file": "package.json",
+      "sha256": "930bff9f744823710299b97eb52b34373a298438b3a7990337dac2d213d08c41"
+    },
+    {
+      "file": "preload.cjs",
+      "sha256": "562fc39aa2f08ef0238b67e6f155058df43e419dc8d805da075ac139ce1fc30e"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/contract.mjs",
+      "sha256": "f45527c9b998d9cc2373f996f979d6e385f533c629596d214ef0eda1552af838"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/finalize-physical.mjs",
+      "sha256": "d9beaf5d7193a6eaa61ad65fa4504793ef42f20a4bffc3348ff49875d47ea8ae"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/finalize-source.mjs",
+      "sha256": "a67c5110d4babf4ce23e4aa51b4287f80ba7b2c384623cb691681b0d8d6c246a"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/fixtures/R9AP1_FIXTURE_SCHEDULE.json",
+      "sha256": "837bc2b5f0bb2186f109b752731c651b70b64c55d2bec12e22d0cfc8b804516b"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/gate-source.mjs",
+      "sha256": "2abab0b6388340ceead8780490814beabcfe05b9246c30beac09ed73f202bfa2"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/generate-implementation-manifest.mjs",
+      "sha256": "7a58d5d9ff9f4086dcd83cca15a71e14cce55d82d297bce565e2841e782755c3"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/generate-source-artifacts.mjs",
+      "sha256": "2d1e05d7a0de3e9649651fa75e731582df80d63a9ea14997b233aa23e9b9a527"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/identity.mjs",
+      "sha256": "f15fde3b5bfbc44d2f3f279b12971efd71e546bf4220ff30310186d4a1bfc627"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/lib.mjs",
+      "sha256": "3671fae302483e120290a8821ed4b0c328235c4145af9edc205745f923b1ab6a"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/raw-replay.mjs",
+      "sha256": "3764f3baf550fbbb2f14c887d895f139218e93d566c479ee919b57274693875a"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/run-physical.mjs",
+      "sha256": "3aec34f450caf1b18146d6008d478b4e53be48a3fe577e8fe82ed0da5613b248"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/run-source.mjs",
+      "sha256": "f02872bac8a82f2937b4338cecf4fe0dd4ba753b3fe7ebe303476040869c3a73"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/counter-readback.schema.json",
+      "sha256": "59833301621d4feb2a597c3175c5467d1c865c4457174cd6874fb5685140c061"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/device-epoch-ledger.schema.json",
+      "sha256": "89cd0be7e703c4ad6646bc7d524ec4cbc62124b70b6853388cf16eec7db01804"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/event-ledger.schema.json",
+      "sha256": "40e03e108acdecbab2f028b3d925ed2f1ce37d27a329f0890e9c89c25d028f84"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/physical-final.schema.json",
+      "sha256": "9dd0caa2ce8c0e5022091e63cf36602e38c9eedd6fd84d888e87278ec0918f36"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/residency-samples.schema.json",
+      "sha256": "1634a2ef8936b87b5a7c8f436efc848be336cf7c9f9ea6731fca66809b7ff30d"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/run-challenge.schema.json",
+      "sha256": "8ad24088c7541207ad221513131a1f00d69fa934664d767041238cb04ce18f78"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/source-final.schema.json",
+      "sha256": "87e85aca80e4d422fcfcded05b26a546bf7a428d5b7575d0297a2105163ddad2"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/schemas/timestamp-samples.schema.json",
+      "sha256": "4327515bf3f9e039aba97c3e0e5a82706015492e5d58576b100a05150ba2b4bb"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-harness-wiring.mjs",
+      "sha256": "edc2eea2139e242e3491c9cd21ade1767e51114de02469247c8fb8187ac24c7d"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-javascript-parse.mjs",
+      "sha256": "4fd3eeb0c7b3eefd79d99c06d446eea6576bf1588b92864d7314a08a8a4ff800"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-negative-controls.mjs",
+      "sha256": "592ebd7f28fc647d9ce7128e27934a87e6eff1baadd7a58f5db3cfddd0de635a"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-parent-lineage.mjs",
+      "sha256": "8ec013f0a272d47a99b3c32625919968db51c2147f5a0ac9328b7c7399471837"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-physical.mjs",
+      "sha256": "b1c0dcde78811f00214a3dcbb852acc72357f0c7d3befef2965fd01c48174291"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-product-wiring.mjs",
+      "sha256": "029bebfc3db4e0b279584f950c0d549d8d1b7a856009b1f86825a74a11d77b79"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-runtime-self-tests.mjs",
+      "sha256": "216154c1f1889d0244f419491cb0d6e4dd65f6dceb8eec9e50edc83672f9f231"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-source-contract.mjs",
+      "sha256": "3e13a9d6505d3afce104acfddb8d312d09026e769eaa801ce1d5de736ea0c0bd"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-source.mjs",
+      "sha256": "f02872bac8a82f2937b4338cecf4fe0dd4ba753b3fe7ebe303476040869c3a73"
+    },
+    {
+      "file": "tools/resample-runtime-01-r9a-p1/verify-typescript-syntax.mjs",
+      "sha256": "50a52cae0cbe1bde11e9bfcc6163cf558e91077765266f3bca4424309d44395b"
+    },
+    {
+      "file": "vite.config.ts",
+      "sha256": "9627f0f6172ff33978ab76ee1a36049ad4a63c6da59c75046c895846ddf6117f"
+    }
+  ],
+  "fileCount": 60,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1",
+  "schemaVersion": 1,
+  "selfSha256": "0efb772c4dbb79fa1bbdae466b49b17cc6b7325f8251c192a5d89f13c598a46b"
+}

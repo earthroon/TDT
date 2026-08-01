@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "checks": [
+    {
+      "id": "shared-single-loop",
+      "pass": true
+    },
+    {
+      "id": "preview-delegates",
+      "pass": true
+    },
+    {
+      "id": "export-delegates",
+      "pass": true
+    },
+    {
+      "id": "r6-dispatch",
+      "pass": true
+    },
+    {
+      "id": "axial-only",
+      "pass": true
+    },
+    {
+      "id": "rgba16-stages",
+      "pass": true
+    },
+    {
+      "id": "no-role-pixel-branch",
+      "pass": true
+    },
+    {
+      "id": "no-legacy-export-fetch",
+      "pass": true
+    },
+    {
+      "id": "no-filtering-sampler",
+      "pass": true
+    },
+    {
+      "id": "intermediate-readback-zero",
+      "pass": true
+    }
+  ],
+  "sharedRuntime": "tdt.ewa.canonical-lowpass-runtime.r7.v1"
+}

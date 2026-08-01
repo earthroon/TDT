@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.rollout.negative-controls.r13.v1",
+  "evidence": [
+    {
+      "name": "unsigned-plan",
+      "errorCode": "E_R13_ROLLOUT_PLAN_INVALID"
+    },
+    {
+      "name": "wrong-plan-key",
+      "errorCode": "E_R13_ROLLOUT_PLAN_INVALID"
+    },
+    {
+      "name": "split-brain-plan",
+      "errorCode": "E_R13_SPLIT_BRAIN"
+    },
+    {
+      "name": "ring-skip",
+      "errorCode": "E_R13_RING_ADVANCEMENT_REJECTED"
+    },
+    {
+      "name": "ring-regression",
+      "errorCode": "E_R13_RING_ADVANCEMENT_REJECTED"
+    },
+    {
+      "name": "expired-lease",
+      "errorCode": "E_R13_ADMISSION_LEASE_INVALID"
+    },
+    {
+      "name": "wrong-package-lease",
+      "errorCode": "E_R13_ADMISSION_LEASE_INVALID"
+    },
+    {
+      "name": "stale-r10-lease",
+      "errorCode": "E_R13_ADMISSION_LEASE_INVALID"
+    },
+    {
+      "name": "lease-replay",
+      "errorCode": "E_R13_ADMISSION_LEASE_INVALID"
+    },
+    {
+      "name": "user-content-field-injection",
+      "errorCode": "E_R13_PRIVACY_SOURCE_INVALID"
+    },
+    {
+      "name": "wrong-ring-evidence",
+      "errorCode": "E_R13_FLEET_EVIDENCE_INVALID"
+    },
+    {
+      "name": "duplicate-evidence-dedup",
+      "detected": true
+    },
+    {
+      "name": "missing-evidence-hold",
+      "outcome": "HOLD"
+    },
+    {
+      "name": "late-evidence-separated",
+      "detected": true
+    },
+    {
+      "name": "critical-breaker-contain",
+      "outcome": "CONTAIN"
+    },
+    {
+      "name": "small-cell-suppressed",
+      "detected": true
+    },
+    {
+      "name": "expired-containment",
+      "errorCode": "E_R13_BAD_RELEASE_CONTAINMENT_FAILED"
+    },
+    {
+      "name": "production-pointer-write",
+      "errorCode": "E_R13_UNAUTHORIZED_POINTER_WRITE"
+    },
+    {
+      "name": "local-pointer-write",
+      "errorCode": "E_R13_UNAUTHORIZED_POINTER_WRITE"
+    },
+    {
+      "name": "no-rollback-target-invention",
+      "detected": true
+    },
+    {
+      "name": "aggregate-input-mutation",
+      "detected": true
+    },
+    {
+      "name": "unknown-installation-final",
+      "errorCode": "E_R13_FINAL_ROLLOUT_INCOMPLETE"
+    },
+    {
+      "name": "unqualified-local-chain",
+      "errorCode": "E_R13_LOCAL_CHAIN_FAILED"
+    }
+  ],
+  "detected": 23,
+  "productionPointerMutatedByR13": false,
+  "localActivationPointerMutatedByR13": false,
+  "pass": true,
+  "selfSha256": "c6647f396e38e36b2cc34537b2438c5537bc7aa03869457dded9698f33c3ef0c"
+}

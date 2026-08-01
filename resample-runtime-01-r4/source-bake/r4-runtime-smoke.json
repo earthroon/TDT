@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "SMOKE-01",
+      "message": "profile selection and identity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-02",
+      "message": "partial group uses last active output",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-03",
+      "message": "bounded telemetry and receipt identity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SMOKE-04",
+      "message": "selection proof immutable",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "schemaVersion": 1
+}

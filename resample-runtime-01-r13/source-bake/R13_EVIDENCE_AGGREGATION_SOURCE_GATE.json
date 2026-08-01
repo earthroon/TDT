@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "evidenceCount": 5,
+  "exactDecisionView": true,
+  "uniquePseudonymCount": 5,
+  "missingNotSuccess": true,
+  "lateSeparate": true,
+  "privacyViewPseudonymRemoved": true,
+  "minimumK": 5,
+  "wilsonUpperBound": true,
+  "pass": true,
+  "selfSha256": "e65041f3d6d87fe74fc876aef4e9c50019efd9cff3fcfa87445228665fe84ed9"
+}

@@ -1,0 +1,10 @@
+{
+  "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "parentBundleSha256": "32b9f04c369122273359c3c35027cf3a7ed6561c9042700160b5596724142382",
+  "parentReceiptSelfSha256": "b724304c2206a96043ab5f8be08c43b17ad83f616c11e0dce6205398cd0e2959",
+  "parentReceiptSha256": "50f9bbaa8786fd90d4fbb182c37760b3464f4bc1a0445eaec4ddafd4c8c022db",
+  "pointerSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "receiptKind": "r9a-p1-r2-parent-freeze",
+  "schemaVersion": 1,
+  "selfSha256": "6ae689dac3181870547c8cc5166fd8f38b4d4bc309a78e30637a6f4467aef19f"
+}

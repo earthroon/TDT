@@ -1,0 +1,25 @@
+{
+  "fleetExecutionPerformed": false,
+  "fleetPending": 744,
+  "historicalPassCarryForward": 0,
+  "localActivationPointerMutatedByR13A": false,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R13A",
+  "productionPointerMutatedByR13A": false,
+  "requiredArtifacts": [
+    "R13A_PARENT_FREEZE_RECEIPT.json",
+    "R13A_R13_SUPERSESSION_RECEIPT.json",
+    "R13A_SCHEMA_MANIFEST.json",
+    "R13A_AUTHORITY_SEPARATION_REPORT.json",
+    "R13A_FLEET_BINDING_SOURCE_REPORT.json",
+    "R13A_DRAIN_PERMIT_SOURCE_REPORT.json",
+    "R13A_EVIDENCE_OUTBOX_SOURCE_REPORT.json",
+    "R13A_CONTAINMENT_RECOVERY_SOURCE_REPORT.json",
+    "R13A_FINALIZER_REVALIDATION_REPORT.json",
+    "R13A_NEGATIVE_CONTROL_REPORT.json",
+    "R13A_PREDECESSOR_REGRESSION_REPORT.json"
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "1d4173d4ec99104a55aa20c1cb882bba119c605f7de8a0b2e8a9acf4087967c5",
+  "sourcePass": 786,
+  "sourceState": "RESAMPLE_RUNTIME_R13A_FLEET_TO_LOCAL_TRANSITION_BINDING_SOURCE_SEALED_AWAITING_R12A_INSTALLED_AND_QUALIFIED_FLEET"
+}

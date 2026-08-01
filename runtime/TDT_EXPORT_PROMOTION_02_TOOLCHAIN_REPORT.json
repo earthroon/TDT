@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "status": "TOOLCHAIN_PROFILE_VERIFIED",
+  "profile": {
+    "schemaVersion": 1,
+    "profileId": "dadum.production-toolchain-v1",
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "targetPlatform": "win32",
+    "targetArch": "x64",
+    "electronVersion": "29.0.0",
+    "electronBuilderVersion": "24.13.3",
+    "viteVersion": "8.1.5",
+    "typescriptVersion": "5.9.3",
+    "vueTscVersion": "3.2.2",
+    "dependencyPolicyId": "exact-direct-version-v1",
+    "timezone": "UTC",
+    "locale": "C",
+    "sourceDateEpoch": 1784937600,
+    "networkPolicy": "install-only",
+    "buildNetworkAllowed": false
+  },
+  "observed": {
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "hostPlatform": "linux",
+    "hostArch": "x64"
+  },
+  "checks": {
+    "profileId": true,
+    "nodeVersion": true,
+    "npmVersion": true,
+    "packageManager": true,
+    "engineNode": true,
+    "engineNpm": true,
+    "targetPlatform": true,
+    "targetArch": true,
+    "buildNetworkDisabled": true
+  },
+  "toolchainProfileDigest": "267e6960598f8141f3b5c896528c6ae89d2fbb7356678d958ad1c63fd76e26dd"
+}

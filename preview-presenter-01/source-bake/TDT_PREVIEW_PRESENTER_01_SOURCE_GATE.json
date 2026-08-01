@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PREVIEW-PRESENTER-01",
+  "state": "PREVIEW_PRESENTER_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "counts": {
+    "PASS": 50,
+    "DEFERRED": 10
+  },
+  "gates": [
+    {
+      "id": "PP01-01",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-02",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-03",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-04",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-05",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-06",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-07",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-08",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-09",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-10",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-11",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-12",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-13",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-14",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-15",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-16",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-17",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-18",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-19",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-20",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-21",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-22",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-23",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-24",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-25",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-26",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-27",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-28",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-29",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-30",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-31",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-32",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-33",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-34",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-35",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-36",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-37",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-38",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-39",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-40",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-41",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-42",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-43",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-44",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-45",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-46",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-47",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-48",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-49",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-50",
+      "status": "PASS",
+      "reason": "source-and-mock-runtime-contract-verified"
+    },
+    {
+      "id": "PP01-51",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-52",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-53",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-54",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-55",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-56",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-57",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-58",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-59",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    },
+    {
+      "id": "PP01-60",
+      "status": "DEFERRED",
+      "reason": "requires-windows-packaged-electron-and-physical-gpu-observation"
+    }
+  ],
+  "sourceOutputConservationContract": true,
+  "productionPointerMutated": false,
+  "packagedClaims": false,
+  "failCount": 0
+}

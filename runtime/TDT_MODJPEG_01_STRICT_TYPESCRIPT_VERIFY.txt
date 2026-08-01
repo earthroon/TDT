@@ -1,0 +1,7 @@
+TDT-MODJPEG-01 strict TypeScript closure
+command=tsc -p /tmp/tdt-modjpeg01-types/tsconfig.json --pretty false
+Version 5.8.3
+frameworkTypes=temporary isolated Vue/Pinia/Vite URL declarations outside source tree
+sourceTreeModifiedByStubs=false
+result=PASS
+exitCode=0

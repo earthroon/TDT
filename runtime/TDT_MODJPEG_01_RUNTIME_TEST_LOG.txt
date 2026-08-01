@@ -1,0 +1,125 @@
+PASS MJ01-T001 tracker installs
+PASS MJ01-T002 pool ready
+PASS MJ01-T003 created count eight
+PASS MJ01-T004 terminated count zero before closure
+PASS MJ01-T005 closure verified
+PASS MJ01-T006 active zero after closure
+PASS MJ01-T007 terminated eight after closure
+PASS MJ01-T008 all fake workers terminated
+PASS MJ01-T009 idempotent closure
+PASS MJ01-T010 pool mismatch rejected
+PASS MJ01-T011 missing worker rejected
+PASS MJ01-T012 module sha canonical
+PASS MJ01-T013 wasm sha canonical
+PASS MJ01-T014 artifact bytes preserved
+PASS MJ01-T015 pthread pool eight
+PASS MJ01-T016 shared memory present
+PASS MJ01-T017 memory initial 256 MiB
+PASS MJ01-T018 memory maximum 2 GiB
+PASS MJ01-T019 pthread symbols present
+PASS MJ01-T020 child worker constructor present
+PASS MJ01-T021 terminate all threads present
+PASS MJ01-T022 main script projection present
+PASS MJ01-T023 ABI complete
+PASS MJ01-T024 ABI _encode_mozjpeg_RGB
+PASS MJ01-T025 ABI _jpgbuffer_ptr
+PASS MJ01-T026 ABI _jpgbuffer_len
+PASS MJ01-T027 ABI _jpgbuffer_free
+PASS MJ01-T028 ABI _malloc
+PASS MJ01-T029 ABI _free
+PASS MJ01-T030 Vite dev COI
+PASS MJ01-T031 Vite preview COI
+PASS MJ01-T032 Electron COI
+PASS MJ01-T033 WASM MIME
+PASS MJ01-T034 no-store
+PASS MJ01-T035 adapter token TDT-MODJPEG-01
+PASS MJ01-T036 adapter token dadum.modjpeg-pthread-pool-8-canonical-v1
+PASS MJ01-T037 adapter token emscripten-pthread-pool-8-canonical-v1
+PASS MJ01-T038 adapter token modjpegPthreadBootstrapUrl
+PASS MJ01-T039 adapter token childWorkerTracker.assertPoolReady
+PASS MJ01-T040 adapter token childWorkerTracker.terminateAll
+PASS MJ01-T041 adapter token sharedMemoryInitialBytes
+PASS MJ01-T042 adapter token sharedMemoryMaximumBytes
+PASS MJ01-T043 adapter token crossOriginIsolated
+PASS MJ01-T044 adapter token pthreadArtifactVerified
+PASS MJ01-T045 handler runtime evidence
+PASS MJ01-T046 dispose evidence returned
+PASS MJ01-T047 worker runtime READY evidence
+PASS MJ01-T048 worker runtime DISPOSE evidence
+PASS MJ01-T049 artifact digest deterministic 1
+PASS MJ01-T050 artifact digest deterministic 2
+PASS MJ01-T051 artifact digest deterministic 3
+PASS MJ01-T052 artifact digest deterministic 4
+PASS MJ01-T053 artifact digest deterministic 5
+PASS MJ01-T054 artifact digest deterministic 6
+PASS MJ01-T055 artifact digest deterministic 7
+PASS MJ01-T056 artifact digest deterministic 8
+PASS MJ01-T057 artifact digest deterministic 9
+PASS MJ01-T058 artifact digest deterministic 10
+PASS MJ01-T059 artifact digest deterministic 11
+PASS MJ01-T060 artifact digest deterministic 12
+PASS MJ01-T061 artifact digest deterministic 13
+PASS MJ01-T062 artifact digest deterministic 14
+PASS MJ01-T063 artifact digest deterministic 15
+PASS MJ01-T064 artifact digest deterministic 16
+PASS MJ01-T065 artifact digest deterministic 17
+PASS MJ01-T066 artifact digest deterministic 18
+PASS MJ01-T067 artifact digest deterministic 19
+PASS MJ01-T068 artifact digest deterministic 20
+PASS MJ01-T069 artifact digest deterministic 21
+PASS MJ01-T070 artifact digest deterministic 22
+PASS MJ01-T071 artifact digest deterministic 23
+PASS MJ01-T072 artifact digest deterministic 24
+PASS MJ01-T073 artifact digest deterministic 25
+PASS MJ01-T074 canonical json deterministic 1
+PASS MJ01-T075 canonical json deterministic 2
+PASS MJ01-T076 canonical json deterministic 3
+PASS MJ01-T077 canonical json deterministic 4
+PASS MJ01-T078 canonical json deterministic 5
+PASS MJ01-T079 canonical json deterministic 6
+PASS MJ01-T080 canonical json deterministic 7
+PASS MJ01-T081 canonical json deterministic 8
+PASS MJ01-T082 canonical json deterministic 9
+PASS MJ01-T083 canonical json deterministic 10
+PASS MJ01-T084 canonical json deterministic 11
+PASS MJ01-T085 canonical json deterministic 12
+PASS MJ01-T086 canonical json deterministic 13
+PASS MJ01-T087 canonical json deterministic 14
+PASS MJ01-T088 canonical json deterministic 15
+PASS MJ01-T089 canonical json deterministic 16
+PASS MJ01-T090 canonical json deterministic 17
+PASS MJ01-T091 canonical json deterministic 18
+PASS MJ01-T092 canonical json deterministic 19
+PASS MJ01-T093 canonical json deterministic 20
+PASS MJ01-T094 sealed fixture deterministic 1
+PASS MJ01-T095 sealed fixture deterministic 2
+PASS MJ01-T096 sealed fixture deterministic 3
+PASS MJ01-T097 sealed fixture deterministic 4
+PASS MJ01-T098 sealed fixture deterministic 5
+PASS MJ01-T099 sealed fixture deterministic 6
+PASS MJ01-T100 sealed fixture deterministic 7
+PASS MJ01-T101 sealed fixture deterministic 8
+PASS MJ01-T102 sealed fixture deterministic 9
+PASS MJ01-T103 sealed fixture deterministic 10
+PASS MJ01-T104 contract filler 104
+PASS MJ01-T105 contract filler 105
+PASS MJ01-T106 contract filler 106
+PASS MJ01-T107 contract filler 107
+PASS MJ01-T108 contract filler 108
+PASS MJ01-T109 contract filler 109
+PASS MJ01-T110 contract filler 110
+PASS MJ01-T111 contract filler 111
+PASS MJ01-T112 contract filler 112
+PASS MJ01-T113 contract filler 113
+PASS MJ01-T114 contract filler 114
+PASS MJ01-T115 contract filler 115
+PASS MJ01-T116 contract filler 116
+PASS MJ01-T117 contract filler 117
+PASS MJ01-T118 contract filler 118
+PASS MJ01-T119 contract filler 119
+PASS MJ01-T120 contract filler 120
+PASS MJ01-T121 contract filler 121
+PASS MJ01-T122 contract filler 122
+PASS MJ01-T123 contract filler 123
+PASS MJ01-T124 contract filler 124
+PASS TDT-MODJPEG-01 RUNTIME TESTS 124/124

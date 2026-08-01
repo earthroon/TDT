@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl02.source-negative-control-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "status": "PASS",
+  "mutantCount": 40,
+  "detectedCount": 40,
+  "stableErrorCodeCount": 35,
+  "rows": [
+    {
+      "id": "M01",
+      "description": "TAU compatibility literal mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "39e157dc43fa9b106a5a4951204f5750b9ee63c4b1b36fa0c24e40cd069a3ab7"
+      }
+    },
+    {
+      "id": "M02",
+      "description": "RGB to XYZ row-major correction",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "a4719ee125dbd73883f9807d4dfd222de2b1cae70af4d04ac43e79bbe75fb113"
+      }
+    },
+    {
+      "id": "M03",
+      "description": "XYZ to RGB row-major correction",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "4b71a9b2851577ed10bbaf7067cb0cd600407e3d048535563af2085a918a878a"
+      }
+    },
+    {
+      "id": "M04",
+      "description": "internal sRGB decode insertion",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "20634dd827d1e3ec371fd858afa0f8eefb2418ec86c07a59cb9335729e1332d5"
+      }
+    },
+    {
+      "id": "M05",
+      "description": "Lab threshold mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "c02f57547a7c7942a3b5c3dfa83c9a3f36246f7131d9e80f28374f57a817c570"
+      }
+    },
+    {
+      "id": "M06",
+      "description": "CMYK clamp insertion",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "931c4aedb46462b10dd46f581677c0cbaaffda0a2ffa5a427b9a8d762a7c1342"
+      }
+    },
+    {
+      "id": "M07",
+      "description": "phase C multiplier mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "9d1f30be082b6265b4f6a5a6e0e79391df34e1b5134b1b28da3d20480dc79313"
+      }
+    },
+    {
+      "id": "M08",
+      "description": "phase M multiplier mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "e912b20e40475a89ec594ab51b368495ddc6f1c5f66ba9c79eb7e7c0f5086811"
+      }
+    },
+    {
+      "id": "M09",
+      "description": "mask weights mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "90f940b6b7173340eb8f9b2d8592b5570e4f91c3ecdaeb3d9eb369747e89fcf4"
+      }
+    },
+    {
+      "id": "M10",
+      "description": "neon exponent mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "3456078e109de4b77d288fe95e92c7dcd2d4a061ddb9ce42c9d69d57392823d3"
+      }
+    },
+    {
+      "id": "M11",
+      "description": "neon multiplier mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "70b216ec4805c905697fe26198fda1a6724d46de8c264c69b6e8c933d1d2f5c9"
+      }
+    },
+    {
+      "id": "M12",
+      "description": "smoothstep builtin substitution",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "8fb5789a760f74c9b5c38d2a769f9ccd9e736d943ca904de3865fd36d9a9269a"
+      }
+    },
+    {
+      "id": "M13",
+      "description": "fusion thresholds mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "a5f3eac2030a1635c21357e45f402aa9996602719e321a2818086dc94d9da220"
+      }
+    },
+    {
+      "id": "M14",
+      "description": "final q scalar power order mutation",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "81ad6a00db3cdfd7947a2cbe1ea6a4b27f067d90b012ad80c8703792a83a8489"
+      }
+    },
+    {
+      "id": "M15",
+      "description": "hidden R1C structure gate",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "6c4dc33abb11575f91c8d77dca08eb4044ba373a650943f7a7a14cdb393d487d"
+      }
+    },
+    {
+      "id": "M16",
+      "description": "output alpha from mask",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "05f7e6e789670e9dd1c8d47cf54d3f1918b21fe461dd0a822b74f91935dfdc1e"
+      }
+    },
+    {
+      "id": "M17",
+      "description": "straight alpha output storage",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "da9730156489348402ecc6e5080dd82e07749decfad383740b4af641f8115c0e"
+      }
+    },
+    {
+      "id": "M18",
+      "description": "rgba8 output storage",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "dc63effc80bb5f9d4931654540e7fec5915499cc301ffff4841bdb29b8022a04"
+      }
+    },
+    {
+      "id": "M19",
+      "description": "sampler binding addition",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "f894a33b78c5e7440ecd4f733479d3a39092a437da4e3e02676fb181d2056a0c"
+      }
+    },
+    {
+      "id": "M20",
+      "description": "filtered sampling dependency",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "05b73158dbac8b21f960033dd4710eb351a133aa0a28e7f3e6db57db2412ad6f"
+      }
+    },
+    {
+      "id": "M21",
+      "description": "bounds guard removal",
+      "detected": true,
+      "evidence": {
+        "baselineDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+        "mutantDigest": "0aa5e09416707795c8c2fad3138fec666f88d4f9db125363e7bce5832d953d2b"
+      }
+    },
+    {
+      "id": "M22",
+      "description": "qmap scalar alias",
+      "detected": true
+    },
+    {
+      "id": "M23",
+      "description": "output base alias",
+      "detected": true
+    },
+    {
+      "id": "M24",
+      "description": "canonical profile admission",
+      "detected": true
+    },
+    {
+      "id": "M25",
+      "description": "Tensor binding addition",
+      "detected": true
+    },
+    {
+      "id": "M26",
+      "description": "performance clock phase",
+      "detected": true
+    },
+    {
+      "id": "M27",
+      "description": "runtime generated source mutation",
+      "detected": true
+    },
+    {
+      "id": "M28",
+      "description": "product MAP readback",
+      "detected": true
+    },
+    {
+      "id": "M29",
+      "description": "product WebGL readback",
+      "detected": true
+    },
+    {
+      "id": "M30",
+      "description": "Surface Registry publish",
+      "detected": true
+    },
+    {
+      "id": "M31",
+      "description": "Preview publish",
+      "detected": true
+    },
+    {
+      "id": "M32",
+      "description": "Export publish",
+      "detected": true
+    },
+    {
+      "id": "M33",
+      "description": "canonical output authority",
+      "detected": true
+    },
+    {
+      "id": "M34",
+      "description": "ported WebGL source",
+      "detected": true
+    },
+    {
+      "id": "M35",
+      "description": "highp precision substitution",
+      "detected": true
+    },
+    {
+      "id": "M36",
+      "description": "tolerance doubled",
+      "detected": true
+    },
+    {
+      "id": "M37",
+      "description": "logical f32 instead of uploaded f16 truth",
+      "detected": true
+    },
+    {
+      "id": "M38",
+      "description": "parent receipt spoof",
+      "detected": true
+    },
+    {
+      "id": "M39",
+      "description": "generated source manual edit",
+      "detected": true
+    },
+    {
+      "id": "M40",
+      "description": "same-device nondeterminism injection",
+      "detected": true
+    }
+  ],
+  "selfSha256": "fbeadddf993b8fc35c0f92684ddfff7e48030bac0ee7b5fe1212c9d6923b8e01"
+}

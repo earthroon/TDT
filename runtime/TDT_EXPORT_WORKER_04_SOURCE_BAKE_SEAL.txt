@@ -1,0 +1,7 @@
+TDT-EXPORT-WORKER-04
+status=SOURCE_BAKED_UNPROMOTED
+buildId=22997b711a2f00ce5912c49e
+sourceBakeSeal=2461fc6bd9b7d8035a12df3ffa25123ac87457190a570f69b7c3f56b6d37270e
+workerSourceManifestDigest=230bd177fa54495b276913d1eb5702fa3b022b1420bed9bd396fdda468dae0f7
+canonicalRustWasm=false
+activeSourceBakeBackend=source-reference-js

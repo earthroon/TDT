@@ -1,0 +1,1083 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.source-gate-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "status": "PASS",
+  "passCount": 120,
+  "failCount": 0,
+  "rows": [
+    {
+      "id": "R2R3-S001",
+      "description": "authority ID exact",
+      "status": "PASS",
+      "evidence": "registry authority ID"
+    },
+    {
+      "id": "R2R3-S002",
+      "description": "canonical key schema exact",
+      "status": "PASS",
+      "evidence": "canonical key schema"
+    },
+    {
+      "id": "R2R3-S003",
+      "description": "device identity included",
+      "status": "PASS",
+      "evidence": "device identity in key"
+    },
+    {
+      "id": "R2R3-S004",
+      "description": "adapter identity included",
+      "status": "PASS",
+      "evidence": "adapter identity in key"
+    },
+    {
+      "id": "R2R3-S005",
+      "description": "WeakMap key non-authoritative",
+      "status": "PASS",
+      "evidence": "authority key has no WeakMap"
+    },
+    {
+      "id": "R2R3-S006",
+      "description": "registry generation monotonic",
+      "status": "PASS",
+      "evidence": "monotonic registry generation"
+    },
+    {
+      "id": "R2R3-S007",
+      "description": "build sequence monotonic",
+      "status": "PASS",
+      "evidence": "monotonic build sequence"
+    },
+    {
+      "id": "R2R3-S008",
+      "description": "exact key set validation",
+      "status": "PASS",
+      "evidence": "exact request key validation"
+    },
+    {
+      "id": "R2R3-S009",
+      "description": "snapshot digest replay",
+      "status": "PASS",
+      "evidence": "snapshot digest replay"
+    },
+    {
+      "id": "R2R3-S010",
+      "description": "no GPU object serialization",
+      "status": "PASS",
+      "evidence": "snapshot excludes GPU objects"
+    },
+    {
+      "id": "R2R3-S011",
+      "description": "BUILDING caller joins",
+      "status": "PASS",
+      "evidence": "BUILDING join branch"
+    },
+    {
+      "id": "R2R3-S012",
+      "description": "build Promise stable reference",
+      "status": "PASS",
+      "evidence": "one stored build promise"
+    },
+    {
+      "id": "R2R3-S013",
+      "description": "physical build count one",
+      "status": "PASS",
+      "evidence": [
+        {
+          "callerCount": 2,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 1,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 2,
+          "samePipelineSetDigestCount": 2,
+          "pass": true
+        },
+        {
+          "callerCount": 4,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 3,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 4,
+          "samePipelineSetDigestCount": 4,
+          "pass": true
+        },
+        {
+          "callerCount": 8,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 7,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 8,
+          "samePipelineSetDigestCount": 8,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S014",
+      "description": "join count exact",
+      "status": "PASS",
+      "evidence": [
+        {
+          "callerCount": 2,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 1,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 2,
+          "samePipelineSetDigestCount": 2,
+          "pass": true
+        },
+        {
+          "callerCount": 4,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 3,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 4,
+          "samePipelineSetDigestCount": 4,
+          "pass": true
+        },
+        {
+          "callerCount": 8,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 7,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 8,
+          "samePipelineSetDigestCount": 8,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S015",
+      "description": "no BUILDING replacement",
+      "status": "PASS",
+      "evidence": [
+        {
+          "callerCount": 2,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 1,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 2,
+          "samePipelineSetDigestCount": 2,
+          "pass": true
+        },
+        {
+          "callerCount": 4,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 3,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 4,
+          "samePipelineSetDigestCount": 4,
+          "pass": true
+        },
+        {
+          "callerCount": 8,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 7,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 8,
+          "samePipelineSetDigestCount": 8,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S016",
+      "description": "ACTIVE exact reuse",
+      "status": "PASS",
+      "evidence": [
+        {
+          "callerCount": 2,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 1,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 2,
+          "samePipelineSetDigestCount": 2,
+          "pass": true
+        },
+        {
+          "callerCount": 4,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 3,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 4,
+          "samePipelineSetDigestCount": 4,
+          "pass": true
+        },
+        {
+          "callerCount": 8,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 7,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 8,
+          "samePipelineSetDigestCount": 8,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S017",
+      "description": "different key no join",
+      "status": "PASS",
+      "evidence": {
+        "pass": true,
+        "physicalBuildCount": 2,
+        "joinCount": 0
+      }
+    },
+    {
+      "id": "R2R3-S018",
+      "description": "failed entry no silent reuse",
+      "status": "PASS",
+      "evidence": {
+        "pass": true,
+        "firstFailureCode": "E_R9AP1R2R3_BUILD_FAILED",
+        "physicalBuildCount": 2,
+        "entryStates": [
+          "ACTIVE"
+        ]
+      }
+    },
+    {
+      "id": "R2R3-S019",
+      "description": "duplicate callback bounded",
+      "status": "PASS",
+      "evidence": [
+        {
+          "callerCount": 2,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 1,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 2,
+          "samePipelineSetDigestCount": 2,
+          "pass": true
+        },
+        {
+          "callerCount": 4,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 3,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 4,
+          "samePipelineSetDigestCount": 4,
+          "pass": true
+        },
+        {
+          "callerCount": 8,
+          "physicalFactoryCount": 1,
+          "physicalBuildCount": 1,
+          "joinCount": 7,
+          "activeEntryCount": 1,
+          "samePipelineObjectCount": 8,
+          "samePipelineSetDigestCount": 8,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S020",
+      "description": "single-flight negative matrix pass",
+      "status": "PASS",
+      "evidence": "single-flight report sealed"
+    },
+    {
+      "id": "R2R3-S021",
+      "description": "build token all fields",
+      "status": "PASS",
+      "evidence": "build token fields"
+    },
+    {
+      "id": "R2R3-S022",
+      "description": "current entry object check",
+      "status": "PASS",
+      "evidence": "current entry object guard"
+    },
+    {
+      "id": "R2R3-S023",
+      "description": "reservation generation check",
+      "status": "PASS",
+      "evidence": "reservation generation guard"
+    },
+    {
+      "id": "R2R3-S024",
+      "description": "build sequence check",
+      "status": "PASS",
+      "evidence": "build sequence guard"
+    },
+    {
+      "id": "R2R3-S025",
+      "description": "entry key digest check",
+      "status": "PASS",
+      "evidence": "entry digest guard"
+    },
+    {
+      "id": "R2R3-S026",
+      "description": "runtime epoch check",
+      "status": "PASS",
+      "evidence": "runtime epoch commit guard"
+    },
+    {
+      "id": "R2R3-S027",
+      "description": "device epoch check",
+      "status": "PASS",
+      "evidence": "device epoch commit guard"
+    },
+    {
+      "id": "R2R3-S028",
+      "description": "device identity check",
+      "status": "PASS",
+      "evidence": "device identity commit guard"
+    },
+    {
+      "id": "R2R3-S029",
+      "description": "lease current check",
+      "status": "PASS",
+      "evidence": "lease checked before and after build"
+    },
+    {
+      "id": "R2R3-S030",
+      "description": "stale commit rejected",
+      "status": "PASS",
+      "evidence": "stale commit rejected"
+    },
+    {
+      "id": "R2R3-S031",
+      "description": "exact old identity selection",
+      "status": "PASS",
+      "evidence": "exact old identity target"
+    },
+    {
+      "id": "R2R3-S032",
+      "description": "BUILDING invalidation token revoke",
+      "status": "PASS",
+      "evidence": "BUILDING invalidation revoke"
+    },
+    {
+      "id": "R2R3-S033",
+      "description": "ACTIVE root dispose once",
+      "status": "PASS",
+      "evidence": {
+        "rootDisposeCount": 1,
+        "tensorDisposeCount": 1,
+        "adaptiveDisposeCount": 1,
+        "effectDisposeCount": 1
+      }
+    },
+    {
+      "id": "R2R3-S034",
+      "description": "Tensor chained dispose",
+      "status": "PASS",
+      "evidence": {
+        "rootDisposeCount": 1,
+        "tensorDisposeCount": 1,
+        "adaptiveDisposeCount": 1,
+        "effectDisposeCount": 1
+      }
+    },
+    {
+      "id": "R2R3-S035",
+      "description": "Adaptive chained dispose",
+      "status": "PASS",
+      "evidence": {
+        "rootDisposeCount": 1,
+        "tensorDisposeCount": 1,
+        "adaptiveDisposeCount": 1,
+        "effectDisposeCount": 1
+      }
+    },
+    {
+      "id": "R2R3-S036",
+      "description": "late completion dispose",
+      "status": "PASS",
+      "evidence": {
+        "resolved": false,
+        "code": "E_R9AP1R2R3_BUILD_INVALIDATED"
+      }
+    },
+    {
+      "id": "R2R3-S037",
+      "description": "old active count zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "R2R3-S038",
+      "description": "old building count zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "R2R3-S039",
+      "description": "invalidation receipt replay",
+      "status": "PASS",
+      "evidence": "invalidation receipt replay"
+    },
+    {
+      "id": "R2R3-S040",
+      "description": "invalidation lifecycle order",
+      "status": "PASS",
+      "evidence": [
+        "BUILD_RESERVED",
+        "INVALIDATION_STARTED",
+        "LATE_COMPLETION_DISPOSED",
+        "INVALIDATED",
+        "DISPOSED"
+      ]
+    },
+    {
+      "id": "R2R3-S041",
+      "description": "EWA runtime epoch exact",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "id": "R2R3-S042",
+      "description": "EWA device epoch exact",
+      "status": "PASS",
+      "evidence": 32
+    },
+    {
+      "id": "R2R3-S043",
+      "description": "EWA device identity exact",
+      "status": "PASS",
+      "evidence": "device-32"
+    },
+    {
+      "id": "R2R3-S044",
+      "description": "layout digest present",
+      "status": "PASS",
+      "evidence": "1dc5ae5b68174891b6aa9850aa05ee0d9ae8a20468d9517259951a2dd9e9c0f0"
+    },
+    {
+      "id": "R2R3-S045",
+      "description": "kernel contract digest present",
+      "status": "PASS",
+      "evidence": "79a3e49d77951e92f86bb5b17e561e8de4f0269100a8d3e0fc1a47456e8fd292"
+    },
+    {
+      "id": "R2R3-S046",
+      "description": "generated manifest digest present",
+      "status": "PASS",
+      "evidence": "908de08ff48fd6b9a3a71ebbc9ebe4a6ab08bf37e58c45a451d7524f2464ec61"
+    },
+    {
+      "id": "R2R3-S047",
+      "description": "canonical pipeline identity present",
+      "status": "PASS",
+      "evidence": "ewa-canonical:device-32"
+    },
+    {
+      "id": "R2R3-S048",
+      "description": "validation pipeline identities present",
+      "status": "PASS",
+      "evidence": {
+        "canonical": "ewa-canonical:device-32",
+        "tiledR4": "ewa-tiled-r4:device-32",
+        "tiledR6": "ewa-tiled-r6:device-32",
+        "validationR4": "ewa-validation-r4:device-32",
+        "validationR6": "ewa-validation-r6:device-32",
+        "reference": "ewa-reference:device-32",
+        "comparator": "ewa-comparator:device-32"
+      }
+    },
+    {
+      "id": "R2R3-S049",
+      "description": "comparator identity present",
+      "status": "PASS",
+      "evidence": "ewa-comparator:device-32"
+    },
+    {
+      "id": "R2R3-S050",
+      "description": "EWA identity digest replay",
+      "status": "PASS",
+      "evidence": "pipeline set digest covers EWA identity"
+    },
+    {
+      "id": "R2R3-S051",
+      "description": "Tensor runtime epoch exact",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "id": "R2R3-S052",
+      "description": "Tensor device epoch exact",
+      "status": "PASS",
+      "evidence": 32
+    },
+    {
+      "id": "R2R3-S053",
+      "description": "Tensor device identity exact",
+      "status": "PASS",
+      "evidence": "device-32"
+    },
+    {
+      "id": "R2R3-S054",
+      "description": "ABI present",
+      "status": "PASS",
+      "evidence": "tdt.structure-tensor.r1c.abi.v1"
+    },
+    {
+      "id": "R2R3-S055",
+      "description": "field schema present",
+      "status": "PASS",
+      "evidence": "tdt.structure-tensor.r1c.field.v1"
+    },
+    {
+      "id": "R2R3-S056",
+      "description": "axial schema present",
+      "status": "PASS",
+      "evidence": "tdt.structure-tensor.r1c.axial-field.v1"
+    },
+    {
+      "id": "R2R3-S057",
+      "description": "chain identity present",
+      "status": "PASS",
+      "evidence": "tensor:device-32"
+    },
+    {
+      "id": "R2R3-S058",
+      "description": "axial identity present",
+      "status": "PASS",
+      "evidence": "tensor-axial:device-32"
+    },
+    {
+      "id": "R2R3-S059",
+      "description": "shader digest map sorted",
+      "status": "PASS",
+      "evidence": {
+        "axial": "d9fe7c78953d47009c9b79936b97ee5ee6f003b5c0b7ab82fcce43711eb8d788",
+        "structure": "195f76eaa28dd85eb399f9ccc2e06404f06a441a5f2a684b3abecb1b8486d598"
+      }
+    },
+    {
+      "id": "R2R3-S060",
+      "description": "Tensor identity digest replay",
+      "status": "PASS",
+      "evidence": "pipeline set digest covers Tensor identity"
+    },
+    {
+      "id": "R2R3-S061",
+      "description": "Adaptive schema v2",
+      "status": "PASS",
+      "evidence": "Adaptive schema v2"
+    },
+    {
+      "id": "R2R3-S062",
+      "description": "runtime epoch exact",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "id": "R2R3-S063",
+      "description": "device epoch exact",
+      "status": "PASS",
+      "evidence": 32
+    },
+    {
+      "id": "R2R3-S064",
+      "description": "device identity exact",
+      "status": "PASS",
+      "evidence": "device-32"
+    },
+    {
+      "id": "R2R3-S065",
+      "description": "ABI present",
+      "status": "PASS",
+      "evidence": "tdt.adaptive-policy.r1d.abi.v1"
+    },
+    {
+      "id": "R2R3-S066",
+      "description": "field schema present",
+      "status": "PASS",
+      "evidence": "tdt.adaptive-policy.r1d.field.v1"
+    },
+    {
+      "id": "R2R3-S067",
+      "description": "pipeline identity present",
+      "status": "PASS",
+      "evidence": "adaptive:device-32"
+    },
+    {
+      "id": "R2R3-S068",
+      "description": "shader digest present",
+      "status": "PASS",
+      "evidence": "24092096c15ba33c4f0982b20a14100d03136621451cfa166e0da878cf2b20fb"
+    },
+    {
+      "id": "R2R3-S069",
+      "description": "dispose idempotent",
+      "status": "PASS",
+      "evidence": {
+        "rootDisposeCount": 1,
+        "tensorDisposeCount": 1,
+        "adaptiveDisposeCount": 1,
+        "effectDisposeCount": 1
+      }
+    },
+    {
+      "id": "R2R3-S070",
+      "description": "Adaptive omission matrix pass",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "VALIDATION_BEFORE_REBUILD",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_REGISTRY_NOT_READY",
+          "expected": [
+            "E_R9AP1R2R3_REGISTRY_NOT_READY"
+          ]
+        },
+        {
+          "id": "OLD_PIPELINE_EXECUTION",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_STALE_PIPELINE_SET",
+          "expected": [
+            "E_R9AP1R2R3_STALE_PIPELINE_SET"
+          ]
+        },
+        {
+          "id": "EAGER_REBUILD_REUSE",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_BUILD_ALREADY_TERMINAL",
+          "expected": [
+            "E_R9AP1R2R3_BUILD_ALREADY_TERMINAL"
+          ]
+        },
+        {
+          "id": "INVALIDATION_EXTRA_KEY",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_INVALIDATION_IDENTITY",
+          "expected": [
+            "E_R9AP1R2R3_INVALIDATION_IDENTITY"
+          ]
+        },
+        {
+          "id": "ADAPTIVE_OMISSION",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_PIPELINE_FAMILY_INCOMPLETE",
+          "expected": [
+            "E_R9AP1R2R3_PIPELINE_FAMILY_INCOMPLETE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S071",
+      "description": "request digest replay",
+      "status": "PASS",
+      "evidence": "request and rebuild receipt replay"
+    },
+    {
+      "id": "R2R3-S072",
+      "description": "request identity exact",
+      "status": "PASS",
+      "evidence": "request identity exact"
+    },
+    {
+      "id": "R2R3-S073",
+      "description": "lease owner unchanged",
+      "status": "PASS",
+      "evidence": "existing lease owner"
+    },
+    {
+      "id": "R2R3-S074",
+      "description": "pipeline family count three",
+      "status": "PASS",
+      "evidence": 4
+    },
+    {
+      "id": "R2R3-S075",
+      "description": "physical build count one",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "id": "R2R3-S076",
+      "description": "current active count one",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "id": "R2R3-S077",
+      "description": "old counts zero",
+      "status": "PASS",
+      "evidence": {
+        "schemaVersion": 1,
+        "schemaId": "tdt.r9a-p1-r2-r3.pipeline-rebuild-receipt.v1",
+        "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+        "authorityId": "tdt.resample.canonical-pipeline-registry.r2-r3.v1",
+        "mode": "RECOVERY_EAGER",
+        "runId": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "cycleOrdinal": 1,
+        "cycleBindingDigest": "2557a7f63fd2aa33f7880e8f787f08959054a9fde0c5fd14341dedca6aff58d9",
+        "permitTombstoneDigest": "7a77ff62f7e81e7eea0fc88fc83caafc6c0348993db113ef18e826e76fdcfeb1",
+        "ownerBindingDigest": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581",
+        "packageClosureDigest": "6d4cb937d6d22521566bba561458d0d1952df6df7a80e46ef5dab9014fbc3557",
+        "runtimeEpoch": 1,
+        "oldDeviceEpoch": 31,
+        "deviceEpoch": 32,
+        "deviceIdentity": "device-32",
+        "adapterIdentity": "adapter-canonical",
+        "entryKeyDigest": "b2b9362d1c686068b6da6232aadcaf18009afab628ca800d9eec45f4bfa6a438",
+        "registryGeneration": 7,
+        "buildSequence": 2,
+        "physicalBuildCount": 1,
+        "singleFlightJoinCount": 0,
+        "oldEpochActiveCount": 0,
+        "oldEpochBuildingCount": 0,
+        "currentEpochActiveCount": 1,
+        "pipelineFamilyCount": 4,
+        "pipelineSetIdentityDigest": "5de0c21fe3309a0f21f10e61d117df3b44b9e50ec68c78247b413ba5a9fa4a8c",
+        "invalidationReceiptDigest": "c42dd66aac3ce187f399b20dbfb736bd59ab060daf8fa627cb20891b9171c8bc",
+        "startedAtMs": 3002,
+        "completedAtMs": 3003,
+        "durationMs": 1,
+        "rebuildDigest": "1f0c4e5f9d9103d379e730c6e1608fb6beb3390008fdcea7e3c7ecba3d6bafc9",
+        "selfSha256": "e9423f8b9552cdad44b38912063123d54260e4d1824e07fedb412e3a6444481b"
+      }
+    },
+    {
+      "id": "R2R3-S078",
+      "description": "pipeline set digest replay",
+      "status": "PASS",
+      "evidence": "5de0c21fe3309a0f21f10e61d117df3b44b9e50ec68c78247b413ba5a9fa4a8c"
+    },
+    {
+      "id": "R2R3-S079",
+      "description": "rebuild digest replay",
+      "status": "PASS",
+      "evidence": "1f0c4e5f9d9103d379e730c6e1608fb6beb3390008fdcea7e3c7ecba3d6bafc9"
+    },
+    {
+      "id": "R2R3-S080",
+      "description": "receipt after ACTIVE only",
+      "status": "PASS",
+      "evidence": "ACTIVE before receipt seal"
+    },
+    {
+      "id": "R2R3-S081",
+      "description": "rebuild return evidence supported",
+      "status": "PASS",
+      "evidence": "optional participant evidence"
+    },
+    {
+      "id": "R2R3-S082",
+      "description": "participant IDs sorted",
+      "status": "PASS",
+      "evidence": "participant IDs sorted"
+    },
+    {
+      "id": "R2R3-S083",
+      "description": "set digest replay",
+      "status": "PASS",
+      "evidence": "participant set digest"
+    },
+    {
+      "id": "R2R3-S084",
+      "description": "holder receipt included",
+      "status": "PASS",
+      "evidence": "holder receipt exact inclusion"
+    },
+    {
+      "id": "R2R3-S085",
+      "description": "missing holder receipt denied",
+      "status": "PASS",
+      "evidence": "missing holder receipt denied"
+    },
+    {
+      "id": "R2R3-S086",
+      "description": "recovered event count exact",
+      "status": "PASS",
+      "evidence": "event count exact"
+    },
+    {
+      "id": "R2R3-S087",
+      "description": "recovered event set digest present",
+      "status": "PASS",
+      "evidence": "event set digest present"
+    },
+    {
+      "id": "R2R3-S088",
+      "description": "recovery failure omits recovered event",
+      "status": "PASS",
+      "evidence": "recovered event only in success branch"
+    },
+    {
+      "id": "R2R3-S089",
+      "description": "participant evidence no raw object",
+      "status": "PASS",
+      "evidence": "participant evidence references only"
+    },
+    {
+      "id": "R2R3-S090",
+      "description": "event correlation exact",
+      "status": "PASS",
+      "evidence": "event correlation exact"
+    },
+    {
+      "id": "R2R3-S091",
+      "description": "legal transition table present",
+      "status": "PASS",
+      "evidence": "legal transition table"
+    },
+    {
+      "id": "R2R3-S092",
+      "description": "REACQUIRING before REBUILDING",
+      "status": "PASS",
+      "evidence": "REACQUIRING before REBUILDING"
+    },
+    {
+      "id": "R2R3-S093",
+      "description": "lease acquired in rebuild",
+      "status": "PASS",
+      "evidence": "lease acquired"
+    },
+    {
+      "id": "R2R3-S094",
+      "description": "explicit rebuild API called",
+      "status": "PASS",
+      "evidence": "explicit rebuild called"
+    },
+    {
+      "id": "R2R3-S095",
+      "description": "receipt replay before VALIDATING",
+      "status": "PASS",
+      "evidence": "receipt replay before VALIDATING"
+    },
+    {
+      "id": "R2R3-S096",
+      "description": "failure transitions FAILED",
+      "status": "PASS",
+      "evidence": "failure to FAILED"
+    },
+    {
+      "id": "R2R3-S097",
+      "description": "lease release finally",
+      "status": "PASS",
+      "evidence": "lease release finally"
+    },
+    {
+      "id": "R2R3-S098",
+      "description": "active cycle stores receipt",
+      "status": "PASS",
+      "evidence": "active cycle stores receipt"
+    },
+    {
+      "id": "R2R3-S099",
+      "description": "completed cycle stores receipt",
+      "status": "PASS",
+      "evidence": "completed cycle stores receipt"
+    },
+    {
+      "id": "R2R3-S100",
+      "description": "holder ledger full lineage",
+      "status": "PASS",
+      "evidence": "holder full lineage"
+    },
+    {
+      "id": "R2R3-S101",
+      "description": "closure schema v2",
+      "status": "PASS",
+      "evidence": "closure v2"
+    },
+    {
+      "id": "R2R3-S102",
+      "description": "invalidation digest included",
+      "status": "PASS",
+      "evidence": "invalidation digest in closure"
+    },
+    {
+      "id": "R2R3-S103",
+      "description": "rebuild digest included",
+      "status": "PASS",
+      "evidence": "rebuild digest in closure"
+    },
+    {
+      "id": "R2R3-S104",
+      "description": "pipeline set digest included",
+      "status": "PASS",
+      "evidence": "pipeline set digest in closure"
+    },
+    {
+      "id": "R2R3-S105",
+      "description": "participant set digest included",
+      "status": "PASS",
+      "evidence": "participant set digest in closure"
+    },
+    {
+      "id": "R2R3-S106",
+      "description": "Main acknowledgement exact",
+      "status": "PASS",
+      "evidence": "Main acknowledgement exact"
+    },
+    {
+      "id": "R2R3-S107",
+      "description": "validation token exact",
+      "status": "PASS",
+      "evidence": "validation token exact"
+    },
+    {
+      "id": "R2R3-S108",
+      "description": "require-ready before fixture",
+      "status": "PASS",
+      "evidence": "require-ready before validation fixture"
+    },
+    {
+      "id": "R2R3-S109",
+      "description": "lazy build count zero",
+      "status": "PASS",
+      "evidence": "lazy build count zero"
+    },
+    {
+      "id": "R2R3-S110",
+      "description": "validation-before-rebuild denied",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "VALIDATION_BEFORE_REBUILD",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_REGISTRY_NOT_READY",
+          "expected": [
+            "E_R9AP1R2R3_REGISTRY_NOT_READY"
+          ]
+        },
+        {
+          "id": "OLD_PIPELINE_EXECUTION",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_STALE_PIPELINE_SET",
+          "expected": [
+            "E_R9AP1R2R3_STALE_PIPELINE_SET"
+          ]
+        },
+        {
+          "id": "EAGER_REBUILD_REUSE",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_BUILD_ALREADY_TERMINAL",
+          "expected": [
+            "E_R9AP1R2R3_BUILD_ALREADY_TERMINAL"
+          ]
+        },
+        {
+          "id": "INVALIDATION_EXTRA_KEY",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_INVALIDATION_IDENTITY",
+          "expected": [
+            "E_R9AP1R2R3_INVALIDATION_IDENTITY"
+          ]
+        },
+        {
+          "id": "ADAPTIVE_OMISSION",
+          "status": true,
+          "observedCode": "E_R9AP1R2R3_PIPELINE_FAMILY_INCOMPLETE",
+          "expected": [
+            "E_R9AP1R2R3_PIPELINE_FAMILY_INCOMPLETE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R2R3-S111",
+      "description": "ten child artifacts declared",
+      "status": "PASS",
+      "evidence": [
+        "R9AP1R2R3_PIPELINE_INVALIDATION_LEDGER.json",
+        "R9AP1R2R3_PIPELINE_BUILD_LEDGER.json",
+        "R9AP1R2R3_PIPELINE_SET_IDENTITY_LEDGER.json",
+        "R9AP1R2R3_PIPELINE_REBUILD_RECEIPT_LEDGER.json",
+        "R9AP1R2R3_PARTICIPANT_REBUILD_SET_LEDGER.json",
+        "R9AP1R2R3_OLD_PIPELINE_REUSE_NEGATIVE_LEDGER.json",
+        "R9AP1R2R3_SINGLE_FLIGHT_NEGATIVE_LEDGER.json",
+        "R9AP1R2R3_LATE_COMPLETION_NEGATIVE_LEDGER.json",
+        "R9AP1R2R3_REBUILD_BEFORE_VALIDATION_LEDGER.json",
+        "R9AP1R2R3_THREE_CYCLE_PIPELINE_MATRIX.json"
+      ]
+    },
+    {
+      "id": "R2R3-S112",
+      "description": "child self-hashes replay",
+      "status": "PASS",
+      "evidence": "source evidence and packaged child self-hash replay"
+    },
+    {
+      "id": "R2R3-S113",
+      "description": "three-cycle matrix schema exact",
+      "status": "PASS",
+      "evidence": "three-cycle matrix schema"
+    },
+    {
+      "id": "R2R3-S114",
+      "description": "parent R2-R1 bytes preserved",
+      "status": "PASS",
+      "evidence": "R2-R1 parent bytes"
+    },
+    {
+      "id": "R2R3-S115",
+      "description": "parent R2-R2 bytes preserved",
+      "status": "PASS",
+      "evidence": "R2-R2 parent bytes"
+    },
+    {
+      "id": "R2R3-S116",
+      "description": "no parent receipt overwrite",
+      "status": "PASS",
+      "evidence": "no parent receipt overwrite"
+    },
+    {
+      "id": "R2R3-S117",
+      "description": "implementation manifest complete",
+      "status": "PASS",
+      "evidence": "implementation manifest complete"
+    },
+    {
+      "id": "R2R3-S118",
+      "description": "changed file manifest complete",
+      "status": "PASS",
+      "evidence": "changed file manifest complete"
+    },
+    {
+      "id": "R2R3-S119",
+      "description": "active graph no new randomness",
+      "status": "PASS",
+      "evidence": [
+        "app/legacy-runtime/modules/dk_resample/canonical_pipeline_registry_r2r3.mjs",
+        "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs",
+        "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+        "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+        "app/src/boot/stable-error.ts",
+        "app/src/runtime/gpu/gpu-device-authority-service.ts",
+        "app/src/runtime/gpu/gpu-service.ts",
+        "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts",
+        "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+        "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+        "app/src/env.d.ts",
+        "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+        "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+        "tools/resample-runtime-01-r9a-p1-r2-r3/test-fixture.mjs",
+        "tools/resample-runtime-01-r9a-p1-r2-r3/run-single-flight-unit.mjs",
+        "tools/resample-runtime-01-r9a-p1-r2-r3/run-late-completion-unit.mjs",
+        "tools/resample-runtime-01-r9a-p1-r2-r3/run-source-negative-controls.mjs",
+        "tools/resample-runtime-01-r9a-p1-r2-r3/verify-source.mjs",
+        "tools/resample-runtime-01-r9a-p1-r2-r3/finalize-packaged.mjs"
+      ]
+    },
+    {
+      "id": "R2R3-S120",
+      "description": "source final receipt sealed",
+      "status": "PASS",
+      "evidence": "source final receipt sealing verified after report assembly"
+    }
+  ],
+  "selfSha256": "d44cddc88e152f1af04944a1482e8593d94ed70bfd9d2daa0c70ebca527ea71c"
+}

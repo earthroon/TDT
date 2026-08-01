@@ -1,0 +1,22 @@
+{
+  "patchId": "TDT-EXPORT-WORKER-06",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "workerId": "dadum.worker.encoder.modjpeg-canonical-v1",
+  "codecProtocolVersion": "dadum-modjpeg-canonical-worker-v1",
+  "workerArtifactSetDigest": "cd0bca5d6c4406497c2f85ce5515a17d9d8e19dc722b38cfb0fd748df0cef395",
+  "artifactVerificationMode": "source-graph-only",
+  "schema": "tdt-export-worker-06-modjpeg-artifact-report-v1",
+  "modulePath": "app/legacy-runtime/encoders/libmodjpeg_wasm.mjs",
+  "moduleSha256": "6c951106e5cc2b68b06b8f6290e448a892c2a31da017f3c5946f5fb7903b6166",
+  "wasmPath": "app/legacy-runtime/wasm/libmodjpeg_wasm.wasm",
+  "wasmSha256": "6f669d33e1d7f47f95ca14c4562bbb55985942f5c43a01521aeb6f01dd2e0a14",
+  "exportedAbi": [
+    "encode_mozjpeg_RGB",
+    "jpgbuffer_ptr",
+    "jpgbuffer_len",
+    "jpgbuffer_free"
+  ],
+  "sourceContainsPthreadPoolSize8": true,
+  "singleThreadArtifactBuilt": false
+}

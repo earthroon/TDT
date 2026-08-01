@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "snapshotParentZipSha256": "6b6d7e403d4d289c43c28956b74df5c272da7138055fd180df671a5a5298fa63",
+  "snapshotFileCount": 15,
+  "rows": [
+    {
+      "name": "resample-runtime-01-r1a",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "",
+        "> dadumdadum@1.0.0 verify:resample-runtime-01-r1a",
+        "> node tools/resample-runtime-01-r1a/run.mjs",
+        "",
+        "PASS R1A source contract 40/40",
+        "PASS R1A call audit findings=5",
+        "PASS R1A mock runtime smoke",
+        "TDT-RESAMPLE-RUNTIME-01-R1A 57 PASS / 11 DEFERRED / 0 FAIL",
+        "PASS R1A source seal 33775d2e082c1a55aecdd8a1c510039a94bbdf560f5103190699861c43c3a38e files=57",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r1b",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "",
+        "> dadumdadum@1.0.0 verify:resample-runtime-01-r1b",
+        "> node tools/resample-runtime-01-r1b/run.mjs",
+        "",
+        "PASS R1B planner fixtures 75/75",
+        "PASS R1B source contract 44/44",
+        "PASS R1B mock runtime 17/17",
+        "TDT-RESAMPLE-RUNTIME-01-R1B 72 PASS / 12 DEFERRED / 0 FAIL",
+        "PASS R1B source seal 9d85241d7a158eb4893923eb0ed7c336e0c8a901e0c30545facb6a264bc2a291 files=28",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r1c",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "",
+        "> dadumdadum@1.0.0 verify:resample-runtime-01-r1c",
+        "> node tools/resample-runtime-01-r1c/run.mjs",
+        "",
+        "PASS R1C source contract 90/90",
+        "PASS R1C tensor math 15/15",
+        "PASS R1C mock runtime 18/18",
+        "TDT-RESAMPLE-RUNTIME-01-R1C 90 PASS / 6 DEFERRED / 0 FAIL",
+        "PASS R1C source seal 1b1ed649044fca6c6745ce20df66104f37352cb2c20a096a940d8da4dc5bd907 changed=37 sealed=40",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r1d",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "",
+        "> dadumdadum@1.0.0 verify:resample-runtime-01-r1d",
+        "> node tools/resample-runtime-01-r1d/run.mjs",
+        "",
+        "PASS R1D source contract 91/91",
+        "PASS R1D runtime smoke 13/13",
+        "TDT-RESAMPLE-RUNTIME-01-R1D 100 PASS / 8 DEFERRED / 0 FAIL",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r2",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "",
+        "> dadumdadum@1.0.0 verify:resample-runtime-01-r2",
+        "> node tools/resample-runtime-01-r2/run.mjs",
+        "",
+        "PASS R2 source contract 25/25",
+        "PASS R2 mock runtime 10/10",
+        "TDT-RESAMPLE-RUNTIME-01-R2 81 PASS / 27 DEFERRED / 0 FAIL",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r3",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "> node tools/resample-runtime-01-r3/run.mjs",
+        "",
+        "PASS R3 deterministic fixture generation fixtures=102 sources=39 digest=242439fa4fb35be63af0b7bdf4d9e3337243272a88b40ba6bf0c827152b02ad4",
+        "PASS R3 oracle self tests 12/12",
+        "PASS R3 fractional phase negative control mismatches=95/102",
+        "PASS R3 source contract 26/26",
+        "PASS R3 shared source error proof assets=5 modelError=0",
+        "PASS R3 zero runtime CPU fallback scan files=1069",
+        "PASS R3 bounded runtime smoke 10/10",
+        "TDT-RESAMPLE-RUNTIME-01-R3 86 PASS / 2 DEFERRED / 0 FAIL",
+        "PASS R3 source seal 20f10556d5a6c5e16a05f581b93f9e82fe75e52ceaf594077414c2a255b818df changed=31 sealed=33",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r4",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "PASS R4 parent freeze 14/14",
+        "PASS R4 coordinate contract 3/3",
+        "PASS R4 R3 oracle relationship 3/3",
+        "PASS R4 product/reference source 47/47",
+        "PASS R4 tile proof 31/31",
+        "PASS R4 runtime wiring regression 21/21",
+        "PASS R4 zero fallback 6/6",
+        "PASS R4 predecessor regression 7/7",
+        "PASS R4 runtime smoke 4/4",
+        "TDT-RESAMPLE-RUNTIME-01-R4 102 PASS / 4 DEFERRED / 0 FAIL",
+        "RESAMPLE_RUNTIME_R4_PHASE_CORRECT_PRODUCT_REFERENCE_REPAIRED_AWAITING_R5",
+        ""
+      ]
+    },
+    {
+      "name": "resample-runtime-01-r5",
+      "pass": true,
+      "status": 0,
+      "tail": [
+        "",
+        "> dadumdadum@1.0.0 verify:resample-runtime-01-r5",
+        "> node tools/resample-runtime-01-r5/run.mjs",
+        "",
+        "PASS R5 fixtures 27",
+        "PASS R5 oracle 84/84",
+        "PASS R5 source contract 94/94",
+        "PASS R5 mock runtime 129/129",
+        "PASS R5 predecessor regression 7/7 with isolated historical evidence restoration",
+        "TDT-RESAMPLE-RUNTIME-01-R5 132 PASS / 5 DEFERRED / 0 FAIL",
+        "PASS R5 finalize 9 authoritative files",
+        ""
+      ]
+    }
+  ]
+}

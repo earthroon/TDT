@@ -1,0 +1,3 @@
+TDT-EXPORT-WORKER-03 STRICT TYPESCRIPT CLOSURE
+Scope: changed Runtime codec, Worker, manifest, receipt, and export authority graph
+PASS strict TypeScript closure

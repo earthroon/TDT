@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "authorityFile": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+  "filesScanned": 876,
+  "findings": [],
+  "pass": true
+}

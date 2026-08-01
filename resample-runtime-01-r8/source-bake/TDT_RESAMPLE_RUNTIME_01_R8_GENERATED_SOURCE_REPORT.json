@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "manifest-identities",
+      "pass": true,
+      "value": 5
+    },
+    {
+      "id": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl",
+      "pass": true,
+      "value": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25"
+    },
+    {
+      "id": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl",
+      "pass": true,
+      "value": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df"
+    },
+    {
+      "id": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r8.wgsl",
+      "pass": true,
+      "value": "848582c747543db92514fb5b73ee3b667cdc45efeef7aa7f32d2516471df0fc3"
+    },
+    {
+      "id": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r8.wgsl",
+      "pass": true,
+      "value": "792cb27c7adcb4cc6d54324c524f62eabe00e22bbcce45e337cd24217aa16d09"
+    },
+    {
+      "id": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl",
+      "pass": true,
+      "value": "ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7"
+    },
+    {
+      "id": "templates-and-generator-not-runtime",
+      "pass": true,
+      "value": true
+    }
+  ],
+  "manifestDigest": "e1b57005fb27f5ac076551ecee9676411b7560d3f0b732fba27a37ebaa97d57e"
+}

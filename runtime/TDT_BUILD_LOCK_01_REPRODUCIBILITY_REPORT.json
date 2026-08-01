@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "inputDigest": "88bab96d99cb2e31534b14f6e49dd014b03a0c2fb185840c50aba25dd29d263f",
+  "cacheClosureDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "runAInstallGraphDigest": null,
+  "runBInstallGraphDigest": null,
+  "runAContentDigest": null,
+  "runBContentDigest": null,
+  "canonicalHost": false,
+  "deterministicReceiptPayloadDigest": "1279388baec7e8577d4445acea5c9715e7cbd52019b65549a416dddacf37ea24"
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.rollout.predecessor-regression.r13.v1",
+  "command": "npm run verify:resample-runtime-01-r12 --silent",
+  "exitCode": 0,
+  "summary": "R12 168 SOURCE PASS / 358 INSTALLED PENDING / 0 FAIL",
+  "includesR1AThroughR11": true,
+  "pass": true,
+  "selfSha256": "fbbd474ee854eb78fb13d16b8d79dd1f6e633d4d1c79c27149784a19bf6532a0"
+}

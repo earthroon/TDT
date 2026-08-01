@@ -1,0 +1,15 @@
+{
+  "contentTransformCount": 0,
+  "failCount": 0,
+  "packageContentId": "7d8c23ef106d60c1126a20ad8d917be64b49afd824ce7ab726e6d3c46f076978",
+  "passCount": 5,
+  "preverifyExecutionCount": 0,
+  "rangeCount": 2,
+  "schemaVersion": 1,
+  "selfSha256": "e696ec0b1065ae3c62479a3a7b87792a5f33bf87e44fbfd64fef277ea74f1870",
+  "sourceKinds": [
+    "ORIGIN",
+    "MIRROR",
+    "CDN"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "case-0",
+      "dimensions": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "planDigest": "bcf70bab05407a7b30ef0a53eb9b3550f8d8acba4f8fef80be3ec055ebfcbea9",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-1",
+      "dimensions": [
+        128,
+        128,
+        64,
+        64
+      ],
+      "planDigest": "1a2397c21610dc5405fe983a9b147d81fa1245b6b63a7de4c017a6a2b839b0ae",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-2",
+      "dimensions": [
+        96,
+        80,
+        64,
+        53
+      ],
+      "planDigest": "2d7f52225c7a89b5f81142acd75a9323cd17b5419fd5070d829d5ec69c698d8e",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-3",
+      "dimensions": [
+        257,
+        129,
+        137,
+        73
+      ],
+      "planDigest": "0457a8650fb510745d7c27fe0366385da130a2d07d3e78ed132ffa045102101f",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-4",
+      "dimensions": [
+        512,
+        512,
+        128,
+        128
+      ],
+      "planDigest": "f46e30718a6918c70cffb72f4e80936fcc19f53a96c076346ed0a7f152404f96",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-5",
+      "dimensions": [
+        1024,
+        512,
+        128,
+        64
+      ],
+      "planDigest": "6d3889c1b72ad5bdc849336d0f9a50bc7383100186ee5ba4141f94fff04faf08",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-6",
+      "dimensions": [
+        17,
+        9,
+        9,
+        5
+      ],
+      "planDigest": "ec90f856a450e83cd8714c137eb8a4e714de9638c480f20fa494e5acabd4bd4b",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-7",
+      "dimensions": [
+        1,
+        128,
+        1,
+        63
+      ],
+      "planDigest": "f48a3b592fa483e930500fdaa59ca7697fe126fd66cc05386b70797f4a7c5088",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-8",
+      "dimensions": [
+        129,
+        1,
+        65,
+        1
+      ],
+      "planDigest": "b6e50d9f928b431de83c0112306475d44f69ce3ceb002c0ac0dffc15cecdb2c6",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    },
+    {
+      "id": "case-9",
+      "dimensions": [
+        65,
+        65,
+        33,
+        33
+      ],
+      "planDigest": "1ca401e079ae173b1ec63d893806263f55c32c958c0d772b9b967bc90189bfee",
+      "residualModes": [
+        "disabled",
+        "enabled"
+      ]
+    }
+  ]
+}

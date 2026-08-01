@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/activation-intent-v2.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "targetPackageContentId",
+    "intentSha256"
+  ],
+  "title": "R12A activation-intent-v2",
+  "type": "object"
+}

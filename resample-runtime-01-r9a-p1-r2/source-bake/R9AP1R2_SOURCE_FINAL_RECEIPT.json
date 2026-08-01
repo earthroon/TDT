@@ -1,0 +1,30 @@
+{
+  "controlledLossExecuted": false,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 360,
+    "PENDING": 420,
+    "SKIPPED": 0
+  },
+  "deviceLossRecoveryCycleCount": 0,
+  "directKernelDriverInvocationCount": 0,
+  "historicalPassCarryForward": 0,
+  "implementationManifestSha256": "3e42876fe6ee03fc5acb81ad4d6138f2b7021dc33ec0a052aa94f15ef5fb31c5",
+  "localActivationPointerMutated": false,
+  "oldFinalSurfaceReuseCount": 0,
+  "oldPipelineReuseCount": 0,
+  "parentR9AP1R1SourceReceiptSha256": "50f9bbaa8786fd90d4fbb182c37760b3464f4bc1a0445eaec4ddafd4c8c022db",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2",
+  "pipelineRebuildCount": 0,
+  "productionPointerMutated": false,
+  "qualificationRecoveryBudgetInstalled": false,
+  "receiptKind": "resample-runtime-r9a-p1-r2-source-final",
+  "schemaVersion": 1,
+  "selfSha256": "cdccf4fe7d6b6507bf669883194d8dfce63370926a594b5c179e25216a43b246",
+  "sourceGateReportSha256": "91ac794b67b144c21e14914bc51a6f0cd3f76c4a67d20b6fca937f554148aa7c",
+  "specSha256": "558802cedbce5128263c3ca91f0d5749f75108a7a56d3529322c73403132fed9",
+  "staleLeaseAcceptCount": 0,
+  "state": "RESAMPLE_RUNTIME_R9A_P1_R2_RECOVERY_HOLDER_AND_THREE_CYCLE_REPLAY_SOURCE_SEALED_AWAITING_R1_PACKAGED_AND_PHYSICAL_RECOVERY",
+  "summaryTrustCount": 0
+}

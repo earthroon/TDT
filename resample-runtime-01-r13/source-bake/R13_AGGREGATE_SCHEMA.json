@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 1,
+  "$id": "tdt.rollout.fleet-evidence-aggregate.r13.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rolloutId",
+    "planDigest",
+    "ringId",
+    "admittedInstallations",
+    "validEvidenceInstallations",
+    "missingEvidenceInstallations",
+    "totals",
+    "inputSetDigest"
+  ],
+  "properties": {}
+}

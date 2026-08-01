@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "schemas": [
+    {
+      "name": "input-profile.schema.json",
+      "sha256": "5b1ca652b355e560c5b4388f66a86429f9da191624ea7aa54d70505dafd42f68"
+    },
+    {
+      "name": "root-graph.schema.json",
+      "sha256": "8d774d3f38d4f4cb2c15934839377b0c6c9c459e745b00922ab78491e7b61a1a"
+    },
+    {
+      "name": "lock-candidate.schema.json",
+      "sha256": "2743132a3f6c196b2e00d29a5eee0c91adeec96fb2ffe44e472a7c19b1d4c260"
+    },
+    {
+      "name": "cache-closure.schema.json",
+      "sha256": "98c54709c4f93e1f7dda34a9b4eb3781c05e668fa89be4253bab5a5cb3a5f790"
+    },
+    {
+      "name": "install-run.schema.json",
+      "sha256": "f2075e64184105d31b3d2572b09b773b8095dff411395c450dc11208bd231c43"
+    },
+    {
+      "name": "lifecycle-run.schema.json",
+      "sha256": "a52247e06a7e57f3202f93737589f8c42d56df778e8d2f9ec15617fdf9214963"
+    },
+    {
+      "name": "install-parity.schema.json",
+      "sha256": "61cf2d95d829db33997e45ff1baaf16b3bf1462e9ce13c9f5ff342d43b16ec7f"
+    },
+    {
+      "name": "native-toolchain.schema.json",
+      "sha256": "5ce7752c2253564afbc8c77319c48f2059bd1adeb82f1011c7f3cd8b42c5e402"
+    },
+    {
+      "name": "native-build.schema.json",
+      "sha256": "02d48c64a131a8f4cb75c34cc1a26c0bb5a895b9391cb8e04b46b0a101ab17f8"
+    },
+    {
+      "name": "production-build.schema.json",
+      "sha256": "6e4af99f3f992927cae840741c493f746d750e62b34a6978882e651331f763aa"
+    },
+    {
+      "name": "build-parity.schema.json",
+      "sha256": "473345f03f025807db89a060ebca6ed1d31643f92ab47ccec94565a1e9bd5b1b"
+    },
+    {
+      "name": "mutation-zero.schema.json",
+      "sha256": "39abc5940ea071bc174945dc68da7a98b91d1e08d6fd6870247c1b37d1100607"
+    },
+    {
+      "name": "promotion-intent.schema.json",
+      "sha256": "383bd32b46ae8cc498cc1ab9d21c384d5de792cdbe6067c5672fb05d981fde9b"
+    },
+    {
+      "name": "promotion-effect.schema.json",
+      "sha256": "429d744eee09e586edc84b4522734c1e8617ad0b025f945b0140e21a514c40ec"
+    },
+    {
+      "name": "post-promotion-replay.schema.json",
+      "sha256": "f571e904ed028547223acdb951e2108f5e5c4f5d6de014bd570b7ca1d8c7b534"
+    },
+    {
+      "name": "final-admission.schema.json",
+      "sha256": "473b9a9e3dfa3ca5da7b3e526633b83c47710087e261d130b4d26f9426da7d44"
+    }
+  ],
+  "selfSha256": "8b5ae4e2d13d69cdada7fbb557338d8848830c4646f8263bc87706460ff5c277"
+}

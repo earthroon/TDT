@@ -1,0 +1,11 @@
+{
+  "envelopeSha256": "f8cbe8f9685daea9737d4a9778c6e5b7476f28352708b84993f9c390f6638fab",
+  "failCount": 0,
+  "manifestSha256": "b8417a0e26e69aad21fff7eef28d84f7f2dd5c8e09de0403a0c6bed9600e841b",
+  "packageByteLength": 28,
+  "packageContentId": "7d8c23ef106d60c1126a20ad8d917be64b49afd824ce7ab726e6d3c46f076978",
+  "passCount": 2,
+  "releaseSequence": 5,
+  "schemaVersion": 1,
+  "selfSha256": "3b658778325f172a44870f31b67d25ab6eed092e3935a19629b217224e280365"
+}

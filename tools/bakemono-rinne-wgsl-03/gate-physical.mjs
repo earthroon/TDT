@@ -1,0 +1,2 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');const report=JSON.parse(fs.readFileSync(path.join(ROOT,'artifacts/bakemono-rinne-wgsl-03/physical/physical-gate-report.json'),'utf8'));console.log(`${report.status} physical gates ${report.passCount}/${report.gateCount}, pending ${report.pendingCount}`);if(report.status!=='PASS')process.exitCode=2;

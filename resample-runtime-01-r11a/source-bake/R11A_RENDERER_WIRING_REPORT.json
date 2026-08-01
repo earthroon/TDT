@@ -1,0 +1,19 @@
+{
+  "activeGraphAdmissionEdgeCount": 4,
+  "activeGraphAdmissionNodeCount": 4,
+  "activeGraphDigest": "4218fd22f9c86636373c961f3a8e1129bcf8431be34f2b30df7088d88e15715e",
+  "deviceLossSessionRevocationWired": true,
+  "exportOperationGrantEnforced": true,
+  "hostSaveGrantPropagated": true,
+  "installedAdmissionModuleRequired": true,
+  "installedStrictPhysicalCanaryRemainsFailClosed": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "previewOperationGrantEnforced": true,
+  "rendererReadyAfterBootReceipt": true,
+  "runtimeManifestAdmissionModulePresent": true,
+  "runtimeManifestBuildId": "ab647dcd1b3565e41a4f7902",
+  "runtimeManifestLockConsistent": false,
+  "schemaVersion": 1,
+  "selfSha256": "35e76989e5f42c4d40766ef8fb7129e338cc29a7ef498dcdade86fe34d2aa4d1"
+}

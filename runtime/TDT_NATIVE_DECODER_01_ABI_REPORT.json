@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-NATIVE-DECODER-01",
+  "status": "BLOCKED_RELEASE_ADDON_MISSING",
+  "evidenceState": "SOURCE_BAKED_UNPROMOTED",
+  "blockers": [
+    "release-addon-missing",
+    "win32-x64-release-build-not-run",
+    "packaged-electron-execution-not-run",
+    "independent-pixel-roundtrip-not-run"
+  ],
+  "abiVersion": "dadum-native-decoder-abi-v1",
+  "requiredExports": [
+    "status",
+    "self_test",
+    "abi_descriptor",
+    "decode_buffer",
+    "decode_path"
+  ],
+  "rendererPathDecodeExposed": false,
+  "selfDigest": "025498c8d477dbd769015f62659d65700c16844f187c766eb762fe59056423c9"
+}

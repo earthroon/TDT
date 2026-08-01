@@ -1,0 +1,11 @@
+{
+  "activeGraphWired": true,
+  "failCount": 0,
+  "moduleCount": 28,
+  "passCount": 36,
+  "pointerWriterCount": 0,
+  "runtimeManifestWired": true,
+  "schemaVersion": 1,
+  "selfSha256": "fe2442a9fbf54527372ad13098b5a233a0a0f5857c0b94492fb4ec32fc48c295",
+  "summaryTrustCount": 0
+}

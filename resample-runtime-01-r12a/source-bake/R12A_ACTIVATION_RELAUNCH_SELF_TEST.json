@@ -1,0 +1,26 @@
+{
+  "activationIntentDigest": "304943ba50b1ad9558e6f0eb0a41d50f26595ca4eab60d16483d33792b9d1099",
+  "devServerFallbackAllowed": false,
+  "launchAckDigest": "db27ef1f996e5eed01460028999751224894ddc69988e2b05c9170299773fdde",
+  "localActivationPointerCasCount": 1,
+  "localPointerCasReceipt": {
+    "afterGeneration": 1,
+    "afterRawSha256": "21732aee23c51a23e49c4c39c2018d6731855f3e6e189932da55d12f48ce10d5",
+    "beforeGeneration": 0,
+    "beforeRawSha256": null,
+    "localActivationPointerCasCount": 1,
+    "productionPointerMutated": false,
+    "receiptSha256": "80fabf39c8b1662349c672885aaf23f10610402e8afd5cc6bf31cfd0fd0e146d",
+    "schemaId": "tdt.resample-runtime.local-pointer-cas-receipt.r12a.v1",
+    "schemaVersion": 1,
+    "targetPackageContentId": "target-package",
+    "updateTransactionId": "abababababababababababababababababababababababab"
+  },
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "productionPointerMutated": false,
+  "relaunchRequestDigest": "a513414765dd600ff6cd936dbb42e95a92f0faacd8712b6f721b0a13c8545aec",
+  "schemaVersion": 1,
+  "selfSha256": "b5f45f7e93b14c7e18cad6866f46f1bafc1c46534698ccb0a45526d9b0ede027",
+  "sourcePackageFallbackAllowed": false
+}

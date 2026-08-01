@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R1",
+  "revisionId": "TDT-RUNTIME-SSOT-01-R1-R5",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "07c7504ffcabc785727e8474",
+  "promotable": false,
+  "authority": {
+    "viteEntry": "/src/main.ts",
+    "piniaSerializableStateOnly": true,
+    "runtimeServiceIsolation": true,
+    "legacyGlobalRegistryPolicy": "inventory-only",
+    "deferredGlobalAttribution": "unique-owner+owner-finished-while-absent+one-shot-pending-claim",
+    "finalSurfaceExportRequired": true
+  },
+  "reproducedFailure": {
+    "observedDuringModuleId": "dadum.legacy.engine-passes-brushedMetalPass.js",
+    "delayedGlobals": [
+      "Buffer",
+      "PureRenderer",
+      "deltaEGain",
+      "emotionCanvases",
+      "falloffRadius",
+      "generateDeltaKQMap",
+      "getDeltaKThreshold",
+      "initWebP",
+      "initWebP_initialized",
+      "toBuffer"
+    ],
+    "uniqueOwnerModuleId": "dadum.legacy.main.js",
+    "ownership": {
+      "Buffer": [
+        "dadum.legacy.main.js"
+      ],
+      "PureRenderer": [
+        "dadum.legacy.main.js"
+      ],
+      "deltaEGain": [
+        "dadum.legacy.main.js"
+      ],
+      "emotionCanvases": [
+        "dadum.legacy.main.js"
+      ],
+      "falloffRadius": [
+        "dadum.legacy.main.js"
+      ],
+      "generateDeltaKQMap": [
+        "dadum.legacy.main.js"
+      ],
+      "getDeltaKThreshold": [
+        "dadum.legacy.main.js"
+      ],
+      "initWebP": [
+        "dadum.legacy.main.js"
+      ],
+      "initWebP_initialized": [
+        "dadum.legacy.main.js"
+      ],
+      "toBuffer": [
+        "dadum.legacy.main.js"
+      ]
+    }
+  },
+  "counts": {
+    "legacyRootScripts": 50,
+    "legacyGlobalInventory": 1994,
+    "delayedGlobalsInFixture": 10,
+    "runtimeModules": 13,
+    "runtimeServices": 12,
+    "receiptParityRuns": 100,
+    "stableErrorCodesReferenced": 29,
+    "stableErrorCodesDeclared": 29
+  },
+  "digests": {
+    "appliedReadmeSha256": "6573cb225be06ff53c893c8f0e5516adec0e1432f5c07d605079368fc816e48e",
+    "patchDiffSha256": "49ad01f72e58765f5ece736ad281da7403eb51e43c707cb472ae77a12f2fa8e6",
+    "packageJsonSha256": "e9dd6179414f6c6e36deefa92c5071323dae3d8caa9917a14fc9de4dc3528efa",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "sourceGraphSha256": "07cc02c3f6752e81125bc283df2af9debf31dc1db1010fdc670b8cd626b774b4",
+    "legacyManifestSha256": "c6dc5b5ed9d483491e6ea6d97477a213aa1bc2f11564db6e419180649feb35ef",
+    "runtimePlanSha256": "66ca69474f05b7e58183befa6bf7e2936d7a00f264f0516524420c269f78f32a",
+    "servicePlanSha256": "4b63dde751b530af9ff4b1b0525ead2676fe78dd9a1d672b98e76cb62903518f",
+    "runtimeManifestSelfSha256": "0b992b1a5a9eb8ddcb595112b937d5c4a5da5a910e6e46040497ce92f0df9131",
+    "staticGateReportSha256": "723e723874925c189ae8e06be53dc7810fd1d74f84c6721f37294a6404dbf291"
+  },
+  "gates": [
+    {
+      "id": "GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION",
+      "result": "PASS",
+      "name": "Unique prior ownership, absent-at-owner-completion pending claim, one-shot consumption, receipt evidence"
+    },
+    {
+      "id": "GATE-R1-R3-GLOBAL-OWNERSHIP",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R4-ASYNC-GLOBAL-RESERVATION",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R2-DIAG",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-20",
+      "result": "PASS",
+      "runs": 100,
+      "digest": "975e0d29652991182add98ae17ccf9d10cf1445b5d407e9a96c55a15c06c8620"
+    },
+    {
+      "id": "GATE-R1-TS-PARSE",
+      "result": "PASS",
+      "units": 48
+    },
+    {
+      "id": "GATE-R1-ERROR-CODE",
+      "result": "PASS",
+      "referenced": 29,
+      "declared": 29
+    },
+    {
+      "id": "GATE-R1-LOCK",
+      "result": "BLOCKED",
+      "details": {
+        "consistent": false,
+        "missing": [
+          {
+            "name": "pinia",
+            "expected": "3.0.1",
+            "actual": null
+          },
+          {
+            "name": "vue",
+            "expected": "3.5.40",
+            "actual": null
+          },
+          {
+            "name": "@napi-rs/cli",
+            "expected": "^2.18.4",
+            "actual": null
+          },
+          {
+            "name": "@vitejs/plugin-vue",
+            "expected": "6.0.7",
+            "actual": null
+          },
+          {
+            "name": "typescript",
+            "expected": "5.9.3",
+            "actual": null
+          },
+          {
+            "name": "vite",
+            "expected": "8.1.5",
+            "actual": null
+          },
+          {
+            "name": "vue-tsc",
+            "expected": "3.2.2",
+            "actual": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "GATE-R1-VUE-TSC",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-R1-VITE-BUILD",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-R1-ELECTRON-SMOKE",
+      "result": "NOT_RUN"
+    }
+  ],
+  "blockers": [
+    {
+      "code": "BLOCK-R1-LOCK-001",
+      "reason": "package-lock.json does not contain the Vue/Pinia/Vite dependency graph"
+    },
+    {
+      "code": "BLOCK-R1-CONTAINER-NPM-001",
+      "reason": "package-lock-only refresh timed out in the current container"
+    }
+  ],
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R5_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "dec4ee1f55c079a84d0782ace828c286dc97a26fa8d5d992b561c33a64c69704"
+}

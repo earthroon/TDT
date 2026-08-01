@@ -1,0 +1,108 @@
+{
+  "schema": "dadum-ew04-fix-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-04",
+  "title": "PSD Rust/WASM Canonical Serializer Promotion",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "promotionGranted": false,
+  "buildId": "22997b711a2f00ce5912c49e",
+  "sourceBakeSeal": "2461fc6bd9b7d8035a12df3ffa25123ac87457190a570f69b7c3f56b6d37270e",
+  "generatedAt": "2026-07-24T15:24:09.436183Z",
+  "parentPatchId": "TDT-EXPORT-WORKER-03",
+  "parentArchive": "44_TDT_EXPORT_WORKER_03_WEBP_LOSSLESS_PNG8_PNG16_CANONICAL_WORKER_PROMOTION_SOURCE_BAKED_UNPROMOTED.zip",
+  "scope": [
+    "PSD Document Plan v2",
+    "canonical PSD worker identity and operation",
+    "single worker-side PSD byte writer for layered/flattened modes",
+    "DPI and ICC resource ownership in serializer",
+    "PSD structure verifier v2",
+    "post-serialize mutation digest seal",
+    "EW04 export receipt evidence"
+  ],
+  "sourceBakeBackend": {
+    "implementationId": "dadum.psd-source-reference-serializer-v2",
+    "backendKind": "source-reference-js",
+    "executionRealm": "worker",
+    "canonicalRustWasm": false
+  },
+  "canonicalRustWasmTarget": {
+    "sourceIncluded": true,
+    "cratePath": "native/psd-exporter-wasm-v2",
+    "compiled": false,
+    "verified": false
+  },
+  "validation": {
+    "inheritedGates": "PASS",
+    "ew04StaticGates": "PASS 32/32",
+    "sourceReferenceRuntimeSmoke": "PASS 4/4",
+    "strictTypescriptClosure": "PASS",
+    "fullVueTscViteElectron": "BLOCKED vue-tsc/node_modules unavailable",
+    "independentDecoderRoundtrip": "NOT_RUN",
+    "rustWasmBuild": "NOT_RUN toolchain unavailable",
+    "lockConsistency": {
+      "consistent": false,
+      "missing": [
+        {
+          "name": "pinia",
+          "expected": "3.0.1",
+          "actual": null
+        },
+        {
+          "name": "vue",
+          "expected": "3.5.40",
+          "actual": null
+        },
+        {
+          "name": "@napi-rs/cli",
+          "expected": "^2.18.4",
+          "actual": null
+        },
+        {
+          "name": "@vitejs/plugin-vue",
+          "expected": "6.0.7",
+          "actual": null
+        },
+        {
+          "name": "typescript",
+          "expected": "5.9.3",
+          "actual": null
+        },
+        {
+          "name": "vite",
+          "expected": "8.1.5",
+          "actual": null
+        },
+        {
+          "name": "vue-tsc",
+          "expected": "3.2.2",
+          "actual": null
+        }
+      ]
+    }
+  },
+  "workerManifest": {
+    "sourceManifestDigest": "230bd177fa54495b276913d1eb5702fa3b022b1420bed9bd396fdda468dae0f7",
+    "artifactVerificationMode": "source-graph-only",
+    "workerCount": 3,
+    "psdWorkerId": "dadum.worker.encoder.psd-canonical-v1"
+  },
+  "sealComponents": {
+    "patchId": "TDT-EXPORT-WORKER-04",
+    "status": "SOURCE_BAKED_UNPROMOTED",
+    "buildId": "22997b711a2f00ce5912c49e",
+    "runtimeManifestSelfDigest": "24d20a89845fcc0585e2f7c8750a66d3cd15568a4e84357e4a209df9e75d32c3",
+    "runtimeSourceGraphDigest": "e496e814da9a54e9375c39031942897f64ba58b39927028dcfbe3ccc504006cf",
+    "legacyManifestDigest": "9768a4205004019ab2278d3a1f4bd59851032c5fbd06b4641aa471c9c097a51d",
+    "workerSourceManifestDigest": "230bd177fa54495b276913d1eb5702fa3b022b1420bed9bd396fdda468dae0f7",
+    "specSha256": "57c6fd99a784476ee8cc5dd46d34ba4da1b8f0b5d1256e82e252ffbf68b5880d",
+    "sourceVerifySha256": "db35451453b62c63c894efcbb97cbe2b9e0263bb6cc478016cb01aaa9d5c3b62",
+    "smokeSha256": "46ebda7bc7afd6d65276a1fa42be331daec6c37bbc76caf26adc3b5b5a4970ff",
+    "strictTypescriptSha256": "9c8ae221bdbd5c19439907db28028f56a2dcc784a65abd4b574c34334e654d0f",
+    "fullVerifyAttemptSha256": "94559678c31a3d4dccd55db9f30de36270fd587d78e1a3e7aa3fc691df933977",
+    "serializerPromotionReceiptSha256": "8bcdefac2137a9edf2036f0ed734b0469a33b659911691cef4a22321546c76cf",
+    "mainThreadByteWriterReportSha256": "fddcab1753bc00d811ddc2ed0068fb9878ab9f01eae785fb908b7cfa611997b7",
+    "independentRoundtripReportSha256": "adc1a356c6ffd643927442f6d0e8cbd818958545cef7c4e8530c08ccaaab5a22",
+    "rustWasmBuildReportSha256": "7fbe89a135c41955adb8bf06eb32392816f84843eb3923b8a1bb3f87c72a9985",
+    "patchDiffSha256": "02712794c1b4d9eeb8dc14d412d2144a720fb0470b0a62fe51bda4a1e5ebc75e"
+  }
+}

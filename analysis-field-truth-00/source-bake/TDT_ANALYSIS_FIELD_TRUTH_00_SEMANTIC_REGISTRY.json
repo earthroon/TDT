@@ -1,0 +1,1754 @@
+{
+  "schemaVersion": 1,
+  "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+  "descriptors": [
+    {
+      "semanticId": "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "stage-pixel",
+      "representation": "rgba tangent/coherence/edge",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "tangent-x",
+          "meaning": "tangent x",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "tangent-y",
+          "meaning": "tangent y",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "coherence",
+          "meaning": "coherence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "edge-strength",
+          "meaning": "edge strength",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "f3e041fd2c777cc9031afde3f643b72bc2641c53238d82cf43f9ff266379781b"
+    },
+    {
+      "semanticId": "tdt.analysis.tensor.axial-order.r1c.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "stage-pixel",
+      "representation": "double-angle axial order",
+      "defaultFormat": "rg16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "cos-2theta",
+          "meaning": "cos 2theta",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "sin-2theta",
+          "meaning": "sin 2theta",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "26e7cc6695971b678addde373873d7bb0f9d4a7ec2f7bf161351d231a8e2f081"
+    },
+    {
+      "semanticId": "tdt.analysis.tensor.curvature.r1c.future.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "signed-scalar",
+      "coordinateSpace": "stage-pixel",
+      "representation": "signed curvature future",
+      "defaultFormat": "r16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "curvature",
+          "meaning": "curvature",
+          "range": null,
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "d44b3880d7e63061f3c1bc48ba12cd93203cf776b8753486e36b899529ea823d"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-spatial-complex.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "two-pi",
+      "coordinateSpace": "atlas-local",
+      "representation": "interleaved complex f32 spatial window batch",
+      "defaultFormat": "complex-f32-interleaved",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "real",
+          "meaning": "real",
+          "range": null,
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "imaginary",
+          "meaning": "imaginary",
+          "range": null,
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0
+      ],
+      "interpolationPolicy": "forbidden",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "cbde9d9ed6f06f618696ff837294ec822bfa0b80d0601766e61de3636a859c16"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-frequency-complex.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "two-pi",
+      "coordinateSpace": "frequency-bin",
+      "representation": "interleaved complex f32 natural-order frequency window batch",
+      "defaultFormat": "complex-f32-interleaved",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "real",
+          "meaning": "real",
+          "range": null,
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "imaginary",
+          "meaning": "imaginary",
+          "range": null,
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0
+      ],
+      "interpolationPolicy": "forbidden",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "8fd323119edda798d7e95e126001371219548631d1464f224a017c4d565fc7ab"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-complex.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "two-pi",
+      "coordinateSpace": "frequency-bin",
+      "representation": "legacy ambiguous complex window alias",
+      "defaultFormat": "rg32float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "real",
+          "meaning": "real",
+          "range": null,
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "imaginary",
+          "meaning": "imaginary",
+          "range": null,
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0
+      ],
+      "interpolationPolicy": "forbidden",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "7950ddd1a10deb184eaa10485dd1289a4d8e084c9588bdf39620c9f2030dc625"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.power.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "none",
+      "coordinateSpace": "frequency-bin",
+      "representation": "compatibility draft spectral power",
+      "defaultFormat": "r32float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "power",
+          "meaning": "power",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "941ae9eeb50d232d5a87c646850ec0258553b159f1953e00a841f067d9642ba8"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.summary.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "stage-pixel",
+      "representation": "compatibility draft spectral summary",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "entropy",
+          "meaning": "entropy",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-2orientation",
+          "meaning": "cos 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-2orientation",
+          "meaning": "sin 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "1cb91a4b7961a989481fd66464c76ddba2a9de0e84be72ef290b59e20574c92c"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.complex-phase.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "two-pi",
+      "coordinateSpace": "stage-pixel",
+      "representation": "compatibility draft complex phase",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            0,
+            1.7976931348623157e+308
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "0e29f89430fe1b9ca04a7adf88ddbc9135b37e1b2b9662452b27f9dcb624bfed"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.peak-orientation.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "stage-pixel",
+      "representation": "compatibility draft peak orientation",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "cos-2orientation",
+          "meaning": "cos 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "sin-2orientation",
+          "meaning": "sin 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "peak-strength",
+          "meaning": "peak strength",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "5c6cbc68bb044fbd951d207e95506918fac3bf9f072d6e3a7db409629e048d71"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-power-spectrum.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "none",
+      "coordinateSpace": "frequency-bin",
+      "representation": "normalized per-window power spectrum",
+      "defaultFormat": "f32-scalar",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "power",
+          "meaning": "power",
+          "range": [
+            0,
+            1.7976931348623157e+308
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0
+      ],
+      "interpolationPolicy": "forbidden",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "517671bfbeff609304048b3b4e989ee263d8e3f604ba6a67b315a09cbe5c7362"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-entropy.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "none",
+      "coordinateSpace": "window-grid",
+      "representation": "normalized entropy and validity",
+      "defaultFormat": "vec2-f32-record",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "entropy",
+          "meaning": "entropy",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0
+      ],
+      "interpolationPolicy": "nearest",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "cc54f478018e16d52b26275d5c084f05e65da3bbcc1260479ef21c10b26e7059"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-peak-orientation.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "window-grid",
+      "representation": "dominant feature tangent axial orientation",
+      "defaultFormat": "vec4-f32-record",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "cos-2orientation",
+          "meaning": "cos 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "sin-2orientation",
+          "meaning": "sin 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "peak-share",
+          "meaning": "peak share",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "c7a8bb2e23918ae7f06ea852f959d87237853199d6b69f0353d9a9f963ace37d"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-complex-phase.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "two-pi",
+      "coordinateSpace": "window-grid",
+      "representation": "center-anchored dominant complex phase",
+      "defaultFormat": "vec4-f32-record",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            0,
+            1.7976931348623157e+308
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "3ab055062ddd5a7de8553780debe0a897df5a005bd48b201e2bc4b3ca3f43748"
+    },
+    {
+      "semanticId": "tdt.analysis.spectral.window-summary.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "window-grid",
+      "representation": "entropy feature orientation and confidence",
+      "defaultFormat": "vec4-f32-record",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "entropy",
+          "meaning": "entropy",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-2orientation",
+          "meaning": "cos 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-2orientation",
+          "meaning": "sin 2orientation",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "3735b3a239f106bb2296027c84782afccec2cfec4d632d7638bcaca516a4e813"
+    },
+    {
+      "semanticId": "tdt.analysis.hannakairo.directional-gate.compat.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "policy",
+      "periodicity": "none",
+      "coordinateSpace": "stage-pixel",
+      "representation": "directional alignment compatibility gate",
+      "defaultFormat": "r16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "gate",
+          "meaning": "gate",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 1
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "e8fd7a6589ba6820905b591abb33eca930294af9712d2d395a4965f6220beeeb"
+    },
+    {
+      "semanticId": "tdt.analysis.hannakairo.tensor-spectral-alignment.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "policy",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "stage-pixel",
+      "representation": "tensor spectral axial alignment confidence and validity",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "alignment",
+          "meaning": "alignment",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "signed-doubled-angle-dot",
+          "meaning": "signed doubled angle dot",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "combined-confidence",
+          "meaning": "combined confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "202a755e5401ad7d3ced80ed1f9126316718746f1b31bfa8960fe3bcd1b4f2ea"
+    },
+    {
+      "semanticId": "tdt.analysis.hannakairo.directional-gate.v2",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "policy",
+      "periodicity": "none",
+      "coordinateSpace": "stage-pixel",
+      "representation": "neutral-safe tensor spectral directional multiplier",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "multiplier",
+          "meaning": "multiplier",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "alignment",
+          "meaning": "alignment",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "combined-confidence",
+          "meaning": "combined confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "612a4db53035cc1ff0151eca83d0c9ddcf5c12eb5666f12d1b1a3e132febb7bb"
+    },
+    {
+      "semanticId": "tdt.analysis.hannakairo.axial-order.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "topological",
+      "periodicity": "pi-axial",
+      "coordinateSpace": "stage-pixel",
+      "representation": "axial order confidence and validity field",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "cos-2theta",
+          "meaning": "cos 2theta",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 1,
+          "name": "sin-2theta",
+          "meaning": "sin 2theta",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "input-confidence",
+          "meaning": "input confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "d4612cbbf1214a8e48dca03f5a87914ddb5a858e0d7c77b416a957bfd360930f"
+    },
+    {
+      "semanticId": "tdt.analysis.hannakairo.winding-defect.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "topological",
+      "periodicity": "signed-scalar",
+      "coordinateSpace": "stage-plaquette",
+      "representation": "signed axial winding and defect",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "signed-charge",
+          "meaning": "signed charge",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "absolute-charge",
+          "meaning": "absolute charge",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "33744471e4699f87a3a5a3d0a149521bca5334347525571040c56cd1a03b8689"
+    },
+    {
+      "semanticId": "tdt.analysis.hannakairo.phase-coherence.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "topological",
+      "periodicity": "none",
+      "coordinateSpace": "stage-pixel",
+      "representation": "local axial phase coherence and validity",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "coherence",
+          "meaning": "coherence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "valid-weight-fraction",
+          "meaning": "valid weight fraction",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "valid-neighbor-fraction",
+          "meaning": "valid neighbor fraction",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "ba512880d45cf09d7be050ce2126b12f7dd29bf98b887232bcfb349258fba922"
+    },
+    {
+      "semanticId": "tdt.analysis.qmap.normalized-response.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "none",
+      "coordinateSpace": "stage-pixel",
+      "representation": "normalized qmap response confidence and validity",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "response",
+          "meaning": "response",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "reserved",
+          "meaning": "reserved",
+          "range": null,
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "8f375aabfe98573c9f218205a84940ec415ef6b280f6fe998d6d80c2c3be54f9"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.real-delta-k-compat.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "signed-scalar",
+      "coordinateSpace": "stage-pixel",
+      "representation": "delta-k compatibility real scalar confidence and validity",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "real-delta-k",
+          "meaning": "real delta k",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "reserved",
+          "meaning": "reserved",
+          "range": null,
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "2b5bddb85a5965edb9995c79a51e5356437c2dd2595ea6913dd7ae994ea57350"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.imaginary-component.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "signed-scalar",
+      "coordinateSpace": "stage-pixel",
+      "representation": "selected signed imaginary component normalized magnitude confidence and validity",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "signed-phi",
+          "meaning": "signed phi",
+          "range": null,
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "normalized-absolute-phi",
+          "meaning": "normalized absolute phi",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 2,
+          "name": "source-confidence",
+          "meaning": "source confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "d4a0c9d259a769d18e3ecdb8b6a8c7303c49606b78f0827de019413201b95abf"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.analytic-complex.v2",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "two-pi",
+      "coordinateSpace": "stage-pixel",
+      "representation": "principal analytic qwave magnitude phase unit and confidence",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            0,
+            1.7976931348623157e+308
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "18cf8316d5da3188fe4276071d0f735fbfeffbeed2f470e4e20fc09909245886"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.local-anisotropy-compat.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "two-pi",
+      "coordinateSpace": "stage-pixel",
+      "representation": "local anisotropy complex sqrt compatibility",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "2e7edd813d67acbabfd2fc3aaf84a67e05d3f052f3e3a8ea54a13afe03c8f4e6"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.analytic-complex.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "two-pi",
+      "coordinateSpace": "stage-pixel",
+      "representation": "analytic qwave complex field",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "454a707a57c6e02ae5d0cbdf238b0ade93c929ac0d598918943ece08eaac9420"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.spectral-phase.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spectral",
+      "periodicity": "two-pi",
+      "coordinateSpace": "stage-pixel",
+      "representation": "qwave spectral phase",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "76dd8c5a9007a275a2eb4c2c9a5abbf53b962a73fe668d15e294a27566caca80"
+    },
+    {
+      "semanticId": "tdt.analysis.qwave.hilbert-phase.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "spatial",
+      "periodicity": "two-pi",
+      "coordinateSpace": "stage-pixel",
+      "representation": "qwave hilbert phase",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "magnitude",
+          "meaning": "magnitude",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "cos-phase",
+          "meaning": "cos phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "sin-phase",
+          "meaning": "sin phase",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            -1,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interpolationPolicy": "vector-renormalize",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "99ceb6e490c302a01050f0c481883d1598f9578b97d79d548fe2b8f9977d3524"
+    },
+    {
+      "semanticId": "tdt.analysis.policy.adaptive-r1d.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "policy",
+      "periodicity": "none",
+      "coordinateSpace": "stage-pixel",
+      "representation": "adaptive policy",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "adaptation",
+          "meaning": "adaptation",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "anisotropy-limit",
+          "meaning": "anisotropy limit",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "residual-protection",
+          "meaning": "residual protection",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 3,
+          "name": "validity",
+          "meaning": "validity",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "a6309da2af3ff0e587646f95135f6fdbaa7413258abc9b3d5b81ae3ef9232223"
+    },
+    {
+      "semanticId": "tdt.analysis.policy.fused-analysis.v1",
+      "registryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+      "domain": "policy",
+      "periodicity": "none",
+      "coordinateSpace": "stage-pixel",
+      "representation": "fused analysis policy",
+      "defaultFormat": "rgba16float",
+      "channelSchema": [
+        {
+          "index": 0,
+          "name": "adaptation",
+          "meaning": "adaptation",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        },
+        {
+          "index": 1,
+          "name": "anisotropy-limit",
+          "meaning": "anisotropy limit",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 2,
+          "name": "residual-protection",
+          "meaning": "residual protection",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 1
+        },
+        {
+          "index": 3,
+          "name": "confidence",
+          "meaning": "confidence",
+          "range": [
+            0,
+            1
+          ],
+          "neutral": 0
+        }
+      ],
+      "validRange": null,
+      "neutralValue": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "interpolationPolicy": "linear",
+      "mipPolicy": "none",
+      "claimRequirements": [
+        "source-admitted"
+      ],
+      "semanticDigest": "a83885f7ab68f83c59c50378e4d306a97c1a1879e0149d8af9b6346263ee8e3c"
+    }
+  ],
+  "visualSemanticIds": [
+    "tdt.visual.qwave.animated-overlay.v1"
+  ],
+  "atlasResourceClasses": [
+    {
+      "id": "tdt.analysis.window-batch.v1",
+      "lifetime": "bounded-job",
+      "persistent": false
+    },
+    {
+      "id": "tdt.gpu.tile-atlas.persistent.v1",
+      "lifetime": "device-epoch",
+      "persistent": true,
+      "authorityId": "dadum.gpu-tile-atlas-authority.gta01",
+      "initialPoolId": "tdt.gpu.tile-atlas.pool.complex-f32-window.v1",
+      "pageTableEntryBytes": 48,
+      "generationBound": true,
+      "fenceAware": true
+    },
+    {
+      "id": "tdt.analysis.spatial-quality-lut.compat.v1",
+      "lifetime": "compatibility",
+      "persistent": false
+    },
+    {
+      "id": "tdt.analysis.full-frame-cache.compat.v1",
+      "lifetime": "compatibility",
+      "persistent": false
+    },
+    {
+      "id": "tdt.codec.flatness-metadata.v1",
+      "lifetime": "codec-job",
+      "persistent": false
+    }
+  ],
+  "registryDigest": "be7a209d5f183c371b5e8a69994a7b66fc66de6a10040904577ea94283261256"
+}

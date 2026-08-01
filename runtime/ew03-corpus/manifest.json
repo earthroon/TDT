@@ -1,0 +1,26 @@
+{
+  "schema": "dadum-ew03-promotion-corpus-v1",
+  "patchId": "TDT-EXPORT-WORKER-03",
+  "fixtures": [
+    {
+      "file": "webp-transparent-rgb-rgba8.bin",
+      "byteLength": 16,
+      "sha256": "5cc4b1a9414196d89c191129760645d6bfd7ab0d4dfae9bbd6490158cc085836"
+    },
+    {
+      "file": "png8-alpha-rgba8.bin",
+      "byteLength": 16,
+      "sha256": "0757689459b112eb2031dd659bf19a914213fa65abbb909929ac7cb67dc7f96e"
+    },
+    {
+      "file": "png16-endian-rgba16le.bin",
+      "byteLength": 16,
+      "sha256": "156ab85966f7c8cd0b34e1990eb569c5565ffc3fea3716bbcb1b99457556409c"
+    }
+  ],
+  "requiredCases": [
+    "webp-transparent-rgb-exact",
+    "png8-alpha",
+    "png16-endianness"
+  ]
+}

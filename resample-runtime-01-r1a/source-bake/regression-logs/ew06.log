@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 verify:export-worker-06
+> node tools/gate-export-worker-06.mjs
+
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a9baf7c99d0df495809daac38539f3346bf8bd867ef37c746b7d187c1f307e0d

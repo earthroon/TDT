@@ -1,0 +1,15 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/gate-requirements.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "patchId",
+    "specSha256",
+    "sourceMandatory",
+    "installedMandatory"
+  ],
+  "title": "R12A gate-requirements",
+  "type": "object"
+}

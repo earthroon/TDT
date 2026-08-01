@@ -1,0 +1,14 @@
+{
+  "activeLegacyEntryCount": 0,
+  "forbiddenImportCount": 0,
+  "quarantined": [
+    "app/renderer/physical-r9a-p1/product-runtime.mjs",
+    "app/renderer/physical-r9a-p1/preview-product-driver.mjs",
+    "app/renderer/physical-r9a-p1/export-product-driver.mjs",
+    "app/renderer/physical-r9a-p1/index.html"
+  ],
+  "receiptKind": "r9a-p1-r1-no-direct-driver-source",
+  "schemaVersion": 1,
+  "selfSha256": "939e276c971119d3c0c6cc94100771487a4391687b96d5739ae7df46be42a6c5",
+  "sourceRetired": false
+}

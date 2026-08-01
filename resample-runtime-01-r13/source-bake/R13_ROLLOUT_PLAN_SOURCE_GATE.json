@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "planSchemaId": "tdt.rollout.plan.r13.v1",
+  "planSha256": "d9ee9ad5848a769cb70c2004ef7130ca197ae10e63024e74e29a1f36e5bc8a81",
+  "sixRings": true,
+  "ringStateMachineFinal": "COMPLETED",
+  "ringGeneration": 6,
+  "splitBrainFailClosed": true,
+  "pass": true,
+  "selfSha256": "e99dfc035a7e2a25a198b48c42f32f46dbe0e407f6ad33e83008313f35bd13d8"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-01",
+  "buildId": "429c1a7b691c53cbf11234b6",
+  "protocol": "dadum-electron-export-save-v1",
+  "chunkBytes": 8388608,
+  "rendererBlobUrlProductPath": false,
+  "hostSequenceValidation": true,
+  "hostChunkSha256Validation": true,
+  "temporaryFile": true,
+  "fsyncBeforeRename": true,
+  "onDiskSha256Validation": true,
+  "parentPathStoredAsSha256": true,
+  "electronRuntimeExecuted": false,
+  "atomicRenameE2eVerified": false,
+  "status": "SOURCE_CONTRACT_WIRED_UNTESTED_IN_ELECTRON"
+}

@@ -1,0 +1,11 @@
+import { json, check, sourceArtifact, seal, sha256File } from './lib.mjs';
+import { SOURCE_STATE, SPEC, POINTER_A, POINTER_B, PARENT_R11A_RECEIPT, CURRENT_R10A_RECEIPT } from './identity.mjs';
+const gate = json('artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_GATE_REPORT.json');
+const installed = json('artifacts/resample-runtime-01-r12a/source-bake/R12A_INSTALLED_GATE_STATUS.json');
+const parent = json('artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json');
+check(gate.counts.PASS === 360 && gate.counts.FAIL === 0, 'E_R12A_FINAL_RECEIPT_INCOMPLETE', 'source gate incomplete');
+check(installed.counts.PENDING === 480 && installed.counts.PASS === 0 && installed.counts.FAIL === 0, 'E_R12A_FINAL_RECEIPT_INCOMPLETE', 'installed state must remain pending');
+check(sha256File(POINTER_A) === sha256File(POINTER_B) && sha256File(POINTER_A) === parent.productionPointerRawSha256, 'E_R12A_PRODUCTION_POINTER_WRITE_ATTEMPT', 'Production Pointer changed during source seal');
+const receipt = seal({ schemaVersion: 1, schemaId: 'tdt.resample.atomic-update-main-integration.r12a.v1', patchId: 'TDT-RESAMPLE-RUNTIME-01-R12A', state: SOURCE_STATE, counts: { PASS: 360, PENDING: 480, DEFERRED: 0, SKIPPED: 0, FAIL: 0 }, sourcePass: 360, installedPass: 0, pending: 480, deferred: 0, skipped: 0, fail: 0, sourceGates: gate.gates, installedGates: installed.gates, mainProcessUpdateSsot: true, persistentSsot: ['update-transaction-v2','update-journal-v2','local-activation-pointer'], r11aSourceSessionReplayWired: true, preActivationDrainWired: true, postActivationReattestationWired: true, stableLauncherHandoffWired: true, bootRecoveryWired: true, windowShowBarrierWired: true, productionPointerMutated: false, localActivationPointerMutated: false, installedUpdateExecuted: false, historicalPassCarryForward: 0, parentR11ASourceReceiptSha256: sha256File(PARENT_R11A_RECEIPT), currentR10ASourceReceiptSha256: sha256File(CURRENT_R10A_RECEIPT), currentProductionPointerRawSha256: sha256File(POINTER_A), nextAuthority: 'TDT-RESAMPLE-RUNTIME-01-R13A', specSha256: sha256File(SPEC) });
+sourceArtifact('TDT_RESAMPLE_RUNTIME_01_R12A_SOURCE_FINAL_RECEIPT.json', receipt);
+console.log('TDT-RESAMPLE-RUNTIME-01-R12A 360 SOURCE PASS / 480 INSTALLED PENDING / 0 FAIL');

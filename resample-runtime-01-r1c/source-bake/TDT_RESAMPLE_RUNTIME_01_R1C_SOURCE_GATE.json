@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1C",
+  "state": "RESAMPLE_RUNTIME_R1C_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "counts": {
+    "PASS": 90,
+    "DEFERRED": 6
+  },
+  "gates": [
+    {
+      "id": "RC01",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC02",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC03",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC04",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC05",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC06",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC07",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC08",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC09",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC10",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC11",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC12",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC13",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC14",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC15",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC16",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC17",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC18",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC19",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC20",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC21",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC22",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC23",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC24",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC25",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC26",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC27",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC28",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC29",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC30",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC31",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC32",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC33",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC34",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC35",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC36",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC37",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC38",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC39",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC40",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC41",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC42",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC43",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC44",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC45",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC46",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC47",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC48",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC49",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC50",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC51",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC52",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC53",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC54",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC55",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC56",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC57",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC58",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC59",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC60",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC61",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC62",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC63",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC64",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC65",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC66",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC67",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC68",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC69",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC70",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC71",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC72",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC73",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC74",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC75",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC76",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC77",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC78",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC79",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC80",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC81",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC82",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC83",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC84",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC85",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC86",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC87",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC88",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC89",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC90",
+      "status": "PASS",
+      "reason": "source-math-and-mock-runtime-verified"
+    },
+    {
+      "id": "RC91",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RC92",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RC93",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RC94",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RC95",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RC96",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false,
+  "failCount": 0
+}

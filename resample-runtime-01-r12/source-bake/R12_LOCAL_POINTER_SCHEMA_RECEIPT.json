@@ -1,0 +1,12 @@
+{
+  "generationCas": true,
+  "pass": true,
+  "pointerId": "dadum.install.activation-pointer",
+  "pointerSchemaVersion": 1,
+  "productionPointerMutated": false,
+  "rawHashCas": true,
+  "readback": true,
+  "receiptSha256": "4607488e34b1aef9add918ad5cdd2ec28505485486cc5825f7d48612ac0c9f40",
+  "schemaVersion": 1,
+  "selfHash": true
+}

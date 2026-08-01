@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "fixtureOnly": true,
+  "roles": {
+    "root": [
+      {
+        "keyId": "fixture-root-1",
+        "role": "root",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIBP41R4ruVreLbO5Pyyf59khvSiw/QrrMIyyKaarCdsz\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEADErZW1Gf6mK6Ahet/npdAY5L+34Q6AWJ+x+tPJv3di0=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-root-2",
+        "role": "root",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIAW/UNHv4pTQTmjaDwT7e/lnEanmICv2Bk6a5BIccxDn\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAd81CPXpYGRkG+fxJv8khvP2fOSSCF1l6uDSE3Ul8J0I=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-root-3",
+        "role": "root",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIBd+93YImFEEFbPJlRqHH3FNz6Lgrg4nOzQVw01CzhQ+\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxHVvwo63je15Gjs6GicpM5cVxIOFvPgHJuYW8k6sLF0=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "targets": [
+      {
+        "keyId": "fixture-targets-1",
+        "role": "targets",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIH1tBgywKD9C/WZDTuK03QRlg1rCzWNE6j1ZO+qZMnKd\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAaMKblTzKAqu/IF8g8VJFpGWL/Icml4MSC17d9skSYZw=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-targets-2",
+        "role": "targets",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILZp/MLv2EjYoxIle/XRwOEHn+TT5o7Ki6oFHljXfOX9\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAz6ymzQrBS22CdH0y94yM+m1oVzb97+vBcqmfH0VqG3w=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-targets-3",
+        "role": "targets",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIEREyd6keW+ksGyW4vP/JXT98hw9MfH/euLI5tAsyxwd\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/KBym22EdD9uIL2uuBmQ5CMWQk+ih2sLZ82DdaxHKZg=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "snapshot": [
+      {
+        "keyId": "fixture-snapshot-1",
+        "role": "snapshot",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEID9DjnE/xb1gslXN/L5HacVxXbhYS1oOperaPFdwUlAW\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1cOPJXZPyKjw7jEMAz4GcLmwKckTQ2JlAI2fbM+zQNo=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-snapshot-2",
+        "role": "snapshot",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIIWNDyeH+uOLBTfzd7hJw3ZYnGCa7Tw0/Nmp4WFNWh0J\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAuULqe1hC5oQ5DkcnX5HDBy5f2DVFMcIls3lTowF4ht4=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "timestamp": [
+      {
+        "keyId": "fixture-timestamp-1",
+        "role": "timestamp",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILQ4D7k8eERyHJt6PHfJ+pWk0/yhaX4eZirRTK06pAVi\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUX4/E/a2r4B7i2Kqx+rLQsrAeKKYmbl9D+EqEL30J6k=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-timestamp-2",
+        "role": "timestamp",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIG/5YDpH+579gca9o4A7Ce64l6JXaNk0i/DZaMWDdcVG\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAY4HDZwJE9XZmxt/oDJ0GKDsjPRoj348L8EshaDTwKNI=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "release": [
+      {
+        "keyId": "fixture-release-1",
+        "role": "release",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGQuH/C6u+ptNmA078v0vzG/2X1fQjzhl7YOHRZmjSu7\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA00dGMHoNQ2cbxmFC8HKfJ9R0hcw6ZutrcH0L3//ULzY=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-release-2",
+        "role": "release",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIBr+hnhzdAG2571Z09BtqY3il0fmh8Nx9VCm68xOqIdX\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARoI1/2mzjPCZClVgyoVmT6BOeaXgxGnx/Jz2E7xeCQk=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-release-3",
+        "role": "release",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIBE3I92Ksgpm+3MiMN26osX/YSsCXW1JgFFtpPFrK3jh\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbZXgz5yWbHUIBnuARUiEyxPq0M+o424aV9XZTntgAfo=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "transparency-log": [
+      {
+        "keyId": "fixture-transparency-log-1",
+        "role": "transparency-log",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGeU4qXtK9iccKDemA3buWrDfCmq9lkTQWNITuSsXdu5\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUeYi+vBZnN2qPYE8qOys5yYyUtbiO4Z+/yGaS6JRXXc=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-transparency-log-2",
+        "role": "transparency-log",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIIA/z3konQ0ENCnlnxSLrI64oWPXZG+VHPzM0HDvIhJE\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAgK7XLP3TMXQaw7FEHFKA5ro7FCCjYOJKB/S/c6SV4Co=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "witness": [
+      {
+        "keyId": "fixture-witness-1",
+        "role": "witness",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGW1OPk/RBPpRzBdOzC46KXyaFWXLBA/LKa16fTUTl6m\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAYqRusNgdpJOC0D75tPBZBrdWkbZJIvwZ2R6A1TVC/cE=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-witness-2",
+        "role": "witness",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIEQV6fYgftxkv+iXuYv7Ya/IiSgbrbcG7CHsOsSjtLqL\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkWCzlj7iZ17DzOZU+mPd6WwG4tshWdd3LBrmhmmQy90=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-witness-3",
+        "role": "witness",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPAvz/95F4GB6lyS0w1LCgk7b5GrTns91K3RzwXSV6cY\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWroC3y1YU+fI3ii8dnGzSIDbKxFhgbD7Br61Zdme+ZA=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "revocation": [
+      {
+        "keyId": "fixture-revocation-1",
+        "role": "revocation",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIHh42GibteVpRMikOV38NT75ziUomkbv58hKMsuOxE5N\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAhAf4vfQhjSjrWwsHLNTUFsash3Hdg8vOhhK4IfFXF1E=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-revocation-2",
+        "role": "revocation",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIG5F+S6DA9Ep8pnV7HgpPU5Y3q9OAg7V9H2ET9kMBfJ8\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAvy2ncL7ZExT0A/w35kk6f5tIxdwp8D1oQ5X9yGH9HeU=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-revocation-3",
+        "role": "revocation",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIDj5T43TWMzj+Qoo/UrBc/iruj69RcujFCh9r+kX/gbB\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAlmb5mdBxEohcG0XZDvivIz7paVurMDgyhDj2SyhqzCg=\n-----END PUBLIC KEY-----\n"
+      }
+    ],
+    "rollback-permit": [
+      {
+        "keyId": "fixture-rollback-permit-1",
+        "role": "rollback-permit",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIDl3E6/jRQhCQBSJizHmFyB7FlUbh2XWWlYf6uEg6wYg\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAZYoeroS0uab0sVPrX2Av2hIHig6prRegxSvQl17M/2o=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-rollback-permit-2",
+        "role": "rollback-permit",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIDJ3w+BMaJZar2f569GBg5Rk/1mOpf/df5GTfMpuO12v\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1IX60j9EyouzqezPMTdAcUfriXcWFAW5i8tZvdyduuc=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "keyId": "fixture-rollback-permit-3",
+        "role": "rollback-permit",
+        "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJcWcYiBHSdr5ExasmmegFZHjs0oN5Gx19sFr2bpYxE9\n-----END PRIVATE KEY-----\n",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAj8duw9QaCjs4i48YooNd84nkoDnRprAr9N/Rnmt4hpc=\n-----END PUBLIC KEY-----\n"
+      }
+    ]
+  }
+}

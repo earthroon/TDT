@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"tdt.r9a-p1.physical-final.v1","type":"object","required":["schemaVersion","patchId","state","counts","rawEvidenceDigest","selfSha256"],"properties":{"patchId":{"const":"TDT-RESAMPLE-RUNTIME-01-R9A-P1"}}}

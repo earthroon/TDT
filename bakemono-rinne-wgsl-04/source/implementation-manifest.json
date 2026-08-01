@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl04-implementation-manifest.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-04",
+  "fileCount": 31,
+  "files": [
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_contract.mjs",
+      "byteLength": 7325,
+      "sha256": "4a6b006fe3a832a6d856dd194e3d0d77db997be11f90606c6e53664652b852bb"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_pipeline_family.mjs",
+      "byteLength": 4205,
+      "sha256": "313dcaef80471729017bfbea429b716228e82438e328409f9c699099ad9dcf08"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_qualification_authority.mjs",
+      "byteLength": 2128,
+      "sha256": "2afad86e6c655f28b437e76d4cd7971fa304f04229c8f195668b3fd6385f9ff2"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_graph_tensor.mjs",
+      "byteLength": 7519,
+      "sha256": "d0b218e43805973c8df9f139081979df69debd62193efda33096703632bf63e6"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_graph_effect.mjs",
+      "byteLength": 4831,
+      "sha256": "2989dc444b390c4c20d16014a1228fb46be100e8340eb8a2ea97095a31e5703a"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_integration.mjs",
+      "byteLength": 7106,
+      "sha256": "8e6aa8828e6c823f3de3c25372596dc1d9739561562d6cdb947ec7f2de892e1c"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_receipt.mjs",
+      "byteLength": 1644,
+      "sha256": "e116804c71feca28b5f13a6bb312251e3d046c13e8eec2ff0399e54b6d48a00f"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "byteLength": 8625,
+      "sha256": "75b546224aba97232365195f8951ff69de92551eafdd17908b15cf14c96deeba"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs",
+      "byteLength": 46630,
+      "sha256": "beeea83206a32c82a10fc8b6ef8620195c164b88f5d69516c80c3e8ffadb0fb7"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+      "byteLength": 14236,
+      "sha256": "b5c27c75c1ea4fa90424bab08c7dac4ef0aee8977c35ed36e93198db94102baa"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_contract_r8.mjs",
+      "byteLength": 7203,
+      "sha256": "0920efff1a5ba42b8089be656044b3ca7b9c39343a4589613eda398268d2e51f"
+    },
+    {
+      "rel": "app/legacy-runtime/modules/dk_resample/canonical_pipeline_registry_r2r3.mjs",
+      "byteLength": 29966,
+      "sha256": "1b071fd9673db758ebe930bc18aba8a3ac7927ce377f6a2a1378534dd5c972db"
+    },
+    {
+      "rel": "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs",
+      "byteLength": 7128,
+      "sha256": "028d075338aec99b7d93c862ce76f2d018721c37347d121dbb46e7d972bba6c0"
+    },
+    {
+      "rel": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "byteLength": 2350,
+      "sha256": "b430fd68c34a620d88f99b0d4a7ed60817d9e4e5ee39a4f2ec0992b8e5a630f3"
+    },
+    {
+      "rel": "app/src/runtime/effects/bakemono-rinne/bakemono-rinne-wgsl-04-types.ts",
+      "byteLength": 634,
+      "sha256": "214f070c2d11f00459f6d18b259158f16229c33803f1cf2bb566b44cb51d18a1"
+    },
+    {
+      "rel": "specs/TDT-BAKEMONO-RINNE-WGSL-04_R9A_COMMAND_GRAPH_PIPELINE_FAMILY_SINGLE_SUBMIT_ZERO_READBACK_SEAL_SPEC.md",
+      "byteLength": 83712,
+      "sha256": "5173797fd93bdcf956f4162e8076592ae9067a0404d702e0a7a5f17115f7c3f8"
+    },
+    {
+      "rel": "README_TDT_BAKEMONO_RINNE_WGSL_04_APPLIED.md",
+      "byteLength": 180,
+      "sha256": "c3b46321597b8a74955af190e83d3c0faa13644f7a5cd49c20a0a9597525174d"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-04/test-fixture.mjs",
+      "byteLength": 8808,
+      "sha256": "9fb4710d4bfa877df307de7dfc358c5209297c95991880889237a2ddb0be3016"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-04/source-gate-catalog.json",
+      "byteLength": 27620,
+      "sha256": "aa08f39a7433366afcdab3d4d678a912675d78535d0242ca6520344570ee4d47"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-04/verify-negative-controls.mjs",
+      "byteLength": 8871,
+      "sha256": "b3085bb82cc12ddb74e1035695dc4449dfef3b4867e847b8c000f217415f2e93"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-04/verify-source.mjs",
+      "byteLength": 32100,
+      "sha256": "bdbe56103d45ccdbb3b42e09397703cf32f95abb052ecb0b3c2f4e03773dcf71"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-04/gate-source.mjs",
+      "byteLength": 409,
+      "sha256": "73f343519552cb3cb4b49960981a3618312b1eb2098169df81192a961e9174cc"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-04/gate-physical.mjs",
+      "byteLength": 441,
+      "sha256": "aede5397eedeb618e2fb0d80ec3df908cc92a2492313b97fa17ea52c82c51573"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/test-fixture.mjs",
+      "byteLength": 7042,
+      "sha256": "445aea44c6ef85fe86fe64e2465bd5f8ab2dbd807b77605f858767b243cbfab3"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/run-late-completion-unit.mjs",
+      "byteLength": 2634,
+      "sha256": "8907d45b1910672d82a27db724371e5b15abd8a6ffb21571dbc6b7712cc4a68d"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/run-source-negative-controls.mjs",
+      "byteLength": 4839,
+      "sha256": "6f322641ec39561d6d0091928c134a17fa861ddeb50b37320d1f13f93f42ceee"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/verify-source.mjs",
+      "byteLength": 25107,
+      "sha256": "ccc90a47451662ee2cc4fd274d3d60e63dafa408e61aab1a6d46dc36504a9e08"
+    },
+    {
+      "rel": "patches/TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R3_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 5479,
+      "sha256": "6e471a1964873bd8f1ad68715fc29ed9e8b0766f5fede8838723c5ceab5bda86"
+    },
+    {
+      "rel": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 73139,
+      "sha256": "b5f032e3e01475bc81297ddde9b4bf09f04d93e507f82a6e3714b12069a08464"
+    },
+    {
+      "rel": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 127886,
+      "sha256": "42d020606c385e06405b7d9faa9703e31fb7453830d7ee742b6ae5a72ac707de"
+    },
+    {
+      "rel": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 291720,
+      "sha256": "dce9f60a4622aab8ca014be1e26d09db661a05211633f2a7fbf41c1830484f74"
+    }
+  ],
+  "selfSha256": "49d92c7b5245414610f7a6817198ff12242890416755d19222831bfcf87c83c9"
+}

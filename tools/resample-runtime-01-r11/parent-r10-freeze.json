@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.resample-runtime.r11.parent-freeze.v1",
+  "parentBundleSha256": "da3f7f742e16bc0272c3f0a5bef42ea995489f2fe8ef146ed3b07d68b930f8ee",
+  "files": [
+    {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R10_PRODUCTION_CANDIDATE_PROMOTION_PRODUCTION_POINTER_COMPARE_AND_SWAP_ROLLBACK_DRILL_RELEASE_RECEIPT_SEAL_SPEC.md",
+      "size": 263032,
+      "sha256": "0c3bda432564827104e45f2e0e5cecf11dcce328115f7ab5fc4c90058d927d38"
+    },
+    {
+      "path": "artifacts/resample-runtime-01-r10/source-bake/TDT_RESAMPLE_RUNTIME_01_R10_SOURCE_FINAL_RECEIPT.json",
+      "size": 85883,
+      "sha256": "76e47a1ea47f4ff662c50992dfd5fdcac262a38e73931da3c0bb3ede9cb52b77"
+    },
+    {
+      "path": "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json",
+      "size": 1379,
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    {
+      "path": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+      "size": 1379,
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    {
+      "path": "tools/resample-runtime-01-r10/identity.mjs",
+      "size": 1979,
+      "sha256": "cce138d2c16883b2212fb247f859edfaa134fd2987f4acaedce6a97c21375b53"
+    },
+    {
+      "path": "tools/resample-runtime-01-r10/pointer-reader.mjs",
+      "size": 658,
+      "sha256": "84ad0f142738c74dc77d01a78010a230a29a0e6368689b78f5fa60b0dfc319a0"
+    },
+    {
+      "path": "tools/resample-runtime-01-r10/pointer-writer.mjs",
+      "size": 2206,
+      "sha256": "27b3a964e3d612a9ef5236a6d8321317707d85eb5e7f88b6870a66fd0a49b674"
+    }
+  ]
+}

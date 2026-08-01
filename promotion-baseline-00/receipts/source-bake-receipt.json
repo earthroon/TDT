@@ -1,0 +1,27 @@
+{
+  "blockers": [
+    "canonical-dependency-lock-not-promoted",
+    "canonical-win32-x64-package-run-not-executed",
+    "dual-clean-production-emit-not-executed-in-this-bake-environment",
+    "packaged-electron-e2e-not-executed-in-this-bake-environment",
+    "production-pointer-change-intentionally-forbidden"
+  ],
+  "createdAt": "2026-07-26T07:27:41.784Z",
+  "nextCommand": "npm run verify:promotion-baseline-00",
+  "observedHost": {
+    "arch": "x64",
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "platform": "linux"
+  },
+  "packagedBaselineVerified": false,
+  "productPromotionPerformed": false,
+  "productionPointerMutationPerformed": false,
+  "schemaVersion": 1,
+  "selfDigest": "cbc222cc0614a762f06fc5b327a0d19b668ea6f467c3024cb36d2ebbe7b43d60",
+  "sourceGateDigest": "40a34276651eeeef8d0f65fd775ae924e71be41185a189b1be0b26a253ac6b9a",
+  "sourceImplementationComplete": true,
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "state": "SOURCE_BAKED_UNPROMOTED",
+  "status": "SOURCE_BAKED_UNPROMOTED"
+}

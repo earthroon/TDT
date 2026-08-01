@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "checks": [
+    {
+      "id": "canonical-digest-equal",
+      "pass": true
+    },
+    {
+      "id": "stage-pure",
+      "pass": true
+    },
+    {
+      "id": "ids-present",
+      "pass": true
+    },
+    {
+      "id": "role-outside-digest",
+      "pass": true
+    }
+  ],
+  "previewDigest": "a111d1cbf38acd4a34c97afc23f65fe595a81c817429c8da8131a3aadd1d2feb",
+  "exportDigest": "a111d1cbf38acd4a34c97afc23f65fe595a81c817429c8da8131a3aadd1d2feb"
+}

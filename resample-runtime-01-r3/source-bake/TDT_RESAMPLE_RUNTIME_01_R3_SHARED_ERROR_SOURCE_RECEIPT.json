@@ -1,0 +1,158 @@
+{
+  "assets": [
+    {
+      "continuousPosition": true,
+      "name": "productR4",
+      "normalizedSignatureSha256": "1efb27696b6b67df5291222d577713939363c471aa14f4d47bca25ece02698fe",
+      "offsetDistance": true,
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl",
+      "roundAnchor": true,
+      "sha256": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+      "usesRoundCenteredCandidates": true
+    },
+    {
+      "continuousPosition": true,
+      "name": "productR6",
+      "normalizedSignatureSha256": "67426c8766b0418f4fde48ed4b609ee7f1bd2670401c721e96da9da8aad28530",
+      "offsetDistance": true,
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl",
+      "roundAnchor": true,
+      "sha256": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+      "usesRoundCenteredCandidates": true
+    },
+    {
+      "continuousPosition": true,
+      "name": "validationR4",
+      "normalizedSignatureSha256": "7c7da9c8420005e4f51357002bc38d47dacdec7dcb8a76188627b3cc17c0751f",
+      "offsetDistance": true,
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl",
+      "roundAnchor": true,
+      "sha256": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+      "usesRoundCenteredCandidates": true
+    },
+    {
+      "continuousPosition": true,
+      "name": "validationR6",
+      "normalizedSignatureSha256": "bd23276d17e46a8c5e2d34d9d05d4661303eb485d7764b1e38f068b347ed7628",
+      "offsetDistance": true,
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl",
+      "roundAnchor": true,
+      "sha256": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+      "usesRoundCenteredCandidates": true
+    },
+    {
+      "continuousPosition": true,
+      "name": "directReference",
+      "normalizedSignatureSha256": "df176b1af0542578e7ad6c317d8965e7b40f7dc68e99a71e0525780b80660424",
+      "offsetDistance": true,
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl",
+      "roundAnchor": true,
+      "sha256": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+      "usesRoundCenteredCandidates": true
+    }
+  ],
+  "checks": [
+    {
+      "detail": {
+        "continuousPosition": true,
+        "name": "productR4",
+        "normalizedSignatureSha256": "1efb27696b6b67df5291222d577713939363c471aa14f4d47bca25ece02698fe",
+        "offsetDistance": true,
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl",
+        "roundAnchor": true,
+        "sha256": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+        "usesRoundCenteredCandidates": true
+      },
+      "id": "SHARED-01",
+      "message": "productR4 contains shared round-centered signature",
+      "pass": true
+    },
+    {
+      "detail": {
+        "continuousPosition": true,
+        "name": "productR6",
+        "normalizedSignatureSha256": "67426c8766b0418f4fde48ed4b609ee7f1bd2670401c721e96da9da8aad28530",
+        "offsetDistance": true,
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl",
+        "roundAnchor": true,
+        "sha256": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+        "usesRoundCenteredCandidates": true
+      },
+      "id": "SHARED-02",
+      "message": "productR6 contains shared round-centered signature",
+      "pass": true
+    },
+    {
+      "detail": {
+        "continuousPosition": true,
+        "name": "validationR4",
+        "normalizedSignatureSha256": "7c7da9c8420005e4f51357002bc38d47dacdec7dcb8a76188627b3cc17c0751f",
+        "offsetDistance": true,
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl",
+        "roundAnchor": true,
+        "sha256": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+        "usesRoundCenteredCandidates": true
+      },
+      "id": "SHARED-03",
+      "message": "validationR4 contains shared round-centered signature",
+      "pass": true
+    },
+    {
+      "detail": {
+        "continuousPosition": true,
+        "name": "validationR6",
+        "normalizedSignatureSha256": "bd23276d17e46a8c5e2d34d9d05d4661303eb485d7764b1e38f068b347ed7628",
+        "offsetDistance": true,
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl",
+        "roundAnchor": true,
+        "sha256": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+        "usesRoundCenteredCandidates": true
+      },
+      "id": "SHARED-04",
+      "message": "validationR6 contains shared round-centered signature",
+      "pass": true
+    },
+    {
+      "detail": {
+        "continuousPosition": true,
+        "name": "directReference",
+        "normalizedSignatureSha256": "df176b1af0542578e7ad6c317d8965e7b40f7dc68e99a71e0525780b80660424",
+        "offsetDistance": true,
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl",
+        "roundAnchor": true,
+        "sha256": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+        "usesRoundCenteredCandidates": true
+      },
+      "id": "SHARED-05",
+      "message": "directReference contains shared round-centered signature",
+      "pass": true
+    },
+    {
+      "detail": {
+        "compared": 102,
+        "firstMismatch": null,
+        "maxModelError": 0
+      },
+      "id": "SHARED-06",
+      "message": "R2 shared-error model matches negative control",
+      "pass": true
+    }
+  ],
+  "directReferenceUsesRoundCenteredCandidates": true,
+  "independentCoordinateReferencePresent": false,
+  "modelComparison": {
+    "comparedCount": 102,
+    "firstMismatch": null,
+    "maxAbsoluteError": 0,
+    "tolerance": 1e-14
+  },
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "productR4UsesRoundCenteredCandidates": true,
+  "productR6UsesRoundCenteredCandidates": true,
+  "schemaVersion": 1,
+  "sharedDistanceForm": "integer-offset-only",
+  "sharedFetchAnchor": "round(p)",
+  "validationR4UsesRoundCenteredCandidates": true,
+  "validationR6UsesRoundCenteredCandidates": true
+}

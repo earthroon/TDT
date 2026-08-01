@@ -1,0 +1,3383 @@
+{
+  "binary16Id": "tdt.ieee754.binary16.independent.r9.v1",
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 110,
+    "PENDING": 187,
+    "SKIPPED": 0
+  },
+  "frozenR8Files": {
+    "productR4": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25",
+    "productR6": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df",
+    "reference": "ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7"
+  },
+  "harnessId": "tdt.ewa.physical-qualification-harness.r9.v1",
+  "kernelId": "tdt.ewa.ellipse.phase-correct-parametric-r6.v1",
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R10",
+  "oracleId": "tdt.ewa.binary64-oracle.r9.v1",
+  "packageCandidateFrozen": false,
+  "packagedElectronExecuted": false,
+  "parameterAbiId": "tdt.delta-k-ewa.params.v4",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9",
+  "physicalGates": [
+    {
+      "id": "R9-P001",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGE_LAUNCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P002",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGE_SOURCE_ISOLATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P003",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ADAPTER_ACQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P004",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ADAPTER_IDENTITY_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P005",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "DEVICE_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P006",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_QUERY_ENABLED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P007",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "DEVICE_EPOCH_INITIAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P008",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "UNCAPTURED_ERROR_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P009",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ERROR_SCOPE_BALANCED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P010",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R8_PRODUCT_R4_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P011",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R8_PRODUCT_R6_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P012",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R8_REFERENCE_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P013",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R9_VALIDATION_R4_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P014",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R9_VALIDATION_R6_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P015",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "SOURCE_PREPARE_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P016",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESIDUAL_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P017",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINALIZE_COMPILES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P018",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COMPILATION_INFO_ZERO_ERROR",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P019",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "BIND_GROUP_LAYOUT_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P020",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PIPELINE_CACHE_IDENTITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P021",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_IMPULSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P022",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_CHECKER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P023",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_LINE_H",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P024",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_LINE_V",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P025",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_LINE_D22",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P026",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_LINE_D45",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P027",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_LINE_D67",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P028",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_CONSTANT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P029",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_ALPHA_EDGE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P030",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_TRANSPARENT_RGB",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P031",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_BORDER_CORNER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P032",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R4_PARTIAL_GROUP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P033",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_IMPULSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P034",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_CHECKER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P035",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_LINE_H",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P036",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_LINE_V",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P037",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_LINE_D22",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P038",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_LINE_D45",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P039",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_LINE_D67",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P040",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_CONSTANT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P041",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_ALPHA_EDGE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P042",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_TRANSPARENT_RGB",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P043",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_BORDER_CORNER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P044",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PARITY_R6_PARTIAL_GROUP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P045",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_PHASE_X",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P046",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_PHASE_Y",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P047",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_PHASE_XY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P048",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_SCALE_1125",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P049",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_SCALE_15",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P050",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_SCALE_175",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P051",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_SCALE_2",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P052",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_ANISO_1",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P053",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_ANISO_MAX",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P054",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_POLICY_075",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P055",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_POLICY_1",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P056",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_POLICY_15",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P057",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_TINY_1X1",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P058",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_TINY_1XN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P059",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_TINY_NX1",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P060",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ORACLE_ULP_MULTISTAGE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P061",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_0_OUT_OF_TILE_OR_UNSUPPORTED_FIELD",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P062",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_1_NONPOSITIVE_WEIGHT_SUM",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P063",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_2_NONFINITE_WEIGHT_SUM",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P064",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_3_NONFINITE_ACCUMULATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P065",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_5_NONFINITE_OUTPUT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P066",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_16_ABI_MISMATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P067",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_17_PHASE_MISMATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P068",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_18_BORDER_MISMATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P069",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_19_KERNEL_PARAM_INVALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P070",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_20_NONFINITE_DISTANCE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P071",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_21_NONFINITE_WEIGHT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P072",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_22_NEGATIVE_WEIGHT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P073",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_23_POSITIVE_WEIGHT_OUTSIDE_SUPPORT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P074",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_ZERO_24_GENERATED_CONTRACT_MISMATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P075",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_0_CONTROL_OUT_OF_TILE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P076",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_1_CONTROL_ZERO_MASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P077",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_16_CONTROL_ABI",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P078",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_17_CONTROL_PHASE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P079",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_18_CONTROL_BORDER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P080",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_19_CONTROL_KERNEL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P081",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_20_CONTROL_NAN_DISTANCE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P082",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_POSITIVE_24_CONTROL_SENTINEL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P083",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_BUFFER_RESET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P084",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_READBACK_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P085",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "COUNTER_RESERVED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P086",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FAULT_SURFACE_COUNTER_COUPLING",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P087",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "DC_INTERIOR_ULP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P088",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "DC_EDGE_ULP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P089",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "DC_CORNER_ULP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P090",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "DC_TINY_DIMENSION_ULP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P091",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ALPHA_ZERO_CANONICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P092",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ALPHA_STRAIGHT_ROUNDTRIP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P093",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ALPHA_PREMULT_ROUNDTRIP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P094",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "ALPHA_NO_DOUBLE_PREMULT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P095",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESIDUAL_ALPHA_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P096",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESIDUAL_DISABLED_IDENTITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P097",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "BORDER_LOGICAL_DISTANCE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P098",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "BORDER_TAP_MULTIPLICITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P099",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NO_FAULT_SENTINEL_ADMITTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P100",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NO_NONFINITE_ADMITTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P101",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PREVIEW_EXPORT_LOWPASS_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P102",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PLAN_DIGEST_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P103",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_WARMUP_R4",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P104",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_WARMUP_R6",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P105",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_SAMPLE_COUNT_R4",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P106",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_SAMPLE_COUNT_R6",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P107",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_PAIRED_ORDER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P108",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_QUERY_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P109",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_DISJOINT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P110",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_ZERO_DELTA_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P111",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_OUTLIER_POLICY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P112",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMESTAMP_THERMAL_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P113",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R4_MEDIAN_RATIO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P114",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R6_MEDIAN_RATIO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P115",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R4_P95_RATIO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P116",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "R6_P95_RATIO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P117",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMING_CORRECTNESS_PRECONDITION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P118",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "TIMING_RAW_DATA_PERSISTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P119",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESIDENCY_WARMUP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P120",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESIDENCY_ITERATIONS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P121",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESOURCE_COUNT_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P122",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESOURCE_BYTE_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P123",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PIPELINE_COUNT_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P124",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "QUERY_RESOURCE_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P125",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "MAPPED_BUFFER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P126",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "SURFACE_REGISTRY_BASELINE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P127",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RENDERER_MEMORY_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P128",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "GPU_PROCESS_MEMORY_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P129",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "MEMORY_SLOPE_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P130",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "VENDOR_VRAM_OBSERVATIONAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P131",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LEAK_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P132",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "RESIDENCY_FINAL_CLEAN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P133",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LOSS_BASELINE_CAPTURE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P134",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "CONTROLLED_DEVICE_DESTROY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P135",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LOSS_OBSERVER_SINGLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P136",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "SUBMISSION_STOP_ON_LOSS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P137",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PENDING_JOB_CLOSURE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P138",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "EPOCH_INCREMENT_ONCE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P139",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "STALE_LEASE_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P140",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "OLD_RESOURCE_DISPOSE_ONCE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P141",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "AUTHORITY_RECREATES_DEVICE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P142",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PIPELINES_REBUILT_NEW_EPOCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P143",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEUTRAL_POLICY_REINITIALIZED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P144",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "POST_RECOVERY_PARITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P145",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "POST_RECOVERY_ORACLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P146",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "POST_RECOVERY_COUNTERS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P147",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "POST_RECOVERY_RESIDENCY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P148",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "THREE_LOSS_CYCLES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P149",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LOSS_DURING_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P150",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LOSS_DURING_EXPORT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P151",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LOSS_NO_CPU_FALLBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P152",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "LOSS_RECEIPT_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P153",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_PREVIEW_EXECUTES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P154",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_EXPORT_EXECUTES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P155",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_PREVIEW_EXPORT_SAME_KERNEL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P156",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_PREVIEW_EXPORT_SAME_ABI",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P157",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_PREVIEW_EXPORT_SAME_PLAN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P158",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_ASSET_DIGESTS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P159",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_NO_LEGACY_LOWPASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P160",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_TERMINAL_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P161",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_PREVIEW_DIRECT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P162",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_RESIDUAL_OFF_IDENTITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P163",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGED_RELAUNCH_IDENTITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P164",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PACKAGE_BYTES_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P165",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "EXIT_CODE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P166",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "EXIT_CODE_FAIL_CLOSED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P167",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NO_USER_STATE_MUTATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P168",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_ROUND_CENTER_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P169",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_CLIPPED_SUPPORT_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P170",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_BORDER_DISTANCE_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P171",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_DIRECT_TANGENT_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P172",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_DOUBLE_PREMULT_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P173",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_RESIDUAL_ALPHA_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P174",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_COUNTER_STUCK_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P175",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_TIMESTAMP_WALLCLOCK_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P176",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_LEAK_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P177",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NEGATIVE_STALE_EPOCH_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P178",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "CHILD_ARTIFACT_DIGESTS_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P179",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "PHYSICAL_GATE_RECEIPT_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P180",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NO_PENDING_PHYSICAL_GATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P181",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "NO_PHYSICAL_FAIL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P182",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINAL_PACKAGE_IDENTITY_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P183",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINAL_ADAPTER_IDENTITY_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P184",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINAL_KERNEL_IDENTITY_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P185",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINAL_ORACLE_IDENTITY_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P186",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINAL_PRODUCTION_POINTER_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R9-P187",
+      "reason": "requires-one-frozen-windows-x64-packaged-electron-run-on-hardware-d3d12-webgpu-with-timestamp-query",
+      "requirement": "FINAL_STATE_CORRECT",
+      "status": "PENDING"
+    }
+  ],
+  "physicalGpuExecuted": false,
+  "productionPointerDigest": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "productionPointerMutated": false,
+  "schemaId": "tdt.ewa.physical-evidence.r9.v1",
+  "schemaVersion": 1,
+  "sourceArtifacts": [
+    "TDT_RESAMPLE_RUNTIME_01_R9_PARENT_REPORT.json",
+    "TDT_RESAMPLE_RUNTIME_01_R9_SOURCE_GATE_REPORT.json",
+    "TDT_RESAMPLE_RUNTIME_01_R9_PREDECESSOR_REGRESSION_REPORT.json"
+  ],
+  "sourceGates": [
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S001",
+      "message": null,
+      "requirement": "PARENT_BUNDLE_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S002",
+      "message": null,
+      "requirement": "PARENT_SPEC_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S003",
+      "message": null,
+      "requirement": "PARENT_README_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S004",
+      "message": null,
+      "requirement": "R8_KERNEL_IDENTITY_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S005",
+      "message": null,
+      "requirement": "R8_ABI_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S006",
+      "message": null,
+      "requirement": "R8_COORDINATE_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S007",
+      "message": null,
+      "requirement": "R8_AXIAL_FIELD_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S008",
+      "message": null,
+      "requirement": "R8_SUPPORT_PLANNER_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S009",
+      "message": null,
+      "requirement": "R8_ALPHA_SEMANTIC_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S010",
+      "message": null,
+      "requirement": "R8_BORDER_SEMANTIC_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S011",
+      "message": null,
+      "requirement": "R8_RESIDUAL_ORDER_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S012",
+      "message": null,
+      "requirement": "R8_GENERATED_SOURCE_DIGESTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S013",
+      "message": null,
+      "requirement": "PRODUCTION_POINTER_UNCHANGED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S014",
+      "message": null,
+      "requirement": "NO_R8_IN_PLACE_REWRITE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S015",
+      "message": null,
+      "requirement": "PREDECESSOR_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "identities",
+      "id": "R9-S016",
+      "message": null,
+      "requirement": "HARNESS_IDENTITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S017",
+      "message": null,
+      "requirement": "EVIDENCE_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S018",
+      "message": null,
+      "requirement": "RUN_MANIFEST_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S019",
+      "message": null,
+      "requirement": "QUALIFICATION_PROFILE_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S020",
+      "message": null,
+      "requirement": "ADAPTER_IDENTITY_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S021",
+      "message": null,
+      "requirement": "DEVICE_IDENTITY_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S022",
+      "message": null,
+      "requirement": "PACKAGE_IDENTITY_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S023",
+      "message": null,
+      "requirement": "FIXTURE_MANIFEST_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S024",
+      "message": null,
+      "requirement": "SHADER_COMPILE_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S025",
+      "message": null,
+      "requirement": "PARITY_RESULT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S026",
+      "message": null,
+      "requirement": "COUNTER_RESULT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S027",
+      "message": null,
+      "requirement": "TIMESTAMP_RESULT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S028",
+      "message": null,
+      "requirement": "RESIDENCY_RESULT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S029",
+      "message": null,
+      "requirement": "DEVICE_LOSS_RESULT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S030",
+      "message": null,
+      "requirement": "PACKAGE_EXECUTION_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "adapter.schema.json",
+        "counter.schema.json",
+        "device-loss.schema.json",
+        "device.schema.json",
+        "evidence.schema.json",
+        "final-receipt.schema.json",
+        "fixture-manifest.schema.json",
+        "package-execution.schema.json",
+        "package.schema.json",
+        "parity.schema.json",
+        "qualification-profile.schema.json",
+        "residency.schema.json",
+        "run-manifest.schema.json",
+        "shader-compile.schema.json",
+        "timestamp.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R9-S031",
+      "message": null,
+      "requirement": "FINAL_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "app/electron/r9-physical-e2e-guard.mjs",
+        "app/renderer/physical-r9/index.html",
+        "app/renderer/physical-r9/physical-runner.mjs",
+        "app/renderer/physical-r9/physical-bridge.mjs",
+        "tools/resample-runtime-01-r9/build-package-candidate.mjs",
+        "tools/resample-runtime-01-r9/run-packaged-physical.mjs",
+        "tools/resample-runtime-01-r9/finalize-source.mjs",
+        "tools/resample-runtime-01-r9/finalize-physical.mjs"
+      ],
+      "evidenceKey": "files",
+      "id": "R9-S032",
+      "message": null,
+      "requirement": "ATOMIC_ARTIFACT_WRITE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "app/electron/r9-physical-e2e-guard.mjs",
+        "app/renderer/physical-r9/index.html",
+        "app/renderer/physical-r9/physical-runner.mjs",
+        "app/renderer/physical-r9/physical-bridge.mjs",
+        "tools/resample-runtime-01-r9/build-package-candidate.mjs",
+        "tools/resample-runtime-01-r9/run-packaged-physical.mjs",
+        "tools/resample-runtime-01-r9/finalize-source.mjs",
+        "tools/resample-runtime-01-r9/finalize-physical.mjs"
+      ],
+      "evidenceKey": "files",
+      "id": "R9-S033",
+      "message": null,
+      "requirement": "VOLATILE_FIELD_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 32,
+      "evidenceKey": "errors",
+      "id": "R9-S034",
+      "message": null,
+      "requirement": "STABLE_ERROR_CODES",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "app/electron/r9-physical-e2e-guard.mjs",
+        "app/renderer/physical-r9/index.html",
+        "app/renderer/physical-r9/physical-runner.mjs",
+        "app/renderer/physical-r9/physical-bridge.mjs",
+        "tools/resample-runtime-01-r9/build-package-candidate.mjs",
+        "tools/resample-runtime-01-r9/run-packaged-physical.mjs",
+        "tools/resample-runtime-01-r9/finalize-source.mjs",
+        "tools/resample-runtime-01-r9/finalize-physical.mjs"
+      ],
+      "evidenceKey": "files",
+      "id": "R9-S035",
+      "message": null,
+      "requirement": "NO_BACKGROUND_UPLOAD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "renderer",
+      "id": "R9-S036",
+      "message": null,
+      "requirement": "PHYSICAL_RUNNER_ENTRY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "electronWiring",
+      "id": "R9-S037",
+      "message": null,
+      "requirement": "ELECTRON_MAIN_GUARD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "renderer",
+      "id": "R9-S038",
+      "message": null,
+      "requirement": "RENDERER_HARNESS_ENTRY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "renderer",
+      "id": "R9-S039",
+      "message": null,
+      "requirement": "TEST_ONLY_BRIDGE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noDev",
+      "id": "R9-S040",
+      "message": null,
+      "requirement": "NO_DEV_SERVER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "isolation",
+      "id": "R9-S041",
+      "message": null,
+      "requirement": "NO_SOURCE_TREE_READ",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noCpuFallback",
+      "id": "R9-S042",
+      "message": null,
+      "requirement": "NO_REFERENCE_AS_PRODUCT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noCpuFallback",
+      "id": "R9-S043",
+      "message": null,
+      "requirement": "NO_CPU_RUNTIME_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "oracleTestOnly",
+      "id": "R9-S044",
+      "message": null,
+      "requirement": "ORACLE_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "validationTestOnly",
+      "id": "R9-S045",
+      "message": null,
+      "requirement": "VALIDATION_SHADER_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S046",
+      "message": null,
+      "requirement": "NEGATIVE_CONTROL_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "network",
+      "id": "R9-S047",
+      "message": null,
+      "requirement": "NETWORK_DISABLED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "devServerAllowed": false,
+        "entryHtml": "renderer/physical-r9/index.html",
+        "entryModule": "app/renderer/physical-r9/physical-runner.mjs",
+        "environmentSwitch": "DADUM_R9_PHYSICAL_MODE=1",
+        "guard": "app/electron/r9-physical-e2e-guard.mjs",
+        "networkPolicy": "loopback-only",
+        "partitionId": "tdt.package.test-partition.resample-r9.v1",
+        "productionAuthority": false,
+        "runtimeAssets": [
+          "R8 product R4",
+          "R8 product R6",
+          "R8 direct reference",
+          "R8 validation R4",
+          "R8 validation R6",
+          "R8 source preparation",
+          "R8 residual",
+          "R8 finalization"
+        ],
+        "schemaVersion": 1,
+        "sourceTreeAccess": false
+      },
+      "evidenceKey": "testPartition",
+      "id": "R9-S048",
+      "message": null,
+      "requirement": "ACTIVE_GRAPH_ADMISSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "devServerAllowed": false,
+        "entryHtml": "renderer/physical-r9/index.html",
+        "entryModule": "app/renderer/physical-r9/physical-runner.mjs",
+        "environmentSwitch": "DADUM_R9_PHYSICAL_MODE=1",
+        "guard": "app/electron/r9-physical-e2e-guard.mjs",
+        "networkPolicy": "loopback-only",
+        "partitionId": "tdt.package.test-partition.resample-r9.v1",
+        "productionAuthority": false,
+        "runtimeAssets": [
+          "R8 product R4",
+          "R8 product R6",
+          "R8 direct reference",
+          "R8 validation R4",
+          "R8 validation R6",
+          "R8 source preparation",
+          "R8 residual",
+          "R8 finalization"
+        ],
+        "schemaVersion": 1,
+        "sourceTreeAccess": false
+      },
+      "evidenceKey": "testPartition",
+      "id": "R9-S049",
+      "message": null,
+      "requirement": "PACKAGE_CONTENT_ADMISSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R9-S050",
+      "message": null,
+      "requirement": "SCRIPT_ENTRYPOINTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "output",
+      "id": "R9-S051",
+      "message": null,
+      "requirement": "WINDOWS_PATH_SAFETY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "output",
+      "id": "R9-S052",
+      "message": null,
+      "requirement": "OUTPUT_OVERWRITE_GUARD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R9-S053",
+      "message": null,
+      "requirement": "SINGLE_RUN_LOCK",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cleanup",
+      "id": "R9-S054",
+      "message": null,
+      "requirement": "INTERRUPTION_MARKER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cleanup",
+      "id": "R9-S055",
+      "message": null,
+      "requirement": "CLEANUP_LEDGER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "count": 24,
+        "digest": "310aa66bb645d67f9379602d7ce1ecabfbabbd474b0b7d303d4c0546f207392a"
+      },
+      "evidenceKey": "fixture",
+      "id": "R9-S056",
+      "message": null,
+      "requirement": "FIXTURE_GENERATOR_DETERMINISTIC",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "f64Reuse",
+      "id": "R9-S057",
+      "message": null,
+      "requirement": "F64_ORACLE_REUSED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "binary16",
+      "id": "R9-S058",
+      "message": null,
+      "requirement": "BINARY16_PACKER_INDEPENDENT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S059",
+      "message": null,
+      "requirement": "RAW_TEXTURE_LAYOUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S060",
+      "message": null,
+      "requirement": "SIGNED_ZERO_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S061",
+      "message": null,
+      "requirement": "NAN_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S062",
+      "message": null,
+      "requirement": "FAULT_SENTINEL_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S063",
+      "message": null,
+      "requirement": "PRODUCT_REFERENCE_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S064",
+      "message": null,
+      "requirement": "ORACLE_ULP_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S065",
+      "message": null,
+      "requirement": "DC_ULP_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S066",
+      "message": null,
+      "requirement": "ALPHA_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "rawLayout",
+      "id": "R9-S067",
+      "message": null,
+      "requirement": "BORDER_ULP_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S068",
+      "message": null,
+      "requirement": "ROW_PADDING_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S069",
+      "message": null,
+      "requirement": "CHANNEL_ORDER_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S070",
+      "message": null,
+      "requirement": "ENDIAN_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S071",
+      "message": null,
+      "requirement": "ROUND_CENTER_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S072",
+      "message": null,
+      "requirement": "CLIPPED_SUPPORT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S073",
+      "message": null,
+      "requirement": "CLAMPED_DISTANCE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S074",
+      "message": null,
+      "requirement": "DIRECT_TANGENT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S075",
+      "message": null,
+      "requirement": "DOUBLE_PREMULT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S076",
+      "message": null,
+      "requirement": "RESIDUAL_ALPHA_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S077",
+      "message": null,
+      "requirement": "COUNTER_STUCK_ZERO_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S078",
+      "message": null,
+      "requirement": "TIMESTAMP_FAKE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S079",
+      "message": null,
+      "requirement": "RESIDENCY_LEDGER_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "pass": true,
+        "results": {
+          "channelOrder": {
+            "detected": true
+          },
+          "clampedDistance": {
+            "detected": true
+          },
+          "clippedSupport": {
+            "detected": true
+          },
+          "counterStuckZero": {
+            "detected": true
+          },
+          "directTangent": {
+            "detected": true
+          },
+          "doublePremult": {
+            "detected": true
+          },
+          "endian": {
+            "detected": true
+          },
+          "leak": {
+            "detected": true
+          },
+          "residualAlpha": {
+            "detected": true
+          },
+          "roundCenter": {
+            "detected": true
+          },
+          "rowPadding": {
+            "detected": true
+          },
+          "staleEpoch": {
+            "detected": true
+          },
+          "timestampWallClock": {
+            "detected": true
+          }
+        },
+        "schemaVersion": 1
+      },
+      "evidenceKey": "negative",
+      "id": "R9-S080",
+      "message": null,
+      "requirement": "STALE_EPOCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S081",
+      "message": null,
+      "requirement": "PRIMARY_PLATFORM",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S082",
+      "message": null,
+      "requirement": "ELECTRON_VERSION_PIN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S083",
+      "message": null,
+      "requirement": "CHROMIUM_VERSION_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S084",
+      "message": null,
+      "requirement": "NODE_VERSION_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S085",
+      "message": null,
+      "requirement": "D3D12_BACKEND_EVIDENCE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S086",
+      "message": null,
+      "requirement": "SOFTWARE_ADAPTER_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S087",
+      "message": null,
+      "requirement": "DISCRETE_ADAPTER_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S088",
+      "message": null,
+      "requirement": "TIMESTAMP_FEATURE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S089",
+      "message": null,
+      "requirement": "REQUIRED_LIMITS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S090",
+      "message": null,
+      "requirement": "FEATURE_LIMIT_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S091",
+      "message": null,
+      "requirement": "POWER_STATE_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "arch": "x64",
+        "backend": "D3D12",
+        "deviceLossCycles": 3,
+        "discreteAdapterRequired": true,
+        "fallbackAllowed": false,
+        "memorySpreadBytes": 67108864,
+        "memorySpreadFraction": 0.05,
+        "memoryWindow": 64,
+        "minimumPairedSamples": 256,
+        "minimumWarmupIterations": 128,
+        "packagedElectronRequired": true,
+        "performanceThresholds": {
+          "R4MedianRatioMax": 0.8,
+          "R6MedianRatioMax": 0.9,
+          "productP95NotAboveReference": true
+        },
+        "platform": "win32",
+        "profileId": "tdt.ewa.r9.windows-x64-d3d12-primary.v1",
+        "residencyMeasuredIterations": 256,
+        "residencyWarmupIterations": 32,
+        "schemaVersion": 1,
+        "timestampQueryRequired": true
+      },
+      "evidenceKey": "platform",
+      "id": "R9-S092",
+      "message": null,
+      "requirement": "DISPLAY_STATE_IRRELEVANT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "packageHash",
+      "id": "R9-S093",
+      "message": null,
+      "requirement": "PACKAGE_BUILD_REPRODUCIBLE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "packageHash",
+      "id": "R9-S094",
+      "message": null,
+      "requirement": "PACKAGE_HASH_BEFORE_RUN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "packageHash",
+      "id": "R9-S095",
+      "message": null,
+      "requirement": "PACKAGE_HASH_AFTER_RUN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "samePackage",
+      "id": "R9-S096",
+      "message": null,
+      "requirement": "EVIDENCE_EXTERNAL_TO_PACKAGE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "samePackage",
+      "id": "R9-S097",
+      "message": null,
+      "requirement": "SAME_PACKAGE_ALL_TESTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "samePackage",
+      "id": "R9-S098",
+      "message": null,
+      "requirement": "SAME_DEVICE_PREVIEW_EXPORT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "samePackage",
+      "id": "R9-S099",
+      "message": null,
+      "requirement": "NO_GPU_FLAG_DOWNGRADE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "samePackage",
+      "id": "R9-S100",
+      "message": null,
+      "requirement": "UNPACKED_PACKAGE_QUALIFIES",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "parent",
+      "id": "R9-S101",
+      "message": null,
+      "requirement": "R8_PREDECESSOR_REGRESSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "fileCount": 34
+      },
+      "evidenceKey": "syntax",
+      "id": "R9-S102",
+      "message": null,
+      "requirement": "R9_SOURCE_SYNTAX",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "app/electron/r9-physical-e2e-guard.mjs",
+        "app/renderer/physical-r9/index.html",
+        "app/renderer/physical-r9/physical-runner.mjs",
+        "app/renderer/physical-r9/physical-bridge.mjs",
+        "tools/resample-runtime-01-r9/build-package-candidate.mjs",
+        "tools/resample-runtime-01-r9/run-packaged-physical.mjs",
+        "tools/resample-runtime-01-r9/finalize-source.mjs",
+        "tools/resample-runtime-01-r9/finalize-physical.mjs"
+      ],
+      "evidenceKey": "files",
+      "id": "R9-S103",
+      "message": null,
+      "requirement": "R9_SOURCE_GRAPH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "app/electron/r9-physical-e2e-guard.mjs",
+        "app/renderer/physical-r9/index.html",
+        "app/renderer/physical-r9/physical-runner.mjs",
+        "app/renderer/physical-r9/physical-bridge.mjs",
+        "tools/resample-runtime-01-r9/build-package-candidate.mjs",
+        "tools/resample-runtime-01-r9/run-packaged-physical.mjs",
+        "tools/resample-runtime-01-r9/finalize-source.mjs",
+        "tools/resample-runtime-01-r9/finalize-physical.mjs"
+      ],
+      "evidenceKey": "files",
+      "id": "R9-S104",
+      "message": null,
+      "requirement": "R9_SOURCE_DETERMINISM",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "app/electron/r9-physical-e2e-guard.mjs",
+        "app/renderer/physical-r9/index.html",
+        "app/renderer/physical-r9/physical-runner.mjs",
+        "app/renderer/physical-r9/physical-bridge.mjs",
+        "tools/resample-runtime-01-r9/build-package-candidate.mjs",
+        "tools/resample-runtime-01-r9/run-packaged-physical.mjs",
+        "tools/resample-runtime-01-r9/finalize-source.mjs",
+        "tools/resample-runtime-01-r9/finalize-physical.mjs"
+      ],
+      "evidenceKey": "files",
+      "id": "R9-S105",
+      "message": null,
+      "requirement": "R9_SOURCE_RECEIPT_COMPLETE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R9_PHYSICAL_HARNESS_SOURCE_BAKED_AWAITING_WINDOWS_EXECUTION",
+      "evidenceKey": "sourceState",
+      "id": "R9-S106",
+      "message": null,
+      "requirement": "R9_SOURCE_STATE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "physicalPending",
+      "id": "R9-S107",
+      "message": null,
+      "requirement": "NO_PHYSICAL_PASS_FROM_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "physicalPending",
+      "id": "R9-S108",
+      "message": null,
+      "requirement": "NO_FINAL_STATE_WITH_PENDING",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noPromotion",
+      "id": "R9-S109",
+      "message": null,
+      "requirement": "NO_PRODUCTION_PROMOTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "next",
+      "id": "R9-S110",
+      "message": null,
+      "requirement": "NEXT_AUTHORITY_DECLARED",
+      "status": "PASS"
+    }
+  ],
+  "state": "RESAMPLE_RUNTIME_R9_PHYSICAL_HARNESS_SOURCE_BAKED_AWAITING_WINDOWS_EXECUTION"
+}

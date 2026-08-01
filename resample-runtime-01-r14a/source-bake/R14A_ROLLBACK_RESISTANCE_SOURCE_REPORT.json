@@ -1,0 +1,11 @@
+{
+  "failCount": 0,
+  "highestSeenReleaseSequencePreserved": true,
+  "nextTrustStateSha256": "7692a97ed8c36750880a4d67b50cfd97961b6d6ead487689ded4c2b48cbdc25b",
+  "normalReleaseFloorEnforced": true,
+  "passCount": 4,
+  "rollbackPermitSha256": "b374e1c5dd3efee236ca8489666993b14f164b1e771c02751f3415d1b2da6837",
+  "schemaVersion": 1,
+  "selfSha256": "f983bc6b238961ccd67360dcee6eb01877195a9fee927d7e764fa01eb3c49117",
+  "singleUseNonceConsumed": true
+}

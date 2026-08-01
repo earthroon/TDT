@@ -1,0 +1,28 @@
+{
+  "schema": "dadum-ew03-pixel-roundtrip-report-v1",
+  "patchId": "TDT-EXPORT-WORKER-03",
+  "status": "NOT_EXECUTED_IN_SOURCE_BAKE",
+  "decoderIdentity": null,
+  "decoderVersion": null,
+  "cases": [
+    {
+      "caseId": "webp-transparent-rgb-exact",
+      "inputPixelSha256": null,
+      "decodedPixelSha256": null,
+      "exactMatch": null
+    },
+    {
+      "caseId": "png8-alpha",
+      "inputPixelSha256": null,
+      "decodedPixelSha256": null,
+      "exactMatch": null
+    },
+    {
+      "caseId": "png16-endianness",
+      "inputPixelSha256": null,
+      "decodedPixelSha256": null,
+      "exactMatch": null
+    }
+  ],
+  "promotionEligible": false
+}

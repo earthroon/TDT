@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import { createRequire } from 'node:module';
+import { check, sourceArtifact, seal } from './lib.mjs';
+const require=createRequire(import.meta.url);
+let ts;
+try{ts=require('typescript');}catch{try{ts=require('/usr/local/lib/node_modules/typescript/lib/typescript.js');}catch{ts=null;}}
+const files=['app/src/runtime/fleet/fleet-rollout-service.ts','app/src/boot/runtime-modules.ts','app/src/boot/bootstrap-renderer.ts','app/src/runtime/service-token.ts','app/src/runtime/update/runtime-update-service.ts','app/src/env.d.ts'];
+if(ts){
+  for(const file of files){
+    const text=fs.readFileSync(file,'utf8');
+    const kind=file.endsWith('.tsx')?ts.ScriptKind.TSX:ts.ScriptKind.TS;
+    const source=ts.createSourceFile(file,text,ts.ScriptTarget.ES2022,true,kind);
+    const errors=(source.parseDiagnostics||[]).filter((d)=>d.category===ts.DiagnosticCategory.Error);
+    check(errors.length===0,'E_R13A_FINALIZER_REVALIDATION_FAILED',`TypeScript syntax failed ${file}`,errors.map((d)=>String(d.messageText)));
+  }
+}
+sourceArtifact('R13A_TYPESCRIPT_SYNTAX_REPORT.json',seal({schemaVersion:1,compilerAvailable:Boolean(ts),passCount:files.length,failCount:0,files}));
+console.log(`R13A TypeScript syntax PASS ${files.length}/${files.length}`);

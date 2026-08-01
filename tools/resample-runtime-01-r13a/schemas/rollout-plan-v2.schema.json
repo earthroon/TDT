@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt.rollout.plan.r13a.v2",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "schemaId"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "schemaId": {
+      "const": "tdt.rollout.plan.r13a.v2"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,2 @@
+import {spawnSync} from 'node:child_process';import {cleanSourceArtifacts} from './lib.mjs';
+cleanSourceArtifacts();for(const script of ['generate-fixtures.mjs','verify-parent.mjs','verify-source.mjs','verify-predecessor-regression.mjs','finalize-source.mjs']){const r=spawnSync(process.execPath,[new URL(script,import.meta.url).pathname],{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1);}

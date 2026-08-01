@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1C",
+  "pass": true,
+  "counts": {
+    "pass": 15,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "math-flat",
+      "pass": true,
+      "message": "flat isotropic",
+      "detail": null
+    },
+    {
+      "id": "math-vertical-edge",
+      "pass": true,
+      "message": "vertical edge tangent vertical",
+      "detail": {
+        "t": [
+          0,
+          1
+        ],
+        "c": 0.9950124688276821,
+        "e": 2,
+        "l1": 4,
+        "l2": 0.009999999999999787
+      }
+    },
+    {
+      "id": "math-horizontal-edge",
+      "pass": true,
+      "message": "horizontal edge tangent horizontal",
+      "detail": {
+        "t": [
+          1,
+          0
+        ],
+        "c": 0.9950124688276821,
+        "e": 2,
+        "l1": 4,
+        "l2": 0.009999999999999787
+      }
+    },
+    {
+      "id": "math-diagonal-coherence",
+      "pass": true,
+      "message": "diagonal rank-one coherent",
+      "detail": {
+        "t": [
+          0.7071067811865475,
+          -0.7071067811865475
+        ],
+        "c": 0.9499999999997625,
+        "e": 1.9748417658131499,
+        "l1": 3.9,
+        "l2": 0.10000000000000009
+      }
+    },
+    {
+      "id": "math-corner-isotropic",
+      "pass": true,
+      "message": "equal eigenvalues low coherence",
+      "detail": {
+        "t": [
+          0,
+          1
+        ],
+        "c": 0,
+        "e": 1.4142135623730951,
+        "l1": 2,
+        "l2": 2
+      }
+    },
+    {
+      "id": "math-order",
+      "pass": true,
+      "message": "eigen ordering",
+      "detail": null
+    },
+    {
+      "id": "math-aniso-sensitive",
+      "pass": true,
+      "message": "coherence changes anisotropy",
+      "detail": {
+        "iso": {
+          "major": 2.5,
+          "minor": 1.3,
+          "a": 1
+        },
+        "aniso": {
+          "major": 4.330127018922193,
+          "minor": 0.82,
+          "a": 3
+        }
+      }
+    },
+    {
+      "id": "math-edge-gate",
+      "pass": true,
+      "message": "edge gate disables anisotropy",
+      "detail": {
+        "major": 2.5,
+        "minor": 1.3,
+        "a": 1
+      }
+    },
+    {
+      "id": "math-major-sensitive",
+      "pass": true,
+      "message": "major grows",
+      "detail": null
+    },
+    {
+      "id": "math-minor-sensitive",
+      "pass": true,
+      "message": "minor contracts",
+      "detail": null
+    },
+    {
+      "id": "math-coverage-floor",
+      "pass": true,
+      "message": "minor floor",
+      "detail": null
+    },
+    {
+      "id": "math-reach-bound",
+      "pass": true,
+      "message": "major reach bounded",
+      "detail": null
+    },
+    {
+      "id": "math-scale-projection",
+      "pass": true,
+      "message": "axis scale projection",
+      "detail": null
+    },
+    {
+      "id": "math-aniso-one",
+      "pass": true,
+      "message": "max anisotropy one isotropic",
+      "detail": null
+    },
+    {
+      "id": "math-finite",
+      "pass": true,
+      "message": "finite ellipse",
+      "detail": null
+    }
+  ],
+  "fixtures": {
+    "flat": {
+      "t": [
+        1,
+        0
+      ],
+      "c": 0,
+      "e": 0,
+      "l1": 0,
+      "l2": 0
+    },
+    "vertical": {
+      "t": [
+        0,
+        1
+      ],
+      "c": 0.9950124688276821,
+      "e": 2,
+      "l1": 4,
+      "l2": 0.009999999999999787
+    },
+    "horizontal": {
+      "t": [
+        1,
+        0
+      ],
+      "c": 0.9950124688276821,
+      "e": 2,
+      "l1": 4,
+      "l2": 0.009999999999999787
+    },
+    "diag": {
+      "t": [
+        0.7071067811865475,
+        -0.7071067811865475
+      ],
+      "c": 0.9499999999997625,
+      "e": 1.9748417658131499,
+      "l1": 3.9,
+      "l2": 0.10000000000000009
+    },
+    "corner": {
+      "t": [
+        0,
+        1
+      ],
+      "c": 0,
+      "e": 1.4142135623730951,
+      "l1": 2,
+      "l2": 2
+    },
+    "iso": {
+      "major": 2.5,
+      "minor": 1.3,
+      "a": 1
+    },
+    "aniso": {
+      "major": 4.330127018922193,
+      "minor": 0.82,
+      "a": 3
+    },
+    "weak": {
+      "major": 2.5,
+      "minor": 1.3,
+      "a": 1
+    },
+    "rot": {
+      "major": 6,
+      "minor": 0.82,
+      "a": 3
+    }
+  }
+}

@@ -1,0 +1,97 @@
+PASS TEST-BL01-001 profile identity
+PASS TEST-BL01-002 profile digest sensitivity
+PASS TEST-BL01-003 unknown recovery mode rejected
+PASS TEST-BL01-004 online offline exclusivity
+PASS TEST-BL01-005 node version pinned
+PASS TEST-BL01-006 npm version pinned
+PASS TEST-BL01-007 non-win host cannot promote
+PASS TEST-BL01-008 win32 x64 target explicit
+PASS TEST-BL01-009 unknown npm config detected
+PASS TEST-BL01-010 node options detected
+PASS TEST-BL01-011 token redaction
+PASS TEST-BL01-012 password redaction
+PASS TEST-BL01-013 origin digest hides raw
+PASS TEST-BL01-014 scope registry policy explicit
+PASS TEST-BL01-015 silent fallback forbidden
+PASS TEST-BL01-016 401 classified
+PASS TEST-BL01-017 404 classified
+PASS TEST-BL01-018 429 classified
+PASS TEST-BL01-019 503 classified
+PASS TEST-BL01-020 tls failure classified
+PASS TEST-BL01-021 workspace clean reset
+PASS TEST-BL01-022 node_modules residue avoided
+PASS TEST-BL01-023 package sha fixed
+PASS TEST-BL01-024 lock sha fixed
+PASS TEST-BL01-025 package-lock-only command
+PASS TEST-BL01-026 candidate package mutation gate
+PASS TEST-BL01-027 lock v2 rejected
+PASS TEST-BL01-028 lock v3 observed
+PASS TEST-BL01-029 root missing detected
+PASS TEST-BL01-030 root excess algorithm
+PASS TEST-BL01-031 exact mismatch detected
+PASS TEST-BL01-032 caret rejected
+PASS TEST-BL01-033 tilde rejected
+PASS TEST-BL01-034 tag rejected
+PASS TEST-BL01-035 integrity verifier present
+PASS TEST-BL01-036 resolved verifier present
+PASS TEST-BL01-037 http tarball rejected
+PASS TEST-BL01-038 file source rejected
+PASS TEST-BL01-039 git ssh rejected
+PASS TEST-BL01-040 https accepted by source policy
+PASS TEST-BL01-041 strict peer configured
+PASS TEST-BL01-042 legacy peers disabled
+PASS TEST-BL01-043 optional metadata preserved
+PASS TEST-BL01-044 os metadata preserved
+PASS TEST-BL01-045 cpu metadata preserved
+PASS TEST-BL01-046 lifecycle inventory emitted
+PASS TEST-BL01-047 ignore scripts configured
+PASS TEST-BL01-048 execution count evidence
+PASS TEST-BL01-049 cache path derived
+PASS TEST-BL01-050 cache missing gate
+PASS TEST-BL01-051 sri verify
+PASS TEST-BL01-052 sha256 cache evidence
+PASS TEST-BL01-053 content address policy
+PASS TEST-BL01-054 cache records sorted
+PASS TEST-BL01-055 mtime excluded
+PASS TEST-BL01-056 content changes digest
+PASS TEST-BL01-057 run a offline
+PASS TEST-BL01-058 run b offline
+PASS TEST-BL01-059 network count evidence a
+PASS TEST-BL01-060 offline env explicit
+PASS TEST-BL01-061 run lock mutation check
+PASS TEST-BL01-062 run b same mutation contract
+PASS TEST-BL01-063 run package mutation check
+PASS TEST-BL01-064 run b package contract
+PASS TEST-BL01-065 lifecycle execution receipt
+PASS TEST-BL01-066 ignore scripts command
+PASS TEST-BL01-067 install graph A artifact
+PASS TEST-BL01-068 install graph B artifact
+PASS TEST-BL01-069 same instance count
+PASS TEST-BL01-070 count difference rejected
+PASS TEST-BL01-071 path difference affects graph
+PASS TEST-BL01-072 version difference affects graph
+PASS TEST-BL01-073 package json digest evidence
+PASS TEST-BL01-074 content digest compared
+PASS TEST-BL01-075 whole content match
+PASS TEST-BL01-076 optional set represented
+PASS TEST-BL01-077 peer placement path represented
+PASS TEST-BL01-078 bin set compared
+PASS TEST-BL01-079 extraneous gate in spec
+PASS TEST-BL01-080 invalid package gate in spec
+PASS TEST-BL01-081 node_modules cache rejected
+PASS TEST-BL01-082 symlink targets hashed
+PASS TEST-BL01-083 bin shim set included
+PASS TEST-BL01-084 hidden lock contract in spec
+PASS TEST-BL01-085 same graph approved
+PASS TEST-BL01-086 same content approved
+PASS TEST-BL01-087 cas success
+PASS TEST-BL01-088 stale cas rejected
+PASS TEST-BL01-089 atomic temp strategy present
+PASS TEST-BL01-090 readback mismatch gate
+PASS TEST-BL01-091 receipt canonical digest
+PASS TEST-BL01-092 same payload deterministic
+PASS TEST-BL01-093 dependency verifier integration
+PASS TEST-BL01-094 lock in build id
+PASS TEST-BL01-095 pointer mutation forbidden
+PASS TEST-BL01-096 source state bounded
+PASS TDT-BUILD-LOCK-01 runtime tests 96/96

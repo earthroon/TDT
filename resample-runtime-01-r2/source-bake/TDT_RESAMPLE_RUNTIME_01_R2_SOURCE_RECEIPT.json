@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "state": "RESAMPLE_RUNTIME_R2_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R1D",
+  "parentZipSha256": "e931447b7c3863afe60a15ec062d92ecd8bdc1b21d2f718883e329ccd1f0a1f8",
+  "sourceSealSha256": "f3af1f740a76ebfc6c07293b0287dfceee18f0202f8929ea88365d24dbc17f3b",
+  "changedFileCount": 44,
+  "sealedFileCount": 46,
+  "files": [
+    {
+      "relative": "README_TDT_RESAMPLE_RUNTIME_01_R2_APPLIED.md",
+      "byteLength": 7051,
+      "sha256": "cc69ae80b92b5ca158d3e92371e47bcf1916231400cb34f79472ec56853620c0"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "byteLength": 13551,
+      "sha256": "1c164cc65574b46c216085ccf9a2a1d311fecd86f497e64e7261398a3803afbb"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "byteLength": 13784,
+      "sha256": "43f2d3b2b08006ef581ac16992a6ca7cd2c358d37180d0bb58fa6ccd2220592c"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_optimization_receipt_r2.mjs",
+      "byteLength": 1574,
+      "sha256": "0887fc2c1a31a427b70c4b08df4bbb418947655b59a74dd16d54affbb929dcaf"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r2.mjs",
+      "byteLength": 4809,
+      "sha256": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_performance_runtime_r2.mjs",
+      "byteLength": 5730,
+      "sha256": "5035eda28ac2fc5b249aed28e19884868210fea488a44813b2de0fdbf5035e97"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r2.mjs",
+      "byteLength": 4345,
+      "sha256": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_parity_compare_r2.wgsl",
+      "byteLength": 1894,
+      "sha256": "c7fd2b23b9a8cfaf95abc52986cef79759e0f0ecf33430f870d8b92127062bf5"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl",
+      "byteLength": 3638,
+      "sha256": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl",
+      "byteLength": 3638,
+      "sha256": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl",
+      "byteLength": 3846,
+      "sha256": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl",
+      "byteLength": 3846,
+      "sha256": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 23816,
+      "sha256": "424fbfdf305c4c61103e06fdccf6328cf1165fbb831800556a537b3645414ef1"
+    },
+    {
+      "relative": "app/src/env.d.ts",
+      "byteLength": 11460,
+      "sha256": "8075ef1a97766aee49bda156d6288b7b327eb775e3ee812cbb586104a2fe9158"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 71798,
+      "sha256": "99447ec8a1ced13b2fe76d1974750b9a454aa07ce98481394cbf34fcfa981637"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106337,
+      "sha256": "db25dadc8391c897f12ed119b2bf15872d40b175afb6312c8dc3f49478d546c9"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 189837,
+      "sha256": "c3dc784c7e9ca1703203455954e8a081ab1a9a06c19c6dbe3193956cb0302390"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 15842,
+      "sha256": "2a64145fa17cf9b17882be69993fe91b4ebed75d5cb7cf7316575be36d911c54"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-authority-profile.json",
+      "byteLength": 760,
+      "sha256": "09312098623d4a8eecd152e3247928391c796740a4d8a0384a41d49d540e03f4"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "byteLength": 23079,
+      "sha256": "bb12af97e2fb8390ff847396e09edde60570c3e224f3430010244a75b3dbeb4e"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/dynamic-asset-manifest-receipt.json",
+      "byteLength": 402,
+      "sha256": "f1955c02e9f13d9c1df31e10d6c84ab0f828b825ee010396d07200822a2defa9"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/edge-manifest.json",
+      "byteLength": 59941,
+      "sha256": "ef2c7f6d12eaaff78da91572dfcedf80f1385c0cfbb4c90e3d4c67bb64477111"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "byteLength": 460,
+      "sha256": "b589ed4bca64e53a1ff970f7c474d3790e01529c7c96939c539646a2ce2fcf58"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/node-manifest.json",
+      "byteLength": 115317,
+      "sha256": "3f30f044175a0a433d31d11e080f1e3a193fd9b61c59dea0833fd9e32bcc5f69"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "byteLength": 230,
+      "sha256": "8e09516db0629de15aab3e8b624bccdc09735e19988731bc0ee8278d3e53431a"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/regression-suite-receipt.json",
+      "byteLength": 6712,
+      "sha256": "2cc19160173e1dfba080e3e577b48b6300dc6d556af3bc8435b2697135ddb2a0"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "byteLength": 9987,
+      "sha256": "01eaad9e8b506b7cc801118aa5a9a68f2c73e786404feaaa1d522889a11cd5c8"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-gate-report.json",
+      "byteLength": 9286,
+      "sha256": "b5243ced0085e9443b008cfa2e49522ae508160cb2fb0f665afa08ea3b2ea5b4"
+    },
+    {
+      "relative": "artifacts/resample-runtime-01-r2/source-bake/TDT_RESAMPLE_RUNTIME_01_R2_REGRESSION_SUMMARY.json",
+      "byteLength": 1698,
+      "sha256": "9f4841408b1a0bab3beb645a26fc7ece2dc04f78661e448be81c73827cdfde1c"
+    },
+    {
+      "relative": "artifacts/resample-runtime-01-r2/source-bake/TDT_RESAMPLE_RUNTIME_01_R2_SOURCE_GATE.json",
+      "byteLength": 13946,
+      "sha256": "748ba311ea119bb01498506be43d27e260a5e8a5db3e4a8b3ea69fa57e4ecb67"
+    },
+    {
+      "relative": "artifacts/resample-runtime-01-r2/source-bake/r2-runtime-smoke.json",
+      "byteLength": 8210,
+      "sha256": "94b6feabf107b60ee26699519addce6b8ddfdf4ef2e95a4e86429645f7b1e72d"
+    },
+    {
+      "relative": "artifacts/resample-runtime-01-r2/source-bake/r2-source-contract.json",
+      "byteLength": 3645,
+      "sha256": "8b334e44edd45246e3b08aac350f31a9bb2ee6e674499ea48641267fec347987"
+    },
+    {
+      "relative": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "byteLength": 106337,
+      "sha256": "db25dadc8391c897f12ed119b2bf15872d40b175afb6312c8dc3f49478d546c9"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 18565,
+      "sha256": "db106d4d93c18a657f7056a0916a5f0ff1298c89fccde71adc34f7c245842d1f"
+    },
+    {
+      "relative": "patches/TDT_RESAMPLE_RUNTIME_01_R2_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 13967,
+      "sha256": "3324995b18e5859699a9ae7c2862b3bcb74bbe88324bdadf159ccd00218d6a86"
+    },
+    {
+      "relative": "patches/TDT_RESAMPLE_RUNTIME_01_R2_workgroup_tiled_ewa_optimization_uniform_barrier_baseline_pixel_parity.diff",
+      "byteLength": 290105,
+      "sha256": "e5aa34477fc2b5fcb162d62ce0c42dd5c773bd6d40db9a1bf880415169fb3d22"
+    },
+    {
+      "relative": "specs/TDT-RESAMPLE-RUNTIME-01-R2_WORKGROUP_TILED_EWA_OPTIMIZATION_UNIFORM_BARRIER_BASELINE_PIXEL_PARITY_SEAL_SPEC.md",
+      "byteLength": 99850,
+      "sha256": "d29fac5f7b5be1eff83bafe3497b1563b5ccaea8d2a664712910aa67169d368b"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 6692,
+      "sha256": "094ac21ea9437385343f332c47d3b3d94828fc1ff4d0c452746a749c7e3a8c25"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1a/verify-source-contract.mjs",
+      "byteLength": 7116,
+      "sha256": "875b1ac2b9c639413d07a8257d3718901088e4852cfcd6c577c396480fef3647"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r1c/verify-source-contract.mjs",
+      "byteLength": 10302,
+      "sha256": "435f8b7a5c1940f322581a8cc052b63a1d30f20ca57b8b0d9e68ec62e957c5d9"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r2/finalize.mjs",
+      "byteLength": 1750,
+      "sha256": "b4d4e25afc9ecc3f837da87add0aa661d6df6b81d032896a592bc8f6c0d7e573"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r2/gate.mjs",
+      "byteLength": 1161,
+      "sha256": "2e2a13aec42917e54226b4ccc7ff55879ee72e4ea83bf1c8dee5954b7b792bb5"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r2/lib.mjs",
+      "byteLength": 841,
+      "sha256": "a4dcbf772541be501d9b1be234fd31038c382297ee365e66f6f2aa87c33454ab"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r2/run.mjs",
+      "byteLength": 88,
+      "sha256": "20402fead297e45b0ad5debb5f837965fb0a89909a0a49e72db90e1b67e87906"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r2/runtime-smoke.mjs",
+      "byteLength": 5594,
+      "sha256": "a209a0d0155323d903a1142ec1fbda0df11854c820d3f0f6bd1653a3ebf54fe4"
+    },
+    {
+      "relative": "tools/resample-runtime-01-r2/verify-source-contract.mjs",
+      "byteLength": 6411,
+      "sha256": "bdc61c12316f74c16b03581127290fdd60c349244b8832c2cce4ccc5ee31ada9"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 81,
+    "DEFERRED": 27
+  },
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false,
+  "exactPixelParityClaim": false,
+  "performanceClaim": false,
+  "windowsPackagedElectronClaims": false
+}

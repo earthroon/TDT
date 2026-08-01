@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-03",
+  "gateCount": 208,
+  "gates": [
+    {
+      "id": "BKR03-PAR-001",
+      "description": "Parent source receipt exists"
+    },
+    {
+      "id": "BKR03-PAR-002",
+      "description": "Parent source receipt byte identity"
+    },
+    {
+      "id": "BKR03-PAR-003",
+      "description": "Parent patch identity"
+    },
+    {
+      "id": "BKR03-PAR-004",
+      "description": "Parent status source baked"
+    },
+    {
+      "id": "BKR03-PAR-005",
+      "description": "Parent source gates complete"
+    },
+    {
+      "id": "BKR03-PAR-006",
+      "description": "Parent physical gates remain pending"
+    },
+    {
+      "id": "BKR03-PAR-007",
+      "description": "Parent spec byte identity"
+    },
+    {
+      "id": "BKR03-PAR-008",
+      "description": "Compatibility WGSL byte identity"
+    },
+    {
+      "id": "BKR03-PAR-009",
+      "description": "Compatibility manifest byte identity"
+    },
+    {
+      "id": "BKR03-PAR-010",
+      "description": "Compatibility kernel identity inherited"
+    },
+    {
+      "id": "BKR03-PAR-011",
+      "description": "Compatibility ABI remains 8 bindings"
+    },
+    {
+      "id": "BKR03-PAR-012",
+      "description": "Compatibility ABI remains tensor-free"
+    },
+    {
+      "id": "BKR03-PAR-013",
+      "description": "Compatibility output remains SHADOW_ONLY"
+    },
+    {
+      "id": "BKR03-PAR-014",
+      "description": "Parent next patch is WGSL-03"
+    },
+    {
+      "id": "BKR03-PAR-015",
+      "description": "Declared parent bundle digest exact"
+    },
+    {
+      "id": "BKR03-PAR-016",
+      "description": "WGSL-03 spec references parent digest"
+    },
+    {
+      "id": "BKR03-SRC-001",
+      "description": "Terminal descriptor validator accepts canonical surface"
+    },
+    {
+      "id": "BKR03-SRC-002",
+      "description": "FINAL_EWA_TERMINAL role enforced"
+    },
+    {
+      "id": "BKR03-SRC-003",
+      "description": "rgba16float enforced"
+    },
+    {
+      "id": "BKR03-SRC-004",
+      "description": "Canonical semantic enforced"
+    },
+    {
+      "id": "BKR03-SRC-005",
+      "description": "Linear transfer enforced"
+    },
+    {
+      "id": "BKR03-SRC-006",
+      "description": "Premultiplied alpha enforced"
+    },
+    {
+      "id": "BKR03-SRC-007",
+      "description": "Output-pixel coordinates enforced"
+    },
+    {
+      "id": "BKR03-SRC-008",
+      "description": "Positive width enforced"
+    },
+    {
+      "id": "BKR03-SRC-009",
+      "description": "Positive height enforced"
+    },
+    {
+      "id": "BKR03-SRC-010",
+      "description": "Lowpass receipt digest enforced"
+    },
+    {
+      "id": "BKR03-SRC-011",
+      "description": "Lowpass plan digest enforced"
+    },
+    {
+      "id": "BKR03-SRC-012",
+      "description": "Runtime epoch exact match"
+    },
+    {
+      "id": "BKR03-SRC-013",
+      "description": "Device epoch exact match"
+    },
+    {
+      "id": "BKR03-SRC-014",
+      "description": "Device identity exact match"
+    },
+    {
+      "id": "BKR03-SRC-015",
+      "description": "Command graph exact match"
+    },
+    {
+      "id": "BKR03-SRC-016",
+      "description": "Arbitrary GPUTexture alone rejected"
+    },
+    {
+      "id": "BKR03-SRC-017",
+      "description": "Terminal schema ID present"
+    },
+    {
+      "id": "BKR03-SRC-018",
+      "description": "Stage-local source explicitly denied by role"
+    },
+    {
+      "id": "BKR03-SRC-019",
+      "description": "No WebGL FBO admission token"
+    },
+    {
+      "id": "BKR03-SRC-020",
+      "description": "No CPU RGBA8 terminal admission token"
+    },
+    {
+      "id": "BKR03-R1C-001",
+      "description": "Terminal producer ID exact"
+    },
+    {
+      "id": "BKR03-R1C-002",
+      "description": "Pass order has six stages"
+    },
+    {
+      "id": "BKR03-R1C-003",
+      "description": "Gradient first"
+    },
+    {
+      "id": "BKR03-R1C-004",
+      "description": "Outer after gradient"
+    },
+    {
+      "id": "BKR03-R1C-005",
+      "description": "Blur H after outer"
+    },
+    {
+      "id": "BKR03-R1C-006",
+      "description": "Blur V after blur H"
+    },
+    {
+      "id": "BKR03-R1C-007",
+      "description": "Eigen after integration"
+    },
+    {
+      "id": "BKR03-R1C-008",
+      "description": "Axial last"
+    },
+    {
+      "id": "BKR03-R1C-009",
+      "description": "Gradient digest exact"
+    },
+    {
+      "id": "BKR03-R1C-010",
+      "description": "Outer digest exact"
+    },
+    {
+      "id": "BKR03-R1C-011",
+      "description": "Blur H digest exact"
+    },
+    {
+      "id": "BKR03-R1C-012",
+      "description": "Blur V digest exact"
+    },
+    {
+      "id": "BKR03-R1C-013",
+      "description": "Eigen digest exact"
+    },
+    {
+      "id": "BKR03-R1C-014",
+      "description": "Axial digest exact"
+    },
+    {
+      "id": "BKR03-R1C-015",
+      "description": "Six compute passes recorded"
+    },
+    {
+      "id": "BKR03-R1C-016",
+      "description": "Producer dispatch count six"
+    },
+    {
+      "id": "BKR03-R1C-017",
+      "description": "Producer queue submit count zero"
+    },
+    {
+      "id": "BKR03-R1C-018",
+      "description": "Six private textures retained"
+    },
+    {
+      "id": "BKR03-R1C-019",
+      "description": "Integrated texture private capability exists"
+    },
+    {
+      "id": "BKR03-R1C-020",
+      "description": "Raw exposure count zero"
+    },
+    {
+      "id": "BKR03-R1C-021",
+      "description": "Integrated exposure count zero"
+    },
+    {
+      "id": "BKR03-R1C-022",
+      "description": "Public handle exposes fieldTexture"
+    },
+    {
+      "id": "BKR03-R1C-023",
+      "description": "Public handle has no integratedTexture property"
+    },
+    {
+      "id": "BKR03-R1C-024",
+      "description": "Public handle has no rawTensorTexture property"
+    },
+    {
+      "id": "BKR03-R1C-025",
+      "description": "Producer receipt terminal resolution claim"
+    },
+    {
+      "id": "BKR03-R1C-026",
+      "description": "Producer receipt tensor truth claim"
+    },
+    {
+      "id": "BKR03-R1C-027",
+      "description": "Per-operation lambda2 readback zero"
+    },
+    {
+      "id": "BKR03-R1C-028",
+      "description": "Tensor parameters use positive sigma and radius"
+    },
+    {
+      "id": "BKR03-ADM-001",
+      "description": "Authentic handle schema exact"
+    },
+    {
+      "id": "BKR03-ADM-002",
+      "description": "Admission token is opaque and accepted"
+    },
+    {
+      "id": "BKR03-ADM-003",
+      "description": "Admission token WeakSet identity"
+    },
+    {
+      "id": "BKR03-ADM-004",
+      "description": "Plain copied handle rejected"
+    },
+    {
+      "id": "BKR03-ADM-005",
+      "description": "Admission semantic exact"
+    },
+    {
+      "id": "BKR03-ADM-006",
+      "description": "Admission packing exact"
+    },
+    {
+      "id": "BKR03-ADM-007",
+      "description": "Admission tensor mode terminal"
+    },
+    {
+      "id": "BKR03-ADM-008",
+      "description": "Admission dimensions exact"
+    },
+    {
+      "id": "BKR03-ADM-009",
+      "description": "Admission source surface exact"
+    },
+    {
+      "id": "BKR03-ADM-010",
+      "description": "Admission source revision exact"
+    },
+    {
+      "id": "BKR03-ADM-011",
+      "description": "Admission runtime epoch exact"
+    },
+    {
+      "id": "BKR03-ADM-012",
+      "description": "Admission device epoch exact"
+    },
+    {
+      "id": "BKR03-ADM-013",
+      "description": "Admission device identity exact"
+    },
+    {
+      "id": "BKR03-ADM-014",
+      "description": "Admission graph exact"
+    },
+    {
+      "id": "BKR03-ADM-015",
+      "description": "Producer receipt digest carried"
+    },
+    {
+      "id": "BKR03-ADM-016",
+      "description": "Lambda2 receipt digest carried"
+    },
+    {
+      "id": "BKR03-ADM-017",
+      "description": "Admission digest is SHA-256"
+    },
+    {
+      "id": "BKR03-ADM-018",
+      "description": "Field texture carried as opaque resource"
+    },
+    {
+      "id": "BKR03-ADM-019",
+      "description": "Axial packing string absent from token"
+    },
+    {
+      "id": "BKR03-ADM-020",
+      "description": "Raw tensor public fields denylisted"
+    },
+    {
+      "id": "BKR03-ADM-021",
+      "description": "Integrated tensor public fields denylisted"
+    },
+    {
+      "id": "BKR03-ADM-022",
+      "description": "Legacy tensor public fields denylisted"
+    },
+    {
+      "id": "BKR03-ADM-023",
+      "description": "Canonical request validates admitted token lineage"
+    },
+    {
+      "id": "BKR03-ADM-024",
+      "description": "Canonical request raw field rejected"
+    },
+    {
+      "id": "BKR03-L2P-001",
+      "description": "Lambda2 probe ID exact"
+    },
+    {
+      "id": "BKR03-L2P-002",
+      "description": "Generated probe digest exact"
+    },
+    {
+      "id": "BKR03-L2P-003",
+      "description": "Probe generator deterministic"
+    },
+    {
+      "id": "BKR03-L2P-004",
+      "description": "Probe binding 0 integrated texture"
+    },
+    {
+      "id": "BKR03-L2P-005",
+      "description": "Probe binding 1 storage counters"
+    },
+    {
+      "id": "BKR03-L2P-006",
+      "description": "Probe binding 2 uniform params"
+    },
+    {
+      "id": "BKR03-L2P-007",
+      "description": "Probe counter ABI is 64 bytes"
+    },
+    {
+      "id": "BKR03-L2P-008",
+      "description": "Probe has sixteen atomic words"
+    },
+    {
+      "id": "BKR03-L2P-009",
+      "description": "Probe reads Jxx from R"
+    },
+    {
+      "id": "BKR03-L2P-010",
+      "description": "Probe reads Jxy from G"
+    },
+    {
+      "id": "BKR03-L2P-011",
+      "description": "Probe reads Jyy from B"
+    },
+    {
+      "id": "BKR03-L2P-012",
+      "description": "Discriminant formula present"
+    },
+    {
+      "id": "BKR03-L2P-013",
+      "description": "Lambda1 formula present"
+    },
+    {
+      "id": "BKR03-L2P-014",
+      "description": "Lambda2 formula present"
+    },
+    {
+      "id": "BKR03-L2P-015",
+      "description": "Coherence formula uses both eigenvalues"
+    },
+    {
+      "id": "BKR03-L2P-016",
+      "description": "Nonfinite counter present"
+    },
+    {
+      "id": "BKR03-L2P-017",
+      "description": "Negative lambda counter present"
+    },
+    {
+      "id": "BKR03-L2P-018",
+      "description": "Positive lambda2 counter present"
+    },
+    {
+      "id": "BKR03-L2P-019",
+      "description": "Probe uses private integrated capability"
+    },
+    {
+      "id": "BKR03-L2P-020",
+      "description": "Product path has no per-operation mapAsync"
+    },
+    {
+      "id": "BKR03-GEN-001",
+      "description": "Canonical generator deterministic"
+    },
+    {
+      "id": "BKR03-GEN-002",
+      "description": "Canonical generated digest exact"
+    },
+    {
+      "id": "BKR03-GEN-003",
+      "description": "Generator manifest self digest present"
+    },
+    {
+      "id": "BKR03-GEN-004",
+      "description": "Canonical kernel ID in header"
+    },
+    {
+      "id": "BKR03-GEN-005",
+      "description": "Canonical ABI ID in header"
+    },
+    {
+      "id": "BKR03-GEN-006",
+      "description": "Canonical pipeline family in header"
+    },
+    {
+      "id": "BKR03-GEN-007",
+      "description": "Canonical output authority in header"
+    },
+    {
+      "id": "BKR03-GEN-008",
+      "description": "Canonical binding count nine"
+    },
+    {
+      "id": "BKR03-GEN-009",
+      "description": "Canonical sampler count zero"
+    },
+    {
+      "id": "BKR03-GEN-010",
+      "description": "Terminal R1C binding six"
+    },
+    {
+      "id": "BKR03-GEN-011",
+      "description": "Output binding seven"
+    },
+    {
+      "id": "BKR03-GEN-012",
+      "description": "Uniform binding eight"
+    },
+    {
+      "id": "BKR03-GEN-013",
+      "description": "Canonical uniform struct named"
+    },
+    {
+      "id": "BKR03-GEN-014",
+      "description": "Coherence exponent field active"
+    },
+    {
+      "id": "BKR03-GEN-015",
+      "description": "Tensor profile enum word present"
+    },
+    {
+      "id": "BKR03-GEN-016",
+      "description": "Tensor packing enum word present"
+    },
+    {
+      "id": "BKR03-GEN-017",
+      "description": "Structure gate enum word present"
+    },
+    {
+      "id": "BKR03-GEN-018",
+      "description": "Finite tensor guard present"
+    },
+    {
+      "id": "BKR03-GEN-019",
+      "description": "Coherence uses B channel"
+    },
+    {
+      "id": "BKR03-GEN-020",
+      "description": "Edge uses A channel"
+    },
+    {
+      "id": "BKR03-GEN-021",
+      "description": "Exact structure gate source"
+    },
+    {
+      "id": "BKR03-GEN-022",
+      "description": "Structure gate applied exactly once"
+    },
+    {
+      "id": "BKR03-GEN-023",
+      "description": "Workgroup is 8x8x1"
+    },
+    {
+      "id": "BKR03-GEN-024",
+      "description": "Output storage format rgba16float"
+    },
+    {
+      "id": "BKR03-GEN-025",
+      "description": "Pixel exact textureLoad used"
+    },
+    {
+      "id": "BKR03-GEN-026",
+      "description": "No normalized UV sampling"
+    },
+    {
+      "id": "BKR03-GEN-027",
+      "description": "Compatibility source digest preserved"
+    },
+    {
+      "id": "BKR03-GEN-028",
+      "description": "Canonical source contains no final texture claim"
+    },
+    {
+      "id": "BKR03-ABI-001",
+      "description": "Kernel IDs are distinct"
+    },
+    {
+      "id": "BKR03-ABI-002",
+      "description": "ABI IDs are distinct"
+    },
+    {
+      "id": "BKR03-ABI-003",
+      "description": "Pipeline families are distinct"
+    },
+    {
+      "id": "BKR03-ABI-004",
+      "description": "Output semantic is distinct"
+    },
+    {
+      "id": "BKR03-ABI-005",
+      "description": "Canonical binding count nine"
+    },
+    {
+      "id": "BKR03-ABI-006",
+      "description": "Compatibility binding count eight"
+    },
+    {
+      "id": "BKR03-ABI-007",
+      "description": "Canonical BGL differs from compatibility"
+    },
+    {
+      "id": "BKR03-ABI-008",
+      "description": "Canonical ABI version 0x00030001"
+    },
+    {
+      "id": "BKR03-ABI-009",
+      "description": "Compatibility ABI version remains in parent params"
+    },
+    {
+      "id": "BKR03-ABI-010",
+      "description": "Canonical formula profile enum two"
+    },
+    {
+      "id": "BKR03-ABI-011",
+      "description": "Canonical output authority enum two"
+    },
+    {
+      "id": "BKR03-ABI-012",
+      "description": "Terminal tensor profile enum one"
+    },
+    {
+      "id": "BKR03-ABI-013",
+      "description": "Tensor packing enum one"
+    },
+    {
+      "id": "BKR03-ABI-014",
+      "description": "Structure gate enum one"
+    },
+    {
+      "id": "BKR03-ABI-015",
+      "description": "Canonical uniform is 128 bytes"
+    },
+    {
+      "id": "BKR03-ABI-016",
+      "description": "Canonical uniform checksum verifies"
+    },
+    {
+      "id": "BKR03-ABI-017",
+      "description": "Tampered canonical uniform rejected"
+    },
+    {
+      "id": "BKR03-ABI-018",
+      "description": "Compatibility request profile differs"
+    },
+    {
+      "id": "BKR03-ABI-019",
+      "description": "Canonical output authority differs"
+    },
+    {
+      "id": "BKR03-ABI-020",
+      "description": "Canonical manifest separate from compatibility"
+    },
+    {
+      "id": "BKR03-ABI-021",
+      "description": "Canonical pipeline source imports WGSL-03 params"
+    },
+    {
+      "id": "BKR03-ABI-022",
+      "description": "Canonical pipeline requires admission token"
+    },
+    {
+      "id": "BKR03-ABI-023",
+      "description": "Compatibility pipeline remains unmodified"
+    },
+    {
+      "id": "BKR03-ABI-024",
+      "description": "Cross ABI error codes present"
+    },
+    {
+      "id": "BKR03-GATE-001",
+      "description": "Structure gate identity exact"
+    },
+    {
+      "id": "BKR03-GATE-002",
+      "description": "Gate equals one at coherence one edge one"
+    },
+    {
+      "id": "BKR03-GATE-003",
+      "description": "Gate zero at coherence zero"
+    },
+    {
+      "id": "BKR03-GATE-004",
+      "description": "Gate zero at edge zero"
+    },
+    {
+      "id": "BKR03-GATE-005",
+      "description": "Gate zero for NaN tensor"
+    },
+    {
+      "id": "BKR03-GATE-006",
+      "description": "Gate clamps negative coherence"
+    },
+    {
+      "id": "BKR03-GATE-007",
+      "description": "Gate clamps coherence above one"
+    },
+    {
+      "id": "BKR03-GATE-008",
+      "description": "Gate clamps negative edge"
+    },
+    {
+      "id": "BKR03-GATE-009",
+      "description": "Gate clamps edge above one"
+    },
+    {
+      "id": "BKR03-GATE-010",
+      "description": "Coherence monotonicity"
+    },
+    {
+      "id": "BKR03-GATE-011",
+      "description": "Edge monotonicity"
+    },
+    {
+      "id": "BKR03-GATE-012",
+      "description": "Exponent affects coherence"
+    },
+    {
+      "id": "BKR03-GATE-013",
+      "description": "Exponent lower bound enforced"
+    },
+    {
+      "id": "BKR03-GATE-014",
+      "description": "Exponent upper bound enforced"
+    },
+    {
+      "id": "BKR03-GATE-015",
+      "description": "Gate multiplies final k"
+    },
+    {
+      "id": "BKR03-GATE-016",
+      "description": "Gate not applied to phase"
+    },
+    {
+      "id": "BKR03-GATE-017",
+      "description": "Gate not applied to glow"
+    },
+    {
+      "id": "BKR03-GATE-018",
+      "description": "Gate not applied to mask mix"
+    },
+    {
+      "id": "BKR03-GATE-019",
+      "description": "Gate not applied to fusion ratio"
+    },
+    {
+      "id": "BKR03-GATE-020",
+      "description": "Finite guard selects zero"
+    },
+    {
+      "id": "BKR03-AUT-001",
+      "description": "Lambda2 receipt verifies"
+    },
+    {
+      "id": "BKR03-AUT-002",
+      "description": "Producer receipt verifies"
+    },
+    {
+      "id": "BKR03-AUT-003",
+      "description": "Kernel receipt verifies"
+    },
+    {
+      "id": "BKR03-AUT-004",
+      "description": "Dispatch receipt verifies"
+    },
+    {
+      "id": "BKR03-AUT-005",
+      "description": "Lambda2 tamper detected"
+    },
+    {
+      "id": "BKR03-AUT-006",
+      "description": "Producer tamper detected"
+    },
+    {
+      "id": "BKR03-AUT-007",
+      "description": "Kernel tamper detected"
+    },
+    {
+      "id": "BKR03-AUT-008",
+      "description": "Dispatch tamper detected"
+    },
+    {
+      "id": "BKR03-AUT-009",
+      "description": "Dispatch output authority canonical shadow only"
+    },
+    {
+      "id": "BKR03-AUT-010",
+      "description": "Dispatch final texture claim false"
+    },
+    {
+      "id": "BKR03-AUT-011",
+      "description": "Dispatch R9A claim false"
+    },
+    {
+      "id": "BKR03-AUT-012",
+      "description": "Surface publish count zero"
+    },
+    {
+      "id": "BKR03-AUT-013",
+      "description": "Preview publish count zero"
+    },
+    {
+      "id": "BKR03-AUT-014",
+      "description": "Export publish count zero"
+    },
+    {
+      "id": "BKR03-AUT-015",
+      "description": "Recorder queue submit count zero"
+    },
+    {
+      "id": "BKR03-AUT-016",
+      "description": "Qualification wrapper submit count source present"
+    },
+    {
+      "id": "BKR03-NEG-001",
+      "description": "Negative-control report passes"
+    },
+    {
+      "id": "BKR03-NEG-002",
+      "description": "All 48 mutants present"
+    },
+    {
+      "id": "BKR03-NEG-003",
+      "description": "All 48 mutants detected"
+    },
+    {
+      "id": "BKR03-NEG-004",
+      "description": "Tensor construction mutants 16 detected"
+    },
+    {
+      "id": "BKR03-NEG-005",
+      "description": "Lineage mutants 12 detected"
+    },
+    {
+      "id": "BKR03-NEG-006",
+      "description": "ABI mutants 8 detected"
+    },
+    {
+      "id": "BKR03-NEG-007",
+      "description": "Structure gate mutants 12 detected"
+    },
+    {
+      "id": "BKR03-NEG-008",
+      "description": "Corner baseline has nonzero lambda2"
+    },
+    {
+      "id": "BKR03-NEG-009",
+      "description": "Junction baseline has nonzero lambda2"
+    },
+    {
+      "id": "BKR03-NEG-010",
+      "description": "Straight coherence exceeds corner"
+    },
+    {
+      "id": "BKR03-NEG-011",
+      "description": "Straight coherence exceeds junction"
+    },
+    {
+      "id": "BKR03-NEG-012",
+      "description": "Negative report self hash valid"
+    }
+  ]
+}

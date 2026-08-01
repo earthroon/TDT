@@ -1,0 +1,678 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 86
+  },
+  "implementationManifestSelfSha256": "1f3e8428da66cf5c621de76359fa44cf9c1b2c0eb2e3f1a1f60ed636b7b5df00",
+  "parentInputIdentitySelfSha256": "41b65c43d4e656f28164365f785939edf6af69146a7a6fad7e5183fb4c4ff551",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1",
+  "rows": [
+    {
+      "evidence": "a6c57a4b98573cf53b17dcd87f663cd5718478ef769e82e206542c77b7382be9",
+      "id": "R9AP1R2R1-S001",
+      "method": "bake-time input identity receipt",
+      "requirement": "Parent bundle SHA-256 is exact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "558802cedbce5128263c3ca91f0d5749f75108a7a56d3529322c73403132fed9",
+      "id": "R9AP1R2R1-S002",
+      "method": "source file hash",
+      "requirement": "Parent R2 specification SHA-256 is exact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "cdccf4fe7d6b6507bf669883194d8dfce63370926a594b5c179e25216a43b246",
+      "id": "R9AP1R2R1-S003",
+      "method": "embedded parent receipt byte hash and self hash",
+      "requirement": "Parent source receipt remains immutable",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "id": "R9AP1R2R1-S004",
+      "method": "pointer conservation receipt",
+      "requirement": "Parent production pointers remain unchanged",
+      "status": "PASS"
+    },
+    {
+      "evidence": 0,
+      "id": "R9AP1R2R1-S005",
+      "method": "parent and child input receipts",
+      "requirement": "Historical physical PASS carry-forward is zero",
+      "status": "PASS"
+    },
+    {
+      "evidence": "P1-R2-R3 remains HOLD",
+      "id": "R9AP1R2R1-S006",
+      "method": "scope and final-state text scan",
+      "requirement": "Patch does not claim explicit pipeline rebuild closure",
+      "status": "PASS"
+    },
+    {
+      "evidence": "P1-R2-R2 remains HOLD",
+      "id": "R9AP1R2R1-S007",
+      "method": "scope boundary scan",
+      "requirement": "Patch does not claim permit sender integrity closure",
+      "status": "PASS"
+    },
+    {
+      "evidence": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1",
+      "id": "R9AP1R2R1-S008",
+      "method": "applied README and child final-state uniqueness",
+      "requirement": "Patch identity is installed exactly once",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "awaitedRejected": true,
+        "detachedState": "DEVICE_LOST",
+        "presentedState": "PRESENTED"
+      },
+      "id": "R9AP1R2R1-S009",
+      "method": "TypeScript API and unit execution",
+      "requirement": "Scheduler exposes frame terminal ticket",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S010",
+      "method": "terminal mode union and call-site scan",
+      "requirement": "Awaited public frame and detached subscription frame are distinct",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        8138,
+        8231,
+        8275
+      ],
+      "id": "R9AP1R2R1-S011",
+      "method": "public present call order",
+      "requirement": "Public Preview awaits exact ticket terminal",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S012",
+      "method": "present method bounded scan",
+      "requirement": "Public Preview does not infer success from whenIdle",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S013",
+      "method": "scheduler unit execution and branch scan",
+      "requirement": "DEVICE_LOST execution rejects awaited ticket",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S014",
+      "method": "generic error branch shares awaited rejection",
+      "requirement": "FAILED execution rejects awaited ticket",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S015",
+      "method": "unit execution and presenter public guard",
+      "requirement": "PRESENTED alone resolves awaited ticket",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "rejectSites": 1,
+        "resolveSites": 2
+      },
+      "id": "R9AP1R2R1-S016",
+      "method": "single pending ownership and Promise settlement sites",
+      "requirement": "Frame terminal settlement is one-shot",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        16821,
+        18499,
+        20035
+      ],
+      "id": "R9AP1R2R1-S017",
+      "method": "catch-path ordering",
+      "requirement": "Preview error receipt is appended before rejection",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S018",
+      "method": "finally block admission completion",
+      "requirement": "Admission grant is aborted on lost frame",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S019",
+      "method": "finally block resource release",
+      "requirement": "Surface pin is released on lost frame",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S020",
+      "method": "finally block resource release",
+      "requirement": "GPU lease is released on lost frame",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S021",
+      "method": "disposal reason scan",
+      "requirement": "Ephemeral surface disposal remains fence-bound",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        15317,
+        15337,
+        16046,
+        16168
+      ],
+      "id": "R9AP1R2R1-S022",
+      "method": "loss throw precedes submitted-work await and store mutation",
+      "requirement": "Late submitted-work callback cannot publish success",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S023",
+      "method": "unit execution and detached resolution branch",
+      "requirement": "Detached failure creates no unhandled rejection",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S024",
+      "method": "receipt digest and sealed raw child writer",
+      "requirement": "Preview terminal ledger is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S025",
+      "method": "legacy synthetic hook absence",
+      "requirement": "Encoder-dispatched hook is not accepted as terminal map evidence",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S026",
+      "method": "mapAsync owner source scan",
+      "requirement": "Actual mapAsync caller emits pending hook",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        3378,
+        3474,
+        3565
+      ],
+      "id": "R9AP1R2R1-S027",
+      "method": "direct GPU readback adapter order",
+      "requirement": "Hook fires after queue submission",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        42107,
+        42240,
+        43754
+      ],
+      "id": "R9AP1R2R1-S028",
+      "method": "mapAsync owner order",
+      "requirement": "Hook fires before awaiting map promise",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S029",
+      "method": "evidence field scan",
+      "requirement": "Hook evidence contains terminal readback ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S030",
+      "method": "evidence field scan",
+      "requirement": "Hook evidence contains readback byte length",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S031",
+      "method": "evidence field scan",
+      "requirement": "Hook evidence contains exact device identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S032",
+      "method": "evidence field scan",
+      "requirement": "Hook evidence contains exact lease ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S033",
+      "method": "evidence literal scan",
+      "requirement": "Hook evidence asserts hostSaveStarted false",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S034",
+      "method": "evidence literal and order scan",
+      "requirement": "Map promise state is unresolved at hook",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        14374,
+        14891,
+        33690
+      ],
+      "id": "R9AP1R2R1-S035",
+      "method": "export authority ordering and throw barrier",
+      "requirement": "Lost map prevents host save begin",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S036",
+      "method": "device-loss throw precedes export receipt construction",
+      "requirement": "Lost map prevents success receipt publication",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S037",
+      "method": "host save and registry occur after loss barrier",
+      "requirement": "Lost map prevents blob resource registration",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S038",
+      "method": "terminal receipt digest and sealed raw child writer",
+      "requirement": "Export terminal ledger is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "bindingSelfSha256": "841d17af58009834260efba268b57c9e6d4530fa191223019943cd490f717d87",
+        "cycleBindingDigest": "6ef577139e50f1b259f79e79ceb4cdf122b83fe42da50c02dcd09b0934407cfb",
+        "negativeMutationsRejected": 2
+      },
+      "id": "R9AP1R2R1-S039",
+      "method": "Main authority unit execution",
+      "requirement": "Main creates canonical cycle binding",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S040",
+      "method": "Main expected cycle source and negative unit",
+      "requirement": "Binding uses Main expected cycle, not renderer mutation",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S041",
+      "method": "binding source and unit",
+      "requirement": "Binding includes sender window ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S042",
+      "method": "binding source and unit",
+      "requirement": "Binding includes renderer PID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S043",
+      "method": "binding source",
+      "requirement": "Binding includes operation ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S044",
+      "method": "binding source",
+      "requirement": "Binding includes stable hook ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S045",
+      "method": "binding source",
+      "requirement": "Binding includes old device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S046",
+      "method": "binding source",
+      "requirement": "Binding includes old device identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S047",
+      "method": "binding source and unit",
+      "requirement": "Binding expects exact new epoch old+1",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S048",
+      "method": "binding source",
+      "requirement": "Binding includes package closure digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S049",
+      "method": "binding source",
+      "requirement": "Binding includes R1 boot permit digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S050",
+      "method": "binding source",
+      "requirement": "Binding includes parent permit digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S051",
+      "method": "binding source",
+      "requirement": "Binding includes operation detail digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": "6ef577139e50f1b259f79e79ceb4cdf122b83fe42da50c02dcd09b0934407cfb",
+      "id": "R9AP1R2R1-S052",
+      "method": "Main authority unit recomputation",
+      "requirement": "cycleBindingDigest is canonical SHA-256",
+      "status": "PASS"
+    },
+    {
+      "evidence": "841d17af58009834260efba268b57c9e6d4530fa191223019943cd490f717d87",
+      "id": "R9AP1R2R1-S053",
+      "method": "Main authority unit recomputation",
+      "requirement": "binding selfSha256 is verified",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S054",
+      "method": "holder self and binding digest verification",
+      "requirement": "Renderer cannot replace consume binding",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S055",
+      "method": "GPU Authority in-flight guard",
+      "requirement": "One active controlled-loss transaction only",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        24738,
+        24813,
+        25172
+      ],
+      "id": "R9AP1R2R1-S056",
+      "method": "source order",
+      "requirement": "Event listeners install before destroy",
+      "status": "PASS"
+    },
+    {
+      "evidence": 1,
+      "id": "R9AP1R2R1-S057",
+      "method": "controlled loss method bounded occurrence count",
+      "requirement": "Raw device destroy count is exactly one",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S058",
+      "method": "lost event detail scan",
+      "requirement": "Lost event binds active cycle digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S059",
+      "method": "recovered event detail scan",
+      "requirement": "Recovered event binds active cycle digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S060",
+      "method": "failure event detail scan",
+      "requirement": "Failed event binds active cycle digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S061",
+      "method": "exact event predicate",
+      "requirement": "Recovered event matches exact run ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S062",
+      "method": "exact event predicate",
+      "requirement": "Recovered event matches exact cycle ordinal",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S063",
+      "method": "exact event predicate",
+      "requirement": "Recovered event matches exact operation ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S064",
+      "method": "exact event predicate",
+      "requirement": "Recovered event matches exact hook ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S065",
+      "method": "exact event predicate",
+      "requirement": "Recovered event matches exact old epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S066",
+      "method": "exact event predicate",
+      "requirement": "New epoch equals old epoch plus one",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S067",
+      "method": "exact event predicate",
+      "requirement": "Adapter identity remains unchanged",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S068",
+      "method": "active binding exact-match predicate",
+      "requirement": "Unrelated natural loss cannot settle qualification transaction",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S069",
+      "method": "cycle and binding exact-match predicate",
+      "requirement": "Prior cycle recovered event cannot settle current transaction",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S070",
+      "method": "terminal flag and listener cleanup",
+      "requirement": "Timeout is terminal and rejects late recovery",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        17779,
+        17853,
+        18152
+      ],
+      "id": "R9AP1R2R1-S071",
+      "method": "failure path order",
+      "requirement": "Recovery failed event dispatches before fatal throw",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S072",
+      "method": "synchronous dispatch before fatal",
+      "requirement": "Recovery failed event is synchronously observable",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S073",
+      "method": "listener rejection scan",
+      "requirement": "Failure event listener rejects controlled-loss waiter",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S074",
+      "method": "raw child writer and event ledger evidence",
+      "requirement": "Correlation ledger is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S075",
+      "method": "runner loss wrapper and error allowlist",
+      "requirement": "Runner requires lost Preview rejection",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S076",
+      "method": "runner loss wrapper and error allowlist",
+      "requirement": "Runner requires lost Export rejection",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S077",
+      "method": "exact expected code comparison",
+      "requirement": "Runner verifies operation-specific error allowlist",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S078",
+      "method": "operation ledger field scan",
+      "requirement": "Runner records cycle binding digest in operation row",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S079",
+      "method": "holder state and completion guard",
+      "requirement": "Holder completion waits for operation terminal",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        6143,
+        6242,
+        7318,
+        7772
+      ],
+      "id": "R9AP1R2R1-S080",
+      "method": "runner order",
+      "requirement": "Validation fixture starts after loss terminal closure",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S081",
+      "method": "separate lost operation and validation receipt fields",
+      "requirement": "Lost and validation operation IDs differ",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S082",
+      "method": "child packaged finalizer raw receipt replay source",
+      "requirement": "Preview success count is recomputed from raw receipts",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1R2R1-S083",
+      "method": "child packaged finalizer raw receipt replay source",
+      "requirement": "Export save count is recomputed from raw receipts",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "R9AP1R2R1_PREVIEW_TERMINAL_LEDGER.json",
+        "R9AP1R2R1_EXPORT_TERMINAL_LEDGER.json",
+        "R9AP1R2R1_RECOVERY_CORRELATION_LEDGER.json",
+        "R9AP1R2R1_CHILD_ARTIFACT_MANIFEST.json"
+      ],
+      "id": "R9AP1R2R1-S084",
+      "method": "runner child manifest writer and required names",
+      "requirement": "Child artifact manifest covers all R2-R1 evidence",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "packagedPass": 0,
+        "physicalReplayCycleCount": 0,
+        "state": "AWAITING_THREE_CYCLE_PACKAGED_PHYSICAL_REPLAY"
+      },
+      "id": "R9AP1R2R1-S085",
+      "method": "planned source receipt state and counts",
+      "requirement": "Source final receipt claims no packaged PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "verified-after-write",
+      "id": "R9AP1R2R1-S086",
+      "method": "post-write canonical seal verification",
+      "requirement": "Source gate receipt is self-hashed",
+      "status": "PASS"
+    }
+  ],
+  "schemaId": "tdt.r9a-p1-r2-r1.source-gate-report.v1",
+  "schemaVersion": 1,
+  "selfSha256": "8e36b0c2e49dc51daaa3019284ab54cd2f6f4a35d370f0c2d3f416de841b219e",
+  "specSha256": "e5a868ba29cdcdd01b999af6d25c1e70c68987313f505302d288ab20f8a2ea92"
+}

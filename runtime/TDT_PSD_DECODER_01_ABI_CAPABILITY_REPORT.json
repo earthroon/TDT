@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "PSD_DECODER_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-psd-e2e-not-run",
+    "serializer-independent-roundtrip-corpus-not-run",
+    "production-worker-generation-closure-not-measured",
+    "psb-zip-capabilities-not-promoted"
+  ],
+  "decoderId": "dadum.decoder.psd-independent-v1",
+  "workerId": "dadum.worker.decoder.psd-independent-v1",
+  "protocolVersion": "dadum-psd-independent-decoder-worker-v1",
+  "capabilityProfile": "psd-v1-raw-rle-rgb8-rgb16-cmyk8-single-layer-v1",
+  "psdV1": true,
+  "psbV2": false,
+  "raw": true,
+  "rle": true,
+  "zip": false,
+  "zipPrediction": false,
+  "maxLayers": 1,
+  "evidenceSealSha256": "00f8dcb69c9021fc07b7e0b9c0f7c7cc802b1304112264cb4809807df6c17a54"
+}

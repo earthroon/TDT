@@ -1,0 +1,10 @@
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 a7c5c22b9ec065458431db2f0050540e0df16385649d5a80bc2fb4fd9a13e624
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 02cfab6548c4eccf50599049be008be2db027b0955cd5020f56ffc530df4d7b2
+PASS GATE-EW04-01..32 PSD Canonical Serializer source seal; determinism 100/100 411f27e4e68b38cc1a48fd82ea716785e7b7744266d0dbd8781a49cdc208370a
+PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 52a6d8c4855f4bea7d099473fa91aa100ccb5517e7e759ab01d6e21a89792ddf
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a96fc9db56134b9ae50a08be616bdba429f646ab310b688f23ef21f0d0997bb8
+PASS GATE-R1-ERROR-CODE stable error registry 202/202 referenced codes declared
+PASS TypeScript syntax 69 files
+PASS RT-EW06-JPEG-STRUCTURE bytes=151 SOF0/4:4:4

@@ -1,0 +1,86 @@
+import crypto from 'node:crypto';
+import fs from 'node:fs';
+
+const failures = [];
+const read = (file) => fs.readFileSync(file, 'utf8');
+const json = (file) => JSON.parse(read(file));
+const assert = (condition, message) => { if (!condition) failures.push(message); };
+
+const manifest = json('app/src/runtime/workers/generated-worker-manifest.json');
+const generated = read('app/src/runtime/workers/generated-worker-manifest.ts');
+const exportManager = read('app/legacy-runtime/export_manager.js');
+const adapter = read('app/legacy-runtime/encoders/modjpeg-canonical-adapter.mjs');
+const handler = read('app/legacy-runtime/worker-codecs/modjpeg-canonical-handler.mjs');
+const entry = read('app/src/runtime/workers/entries/modjpeg-canonical.worker.ts');
+const broker = read('app/src/runtime/workers/encoder-worker-broker-service.ts');
+const registry = read('app/src/runtime/codecs/encoder-registry-service.ts');
+const verifier = read('app/src/runtime/codecs/jpeg/jpeg-structure-verifier-v2.ts');
+const plan = read('app/src/runtime/codecs/jpeg/jpeg-encode-plan-v1.ts');
+const receipt = read('app/src/runtime/export/export-receipt.ts');
+const authority = read('app/src/runtime/export/export-authority-service.ts');
+const stable = read('app/src/boot/stable-error.ts');
+const smoke = json('artifacts/runtime/EW06_JPEG_STRUCTURE_SMOKE.json');
+const promotion = json('artifacts/runtime/TDT_EXPORT_WORKER_06_JPEG_PROMOTION_RECEIPT.json');
+const isolation = json('artifacts/runtime/TDT_EXPORT_WORKER_06_MAIN_THREAD_JPEG_ISOLATION_REPORT.json');
+const artifact = json('artifacts/runtime/TDT_EXPORT_WORKER_06_MODJPEG_ARTIFACT_REPORT.json');
+const pthread = json('artifacts/runtime/TDT_EXPORT_WORKER_06_PTHREAD_RETIREMENT_REPORT.json');
+const roundtrip = json('artifacts/runtime/TDT_EXPORT_WORKER_06_INDEPENDENT_ROUNDTRIP_REPORT.json');
+const jpeg = manifest.workers.filter((worker) => worker.workerId === 'dadum.worker.encoder.modjpeg-canonical-v1');
+const activeGraph = [exportManager, adapter, handler, entry];
+
+assert(jpeg.length === 1, 'GATE-EW06-01 canonical MODJPEG Worker identity must exist exactly once');
+assert(jpeg[0]?.codecProtocolVersion === 'dadum-modjpeg-canonical-worker-v1', 'GATE-EW06-02 canonical MODJPEG protocol mismatch');
+assert(entry.includes("'encode.jpeg-baseline-444': 'encode-jpeg-baseline-444'") && exportManager.includes("operation: 'encode.jpeg-baseline-444'"), 'GATE-EW06-03 canonical JPEG operation missing');
+assert(registry.includes("workerId: 'dadum.worker.encoder.modjpeg-canonical-v1'") && registry.includes("codecProtocolVersion: 'dadum-modjpeg-canonical-worker-v1'"), 'GATE-EW06-04 Runtime JPEG Worker binding missing');
+assert(!exportManager.includes("import('./encoders/modjpeg_bind_bootstrap.mjs')") && !exportManager.includes('import("./encoders/modjpeg_bind_bootstrap.mjs")'), 'GATE-EW06-05 Main-thread MODJPEG bootstrap import remains');
+for (const active of activeGraph) assert(!active.includes('new Worker('), 'GATE-EW06-06 raw Worker creation remains in active JPEG graph');
+for (const active of [adapter, handler, entry]) assert(!active.includes('new Map('), 'GATE-EW06-07 local JPEG pending Map remains');
+assert(adapter.includes("const ABI_SYMBOL = 'encode_mozjpeg_RGB'") && adapter.includes('module._encode_mozjpeg_RGB'), 'GATE-EW06-08 MODJPEG ABI symbol not preserved');
+assert(exportManager.includes("workerId: 'dadum.worker.encoder.modjpeg-canonical-v1'") && exportManager.includes("operation: 'encode.jpeg-baseline-444'"), 'GATE-EW06-09 ExportManager does not call the Broker-owned JPEG operation');
+assert(plan.includes("E_JPEG_QUALITY_UNIT_AMBIGUOUS") && exportManager.includes("E_JPEG_QUALITY_UNIT_AMBIGUOUS"), 'GATE-EW06-10 quality unit ambiguity is not fail-closed');
+assert(plan.includes("qualityUnit === 'ratio'") && exportManager.includes("payload.qualityUnit === 'ratio'"), 'GATE-EW06-11 explicit ratio compatibility path missing');
+assert(plan.includes("reject-nonopaque-v1") && plan.includes("composite-over-matte-srgb8-v1"), 'GATE-EW06-12 explicit alpha policies missing');
+assert(adapter.includes('E_JPEG_NONOPAQUE_INPUT_REJECTED') && adapter.includes('E_JPEG_MATTE_REQUIRED'), 'GATE-EW06-13 silent alpha discard remains possible');
+assert(adapter.includes('const inverse = 255 - alpha') && adapter.includes('+ 127) / 255'), 'GATE-EW06-14 deterministic Worker-local matte composite missing');
+assert(adapter.includes("input.subsampling !== '4:4:4'") && exportManager.includes("subsampling: '4:4:4'"), 'GATE-EW06-15 4:4:4 policy is not fixed');
+assert(adapter.includes("input.frameMode !== 'baseline-sequential'") && verifier.includes("frameMarker = 'SOF0'"), 'GATE-EW06-16 baseline sequential SOF0 policy missing');
+assert(adapter.includes('canonicalJfif') && adapter.includes('canonicalIccSegments') && adapter.includes('finalizeMarkers'), 'GATE-EW06-17 Worker-local JFIF/ICC finalizer missing');
+for (const item of ['app/legacy-runtime/encoders/libmodjpeg_wasm.mjs','app/legacy-runtime/wasm/libmodjpeg_wasm.wasm','app/src/runtime/codecs/jpeg/jpeg-structure-verifier-v2.ts','app/src/runtime/codecs/jpeg/jpeg-encode-plan-v1.ts']) assert(jpeg[0]?.artifacts?.some((entryItem) => entryItem.url === item), `GATE-EW06-18 Worker artifact missing: ${item}`);
+assert(adapter.includes('let modulePromise = null') && adapter.includes('moduleInstanceCount += 1'), 'GATE-EW06-19 Worker-local MODJPEG module singleton evidence missing');
+assert(exportManager.includes("inputOwnershipPolicyId: 'broker-transfer-snapshot-v1'"), 'GATE-EW06-20 EW02 Broker input ownership missing');
+assert(adapter.includes('finally {') && adapter.includes('module._free(pRgb)') && adapter.includes('module._free(pOut)') && adapter.includes('module._jpgbuffer_free(pOut)'), 'GATE-EW06-21 MODJPEG allocation/output cleanup incomplete');
+assert(adapter.includes('encoded = heapU8().slice(pointer, pointer + length)'), 'GATE-EW06-22 shared heap output is not copied before release');
+assert(adapter.includes("threadMode: 'emscripten-pthread-pool-8-canonical-v1'") && adapter.includes('const CANONICAL_PTHREAD_POOL_SIZE = 8'), 'GATE-EW06-23 pthread pool 8 artifact truth missing');
+assert(adapter.includes('canonicalSingleThread: false') && adapter.includes('canonicalPthreadArtifact: true') && promotion.canonicalSingleThread === false, 'GATE-EW06-24 canonical pthread adoption truth missing');
+assert(pthread.pthreadRetirementVerified === false && pthread.falsePromotionPrevented === true && json('artifacts/runtime/TDT_MODJPEG_01_CANONICAL_ARTIFACT_REPORT.json').canonicalPthreadArtifact === true, 'GATE-EW06-25 pthread adoption lineage mismatch');
+assert(isolation.activeExportManagerImportsOfModjpegBootstrap === 0 && isolation.activeMainThreadEncodeMozjpegCalls === 0, 'GATE-EW06-26 active Main-thread JPEG path remains');
+assert(registry.includes('inspectJpegStructureV2') && verifier.includes("verifierId: 'dadum.jpeg-structure-v2'"), 'GATE-EW06-27 JPEG structure verifier v2 missing');
+assert(verifier.includes("E_JPEG_PROGRESSIVE_NOT_PROMOTED") && verifier.includes("marker === 0xc2"), 'GATE-EW06-28 progressive JPEG rejection missing');
+assert(verifier.includes("subsampling = '4:4:4'") && verifier.includes('E_JPEG_SUBSAMPLING_MISMATCH'), 'GATE-EW06-29 final SOF sampling verification missing');
+assert(verifier.includes('jfifCount !== 1') && verifier.includes('jfifDensityX'), 'GATE-EW06-30 JFIF cardinality evidence missing');
+assert(verifier.includes('iccSegments') && verifier.includes('iccSequenceComplete'), 'GATE-EW06-31 ICC APP2 sequence verification missing');
+assert(verifier.includes('eofExact: true') && verifier.includes('trailing bytes after EOI'), 'GATE-EW06-32 exact EOF verification missing');
+assert(authority.includes('E_JPEG_OUTPUT_MUTATED_AFTER_WORKER') && adapter.includes('postWorkerMutationCount: 0'), 'GATE-EW06-33 post-worker mutation seal missing');
+for (const field of ['jpegPromotionState','jpegPromotionId','jpegWorkerId','jpegCodecProtocolVersion','jpegEncodePlanDigest','jpegModeId','jpegAbiSymbol','jpegAbiOutputSha256','jpegInputSha256','jpegRgbInputSha256','jpegQualityRequested','jpegQualityRequestedUnit','jpegQualityAppliedPercent','jpegQualityAdapted','jpegQualityPercent','jpegQualityUnit','jpegAlphaPolicyId','jpegMatteRgb','jpegPrecision','jpegComponentCount','jpegSubsampling','jpegFrameMode','jpegJfifCount','jpegJfifDensityX','jpegJfifDensityY','jpegIccSegmentCount','jpegSharedMemory','jpegMainThreadEncoderUsed','jpegThreadMode','jpegCanonicalSingleThread','jpegPthreadPoolSize','jpegPthreadRetirementVerified','jpegStructureVerifierId','jpegWorkerFinalOutputSha256','jpegPostWorkerMutationCount','jpegPostWorkerMutation']) assert(receipt.includes(field) && authority.includes(field), `GATE-EW06-34 receipt field missing: ${field}`);
+for (const code of ['E_JPEG_WORKER_UNAVAILABLE','E_JPEG_QUALITY_UNIT_AMBIGUOUS','E_JPEG_NONOPAQUE_INPUT_REJECTED','E_JPEG_SUBSAMPLING_MISMATCH','E_JPEG_PROGRESSIVE_NOT_PROMOTED','E_JPEG_STRUCTURE_INVALID','E_JPEG_OUTPUT_MUTATED_AFTER_WORKER','E_JPEG_PTHREAD_LEAK']) assert(stable.includes(`'${code}'`), `GATE-EW06-35 stable error missing: ${code}`);
+assert(generated.includes('modjpeg-canonical.worker.ts?worker&url') && manifest.sourceManifestDigest, 'GATE-EW06-36 Vite Worker URL/source graph determinism missing');
+assert(isolation.rawWorkerConstructorsInJpegActiveGraph === 0 && isolation.mainThreadEncoderUsedContract === false, 'GATE-EW06-37 Main-thread/Raw Worker isolation report mismatch');
+assert(adapter.includes('mainThreadEncoderUsed: false') && adapter.includes('fallbackUsed: false'), 'GATE-EW06-38 Worker evidence does not forbid fallback/Main-thread encoding');
+assert(smoke.status === 'PASS' && smoke.subsampling === '4:4:4' && smoke.frame === 'SOF0' && smoke.subsamplingRejected && smoke.progressiveRejected && smoke.trailingRejected, 'GATE-EW06-39 JPEG structure smoke mismatch');
+assert(roundtrip.independentDecoderExecuted === false && roundtrip.lossyMetricVerified === false && roundtrip.verifierOnlySmokePassed === true, 'GATE-EW06-40 independent round-trip truth mismatch');
+assert(promotion.actualModjpegEncodeExecuted === false && promotion.independentDecoderExecuted === false && promotion.lossyMetricExecuted === false, 'GATE-EW06-41 actual execution truth mismatch');
+assert(promotion.status === 'SOURCE_BAKED_UNPROMOTED' && promotion.promotionEligible === false && promotion.parentSealsPreserved === true, 'GATE-EW06-42 promotion status/parent seal truth mismatch');
+assert(artifact.sourceContainsPthreadPoolSize8 === true && artifact.singleThreadArtifactBuilt === false && artifact.wasmSha256?.length === 64, 'GATE-EW06-43 MODJPEG artifact truth mismatch');
+assert(authority.includes("patchId: 'TDT-EXPORT-PROMOTION-01'") && authority.includes("jpegPromotionId: workerEvidence?.promotionId === 'TDT-EXPORT-WORKER-06'") && authority.includes('jpegCanonicalSingleThread: typeof workerEvidence?.canonicalSingleThread') && authority.includes('jpegPthreadRetirementVerified: typeof workerEvidence?.pthreadRetirementVerified'), 'GATE-EW06-44 EP01 Export Receipt does not preserve EW06 pthread retirement truth');
+
+const canonicalize = (value) => Array.isArray(value) ? value.map(canonicalize) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonicalize(value[key])])) : value;
+const digest = (value) => crypto.createHash('sha256').update(JSON.stringify(canonicalize(value))).digest('hex');
+const fixture = { worker: jpeg[0]?.workerArtifactSetDigest, smoke, promotion, pthread, artifact };
+const expected = digest(fixture);
+for (let index = 0; index < 100; index += 1) assert(digest(fixture) === expected, `EW06 determinism failed ${index + 1}`);
+
+if (failures.length) {
+  for (const failure of failures) console.error(`FAIL ${failure}`);
+  process.exit(1);
+}
+console.log(`PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 ${expected}`);

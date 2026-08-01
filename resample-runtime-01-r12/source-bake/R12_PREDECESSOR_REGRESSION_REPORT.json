@@ -1,0 +1,10 @@
+{
+  "command": "npm run verify:resample-runtime-01-r11 --silent",
+  "exitCode": 0,
+  "includesR1AThroughR10": true,
+  "pass": true,
+  "receiptSha256": "966cbedbd9bb643274de4ee8618757a42e4e7692a8cbf9c0b129d5cb7f92f880",
+  "schemaId": "tdt.resample-runtime.r12.predecessor-regression.v1",
+  "schemaVersion": 1,
+  "summary": "R11 148 SOURCE PASS / 228 INSTALLED PENDING / 0 FAIL"
+}

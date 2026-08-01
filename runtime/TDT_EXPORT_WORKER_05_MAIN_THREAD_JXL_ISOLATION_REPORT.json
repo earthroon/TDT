@@ -1,0 +1,22 @@
+{
+  "schema": "tdt-export-worker-05-main-thread-jxl-isolation-v1",
+  "status": "PASS_SOURCE_GRAPH",
+  "promotionEligible": false,
+  "activeFiles": [
+    "app/legacy-runtime/export_manager.js",
+    "app/legacy-runtime/encoders/jxl-canonical-adapter.mjs",
+    "app/legacy-runtime/worker-codecs/jxl-canonical-handler.mjs",
+    "app/src/runtime/workers/entries/jxl-canonical.worker.ts",
+    "app/src/runtime/codecs/encoder-registry-service.ts"
+  ],
+  "activeMainThreadJxlBindingImports": 0,
+  "activeRawWorkerCreationCount": 0,
+  "canonicalBrokerCallPresent": true,
+  "dormantLegacyFiles": [
+    "app/legacy-runtime/encoders/jxl_worker_client.js",
+    "app/legacy-runtime/encoders/jxl_worker.js",
+    "app/legacy-runtime/encoders/export_autotune_jxl.mjs",
+    "app/legacy-runtime/workers/jxl_ex_worker.mjs"
+  ],
+  "dormantLegacyFilesActiveReachability": false
+}

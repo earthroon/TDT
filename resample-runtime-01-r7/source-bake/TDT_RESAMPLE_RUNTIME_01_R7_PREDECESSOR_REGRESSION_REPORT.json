@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "mode": "isolated-r6-parent-snapshot",
+  "pass": true,
+  "status": 0,
+  "parentZipSha256": "0adaaa54ee02badc5851d86a6633123874b04f05b082d6c2c9d91c3419a0c005",
+  "snapshotFileCount": 17,
+  "tail": [
+    "",
+    "> dadumdadum@1.0.0 verify:resample-runtime-01-r6",
+    "> node tools/resample-runtime-01-r6/run.mjs",
+    "",
+    "generated R6 WGSL 5 outputs",
+    "generated R6 fixtures",
+    "PASS R6 ABI 35/35",
+    "PASS R6 generated sources 88/88",
+    "PASS R6 oracle 46/46",
+    "PASS R6 runtime wiring 63/63",
+    "PASS R6 mock runtime 257/257",
+    "PASS R6 predecessor regression 8/8",
+    "TDT-RESAMPLE-RUNTIME-01-R6 148 PASS / 5 DEFERRED / 0 FAIL",
+    "PASS R6 finalize 14 authoritative files",
+    ""
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-08",
+  "status": "PASS",
+  "created_at": "2026-07-06T04:54:40Z",
+  "changed_files": [
+    "app/js/passes/blendif_webgpu_wgsl.js"
+  ],
+  "required_present": {
+    "fn rampUp": true,
+    "fn rampDown": true,
+    "fn splitQFeather": true,
+    "fn expandedSplit4": true,
+    "fn splitMask": true,
+    "P.underSplit": true,
+    "P.thisSplit": true,
+    "P.blend.y": true,
+    "P.blend.z": true
+  },
+  "required_absent": {
+    "fn rangeMask": true,
+    "splitRange(": true,
+    "splitFeather(": true,
+    "P.underRange": true,
+    "P.thisRange": true,
+    "P.underFeather": true,
+    "P.thisFeather": true
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_08_SPLIT_MASK_QMAP_CLAMP"
+}

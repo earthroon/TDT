@@ -1,0 +1,85 @@
+PASS MJ01-G001 spec title
+PASS MJ01-G002 module digest
+PASS MJ01-G003 wasm digest
+PASS MJ01-G004 artifact bytes preserved
+PASS MJ01-G005 pool eight
+PASS MJ01-G006 shared memory
+PASS MJ01-G007 initial memory
+PASS MJ01-G008 maximum memory
+PASS MJ01-G009 pthread symbols present
+PASS MJ01-G010 child worker constructor present
+PASS MJ01-G011 glue terminate all present
+PASS MJ01-G012 main script projection present
+PASS MJ01-G013 ABI preserved
+PASS MJ01-G014 adapter TDT-MODJPEG-01
+PASS MJ01-G015 adapter dadum.modjpeg-pthread-pool-8-canonical-v1
+PASS MJ01-G016 adapter emscripten-pthread-pool-8-canonical-v1
+PASS MJ01-G017 adapter modjpegPthreadBootstrapUrl
+PASS MJ01-G018 adapter ?url
+PASS MJ01-G019 adapter childWorkerTracker.assertPoolReady
+PASS MJ01-G020 adapter childWorkerTracker.terminateAll
+PASS MJ01-G021 adapter canonicalPthreadArtifact: true
+PASS MJ01-G022 adapter pthreadArtifactVerified: true
+PASS MJ01-G023 adapter sharedMemoryInitialBytes
+PASS MJ01-G024 adapter sharedMemoryMaximumBytes
+PASS MJ01-G025 tracker createCanonicalChildWorkerTracker
+PASS MJ01-G026 tracker expectedPoolSize
+PASS MJ01-G027 tracker tracked.add
+PASS MJ01-G028 tracker tracked.delete
+PASS MJ01-G029 tracker assertPoolReady
+PASS MJ01-G030 tracker terminateAll
+PASS MJ01-G031 tracker E_JPEG_PTHREAD_LEAK
+PASS MJ01-G032 ready evidence
+PASS MJ01-G033 dispose evidence
+PASS MJ01-G034 runtime evidence type
+PASS MJ01-G035 disposed payload evidence
+PASS MJ01-G036 vite dev COI
+PASS MJ01-G037 vite preview COI
+PASS MJ01-G038 electron COI
+PASS MJ01-G039 wasm mime
+PASS MJ01-G040 no-store
+PASS MJ01-G041 server headers
+PASS MJ01-G042 preview headers
+PASS MJ01-G043 electron COEP
+PASS MJ01-G044 worker wasm policy
+PASS MJ01-G045 child bootstrap source role
+PASS MJ01-G046 tracker source artifact
+PASS MJ01-G047 emitted child mapping
+PASS MJ01-G048 pthread edge
+PASS MJ01-G049 closure bootstrap gate
+PASS MJ01-G050 closure edge gate
+PASS MJ01-G051 receipt jpegArtifactAdoptionId
+PASS MJ01-G052 receipt jpegArtifactContractId
+PASS MJ01-G053 receipt jpegCanonicalPthreadArtifact
+PASS MJ01-G054 receipt jpegPthreadArtifactVerified
+PASS MJ01-G055 receipt jpegCoiRequired
+PASS MJ01-G056 receipt jpegCrossOriginIsolated
+PASS MJ01-G057 receipt jpegSharedMemoryInitialBytes
+PASS MJ01-G058 receipt jpegSharedMemoryMaximumBytes
+PASS MJ01-G059 receipt jpegChildWorkerCount
+PASS MJ01-G060 receipt jpegChildWorkerBootstrapKind
+PASS MJ01-G061 receipt jpegChildWorkerClosurePolicyId
+PASS MJ01-G062 stable E_JPEG_COI_REQUIRED
+PASS MJ01-G063 stable E_JPEG_CROSS_ORIGIN_ISOLATION_MISSING
+PASS MJ01-G064 stable E_JPEG_PTHREAD_POOL_MISMATCH
+PASS MJ01-G065 stable E_JPEG_PTHREAD_CHILD_WORKER_UNAVAILABLE
+PASS MJ01-G066 stable E_JPEG_PTHREAD_CHILD_BOOTSTRAP_MISSING
+PASS MJ01-G067 stable E_JPEG_PTHREAD_CHILD_CLOSURE_UNVERIFIED
+PASS MJ01-G068 stable E_JPEG_SHARED_MEMORY_CONTRACT_MISMATCH
+PASS MJ01-G069 stable E_JPEG_ARTIFACT_DIGEST_MISMATCH
+PASS MJ01-G070 stable E_JPEG_ARTIFACT_CONTRACT_MISMATCH
+PASS MJ01-G071 stable E_JPEG_ABI_SURFACE_MISMATCH
+PASS MJ01-G072 authority adoption gate
+PASS MJ01-G073 authority pool gate
+PASS MJ01-G074 authority COI gate
+PASS MJ01-G075 authority child count gate
+PASS MJ01-G076 sealed TDT_MODJPEG_01_CANONICAL_ARTIFACT_REPORT
+PASS MJ01-G077 sealed TDT_MODJPEG_01_SHARED_MEMORY_REPORT
+PASS MJ01-G078 sealed TDT_MODJPEG_01_COI_CONTRACT_REPORT
+PASS MJ01-G079 sealed TDT_MODJPEG_01_CHILD_WORKER_CLOSURE_REPORT
+PASS MJ01-G080 sealed TDT_MODJPEG_01_ABI_REPORT
+PASS MJ01-G081 sealed TDT_MODJPEG_01_OUTPUT_IDENTITY_REPORT
+PASS MJ01-G082 sealed TDT_MODJPEG_01_PROMOTION_RECEIPT
+PASS MJ01-G083 deterministic contract 83
+PASS MJ01-G084 deterministic contract 84
+PASS TDT-MODJPEG-01 GATES 84/84

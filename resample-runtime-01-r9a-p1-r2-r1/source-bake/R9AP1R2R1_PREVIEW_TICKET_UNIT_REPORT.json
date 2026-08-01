@@ -1,0 +1,9 @@
+{
+  "awaitedRejected": true,
+  "detachedState": "DEVICE_LOST",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1",
+  "presentedState": "PRESENTED",
+  "schemaId": "tdt.r9a-p1-r2-r1.preview-ticket-unit-report.v1",
+  "schemaVersion": 1,
+  "selfSha256": "df957fa3a471296018174b259c4df95ce61750dfc974ef56ee878bf4c5b539a7"
+}

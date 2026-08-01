@@ -1,0 +1,44 @@
+import fs from 'node:fs';import path from 'node:path';import { fileURLToPath } from 'node:url';
+import { createFixture,fakeGraph,fakeDevice,fakeTexture,descriptor } from './test-fixture.mjs';
+import { recordBakemonoRinneNativeIntegrationWgsl04 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_integration.mjs';
+import { normalizeBakemonoRinneGraphRequestWgsl04,assertEwaCommandGraphWgsl04,assertPipelineFamilyWgsl04,assertDirectInputDescriptorWgsl04,assertNoAliasesWgsl04,assertFinalEwaTerminalSurfaceWgsl04 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_contract.mjs';
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');const read=(rel)=>fs.readFileSync(path.join(ROOT,rel),'utf8');const catches=(fn,code)=>{try{fn();return false;}catch(e){return e?.code===code;}};const catchesAsync=async(fn,code)=>{try{await fn();return false;}catch(e){return e?.code===code;}};
+export async function runNegativeControlsWgsl04(){const f=await createFixture({execute:false});const rows=[];const add=(name,ok,evidence=null)=>rows.push({id:`BKR04-NC-${String(rows.length+1).padStart(3,'0')}`,name,status:ok?'PASS':'FAIL',evidence});const baseInput=()=>({...f.input,effect:{...f.effect}});
+ add('unknown mode rejected',catches(()=>normalizeBakemonoRinneGraphRequestWgsl04({mode:'PRODUCT'}),'E_BKR04_EFFECT_MODE_INVALID'));
+ add('unknown purpose rejected',catches(()=>normalizeBakemonoRinneGraphRequestWgsl04({...f.effect,purpose:'PRODUCT_FINAL'}),'E_BKR04_EFFECT_PURPOSE_INVALID'));
+ add('missing operation rejected',catches(()=>normalizeBakemonoRinneGraphRequestWgsl04({...f.effect,operationId:''}),'E_BKR04_EFFECT_INPUT_REQUIRED'));
+ for(const field of ['formulaContractReceipt','phaseReceipt','qmap','scalar','alphaDepth','highlight','maskEdge'])add(`missing ${field} rejected`,catches(()=>normalizeBakemonoRinneGraphRequestWgsl04({...f.effect,[field]:null}),'E_BKR04_EFFECT_INPUT_REQUIRED'));
+ const submitted=fakeGraph(fakeDevice(),{submitted:true});add('submitted graph rejected',catches(()=>assertEwaCommandGraphWgsl04(submitted),'E_BKR04_COMMAND_GRAPH_ALREADY_SUBMITTED'));
+ add('missing graph rejected',catches(()=>assertEwaCommandGraphWgsl04({}),'E_BKR04_COMMAND_GRAPH_REQUIRED'));
+ add('missing family rejected',catches(()=>assertPipelineFamilyWgsl04(null,f.id),'E_BKR04_PIPELINE_FAMILY_REQUIRED'));
+ add('disposed family rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,disposed:true},f.id),'E_BKR04_PIPELINE_FAMILY_DISPOSED'));
+ add('stale runtime epoch rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,runtimeEpoch:99},f.id),'E_BKR04_PIPELINE_FAMILY_STALE'));
+ add('stale device epoch rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,deviceEpoch:99},f.id),'E_BKR04_PIPELINE_FAMILY_STALE'));
+ add('stale device identity rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,deviceIdentity:'stale'},f.id),'E_BKR04_PIPELINE_FAMILY_STALE'));
+ add('family missing pipeline rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,pipeline:null},f.id),'E_BKR04_PIPELINE_FAMILY_INCOMPLETE'));
+ add('family missing layout rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,bindGroupLayout:null},f.id),'E_BKR04_PIPELINE_FAMILY_INCOMPLETE'));
+ add('family missing digest rejected',catches(()=>assertPipelineFamilyWgsl04({...f.family,pipelineIdentityDigest:null},f.id),'E_BKR04_PIPELINE_FAMILY_INCOMPLETE'));
+ add('input missing texture rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,texture:null},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_REQUIRED'));
+ add('input missing digest rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,contentDigest:null},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_REQUIRED'));
+ add('input dimension rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,width:f.width+1},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_DIMENSION'));
+ add('input runtime epoch rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,runtimeEpoch:99},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_EPOCH'));
+ add('input device epoch rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,deviceEpoch:99},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_EPOCH'));
+ add('input device identity rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,deviceIdentity:'stale'},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_EPOCH'));
+ add('input format rejected',catches(()=>assertDirectInputDescriptorWgsl04('qmap',{...f.effect.qmap,format:'rgba8unorm'},f.width,f.height,f.id),'E_BKR04_EFFECT_INPUT_SEMANTIC'));
+ const alias=fakeTexture('alias');add('base/input alias rejected',catches(()=>assertNoAliasesWgsl04([['base',alias],['qmap',alias]]),'E_BKR04_EFFECT_INPUT_ALIAS'));
+ add('final role rejected',catches(()=>assertFinalEwaTerminalSurfaceWgsl04({...f.base,surfaceRole:'STAGE'}),'E_BKR04_FINAL_EWA_IDENTITY'));
+ add('final format rejected',catches(()=>assertFinalEwaTerminalSurfaceWgsl04({...f.base,format:'rgba8unorm'}),'E_BKR04_FINAL_EWA_IDENTITY'));
+ add('final transfer rejected',catches(()=>assertFinalEwaTerminalSurfaceWgsl04({...f.base,transfer:'srgb'}),'E_BKR04_FINAL_EWA_IDENTITY'));
+ add('final receipt rejected',catches(()=>assertFinalEwaTerminalSurfaceWgsl04({...f.base,lowpassReceiptDigest:'bad'}),'E_BKR04_FINAL_EWA_IDENTITY'));
+ let x=baseInput();x.lambda2Resolver=null;add('missing lambda resolver falls closed on missing exact receipt',await catchesAsync(()=>recordBakemonoRinneNativeIntegrationWgsl04(f.graph,x),'E_BKR04_LAMBDA2_QUALIFICATION_MISSING'));
+ x=baseInput();x.lambda2Resolver={async resolve(){throw Object.assign(new Error('missing'),{code:'E_BKR04_LAMBDA2_QUALIFICATION_MISSING'});}};add('missing lambda receipt rejected',await catchesAsync(()=>recordBakemonoRinneNativeIntegrationWgsl04(f.graph,x),'E_BKR04_LAMBDA2_QUALIFICATION_MISSING'));
+ x=baseInput();x.lambda2Resolver={async resolve(){throw Object.assign(new Error('mismatch'),{code:'E_BKR04_LAMBDA2_QUALIFICATION_MISMATCH'});}};add('mismatched lambda receipt rejected',await catchesAsync(()=>recordBakemonoRinneNativeIntegrationWgsl04(f.graph,x),'E_BKR04_LAMBDA2_QUALIFICATION_MISMATCH'));
+ x=baseInput();x.effect={...x.effect,formulaContractReceipt:{receiptDigest:'f'.repeat(64)}};add('invalid formula receipt rejected',await catchesAsync(()=>recordBakemonoRinneNativeIntegrationWgsl04(f.graph,x),'E_BKR04_EFFECT_INPUT_REQUIRED'));
+ x=baseInput();x.effect={...x.effect,phaseReceipt:{wrappedPhaseBase:.2,receiptDigest:'bad'}};add('invalid phase receipt rejected',await catchesAsync(()=>recordBakemonoRinneNativeIntegrationWgsl04(f.graph,x),'E_BKR04_EFFECT_INPUT_REQUIRED'));
+ for(const field of ['qmap','scalar','alphaDepth','highlight','maskEdge']){x=baseInput();x.effect={...x.effect,[field]:{...x.effect[field],width:f.width+1}};add(`${field} active dimension rejected`,await catchesAsync(()=>recordBakemonoRinneNativeIntegrationWgsl04(f.graph,x),'E_BKR04_EFFECT_INPUT_DIMENSION'));}
+ const graphTensor=read('app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_graph_tensor.mjs');const graphEffect=read('app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_graph_effect.mjs');const integration=read('app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_integration.mjs');const stack=read('app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs');
+ for(const [name,token] of [['tensor createCommandEncoder','createCommandEncoder'],['tensor queue.submit','queue.submit'],['tensor mapAsync','mapAsync'],['tensor randomUUID','randomUUID'],['tensor Date.now','Date.now'],['tensor Math.random','Math.random'],['effect createCommandEncoder','createCommandEncoder'],['effect queue.submit','queue.submit'],['effect createBuffer','createBuffer'],['effect writeBuffer','writeBuffer'],['effect mapAsync','mapAsync'],['integration readPixels','readPixels']]){const source=name.startsWith('tensor')?graphTensor:name.startsWith('effect')?graphEffect:integration;add(`${name} absent`,!source.includes(token),token);}
+ add('post-submit hook explicitly denied',stack.includes('E_BKR04_POST_SUBMIT_HOOK_FORBIDDEN'));
+ add('post-submit callback invocation removed',!stack.includes('await request.runDeltaKCore('));
+ if(rows.length!==56)throw new Error(`Expected 56 negative controls, got ${rows.length}`);const passCount=rows.filter(r=>r.status==='PASS').length;return {schemaVersion:1,patchId:'TDT-BAKEMONO-RINNE-WGSL-04',status:passCount===56?'PASS':'FAIL',caseCount:56,passCount,failCount:56-passCount,rows};}
+if(import.meta.url===`file://${process.argv[1]}`){const r=await runNegativeControlsWgsl04();console.log(`${r.status} BKR04 negative controls ${r.passCount}/${r.caseCount}`);if(r.status!=='PASS')process.exitCode=1;}

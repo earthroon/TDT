@@ -1,0 +1,1827 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "edges": [
+    {
+      "fromNodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.applyemotionpreblurfusion.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.applyfinaltensorsharpen.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.computeqmapcentroid.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.webglutils.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.ac_wire.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.constants.artifactclean.const.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.ac_wire.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.modules.artifactcleanpass.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.ac_wire.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.ui.artifactcleanpanel.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.blendif_ui.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.js.blendif.blendif.schema.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.path.stabilizer.from.src.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.utils.color.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.webgl2.view.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.export_manager.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.export.surface.ssot.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.export_manager.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.libs.psd.psd.export.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.image_input_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.decoder.registry.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.image_input_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.source.surface.state.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.image_input_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.webgpu.preview.presenter.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.image_input_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.webgpu.source.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.index-inline-01.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.webp.api.forced.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.index-inline-01.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.zero.fullencode.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.index-inline-02.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.tile.encoder.worker.qaware.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.index-inline-02.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.export.pipeline.patch.qcoupled.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.index-inline-03.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.patch.qcoupled.plus.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.upgrade.pipeline.to.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.webgpu.runtime.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.js-passes-dk_autowire.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.install.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.attach.adaptive.sharpen.pass.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.attach.qwave.bake.pass.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.batchexportcolormask.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.ash.ash.adapter.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.ash.ash.qmapbridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.manager.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adapter.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.dadum.artifact.integration.patch.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.export.unified.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.filters.awb.inject.helper.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.filterworker.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.finalize.pass.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.generateqmap.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.gl.fastlane.patch.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.gl.getcontext.patch.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.gl.qmap.tensor.from.cpu.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.gl.state.trim.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.export.download.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.filtered.surface.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.integrateintodadumdadum.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.libs.icms.little.icmslittlebridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.libs.icms.little.icmslittleloader.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.tensorqmapmodule.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.tex.upload.hints.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.upng.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.workers.ashworkerhandle.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.adaptive.sharpen.frag"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.bakemono.neon.frag.glsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.basic.vert"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.blurshader.frag"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.directional.gate.finalize.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.gate.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.gate.fixture.generator.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.gate.reference.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.spectral.project.stage.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.tensor.spectral.align.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.axial.convert.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.fixture.generator.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.phase.coherence.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.reference.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.wrapped.circulation.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.fixture.generator.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.principal.sqrt.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.reference.polar.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.to.rg.compat.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.curvature.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.defect.project.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.hilbert.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.local.aniso.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.spectral.project.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.source.selection.counter.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.complex.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.complex.transpose.16x16.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.direct.dft.reference.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.field.set.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.finalize.fields.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.fixture.generator.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.partial.merge.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.partial.reduce.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.power.normalize.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.reduction.reference.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.stockham.radix2.stage.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.writer.ownership.validation.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.adaptive.policy.projection.r1d.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.parity.compare.r2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v1.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v2.r1c.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v3.r4.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v4.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r4.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r4.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v2.legacy.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v3.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r4.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r4.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.axial.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.blur.h.r1c.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.blur.v.r1c.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.eigen.r1c.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.gradient.r1c.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.outer.r1c.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.edgekernel.glsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.glsl.util.glsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.modules.dk.resample.shaders.export.ewa.lowpass.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.modules.dk.resample.shaders.export.ewa.recompose.linear.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.modules.dk.resample.shaders.export.ewa.recompose.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.rinne.bakemono.fusion.frag.glsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.legacy.runtime.rinne.colorcycle.frag.glsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.fixture.generator.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.materialize.window.batch.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.page.table.validate.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "shader-load",
+      "toNodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.reference.copy.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#ash-qmap-binding"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#batch-queue"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#delta-k-controls"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#entry-authority"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#filter-worker-bridge"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#icms-auto-binding"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.legacy.main.js#spot-psd-binding"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.icms.auto.binding.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.legacy.ash.qmap.binding.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.legacy.batch.queue.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.legacy.delta.k.controls.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.legacy.filter.worker.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.legacy.main.entry.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.active.graph.legacy.spot.psd.binding.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.qmap.dk.bind.main.patch.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.gl.curvesafe.downscale.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.gl.qtensor.from.qmap.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.main.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.noink.qmap.render.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patches.patches.integration.snippets.psi.pipeline.patch.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patches.patches.integration.snippets.use.adaptive.policy.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patches.gl2.squeeze.gl2.pbo.reader.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.qwave-qwave_boot.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.qwave.qwave.system.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.renderer.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.export.autotune.jxl.mjs"
+    },
+    {
+      "fromNodeId": "dadum.legacy.resize_export_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.alpha.hygiene.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.resize_export_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.input.export.capture.ssot.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.resize_export_bind.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.modules.dk.resample.export.wgsl.downscale.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.ui_bind.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.debug.tilemask.overlay.js"
+    },
+    {
+      "fromNodeId": "dadum.legacy.wire_blendif_hook.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.blendif.webgpu.pass.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.ash.graindecisionkernel.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.ash.output.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.ash.graindecisionkernel.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.reactordecision.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.manager.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.filter.gated.apply.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.manager.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.pass.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.manager.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.morph3x3.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.manager.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.index.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.runtime.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.adaptive.policy.projection.r1d.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.runtime.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.contract.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.runtime.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.params.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deband.dither.webgpu.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deband.dither.rgba16f.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deblock.webgpu.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deblock.rgba16f.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.webgpu.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.compare.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.webgpu.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.safe.blend.rgba16f.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.receipt.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.runtime.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.runtime.receipt.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.axial.contract.r5.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.parity.compare.r2.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v4.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v2.legacy.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.params.v3.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.optimization.receipt.r4.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.tiled.profile.r4.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.fusion.runner.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deband.dither.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.fusion.runner.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deblock.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.fusion.runner.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.oklab.chroma.denoise.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.fusion.runner.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.resize.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.index.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.qmap.core.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.index.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.fusion.runner.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.index.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.guided.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.index.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.preblur.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.oklab.chroma.denoise.webgpu.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.oklab.chroma.denoise.rgba16f.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.preblur.webgpu.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.bilateral.preblur.tile.rgba16f.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.downscale.only.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.material.qmap.fused.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.qmap.only.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.gammaproof.webgpu.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.axial.r5.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.contract.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.params.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.mjs",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.receipt.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.qmap.dk.bind.main.patch.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.qmap.dk.fft.qmap.webgpu.v2.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.shaders.wgsl"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.core.worker.p99.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.ash.graindecisionkernel.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.ash.texturesense.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.patch.passa.colordenoise.bind.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.bridge.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.worker.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.bridge.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.utils.readpixels.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decode.jxl.surface.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.decode.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decode.native.surface.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.decoded.surface.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decode.native.surface.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.native.native.decode.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decode.psd.surface.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.psd.worker.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decode.psd.surface.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.libs.lcms.cmyk.view.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decoder.registry.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.decode.jxl.surface.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decoder.registry.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.decode.native.surface.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.decoder.registry.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.decode.psd.surface.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.psd.decode.worker.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.psd.psd.core.wasm"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.psd.decode.worker.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.psd.psd.core.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.decoders.psd.worker.bridge.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.decoders.psd.decode.worker.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.encoders.encodergbatojxl.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.jxl.loader.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.encoders.export.autotune.jxl.mjs",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.jxl.worker.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.encoders.jxl.worker.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.encodergbatojxl.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.encoders.webp.api.forced.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.export.autotune.jxl.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.export.kwebp.patched.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.save.savepng16.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.export.unified.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.export.kwebp.patched.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.export.unified.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.export.webp.near.adaptive.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.export.webp.near.adaptive.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.ash.qmap.postpatch.kit.js.qmap.combine.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.export.webp.near.adaptive.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.ash.qmap.postpatch.kit.js.qmap.fft.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.filters.awb.inject.helper.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.filters.awb.auto.deltaek.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.gl.curvesafe.downscale.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.pipeline.downscale.curvesafe.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.input.export.capture.ssot.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.input.offscreen.surface.ssot.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.install.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.jxl.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.install.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.png.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.install.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.webp.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.webp.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.webp.enc.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.blendif.webgpu.pass.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.blendif.webgpu.wgsl.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.blit.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.dk.builder.webgpu.compute.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.present.webgpu.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.qwave.builder.webgpu.compute.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.qwave.warp.webgpu.pass.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.passes.qwave.warp.webgpu.pass.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.passes.qwave.warp.webgpu.wgsl.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.js.ui.artifactcleanpanel.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.js.modules.artifactclean.presets.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.libs.icms.little.icms.little.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.libs.icms.little.icms.little.wasm"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.libs.icms.little.icmslittleloader.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.libs.icms.little.icms.little.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.libs.lcms.cmyk.view.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.workers.lcmsworkerclient.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.modules.dk.resample.export.wgsl.downscale.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.multistage.runtime.receipt.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.modules.dk.resample.export.wgsl.downscale.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.stage.planner.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.modules.dk.resample.export.wgsl.downscale.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.params.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.modules.dk.resample.export.wgsl.downscale.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.mjs"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.patch.qcoupled.plus.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patch.export.qsampler.reduce.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.zero.fullencode.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patch.lab.delta.sampler.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.zero.fullencode.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patch.map.quality.curves.pro.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.zero.fullencode.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patch.save.savepng16.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.patch.export.pipeline.zero.fullencode.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.patch.zero.copy.pool.fullencode.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.save.savepng16.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.save.upng.16bit.wrapper.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.save.upng.16bit.wrapper.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.upng16.upng.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.tensorqmapmodule.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.gaborbank.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.decode.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.wgpu.bridge.bg.wasm"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.decode.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.wgpu.bridge.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.webp.enc.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.scripts.encoder.webp.enc.wasm"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.workers.lcmsworkerclient.js",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.node.legacy.runtime.workers.lcmsworker.js"
+    },
+    {
+      "fromNodeId": "dadum.node.legacy.runtime.workers.lcmsworkerclient.js",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.workers.workerrpc.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.EmotionPipeline_preblurFusion_patch.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.EmotionPipeline_qmap_patch.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.EmotionRenderer.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.ac_wire.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.blendif_ui.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.engine-passes-brushedMetalHook.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.engine-passes-brushedMetalPass.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.export_manager.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.hooks-afterRenderHook.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.index-inline-02.mjs"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.index-inline-03.mjs"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.index-inline-04.mjs"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.index-inline-05.mjs"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.index-inline-06.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.init_once.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-chroma_blue_dither_pass.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-compression_preprocess_ab.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-core-pipeline_rev.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-passes-dk_preview_wire.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.js-texture_preserve_patch.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.lib-upng.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.main.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.packs-dadum_all_packs_loader.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches-ash_engine_orchestrator.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches-canvas2d_willReadFrequently_patch.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches-icc_default_loader.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches-preload_assets.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches_gl2_squeeze-gl_resource_tracker.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches_mrt_pbo-mrt_fbo_setup.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.patches_mrt_pbo-pbo_readback.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.pipeline_bind_guard.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.preview_fit_bind.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.qwave-qwave_boot.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.renderer.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.scripts-colorRegionRenderer.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.share-modal.safe.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.shims_runtime.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.ui_bind.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.ui_ssot_layout.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.vendor-piexif.min.js"
+    },
+    {
+      "fromNodeId": "dadum.renderer.entry",
+      "edgeKind": "manifest-script-load",
+      "toNodeId": "dadum.legacy.wire_blendif_hook.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "child-worker-spawn",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.jxl.bindings.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.jxl.canonical.adapter.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.jxl.child.worker.tracker.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.metadata.resolution.ssot.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.worker.codecs.jxl.canonical.handler.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.codecs.jxl.jxl.structure.verifier.v2.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.entries.jxl.canonical.worker.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.worker.entry.runtime.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "edgeKind": "wasm-load",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.jxl.bindings.wasm"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "child-worker-spawn",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.libmodjpeg.wasm.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.modjpeg.canonical.adapter.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.modjpeg.child.worker.tracker.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.worker.codecs.modjpeg.canonical.handler.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.codecs.jpeg.jpeg.encode.plan.v1.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.codecs.jpeg.jpeg.structure.verifier.v2.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.entries.modjpeg.canonical.worker.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.worker.entry.runtime.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "edgeKind": "wasm-load",
+      "toNodeId": "dadum.node.legacy.runtime.wasm.libmodjpeg.wasm.wasm"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.png-family-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.lodepng.wasm.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.png-family-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.png.family.lode.bridge.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.png-family-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.worker.codecs.png.family.handler.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.png-family-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.entries.png.family.worker.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.png-family-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.worker.entry.runtime.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.png-family-v1",
+      "edgeKind": "wasm-load",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.lodepng.wasm.wasm"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.libs.lcms.lcms.icmsa.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.libs.lcms.lcmsloader.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.libs.psd.pkg.v2.psd.exporter.wasm.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.libs.psd.request.codec.v2.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.worker.codecs.psd.canonical.handler.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.worker.codecs.psd.structure.verifier.v2.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.native.psd.exporter.wasm.v2.cargo.toml"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.native.psd.exporter.wasm.v2.src.lib.rs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.entries.psd.canonical.worker.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.worker.entry.runtime.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "edgeKind": "wasm-load",
+      "toNodeId": "dadum.node.legacy.runtime.libs.lcms.lcms.icmsa.wasm"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.webp.api.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.encoders.webp.bindings.qmap.mjs"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.metadata.resolution.ssot.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.legacy.runtime.worker.codecs.webp.lossless.handler.js"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.entries.webp.lossless.worker.ts"
+    },
+    {
+      "fromNodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "edgeKind": "static-import",
+      "toNodeId": "dadum.node.src.runtime.workers.worker.entry.runtime.ts"
+    }
+  ],
+  "digest": "5123928786f29bb49f1578d7c286a5e04907d3e0bfcaa9ffe87720816dc82efe"
+}

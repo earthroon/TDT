@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R12",
+  "files": [
+    {
+      "relativePath": "README_TDT_RESAMPLE_RUNTIME_01_R12_APPLIED.md",
+      "sha256": "04607bc0048242e95138897bdb30a5310bab4ac39487918a1fad4efdf75b25f0"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/activation-intent.mjs",
+      "sha256": "1556f67b90871b6e0d1e0e1d3cdb7a76bd92022bf5d537deb8dc94ff40877144"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/crypto-utils.mjs",
+      "sha256": "ba85ddf58d8cf5a9ee553f8fc8bee2e3d2c8edd2be9514b257852f4ac3f28428"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/install-layout.mjs",
+      "sha256": "3fda344229494942474654cc78f40bdc85f36c1aac5ac7dbb1ebaf58c09cbc6d"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/launch-envelope.mjs",
+      "sha256": "9b0d5f89209020d28fac36cfc6e1f6388a0bd3f58e89b6d9e79343540d5df2b0"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/local-activation-pointer.mjs",
+      "sha256": "ee274eb088eb5e1f6f349957db11d5ec6d959e7f0ccfc6a696e8ff4c9d70bc23"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/package-closure.mjs",
+      "sha256": "20ab4a12fc14947c15c771c7bfec93da4f66b6c372bacef828c22d27f1461205"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/package-store.mjs",
+      "sha256": "017d5b0ea590caa2453d28cb8e8d84480443c0ac7d2777760746475010bc4b06"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/path-policy.mjs",
+      "sha256": "021471b9159e285f3c2e163c31b602b4d0121c3d3c053225529d3bcf3b6f20e7"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/production-pointer-readonly.mjs",
+      "sha256": "7badd29472da4b1d83f048e425bea19f2d68b2c7f1f59d93832105ad51fd6927"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/r11-handoff.mjs",
+      "sha256": "2d597e7bdd99ae41ab07e2af731fd7c94818d9c8eb55b711273e23d072cb155b"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/r12-contract.mjs",
+      "sha256": "4c45db216aeb988e23b5dfa32a6a38ac19f3c97b6a96e5f45400225d9b9b6376"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/recovery-engine.mjs",
+      "sha256": "fbb08a733eefde42b3dc89881d89c6d39aeb29b27f8effd45f541b54c752ab8f"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/recovery-mode.mjs",
+      "sha256": "17027a8f2bf896d35e61a35a9e22b203206e7a9e8a3757ca7f78c35a23100811"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/retention.mjs",
+      "sha256": "400deb8e3e78db293e6693f8b4cb3b98f7c8a617eee73341b29bc5bacecd4af4"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/staged-canary-controller.mjs",
+      "sha256": "1bd517b64d110fc3cc2f53d379a53e9b734004193ad2cea2ccf0547b64553f65"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/update-agent.mjs",
+      "sha256": "d9bdc075e0e9cb9b40bd93d2841c0e7f5c4f39346a2a4a4c320034f6da9d90e5"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/update-journal.mjs",
+      "sha256": "d03c23610548553a09e038d3396afbe7b86c4668927bd7e322294dc2f6a52931"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/update-transaction.mjs",
+      "sha256": "4cc3f59a70f2756a531ab17ffbbae59b54c333fb683d1bc16bc0f35e2987ac7c"
+    },
+    {
+      "relativePath": "app/features/resample-runtime/r12/update-transition-lease.mjs",
+      "sha256": "54b3292406e59fa88b61eec70e1f25e349b6ac63fb3c4fde9cc7379d9d18e925"
+    },
+    {
+      "relativePath": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    {
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/TDT_RESAMPLE_RUNTIME_01_R12_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "4bf9ae0efbd18ba97f996c3ba81032a7707cd9e4cc96076d71400a26eab5889c"
+    },
+    {
+      "relativePath": "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+    },
+    {
+      "relativePath": "specs/TDT-RESAMPLE-RUNTIME-01-R12_ATOMIC_UPDATE_INSTALLATION_STAGED_PACKAGE_ACTIVATION_CROSS_GENERATION_ASSET_EXCLUSION_INTERRUPTED_UPDATE_RECOVERY_INSTALLED_ATTESTATION_HANDOFF_SEAL_SPEC.md",
+      "sha256": "3aa4a313ad4dc4c7ec9194fd52fd6cf4f14a0483ec12d74e001ca55594c1f917"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/activation-intent.mjs",
+      "sha256": "931c88686763a1067ecef87c08c84717060aa36100f6618bf0b3293c291e5d7c"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/canonical-json.mjs",
+      "sha256": "758e5d3cddde55c057f4c967548904fc650bb4d7401a022f4ec72817da097485"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/finalize-installed-update.mjs",
+      "sha256": "1c52194bdcc424b7cce0b0d1b1dfb3110ea95677538328487e98100a65eea646"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/finalize-source.mjs",
+      "sha256": "a2bf65f2e39b20158abc2c3d8f220659fa5bfba59dc3d3b45384e28be5fe55a5"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/gate-requirements.json",
+      "sha256": "560bf94790334abc314a1652bb84756696929b1f0b7282b0bcd353de3d5b7fca"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/gate-source.mjs",
+      "sha256": "53c40d2b446f121b3ebd259e60850a6d0f1af2415f80ff695b2e11df04251c60"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/identity.mjs",
+      "sha256": "51888730ce977e356d1047dfa1f4f43dcffbf1633cb8788e1515ad9f775a80aa"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/journal.mjs",
+      "sha256": "1961783ad566c1297dfd8f26380e4e2a95643f2227935d7952aae2fc7c124f9e"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/lib.mjs",
+      "sha256": "2646b5cabcd97051b067416024009c6b85bf01599897b1df51da4bb718979f05"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/local-pointer.mjs",
+      "sha256": "f2f419d876c4a17f968f53a032b37e9118ff91b3db528fef421463a517f981ed"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/package-closure.mjs",
+      "sha256": "0401bb79f61d1d77a25b2409867c6c844cfe82b956f245d599a15e4253147687"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/parent-r11-freeze.json",
+      "sha256": "283e4cd5074aaccdb9883175265f9caf6e975b7f5994fb8cb6f56b0f59452b8d"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/path-policy.mjs",
+      "sha256": "ddf54313df988dcbd0f74bd0fba21dd416fc6063c82f89d83e575fcb85a08d7a"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/recovery.mjs",
+      "sha256": "9d551d3993f0cb5187365fe5d618a86b8f102f1c7be537fc55c2958b4eed0294"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/retention.mjs",
+      "sha256": "a21a8a2b71e6fba30358a633199cc5badce4d48a8f1e6c870223b40f58fc8525"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/run-installed-update.mjs",
+      "sha256": "d0ea85213e1393867eb18616343eaebd4ea538bd2cdd3cc87383784de5f3e5e5"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/run.mjs",
+      "sha256": "89f7de4dcbd531a52fae0247b1bb25638cf3d5be443ba044f9e1f5c7ff1b5fdd"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/schemas/activation-intent.schema.json",
+      "sha256": "b9d452a6c5534acc9604604d5b94e17d4fd3aba3d293da29199242ebf6dd2e08"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/schemas/final-installed-update-receipt.schema.json",
+      "sha256": "ac1d144dab56b82f0d95e223df525d8feb17d69199824b9284266c31c418a02e"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/schemas/launch-envelope.schema.json",
+      "sha256": "8b1d81de774b3bdbb5b3a30712373ae4bddf450a220092f2146eb073aa24c690"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/schemas/local-activation-pointer.schema.json",
+      "sha256": "98afa1f5c5bd2b768f04490e1502954f1d4cd2d63295d8c242271cd7a431c726"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/schemas/update-journal-entry.schema.json",
+      "sha256": "7be03443c4dd3eb9797b44e4c71e32d55baa1b06f2ee1606bffe2337373ab12e"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/schemas/update-transaction.schema.json",
+      "sha256": "f27555dece825a75994aa506d64efb108f8d69e59b215a76e68bb56176911a44"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/transaction.mjs",
+      "sha256": "380ddb34fdc9fe454c4cb69d0c32aa4ff8aea9cedfaffe7a4097d3d6cb492d91"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/verify-installed-update.mjs",
+      "sha256": "11c9e3b0ee74145b8f441af82970167f14617bb4d717c1009d288718514d3715"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/verify-negative-controls.mjs",
+      "sha256": "a543dcff89a88b158d3164cd703196392c95962b912508fbc52b2076cf00cd6e"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/verify-parent-freeze.mjs",
+      "sha256": "706532c3920e66dadfe45355eb4141b9296bac796a8dc3434c9cf2739aa081ba"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/verify-predecessor-regression.mjs",
+      "sha256": "e2d03c02fd363f6449d1f52bc8fc0bfb01c9476c6bb3ef908accc928b5c1a179"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/verify-runtime-self-tests.mjs",
+      "sha256": "1ca50fc5d10a23dad7a2c5f5da1a940d87e0ee097d395acda912f850c03baf31"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/verify-source-contract.mjs",
+      "sha256": "c2486cb49fd37b5aaa0e1b8e817cd0ebb5ca0a775e12446221d78ace15b92d9c"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/windows/atomic-replace-local-pointer.ps1",
+      "sha256": "6ce7498cc6472ea7cd76486616c7d555a3b5ffc4d022274f00a4cd05b17786bf"
+    },
+    {
+      "relativePath": "tools/resample-runtime-01-r12/windows/list-package-handles.ps1",
+      "sha256": "1728bfc4160b0cf49e4c6ad903dee5fe712e2c0fda70d318a0d25bc8fcc36a41"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 640,
+    "PENDING": 760,
+    "SKIPPED": 0
+  },
+  "externalDistributionPerformed": false,
+  "finalWriterSummaryTrustCount": 0,
+  "historicalPassCarryForward": 0,
+  "keyRotationRevocationSourceVerified": true,
+  "localActivationPointerMutatedByR14A": false,
+  "mirrorByteIdentitySourceVerified": true,
+  "packageManifestSourceVerified": true,
+  "parentR13ASourceReceiptSha256": "bba464e8d49a37a947ff93912a8e2b06a24c75e21068eb239b67f62b6f99de33",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R14A",
+  "productionPointerMutatedByR14A": false,
+  "r12aR13aIntegrationSourceVerified": true,
+  "rollbackResistanceSourceVerified": true,
+  "rootThresholdSourceVerified": true,
+  "schemaVersion": 1,
+  "selfSha256": "e47f4bb3a99ac4fb0acb4a8dd0d7f38e5995f0cd0178362dcbc865e8e9d25a90",
+  "sourceGateReportSha256": "011a761a35a4a895becba6eb288f8b9276524176592f1375b343258c73b6cce4",
+  "specSha256": "b86c68fe5c5f6e54f622f45540159aa8aaa9a6cee84a0bd8ac416defd7d87c1e",
+  "state": "RESAMPLE_RUNTIME_R14A_SIGNED_DISTRIBUTION_AND_ROLLBACK_RESISTANCE_SOURCE_SEALED_AWAITING_R13A_FLEET_AND_EXTERNAL_DISTRIBUTION",
+  "transparencySourceVerified": true
+}

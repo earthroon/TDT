@@ -1,0 +1,9 @@
+{
+  "externalDistributionPerformed": false,
+  "failCount": 0,
+  "fixtureFinalReceiptSha256": "0008524a5587b12c6cda8a8c0c11bd68b3f631e044a3a74bedd69bf2e1c1e36a",
+  "fixtureOnly": true,
+  "passCount": 1,
+  "schemaVersion": 1,
+  "selfSha256": "6d13bd963823dc7c0a73119c6c6196c47f7f0a0dac7564ea9b3fdef0d6271525"
+}

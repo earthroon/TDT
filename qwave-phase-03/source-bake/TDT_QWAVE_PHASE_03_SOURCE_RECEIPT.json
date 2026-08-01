@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-QWAVE-PHASE-03",
+  "state": "QWAVE_PHASE_03_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-HANNAKAIRO-GATE-02",
+  "parentZipSha256": "4f2591268e27525fa6ad7c21397e1ebab2b2d4574588c8659bd83c1156f8f514",
+  "parentSourceSealSha256": "a9bb251d9b6c47794538aaf524211ab27ab6de1c5face366c01b4291426a544a",
+  "sourceSealSha256": "005206125334e903ff3ab9dff5d8bc76010fda6a7e8177ff21515298331e1f58",
+  "changedFileCount": 102,
+  "sealedFileCount": 63,
+  "observationalFileCount": 41,
+  "files": [
+    {
+      "relative": "README_TDT_QWAVE_PHASE_03_APPLIED.md",
+      "byteLength": 5550,
+      "sha256": "7bd7be6a84a5922e6ed26371b69898a658c233c1920e3fa60757223a9bf098e4"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/qwave_phase_bridge.mjs",
+      "byteLength": 528,
+      "sha256": "d0f77d5c96bda8e8a1cac12d607f0d82ec3cba83179a314136fb9784daa20ae5"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-compare.wgsl",
+      "byteLength": 432,
+      "sha256": "a7e6a2cea2884bb0ebc7a6d90a90283ea02e97584717a910269b54c55202aa71"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-fixture-generator.wgsl",
+      "byteLength": 337,
+      "sha256": "24376b04b804a6451668c492bb5146238a36c0988316346ae76358f9d9f72168"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-principal-sqrt.wgsl",
+      "byteLength": 1022,
+      "sha256": "b30a0f2803b95af04e98e13d907fc51f8a594bea40769bccd80dcb3f3186058e"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-reference-polar.wgsl",
+      "byteLength": 374,
+      "sha256": "e3a04aa1513dd9b02f04437ebf80dcf97046b639014f7c9250c394a13570af6c"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-to-rg-compat.wgsl",
+      "byteLength": 641,
+      "sha256": "76b3e444917b3604d7cd61d53195fd753b73a04be3f75c6cc16bc925ce2e42c6"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-curvature.wgsl",
+      "byteLength": 692,
+      "sha256": "bab6369fd197154022cf62147c681d05922cc2a57d5514e1ae41e7f447b60dfb"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-defect-project.wgsl",
+      "byteLength": 926,
+      "sha256": "ee712a4e8f54136b199e6de0946817c3eb71b59a7df623fb8ccb4c731354868e"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-hilbert.wgsl",
+      "byteLength": 683,
+      "sha256": "3ee231502b3fe609a96378c3911a968fdab047d67f559cb0f9d046baf8837174"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-local-aniso.wgsl",
+      "byteLength": 1100,
+      "sha256": "ee66b191523fd44267136f1515d9577f58081b2bb7ecd1182b9a4d882d8c6ec5"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-spectral-project.wgsl",
+      "byteLength": 2064,
+      "sha256": "fc1256dc4eddd28bfd2d691607fd1cb6651fd050b2aa74c09f38cc39513d8589"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-source-selection-counter.wgsl",
+      "byteLength": 215,
+      "sha256": "eff2f0884af0dee6016504c8f100d2c3722dd5f40d13e83cb77bf87f73eae1c9"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "byteLength": 18004,
+      "sha256": "e79406d00d33bb01720ad995e69adffbe3ea49ac7324c822fa2464f0dd7543cb"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/dk_builder_webgpu_compute.js",
+      "byteLength": 8680,
+      "sha256": "942e9ffc6e4fb95bc05f40851463a38c7e177ebe78ff3e7dffdd8d59ef4283e9"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "byteLength": 1805,
+      "sha256": "dd54ff8b59af0424619d68899dfd738233bae67fb68adedf72f27c782eefb182"
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_boot.js",
+      "byteLength": 8016,
+      "sha256": "708cf9196bac0a1c01b169b1f05f6e46a7e5d6adb2c3b472359b3c8395d0009c"
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_system.js",
+      "byteLength": 20183,
+      "sha256": "f86ed74ed1cd222a73ee25b35833cabf7c362c321c7e9fd62d27516dc7d1bfb2"
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_webgpu_overlay.js",
+      "byteLength": 12258,
+      "sha256": "67bed0c312a0d3568cbb1a28c23bf38e52e1ad2686ef21cd3be6091d30c89edc"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 29289,
+      "sha256": "097c1a4feea61947729699d90e631094a28018f4c3701df9c2cd8b659f808e8f"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 28419,
+      "sha256": "e3731f4222b050a6fb3db93bd440810fdfa387229974333ade770f4626084f77"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 72331,
+      "sha256": "a82c60d7d2fea1802399586b5d1ee0d22f4fa032eb934796bd9e4b7565b81073"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106337,
+      "sha256": "ce22aef4ace11103188ced466f13ee23c9d338971989e6747fc5bc004cecfbf9"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 211782,
+      "sha256": "60e11c75a4628ab8e8cbe0f383a1da6c59b6c3136d34e60583cd24e6f62c6bc3"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-global.d.ts",
+      "byteLength": 915,
+      "sha256": "1652c77bbe659f26d6c0fa118511e43cfd86d3deefbdc9cb960d0eeecc5cc519"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-claim-report.json",
+      "byteLength": 5149,
+      "sha256": "fda32406e25d0bc323c007bd36d5b18dcc785ede6fd7b17877bc658634783527"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-compatibility-classification.json",
+      "byteLength": 36846,
+      "sha256": "6508aba9b4fd132976833a2bdbbbb296e0ce71865a28d108752ce56d8d7cd9b3"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-producer-inventory.json",
+      "byteLength": 11236,
+      "sha256": "ad544ef26d8577fdda6223c6863bd89ab4013aa664fde25211abfaefb7efd2ad"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-semantic-registry.json",
+      "byteLength": 41507,
+      "sha256": "d02354dfdfaa3424c21536a466640a8f209b8d5dca79b33f8436fd8a3c52de30"
+    },
+    {
+      "relative": "app/src/runtime/analysis/qwave/qwave-phase-job-arena.ts",
+      "byteLength": 1157,
+      "sha256": "e3b860d339c267362aa1c131a25ab81300436c750a5dbda89fea045b238eb163"
+    },
+    {
+      "relative": "app/src/runtime/analysis/qwave/qwave-phase-parameters.ts",
+      "byteLength": 2273,
+      "sha256": "4b6b7b4189d17fd11db7a82ef348b51c43873ee857d88d31e6ca6005f5508767"
+    },
+    {
+      "relative": "app/src/runtime/analysis/qwave/qwave-phase-receipt.ts",
+      "byteLength": 984,
+      "sha256": "4b6490d7553f233d0a9eb4439f432a32a7b82758088fedb25f2fc0993a18486d"
+    },
+    {
+      "relative": "app/src/runtime/analysis/qwave/qwave-phase-service.ts",
+      "byteLength": 20789,
+      "sha256": "37d61d2972f4b997235b4db0238a19563b7dc6c14cd4f52cb74cc713ac63f9fb"
+    },
+    {
+      "relative": "app/src/runtime/analysis/qwave/qwave-phase-types.ts",
+      "byteLength": 3474,
+      "sha256": "1155e5d8e2b06bcf8ce8f870f3ca85e95a176459dd3aee0ab9ca66303aa6ae64"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 37416,
+      "sha256": "27382640c8ca7e93cdb2a80067990a13cd9ce11bfbdbd4e4bc5724196e2d1353"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "byteLength": 1836,
+      "sha256": "fed7c37131ce07c23730998a9ea38b0c8dd7ed575ce133ae41568577cf36ae41"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1656,
+      "sha256": "b6c6a24116d5832be03f038e833f4bb59e9618ca415f9931d30adba232910372"
+    },
+    {
+      "relative": "artifacts/qwave-phase-03/source-bake/TDT_QWAVE_PHASE_03_REGRESSION_SUMMARY.json",
+      "byteLength": 3548,
+      "sha256": "a4b6ee3c90b87bc2828fef5549fc9505d2f1b125fa2fde671f0511eb6ab7f634"
+    },
+    {
+      "relative": "artifacts/qwave-phase-03/source-bake/TDT_QWAVE_PHASE_03_SOURCE_GATE.json",
+      "byteLength": 23890,
+      "sha256": "b2324ea83fa262792f8ad922ff6910ef8d15dcf00a5a5ed66abd6160b7ba9e8d"
+    },
+    {
+      "relative": "artifacts/qwave-phase-03/source-bake/qp03-runtime-smoke.json",
+      "byteLength": 4146,
+      "sha256": "858094eca2ebd05bbb7e21969c89252e3179210cffaea42648615340071b92cf"
+    },
+    {
+      "relative": "artifacts/qwave-phase-03/source-bake/qp03-source-contract.json",
+      "byteLength": 11783,
+      "sha256": "2ffdea089a69685802d63ad57b6d6aa594dbb7ac740334bf378b8dedd27f4aa0"
+    },
+    {
+      "relative": "artifacts/qwave-phase-03/source-bake/qp03-wgsl-contract.json",
+      "byteLength": 9313,
+      "sha256": "7e09b92987c7782d062c4d4072183366a776b212f97bd995e989c83d0b3ad2f9"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 22280,
+      "sha256": "94b8255b098b7d7754f0f4550b9bc9f55a53764e0cc30cfd401e4af6991da171"
+    },
+    {
+      "relative": "patches/TDT_QWAVE_PHASE_03_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 38226,
+      "sha256": "db642a6c77c506ab380c5407990eef361fb3ef7bbbc9bc429eeffa509651a8f1"
+    },
+    {
+      "relative": "patches/TDT_QWAVE_PHASE_03_analytic_complex_source_selectable_imaginary_visual_wave_separation.diff",
+      "byteLength": 463421,
+      "sha256": "7153b54e8f0d9a46b9b6af3239ec18aa66c8f312a8d1ab7cf37db7af36efd66f"
+    },
+    {
+      "relative": "specs/TDT-QWAVE-PHASE-03_ANALYTIC_QWAVE_COMPLEX_FIELD_SOURCE_SELECTABLE_IMAGINARY_COMPONENT_VISUAL_WAVE_SEPARATION_SEAL_SPEC.md",
+      "byteLength": 45068,
+      "sha256": "de4800f6b1a2c0324ba0067f50a614b7e8af256bb4a0f1c9b5b5205b3c2b381a"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 14241,
+      "sha256": "14e8f4a7eb9dd0c13f9c602cc4e3fe5c54276e783e7ca42fc909e988eba1a7a0"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-error-codes.mjs",
+      "byteLength": 2576,
+      "sha256": "a008eea835ae33f603f391b6645b4133ed5d5ca196264163123033a576e6ecc5"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+      "byteLength": 7342,
+      "sha256": "e762fc17c6229259e8d5b0e970654c39f50df37c42f14c2161f5a8116ed5460a"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+      "byteLength": 8928,
+      "sha256": "fdd5d6c465f5d57ad5f71d0141531756a9d4d9f51c9f07551f6cb1c00850d5cf"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-source-contract.mjs",
+      "byteLength": 8702,
+      "sha256": "592401e6878a70d70828ea7c8edc0cc2fd5ace46a15058b46b665a7078c7ecf7"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/finalize.mjs",
+      "byteLength": 3479,
+      "sha256": "ede9b3564ed4cb18d02ba68744dac4c19c2644d182fd804b83dd4a956514f22d"
+    },
+    {
+      "relative": "tools/hannakairo-gate-02/verify-source-contract.mjs",
+      "byteLength": 5901,
+      "sha256": "e3432a523ee9219fffac617a33bb9d3d47b82740d5c738b78de9ac4d2a8569ff"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/verify-source-contract.mjs",
+      "byteLength": 4480,
+      "sha256": "bf0123001d16da4ec03e9ce1fc110561bf3ea59333e55c89402ae32f01ab3088"
+    },
+    {
+      "relative": "tools/qwave-phase-03/finalize.mjs",
+      "byteLength": 3770,
+      "sha256": "72de142abc530a058c527d0700e54a92cb3b8d9e8d2b31b4c76a45fc6e58053a"
+    },
+    {
+      "relative": "tools/qwave-phase-03/gate.mjs",
+      "byteLength": 1406,
+      "sha256": "14a24c6a0785a821ecddea6ad6796264c2e240c27834b8f4814952e04a62c539"
+    },
+    {
+      "relative": "tools/qwave-phase-03/lib.mjs",
+      "byteLength": 1070,
+      "sha256": "7645d7468244309913081492648167a283db8a1ea2e3adbaa24e8cd17acfa2d9"
+    },
+    {
+      "relative": "tools/qwave-phase-03/run.mjs",
+      "byteLength": 148,
+      "sha256": "66c5aea138ba4620dc090f4db3148c0dd1134825e8b9b2a67b863bb31175073e"
+    },
+    {
+      "relative": "tools/qwave-phase-03/runtime-smoke.mjs",
+      "byteLength": 3716,
+      "sha256": "c283f2db95301be89c6ab139be074b241313d448a3f35ba30560acacddc84c37"
+    },
+    {
+      "relative": "tools/qwave-phase-03/verify-source-contract.mjs",
+      "byteLength": 7331,
+      "sha256": "15b5e484b637b08ae2ac54631f61094e041f6c608fc0f3cabe5c942483123bd6"
+    },
+    {
+      "relative": "tools/qwave-phase-03/verify-wgsl-contract.mjs",
+      "byteLength": 2995,
+      "sha256": "78db928fd9fa5d7b46b33a158f51dfbb5f2b96bc1bfe50348405e9dcf5d5850e"
+    },
+    {
+      "relative": "tools/spectral-qmap-02/verify-source-contract.mjs",
+      "byteLength": 8705,
+      "sha256": "374c7ff206e3c1f6d192d3412327a192a74444e855bf2da2239daba67857bdc7"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/verify-source-contract.mjs",
+      "byteLength": 6585,
+      "sha256": "90a3ea430e11a519bb046d0319c681176a8e67c09744a6e14c96094c0ece770e"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 192,
+    "DEFERRED": 12,
+    "FAIL": 0
+  },
+  "semanticRegistryVersion": "tdt.analysis.semantic-registry.qwave-phase-03.v1",
+  "semanticRegistryDigest": "3f26cfc7fca1559f072b421ba5d54cf01171c30878fc73ced15a581f3aaa41e1",
+  "analysisFieldAuthorityId": "dadum.analysis-field-authority.aft00",
+  "qwaveAuthorityId": "dadum.qwave-phase-authority.qp03",
+  "producerId": "tdt.analysis.producer.qwave.analytic",
+  "realSemanticId": "tdt.analysis.qwave.real-delta-k-compat.v1",
+  "outputSemanticIds": [
+    "tdt.analysis.qwave.imaginary-component.v1",
+    "tdt.analysis.qwave.analytic-complex.v2"
+  ],
+  "immediatelyExecutableSourceModes": [
+    "local-anisotropy-compat",
+    "spectral-quadrature",
+    "hannakairo-defect"
+  ],
+  "reservedFailClosedSourceModes": [
+    "tensor-curvature",
+    "hilbert-quadrature"
+  ],
+  "analyticDispatchCount": 2,
+  "queueSubmissionCount": 1,
+  "intermediateReadbackCount": 0,
+  "cpuProductComputeClaim": false,
+  "webglProductComputeClaim": false,
+  "canvasProductComputeClaim": false,
+  "visualWaveSeparated": true,
+  "principalRootSourceClaim": true,
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false
+}

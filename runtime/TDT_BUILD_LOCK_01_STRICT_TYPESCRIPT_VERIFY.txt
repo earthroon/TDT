@@ -1,0 +1,7 @@
+TDT-BUILD-LOCK-01 strict TypeScript closure
+command=tsc -p /tmp/tdt-bl01-types/tsconfig.json --pretty false
+compiler=Version 5.8.3
+frameworkTypes=temporary isolated Vue/Pinia declarations outside source tree
+sourceTreeModifiedByStubs=false
+result=PASS
+exitCode=0

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "receipt-smoke",
+      "pass": true,
+      "value": {
+        "planDigest": "79b280b37b59c69195e9e9d7f11fbe3ac0f36508f3fd5520c63c07c4cbf4a44e",
+        "receiptDigest": "e2552ea82bf1f7de2e955db2c8984d00fe31d34863aa864f6fd10c9ff7feb3ae",
+        "stageCount": 3,
+        "telemetry": {
+          "lowpassPlanCount": 1,
+          "lowpassStageCount": 3,
+          "previewDelegationCount": 1,
+          "exportDelegationCount": 0,
+          "sourcePrepareDispatchCount": 0,
+          "sourcePrepareIdentityCount": 1,
+          "intermediateReadbackCount": 0,
+          "residualExecutionCount": 0,
+          "residualDisabledCount": 0,
+          "finalizationCount": 0,
+          "terminalReadbackCount": 0,
+          "failureCount": 0,
+          "cancellationCount": 0,
+          "supportRejectCount": 0,
+          "policyRejectCount": 0
+        }
+      }
+    }
+  ]
+}

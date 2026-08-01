@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.implementation-manifest.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "fileCount": 26,
+  "files": [
+    {
+      "rel": "app/legacy-runtime/modules/dk_resample/canonical_pipeline_registry_r2r3.mjs",
+      "byteLength": 29966,
+      "sha256": "1b071fd9673db758ebe930bc18aba8a3ac7927ce377f6a2a1378534dd5c972db"
+    },
+    {
+      "rel": "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs",
+      "byteLength": 7128,
+      "sha256": "028d075338aec99b7d93c862ce76f2d018721c37347d121dbb46e7d972bba6c0"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "byteLength": 8625,
+      "sha256": "75b546224aba97232365195f8951ff69de92551eafdd17908b15cf14c96deeba"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "byteLength": 6820,
+      "sha256": "b2326c98cb1c0b1b4ad04ac50cefbaa605abd8eabd582608ed3f8b48e46a4ea2"
+    },
+    {
+      "rel": "app/src/boot/stable-error.ts",
+      "byteLength": 37534,
+      "sha256": "12dd79889a9fc882ef97cf245cb936f6fdeabf94a5632918092317a24828793a"
+    },
+    {
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "byteLength": 39138,
+      "sha256": "8019622319a80cae3eca74af3032319bc7a5db85611f074bba9279e24424b803"
+    },
+    {
+      "rel": "app/src/runtime/gpu/gpu-service.ts",
+      "byteLength": 382,
+      "sha256": "f3be3deb30ef84819951be0b1203f47b802e659c57fd9f26d0c50300a9af8d09"
+    },
+    {
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts",
+      "byteLength": 12373,
+      "sha256": "7b2da06b16235bb126840e102da7b7e263f8864c3873532a4307cee5acca37f7"
+    },
+    {
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "byteLength": 46536,
+      "sha256": "84877ff071c6d438d716049f9a3652f2fc6a253096edc8a724b51be483b47934"
+    },
+    {
+      "rel": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "byteLength": 27607,
+      "sha256": "87987e9394e059914d943db91637281198d7d87d11e294a65b4962e7b2603ef7"
+    },
+    {
+      "rel": "app/src/env.d.ts",
+      "byteLength": 19379,
+      "sha256": "078b77965a08bd389f6085d37d9170e692d5c59f6d35f1e33ae13d6295581db4"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "byteLength": 27110,
+      "sha256": "9d40f8bffcd3e21214b28fd2395a0d651bd688a40dd2dd7591a295536393d869"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "byteLength": 17634,
+      "sha256": "a215f2eaa12bd0103b0129468e371d69a9640c570b90cdde72ab1310fb1f2255"
+    },
+    {
+      "rel": "README_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R3_APPLIED.md",
+      "byteLength": 2113,
+      "sha256": "add4a772d85c3e6bd50e770507d20c28e2c2eff9b1e060d5a55242bc9520556b"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3_EXPLICIT_CANONICAL_PIPELINE_REBUILD_SINGLE_FLIGHT_EPOCH_BOUND_SET_REBUILD_BEFORE_VALIDATION_SEAL_SPEC.md",
+      "byteLength": 58082,
+      "sha256": "d9e8ae59b8ebbb96633c777df5545493f8668e461132988617a3b7c5a64cec20"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3_EXPLICIT_CANONICAL_PIPELINE_REBUILD_SINGLE_FLIGHT_EPOCH_BOUND_SET_REBUILD_BEFORE_VALIDATION_SEAL_SPEC.md.sha256",
+      "byteLength": 208,
+      "sha256": "6308e18c21a5c4f9c8387ce607a696a69e55b720ac115f0a7c3d54a2a8b74c34"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/test-fixture.mjs",
+      "byteLength": 7042,
+      "sha256": "445aea44c6ef85fe86fe64e2465bd5f8ab2dbd807b77605f858767b243cbfab3"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/run-single-flight-unit.mjs",
+      "byteLength": 5605,
+      "sha256": "fe9174372d19665eb40f6d348caa0ca679404bfecbe841d9bc93326950cd97b5"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/run-late-completion-unit.mjs",
+      "byteLength": 2634,
+      "sha256": "8907d45b1910672d82a27db724371e5b15abd8a6ffb21571dbc6b7712cc4a68d"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/run-source-negative-controls.mjs",
+      "byteLength": 4839,
+      "sha256": "6f322641ec39561d6d0091928c134a17fa861ddeb50b37320d1f13f93f42ceee"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/verify-source.mjs",
+      "byteLength": 25107,
+      "sha256": "ccc90a47451662ee2cc4fd274d3d60e63dafa408e61aab1a6d46dc36504a9e08"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/finalize-packaged.mjs",
+      "byteLength": 5852,
+      "sha256": "7e14d427d88f0a45465c10324d2f3a0c33f77781423f75ef6f451788676238e2"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/source-gate-catalog.json",
+      "byteLength": 10597,
+      "sha256": "d2ee84ebea1505ccfc5a9efb6cdfe4fef8272bb56ef684cac2d88268c2c21f0a"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/packaged-gate-catalog.json",
+      "byteLength": 3448,
+      "sha256": "bb72783bf1345061935f6425729029a22b0aca64b0ea2656361599e5011e0174"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r3/parent-evidence-baseline.json",
+      "byteLength": 5065,
+      "sha256": "bea8a7b14b5bcce9b3220c53f4261660d001249e567423a70135f927385942eb"
+    },
+    {
+      "rel": "patches/TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R3_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 5479,
+      "sha256": "6e471a1964873bd8f1ad68715fc29ed9e8b0766f5fede8838723c5ceab5bda86"
+    }
+  ],
+  "selfSha256": "c51bfd13750f8aa6b6bbc6761b7a8a4379947ca5195265200576c504f9187810"
+}

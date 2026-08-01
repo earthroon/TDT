@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "rollback-permit.schema.json",
+  "type": "object",
+  "required": [
+    "signed",
+    "permitSha256",
+    "signatures"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

@@ -1,0 +1,1 @@
+TDT-BUILD-LOCK-01 status=SOURCE_BAKED_UNPROMOTED evidenceState=INPUT_PROFILE_SEALED oldMismatch=12 registry=BLOCKED candidate=BLOCKED

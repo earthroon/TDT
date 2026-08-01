@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.source-final-receipt.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "sourceStatus": "PASS",
+  "sourceGatePassCount": 120,
+  "sourceGateFailCount": 0,
+  "physicalStatus": "PENDING",
+  "physicalGatePassCount": 0,
+  "physicalGateRequiredCount": 36,
+  "physicalCycleCount": 0,
+  "singleFlightMatrixStatus": "PASS",
+  "lateCompletionStatus": "PASS",
+  "negativeControlStatus": "PASS",
+  "parentEvidenceBaselineSelfSha256": "b5a7b5307562ede4414ec4a468dd91a06df86de7df66151640cbb35c2791171f",
+  "changedFileManifestSelfSha256": "bc42bf3c92b4570a0b775595c1fbbea68688c3b0e54c1acff32c96238c673d30",
+  "implementationManifestSelfSha256": "c51bfd13750f8aa6b6bbc6761b7a8a4379947ca5195265200576c504f9187810",
+  "sourceGateReportSelfSha256": "d44cddc88e152f1af04944a1482e8593d94ed70bfd9d2daa0c70ebca527ea71c",
+  "selfSha256": "d2cbca01df6f1e863f31ff071f51de5e578128047748ade2031e653fd9dc3160"
+}

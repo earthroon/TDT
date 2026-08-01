@@ -1,0 +1,13 @@
+{
+  "accumulation": "neumaier-fixed-order",
+  "arithmetic": "ieee754-binary64-js-number",
+  "borderMode": "clamp-extension-logical-distance",
+  "candidateOrder": "y-major-x-minor",
+  "coordinateConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "negativeControlId": "tdt.ewa.negative-control.round-centered-r2.v1",
+  "oracleId": "tdt.ewa.oracle.f64.fractional-phase.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "productAuthority": false,
+  "runtimeFallbackAuthority": false,
+  "schemaVersion": 1
+}

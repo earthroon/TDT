@@ -1,0 +1,270 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "actual": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+        "expected": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl"
+      },
+      "id": "PARENT-productR4",
+      "message": "productR4 immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+        "expected": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl"
+      },
+      "id": "PARENT-productR6",
+      "message": "productR6 immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+        "expected": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl"
+      },
+      "id": "PARENT-validationR4",
+      "message": "validationR4 immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+        "expected": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl"
+      },
+      "id": "PARENT-validationR6",
+      "message": "validationR6 immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+        "expected": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl"
+      },
+      "id": "PARENT-directReference",
+      "message": "directReference immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+        "expected": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r2.mjs"
+      },
+      "id": "PARENT-profileSelector",
+      "message": "profileSelector immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+        "expected": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r2.mjs"
+      },
+      "id": "PARENT-parityRuntime",
+      "message": "parityRuntime immutable parent digest",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-01",
+      "message": "required package scripts exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-02",
+      "message": "stable error registry contains all R3 codes",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-03",
+      "message": "fixture identity exact",
+      "pass": true
+    },
+    {
+      "detail": {
+        "ellipseCount": 7,
+        "fixtureCount": 102,
+        "semanticClassCounts": {
+          "alpha": 8,
+          "anisotropic": 83,
+          "border": 11,
+          "diagonal-phase": 18,
+          "direct-coordinate": 45,
+          "ellipse-coverage": 7,
+          "exact-2to1-ratio": 2,
+          "hidden-rgb-diagnostic-only": 1,
+          "integer-phase-invariant": 2,
+          "isotropic": 1,
+          "non-integer-ratio": 16,
+          "phase-sensitive": 100,
+          "raster-mapped": 18,
+          "source-pattern-coverage": 18,
+          "x-phase": 28,
+          "y-phase": 24
+        },
+        "sourceCount": 39
+      },
+      "id": "SOURCE-04",
+      "message": "mandatory phase and ratio sets complete",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-05",
+      "message": "mandatory source and ellipse classes complete",
+      "pass": true
+    },
+    {
+      "detail": {
+        "alpha": 8,
+        "anisotropic": 83,
+        "border": 11,
+        "diagonal-phase": 18,
+        "direct-coordinate": 45,
+        "ellipse-coverage": 7,
+        "exact-2to1-ratio": 2,
+        "hidden-rgb-diagnostic-only": 1,
+        "integer-phase-invariant": 2,
+        "isotropic": 1,
+        "non-integer-ratio": 16,
+        "phase-sensitive": 100,
+        "raster-mapped": 18,
+        "source-pattern-coverage": 18,
+        "x-phase": 28,
+        "y-phase": 24
+      },
+      "id": "SOURCE-06",
+      "message": "mandatory semantic coverage complete",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-07",
+      "message": "fixture generator has no randomness or wall-clock identity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-08",
+      "message": "oracle primary arithmetic remains binary64",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-09",
+      "message": "continuous coordinate contract encoded",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-10",
+      "message": "compensated accumulation encoded",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-11",
+      "message": "negative control identity encoded",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-12",
+      "message": "oracle and negative coordinate implementations are separate",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-13",
+      "message": "oracle imports no product runtime math",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-14",
+      "message": "R3 specification present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-15",
+      "message": "applied README states reject without repair",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-16",
+      "message": "R3 validation code absent from runtime authorities",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-17",
+      "message": "Production Pointer conservation evidence unchanged",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-18",
+      "message": "parent bundle identity exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SOURCE-19",
+      "message": "oracle and negative identities exact",
+      "pass": true
+    }
+  ],
+  "fixtureManifestDigest": "242439fa4fb35be63af0b7bdf4d9e3337243272a88b40ba6bf0c827152b02ad4",
+  "fixtureManifestRelative": "fixtures/resample-runtime-01-r3/TDT_RESAMPLE_RUNTIME_01_R3_FIXTURE_MANIFEST.json",
+  "parentFiles": {
+    "directReference": {
+      "actual": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+      "expected": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl"
+    },
+    "parityRuntime": {
+      "actual": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+      "expected": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r2.mjs"
+    },
+    "productR4": {
+      "actual": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+      "expected": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl"
+    },
+    "productR6": {
+      "actual": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+      "expected": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl"
+    },
+    "profileSelector": {
+      "actual": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+      "expected": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r2.mjs"
+    },
+    "validationR4": {
+      "actual": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+      "expected": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl"
+    },
+    "validationR6": {
+      "actual": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+      "expected": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl"
+    }
+  },
+  "parentZipSha256": "5f352059892cf3e061ebbcd1a4ee4b10634565351492d02d384a82f53c64199b",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "schemaVersion": 1
+}

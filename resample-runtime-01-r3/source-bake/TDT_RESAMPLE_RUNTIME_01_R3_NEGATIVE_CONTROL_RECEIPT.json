@@ -1,0 +1,1672 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "NEG-01",
+      "message": "negative control identity exact",
+      "pass": true
+    },
+    {
+      "detail": [
+        {
+          "actual": -2,
+          "expected": -2,
+          "input": -1.5,
+          "pass": true
+        },
+        {
+          "actual": -1,
+          "expected": -1,
+          "input": -1.4,
+          "pass": true
+        },
+        {
+          "actual": -1,
+          "expected": -1,
+          "input": -0.5,
+          "pass": true
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "input": -0.4,
+          "pass": true
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "input": 0,
+          "pass": true
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "input": 0.4,
+          "pass": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "input": 0.5,
+          "pass": true
+        },
+        {
+          "actual": 2,
+          "expected": 2,
+          "input": 1.5,
+          "pass": true
+        }
+      ],
+      "id": "NEG-02",
+      "message": "WGSL ties-away-from-zero round mirror",
+      "pass": true
+    },
+    {
+      "detail": {
+        "count": 95
+      },
+      "id": "NEG-03",
+      "message": "at least 16 mandatory mismatches",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-04",
+      "message": "x-phase mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-05",
+      "message": "y-phase mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-06",
+      "message": "diagonal-phase mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-07",
+      "message": "anisotropic mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-08",
+      "message": "border mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-09",
+      "message": "alpha mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-10",
+      "message": "non-integer-ratio mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "NEG-11",
+      "message": "exact-2to1-ratio mismatch coverage",
+      "pass": true
+    },
+    {
+      "detail": [
+        {
+          "detected": true,
+          "detectionMode": "rgba-output",
+          "firstDetectedFixture": "alpha-phase-0",
+          "maxError": 0.3882438642874789,
+          "mutationId": "floor-offset"
+        },
+        {
+          "detected": true,
+          "detectionMode": "coordinate-enumeration-trace",
+          "firstDetectedFixture": "alpha-phase-2",
+          "maxError": 0,
+          "mutationId": "round-continuous-distance"
+        },
+        {
+          "detected": true,
+          "detectionMode": "rgba-output",
+          "firstDetectedFixture": "alpha-phase-2",
+          "maxError": 0.3050179177595903,
+          "mutationId": "floor-rounded-phase"
+        },
+        {
+          "detected": true,
+          "detectionMode": "rgba-output",
+          "firstDetectedFixture": "border-bottom-left",
+          "maxError": 0.4616314951269445,
+          "mutationId": "clamped-distance"
+        }
+      ],
+      "id": "NEG-12",
+      "message": "all invalid coordinate mutations detected",
+      "pass": true
+    }
+  ],
+  "comparedCount": 102,
+  "coverage": [
+    "alpha",
+    "anisotropic",
+    "border",
+    "diagonal-phase",
+    "direct-coordinate",
+    "ellipse-coverage",
+    "exact-2to1-ratio",
+    "hidden-rgb-diagnostic-only",
+    "isotropic",
+    "non-integer-ratio",
+    "phase-sensitive",
+    "raster-mapped",
+    "source-pattern-coverage",
+    "x-phase",
+    "y-phase"
+  ],
+  "firstMismatches": [
+    {
+      "absoluteError": [
+        0.02407289177419103,
+        0.01053189015120859,
+        0.0030091114717738787,
+        0.03009111471773873
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "alpha-phase-0",
+      "maxChannelError": 0.03009111471773873,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.32045313296121897,
+        0.14019824567053327,
+        0.04005664162015237,
+        0.40056641620152367
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.34452602473541,
+        0.15073013582174186,
+        0.04306575309192625,
+        0.4306575309192624
+      ],
+      "oracleWeightSum": 3.027465030365557,
+      "phase": [
+        0.125,
+        0
+      ],
+      "position": [
+        7.125,
+        8
+      ],
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-premultiplied-alpha-edge"
+    },
+    {
+      "absoluteError": [
+        0.07407111707060487,
+        0.03240611371838967,
+        0.00925888963382561,
+        0.09258889633825618
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "alpha-phase-1",
+      "maxChannelError": 0.09258889633825618,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.32045313296121897,
+        0.14019824567053327,
+        0.04005664162015237,
+        0.40056641620152367
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.39452425003182384,
+        0.17260435938892293,
+        0.04931553125397798,
+        0.49315531253977984
+      ],
+      "oracleWeightSum": 3.0427592607188334,
+      "phase": [
+        0.375,
+        0
+      ],
+      "position": [
+        7.375,
+        8
+      ],
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-premultiplied-alpha-edge"
+    },
+    {
+      "absoluteError": [
+        0.07407111707060493,
+        0.032406113718389695,
+        0.009258889633825616,
+        0.09258889633825629
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "alpha-phase-2",
+      "maxChannelError": 0.09258889633825629,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.5195468670387812,
+        0.22730175432946675,
+        0.06494335837984765,
+        0.6494335837984765
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.44547574996817624,
+        0.19489564061107706,
+        0.05568446874602203,
+        0.5568446874602202
+      ],
+      "oracleWeightSum": 3.0427592607188334,
+      "phase": [
+        0.625,
+        0
+      ],
+      "position": [
+        7.625,
+        8
+      ],
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-premultiplied-alpha-edge"
+    },
+    {
+      "absoluteError": [
+        0.02407289177419103,
+        0.01053189015120859,
+        0.0030091114717738787,
+        0.030091114717738843
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "alpha-phase-3",
+      "maxChannelError": 0.030091114717738843,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.5195468670387812,
+        0.22730175432946675,
+        0.06494335837984765,
+        0.6494335837984765
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.49547397526459014,
+        0.21676986417825816,
+        0.06193424690807377,
+        0.6193424690807376
+      ],
+      "oracleWeightSum": 3.027465030365557,
+      "phase": [
+        0.875,
+        0
+      ],
+      "position": [
+        7.875,
+        8
+      ],
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-premultiplied-alpha-edge"
+    },
+    {
+      "absoluteError": [
+        0.008041305152523152,
+        0.03345432174947627,
+        0.12699092094201458,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "border-bottom-left",
+      "maxChannelError": 0.12699092094201458,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.0366037082836775,
+        0.14867155046599925,
+        0.45322543149992284,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 16,
+      "oracleRgba": [
+        0.04464501343620065,
+        0.18212587221547552,
+        0.32623451055790825,
+        1
+      ],
+      "oracleWeightSum": 4.859430239744708,
+      "phase": [
+        0.125,
+        0.75
+      ],
+      "position": [
+        0.125,
+        15.75
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-asymmetric-four-corner"
+    },
+    {
+      "absoluteError": [
+        0.055741387565341305,
+        0.0567099275800369,
+        0.0073219330941276875,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "border-bottom-right",
+      "maxChannelError": 0.0567099275800369,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.6961576534930406,
+        0.6991747227426915,
+        0.039682000418660386,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 16,
+      "oracleRgba": [
+        0.6404162659276993,
+        0.6424647951626546,
+        0.047003933512788074,
+        1
+      ],
+      "oracleWeightSum": 4.864977114074653,
+      "phase": [
+        0.875,
+        0.75
+      ],
+      "position": [
+        15.875,
+        15.75
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-asymmetric-four-corner"
+    },
+    {
+      "absoluteError": [
+        0.018529933631949436,
+        0.004632483407987359,
+        0.009264966815974718,
+        0
+      ],
+      "ellipseId": "vertical-3x1",
+      "fixtureId": "border-one-pixel-high",
+      "maxChannelError": 0.018529933631949436,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.5,
+        0.125,
+        0.35,
+        1
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 11,
+      "oracleRgba": [
+        0.5185299336319494,
+        0.12963248340798736,
+        0.3592649668159747,
+        1
+      ],
+      "oracleWeightSum": 2.811683176397797,
+      "phase": [
+        0.375,
+        0.75
+      ],
+      "position": [
+        8.375,
+        -0.25
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "phase-sensitive",
+        "y-phase"
+      ],
+      "sourceId": "source-one-pixel-high"
+    },
+    {
+      "absoluteError": [
+        0.009264966815974718,
+        0.018529933631949436,
+        0.004632483407987359,
+        0
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "border-one-pixel-wide",
+      "maxChannelError": 0.018529933631949436,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.35,
+        0.5,
+        0.125,
+        1
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 11,
+      "oracleRgba": [
+        0.3592649668159747,
+        0.5185299336319494,
+        0.12963248340798736,
+        1
+      ],
+      "oracleWeightSum": 2.811683176397797,
+      "phase": [
+        0.75,
+        0.375
+      ],
+      "position": [
+        -0.25,
+        8.375
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-one-pixel-wide"
+    },
+    {
+      "absoluteError": [
+        0.06873147503482924,
+        0.00545639592114321,
+        0.0073219330941276875,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "border-top-left",
+      "maxChannelError": 0.06873147503482924,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.6292483393897328,
+        0.023051274326685692,
+        0.039682000418660386,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 16,
+      "oracleRgba": [
+        0.5605168643549036,
+        0.028507670247828902,
+        0.047003933512788074,
+        1
+      ],
+      "oracleWeightSum": 4.864977114074653,
+      "phase": [
+        0.125,
+        0.25
+      ],
+      "position": [
+        0.125,
+        0.25
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-asymmetric-four-corner"
+    },
+    {
+      "absoluteError": [
+        0.03428900182814837,
+        0.13222503803770985,
+        0.014110102326890507,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "border-top-right",
+      "maxChannelError": 0.13222503803770985,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.14565448121634822,
+        0.42605934070060747,
+        0.06075272983334191,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 16,
+      "oracleRgba": [
+        0.1799434830444966,
+        0.2938343026628976,
+        0.07486283216023241,
+        1
+      ],
+      "oracleWeightSum": 4.859430239744708,
+      "phase": [
+        0.875,
+        0.25
+      ],
+      "position": [
+        15.875,
+        0.25
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-asymmetric-four-corner"
+    },
+    {
+      "absoluteError": [
+        0.234434159809069,
+        0.1172170799045345,
+        0.23443415980906895,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "border-two-by-two-anisotropic",
+      "maxChannelError": 0.234434159809069,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.522767693426141,
+        0.2613838467130705,
+        0.4772323065738589,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 7,
+      "oracleRgba": [
+        0.75720185323521,
+        0.378600926617605,
+        0.24279814676478995,
+        1
+      ],
+      "oracleWeightSum": 2.932172042907679,
+      "phase": [
+        0.25,
+        0.75
+      ],
+      "position": [
+        0.25,
+        0.75
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "border",
+        "diagonal-phase",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-two-by-two"
+    },
+    {
+      "absoluteError": [
+        0.0027837059194850133,
+        0.002783705919484958,
+        0.0011134823677940164,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-00",
+      "maxChannelError": 0.0027837059194850133,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4605589939350574,
+        0.5394410060649426,
+        0.48422359757402295,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 17,
+      "oracleRgba": [
+        0.4577752880155724,
+        0.5422247119844276,
+        0.48311011520622893,
+        1
+      ],
+      "oracleWeightSum": 4.8437769789005465,
+      "phase": [
+        0.0625,
+        0
+      ],
+      "position": [
+        7.0625,
+        7
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.044695821991039164,
+        0.044695821991039275,
+        0.01787832879641571,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "direct-phase-pair-01",
+      "maxChannelError": 0.044695821991039275,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.43894946135963636,
+        0.5610505386403636,
+        0.4755797845438546,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 10,
+      "oracleRgba": [
+        0.3942536393685972,
+        0.6057463606314029,
+        0.45770145574743887,
+        1
+      ],
+      "oracleWeightSum": 2.90470630418095,
+      "phase": [
+        0.25,
+        0
+      ],
+      "position": [
+        7.25,
+        7
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.02065684582686167,
+        0.02065684582686156,
+        0.008262738330744701,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-02",
+      "maxChannelError": 0.02065684582686167,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4605589939350574,
+        0.5394410060649426,
+        0.48422359757402295,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 14,
+      "oracleRgba": [
+        0.4399021481081957,
+        0.5600978518918042,
+        0.47596085924327824,
+        1
+      ],
+      "oracleWeightSum": 4.817071527818387,
+      "phase": [
+        0.4375,
+        0
+      ],
+      "position": [
+        7.4375,
+        7
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.00971219249293731,
+        0.0097121924929372,
+        0.0038848769971748798,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "direct-phase-pair-03",
+      "maxChannelError": 0.00971219249293731,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.43894946135963636,
+        0.5610505386403636,
+        0.4755797845438546,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 11,
+      "oracleRgba": [
+        0.44866165385257367,
+        0.5513383461474264,
+        0.47946466154102946,
+        1
+      ],
+      "oracleWeightSum": 2.861896796643841,
+      "phase": [
+        0,
+        0.0625
+      ],
+      "position": [
+        7,
+        7.0625
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.00787874061753513,
+        0.00787874061753513,
+        0.0031514962470140517,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-04",
+      "maxChannelError": 0.00787874061753513,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4605589939350574,
+        0.5394410060649426,
+        0.48422359757402295,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 17,
+      "oracleRgba": [
+        0.4684377345525925,
+        0.5315622654474075,
+        0.487375093821037,
+        1
+      ],
+      "oracleWeightSum": 4.857669328554821,
+      "phase": [
+        0,
+        0.25
+      ],
+      "position": [
+        7,
+        7.25
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.0456956557997496,
+        0.045695655799749435,
+        0.01827826231989982,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "direct-phase-pair-05",
+      "maxChannelError": 0.0456956557997496,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.43894946135963636,
+        0.5610505386403636,
+        0.4755797845438546,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 8,
+      "oracleRgba": [
+        0.48464511715938596,
+        0.5153548828406141,
+        0.4938580468637544,
+        1
+      ],
+      "oracleWeightSum": 2.9418148604906715,
+      "phase": [
+        0,
+        0.4375
+      ],
+      "position": [
+        7,
+        7.4375
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.00458355088637763,
+        0.004583550886377741,
+        0.0018334203545510297,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-06",
+      "maxChannelError": 0.004583550886377741,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4605589939350574,
+        0.5394410060649426,
+        0.48422359757402295,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 16,
+      "oracleRgba": [
+        0.465142544821435,
+        0.5348574551785649,
+        0.486057017928574,
+        1
+      ],
+      "oracleWeightSum": 4.848188829293668,
+      "phase": [
+        0.0625,
+        0.0625
+      ],
+      "position": [
+        7.0625,
+        7.0625
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.016151048043863026,
+        0.016151048043863137,
+        0.006460419217545255,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "direct-phase-pair-07",
+      "maxChannelError": 0.016151048043863137,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.43894946135963636,
+        0.5610505386403636,
+        0.4755797845438546,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 10,
+      "oracleRgba": [
+        0.42279841331577334,
+        0.5772015866842267,
+        0.4691193653263093,
+        1
+      ],
+      "oracleWeightSum": 2.9070434972656516,
+      "phase": [
+        0.25,
+        0.25
+      ],
+      "position": [
+        7.25,
+        7.25
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.005672784372530548,
+        0.005672784372530604,
+        0.0022691137490122304,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-08",
+      "maxChannelError": 0.005672784372530604,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4605589939350574,
+        0.5394410060649426,
+        0.48422359757402295,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 18,
+      "oracleRgba": [
+        0.46623177830758794,
+        0.533768221692412,
+        0.4864927113230352,
+        1
+      ],
+      "oracleWeightSum": 4.867510877108027,
+      "phase": [
+        0.4375,
+        0.4375
+      ],
+      "position": [
+        7.4375,
+        7.4375
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.02407680034568832,
+        0.024076800345688154,
+        0.009630720138275317,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "direct-phase-pair-09",
+      "maxChannelError": 0.02407680034568832,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.43894946135963636,
+        0.5610505386403636,
+        0.4755797845438546,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 10,
+      "oracleRgba": [
+        0.4630262617053247,
+        0.5369737382946754,
+        0.4852105046821299,
+        1
+      ],
+      "oracleWeightSum": 2.91279256447489,
+      "phase": [
+        0.125,
+        0.375
+      ],
+      "position": [
+        7.125,
+        7.375
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.00042030698994449667,
+        0.00042030698994444116,
+        0.00016812279597777646,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-10",
+      "maxChannelError": 0.00042030698994449667,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4605589939350574,
+        0.5394410060649426,
+        0.48422359757402295,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 15,
+      "oracleRgba": [
+        0.4601386869451129,
+        0.539861313054887,
+        0.48405547477804517,
+        1
+      ],
+      "oracleWeightSum": 4.83883000151395,
+      "phase": [
+        0.375,
+        0.125
+      ],
+      "position": [
+        7.375,
+        7.125
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.03694710789969907,
+        0.03694710789969902,
+        0.014778843159879596,
+        0
+      ],
+      "ellipseId": "diagonal-3x1",
+      "fixtureId": "direct-phase-pair-11",
+      "maxChannelError": 0.03694710789969907,
+      "negativeContributingCount": 13,
+      "negativeRgba": [
+        0.5037741423548128,
+        0.49622585764518723,
+        0.5015096569419251,
+        1
+      ],
+      "negativeWeightSum": 2.8401721683597416,
+      "oracleContributingCount": 7,
+      "oracleRgba": [
+        0.4668270344551137,
+        0.5331729655448862,
+        0.48673081378204547,
+        1
+      ],
+      "oracleWeightSum": 2.932172042907679,
+      "phase": [
+        0.25,
+        0.75
+      ],
+      "position": [
+        7.25,
+        7.75
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.05756486116889881,
+        0.05756486116889881,
+        0.02302594446755951,
+        0
+      ],
+      "ellipseId": "oblique-4x1.25",
+      "fixtureId": "direct-phase-pair-12",
+      "maxChannelError": 0.05756486116889881,
+      "negativeContributingCount": 17,
+      "negativeRgba": [
+        0.4048313054246894,
+        0.5951686945753105,
+        0.46193252216987574,
+        1
+      ],
+      "negativeWeightSum": 4.845900564914382,
+      "oracleContributingCount": 15,
+      "oracleRgba": [
+        0.46239616659358823,
+        0.5376038334064117,
+        0.48495846663743525,
+        1
+      ],
+      "oracleWeightSum": 4.857418004657461,
+      "phase": [
+        0.75,
+        0.25
+      ],
+      "position": [
+        7.75,
+        7.25
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "diagonal-phase",
+        "direct-coordinate",
+        "phase-sensitive"
+      ],
+      "sourceId": "source-diagonal-stripe"
+    },
+    {
+      "absoluteError": [
+        0.0038204240106025633,
+        0,
+        0.001273474670200836,
+        0.0014326590039760445
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-01",
+      "maxChannelError": 0.0038204240106025633,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.4413204240106026,
+        0.5,
+        0.4804401413368676,
+        0.602995159003976
+      ],
+      "oracleWeightSum": 3.0211022922823862,
+      "phase": [
+        0.0625,
+        0
+      ],
+      "position": [
+        7.0625,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.007674560978376932,
+        0,
+        0.002558186992792255,
+        0.0028779603668913634
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-02",
+      "maxChannelError": 0.007674560978376932,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.445174560978377,
+        0.5,
+        0.481724853659459,
+        0.6044404603668914
+      ],
+      "oracleWeightSum": 3.027465030365557,
+      "phase": [
+        0.125,
+        0
+      ],
+      "position": [
+        7.125,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.011558030630997917,
+        0,
+        0.003852676876999195,
+        0.004334261486624191
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-03",
+      "maxChannelError": 0.011558030630997917,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.449058030630998,
+        0.5,
+        0.48301934354366594,
+        0.6058967614866242
+      ],
+      "oracleWeightSum": 3.032781991352504,
+      "phase": [
+        0.1875,
+        0
+      ],
+      "position": [
+        7.1875,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.015466257045063658,
+        0,
+        0.005155419015021145,
+        0.0057998463918989
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-04",
+      "maxChannelError": 0.015466257045063658,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.4529662570450637,
+        0.5,
+        0.4843220856816879,
+        0.6073623463918989
+      ],
+      "oracleWeightSum": 3.0370860309935925,
+      "phase": [
+        0.25,
+        0
+      ],
+      "position": [
+        7.25,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.019394496721526877,
+        0,
+        0.006464832240508922,
+        0.007272936270572683
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-05",
+      "maxChannelError": 0.019394496721526877,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.45689449672152693,
+        0.5,
+        0.48563149890717566,
+        0.6088354362705727
+      ],
+      "oracleWeightSum": 3.0404045671480056,
+      "phase": [
+        0.3125,
+        0
+      ],
+      "position": [
+        7.3125,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.02333786905217805,
+        0,
+        0.007779289684059276,
+        0.008751700894566783
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-06",
+      "maxChannelError": 0.02333786905217805,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.4608378690521781,
+        0.5,
+        0.486945956350726,
+        0.6103142008945668
+      ],
+      "oracleWeightSum": 3.0427592607188334,
+      "phase": [
+        0.375,
+        0
+      ],
+      "position": [
+        7.375,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.02729138877948495,
+        0,
+        0.009097129593161613,
+        0.010234270792306877
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-07",
+      "maxChannelError": 0.02729138877948495,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.43750000000000006,
+        0.5,
+        0.47916666666666674,
+        0.6015625
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.464791388779485,
+        0.5,
+        0.48826379625982835,
+        0.6117967707923069
+      ],
+      "oracleWeightSum": 3.0441657647559706,
+      "phase": [
+        0.4375,
+        0
+      ],
+      "position": [
+        7.4375,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    },
+    {
+      "absoluteError": [
+        0.03125,
+        0,
+        0.010416666666666685,
+        0.011718750000000111
+      ],
+      "ellipseId": "horizontal-3x1",
+      "fixtureId": "direct-x-phase-08",
+      "maxChannelError": 0.03125,
+      "negativeContributingCount": 5,
+      "negativeRgba": [
+        0.5,
+        0.5,
+        0.5000000000000001,
+        0.6250000000000001
+      ],
+      "negativeWeightSum": 3.0136558680759595,
+      "oracleContributingCount": 6,
+      "oracleRgba": [
+        0.46875,
+        0.5,
+        0.4895833333333334,
+        0.61328125
+      ],
+      "oracleWeightSum": 3.044633543774361,
+      "phase": [
+        0.5,
+        0
+      ],
+      "position": [
+        7.5,
+        8
+      ],
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "phase-sensitive",
+        "x-phase"
+      ],
+      "sourceId": "source-rgba-channel-separated-ramp"
+    }
+  ],
+  "invariantMatchCount": 7,
+  "invariantMatches": [
+    {
+      "fixtureId": "alpha-phase-4",
+      "maxChannelError": 1.3877787807814457e-17,
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ]
+    },
+    {
+      "fixtureId": "alpha-phase-5",
+      "maxChannelError": 1.1102230246251565e-16,
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ]
+    },
+    {
+      "fixtureId": "border-alpha-edge",
+      "maxChannelError": 1.3877787807814457e-17,
+      "semanticClasses": [
+        "alpha",
+        "anisotropic",
+        "border",
+        "phase-sensitive"
+      ]
+    },
+    {
+      "fixtureId": "direct-x-phase-00",
+      "maxChannelError": 0,
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "integer-phase-invariant",
+        "x-phase"
+      ]
+    },
+    {
+      "fixtureId": "direct-y-phase-00",
+      "maxChannelError": 0,
+      "semanticClasses": [
+        "anisotropic",
+        "direct-coordinate",
+        "integer-phase-invariant",
+        "y-phase"
+      ]
+    },
+    {
+      "fixtureId": "pattern-coverage-00",
+      "maxChannelError": 0,
+      "semanticClasses": [
+        "phase-sensitive",
+        "source-pattern-coverage"
+      ]
+    },
+    {
+      "fixtureId": "pattern-coverage-16",
+      "maxChannelError": 0,
+      "semanticClasses": [
+        "border",
+        "phase-sensitive",
+        "source-pattern-coverage"
+      ]
+    }
+  ],
+  "mismatchCount": 95,
+  "mutationControls": [
+    {
+      "detected": true,
+      "detectionMode": "rgba-output",
+      "firstDetectedFixture": "alpha-phase-0",
+      "maxError": 0.3882438642874789,
+      "mutationId": "floor-offset"
+    },
+    {
+      "detected": true,
+      "detectionMode": "coordinate-enumeration-trace",
+      "firstDetectedFixture": "alpha-phase-2",
+      "maxError": 0,
+      "mutationId": "round-continuous-distance"
+    },
+    {
+      "detected": true,
+      "detectionMode": "rgba-output",
+      "firstDetectedFixture": "alpha-phase-2",
+      "maxError": 0.3050179177595903,
+      "mutationId": "floor-rounded-phase"
+    },
+    {
+      "detected": true,
+      "detectionMode": "rgba-output",
+      "firstDetectedFixture": "border-bottom-left",
+      "maxError": 0.4616314951269445,
+      "mutationId": "clamped-distance"
+    }
+  ],
+  "negativeControlDetected": true,
+  "negativeControlId": "tdt.ewa.negative-control.round-centered-r2.v1",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "schemaVersion": 1,
+  "signedRoundTests": [
+    {
+      "actual": -2,
+      "expected": -2,
+      "input": -1.5,
+      "pass": true
+    },
+    {
+      "actual": -1,
+      "expected": -1,
+      "input": -1.4,
+      "pass": true
+    },
+    {
+      "actual": -1,
+      "expected": -1,
+      "input": -0.5,
+      "pass": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "input": -0.4,
+      "pass": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "input": 0,
+      "pass": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "input": 0.4,
+      "pass": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "input": 0.5,
+      "pass": true
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "input": 1.5,
+      "pass": true
+    }
+  ]
+}

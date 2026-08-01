@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "JXL_CODEC_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-jxl-e2e-not-run",
+    "independent-jxl-roundtrip-corpus-not-run",
+    "pthread-generation-closure-not-measured-in-production"
+  ],
+  "threadMode": "emscripten-pthread-pool-4-canonical-v1",
+  "pthreadPoolSize": 4,
+  "sharedMemory": true,
+  "initialMemoryBytes": 16777216,
+  "maximumMemoryBytes": 2147483648,
+  "sourceVerified": true,
+  "selfDigest": "24397eb59e80a857040789bbc7675147f20dc77f64c5793b739a764da5d6f6c0"
+}

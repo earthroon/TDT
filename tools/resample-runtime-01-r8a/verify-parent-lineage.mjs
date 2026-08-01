@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import {json,hashFile,check,sourceArtifact,seal,exists} from './lib.mjs';
+import {PARENT_ZIP,PARENT_ZIP_SHA256,SOURCE_STATE,DOWNSTREAM_STATE,NEXT_AUTHORITY} from './identity.mjs';
+const freeze=json('tools/resample-runtime-01-r8a/parent-r13-freeze.json');
+check(freeze.parentZip===PARENT_ZIP&&freeze.parentZipSha256===PARENT_ZIP_SHA256,'E_R8A_PARENT_BUNDLE_IDENTITY_MISMATCH','parent bundle identity mismatch');
+for(const [rel,expected] of Object.entries(freeze.mathFrozenFiles))check(hashFile(rel)===expected,'E_R8A_MATH_FREEZE_MISMATCH',`R8 mathematical source changed: ${rel}`);
+for(const [rel,expected] of Object.entries(freeze.historicalReceipts))check(hashFile(rel)===expected,'E_R8A_HISTORICAL_RECEIPT_MUTATED',`historical receipt changed: ${rel}`);
+for(const [rel,expected] of Object.entries(freeze.productionPointers))check(hashFile(rel)===expected,'E_R8A_POINTER_MUTATION',`production pointer changed: ${rel}`);
+const activationCandidates=['state/INSTALL_ACTIVATION_POINTER.json','artifacts/runtime/TDT_INSTALL_ACTIVATION_POINTER.json'];
+check(!activationCandidates.some(exists),'E_R8A_LOCAL_ACTIVATION_POINTER_MUTATION','R8A source bake created a local activation pointer');
+const historicalReceipts=Object.entries(freeze.historicalReceipts).map(([relativePath,sha256])=>Object.freeze({relativePath,sha256,status:'SUPERSEDED_BY_R8A',retainedReadOnly:true,currentPromotionEvidence:false}));
+const invalidation=seal({schemaVersion:1,schemaId:'tdt.resample.downstream-invalidation.r8a.v1',patchId:'TDT-RESAMPLE-RUNTIME-01-R8A',state:DOWNSTREAM_STATE,reason:'active-runtime-code-mutated-after-r9-r13-source-receipts',historicalReceipts,replayOrder:Object.freeze(['TDT-RESAMPLE-RUNTIME-01-R8A','TDT-RESAMPLE-RUNTIME-01-R9A','TDT-RESAMPLE-RUNTIME-01-R10','TDT-RESAMPLE-RUNTIME-01-R11','TDT-RESAMPLE-RUNTIME-01-R12','TDT-RESAMPLE-RUNTIME-01-R13']),carryForwardPassCount:0,nextAuthority:NEXT_AUTHORITY,productionPointerMutated:false,localActivationPointerMutated:false});
+sourceArtifact('TDT_RESAMPLE_RUNTIME_01_R8A_DOWNSTREAM_INVALIDATION_RECEIPT.json',invalidation);
+const report=seal({schemaVersion:1,patchId:'TDT-RESAMPLE-RUNTIME-01-R8A',pass:true,parentZip:PARENT_ZIP,parentZipSha256:PARENT_ZIP_SHA256,logicalCorrectionParent:'TDT-RESAMPLE-RUNTIME-01-R8',repositoryApplicationParent:'TDT-RESAMPLE-RUNTIME-01-R13',targetState:SOURCE_STATE,mathFrozenFileCount:Object.keys(freeze.mathFrozenFiles).length,historicalReceiptCount:historicalReceipts.length,pointerMutationCount:0,downstreamInvalidationReceipt:'artifacts/resample-runtime-01-r8a/source-bake/TDT_RESAMPLE_RUNTIME_01_R8A_DOWNSTREAM_INVALIDATION_RECEIPT.json'});
+sourceArtifact('R8A_PARENT_AND_LINEAGE_REPORT.json',report);
+console.log(`PASS R8A parent and lineage ${report.mathFrozenFileCount} frozen / ${report.historicalReceiptCount} superseded`);

@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "FALLBACK-01",
+      "message": "product direct-load fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "FALLBACK-02",
+      "message": "CPU EWA fallback absent from canonical runtime",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "FALLBACK-03",
+      "message": "Canvas fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "FALLBACK-04",
+      "message": "WebGL fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "FALLBACK-05",
+      "message": "reference is not product",
+      "pass": true
+    },
+    {
+      "detail": {
+        "r3Imports": []
+      },
+      "id": "FALLBACK-06",
+      "message": "R3 oracle excluded from app runtime",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "schemaVersion": 1
+}

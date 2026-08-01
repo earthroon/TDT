@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "maxConstantError": 0
+      },
+      "id": "SELF-01",
+      "message": "constant conservation",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SELF-02",
+      "message": "same-process bit-identical repeatability",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxMatrixQError": 5.551115123125783e-16
+      },
+      "id": "SELF-03",
+      "message": "dot and matrix ellipse crosscheck",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxTranslationError": 0
+      },
+      "id": "SELF-04",
+      "message": "integer translation covariance",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxAxisSwapError": 0
+      },
+      "id": "SELF-05",
+      "message": "axis swap covariance",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxTangentSignError": 0
+      },
+      "id": "SELF-06",
+      "message": "tangent sign invariance",
+      "pass": true
+    },
+    {
+      "detail": {
+        "maxIsotropicRotationError": 5.551115123125783e-17
+      },
+      "id": "SELF-07",
+      "message": "isotropic rotation invariance",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SELF-08",
+      "message": "weight positivity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SELF-09",
+      "message": "radial weight monotonicity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SELF-10",
+      "message": "non-finite input rejected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SELF-11",
+      "message": "zero weight support rejected without center fallback",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SELF-12",
+      "message": "fixture regeneration byte-identical",
+      "pass": true
+    }
+  ],
+  "coordinateConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "fixtureManifestDigest": "242439fa4fb35be63af0b7bdf4d9e3337243272a88b40ba6bf0c827152b02ad4",
+  "invariants": {
+    "axisSwapCovariance": {
+      "maxError": 0,
+      "tolerance": 1e-13
+    },
+    "constantConservation": {
+      "maxError": 0,
+      "tolerance": 1e-14
+    },
+    "isotropicRotationInvariance": {
+      "maxError": 5.551115123125783e-17,
+      "tolerance": 1e-13
+    },
+    "matrixCrosscheck": {
+      "maxError": 5.551115123125783e-16,
+      "tolerance": 1e-13
+    },
+    "tangentSignInvariance": {
+      "maxError": 0,
+      "tolerance": 1e-14
+    },
+    "translationCovariance": {
+      "maxError": 0,
+      "tolerance": 1e-14
+    }
+  },
+  "oracleId": "tdt.ewa.oracle.f64.fractional-phase.v1",
+  "packagedElectronClaim": false,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "physicalGpuClaim": false,
+  "schemaVersion": 1
+}

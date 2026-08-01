@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "scope": "SOURCE_CONTRACT_AND_BLOCKED_PRODUCTION",
+  "passed": 108,
+  "total": 108,
+  "failed": [],
+  "gates": [
+    {
+      "id": "JXL01-G001",
+      "name": "spec ABI title",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G002",
+      "name": "encoder wasm identity",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G003",
+      "name": "decoder wasm identity",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G004",
+      "name": "encoder decoder distinct",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G005",
+      "name": "ABI preserved",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G006",
+      "name": "pthread pool four",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G007",
+      "name": "encoder tracker",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G008",
+      "name": "encoder COI",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G009",
+      "name": "decoder exact",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G010",
+      "name": "decoder no browser surface",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G011",
+      "name": "decoder copy",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G012",
+      "name": "decoder worker",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G013",
+      "name": "decoder generation",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G014",
+      "name": "registry disposal",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G015",
+      "name": "authority adoption",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G016",
+      "name": "auxiliary manifest",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G017",
+      "name": "build emit integration",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G018",
+      "name": "stable error count 52",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G019",
+      "name": "decoder export",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G020",
+      "name": "decoder memory",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G021",
+      "name": "decoder no encoder ABI",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G022",
+      "name": "encoder pthread imports",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G023",
+      "name": "decoder import identity",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G024",
+      "name": "runtime tests 168",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G025",
+      "name": "package source script",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G026",
+      "name": "build emit manifest generation",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G027",
+      "name": "receipt adoption",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G028",
+      "name": "metadata verifier",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G029",
+      "name": "roundtrip verifier",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G030",
+      "name": "decoder manifest file",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G031",
+      "name": "stable E_JXL_WORKER_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G032",
+      "name": "stable E_JXL_WASM_INIT_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G033",
+      "name": "stable E_JXL_ABI_SYMBOL_MISSING",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G034",
+      "name": "stable E_JXL_ABI_SELF_TEST_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G035",
+      "name": "stable E_JXL_SHARED_MEMORY_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G036",
+      "name": "stable E_JXL_PTHREAD_POOL_INIT_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G037",
+      "name": "stable E_JXL_THREAD_REQUEST_EXCEEDS_POOL",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G038",
+      "name": "stable E_JXL_LOSSY_MODE_NOT_PROMOTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G039",
+      "name": "stable E_JXL_LOSSLESS_PARAMETER_CONFLICT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G040",
+      "name": "stable E_JXL_PARAMETER_OUT_OF_RANGE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G041",
+      "name": "stable E_JXL_INPUT_STORAGE_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G042",
+      "name": "stable E_JXL_INPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G043",
+      "name": "stable E_JXL_FLOAT_INPUT_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G044",
+      "name": "stable E_JXL_16BIT_ABI_UNVERIFIED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G045",
+      "name": "stable E_JXL_CUSTOM_ICC_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G046",
+      "name": "stable E_JXL_ENCODE_EMPTY",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G047",
+      "name": "stable E_JXL_ENCODE_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G048",
+      "name": "stable E_JXL_OUTPUT_POINTER_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G049",
+      "name": "stable E_JXL_CONTAINER_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G050",
+      "name": "stable E_JXL_CONTAINER_BOX_TRUNCATED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G051",
+      "name": "stable E_JXL_CONTAINER_CARRIER_CONFLICT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G052",
+      "name": "stable E_JXL_METADATA_DUPLICATE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G053",
+      "name": "stable E_JXL_RESOLUTION_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G054",
+      "name": "stable E_JXL_ROUNDTRIP_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G055",
+      "name": "stable E_JXL_HIDDEN_RGB_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G056",
+      "name": "stable E_JXL_OUTPUT_MUTATED_AFTER_WORKER",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G057",
+      "name": "stable E_JXL_PTHREAD_LEAK",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G058",
+      "name": "stable E_JXL_PTHREAD_CHILD_WORKER_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G059",
+      "name": "stable E_JXL_PTHREAD_POOL_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G060",
+      "name": "stable E_JXL_PTHREAD_GENERATION_STALE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G061",
+      "name": "stable E_JXL_SHARED_MEMORY_REACHABLE_AFTER_DISPOSE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G062",
+      "name": "stable E_JXL_INDEPENDENT_INPUT_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G063",
+      "name": "stable E_JXL_INDEPENDENT_DECODER_INIT_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G064",
+      "name": "stable E_JXL_INDEPENDENT_DECODER_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G065",
+      "name": "stable E_JXL_INDEPENDENT_DECODE_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G066",
+      "name": "stable E_JXL_INDEPENDENT_DECODE_TIMEOUT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G067",
+      "name": "stable E_JXL_INDEPENDENT_SURFACE_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G068",
+      "name": "stable E_JXL_DECODER_GENERATION_CLOSED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G069",
+      "name": "stable E_JXL_DECODER_OPERATION_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G070",
+      "name": "stable E_JXL_DECODER_STALE_RESULT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G071",
+      "name": "stable E_JXL_DECODER_ARTIFACT_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G072",
+      "name": "stable E_JXL_DECODER_WASM_MISSING",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G073",
+      "name": "stable E_JXL_DECODER_WASM_DIGEST_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G074",
+      "name": "stable E_JXL_DECODER_OUTPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G075",
+      "name": "stable E_JXL_DECODER_OUTPUT_STORAGE_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G076",
+      "name": "stable E_JXL_DECODER_FALLBACK_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G077",
+      "name": "stable E_JXL_DECODER_BROWSER_PATH_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G078",
+      "name": "stable E_JXL_CONTAINER_FTYP_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G079",
+      "name": "stable E_JXL_CONTAINER_PART_INDEX_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G080",
+      "name": "stable E_JXL_METADATA_MISSING",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G081",
+      "name": "stable E_JXL_METADATA_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G082",
+      "name": "stable E_JXL_REPEATABILITY_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G083",
+      "name": "sealed TDT_JXL_CODEC_01_SOURCE_INPUT_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G084",
+      "name": "sealed TDT_JXL_CODEC_01_ARTIFACT_IDENTITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G085",
+      "name": "sealed TDT_JXL_CODEC_01_ABI_PRESERVATION_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G086",
+      "name": "sealed TDT_JXL_CODEC_01_ENCODER_PTHREAD_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G087",
+      "name": "sealed TDT_JXL_CODEC_01_ENCODER_GENERATION_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G088",
+      "name": "sealed TDT_JXL_CODEC_01_DECODER_ARTIFACT_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G089",
+      "name": "sealed TDT_JXL_CODEC_01_DECODER_WORKER_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G090",
+      "name": "sealed TDT_JXL_CODEC_01_DECODER_GENERATION_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G091",
+      "name": "sealed TDT_JXL_CODEC_01_INDEPENDENCE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G092",
+      "name": "sealed TDT_JXL_CODEC_01_EXACT_RGBA8_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G093",
+      "name": "sealed TDT_JXL_CODEC_01_HIDDEN_RGB_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G094",
+      "name": "sealed TDT_JXL_CODEC_01_CONTAINER_STRUCTURE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G095",
+      "name": "sealed TDT_JXL_CODEC_01_METADATA_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G096",
+      "name": "sealed TDT_JXL_CODEC_01_COLOR_ENCODING_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G097",
+      "name": "sealed TDT_JXL_CODEC_01_CANCELABILITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G098",
+      "name": "sealed TDT_JXL_CODEC_01_OUTPUT_IDENTITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G099",
+      "name": "sealed TDT_JXL_CODEC_01_REPEATABILITY_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G100",
+      "name": "sealed TDT_JXL_CODEC_01_BUILD_EMIT_CLOSURE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G101",
+      "name": "sealed TDT_JXL_CODEC_01_COI_ROUTE_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G102",
+      "name": "sealed TDT_JXL_CODEC_01_EP03_INTEGRATION_REPORT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G103",
+      "name": "sealed TDT_JXL_CODEC_01_PROMOTION_RECEIPT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G104",
+      "name": "sealed TDT_JXL_CODEC_01_FIX_RECEIPT.json",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G105",
+      "name": "promotion blocked truth",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G106",
+      "name": "fix source truth",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G107",
+      "name": "output identity not claimed",
+      "ok": true
+    },
+    {
+      "id": "JXL01-G108",
+      "name": "production closure not claimed",
+      "ok": true
+    }
+  ]
+}

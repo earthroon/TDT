@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 verify:resample-runtime-01-r8a:parser
+> node tools/active-graph-01/verify-javascript-parse-closure-r8a.mjs
+
+PASS R8A active-required JavaScript parse closure 243/243

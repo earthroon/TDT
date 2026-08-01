@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R13",
+  "state": "RESAMPLE_RUNTIME_R13_COHORT_ROLLOUT_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_MULTI_INSTALLATION_FLEET",
+  "authority": {
+    "plan": "R13",
+    "lease": "R13",
+    "aggregate": "R13",
+    "localR10": "R10",
+    "localR12": "R12",
+    "localR11": "R11"
+  },
+  "schemaIds": {
+    "plan": "tdt.rollout.plan.r13.v1",
+    "ledger": "dadum.rollout.ledger",
+    "enrollment": "tdt.rollout.fleet-enrollment.r13.v1",
+    "cohort": "tdt.rollout.cohort-assignment.r13.v1",
+    "lease": "tdt.rollout.admission-lease.r13.v1",
+    "evidence": "tdt.rollout.local-evidence.r13.v1",
+    "aggregate": "tdt.rollout.fleet-evidence-aggregate.r13.v1",
+    "decision": "tdt.rollout.ring-decision.r13.v1",
+    "containment": "tdt.rollout.containment-directive.r13.v1",
+    "rollback": "tdt.rollout.rollback-recommendation-batch.r13.v1",
+    "privacy": "tdt.rollout.privacy-profile.r13.v1",
+    "final": "tdt.rollout.final-receipt.r13.v1",
+    "localR10": "dadum.export.production-pointer",
+    "localR12": "dadum.install.activation-pointer",
+    "localR11": "tdt.resample-runtime.r11.session-admission-token.v1"
+  },
+  "rings": [
+    {
+      "id": "RING-0",
+      "name": "LAB",
+      "basisPoints": 0,
+      "minDwellSeconds": 7200
+    },
+    {
+      "id": "RING-1",
+      "name": "CANARY",
+      "basisPoints": 50,
+      "minDwellSeconds": 21600
+    },
+    {
+      "id": "RING-2",
+      "name": "EARLY",
+      "basisPoints": 500,
+      "minDwellSeconds": 43200
+    },
+    {
+      "id": "RING-3",
+      "name": "BROAD",
+      "basisPoints": 2500,
+      "minDwellSeconds": 86400
+    },
+    {
+      "id": "RING-4",
+      "name": "MAJORITY",
+      "basisPoints": 6000,
+      "minDwellSeconds": 172800
+    },
+    {
+      "id": "RING-5",
+      "name": "FULL",
+      "basisPoints": 10000,
+      "minDwellSeconds": 259200
+    }
+  ],
+  "criticalBreakers": [
+    "artifactDrift",
+    "packageDigestMismatch",
+    "crossGenerationAsset",
+    "validationCounterNonZero",
+    "faultSentinelObserved",
+    "nonfiniteOutput",
+    "startupCanaryFailure",
+    "r12RecoveryAmbiguous",
+    "unauthorizedPointerMutation",
+    "silentCpuCanvasWebglFallback"
+  ],
+  "sourceGateCount": 192,
+  "fleetGateCount": 408,
+  "productionPointerMutationForbidden": true,
+  "localActivationPointerMutationForbidden": true,
+  "specSha256": "b74a0ea8c0e5de8a401f9f622414229ee8002ea9ba7c15848474d5149545bfe2",
+  "selfSha256": "3552a75c5f312b7c5773b3138b2f68c43c874d211591c051eb381acfb2c93177"
+}

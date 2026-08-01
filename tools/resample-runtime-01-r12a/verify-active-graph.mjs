@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import { check, sourceArtifact, seal, sha256File } from './lib.mjs';
+const graphPath = 'app/src/runtime/active-graph/generated-active-runtime-graph.json';
+const graph = JSON.parse(fs.readFileSync(graphPath, 'utf8'));
+const nodeIds = new Set(graph.nodes.map((node) => node.nodeId));
+const edges = new Set(graph.edges.map((edge) => `${edge.fromNodeId}->${edge.toNodeId}`));
+for (const id of ['dadum.runtime.atomic-update-r12a','dadum.runtime.installed-admission-r11a','dadum.runtime.preview-presenter-r11a','dadum.runtime.export-authority-r11a']) check(nodeIds.has(id), 'E_R12A_TRANSACTION_INVALID', `Active Graph node missing: ${id}`);
+for (const edge of ['dadum.renderer.runtime-modules->dadum.runtime.atomic-update-r12a','dadum.runtime.atomic-update-r12a->dadum.runtime.installed-admission-r11a','dadum.runtime.preview-presenter-r11a->dadum.runtime.atomic-update-r12a','dadum.runtime.export-authority-r11a->dadum.runtime.atomic-update-r12a']) check(edges.has(edge), 'E_R12A_TRANSACTION_INVALID', `Active Graph edge missing: ${edge}`);
+const receiptPath = 'artifacts/active-graph-01/source-bake/TDT_ACTIVE_GRAPH_01_SOURCE_RECEIPT.json';
+const receipt = JSON.parse(fs.readFileSync(receiptPath, 'utf8'));
+check((receipt.counts?.FAIL ?? receipt.fail ?? 0) === 0, 'E_R12A_TRANSACTION_INVALID', 'Active Graph source receipt contains failure');
+sourceArtifact('R12A_ACTIVE_GRAPH_REPORT.json', seal({ schemaVersion: 1, patchId: 'TDT-RESAMPLE-RUNTIME-01-R12A', pass: true, roots: graph.roots.length, nodes: graph.nodes.length, edges: graph.edges.length, graphSha256: sha256File(graphPath), sourceReceiptSha256: sha256File(receiptPath), requiredNodeCount: 4, requiredEdgeCount: 4 }));
+console.log(`R12A Active Graph PASS roots=${graph.roots.length} nodes=${graph.nodes.length} edges=${graph.edges.length}`);

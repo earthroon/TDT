@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 286,
+    "PENDING": 214,
+    "SKIPPED": 0
+  },
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A",
+  "schemaVersion": 1,
+  "state": "RESAMPLE_RUNTIME_R9A_SINGLE_SUBMIT_VALIDATION_AND_PERFORMANCE_HARNESS_SOURCE_SEALED_AWAITING_PHYSICAL_GPU",
+  "selfSha256": "cab02634a38a74480edc520ab74f4e7c89a9e4733ed52e3fd382e7c24e59d48a"
+}

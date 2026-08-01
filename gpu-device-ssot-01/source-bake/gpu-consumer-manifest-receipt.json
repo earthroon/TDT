@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "consumerCount": 15,
+  "consumerManifestSha256": "3a17c55eac94b000ac9ce0ee56e19ffdc6e20238ea9cc75243866f4fdbe26195",
+  "authorityProfileSha256": "b11006f955206ba2249ad49980a5c8800296bbd306dc1458f870e6b080185dae",
+  "ownerIds": [
+    "dadum.gpu.consumer.depth-bake",
+    "dadum.gpu.consumer.export-downscale",
+    "dadum.gpu.consumer.fft-qmap",
+    "dadum.gpu.consumer.generic-legacy-runtime",
+    "dadum.gpu.consumer.hannakairo-gate",
+    "dadum.gpu.consumer.hannakairo-phase",
+    "dadum.gpu.consumer.legacy-pipeline",
+    "dadum.gpu.consumer.mask-manager",
+    "dadum.gpu.consumer.preview-presenter",
+    "dadum.gpu.consumer.qmap-lab9",
+    "dadum.gpu.consumer.qmap-runtime",
+    "dadum.gpu.consumer.qwave",
+    "dadum.gpu.consumer.qwave-analytic",
+    "dadum.gpu.consumer.runtime-pipeline",
+    "dadum.gpu.consumer.tile-atlas"
+  ]
+}

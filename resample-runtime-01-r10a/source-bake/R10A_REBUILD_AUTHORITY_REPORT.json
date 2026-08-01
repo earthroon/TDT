@@ -1,0 +1,11 @@
+{
+  "dualCleanEmit": true,
+  "emitASha256": "1978a21493df1fc2c1aff2f90417b8f6e58c39699cc75879a7288d054f14d226",
+  "emitBSha256": "dc8d3b461a6c1c16a9835480f35f9898e0a2e47d761d4111d9d155577a5eb1c2",
+  "inputSetSha256": "63b16768ac5ab00f0150d41162f13bbb5ad69bfb6d690c68827c7ac8e610d4ed",
+  "packageReceiptSha256": "1b2049b376625c83475e1c1af297b075688d1463b9301209ae63aae685b4c1ce",
+  "pass": true,
+  "reproducibleClosureSha256": "f121e3d21322cd9dfff86dc82f0f3e472958ca57457642f68310c6e4c69e99cb",
+  "schemaVersion": 1,
+  "selfSha256": "f975b3a71e5ade108ace76ca44b952b5fd30f53865c67f98da52062d65175e29"
+}

@@ -1,0 +1,30 @@
+import {check,sourceArtifact,seal} from './lib.mjs';
+import {createUniformRingR9A} from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_uniform_ring_r9a.mjs';
+import {createEwaCommandGraphR9A} from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_command_graph_r9a.mjs';
+function makeBuffer(desc){return {desc,destroyed:false,destroy(){this.destroyed=true;},async mapAsync(){},getMappedRange(){return new ArrayBuffer(desc.size);},unmap(){}};}
+const queue={writes:[],submits:0,writeBuffer(buffer,offset,bytes){this.writes.push({buffer,offset,bytes:bytes.byteLength??bytes.length});},submit(){this.submits+=1;},onSubmittedWorkDone(){return Promise.resolve();}};
+const device={limits:{minUniformBufferOffsetAlignment:256},queue,createBuffer:makeBuffer,createCommandEncoder(){return {passes:0,beginComputePass(){this.passes+=1;return {setPipeline(){},setBindGroup(){},dispatchWorkgroups(){},end(){}};},copyBufferToBuffer(){},finish(){return {kind:'command-buffer'};}};}};
+const ring=createUniformRingR9A(device,{slotCount:8,maxPayloadBytes:96});
+const a=ring.acquire(new Uint8Array(32),{jobId:'self',passId:'a'});
+const b=ring.acquire(new Uint8Array(96),{jobId:'self',passId:'b'});
+check(a.offset%256===0&&b.offset%256===0,'E_R9A_TEST_ALIGNMENT','Uniform offsets are not aligned');
+ring.sealSubmission(1,[a,b]);
+check(ring.snapshot().counts.IN_FLIGHT===2,'E_R9A_TEST_IN_FLIGHT','Uniform slots not marked in flight');
+check(ring.reclaimSubmission(1)===2,'E_R9A_TEST_RECLAIM','Uniform slots did not reclaim');
+const graph=createEwaCommandGraphR9A({device,jobId:'graph-self-test',consumerEnvelope:'preview',deviceEpoch:7});
+graph.allocateUniform(new Uint8Array(32),{passId:'p0'});
+const pass=graph.beginComputePass('p0');pass.end();
+const submission=await graph.submit({readValidationCounters:false,terminalMapAsync:false});
+await submission.completion;
+check(queue.submits===1,'E_R9A_TEST_SUBMIT_COUNT','Command graph did not submit exactly once');
+let doubleSubmitCode=null;try{await graph.submit({});}catch(error){doubleSubmitCode=error.code;}
+check(doubleSubmitCode==='E_R9A_COMMAND_GRAPH_DOUBLE_SUBMIT','E_R9A_TEST_DOUBLE_SUBMIT','Double submit was not rejected');
+const exportGraph=createEwaCommandGraphR9A({device,jobId:'graph-export-test',consumerEnvelope:'export',deviceEpoch:7});
+exportGraph.allocateUniform(new Uint8Array(32),{passId:'export-p0'});
+const exportPass=exportGraph.beginComputePass('export-p0');exportPass.end();
+const exportSubmission=await exportGraph.submit({readValidationCounters:false,terminalMapAsync:true});
+check(exportSubmission.completionMode==='external-terminal-map','E_R9A_TEST_EXTERNAL_COMPLETION','Export completion mode is not terminal-map bound');
+exportSubmission.bindCompletion(Promise.resolve('mapped'));
+await exportSubmission.completion;
+sourceArtifact('R9A_RUNTIME_MODULE_SELF_TEST.json',seal({schemaVersion:1,pass:true,uniformAlignment:256,uniformReclaimed:2,queueSubmitCount:queue.submits,doubleSubmitCode,externalCompletionMode:exportSubmission.completionMode,uniformSnapshot:ring.snapshot(),graphSnapshot:graph.snapshot()}));
+console.log('R9A runtime module self tests PASS');

@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.tensor-negative-control-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-01",
+  "status": "PASS",
+  "parameters": {
+    "width": 65,
+    "height": 65,
+    "tensorSigma": 1.15,
+    "kernelRadius": 4
+  },
+  "integrated": {
+    "flat": {
+      "kind": "flat",
+      "activePixelCount": 0,
+      "lambda2PositivePixelCount": 0,
+      "meanActiveCoherence": 0,
+      "minActiveCoherence": 0,
+      "maxActiveCoherence": 0,
+      "centerRegionMeanCoherence": 0,
+      "nonfiniteCount": 0
+    },
+    "straight": {
+      "kind": "straight",
+      "activePixelCount": 650,
+      "lambda2PositivePixelCount": 0,
+      "meanActiveCoherence": 0.9999894519019956,
+      "minActiveCoherence": 0.9999511443625554,
+      "maxActiveCoherence": 0.9999999315809455,
+      "centerRegionMeanCoherence": 0.9999894519019928,
+      "nonfiniteCount": 0
+    },
+    "corner": {
+      "kind": "corner",
+      "activePixelCount": 660,
+      "lambda2PositivePixelCount": 95,
+      "meanActiveCoherence": 0.9738786802821091,
+      "minActiveCoherence": 0.0004606717561739509,
+      "maxActiveCoherence": 0.9999999315809455,
+      "centerRegionMeanCoherence": 0.8563802079926185,
+      "nonfiniteCount": 0
+    },
+    "junction": {
+      "kind": "junction",
+      "activePixelCount": 1200,
+      "lambda2PositivePixelCount": 100,
+      "meanActiveCoherence": 0.9730474840608834,
+      "minActiveCoherence": 0.00020479541577949094,
+      "maxActiveCoherence": 0.9999999315809455,
+      "centerRegionMeanCoherence": 0.7305697734908226,
+      "nonfiniteCount": 0
+    },
+    "mixed": {
+      "kind": "mixed",
+      "activePixelCount": 4225,
+      "lambda2PositivePixelCount": 4225,
+      "meanActiveCoherence": 0.39808954258739004,
+      "minActiveCoherence": 0,
+      "maxActiveCoherence": 0.9984314367863036,
+      "centerRegionMeanCoherence": 0.31930665573110767,
+      "nonfiniteCount": 0
+    }
+  },
+  "predicates": {
+    "flatEnergyNeutral": true,
+    "straightActive": true,
+    "straightCoherenceHigh": true,
+    "cornerLambda2Positive": true,
+    "junctionLambda2Positive": true,
+    "cornerSeparated": true,
+    "junctionSeparated": true,
+    "mixedMinimumBelow095": true,
+    "nonfiniteZero": true
+  },
+  "mutants": {
+    "none": {
+      "mode": "none",
+      "corner": {
+        "kind": "corner",
+        "activePixelCount": 132,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999999575488219,
+        "minActiveCoherence": 0.9999996800001023,
+        "maxActiveCoherence": 0.9999999644444457,
+        "centerRegionMeanCoherence": 0.9999999465185243,
+        "nonfiniteCount": 0
+      },
+      "junction": {
+        "kind": "junction",
+        "activePixelCount": 256,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999999593749982,
+        "minActiveCoherence": 0.9999999200000065,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9999999560000022,
+        "nonfiniteCount": 0
+      },
+      "declaredIntegrationStages": [],
+      "admissionPass": false
+    },
+    "h": {
+      "mode": "h",
+      "corner": {
+        "kind": "corner",
+        "activePixelCount": 396,
+        "lambda2PositivePixelCount": 18,
+        "meanActiveCoherence": 0.994952479375127,
+        "minActiveCoherence": 0.6037489653509248,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9722782219307129,
+        "nonfiniteCount": 0
+      },
+      "junction": {
+        "kind": "junction",
+        "activePixelCount": 760,
+        "lambda2PositivePixelCount": 20,
+        "meanActiveCoherence": 0.9966185601898016,
+        "minActiveCoherence": 0.5919903648322022,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9771054110461359,
+        "nonfiniteCount": 0
+      },
+      "declaredIntegrationStages": [
+        "blurH"
+      ],
+      "admissionPass": false
+    },
+    "v": {
+      "mode": "v",
+      "corner": {
+        "kind": "corner",
+        "activePixelCount": 396,
+        "lambda2PositivePixelCount": 18,
+        "meanActiveCoherence": 0.9949524793751312,
+        "minActiveCoherence": 0.6037489653509248,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9722782219307129,
+        "nonfiniteCount": 0
+      },
+      "junction": {
+        "kind": "junction",
+        "activePixelCount": 760,
+        "lambda2PositivePixelCount": 20,
+        "meanActiveCoherence": 0.9966185601897907,
+        "minActiveCoherence": 0.5919903648322022,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9771054110461357,
+        "nonfiniteCount": 0
+      },
+      "declaredIntegrationStages": [
+        "blurV"
+      ],
+      "admissionPass": false
+    },
+    "fake": {
+      "mode": "fake",
+      "corner": {
+        "kind": "corner",
+        "activePixelCount": 132,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999999575488219,
+        "minActiveCoherence": 0.9999996800001023,
+        "maxActiveCoherence": 0.9999999644444457,
+        "centerRegionMeanCoherence": 0.9999999465185243,
+        "nonfiniteCount": 0
+      },
+      "junction": {
+        "kind": "junction",
+        "activePixelCount": 256,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999999593749982,
+        "minActiveCoherence": 0.9999999200000065,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9999999560000022,
+        "nonfiniteCount": 0
+      },
+      "declaredIntegrationStages": [],
+      "admissionPass": false
+    },
+    "temporal": {
+      "mode": "temporal",
+      "corner": {
+        "kind": "corner",
+        "activePixelCount": 132,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999999575488219,
+        "minActiveCoherence": 0.9999996800001023,
+        "maxActiveCoherence": 0.9999999644444457,
+        "centerRegionMeanCoherence": 0.9999999465185243,
+        "nonfiniteCount": 0
+      },
+      "junction": {
+        "kind": "junction",
+        "activePixelCount": 256,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999999593749982,
+        "minActiveCoherence": 0.9999999200000065,
+        "maxActiveCoherence": 0.9999999600000016,
+        "centerRegionMeanCoherence": 0.9999999560000022,
+        "nonfiniteCount": 0
+      },
+      "declaredIntegrationStages": [],
+      "admissionPass": false
+    }
+  },
+  "hardcodedCoherenceOneFails": true,
+  "zeroLambda2ReceiptFails": true,
+  "commandGraphOrder": [
+    "gradient",
+    "outer",
+    "blurH",
+    "blurV",
+    "eigen",
+    "axial"
+  ],
+  "productIntermediateReadbackCount": 0,
+  "qualificationReadbackPolicy": "BOUNDED_COMPACT_METRICS_ONLY",
+  "selfSha256": "e159be36638944e8b96e8c6439923275128dc347abb9443855b15544361caca9"
+}

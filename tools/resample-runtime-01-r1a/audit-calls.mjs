@@ -1,0 +1,5 @@
+import fs from 'node:fs'; import path from 'node:path'; import { ROOT, writeJson } from './lib.mjs';
+const root=path.join(ROOT,'app'); const findings=[];
+const visit=(dir)=>{for(const e of fs.readdirSync(dir,{withFileTypes:true})){const a=path.join(dir,e.name);if(e.isDirectory())visit(a);else if(e.isFile()&&/\.(?:js|mjs|ts)$/.test(e.name)){const rel=path.relative(ROOT,a).replaceAll('\\','/');const text=fs.readFileSync(a,'utf8');for(const m of text.matchAll(/runDeltaKStack\s*\(([^\n]*)/g))findings.push({relative:rel,line:text.slice(0,m.index).split('\n').length,head:m[1].trim().slice(0,120),kind:m[1].trim().startsWith('{')?'object':'positional-or-definition'});}}};visit(root);
+const active=findings.filter(x=>x.relative.endsWith('/runtime.js')||x.relative.endsWith('/deltaK_stack_autoEWA.mjs'));
+const report={schemaVersion:1,patchId:'TDT-RESAMPLE-RUNTIME-01-R1A',pass:active.some(x=>x.relative.endsWith('/runtime.js')&&x.kind==='object'),findings,active};writeJson('r1a-call-audit.json',report);if(!report.pass)process.exit(1);console.log(`PASS R1A call audit findings=${findings.length}`);

@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ANALYSIS-FIELD-TRUTH-00",
+  "pass": true,
+  "passed": 61,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-authority-service.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-semantic-registry.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-types.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-receipt.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-execution-ledger-service.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-neutral-resource-service.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-compatibility-bridge.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/analysis-field-errors.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/analysis_field_bridge.mjs",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/analysis_field_request_normalizer.mjs",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/analysis_field_receipt_compat.mjs",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "registry-version",
+      "pass": true,
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "id": "registry-count",
+      "pass": true,
+      "detail": 30
+    },
+    {
+      "id": "registry-unique",
+      "pass": true,
+      "detail": "semantic IDs unique"
+    },
+    {
+      "id": "registry-digests",
+      "pass": true,
+      "detail": "all descriptors have sha256"
+    },
+    {
+      "id": "channel-schema",
+      "pass": true,
+      "detail": "ordered explicit channels"
+    },
+    {
+      "id": "periodicity-separation",
+      "pass": true,
+      "detail": "pi axial and two-pi both represented"
+    },
+    {
+      "id": "visual-separated",
+      "pass": true,
+      "detail": "visual semantic is outside analysis descriptors"
+    },
+    {
+      "id": "atlas-taxonomy",
+      "pass": true,
+      "detail": "five atlas resource classes"
+    },
+    {
+      "id": "producer-count",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "id": "producer-backend",
+      "pass": true,
+      "detail": "all registered producers WebGPU/WGSL"
+    },
+    {
+      "id": "spectral-admission",
+      "pass": true,
+      "detail": "spectral producer admission is explicit"
+    },
+    {
+      "id": "classification-count",
+      "pass": true,
+      "detail": 73
+    },
+    {
+      "id": "classification-digests",
+      "pass": true,
+      "detail": "all implementation files digested"
+    },
+    {
+      "id": "classification-no-effective-claim",
+      "pass": true,
+      "detail": "source presence is not execution proof"
+    },
+    {
+      "id": "classification:app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_fft.js",
+      "pass": true,
+      "detail": "app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_fft.js"
+    },
+    {
+      "id": "classification:app/legacy-runtime/core/qmap/dk_fft_qmap_webgpu_v2.js",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/qmap/dk_fft_qmap_webgpu_v2.js"
+    },
+    {
+      "id": "classification:app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "pass": true,
+      "detail": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js"
+    },
+    {
+      "id": "classification:app/legacy-runtime/qwave/qwave_system.js",
+      "pass": true,
+      "detail": "app/legacy-runtime/qwave/qwave_system.js"
+    },
+    {
+      "id": "classification:app/legacy-runtime/shaders/phase_gate_hannakairo.frag",
+      "pass": true,
+      "detail": "app/legacy-runtime/shaders/phase_gate_hannakairo.frag"
+    },
+    {
+      "id": "classification:app/legacy-runtime/gl/atlas/textureAtlas.js",
+      "pass": true,
+      "detail": "app/legacy-runtime/gl/atlas/textureAtlas.js"
+    },
+    {
+      "id": "authority-api:registerProducer",
+      "pass": true,
+      "detail": "registerProducer"
+    },
+    {
+      "id": "authority-api:registerConsumer",
+      "pass": true,
+      "detail": "registerConsumer"
+    },
+    {
+      "id": "authority-api:beginBuild",
+      "pass": true,
+      "detail": "beginBuild"
+    },
+    {
+      "id": "authority-api:markSubmission",
+      "pass": true,
+      "detail": "markSubmission"
+    },
+    {
+      "id": "authority-api:markFenceCompletion",
+      "pass": true,
+      "detail": "markFenceCompletion"
+    },
+    {
+      "id": "authority-api:publishField",
+      "pass": true,
+      "detail": "publishField"
+    },
+    {
+      "id": "authority-api:failBuild",
+      "pass": true,
+      "detail": "failBuild"
+    },
+    {
+      "id": "authority-api:requireField",
+      "pass": true,
+      "detail": "requireField"
+    },
+    {
+      "id": "authority-api:pinField",
+      "pass": true,
+      "detail": "pinField"
+    },
+    {
+      "id": "authority-api:releasePin",
+      "pass": true,
+      "detail": "releasePin"
+    },
+    {
+      "id": "authority-api:invalidateDeviceEpoch",
+      "pass": true,
+      "detail": "invalidateDeviceEpoch"
+    },
+    {
+      "id": "authority-api:disposeField",
+      "pass": true,
+      "detail": "disposeField"
+    },
+    {
+      "id": "authority-singleton",
+      "pass": true,
+      "detail": "bridge collision protection"
+    },
+    {
+      "id": "authority-no-adapter",
+      "pass": true,
+      "detail": "authority does not create device"
+    },
+    {
+      "id": "authority-source-binding",
+      "pass": true,
+      "detail": "source tuple binding"
+    },
+    {
+      "id": "authority-device-binding",
+      "pass": true,
+      "detail": "device tuple binding"
+    },
+    {
+      "id": "authority-fence-gate",
+      "pass": true,
+      "detail": "publish-after-fence gate"
+    },
+    {
+      "id": "authority-fallback-gates",
+      "pass": true,
+      "detail": "zero fallback evidence"
+    },
+    {
+      "id": "authority-pin-lifecycle",
+      "pass": true,
+      "detail": "pin lifecycle"
+    },
+    {
+      "id": "authority-device-loss",
+      "pass": true,
+      "detail": "device loss participant"
+    },
+    {
+      "id": "composition-order",
+      "pass": true,
+      "detail": "10393,11208,12198,21919"
+    },
+    {
+      "id": "service-token",
+      "pass": true,
+      "detail": "service token"
+    },
+    {
+      "id": "stable-errors",
+      "pass": true,
+      "detail": "107 error codes"
+    },
+    {
+      "id": "fft-builder-no-null-success",
+      "pass": true,
+      "detail": "no null texture success"
+    },
+    {
+      "id": "fft-runtime-product-block",
+      "pass": true,
+      "detail": "CPU FFT is diagnostic-only"
+    },
+    {
+      "id": "fft-worker-no-zero-success",
+      "pass": true,
+      "detail": "worker fail closed"
+    },
+    {
+      "id": "parent-zip",
+      "pass": true,
+      "detail": "parent zip sha"
+    },
+    {
+      "id": "parent-source-seal",
+      "pass": true,
+      "detail": "parent source seal"
+    },
+    {
+      "id": "r2-contract-preserved",
+      "pass": true,
+      "detail": "R2 files preserved"
+    },
+    {
+      "id": "production-pointer-untouched",
+      "pass": true,
+      "detail": "no pointer write in AFT00 tooling"
+    }
+  ],
+  "parentZipSha256": "89e824847d0c477cffbf7a1f2d807c32f7a41872243d292734f46b01ebe00b5a",
+  "parentSourceSeal": "f3af1f740a76ebfc6c07293b0287dfceee18f0202f8929ea88365d24dbc17f3b"
+}

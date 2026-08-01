@@ -1,0 +1,13 @@
+import {check,read,sourceArtifact,seal} from './lib.mjs';
+const runtime=read('app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs');
+const graph=read('app/legacy-runtime/core/compute/qmap_webgpu/ewa_command_graph_r9a.mjs');
+const preview=read('app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs');
+const exp=read('app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js');
+check(!runtime.includes('onSubmittedWorkDone'),'E_R9A_STAGE_LEVEL_FENCE_FORBIDDEN','R9A stage runtime contains queue fence');
+check(!runtime.includes('queue.submit'),'E_R9A_STAGE_LEVEL_SUBMIT_FORBIDDEN','R9A stage runtime contains queue submit');
+check(preview.includes('Preview never waits on a queue fence'),'E_R9A_PREVIEW_FENCE_POLICY_MISSING','Preview asynchronous policy missing');
+check(exp.includes('const arrayPromise = finalized.consume()'),'E_R9A_TERMINAL_MAP_MISSING','Export terminal map path missing');
+check(!exp.includes('onSubmittedWorkDone'),'E_R9A_EXPORT_PREMAP_FENCE','Export contains pre-map queue fence');
+check(graph.includes('terminalMapAsyncIsSynchronizationBoundary'),'E_R9A_TERMINAL_BOUNDARY_RECEIPT','Terminal map boundary receipt missing');
+sourceArtifact('R9A_FENCE_RETIREMENT_REPORT.json',seal({schemaVersion:1,pass:true,previewQueueFenceAwaitCount:0,physicalPreviewOnSubmittedWorkDoneCount:null,exportPreMapFenceAwaitCount:0,physicalExportOnSubmittedWorkDoneCount:null,stageQueueFenceCount:0,terminalMapCount:1,commandBufferCount:1}));
+console.log('R9A queue fence retirement PASS');

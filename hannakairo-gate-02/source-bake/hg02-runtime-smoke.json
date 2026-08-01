@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 32,
+  "passed": 32,
+  "failed": [],
+  "checks": [
+    {
+      "name": "aligned-alignment",
+      "pass": true,
+      "detail": "1,1,1,1"
+    },
+    {
+      "name": "aligned-gate",
+      "pass": true,
+      "detail": "1,1,1,1"
+    },
+    {
+      "name": "orthogonal-alignment",
+      "pass": true,
+      "detail": "0,-1,1,1"
+    },
+    {
+      "name": "orthogonal-gate",
+      "pass": true,
+      "detail": "0.85,0,1,1"
+    },
+    {
+      "name": "tensor-sign-flip",
+      "pass": true,
+      "detail": "invariant"
+    },
+    {
+      "name": "spectral-tangent-sign-flip",
+      "pass": true,
+      "detail": "double-angle invariant"
+    },
+    {
+      "name": "orthogonal-double-angle-distinct",
+      "pass": true,
+      "detail": "orthogonal director"
+    },
+    {
+      "name": "invalid-neutral",
+      "pass": true,
+      "detail": "[1,0,0,0]"
+    },
+    {
+      "name": "neutral-bits",
+      "pass": true,
+      "detail": "3f800000"
+    },
+    {
+      "name": "disabled-neutral",
+      "pass": true,
+      "detail": "bits"
+    },
+    {
+      "name": "strength-zero-neutral",
+      "pass": true,
+      "detail": "bits"
+    },
+    {
+      "name": "zero-confidence-neutral",
+      "pass": true,
+      "detail": "invalid"
+    },
+    {
+      "name": "single-window-edge-coverage",
+      "pass": true,
+      "detail": "[1,0,1,1]"
+    },
+    {
+      "name": "single-window-center",
+      "pass": true,
+      "detail": "center"
+    },
+    {
+      "name": "outside-coverage",
+      "pass": true,
+      "detail": "invalid"
+    },
+    {
+      "name": "overlap-valid",
+      "pass": true,
+      "detail": "[1,0,0.7499999999999999,1]"
+    },
+    {
+      "name": "overlap-normalized",
+      "pass": true,
+      "detail": "[1,0,0.7499999999999999,1]"
+    },
+    {
+      "name": "odd-dimension",
+      "pass": true,
+      "detail": "odd"
+    },
+    {
+      "name": "even-dimension",
+      "pass": true,
+      "detail": "even"
+    },
+    {
+      "name": "phase-weight-zero-neutral",
+      "pass": true,
+      "detail": "1,1,1,1"
+    },
+    {
+      "name": "phase-weight-one-masks",
+      "pass": true,
+      "detail": "0,0,0,0"
+    },
+    {
+      "name": "confidence-product",
+      "pass": true,
+      "detail": "product"
+    },
+    {
+      "name": "multiplier-bounds",
+      "pass": true,
+      "detail": "bounds"
+    },
+    {
+      "name": "finite-output",
+      "pass": true,
+      "detail": "finite"
+    },
+    {
+      "name": "nonfinite-invalid",
+      "pass": true,
+      "detail": "invalid"
+    },
+    {
+      "name": "deterministic-digest",
+      "pass": true,
+      "detail": "c5267d0605f3e5b559f0d4794f2e55d8c78e8b2f3b0ae2cb2322739a5b2ef1d5"
+    },
+    {
+      "name": "no-nearest-fallback",
+      "pass": true,
+      "detail": "coverage tent only"
+    },
+    {
+      "name": "source-mismatch-fail-closed",
+      "pass": true,
+      "detail": "service preflight"
+    },
+    {
+      "name": "stage-mismatch-fail-closed",
+      "pass": true,
+      "detail": "service preflight"
+    },
+    {
+      "name": "layout-mismatch-fail-closed",
+      "pass": true,
+      "detail": "service preflight"
+    },
+    {
+      "name": "cancellation-before-publication",
+      "pass": true,
+      "detail": "abort checks before submit/fence"
+    },
+    {
+      "name": "atomic-two-field-publication",
+      "pass": true,
+      "detail": "publishFieldSet"
+    }
+  ]
+}

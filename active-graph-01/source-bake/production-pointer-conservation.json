@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "productionPointerMutation": false,
+  "pointerDigests": {
+    "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+    "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+  },
+  "digest": "4c021a0ca38271c93c84bf449ee1621bfab55b775d27b1ec915cc3b99fb312e0"
+}

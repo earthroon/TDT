@@ -1,0 +1,1 @@
+import fs from 'node:fs';import path from 'node:path';import {ROOT,check} from './lib.mjs';const p=path.join(ROOT,'app/features/resample-runtime/r11/installed-artifact-attestor.mjs');check(fs.existsSync(p),'E_R11_FINAL_RECEIPT_INCOMPLETE','missing R11 runtime module');console.log('verify-installed-attestation.mjs PASS');

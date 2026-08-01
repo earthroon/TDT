@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 4
+  },
+  "receiptKind": "r9a-p1-r2-runtime-self-test",
+  "schemaVersion": 1,
+  "selfSha256": "deeaf1de228309f946760c097853cec117375a909db03c8c549acb4a2ad51b4d",
+  "tests": [
+    {
+      "evidence": true,
+      "id": "SELF-01-PERMIT-PLAN",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "SELF-02-EXACT-CONSUMPTION",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "SELF-03-FOURTH-REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "SELF-04-WRONG-ORDER",
+      "status": "PASS"
+    }
+  ]
+}

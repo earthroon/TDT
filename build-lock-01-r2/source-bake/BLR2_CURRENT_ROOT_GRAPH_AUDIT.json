@@ -1,0 +1,144 @@
+{
+  "actual": {
+    "dependencies": {
+      "jszip": "^3.10.1",
+      "pako": "^2.1.0",
+      "sharp": "^0.33.2"
+    },
+    "devDependencies": {
+      "electron": "^29.0.0",
+      "electron-builder": "^24.13.3"
+    },
+    "optionalDependencies": {},
+    "peerDependencies": {}
+  },
+  "directRangeViolations": [],
+  "directRecordMissing": [
+    "pinia",
+    "vue",
+    "@napi-rs/cli",
+    "@vitejs/plugin-vue",
+    "vite",
+    "vue-tsc"
+  ],
+  "directRecordsComplete": false,
+  "directVersionsExact": true,
+  "expected": {
+    "dependencies": {
+      "jszip": "3.10.1",
+      "pako": "2.1.0",
+      "pinia": "3.0.1",
+      "sharp": "0.33.2",
+      "vue": "3.5.40"
+    },
+    "devDependencies": {
+      "@napi-rs/cli": "2.18.4",
+      "@vitejs/plugin-vue": "6.0.7",
+      "electron": "29.0.0",
+      "electron-builder": "24.13.3",
+      "typescript": "5.9.3",
+      "vite": "8.1.5",
+      "vue-tsc": "3.2.2"
+    },
+    "engines": {
+      "node": "22.16.0",
+      "npm": "10.9.2"
+    },
+    "optionalDependencies": {},
+    "packageManager": "npm@10.9.2",
+    "peerDependencies": {}
+  },
+  "integrityMissing": [],
+  "mismatches": [
+    {
+      "actual": "^3.10.1",
+      "expected": "3.10.1",
+      "kind": "range-drift",
+      "name": "jszip",
+      "scope": "dependencies"
+    },
+    {
+      "actual": "^2.1.0",
+      "expected": "2.1.0",
+      "kind": "range-drift",
+      "name": "pako",
+      "scope": "dependencies"
+    },
+    {
+      "actual": null,
+      "expected": "3.0.1",
+      "kind": "missing",
+      "name": "pinia",
+      "scope": "dependencies"
+    },
+    {
+      "actual": "^0.33.2",
+      "expected": "0.33.2",
+      "kind": "range-drift",
+      "name": "sharp",
+      "scope": "dependencies"
+    },
+    {
+      "actual": null,
+      "expected": "3.5.40",
+      "kind": "missing",
+      "name": "vue",
+      "scope": "dependencies"
+    },
+    {
+      "actual": null,
+      "expected": "2.18.4",
+      "kind": "missing",
+      "name": "@napi-rs/cli",
+      "scope": "devDependencies"
+    },
+    {
+      "actual": null,
+      "expected": "6.0.7",
+      "kind": "missing",
+      "name": "@vitejs/plugin-vue",
+      "scope": "devDependencies"
+    },
+    {
+      "actual": "^29.0.0",
+      "expected": "29.0.0",
+      "kind": "range-drift",
+      "name": "electron",
+      "scope": "devDependencies"
+    },
+    {
+      "actual": "^24.13.3",
+      "expected": "24.13.3",
+      "kind": "range-drift",
+      "name": "electron-builder",
+      "scope": "devDependencies"
+    },
+    {
+      "actual": null,
+      "expected": "5.9.3",
+      "kind": "missing",
+      "name": "typescript",
+      "scope": "devDependencies"
+    },
+    {
+      "actual": null,
+      "expected": "8.1.5",
+      "kind": "missing",
+      "name": "vite",
+      "scope": "devDependencies"
+    },
+    {
+      "actual": null,
+      "expected": "3.2.2",
+      "kind": "missing",
+      "name": "vue-tsc",
+      "scope": "devDependencies"
+    }
+  ],
+  "receiptKind": "build-lock-r2-root-graph",
+  "resolvedMissing": [],
+  "rootGraphDigest": "61811f1286de31e04434e54474abead87ad628f90d0a6c0f306127082bc4aeb8",
+  "rootGraphExact": false,
+  "schemaVersion": 2,
+  "selfSha256": "7358ace573f73f087c9e79ca031ff27d9a9dc90bb17d2a1234a42c7c3a9f5e26"
+}

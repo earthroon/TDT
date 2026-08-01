@@ -1,0 +1,14 @@
+{
+  "generationHandshake": true,
+  "journal": true,
+  "localPointerCas": true,
+  "packageClosure": true,
+  "packageStore": true,
+  "pass": true,
+  "pathPolicy": true,
+  "receiptSha256": "57e174c81d2635d73b58ba5ffe07afbc002b5e1de2e281c3652b70b12c9aaa01",
+  "recovery": true,
+  "retention": true,
+  "schemaVersion": 1,
+  "transaction": true
+}

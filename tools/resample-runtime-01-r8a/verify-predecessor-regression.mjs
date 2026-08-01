@@ -1,0 +1,5 @@
+import {runNode,sourceArtifact,seal,check,json} from './lib.mjs';
+const scripts=['tools/resample-runtime-01-r8/verify-support.mjs','tools/resample-runtime-01-r8/verify-semantics.mjs','tools/resample-runtime-01-r8/verify-conservation.mjs','tools/resample-runtime-01-r8/verify-generated-sources.mjs','tools/resample-runtime-01-r8/verify-runtime-wiring.mjs','tools/resample-runtime-01-r8/verify-negative-controls.mjs'];
+const results=scripts.map(script=>({script,...runNode(script)}));
+const historical=json('artifacts/resample-runtime-01-r13/source-bake/TDT_RESAMPLE_RUNTIME_01_R13_SOURCE_FINAL_RECEIPT.json');check(historical.sourcePass===192&&historical.fail===0,'E_R8A_PARENT_REGRESSION_FAILED','historical R13 parent receipt invalid');
+const report=seal({schemaVersion:1,patchId:'TDT-RESAMPLE-RUNTIME-01-R8A',pass:true,behavioralR8Checks:results,parentR13HistoricalSourcePass:historical.sourcePass,parentR13HistoricalFail:historical.fail,downstreamReceiptCurrent:false,replayRequired:true});sourceArtifact('R8A_PREDECESSOR_REGRESSION_REPORT.json',report);console.log('PASS R8A R8 behavioral regression and R13 historical inventory');

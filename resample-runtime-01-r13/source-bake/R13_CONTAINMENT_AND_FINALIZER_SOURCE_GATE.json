@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "criticalBreakersZeroTolerance": true,
+  "operationalThresholds": true,
+  "pauseStopsNewLeases": true,
+  "pauseRevokesUnconsumedLeases": true,
+  "containmentSigned": true,
+  "containmentRequestsR11Quarantine": true,
+  "containmentPointerMutation": false,
+  "rollbackR10Only": true,
+  "rollbackExpectedCas": true,
+  "noRemoteSilentRollback": true,
+  "smallCellSuppression": true,
+  "kAnonymityMinimum": 5,
+  "sourceFinalizerPresent": true,
+  "fleetPendingInSourceMode": true,
+  "pass": true,
+  "selfSha256": "8baf70a27256410584aa544c55c46bc95d785139e1d721894c4cf1f66a84c902"
+}

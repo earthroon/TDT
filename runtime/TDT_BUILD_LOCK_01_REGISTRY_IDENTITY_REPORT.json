@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "registryProfileId": "dadum.registry-input-v1",
+  "transportOriginSha256": "010482bebe08863dca17247a9f43b2fd68dbe2fae576d34641d7a5ff212e1377",
+  "logicalResolvedHostPolicy": "canonical-npmjs-v1",
+  "logicalResolvedHost": "registry.npmjs.org",
+  "tlsPeerCertificateSha256": null,
+  "strictSsl": true,
+  "scopedRegistryDigests": {},
+  "credentialPresent": false,
+  "credentialSourceId": "process-secret-channel-v1",
+  "fallbackRegistryUsed": false,
+  "probe": {
+    "exitCode": 1,
+    "timedOut": false,
+    "failureClass": "REGISTRY_AVAILABILITY_5XX"
+  }
+}

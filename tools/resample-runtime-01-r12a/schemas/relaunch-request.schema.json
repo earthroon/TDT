@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/relaunch-request.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "launchNonce",
+    "requestSha256"
+  ],
+  "title": "R12A relaunch-request",
+  "type": "object"
+}

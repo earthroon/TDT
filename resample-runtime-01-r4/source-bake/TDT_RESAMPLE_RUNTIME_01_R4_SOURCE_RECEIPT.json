@@ -1,0 +1,32 @@
+{
+  "canonicalRuntimeUsesR4": true,
+  "coordinateConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "packagedElectronStatus": "DEFERRED",
+  "parameterAbiId": "tdt.delta-k-ewa.params.v3",
+  "parameterBytes": 80,
+  "parentBundleSha256": "706033b69dd076eecb76de2c46ce9eeb543db40b969f338d285ad927c7266e7d",
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "physicalGpuExecuted": false,
+  "physicalGpuStatus": "DEFERRED_TO_R9",
+  "productCoordinateId": "tdt.ewa.product-coordinate.phase-correct-r4.v1",
+  "productionPointerDigest": "1ba18f9430d639bc4314e3cf6e0fa96aa3d7fa390c0648000d22b223065af2ef",
+  "productionPointerMutated": false,
+  "profileSchemaId": "tdt.ewa.tiled-profile.r4.v1",
+  "r2AssetsPreserved": true,
+  "r3EvidencePreserved": true,
+  "receiptDigest": "b91e69a3d7b7600aa3c611f8a84ecd65e2fe3e76b87da8567b990b40662dea81",
+  "referenceAsProductFallbackCount": 0,
+  "runtimeCpuFallbackCount": 0,
+  "schemaId": "tdt.ewa.resample-runtime-r4.source-receipt.v1",
+  "schemaVersion": 1,
+  "shaderDigests": {
+    "productR4": "d743126cf2413b7591363db2ee52ad430fa14fcd3c4a0f07907a9392482046ca",
+    "productR6": "1299c11260a188b0a5bfed7eabdc46c6c0c268db25bc372827cb6f839dd12948",
+    "reference": "4c0f978f48845f7af8c6c84b1b795f9a26bfc3ed8c043e66e034d206964da447",
+    "validationR4": "2c573a4839ab6f30bfeee7da2a5336becfabd48230ea2acd5f2a06f835663ba1",
+    "validationR6": "6a8107db3922eec9598c924806d2c90ceccef0c6a7d47cc75cf2412092dc477b"
+  },
+  "status": "RESAMPLE_RUNTIME_R4_PHASE_CORRECT_PRODUCT_REFERENCE_REPAIRED_AWAITING_R5",
+  "tileCoverageProofId": "tdt.ewa.tile-coverage.phase-aware-r4.v1"
+}

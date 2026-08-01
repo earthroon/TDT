@@ -1,0 +1,16 @@
+
+> dadumdadum@1.0.0 verify:build-lock-01-r2
+> node tools/build-lock-01-r2/verify-source.mjs
+
+BLR2 gate catalog 420 source / 580 win32
+BLR2 parent and pointer freeze PASS
+BLR2 implementation manifest PASS 63 files
+BLR2 downstream invalidation receipt PASS
+BLR2 root graph source PASS mismatch=12 preserved
+BLR2 config/cache/lifecycle/native policy PASS
+BLR2 downstream admission wiring PASS
+BLR2 negative controls PASS 40
+BLR2 JavaScript parse PASS 37/37
+BLR2 source contract PASS
+BLR2 source gates 420 PASS / 0 FAIL
+TDT-BUILD-LOCK-01-R2 420 SOURCE PASS / 580 WIN32 PENDING / 0 FAIL

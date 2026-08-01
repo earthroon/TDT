@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr05.source-final-receipt.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-05",
+  "status": "SOURCE_BAKED_AWAITING_PHYSICAL_GPU",
+  "sourceGateReportDigest": "ce9125f9aa900ed07f3ae74722f0b99d85f29be4c451583fdf25b01e3a5ad6df",
+  "negativeControlReportDigest": "88e59ec2c8fbd11f846b1bdc50a4166d502d476999de8509b624c7fe051f423c",
+  "adoptionUnitReportDigest": "710a295dc6a4cdbfaef8f3fe65f8e56719e13510ae2fdee6c4fdd655189b4edc",
+  "implementationManifestDigest": "394afbb45065e13270b62f54ee3d68ca5b079819ffd0da97edd4493c88f69f87",
+  "sourceGateCount": 240,
+  "sourcePassCount": 240,
+  "negativeControlCount": 64,
+  "physicalGateCount": 72,
+  "canonicalFinalTextureSourceClaim": true,
+  "physicalGpuClaim": false,
+  "selfSha256": "b0e181553f23e7e79df1095b17c89e18854eb9d20eb745a7b39477ab925f11fe"
+}

@@ -1,0 +1,85 @@
+PASS BE01-G001 lock receipt exists
+PASS BE01-G002 blocked lock state preserved
+PASS BE01-G003 input profile state exact
+PASS BE01-G004 lock sha bound
+PASS BE01-G005 package sha bound
+PASS BE01-G006 canonical target
+PASS BE01-G007 network forbidden
+PASS BE01-G008 input manifest seal
+PASS BE01-G009 host gate
+PASS BE01-G010 frozen cache gate
+PASS BE01-G011 isolated workspaces
+PASS BE01-G012 clean workspace filter
+PASS BE01-G013 source mutation zero
+PASS BE01-G014 lock mutation zero
+PASS BE01-G015 lock receipt digest
+PASS BE01-G016 vite root
+PASS BE01-G017 vite base
+PASS BE01-G018 production sourcemap false
+PASS BE01-G019 vite target
+PASS BE01-G020 public dir disabled
+PASS BE01-G021 runtime plugin
+PASS BE01-G022 five required workers
+PASS BE01-G023 worker url single authority
+PASS BE01-G024 no raw worker in export manager
+PASS BE01-G025 entry manifest emit
+PASS BE01-G026 entry schema v2
+PASS BE01-G027 entry digest
+PASS BE01-G028 renderer entry metadata
+PASS BE01-G029 metadata worker mapping
+PASS BE01-G030 mapping receipt
+PASS BE01-G031 owner encoder preserved
+PASS BE01-G032 codec protocol preserved
+PASS BE01-G033 control protocol preserved
+PASS BE01-G034 entry byte length
+PASS BE01-G035 static import edge
+PASS BE01-G036 dynamic import edge
+PASS BE01-G037 new URL edge
+PASS BE01-G038 locate file edge
+PASS BE01-G039 wasm closure
+PASS BE01-G040 icc closure contract
+PASS BE01-G041 pthread child contract
+PASS BE01-G042 shared chunk closure
+PASS BE01-G043 dynamic projection fail closed
+PASS BE01-G044 closure role
+PASS BE01-G045 closure ownership
+PASS BE01-G046 single owner gate
+PASS BE01-G047 bundle raw duplicate gate
+PASS BE01-G048 admission manifest
+PASS BE01-G049 not full legacy copy
+PASS BE01-G050 unadmitted raw blocked
+PASS BE01-G051 legacy sha records
+PASS BE01-G052 orphan executable gate
+PASS BE01-G053 alias contract
+PASS BE01-G054 url collision gate
+PASS BE01-G055 path escape gate
+PASS BE01-G056 emitted mode
+PASS BE01-G057 worker manifest digest
+PASS BE01-G058 worker set digest
+PASS BE01-G059 runtime not source-only
+PASS BE01-G060 runtime worker digest
+PASS BE01-G061 runtime vite digest
+PASS BE01-G062 renderer build id
+PASS BE01-G063 A/B file set
+PASS BE01-G064 A/B length
+PASS BE01-G065 A/B sha
+PASS BE01-G066 A/B closure digest contract
+PASS BE01-G067 A/B runtime manifest
+PASS BE01-G068 A/B build id
+PASS BE01-G069 absolute path leak gate
+PASS BE01-G070 credential leak gate
+PASS BE01-G071 timestamp leak gate
+PASS BE01-G072 route manifest artifact
+PASS BE01-G073 route sha mime coi
+PASS BE01-G074 synthetic route probe
+PASS BE01-G075 electron route probe
+PASS BE01-G076 server body parity
+PASS BE01-G077 coop policy
+PASS BE01-G078 coep policy
+PASS BE01-G079 corp policy
+PASS BE01-G080 wasm mime
+PASS BE01-G081 js mime
+PASS BE01-G082 icc mime
+PASS BE01-G083 error COI headers
+PASS BE01-G084 final blocked fix receipt
+PASS BUILD-EMIT-01 SOURCE GATES 84/84

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl-02.implementation-manifest.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "parentBundle": "65_TDT_BAKEMONO_RINNE_WGSL_01_FORMULA_COLOR_SCALAR_R1C_PHASE_AUTHORITY_SOURCE_BAKED_AWAITING_WGSL_02.zip",
+  "parentBundleSha256": "f76d550c1e05d215ac61254c57188de1c7b1e2caebcae0322f72c790627d85df",
+  "fileCount": 32,
+  "files": [
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_02_contract.mjs",
+      "byteLength": 11832,
+      "sha256": "24e7daea521bdddce33d3a61a45ca3d5d5e7d87fd30218089b2db41fb7bb65d1"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_02_params.mjs",
+      "byteLength": 6561,
+      "sha256": "bdc5f3cce3ba5fd1dc0ff41b5ed7f5ed657f2a9bee14b93ace3dbd0b89b74a2d"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_02_receipt.mjs",
+      "byteLength": 7052,
+      "sha256": "160f893c802eb35e60eb47cbd9163bb0fb5e6c677766a38119ea39d38d203430"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_02_pipeline.mjs",
+      "byteLength": 10927,
+      "sha256": "6c495d96f162d9802df066f26238d0392e790ed5af920e8ab6790c674543ffef"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_02_shadow_runtime.mjs",
+      "byteLength": 1450,
+      "sha256": "6480ba4aff602c76abd78b7393618b55222ac5b2254f1c382cae0b90beffcbdb"
+    },
+    {
+      "rel": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/bakemono_rinne_fusion_compat_v1.generated.wgsl",
+      "byteLength": 6721,
+      "sha256": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff"
+    },
+    {
+      "rel": "app/src/runtime/effects/bakemono-rinne/bakemono-rinne-wgsl-02-types.ts",
+      "byteLength": 3732,
+      "sha256": "5534feab3f2d742d9c91a626e1706b6f7587f722fc84fcaaa069889e401ce884"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/templates/compat-kernel.wgsl.tmpl",
+      "byteLength": 6537,
+      "sha256": "0a4d8ce1461f8093a7654ab15142f85ca9c7fa028500d9d74a77f95b58c9158e"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/generate-wgsl.mjs",
+      "byteLength": 3883,
+      "sha256": "5d59c1ddae3448e4b51bfd9dee051439972b99d711a51c9199c4a4ee8bd2b903"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/generate-fixtures.mjs",
+      "byteLength": 10315,
+      "sha256": "27f2e1f98dbcb3ec425fb03f5473b9bab2eb0c1edcef7944b4af7f84fe3ebad0"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/half-float.mjs",
+      "byteLength": 2344,
+      "sha256": "100d9fdc0ea35d2d0d7b4bdc4aaad3cd2e50bd174c29eb6181070ffe6f64685f"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/verify-generated-source.mjs",
+      "byteLength": 2882,
+      "sha256": "8bfff321b7eb36de948f192ba491cedef8334476dd5411ea5d9cc7fd18db0473"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/verify-wgsl-contract.mjs",
+      "byteLength": 4065,
+      "sha256": "c18461746654e7031c7f97d04d61fc2955e86e4cd35c71df5975de281974f21b"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/verify-cpu-f32-parity.mjs",
+      "byteLength": 3875,
+      "sha256": "d509cf2b42bf2e0e8a5b3f56d539ee05cd023b5c80b42a50acad68e2f9ff22b7"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/verify-shadow-authority.mjs",
+      "byteLength": 9011,
+      "sha256": "b46000311c3b134d5f288979f9ed6c33d50c112527aac2c2b592e309aee10c09"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/verify-negative-controls.mjs",
+      "byteLength": 8730,
+      "sha256": "2b6b24e21ee2bc9b8add3b672904b4b20ea5ee7346cc0cce58c57911e10b23b0"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/webgl-reference.mjs",
+      "byteLength": 1948,
+      "sha256": "6bc3226f67e5da18b6346c6744e4d4f00832ea112782999dd6e31095b7348b6a"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/qualification-page.html",
+      "byteLength": 228,
+      "sha256": "901e158d9781bd4e2f773b8ae5c7f2b73e38b3eb07df76050fe31c5d2f34a3ee"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/qualification-renderer.mjs",
+      "byteLength": 3584,
+      "sha256": "2b0af396d665f550576623f8f32639cb7ee9d81c4f9ee05178c4f82083756e7a"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/electron-qualification-main.mjs",
+      "byteLength": 1532,
+      "sha256": "62109c22d923d172f61cc776978d13e57646598906ea05105728f02cf179af5f"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/electron-qualification-preload.mjs",
+      "byteLength": 304,
+      "sha256": "83f29b7f3fd00537dff078ecd280470e4053c2768548ece4a89212f78e3c652c"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/run-electron-physical.mjs",
+      "byteLength": 991,
+      "sha256": "96e352742846b65251adbaa1097bbf8308bf70465994674e049071f6f7d8d880"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/verify-source.mjs",
+      "byteLength": 35154,
+      "sha256": "f77ae09dba9cf7150c207ece4c29651bc26377a843b172ad850c0506a003e95d"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/gate-source.mjs",
+      "byteLength": 147,
+      "sha256": "225346760d0aafc096378c016bb377cf8b440ed2d9e1c822a62f374afdcff691"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/finalize-source.mjs",
+      "byteLength": 372,
+      "sha256": "5a211bc57ac49e1e874de787bb1e35e18629a94ff8421a2d5858b14c79d15893"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/gate-physical.mjs",
+      "byteLength": 485,
+      "sha256": "f7393c483db13367c5ab3c8a25d2efe897583d22ef10ecd1317a6c8c662693f7"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/finalize-physical.mjs",
+      "byteLength": 30,
+      "sha256": "265c27c530c88962ce9b9b47142f165ddaafd46bfbca94d82d8470bfe61a774b"
+    },
+    {
+      "rel": "tools/bakemono-rinne-wgsl-02/source-gate-catalog.json",
+      "byteLength": 17680,
+      "sha256": "e736a458227ed317ef2212e607194795916ee6d73b627c96bb5e7ea0fc4227c8"
+    },
+    {
+      "rel": "specs/TDT-BAKEMONO-RINNE-WGSL-02_COMPATIBILITY_COMPUTE_EXACT_FORMULA_ABI_CPU_WEBGL_PARITY_SHADOW_DISPATCH_SEAL_SPEC.md",
+      "byteLength": 58557,
+      "sha256": "ddee01f03fb3463c4c1922bff2d809da3662dfd0303cc807e3623411ee2a3a84"
+    },
+    {
+      "rel": "specs/TDT-BAKEMONO-RINNE-WGSL-02_COMPATIBILITY_COMPUTE_EXACT_FORMULA_ABI_CPU_WEBGL_PARITY_SHADOW_DISPATCH_SEAL_SPEC.md.sha256",
+      "byteLength": 210,
+      "sha256": "b155eedc04c1a24a9c992223ae6d6ce757ff1c25aa4e69f17f22b997f18a426a"
+    },
+    {
+      "rel": "README_TDT_BAKEMONO_RINNE_WGSL_02_APPLIED.md",
+      "byteLength": 914,
+      "sha256": "bb199678b3d6cfa6fb94de0ed3900b9988c748ee82f0ccdead437c59106bf63c"
+    },
+    {
+      "rel": "package.json",
+      "byteLength": 50351,
+      "sha256": "6cdac2a029c8bc60c7c1d8b9947919d2b705c3dfb4616ccc53907f5050414e9d"
+    }
+  ],
+  "selfSha256": "3ed15b65982059668d99d436e0853957044d54126628b1c03e36cc1c69712bc5"
+}

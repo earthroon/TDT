@@ -1,0 +1,324 @@
+{
+  "implementationDigest": "a00cd7ca33bd98d13e1f2c44b5835143dd83cccd1c5dcd8b5997351c30208aaf",
+  "receiptKind": "build-lock-r2-implementation-manifest",
+  "recordCount": 63,
+  "records": [
+    {
+      "byteLength": 3572,
+      "relativePath": "app/features/resample-runtime/r14a/signed-package-manifest-v2.mjs",
+      "sha256": "17a15802b3a996c925ce0a1d28b5d6b0d0cd093220c63c334b869b0c8ed2831b"
+    },
+    {
+      "byteLength": 1193,
+      "relativePath": "app/renderer/physical-r9a/physical-runner.mjs",
+      "sha256": "b8db00beac95983e490d5ad03e912b333fb07b3a5b4b9337f5f83c7160fda35a"
+    },
+    {
+      "byteLength": 33752,
+      "relativePath": "app/src/boot/stable-error.ts",
+      "sha256": "b8f58f11173cc59ea9e77c2ba55dd674d69efc340cc2183f7cf9bbc6e62d3a9a"
+    },
+    {
+      "byteLength": 43506,
+      "relativePath": "package.json",
+      "sha256": "e1f8c034e54f37087c368d0339fc64b0d53210b29d3ab4f1ab94a6651727bb39"
+    },
+    {
+      "byteLength": 237116,
+      "relativePath": "specs/TDT-BUILD-LOCK-01-R2_EXACT_ROOT_DEPENDENCY_GRAPH_CANONICAL_NPM_CI_WIN32_X64_DUAL_INSTALL_CONTENT_DIGEST_NATIVE_TOOLCHAIN_CLOSURE_ZERO_LOCK_MUTATION_PRODUCTION_BUILD_ADMISSION_SEAL_SPEC.md",
+      "sha256": "c7fcc062defe7b03ddef4d00bf8c21a29d3e482e8651324067071c5e458c63c8"
+    },
+    {
+      "byteLength": 1493,
+      "relativePath": "tools/build-lock-01-r2/candidate-lock.mjs",
+      "sha256": "fdf8a6ad328fa550e11eed3bbc6e53ccf877ba183398e908321ec930713315d1"
+    },
+    {
+      "byteLength": 1968,
+      "relativePath": "tools/build-lock-01-r2/contract.mjs",
+      "sha256": "7add2da50decbeed3296ef0d47e4024386b9373eef65d8611d1df9e28fa90920"
+    },
+    {
+      "byteLength": 2936,
+      "relativePath": "tools/build-lock-01-r2/exact-root-graph.mjs",
+      "sha256": "ac08fb0dfede68827197f0215ff0cdb44bb5b7537e74e2d8d1415b39bf745e64"
+    },
+    {
+      "byteLength": 2198,
+      "relativePath": "tools/build-lock-01-r2/finalize-source.mjs",
+      "sha256": "3267cc636685af9abea8ec9bf0d25575ac010c5e20a258847e5ad2d5a8f18ce2"
+    },
+    {
+      "byteLength": 1626,
+      "relativePath": "tools/build-lock-01-r2/finalize-win32.mjs",
+      "sha256": "3b5b6623ccd0f7b94a9959edb68be3238db6db7f454711ff2c4aaf4f6c60ec60"
+    },
+    {
+      "byteLength": 1564,
+      "relativePath": "tools/build-lock-01-r2/finalizer.mjs",
+      "sha256": "f8ca77934ba7f6b86a7750ef081a458ff2a8701c041f7dd32e2e18159eb374c5"
+    },
+    {
+      "byteLength": 1302,
+      "relativePath": "tools/build-lock-01-r2/gate-source.mjs",
+      "sha256": "517cc3acf0eab118a20db19febe0b906d51135eecdf15ce4399edba5a381071f"
+    },
+    {
+      "byteLength": 1476,
+      "relativePath": "tools/build-lock-01-r2/generate-downstream-invalidation.mjs",
+      "sha256": "6d115e42ec993875ad1ec0ee319c93ca59178d9de56d6fd3c96933aea5803734"
+    },
+    {
+      "byteLength": 1851,
+      "relativePath": "tools/build-lock-01-r2/generate-implementation-manifest.mjs",
+      "sha256": "a3d7b65d0491ebfc56b4071149865a7f3465dcddc9f32232cfeef2cbc5c16863"
+    },
+    {
+      "byteLength": 3549,
+      "relativePath": "tools/build-lock-01-r2/generate-source-artifacts.mjs",
+      "sha256": "69e5f528627efe1d05cea34d21aa83c0e13e8b471e85ca3e504cd4100c9b2954"
+    },
+    {
+      "byteLength": 1866,
+      "relativePath": "tools/build-lock-01-r2/identity.mjs",
+      "sha256": "c66ade5125677aafb95dbbddec27cfb941fa489e9c3e78ed601d8b0ca25a5c93"
+    },
+    {
+      "byteLength": 1262,
+      "relativePath": "tools/build-lock-01-r2/install-content-manifest.mjs",
+      "sha256": "95260be96a95629c96bfb708e407e100bfdbdea2d47e87c47e3b2ae628264782"
+    },
+    {
+      "byteLength": 889,
+      "relativePath": "tools/build-lock-01-r2/install-runner.mjs",
+      "sha256": "98ff6cbdafe5f3be9885ce0f9bd2d7af9f449caaf38884e1ac6a0e58aa1907f3"
+    },
+    {
+      "byteLength": 3037,
+      "relativePath": "tools/build-lock-01-r2/lib.mjs",
+      "sha256": "ba3bbf4de2add23816306e936976e36f3a2277fd29f1daf5dd108e09b343e097"
+    },
+    {
+      "byteLength": 1612,
+      "relativePath": "tools/build-lock-01-r2/lifecycle-plan.mjs",
+      "sha256": "e6e7d08754b3ad88ee0081f0e8c591525457cdab353f73aa779106347101e7fb"
+    },
+    {
+      "byteLength": 847,
+      "relativePath": "tools/build-lock-01-r2/lifecycle-runner.mjs",
+      "sha256": "348e7beea43887efe55b946aa9ae6ec794b30659a01a63ce1780693d122a7474"
+    },
+    {
+      "byteLength": 884,
+      "relativePath": "tools/build-lock-01-r2/mutation-monitor.mjs",
+      "sha256": "56d74501e27e1094f0d7d6c7d3a63b4cbff983fb96e93244826405fd84e7185c"
+    },
+    {
+      "byteLength": 674,
+      "relativePath": "tools/build-lock-01-r2/native-build-runner.mjs",
+      "sha256": "c43a1e88feb79fb7ee1de9c04e5be1cccf9dc1aff696988158ad726da7a9baa7"
+    },
+    {
+      "byteLength": 1639,
+      "relativePath": "tools/build-lock-01-r2/native-toolchain-manifest.mjs",
+      "sha256": "8db8fcb92fac245f3c3e85a85a61a6afff31fdd33f81b093518d13254ee1e922"
+    },
+    {
+      "byteLength": 1418,
+      "relativePath": "tools/build-lock-01-r2/npm-config-authority.mjs",
+      "sha256": "5526498955d4ea3df2841e0bf8de1b768c8cd4bd74dde8c82c152f096558f71a"
+    },
+    {
+      "byteLength": 671,
+      "relativePath": "tools/build-lock-01-r2/package-closure-manifest.mjs",
+      "sha256": "6fb414a0eaf82c5a0f275be41feefe52fc5e4484ce7f53289edf6fe348c2af41"
+    },
+    {
+      "byteLength": 623,
+      "relativePath": "tools/build-lock-01-r2/post-promotion-replay.mjs",
+      "sha256": "cb91bb4cae5d0ec23e1bce61ba4194c9f5652e98263454f1d99f825611b4e925"
+    },
+    {
+      "byteLength": 1160,
+      "relativePath": "tools/build-lock-01-r2/production-build-runner.mjs",
+      "sha256": "a6755bd714d443a7ba86e01e95cb4503e12dc3912b72fdbfedd0d9b24a9cf496"
+    },
+    {
+      "byteLength": 1342,
+      "relativePath": "tools/build-lock-01-r2/promote-lock-cas.mjs",
+      "sha256": "7ea95d7692e99ac3033b58992d1818a0f119f52e1bccbaf49eeefc330335f981"
+    },
+    {
+      "byteLength": 637,
+      "relativePath": "tools/build-lock-01-r2/promote.mjs",
+      "sha256": "21a647ebe9b722809383de1b1f537dbbdba5aa2991cc66161382b495b96c2912"
+    },
+    {
+      "byteLength": 295,
+      "relativePath": "tools/build-lock-01-r2/recover.mjs",
+      "sha256": "772089d72023d5911c06602ac44763e1db6e01a5a1dff5f1d61a2a758af1b6d7"
+    },
+    {
+      "byteLength": 1175,
+      "relativePath": "tools/build-lock-01-r2/registry-cache-closure.mjs",
+      "sha256": "8b0edc936edf5a098aa3bdfb9878cb0f142c308eeda0cb66529d4079c1b6a45e"
+    },
+    {
+      "byteLength": 3002,
+      "relativePath": "tools/build-lock-01-r2/run-win32.mjs",
+      "sha256": "0ebf0a5748145c92dfae8b7866329cb3f00f327a7d7b7731f9136e791c0e1c22"
+    },
+    {
+      "byteLength": 473,
+      "relativePath": "tools/build-lock-01-r2/schemas/build-parity.schema.json",
+      "sha256": "473345f03f025807db89a060ebca6ed1d31643f92ab47ccec94565a1e9bd5b1b"
+    },
+    {
+      "byteLength": 475,
+      "relativePath": "tools/build-lock-01-r2/schemas/cache-closure.schema.json",
+      "sha256": "98c54709c4f93e1f7dda34a9b4eb3781c05e668fa89be4253bab5a5cb3a5f790"
+    },
+    {
+      "byteLength": 479,
+      "relativePath": "tools/build-lock-01-r2/schemas/final-admission.schema.json",
+      "sha256": "473b9a9e3dfa3ca5da7b3e526633b83c47710087e261d130b4d26f9426da7d44"
+    },
+    {
+      "byteLength": 475,
+      "relativePath": "tools/build-lock-01-r2/schemas/input-profile.schema.json",
+      "sha256": "5b1ca652b355e560c5b4388f66a86429f9da191624ea7aa54d70505dafd42f68"
+    },
+    {
+      "byteLength": 477,
+      "relativePath": "tools/build-lock-01-r2/schemas/install-parity.schema.json",
+      "sha256": "61cf2d95d829db33997e45ff1baaf16b3bf1462e9ce13c9f5ff342d43b16ec7f"
+    },
+    {
+      "byteLength": 471,
+      "relativePath": "tools/build-lock-01-r2/schemas/install-run.schema.json",
+      "sha256": "f2075e64184105d31b3d2572b09b773b8095dff411395c450dc11208bd231c43"
+    },
+    {
+      "byteLength": 475,
+      "relativePath": "tools/build-lock-01-r2/schemas/lifecycle-run.schema.json",
+      "sha256": "a52247e06a7e57f3202f93737589f8c42d56df778e8d2f9ec15617fdf9214963"
+    },
+    {
+      "byteLength": 477,
+      "relativePath": "tools/build-lock-01-r2/schemas/lock-candidate.schema.json",
+      "sha256": "2743132a3f6c196b2e00d29a5eee0c91adeec96fb2ffe44e472a7c19b1d4c260"
+    },
+    {
+      "byteLength": 475,
+      "relativePath": "tools/build-lock-01-r2/schemas/mutation-zero.schema.json",
+      "sha256": "39abc5940ea071bc174945dc68da7a98b91d1e08d6fd6870247c1b37d1100607"
+    },
+    {
+      "byteLength": 473,
+      "relativePath": "tools/build-lock-01-r2/schemas/native-build.schema.json",
+      "sha256": "02d48c64a131a8f4cb75c34cc1a26c0bb5a895b9391cb8e04b46b0a101ab17f8"
+    },
+    {
+      "byteLength": 481,
+      "relativePath": "tools/build-lock-01-r2/schemas/native-toolchain.schema.json",
+      "sha256": "5ce7752c2253564afbc8c77319c48f2059bd1adeb82f1011c7f3cd8b42c5e402"
+    },
+    {
+      "byteLength": 491,
+      "relativePath": "tools/build-lock-01-r2/schemas/post-promotion-replay.schema.json",
+      "sha256": "f571e904ed028547223acdb951e2108f5e5c4f5d6de014bd570b7ca1d8c7b534"
+    },
+    {
+      "byteLength": 481,
+      "relativePath": "tools/build-lock-01-r2/schemas/production-build.schema.json",
+      "sha256": "6e4af99f3f992927cae840741c493f746d750e62b34a6978882e651331f763aa"
+    },
+    {
+      "byteLength": 481,
+      "relativePath": "tools/build-lock-01-r2/schemas/promotion-effect.schema.json",
+      "sha256": "429d744eee09e586edc84b4522734c1e8617ad0b025f945b0140e21a514c40ec"
+    },
+    {
+      "byteLength": 481,
+      "relativePath": "tools/build-lock-01-r2/schemas/promotion-intent.schema.json",
+      "sha256": "383bd32b46ae8cc498cc1ab9d21c384d5de792cdbe6067c5672fb05d981fde9b"
+    },
+    {
+      "byteLength": 469,
+      "relativePath": "tools/build-lock-01-r2/schemas/root-graph.schema.json",
+      "sha256": "8d774d3f38d4f4cb2c15934839377b0c6c9c459e745b00922ab78491e7b61a1a"
+    },
+    {
+      "byteLength": 1649,
+      "relativePath": "tools/build-lock-01-r2/verify-integration.mjs",
+      "sha256": "2c9d82f0ee1149cfa584ddb70adc0310ec778535523987dba19a83e6245bf427"
+    },
+    {
+      "byteLength": 808,
+      "relativePath": "tools/build-lock-01-r2/verify-javascript-parse.mjs",
+      "sha256": "798116c6e31f59733677e65d8fa22339c046c5018c5b356ed8dd8635600ceda2"
+    },
+    {
+      "byteLength": 10323,
+      "relativePath": "tools/build-lock-01-r2/verify-negative-controls.mjs",
+      "sha256": "5f7f0098c4144aab34ef2c2cca324f514299dcd0eadf1375e2cfd276a476f9f7"
+    },
+    {
+      "byteLength": 1098,
+      "relativePath": "tools/build-lock-01-r2/verify-parent-lineage.mjs",
+      "sha256": "4cf1b38bafc3b60711dc61b35b699d54b77c0b2efdbf46ff0f534982d82f5eaa"
+    },
+    {
+      "byteLength": 1258,
+      "relativePath": "tools/build-lock-01-r2/verify-policy-source.mjs",
+      "sha256": "5796870cc29f9dbff344cb73e4b4c630a80041d4af172ff81de99ae153810f76"
+    },
+    {
+      "byteLength": 949,
+      "relativePath": "tools/build-lock-01-r2/verify-root-graph-source.mjs",
+      "sha256": "0a6f563c09115198f3e046fd10ff2253ab668213b0a391830a671492fd0022d0"
+    },
+    {
+      "byteLength": 1957,
+      "relativePath": "tools/build-lock-01-r2/verify-source-contract.mjs",
+      "sha256": "fa98a8a3bb1612b341976ab70a08935ae30e4ec6fddc3c530c8df07ca884d8b8"
+    },
+    {
+      "byteLength": 544,
+      "relativePath": "tools/build-lock-01-r2/verify-source.mjs",
+      "sha256": "9549e808b883b39ece52865c622b0bf9b8d8cdffa3a152e767efe54f0305d89e"
+    },
+    {
+      "byteLength": 505,
+      "relativePath": "tools/build-lock-01-r2/verify-win32.mjs",
+      "sha256": "152f929b87c52ad62675c3e192fc084bea5e5254cab732d059752cb961570700"
+    },
+    {
+      "byteLength": 3019,
+      "relativePath": "tools/resample-runtime-01-r10a/rebuild-authority.mjs",
+      "sha256": "63259a51d5cd547c4be47d6e25004d2677376f3f682960332ecd42c426d79777"
+    },
+    {
+      "byteLength": 1803,
+      "relativePath": "tools/resample-runtime-01-r10a/verify-rebuild.mjs",
+      "sha256": "95a364cfd0aa1f02c6b80e1d4d988fe28305e2af79e048fda270b1872bbeb119"
+    },
+    {
+      "byteLength": 9962,
+      "relativePath": "tools/resample-runtime-01-r14a/test-fixture.mjs",
+      "sha256": "90f9dd6c5ddb77062a8f601d5650eafdae82a0175bcc156080d4fca61c54c8d6"
+    },
+    {
+      "byteLength": 1217,
+      "relativePath": "tools/verify-dependency-lock.mjs",
+      "sha256": "75fd220a0e8cb27f13697cb328d2cece52d0ef86311069020064c4db8b970462"
+    },
+    {
+      "byteLength": 2080,
+      "relativePath": "tools/verify-toolchain-profile.mjs",
+      "sha256": "6aa7c8e2184a8b0778e9f4fafdaf7acb8b9d8a77909f84de2dd3a4d58c6e24b6"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "ffc58fa76e3c46a71749a33118f4d34cdd1e1522c67ad2178ee3334d98f9e622"
+}

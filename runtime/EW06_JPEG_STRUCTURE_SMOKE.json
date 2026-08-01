@@ -1,0 +1,27 @@
+{
+  "schema": "tdt-export-worker-06-jpeg-structure-smoke-v1",
+  "status": "PASS",
+  "sourceBakeOnly": true,
+  "actualModjpegEncodeExecuted": false,
+  "independentDecoderExecuted": false,
+  "lossyMetricExecuted": false,
+  "fixtureByteLength": 151,
+  "precision": 8,
+  "height": 2,
+  "width": 3,
+  "components": 3,
+  "sampling": [
+    17,
+    17,
+    17
+  ],
+  "frame": "SOF0",
+  "subsampling": "4:4:4",
+  "sosCount": 1,
+  "eoiCount": 1,
+  "jfifCount": 1,
+  "eofExact": true,
+  "subsamplingRejected": true,
+  "progressiveRejected": true,
+  "trailingRejected": true
+}

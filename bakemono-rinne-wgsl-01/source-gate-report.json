@@ -1,0 +1,1600 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl-01.source-gate-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-01",
+  "status": "PASS",
+  "gateCount": 176,
+  "passCount": 176,
+  "failCount": 0,
+  "groupSummary": {
+    "INV": {
+      "total": 24,
+      "pass": 24,
+      "fail": 0
+    },
+    "FOR": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "COL": {
+      "total": 20,
+      "pass": 20,
+      "fail": 0
+    },
+    "SCL": {
+      "total": 20,
+      "pass": 20,
+      "fail": 0
+    },
+    "TEN": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "L2": {
+      "total": 20,
+      "pass": 20,
+      "fail": 0
+    },
+    "PHS": {
+      "total": 16,
+      "pass": 16,
+      "fail": 0
+    },
+    "AUT": {
+      "total": 20,
+      "pass": 20,
+      "fail": 0
+    }
+  },
+  "completionAssertions": {
+    "noWgslKernelAuthored": true,
+    "wgslKernelFiles": [],
+    "canonicalFinalTextureClaim": false,
+    "commandGraphRuntimeUnmodified": true
+  },
+  "formulaOracleDigest": "24aebd722274f011052bd6f399af8afa9a0f27cd9857faa604ccc31ce2800544",
+  "tensorNegativeControlDigest": "e159be36638944e8b96e8c6439923275128dc347abb9443855b15544361caca9",
+  "inventoryDigest": "460801db36170be2c5c2c37e83dab0c29cf92100ae07f06bbf94767d4a026954",
+  "rows": [
+    {
+      "id": "BKR01-INV-001",
+      "description": "authority source path exact",
+      "ok": true,
+      "evidence": "app/legacy-runtime/shaders/rinne_bakemono_fusion_frag.glsl",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-002",
+      "description": "authority source SHA-256 exact",
+      "ok": true,
+      "evidence": "88a33809136a3a3dafd1397e2a017a9c644e866ae9fb29ed54990a554f9601e1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-003",
+      "description": "utility source path exact",
+      "ok": true,
+      "evidence": "app/legacy-runtime/shaders/glsl_util.glsl",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-004",
+      "description": "utility source SHA-256 exact",
+      "ok": true,
+      "evidence": "410558cb4697e8e692e0321b1376d690725be582badb99d85e39e3ae830905c1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-005",
+      "description": "exactly one FORMULA_AUTHORITY",
+      "ok": true,
+      "evidence": "one authority",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-006",
+      "description": "duplicate alias byte identity",
+      "ok": true,
+      "evidence": {
+        "sourceRelative": "app/legacy-runtime/asar-unpack/shaders/rinne_bakemono_fusion_frag.glsl",
+        "sha256": "88a33809136a3a3dafd1397e2a017a9c644e866ae9fb29ed54990a554f9601e1",
+        "classification": "DUPLICATE_ALIAS",
+        "formulaFamily": "legacy-fusion-compat",
+        "compileClaim": "COMPILABLE",
+        "authorityEligible": false,
+        "reasonCode": "BYTE_IDENTICAL_PACKAGED_ALIAS"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-007",
+      "description": "root mixed-dialect fusion quarantined",
+      "ok": true,
+      "evidence": "quarantined",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-008",
+      "description": "patched root fusion future-only",
+      "ok": true,
+      "evidence": "future",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-009",
+      "description": "patched shaders fusion quarantined",
+      "ok": true,
+      "evidence": "quarantined",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-010",
+      "description": "standalone Rinne reference-only",
+      "ok": true,
+      "evidence": "reference",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-011",
+      "description": "standalone Bakemono reference-only",
+      "ok": true,
+      "evidence": "reference",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-012",
+      "description": "tensor Bakemono future-only",
+      "ok": true,
+      "evidence": "future",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-013",
+      "description": "deltaE attenuation future-only",
+      "ok": true,
+      "evidence": "future",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-014",
+      "description": "gamma Rinne future-only",
+      "ok": true,
+      "evidence": "future",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-015",
+      "description": "empty Bakemono document-only",
+      "ok": true,
+      "evidence": "document",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-016",
+      "description": "falloff fragment document-only",
+      "ok": true,
+      "evidence": "document",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-017",
+      "description": "inventory canonical JSON order",
+      "ok": true,
+      "evidence": "canonical JSON",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-018",
+      "description": "inventory digest reproducible",
+      "ok": true,
+      "evidence": "460801db36170be2c5c2c37e83dab0c29cf92100ae07f06bbf94767d4a026954",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-019",
+      "description": "unknown fragment fail-closed",
+      "ok": true,
+      "evidence": "unknown source denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-020",
+      "description": "source rename without manifest fails",
+      "ok": true,
+      "evidence": "rename denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-021",
+      "description": "digest mutation negative control",
+      "ok": true,
+      "evidence": "digest mutation detected",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-022",
+      "description": "classification mutation negative control",
+      "ok": true,
+      "evidence": "classification mutation denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-023",
+      "description": "second authority negative control",
+      "ok": true,
+      "evidence": "second authority denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-INV-024",
+      "description": "quarantined generator input negative control",
+      "ok": true,
+      "evidence": "quarantine denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-001",
+      "description": "TAU_COMPAT equals 6.283",
+      "ok": true,
+      "evidence": 6.283,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-002",
+      "description": "effective RGB-to-XYZ matrix exact",
+      "ok": true,
+      "evidence": [
+        [
+          0.4124,
+          0.3576,
+          0.1805
+        ],
+        [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        [
+          0.0193,
+          0.1192,
+          0.9505
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-003",
+      "description": "effective XYZ-to-RGB matrix exact",
+      "ok": true,
+      "evidence": [
+        [
+          3.2406,
+          -1.5372,
+          -0.4986
+        ],
+        [
+          -0.9689,
+          1.8758,
+          0.0415
+        ],
+        [
+          0.0557,
+          -0.204,
+          1.057
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-004",
+      "description": "Lab threshold 0.008856 exact",
+      "ok": true,
+      "evidence": "threshold",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-005",
+      "description": "Lab linear coefficient 7.787 exact",
+      "ok": true,
+      "evidence": "linear coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-006",
+      "description": "white point 0.9505/1/1.089 exact",
+      "ok": true,
+      "evidence": [
+        0.9505,
+        1,
+        1.089
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-007",
+      "description": "Rinne phase order exact",
+      "ok": true,
+      "evidence": "phase order",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-008",
+      "description": "Lab a displacement exact",
+      "ok": true,
+      "evidence": "Lab a",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-009",
+      "description": "Lab b displacement exact",
+      "ok": true,
+      "evidence": "Lab b",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-010",
+      "description": "CMYK C phase multiplier 0.8 exact",
+      "ok": true,
+      "evidence": "0.8",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-011",
+      "description": "CMYK M phase multiplier 0.9 exact",
+      "ok": true,
+      "evidence": "0.9",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-012",
+      "description": "CMYK displacement 0.1 exact",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-013",
+      "description": "Lab/CMYK mix 0.5 exact",
+      "ok": true,
+      "evidence": 0.5,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-014",
+      "description": "mask average 0.5/0.5 exact",
+      "ok": true,
+      "evidence": [
+        0.5,
+        0.5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-015",
+      "description": "neon sqrt exponent 0.5 exact",
+      "ok": true,
+      "evidence": "sqrt",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-016",
+      "description": "neon multiplier 1.5 exact",
+      "ok": true,
+      "evidence": 1.5,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-017",
+      "description": "fusion smoothstep 0.3/0.6 exact",
+      "ok": true,
+      "evidence": [
+        0.3,
+        0.6
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-018",
+      "description": "final k q*s*power exact",
+      "ok": true,
+      "evidence": "q*s*power",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-019",
+      "description": "final alpha preserved",
+      "ok": true,
+      "evidence": "alpha",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-020",
+      "description": "Lab output clamp preserved",
+      "ok": true,
+      "evidence": "Lab clamp",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-021",
+      "description": "CMYK output unclamped internally",
+      "ok": true,
+      "evidence": "CMYK internal unclamped",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-022",
+      "description": "operation ordering canonical",
+      "ok": true,
+      "evidence": "ordering tokens",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-023",
+      "description": "profile ID required",
+      "ok": true,
+      "evidence": "profile required",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-024",
+      "description": "compat profile shadow-only",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.profile.legacy-fusion-compat-shadow.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-025",
+      "description": "R1C profile distinct ID",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.profile.r1c-gated-canonical.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-026",
+      "description": "constant mutation negative control",
+      "ok": true,
+      "evidence": 2.7473726155191613e-7,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-027",
+      "description": "matrix transpose negative control",
+      "ok": true,
+      "evidence": 0.1531,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-FOR-028",
+      "description": "hidden sRGB decode negative control",
+      "ok": true,
+      "evidence": 0.25766850079506176,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-001",
+      "description": "canonical input rgba16float",
+      "ok": true,
+      "evidence": {
+        "format": "rgba16float",
+        "transfer": "linear",
+        "alphaMode": "premultiplied"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-002",
+      "description": "canonical input linear",
+      "ok": true,
+      "evidence": {
+        "format": "rgba16float",
+        "transfer": "linear",
+        "alphaMode": "premultiplied"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-003",
+      "description": "canonical input premultiplied",
+      "ok": true,
+      "evidence": {
+        "format": "rgba16float",
+        "transfer": "linear",
+        "alphaMode": "premultiplied"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-004",
+      "description": "legacy working encoded RGB",
+      "ok": true,
+      "evidence": {
+        "format": "logical-f32-rgb",
+        "transfer": "srgb-encoded-compat",
+        "alphaMode": "straight"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-005",
+      "description": "legacy working straight alpha",
+      "ok": true,
+      "evidence": {
+        "format": "logical-f32-rgb",
+        "transfer": "srgb-encoded-compat",
+        "alphaMode": "straight"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-006",
+      "description": "safe unpremultiply",
+      "ok": true,
+      "evidence": {
+        "rgb": [
+          0.48452920448170694,
+          0.6651850846308363,
+          0.7977377330312598
+        ],
+        "alpha": 0.5
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-007",
+      "description": "alpha epsilon range",
+      "ok": true,
+      "evidence": 0.000001,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-008",
+      "description": "linear-to-sRGB adapter explicit",
+      "ok": true,
+      "evidence": "explicit",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-009",
+      "description": "legacy rgb2lab no internal transfer decode",
+      "ok": true,
+      "evidence": "no internal decode",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-010",
+      "description": "legacy output finite check",
+      "ok": true,
+      "evidence": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-011",
+      "description": "encoded output clamp at adapter",
+      "ok": true,
+      "evidence": "clamp",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-012",
+      "description": "sRGB-to-linear adapter explicit",
+      "ok": true,
+      "evidence": "explicit",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-013",
+      "description": "output premultiply",
+      "ok": true,
+      "evidence": [
+        0.016552383285442528,
+        0.06643416077690899,
+        0.15927338906254593,
+        0.5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-014",
+      "description": "output alpha preserved",
+      "ok": true,
+      "evidence": 0.5,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-015",
+      "description": "hidden RGB zero at alpha zero",
+      "ok": true,
+      "evidence": {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-016",
+      "description": "color contract ID receipt",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.color.legacy-encoded-matrix-compat.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-017",
+      "description": "surface adapter ID receipt",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.surface-adapter.linear-premul-legacy-straight.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-018",
+      "description": "row-major corrected profile not aliased",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.color.linear-d65-corrected.future.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-019",
+      "description": "alpha-mode mutation negative control",
+      "ok": true,
+      "evidence": "mutation denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-COL-020",
+      "description": "transfer-mode mutation negative control",
+      "ok": true,
+      "evidence": "mutation denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-001",
+      "description": "qmap role explicit",
+      "ok": true,
+      "evidence": {
+        "inputRole": "qmap",
+        "semanticId": "tdt.effect.bakemono-rinne.qmap.normalized-response.v1",
+        "format": "r16float-or-rgba16float",
+        "channel": "R",
+        "range": [
+          0,
+          1
+        ],
+        "neutral": 0,
+        "coordinateSpace": "output-pixel",
+        "interpolation": "linear"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-002",
+      "description": "qmap range [0,1]",
+      "ok": true,
+      "evidence": [
+        0,
+        1
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-003",
+      "description": "qmap neutral 0",
+      "ok": true,
+      "evidence": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-004",
+      "description": "qmap output-pixel coordinates",
+      "ok": true,
+      "evidence": "output-pixel",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-005",
+      "description": "legacy deltaE profile explicit",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.scalar.legacy-delta-e-compat.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-006",
+      "description": "legacy deltaE not CIEDE2000 claim",
+      "ok": true,
+      "evidence": "not CIEDE2000",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-007",
+      "description": "Q-wave real deltaK profile explicit",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.scalar.qwave-real-delta-k.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-008",
+      "description": "Q-wave confidence channel G",
+      "ok": true,
+      "evidence": "G",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-009",
+      "description": "Q-wave validity channel A",
+      "ok": true,
+      "evidence": "A",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-010",
+      "description": "Q-wave mapping distinct formula ID",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.mapping.qwave-real-delta-k.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-011",
+      "description": "q and s no texture alias",
+      "ok": true,
+      "evidence": "alias denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-012",
+      "description": "scalar gain explicit",
+      "ok": true,
+      "evidence": "gain required",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-013",
+      "description": "missing scalar fail-closed",
+      "ok": true,
+      "evidence": "missing denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-014",
+      "description": "semantic mismatch fail-closed",
+      "ok": true,
+      "evidence": "mismatch denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-015",
+      "description": "range metadata required",
+      "ok": true,
+      "evidence": "range denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-016",
+      "description": "coordinate mapping required",
+      "ok": true,
+      "evidence": "mapping denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-017",
+      "description": "validity zero makes scalar zero",
+      "ok": true,
+      "evidence": "validity zero",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-018",
+      "description": "profile ID in receipt",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.scalar.legacy-delta-e-compat.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-019",
+      "description": "deltaE label spoof negative control",
+      "ok": true,
+      "evidence": "labels distinct",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-SCL-020",
+      "description": "Q-wave alias negative control",
+      "ok": true,
+      "evidence": "alias denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-001",
+      "description": "required semantic ID exact",
+      "ok": true,
+      "evidence": "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-002",
+      "description": "fieldTexture tangent packing exact",
+      "ok": true,
+      "evidence": "tdt.tensor.tangent-coherence-edge.rgba.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-003",
+      "description": "axial texture packing distinguished",
+      "ok": true,
+      "evidence": "distinguished",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-004",
+      "description": "terminal source surface lineage",
+      "ok": true,
+      "evidence": "surface:fixture",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-005",
+      "description": "terminal source revision lineage",
+      "ok": true,
+      "evidence": 1,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-006",
+      "description": "tensor dimensions exact",
+      "ok": true,
+      "evidence": [
+        33,
+        33
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-007",
+      "description": "identity coordinate mapping",
+      "ok": true,
+      "evidence": "IDENTITY_OUTPUT_PIXEL",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-008",
+      "description": "runtime epoch exact",
+      "ok": true,
+      "evidence": 7,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-009",
+      "description": "device epoch exact",
+      "ok": true,
+      "evidence": 3,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-010",
+      "description": "device identity exact",
+      "ok": true,
+      "evidence": "gpu:fixture",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-011",
+      "description": "tensor truth claim true",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-012",
+      "description": "tensor mode canonical-terminal-r1c",
+      "ok": true,
+      "evidence": "canonical-terminal-r1c",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-013",
+      "description": "tensor sigma positive",
+      "ok": true,
+      "evidence": 1.15,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-014",
+      "description": "kernel radius positive",
+      "ok": true,
+      "evidence": 4,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-015",
+      "description": "gradient digest recorded",
+      "ok": true,
+      "evidence": "8684b23a8ce508cdc3f924c33d1aa953d9f7f385caf5946f9abde60a0125d523",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-016",
+      "description": "outer digest recorded",
+      "ok": true,
+      "evidence": "9f5efaf050770153aff11f8ac75fc23e58be0dd645bf447bfbb77b5db46acab7",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-017",
+      "description": "blurH digest recorded",
+      "ok": true,
+      "evidence": "3a61bff829b29a8cfee2a6cd034f80c907f9818419a2ff11872f3694827f0dad",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-018",
+      "description": "blurV digest recorded",
+      "ok": true,
+      "evidence": "b107acc388179159aa0baf32abba2be445b4d91b34e73d0c40539e785497d038",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-019",
+      "description": "eigen digest recorded",
+      "ok": true,
+      "evidence": "c4560743a9d42718e261c2cd2f069289aed6efabd341dc11b89c7c765ff38728",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-020",
+      "description": "lambda2 receipt digest recorded",
+      "ok": true,
+      "evidence": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-021",
+      "description": "same command graph ownership",
+      "ok": true,
+      "evidence": "graph:fixture",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-022",
+      "description": "raw GPUTexture denied",
+      "ok": true,
+      "evidence": "raw denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-023",
+      "description": "stale tensor denied",
+      "ok": true,
+      "evidence": "stale denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-024",
+      "description": "prior frame tensor denied",
+      "ok": true,
+      "evidence": "prior denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-025",
+      "description": "CPU tensor denied",
+      "ok": true,
+      "evidence": "CPU denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-026",
+      "description": "WebGL tensor denied",
+      "ok": true,
+      "evidence": "WebGL denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-027",
+      "description": "axial-as-tangent negative control",
+      "ok": true,
+      "evidence": "axial denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-TEN-028",
+      "description": "missing tensor no open-gate fallback",
+      "ok": true,
+      "evidence": "missing denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-001",
+      "description": "flat field energy neutral",
+      "ok": true,
+      "evidence": {
+        "kind": "flat",
+        "activePixelCount": 0,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0,
+        "minActiveCoherence": 0,
+        "maxActiveCoherence": 0,
+        "centerRegionMeanCoherence": 0,
+        "nonfiniteCount": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-002",
+      "description": "straight edge active",
+      "ok": true,
+      "evidence": {
+        "kind": "straight",
+        "activePixelCount": 650,
+        "lambda2PositivePixelCount": 0,
+        "meanActiveCoherence": 0.9999894519019956,
+        "minActiveCoherence": 0.9999511443625554,
+        "maxActiveCoherence": 0.9999999315809455,
+        "centerRegionMeanCoherence": 0.9999894519019928,
+        "nonfiniteCount": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-003",
+      "description": "straight edge coherence >=0.90",
+      "ok": true,
+      "evidence": 0.9999894519019956,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-004",
+      "description": "corner lambda2 positive",
+      "ok": true,
+      "evidence": 95,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-005",
+      "description": "junction lambda2 positive",
+      "ok": true,
+      "evidence": 100,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-006",
+      "description": "corner coherence separated",
+      "ok": true,
+      "evidence": 0.8563802079926185,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-007",
+      "description": "junction coherence separated",
+      "ok": true,
+      "evidence": 0.7305697734908226,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-008",
+      "description": "mixed fixture min coherence <0.95",
+      "ok": true,
+      "evidence": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-009",
+      "description": "nonfinite count zero",
+      "ok": true,
+      "evidence": "zero",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-010",
+      "description": "blur-removed mutant fails",
+      "ok": true,
+      "evidence": {
+        "mode": "none",
+        "corner": {
+          "kind": "corner",
+          "activePixelCount": 132,
+          "lambda2PositivePixelCount": 0,
+          "meanActiveCoherence": 0.9999999575488219,
+          "minActiveCoherence": 0.9999996800001023,
+          "maxActiveCoherence": 0.9999999644444457,
+          "centerRegionMeanCoherence": 0.9999999465185243,
+          "nonfiniteCount": 0
+        },
+        "junction": {
+          "kind": "junction",
+          "activePixelCount": 256,
+          "lambda2PositivePixelCount": 0,
+          "meanActiveCoherence": 0.9999999593749982,
+          "minActiveCoherence": 0.9999999200000065,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9999999560000022,
+          "nonfiniteCount": 0
+        },
+        "declaredIntegrationStages": [],
+        "admissionPass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-011",
+      "description": "blurH-only mutant fails",
+      "ok": true,
+      "evidence": {
+        "mode": "h",
+        "corner": {
+          "kind": "corner",
+          "activePixelCount": 396,
+          "lambda2PositivePixelCount": 18,
+          "meanActiveCoherence": 0.994952479375127,
+          "minActiveCoherence": 0.6037489653509248,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9722782219307129,
+          "nonfiniteCount": 0
+        },
+        "junction": {
+          "kind": "junction",
+          "activePixelCount": 760,
+          "lambda2PositivePixelCount": 20,
+          "meanActiveCoherence": 0.9966185601898016,
+          "minActiveCoherence": 0.5919903648322022,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9771054110461359,
+          "nonfiniteCount": 0
+        },
+        "declaredIntegrationStages": [
+          "blurH"
+        ],
+        "admissionPass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-012",
+      "description": "blurV-only mutant fails",
+      "ok": true,
+      "evidence": {
+        "mode": "v",
+        "corner": {
+          "kind": "corner",
+          "activePixelCount": 396,
+          "lambda2PositivePixelCount": 18,
+          "meanActiveCoherence": 0.9949524793751312,
+          "minActiveCoherence": 0.6037489653509248,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9722782219307129,
+          "nonfiniteCount": 0
+        },
+        "junction": {
+          "kind": "junction",
+          "activePixelCount": 760,
+          "lambda2PositivePixelCount": 20,
+          "meanActiveCoherence": 0.9966185601897907,
+          "minActiveCoherence": 0.5919903648322022,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9771054110461357,
+          "nonfiniteCount": 0
+        },
+        "declaredIntegrationStages": [
+          "blurV"
+        ],
+        "admissionPass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-013",
+      "description": "center-repeat fake blur fails",
+      "ok": true,
+      "evidence": {
+        "mode": "fake",
+        "corner": {
+          "kind": "corner",
+          "activePixelCount": 132,
+          "lambda2PositivePixelCount": 0,
+          "meanActiveCoherence": 0.9999999575488219,
+          "minActiveCoherence": 0.9999996800001023,
+          "maxActiveCoherence": 0.9999999644444457,
+          "centerRegionMeanCoherence": 0.9999999465185243,
+          "nonfiniteCount": 0
+        },
+        "junction": {
+          "kind": "junction",
+          "activePixelCount": 256,
+          "lambda2PositivePixelCount": 0,
+          "meanActiveCoherence": 0.9999999593749982,
+          "minActiveCoherence": 0.9999999200000065,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9999999560000022,
+          "nonfiniteCount": 0
+        },
+        "declaredIntegrationStages": [],
+        "admissionPass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-014",
+      "description": "temporal hysteresis tensor fails",
+      "ok": true,
+      "evidence": {
+        "mode": "temporal",
+        "corner": {
+          "kind": "corner",
+          "activePixelCount": 132,
+          "lambda2PositivePixelCount": 0,
+          "meanActiveCoherence": 0.9999999575488219,
+          "minActiveCoherence": 0.9999996800001023,
+          "maxActiveCoherence": 0.9999999644444457,
+          "centerRegionMeanCoherence": 0.9999999465185243,
+          "nonfiniteCount": 0
+        },
+        "junction": {
+          "kind": "junction",
+          "activePixelCount": 256,
+          "lambda2PositivePixelCount": 0,
+          "meanActiveCoherence": 0.9999999593749982,
+          "minActiveCoherence": 0.9999999200000065,
+          "maxActiveCoherence": 0.9999999600000016,
+          "centerRegionMeanCoherence": 0.9999999560000022,
+          "nonfiniteCount": 0
+        },
+        "declaredIntegrationStages": [],
+        "admissionPass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-015",
+      "description": "hardcoded coherence one fails",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-016",
+      "description": "zero lambda2 receipt fails",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-017",
+      "description": "command graph order exact",
+      "ok": true,
+      "evidence": [
+        "gradient",
+        "outer",
+        "blurH",
+        "blurV",
+        "eigen",
+        "axial"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-018",
+      "description": "compact counter schema exact",
+      "ok": true,
+      "evidence": [
+        "kind",
+        "activePixelCount",
+        "lambda2PositivePixelCount",
+        "meanActiveCoherence",
+        "minActiveCoherence",
+        "maxActiveCoherence",
+        "centerRegionMeanCoherence",
+        "nonfiniteCount"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-019",
+      "description": "product readback remains zero",
+      "ok": true,
+      "evidence": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-L2-020",
+      "description": "sampled qualification readback bounded",
+      "ok": true,
+      "evidence": "BOUNDED_COMPACT_METRICS_ONLY",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-001",
+      "description": "phase contract ID exact",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.phase.deterministic.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-002",
+      "description": "phaseBase finite",
+      "ok": true,
+      "evidence": 0.25,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-003",
+      "description": "STILL_EXPLICIT mode",
+      "ok": true,
+      "evidence": {
+        "schemaVersion": 1,
+        "phaseContractId": "tdt.effect.bakemono-rinne.phase.deterministic.v1",
+        "mode": "STILL_EXPLICIT",
+        "phaseOrigin": 0.25,
+        "frameIndex": null,
+        "phaseStep": null,
+        "timelineTime": null,
+        "phaseBase": 0.25,
+        "wrappedPhaseBase": 0.25,
+        "wrapMode": "MOD_6_283_COMPAT",
+        "sourceAuthority": "EXPLICIT_RECEIPT_BOUND"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-004",
+      "description": "PREVIEW_FRAME_INDEXED mode",
+      "ok": true,
+      "evidence": {
+        "schemaVersion": 1,
+        "phaseContractId": "tdt.effect.bakemono-rinne.phase.deterministic.v1",
+        "mode": "PREVIEW_FRAME_INDEXED",
+        "phaseOrigin": 0.25,
+        "frameIndex": 7,
+        "phaseStep": 0.1,
+        "timelineTime": null,
+        "phaseBase": 0.9500000000000001,
+        "wrappedPhaseBase": 0.9500000000000002,
+        "wrapMode": "MOD_6_283_COMPAT",
+        "sourceAuthority": "EXPLICIT_RECEIPT_BOUND"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-005",
+      "description": "TIMELINE_EXPLICIT mode",
+      "ok": true,
+      "evidence": {
+        "schemaVersion": 1,
+        "phaseContractId": "tdt.effect.bakemono-rinne.phase.deterministic.v1",
+        "mode": "TIMELINE_EXPLICIT",
+        "phaseOrigin": 0.25,
+        "frameIndex": null,
+        "phaseStep": 0.5,
+        "timelineTime": 2,
+        "phaseBase": 1.25,
+        "wrappedPhaseBase": 1.25,
+        "wrapMode": "MOD_6_283_COMPAT",
+        "sourceAuthority": "EXPLICIT_RECEIPT_BOUND"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-006",
+      "description": "frame index integer",
+      "ok": true,
+      "evidence": 7,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-007",
+      "description": "phase step finite",
+      "ok": true,
+      "evidence": 0.1,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-008",
+      "description": "phase origin finite",
+      "ok": true,
+      "evidence": 0.25,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-009",
+      "description": "phase wrap mode explicit",
+      "ok": true,
+      "evidence": "MOD_6_283_COMPAT",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-010",
+      "description": "performance.now denied",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-011",
+      "description": "Date.now denied",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-012",
+      "description": "Math.random denied",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-013",
+      "description": "crypto randomness denied",
+      "ok": true,
+      "evidence": true,
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-014",
+      "description": "same input ten-run deterministic",
+      "ok": true,
+      "evidence": "10 identical runs",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-015",
+      "description": "phase receipt digest lineage",
+      "ok": true,
+      "evidence": "8d1340736e4661ab862c226d405636fda086d59fd21842d06d887c9f6b5ec2d1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-PHS-016",
+      "description": "missing phase receipt fails",
+      "ok": true,
+      "evidence": "missing denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-001",
+      "description": "formula receipt schema exact",
+      "ok": true,
+      "evidence": "tdt.effect.bakemono-rinne.formula-contract-receipt.v1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-002",
+      "description": "formula inventory digest parent",
+      "ok": true,
+      "evidence": "460801db36170be2c5c2c37e83dab0c29cf92100ae07f06bbf94767d4a026954",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-003",
+      "description": "source digest parent",
+      "ok": true,
+      "evidence": "88a33809136a3a3dafd1397e2a017a9c644e866ae9fb29ed54990a554f9601e1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-004",
+      "description": "utility digest parent",
+      "ok": true,
+      "evidence": "410558cb4697e8e692e0321b1376d690725be582badb99d85e39e3ae830905c1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-005",
+      "description": "parameter digest parent",
+      "ok": true,
+      "evidence": "2251af576847972b806d05dfc59604a173ed0b066a07070b75d9769491f7a23a",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-006",
+      "description": "scalar profile digest parent",
+      "ok": true,
+      "evidence": "236d3ec1f1571d5e9253ed57b51af99d739a543e38ef071b35aa036bc493ef83",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-007",
+      "description": "tensor admission digest parent",
+      "ok": true,
+      "evidence": "7523d3742bc8fcfbae8b3ae84ad8c108aabe7ba17afdc2b3927d11102edd541e",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-008",
+      "description": "phase receipt digest parent",
+      "ok": true,
+      "evidence": "8d1340736e4661ab862c226d405636fda086d59fd21842d06d887c9f6b5ec2d1",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-009",
+      "description": "color contract digest parent",
+      "ok": true,
+      "evidence": "725936d7397e097cecd43b066ec42d3582e7ca21f4617e4cc07d90461e67e31b",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-010",
+      "description": "output authority explicit",
+      "ok": true,
+      "evidence": "CANONICAL_CANDIDATE",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-011",
+      "description": "shadow profile canonical commit denied",
+      "ok": true,
+      "evidence": "shadow denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-012",
+      "description": "canonical profile tensor required",
+      "ok": true,
+      "evidence": "tensor required",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-013",
+      "description": "no silent profile default",
+      "ok": true,
+      "evidence": "default denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-014",
+      "description": "no unknown profile",
+      "ok": true,
+      "evidence": "unknown denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-015",
+      "description": "stable error code preserved",
+      "ok": true,
+      "evidence": "stable errors",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-016",
+      "description": "canonical JSON reproducible",
+      "ok": true,
+      "evidence": "canonical JSON",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-017",
+      "description": "receipt tamper negative control",
+      "ok": true,
+      "evidence": "tamper denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-018",
+      "description": "parent digest omission negative control",
+      "ok": true,
+      "evidence": "parent omission denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-019",
+      "description": "multiple profile negative control",
+      "ok": true,
+      "evidence": "multiple denied",
+      "status": "PASS"
+    },
+    {
+      "id": "BKR01-AUT-020",
+      "description": "unknown authority negative control",
+      "ok": true,
+      "evidence": "unknown authority denied",
+      "status": "PASS"
+    }
+  ],
+  "selfSha256": "02cf09865ddf1740ef9778d78634dd2f55dcdbc8e4a19668101f2e0e412f1ca1"
+}

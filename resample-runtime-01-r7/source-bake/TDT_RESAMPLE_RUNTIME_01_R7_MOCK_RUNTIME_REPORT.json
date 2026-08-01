@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "previewPlanDigest": "d651c4f511e167c15d0c07b0a738e59f7baffe44703e699b1ba71746eaa449a0",
+  "exportPlanDigest": "d651c4f511e167c15d0c07b0a738e59f7baffe44703e699b1ba71746eaa449a0",
+  "stageCount": 3,
+  "traceOrder": [
+    "upload",
+    "canonical-lowpass-stage(s)",
+    "optional-residual",
+    "finalization",
+    "terminal-readback"
+  ],
+  "intermediateReadbackCount": 0,
+  "residualExecutionLimit": 1
+}

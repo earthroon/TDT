@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { createRequire } from 'node:module';
+import { ARTIFACT_DIR, ROOT, canonicalJson, sha256Bytes, sha256File, walkFiles, writeJson } from './ep02-build-lib.mjs';
+const require=createRequire(import.meta.url);
+const appDir=path.resolve(process.env.DADUM_PACKAGED_APP_DIR||path.join(ROOT,'release','win-unpacked'));
+if(!fs.existsSync(appDir)) throw new Error('E_ELECTRON_UNPACKED_APP_MISSING');
+const resources=path.join(appDir,'resources');
+const asarPath=path.join(resources,'app.asar');
+if(!fs.existsSync(asarPath)) throw new Error('E_ASAR_MISSING');
+let asar=null;
+try{asar=require('@electron/asar');}catch{try{asar=require('asar');}catch{}}
+if(!asar) throw new Error('E_ASAR_READER_UNAVAILABLE');
+const asarList=asar.listPackage(asarPath).map((x)=>String(x).replace(/^[/\\]+/,'')).filter(Boolean).sort();
+const forbidden=asarList.filter((x)=>/(^|\/)(?:target|src|tests?|patches|artifacts)(?:\/|$)/i.test(x)||/\.(?:rs|toml|lock|map)$/i.test(x));
+const unpackedRoot=path.join(resources,'app.asar.unpacked');
+const unpacked=walkFiles(unpackedRoot).map((file)=>({path:'app.asar.unpacked/'+path.relative(unpackedRoot,file).replaceAll(path.sep,'/'),byteLength:fs.statSync(file).size,sha256:sha256File(file)}));
+const rendererFiles=asarList.filter((x)=>x.startsWith('dist/renderer/'));
+const canonicalNativePath='app.asar.unpacked/native/decoder-rs/decoder_rs.win32-x64-msvc.node';
+const nativeNode=unpacked.filter((x)=>x.path.endsWith('.node'));
+const canonicalNativeNode=nativeNode.filter((x)=>x.path===canonicalNativePath);
+const unexpectedNativeNode=nativeNode.filter((x)=>x.path!==canonicalNativePath);
+const payload={schemaVersion:1,patchId:'TDT-EXPORT-PROMOTION-02',appDir,appAsar:{path:'resources/app.asar',byteLength:fs.statSync(asarPath).size,sha256:sha256File(asarPath),entryCount:asarList.length},asarEntries:asarList,unpacked,rendererFileCount:rendererFiles.length,nativeNode,canonicalNativePath,canonicalNativeNode,unexpectedNativeNode,forbidden};
+payload.packageContentId=sha256Bytes(canonicalJson({appAsar:payload.appAsar,unpacked:payload.unpacked}));
+payload.status=forbidden.length===0&&rendererFiles.length>0&&nativeNode.length===1&&canonicalNativeNode.length===1&&unexpectedNativeNode.length===0?'PACKAGED_ARTIFACT_VERIFIED':'BLOCKED';
+writeJson(path.join(ARTIFACT_DIR,'TDT_EXPORT_PROMOTION_02_PACKAGE_CONTENT_MANIFEST.json'),payload);
+console.log(`${payload.status==='PACKAGED_ARTIFACT_VERIFIED'?'PASS':'FAIL'} EP02 package content ${payload.packageContentId}`);
+if(payload.status!=='PACKAGED_ARTIFACT_VERIFIED') process.exit(1);

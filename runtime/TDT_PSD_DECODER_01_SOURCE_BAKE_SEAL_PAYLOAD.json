@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "PSD_DECODER_SOURCE_ADOPTED",
+  "buildId": "9bc37628e4ca74697610f8ab",
+  "buildAuthorityDigest": "ec8fc5a616376082dc76c4c6007233813de083f19e225079033431445ea49ec0",
+  "mainWorkerManifestDigest": "b0419fc269eb79df9e9de9a2386893fb0f311e3ddf26c167b14c12155fe9255b",
+  "jxlDecoderManifestDigest": "7ff77c69365ea056d7976b95c0b00a8c714cb3f4b3c4868a5c46452f7c8d6950",
+  "psdDecoderManifestDigest": "56354a68b73983461963a148736d830cbca289e1d9e08c3bc2eba062cf84f662",
+  "parserSha256": "ca803df175c9a4af8eeda9c80ca559fecea7f126b41ea68acb8012933908949f",
+  "workerSha256": "1091d6a55d331a7e78a8d14f6b88a43ef6a0925b775f494113f6742031713ce7",
+  "specSha256": "21358e259739d76babcf0c7918f91dfb05f1cff818952124b87423302dd9235b",
+  "sourceGatePassed": true,
+  "sourceGateCount": 112,
+  "runtimePolicyPassed": true,
+  "runtimePolicyCount": 176,
+  "strictTypeScriptVerified": true,
+  "parentRegressionVerified": true,
+  "productionBuildFailClosed": true,
+  "changedSourceCount": 20,
+  "changedSourceDigest": "8886696bc8f9f05b091dac2e346b5dbe5bca66e05f8b0b7cb89b5e8cf8539cc4",
+  "strictLogSha256": "48b60b8a9a3abd6f2c61e0b5603f00e1f23b24d5950485a02d0335edff0a495f",
+  "parentRegressionLogSha256": "011b30e8a912fd024def38a7cea2ab6f0309d67c446cacff8cdd5fe466c3a70e",
+  "productionAttemptLogSha256": "d324142a28892b765f4ec6c73a3fd8947cfdf376562f81d4d474df3c03626de4",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-psd-e2e-not-run",
+    "serializer-independent-roundtrip-corpus-not-run",
+    "production-worker-generation-closure-not-measured",
+    "psb-zip-capabilities-not-promoted"
+  ],
+  "sourceBakeSeal": "e634d5248b17ed751164fc1a274fb84cffcf5ec56124535d9de68d72db6ead6d",
+  "changedSourceRecords": [
+    {
+      "path": "app/legacy-runtime/decoders/psd-independent-exact-parser.mjs",
+      "parentSha256": null,
+      "currentSha256": "ca803df175c9a4af8eeda9c80ca559fecea7f126b41ea68acb8012933908949f",
+      "change": "added"
+    },
+    {
+      "path": "app/legacy-runtime/decoders/psd-independent-exact-parser.mjs.d.ts",
+      "parentSha256": null,
+      "currentSha256": "d43a13c4aafa75b1bde6f808f8c222b68e07531f9d75f90f8ccd0fe1f14f79d2",
+      "change": "added"
+    },
+    {
+      "path": "app/src/boot/stable-error.ts",
+      "parentSha256": "b221dce28ae1e41870c0c9eaafba34756d0fd4c4cb970c185885f9aefa8b7855",
+      "currentSha256": "b17b54d8232a3d4307a00cf2e5bb9500c279cf97ceb634ca0d740919e81bf9fd",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/decode/decoder-registry-service.ts",
+      "parentSha256": "3f2c2560bc6aa0327665ba3d9a667c50feb77980d20c52c4454228cf1cb17cce",
+      "currentSha256": "effbc434f1439cc8acb649340d644e4d3ce518f641d8f05f639795711ffd5aa9",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/decode/independent-decoder-profile.ts",
+      "parentSha256": "7c8ca84d9c5b4f10d7fb4473716559417f037086405468cfb9f6d6da3922577c",
+      "currentSha256": "b9855a1241b9a56f5aa84a9ddd41d46f5ef886439b97a76c7fdc697598bacdb6",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/workers/entries/psd-independent-decoder.worker.ts",
+      "parentSha256": null,
+      "currentSha256": "1091d6a55d331a7e78a8d14f6b88a43ef6a0925b775f494113f6742031713ce7",
+      "change": "added"
+    },
+    {
+      "path": "app/src/runtime/workers/generated-psd-independent-decoder-manifest.json",
+      "parentSha256": null,
+      "currentSha256": "cebfb29e31d965233918a1b5eca6a9f9096cbb42218c693c47e70becef5f6f7d",
+      "change": "added"
+    },
+    {
+      "path": "package.json",
+      "parentSha256": "e5c93722a2e53ddd4a6f282e1dde341b5f4c85260b6c06764885a3ad6d087e64",
+      "currentSha256": "b3a149af9c30917e3749a3c949bcfa7bd471637b4a8a11735f9e9ca35a10972c",
+      "change": "modified"
+    },
+    {
+      "path": "specs/TDT-PSD-DECODER-01_PSD_PSB_INDEPENDENT_PARSER_DECODER_COMPRESSION_MATRIX_EXACT_PLANE_LAYER_COMPOSITE_RESOURCE_METADATA_TRUTH_SPEC.md",
+      "parentSha256": null,
+      "currentSha256": "21358e259739d76babcf0c7918f91dfb05f1cff818952124b87423302dd9235b",
+      "change": "added"
+    },
+    {
+      "path": "tools/finalize-psd-decoder-01-source-bake.mjs",
+      "parentSha256": null,
+      "currentSha256": "e15706e31e94384606e9d0a565c63bd694ef2ddd4cf9f95947bb479251896cbf",
+      "change": "added"
+    },
+    {
+      "path": "tools/gate-build-lock-01.mjs",
+      "parentSha256": "50fa6ad37cb4543401eaa3c97599fd953d2787b86170be94137f48b398a1d86c",
+      "currentSha256": "aebd2b28e0404bfd39484991d7de1a04bce44ef82815c8588c5e420f501ecda8",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-export-promotion-02.mjs",
+      "parentSha256": "bd3678bbe3ef85bba77af7d22f5c48e866ff1c3c660145bab7a7edaa22a69768",
+      "currentSha256": "9d97329573649906b8a20ddcb51ca51c9b69c00cb3b60f63f311044d88bb693d",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-psd-decoder-01.mjs",
+      "parentSha256": null,
+      "currentSha256": "6b9b00f93eaa88f069e71f3999409e16013b16241bc2d407d660f751b5213092",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-emitted-worker-manifest-v2.mjs",
+      "parentSha256": "c33a28d0fcb1e004b5b4afe5751063949c5ff6187504e9740c87ee7b6b3b0672",
+      "currentSha256": "9aa8913d1d8bd7e5a366e434eb7306f972e38497993190386ba3803287f3d931",
+      "change": "modified"
+    },
+    {
+      "path": "tools/generate-psd-decoder-01-source-reports.mjs",
+      "parentSha256": null,
+      "currentSha256": "3eeed71605a1fd5e6ce738d06cdc7f05bf42997d6756535a85cda4c6733f9792",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-psd-independent-decoder-manifest.mjs",
+      "parentSha256": null,
+      "currentSha256": "6a99a6d5fa84e50ed5efcd219785fa80a55222e6dd82078d804a7af88bdcd774",
+      "change": "added"
+    },
+    {
+      "path": "tools/jxl-codec-01-lib.mjs",
+      "parentSha256": "18e2d5350cefdc383fc661af2d51dc9a62d116a3da62b39e0b100e5c43722628",
+      "currentSha256": "2c8f7488cca74ee20f888bed17a3114968aa7b592af16a05c8d665e601179f07",
+      "change": "modified"
+    },
+    {
+      "path": "tools/psd-decoder-01-lib.mjs",
+      "parentSha256": null,
+      "currentSha256": "44c06d7661fa0d318182039dd4be0a2e7927570d70464e7c9d7c0d598f00967c",
+      "change": "added"
+    },
+    {
+      "path": "tools/runtime-manifest-lib.mjs",
+      "parentSha256": "a96afd930bd2b151b2901c61469f637d966c5f2b91b57100c706d2303e10f640",
+      "currentSha256": "6219f4ac8ba94c585faf06c4c581d2f8e1fcb808140177b8a66df240e1a1bc28",
+      "change": "modified"
+    },
+    {
+      "path": "tools/verify-psd-decoder-01-runtime.mjs",
+      "parentSha256": null,
+      "currentSha256": "5f3af0745059edcc30a803e6770077610deb764b8a662dfa75209dd1f89c2cb7",
+      "change": "added"
+    }
+  ],
+  "evidenceSealSha256": "09857eb9c8df0f3e3ecebd8580da65998651687447992ccbd5d8e4ce9380f969"
+}

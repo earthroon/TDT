@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.late-completion-unit-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "status": "PASS",
+  "buildOutcome": {
+    "resolved": false,
+    "code": "E_R9AP1R2R3_BUILD_INVALIDATED"
+  },
+  "invalidationReceipt": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.r9a-p1-r2-r3.pipeline-invalidation-receipt.v1",
+    "runtimeEpoch": 1,
+    "deviceEpoch": 21,
+    "deviceIdentity": "device-21",
+    "targetEntryCount": 1,
+    "buildingEntryCount": 1,
+    "activeEntryCount": 0,
+    "disposedEntryCount": 1,
+    "lateCompletionPendingCount": 0,
+    "cycleBindingDigest": null,
+    "invalidationDigest": "10c3f52ed39db4d007e29d985dbacf199ff382365b8d86448d4b0e8613d3bebf",
+    "selfSha256": "db890e15b8d776c0e4e1b2841f64a78de5fa45e8ce50bcdd3fa40e5895fa7e06"
+  },
+  "disposeCounts": {
+    "rootDisposeCount": 1,
+    "tensorDisposeCount": 1,
+    "adaptiveDisposeCount": 1,
+    "effectDisposeCount": 1
+  },
+  "snapshot": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.r9a-p1-r2-r3.pipeline-registry-snapshot.v1",
+    "authorityId": "tdt.resample.canonical-pipeline-registry.r2-r3.v1",
+    "registryGeneration": 5,
+    "buildSequence": 1,
+    "physicalBuildCount": 1,
+    "singleFlightJoinCount": 0,
+    "lateCompletionDisposeCount": 1,
+    "invalidationCount": 1,
+    "entries": [
+      {
+        "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+        "keySchemaId": "tdt.r9a-p1-r2-r3.pipeline-registry-key.v1",
+        "state": "DISPOSED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 21,
+        "deviceIdentity": "device-21",
+        "adapterIdentity": "adapter-canonical",
+        "buildSequence": 1,
+        "reservationGeneration": 1,
+        "buildToken": {
+          "registryGenerationAtReservation": 1,
+          "buildSequence": 1,
+          "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+          "runtimeEpoch": 1,
+          "deviceEpoch": 21,
+          "deviceIdentity": "device-21"
+        },
+        "joinCount": 0,
+        "pipelineSetIdentityDigest": null,
+        "rebuildReceiptDigest": null,
+        "invalidationReason": "unit-late-completion",
+        "failureCode": null
+      }
+    ],
+    "lifecycle": [
+      {
+        "sequence": 1,
+        "event": "BUILD_RESERVED",
+        "registryGeneration": 1,
+        "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+        "state": "BUILDING",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 21,
+        "reservationGeneration": 1,
+        "buildSequence": 1
+      },
+      {
+        "sequence": 2,
+        "event": "INVALIDATION_STARTED",
+        "registryGeneration": 2,
+        "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+        "state": "INVALIDATING",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 21,
+        "reason": "unit-late-completion"
+      },
+      {
+        "sequence": 3,
+        "event": "LATE_COMPLETION_DISPOSED",
+        "registryGeneration": 3,
+        "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+        "state": "INVALIDATED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 21,
+        "reason": "build-invalidated"
+      },
+      {
+        "sequence": 4,
+        "event": "INVALIDATED",
+        "registryGeneration": 4,
+        "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+        "state": "INVALIDATED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 21
+      },
+      {
+        "sequence": 5,
+        "event": "DISPOSED",
+        "registryGeneration": 5,
+        "entryKeyDigest": "84490f7e17f90376a5971252938c604f6cf290181d9e1f55242e602d0b023a52",
+        "state": "DISPOSED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 21
+      }
+    ],
+    "snapshotDigest": "6ec0dc062eccc5ad794367dd7ee633bc4b4a724ab25849fc31167c7edd62213a",
+    "selfSha256": "1daa8dcf7811f42100ed8bbbb8ef43f0337f7846de9a01eabea0977cc1b36e72"
+  },
+  "selfSha256": "b9e2c7da35f9cb4763ecec45ede54393da87a34938a3d88cc5ebb8ca6138ac4c"
+}

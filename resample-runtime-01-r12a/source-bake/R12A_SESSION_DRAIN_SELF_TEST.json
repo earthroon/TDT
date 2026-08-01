@@ -1,0 +1,35 @@
+{
+  "admissionBlockedBeforeDrain": true,
+  "deadlineMs": 30000,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "receipt": {
+    "admissionBlocked": true,
+    "counts": {
+      "activeNormalSessions": 0,
+      "openExportGrants": 0,
+      "openPreviewGrants": 0,
+      "openSaveSessions": 0,
+      "pendingEncoderJobs": 0,
+      "pendingWorkerRpc": 0,
+      "pinnedFinalSurfaces": 0,
+      "unsettledSubmissionTickets": 0,
+      "visibleNormalWindows": 0
+    },
+    "deadlineMs": 30000,
+    "elapsedMs": 2,
+    "evidenceDigest": "16315860c6a80f66f0acba97d628778803a400dbe0772177238aa163a108a440",
+    "pass": true,
+    "receiptSha256": "7970317f528d035c5ecf55b515dd0ff6c3487e91ca5e0b156293c97ac60391ae",
+    "rendererAcknowledged": true,
+    "schemaId": "tdt.resample-runtime.session-drain-receipt.r12a.v1",
+    "schemaVersion": 1,
+    "updateTransactionId": "abababababababababababababababababababababababab"
+  },
+  "rendererAckRequired": true,
+  "saveSessionsAborted": true,
+  "schemaVersion": 1,
+  "selfSha256": "b5d22a1bfd7a3357a9e55afdd25d402c6c2eab70a03e895e8c292f58eafb6574",
+  "sessionsRevoked": true,
+  "windowsHidden": true
+}

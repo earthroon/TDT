@@ -1,0 +1,77 @@
+
+> dadumdadum@1.0.0 verify:build-lock-01
+> node tools/gate-build-lock-01.mjs
+
+PASS GATE-BL01-01 recovery script
+PASS GATE-BL01-02 source script
+PASS GATE-BL01-03 gate script
+PASS GATE-BL01-04 runtime test script
+PASS GATE-BL01-05 full verify inclusion
+PASS GATE-BL01-06 profile identity
+PASS GATE-BL01-07 node npm pin
+PASS GATE-BL01-08 canonical target
+PASS GATE-BL01-09 lock v3
+PASS GATE-BL01-10 hoisted install
+PASS GATE-BL01-11 peer policy
+PASS GATE-BL01-12 lifecycle policy
+PASS GATE-BL01-13 offline replay twice
+PASS GATE-BL01-14 mutation zero
+PASS GATE-BL01-15 no registry fallback
+PASS GATE-BL01-16 origin redaction
+PASS GATE-BL01-17 save exact
+PASS GATE-BL01-18 strict peers
+PASS GATE-BL01-19 ignore scripts
+PASS GATE-BL01-20 logical host normalization
+PASS GATE-BL01-21 ambient config projection
+PASS GATE-BL01-22 registry origin digest
+PASS GATE-BL01-23 secret redaction
+PASS GATE-BL01-24 isolated env
+PASS GATE-BL01-25 isolated userconfig
+PASS GATE-BL01-26 isolated global config
+PASS GATE-BL01-27 isolated cache
+PASS GATE-BL01-28 clean workspace
+PASS GATE-BL01-29 candidate lock only
+PASS GATE-BL01-30 candidate package immutable
+PASS GATE-BL01-31 candidate version gate
+PASS GATE-BL01-32 root graph verifier
+PASS GATE-BL01-33 exact direct verifier
+PASS GATE-BL01-34 integrity verifier
+PASS GATE-BL01-35 resolved verifier
+PASS GATE-BL01-36 unsupported source verifier
+PASS GATE-BL01-37 http tarball verifier
+PASS GATE-BL01-38 lifecycle inventory
+PASS GATE-BL01-39 cacache content address
+PASS GATE-BL01-40 tarball SRI verification
+PASS GATE-BL01-41 cache policy identity
+PASS GATE-BL01-42 offline A
+PASS GATE-BL01-43 offline B
+PASS GATE-BL01-44 offline flag
+PASS GATE-BL01-45 ci lock immutable
+PASS GATE-BL01-46 lifecycle zero receipt
+PASS GATE-BL01-47 install graph builder
+PASS GATE-BL01-48 content graph digest
+PASS GATE-BL01-49 symlink target capture
+PASS GATE-BL01-50 bin shim capture
+PASS GATE-BL01-51 node_modules cache gate
+PASS GATE-BL01-52 A B compare
+PASS GATE-BL01-53 mutation timeline artifact
+PASS GATE-BL01-54 promotion CAS
+PASS GATE-BL01-55 atomic rename
+PASS GATE-BL01-56 fsync
+PASS GATE-BL01-57 readback gate
+PASS GATE-BL01-58 win32 promotion only
+PASS GATE-BL01-59 pointer unchanged
+PASS GATE-BL01-60 legacy lock verifier receipt binding
+PASS GATE-BL01-61 build id lock digest
+PASS GATE-BL01-62 build authority digest
+PASS GATE-BL01-63 96 runtime tests
+PASS GATE-BL01-64 spec retained
+PASS GATE-BL01-65 required source artifacts
+PASS GATE-BL01-66 fix pointer truth
+PASS GATE-BL01-67 old lock forensic 12 mismatches
+PASS GATE-BL01-68 source mutation zero
+PASS GATE-BL01-69 no false promotion
+PASS GATE-BL01-70 stable errors
+PASS GATE-BL01-71 runtime lineage
+PASS GATE-BL01-72 explicit promotion command
+PASS TDT-BUILD-LOCK-01 72/72

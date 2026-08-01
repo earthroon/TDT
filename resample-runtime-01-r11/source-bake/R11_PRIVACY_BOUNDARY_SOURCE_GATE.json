@@ -1,0 +1,22 @@
+{
+  "allowlist": [
+    "buildId",
+    "packageContentId",
+    "pointerGeneration",
+    "deviceEpoch",
+    "adapterIdentityDigest",
+    "driverIdentityDigest",
+    "kernelId",
+    "plannerId",
+    "parameterAbiId",
+    "activeGraphDigest",
+    "eventType",
+    "counterValues",
+    "resourceCounts",
+    "durationBucket"
+  ],
+  "networkTelemetryCount": 0,
+  "pass": true,
+  "privacyViolations": 0,
+  "schemaVersion": 1
+}

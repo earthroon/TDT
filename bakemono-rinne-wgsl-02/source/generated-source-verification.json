@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl02.generated-source-verification.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "status": "PASS",
+  "predicates": {
+    "dualRunByteExact": true,
+    "storedByteExact": true,
+    "wgslDigestExact": true,
+    "manifestExact": true,
+    "manifestSelfHash": true,
+    "noTimestamp": true,
+    "noAbsolutePath": true,
+    "noSampler": true,
+    "noTensor": true,
+    "workgroupExact": true,
+    "boundsGuard": true,
+    "storageFormat": true,
+    "bindingCount": true
+  },
+  "generatedWgslDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+  "generatorManifestDigest": "01dbac3fd4d92cb96656d7bf893125697783f2d368dcf3a668787d9578689cd0",
+  "selfSha256": "02c8a91ca8a16d75b94bb0c4c3c05abef0004c220b115bf38df5e89fa79dd025"
+}

@@ -1,0 +1,11 @@
+await import('./generate-source-artifacts.mjs');
+await import('./verify-parent-lineage.mjs');
+await import('./verify-parse-closure.mjs');
+await import('./verify-runtime-self-tests.mjs');
+await import('./verify-export-and-executor.mjs');
+await import('./verify-zero-silent-fallback.mjs');
+await import('./verify-negative-controls.mjs');
+await import('./verify-predecessor-regression.mjs');
+await import('./verify-source-contract.mjs');
+await import('./gate-source.mjs');
+await import('./finalize-source.mjs');

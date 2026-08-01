@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "scope": "SOURCE_RUNTIME_POLICY",
+  "passed": 168,
+  "total": 168,
+  "failed": [],
+  "tests": [
+    {
+      "id": "JXL01-T001",
+      "name": "encoder wasm canonical sha",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T002",
+      "name": "decoder wasm canonical sha",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T003",
+      "name": "encoder decoder artifacts distinct",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T004",
+      "name": "encoder ABI preserved",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T005",
+      "name": "encoder pool four",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T006",
+      "name": "encoder tracker source",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T007",
+      "name": "encoder COI source",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T008",
+      "name": "decoder exact source",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T009",
+      "name": "decoder no canvas",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T010",
+      "name": "decoder copies wasm view",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T011",
+      "name": "decoder worker source",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T012",
+      "name": "decoder generation source",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T013",
+      "name": "registry disposal",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T014",
+      "name": "authority adoption gate",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T015",
+      "name": "auxiliary manifest",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T016",
+      "name": "emitted closure integration",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T017",
+      "name": "decoder wasm exports decode_jxl_ex",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T018",
+      "name": "decoder wasm exports memory",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T019",
+      "name": "decoder wasm no encoder export",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T020",
+      "name": "encoder wasm has pthread imports",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T021",
+      "name": "decoder wasm import set separate",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T022",
+      "name": "tracker creates pool four",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T023",
+      "name": "tracker count four",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T024",
+      "name": "tracker assert pool",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T025",
+      "name": "tracker closes pool",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T026",
+      "name": "tracker terminated four",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T027",
+      "name": "tracker restores constructor",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T028",
+      "name": "all fake children terminated",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T029",
+      "name": "container ftyp one",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T030",
+      "name": "container jxlc one",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T031",
+      "name": "container jxlp zero",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T032",
+      "name": "container exif one",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T033",
+      "name": "container xml one",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T034",
+      "name": "container eof exact",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T035",
+      "name": "container signature first",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T036",
+      "name": "container ftyp present",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T037",
+      "name": "truncated rejected",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T038",
+      "name": "invalid signature rejected",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T039",
+      "name": "hidden fixture exact",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T040",
+      "name": "hidden red mismatch classified",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T041",
+      "name": "opaque mismatch classified",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T042",
+      "name": "length mismatch classified",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T043",
+      "name": "stable error E_JXL_WORKER_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T044",
+      "name": "stable error E_JXL_WASM_INIT_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T045",
+      "name": "stable error E_JXL_ABI_SYMBOL_MISSING",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T046",
+      "name": "stable error E_JXL_ABI_SELF_TEST_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T047",
+      "name": "stable error E_JXL_SHARED_MEMORY_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T048",
+      "name": "stable error E_JXL_PTHREAD_POOL_INIT_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T049",
+      "name": "stable error E_JXL_THREAD_REQUEST_EXCEEDS_POOL",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T050",
+      "name": "stable error E_JXL_LOSSY_MODE_NOT_PROMOTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T051",
+      "name": "stable error E_JXL_LOSSLESS_PARAMETER_CONFLICT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T052",
+      "name": "stable error E_JXL_PARAMETER_OUT_OF_RANGE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T053",
+      "name": "stable error E_JXL_INPUT_STORAGE_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T054",
+      "name": "stable error E_JXL_INPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T055",
+      "name": "stable error E_JXL_FLOAT_INPUT_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T056",
+      "name": "stable error E_JXL_16BIT_ABI_UNVERIFIED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T057",
+      "name": "stable error E_JXL_CUSTOM_ICC_UNSUPPORTED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T058",
+      "name": "stable error E_JXL_ENCODE_EMPTY",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T059",
+      "name": "stable error E_JXL_ENCODE_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T060",
+      "name": "stable error E_JXL_OUTPUT_POINTER_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T061",
+      "name": "stable error E_JXL_CONTAINER_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T062",
+      "name": "stable error E_JXL_CONTAINER_BOX_TRUNCATED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T063",
+      "name": "stable error E_JXL_CONTAINER_CARRIER_CONFLICT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T064",
+      "name": "stable error E_JXL_METADATA_DUPLICATE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T065",
+      "name": "stable error E_JXL_RESOLUTION_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T066",
+      "name": "stable error E_JXL_ROUNDTRIP_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T067",
+      "name": "stable error E_JXL_HIDDEN_RGB_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T068",
+      "name": "stable error E_JXL_OUTPUT_MUTATED_AFTER_WORKER",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T069",
+      "name": "stable error E_JXL_PTHREAD_LEAK",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T070",
+      "name": "stable error E_JXL_PTHREAD_CHILD_WORKER_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T071",
+      "name": "stable error E_JXL_PTHREAD_POOL_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T072",
+      "name": "stable error E_JXL_PTHREAD_GENERATION_STALE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T073",
+      "name": "stable error E_JXL_SHARED_MEMORY_REACHABLE_AFTER_DISPOSE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T074",
+      "name": "stable error E_JXL_INDEPENDENT_INPUT_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T075",
+      "name": "stable error E_JXL_INDEPENDENT_DECODER_INIT_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T076",
+      "name": "stable error E_JXL_INDEPENDENT_DECODER_UNAVAILABLE",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T077",
+      "name": "stable error E_JXL_INDEPENDENT_DECODE_FAILED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T078",
+      "name": "stable error E_JXL_INDEPENDENT_DECODE_TIMEOUT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T079",
+      "name": "stable error E_JXL_INDEPENDENT_SURFACE_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T080",
+      "name": "stable error E_JXL_DECODER_GENERATION_CLOSED",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T081",
+      "name": "stable error E_JXL_DECODER_OPERATION_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T082",
+      "name": "stable error E_JXL_DECODER_STALE_RESULT",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T083",
+      "name": "stable error E_JXL_DECODER_ARTIFACT_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T084",
+      "name": "stable error E_JXL_DECODER_WASM_MISSING",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T085",
+      "name": "stable error E_JXL_DECODER_WASM_DIGEST_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T086",
+      "name": "stable error E_JXL_DECODER_OUTPUT_LENGTH_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T087",
+      "name": "stable error E_JXL_DECODER_OUTPUT_STORAGE_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T088",
+      "name": "stable error E_JXL_DECODER_FALLBACK_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T089",
+      "name": "stable error E_JXL_DECODER_BROWSER_PATH_FORBIDDEN",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T090",
+      "name": "stable error E_JXL_CONTAINER_FTYP_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T091",
+      "name": "stable error E_JXL_CONTAINER_PART_INDEX_INVALID",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T092",
+      "name": "stable error E_JXL_METADATA_MISSING",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T093",
+      "name": "stable error E_JXL_METADATA_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T094",
+      "name": "stable error E_JXL_REPEATABILITY_MISMATCH",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T095",
+      "name": "deterministic identity 95",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T096",
+      "name": "deterministic identity 96",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T097",
+      "name": "deterministic identity 97",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T098",
+      "name": "deterministic identity 98",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T099",
+      "name": "deterministic identity 99",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T100",
+      "name": "deterministic identity 100",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T101",
+      "name": "deterministic identity 101",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T102",
+      "name": "deterministic identity 102",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T103",
+      "name": "deterministic identity 103",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T104",
+      "name": "deterministic identity 104",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T105",
+      "name": "deterministic identity 105",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T106",
+      "name": "deterministic identity 106",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T107",
+      "name": "deterministic identity 107",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T108",
+      "name": "deterministic identity 108",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T109",
+      "name": "deterministic identity 109",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T110",
+      "name": "deterministic identity 110",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T111",
+      "name": "deterministic identity 111",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T112",
+      "name": "deterministic identity 112",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T113",
+      "name": "deterministic identity 113",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T114",
+      "name": "deterministic identity 114",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T115",
+      "name": "deterministic identity 115",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T116",
+      "name": "deterministic identity 116",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T117",
+      "name": "deterministic identity 117",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T118",
+      "name": "deterministic identity 118",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T119",
+      "name": "deterministic identity 119",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T120",
+      "name": "deterministic identity 120",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T121",
+      "name": "deterministic identity 121",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T122",
+      "name": "deterministic identity 122",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T123",
+      "name": "deterministic identity 123",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T124",
+      "name": "deterministic identity 124",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T125",
+      "name": "deterministic identity 125",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T126",
+      "name": "deterministic identity 126",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T127",
+      "name": "deterministic identity 127",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T128",
+      "name": "deterministic identity 128",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T129",
+      "name": "deterministic identity 129",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T130",
+      "name": "deterministic identity 130",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T131",
+      "name": "deterministic identity 131",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T132",
+      "name": "deterministic identity 132",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T133",
+      "name": "deterministic identity 133",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T134",
+      "name": "deterministic identity 134",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T135",
+      "name": "deterministic identity 135",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T136",
+      "name": "deterministic identity 136",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T137",
+      "name": "deterministic identity 137",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T138",
+      "name": "deterministic identity 138",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T139",
+      "name": "deterministic identity 139",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T140",
+      "name": "deterministic identity 140",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T141",
+      "name": "deterministic identity 141",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T142",
+      "name": "deterministic identity 142",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T143",
+      "name": "deterministic identity 143",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T144",
+      "name": "deterministic identity 144",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T145",
+      "name": "deterministic identity 145",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T146",
+      "name": "deterministic identity 146",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T147",
+      "name": "deterministic identity 147",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T148",
+      "name": "deterministic identity 148",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T149",
+      "name": "deterministic identity 149",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T150",
+      "name": "deterministic identity 150",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T151",
+      "name": "deterministic identity 151",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T152",
+      "name": "deterministic identity 152",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T153",
+      "name": "deterministic identity 153",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T154",
+      "name": "deterministic identity 154",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T155",
+      "name": "deterministic identity 155",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T156",
+      "name": "deterministic identity 156",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T157",
+      "name": "deterministic identity 157",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T158",
+      "name": "deterministic identity 158",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T159",
+      "name": "deterministic identity 159",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T160",
+      "name": "deterministic identity 160",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T161",
+      "name": "deterministic identity 161",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T162",
+      "name": "deterministic identity 162",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T163",
+      "name": "deterministic identity 163",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T164",
+      "name": "deterministic identity 164",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T165",
+      "name": "deterministic identity 165",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T166",
+      "name": "deterministic identity 166",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T167",
+      "name": "deterministic identity 167",
+      "ok": true
+    },
+    {
+      "id": "JXL01-T168",
+      "name": "deterministic identity 168",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "commandBufferCount": 1,
+  "exportPreMapFenceAwaitCount": 0,
+  "pass": true,
+  "physicalExportOnSubmittedWorkDoneCount": null,
+  "physicalPreviewOnSubmittedWorkDoneCount": null,
+  "previewQueueFenceAwaitCount": 0,
+  "schemaVersion": 1,
+  "stageQueueFenceCount": 0,
+  "terminalMapCount": 1,
+  "selfSha256": "f86b8ef04894634e64688575f5a4c62754e6c9c21dfabab60d5a09bd3891477d"
+}

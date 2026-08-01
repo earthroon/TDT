@@ -1,0 +1,35 @@
+{
+  "authorityFiles": [
+    "package.json",
+    "package-lock.json",
+    "tools/toolchain-profile.json",
+    "tools/dependency-input-profile.json",
+    "native/decoder-rs/Cargo.toml",
+    "native/decoder-rs/Cargo.lock",
+    "native/psd-exporter-wasm-v2/Cargo.toml"
+  ],
+  "authoritySnapshot": "55fd525829c948a3c248cd4a40eb3fed87eac427c73af9efe0cce262ed4e51a9",
+  "canonical": {
+    "audit": false,
+    "buildNetworkAllowed": false,
+    "fund": false,
+    "installStrategy": "hoisted",
+    "locale": "C",
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "sourceDateEpoch": 1784937600,
+    "strictPeerDeps": true,
+    "targetArch": "x64",
+    "targetPlatform": "win32",
+    "timezone": "UTC"
+  },
+  "parentBundleSha256": "b456e3d165b98c5ccbcf0e9608e7d26a645bcf96fa2c12a11d74049b29da780e",
+  "parentReceiptSha256": "0396cc63f7f2dfd17d5bfb81480ba778968c0419bc2cb55281a04d44d02e0ee1",
+  "parentSpecSha256": "b86c68fe5c5f6e54f622f45540159aa8aaa9a6cee84a0bd8ac416defd7d87c1e",
+  "patchId": "TDT-BUILD-LOCK-01-R2",
+  "receiptKind": "build-lock-r2-input-profile",
+  "rootGraphDigest": "61811f1286de31e04434e54474abead87ad628f90d0a6c0f306127082bc4aeb8",
+  "schemaVersion": 1,
+  "selfSha256": "a0c545b62ad956c3d3f50c72ae5630b55c4f31b4553e8560351c4d01ed34af29",
+  "specSha256": "c7fcc062defe7b03ddef4d00bf8c21a29d3e482e8651324067071c5e458c63c8"
+}

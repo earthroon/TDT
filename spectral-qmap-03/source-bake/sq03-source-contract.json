@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 82,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "file:app/src/runtime/analysis/spectral/spectral-window-layout-receipt.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/spectral/spectral-window-layout-receipt.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/spectral/spectral-reduction-types.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/spectral/spectral-reduction-types.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/spectral/spectral-reduction-plan.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/spectral/spectral-reduction-plan.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/spectral/spectral-reduction-receipt.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/spectral/spectral-reduction-receipt.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/spectral/spectral-reduction-job-arena.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/spectral/spectral-reduction-job-arena.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/spectral/spectral-reduction-service.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/spectral/spectral-reduction-service.ts"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/spectral_field_reduction.mjs",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/spectral_field_reduction.mjs"
+    },
+    {
+      "name": "file:specs/TDT-SPECTRAL-QMAP-03_POWER_ENTROPY_PEAK_ORIENTATION_COMPLEX_PHASE_REDUCTION_SPECTRAL_FIELD_PUBLICATION_SEAL_SPEC.md",
+      "pass": true,
+      "detail": "specs/TDT-SPECTRAL-QMAP-03_POWER_ENTROPY_PEAK_ORIENTATION_COMPLEX_PHASE_REDUCTION_SPECTRAL_FIELD_PUBLICATION_SEAL_SPEC.md"
+    },
+    {
+      "name": "types:publishFieldSet",
+      "pass": true,
+      "detail": "publishFieldSet"
+    },
+    {
+      "name": "types:outputFieldSetDigest",
+      "pass": true,
+      "detail": "outputFieldSetDigest"
+    },
+    {
+      "name": "types:semanticMetadataDigest",
+      "pass": true,
+      "detail": "semanticMetadataDigest"
+    },
+    {
+      "name": "types:publicationMetadataDigest",
+      "pass": true,
+      "detail": "publicationMetadataDigest"
+    },
+    {
+      "name": "types:fieldSetDigest",
+      "pass": true,
+      "detail": "fieldSetDigest"
+    },
+    {
+      "name": "types:window-grid",
+      "pass": true,
+      "detail": "window-grid"
+    },
+    {
+      "name": "authority:publishFieldSet(leaseId",
+      "pass": true,
+      "detail": "publishFieldSet(leaseId"
+    },
+    {
+      "name": "authority:E_ANALYSIS_FIELD_SET_DUPLICATE_SEMANTIC",
+      "pass": true,
+      "detail": "E_ANALYSIS_FIELD_SET_DUPLICATE_SEMANTIC"
+    },
+    {
+      "name": "authority:exactly match requested semantics",
+      "pass": true,
+      "detail": "exactly match requested semantics"
+    },
+    {
+      "name": "authority:previousGenerations",
+      "pass": true,
+      "detail": "previousGenerations"
+    },
+    {
+      "name": "authority:outputFieldSetDigest",
+      "pass": true,
+      "detail": "outputFieldSetDigest"
+    },
+    {
+      "name": "authority:semanticMetadataDigest",
+      "pass": true,
+      "detail": "semanticMetadataDigest"
+    },
+    {
+      "name": "authority:publicationCount++",
+      "pass": true,
+      "detail": "publicationCount++"
+    },
+    {
+      "name": "authority:this.#ledger.delete(receipt.receiptId)",
+      "pass": true,
+      "detail": "this.#ledger.delete(receipt.receiptId)"
+    },
+    {
+      "name": "authority:E_ANALYSIS_FIELD_SET_PUBLICATION_FAILED",
+      "pass": true,
+      "detail": "E_ANALYSIS_FIELD_SET_PUBLICATION_FAILED"
+    },
+    {
+      "name": "publish-delegates",
+      "pass": true,
+      "detail": "single delegates"
+    },
+    {
+      "name": "preflight-before-generation",
+      "pass": true,
+      "detail": "preflight ordering"
+    },
+    {
+      "name": "layout-version",
+      "pass": true,
+      "detail": "layout id"
+    },
+    {
+      "name": "layout:plane-major-row-major",
+      "pass": true,
+      "detail": "plane-major-row-major"
+    },
+    {
+      "name": "layout:explicit-top-left",
+      "pass": true,
+      "detail": "explicit-top-left"
+    },
+    {
+      "name": "layout:size-minus-one-over-two",
+      "pass": true,
+      "detail": "size-minus-one-over-two"
+    },
+    {
+      "name": "layout:real-valued-window-in-complex-container",
+      "pass": true,
+      "detail": "real-valued-window-in-complex-container"
+    },
+    {
+      "name": "layout:windowCount",
+      "pass": true,
+      "detail": "windowCount"
+    },
+    {
+      "name": "layout:layoutDigest",
+      "pass": true,
+      "detail": "layoutDigest"
+    },
+    {
+      "name": "policy:minRadialCyclesPerPixel",
+      "pass": true,
+      "detail": "minRadialCyclesPerPixel"
+    },
+    {
+      "name": "policy:maxRadialCyclesPerPixel",
+      "pass": true,
+      "detail": "maxRadialCyclesPerPixel"
+    },
+    {
+      "name": "policy:minimumBandPower",
+      "pass": true,
+      "detail": "minimumBandPower"
+    },
+    {
+      "name": "policy:excludeDc",
+      "pass": true,
+      "detail": "excludeDc"
+    },
+    {
+      "name": "policy:excludeSelfConjugate",
+      "pass": true,
+      "detail": "excludeSelfConjugate"
+    },
+    {
+      "name": "policy:canonical-positive-half-plane-v1",
+      "pass": true,
+      "detail": "canonical-positive-half-plane-v1"
+    },
+    {
+      "name": "policy:lower-natural-linear-index",
+      "pass": true,
+      "detail": "lower-natural-linear-index"
+    },
+    {
+      "name": "policy:iso-phase-feature-tangent",
+      "pass": true,
+      "detail": "iso-phase-feature-tangent"
+    },
+    {
+      "name": "policy:window-center",
+      "pass": true,
+      "detail": "window-center"
+    },
+    {
+      "name": "policy:natural-normalized",
+      "pass": true,
+      "detail": "natural-normalized"
+    },
+    {
+      "name": "policy:fail-window-and-report",
+      "pass": true,
+      "detail": "fail-window-and-report"
+    },
+    {
+      "name": "service:publishFieldSet",
+      "pass": true,
+      "detail": "publishFieldSet"
+    },
+    {
+      "name": "service:windowLayoutReceiptDigest",
+      "pass": true,
+      "detail": "windowLayoutReceiptDigest"
+    },
+    {
+      "name": "service:intermediatePixelReadbackCount: 0",
+      "pass": true,
+      "detail": "intermediatePixelReadbackCount: 0"
+    },
+    {
+      "name": "service:cpuPixelComputeUsed: false",
+      "pass": true,
+      "detail": "cpuPixelComputeUsed: false"
+    },
+    {
+      "name": "service:webglPixelComputeUsed: false",
+      "pass": true,
+      "detail": "webglPixelComputeUsed: false"
+    },
+    {
+      "name": "service:canvasPixelComputeUsed: false",
+      "pass": true,
+      "detail": "canvasPixelComputeUsed: false"
+    },
+    {
+      "name": "service:queue.submit",
+      "pass": true,
+      "detail": "queue.submit"
+    },
+    {
+      "name": "service:onSubmittedWorkDone",
+      "pass": true,
+      "detail": "onSubmittedWorkDone"
+    },
+    {
+      "name": "service:pinField",
+      "pass": true,
+      "detail": "pinField"
+    },
+    {
+      "name": "service:pin.release",
+      "pass": true,
+      "detail": "pin.release"
+    },
+    {
+      "name": "service:registerRecoveryParticipant",
+      "pass": true,
+      "detail": "registerRecoveryParticipant"
+    },
+    {
+      "name": "service-failure-propagation",
+      "pass": true,
+      "detail": "failure and threshold"
+    },
+    {
+      "name": "no-map-read",
+      "pass": true,
+      "detail": "zero readback"
+    },
+    {
+      "name": "no-cpu-loop",
+      "pass": true,
+      "detail": "no CPU pixels"
+    },
+    {
+      "name": "registry-version",
+      "pass": true,
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.spectral.window-power-spectrum.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-power-spectrum.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.spectral.window-entropy.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-entropy.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.spectral.window-peak-orientation.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-peak-orientation.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.spectral.window-complex-phase.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-complex-phase.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.spectral.window-summary.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-summary.v1"
+    },
+    {
+      "name": "window-grid",
+      "pass": true,
+      "detail": "grid semantics"
+    },
+    {
+      "name": "producer-canonical",
+      "pass": true,
+      "detail": "canonical"
+    },
+    {
+      "name": "producer-five",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "name": "producer-input",
+      "pass": true,
+      "detail": "frequency input"
+    },
+    {
+      "name": "producer-assets",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "name": "asset:dadum.asset.shader.spectral-power-normalize-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-power-normalize-v1"
+    },
+    {
+      "name": "asset:dadum.asset.shader.spectral-partial-reduce-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-partial-reduce-v1"
+    },
+    {
+      "name": "asset:dadum.asset.shader.spectral-partial-merge-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-partial-merge-v1"
+    },
+    {
+      "name": "asset:dadum.asset.shader.spectral-finalize-fields-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-finalize-fields-v1"
+    },
+    {
+      "name": "asset:dadum.asset.shader.spectral-reduction-reference-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-reduction-reference-v1"
+    },
+    {
+      "name": "asset:dadum.asset.shader.spectral-field-set-compare-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-field-set-compare-v1"
+    },
+    {
+      "name": "service-token",
+      "pass": true,
+      "detail": "token"
+    },
+    {
+      "name": "module-order",
+      "pass": true,
+      "detail": "module order"
+    },
+    {
+      "name": "consumer",
+      "pass": true,
+      "detail": "consumer"
+    },
+    {
+      "name": "facade",
+      "pass": true,
+      "detail": "facade"
+    },
+    {
+      "name": "builder",
+      "pass": true,
+      "detail": "builder"
+    },
+    {
+      "name": "errors",
+      "pass": true,
+      "detail": "E_SPECTRAL_LAYOUT_RECEIPT_REQUIRED,E_SPECTRAL_LAYOUT_RECEIPT_INVALID,E_SPECTRAL_LAYOUT_DIGEST_MISMATCH,E_SPECTRAL_REDUCTION_POLICY_INVALID,E_ANALYSIS_FIELD_SET_PUBLICATION_FAILED,E_ANALYSIS_FIELD_SET_INCOMPLETE,E_ANALYSIS_FIELD_SET_DUPLICATE_SEMANTIC,E_ANALYSIS_FIELD_METADATA_MISMATCH"
+    },
+    {
+      "name": "parent-zip",
+      "pass": true,
+      "detail": "lineage"
+    },
+    {
+      "name": "parent-seal",
+      "pass": true,
+      "detail": "lineage"
+    }
+  ],
+  "physicalGpuClaims": false
+}

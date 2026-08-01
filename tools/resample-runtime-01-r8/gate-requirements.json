@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "R8-001",
+    "requirement": "PARENT_BUNDLE_IDENTITY"
+  },
+  {
+    "id": "R8-002",
+    "requirement": "R7_SPEC_FROZEN"
+  },
+  {
+    "id": "R8-003",
+    "requirement": "R7_README_FROZEN"
+  },
+  {
+    "id": "R8-004",
+    "requirement": "R7_PLANNER_V2_FROZEN"
+  },
+  {
+    "id": "R8-005",
+    "requirement": "R7_LOWPASS_CONTRACT_FROZEN"
+  },
+  {
+    "id": "R8-006",
+    "requirement": "R7_LOWPASS_RUNTIME_FROZEN"
+  },
+  {
+    "id": "R8-007",
+    "requirement": "R7_CONVERGENCE_RECEIPT_FROZEN"
+  },
+  {
+    "id": "R8-008",
+    "requirement": "R6_ABI_PACKER_FROZEN"
+  },
+  {
+    "id": "R8-009",
+    "requirement": "R6_KERNEL_CONTRACT_FROZEN"
+  },
+  {
+    "id": "R8-010",
+    "requirement": "R6_PRODUCT_R4_FROZEN"
+  },
+  {
+    "id": "R8-011",
+    "requirement": "R6_PRODUCT_R6_FROZEN"
+  },
+  {
+    "id": "R8-012",
+    "requirement": "R6_REFERENCE_FROZEN"
+  },
+  {
+    "id": "R8-013",
+    "requirement": "R6_GENERATED_MANIFEST_FROZEN"
+  },
+  {
+    "id": "R8-014",
+    "requirement": "R5_AXIAL_IDENTITY_FROZEN"
+  },
+  {
+    "id": "R8-015",
+    "requirement": "R4_COORDINATE_IDENTITY_FROZEN"
+  },
+  {
+    "id": "R8-016",
+    "requirement": "R6_ABI_IDENTITY_96"
+  },
+  {
+    "id": "R8-017",
+    "requirement": "R6_KERNEL_MATH_IDENTITY"
+  },
+  {
+    "id": "R8-018",
+    "requirement": "R7_SHARED_PATH_AUTHORITY"
+  },
+  {
+    "id": "R8-019",
+    "requirement": "R7_RESIDUAL_FINAL_STAGE_ONLY"
+  },
+  {
+    "id": "R8-020",
+    "requirement": "NO_PRODUCTION_POINTER_MUTATION"
+  },
+  {
+    "id": "R8-021",
+    "requirement": "SUPPORT_ENVELOPE_ID"
+  },
+  {
+    "id": "R8-022",
+    "requirement": "PLANNER_V3_ID"
+  },
+  {
+    "id": "R8-023",
+    "requirement": "PLANNER_V3_SINGLE_PROFILE"
+  },
+  {
+    "id": "R8-024",
+    "requirement": "TILED_PROFILE_R8_ID"
+  },
+  {
+    "id": "R8-025",
+    "requirement": "ZERO_DEGRADATION_ID"
+  },
+  {
+    "id": "R8-026",
+    "requirement": "INTERNAL_SURFACE_ID"
+  },
+  {
+    "id": "R8-027",
+    "requirement": "SOURCE_PREPARE_ID"
+  },
+  {
+    "id": "R8-028",
+    "requirement": "BORDER_CONSERVATION_ID"
+  },
+  {
+    "id": "R8-029",
+    "requirement": "DC_ORACLE_ID"
+  },
+  {
+    "id": "R8-030",
+    "requirement": "CONSERVATION_RECEIPT_ID"
+  },
+  {
+    "id": "R8-031",
+    "requirement": "SUPPORT_INPUT_DIMENSIONS"
+  },
+  {
+    "id": "R8-032",
+    "requirement": "SUPPORT_INPUT_FINITE"
+  },
+  {
+    "id": "R8-033",
+    "requirement": "SUPPORT_INPUT_POSITIVE_SIGMAS"
+  },
+  {
+    "id": "R8-034",
+    "requirement": "SUPPORT_INPUT_ANISOTROPY"
+  },
+  {
+    "id": "R8-035",
+    "requirement": "SHRINK_CLAMP_NOT_SHADER_PARAM"
+  },
+  {
+    "id": "R8-036",
+    "requirement": "SHRINK_CLAMP_CONFLICT_REJECT"
+  },
+  {
+    "id": "R8-037",
+    "requirement": "SHRINK_CLAMP_NO_SILENT_CAP"
+  },
+  {
+    "id": "R8-038",
+    "requirement": "SUPPORT_SRC_PER_DST_X"
+  },
+  {
+    "id": "R8-039",
+    "requirement": "SUPPORT_SRC_PER_DST_Y"
+  },
+  {
+    "id": "R8-040",
+    "requirement": "SUPPORT_SCALE_BOUND"
+  },
+  {
+    "id": "R8-041",
+    "requirement": "SUPPORT_SCALE_T_INEQUALITY"
+  },
+  {
+    "id": "R8-042",
+    "requirement": "SUPPORT_SCALE_N_INEQUALITY"
+  },
+  {
+    "id": "R8-043",
+    "requirement": "SUPPORT_POLICY_NEUTRAL_BOUND"
+  },
+  {
+    "id": "R8-044",
+    "requirement": "SUPPORT_POLICY_MINIMUM"
+  },
+  {
+    "id": "R8-045",
+    "requirement": "SUPPORT_POLICY_LEVEL0"
+  },
+  {
+    "id": "R8-046",
+    "requirement": "SUPPORT_POLICY_LEVEL1"
+  },
+  {
+    "id": "R8-047",
+    "requirement": "SUPPORT_POLICY_LEVEL2"
+  },
+  {
+    "id": "R8-048",
+    "requirement": "SUPPORT_POLICY_MAXIMUM"
+  },
+  {
+    "id": "R8-049",
+    "requirement": "SUPPORT_ROOT_ANISOTROPY"
+  },
+  {
+    "id": "R8-050",
+    "requirement": "SUPPORT_MAJOR_UNCAPPED"
+  },
+  {
+    "id": "R8-051",
+    "requirement": "SUPPORT_MAJOR_FORMULA"
+  },
+  {
+    "id": "R8-052",
+    "requirement": "SUPPORT_MAJOR_MINIMUM_ONE"
+  },
+  {
+    "id": "R8-053",
+    "requirement": "SUPPORT_MINOR_UNCAPPED"
+  },
+  {
+    "id": "R8-054",
+    "requirement": "SUPPORT_MINOR_NEUTRAL_ANISO"
+  },
+  {
+    "id": "R8-055",
+    "requirement": "SUPPORT_MINOR_COVERAGE"
+  },
+  {
+    "id": "R8-056",
+    "requirement": "SUPPORT_MINOR_FORMULA"
+  },
+  {
+    "id": "R8-057",
+    "requirement": "SUPPORT_REQUIRED_RADIUS"
+  },
+  {
+    "id": "R8-058",
+    "requirement": "SUPPORT_REQUIRED_REACH"
+  },
+  {
+    "id": "R8-059",
+    "requirement": "SUPPORT_REQUIRED_REACH_CAN_EXCEED_6"
+  },
+  {
+    "id": "R8-060",
+    "requirement": "SUPPORT_MARGIN"
+  },
+  {
+    "id": "R8-061",
+    "requirement": "SUPPORT_MARGIN_ADMISSION"
+  },
+  {
+    "id": "R8-062",
+    "requirement": "SUPPORT_ENVELOPE_DIGEST"
+  },
+  {
+    "id": "R8-063",
+    "requirement": "SUPPORT_ENVELOPE_REPLAY"
+  },
+  {
+    "id": "R8-064",
+    "requirement": "SUPPORT_ENVELOPE_GEOMETRY_SENSITIVE"
+  },
+  {
+    "id": "R8-065",
+    "requirement": "SUPPORT_ENVELOPE_POLICY_SENSITIVE"
+  },
+  {
+    "id": "R8-066",
+    "requirement": "SUPPORT_ENVELOPE_SIGMA_SENSITIVE"
+  },
+  {
+    "id": "R8-067",
+    "requirement": "SUPPORT_ENVELOPE_ROLE_NEUTRAL"
+  },
+  {
+    "id": "R8-068",
+    "requirement": "PLANNER_POLICY_BOUND_INCLUDED"
+  },
+  {
+    "id": "R8-069",
+    "requirement": "PLANNER_MAJOR_MINOR_INCLUDED"
+  },
+  {
+    "id": "R8-070",
+    "requirement": "PLANNER_STAGE_VERIFY_AFTER_CHOICE"
+  },
+  {
+    "id": "R8-071",
+    "requirement": "PLANNER_NO_MAJOR_ONLY_RATIO"
+  },
+  {
+    "id": "R8-072",
+    "requirement": "PLANNER_NO_CLIPPED_STAGE"
+  },
+  {
+    "id": "R8-073",
+    "requirement": "PLANNER_UNSATISFIED_REJECT"
+  },
+  {
+    "id": "R8-074",
+    "requirement": "PLANNER_STAGE_LIMIT_32"
+  },
+  {
+    "id": "R8-075",
+    "requirement": "PLANNER_EXACT_TARGET"
+  },
+  {
+    "id": "R8-076",
+    "requirement": "PLANNER_NO_UPSCALE"
+  },
+  {
+    "id": "R8-077",
+    "requirement": "PLANNER_PLAN_DIGEST_SUPPORT"
+  },
+  {
+    "id": "R8-078",
+    "requirement": "PLANNER_PLAN_DIGEST_POLICY"
+  },
+  {
+    "id": "R8-079",
+    "requirement": "PLANNER_PLAN_DIGEST_ROLE_NEUTRAL"
+  },
+  {
+    "id": "R8-080",
+    "requirement": "PLANNER_PLAN_DIGEST_RESIDUAL_NEUTRAL"
+  },
+  {
+    "id": "R8-081",
+    "requirement": "PLANNER_PREVIEW_EXPORT_EQUAL"
+  },
+  {
+    "id": "R8-082",
+    "requirement": "PROFILE_R4_REACH"
+  },
+  {
+    "id": "R8-083",
+    "requirement": "PROFILE_R6_REACH"
+  },
+  {
+    "id": "R8-084",
+    "requirement": "PROFILE_R4_GEOMETRY"
+  },
+  {
+    "id": "R8-085",
+    "requirement": "PROFILE_R6_GEOMETRY"
+  },
+  {
+    "id": "R8-086",
+    "requirement": "PROFILE_SELECT_R4"
+  },
+  {
+    "id": "R8-087",
+    "requirement": "PROFILE_SELECT_R6"
+  },
+  {
+    "id": "R8-088",
+    "requirement": "PROFILE_REJECT_GT6"
+  },
+  {
+    "id": "R8-089",
+    "requirement": "PROFILE_NO_REASON_CONFLATION"
+  },
+  {
+    "id": "R8-090",
+    "requirement": "PROFILE_TILE_PROOF"
+  },
+  {
+    "id": "R8-091",
+    "requirement": "PROFILE_SUPPORT_RECEIPT"
+  },
+  {
+    "id": "R8-092",
+    "requirement": "POLICY_SCHEMA_PROPAGATED"
+  },
+  {
+    "id": "R8-093",
+    "requirement": "POLICY_DIGEST_PROPAGATED"
+  },
+  {
+    "id": "R8-094",
+    "requirement": "POLICY_BOUND_PROPAGATED"
+  },
+  {
+    "id": "R8-095",
+    "requirement": "POLICY_TEXTURE_METADATA"
+  },
+  {
+    "id": "R8-096",
+    "requirement": "POLICY_TEXTURE_METADATA_REQUIRED"
+  },
+  {
+    "id": "R8-097",
+    "requirement": "POLICY_BOUND_MISMATCH_REJECT"
+  },
+  {
+    "id": "R8-098",
+    "requirement": "POLICY_DIGEST_MISMATCH_REJECT"
+  },
+  {
+    "id": "R8-099",
+    "requirement": "POLICY_FLAG_DISABLED_COHERENCE"
+  },
+  {
+    "id": "R8-100",
+    "requirement": "POLICY_FLAG_ENABLED_COHERENCE"
+  },
+  {
+    "id": "R8-101",
+    "requirement": "POLICY_ANISOTROPY_AUTHORITY"
+  },
+  {
+    "id": "R8-102",
+    "requirement": "POLICY_ANISOTROPY_MISMATCH_REJECT"
+  },
+  {
+    "id": "R8-103",
+    "requirement": "NEUTRAL_POLICY_VALUE"
+  },
+  {
+    "id": "R8-104",
+    "requirement": "NEUTRAL_POLICY_WRITE_EXACT_ONE"
+  },
+  {
+    "id": "R8-105",
+    "requirement": "NEUTRAL_POLICY_RECEIPT"
+  },
+  {
+    "id": "R8-106",
+    "requirement": "NEUTRAL_POLICY_EPOCH"
+  },
+  {
+    "id": "R8-107",
+    "requirement": "NEUTRAL_POLICY_UNINITIALIZED_REJECT"
+  },
+  {
+    "id": "R8-108",
+    "requirement": "R8_GENERATOR_ID"
+  },
+  {
+    "id": "R8-109",
+    "requirement": "R8_MANIFEST_ID"
+  },
+  {
+    "id": "R8-110",
+    "requirement": "R8_OUTPUT_PRODUCT_R4"
+  },
+  {
+    "id": "R8-111",
+    "requirement": "R8_OUTPUT_PRODUCT_R6"
+  },
+  {
+    "id": "R8-112",
+    "requirement": "R8_OUTPUT_VALIDATION_R4"
+  },
+  {
+    "id": "R8-113",
+    "requirement": "R8_OUTPUT_VALIDATION_R6"
+  },
+  {
+    "id": "R8-114",
+    "requirement": "R8_OUTPUT_REFERENCE"
+  },
+  {
+    "id": "R8-115",
+    "requirement": "R8_GENERATED_DIGESTS"
+  },
+  {
+    "id": "R8-116",
+    "requirement": "R8_NO_MANUAL_GENERATED_EDIT"
+  },
+  {
+    "id": "R8-117",
+    "requirement": "SHADER_ABI_V4"
+  },
+  {
+    "id": "R8-118",
+    "requirement": "SHADER_COORDINATE_R4"
+  },
+  {
+    "id": "R8-119",
+    "requirement": "SHADER_AXIAL_R5"
+  },
+  {
+    "id": "R8-120",
+    "requirement": "SHADER_WEIGHT_R6"
+  },
+  {
+    "id": "R8-121",
+    "requirement": "SHADER_BORDER_LOGICAL_DISTANCE"
+  },
+  {
+    "id": "R8-122",
+    "requirement": "SHADER_MAJOR_NO_MIN_REACH"
+  },
+  {
+    "id": "R8-123",
+    "requirement": "SHADER_MINOR_NO_MIN_REACH"
+  },
+  {
+    "id": "R8-124",
+    "requirement": "SHADER_SUPPORT_ASSERT"
+  },
+  {
+    "id": "R8-125",
+    "requirement": "SHADER_SUPPORT_FAULT"
+  },
+  {
+    "id": "R8-126",
+    "requirement": "SHADER_WEIGHT_SUM_FINITE"
+  },
+  {
+    "id": "R8-127",
+    "requirement": "SHADER_WEIGHT_SUM_POSITIVE"
+  },
+  {
+    "id": "R8-128",
+    "requirement": "SHADER_ACCUMULATED_FINITE"
+  },
+  {
+    "id": "R8-129",
+    "requirement": "SHADER_CENTER_FALLBACK_ABSENT"
+  },
+  {
+    "id": "R8-130",
+    "requirement": "SHADER_FAULT_VALUE_COMMON"
+  },
+  {
+    "id": "R8-131",
+    "requirement": "SHADER_PRODUCT_TILED"
+  },
+  {
+    "id": "R8-132",
+    "requirement": "SHADER_REFERENCE_DIRECT"
+  },
+  {
+    "id": "R8-133",
+    "requirement": "SHADER_REFERENCE_NOT_PRODUCT"
+  },
+  {
+    "id": "R8-134",
+    "requirement": "VALIDATION_SCHEMA_VERSIONED"
+  },
+  {
+    "id": "R8-135",
+    "requirement": "VALIDATION_SUPPORT_COUNTER"
+  },
+  {
+    "id": "R8-136",
+    "requirement": "VALIDATION_WEIGHT_ZERO_COUNTER"
+  },
+  {
+    "id": "R8-137",
+    "requirement": "VALIDATION_WEIGHT_NONFINITE_COUNTER"
+  },
+  {
+    "id": "R8-138",
+    "requirement": "VALIDATION_ACCUM_NONFINITE_COUNTER"
+  },
+  {
+    "id": "R8-139",
+    "requirement": "VALIDATION_SOURCE_NONFINITE_COUNTER"
+  },
+  {
+    "id": "R8-140",
+    "requirement": "VALIDATION_OUT_OF_TILE_COUNTER"
+  },
+  {
+    "id": "R8-141",
+    "requirement": "VALIDATION_BORDER_COUNTERS"
+  },
+  {
+    "id": "R8-142",
+    "requirement": "VALIDATION_RADIUS_CLAMP_ZERO"
+  },
+  {
+    "id": "R8-143",
+    "requirement": "VALIDATION_CENTER_FALLBACK_ZERO"
+  },
+  {
+    "id": "R8-144",
+    "requirement": "SOURCE_SEMANTIC_FIELDS"
+  },
+  {
+    "id": "R8-145",
+    "requirement": "SOURCE_SEMANTIC_UNKNOWN_REJECT"
+  },
+  {
+    "id": "R8-146",
+    "requirement": "SOURCE_INTERNAL_LINEAR"
+  },
+  {
+    "id": "R8-147",
+    "requirement": "SOURCE_INTERNAL_PREMULTIPLIED"
+  },
+  {
+    "id": "R8-148",
+    "requirement": "SOURCE_INTERNAL_RGBA16"
+  },
+  {
+    "id": "R8-149",
+    "requirement": "SOURCE_PREPARE_IDENTITY"
+  },
+  {
+    "id": "R8-150",
+    "requirement": "SOURCE_PREPARE_LINEAR_STRAIGHT"
+  },
+  {
+    "id": "R8-151",
+    "requirement": "SOURCE_PREPARE_SRGB_STRAIGHT"
+  },
+  {
+    "id": "R8-152",
+    "requirement": "SOURCE_PREPARE_SRGB_PREMULT"
+  },
+  {
+    "id": "R8-153",
+    "requirement": "SOURCE_PREPARE_SRGB_DECODE_FORMULA"
+  },
+  {
+    "id": "R8-154",
+    "requirement": "SOURCE_PREPARE_ALPHA_ZERO"
+  },
+  {
+    "id": "R8-155",
+    "requirement": "SOURCE_PREPARE_NO_DOUBLE_PREMULT"
+  },
+  {
+    "id": "R8-156",
+    "requirement": "SOURCE_PREPARE_NO_MISSING_PREMULT"
+  },
+  {
+    "id": "R8-157",
+    "requirement": "SOURCE_PREPARE_GPU_ONLY"
+  },
+  {
+    "id": "R8-158",
+    "requirement": "SOURCE_PREPARE_CPU_ZERO"
+  },
+  {
+    "id": "R8-159",
+    "requirement": "SOURCE_PREPARE_READBACK_ZERO"
+  },
+  {
+    "id": "R8-160",
+    "requirement": "SOURCE_PREPARE_RECEIPT"
+  },
+  {
+    "id": "R8-161",
+    "requirement": "SOURCE_PREPARE_OWNERSHIP"
+  },
+  {
+    "id": "R8-162",
+    "requirement": "SOURCE_PREPARE_EPOCH"
+  },
+  {
+    "id": "R8-163",
+    "requirement": "EXPORT_SOURCE_DEFAULT_SRGB"
+  },
+  {
+    "id": "R8-164",
+    "requirement": "EXPORT_SOURCE_DEFAULT_STRAIGHT"
+  },
+  {
+    "id": "R8-165",
+    "requirement": "EXPORT_OUTPUT_DEFAULT_SRGB"
+  },
+  {
+    "id": "R8-166",
+    "requirement": "EXPORT_OUTPUT_DEFAULT_STRAIGHT"
+  },
+  {
+    "id": "R8-167",
+    "requirement": "EXPORT_ALPHA_MODE_ALIAS_OUTPUT_ONLY"
+  },
+  {
+    "id": "R8-168",
+    "requirement": "EXPORT_SOURCE_PREMULT_EXPLICIT"
+  },
+  {
+    "id": "R8-169",
+    "requirement": "PREVIEW_SOURCE_SEMANTIC_REQUIRED"
+  },
+  {
+    "id": "R8-170",
+    "requirement": "LOWPASS_PREMULT_ACCUMULATION"
+  },
+  {
+    "id": "R8-171",
+    "requirement": "LOWPASS_INTERMEDIATE_UNPREMULT_ZERO"
+  },
+  {
+    "id": "R8-172",
+    "requirement": "LOWPASS_OUTPUT_SEMANTIC"
+  },
+  {
+    "id": "R8-173",
+    "requirement": "LOWPASS_ALPHA_FINITE"
+  },
+  {
+    "id": "R8-174",
+    "requirement": "LOWPASS_ALPHA_RANGE"
+  },
+  {
+    "id": "R8-175",
+    "requirement": "BORDER_DELTA_LOGICAL"
+  },
+  {
+    "id": "R8-176",
+    "requirement": "BORDER_FETCH_CLAMP_ONLY"
+  },
+  {
+    "id": "R8-177",
+    "requirement": "BORDER_NO_TAP_DEDUP"
+  },
+  {
+    "id": "R8-178",
+    "requirement": "BORDER_COMPLETE_WEIGHT_MASS"
+  },
+  {
+    "id": "R8-179",
+    "requirement": "BORDER_ONE_BY_ONE"
+  },
+  {
+    "id": "R8-180",
+    "requirement": "BORDER_ONE_BY_N"
+  },
+  {
+    "id": "R8-181",
+    "requirement": "BORDER_N_BY_ONE"
+  },
+  {
+    "id": "R8-182",
+    "requirement": "BORDER_CORNER_PHASES"
+  },
+  {
+    "id": "R8-183",
+    "requirement": "BORDER_PARTIAL_WORKGROUP"
+  },
+  {
+    "id": "R8-184",
+    "requirement": "DC_ORACLE_INDEPENDENT"
+  },
+  {
+    "id": "R8-185",
+    "requirement": "DC_ORACLE_BINARY64"
+  },
+  {
+    "id": "R8-186",
+    "requirement": "DC_CONSTANT_TRANSPARENT"
+  },
+  {
+    "id": "R8-187",
+    "requirement": "DC_CONSTANT_OPAQUE"
+  },
+  {
+    "id": "R8-188",
+    "requirement": "DC_CONSTANT_PARTIAL_ALPHA"
+  },
+  {
+    "id": "R8-189",
+    "requirement": "DC_R4_PROFILE"
+  },
+  {
+    "id": "R8-190",
+    "requirement": "DC_R6_PROFILE"
+  },
+  {
+    "id": "R8-191",
+    "requirement": "DC_POLICY_SCALES"
+  },
+  {
+    "id": "R8-192",
+    "requirement": "DC_ANISOTROPY_FIELDS"
+  },
+  {
+    "id": "R8-193",
+    "requirement": "DC_FRACTIONAL_PHASES"
+  },
+  {
+    "id": "R8-194",
+    "requirement": "DC_MULTISTAGE"
+  },
+  {
+    "id": "R8-195",
+    "requirement": "DC_PREVIEW_EXPORT_EQUAL"
+  },
+  {
+    "id": "R8-196",
+    "requirement": "ALPHA_HIDDEN_RGB_ZERO"
+  },
+  {
+    "id": "R8-197",
+    "requirement": "ALPHA_STRAIGHT_COLOR_VARIANT"
+  },
+  {
+    "id": "R8-198",
+    "requirement": "ALPHA_EPSILON_BOUNDARIES"
+  },
+  {
+    "id": "R8-199",
+    "requirement": "ALPHA_BORDER_TRANSITIONS"
+  },
+  {
+    "id": "R8-200",
+    "requirement": "RESIDUAL_ALPHA_IDENTITY"
+  },
+  {
+    "id": "R8-201",
+    "requirement": "RESIDUAL_RGB_ONLY"
+  },
+  {
+    "id": "R8-202",
+    "requirement": "RESIDUAL_ZERO_ALPHA_RGB_ZERO"
+  },
+  {
+    "id": "R8-203",
+    "requirement": "RESIDUAL_CONSTANT_ZERO"
+  },
+  {
+    "id": "R8-204",
+    "requirement": "RESIDUAL_NO_FEEDBACK"
+  },
+  {
+    "id": "R8-205",
+    "requirement": "FINALIZE_INPUT_LINEAR_PREMULT"
+  },
+  {
+    "id": "R8-206",
+    "requirement": "FINALIZE_OUTPUT_FIELDS_EXPLICIT"
+  },
+  {
+    "id": "R8-207",
+    "requirement": "FINALIZE_STRAIGHT_UNPREMULT"
+  },
+  {
+    "id": "R8-208",
+    "requirement": "FINALIZE_PREMULT_ORDER"
+  },
+  {
+    "id": "R8-209",
+    "requirement": "FINALIZE_SRGB_ENCODE_FORMULA"
+  },
+  {
+    "id": "R8-210",
+    "requirement": "FINALIZE_ALPHA_NOT_TRANSFERRED"
+  },
+  {
+    "id": "R8-211",
+    "requirement": "FINALIZE_ALPHA_ZERO_RGB_ZERO"
+  },
+  {
+    "id": "R8-212",
+    "requirement": "FINALIZE_FAULT_DIAGNOSTIC"
+  },
+  {
+    "id": "R8-213",
+    "requirement": "SUPPORT_RECEIPT_COMPLETE"
+  },
+  {
+    "id": "R8-214",
+    "requirement": "SOURCE_RECEIPT_COMPLETE"
+  },
+  {
+    "id": "R8-215",
+    "requirement": "CONSERVATION_RECEIPT_SEPARATE"
+  },
+  {
+    "id": "R8-216",
+    "requirement": "DEGRADATION_RECEIPT_COMPLETE"
+  },
+  {
+    "id": "R8-217",
+    "requirement": "TELEMETRY_FORBIDDEN_ZERO"
+  },
+  {
+    "id": "R8-218",
+    "requirement": "ACTIVE_GRAPH_PLANNER_R8"
+  },
+  {
+    "id": "R8-219",
+    "requirement": "ACTIVE_GRAPH_SUPPORT_R8"
+  },
+  {
+    "id": "R8-220",
+    "requirement": "ACTIVE_GRAPH_PRODUCT_R8"
+  },
+  {
+    "id": "R8-221",
+    "requirement": "ACTIVE_GRAPH_SOURCE_PREPARE_R8"
+  },
+  {
+    "id": "R8-222",
+    "requirement": "ACTIVE_GRAPH_RESIDUAL_FINALIZE_R8"
+  },
+  {
+    "id": "R8-223",
+    "requirement": "ACTIVE_GRAPH_TOOLS_EXCLUDED"
+  },
+  {
+    "id": "R8-224",
+    "requirement": "NO_CPU_RESAMPLE_FALLBACK"
+  },
+  {
+    "id": "R8-225",
+    "requirement": "NO_CPU_ALPHA_FALLBACK"
+  },
+  {
+    "id": "R8-226",
+    "requirement": "NO_CANVAS_WEBGL_FALLBACK"
+  },
+  {
+    "id": "R8-227",
+    "requirement": "NO_LEGACY_PRODUCT_FALLBACK"
+  },
+  {
+    "id": "R8-228",
+    "requirement": "NEGATIVE_RADIUS_CLAMP_DETECTED"
+  },
+  {
+    "id": "R8-229",
+    "requirement": "NEGATIVE_HOST_CLIP_PROOF_DETECTED"
+  },
+  {
+    "id": "R8-230",
+    "requirement": "NEGATIVE_MINOR_ROOT_DETECTED"
+  },
+  {
+    "id": "R8-231",
+    "requirement": "NEGATIVE_POLICY_OMISSION_DETECTED"
+  },
+  {
+    "id": "R8-232",
+    "requirement": "NEGATIVE_POLICY_GUESS_DETECTED"
+  },
+  {
+    "id": "R8-233",
+    "requirement": "NEGATIVE_NEUTRAL_UNINIT_DETECTED"
+  },
+  {
+    "id": "R8-234",
+    "requirement": "NEGATIVE_SHRINK_CAP_DETECTED"
+  },
+  {
+    "id": "R8-235",
+    "requirement": "NEGATIVE_CENTER_FALLBACK_DETECTED"
+  },
+  {
+    "id": "R8-236",
+    "requirement": "NEGATIVE_BORDER_DISTANCE_DETECTED"
+  },
+  {
+    "id": "R8-237",
+    "requirement": "NEGATIVE_BORDER_DEDUP_DETECTED"
+  },
+  {
+    "id": "R8-238",
+    "requirement": "NEGATIVE_MISSING_PREMULT_DETECTED"
+  },
+  {
+    "id": "R8-239",
+    "requirement": "NEGATIVE_DOUBLE_PREMULT_DETECTED"
+  },
+  {
+    "id": "R8-240",
+    "requirement": "NEGATIVE_CPU_PREPARE_DETECTED"
+  },
+  {
+    "id": "R8-241",
+    "requirement": "NEGATIVE_RESIDUAL_ALPHA_DETECTED"
+  },
+  {
+    "id": "R8-242",
+    "requirement": "NEGATIVE_INTERMEDIATE_UNPREMULT_DETECTED"
+  },
+  {
+    "id": "R8-243",
+    "requirement": "NEGATIVE_FAULT_CLAMP_DETECTED"
+  },
+  {
+    "id": "R8-244",
+    "requirement": "DETERMINISTIC_FIXTURES"
+  },
+  {
+    "id": "R8-245",
+    "requirement": "DETERMINISTIC_GENERATED_SOURCE"
+  },
+  {
+    "id": "R8-246",
+    "requirement": "DETERMINISTIC_RECEIPTS"
+  },
+  {
+    "id": "R8-247",
+    "requirement": "RESOURCE_DESTROY_ONCE"
+  },
+  {
+    "id": "R8-248",
+    "requirement": "PREDECESSOR_R1A_R7_REGRESSION"
+  },
+  {
+    "id": "R8-249",
+    "requirement": "SOURCE_GATE_RECEIPT_COMPLETE"
+  },
+  {
+    "id": "R8-250",
+    "requirement": "FINAL_STATE_CORRECT"
+  },
+  {
+    "id": "R8-251",
+    "requirement": "PHYSICAL_WGSL_COMPILE"
+  },
+  {
+    "id": "R8-252",
+    "requirement": "PHYSICAL_PRODUCT_REFERENCE_PARITY"
+  },
+  {
+    "id": "R8-253",
+    "requirement": "PHYSICAL_SUPPORT_VALIDATION_COUNTERS"
+  },
+  {
+    "id": "R8-254",
+    "requirement": "PHYSICAL_DC_ALPHA_BORDER_ULP"
+  },
+  {
+    "id": "R8-255",
+    "requirement": "PHYSICAL_TIMESTAMP_MEMORY_DEVICE_LOSS"
+  },
+  {
+    "id": "R8-256",
+    "requirement": "PACKAGED_ELECTRON_IDENTITY"
+  }
+]

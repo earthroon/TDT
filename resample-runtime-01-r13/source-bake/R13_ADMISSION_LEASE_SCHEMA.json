@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 1,
+  "$id": "tdt.rollout.admission-lease.r13.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rolloutId",
+    "planDigest",
+    "ringId",
+    "installationRolloutPseudonym",
+    "cohortBucket",
+    "targetBuildId",
+    "targetPackageContentId",
+    "expectedLocalR10Generation",
+    "expectedLocalR10RawSha256",
+    "leaseNonce",
+    "notBefore",
+    "expiresAt",
+    "leaseSha256",
+    "signature"
+  ],
+  "properties": {}
+}

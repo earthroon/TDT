@@ -1,0 +1,4738 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 786,
+    "PENDING": 0,
+    "SKIPPED": 0
+  },
+  "fleetCounts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 0,
+    "PENDING": 744,
+    "SKIPPED": 0
+  },
+  "gates": [
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S001",
+      "requirement": "PARENT_BUNDLE_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S002",
+      "requirement": "PARENT_BUNDLE_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S003",
+      "requirement": "PARENT_BUNDLE_SHA256_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S004",
+      "requirement": "PARENT_BUNDLE_SHA256_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S005",
+      "requirement": "PARENT_R12A_SPEC_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S006",
+      "requirement": "PARENT_R12A_SPEC_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S007",
+      "requirement": "PARENT_R12A_SPEC_SHA256_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S008",
+      "requirement": "PARENT_R12A_SPEC_SHA256_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S009",
+      "requirement": "PARENT_R12A_SOURCE_RECEIPT_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S010",
+      "requirement": "PARENT_R12A_SOURCE_RECEIPT_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S011",
+      "requirement": "PARENT_R12A_SOURCE_RECEIPT_SHA256_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S012",
+      "requirement": "PARENT_R12A_SOURCE_RECEIPT_SHA256_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S013",
+      "requirement": "PARENT_R12A_SOURCE_STATE_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S014",
+      "requirement": "PARENT_R12A_SOURCE_STATE_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S015",
+      "requirement": "PARENT_R12A_SOURCE_PASS_360_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S016",
+      "requirement": "PARENT_R12A_SOURCE_PASS_360_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S017",
+      "requirement": "PARENT_R12A_INSTALLED_PENDING_480_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S018",
+      "requirement": "PARENT_R12A_INSTALLED_PENDING_480_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S019",
+      "requirement": "PARENT_R12A_FAIL_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S020",
+      "requirement": "PARENT_R12A_FAIL_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S021",
+      "requirement": "PARENT_PRODUCTION_POINTER_SHA_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S022",
+      "requirement": "PARENT_PRODUCTION_POINTER_SHA_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S023",
+      "requirement": "PARENT_PRODUCTION_POINTER_MUTATION_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S024",
+      "requirement": "PARENT_PRODUCTION_POINTER_MUTATION_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S025",
+      "requirement": "PARENT_LOCAL_POINTER_MUTATION_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S026",
+      "requirement": "PARENT_LOCAL_POINTER_MUTATION_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S027",
+      "requirement": "OLD_R13_SPEC_INVENTORIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S028",
+      "requirement": "OLD_R13_SPEC_INVENTORIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S029",
+      "requirement": "OLD_R13_RECEIPT_INVENTORIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S030",
+      "requirement": "OLD_R13_RECEIPT_INVENTORIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S031",
+      "requirement": "OLD_R13_SUPERSEDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S032",
+      "requirement": "OLD_R13_SUPERSEDED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S033",
+      "requirement": "OLD_R13_PASS_CARRY_FORWARD_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S034",
+      "requirement": "OLD_R13_PASS_CARRY_FORWARD_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S035",
+      "requirement": "R10A_RELEASE_PENDING_RECORDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S036",
+      "requirement": "R10A_RELEASE_PENDING_RECORDED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S037",
+      "requirement": "R11A_INSTALLED_PENDING_RECORDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S038",
+      "requirement": "R11A_INSTALLED_PENDING_RECORDED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S039",
+      "requirement": "R12A_INSTALLED_PENDING_RECORDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S040",
+      "requirement": "R12A_INSTALLED_PENDING_RECORDED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S041",
+      "requirement": "SOURCE_MODE_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S042",
+      "requirement": "SOURCE_MODE_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S043",
+      "requirement": "FLEET_EXECUTION_ABSENT_RECORDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S044",
+      "requirement": "FLEET_EXECUTION_ABSENT_RECORDED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S045",
+      "requirement": "PARENT_RECEIPT_REWRITE_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S046",
+      "requirement": "PARENT_RECEIPT_REWRITE_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S047",
+      "requirement": "PARENT_POINTER_WRITE_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S048",
+      "requirement": "PARENT_POINTER_WRITE_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S049",
+      "requirement": "PREDECESSOR_SNAPSHOT_ISOLATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S050",
+      "requirement": "PREDECESSOR_SNAPSHOT_ISOLATED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S051",
+      "requirement": "CURRENT_FACTS_RECEIPT_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S052",
+      "requirement": "CURRENT_FACTS_RECEIPT_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S053",
+      "requirement": "PARENT_FREEZE_MANIFEST_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S054",
+      "requirement": "PARENT_FREEZE_MANIFEST_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S055",
+      "requirement": "PARENT_FREEZE_CHILD_DIGESTS_COMPLETE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S056",
+      "requirement": "PARENT_FREEZE_CHILD_DIGESTS_COMPLETE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S057",
+      "requirement": "SOURCE_GATE_COUNT_PINNED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S058",
+      "requirement": "SOURCE_GATE_COUNT_PINNED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S059",
+      "requirement": "FLEET_GATE_COUNT_PINNED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S060",
+      "requirement": "FLEET_GATE_COUNT_PINNED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S061",
+      "requirement": "R10A_RELEASE_AUTHORITY_READ_ONLY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S062",
+      "requirement": "R10A_RELEASE_AUTHORITY_READ_ONLY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S063",
+      "requirement": "R11A_SESSION_AUTHORITY_SEPARATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S064",
+      "requirement": "R11A_SESSION_AUTHORITY_SEPARATED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S065",
+      "requirement": "R12A_TRANSACTION_AUTHORITY_SEPARATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S066",
+      "requirement": "R12A_TRANSACTION_AUTHORITY_SEPARATED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S067",
+      "requirement": "R13A_FLEET_AUTHORITY_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S068",
+      "requirement": "R13A_FLEET_AUTHORITY_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S069",
+      "requirement": "R13A_LOCAL_AGENT_AUTHORITY_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S070",
+      "requirement": "R13A_LOCAL_AGENT_AUTHORITY_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S071",
+      "requirement": "FLEET_PLAN_SSOT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S072",
+      "requirement": "FLEET_PLAN_SSOT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S073",
+      "requirement": "FLEET_LEDGER_SSOT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S074",
+      "requirement": "FLEET_LEDGER_SSOT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S075",
+      "requirement": "REVOCATION_GENERATION_SSOT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S076",
+      "requirement": "REVOCATION_GENERATION_SSOT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S077",
+      "requirement": "CONTAINMENT_GENERATION_SSOT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S078",
+      "requirement": "CONTAINMENT_GENERATION_SSOT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S079",
+      "requirement": "ACCEPTED_EVIDENCE_SET_SSOT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S080",
+      "requirement": "ACCEPTED_EVIDENCE_SET_SSOT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S081",
+      "requirement": "FLEET_BINDING_SIDECAR_SSOT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S082",
+      "requirement": "FLEET_BINDING_SIDECAR_SSOT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S083",
+      "requirement": "R12A_TRANSACTION_V2_PRESERVED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S084",
+      "requirement": "R12A_TRANSACTION_V2_PRESERVED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S085",
+      "requirement": "R12A_JOURNAL_FLEET_PHASE_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S086",
+      "requirement": "R12A_JOURNAL_FLEET_PHASE_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S087",
+      "requirement": "PRODUCTION_POINTER_WRITE_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S088",
+      "requirement": "PRODUCTION_POINTER_WRITE_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S089",
+      "requirement": "LOCAL_POINTER_WRITE_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S090",
+      "requirement": "LOCAL_POINTER_WRITE_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S091",
+      "requirement": "R11A_SESSION_ISSUE_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S092",
+      "requirement": "R11A_SESSION_ISSUE_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S093",
+      "requirement": "RENDERER_PRIVATE_KEY_ACCESS_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S094",
+      "requirement": "RENDERER_PRIVATE_KEY_ACCESS_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S095",
+      "requirement": "RENDERER_LEASE_VALIDATION_FORBIDDEN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S096",
+      "requirement": "RENDERER_LEASE_VALIDATION_FORBIDDEN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S097",
+      "requirement": "MAIN_PROCESS_LOCAL_AGENT_SINGLETON_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S098",
+      "requirement": "MAIN_PROCESS_LOCAL_AGENT_SINGLETON_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S099",
+      "requirement": "FLEET_SERVER_NO_LOCAL_EFFECT_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S100",
+      "requirement": "FLEET_SERVER_NO_LOCAL_EFFECT_AUTHORITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S101",
+      "requirement": "NO_REMOTE_SILENT_ROLLBACK_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S102",
+      "requirement": "NO_REMOTE_SILENT_ROLLBACK_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S103",
+      "requirement": "NO_HOT_PATCH_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S104",
+      "requirement": "NO_HOT_PATCH_AUTHORITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S105",
+      "requirement": "NO_COMPONENT_SWAP_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S106",
+      "requirement": "NO_COMPONENT_SWAP_AUTHORITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S107",
+      "requirement": "NO_USER_JOB_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S108",
+      "requirement": "NO_USER_JOB_AUTHORITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S109",
+      "requirement": "NO_RELEASE_QUALIFICATION_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S110",
+      "requirement": "NO_RELEASE_QUALIFICATION_AUTHORITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S111",
+      "requirement": "NO_EVIDENCE_SUMMARY_TRUST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S112",
+      "requirement": "NO_EVIDENCE_SUMMARY_TRUST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S113",
+      "requirement": "NO_MTIME_RECOVERY_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S114",
+      "requirement": "NO_MTIME_RECOVERY_AUTHORITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S115",
+      "requirement": "NO_MISSING_AS_SUCCESS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S116",
+      "requirement": "NO_MISSING_AS_SUCCESS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S117",
+      "requirement": "NO_SMALL_CELL_ZERO_FILL_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S118",
+      "requirement": "NO_SMALL_CELL_ZERO_FILL_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S119",
+      "requirement": "AUTHORITY_GRAPH_CYCLE_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S120",
+      "requirement": "AUTHORITY_GRAPH_CYCLE_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S121",
+      "requirement": "NORMAL_WINDOW_FLEET_UPDATE_BARRIER_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S122",
+      "requirement": "NORMAL_WINDOW_FLEET_UPDATE_BARRIER_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S123",
+      "requirement": "R13A_RUNTIME_MODULE_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S124",
+      "requirement": "R13A_RUNTIME_MODULE_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S125",
+      "requirement": "ACTIVE_GRAPH_R13A_NODE_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S126",
+      "requirement": "ACTIVE_GRAPH_R13A_NODE_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S127",
+      "requirement": "RUNTIME_MANIFEST_R13A_MODULE_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S128",
+      "requirement": "RUNTIME_MANIFEST_R13A_MODULE_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S129",
+      "requirement": "PRELOAD_NARROW_CAPABILITY_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S130",
+      "requirement": "PRELOAD_NARROW_CAPABILITY_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S131",
+      "requirement": "ELECTRON_MAIN_IMPORT_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S132",
+      "requirement": "ELECTRON_MAIN_IMPORT_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S133",
+      "requirement": "SOURCE_FINALIZER_NO_POINTER_WRITE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S134",
+      "requirement": "SOURCE_FINALIZER_NO_POINTER_WRITE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S135",
+      "requirement": "FLEET_FINALIZER_NO_POINTER_WRITE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S136",
+      "requirement": "FLEET_FINALIZER_NO_POINTER_WRITE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S137",
+      "requirement": "LOCAL_AGENT_NO_PLAN_SIGNING_KEY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S138",
+      "requirement": "LOCAL_AGENT_NO_PLAN_SIGNING_KEY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S139",
+      "requirement": "LOCAL_AGENT_NO_CONTAINMENT_SIGNING_KEY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S140",
+      "requirement": "LOCAL_AGENT_NO_CONTAINMENT_SIGNING_KEY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S141",
+      "requirement": "ROLLOUT_PLAN_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S142",
+      "requirement": "ROLLOUT_PLAN_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S143",
+      "requirement": "FLEET_LEDGER_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S144",
+      "requirement": "FLEET_LEDGER_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S145",
+      "requirement": "INSTALLATION_ADMISSION_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S146",
+      "requirement": "INSTALLATION_ADMISSION_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S147",
+      "requirement": "UPDATE_LEASE_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S148",
+      "requirement": "UPDATE_LEASE_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S149",
+      "requirement": "LEASE_CLAIM_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S150",
+      "requirement": "LEASE_CLAIM_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S151",
+      "requirement": "DRAIN_PERMIT_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S152",
+      "requirement": "DRAIN_PERMIT_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S153",
+      "requirement": "FLEET_BINDING_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S154",
+      "requirement": "FLEET_BINDING_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S155",
+      "requirement": "LOCAL_COMPLETION_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S156",
+      "requirement": "LOCAL_COMPLETION_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S157",
+      "requirement": "POST_UPDATE_EVIDENCE_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S158",
+      "requirement": "POST_UPDATE_EVIDENCE_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S159",
+      "requirement": "EVIDENCE_ACK_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S160",
+      "requirement": "EVIDENCE_ACK_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S161",
+      "requirement": "EXACT_AGGREGATE_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S162",
+      "requirement": "EXACT_AGGREGATE_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S163",
+      "requirement": "PRIVACY_REPORT_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S164",
+      "requirement": "PRIVACY_REPORT_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S165",
+      "requirement": "RING_DECISION_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S166",
+      "requirement": "RING_DECISION_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S167",
+      "requirement": "CONTAINMENT_DIRECTIVE_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S168",
+      "requirement": "CONTAINMENT_DIRECTIVE_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S169",
+      "requirement": "RECOVERY_REPLAY_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S170",
+      "requirement": "RECOVERY_REPLAY_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S171",
+      "requirement": "FINAL_FLEET_RECEIPT_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S172",
+      "requirement": "FINAL_FLEET_RECEIPT_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S173",
+      "requirement": "KEY_REGISTRY_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S174",
+      "requirement": "KEY_REGISTRY_V2_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S175",
+      "requirement": "OUTBOX_ENTRY_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S176",
+      "requirement": "OUTBOX_ENTRY_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S177",
+      "requirement": "OUTBOX_LEDGER_ENTRY_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S178",
+      "requirement": "OUTBOX_LEDGER_ENTRY_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S179",
+      "requirement": "FLEET_INPUT_BUNDLE_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S180",
+      "requirement": "FLEET_INPUT_BUNDLE_SCHEMA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S181",
+      "requirement": "ROLLOUT_ID_192_BIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S182",
+      "requirement": "ROLLOUT_ID_192_BIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S183",
+      "requirement": "LEASE_NONCE_192_BIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S184",
+      "requirement": "LEASE_NONCE_192_BIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S185",
+      "requirement": "CLAIM_NONCE_192_BIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S186",
+      "requirement": "CLAIM_NONCE_192_BIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S187",
+      "requirement": "DRAIN_SLOT_ID_192_BIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S188",
+      "requirement": "DRAIN_SLOT_ID_192_BIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S189",
+      "requirement": "EVIDENCE_NONCE_192_BIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S190",
+      "requirement": "EVIDENCE_NONCE_192_BIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S191",
+      "requirement": "PLAN_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S192",
+      "requirement": "PLAN_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S193",
+      "requirement": "LEASE_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S194",
+      "requirement": "LEASE_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S195",
+      "requirement": "CLAIM_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S196",
+      "requirement": "CLAIM_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S197",
+      "requirement": "PERMIT_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S198",
+      "requirement": "PERMIT_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S199",
+      "requirement": "BINDING_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S200",
+      "requirement": "BINDING_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S201",
+      "requirement": "LOCAL_COMPLETION_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S202",
+      "requirement": "LOCAL_COMPLETION_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S203",
+      "requirement": "EVIDENCE_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S204",
+      "requirement": "EVIDENCE_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S205",
+      "requirement": "ACK_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S206",
+      "requirement": "ACK_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S207",
+      "requirement": "LEDGER_ENTRY_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S208",
+      "requirement": "LEDGER_ENTRY_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S209",
+      "requirement": "DIRECTIVE_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S210",
+      "requirement": "DIRECTIVE_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S211",
+      "requirement": "RECOVERY_RECEIPT_SELF_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S212",
+      "requirement": "RECOVERY_RECEIPT_SELF_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S213",
+      "requirement": "CANONICAL_JSON_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S214",
+      "requirement": "CANONICAL_JSON_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S215",
+      "requirement": "KEY_ID_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S216",
+      "requirement": "KEY_ID_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S217",
+      "requirement": "SIGNATURE_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S218",
+      "requirement": "SIGNATURE_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S219",
+      "requirement": "SCHEMA_VERSION_PINNED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S220",
+      "requirement": "SCHEMA_VERSION_PINNED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S221",
+      "requirement": "R9A_PHYSICAL_FINAL_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S222",
+      "requirement": "R9A_PHYSICAL_FINAL_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S223",
+      "requirement": "R10A_FINAL_RELEASE_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S224",
+      "requirement": "R10A_FINAL_RELEASE_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S225",
+      "requirement": "R10A_LINEAGE_RESTORATION_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S226",
+      "requirement": "R10A_LINEAGE_RESTORATION_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S227",
+      "requirement": "R11A_INSTALLED_FINAL_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S228",
+      "requirement": "R11A_INSTALLED_FINAL_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S229",
+      "requirement": "R12A_INSTALLED_FINAL_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S230",
+      "requirement": "R12A_INSTALLED_FINAL_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S231",
+      "requirement": "R12A_TRANSITION_ADMISSION_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S232",
+      "requirement": "R12A_TRANSITION_ADMISSION_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S233",
+      "requirement": "R12A_STAGING_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S234",
+      "requirement": "R12A_STAGING_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S235",
+      "requirement": "R12A_DRAIN_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S236",
+      "requirement": "R12A_DRAIN_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S237",
+      "requirement": "R12A_ACTIVATION_INTENT_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S238",
+      "requirement": "R12A_ACTIVATION_INTENT_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S239",
+      "requirement": "R12A_LOCAL_POINTER_CAS_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S240",
+      "requirement": "R12A_LOCAL_POINTER_CAS_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S241",
+      "requirement": "R12A_RELAUNCH_REQUEST_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S242",
+      "requirement": "R12A_RELAUNCH_REQUEST_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S243",
+      "requirement": "R12A_LAUNCH_ACK_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S244",
+      "requirement": "R12A_LAUNCH_ACK_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S245",
+      "requirement": "R12A_REATTESTATION_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S246",
+      "requirement": "R12A_REATTESTATION_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S247",
+      "requirement": "R12A_COMMIT_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S248",
+      "requirement": "R12A_COMMIT_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S249",
+      "requirement": "R12A_RECOVERY_MATRIX_CHILD_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S250",
+      "requirement": "R12A_RECOVERY_MATRIX_CHILD_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S251",
+      "requirement": "R12A_CHILD_SELF_HASH_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S252",
+      "requirement": "R12A_CHILD_SELF_HASH_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S253",
+      "requirement": "R12A_TRANSACTION_ID_COHERENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S254",
+      "requirement": "R12A_TRANSACTION_ID_COHERENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S255",
+      "requirement": "R12A_SOURCE_BUILD_COHERENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S256",
+      "requirement": "R12A_SOURCE_BUILD_COHERENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S257",
+      "requirement": "R12A_SOURCE_PACKAGE_COHERENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S258",
+      "requirement": "R12A_SOURCE_PACKAGE_COHERENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S259",
+      "requirement": "R12A_TARGET_BUILD_COHERENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S260",
+      "requirement": "R12A_TARGET_BUILD_COHERENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S261",
+      "requirement": "R12A_TARGET_PACKAGE_COHERENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S262",
+      "requirement": "R12A_TARGET_PACKAGE_COHERENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S263",
+      "requirement": "R12A_PRODUCTION_POINTER_MUTATION_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S264",
+      "requirement": "R12A_PRODUCTION_POINTER_MUTATION_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S265",
+      "requirement": "R12A_LOCAL_POINTER_CAS_EXACT_ONE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S266",
+      "requirement": "R12A_LOCAL_POINTER_CAS_EXACT_ONE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S267",
+      "requirement": "R12A_TARGET_SESSION_FRESH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S268",
+      "requirement": "R12A_TARGET_SESSION_FRESH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S269",
+      "requirement": "R12A_TARGET_SESSION_GENERATION_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S270",
+      "requirement": "R12A_TARGET_SESSION_GENERATION_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S271",
+      "requirement": "R12A_CROSS_GENERATION_ASSET_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S272",
+      "requirement": "R12A_CROSS_GENERATION_ASSET_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S273",
+      "requirement": "R12A_RECOVERY_AMBIGUITY_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S274",
+      "requirement": "R12A_RECOVERY_AMBIGUITY_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S275",
+      "requirement": "R12A_ACTIVE_GRAPH_CURRENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S276",
+      "requirement": "R12A_ACTIVE_GRAPH_CURRENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S277",
+      "requirement": "R12A_R9A_IDENTITY_CURRENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S278",
+      "requirement": "R12A_R9A_IDENTITY_CURRENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S279",
+      "requirement": "R12A_INSTALLED_RECEIPT_NOT_SOURCE_FIXTURE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S280",
+      "requirement": "R12A_INSTALLED_RECEIPT_NOT_SOURCE_FIXTURE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S281",
+      "requirement": "R11A_HMAC_SESSION_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S282",
+      "requirement": "R11A_HMAC_SESSION_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S283",
+      "requirement": "R11A_SESSION_SENDER_BINDING_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S284",
+      "requirement": "R11A_SESSION_SENDER_BINDING_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S285",
+      "requirement": "R11A_QUARANTINE_STATE_REPLAYED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S286",
+      "requirement": "R11A_QUARANTINE_STATE_REPLAYED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S287",
+      "requirement": "R10A_PACKAGE_IDENTITY_MATCHED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S288",
+      "requirement": "R10A_PACKAGE_IDENTITY_MATCHED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S289",
+      "requirement": "R10A_POINTER_GENERATION_MATCHED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S290",
+      "requirement": "R10A_POINTER_GENERATION_MATCHED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S291",
+      "requirement": "R10A_POINTER_RAW_HASH_MATCHED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S292",
+      "requirement": "R10A_POINTER_RAW_HASH_MATCHED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S293",
+      "requirement": "LOCAL_POINTER_GENERATION_MATCHED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S294",
+      "requirement": "LOCAL_POINTER_GENERATION_MATCHED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S295",
+      "requirement": "LOCAL_POINTER_RAW_HASH_MATCHED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S296",
+      "requirement": "LOCAL_POINTER_RAW_HASH_MATCHED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S297",
+      "requirement": "INSTALLATION_PSEUDONYM_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S298",
+      "requirement": "INSTALLATION_PSEUDONYM_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S299",
+      "requirement": "INSTALLATION_ADMISSION_RECEIPT_SEALED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S300",
+      "requirement": "INSTALLATION_ADMISSION_RECEIPT_SEALED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S301",
+      "requirement": "INSTALLATION_ADMISSION_BATCH_DEDUPED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S302",
+      "requirement": "INSTALLATION_ADMISSION_BATCH_DEDUPED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S303",
+      "requirement": "UNKNOWN_INSTALLATION_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S304",
+      "requirement": "UNKNOWN_INSTALLATION_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S305",
+      "requirement": "PREDECESSOR_MINIMUM_TWO_INSTALLATIONS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S306",
+      "requirement": "PREDECESSOR_MINIMUM_TWO_INSTALLATIONS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S307",
+      "requirement": "PREDECESSOR_INPUT_SET_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S308",
+      "requirement": "PREDECESSOR_INPUT_SET_DIGEST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S309",
+      "requirement": "PREDECESSOR_SIGNATURE_CHAIN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S310",
+      "requirement": "PREDECESSOR_SIGNATURE_CHAIN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S311",
+      "requirement": "PREDECESSOR_KEY_REGISTRY_VALID_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S312",
+      "requirement": "PREDECESSOR_KEY_REGISTRY_VALID_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S313",
+      "requirement": "PREDECESSOR_EXPIRED_KEY_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S314",
+      "requirement": "PREDECESSOR_EXPIRED_KEY_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S315",
+      "requirement": "PREDECESSOR_REVOKED_KEY_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S316",
+      "requirement": "PREDECESSOR_REVOKED_KEY_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S317",
+      "requirement": "PREDECESSOR_SPLIT_BRAIN_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S318",
+      "requirement": "PREDECESSOR_SPLIT_BRAIN_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S319",
+      "requirement": "PREDECESSOR_REPLAY_REPORT_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S320",
+      "requirement": "PREDECESSOR_REPLAY_REPORT_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S321",
+      "requirement": "LEASE_ROLLOUT_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S322",
+      "requirement": "LEASE_ROLLOUT_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S323",
+      "requirement": "LEASE_PLAN_DIGEST_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S324",
+      "requirement": "LEASE_PLAN_DIGEST_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S325",
+      "requirement": "LEASE_PLAN_GENERATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S326",
+      "requirement": "LEASE_PLAN_GENERATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S327",
+      "requirement": "LEASE_RING_ID_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S328",
+      "requirement": "LEASE_RING_ID_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S329",
+      "requirement": "LEASE_RING_GENERATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S330",
+      "requirement": "LEASE_RING_GENERATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S331",
+      "requirement": "LEASE_REVOCATION_GENERATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S332",
+      "requirement": "LEASE_REVOCATION_GENERATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S333",
+      "requirement": "LEASE_INSTALLATION_PSEUDONYM_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S334",
+      "requirement": "LEASE_INSTALLATION_PSEUDONYM_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S335",
+      "requirement": "LEASE_COHORT_BUCKET_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S336",
+      "requirement": "LEASE_COHORT_BUCKET_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S337",
+      "requirement": "LEASE_SOURCE_BUILD_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S338",
+      "requirement": "LEASE_SOURCE_BUILD_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S339",
+      "requirement": "LEASE_SOURCE_PACKAGE_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S340",
+      "requirement": "LEASE_SOURCE_PACKAGE_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S341",
+      "requirement": "LEASE_TARGET_BUILD_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S342",
+      "requirement": "LEASE_TARGET_BUILD_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S343",
+      "requirement": "LEASE_TARGET_PACKAGE_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S344",
+      "requirement": "LEASE_TARGET_PACKAGE_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S345",
+      "requirement": "LEASE_R10A_RELEASE_DIGEST_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S346",
+      "requirement": "LEASE_R10A_RELEASE_DIGEST_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S347",
+      "requirement": "LEASE_R10A_LINEAGE_DIGEST_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S348",
+      "requirement": "LEASE_R10A_LINEAGE_DIGEST_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S349",
+      "requirement": "LEASE_R12A_SOURCE_CONTRACT_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S350",
+      "requirement": "LEASE_R12A_SOURCE_CONTRACT_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S351",
+      "requirement": "LEASE_PRODUCTION_POINTER_GENERATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S352",
+      "requirement": "LEASE_PRODUCTION_POINTER_GENERATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S353",
+      "requirement": "LEASE_PRODUCTION_POINTER_RAW_HASH_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S354",
+      "requirement": "LEASE_PRODUCTION_POINTER_RAW_HASH_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S355",
+      "requirement": "LEASE_LOCAL_POINTER_GENERATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S356",
+      "requirement": "LEASE_LOCAL_POINTER_GENERATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S357",
+      "requirement": "LEASE_LOCAL_POINTER_RAW_HASH_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S358",
+      "requirement": "LEASE_LOCAL_POINTER_RAW_HASH_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S359",
+      "requirement": "LEASE_NOT_BEFORE_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S360",
+      "requirement": "LEASE_NOT_BEFORE_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S361",
+      "requirement": "LEASE_EXPIRY_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S362",
+      "requirement": "LEASE_EXPIRY_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S363",
+      "requirement": "LEASE_SINGLE_USE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S364",
+      "requirement": "LEASE_SINGLE_USE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S365",
+      "requirement": "LEASE_SIGNATURE_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S366",
+      "requirement": "LEASE_SIGNATURE_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S367",
+      "requirement": "LEASE_KEY_GENERATION_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S368",
+      "requirement": "LEASE_KEY_GENERATION_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S369",
+      "requirement": "LEASE_REVOCATION_CHECKED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S370",
+      "requirement": "LEASE_REVOCATION_CHECKED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S371",
+      "requirement": "LEASE_REPLAY_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S372",
+      "requirement": "LEASE_REPLAY_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S373",
+      "requirement": "LEASE_WRONG_RING_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S374",
+      "requirement": "LEASE_WRONG_RING_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S375",
+      "requirement": "LEASE_WRONG_PACKAGE_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S376",
+      "requirement": "LEASE_WRONG_PACKAGE_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S377",
+      "requirement": "LEASE_STALE_PRODUCTION_POINTER_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S378",
+      "requirement": "LEASE_STALE_PRODUCTION_POINTER_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S379",
+      "requirement": "LEASE_STALE_LOCAL_POINTER_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S380",
+      "requirement": "LEASE_STALE_LOCAL_POINTER_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S381",
+      "requirement": "CLAIM_INSTALLATION_SIGNATURE_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S382",
+      "requirement": "CLAIM_INSTALLATION_SIGNATURE_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S383",
+      "requirement": "CLAIM_SOURCE_SESSION_DIGEST_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S384",
+      "requirement": "CLAIM_SOURCE_SESSION_DIGEST_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S385",
+      "requirement": "CLAIM_SOURCE_PACKAGE_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S386",
+      "requirement": "CLAIM_SOURCE_PACKAGE_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S387",
+      "requirement": "CLAIM_POINTER_BEFORE_IMAGES_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S388",
+      "requirement": "CLAIM_POINTER_BEFORE_IMAGES_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S389",
+      "requirement": "CLAIM_MONOTONIC_PER_LEASE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S390",
+      "requirement": "CLAIM_MONOTONIC_PER_LEASE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S391",
+      "requirement": "CLAIM_SPLIT_BRAIN_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S392",
+      "requirement": "CLAIM_SPLIT_BRAIN_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S393",
+      "requirement": "DRAIN_PERMIT_CLAIM_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S394",
+      "requirement": "DRAIN_PERMIT_CLAIM_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S395",
+      "requirement": "DRAIN_PERMIT_RING_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S396",
+      "requirement": "DRAIN_PERMIT_RING_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S397",
+      "requirement": "DRAIN_PERMIT_SLOT_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S398",
+      "requirement": "DRAIN_PERMIT_SLOT_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S399",
+      "requirement": "DRAIN_PERMIT_CONCURRENCY_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S400",
+      "requirement": "DRAIN_PERMIT_CONCURRENCY_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S401",
+      "requirement": "DRAIN_PERMIT_EXPIRY_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S402",
+      "requirement": "DRAIN_PERMIT_EXPIRY_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S403",
+      "requirement": "DRAIN_PERMIT_REVOCATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S404",
+      "requirement": "DRAIN_PERMIT_REVOCATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S405",
+      "requirement": "DRAIN_PERMIT_SIGNATURE_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S406",
+      "requirement": "DRAIN_PERMIT_SIGNATURE_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S407",
+      "requirement": "DRAIN_WITHOUT_PERMIT_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S408",
+      "requirement": "DRAIN_WITHOUT_PERMIT_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S409",
+      "requirement": "DRAIN_CONCURRENCY_EXCEEDED_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S410",
+      "requirement": "DRAIN_CONCURRENCY_EXCEEDED_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S411",
+      "requirement": "BINDING_UPDATE_TRANSACTION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S412",
+      "requirement": "BINDING_UPDATE_TRANSACTION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S413",
+      "requirement": "BINDING_LEASE_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S414",
+      "requirement": "BINDING_LEASE_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S415",
+      "requirement": "BINDING_CLAIM_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S416",
+      "requirement": "BINDING_CLAIM_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S417",
+      "requirement": "BINDING_PERMIT_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S418",
+      "requirement": "BINDING_PERMIT_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S419",
+      "requirement": "BINDING_SOURCE_TARGET_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S420",
+      "requirement": "BINDING_SOURCE_TARGET_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S421",
+      "requirement": "BINDING_POINTER_BEFORE_IMAGES_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S422",
+      "requirement": "BINDING_POINTER_BEFORE_IMAGES_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S423",
+      "requirement": "BINDING_FSYNC_BEFORE_STAGING_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S424",
+      "requirement": "BINDING_FSYNC_BEFORE_STAGING_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S425",
+      "requirement": "BINDING_JOURNAL_INTENT_BEFORE_EFFECT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S426",
+      "requirement": "BINDING_JOURNAL_INTENT_BEFORE_EFFECT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S427",
+      "requirement": "BINDING_EFFECT_BEFORE_DRAIN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S428",
+      "requirement": "BINDING_EFFECT_BEFORE_DRAIN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S429",
+      "requirement": "BINDING_TRANSACTION_MISMATCH_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S430",
+      "requirement": "BINDING_TRANSACTION_MISMATCH_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S431",
+      "requirement": "R12A_NARROW_FLEET_CAPABILITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S432",
+      "requirement": "R12A_NARROW_FLEET_CAPABILITY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S433",
+      "requirement": "R12A_PRIVATE_KEY_ABSENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S434",
+      "requirement": "R12A_PRIVATE_KEY_ABSENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S435",
+      "requirement": "LOCAL_AGENT_SINGLE_ACTIVE_LEASE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S436",
+      "requirement": "LOCAL_AGENT_SINGLE_ACTIVE_LEASE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S437",
+      "requirement": "LEASE_STATE_MACHINE_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S438",
+      "requirement": "LEASE_STATE_MACHINE_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S439",
+      "requirement": "LEASE_CONSUMPTION_AFTER_COMPLETION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S440",
+      "requirement": "LEASE_CONSUMPTION_AFTER_COMPLETION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S441",
+      "requirement": "RING_POLICY_MAX_CONCURRENT_CLAIMS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S442",
+      "requirement": "RING_POLICY_MAX_CONCURRENT_CLAIMS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S443",
+      "requirement": "RING_POLICY_MAX_CONCURRENT_DRAINS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S444",
+      "requirement": "RING_POLICY_MAX_CONCURRENT_DRAINS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S445",
+      "requirement": "RING_POLICY_DRAIN_DEADLINE_30000_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S446",
+      "requirement": "RING_POLICY_DRAIN_DEADLINE_30000_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S447",
+      "requirement": "RING_POLICY_CANNOT_WEAKEN_ZERO_COUNT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S448",
+      "requirement": "RING_POLICY_CANNOT_WEAKEN_ZERO_COUNT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S449",
+      "requirement": "RING_POLICY_CANNOT_SKIP_JOURNAL_FSYNC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S450",
+      "requirement": "RING_POLICY_CANNOT_SKIP_JOURNAL_FSYNC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S451",
+      "requirement": "RING_POLICY_CANNOT_WEAKEN_POINTER_CAS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S452",
+      "requirement": "RING_POLICY_CANNOT_WEAKEN_POINTER_CAS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S453",
+      "requirement": "RING_DRAIN_SLOT_LEDGER_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S454",
+      "requirement": "RING_DRAIN_SLOT_LEDGER_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S455",
+      "requirement": "RING_DRAIN_SLOT_RELEASE_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S456",
+      "requirement": "RING_DRAIN_SLOT_RELEASE_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S457",
+      "requirement": "RING_DRAIN_SLOT_LEAK_DETECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S458",
+      "requirement": "RING_DRAIN_SLOT_LEAK_DETECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S459",
+      "requirement": "R13A_LOCAL_AGENT_ELECTRON_MAIN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S460",
+      "requirement": "R13A_LOCAL_AGENT_ELECTRON_MAIN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S461",
+      "requirement": "LOCAL_AGENT_CREATED_BEFORE_WINDOW_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S462",
+      "requirement": "LOCAL_AGENT_CREATED_BEFORE_WINDOW_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S463",
+      "requirement": "LOCAL_AGENT_CREATED_AFTER_R11A_R12A_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S464",
+      "requirement": "LOCAL_AGENT_CREATED_AFTER_R11A_R12A_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S465",
+      "requirement": "LOCAL_AGENT_BOOT_RECOVERY_PREFLIGHT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S466",
+      "requirement": "LOCAL_AGENT_BOOT_RECOVERY_PREFLIGHT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S467",
+      "requirement": "LOCAL_AGENT_PLAN_CACHE_ATOMIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S468",
+      "requirement": "LOCAL_AGENT_PLAN_CACHE_ATOMIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S469",
+      "requirement": "LOCAL_AGENT_LEASE_INBOX_ATOMIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S470",
+      "requirement": "LOCAL_AGENT_LEASE_INBOX_ATOMIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S471",
+      "requirement": "LOCAL_AGENT_PRIVATE_OUTBOX_ATOMIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S472",
+      "requirement": "LOCAL_AGENT_PRIVATE_OUTBOX_ATOMIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S473",
+      "requirement": "LOCAL_AGENT_IPC_NARROW_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S474",
+      "requirement": "LOCAL_AGENT_IPC_NARROW_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S475",
+      "requirement": "PRELOAD_NO_LEASE_SIGNING_KEY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S476",
+      "requirement": "PRELOAD_NO_LEASE_SIGNING_KEY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S477",
+      "requirement": "PRELOAD_NO_EVIDENCE_PRIVATE_KEY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S478",
+      "requirement": "PRELOAD_NO_EVIDENCE_PRIVATE_KEY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S479",
+      "requirement": "PRELOAD_NO_POINTER_PATH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S480",
+      "requirement": "PRELOAD_NO_POINTER_PATH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S481",
+      "requirement": "RENDERER_STATUS_READ_ONLY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S482",
+      "requirement": "RENDERER_STATUS_READ_ONLY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S483",
+      "requirement": "RENDERER_CANNOT_CLAIM_LEASE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S484",
+      "requirement": "RENDERER_CANNOT_CLAIM_LEASE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S485",
+      "requirement": "RENDERER_CANNOT_ISSUE_PERMIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S486",
+      "requirement": "RENDERER_CANNOT_ISSUE_PERMIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S487",
+      "requirement": "RENDERER_CANNOT_PUBLISH_EVIDENCE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S488",
+      "requirement": "RENDERER_CANNOT_PUBLISH_EVIDENCE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S489",
+      "requirement": "R12A_BEGIN_FLEET_BOUND_UPDATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S490",
+      "requirement": "R12A_BEGIN_FLEET_BOUND_UPDATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S491",
+      "requirement": "R12A_GET_FLEET_BINDING_STATUS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S492",
+      "requirement": "R12A_GET_FLEET_BINDING_STATUS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S493",
+      "requirement": "R12A_CANCEL_BEFORE_ACTIVATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S494",
+      "requirement": "R12A_CANCEL_BEFORE_ACTIVATION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S495",
+      "requirement": "R12A_ACK_CONTAINMENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S496",
+      "requirement": "R12A_ACK_CONTAINMENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S497",
+      "requirement": "R12A_DRAIN_INTENT_REQUIRES_PERMIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S498",
+      "requirement": "R12A_DRAIN_INTENT_REQUIRES_PERMIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S499",
+      "requirement": "R12A_DRAIN_ZERO_ACTIVE_SESSIONS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S500",
+      "requirement": "R12A_DRAIN_ZERO_ACTIVE_SESSIONS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S501",
+      "requirement": "R12A_DRAIN_ZERO_PREVIEW_GRANTS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S502",
+      "requirement": "R12A_DRAIN_ZERO_PREVIEW_GRANTS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S503",
+      "requirement": "R12A_DRAIN_ZERO_EXPORT_GRANTS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S504",
+      "requirement": "R12A_DRAIN_ZERO_EXPORT_GRANTS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S505",
+      "requirement": "R12A_DRAIN_ZERO_SAVE_SESSIONS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S506",
+      "requirement": "R12A_DRAIN_ZERO_SAVE_SESSIONS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S507",
+      "requirement": "R12A_DRAIN_ZERO_ENCODER_JOBS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S508",
+      "requirement": "R12A_DRAIN_ZERO_ENCODER_JOBS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S509",
+      "requirement": "R12A_DRAIN_ZERO_WORKER_RPC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S510",
+      "requirement": "R12A_DRAIN_ZERO_WORKER_RPC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S511",
+      "requirement": "R12A_DRAIN_ZERO_PINNED_SURFACES_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S512",
+      "requirement": "R12A_DRAIN_ZERO_PINNED_SURFACES_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S513",
+      "requirement": "R12A_DRAIN_ZERO_GPU_TICKETS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S514",
+      "requirement": "R12A_DRAIN_ZERO_GPU_TICKETS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S515",
+      "requirement": "R12A_DRAIN_ZERO_VISIBLE_WINDOWS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S516",
+      "requirement": "R12A_DRAIN_ZERO_VISIBLE_WINDOWS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S517",
+      "requirement": "PERMIT_EXPIRY_PRE_DRAIN_ABORT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S518",
+      "requirement": "PERMIT_EXPIRY_PRE_DRAIN_ABORT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S519",
+      "requirement": "PERMIT_EXPIRY_DURING_DRAIN_EXPLICIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S520",
+      "requirement": "PERMIT_EXPIRY_DURING_DRAIN_EXPLICIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S521",
+      "requirement": "PERMIT_EXPIRY_POST_ACTIVATION_NO_BLIND_REVERT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S522",
+      "requirement": "PERMIT_EXPIRY_POST_ACTIVATION_NO_BLIND_REVERT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S523",
+      "requirement": "POST_CAS_RECOVERY_REPLAY_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S524",
+      "requirement": "POST_CAS_RECOVERY_REPLAY_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S525",
+      "requirement": "LOCAL_COMPLETION_R12A_FINAL_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S526",
+      "requirement": "LOCAL_COMPLETION_R12A_FINAL_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S527",
+      "requirement": "LOCAL_COMPLETION_R11A_TARGET_SESSION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S528",
+      "requirement": "LOCAL_COMPLETION_R11A_TARGET_SESSION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S529",
+      "requirement": "LOCAL_COMPLETION_BINDING_CHAIN_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S530",
+      "requirement": "LOCAL_COMPLETION_BINDING_CHAIN_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S531",
+      "requirement": "LOCAL_COMPLETION_POINTER_MUTATION_FALSE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S532",
+      "requirement": "LOCAL_COMPLETION_POINTER_MUTATION_FALSE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S533",
+      "requirement": "LOCAL_COMPLETION_AFTER_COMMIT_ONLY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S534",
+      "requirement": "LOCAL_COMPLETION_AFTER_COMMIT_ONLY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S535",
+      "requirement": "LOCAL_COMPLETION_BEFORE_EVIDENCE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S536",
+      "requirement": "LOCAL_COMPLETION_BEFORE_EVIDENCE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S537",
+      "requirement": "OLD_R11_TOKEN_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S538",
+      "requirement": "OLD_R11_TOKEN_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S539",
+      "requirement": "FRESH_R11A_SESSION_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S540",
+      "requirement": "FRESH_R11A_SESSION_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S541",
+      "requirement": "TARGET_SESSION_GENERATION_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S542",
+      "requirement": "TARGET_SESSION_GENERATION_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S543",
+      "requirement": "TARGET_PACKAGE_IDENTITY_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S544",
+      "requirement": "TARGET_PACKAGE_IDENTITY_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S545",
+      "requirement": "TARGET_ACTIVE_GRAPH_IDENTITY_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S546",
+      "requirement": "TARGET_ACTIVE_GRAPH_IDENTITY_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S547",
+      "requirement": "TARGET_R9A_IDENTITY_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S548",
+      "requirement": "TARGET_R9A_IDENTITY_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S549",
+      "requirement": "WINDOW_SHOW_AFTER_COMMIT_ONLY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S550",
+      "requirement": "WINDOW_SHOW_AFTER_COMMIT_ONLY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S551",
+      "requirement": "ACTIVE_GRAPH_LOCAL_AGENT_NODE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S552",
+      "requirement": "ACTIVE_GRAPH_LOCAL_AGENT_NODE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S553",
+      "requirement": "ACTIVE_GRAPH_R12A_ADAPTER_EDGE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S554",
+      "requirement": "ACTIVE_GRAPH_R12A_ADAPTER_EDGE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S555",
+      "requirement": "RUNTIME_MANIFEST_LOCAL_AGENT_MODULE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S556",
+      "requirement": "RUNTIME_MANIFEST_LOCAL_AGENT_MODULE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S557",
+      "requirement": "SOURCE_PARSE_AND_SYNTAX_CLOSURE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S558",
+      "requirement": "SOURCE_PARSE_AND_SYNTAX_CLOSURE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S559",
+      "requirement": "EVIDENCE_MAIN_PROCESS_BUILDER_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S560",
+      "requirement": "EVIDENCE_MAIN_PROCESS_BUILDER_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S561",
+      "requirement": "EVIDENCE_AFTER_LOCAL_COMPLETION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S562",
+      "requirement": "EVIDENCE_AFTER_LOCAL_COMPLETION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S563",
+      "requirement": "EVIDENCE_SEQUENCE_PERSISTENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S564",
+      "requirement": "EVIDENCE_SEQUENCE_PERSISTENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S565",
+      "requirement": "EVIDENCE_NONCE_RANDOM_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S566",
+      "requirement": "EVIDENCE_NONCE_RANDOM_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S567",
+      "requirement": "EVIDENCE_INSTALLATION_SIGNATURE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S568",
+      "requirement": "EVIDENCE_INSTALLATION_SIGNATURE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S569",
+      "requirement": "EVIDENCE_ROLLOUT_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S570",
+      "requirement": "EVIDENCE_ROLLOUT_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S571",
+      "requirement": "EVIDENCE_PLAN_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S572",
+      "requirement": "EVIDENCE_PLAN_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S573",
+      "requirement": "EVIDENCE_RING_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S574",
+      "requirement": "EVIDENCE_RING_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S575",
+      "requirement": "EVIDENCE_RING_GENERATION_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S576",
+      "requirement": "EVIDENCE_RING_GENERATION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S577",
+      "requirement": "EVIDENCE_LEASE_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S578",
+      "requirement": "EVIDENCE_LEASE_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S579",
+      "requirement": "EVIDENCE_CLAIM_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S580",
+      "requirement": "EVIDENCE_CLAIM_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S581",
+      "requirement": "EVIDENCE_PERMIT_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S582",
+      "requirement": "EVIDENCE_PERMIT_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S583",
+      "requirement": "EVIDENCE_BINDING_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S584",
+      "requirement": "EVIDENCE_BINDING_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S585",
+      "requirement": "EVIDENCE_R12A_FINAL_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S586",
+      "requirement": "EVIDENCE_R12A_FINAL_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S587",
+      "requirement": "EVIDENCE_SOURCE_TARGET_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S588",
+      "requirement": "EVIDENCE_SOURCE_TARGET_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S589",
+      "requirement": "EVIDENCE_CRITICAL_COUNTERS_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S590",
+      "requirement": "EVIDENCE_CRITICAL_COUNTERS_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S591",
+      "requirement": "EVIDENCE_OPERATIONAL_COUNTERS_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S592",
+      "requirement": "EVIDENCE_OPERATIONAL_COUNTERS_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S593",
+      "requirement": "EVIDENCE_ADAPTER_FAMILY_BUCKET_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S594",
+      "requirement": "EVIDENCE_ADAPTER_FAMILY_BUCKET_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S595",
+      "requirement": "EVIDENCE_DRIVER_MAJOR_BUCKET_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S596",
+      "requirement": "EVIDENCE_DRIVER_MAJOR_BUCKET_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S597",
+      "requirement": "EVIDENCE_TIME_BUCKET_COARSE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S598",
+      "requirement": "EVIDENCE_TIME_BUCKET_COARSE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S599",
+      "requirement": "OUTBOX_ATOMIC_WRITE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S600",
+      "requirement": "OUTBOX_ATOMIC_WRITE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S601",
+      "requirement": "OUTBOX_APPEND_ONLY_LEDGER_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S602",
+      "requirement": "OUTBOX_APPEND_ONLY_LEDGER_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S603",
+      "requirement": "OUTBOX_PENDING_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S604",
+      "requirement": "OUTBOX_PENDING_STATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S605",
+      "requirement": "OUTBOX_IN_FLIGHT_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S606",
+      "requirement": "OUTBOX_IN_FLIGHT_STATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S607",
+      "requirement": "OUTBOX_ACKED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S608",
+      "requirement": "OUTBOX_ACKED_STATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S609",
+      "requirement": "OUTBOX_REJECTED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S610",
+      "requirement": "OUTBOX_REJECTED_STATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S611",
+      "requirement": "OUTBOX_QUARANTINED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S612",
+      "requirement": "OUTBOX_QUARANTINED_STATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S613",
+      "requirement": "OUTBOX_DELETE_ONLY_AFTER_ACK_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S614",
+      "requirement": "OUTBOX_DELETE_ONLY_AFTER_ACK_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S615",
+      "requirement": "OUTBOX_CRASH_RECOVERY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S616",
+      "requirement": "OUTBOX_CRASH_RECOVERY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S617",
+      "requirement": "OUTBOX_DUPLICATE_UPLOAD_IDEMPOTENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S618",
+      "requirement": "OUTBOX_DUPLICATE_UPLOAD_IDEMPOTENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S619",
+      "requirement": "ACK_SIGNATURE_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S620",
+      "requirement": "ACK_SIGNATURE_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S621",
+      "requirement": "ACK_EVIDENCE_DIGEST_BOUND_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S622",
+      "requirement": "ACK_EVIDENCE_DIGEST_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S623",
+      "requirement": "ACK_INGESTION_SEQUENCE_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S624",
+      "requirement": "ACK_INGESTION_SEQUENCE_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S625",
+      "requirement": "ACK_DISPOSITION_ENUM_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S626",
+      "requirement": "ACK_DISPOSITION_ENUM_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S627",
+      "requirement": "ACK_ACCEPTED_INPUT_SET_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S628",
+      "requirement": "ACK_ACCEPTED_INPUT_SET_DIGEST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S629",
+      "requirement": "ACK_REPLAY_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S630",
+      "requirement": "ACK_REPLAY_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S631",
+      "requirement": "INGESTION_INSTALLATION_ADMISSION_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S632",
+      "requirement": "INGESTION_INSTALLATION_ADMISSION_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S633",
+      "requirement": "INGESTION_LEASE_CHAIN_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S634",
+      "requirement": "INGESTION_LEASE_CHAIN_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S635",
+      "requirement": "INGESTION_SEQUENCE_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S636",
+      "requirement": "INGESTION_SEQUENCE_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S637",
+      "requirement": "INGESTION_NONCE_DEDUPED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S638",
+      "requirement": "INGESTION_NONCE_DEDUPED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S639",
+      "requirement": "INGESTION_LATE_EVIDENCE_SEPARATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S640",
+      "requirement": "INGESTION_LATE_EVIDENCE_SEPARATED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S641",
+      "requirement": "INGESTION_UNKNOWN_INSTALLATION_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S642",
+      "requirement": "INGESTION_UNKNOWN_INSTALLATION_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S643",
+      "requirement": "MISSING_EVIDENCE_NOT_SUCCESS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S644",
+      "requirement": "MISSING_EVIDENCE_NOT_SUCCESS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S645",
+      "requirement": "FORBIDDEN_IMAGE_BYTES_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S646",
+      "requirement": "FORBIDDEN_IMAGE_BYTES_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S647",
+      "requirement": "FORBIDDEN_PIXEL_HASH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S648",
+      "requirement": "FORBIDDEN_PIXEL_HASH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S649",
+      "requirement": "FORBIDDEN_FILE_NAME_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S650",
+      "requirement": "FORBIDDEN_FILE_NAME_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S651",
+      "requirement": "FORBIDDEN_USER_PATH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S652",
+      "requirement": "FORBIDDEN_USER_PATH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S653",
+      "requirement": "FORBIDDEN_EXIF_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S654",
+      "requirement": "FORBIDDEN_EXIF_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S655",
+      "requirement": "FORBIDDEN_DOCUMENT_METADATA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S656",
+      "requirement": "FORBIDDEN_DOCUMENT_METADATA_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S657",
+      "requirement": "FORBIDDEN_ACCOUNT_EMAIL_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S658",
+      "requirement": "FORBIDDEN_ACCOUNT_EMAIL_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S659",
+      "requirement": "FORBIDDEN_PRECISE_LOCATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S660",
+      "requirement": "FORBIDDEN_PRECISE_LOCATION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S661",
+      "requirement": "FORBIDDEN_HARDWARE_SERIAL_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S662",
+      "requirement": "FORBIDDEN_HARDWARE_SERIAL_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S663",
+      "requirement": "FORBIDDEN_RAW_CRASH_LOG_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S664",
+      "requirement": "FORBIDDEN_RAW_CRASH_LOG_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S665",
+      "requirement": "FORBIDDEN_INSTALLATION_ENROLLMENT_ID_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S666",
+      "requirement": "FORBIDDEN_INSTALLATION_ENROLLMENT_ID_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S667",
+      "requirement": "FORBIDDEN_MAIN_SECRET_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S668",
+      "requirement": "FORBIDDEN_MAIN_SECRET_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S669",
+      "requirement": "EXACT_AGGREGATE_ACCEPTED_SET_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S670",
+      "requirement": "EXACT_AGGREGATE_ACCEPTED_SET_DIGEST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S671",
+      "requirement": "EXACT_AGGREGATE_ADMISSION_SET_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S672",
+      "requirement": "EXACT_AGGREGATE_ADMISSION_SET_DIGEST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S673",
+      "requirement": "EXACT_AGGREGATE_LEASE_SET_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S674",
+      "requirement": "EXACT_AGGREGATE_LEASE_SET_DIGEST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S675",
+      "requirement": "EXACT_AGGREGATE_COMPLETION_SET_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S676",
+      "requirement": "EXACT_AGGREGATE_COMPLETION_SET_DIGEST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S677",
+      "requirement": "EXACT_AGGREGATE_MISSING_COUNT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S678",
+      "requirement": "EXACT_AGGREGATE_MISSING_COUNT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S679",
+      "requirement": "EXACT_AGGREGATE_LATE_COUNT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S680",
+      "requirement": "EXACT_AGGREGATE_LATE_COUNT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S681",
+      "requirement": "EXACT_AGGREGATE_BREAKER_COUNT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S682",
+      "requirement": "EXACT_AGGREGATE_BREAKER_COUNT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S683",
+      "requirement": "PRIVACY_MINIMUM_K_FIVE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S684",
+      "requirement": "PRIVACY_MINIMUM_K_FIVE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S685",
+      "requirement": "PRIVACY_PSEUDONYM_REMOVED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S686",
+      "requirement": "PRIVACY_PSEUDONYM_REMOVED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S687",
+      "requirement": "PRIVACY_SMALL_CELL_SUPPRESSED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S688",
+      "requirement": "PRIVACY_SMALL_CELL_SUPPRESSED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S689",
+      "requirement": "PRIVACY_SUPPRESSED_NOT_ZERO_FILLED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S690",
+      "requirement": "PRIVACY_SUPPRESSED_NOT_ZERO_FILLED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S691",
+      "requirement": "PRIVACY_RAW_ENVELOPE_NOT_PUBLISHED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S692",
+      "requirement": "PRIVACY_RAW_ENVELOPE_NOT_PUBLISHED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S693",
+      "requirement": "RING_DECISION_CRITICAL_FIRST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S694",
+      "requirement": "RING_DECISION_CRITICAL_FIRST_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S695",
+      "requirement": "RING_DECISION_DWELL_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S696",
+      "requirement": "RING_DECISION_DWELL_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S697",
+      "requirement": "RING_DECISION_VOLUME_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S698",
+      "requirement": "RING_DECISION_VOLUME_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S699",
+      "requirement": "RING_DECISION_COVERAGE_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S700",
+      "requirement": "RING_DECISION_COVERAGE_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S701",
+      "requirement": "RING_DECISION_SINGLE_STEP_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S702",
+      "requirement": "RING_DECISION_SINGLE_STEP_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S703",
+      "requirement": "RING_DECISION_NO_REGRESSION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S704",
+      "requirement": "RING_DECISION_NO_REGRESSION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S705",
+      "requirement": "CONTAINMENT_LEVELS_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S706",
+      "requirement": "CONTAINMENT_LEVELS_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S707",
+      "requirement": "CONTAINMENT_GENERATION_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S708",
+      "requirement": "CONTAINMENT_GENERATION_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S709",
+      "requirement": "CONTAINMENT_REVOCATION_GENERATION_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S710",
+      "requirement": "CONTAINMENT_REVOCATION_GENERATION_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S711",
+      "requirement": "CONTAINMENT_STOPS_NEW_LEASES_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S712",
+      "requirement": "CONTAINMENT_STOPS_NEW_LEASES_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S713",
+      "requirement": "CONTAINMENT_STOPS_NEW_PERMITS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S714",
+      "requirement": "CONTAINMENT_STOPS_NEW_PERMITS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S715",
+      "requirement": "CONTAINMENT_REVOKES_UNCLAIMED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S716",
+      "requirement": "CONTAINMENT_REVOKES_UNCLAIMED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S717",
+      "requirement": "CONTAINMENT_ABORTS_PRE_ACTIVATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S718",
+      "requirement": "CONTAINMENT_ABORTS_PRE_ACTIVATION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S719",
+      "requirement": "CONTAINMENT_QUARANTINES_COMMITTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S720",
+      "requirement": "CONTAINMENT_QUARANTINES_COMMITTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S721",
+      "requirement": "CONTAINMENT_REQUIRES_RECOVERY_REPLAY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S722",
+      "requirement": "CONTAINMENT_REQUIRES_RECOVERY_REPLAY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S723",
+      "requirement": "CONTAINMENT_PHASE_MATRIX_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S724",
+      "requirement": "CONTAINMENT_PHASE_MATRIX_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S725",
+      "requirement": "RECOVERY_REPLAY_R10A_RECOMMENDATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S726",
+      "requirement": "RECOVERY_REPLAY_R10A_RECOMMENDATION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S727",
+      "requirement": "RECOVERY_REPLAY_OPERATOR_APPROVAL_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S728",
+      "requirement": "RECOVERY_REPLAY_OPERATOR_APPROVAL_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S729",
+      "requirement": "RECOVERY_REPLAY_R10A_ROLLBACK_FINAL_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S730",
+      "requirement": "RECOVERY_REPLAY_R10A_ROLLBACK_FINAL_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S731",
+      "requirement": "RECOVERY_REPLAY_R12A_TRANSITION_BACK_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S732",
+      "requirement": "RECOVERY_REPLAY_R12A_TRANSITION_BACK_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S733",
+      "requirement": "RECOVERY_REPLAY_FRESH_R11A_SESSION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S734",
+      "requirement": "RECOVERY_REPLAY_FRESH_R11A_SESSION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S735",
+      "requirement": "RECOVERY_REPLAY_EVIDENCE_ACK_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S736",
+      "requirement": "RECOVERY_REPLAY_EVIDENCE_ACK_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S737",
+      "requirement": "NO_QUALIFIED_TARGET_EXPLICIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S738",
+      "requirement": "NO_QUALIFIED_TARGET_EXPLICIT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S739",
+      "requirement": "FLEET_LEDGER_V2_HASH_CHAIN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S740",
+      "requirement": "FLEET_LEDGER_V2_HASH_CHAIN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S741",
+      "requirement": "FLEET_LEDGER_SIGNATURE_VERIFIED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S742",
+      "requirement": "FLEET_LEDGER_SIGNATURE_VERIFIED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S743",
+      "requirement": "FLEET_LEDGER_GENERATION_MONOTONIC_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S744",
+      "requirement": "FLEET_LEDGER_GENERATION_MONOTONIC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S745",
+      "requirement": "FLEET_LEDGER_REPLAY_FROM_GENESIS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S746",
+      "requirement": "FLEET_LEDGER_REPLAY_FROM_GENESIS_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S747",
+      "requirement": "FINALIZER_REVALIDATES_PLAN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S748",
+      "requirement": "FINALIZER_REVALIDATES_PLAN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S749",
+      "requirement": "FINALIZER_REVALIDATES_LEASES_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S750",
+      "requirement": "FINALIZER_REVALIDATES_LEASES_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S751",
+      "requirement": "FINALIZER_REVALIDATES_R12A_CHAIN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S752",
+      "requirement": "FINALIZER_REVALIDATES_R12A_CHAIN_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S753",
+      "requirement": "FINALIZER_RECOMPUTES_EXACT_AGGREGATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S754",
+      "requirement": "FINALIZER_RECOMPUTES_EXACT_AGGREGATE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S755",
+      "requirement": "FINALIZER_RECOMPUTES_PRIVACY_VIEW_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S756",
+      "requirement": "FINALIZER_RECOMPUTES_PRIVACY_VIEW_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S757",
+      "requirement": "FINALIZER_REPLAYS_RING_SEQUENCE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S758",
+      "requirement": "FINALIZER_REPLAYS_RING_SEQUENCE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S759",
+      "requirement": "FINALIZER_REPLAYS_CONTAINMENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S760",
+      "requirement": "FINALIZER_REPLAYS_CONTAINMENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S761",
+      "requirement": "FINALIZER_REPLAYS_RECOVERY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S762",
+      "requirement": "FINALIZER_REPLAYS_RECOVERY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S763",
+      "requirement": "FINALIZER_SUMMARY_INJECTION_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S764",
+      "requirement": "FINALIZER_SUMMARY_INJECTION_REJECTED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S765",
+      "requirement": "FINALIZER_POINTER_MUTATION_ZERO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S766",
+      "requirement": "FINALIZER_POINTER_MUTATION_ZERO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S767",
+      "requirement": "FINALIZER_EXCLUSION_APPROVAL_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S768",
+      "requirement": "FINALIZER_EXCLUSION_APPROVAL_REQUIRED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S769",
+      "requirement": "SOURCE_HARNESS_FAILS_WITHOUT_INSTALLED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S770",
+      "requirement": "SOURCE_HARNESS_FAILS_WITHOUT_INSTALLED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S771",
+      "requirement": "FLEET_HARNESS_REQUIRES_MINIMUM_TWO_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S772",
+      "requirement": "FLEET_HARNESS_REQUIRES_MINIMUM_TWO_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S773",
+      "requirement": "NEGATIVE_CONTROL_MATRIX_PRESENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S774",
+      "requirement": "NEGATIVE_CONTROL_MATRIX_PRESENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S775",
+      "requirement": "PREDECESSOR_REGRESSION_ISOLATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S776",
+      "requirement": "PREDECESSOR_REGRESSION_ISOLATED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S777",
+      "requirement": "SOURCE_RECEIPT_PATH_INDEPENDENT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S778",
+      "requirement": "SOURCE_RECEIPT_PATH_INDEPENDENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S779",
+      "requirement": "SOURCE_ARTIFACTS_REPRODUCIBLE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S780",
+      "requirement": "SOURCE_ARTIFACTS_REPRODUCIBLE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S781",
+      "requirement": "PACKAGE_SCRIPTS_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S782",
+      "requirement": "PACKAGE_SCRIPTS_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S783",
+      "requirement": "README_STATE_EXACT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S784",
+      "requirement": "README_STATE_EXACT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S785",
+      "requirement": "NEXT_AUTHORITY_DECLARED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R13A_SOURCE_EVIDENCE_SET",
+      "id": "R13A-S786",
+      "requirement": "NEXT_AUTHORITY_DECLARED_FAIL_CLOSED",
+      "status": "PASS"
+    }
+  ],
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R13A",
+  "schemaVersion": 1,
+  "selfSha256": "b08826e3b0c7746a2a35cccffa411e416f0f63963802bef4d40f484ba1e51eef",
+  "state": "RESAMPLE_RUNTIME_R13A_FLEET_TO_LOCAL_TRANSITION_BINDING_SOURCE_SEALED_AWAITING_R12A_INSTALLED_AND_QUALIFIED_FLEET"
+}

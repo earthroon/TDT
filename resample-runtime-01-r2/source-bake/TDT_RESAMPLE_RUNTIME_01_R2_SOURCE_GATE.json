@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "state": "RESAMPLE_RUNTIME_R2_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "counts": {
+    "PASS": 81,
+    "DEFERRED": 27
+  },
+  "gates": [
+    {
+      "id": "R2-01",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-02",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-03",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-04",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-05",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-06",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-07",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-08",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-09",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-10",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-11",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-12",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-13",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-14",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-15",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-16",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-17",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-18",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-19",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-20",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-21",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-22",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-23",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-24",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-25",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-26",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-27",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-28",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-29",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-30",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-31",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-32",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-33",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-34",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-35",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-36",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-37",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-38",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-39",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-40",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-41",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-42",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-43",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-44",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-45",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-46",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-47",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-48",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-49",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-50",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-51",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-52",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-53",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-54",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-55",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-56",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-57",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-58",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-59",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-60",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-61",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-62",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-63",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-64",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-65",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-66",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-67",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-68",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-69",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-70",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-71",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-72",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-73",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-74",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-75",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-76",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-77",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-78",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-79",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-80",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-81",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-82",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-83",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-84",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-85",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-86",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-87",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-88",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-89",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-90",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-91",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-92",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-93",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-94",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-95",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-96",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-97",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-98",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-99",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-100",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    },
+    {
+      "id": "R2-101",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-102",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-103",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-104",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-105",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-106",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-107",
+      "status": "PASS",
+      "reason": "source-contract-and-mock-runtime-verified"
+    },
+    {
+      "id": "R2-108",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-pixel-parity-timestamp-or-packaged-evidence"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false,
+  "exactPixelParityClaim": false,
+  "performanceClaim": false,
+  "failCount": 0
+}

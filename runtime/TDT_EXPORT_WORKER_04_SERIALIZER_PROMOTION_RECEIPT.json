@@ -1,0 +1,65 @@
+{
+  "patchId": "TDT-EXPORT-WORKER-04",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "buildId": "22997b711a2f00ce5912c49e",
+  "generatedAt": "2026-07-24T15:23:36.631299Z",
+  "workerSourceManifestDigest": "230bd177fa54495b276913d1eb5702fa3b022b1420bed9bd396fdda468dae0f7",
+  "artifactVerificationMode": "source-graph-only",
+  "schema": "dadum-ew04-serializer-promotion-receipt-v1",
+  "promotionEligible": false,
+  "promotionGranted": false,
+  "canonicalSerializerTarget": {
+    "implementationId": "dadum.psd-rust-wasm-canonical-serializer-v2",
+    "requestCodecVersion": 2,
+    "serializerAbiVersion": 2,
+    "sourceCrateIncluded": true,
+    "sourceCratePath": "native/psd-exporter-wasm-v2",
+    "compiledWasmPresent": false,
+    "compiledWasmVerified": false,
+    "toolchain": {
+      "rustc": "missing",
+      "cargo": "missing",
+      "wasmPack": "missing"
+    }
+  },
+  "sourceBakeBackend": {
+    "implementationId": "dadum.psd-source-reference-serializer-v2",
+    "backendKind": "source-reference-js",
+    "executionRealm": "worker",
+    "canonicalRustWasm": false,
+    "requestCodecVersion": 2,
+    "serializerAbiVersion": 2,
+    "documentModes": [
+      "layered-rgb8-single-layer",
+      "flattened-rgb8",
+      "flattened-rgb16",
+      "flattened-cmyk8"
+    ],
+    "compressions": [
+      "raw",
+      "rle"
+    ],
+    "imageResources": [
+      1005,
+      1039
+    ]
+  },
+  "runtimeSmoke": {
+    "status": "PASS",
+    "caseCount": 4,
+    "cases": [
+      "layered-rgb8-raw",
+      "flat-rgb8-rle",
+      "flat-rgb16-raw",
+      "flat-cmyk8-rle"
+    ],
+    "report": "artifacts/runtime/EW04_PSD_SOURCE_REFERENCE_SMOKE.json",
+    "reportSha256": "46ebda7bc7afd6d65276a1fa42be331daec6c37bbc76caf26adc3b5b5a4970ff"
+  },
+  "blockedPromotionEvidence": [
+    "canonical Rust/WASM v2 compiled artifact",
+    "Vite production emitted worker/WASM artifact digest",
+    "Electron worker E2E",
+    "independent PSD decoder plane round-trip"
+  ]
+}

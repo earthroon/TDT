@@ -1,0 +1,9 @@
+{
+  "failCount": 0,
+  "historicalPassCarryForward": 0,
+  "parentReceiptSha256": "bba464e8d49a37a947ff93912a8e2b06a24c75e21068eb239b67f62b6f99de33",
+  "parentState": "RESAMPLE_RUNTIME_R13A_FLEET_TO_LOCAL_TRANSITION_BINDING_SOURCE_SEALED_AWAITING_R12A_INSTALLED_AND_QUALIFIED_FLEET",
+  "passCount": 1,
+  "schemaVersion": 1,
+  "selfSha256": "dc415a2d225754f368615b4cdd7d8162b4b54b824938d1a601d9398a85b596f7"
+}

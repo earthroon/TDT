@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 64,
+  "passed": 64,
+  "failed": [],
+  "checks": [
+    {
+      "name": "exists:tile-atlas-materialize-window-batch.wgsl",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/atlas/shaders/tile-atlas-materialize-window-batch.wgsl"
+    },
+    {
+      "name": "compute:tile-atlas-materialize-window-batch.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-materialize-window-batch.wgsl"
+    },
+    {
+      "name": "balanced:tile-atlas-materialize-window-batch.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-materialize-window-batch.wgsl"
+    },
+    {
+      "name": "no-host-api:tile-atlas-materialize-window-batch.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-materialize-window-batch.wgsl"
+    },
+    {
+      "name": "exists:tile-atlas-page-table-validate.wgsl",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/atlas/shaders/tile-atlas-page-table-validate.wgsl"
+    },
+    {
+      "name": "compute:tile-atlas-page-table-validate.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-page-table-validate.wgsl"
+    },
+    {
+      "name": "balanced:tile-atlas-page-table-validate.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-page-table-validate.wgsl"
+    },
+    {
+      "name": "no-host-api:tile-atlas-page-table-validate.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-page-table-validate.wgsl"
+    },
+    {
+      "name": "exists:tile-atlas-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/atlas/shaders/tile-atlas-fixture-generator.wgsl"
+    },
+    {
+      "name": "compute:tile-atlas-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-fixture-generator.wgsl"
+    },
+    {
+      "name": "balanced:tile-atlas-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-fixture-generator.wgsl"
+    },
+    {
+      "name": "no-host-api:tile-atlas-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-fixture-generator.wgsl"
+    },
+    {
+      "name": "exists:tile-atlas-reference-copy.wgsl",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/atlas/shaders/tile-atlas-reference-copy.wgsl"
+    },
+    {
+      "name": "compute:tile-atlas-reference-copy.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-reference-copy.wgsl"
+    },
+    {
+      "name": "balanced:tile-atlas-reference-copy.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-reference-copy.wgsl"
+    },
+    {
+      "name": "no-host-api:tile-atlas-reference-copy.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-reference-copy.wgsl"
+    },
+    {
+      "name": "exists:tile-atlas-compare.wgsl",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/atlas/shaders/tile-atlas-compare.wgsl"
+    },
+    {
+      "name": "compute:tile-atlas-compare.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-compare.wgsl"
+    },
+    {
+      "name": "balanced:tile-atlas-compare.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-compare.wgsl"
+    },
+    {
+      "name": "no-host-api:tile-atlas-compare.wgsl",
+      "pass": true,
+      "detail": "tile-atlas-compare.wgsl"
+    },
+    {
+      "name": "materialize:struct AtlasPageEntry",
+      "pass": true,
+      "detail": "struct AtlasPageEntry"
+    },
+    {
+      "name": "materialize:virtualGeneration",
+      "pass": true,
+      "detail": "virtualGeneration"
+    },
+    {
+      "name": "materialize:slotGeneration",
+      "pass": true,
+      "detail": "slotGeneration"
+    },
+    {
+      "name": "materialize:pageGeneration",
+      "pass": true,
+      "detail": "pageGeneration"
+    },
+    {
+      "name": "materialize:byteOffsetLo",
+      "pass": true,
+      "detail": "byteOffsetLo"
+    },
+    {
+      "name": "materialize:FLAG_VALID",
+      "pass": true,
+      "detail": "FLAG_VALID"
+    },
+    {
+      "name": "materialize:FLAG_RESIDENT",
+      "pass": true,
+      "detail": "FLAG_RESIDENT"
+    },
+    {
+      "name": "materialize:FLAG_WRITE_FENCE_COMPLETE",
+      "pass": true,
+      "detail": "FLAG_WRITE_FENCE_COMPLETE"
+    },
+    {
+      "name": "materialize:outputWindowIndex * complexElementCount + element",
+      "pass": true,
+      "detail": "outputWindowIndex * complexElementCount + element"
+    },
+    {
+      "name": "materialize:pagePayload[src]",
+      "pass": true,
+      "detail": "pagePayload[src]"
+    },
+    {
+      "name": "materialize:atomicAdd(&faults[0]",
+      "pass": true,
+      "detail": "atomicAdd(&faults[0]"
+    },
+    {
+      "name": "materialize:@workgroup_size(64, 1, 1)",
+      "pass": true,
+      "detail": "@workgroup_size(64, 1, 1)"
+    },
+    {
+      "name": "validate:word/12u",
+      "pass": true,
+      "detail": "word/12u"
+    },
+    {
+      "name": "validate:field=word%12u",
+      "pass": true,
+      "detail": "field=word%12u"
+    },
+    {
+      "name": "validate:atomicAdd(&summary[0]",
+      "pass": true,
+      "detail": "atomicAdd(&summary[0]"
+    },
+    {
+      "name": "validate:atomicMin(&summary[1]",
+      "pass": true,
+      "detail": "atomicMin(&summary[1]"
+    },
+    {
+      "name": "fixture:f32(i)",
+      "pass": true,
+      "detail": "f32(i)"
+    },
+    {
+      "name": "fixture:-f32(i)-0.25",
+      "pass": true,
+      "detail": "-f32(i)-0.25"
+    },
+    {
+      "name": "fixture:vec2<f32>",
+      "pass": true,
+      "detail": "vec2<f32>"
+    },
+    {
+      "name": "reference:directSource",
+      "pass": true,
+      "detail": "directSource"
+    },
+    {
+      "name": "reference:expected[i]=directSource[i]",
+      "pass": true,
+      "detail": "expected[i]=directSource[i]"
+    },
+    {
+      "name": "reference:@workgroup_size(64)",
+      "pass": true,
+      "detail": "@workgroup_size(64)"
+    },
+    {
+      "name": "compare:bitcast<vec2<u32>>",
+      "pass": true,
+      "detail": "bitcast<vec2<u32>>"
+    },
+    {
+      "name": "compare:isFinite",
+      "pass": true,
+      "detail": "isFinite"
+    },
+    {
+      "name": "compare:atomicAdd",
+      "pass": true,
+      "detail": "atomicAdd"
+    },
+    {
+      "name": "compare:atomicMin",
+      "pass": true,
+      "detail": "atomicMin"
+    },
+    {
+      "name": "compare:atomicMax",
+      "pass": true,
+      "detail": "atomicMax"
+    },
+    {
+      "name": "compare:first mismatch",
+      "pass": true,
+      "detail": "first mismatch"
+    },
+    {
+      "name": "single-writer-no-atomic-payload",
+      "pass": true,
+      "detail": "payload non-atomic"
+    },
+    {
+      "name": "materializer-no-barrier",
+      "pass": true,
+      "detail": "barrier-free"
+    },
+    {
+      "name": "reference-no-page-table",
+      "pass": true,
+      "detail": "independent reference"
+    },
+    {
+      "name": "validator-48-byte-record",
+      "pass": true,
+      "detail": "12 u32 record"
+    },
+    {
+      "name": "no-float-atomic",
+      "pass": true,
+      "detail": "no float atomics"
+    },
+    {
+      "name": "materializer-request-record-8u32",
+      "pass": true,
+      "detail": "request ABI"
+    },
+    {
+      "name": "materializer-generation-triplet",
+      "pass": true,
+      "detail": "generation validation"
+    },
+    {
+      "name": "materializer-range-validation",
+      "pass": true,
+      "detail": "byte range"
+    },
+    {
+      "name": "materializer-page-validation",
+      "pass": true,
+      "detail": "page identity"
+    },
+    {
+      "name": "exact-copy-comparator",
+      "pass": true,
+      "detail": "bitwise compare"
+    },
+    {
+      "name": "bindings-0-through-4",
+      "pass": true,
+      "detail": "five bindings"
+    },
+    {
+      "name": "request-index-y",
+      "pass": true,
+      "detail": "request row ownership"
+    },
+    {
+      "name": "element-index-x",
+      "pass": true,
+      "detail": "element ownership"
+    },
+    {
+      "name": "output-index-formula",
+      "pass": true,
+      "detail": "single destination"
+    },
+    {
+      "name": "fault-counter-separated",
+      "pass": true,
+      "detail": "generation and range faults"
+    },
+    {
+      "name": "compare-max-error",
+      "pass": true,
+      "detail": "max ULP evidence"
+    }
+  ],
+  "digest": "26990f97e8c3644bcb945018ed850f25fb8a1baebe4900c16570aab75264faec"
+}

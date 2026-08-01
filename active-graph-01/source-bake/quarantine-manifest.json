@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "quarantine": [
+    {
+      "sourceRelative": "app/legacy-runtime/main.js",
+      "archiveRelative": "archive/legacy-quarantine/TDT-ACTIVE-GRAPH-01/main.fcceae52fdd2a36f37824f72a5b9abf0988feb15169c08556044841bfb808d90.js",
+      "sourceSha256": "fcceae52fdd2a36f37824f72a5b9abf0988feb15169c08556044841bfb808d90",
+      "byteLength": 187246
+    }
+  ],
+  "packageAdmission": false,
+  "routeAdmission": false,
+  "digest": "2b5ae5b2d559364502f2e5f7f9bc17637fd8f8f85f6bfb32943abe5861422b5c"
+}

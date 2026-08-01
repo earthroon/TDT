@@ -1,0 +1,12 @@
+EW02 changed JavaScript/MJS syntax check
+PASS app/legacy-runtime/export_manager.js
+PASS app/legacy-runtime/libs/psd/psd_export_bridge.js
+PASS app/legacy-runtime/worker-codecs/webp-lossless-handler.js
+PASS app/legacy-runtime/worker-codecs/png16-handler.js
+PASS app/legacy-runtime/worker-codecs/psd-export-handler.js
+PASS tools/gate-export-worker-01.mjs
+PASS tools/gate-export-worker-02.mjs
+PASS tools/generate-runtime-worker-manifest.mjs
+PASS tools/generate-runtime-manifest.mjs
+PASS tools/verify-r7-export-truth.mjs
+PASS tools/verify-source-bake.mjs

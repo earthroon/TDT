@@ -1,0 +1,731 @@
+TDT-NATIVE-DECODER-01 FINAL SOURCE VERIFY
+=== NATIVE RUNTIME ===
+PASS ND01-T001 synthetic PE valid
+PASS ND01-T002 synthetic PE x64
+PASS ND01-T003 synthetic PE executable
+PASS ND01-T004 synthetic PE dll
+PASS ND01-T005 synthetic attestation pass
+PASS ND01-T006 synthetic state attested
+PASS ND01-T007 synthetic ABI
+PASS ND01-T008 synthetic digest
+PASS ND01-T009 PE machine parse 332
+PASS ND01-T010 PE machine parse 43620
+PASS ND01-T011 PE machine parse 0
+PASS ND01-T012 short PE reject 0
+PASS ND01-T013 short PE reject 1
+PASS ND01-T014 short PE reject 2
+PASS ND01-T015 short PE reject 31
+PASS ND01-T016 bad MZ reject
+PASS ND01-T017 bad PE reject
+PASS ND01-T018 source audit canonicalPresent
+PASS ND01-T019 source audit releaseAddonCount
+PASS ND01-T020 source audit debugAddonCount
+PASS ND01-T021 source audit exactU16Source
+PASS ND01-T022 source audit metadataSource
+PASS ND01-T023 source audit limitsSource
+PASS ND01-T024 source audit canonicalLoader
+PASS ND01-T025 source audit pathDecodeRendererExposed
+PASS ND01-T026 source audit registryAttestationGate
+PASS ND01-T027 source audit packageExactAddon
+PASS ND01-T028 root NAPI CLI exact
+PASS ND01-T029 nested NAPI CLI removed
+PASS ND01-T030 rust token dadum-native-decoder-abi-v1
+PASS ND01-T031 rust token rgba8unorm-u8-v1
+PASS ND01-T032 rust token rgba16le-unorm-u16-v1
+PASS ND01-T033 rust token sample.to_le_bytes()
+PASS ND01-T034 rust token parse_png_metadata
+PASS ND01-T035 rust token parse_jpeg_metadata
+PASS ND01-T036 rust token parse_webp_metadata
+PASS ND01-T037 rust token ZlibDecoder
+PASS ND01-T038 rust token iCCP
+PASS ND01-T039 rust token pHYs
+PASS ND01-T040 rust token ICC_PROFILE
+PASS ND01-T041 rust token ICCP
+PASS ND01-T042 rust token EXIF
+PASS ND01-T043 rust token XMP 
+PASS ND01-T044 rust token max_input_bytes
+PASS ND01-T045 rust token max_pixels
+PASS ND01-T046 rust token max_metadata_bytes
+PASS ND01-T047 rust token checked_mul
+PASS ND01-T048 rust token E_NATIVE_INPUT_TOO_LARGE
+PASS ND01-T049 rust token E_NATIVE_PIXEL_BUDGET_EXCEEDED
+PASS ND01-T050 rust token E_NATIVE_FORMAT_UNKNOWN
+PASS ND01-T051 rust token abi_descriptor
+PASS ND01-T052 rust token self_test
+PASS ND01-T053 rust token decode_buffer
+PASS ND01-T054 rust token decode_path
+PASS ND01-T055 rust token embedded-icc
+PASS ND01-T056 rust token unmanaged-source
+PASS ND01-T057 rust forbidden half::f16
+PASS ND01-T058 rust forbidden f16::from_f32
+PASS ND01-T059 rust forbidden rgba16float
+PASS ND01-T060 rust forbidden ImageFormat::Avif
+PASS ND01-T061 rust forbidden ImageFormat::Gif
+PASS ND01-T062 rust forbidden ImageFormat::Bmp
+PASS ND01-T063 rust forbidden ImageFormat::Tiff
+PASS ND01-T064 loader token decoder_rs.win32-x64-msvc.node
+PASS ND01-T065 loader token E_NATIVE_ADDON_ARCH_MISMATCH
+PASS ND01-T066 loader token E_NATIVE_ADDON_MISSING
+PASS ND01-T067 loader token E_NATIVE_ADDON_LOAD_FAILED
+PASS ND01-T068 loader token REQUIRED_RAW_EXPORTS
+PASS ND01-T069 loader token artifactSha256
+PASS ND01-T070 loader token selfTestVerified
+PASS ND01-T071 loader token abiVersion
+PASS ND01-T072 loader token decode_buffer
+PASS ND01-T073 loader token decodePath
+PASS ND01-T074 loader forbidden findFirstNodeBinary
+PASS ND01-T075 loader forbidden target/debug
+PASS ND01-T076 loader forbidden target/release
+PASS ND01-T077 loader forbidden dist/*.node
+PASS ND01-T078 loader forbidden decode_path ||
+PASS ND01-T079 loader forbidden dadum-native-decoder-win32
+PASS ND01-T080 electron token createNativeDecoderAttestation
+PASS ND01-T081 electron token publicNativeDecoderAttestation
+PASS ND01-T082 electron token getNativeDecoderAttestation
+PASS ND01-T083 electron token E_NATIVE_DECODER_NOT_ATTESTED
+PASS ND01-T084 electron token sampleEncoding
+PASS ND01-T085 electron token rgba16le-unorm-u16-v1
+PASS ND01-T086 electron forbidden dadum:native-decode-path
+PASS ND01-T087 electron forbidden invokeNativeDecodePath
+PASS ND01-T088 preload path API absent
+PASS ND01-T089 preload status
+PASS ND01-T090 preload buffer
+PASS ND01-T091 registry token await nativeHost.status()
+PASS ND01-T092 registry token status.attestationVerified === true
+PASS ND01-T093 registry token status.abiVersion === 'dadum-native-decoder-abi-v1'
+PASS ND01-T094 registry token artifactSha256: String(status.artifactSha256)
+PASS ND01-T095 registry token attestationProtocol: status.attestationProtocol
+PASS ND01-T096 registry native excludes avif
+PASS ND01-T097 registry native excludes gif
+PASS ND01-T098 registry native excludes bmp
+PASS ND01-T099 registry native excludes tiff
+PASS ND01-T100 canonical root CLI invocation
+PASS ND01-T101 package exact addon
+PASS ND01-T102 asar unpack exact addon
+PASS ND01-T103 stable E_NATIVE_TOOLCHAIN_PROFILE_MISSING
+PASS ND01-T104 stable E_NATIVE_RUST_TOOLCHAIN_MISMATCH
+PASS ND01-T105 stable E_NATIVE_NAPI_CLI_IDENTITY_MISMATCH
+PASS ND01-T106 stable E_NATIVE_CARGO_LOCK_MUTATED
+PASS ND01-T107 stable E_NATIVE_NPM_LOCK_MUTATED
+PASS ND01-T108 stable E_NATIVE_BUILD_A_FAILED
+PASS ND01-T109 stable E_NATIVE_BUILD_B_FAILED
+PASS ND01-T110 stable E_NATIVE_BUILD_NONDETERMINISTIC
+PASS ND01-T111 stable E_NATIVE_ADDON_MISSING
+PASS ND01-T112 stable E_NATIVE_ADDON_MULTIPLE
+PASS ND01-T113 stable E_NATIVE_ADDON_UNEXPECTED_NAME
+PASS ND01-T114 stable E_NATIVE_ADDON_ARCH_MISMATCH
+PASS ND01-T115 stable E_NATIVE_ADDON_DEBUG_BUILD
+PASS ND01-T116 stable E_NATIVE_ADDON_SHA_MISMATCH
+PASS ND01-T117 stable E_NATIVE_ADDON_IMPORT_POLICY_FAILED
+PASS ND01-T118 stable E_NATIVE_ADDON_LOAD_FAILED
+PASS ND01-T119 stable E_NATIVE_ABI_EXPORT_MISSING
+PASS ND01-T120 stable E_NATIVE_ABI_VERSION_MISMATCH
+PASS ND01-T121 stable E_NATIVE_NAPI_FEATURE_MISMATCH
+PASS ND01-T122 stable E_NATIVE_SELF_TEST_FAILED
+PASS ND01-T123 stable E_NATIVE_ATTESTATION_FAILED
+PASS ND01-T124 stable E_NATIVE_INPUT_EMPTY
+PASS ND01-T125 stable E_NATIVE_INPUT_TOO_LARGE
+PASS ND01-T126 stable E_NATIVE_FORMAT_UNKNOWN
+PASS ND01-T127 stable E_NATIVE_FORMAT_HINT_MISMATCH
+PASS ND01-T128 stable E_NATIVE_DIMENSION_LIMIT
+PASS ND01-T129 stable E_NATIVE_PIXEL_BUDGET_EXCEEDED
+PASS ND01-T130 stable E_NATIVE_METADATA_BUDGET_EXCEEDED
+PASS ND01-T131 stable E_NATIVE_ANIMATION_UNSUPPORTED
+PASS ND01-T132 stable E_NATIVE_DECODE_FAILED
+PASS ND01-T133 stable E_NATIVE_OUTPUT_SCHEMA_INVALID
+PASS ND01-T134 stable E_NATIVE_OUTPUT_LENGTH_MISMATCH
+PASS ND01-T135 stable E_NATIVE_OUTPUT_STORAGE_UNSUPPORTED
+PASS ND01-T136 stable E_NATIVE_OUTPUT_DIGEST_MISMATCH
+PASS ND01-T137 stable E_NATIVE_PNG16_EXACTNESS_FAILED
+PASS ND01-T138 stable E_NATIVE_HIDDEN_RGB_FAILED
+PASS ND01-T139 stable E_NATIVE_METADATA_PARSE_FAILED
+PASS ND01-T140 stable E_NATIVE_DECODER_UNAVAILABLE
+PASS ND01-T141 stable E_NATIVE_DECODER_NOT_ATTESTED
+PASS ND01-T142 stable E_NATIVE_DECODER_FALLBACK_FORBIDDEN
+PASS ND01-T143 stable E_NATIVE_DECODE_TIMEOUT
+PASS ND01-T144 stable E_NATIVE_DECODE_STALE_RESULT
+PASS ND01-T145 stable E_NATIVE_PATH_API_FORBIDDEN
+PASS ND01-T146 stable E_NATIVE_PACKAGE_CONTENT_MISMATCH
+PASS ND01-T147 stable E_NATIVE_PACKAGED_EXECUTION_FAILED
+PASS ND01-T148 surface chain rgba8unorm-u8-v1
+PASS ND01-T149 surface chain rgba16le-unorm-u16-v1
+PASS ND01-T150 ABI closure invariant 150
+PASS TDT-NATIVE-DECODER-01 RUNTIME 150/150
+=== NATIVE GATE ===
+PASS ND01-G001 spec title
+PASS ND01-G002 spec exact surface
+PASS ND01-G003 spec truth seal
+PASS ND01-G004 missing addon truth
+PASS ND01-G005 release count zero
+PASS ND01-G006 debug count zero
+PASS ND01-G007 canonical loader
+PASS ND01-G008 path decode hidden
+PASS ND01-G009 registry attestation
+PASS ND01-G010 package exact addon
+PASS ND01-G011 u16 exact source
+PASS ND01-G012 metadata source
+PASS ND01-G013 limits source
+PASS ND01-G014 rust dadum-native-decoder-abi-v1
+PASS ND01-G015 rust rgba8unorm-u8-v1
+PASS ND01-G016 rust rgba16le-unorm-u16-v1
+PASS ND01-G017 rust abi_descriptor
+PASS ND01-G018 rust self_test
+PASS ND01-G019 rust decode_buffer
+PASS ND01-G020 rust parse_png_metadata
+PASS ND01-G021 rust parse_jpeg_metadata
+PASS ND01-G022 rust parse_webp_metadata
+PASS ND01-G023 rust sample.to_le_bytes()
+PASS ND01-G024 rust forbidden half::f16
+PASS ND01-G025 rust forbidden f16::from_f32
+PASS ND01-G026 rust forbidden rgba16float
+PASS ND01-G027 loader decoder_rs.win32-x64-msvc.node
+PASS ND01-G028 loader REQUIRED_RAW_EXPORTS
+PASS ND01-G029 loader artifactSha256
+PASS ND01-G030 loader selfTestVerified
+PASS ND01-G031 loader E_NATIVE_ADDON_MISSING
+PASS ND01-G032 loader decodePath
+PASS ND01-G033 loader forbidden findFirstNodeBinary
+PASS ND01-G034 loader forbidden target/debug
+PASS ND01-G035 loader forbidden target/release
+PASS ND01-G036 attestation createNativeDecoderAttestation
+PASS ND01-G037 attestation inspectPeBuffer
+PASS ND01-G038 attestation 0x8664
+PASS ND01-G039 attestation dadum-native-decoder-attestation-v1
+PASS ND01-G040 attestation NATIVE_DECODER_REQUIRED_FACADE_EXPORTS
+PASS ND01-G041 electron getNativeDecoderAttestation
+PASS ND01-G042 electron publicNativeDecoderAttestation
+PASS ND01-G043 electron E_NATIVE_DECODER_NOT_ATTESTED
+PASS ND01-G044 electron rgba16le-unorm-u16-v1
+PASS ND01-G045 electron path IPC absent
+PASS ND01-G046 preload path absent
+PASS ND01-G047 registry await nativeHost.status()
+PASS ND01-G048 registry status.attestationVerified === true
+PASS ND01-G049 registry status.abiVersion === 'dadum-native-decoder-abi-v1'
+PASS ND01-G050 registry artifactSha256: String(status.artifactSha256)
+PASS ND01-G051 stable E_NATIVE_TOOLCHAIN_PROFILE_MISSING
+PASS ND01-G052 stable E_NATIVE_RUST_TOOLCHAIN_MISMATCH
+PASS ND01-G053 stable E_NATIVE_NAPI_CLI_IDENTITY_MISMATCH
+PASS ND01-G054 stable E_NATIVE_CARGO_LOCK_MUTATED
+PASS ND01-G055 stable E_NATIVE_NPM_LOCK_MUTATED
+PASS ND01-G056 stable E_NATIVE_BUILD_A_FAILED
+PASS ND01-G057 stable E_NATIVE_BUILD_B_FAILED
+PASS ND01-G058 stable E_NATIVE_BUILD_NONDETERMINISTIC
+PASS ND01-G059 stable E_NATIVE_ADDON_MISSING
+PASS ND01-G060 stable E_NATIVE_ADDON_MULTIPLE
+PASS ND01-G061 stable E_NATIVE_ADDON_UNEXPECTED_NAME
+PASS ND01-G062 stable E_NATIVE_ADDON_ARCH_MISMATCH
+PASS ND01-G063 stable E_NATIVE_ADDON_DEBUG_BUILD
+PASS ND01-G064 stable E_NATIVE_ADDON_SHA_MISMATCH
+PASS ND01-G065 stable E_NATIVE_ADDON_IMPORT_POLICY_FAILED
+PASS ND01-G066 stable E_NATIVE_ADDON_LOAD_FAILED
+PASS ND01-G067 stable E_NATIVE_ABI_EXPORT_MISSING
+PASS ND01-G068 stable E_NATIVE_ABI_VERSION_MISMATCH
+PASS ND01-G069 stable E_NATIVE_NAPI_FEATURE_MISMATCH
+PASS ND01-G070 stable E_NATIVE_SELF_TEST_FAILED
+PASS ND01-G071 stable E_NATIVE_ATTESTATION_FAILED
+PASS ND01-G072 stable E_NATIVE_INPUT_EMPTY
+PASS ND01-G073 stable E_NATIVE_INPUT_TOO_LARGE
+PASS ND01-G074 stable E_NATIVE_FORMAT_UNKNOWN
+PASS ND01-G075 stable E_NATIVE_FORMAT_HINT_MISMATCH
+PASS ND01-G076 stable E_NATIVE_DIMENSION_LIMIT
+PASS ND01-G077 stable E_NATIVE_PIXEL_BUDGET_EXCEEDED
+PASS ND01-G078 stable E_NATIVE_METADATA_BUDGET_EXCEEDED
+PASS ND01-G079 stable E_NATIVE_ANIMATION_UNSUPPORTED
+PASS ND01-G080 stable E_NATIVE_DECODE_FAILED
+PASS ND01-G081 stable E_NATIVE_OUTPUT_SCHEMA_INVALID
+PASS ND01-G082 stable E_NATIVE_OUTPUT_LENGTH_MISMATCH
+PASS ND01-G083 stable E_NATIVE_OUTPUT_STORAGE_UNSUPPORTED
+PASS ND01-G084 stable E_NATIVE_OUTPUT_DIGEST_MISMATCH
+PASS ND01-G085 stable E_NATIVE_PNG16_EXACTNESS_FAILED
+PASS ND01-G086 stable E_NATIVE_HIDDEN_RGB_FAILED
+PASS ND01-G087 stable E_NATIVE_METADATA_PARSE_FAILED
+PASS ND01-G088 stable E_NATIVE_DECODER_UNAVAILABLE
+PASS ND01-G089 stable E_NATIVE_DECODER_NOT_ATTESTED
+PASS ND01-G090 stable E_NATIVE_DECODER_FALLBACK_FORBIDDEN
+PASS ND01-G091 stable E_NATIVE_DECODE_TIMEOUT
+PASS ND01-G092 stable E_NATIVE_DECODE_STALE_RESULT
+PASS ND01-G093 stable E_NATIVE_PATH_API_FORBIDDEN
+PASS ND01-G094 stable E_NATIVE_PACKAGE_CONTENT_MISMATCH
+PASS ND01-G095 stable E_NATIVE_PACKAGED_EXECUTION_FAILED
+PASS ND01-G096 root CLI exact
+PASS ND01-G097 build script exact CLI
+PASS ND01-G098 package file exact
+PASS ND01-G099 unpack exact
+PASS ND01-G100 sealed SOURCE_INPUT
+PASS ND01-G101 sealed TOOLCHAIN
+PASS ND01-G102 sealed ADDON_ARTIFACT
+PASS ND01-G103 sealed ABI
+PASS ND01-G104 sealed ATTESTATION
+PASS ND01-G105 sealed SELF_TEST
+PASS ND01-G106 sealed EXACT_SURFACE
+PASS ND01-G107 sealed PNG8
+PASS ND01-G108 sealed PNG16
+PASS ND01-G109 sealed WEBP
+PASS ND01-G110 sealed JPEG
+PASS ND01-G111 sealed METADATA
+PASS ND01-G112 sealed ICC
+PASS ND01-G113 sealed RESOLUTION
+PASS ND01-G114 sealed LIMIT
+PASS ND01-G115 sealed PACKAGING
+PASS ND01-G116 sealed INDEPENDENCE
+PASS ND01-G117 sealed BUILD_REPRODUCIBILITY
+PASS ND01-G118 sealed PROMOTION_RECEIPT
+PASS ND01-G119 sealed FIX_RECEIPT
+PASS ND01-G120 ABI closure invariant 120
+PASS TDT-NATIVE-DECODER-01 GATES 120/120
+=== R7 ===
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+=== EW01 ===
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 8010185705b45274ae35d3e5117aa91089d78d6b0f2c471f021123b77f198a22
+=== EW02 ===
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+=== EW03 ===
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 93c7aa4dd5541eae0901adf1c23fcab19b7a0ab2c3943e385f3f452352405306
+=== EW04 ===
+PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 1b7b1eb13cdaa681c1c2d1f24dde90509315deafd65a30375cc30a15440a2458
+=== EW05 ===
+PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 8cc35cd085e9375460c10f4e6574e6b7c2ec9486306cd585676d4c15dfc7b4f6
+=== EW06 ===
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a9baf7c99d0df495809daac38539f3346bf8bd867ef37c746b7d187c1f307e0d
+=== EW07 ===
+PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 e8c2c2ab16b1708f25e8adac6bca2486d37eb48f574b2c597b9a39efbc6ef8ad
+=== EP01 ===
+PASS GATE-EP01-01 stable API id
+PASS GATE-EP01-02 stable API version
+PASS GATE-EP01-03 implementation id separate
+PASS GATE-EP01-04 no EW public API
+PASS GATE-EP01-05 no product blob URL
+PASS GATE-EP01-06 no URL result contract
+PASS GATE-EP01-07 host receipt result
+PASS GATE-EP01-08 host save authority call
+PASS GATE-EP01-09 retired facade receipt
+PASS GATE-EP01-10 whole build rollback
+PASS GATE-EP01-11 EP01 receipt schema
+PASS GATE-EP01-12 on disk digest evidence
+PASS GATE-EP01-13 path privacy digest
+PASS GATE-EP01-14 truthful source state
+PASS GATE-EP01-15 profile truth
+PASS GATE-EP01-16 codec host adoption
+PASS GATE-EP01-17 one time adoption call
+PASS GATE-EP01-18 facade lifecycle
+PASS GATE-EP01-19 sealed state
+PASS GATE-EP01-20 adopted state
+PASS GATE-EP01-21 retired tombstone
+PASS GATE-EP01-22 frozen tombstone
+PASS GATE-EP01-23 retired error
+PASS GATE-EP01-24 private codec host identity
+PASS GATE-EP01-25 main stable API check
+PASS GATE-EP01-26 main bridge no blob URL
+PASS GATE-EP01-27 main bridge no anchor click
+PASS GATE-EP01-28 main requires save receipt
+PASS GATE-EP01-29 resize delegates stable API
+PASS GATE-EP01-30 resize no manager
+PASS GATE-EP01-31 resize no blob URL
+PASS GATE-EP01-32 resize no second pixel pipeline
+PASS GATE-EP01-33 preload begin
+PASS GATE-EP01-34 preload chunk
+PASS GATE-EP01-35 preload commit
+PASS GATE-EP01-36 preload abort
+PASS GATE-EP01-37 8MiB chunks
+PASS GATE-EP01-38 main begin
+PASS GATE-EP01-39 main chunk
+PASS GATE-EP01-40 main commit
+PASS GATE-EP01-41 main abort
+PASS GATE-EP01-42 fsync
+PASS GATE-EP01-43 atomic rename attempt
+PASS GATE-EP01-44 disk verification
+PASS GATE-EP01-45 path privacy
+PASS GATE-EP01-46 typed host save
+PASS GATE-EP01-47 renderer chunk digest
+PASS GATE-EP01-48 cancel fail closed
+PASS GATE-EP01-49 window stable contract
+PASS GATE-EP01-50 window save contract
+PASS GATE-EP01-51 module implementation
+PASS GATE-EP01-52 host injected
+PASS GATE-EP01-53 spec retained
+PASS GATE-EP01-54 promotion report generator
+PASS TDT-EXPORT-PROMOTION-01 54/54
+=== EP02 ===
+PASS GATE-EP02-01 exact npm packageManager
+PASS GATE-EP02-02 exact node engine
+PASS GATE-EP02-03 exact npm engine
+PASS GATE-EP02-04 direct versions exact
+PASS GATE-EP02-05 toolchain profile id
+PASS GATE-EP02-06 canonical package target
+PASS GATE-EP02-07 offline build policy
+PASS GATE-EP02-08 dependency policy
+PASS GATE-EP02-09 zero policy exceptions
+PASS GATE-EP02-10 toolchain script
+PASS GATE-EP02-11 lock script
+PASS GATE-EP02-12 emitted generator script
+PASS GATE-EP02-13 production manifest script
+PASS GATE-EP02-14 route probe script
+PASS GATE-EP02-15 build starts with authority gates
+PASS GATE-EP02-16 production Vite mode
+PASS GATE-EP02-17 postbuild emitted manifest
+PASS GATE-EP02-18 postbuild emitted verify
+PASS GATE-EP02-19 postbuild COI probe
+PASS GATE-EP02-20 EP02 in full verify
+PASS GATE-EP02-21 unpacked canonical target
+PASS GATE-EP02-22 native package gate
+PASS GATE-EP02-23 package content generation
+PASS GATE-EP02-24 native release allowlist
+PASS GATE-EP02-25 broad native glob removed
+PASS GATE-EP02-26 minimal asar unpack
+PASS GATE-EP02-27 no implicit native rebuild
+PASS GATE-EP02-28 no node-gyp package rebuild
+PASS GATE-EP02-29 no source dependency rebuild
+PASS GATE-EP02-30 runtime promotion lineage
+PASS GATE-EP02-31 lock root exactness
+PASS GATE-EP02-32 transitive integrity check
+PASS GATE-EP02-33 toolchain in build identity
+PASS GATE-EP02-34 dependency digest in manifest
+PASS GATE-EP02-35 source manifest truth
+PASS GATE-EP02-36 source cannot self promote
+PASS GATE-EP02-37 Vite prebuild remains source mode
+PASS GATE-EP02-38 emitted mode generator
+PASS GATE-EP02-39 worker emitted closure digest
+PASS GATE-EP02-40 ambiguous worker fail closed
+PASS GATE-EP02-41 renderer build identity
+PASS GATE-EP02-42 runtime binds worker digest
+PASS GATE-EP02-43 runtime binds Vite digest
+PASS GATE-EP02-44 EP02 cannot final promote
+PASS GATE-EP02-45 COOP probe
+PASS GATE-EP02-46 COEP probe
+PASS GATE-EP02-47 WASM MIME probe
+PASS GATE-EP02-48 ICC MIME probe
+PASS GATE-EP02-49 PE x64 machine check
+PASS GATE-EP02-50 native addon discovery
+PASS GATE-EP02-51 release addon singularity
+PASS GATE-EP02-52 debug addon exclusion
+PASS GATE-EP02-53 ASAR authority
+PASS GATE-EP02-54 package content id
+PASS GATE-EP02-55 source/intermediate exclusion
+PASS GATE-EP02-56 package native singularity
+PASS GATE-EP02-57 lock receipt state
+PASS GATE-EP02-58 toolchain receipt state
+PASS GATE-EP02-59 production source manifest error
+PASS GATE-EP02-60 spec retained
+PASS TDT-EXPORT-PROMOTION-02 60/60
+=== EP03 ===
+PASS GATE-EP03-01 EP03 gate script
+PASS GATE-EP03-02 EP03 in full verify
+PASS GATE-EP03-03 source chain
+PASS GATE-EP03-04 fixture corpus packaged
+PASS GATE-EP03-05 E2E mode explicit
+PASS GATE-EP03-06 E2E root
+PASS GATE-EP03-07 E2E token
+PASS GATE-EP03-08 256-bit token syntax
+PASS GATE-EP03-09 invalid token fail closed
+PASS GATE-EP03-10 root escape fail closed
+PASS GATE-EP03-11 preauthorized save mode
+PASS GATE-EP03-12 launch identity IPC
+PASS GATE-EP03-13 packaged launch observed
+PASS GATE-EP03-14 preload E2E boundary
+PASS GATE-EP03-15 token not exposed directly
+PASS GATE-EP03-16 host receipt save mode
+PASS GATE-EP03-17 typed launch protocol
+PASS GATE-EP03-18 native decoder identity
+PASS GATE-EP03-19 JXL decoder identity
+PASS GATE-EP03-20 PSD decoder identity
+PASS GATE-EP03-21 JXL independence class
+PASS GATE-EP03-22 PSD independence class
+PASS GATE-EP03-23 no encoder sharing
+PASS GATE-EP03-24 JXL registry binding
+PASS GATE-EP03-25 PSD registry binding
+PASS GATE-EP03-26 decoder evidence surface
+PASS GATE-EP03-27 JXL decoder WASM
+PASS GATE-EP03-28 PSD decoder WASM
+PASS GATE-EP03-29 fixture manifest identity
+PASS GATE-EP03-30 minimum source fixture classes
+PASS GATE-EP03-31 hidden RGB fixture
+PASS GATE-EP03-32 16-bit fixture
+PASS GATE-EP03-33 ICC fixture contract
+PASS GATE-EP03-34 PNG8 exact gate
+PASS GATE-EP03-35 PNG16 exact gate
+PASS GATE-EP03-36 WebP exact gate
+PASS GATE-EP03-37 JXL exact gate
+PASS GATE-EP03-38 JXL hidden RGB gate
+PASS GATE-EP03-39 JPEG quality gate
+PASS GATE-EP03-40 PSD RGB plane gate
+PASS GATE-EP03-41 PSD CMYK LCMS gate
+PASS GATE-EP03-42 PSD CMYK color gate
+PASS GATE-EP03-43 MODJPEG artifact verifier
+PASS GATE-EP03-44 canonical pthread pool 8 gate
+PASS GATE-EP03-45 canonical pthread symbols present gate
+PASS GATE-EP03-46 canonical child worker present gate
+PASS GATE-EP03-47 canonical shared memory artifact gate
+PASS GATE-EP03-48 candidate launch receipt
+PASS GATE-EP03-49 save E2E receipt
+PASS GATE-EP03-50 cross-format receipt
+PASS GATE-EP03-51 format receipt binding
+PASS GATE-EP03-52 package identity in receipt
+PASS GATE-EP03-53 build identity in receipt
+PASS GATE-EP03-54 worker identity in receipt
+PASS GATE-EP03-55 receipt conservation verifier
+PASS GATE-EP03-56 pointer schema v2
+PASS GATE-EP03-57 pointer identity
+PASS GATE-EP03-58 whole-build rollback
+PASS GATE-EP03-59 fallback forbidden
+PASS GATE-EP03-60 pointer CAS gate
+PASS GATE-EP03-61 pointer temp write
+PASS GATE-EP03-62 pointer fsync
+PASS GATE-EP03-63 pointer atomic rename
+PASS GATE-EP03-64 receipt pass before pointer
+PASS GATE-EP03-65 post-promotion relaunch report
+PASS GATE-EP03-66 rollback whole-build truth
+PASS GATE-EP03-67 rollback relaunch gate
+PASS GATE-EP03-68 stable errors and spec retained
+PASS TDT-EXPORT-PROMOTION-03 68/68
+=== BUILD LOCK ===
+PASS GATE-BL01-01 recovery script
+PASS GATE-BL01-02 source script
+PASS GATE-BL01-03 gate script
+PASS GATE-BL01-04 runtime test script
+PASS GATE-BL01-05 full verify inclusion
+PASS GATE-BL01-06 profile identity
+PASS GATE-BL01-07 node npm pin
+PASS GATE-BL01-08 canonical target
+PASS GATE-BL01-09 lock v3
+PASS GATE-BL01-10 hoisted install
+PASS GATE-BL01-11 peer policy
+PASS GATE-BL01-12 lifecycle policy
+PASS GATE-BL01-13 offline replay twice
+PASS GATE-BL01-14 mutation zero
+PASS GATE-BL01-15 no registry fallback
+PASS GATE-BL01-16 origin redaction
+PASS GATE-BL01-17 save exact
+PASS GATE-BL01-18 strict peers
+PASS GATE-BL01-19 ignore scripts
+PASS GATE-BL01-20 logical host normalization
+PASS GATE-BL01-21 ambient config projection
+PASS GATE-BL01-22 registry origin digest
+PASS GATE-BL01-23 secret redaction
+PASS GATE-BL01-24 isolated env
+PASS GATE-BL01-25 isolated userconfig
+PASS GATE-BL01-26 isolated global config
+PASS GATE-BL01-27 isolated cache
+PASS GATE-BL01-28 clean workspace
+PASS GATE-BL01-29 candidate lock only
+PASS GATE-BL01-30 candidate package immutable
+PASS GATE-BL01-31 candidate version gate
+PASS GATE-BL01-32 root graph verifier
+PASS GATE-BL01-33 exact direct verifier
+PASS GATE-BL01-34 integrity verifier
+PASS GATE-BL01-35 resolved verifier
+PASS GATE-BL01-36 unsupported source verifier
+PASS GATE-BL01-37 http tarball verifier
+PASS GATE-BL01-38 lifecycle inventory
+PASS GATE-BL01-39 cacache content address
+PASS GATE-BL01-40 tarball SRI verification
+PASS GATE-BL01-41 cache policy identity
+PASS GATE-BL01-42 offline A
+PASS GATE-BL01-43 offline B
+PASS GATE-BL01-44 offline flag
+PASS GATE-BL01-45 ci lock immutable
+PASS GATE-BL01-46 lifecycle zero receipt
+PASS GATE-BL01-47 install graph builder
+PASS GATE-BL01-48 content graph digest
+PASS GATE-BL01-49 symlink target capture
+PASS GATE-BL01-50 bin shim capture
+PASS GATE-BL01-51 node_modules cache gate
+PASS GATE-BL01-52 A B compare
+PASS GATE-BL01-53 mutation timeline artifact
+PASS GATE-BL01-54 promotion CAS
+PASS GATE-BL01-55 atomic rename
+PASS GATE-BL01-56 fsync
+PASS GATE-BL01-57 readback gate
+PASS GATE-BL01-58 win32 promotion only
+PASS GATE-BL01-59 pointer unchanged
+PASS GATE-BL01-60 legacy lock verifier receipt binding
+PASS GATE-BL01-61 build id lock digest
+PASS GATE-BL01-62 build authority digest
+PASS GATE-BL01-63 96 runtime tests
+PASS GATE-BL01-64 spec retained
+PASS GATE-BL01-65 required source artifacts
+PASS GATE-BL01-66 fix pointer truth
+PASS GATE-BL01-67 old lock forensic 12 mismatches
+PASS GATE-BL01-68 source mutation zero
+PASS GATE-BL01-69 no false promotion
+PASS GATE-BL01-70 stable errors
+PASS GATE-BL01-71 runtime lineage
+PASS GATE-BL01-72 explicit promotion command
+PASS TDT-BUILD-LOCK-01 72/72
+=== BUILD EMIT ===
+PASS BE01-G001 lock receipt exists
+PASS BE01-G002 blocked lock state preserved
+PASS BE01-G003 input profile state exact
+PASS BE01-G004 lock sha bound
+PASS BE01-G005 package sha bound
+PASS BE01-G006 canonical target
+PASS BE01-G007 network forbidden
+PASS BE01-G008 input manifest seal
+PASS BE01-G009 host gate
+PASS BE01-G010 frozen cache gate
+PASS BE01-G011 isolated workspaces
+PASS BE01-G012 clean workspace filter
+PASS BE01-G013 source mutation zero
+PASS BE01-G014 lock mutation zero
+PASS BE01-G015 lock receipt digest
+PASS BE01-G016 vite root
+PASS BE01-G017 vite base
+PASS BE01-G018 production sourcemap false
+PASS BE01-G019 vite target
+PASS BE01-G020 public dir disabled
+PASS BE01-G021 runtime plugin
+PASS BE01-G022 five required workers
+PASS BE01-G023 worker url single authority
+PASS BE01-G024 no raw worker in export manager
+PASS BE01-G025 entry manifest emit
+PASS BE01-G026 entry schema v2
+PASS BE01-G027 entry digest
+PASS BE01-G028 renderer entry metadata
+PASS BE01-G029 metadata worker mapping
+PASS BE01-G030 mapping receipt
+PASS BE01-G031 owner encoder preserved
+PASS BE01-G032 codec protocol preserved
+PASS BE01-G033 control protocol preserved
+PASS BE01-G034 entry byte length
+PASS BE01-G035 static import edge
+PASS BE01-G036 dynamic import edge
+PASS BE01-G037 new URL edge
+PASS BE01-G038 locate file edge
+PASS BE01-G039 wasm closure
+PASS BE01-G040 icc closure contract
+PASS BE01-G041 pthread child contract
+PASS BE01-G042 shared chunk closure
+PASS BE01-G043 dynamic projection fail closed
+PASS BE01-G044 closure role
+PASS BE01-G045 closure ownership
+PASS BE01-G046 single owner gate
+PASS BE01-G047 bundle raw duplicate gate
+PASS BE01-G048 admission manifest
+PASS BE01-G049 not full legacy copy
+PASS BE01-G050 unadmitted raw blocked
+PASS BE01-G051 legacy sha records
+PASS BE01-G052 orphan executable gate
+PASS BE01-G053 alias contract
+PASS BE01-G054 url collision gate
+PASS BE01-G055 path escape gate
+PASS BE01-G056 emitted mode
+PASS BE01-G057 worker manifest digest
+PASS BE01-G058 worker set digest
+PASS BE01-G059 runtime not source-only
+PASS BE01-G060 runtime worker digest
+PASS BE01-G061 runtime vite digest
+PASS BE01-G062 renderer build id
+PASS BE01-G063 A/B file set
+PASS BE01-G064 A/B length
+PASS BE01-G065 A/B sha
+PASS BE01-G066 A/B closure digest contract
+PASS BE01-G067 A/B runtime manifest
+PASS BE01-G068 A/B build id
+PASS BE01-G069 absolute path leak gate
+PASS BE01-G070 credential leak gate
+PASS BE01-G071 timestamp leak gate
+PASS BE01-G072 route manifest artifact
+PASS BE01-G073 route sha mime coi
+PASS BE01-G074 synthetic route probe
+PASS BE01-G075 electron route probe
+PASS BE01-G076 server body parity
+PASS BE01-G077 coop policy
+PASS BE01-G078 coep policy
+PASS BE01-G079 corp policy
+PASS BE01-G080 wasm mime
+PASS BE01-G081 js mime
+PASS BE01-G082 icc mime
+PASS BE01-G083 error COI headers
+PASS BE01-G084 final blocked fix receipt
+PASS BUILD-EMIT-01 SOURCE GATES 84/84
+=== MODJPEG ===
+PASS MJ01-G001 spec title
+PASS MJ01-G002 module digest
+PASS MJ01-G003 wasm digest
+PASS MJ01-G004 artifact bytes preserved
+PASS MJ01-G005 pool eight
+PASS MJ01-G006 shared memory
+PASS MJ01-G007 initial memory
+PASS MJ01-G008 maximum memory
+PASS MJ01-G009 pthread symbols present
+PASS MJ01-G010 child worker constructor present
+PASS MJ01-G011 glue terminate all present
+PASS MJ01-G012 main script projection present
+PASS MJ01-G013 ABI preserved
+PASS MJ01-G014 adapter TDT-MODJPEG-01
+PASS MJ01-G015 adapter dadum.modjpeg-pthread-pool-8-canonical-v1
+PASS MJ01-G016 adapter emscripten-pthread-pool-8-canonical-v1
+PASS MJ01-G017 adapter modjpegPthreadBootstrapUrl
+PASS MJ01-G018 adapter ?url
+PASS MJ01-G019 adapter childWorkerTracker.assertPoolReady
+PASS MJ01-G020 adapter childWorkerTracker.terminateAll
+PASS MJ01-G021 adapter canonicalPthreadArtifact: true
+PASS MJ01-G022 adapter pthreadArtifactVerified: true
+PASS MJ01-G023 adapter sharedMemoryInitialBytes
+PASS MJ01-G024 adapter sharedMemoryMaximumBytes
+PASS MJ01-G025 tracker createCanonicalChildWorkerTracker
+PASS MJ01-G026 tracker expectedPoolSize
+PASS MJ01-G027 tracker tracked.add
+PASS MJ01-G028 tracker tracked.delete
+PASS MJ01-G029 tracker assertPoolReady
+PASS MJ01-G030 tracker terminateAll
+PASS MJ01-G031 tracker E_JPEG_PTHREAD_LEAK
+PASS MJ01-G032 ready evidence
+PASS MJ01-G033 dispose evidence
+PASS MJ01-G034 runtime evidence type
+PASS MJ01-G035 disposed payload evidence
+PASS MJ01-G036 vite dev COI
+PASS MJ01-G037 vite preview COI
+PASS MJ01-G038 electron COI
+PASS MJ01-G039 wasm mime
+PASS MJ01-G040 no-store
+PASS MJ01-G041 server headers
+PASS MJ01-G042 preview headers
+PASS MJ01-G043 electron COEP
+PASS MJ01-G044 worker wasm policy
+PASS MJ01-G045 child bootstrap source role
+PASS MJ01-G046 tracker source artifact
+PASS MJ01-G047 emitted child mapping
+PASS MJ01-G048 pthread edge
+PASS MJ01-G049 closure bootstrap gate
+PASS MJ01-G050 closure edge gate
+PASS MJ01-G051 receipt jpegArtifactAdoptionId
+PASS MJ01-G052 receipt jpegArtifactContractId
+PASS MJ01-G053 receipt jpegCanonicalPthreadArtifact
+PASS MJ01-G054 receipt jpegPthreadArtifactVerified
+PASS MJ01-G055 receipt jpegCoiRequired
+PASS MJ01-G056 receipt jpegCrossOriginIsolated
+PASS MJ01-G057 receipt jpegSharedMemoryInitialBytes
+PASS MJ01-G058 receipt jpegSharedMemoryMaximumBytes
+PASS MJ01-G059 receipt jpegChildWorkerCount
+PASS MJ01-G060 receipt jpegChildWorkerBootstrapKind
+PASS MJ01-G061 receipt jpegChildWorkerClosurePolicyId
+PASS MJ01-G062 stable E_JPEG_COI_REQUIRED
+PASS MJ01-G063 stable E_JPEG_CROSS_ORIGIN_ISOLATION_MISSING
+PASS MJ01-G064 stable E_JPEG_PTHREAD_POOL_MISMATCH
+PASS MJ01-G065 stable E_JPEG_PTHREAD_CHILD_WORKER_UNAVAILABLE
+PASS MJ01-G066 stable E_JPEG_PTHREAD_CHILD_BOOTSTRAP_MISSING
+PASS MJ01-G067 stable E_JPEG_PTHREAD_CHILD_CLOSURE_UNVERIFIED
+PASS MJ01-G068 stable E_JPEG_SHARED_MEMORY_CONTRACT_MISMATCH
+PASS MJ01-G069 stable E_JPEG_ARTIFACT_DIGEST_MISMATCH
+PASS MJ01-G070 stable E_JPEG_ARTIFACT_CONTRACT_MISMATCH
+PASS MJ01-G071 stable E_JPEG_ABI_SURFACE_MISMATCH
+PASS MJ01-G072 authority adoption gate
+PASS MJ01-G073 authority pool gate
+PASS MJ01-G074 authority COI gate
+PASS MJ01-G075 authority child count gate
+PASS MJ01-G076 sealed TDT_MODJPEG_01_CANONICAL_ARTIFACT_REPORT
+PASS MJ01-G077 sealed TDT_MODJPEG_01_SHARED_MEMORY_REPORT
+PASS MJ01-G078 sealed TDT_MODJPEG_01_COI_CONTRACT_REPORT
+PASS MJ01-G079 sealed TDT_MODJPEG_01_CHILD_WORKER_CLOSURE_REPORT
+PASS MJ01-G080 sealed TDT_MODJPEG_01_ABI_REPORT
+PASS MJ01-G081 sealed TDT_MODJPEG_01_OUTPUT_IDENTITY_REPORT
+PASS MJ01-G082 sealed TDT_MODJPEG_01_PROMOTION_RECEIPT
+PASS MJ01-G083 deterministic contract 83
+PASS MJ01-G084 deterministic contract 84
+PASS TDT-MODJPEG-01 GATES 84/84
+=== STABLE ERRORS ===
+PASS GATE-R1-ERROR-CODE stable error registry 441/441 referenced codes declared
+=== TS SYNTAX ===
+PASS TypeScript syntax 73 files
+=== STRICT TYPESCRIPT ===
+PASS_TDT_NATIVE_DECODER_01_SOURCE_BAKE_UNPROMOTED

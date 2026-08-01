@@ -1,0 +1,7 @@
+{
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "schemaVersion": 1,
+  "reproducible": false,
+  "blocker": "noncanonical-host-win32-x64-required"
+}

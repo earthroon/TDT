@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/session-drain-receipt.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "counts",
+    "receiptSha256"
+  ],
+  "title": "R12A session-drain-receipt",
+  "type": "object"
+}

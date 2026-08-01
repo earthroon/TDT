@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "status": "PASS",
+  "state": "SOURCE_BAKED_AWAITING_PACKAGED_BASELINE",
+  "checkCount": 40,
+  "passCount": 30,
+  "deferredCount": 10,
+  "failCount": 0,
+  "checks": [
+    {
+      "gateId": "AG01-01",
+      "title": "Baseline admission",
+      "status": "DEFERRED",
+      "detail": {
+        "stableErrorCode": "E_ACTIVE_GRAPH_BASELINE_RECEIPT_MISSING",
+        "requiredState": "PACKAGED_BASELINE_VERIFIED"
+      }
+    },
+    {
+      "gateId": "AG01-02",
+      "title": "Source authority",
+      "status": "PASS",
+      "detail": {
+        "sourceAuthorityDigest": "70309fe8bd71fe23fc50a2ca2bec5ca607ed6468ec7af973b2978c08a0fa14ef"
+      }
+    },
+    {
+      "gateId": "AG01-03",
+      "title": "Root manifest",
+      "status": "PASS",
+      "detail": {
+        "expectedRootCount": 56,
+        "actualRootCount": 56
+      }
+    },
+    {
+      "gateId": "AG01-04",
+      "title": "Node manifest",
+      "status": "PASS",
+      "detail": {
+        "nodeCount": 428,
+        "rejectedUnknownCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-05",
+      "title": "Edge closure",
+      "status": "PASS",
+      "detail": {
+        "edgeCount": 448,
+        "unresolvedEdgeCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-06",
+      "title": "Classic globals",
+      "status": "PASS",
+      "detail": {
+        "exitCode": 0,
+        "output": "PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry"
+      }
+    },
+    {
+      "gateId": "AG01-07",
+      "title": "Computed lookup",
+      "status": "PASS",
+      "detail": {
+        "unresolvedKnownComputedCalls": 0
+      }
+    },
+    {
+      "gateId": "AG01-08",
+      "title": "Side effects",
+      "status": "PASS",
+      "detail": {
+        "declaredSideEffectCount": 7
+      }
+    },
+    {
+      "gateId": "AG01-09",
+      "title": "Listener cardinality",
+      "status": "PASS",
+      "detail": {
+        "duplicateSideEffectIdCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-10",
+      "title": "Disposer",
+      "status": "PASS",
+      "detail": {
+        "orphanSideEffectCount": 0,
+        "compatibilityCaptureAuthority": "dadum.runtime.side-effects"
+      }
+    },
+    {
+      "gateId": "AG01-11",
+      "title": "Randomness",
+      "status": "PASS",
+      "detail": {
+        "activeRandomnessSourceCount": 0,
+        "randomnessAuditDigest": "b7650a1b1766e633e8888e1e26bb90cede2a82e809bf73651dc8be333e5103e1"
+      }
+    },
+    {
+      "gateId": "AG01-12",
+      "title": "Time input",
+      "status": "PASS",
+      "detail": {
+        "algorithmTimeInputCount": 0,
+        "telemetryTimeSourcesAllowed": true
+      }
+    },
+    {
+      "gateId": "AG01-13",
+      "title": "Job IDs",
+      "status": "PASS",
+      "detail": {
+        "authority": "dadum.runtime.deterministic-sequence"
+      }
+    },
+    {
+      "gateId": "AG01-14",
+      "title": "Entropy placeholder",
+      "status": "PASS",
+      "detail": {
+        "activePlaceholderCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-15",
+      "title": "Asset manifest",
+      "status": "PASS",
+      "detail": {
+        "assetCount": 92,
+        "manifestDigest": "742037fba07ed6d5aa20026db38c05f5e6af20b8bee51789faef813504a2466e"
+      }
+    },
+    {
+      "gateId": "AG01-16",
+      "title": "Literal asset",
+      "status": "PASS",
+      "detail": {
+        "missingRouteCount": 0,
+        "staleAdmissionRecordCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-17",
+      "title": "Shader closure",
+      "status": "PASS",
+      "detail": {
+        "undeclaredShaderFallbackCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-18",
+      "title": "Worker closure",
+      "status": "PASS",
+      "detail": {
+        "workerCount": 5
+      }
+    },
+    {
+      "gateId": "AG01-19",
+      "title": "WASM closure",
+      "status": "PASS",
+      "detail": {
+        "wasmCount": 4
+      }
+    },
+    {
+      "gateId": "AG01-20",
+      "title": "External network",
+      "status": "PASS",
+      "detail": {
+        "externalNetworkRequestCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-21",
+      "title": "Required observation",
+      "status": "DEFERRED",
+      "detail": {
+        "stableErrorCode": "E_ACTIVE_GRAPH_BASELINE_RECEIPT_MISSING",
+        "requiredObservationPending": true
+      }
+    },
+    {
+      "gateId": "AG01-22",
+      "title": "Optional scenarios",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedScenarioMatrixPending": true
+      }
+    },
+    {
+      "gateId": "AG01-23",
+      "title": "Quarantine archive",
+      "status": "PASS",
+      "detail": {
+        "sourceRelative": "app/legacy-runtime/main.js",
+        "archiveRelative": "archive/legacy-quarantine/TDT-ACTIVE-GRAPH-01/main.fcceae52fdd2a36f37824f72a5b9abf0988feb15169c08556044841bfb808d90.js",
+        "sourceSha256": "fcceae52fdd2a36f37824f72a5b9abf0988feb15169c08556044841bfb808d90",
+        "byteLength": 187246
+      }
+    },
+    {
+      "gateId": "AG01-24",
+      "title": "Route exclusion",
+      "status": "PASS",
+      "detail": {
+        "quarantineRouteCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-25",
+      "title": "Package exclusion",
+      "status": "PASS",
+      "detail": {
+        "packagePatterns": [
+          "dist/renderer/**/*",
+          "electron.mjs",
+          "preload.cjs",
+          "package.json",
+          "native/decoder-rs/index.cjs",
+          "native/decoder-rs/index.js",
+          "native/decoder-rs/index.d.ts",
+          "fixtures/promotion/ep03/**/*",
+          "app/electron/**/*",
+          "native/decoder-rs/decoder_rs.win32-x64-msvc.node",
+          "tools/resample-runtime-01-r9/package/package-tree-digest.mjs",
+          "tools/resample-runtime-01-r9/oracle/**/*",
+          "tools/resample-runtime-01-r9/comparators/**/*",
+          "tools/resample-runtime-01-r9/negative-controls/**/*",
+          "fixtures/resample-runtime-01-r9/**/*"
+        ],
+        "quarantinePackagedByPattern": false
+      }
+    },
+    {
+      "gateId": "AG01-26",
+      "title": "Main decomposition",
+      "status": "PASS",
+      "detail": {
+        "extractedResponsibilityCount": 7,
+        "unclassifiedExecutableRegionCount": 0,
+        "compatibilityCapture": true
+      }
+    },
+    {
+      "gateId": "AG01-27",
+      "title": "Empty placeholder",
+      "status": "PASS",
+      "detail": {
+        "activePlaceholderCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-28",
+      "title": "Missing asset branch",
+      "status": "PASS",
+      "detail": {
+        "activeMissingAssetBranchCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-29",
+      "title": "Unknown callable",
+      "status": "PASS",
+      "detail": {
+        "activeUnknownCallableCount": 0
+      }
+    },
+    {
+      "gateId": "AG01-30",
+      "title": "Boot parity",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-31",
+      "title": "Output parity",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-32",
+      "title": "Encoder identity",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-33",
+      "title": "Surface revision",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-34",
+      "title": "Worker restart",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-35",
+      "title": "Relaunch",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-36",
+      "title": "Stable errors",
+      "status": "DEFERRED",
+      "detail": {
+        "packagedBaselinePending": true
+      }
+    },
+    {
+      "gateId": "AG01-37",
+      "title": "Source mutation",
+      "status": "PASS",
+      "detail": {
+        "approvedMutationSurfaceCount": 56,
+        "allowlistDigest": "516b429f0ace902dfc051b7d4212c3d156fe95ff6552bcaa93ce2d02f1725aee"
+      }
+    },
+    {
+      "gateId": "AG01-38",
+      "title": "Production pointer",
+      "status": "PASS",
+      "detail": {
+        "productionPointerMutation": false,
+        "pointerDigests": {
+          "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+          "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+        }
+      }
+    },
+    {
+      "gateId": "AG01-39",
+      "title": "Source receipt",
+      "status": "PASS",
+      "detail": {
+        "graphDigest": "fa337bef72c5322daea3a581b204f02d09f76fd0735bb52d913f076433a2fb98",
+        "quarantineManifestDigest": "2b5ae5b2d559364502f2e5f7f9bc17637fd8f8f85f6bfb32943abe5861422b5c"
+      }
+    },
+    {
+      "gateId": "AG01-40",
+      "title": "Promotion ceiling",
+      "status": "PASS",
+      "detail": {
+        "finalPromotionPassIssued": false,
+        "state": "SOURCE_BAKED_AWAITING_PACKAGED_BASELINE"
+      }
+    }
+  ],
+  "graphDigest": "fa337bef72c5322daea3a581b204f02d09f76fd0735bb52d913f076433a2fb98",
+  "sourceAuthorityDigest": "70309fe8bd71fe23fc50a2ca2bec5ca607ed6468ec7af973b2978c08a0fa14ef",
+  "productionPointerMutation": false,
+  "finalPromotionPassIssued": false,
+  "receiptDigest": "3b581c1737ad6d02ff2de2ad1e22863d38db881453accaa28343d226bec6b565"
+}

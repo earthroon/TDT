@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { ARTIFACT_DIR, canonicalJson, readJson, sha256Bytes } from './ep02-build-lib.mjs';
+const file=path.join(ARTIFACT_DIR,'TDT_EXPORT_PROMOTION_02_PACKAGE_CONTENT_MANIFEST.json');
+if(!fs.existsSync(file)) throw new Error('E_PACKAGE_CONTENT_MANIFEST_MISSING');
+const m=readJson(file);
+const digest=sha256Bytes(canonicalJson({appAsar:m.appAsar,unpacked:m.unpacked}));
+const ok=m.status==='PACKAGED_ARTIFACT_VERIFIED'&&m.packageContentId===digest&&m.forbidden?.length===0&&m.nativeNode?.length===1;
+console.log(`${ok?'PASS':'FAIL'} EP02 package content manifest`);
+if(!ok) process.exit(1);

@@ -1,0 +1,1811 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 360
+  },
+  "receiptKind": "r9a-p1-r2-source-gate-report",
+  "rows": [
+    {
+      "id": "R9AP1R2-S001",
+      "requirement": "Parent R9A-P1-R1 bundle digest is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S002",
+      "requirement": "Parent R9A-P1-R1 specification digest is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S003",
+      "requirement": "Parent R9A-P1-R1 source receipt file digest is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S004",
+      "requirement": "Parent R9A-P1-R1 receipt self-hash is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S005",
+      "requirement": "Parent R9A-P1-R1 implementation digest is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S006",
+      "requirement": "Build Lock R2 source receipt lineage is preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S007",
+      "requirement": "R9A-P1 source receipt lineage is preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S008",
+      "requirement": "Production Pointer first mirror is frozen",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S009",
+      "requirement": "Production Pointer second mirror is frozen",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S010",
+      "requirement": "Local Activation Pointer is frozen",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S011",
+      "requirement": "Package lock bytes are frozen during source bake",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S012",
+      "requirement": "R1 external sidecar contract remains authoritative",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S013",
+      "requirement": "R1 packaged closure binding contract remains authoritative",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S014",
+      "requirement": "R1 normal composition boot contract remains authoritative",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S015",
+      "requirement": "R1 Preview public entry remains authoritative",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S016",
+      "requirement": "R1 Export public entry remains authoritative",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S017",
+      "requirement": "R1 no-direct-driver seal remains authoritative",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S018",
+      "requirement": "Historical physical PASS carry-forward is zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S019",
+      "requirement": "Historical packaged PASS carry-forward is zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S020",
+      "requirement": "Parent source tree mutation count is zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S021",
+      "requirement": "Parent receipt rewrite count is zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S022",
+      "requirement": "Parent pointer CAS count is zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S023",
+      "requirement": "Parent package closure claim is not fabricated",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S024",
+      "requirement": "Parent Build Lock Win32 claim is not fabricated",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S025",
+      "requirement": "Parent R1 packaged claim is not fabricated",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S026",
+      "requirement": "R2 patch identity is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S027",
+      "requirement": "R2 specification is installed under specs",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S028",
+      "requirement": "R2 source gate catalog is generated deterministically",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S029",
+      "requirement": "R2 packaged gate catalog is generated deterministically",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S030",
+      "requirement": "Parent freeze receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S031",
+      "requirement": "GPU Authority remains the sole adapter authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S032",
+      "requirement": "GPU Authority remains the sole device authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S033",
+      "requirement": "Recovery is initiated only by GPU Authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S034",
+      "requirement": "Raw GPUDevice destroy is not exposed to qualification runner",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S035",
+      "requirement": "Recovery participant order is deterministic",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S036",
+      "requirement": "Recovery invalidate phase completes before device reacquisition",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S037",
+      "requirement": "Device identity is cleared before replacement device commit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S038",
+      "requirement": "Replacement device epoch increases exactly once per cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S039",
+      "requirement": "Replacement device identity differs from lost identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S040",
+      "requirement": "Shader cache never crosses device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S041",
+      "requirement": "Pipeline cache never crosses device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S042",
+      "requirement": "All old leases are marked stale on loss",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S043",
+      "requirement": "Stale lease assertCurrent fails closed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S044",
+      "requirement": "Old queue access through stale lease fails closed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S045",
+      "requirement": "Old device access through stale lease fails closed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S046",
+      "requirement": "Recovery failure enters terminal FATAL state",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S047",
+      "requirement": "Recovery success emits one recovered event",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S048",
+      "requirement": "Loss emits one device-lost event",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S049",
+      "requirement": "Recovery event binds runtime epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S050",
+      "requirement": "Recovery event binds old device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S051",
+      "requirement": "Recovery event binds new device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S052",
+      "requirement": "Recovery event binds old device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S053",
+      "requirement": "Recovery event binds new device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S054",
+      "requirement": "Recovery receipt binds adapter identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S055",
+      "requirement": "Recovery receipt binds admitted feature set",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S056",
+      "requirement": "Recovery participant collision is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S057",
+      "requirement": "Recovery participant unregister is idempotent",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S058",
+      "requirement": "No global raw device alias is created",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S059",
+      "requirement": "No fallback adapter retry is introduced",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S060",
+      "requirement": "Recovery authority contract receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S061",
+      "requirement": "Normal runtime default recovery budget remains explicit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S062",
+      "requirement": "Qualification recovery budget is exactly three",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S063",
+      "requirement": "Qualification budget requires R1 qualification permit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S064",
+      "requirement": "Qualification budget binds run ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S065",
+      "requirement": "Qualification budget binds package closure digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S066",
+      "requirement": "Qualification budget binds external sidecar digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S067",
+      "requirement": "Qualification budget binds renderer process ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S068",
+      "requirement": "Qualification budget binds window ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S069",
+      "requirement": "Qualification budget binds runtime epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S070",
+      "requirement": "Qualification budget binds starting device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S071",
+      "requirement": "Qualification budget permits cycle ordinals one through three only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S072",
+      "requirement": "Qualification budget cannot be installed twice",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S073",
+      "requirement": "Qualification budget cannot be extended by renderer input",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S074",
+      "requirement": "Qualification budget cannot be extended by environment variable alone",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S075",
+      "requirement": "Qualification budget cannot exceed three",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S076",
+      "requirement": "Fourth loss attempt is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S077",
+      "requirement": "Consumed cycle permit cannot be replayed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S078",
+      "requirement": "Cycle permits are issued sequentially",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S079",
+      "requirement": "Cycle two requires cycle one terminal receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S080",
+      "requirement": "Cycle three requires cycle two terminal receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S081",
+      "requirement": "Expired loss permit is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S082",
+      "requirement": "Wrong operation-kind permit is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S083",
+      "requirement": "Wrong hook permit is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S084",
+      "requirement": "Wrong device epoch permit is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S085",
+      "requirement": "Wrong device identity permit is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S086",
+      "requirement": "Wrong package closure permit is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S087",
+      "requirement": "Budget removal occurs on finalization",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S088",
+      "requirement": "Budget removal occurs on failure",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S089",
+      "requirement": "Budget removal occurs on window close",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S090",
+      "requirement": "Qualification recovery budget receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S091",
+      "requirement": "Recovery-aware runtime holder is a registered RuntimeService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S092",
+      "requirement": "Runtime holder uses the existing RuntimeServiceContainer",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S093",
+      "requirement": "Runtime holder is created by normal runtime composition",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S094",
+      "requirement": "Runtime holder is not constructed by qualification runner",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S095",
+      "requirement": "Runtime holder stores no permanent raw GPUDevice alias",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S096",
+      "requirement": "Runtime holder stores no permanent raw GPUQueue alias",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S097",
+      "requirement": "Runtime holder state starts READY",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S098",
+      "requirement": "Runtime holder allows one active recovery cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S099",
+      "requirement": "Runtime holder state transition table is explicit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S100",
+      "requirement": "READY transitions to ARMING only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S101",
+      "requirement": "ARMING transitions to OPERATION_PENDING only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S102",
+      "requirement": "OPERATION_PENDING transitions to LOSS_INJECTED only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S103",
+      "requirement": "LOSS_INJECTED transitions to INVALIDATING only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S104",
+      "requirement": "INVALIDATING transitions to REACQUIRING only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S105",
+      "requirement": "REACQUIRING transitions to REBUILDING only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S106",
+      "requirement": "REBUILDING transitions to VALIDATING only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S107",
+      "requirement": "VALIDATING transitions to READY only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S108",
+      "requirement": "Any illegal state transition fails closed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S109",
+      "requirement": "Any recovery phase failure transitions to FAILED",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S110",
+      "requirement": "FAILED cannot return to READY silently",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S111",
+      "requirement": "DISPOSED cannot accept a cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S112",
+      "requirement": "Holder recovery generation is monotonic",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S113",
+      "requirement": "Holder device epoch snapshot is monotonic",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S114",
+      "requirement": "Holder operation kind is immutable per cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S115",
+      "requirement": "Holder cycle ordinal is immutable per cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S116",
+      "requirement": "Holder stores current publication tuple only after validation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S117",
+      "requirement": "Holder clears stale publication tuple on loss",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S118",
+      "requirement": "Holder emits phase receipts for every transition",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S119",
+      "requirement": "Holder receipt snapshot excludes raw device objects",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S120",
+      "requirement": "Runtime holder source contract receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S121",
+      "requirement": "Controlled loss injection is qualification-only",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S122",
+      "requirement": "Controlled loss injection is owned by GPU Authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S123",
+      "requirement": "Loss injection requires a one-shot main-issued permit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S124",
+      "requirement": "Loss injection requires matching pending operation event",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S125",
+      "requirement": "Loss injection point is represented by a stable hook ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S126",
+      "requirement": "Loss injection permit includes expected device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S127",
+      "requirement": "Loss injection permit includes expected device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S128",
+      "requirement": "Loss injection permit includes operation ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S129",
+      "requirement": "Loss injection permit includes operation kind",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S130",
+      "requirement": "Loss injection permit includes cycle ordinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S131",
+      "requirement": "Loss injection permit includes not-before time",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S132",
+      "requirement": "Loss injection permit includes expiry time",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S133",
+      "requirement": "Loss injection permit includes package closure digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S134",
+      "requirement": "Loss injection permit includes R1 boot permit digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S135",
+      "requirement": "Loss injection request cannot name arbitrary device",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S136",
+      "requirement": "Loss injection request cannot name arbitrary queue",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S137",
+      "requirement": "Loss injection request cannot call device destroy directly",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S138",
+      "requirement": "Loss injection consumes permit before destruction",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S139",
+      "requirement": "Loss injection records pre-destroy authority snapshot",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S140",
+      "requirement": "Loss injection records pending operation snapshot",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S141",
+      "requirement": "Loss injection records exact hook evidence",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S142",
+      "requirement": "Loss injection invokes device destruction exactly once",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S143",
+      "requirement": "Duplicate destruction is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S144",
+      "requirement": "Loss without pending operation is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S145",
+      "requirement": "Loss after operation completion is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S146",
+      "requirement": "Loss before queue submission is rejected for preview cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S147",
+      "requirement": "Loss before export readback submission is rejected for export cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S148",
+      "requirement": "Loss injection receipt is main-authority bound",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S149",
+      "requirement": "Loss injection receipt includes self-hash",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S150",
+      "requirement": "Loss injection API has no normal-user entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S151",
+      "requirement": "Every post-recovery GPU operation acquires a new lease",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S152",
+      "requirement": "New lease device epoch equals recovered authority epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S153",
+      "requirement": "New lease device identity equals recovered authority identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S154",
+      "requirement": "New lease ID differs from every lost-epoch lease ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S155",
+      "requirement": "Lost-epoch lease release is idempotent",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S156",
+      "requirement": "Lost-epoch lease assertCurrent fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S157",
+      "requirement": "Lost-epoch lease device getter fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S158",
+      "requirement": "Lost-epoch lease queue getter fails",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S159",
+      "requirement": "Old lease cannot configure canvas",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S160",
+      "requirement": "Old lease cannot create pipeline",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S161",
+      "requirement": "Old lease cannot create shader module",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S162",
+      "requirement": "Old lease cannot publish a GPU surface",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S163",
+      "requirement": "Old lease cannot complete a Preview frame",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S164",
+      "requirement": "Old lease cannot complete an Export job",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S165",
+      "requirement": "Pending lease ownership is recorded at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S166",
+      "requirement": "Pending lease ownership is recorded at invalidation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S167",
+      "requirement": "Pending lease count returns to zero after invalidation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S168",
+      "requirement": "Reacquired lease owner is admitted by consumer manifest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S169",
+      "requirement": "Reacquired runtime-pipeline lease is observed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S170",
+      "requirement": "Reacquired preview-presenter lease is observed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S171",
+      "requirement": "Reacquired export path lease is observed when applicable",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S172",
+      "requirement": "Lease purpose string is stable and nonempty",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S173",
+      "requirement": "Lease receipt binds runtime epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S174",
+      "requirement": "Lease receipt binds recovery generation",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S175",
+      "requirement": "Lease receipt binds operation ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S176",
+      "requirement": "Lease receipt binds cycle ordinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S177",
+      "requirement": "Lease reacquisition happens after recovered event",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S178",
+      "requirement": "No lease is acquired during INVALIDATING phase",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S179",
+      "requirement": "No old lease is silently upgraded to new epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S180",
+      "requirement": "Lease reacquisition receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S181",
+      "requirement": "Canonical resample pipeline registry has explicit authority ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S182",
+      "requirement": "Pipeline registry is keyed by device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S183",
+      "requirement": "Pipeline registry records device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S184",
+      "requirement": "Pipeline registry records runtime epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S185",
+      "requirement": "Pipeline registry state machine is explicit",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S186",
+      "requirement": "Pipeline registry entry starts BUILDING",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S187",
+      "requirement": "Pipeline registry entry becomes ACTIVE after complete build",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S188",
+      "requirement": "Lost-epoch entry becomes INVALIDATED",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S189",
+      "requirement": "Invalidated entry becomes DISPOSED",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S190",
+      "requirement": "Lost-epoch pipeline bundle dispose is invoked",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S191",
+      "requirement": "Tensor pipeline dispose is invoked",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S192",
+      "requirement": "Adaptive policy pipeline dispose is invoked",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S193",
+      "requirement": "EWA pipeline dispose is invoked",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S194",
+      "requirement": "WeakMap-only lifetime is not accepted as disposal evidence",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S195",
+      "requirement": "Cross-epoch bundle lookup is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S196",
+      "requirement": "Cross-device bundle lookup is rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S197",
+      "requirement": "New device receives a new pipeline bundle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S198",
+      "requirement": "New pipeline bundle device epoch is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S199",
+      "requirement": "New pipeline bundle device identity is exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S200",
+      "requirement": "New pipeline bundle kernel contract is revalidated",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S201",
+      "requirement": "Generated shader manifest digest is revalidated",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S202",
+      "requirement": "R4 pipeline profile is rebuilt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S203",
+      "requirement": "R6 pipeline profile is rebuilt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S204",
+      "requirement": "Pipeline rebuild occurs before validation job",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S205",
+      "requirement": "Pipeline rebuild cannot use qualification direct driver",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S206",
+      "requirement": "Pipeline rebuild uses canonical internal registry API",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S207",
+      "requirement": "Pipeline rebuild failure aborts recovery cycle",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S208",
+      "requirement": "Pipeline rebuild receipt binds old bundle digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S209",
+      "requirement": "Pipeline rebuild receipt binds new bundle digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S210",
+      "requirement": "Pipeline rebuild receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S211",
+      "requirement": "PipelineService participates in GPU recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S212",
+      "requirement": "Pipeline recovery participant order precedes Preview rebuild",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S213",
+      "requirement": "Lost GPU final surface is invalidated by Surface Registry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S214",
+      "requirement": "Pipeline binding to lost surface is cleared",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S215",
+      "requirement": "Pipeline publication to lost surface is cleared",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S216",
+      "requirement": "Pipeline final revision counter never decreases",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S217",
+      "requirement": "Publication sequence never decreases",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S218",
+      "requirement": "Lost surface cannot satisfy requireFinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S219",
+      "requirement": "Lost final revision cannot be previewed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S220",
+      "requirement": "Lost final revision cannot be exported",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S221",
+      "requirement": "Final invalidation emits a dedicated receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S222",
+      "requirement": "Final invalidation receipt binds lost surface ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S223",
+      "requirement": "Final invalidation receipt binds lost final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S224",
+      "requirement": "Final invalidation receipt binds lost device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S225",
+      "requirement": "Final invalidation receipt binds lost device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S226",
+      "requirement": "Final invalidation does not publish a replacement surface",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S227",
+      "requirement": "Final invalidation notifies subscribers distinctly",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S228",
+      "requirement": "Preview scheduler drops lost publication",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S229",
+      "requirement": "Export operation cannot pin lost publication",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S230",
+      "requirement": "Consumption ledger records lost tuple rejection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S231",
+      "requirement": "Surface pin count for lost surface returns to zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S232",
+      "requirement": "Lost surface physical disposer executes",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S233",
+      "requirement": "Lost surface cannot survive as ACTIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S234",
+      "requirement": "CPU compatibility surface is not substituted silently",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S235",
+      "requirement": "Legacy final-surface bridge is not invoked",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S236",
+      "requirement": "Pipeline rebuild does not reuse lost publication tuple",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S237",
+      "requirement": "Post-recovery fixture creates a new surface ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S238",
+      "requirement": "Post-recovery final revision is greater than lost revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S239",
+      "requirement": "Post-recovery publication sequence is greater than lost sequence",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S240",
+      "requirement": "Final surface invalidation receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S241",
+      "requirement": "Preview pending injection uses DadumPreviewPresenter public entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S242",
+      "requirement": "Preview cycle does not import private presenter service",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S243",
+      "requirement": "Preview cycle does not import private kernel driver",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S244",
+      "requirement": "Preview operation grant is issued before injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S245",
+      "requirement": "Preview final surface pin is held at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S246",
+      "requirement": "Preview scheduler request is active at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S247",
+      "requirement": "Preview GPU lease is active at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S248",
+      "requirement": "Preview command graph has submitted at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S249",
+      "requirement": "Preview completion has not settled at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S250",
+      "requirement": "Preview injection hook ID is canonical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S251",
+      "requirement": "Preview pending job ID binds fixture ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S252",
+      "requirement": "Preview pending job ID binds final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S253",
+      "requirement": "Preview pending job ID binds cycle ordinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S254",
+      "requirement": "Lost Preview operation rejects with stable device-loss code",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S255",
+      "requirement": "Lost Preview operation cannot resolve successfully",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S256",
+      "requirement": "Lost Preview receipt is terminal ABORTED",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S257",
+      "requirement": "Preview operation grant completes aborted",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S258",
+      "requirement": "Preview surface pin releases after loss",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S259",
+      "requirement": "Preview scheduler pending count returns to zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S260",
+      "requirement": "Preview canvas is marked device-lost",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S261",
+      "requirement": "Preview canvas is unconfigured before recovery completion",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S262",
+      "requirement": "Preview configured device epoch resets to zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S263",
+      "requirement": "Preview configured device identity resets to null",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S264",
+      "requirement": "Preview presenter generation increases after recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S265",
+      "requirement": "Preview scheduler resumes only after rebuild",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S266",
+      "requirement": "Old Preview callback cannot present on new epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S267",
+      "requirement": "Old Preview completion cannot create PRESENTED receipt",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S268",
+      "requirement": "Post-recovery Preview uses new publication tuple",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S269",
+      "requirement": "Post-recovery Preview receipt binds new device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S270",
+      "requirement": "Preview loss wiring source receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S271",
+      "requirement": "Export pending injection uses DadumRuntimeExport public entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S272",
+      "requirement": "Export cycle does not import private ExportAuthority service",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S273",
+      "requirement": "Export cycle does not import private downscale driver",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S274",
+      "requirement": "Export operation grant is issued before injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S275",
+      "requirement": "Export final surface pin is held at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S276",
+      "requirement": "Export job ID is established before injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S277",
+      "requirement": "Export terminal GPU readback submission exists at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S278",
+      "requirement": "Export terminal map completion is pending at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S279",
+      "requirement": "Host save begin has not occurred at injection",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S280",
+      "requirement": "Export injection hook ID is canonical",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S281",
+      "requirement": "Export pending job binds fixture ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S282",
+      "requirement": "Export pending job binds final revision",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S283",
+      "requirement": "Export pending job binds encoder ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S284",
+      "requirement": "Export pending job binds cycle ordinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S285",
+      "requirement": "Lost Export operation rejects with stable device-loss code",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S286",
+      "requirement": "Lost Export operation cannot resolve successfully",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S287",
+      "requirement": "Lost Export receipt is terminal ABORTED",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S288",
+      "requirement": "Export operation grant completes aborted",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S289",
+      "requirement": "Export surface pin releases after loss",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S290",
+      "requirement": "Encoder worker pending job is cancelled or rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S291",
+      "requirement": "Terminal map buffer is unmapped or destroyed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S292",
+      "requirement": "Host save session count remains zero for lost export",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S293",
+      "requirement": "Evidence output file count remains zero for lost export",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S294",
+      "requirement": "Old Export callback cannot commit after recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S295",
+      "requirement": "Old Export result cannot produce output SHA",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S296",
+      "requirement": "Post-recovery Export uses new publication tuple",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S297",
+      "requirement": "Post-recovery Export save commits exactly once",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S298",
+      "requirement": "Post-recovery Export output SHA verifies",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S299",
+      "requirement": "Post-recovery Export receipt binds new device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S300",
+      "requirement": "Export loss wiring source receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S301",
+      "requirement": "R2 recovery plan schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S302",
+      "requirement": "R2 controlled loss permit schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S303",
+      "requirement": "R2 runtime holder receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S304",
+      "requirement": "R2 recovery phase receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S305",
+      "requirement": "R2 lease reacquisition receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S306",
+      "requirement": "R2 pipeline invalidation receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S307",
+      "requirement": "R2 pipeline rebuild receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S308",
+      "requirement": "R2 operation loss receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S309",
+      "requirement": "R2 device epoch cycle receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S310",
+      "requirement": "R2 three-cycle matrix receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S311",
+      "requirement": "Every schema requires run ID",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S312",
+      "requirement": "Every schema requires package closure digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S313",
+      "requirement": "Every schema requires R1 boot permit digest",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S314",
+      "requirement": "Every cycle schema requires cycle ordinal",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S315",
+      "requirement": "Every cycle schema requires old device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S316",
+      "requirement": "Every cycle schema requires new device epoch",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S317",
+      "requirement": "Every cycle schema requires old device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S318",
+      "requirement": "Every cycle schema requires new device identity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S319",
+      "requirement": "Every evidence artifact requires self-hash",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S320",
+      "requirement": "Artifact manifest includes all R2 child artifacts",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S321",
+      "requirement": "Finalizer reads raw event ledger",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S322",
+      "requirement": "Finalizer reads raw device epoch ledger",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S323",
+      "requirement": "Finalizer reads raw lease ledger",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S324",
+      "requirement": "Finalizer reads raw pipeline registry ledger",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S325",
+      "requirement": "Finalizer reads raw operation ledger",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S326",
+      "requirement": "Finalizer does not trust cyclePass booleans",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S327",
+      "requirement": "Finalizer recomputes epoch monotonicity",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S328",
+      "requirement": "Finalizer recomputes operation terminal states",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S329",
+      "requirement": "Finalizer recomputes zero-leak counts",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S330",
+      "requirement": "Evidence and finalizer source receipt is self-hashed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S331",
+      "requirement": "R2 runtime holder is wired into runtime modules",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S332",
+      "requirement": "R2 holder depends on GPU Authority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S333",
+      "requirement": "R2 holder depends on Surface Registry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S334",
+      "requirement": "R2 holder depends on PipelineService",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S335",
+      "requirement": "R2 holder depends on ResampleWorkerBroker",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S336",
+      "requirement": "R2 holder depends on PreviewPresenter",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S337",
+      "requirement": "R2 holder depends on ExportAuthority",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S338",
+      "requirement": "R2 module activates after Export and Preview modules",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S339",
+      "requirement": "R2 qualification runner uses only public R2 facade",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S340",
+      "requirement": "R2 preload bridge exposes no raw GPU object",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S341",
+      "requirement": "R2 main coordinator issues cycle permits",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S342",
+      "requirement": "R2 main coordinator verifies sequential cycle receipts",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S343",
+      "requirement": "R2 Active Graph includes holder node",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S344",
+      "requirement": "R2 Active Graph includes recovery edges",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S345",
+      "requirement": "R2 emitted build contains no old device-loss driver entry",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S346",
+      "requirement": "Old device-loss-driver remains quarantined",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S347",
+      "requirement": "R1 no-direct-driver seal remains zero",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S348",
+      "requirement": "Production Pointer mutation path is absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S349",
+      "requirement": "Local Activation Pointer mutation path is absent",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S350",
+      "requirement": "R10A promotion path is not invoked",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S351",
+      "requirement": "R11A installed PASS is not claimed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S352",
+      "requirement": "R12A update PASS is not claimed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S353",
+      "requirement": "R13A fleet PASS is not claimed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S354",
+      "requirement": "R14A distribution PASS is not claimed",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S355",
+      "requirement": "Source negative controls cover at least forty cases",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S356",
+      "requirement": "Source JavaScript parse closure passes",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S357",
+      "requirement": "Source TypeScript syntax closure passes",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S358",
+      "requirement": "Source final counts are exact",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S359",
+      "requirement": "Source final receipt self-hash verifies",
+      "status": "PASS"
+    },
+    {
+      "id": "R9AP1R2-S360",
+      "requirement": "Source final state awaits packaged three-cycle replay",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "91ac794b67b144c21e14914bc51a6f0cd3f76c4a67d20b6fca937f554148aa7c"
+}

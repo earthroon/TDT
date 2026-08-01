@@ -1,0 +1,5 @@
+
+import { check, json, sourceArtifact, seal } from './lib.mjs';
+const graph=json('app/src/runtime/active-graph/generated-active-runtime-graph.json'); const nodes=new Map(graph.nodes.map((n)=>[n.nodeId,n])); const edges=graph.edges||[];
+check(nodes.has('dadum.runtime.fleet-rollout-r13a'),'E_R13A_FLEET_BINDING_MISSING','R13A Active Graph node missing'); check(edges.some((e)=>e.fromNodeId==='dadum.renderer.runtime-modules'&&e.toNodeId==='dadum.runtime.fleet-rollout-r13a'),'E_R13A_FLEET_BINDING_MISSING','R13A static import edge missing'); check(edges.some((e)=>e.fromNodeId==='dadum.runtime.fleet-rollout-r13a'&&e.toNodeId==='dadum.runtime.atomic-update-r12a'),'E_R13A_FLEET_BINDING_MISSING','R13A service dependency edge missing');
+sourceArtifact('R13A_ACTIVE_GRAPH_REPORT.json',seal({schemaVersion:1,roots:graph.roots.length,nodes:graph.nodes.length,edges:edges.length,r13aNode:true})); console.log(`R13A Active Graph PASS roots=${graph.roots.length} nodes=${graph.nodes.length} edges=${edges.length}`);

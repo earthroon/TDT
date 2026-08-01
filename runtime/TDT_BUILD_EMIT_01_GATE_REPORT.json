@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "scope": "SOURCE_CONTRACT_AND_BLOCKED_RECEIPT",
+  "passed": 84,
+  "total": 84,
+  "failed": []
+}

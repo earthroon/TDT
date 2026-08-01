@@ -1,0 +1,45 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-05",
+  "required_files": [
+    "app/js/blendif/blendif_schema.js",
+    "app/blendif_ui.js",
+    "app/js/passes/dk_after_final_color_webgpu.js"
+  ],
+  "required_tokens": {
+    "app/js/blendif/blendif_schema.js": [
+      "BLENDIF_SCHEMA_VERSION",
+      "BLENDIF_METRIC_SPACE_LUMA_V1",
+      "normalizeBlendIfStateV2",
+      "getBlendIfRuntimeState",
+      "underSplit",
+      "thisSplit",
+      "luma-srgb-v1"
+    ],
+    "app/blendif_ui.js": [
+      "normalizeBlendIfStateCompat",
+      "getBlendIfRuntimeStateCompat",
+      "schemaVersion",
+      "underSplit",
+      "thisSplit"
+    ],
+    "app/js/passes/dk_after_final_color_webgpu.js": [
+      "normalizeBlendIfStateV2",
+      "const st = normalizeBlendIfStateV2"
+    ]
+  },
+  "forbidden_tokens": {
+    "app/js/passes/blendif_webgpu_wgsl.js": [
+      "splitMask"
+    ],
+    "app/js/passes/blendif_webgpu_pass.js": [
+      "underSplit",
+      "thisSplit",
+      "qFeatherMax"
+    ]
+  },
+  "forbidden_paths": [
+    "scripts/apply-blendif-wgpu-05-schema-v2.mjs",
+    "scripts/apply-blendif-wgpu-05.mjs"
+  ],
+  "pass_marker": "PASS_TDT_BLENDIF_WGPU_05_SCHEMA_V2_SPLIT_STATE_SHELL"
+}

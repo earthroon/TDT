@@ -1,0 +1,3882 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 640,
+    "PENDING": 0,
+    "SKIPPED": 0
+  },
+  "distributionCounts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 0,
+    "PENDING": 760,
+    "SKIPPED": 0
+  },
+  "evidenceReports": [
+    "R14A_PARENT_FREEZE_RECEIPT.json",
+    "R14A_R13A_PREDECESSOR_REPORT.json",
+    "R14A_CONTRACT_MANIFEST.json",
+    "R14A_SCHEMA_MANIFEST.json",
+    "R14A_AUTHORITY_SEPARATION_REPORT.json",
+    "R14A_ROOT_METADATA_SOURCE_REPORT.json",
+    "R14A_PACKAGE_MANIFEST_SOURCE_REPORT.json",
+    "R14A_TRANSPARENCY_SOURCE_REPORT.json",
+    "R14A_KEY_ROTATION_REVOCATION_SOURCE_REPORT.json",
+    "R14A_MIRROR_IDENTITY_SOURCE_REPORT.json",
+    "R14A_ROLLBACK_RESISTANCE_SOURCE_REPORT.json",
+    "R14A_R12A_R13A_INTEGRATION_REPORT.json",
+    "R14A_NEGATIVE_CONTROL_REPORT.json",
+    "R14A_RUNTIME_SELF_TEST_REPORT.json",
+    "R14A_JAVASCRIPT_PARSE_REPORT.json",
+    "R14A_TYPESCRIPT_SYNTAX_REPORT.json",
+    "R14A_ACTIVE_GRAPH_REPORT.json",
+    "R14A_SOURCE_CONTRACT_REPORT.json"
+  ],
+  "gates": [
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S001",
+      "requirement": "PARENT_LINEAGE_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S002",
+      "requirement": "PARENT_LINEAGE_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S003",
+      "requirement": "PARENT_LINEAGE_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S004",
+      "requirement": "PARENT_LINEAGE_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S005",
+      "requirement": "PARENT_LINEAGE_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S006",
+      "requirement": "PARENT_LINEAGE_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S007",
+      "requirement": "PARENT_LINEAGE_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S008",
+      "requirement": "PARENT_LINEAGE_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S009",
+      "requirement": "PARENT_LINEAGE_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S010",
+      "requirement": "PARENT_LINEAGE_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S011",
+      "requirement": "PARENT_LINEAGE_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S012",
+      "requirement": "PARENT_LINEAGE_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S013",
+      "requirement": "PARENT_LINEAGE_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S014",
+      "requirement": "PARENT_LINEAGE_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S015",
+      "requirement": "PARENT_LINEAGE_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S016",
+      "requirement": "PARENT_LINEAGE_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S017",
+      "requirement": "PARENT_LINEAGE_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S018",
+      "requirement": "PARENT_LINEAGE_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S019",
+      "requirement": "PARENT_LINEAGE_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S020",
+      "requirement": "PARENT_LINEAGE_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S021",
+      "requirement": "PARENT_LINEAGE_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S022",
+      "requirement": "PARENT_LINEAGE_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S023",
+      "requirement": "PARENT_LINEAGE_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S024",
+      "requirement": "PARENT_LINEAGE_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S025",
+      "requirement": "PARENT_LINEAGE_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S026",
+      "requirement": "PARENT_LINEAGE_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S027",
+      "requirement": "PARENT_LINEAGE_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S028",
+      "requirement": "PARENT_LINEAGE_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S029",
+      "requirement": "PARENT_LINEAGE_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S030",
+      "requirement": "PARENT_LINEAGE_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S031",
+      "requirement": "PARENT_LINEAGE_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S032",
+      "requirement": "PARENT_LINEAGE_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S033",
+      "requirement": "DISTRIBUTION_AUTHORITY_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S034",
+      "requirement": "DISTRIBUTION_AUTHORITY_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S035",
+      "requirement": "DISTRIBUTION_AUTHORITY_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S036",
+      "requirement": "DISTRIBUTION_AUTHORITY_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S037",
+      "requirement": "DISTRIBUTION_AUTHORITY_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S038",
+      "requirement": "DISTRIBUTION_AUTHORITY_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S039",
+      "requirement": "DISTRIBUTION_AUTHORITY_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S040",
+      "requirement": "DISTRIBUTION_AUTHORITY_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S041",
+      "requirement": "DISTRIBUTION_AUTHORITY_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S042",
+      "requirement": "DISTRIBUTION_AUTHORITY_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S043",
+      "requirement": "DISTRIBUTION_AUTHORITY_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S044",
+      "requirement": "DISTRIBUTION_AUTHORITY_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S045",
+      "requirement": "DISTRIBUTION_AUTHORITY_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S046",
+      "requirement": "DISTRIBUTION_AUTHORITY_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S047",
+      "requirement": "DISTRIBUTION_AUTHORITY_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S048",
+      "requirement": "DISTRIBUTION_AUTHORITY_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S049",
+      "requirement": "DISTRIBUTION_AUTHORITY_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S050",
+      "requirement": "DISTRIBUTION_AUTHORITY_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S051",
+      "requirement": "DISTRIBUTION_AUTHORITY_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S052",
+      "requirement": "DISTRIBUTION_AUTHORITY_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S053",
+      "requirement": "DISTRIBUTION_AUTHORITY_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S054",
+      "requirement": "DISTRIBUTION_AUTHORITY_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S055",
+      "requirement": "DISTRIBUTION_AUTHORITY_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S056",
+      "requirement": "DISTRIBUTION_AUTHORITY_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S057",
+      "requirement": "DISTRIBUTION_AUTHORITY_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S058",
+      "requirement": "DISTRIBUTION_AUTHORITY_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S059",
+      "requirement": "DISTRIBUTION_AUTHORITY_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S060",
+      "requirement": "DISTRIBUTION_AUTHORITY_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S061",
+      "requirement": "DISTRIBUTION_AUTHORITY_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S062",
+      "requirement": "DISTRIBUTION_AUTHORITY_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S063",
+      "requirement": "DISTRIBUTION_AUTHORITY_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S064",
+      "requirement": "DISTRIBUTION_AUTHORITY_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S065",
+      "requirement": "ROOT_METADATA_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S066",
+      "requirement": "ROOT_METADATA_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S067",
+      "requirement": "ROOT_METADATA_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S068",
+      "requirement": "ROOT_METADATA_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S069",
+      "requirement": "ROOT_METADATA_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S070",
+      "requirement": "ROOT_METADATA_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S071",
+      "requirement": "ROOT_METADATA_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S072",
+      "requirement": "ROOT_METADATA_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S073",
+      "requirement": "ROOT_METADATA_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S074",
+      "requirement": "ROOT_METADATA_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S075",
+      "requirement": "ROOT_METADATA_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S076",
+      "requirement": "ROOT_METADATA_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S077",
+      "requirement": "ROOT_METADATA_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S078",
+      "requirement": "ROOT_METADATA_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S079",
+      "requirement": "ROOT_METADATA_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S080",
+      "requirement": "ROOT_METADATA_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S081",
+      "requirement": "ROOT_METADATA_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S082",
+      "requirement": "ROOT_METADATA_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S083",
+      "requirement": "ROOT_METADATA_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S084",
+      "requirement": "ROOT_METADATA_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S085",
+      "requirement": "ROOT_METADATA_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S086",
+      "requirement": "ROOT_METADATA_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S087",
+      "requirement": "ROOT_METADATA_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S088",
+      "requirement": "ROOT_METADATA_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S089",
+      "requirement": "ROOT_METADATA_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S090",
+      "requirement": "ROOT_METADATA_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S091",
+      "requirement": "ROOT_METADATA_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S092",
+      "requirement": "ROOT_METADATA_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S093",
+      "requirement": "ROOT_METADATA_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S094",
+      "requirement": "ROOT_METADATA_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S095",
+      "requirement": "ROOT_METADATA_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S096",
+      "requirement": "ROOT_METADATA_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S097",
+      "requirement": "ROLE_DELEGATION_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S098",
+      "requirement": "ROLE_DELEGATION_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S099",
+      "requirement": "ROLE_DELEGATION_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S100",
+      "requirement": "ROLE_DELEGATION_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S101",
+      "requirement": "ROLE_DELEGATION_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S102",
+      "requirement": "ROLE_DELEGATION_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S103",
+      "requirement": "ROLE_DELEGATION_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S104",
+      "requirement": "ROLE_DELEGATION_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S105",
+      "requirement": "ROLE_DELEGATION_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S106",
+      "requirement": "ROLE_DELEGATION_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S107",
+      "requirement": "ROLE_DELEGATION_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S108",
+      "requirement": "ROLE_DELEGATION_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S109",
+      "requirement": "ROLE_DELEGATION_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S110",
+      "requirement": "ROLE_DELEGATION_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S111",
+      "requirement": "ROLE_DELEGATION_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S112",
+      "requirement": "ROLE_DELEGATION_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S113",
+      "requirement": "ROLE_DELEGATION_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S114",
+      "requirement": "ROLE_DELEGATION_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S115",
+      "requirement": "ROLE_DELEGATION_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S116",
+      "requirement": "ROLE_DELEGATION_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S117",
+      "requirement": "ROLE_DELEGATION_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S118",
+      "requirement": "ROLE_DELEGATION_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S119",
+      "requirement": "ROLE_DELEGATION_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S120",
+      "requirement": "ROLE_DELEGATION_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S121",
+      "requirement": "ROLE_DELEGATION_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S122",
+      "requirement": "ROLE_DELEGATION_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S123",
+      "requirement": "ROLE_DELEGATION_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S124",
+      "requirement": "ROLE_DELEGATION_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S125",
+      "requirement": "ROLE_DELEGATION_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S126",
+      "requirement": "ROLE_DELEGATION_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S127",
+      "requirement": "ROLE_DELEGATION_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S128",
+      "requirement": "ROLE_DELEGATION_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S129",
+      "requirement": "PACKAGE_MANIFEST_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S130",
+      "requirement": "PACKAGE_MANIFEST_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S131",
+      "requirement": "PACKAGE_MANIFEST_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S132",
+      "requirement": "PACKAGE_MANIFEST_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S133",
+      "requirement": "PACKAGE_MANIFEST_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S134",
+      "requirement": "PACKAGE_MANIFEST_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S135",
+      "requirement": "PACKAGE_MANIFEST_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S136",
+      "requirement": "PACKAGE_MANIFEST_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S137",
+      "requirement": "PACKAGE_MANIFEST_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S138",
+      "requirement": "PACKAGE_MANIFEST_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S139",
+      "requirement": "PACKAGE_MANIFEST_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S140",
+      "requirement": "PACKAGE_MANIFEST_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S141",
+      "requirement": "PACKAGE_MANIFEST_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S142",
+      "requirement": "PACKAGE_MANIFEST_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S143",
+      "requirement": "PACKAGE_MANIFEST_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S144",
+      "requirement": "PACKAGE_MANIFEST_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S145",
+      "requirement": "PACKAGE_MANIFEST_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S146",
+      "requirement": "PACKAGE_MANIFEST_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S147",
+      "requirement": "PACKAGE_MANIFEST_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S148",
+      "requirement": "PACKAGE_MANIFEST_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S149",
+      "requirement": "PACKAGE_MANIFEST_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S150",
+      "requirement": "PACKAGE_MANIFEST_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S151",
+      "requirement": "PACKAGE_MANIFEST_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S152",
+      "requirement": "PACKAGE_MANIFEST_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S153",
+      "requirement": "PACKAGE_MANIFEST_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S154",
+      "requirement": "PACKAGE_MANIFEST_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S155",
+      "requirement": "PACKAGE_MANIFEST_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S156",
+      "requirement": "PACKAGE_MANIFEST_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S157",
+      "requirement": "PACKAGE_MANIFEST_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S158",
+      "requirement": "PACKAGE_MANIFEST_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S159",
+      "requirement": "PACKAGE_MANIFEST_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S160",
+      "requirement": "PACKAGE_MANIFEST_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S161",
+      "requirement": "RELEASE_ENVELOPE_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S162",
+      "requirement": "RELEASE_ENVELOPE_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S163",
+      "requirement": "RELEASE_ENVELOPE_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S164",
+      "requirement": "RELEASE_ENVELOPE_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S165",
+      "requirement": "RELEASE_ENVELOPE_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S166",
+      "requirement": "RELEASE_ENVELOPE_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S167",
+      "requirement": "RELEASE_ENVELOPE_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S168",
+      "requirement": "RELEASE_ENVELOPE_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S169",
+      "requirement": "RELEASE_ENVELOPE_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S170",
+      "requirement": "RELEASE_ENVELOPE_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S171",
+      "requirement": "RELEASE_ENVELOPE_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S172",
+      "requirement": "RELEASE_ENVELOPE_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S173",
+      "requirement": "RELEASE_ENVELOPE_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S174",
+      "requirement": "RELEASE_ENVELOPE_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S175",
+      "requirement": "RELEASE_ENVELOPE_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S176",
+      "requirement": "RELEASE_ENVELOPE_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S177",
+      "requirement": "RELEASE_ENVELOPE_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S178",
+      "requirement": "RELEASE_ENVELOPE_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S179",
+      "requirement": "RELEASE_ENVELOPE_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S180",
+      "requirement": "RELEASE_ENVELOPE_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S181",
+      "requirement": "RELEASE_ENVELOPE_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S182",
+      "requirement": "RELEASE_ENVELOPE_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S183",
+      "requirement": "RELEASE_ENVELOPE_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S184",
+      "requirement": "RELEASE_ENVELOPE_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S185",
+      "requirement": "RELEASE_ENVELOPE_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S186",
+      "requirement": "RELEASE_ENVELOPE_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S187",
+      "requirement": "RELEASE_ENVELOPE_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S188",
+      "requirement": "RELEASE_ENVELOPE_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S189",
+      "requirement": "RELEASE_ENVELOPE_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S190",
+      "requirement": "RELEASE_ENVELOPE_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S191",
+      "requirement": "RELEASE_ENVELOPE_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S192",
+      "requirement": "RELEASE_ENVELOPE_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S193",
+      "requirement": "TRANSPARENCY_LEAF_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S194",
+      "requirement": "TRANSPARENCY_LEAF_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S195",
+      "requirement": "TRANSPARENCY_LEAF_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S196",
+      "requirement": "TRANSPARENCY_LEAF_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S197",
+      "requirement": "TRANSPARENCY_LEAF_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S198",
+      "requirement": "TRANSPARENCY_LEAF_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S199",
+      "requirement": "TRANSPARENCY_LEAF_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S200",
+      "requirement": "TRANSPARENCY_LEAF_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S201",
+      "requirement": "TRANSPARENCY_LEAF_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S202",
+      "requirement": "TRANSPARENCY_LEAF_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S203",
+      "requirement": "TRANSPARENCY_LEAF_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S204",
+      "requirement": "TRANSPARENCY_LEAF_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S205",
+      "requirement": "TRANSPARENCY_LEAF_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S206",
+      "requirement": "TRANSPARENCY_LEAF_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S207",
+      "requirement": "TRANSPARENCY_LEAF_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S208",
+      "requirement": "TRANSPARENCY_LEAF_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S209",
+      "requirement": "TRANSPARENCY_LEAF_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S210",
+      "requirement": "TRANSPARENCY_LEAF_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S211",
+      "requirement": "TRANSPARENCY_LEAF_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S212",
+      "requirement": "TRANSPARENCY_LEAF_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S213",
+      "requirement": "TRANSPARENCY_LEAF_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S214",
+      "requirement": "TRANSPARENCY_LEAF_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S215",
+      "requirement": "TRANSPARENCY_LEAF_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S216",
+      "requirement": "TRANSPARENCY_LEAF_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S217",
+      "requirement": "TRANSPARENCY_LEAF_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S218",
+      "requirement": "TRANSPARENCY_LEAF_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S219",
+      "requirement": "TRANSPARENCY_LEAF_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S220",
+      "requirement": "TRANSPARENCY_LEAF_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S221",
+      "requirement": "TRANSPARENCY_LEAF_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S222",
+      "requirement": "TRANSPARENCY_LEAF_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S223",
+      "requirement": "TRANSPARENCY_LEAF_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S224",
+      "requirement": "TRANSPARENCY_LEAF_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S225",
+      "requirement": "MERKLE_INCLUSION_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S226",
+      "requirement": "MERKLE_INCLUSION_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S227",
+      "requirement": "MERKLE_INCLUSION_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S228",
+      "requirement": "MERKLE_INCLUSION_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S229",
+      "requirement": "MERKLE_INCLUSION_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S230",
+      "requirement": "MERKLE_INCLUSION_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S231",
+      "requirement": "MERKLE_INCLUSION_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S232",
+      "requirement": "MERKLE_INCLUSION_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S233",
+      "requirement": "MERKLE_INCLUSION_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S234",
+      "requirement": "MERKLE_INCLUSION_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S235",
+      "requirement": "MERKLE_INCLUSION_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S236",
+      "requirement": "MERKLE_INCLUSION_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S237",
+      "requirement": "MERKLE_INCLUSION_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S238",
+      "requirement": "MERKLE_INCLUSION_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S239",
+      "requirement": "MERKLE_INCLUSION_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S240",
+      "requirement": "MERKLE_INCLUSION_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S241",
+      "requirement": "MERKLE_INCLUSION_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S242",
+      "requirement": "MERKLE_INCLUSION_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S243",
+      "requirement": "MERKLE_INCLUSION_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S244",
+      "requirement": "MERKLE_INCLUSION_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S245",
+      "requirement": "MERKLE_INCLUSION_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S246",
+      "requirement": "MERKLE_INCLUSION_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S247",
+      "requirement": "MERKLE_INCLUSION_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S248",
+      "requirement": "MERKLE_INCLUSION_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S249",
+      "requirement": "MERKLE_INCLUSION_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S250",
+      "requirement": "MERKLE_INCLUSION_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S251",
+      "requirement": "MERKLE_INCLUSION_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S252",
+      "requirement": "MERKLE_INCLUSION_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S253",
+      "requirement": "MERKLE_INCLUSION_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S254",
+      "requirement": "MERKLE_INCLUSION_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S255",
+      "requirement": "MERKLE_INCLUSION_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S256",
+      "requirement": "MERKLE_INCLUSION_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S257",
+      "requirement": "CHECKPOINT_CONSISTENCY_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S258",
+      "requirement": "CHECKPOINT_CONSISTENCY_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S259",
+      "requirement": "CHECKPOINT_CONSISTENCY_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S260",
+      "requirement": "CHECKPOINT_CONSISTENCY_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S261",
+      "requirement": "CHECKPOINT_CONSISTENCY_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S262",
+      "requirement": "CHECKPOINT_CONSISTENCY_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S263",
+      "requirement": "CHECKPOINT_CONSISTENCY_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S264",
+      "requirement": "CHECKPOINT_CONSISTENCY_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S265",
+      "requirement": "CHECKPOINT_CONSISTENCY_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S266",
+      "requirement": "CHECKPOINT_CONSISTENCY_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S267",
+      "requirement": "CHECKPOINT_CONSISTENCY_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S268",
+      "requirement": "CHECKPOINT_CONSISTENCY_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S269",
+      "requirement": "CHECKPOINT_CONSISTENCY_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S270",
+      "requirement": "CHECKPOINT_CONSISTENCY_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S271",
+      "requirement": "CHECKPOINT_CONSISTENCY_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S272",
+      "requirement": "CHECKPOINT_CONSISTENCY_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S273",
+      "requirement": "CHECKPOINT_CONSISTENCY_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S274",
+      "requirement": "CHECKPOINT_CONSISTENCY_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S275",
+      "requirement": "CHECKPOINT_CONSISTENCY_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S276",
+      "requirement": "CHECKPOINT_CONSISTENCY_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S277",
+      "requirement": "CHECKPOINT_CONSISTENCY_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S278",
+      "requirement": "CHECKPOINT_CONSISTENCY_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S279",
+      "requirement": "CHECKPOINT_CONSISTENCY_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S280",
+      "requirement": "CHECKPOINT_CONSISTENCY_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S281",
+      "requirement": "CHECKPOINT_CONSISTENCY_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S282",
+      "requirement": "CHECKPOINT_CONSISTENCY_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S283",
+      "requirement": "CHECKPOINT_CONSISTENCY_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S284",
+      "requirement": "CHECKPOINT_CONSISTENCY_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S285",
+      "requirement": "CHECKPOINT_CONSISTENCY_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S286",
+      "requirement": "CHECKPOINT_CONSISTENCY_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S287",
+      "requirement": "CHECKPOINT_CONSISTENCY_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S288",
+      "requirement": "CHECKPOINT_CONSISTENCY_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S289",
+      "requirement": "WITNESS_QUORUM_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S290",
+      "requirement": "WITNESS_QUORUM_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S291",
+      "requirement": "WITNESS_QUORUM_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S292",
+      "requirement": "WITNESS_QUORUM_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S293",
+      "requirement": "WITNESS_QUORUM_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S294",
+      "requirement": "WITNESS_QUORUM_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S295",
+      "requirement": "WITNESS_QUORUM_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S296",
+      "requirement": "WITNESS_QUORUM_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S297",
+      "requirement": "WITNESS_QUORUM_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S298",
+      "requirement": "WITNESS_QUORUM_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S299",
+      "requirement": "WITNESS_QUORUM_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S300",
+      "requirement": "WITNESS_QUORUM_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S301",
+      "requirement": "WITNESS_QUORUM_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S302",
+      "requirement": "WITNESS_QUORUM_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S303",
+      "requirement": "WITNESS_QUORUM_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S304",
+      "requirement": "WITNESS_QUORUM_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S305",
+      "requirement": "WITNESS_QUORUM_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S306",
+      "requirement": "WITNESS_QUORUM_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S307",
+      "requirement": "WITNESS_QUORUM_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S308",
+      "requirement": "WITNESS_QUORUM_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S309",
+      "requirement": "WITNESS_QUORUM_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S310",
+      "requirement": "WITNESS_QUORUM_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S311",
+      "requirement": "WITNESS_QUORUM_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S312",
+      "requirement": "WITNESS_QUORUM_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S313",
+      "requirement": "WITNESS_QUORUM_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S314",
+      "requirement": "WITNESS_QUORUM_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S315",
+      "requirement": "WITNESS_QUORUM_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S316",
+      "requirement": "WITNESS_QUORUM_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S317",
+      "requirement": "WITNESS_QUORUM_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S318",
+      "requirement": "WITNESS_QUORUM_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S319",
+      "requirement": "WITNESS_QUORUM_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S320",
+      "requirement": "WITNESS_QUORUM_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S321",
+      "requirement": "KEY_ROTATION_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S322",
+      "requirement": "KEY_ROTATION_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S323",
+      "requirement": "KEY_ROTATION_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S324",
+      "requirement": "KEY_ROTATION_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S325",
+      "requirement": "KEY_ROTATION_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S326",
+      "requirement": "KEY_ROTATION_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S327",
+      "requirement": "KEY_ROTATION_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S328",
+      "requirement": "KEY_ROTATION_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S329",
+      "requirement": "KEY_ROTATION_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S330",
+      "requirement": "KEY_ROTATION_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S331",
+      "requirement": "KEY_ROTATION_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S332",
+      "requirement": "KEY_ROTATION_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S333",
+      "requirement": "KEY_ROTATION_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S334",
+      "requirement": "KEY_ROTATION_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S335",
+      "requirement": "KEY_ROTATION_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S336",
+      "requirement": "KEY_ROTATION_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S337",
+      "requirement": "KEY_ROTATION_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S338",
+      "requirement": "KEY_ROTATION_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S339",
+      "requirement": "KEY_ROTATION_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S340",
+      "requirement": "KEY_ROTATION_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S341",
+      "requirement": "KEY_ROTATION_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S342",
+      "requirement": "KEY_ROTATION_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S343",
+      "requirement": "KEY_ROTATION_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S344",
+      "requirement": "KEY_ROTATION_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S345",
+      "requirement": "KEY_ROTATION_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S346",
+      "requirement": "KEY_ROTATION_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S347",
+      "requirement": "KEY_ROTATION_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S348",
+      "requirement": "KEY_ROTATION_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S349",
+      "requirement": "KEY_ROTATION_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S350",
+      "requirement": "KEY_ROTATION_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S351",
+      "requirement": "KEY_ROTATION_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S352",
+      "requirement": "KEY_ROTATION_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S353",
+      "requirement": "KEY_REVOCATION_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S354",
+      "requirement": "KEY_REVOCATION_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S355",
+      "requirement": "KEY_REVOCATION_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S356",
+      "requirement": "KEY_REVOCATION_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S357",
+      "requirement": "KEY_REVOCATION_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S358",
+      "requirement": "KEY_REVOCATION_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S359",
+      "requirement": "KEY_REVOCATION_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S360",
+      "requirement": "KEY_REVOCATION_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S361",
+      "requirement": "KEY_REVOCATION_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S362",
+      "requirement": "KEY_REVOCATION_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S363",
+      "requirement": "KEY_REVOCATION_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S364",
+      "requirement": "KEY_REVOCATION_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S365",
+      "requirement": "KEY_REVOCATION_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S366",
+      "requirement": "KEY_REVOCATION_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S367",
+      "requirement": "KEY_REVOCATION_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S368",
+      "requirement": "KEY_REVOCATION_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S369",
+      "requirement": "KEY_REVOCATION_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S370",
+      "requirement": "KEY_REVOCATION_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S371",
+      "requirement": "KEY_REVOCATION_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S372",
+      "requirement": "KEY_REVOCATION_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S373",
+      "requirement": "KEY_REVOCATION_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S374",
+      "requirement": "KEY_REVOCATION_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S375",
+      "requirement": "KEY_REVOCATION_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S376",
+      "requirement": "KEY_REVOCATION_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S377",
+      "requirement": "KEY_REVOCATION_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S378",
+      "requirement": "KEY_REVOCATION_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S379",
+      "requirement": "KEY_REVOCATION_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S380",
+      "requirement": "KEY_REVOCATION_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S381",
+      "requirement": "KEY_REVOCATION_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S382",
+      "requirement": "KEY_REVOCATION_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S383",
+      "requirement": "KEY_REVOCATION_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S384",
+      "requirement": "KEY_REVOCATION_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S385",
+      "requirement": "MIRROR_IDENTITY_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S386",
+      "requirement": "MIRROR_IDENTITY_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S387",
+      "requirement": "MIRROR_IDENTITY_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S388",
+      "requirement": "MIRROR_IDENTITY_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S389",
+      "requirement": "MIRROR_IDENTITY_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S390",
+      "requirement": "MIRROR_IDENTITY_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S391",
+      "requirement": "MIRROR_IDENTITY_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S392",
+      "requirement": "MIRROR_IDENTITY_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S393",
+      "requirement": "MIRROR_IDENTITY_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S394",
+      "requirement": "MIRROR_IDENTITY_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S395",
+      "requirement": "MIRROR_IDENTITY_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S396",
+      "requirement": "MIRROR_IDENTITY_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S397",
+      "requirement": "MIRROR_IDENTITY_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S398",
+      "requirement": "MIRROR_IDENTITY_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S399",
+      "requirement": "MIRROR_IDENTITY_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S400",
+      "requirement": "MIRROR_IDENTITY_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S401",
+      "requirement": "MIRROR_IDENTITY_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S402",
+      "requirement": "MIRROR_IDENTITY_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S403",
+      "requirement": "MIRROR_IDENTITY_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S404",
+      "requirement": "MIRROR_IDENTITY_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S405",
+      "requirement": "MIRROR_IDENTITY_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S406",
+      "requirement": "MIRROR_IDENTITY_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S407",
+      "requirement": "MIRROR_IDENTITY_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S408",
+      "requirement": "MIRROR_IDENTITY_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S409",
+      "requirement": "MIRROR_IDENTITY_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S410",
+      "requirement": "MIRROR_IDENTITY_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S411",
+      "requirement": "MIRROR_IDENTITY_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S412",
+      "requirement": "MIRROR_IDENTITY_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S413",
+      "requirement": "MIRROR_IDENTITY_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S414",
+      "requirement": "MIRROR_IDENTITY_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S415",
+      "requirement": "MIRROR_IDENTITY_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S416",
+      "requirement": "MIRROR_IDENTITY_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S417",
+      "requirement": "STREAMING_DOWNLOAD_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S418",
+      "requirement": "STREAMING_DOWNLOAD_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S419",
+      "requirement": "STREAMING_DOWNLOAD_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S420",
+      "requirement": "STREAMING_DOWNLOAD_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S421",
+      "requirement": "STREAMING_DOWNLOAD_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S422",
+      "requirement": "STREAMING_DOWNLOAD_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S423",
+      "requirement": "STREAMING_DOWNLOAD_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S424",
+      "requirement": "STREAMING_DOWNLOAD_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S425",
+      "requirement": "STREAMING_DOWNLOAD_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S426",
+      "requirement": "STREAMING_DOWNLOAD_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S427",
+      "requirement": "STREAMING_DOWNLOAD_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S428",
+      "requirement": "STREAMING_DOWNLOAD_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S429",
+      "requirement": "STREAMING_DOWNLOAD_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S430",
+      "requirement": "STREAMING_DOWNLOAD_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S431",
+      "requirement": "STREAMING_DOWNLOAD_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S432",
+      "requirement": "STREAMING_DOWNLOAD_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S433",
+      "requirement": "STREAMING_DOWNLOAD_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S434",
+      "requirement": "STREAMING_DOWNLOAD_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S435",
+      "requirement": "STREAMING_DOWNLOAD_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S436",
+      "requirement": "STREAMING_DOWNLOAD_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S437",
+      "requirement": "STREAMING_DOWNLOAD_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S438",
+      "requirement": "STREAMING_DOWNLOAD_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S439",
+      "requirement": "STREAMING_DOWNLOAD_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S440",
+      "requirement": "STREAMING_DOWNLOAD_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S441",
+      "requirement": "STREAMING_DOWNLOAD_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S442",
+      "requirement": "STREAMING_DOWNLOAD_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S443",
+      "requirement": "STREAMING_DOWNLOAD_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S444",
+      "requirement": "STREAMING_DOWNLOAD_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S445",
+      "requirement": "STREAMING_DOWNLOAD_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S446",
+      "requirement": "STREAMING_DOWNLOAD_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S447",
+      "requirement": "STREAMING_DOWNLOAD_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S448",
+      "requirement": "STREAMING_DOWNLOAD_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S449",
+      "requirement": "LOCAL_TRUST_STATE_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S450",
+      "requirement": "LOCAL_TRUST_STATE_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S451",
+      "requirement": "LOCAL_TRUST_STATE_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S452",
+      "requirement": "LOCAL_TRUST_STATE_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S453",
+      "requirement": "LOCAL_TRUST_STATE_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S454",
+      "requirement": "LOCAL_TRUST_STATE_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S455",
+      "requirement": "LOCAL_TRUST_STATE_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S456",
+      "requirement": "LOCAL_TRUST_STATE_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S457",
+      "requirement": "LOCAL_TRUST_STATE_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S458",
+      "requirement": "LOCAL_TRUST_STATE_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S459",
+      "requirement": "LOCAL_TRUST_STATE_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S460",
+      "requirement": "LOCAL_TRUST_STATE_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S461",
+      "requirement": "LOCAL_TRUST_STATE_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S462",
+      "requirement": "LOCAL_TRUST_STATE_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S463",
+      "requirement": "LOCAL_TRUST_STATE_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S464",
+      "requirement": "LOCAL_TRUST_STATE_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S465",
+      "requirement": "LOCAL_TRUST_STATE_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S466",
+      "requirement": "LOCAL_TRUST_STATE_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S467",
+      "requirement": "LOCAL_TRUST_STATE_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S468",
+      "requirement": "LOCAL_TRUST_STATE_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S469",
+      "requirement": "LOCAL_TRUST_STATE_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S470",
+      "requirement": "LOCAL_TRUST_STATE_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S471",
+      "requirement": "LOCAL_TRUST_STATE_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S472",
+      "requirement": "LOCAL_TRUST_STATE_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S473",
+      "requirement": "LOCAL_TRUST_STATE_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S474",
+      "requirement": "LOCAL_TRUST_STATE_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S475",
+      "requirement": "LOCAL_TRUST_STATE_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S476",
+      "requirement": "LOCAL_TRUST_STATE_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S477",
+      "requirement": "LOCAL_TRUST_STATE_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S478",
+      "requirement": "LOCAL_TRUST_STATE_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S479",
+      "requirement": "LOCAL_TRUST_STATE_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S480",
+      "requirement": "LOCAL_TRUST_STATE_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S481",
+      "requirement": "ROLLBACK_FLOOR_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S482",
+      "requirement": "ROLLBACK_FLOOR_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S483",
+      "requirement": "ROLLBACK_FLOOR_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S484",
+      "requirement": "ROLLBACK_FLOOR_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S485",
+      "requirement": "ROLLBACK_FLOOR_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S486",
+      "requirement": "ROLLBACK_FLOOR_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S487",
+      "requirement": "ROLLBACK_FLOOR_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S488",
+      "requirement": "ROLLBACK_FLOOR_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S489",
+      "requirement": "ROLLBACK_FLOOR_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S490",
+      "requirement": "ROLLBACK_FLOOR_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S491",
+      "requirement": "ROLLBACK_FLOOR_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S492",
+      "requirement": "ROLLBACK_FLOOR_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S493",
+      "requirement": "ROLLBACK_FLOOR_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S494",
+      "requirement": "ROLLBACK_FLOOR_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S495",
+      "requirement": "ROLLBACK_FLOOR_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S496",
+      "requirement": "ROLLBACK_FLOOR_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S497",
+      "requirement": "ROLLBACK_FLOOR_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S498",
+      "requirement": "ROLLBACK_FLOOR_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S499",
+      "requirement": "ROLLBACK_FLOOR_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S500",
+      "requirement": "ROLLBACK_FLOOR_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S501",
+      "requirement": "ROLLBACK_FLOOR_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S502",
+      "requirement": "ROLLBACK_FLOOR_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S503",
+      "requirement": "ROLLBACK_FLOOR_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S504",
+      "requirement": "ROLLBACK_FLOOR_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S505",
+      "requirement": "ROLLBACK_FLOOR_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S506",
+      "requirement": "ROLLBACK_FLOOR_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S507",
+      "requirement": "ROLLBACK_FLOOR_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S508",
+      "requirement": "ROLLBACK_FLOOR_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S509",
+      "requirement": "ROLLBACK_FLOOR_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S510",
+      "requirement": "ROLLBACK_FLOOR_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S511",
+      "requirement": "ROLLBACK_FLOOR_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S512",
+      "requirement": "ROLLBACK_FLOOR_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S513",
+      "requirement": "R12A_STAGE_ADMISSION_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S514",
+      "requirement": "R12A_STAGE_ADMISSION_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S515",
+      "requirement": "R12A_STAGE_ADMISSION_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S516",
+      "requirement": "R12A_STAGE_ADMISSION_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S517",
+      "requirement": "R12A_STAGE_ADMISSION_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S518",
+      "requirement": "R12A_STAGE_ADMISSION_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S519",
+      "requirement": "R12A_STAGE_ADMISSION_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S520",
+      "requirement": "R12A_STAGE_ADMISSION_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S521",
+      "requirement": "R12A_STAGE_ADMISSION_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S522",
+      "requirement": "R12A_STAGE_ADMISSION_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S523",
+      "requirement": "R12A_STAGE_ADMISSION_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S524",
+      "requirement": "R12A_STAGE_ADMISSION_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S525",
+      "requirement": "R12A_STAGE_ADMISSION_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S526",
+      "requirement": "R12A_STAGE_ADMISSION_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S527",
+      "requirement": "R12A_STAGE_ADMISSION_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S528",
+      "requirement": "R12A_STAGE_ADMISSION_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S529",
+      "requirement": "R12A_STAGE_ADMISSION_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S530",
+      "requirement": "R12A_STAGE_ADMISSION_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S531",
+      "requirement": "R12A_STAGE_ADMISSION_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S532",
+      "requirement": "R12A_STAGE_ADMISSION_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S533",
+      "requirement": "R12A_STAGE_ADMISSION_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S534",
+      "requirement": "R12A_STAGE_ADMISSION_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S535",
+      "requirement": "R12A_STAGE_ADMISSION_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S536",
+      "requirement": "R12A_STAGE_ADMISSION_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S537",
+      "requirement": "R12A_STAGE_ADMISSION_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S538",
+      "requirement": "R12A_STAGE_ADMISSION_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S539",
+      "requirement": "R12A_STAGE_ADMISSION_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S540",
+      "requirement": "R12A_STAGE_ADMISSION_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S541",
+      "requirement": "R12A_STAGE_ADMISSION_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S542",
+      "requirement": "R12A_STAGE_ADMISSION_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S543",
+      "requirement": "R12A_STAGE_ADMISSION_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S544",
+      "requirement": "R12A_STAGE_ADMISSION_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S545",
+      "requirement": "R13A_FLEET_BINDING_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S546",
+      "requirement": "R13A_FLEET_BINDING_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S547",
+      "requirement": "R13A_FLEET_BINDING_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S548",
+      "requirement": "R13A_FLEET_BINDING_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S549",
+      "requirement": "R13A_FLEET_BINDING_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S550",
+      "requirement": "R13A_FLEET_BINDING_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S551",
+      "requirement": "R13A_FLEET_BINDING_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S552",
+      "requirement": "R13A_FLEET_BINDING_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S553",
+      "requirement": "R13A_FLEET_BINDING_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S554",
+      "requirement": "R13A_FLEET_BINDING_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S555",
+      "requirement": "R13A_FLEET_BINDING_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S556",
+      "requirement": "R13A_FLEET_BINDING_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S557",
+      "requirement": "R13A_FLEET_BINDING_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S558",
+      "requirement": "R13A_FLEET_BINDING_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S559",
+      "requirement": "R13A_FLEET_BINDING_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S560",
+      "requirement": "R13A_FLEET_BINDING_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S561",
+      "requirement": "R13A_FLEET_BINDING_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S562",
+      "requirement": "R13A_FLEET_BINDING_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S563",
+      "requirement": "R13A_FLEET_BINDING_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S564",
+      "requirement": "R13A_FLEET_BINDING_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S565",
+      "requirement": "R13A_FLEET_BINDING_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S566",
+      "requirement": "R13A_FLEET_BINDING_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S567",
+      "requirement": "R13A_FLEET_BINDING_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S568",
+      "requirement": "R13A_FLEET_BINDING_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S569",
+      "requirement": "R13A_FLEET_BINDING_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S570",
+      "requirement": "R13A_FLEET_BINDING_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S571",
+      "requirement": "R13A_FLEET_BINDING_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S572",
+      "requirement": "R13A_FLEET_BINDING_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S573",
+      "requirement": "R13A_FLEET_BINDING_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S574",
+      "requirement": "R13A_FLEET_BINDING_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S575",
+      "requirement": "R13A_FLEET_BINDING_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S576",
+      "requirement": "R13A_FLEET_BINDING_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S577",
+      "requirement": "FINALIZER_REVALIDATION_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S578",
+      "requirement": "FINALIZER_REVALIDATION_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S579",
+      "requirement": "FINALIZER_REVALIDATION_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S580",
+      "requirement": "FINALIZER_REVALIDATION_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S581",
+      "requirement": "FINALIZER_REVALIDATION_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S582",
+      "requirement": "FINALIZER_REVALIDATION_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S583",
+      "requirement": "FINALIZER_REVALIDATION_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S584",
+      "requirement": "FINALIZER_REVALIDATION_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S585",
+      "requirement": "FINALIZER_REVALIDATION_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S586",
+      "requirement": "FINALIZER_REVALIDATION_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S587",
+      "requirement": "FINALIZER_REVALIDATION_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S588",
+      "requirement": "FINALIZER_REVALIDATION_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S589",
+      "requirement": "FINALIZER_REVALIDATION_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S590",
+      "requirement": "FINALIZER_REVALIDATION_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S591",
+      "requirement": "FINALIZER_REVALIDATION_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S592",
+      "requirement": "FINALIZER_REVALIDATION_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S593",
+      "requirement": "FINALIZER_REVALIDATION_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S594",
+      "requirement": "FINALIZER_REVALIDATION_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S595",
+      "requirement": "FINALIZER_REVALIDATION_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S596",
+      "requirement": "FINALIZER_REVALIDATION_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S597",
+      "requirement": "FINALIZER_REVALIDATION_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S598",
+      "requirement": "FINALIZER_REVALIDATION_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S599",
+      "requirement": "FINALIZER_REVALIDATION_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S600",
+      "requirement": "FINALIZER_REVALIDATION_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S601",
+      "requirement": "FINALIZER_REVALIDATION_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S602",
+      "requirement": "FINALIZER_REVALIDATION_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S603",
+      "requirement": "FINALIZER_REVALIDATION_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S604",
+      "requirement": "FINALIZER_REVALIDATION_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S605",
+      "requirement": "FINALIZER_REVALIDATION_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S606",
+      "requirement": "FINALIZER_REVALIDATION_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S607",
+      "requirement": "FINALIZER_REVALIDATION_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S608",
+      "requirement": "FINALIZER_REVALIDATION_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S609",
+      "requirement": "SOURCE_TOOLING_CONTRACT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S610",
+      "requirement": "SOURCE_TOOLING_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S611",
+      "requirement": "SOURCE_TOOLING_AUTHORITY_SINGLE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S612",
+      "requirement": "SOURCE_TOOLING_INPUT_CANONICAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S613",
+      "requirement": "SOURCE_TOOLING_DIGEST_RECOMPUTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S614",
+      "requirement": "SOURCE_TOOLING_SIGNATURE_VERIFIED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S615",
+      "requirement": "SOURCE_TOOLING_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S616",
+      "requirement": "SOURCE_TOOLING_REPLAY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S617",
+      "requirement": "SOURCE_TOOLING_SPLIT_BRAIN_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S618",
+      "requirement": "SOURCE_TOOLING_EXPIRED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S619",
+      "requirement": "SOURCE_TOOLING_REVOKED_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S620",
+      "requirement": "SOURCE_TOOLING_UNKNOWN_KEY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S621",
+      "requirement": "SOURCE_TOOLING_ROLE_CONFUSION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S622",
+      "requirement": "SOURCE_TOOLING_THRESHOLD_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S623",
+      "requirement": "SOURCE_TOOLING_PATH_ESCAPE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S624",
+      "requirement": "SOURCE_TOOLING_SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S625",
+      "requirement": "SOURCE_TOOLING_MUTATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S626",
+      "requirement": "SOURCE_TOOLING_PARTIAL_STATE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S627",
+      "requirement": "SOURCE_TOOLING_ATOMIC_WRITE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S628",
+      "requirement": "SOURCE_TOOLING_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S629",
+      "requirement": "SOURCE_TOOLING_NETWORK_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S630",
+      "requirement": "SOURCE_TOOLING_SUMMARY_TRUST_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S631",
+      "requirement": "SOURCE_TOOLING_NEGATIVE_CONTROL_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S632",
+      "requirement": "SOURCE_TOOLING_ACTIVE_GRAPH_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S633",
+      "requirement": "SOURCE_TOOLING_RUNTIME_MANIFEST_WIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S634",
+      "requirement": "SOURCE_TOOLING_SOURCE_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S635",
+      "requirement": "SOURCE_TOOLING_POINTER_WRITE_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S636",
+      "requirement": "SOURCE_TOOLING_HISTORICAL_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S637",
+      "requirement": "SOURCE_TOOLING_PRIVACY_BOUNDARY_ENFORCED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S638",
+      "requirement": "SOURCE_TOOLING_ERROR_CODE_STABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S639",
+      "requirement": "SOURCE_TOOLING_RECEIPT_SELF_HASHED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R14A_SOURCE_EVIDENCE_SET",
+      "id": "R14A-S640",
+      "requirement": "SOURCE_TOOLING_FINALIZER_INPUT_BOUND",
+      "status": "PASS"
+    }
+  ],
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R14A",
+  "schemaVersion": 1,
+  "selfSha256": "011a761a35a4a895becba6eb288f8b9276524176592f1375b343258c73b6cce4",
+  "state": "RESAMPLE_RUNTIME_R14A_SIGNED_DISTRIBUTION_AND_ROLLBACK_RESISTANCE_SOURCE_SEALED_AWAITING_R13A_FLEET_AND_EXTERNAL_DISTRIBUTION"
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "candidateState": "SOURCE_BAKED_UNPROMOTED",
+  "buildId": "9589f94c2952ceaf55425a60",
+  "sourceRuntimeManifestDigest": "2e47d1633cbd8b88b5636a22b135d183aede2d9cf859126d66b9f624371f9960",
+  "sourceWorkerManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+  "records": [
+    {
+      "path": "README_TDT_EXPORT_PROMOTION_02_APPLIED.md",
+      "sha256": "672abf66245fa8823c97178d8a5d175c99a85ad545ac08f266f187efdc4fe09e",
+      "byteLength": 6516
+    },
+    {
+      "path": "package.json",
+      "sha256": "cb04755951c7324b633330032e99068772c2ddbdb97abf6d70ff58e5dbc26409",
+      "byteLength": 6998
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+      "byteLength": 164589
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "3518310911a739140280d07214ee825f0d14edf9ebd1284798a1be60428e551d",
+      "byteLength": 793
+    },
+    {
+      "path": "electron.mjs",
+      "sha256": "7f730d96334552f25cc7069bc362f9f9dd8f7f036c0834858595df90d6d22d89",
+      "byteLength": 17467
+    },
+    {
+      "path": "preload.cjs",
+      "sha256": "3912054974d47685037de36e8f7bf2e9e3acadb0181f48d16b5e375a103018bc",
+      "byteLength": 1904
+    },
+    {
+      "path": "tools/toolchain-profile.json",
+      "sha256": "cfe36b2ec5c025773dcaac5a563425908fd6c802bb9952d2b051434673e36dc2",
+      "byteLength": 524
+    },
+    {
+      "path": "tools/dependency-policy-exceptions.json",
+      "sha256": "33d06d443152ef0622c4f7f3af0ea6aec902bef36ebb62a51c350653c839100f",
+      "byteLength": 86
+    },
+    {
+      "path": "tools/gate-export-promotion-02.mjs",
+      "sha256": "9608cf2141b2757c1ad74c31289244bbd680addcfc9224ed9ac0f728538df257",
+      "byteLength": 7585
+    },
+    {
+      "path": "tools/generate-emitted-artifact-manifest.mjs",
+      "sha256": "28fa55f5e8d98efe16f98728eb305623700f5162420524eb36f3d95cfe7c2ae7",
+      "byteLength": 4152
+    },
+    {
+      "path": "tools/generate-production-runtime-manifest.mjs",
+      "sha256": "253ce349a898ea7646d1a92d0496927564cb3bf37f27b10f6350215ffe213ca3",
+      "byteLength": 1641
+    },
+    {
+      "path": "tools/generate-package-content-manifest.mjs",
+      "sha256": "17d906301835ec7a7f2a34bcaa98c9c6344b65bb7781ecc988defff4333f1744",
+      "byteLength": 2223
+    },
+    {
+      "path": "tools/verify-static-coi-routes.mjs",
+      "sha256": "f1ab8c150c0667af1db9c34b1fbe7d3fa38dbf4551a373800b796ae3e49faa4c",
+      "byteLength": 3272
+    },
+    {
+      "path": "tools/verify-native-addon-package.mjs",
+      "sha256": "76f62089336267946f86fef425e223b1a38747ccd54bb25e096e63650d5e6735",
+      "byteLength": 1497
+    },
+    {
+      "path": "specs/TDT-EXPORT-PROMOTION-02_CANONICAL_DEPENDENCY_LOCK_REPRODUCIBLE_VITE_WORKER_WASM_BUILD_PACKAGED_ELECTRON_CONTENT_IDENTITY_SPEC.md",
+      "sha256": "b1e34c294af8a5a41d62efa02b3e99605581dffb32918629467d898cd5c425ed",
+      "byteLength": 38358
+    }
+  ],
+  "reports": {
+    "toolchain": "1f8f8135dafbb08bd82a7b35c0b25dee370f7cf304c416cd7c312ad7abd4dd43",
+    "dependencyLock": "b3a76119339ab87013fcec33aa6cbee2b992ce9c591bd962d44f5bd08f62cce8",
+    "productionBuild": "2a79b8ecab577718056bac6cac27a845c8014ad938a04cd2f18d7633c77c4db6",
+    "provenance": "f7b450f32b9f5779f8601d2fa7e41f0e7df35cad1b1a8e3650c2e8d624fe71bf",
+    "promotionPointer": "57a7c7b302c3fe4133adbeb71d485cd13b628735901edd1f50f9b86191e45d8c"
+  },
+  "sourceBakeSeal": "7ed1786f63c03761c926d31a16ef0cf91dbf509925f859e116d7646c9a2bb869"
+}

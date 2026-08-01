@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-HANNAKAIRO-GATE-02",
+  "state": "HANNAKAIRO_GATE_02_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-HANNAKAIRO-PHASE-01",
+  "physicalGpuClaims": false,
+  "productionPointerMutation": false,
+  "results": {
+    "hannakairoGate02": {
+      "pass": 172,
+      "deferred": 12,
+      "fail": 0,
+      "source": 80,
+      "wgsl": 60,
+      "smoke": 32
+    },
+    "hannakairoPhase01": {
+      "pass": 184,
+      "deferred": 12,
+      "fail": 0
+    },
+    "spectralQmap03": {
+      "pass": 204,
+      "deferred": 12,
+      "fail": 0
+    },
+    "spectralQmap02": {
+      "pass": 168,
+      "deferred": 12,
+      "fail": 0
+    },
+    "analysisFieldTruth00": {
+      "pass": 120,
+      "deferred": 8,
+      "fail": 0
+    },
+    "resampleR1A": {
+      "pass": 57,
+      "deferred": 11,
+      "fail": 0
+    },
+    "resampleR1B": {
+      "pass": 72,
+      "deferred": 12,
+      "fail": 0
+    },
+    "resampleR1C": {
+      "pass": 90,
+      "deferred": 6,
+      "fail": 0
+    },
+    "resampleR1D": {
+      "pass": 100,
+      "deferred": 8,
+      "fail": 0
+    },
+    "resampleR2": {
+      "pass": 81,
+      "deferred": 27,
+      "fail": 0
+    },
+    "activeGraph": {
+      "pass": 30,
+      "deferred": 10,
+      "fail": 0,
+      "regressionPass": 19,
+      "regressionTotal": 19,
+      "transpilePass": 8,
+      "transpileTotal": 8
+    },
+    "gpuDeviceSsot": {
+      "pass": 30,
+      "deferred": 30,
+      "fail": 0
+    },
+    "surfaceLifecycle": {
+      "pass": 52,
+      "deferred": 8,
+      "fail": 0
+    },
+    "previewPresenter": {
+      "pass": 50,
+      "deferred": 10,
+      "fail": 0
+    },
+    "runtimeR7": {
+      "status": "PASS"
+    },
+    "exportWorkers01To07": {
+      "status": "PASS"
+    },
+    "exportPromotion01": {
+      "pass": 54,
+      "total": 54
+    },
+    "exportPromotion02": {
+      "pass": 60,
+      "total": 60
+    },
+    "exportPromotion03": {
+      "pass": 68,
+      "total": 68
+    },
+    "buildLock": {
+      "pass": 72,
+      "total": 72
+    },
+    "buildEmit": {
+      "pass": 84,
+      "total": 84
+    },
+    "modjpeg": {
+      "pass": 84,
+      "total": 84
+    },
+    "nativeDecoder": {
+      "pass": 120,
+      "total": 120
+    },
+    "jxlCodec": {
+      "pass": 108,
+      "total": 108
+    },
+    "psdDecoder": {
+      "pass": 112,
+      "total": 112
+    },
+    "promotionBaselineSource": {
+      "pass": 66,
+      "total": 66,
+      "state": "SOURCE_BAKED_UNPROMOTED"
+    },
+    "stableErrors": {
+      "pass": 726,
+      "total": 726
+    },
+    "typescriptSyntax": {
+      "passFiles": 125
+    },
+    "runtimeOwnership": {
+      "status": "PASS"
+    },
+    "bootDeterminism": {
+      "status": "PASS"
+    }
+  },
+  "generated": {
+    "semanticRegistryVersion": "tdt.analysis.semantic-registry.hannakairo-gate-02.v1",
+    "semanticDescriptorCount": 27,
+    "semanticRegistryDigest": "6446f29ee4be3cc212a9049cdf1e77639f1cd962e2c135308e48674426ff9051",
+    "producerCount": 8,
+    "producerInventoryDigest": "dfb916fb3714827501b4f7c12e1850942e43f001013d6ac1e5b43a30e5a1c7f3",
+    "runtimeAssetCount": 51,
+    "runtimeAssetManifestDigest": "240be37d035ddfb88f7fb5859d2a2b4b3391967769f280e2135b70416c58eafd",
+    "activeGraphRoots": 56,
+    "activeGraphNodes": 328,
+    "activeGraphEdges": 335,
+    "activeGraphDigest": "7da74ac253edc095c3ab2c1b92d7c3273c0445878dd7baaf9ee542d2970cee76"
+  },
+  "deferredEvidence": [
+    "physical WGSL compile and bind-group validation",
+    "physical projection and alignment reference parity",
+    "physical exact neutral identity comparator",
+    "actual zero-intermediate-readback tracing",
+    "device-loss interruption and stale publication rejection",
+    "repeated-run GPU memory plateau",
+    "renderer and worker boundary evidence",
+    "Windows x64 Packaged Electron relaunch",
+    "verified-unpromoted promotion receipt"
+  ]
+}

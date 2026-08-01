@@ -1,0 +1,10 @@
+{
+  "failCount": 0,
+  "passCount": 35,
+  "pointerWriterCount": 0,
+  "requiredFileCount": 25,
+  "schemaVersion": 1,
+  "selfSha256": "69b0ddfc9efcf9de1289758ed1e085e7e48aec725280cf1a05bb9ebef7a6e99a",
+  "sourcePhysicalPassCarryForward": 0,
+  "summaryTrustCount": 0
+}

@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "id": "new-coordinator-import",
+      "status": "PASS"
+    },
+    {
+      "id": "old-coordinator-import-retired",
+      "status": "PASS"
+    },
+    {
+      "id": "normal-renderer-entry",
+      "status": "PASS"
+    },
+    {
+      "id": "static-coi-server",
+      "status": "PASS"
+    },
+    {
+      "id": "external-sidecar-env",
+      "status": "PASS"
+    },
+    {
+      "id": "package-root-exec-boundary",
+      "status": "PASS"
+    },
+    {
+      "id": "qualification-controller-host-save",
+      "status": "PASS"
+    },
+    {
+      "id": "qualification-save-target",
+      "status": "PASS"
+    },
+    {
+      "id": "parent-directory-fsync",
+      "status": "PASS"
+    },
+    {
+      "id": "normal-bootstrap-runner",
+      "status": "PASS"
+    },
+    {
+      "id": "composition-outcome",
+      "status": "PASS"
+    },
+    {
+      "id": "preview-public-entry",
+      "status": "PASS"
+    },
+    {
+      "id": "export-public-entry",
+      "status": "PASS"
+    },
+    {
+      "id": "fixture-publication-service",
+      "status": "PASS"
+    },
+    {
+      "id": "operation-grant",
+      "status": "PASS"
+    },
+    {
+      "id": "preload-bridge",
+      "status": "PASS"
+    },
+    {
+      "id": "old-vite-entry-retired",
+      "status": "PASS"
+    },
+    {
+      "id": "old-file-entry-not-loaded",
+      "status": "PASS"
+    },
+    {
+      "id": "direct-driver-import-zero",
+      "status": "PASS"
+    },
+    {
+      "id": "legacy-publication-zero",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "FAIL": 0,
+    "PASS": 20
+  },
+  "receiptKind": "r9a-p1-r1-product-wiring",
+  "schemaVersion": 1,
+  "selfSha256": "5fd2f100dac3271f7103a8817589555d47b843c5b0f10cf3cf5a2c8db7d4c89d"
+}

@@ -1,0 +1,163 @@
+{
+  "controls": [
+    {
+      "detectedErrorCode": "E_R12A_UNRELATED_POINTER_DRIFT",
+      "id": "NC01_UNRELATED_POINTER_DRIFT",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_CONTROLLED_TRANSITION_MISMATCH",
+      "id": "NC02_SOURCE_PACKAGE_MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_SOURCE_SESSION_INVALID",
+      "id": "NC03_QUARANTINED_SOURCE_SESSION",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_UPDATE_LOCK_HELD",
+      "id": "NC04_DOUBLE_UPDATE_LOCK",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_TRANSACTION_STATE_SKIP",
+      "id": "NC05_TRANSACTION_SKIP",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_TRANSACTION_STATE_REWIND",
+      "id": "NC06_TRANSACTION_REWIND",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_JOURNAL_INTENT_MISSING",
+      "id": "NC07_JOURNAL_EFFECT_WITHOUT_INTENT",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_UPDATE_LOCK_AMBIGUOUS",
+      "id": "NC08_STALE_LOCK_IDENTITY_SPLIT",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_OPEN_SESSION_REMAINS",
+      "id": "NC09_ACTIVE_SESSION_REMAINS",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_OPEN_GRANT_REMAINS",
+      "id": "NC10_OPEN_GRANT_REMAINS",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_OPEN_SAVE_SESSION_REMAINS",
+      "id": "NC11_OPEN_SAVE_REMAINS",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_RENDERER_DRAIN_ACK_MISSING",
+      "id": "NC12_RENDERER_ACK_MISSING",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_ACTIVATION_INTENT_STALE",
+      "id": "NC13_STALE_ACTIVATION_INTENT",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_PRODUCTION_POINTER_WRITE_ATTEMPT",
+      "id": "NC14_PRODUCTION_POINTER_WRITE",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_RELAUNCH_REQUEST_INVALID",
+      "id": "NC15_RELAUNCH_NONCE_TAMPER",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_LAUNCHER_HANDOFF_FAILED",
+      "id": "NC16_RELAUNCH_POINTER_MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_TARGET_PROCESS_IDENTITY_MISMATCH",
+      "id": "NC17_TARGET_PACKAGE_MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_OLD_SESSION_REUSE",
+      "id": "NC18_OLD_SESSION_REUSE",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_CROSS_GENERATION_ASSET",
+      "id": "NC19_CROSS_GENERATION_ASSET",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_INTERRUPTED_RECOVERY_AMBIGUOUS",
+      "id": "NC20_AMBIGUOUS_RECOVERY",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_PREVIOUS_PACKAGE_NOT_RECOVERABLE",
+      "id": "NC21_PREVIOUS_PACKAGE_MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_FINAL_RECEIPT_INCOMPLETE",
+      "id": "NC22_PRIVACY_USER_PATH",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_FINAL_RECEIPT_INCOMPLETE",
+      "id": "NC23_PRIVACY_IMAGE_BYTES",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_FINAL_RECEIPT_INCOMPLETE",
+      "id": "NC24_PRIVACY_RAW_CRASH",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_FINAL_RECEIPT_INCOMPLETE",
+      "id": "NC25_FINAL_CHILD_MISSING",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_SILENT_RESTART_FORBIDDEN",
+      "id": "NC26_DEV_SERVER_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_WINDOW_SHOW_BEFORE_COMMIT",
+      "id": "NC27_WINDOW_SHOW_EARLY_STATIC",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_PRODUCTION_POINTER_WRITE_ATTEMPT",
+      "id": "NC28_RENDERER_POINTER_BYPASS_STATIC",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_STAGED_CANARY_FAILED",
+      "id": "NC29_RENDERER_CANARY_CALLBACK_STATIC",
+      "status": "PASS"
+    },
+    {
+      "detectedErrorCode": "E_R12A_PARENT_OR_LINEAGE_INVALID",
+      "id": "NC30_PARENT_RECEIPT_MUTATION",
+      "status": "PASS"
+    }
+  ],
+  "count": 30,
+  "historicalReceiptMutationCount": 0,
+  "localPointerMutationCount": 0,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "productionPointerMutationCount": 0,
+  "schemaVersion": 1,
+  "selfSha256": "e2959f025decf4950e544f3f1b31abe447a3bb71095e47bd50322b359c005818",
+  "silentRestartAllowed": false
+}

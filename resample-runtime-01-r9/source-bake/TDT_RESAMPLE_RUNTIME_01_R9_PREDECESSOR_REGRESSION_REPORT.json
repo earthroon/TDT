@@ -1,0 +1,27 @@
+{
+  "mode": "isolated-r8-regression",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9",
+  "schemaVersion": 1,
+  "status": 0,
+  "tail": [
+    "",
+    "> dadumdadum@1.0.0 verify:resample-runtime-01-r8",
+    "> node tools/resample-runtime-01-r8/run.mjs",
+    "",
+    "generated R8 WGSL 5 outputs",
+    "",
+    "> dadumdadum@1.0.0 generate:active-graph-01",
+    "> node tools/generate-legacy-audit.mjs && node tools/generate-legacy-static-admission.mjs && node tools/generate-runtime-worker-manifest.mjs && node tools/active-graph-01/generate-all.mjs",
+    "",
+    "[legacy-audit] 50 entries annotated; global inventory 2044; Unicode identifiers enabled; per-module admission enabled",
+    "PASS BUILD-EMIT-01 legacy static admission 254/1315 d7cea9973752461f0b1458b291f36d62f505b481909f12b83fa34ac7990d5760",
+    "[TDT-MODJPEG-01] generated 5 worker descriptors b0419fc269eb79df9e9de9a2386893fb0f311e3ddf26c167b14c12155fe9255b",
+    "ACTIVE_GRAPH assets 92 digest=742037fba07ed6d5aa20026db38c05f5e6af20b8bee51789faef813504a2466e",
+    "ACTIVE_GRAPH randomness 0 admitted=402 digest=953697f621b3431f4b36920e9a3c08557be0f2f2b05e096f35312eb59328fa05",
+    "ACTIVE_GRAPH graph roots=56 nodes=382 edges=394 digest=76a3071b8b072c19e42a44e0aa71cfebce2ee41eaae2c67e35b8750ee835dedc",
+    "PASS R8 isolated R7 predecessor regression including R1A-R6 1/1",
+    "TDT-RESAMPLE-RUNTIME-01-R8 250 PASS / 6 DEFERRED / 0 FAIL",
+    ""
+  ]
+}

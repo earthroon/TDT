@@ -1,0 +1,91 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 16
+  },
+  "receiptKind": "r9a-p1-r2-product-wiring",
+  "rows": [
+    {
+      "evidence": true,
+      "id": "WIRE-01-HOLDER-SERVICE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-02-SERVICE-ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-03-EXACT-BUDGET",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-04-CONTROLLED-LOSS",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-05-PREVIEW-PENDING",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-06-EXPORT-PENDING",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-07-PIPELINE-REVOKE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-08-EXPLICIT-REGISTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-09-NO-WEAKMAP-PIPELINES",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-10-PERMIT-MAIN",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-11-PRELOAD",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-12-SAME-COMPOSITION",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-13-THREE-CYCLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-14-POST-VALIDATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-15-NO-DIRECT-DRIVER",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "WIRE-16-PUBLIC-ENTRIES",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "c326a21c2eb80151795ee220d638653a4292704067c052ed0e377e595a87032c"
+}

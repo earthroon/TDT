@@ -1,0 +1,7 @@
+{
+  "noInventedRollbackTarget": true,
+  "noRemoteSilentRollback": true,
+  "phaseAwareContainmentImplemented": true,
+  "schemaVersion": 1,
+  "selfSha256": "56571129151aa85005c5442cc3748c2e3369d4f3b0905fc8512c7f989c71d5e3"
+}

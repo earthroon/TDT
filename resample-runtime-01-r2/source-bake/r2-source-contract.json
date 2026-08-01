@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "pass": true,
+  "checks": [
+    {
+      "id": "SRC-01",
+      "pass": true,
+      "message": "R4 profile exact",
+      "detail": null
+    },
+    {
+      "id": "SRC-02",
+      "pass": true,
+      "message": "R6 profile exact",
+      "detail": null
+    },
+    {
+      "id": "SRC-03",
+      "pass": true,
+      "message": "deterministic reach selector",
+      "detail": null
+    },
+    {
+      "id": "SRC-04",
+      "pass": true,
+      "message": "tile coverage fail closed",
+      "detail": null
+    },
+    {
+      "id": "SRC-05",
+      "pass": true,
+      "message": "r4 shader constants",
+      "detail": null
+    },
+    {
+      "id": "SRC-06",
+      "pass": true,
+      "message": "r6 shader constants",
+      "detail": null
+    },
+    {
+      "id": "SRC-07",
+      "pass": true,
+      "message": "exactly one barrier per product shader",
+      "detail": null
+    },
+    {
+      "id": "SRC-08",
+      "pass": true,
+      "message": "bounds return after barrier",
+      "detail": null
+    },
+    {
+      "id": "SRC-09",
+      "pass": true,
+      "message": "product has no direct load fallback",
+      "detail": null
+    },
+    {
+      "id": "SRC-10",
+      "pass": true,
+      "message": "strict shared tile sampling",
+      "detail": null
+    },
+    {
+      "id": "SRC-11",
+      "pass": true,
+      "message": "validation fallback counter",
+      "detail": null
+    },
+    {
+      "id": "SRC-12",
+      "pass": true,
+      "message": "GPU comparator schema",
+      "detail": null
+    },
+    {
+      "id": "SRC-13",
+      "pass": true,
+      "message": "exact bit parity comparator",
+      "detail": null
+    },
+    {
+      "id": "SRC-14",
+      "pass": true,
+      "message": "R1C reference immutable",
+      "detail": null
+    },
+    {
+      "id": "SRC-15",
+      "pass": true,
+      "message": "bundle owns all R2 resources",
+      "detail": null
+    },
+    {
+      "id": "SRC-16",
+      "pass": true,
+      "message": "runtime selects profile from proof",
+      "detail": null
+    },
+    {
+      "id": "SRC-17",
+      "pass": true,
+      "message": "optimization receipt states strict path",
+      "detail": null
+    },
+    {
+      "id": "SRC-18",
+      "pass": true,
+      "message": "shadow parity runtime present",
+      "detail": null
+    },
+    {
+      "id": "SRC-19",
+      "pass": true,
+      "message": "performance defers honestly and requires parity",
+      "detail": null
+    },
+    {
+      "id": "SRC-20",
+      "pass": true,
+      "message": "timestamp admission owned by GPU Authority",
+      "detail": null
+    },
+    {
+      "id": "SRC-21",
+      "pass": true,
+      "message": "adaptive footprint bounds reach selector",
+      "detail": null
+    },
+    {
+      "id": "SRC-22",
+      "pass": true,
+      "message": "bounded telemetry model",
+      "detail": null
+    },
+    {
+      "id": "SRC-23",
+      "pass": true,
+      "message": "R2 WGSL assets sealed in runtime manifest",
+      "detail": null
+    },
+    {
+      "id": "SRC-24",
+      "pass": true,
+      "message": "paired GPU timestamp harness source",
+      "detail": null
+    },
+    {
+      "id": "SRC-25",
+      "pass": true,
+      "message": "device-loss invalidates R2 bundle",
+      "detail": null
+    }
+  ],
+  "referenceShaderDigest": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+  "productShaderDigests": {
+    "R4": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+    "R6": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7"
+  },
+  "comparatorShaderDigest": "c7fd2b23b9a8cfaf95abc52986cef79759e0f0ecf33430f870d8b92127062bf5"
+}

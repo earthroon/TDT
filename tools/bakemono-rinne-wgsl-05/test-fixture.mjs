@@ -1,0 +1,18 @@
+import crypto from 'node:crypto';
+if (!globalThis.crypto) globalThis.crypto = crypto.webcrypto;
+import { fakeGraph, fakeDevice, fakeTexture, hex } from '../bakemono-rinne-wgsl-04/test-fixture.mjs';
+import { createTransferableCandidateHandleWgsl05 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_adoption.mjs';
+import { sealBakemonoRinneReceiptWgsl05 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_receipt.mjs';
+
+export { fakeTexture, hex };
+export function graphFixture(id='graph:bkr05-source') {
+  const graph=fakeGraph(fakeDevice(),{id});
+  graph.untrackTransient=(resource)=>{ const index=graph.tracked.indexOf(resource); if(index>=0) graph.tracked.splice(index,1); return index>=0; };
+  return graph;
+}
+export const identityFixture=()=>Object.freeze({runtimeEpoch:7,deviceEpoch:3,deviceIdentity:'device:bkr05'});
+export function lowpassReceiptFixture(){return Object.freeze({kernelId:'tdt.ewa.aniso.r6.v4',kernelContractId:'tdt.ewa.kernel-contract.r6.v4',kernelContractDigest:hex('ewa-contract'),parameterAbiId:'tdt.ewa.kernel-abi.r6.v4',plannerId:'tdt.ewa.stage-planner.r8.v1',planDigest:hex('plan'),receiptDigest:hex('lowpass'),bundleIdentity:{generatedOutputs:[{outputDigest:hex('ewa-shader')}],generatedManifestId:'tdt.ewa.generated.manifest.r8.v1',generatedManifestDigest:hex('ewa-manifest')}});}
+export function pipeBundleFixture(){return Object.freeze({pipelineSetIdentityDigest:hex('pipeline-set'),tensorR1C:{pipelineIdentity:'tdt.structure-tensor.chain.v1:d3',shaderDigests:{gradient:hex('gradient'),outer:hex('outer'),blurH:hex('blurH'),blurV:hex('blurV'),eigen:hex('eigen'),axial:hex('axial')}},bakemonoRinneWgsl04:{pipelineIdentityDigest:hex('effect-pipeline'),shaderDigest:hex('effect-shader')}});}
+export function baseSurfaceFixture(graph, identity=identityFixture(), texture=fakeTexture('final-ewa')){return Object.freeze({texture,width:32,height:24,format:'rgba16float',semanticId:'tdt.surface.canonical.linear-premul.rgba16float.v1',transfer:'linear',alphaMode:'premultiplied',coordinateSpace:'output-pixel',runtimeEpoch:identity.runtimeEpoch,deviceEpoch:identity.deviceEpoch,deviceIdentity:identity.deviceIdentity,commandGraphId:graph.id,lowpassReceiptDigest:hex('lowpass')});}
+export function candidateMetadataFixture(graph,identity=identityFixture(),texture=fakeTexture('effect')){return {texture,semanticId:'tdt.surface.bakemono-rinne.r1c-gated-shadow-candidate.linear-premul.v1',width:32,height:24,format:'rgba16float',transfer:'linear',alphaMode:'premultiplied',coordinateSpace:'output-pixel',runtimeEpoch:identity.runtimeEpoch,deviceEpoch:identity.deviceEpoch,deviceIdentity:identity.deviceIdentity,commandGraphId:graph.id,baseLowpassReceiptDigest:hex('lowpass'),terminalTensorProducerReceiptDigest:hex('tensor'),effectDispatchReceiptDigest:hex('effect'),graphRecordingReceiptDigest:hex('graph'),formulaContractReceiptDigest:hex('formula'),phaseReceiptDigest:hex('phase'),lambda2QualificationReceiptDigest:hex('lambda2')};}
+export async function createAdoptionFixture(){const graph=graphFixture(),identity=identityFixture(),base=baseSurfaceFixture(graph,identity),metadata=candidateMetadataFixture(graph,identity),candidate=createTransferableCandidateHandleWgsl05(graph,metadata);graph.trackTransient(metadata.texture);const recordingReceipt=await sealBakemonoRinneReceiptWgsl05({schemaVersion:1,schemaId:'tdt.effect.bakemono-rinne.command-graph-recording-receipt.wgsl04.v1',graphRecording:true});return {graph,identity,base,metadata,candidate,recordingReceipt,effect:{mode:'CANONICAL_FINAL',purpose:'FINAL_SURFACE_PUBLICATION',allowFinalPublication:true,operationId:'operation:bkr05-source'}};}

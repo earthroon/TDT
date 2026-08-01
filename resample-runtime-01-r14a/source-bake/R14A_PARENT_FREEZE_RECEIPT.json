@@ -1,0 +1,13 @@
+{
+  "parentBundleSha256": "2fe000460badb12945aafeed44a49ecfba2d41e6bea15055c9d081bab8b852d9",
+  "parentBytesMutated": false,
+  "parentFleetPending": 744,
+  "parentReceiptSelfSha256": "3d68fee92a582efd61f544b36054e41971da748bfa25a360e0cb41cfb5fbbace",
+  "parentReceiptSha256": "bba464e8d49a37a947ff93912a8e2b06a24c75e21068eb239b67f62b6f99de33",
+  "parentSourcePass": 786,
+  "parentSpecSha256": "0147e19035c89096efaf2e2169362fbdfe2b7c8da6b4125d24036bd5e7d405a5",
+  "productionPointerSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "schemaId": "tdt.resample.parent-freeze.r14a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "032ff6876065894f1bbb1a4fd582f257d9dd7603bb129c49f5088d9f3c4a3865"
+}

@@ -1,0 +1,2816 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 0,
+    "PENDING": 400,
+    "SKIPPED": 0
+  },
+  "gates": [
+    {
+      "evidence": null,
+      "id": "R11A-P001",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_FINAL_RELEASE_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P002",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_FINAL_RELEASE_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P003",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_FINAL_RELEASE_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P004",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_SOURCE_PASS_260_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P005",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_RELEASE_PASS_300_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P006",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_UNRESOLVED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P007",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_LINEAGE_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P008",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_LINEAGE_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P009",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_LINEAGE_SELF_HASH_VALID_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P010",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_LINEAGE_HEAD_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P011",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_R8A_CURRENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P012",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_R9A_SOURCE_CURRENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P013",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_R9A_PHYSICAL_CURRENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P014",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_RELEASE_CURRENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P015",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_R11A_REQUIRED_NOT_CURRENT_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P016",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRODUCTION_POINTER_SCHEMA_V3",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P017",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRODUCTION_POINTER_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P018",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRODUCTION_POINTER_RAW_HASH_MATCH_R10A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P019",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRODUCTION_POINTER_GENERATION_MATCH_R10A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P020",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRODUCTION_POINTER_BUILD_MATCH_R10A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P021",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRODUCTION_POINTER_PACKAGE_MATCH_R10A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P022",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXECUTING_PACKAGE_MATCH_POINTER",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P023",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXECUTING_BUILD_MATCH_POINTER",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P024",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RUNTIME_CLOSURE_MATCH_R10A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P025",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PACKAGE_CONTENT_ID_RECOMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P026",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PACKAGE_CONTENT_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P027",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PACKAGE_READ_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P028",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PACKAGE_PRE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P029",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R8A_SOURCE_RECEIPT_IN_PACKAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P030",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R9A_SOURCE_RECEIPT_IN_PACKAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P031",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R9A_PHYSICAL_RECEIPT_IN_PACKAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P032",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ACTIVE_GRAPH_RECEIPT_IN_PACKAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P033",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "JAVASCRIPT_PARSE_RECEIPT_IN_PACKAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P034",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPECTED_INSTALLATION_MANIFEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P035",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPECTED_INSTALLATION_MANIFEST_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P036",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLED_FILE_COUNT_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P037",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLED_TOTAL_BYTES_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P038",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLED_PATH_SET_DIGEST_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P039",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLED_EXTRA_EXECUTABLE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P040",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLED_SYMLINK_ESCAPE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P041",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PACKAGED_ELECTRON_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P042",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PROCESS_BOOT_ID_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P043",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_LOCK_ACQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P044",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_LOCK_SINGLE_OWNER",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P045",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_STATE_READ_BEFORE_WINDOW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P046",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ACTIVE_QUARANTINE_BLOCKS_NORMAL_WINDOW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P047",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "R10A_ADMISSION_BEFORE_WINDOW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P048",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_READ_BEFORE_WINDOW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P049",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_ATTESTATION_BEFORE_WINDOW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P050",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "NO_USER_CONTENT_READ_BEFORE_ADMISSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P051",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "BROWSER_WINDOW_CREATED_HIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P052",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "BROWSER_WINDOW_SHOW_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P053",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PRELOAD_PATH_CANONICAL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P054",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONTEXT_ISOLATION_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P055",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "NODE_INTEGRATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P056",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVTOOLS_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P057",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ADMISSION_WINDOW_ID_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P058",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "WEB_CONTENTS_ID_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P059",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_PROCESS_ID_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P060",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_RECEIPT_WRITTEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P061",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_RECEIPT_FSYNC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P062",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_RECEIPT_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P063",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_RECEIPT_SELF_HASH_VALID_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P064",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_PACKAGE_BINDING",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P065",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_POINTER_BINDING",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P066",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_RELEASE_BINDING",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P067",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_ACTIVE_GRAPH_BINDING",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P068",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_ZERO_POINTER_MUTATION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P069",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_ZERO_LOCAL_POINTER_MUTATION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P070",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_PREFLIGHT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P071",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_LOADED_WHILE_HIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P072",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_PREFLIGHT_STATUS_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P073",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_BUILD_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P074",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_ACTIVE_GRAPH_DIGEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P075",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "GPU_HARDWARE_D3D12",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P076",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "GPU_SOFTWARE_ADAPTER_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P077",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "GPU_DEVICE_EPOCH_POSITIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P078",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ADAPTER_IDENTITY_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P079",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DRIVER_IDENTITY_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P080",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_CHALLENGE_ISSUED_BY_MAIN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P081",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_CHALLENGE_NONCE_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P082",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_FIXTURE_SET_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P083",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_NO_USER_FILE_INPUT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P084",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_R8A_KERNEL_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P085",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_R8A_CONTRACT_DIGEST_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P086",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_R9A_COMMAND_GRAPH_DIGEST_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P087",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_ENCODER_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P088",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_SUBMIT_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P089",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_PREMAP_FENCE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P090",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_DOUBLE_DISPATCH_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P091",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_UNIFORM_OVERWRITE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P092",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P093",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_POSITIVE_CONTROL_OBSERVED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P094",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_FAULT_SENTINEL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P095",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_NONFINITE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P096",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_PRODUCT_REFERENCE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P097",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_ORACLE_MAX_ULP_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P098",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_PREVIEW_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P099",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_EXPORT_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P100",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_CPU_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P101",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P102",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_RECEIPT_PACKAGE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P103",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_RECEIPT_POINTER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P104",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_RECEIPT_DEVICE_EPOCH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P105",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_RECEIPT_ACTIVE_GRAPH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P106",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_RECEIPT_CHALLENGE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P107",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P108",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_REPLAY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P109",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CANARY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P110",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "WORKSPACE_STILL_HIDDEN_BEFORE_TOKEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P111",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_SESSION_RECORD_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P112",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_ID_RANDOM_256BIT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P113",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_GENERATION_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P114",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_WEB_CONTENTS_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P115",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_RENDERER_PID_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P116",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_WINDOW_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P117",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_BUILD_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P118",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_PACKAGE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P119",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_CLOSURE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P120",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_POINTER_GENERATION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P121",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_POINTER_HASH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P122",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_ACTIVE_GRAPH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P123",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_DEVICE_EPOCH_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P124",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_ADAPTER_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P125",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_DRIVER_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P126",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_CANARY_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P127",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_MAIN_BOOT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P128",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_HMAC_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P129",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SIGNING_KEY_MAIN_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P130",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_PUBLIC_ENVELOPE_FROZEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P131",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_REQUEST_SINGLE_USE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P132",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DUPLICATE_SESSION_REQUEST_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P133",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_CAPABILITY_PUBLISHED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P134",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "BOOT_RECEIPT_ADMISSION_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P135",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "BOOT_RECEIPT_PROMOTABLE_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P136",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_READY_SIGNAL_SESSION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P137",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MAIN_READY_ACK_SESSION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P138",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "WINDOW_SHOWN_AFTER_ACK",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P139",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "WINDOW_NOT_SHOWN_EARLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P140",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "UI_WORKSPACE_CAPABILITY_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P141",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_MARKER_WRITTEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P142",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_MARKER_FSYNC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P143",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_MARKER_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P144",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_MARKER_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P145",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_START_LEDGER_APPEND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P146",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_START_LEDGER_HASH_CHAIN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P147",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_START_LEDGER_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P148",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_TOKEN_ISSUANCE_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P149",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_ADMITTED_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P150",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "NORMAL_WORKSPACE_INTERACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P151",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_GRANT_ISSUED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P152",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_GRANT_SCOPE_PREVIEW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P153",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_GRANT_SESSION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P154",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_GRANT_SENDER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P155",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_GRANT_DEVICE_EPOCH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P156",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_GRANT_ACTIVE_GRAPH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P157",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_SEQUENCE_MONOTONIC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P158",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_NONCE_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P159",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_HMAC_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P160",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_JOB_REPLAY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P161",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_PRESENTER_REQUIRES_GRANT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P162",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_SCHEDULER_REQUIRES_GRANT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P163",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_FINAL_REVISION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P164",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_SURFACE_ID_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P165",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_FRAME_RECEIPT_SESSION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P166",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_FRAME_RECEIPT_JOB_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P167",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_FRAME_RECEIPT_GRANT_DIGEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P168",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_FRAME_RECEIPT_DEVICE_EPOCH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P169",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_COMPLETION_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P170",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_COMPLETION_SINGLE_USE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P171",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_WITHOUT_SESSION_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P172",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_WITHOUT_GRANT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P173",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_WRONG_SCOPE_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P174",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_STALE_GRANT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P175",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_STALE_EPOCH_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P176",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_REVOKED_SESSION_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P177",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_CANVAS_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P178",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_WEBGL_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P179",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_CPU_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P180",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "PREVIEW_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P181",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_ISSUED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P182",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_SCOPE_EXPORT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P183",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_SESSION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P184",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_SENDER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P185",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_FINAL_REVISION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P186",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_ENCODER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P187",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_GRANT_OPTIONS_DIGEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P188",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_SEQUENCE_MONOTONIC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P189",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_NONCE_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P190",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_HMAC_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P191",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_JOB_REPLAY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P192",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_AUTHORITY_PRECHECK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P193",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_AUTHORITY_POST_ENCODE_RECHECK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P194",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_AUTHORITY_PRE_SAVE_RECHECK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P195",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_AUTHORITY_POST_SAVE_RECHECK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P196",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_ENCODER_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P197",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_R8A_KERNEL_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P198",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_R9A_COMMAND_GRAPH_IDENTITY_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P199",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P200",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_UNIFORM_OVERWRITE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P201",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_CPU_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P202",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P203",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_BEGIN_REQUIRES_GRANT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P204",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_CHUNK_SESSION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P205",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_COMMIT_REQUIRES_GRANT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P206",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_ABORT_ON_REVOKE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P207",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_ATOMIC_RENAME",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P208",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_FSYNC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P209",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "HOST_SAVE_READBACK_DIGEST",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P210",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_RECEIPT_SESSION_ID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P211",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_RECEIPT_JOB_SEQUENCE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P212",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_RECEIPT_GRANT_DIGEST",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P213",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_RECEIPT_SAVE_DIGEST",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P214",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_COMPLETION_SINGLE_USE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P215",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_WITHOUT_SESSION_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P216",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_WITHOUT_GRANT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P217",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_WRONG_SCOPE_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P218",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_STALE_GRANT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P219",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_MID_JOB_REVOKE_DISCARDS_OUTPUT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P220",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EXPORT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P221",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_EVENT_GPU_AUTHORITY_ORIGIN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P222",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_EVENT_SESSION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P223",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_EVENT_DEVICE_EPOCH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P224",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_REVOKES_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P225",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_REVOKES_OPEN_GRANTS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P226",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_ABORTS_EXPORT_SAVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P227",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_SUSPENDS_PREVIEW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P228",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_CANVAS_UNCONFIGURED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P229",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_RECOVERY_STATE_ENTERED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P230",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_LEDGER_APPEND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P231",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_LEDGER_HASH_CHAIN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P232",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_COUNT_SESSION_INCREMENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P233",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_COUNT_24H_INCREMENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P234",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FIRST_LOSS_RECOVERY_ALLOWED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P235",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_CHALLENGE_MAIN_OWNED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P236",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_NEW_DEVICE_EPOCH_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P237",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_NEW_ADAPTER_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P238",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_NEW_DRIVER_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P239",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_SAME_BUILD_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P240",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_SAME_PACKAGE_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P241",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_POINTER_UNCHANGED_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P242",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_ACTIVE_GRAPH_UNCHANGED_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P243",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_R8A_KERNEL_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P244",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_R9A_COMMAND_GRAPH_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P245",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P246",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_PRODUCT_REFERENCE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P247",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_ORACLE_ULP_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P248",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_PREVIEW_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P249",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_EXPORT_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P250",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_CPU_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P251",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_SILENT_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P252",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_CANARY_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P253",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_CANARY_CHALLENGE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P254",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_OLD_SESSION_REMAINS_REVOKED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P255",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_NEW_SESSION_GENERATION_TWO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P256",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_NEW_SESSION_HMAC_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P257",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_WINDOW_REMAINS_SAME",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P258",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_PREVIEW_RESUMED_AFTER_TOKEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P259",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RECOVERY_EXPORT_RESUMED_AFTER_TOKEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P260",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FIRST_LOSS_RECOVERY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P261",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SECOND_LOSS_SAME_SESSION_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P262",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "THIRD_LOSS_24H_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P263",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POST_LOSS_CANARY_FAILURE_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P264",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "STALE_RECOVERY_RECEIPT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P265",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "DEVICE_LOSS_RECOVERY_FINAL_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P266",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDER_PROCESS_GONE_LISTENER_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P267",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "GPU_PROCESS_GONE_LISTENER_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P268",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_LISTENER_DUPLICATE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P269",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_EVENT_SESSION_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P270",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_EVENT_PACKAGE_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P271",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_EVENT_POINTER_GENERATION_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P272",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_EVENT_NO_USER_CONTENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P273",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_LEDGER_APPEND_ONLY_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P274",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_LEDGER_HASH_CHAIN_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P275",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_LEDGER_FSYNC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P276",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CRASH_LEDGER_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P277",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CLEAN_SESSION_TERMINATION_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P278",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "UNCLEAN_SESSION_DETECTED_NEXT_BOOT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P279",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAST_10_SESSION_WINDOW_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P280",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_CRASH_COUNT_COMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P281",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "GPU_CRASH_COUNT_COMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P282",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "RENDERER_THRESHOLD_3_TRIGGER",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P283",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "GPU_THRESHOLD_2_TRIGGER",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P284",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "BELOW_THRESHOLD_NO_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P285",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "THRESHOLD_TRIGGER_REVOKES_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P286",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "THRESHOLD_TRIGGER_BLOCKS_WINDOW",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P287",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_RECORD_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P288",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_RECORD_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P289",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_REASON_STABLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P290",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_EVIDENCE_PACKAGE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P291",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_EVIDENCE_POINTER_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P292",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_EVIDENCE_SESSION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P293",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_ACTIVE_NEXT_BOOT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P294",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_CLEAR_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P295",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P296",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_TARGET_FROM_R10A_PREVIOUS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P297",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_TARGET_QUALIFIED_CURRENT_LINEAGE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P298",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P299",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_R10A_INPUT_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P300",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P301",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_LOCAL_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P302",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_NO_INVENTED_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P303",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "ROLLBACK_RECOMMENDATION_NO_NETWORK_SEND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P304",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P305",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "QUARANTINE_DRILL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P306",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_USER_PATH_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P307",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_FILENAME_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P308",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_PIXEL_HASH_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P309",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_IMAGE_BYTES_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P310",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_THUMBNAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P311",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_EXIF_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P312",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_ACCOUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P313",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_EMAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P314",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_PRECISE_LOCATION_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P315",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "EVIDENCE_HARDWARE_SERIAL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P316",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "NETWORK_TELEMETRY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P317",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_NORMAL_STARTS_10",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P318",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_NORMAL_TERMINATIONS_10",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P319",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_TOKEN_REPLAY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P320",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_GRANT_REPLAY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P321",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_PREVIEW_JOBS_POSITIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P322",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_EXPORT_JOBS_POSITIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P323",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_PENDING_JOBS_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P324",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_SAVE_SESSIONS_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P325",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_LISTENER_COUNT_STABLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P326",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_REGISTRY_SIZE_ZERO_AFTER_CLOSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P327",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_MEMORY_PLATEAU",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P328",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_POINTER_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P329",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SESSION_SOAK_PACKAGE_BYTES_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P330",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P331",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P332",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_CHILD_DIGESTS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P333",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_SOURCE_PASS_332",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P334",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_INSTALLED_PASS_400",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P335",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_UNRESOLVED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P336",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_QUARANTINED_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P337",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_TOKEN_ISSUED_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P338",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_PREVIEW_ENFORCED_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P339",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_EXPORT_ENFORCED_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P340",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_CRASH_MONITOR_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P341",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_DEVICE_LOSS_DRILL_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P342",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P343",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "INSTALLATION_FINAL_RECEIPT_LOCAL_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P344",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FINAL_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P345",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "NEXT_AUTHORITY_R12A",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P346",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_SECOND_NORMAL_WINDOW_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P347",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_RECOVERY_WINDOW_SEPARATE_CAPABILITY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P348",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_R9_PHYSICAL_WINDOW_EXCLUDED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P349",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_SESSION_NOT_SHARED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P350",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_WEB_CONTENTS_BINDING_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P351",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_WINDOW_CLOSE_REVOKES_ONLY_BOUND_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P352",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_DESTROYED_SENDER_GRANT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P353",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_NAVIGATION_REVOKES_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P354",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_NEW_WINDOW_REQUIRES_PREFLIGHT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P355",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "MULTI_WINDOW_LISTENER_OWNERSHIP_STABLE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P356",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_WATCH_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P357",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_GENERATION_CHANGE_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P358",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_RAW_HASH_CHANGE_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P359",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_BUILD_CHANGE_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P360",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_PACKAGE_CHANGE_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P361",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_REVOKES_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P362",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_REVOKES_OPEN_GRANTS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P363",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_BLOCKS_SAVE_COMMIT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P364",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_QUARANTINE_OR_RESTART_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P365",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "POINTER_DRIFT_R11A_POINTER_WRITE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P366",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_ASSET_ADMISSION_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P367",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_WORKER_HASH_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P368",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_WASM_HASH_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P369",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_PTHREAD_HELPER_HASH_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P370",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_NATIVE_ADDON_HASH_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P371",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_WGSL_HASH_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P372",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_GENERATED_MANIFEST_HASH_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P373",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_ASSET_PACKAGE_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P374",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_ASSET_DRIFT_REVOKES_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P375",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "LAZY_ASSET_DRIFT_QUARANTINES",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P376",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_PREVIEW_GRANTS_SEQUENCED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P377",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_EXPORT_GRANTS_SEQUENCED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P378",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_PREVIEW_EXPORT_SCOPE_ISOLATED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P379",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_EXPORT_SAVE_SESSIONS_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P380",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_GRANT_COMPLETION_IDEMPOTENT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P381",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_ABORT_RECLAIMS_GRANT",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P382",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_SESSION_REVOKE_DRAINS_GRANTS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P383",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_PENDING_JOB_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P384",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_DUPLICATE_COMPLETION_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P385",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "CONCURRENT_JOB_LEDGER_HASH_CHAIN_VALID",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P386",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_BEFORE_QUIT_REVOKES_SESSION",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P387",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_BEFORE_QUIT_ABORTS_SAVE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P388",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_BEFORE_QUIT_DRAINS_JOBS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P389",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_SESSION_MARKER_CLEAN",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P390",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_SESSION_LEDGER_CLEAN_ENTRY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P391",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_WINDOW_UNLOAD_DOUBLE_REVOKE_SAFE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P392",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_MAIN_EXIT_REGISTRY_EMPTY",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P393",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_TEMP_FILE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P394",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_LOCK_RELEASED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P395",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "SHUTDOWN_QUARANTINE_LEDGER_CLOSED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P396",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FINAL_ACTIVE_SESSION_COUNT_ONE",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P397",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FINAL_OPEN_GRANT_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P398",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FINAL_OPEN_SAVE_SESSION_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P399",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FINAL_POINTER_MIRRORS_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R11A-P400",
+      "reason": "requires-current-R10A-release-packaged-Electron-installed-closure-physical-startup-canary-runtime-session-preview-export-host-save-and-quarantine-drills",
+      "requirement": "FINAL_PACKAGE_BYTES_UNCHANGED",
+      "status": "PENDING"
+    }
+  ],
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "schemaId": "tdt.resample.installed-gate-status.r11a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "6ef7d876c551e482780348900a5dffcfd50673c0af6063006ca819eff7e5aea8",
+  "state": "AWAITING_R10A_RELEASE_AND_INSTALLED_ELECTRON"
+}

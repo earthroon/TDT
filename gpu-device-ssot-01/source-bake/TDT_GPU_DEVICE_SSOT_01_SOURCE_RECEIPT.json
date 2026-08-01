@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-GPU-DEVICE-SSOT-01",
+  "state": "GPU_DEVICE_SSOT_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "gateCounts": {
+    "PASS": 30,
+    "DEFERRED": 30
+  },
+  "productionPointerMutated": false,
+  "packagedClaims": false,
+  "changedFileCount": 80,
+  "files": [
+    {
+      "relative": "app/legacy-runtime/EmotionPipeline_tensorFinal_patch.js",
+      "status": "modified",
+      "sha256": "586cb2785fb81ce3dc4e4f583b1c100055208df7598845d0365426c6fe40025a",
+      "byteLength": 12830
+    },
+    {
+      "relative": "app/legacy-runtime/EmotionPipeline_tensorFinal_patch_autowire.js",
+      "status": "modified",
+      "sha256": "7327702e36656781a80f9fc5feeb2f125d472d52dc04ad95f79848027662bf5e",
+      "byteLength": 7763
+    },
+    {
+      "relative": "app/legacy-runtime/core/app/core/#U00d1#U2500K_Qmap/webgpu/qmap_lab_sep9.js",
+      "status": "modified",
+      "sha256": "c81f0b49585238a05acdda7b6a9b2d9619a3bc61aef78cfa07ace218da6a22cf",
+      "byteLength": 3650
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/adaptive_ewa_downscale_pass.js",
+      "status": "modified",
+      "sha256": "a5ef179a0ec00d15812a0c2d2697dc742b1e8deada186412fce9d8e89797dfed",
+      "byteLength": 16632
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/downscale_pass.js",
+      "status": "modified",
+      "sha256": "7026263c7005e9a0fe41b8ce73efa316e75d80cd17e6961d5732e9d26b8999f4",
+      "byteLength": 4772
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/ewa_aniso_downscale_pass.js",
+      "status": "modified",
+      "sha256": "ba6a04d2db192c058d2d0a3a332e1e3683bf0127ea3dd798994e2fb9a09a05f7",
+      "byteLength": 5387
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/qmap_lod_meanmax_mix_pass.js",
+      "status": "modified",
+      "sha256": "5083067a7ea1924af7023ce3328b2b4dc8c0893a739616b87b8008307e28d6eb",
+      "byteLength": 4447
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/tilemask_from_qmap_pass.js",
+      "status": "modified",
+      "sha256": "e3a0cd2b1a3eb14658de2d6d8888ca7bf8232a2d39c85670fcfcb25efa957cdd",
+      "byteLength": 8250
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "status": "modified",
+      "sha256": "8bef11af28fee3c12aa0467e20907b990374277adc8b05902c8d2fb3f93dee63",
+      "byteLength": 30665
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/preprocess_webgpu/preprocess_pass.js",
+      "status": "modified",
+      "sha256": "fac9f51ed3af5c583f9a648d70f2b0b384ad7169d3e51bfc4bf92c3b789bd895",
+      "byteLength": 4134
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/adapter.js",
+      "status": "modified",
+      "sha256": "f8dd7604707c4f2f95f3b0ea50bc74c51eb5d73fa41760e140635aabafe420f1",
+      "byteLength": 3484
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/adapter_compat.js",
+      "status": "modified",
+      "sha256": "3d38a2299a5194b6b8548e5f1e075a1155a2743736835ab228adcd474fbeeee8",
+      "byteLength": 1803
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_webgpu.js",
+      "status": "modified",
+      "sha256": "9c25490084fd6d1d2ad4befc4e75f1be01a69d070ed6626a8f4cc47e33ce3136",
+      "byteLength": 4214
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_webgpu.js",
+      "status": "modified",
+      "sha256": "4c9d8853ac9a9a46ef6379cb3b0476b203df82e7e8c6296522106d7216474b3c",
+      "byteLength": 3992
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "status": "modified",
+      "sha256": "fe15fafebd1e6a6d236639b85194d81db1fbb583b3c399ee5ff7bb10fe060e73",
+      "byteLength": 8345
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_gammaProof_webgpu.mjs",
+      "status": "modified",
+      "sha256": "28ae1aef32b395caa1d8956aa6fc7d0e2a126b6ba6599edf4002497f6504cc60",
+      "byteLength": 2513
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "status": "modified",
+      "sha256": "43f2d3b2b08006ef581ac16992a6ca7cd2c358d37180d0bb58fa6ccd2220592c",
+      "byteLength": 13784
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/guided_webgpu.js",
+      "status": "modified",
+      "sha256": "96958a15c5475c12d6e3859b2fd7dde141ef331cb3a4ced1678f53067825f2b4",
+      "byteLength": 8966
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_webgpu.js",
+      "status": "modified",
+      "sha256": "5cc0b463fc21079e6dbcfa6db32e83705f9e440d0754bc0b0528ad7b07ff4da2",
+      "byteLength": 4344
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/preblur_webgpu.js",
+      "status": "modified",
+      "sha256": "9e4c205ca1bb70a2d25439921052ce60148f5e42b7e3968e4cd22e1d92c95108",
+      "byteLength": 3991
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/resize_webgpu.js",
+      "status": "modified",
+      "sha256": "21e6893b4030dc6b9c4350bf789f9efc97e30bcf318350755fdd83c52be05b85",
+      "byteLength": 7825
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "status": "modified",
+      "sha256": "2eb81ff78d6423d172b6501dc6c4d97325497f4683006ebba9927dba1a2f7f8b",
+      "byteLength": 61866
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/worker_porttrace.js",
+      "status": "modified",
+      "sha256": "8269e67b352776673915970f8cadb8853ad852f4ae0ee1943e210c53632c7216",
+      "byteLength": 275
+    },
+    {
+      "relative": "app/legacy-runtime/core/deltaE_webgpu.js",
+      "status": "modified",
+      "sha256": "3730ff7a2396c0d4f282fd74a4c5ddb01b9222086f7da918aaafa311c8f274de",
+      "byteLength": 4047
+    },
+    {
+      "relative": "app/legacy-runtime/core/patch/passA_colorDenoise_bind.js",
+      "status": "modified",
+      "sha256": "9bef5d5919b7f6adc59bddeb99f6a4dfc134786aa1fe3b16b659ea1f1a1969a4",
+      "byteLength": 1996
+    },
+    {
+      "relative": "app/legacy-runtime/core/path_stabilizer_from_src.js",
+      "status": "modified",
+      "sha256": "545bd4e5556a61989981b38e455b2ebdfbd1aa0877d65b00a1792c8ffb2270fb",
+      "byteLength": 5959
+    },
+    {
+      "relative": "app/legacy-runtime/core/qmap/dk_fft_qmap_webgpu_v2.js",
+      "status": "modified",
+      "sha256": "a90a209d4581ce6b3e4c6941e22c8e2338654c7430860504d928eb190cac37d0",
+      "byteLength": 2595
+    },
+    {
+      "relative": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "status": "modified",
+      "sha256": "fb72b352b32676a3adc353d16c56a7d1feff3bc9c4ea0f1b61b82d9735f9f8a3",
+      "byteLength": 23329
+    },
+    {
+      "relative": "app/legacy-runtime/core/worker_porttrace.js",
+      "status": "modified",
+      "sha256": "8269e67b352776673915970f8cadb8853ad852f4ae0ee1943e210c53632c7216",
+      "byteLength": 275
+    },
+    {
+      "relative": "app/legacy-runtime/init/shader_warmup.js",
+      "status": "modified",
+      "sha256": "e3f552214a09e243a6287b3a0a1f0a7f7e2379948202e23dcff9e8388fae304e",
+      "byteLength": 1003
+    },
+    {
+      "relative": "app/legacy-runtime/input/webgpu_source_bridge.js",
+      "status": "modified",
+      "sha256": "7250613f917d54914562e684f082f26b582f2a74d5b4fda84e10d327156c0598",
+      "byteLength": 2982
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/blendif_webgpu_pass.js",
+      "status": "modified",
+      "sha256": "dbf2e18792d537edb38dda84823ac07bd10de53d2655eaeeae309edacf892e79",
+      "byteLength": 6567
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/blit_webgpu.js",
+      "status": "modified",
+      "sha256": "bf08e6b32159abf2342b2b651f67fb113b145e844e8501f982ebfbc1d80c35ca",
+      "byteLength": 4103
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/dk_builder_webgpu_compute.js",
+      "status": "modified",
+      "sha256": "942e9ffc6e4fb95bc05f40851463a38c7e177ebe78ff3e7dffdd8d59ef4283e9",
+      "byteLength": 8680
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/present_webgpu.js",
+      "status": "modified",
+      "sha256": "ab49829547ad83a85084d6857afc4a1681efe6cd82b65e7de0f02e32f389a55f",
+      "byteLength": 381
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "status": "modified",
+      "sha256": "dd54ff8b59af0424619d68899dfd738233bae67fb68adedf72f27c782eefb182",
+      "byteLength": 1805
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/qwave_warp_webgpu_pass.js",
+      "status": "modified",
+      "sha256": "b069a32c69e15b502e433748fbee87f3ec41cd85ebe6313e9d1f2890ca489a8e",
+      "byteLength": 6949
+    },
+    {
+      "relative": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "status": "modified",
+      "sha256": "2e34a0423f3065d0d9828661f816b63ccbe2c22f0478d2221eabeb0c6b80aa7f",
+      "byteLength": 17350
+    },
+    {
+      "relative": "app/legacy-runtime/patch/passA_colorDenoise_bind.js",
+      "status": "modified",
+      "sha256": "7015bf829e4b10bcb4404ca44633c8730f52193e9ccbf6d9063e8b6053c37762",
+      "byteLength": 1986
+    },
+    {
+      "relative": "app/legacy-runtime/qmap_shared_surface.js",
+      "status": "modified",
+      "sha256": "04f92e2e8a46451a70978e13946519913b7ee50d13e3c652309369fb8d592e2e",
+      "byteLength": 4896
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_system.js",
+      "status": "modified",
+      "sha256": "f86ed74ed1cd222a73ee25b35833cabf7c362c321c7e9fd62d27516dc7d1bfb2",
+      "byteLength": 20183
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_webgpu_overlay.js",
+      "status": "modified",
+      "sha256": "67bed0c312a0d3568cbb1a28c23bf38e52e1ad2686ef21cd3be6091d30c89edc",
+      "byteLength": 12258
+    },
+    {
+      "relative": "app/legacy-runtime/webgpu_cache_shaders.js",
+      "status": "modified",
+      "sha256": "b2382a31fa08811551dc2cd1bf09281483f00e069e43a1a95547930f0b109925",
+      "byteLength": 3691
+    },
+    {
+      "relative": "app/legacy-runtime/webgpu_runtime.js",
+      "status": "modified",
+      "sha256": "364dbd001b933812479d3db5f77e2c2466074663bd0a14360824f0e06ee5b185",
+      "byteLength": 3249
+    },
+    {
+      "relative": "app/src/boot/bootstrap-renderer.ts",
+      "status": "modified",
+      "sha256": "bb9a5a90710a059d25a91e216868431f0210a4fb86bbe5e5ff2b87210d994319",
+      "byteLength": 6536
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "status": "modified",
+      "sha256": "4e32f48035149b41404a5010aeeb51235550f2ff9333c3044134b8089945caab",
+      "byteLength": 30676
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "status": "modified",
+      "sha256": "0391be24b98ad0aa32afefc431a8d1c17af1998fdeec85a2c1470d94c05c944d",
+      "byteLength": 29867
+    },
+    {
+      "relative": "app/src/env.d.ts",
+      "status": "modified",
+      "sha256": "8075ef1a97766aee49bda156d6288b7b327eb775e3ee812cbb586104a2fe9158",
+      "byteLength": 11460
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "status": "modified",
+      "sha256": "1f37ae32928690f7dbc58a5db13ae0b0270c5e1e5ec242303a7ab227739caf1d",
+      "byteLength": 72456
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "status": "modified",
+      "sha256": "ce22aef4ace11103188ced466f13ee23c9d338971989e6747fc5bc004cecfbf9",
+      "byteLength": 106337
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "status": "modified",
+      "sha256": "47583b66f2c2840b1828c250c5ca2746361cdf0e1970f797899de728ed4161ff",
+      "byteLength": 214770
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-authority-profile.json",
+      "status": "added",
+      "sha256": "09312098623d4a8eecd152e3247928391c796740a4d8a0384a41d49d540e03f4",
+      "byteLength": 760
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "status": "added",
+      "sha256": "ea2b7dc72d354bba905366a84aa9739f70a3f19c588b8f7540ddbba14989e031",
+      "byteLength": 2049
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "status": "added",
+      "sha256": "bb12af97e2fb8390ff847396e09edde60570c3e224f3430010244a75b3dbeb4e",
+      "byteLength": 23079
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-service.ts",
+      "status": "modified",
+      "sha256": "ee678c9e90223ed44d69f8bfa1bb47066fff89ab6c60bd598d7236618d871b0a",
+      "byteLength": 346
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "status": "modified",
+      "sha256": "4b70bfee616a4994a43585659b1392e7419e6c62e38f74dd99effcfc04de29a8",
+      "byteLength": 1704
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "status": "modified",
+      "sha256": "82719a155c86f82536b4ebdf3769afd8942600a64053b4eabf50561692717c53",
+      "byteLength": 460
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/node-manifest.json",
+      "status": "modified",
+      "sha256": "81a778d4bbea22518540d4d26507e6084b9009f0fa1b94561e6a2e09d125b881",
+      "byteLength": 132339
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "status": "modified",
+      "sha256": "9e18981074922cb0e455221a1657df63ebed1ebd1b7c3108f2bf4a45e6c07043",
+      "byteLength": 230
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "status": "modified",
+      "sha256": "14c6e53e1f10466328f3a64ac7976da0e611513f251b775cdeffdc87b0bd6eab",
+      "byteLength": 9988
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-gate-report.json",
+      "status": "modified",
+      "sha256": "1c29fde72f4378df60c796bf08f7d0bc4ea19a3d1e75f754b437fb47af23908a",
+      "byteLength": 9286
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/input/canonical-baseline-input.json",
+      "status": "modified",
+      "sha256": "0e5fc7a75d017df3e6cbd6da53943a9fefdc89452bed0e1dca7e59e80db05e11",
+      "byteLength": 1523
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/input/input-audit-receipt.json",
+      "status": "modified",
+      "sha256": "e763adb0e8803d456a91a34f7f56025a193f6ca5dab35f026634ae08cdec3780",
+      "byteLength": 2680
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/receipts/source-bake-receipt.json",
+      "status": "modified",
+      "sha256": "3c47d209de46efe0789df28c3511abdc5ea4f4f169882003f5687b8ddf131897",
+      "byteLength": 1019
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/receipts/source-gate-report.json",
+      "status": "modified",
+      "sha256": "355855b9b7a7b6e942013f2f362501553122bb6611f86b2d978dc537f0688614",
+      "byteLength": 9822
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/receipts/typescript-transpile-report.json",
+      "status": "modified",
+      "sha256": "1c67146d77a7ba23738a1fd9cc73336cef895573343641fc6cccae2447f1bcdb",
+      "byteLength": 898
+    },
+    {
+      "relative": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "status": "modified",
+      "sha256": "ce22aef4ace11103188ced466f13ee23c9d338971989e6747fc5bc004cecfbf9",
+      "byteLength": 106337
+    },
+    {
+      "relative": "package.json",
+      "status": "modified",
+      "sha256": "0867839fa8d1788e266673f1b148da59b5b178ba9f92709db192c344cf7ee84e",
+      "byteLength": 23124
+    },
+    {
+      "relative": "specs/TDT-GPU-DEVICE-SSOT-01_SINGLE_ADAPTER_DEVICE_AUTHORITY_DEVICE_EPOCH_DEVICE_LOSS_RECOVERY_PIPELINE_CACHE_OWNERSHIP_LEGACY_GPU_RUNTIME_RETIREMENT_SPEC.md",
+      "status": "added",
+      "sha256": "04b7fa9dfdb8c4999672ac3fde934ef0f91386235338d3de4087433fbdbbd1e3",
+      "byteLength": 65106
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/finalize-gpu-device-ssot-01.mjs",
+      "status": "added",
+      "sha256": "21d1712f5ee36caa6d959e3187c7c2154ed809de7d9d14f71000cdadab55dc15",
+      "byteLength": 1725
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/gate-gpu-device-ssot-01.mjs",
+      "status": "added",
+      "sha256": "1490452aae56f1f6b6b77d675553df6e084e3cdc94b6369c85b3132f9a8a1062",
+      "byteLength": 1365
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/generate-consumer-manifest.mjs",
+      "status": "added",
+      "sha256": "4f4d96896845af4b1ce5f5b9e277ca5e091f3a7a2c0a2b5dcb2fe3b5a7b19d8e",
+      "byteLength": 591
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/lib.mjs",
+      "status": "added",
+      "sha256": "5816426d4aa922b2d8a137a1187ca0db3fe73e1398dbf1d85f66135b1ef58067",
+      "byteLength": 1535
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/run-gpu-authority-contract-smoke.mjs",
+      "status": "added",
+      "sha256": "02b4cba0c1b411c6c108053e42fad34012ca67b2fbf60df214b058ba8bfd1ba8",
+      "byteLength": 1573
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/run-gpu-authority-runtime-smoke.mjs",
+      "status": "added",
+      "sha256": "734605ae923a99ea00f3c232439843923037a0081f7c362e839640d74268645d",
+      "byteLength": 8027
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/run.mjs",
+      "status": "added",
+      "sha256": "b563872188bff059e9fe5e009f70c7b51fcf65babc7cf56c283135f7491723eb",
+      "byteLength": 533
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/scan-direct-gpu-authority.mjs",
+      "status": "added",
+      "sha256": "4308acbc45605283e55ef2bd4190320fd1a0b1406b51238674570ec75c6479bb",
+      "byteLength": 1162
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/scan-pipeline-ownership.mjs",
+      "status": "added",
+      "sha256": "8e59803f834b0cae66173bbf679ca2de9586cf9ed5e1001b7e0f3af1f298b453",
+      "byteLength": 1113
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/verify-gpu-authority-source.mjs",
+      "status": "added",
+      "sha256": "6126c9cdae0edc218225c3138e3789ad3774f5e20fdd53a3d93c1db0295251b0",
+      "byteLength": 3247
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/verify-gpu-boot-order.mjs",
+      "status": "added",
+      "sha256": "cff3eb0bdd758a94b050750399d1a9982864ac67256c92b242203e1684a6deb4",
+      "byteLength": 1020
+    }
+  ],
+  "sourceSealSha256": "d2a37e0234d05f9ccff7114ae1026b81ec7a925c39cece8fbadc1f0feb53a480"
+}

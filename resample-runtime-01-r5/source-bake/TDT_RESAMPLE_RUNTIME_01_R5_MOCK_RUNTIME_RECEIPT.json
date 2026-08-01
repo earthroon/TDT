@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "caseCount": 129,
+  "noCpuProductFallback": true,
+  "noReadback": true
+}

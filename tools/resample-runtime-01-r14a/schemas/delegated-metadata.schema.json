@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "delegated-metadata.schema.json",
+  "type": "object",
+  "required": [
+    "signed",
+    "signedSha256",
+    "signatures"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "signed": {
+      "type": "object"
+    },
+    "signedSha256": {
+      "type": "string"
+    },
+    "signatures": {
+      "type": "array"
+    }
+  }
+}

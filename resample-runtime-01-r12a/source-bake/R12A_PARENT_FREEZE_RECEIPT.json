@@ -1,0 +1,32 @@
+{
+  "currentR10ASourceReceiptSha256": "2fa87a9f3a2c1a36798265d84512cf89932c6aeb2316052a6a049a0793a76d0b",
+  "historicalPassCarryForward": 0,
+  "historicalR12ReceiptCurrent": false,
+  "localActivationPointerMutated": false,
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "parentR11ASourceReceiptSha256": "2c6a2aaf222e302fde862dda07c4d35e59d2df3d2e6d277b350657c27c63f934",
+  "parentZipSha256": "a86c797cef357b32407ac18d87a518ebb1be7762da3775196bb1f40469f48b8b",
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "predecessorSnapshotSha256": "bfd4f0d47d4a20b4c13783679b399a756fd99efe8c82b02bbefb36ecd08633c5",
+  "productionPointerActiveNull": true,
+  "productionPointerMutated": false,
+  "productionPointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "productionPointerSchemaVersion": 2,
+  "r10aCounts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 260,
+    "PENDING": 300,
+    "SKIPPED": 0
+  },
+  "r11aCounts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 332,
+    "PENDING": 400,
+    "SKIPPED": 0
+  },
+  "schemaVersion": 1,
+  "selfSha256": "bdb91dd4cb66d21c487806a0a5be18221e9e24c2a7c120a6895f06a12e55f92e"
+}

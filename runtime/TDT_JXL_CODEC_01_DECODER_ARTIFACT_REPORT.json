@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "JXL_CODEC_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-jxl-e2e-not-run",
+    "independent-jxl-roundtrip-corpus-not-run",
+    "pthread-generation-closure-not-measured-in-production"
+  ],
+  "decoderId": "dadum.decoder.jxl-independent-v1",
+  "decoderWasmSha256": "0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3",
+  "decodeJxlExExportPresent": true,
+  "encoderArtifactSharing": false,
+  "selfDigest": "5af057d1090f323e857f500064ffcbac620fbde5736f48db526975f835408e71"
+}

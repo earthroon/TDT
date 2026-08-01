@@ -1,0 +1,81 @@
+{
+  "doubleSubmitCode": "E_R9A_COMMAND_GRAPH_DOUBLE_SUBMIT",
+  "externalCompletionMode": "external-terminal-map",
+  "graphSnapshot": {
+    "commandEncoderCount": 1,
+    "commandGraphId": "tdt.ewa.command-graph.r9a.v1",
+    "fenceRegistry": {
+      "issuedCount": 2,
+      "modes": {
+        "external-terminal-map": 0,
+        "queue-observer": 0
+      },
+      "registryId": "tdt.ewa.submission-fence-registry.r9a.v1",
+      "schemaId": "tdt.ewa.submission-fence-registry-receipt.r9a.v1",
+      "states": {
+        "COMPLETE": 0,
+        "IN_FLIGHT": 0,
+        "REJECTED": 0
+      },
+      "trackedCount": 0
+    },
+    "jobId": "graph-self-test",
+    "passCount": 1,
+    "queueSubmitCount": 1,
+    "schemaId": "tdt.ewa.command-graph-recording-receipt.r9a.v1",
+    "submitReceipt": {
+      "commandEncoderCount": 1,
+      "commandGraphId": "tdt.ewa.command-graph.r9a.v1",
+      "completionMode": "queue-observer",
+      "consumerEnvelope": "preview",
+      "deviceEpoch": 7,
+      "jobId": "graph-self-test",
+      "passCount": 1,
+      "preMapQueueFenceCount": 0,
+      "queueSubmitCount": 1,
+      "schemaId": "tdt.ewa.command-graph-submit-receipt.r9a.v1",
+      "stageQueueFenceCount": 0,
+      "submissionSerial": 1,
+      "terminalMapAsyncIsSynchronizationBoundary": false,
+      "uniformAllocationCount": 1,
+      "validationReadbackCount": 0
+    },
+    "submitted": true,
+    "uniformRing": {
+      "alignment": 256,
+      "allocationCount": 2,
+      "counts": {
+        "FREE": 128,
+        "IN_FLIGHT": 0,
+        "RECORDED": 0
+      },
+      "inFlightOverwriteCount": 0,
+      "maxPayloadBytes": 256,
+      "ringId": "tdt.ewa.uniform-ring.r9a.v1",
+      "schemaId": "tdt.ewa.uniform-ring-receipt.r9a.v1",
+      "slotCount": 128,
+      "slotStride": 256
+    }
+  },
+  "pass": true,
+  "queueSubmitCount": 2,
+  "schemaVersion": 1,
+  "uniformAlignment": 256,
+  "uniformReclaimed": 2,
+  "uniformSnapshot": {
+    "alignment": 256,
+    "allocationCount": 2,
+    "counts": {
+      "FREE": 8,
+      "IN_FLIGHT": 0,
+      "RECORDED": 0
+    },
+    "inFlightOverwriteCount": 0,
+    "maxPayloadBytes": 96,
+    "ringId": "tdt.ewa.uniform-ring.r9a.v1",
+    "schemaId": "tdt.ewa.uniform-ring-receipt.r9a.v1",
+    "slotCount": 8,
+    "slotStride": 256
+  },
+  "selfSha256": "9cc0d0a6c466997bb24786274e4766508c8b1d2621a268b911f85ec851bc2efa"
+}

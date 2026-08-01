@@ -1,0 +1,580 @@
+{
+  "authorityState": "COMPLETED",
+  "closureLedger": [
+    {
+      "closedAtMs": 1800000000000,
+      "closureDigest": "3e33073be3506750623ec41ebfd8f54600c0950388b93ae42d950e54f3554352",
+      "cycleBindingDigest": "0d2cef415186dae3888bc4004f9dab68916ecfe0bbb3f235726f7756753652fb",
+      "cycleOrdinal": 1,
+      "expectedOldDeviceEpoch": 11,
+      "observedNewDeviceEpoch": 12,
+      "operationTerminal": "REJECTED_DEVICE_LOST",
+      "operationTerminalReceiptDigest": "fddea36519e7d85f678e3fa3bb0bd4a3b1788e2841683847673ac2d8d92f679d",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "152afa062458de929b6ca9a2910cc2a2dafd0f1513357d40a4730c7c9ede772c",
+      "permitTombstoneDigest": "bd498e19ae574587b5ff44971be68b8ccdbfd78edffff06032488f5e7af70927",
+      "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+      "recoveryEventDigest": "4f30acdd19de86a15c56e14cf355a037e955748083af5d0facb9600981869cfa",
+      "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+      "schemaId": "tdt.r9a-p1-r2-r2.cycle-closure-receipt.v1",
+      "schemaVersion": 1,
+      "selfSha256": "5c21f68f9e0e623db31e5f45e663c39f993843dcc583e06431caa14b2558f669"
+    },
+    {
+      "closedAtMs": 1800000000001,
+      "closureDigest": "307139fa3037ccc4fec590efae4950e79bcd98f49ad1a40deab57b8dd56b1dd2",
+      "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+      "cycleOrdinal": 2,
+      "expectedOldDeviceEpoch": 12,
+      "observedNewDeviceEpoch": 13,
+      "operationTerminal": "REJECTED_DEVICE_LOST",
+      "operationTerminalReceiptDigest": "9653724b58092bfa94194e38b77ed00825f0f89b421914d5f125230f6bc20dfb",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+      "permitTombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788",
+      "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+      "recoveryEventDigest": "bd4ada5f0bac3d16f40700a4fcca69ffa77afca46969ecd0a110623c357bcddb",
+      "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+      "schemaId": "tdt.r9a-p1-r2-r2.cycle-closure-receipt.v1",
+      "schemaVersion": 1,
+      "selfSha256": "a3025da301fa7157a82f0266a47cdb32813652151b3316a7f5e63ad5edca4bbe"
+    },
+    {
+      "closedAtMs": 1800000000002,
+      "closureDigest": "0a8f588a1743cf624cf49fce7473062b64dce5e70cfa57292af21a1c70d04d4b",
+      "cycleBindingDigest": "6fc51ae35b1dd7dfb764a9954adc7c16b7f5b63324266e968bdefd0563250da4",
+      "cycleOrdinal": 3,
+      "expectedOldDeviceEpoch": 13,
+      "observedNewDeviceEpoch": 14,
+      "operationTerminal": "REJECTED_DEVICE_LOST",
+      "operationTerminalReceiptDigest": "7e8a3366b2df0eafe6a6e9fbc4767aba7e1f8dd73e9683e8b434df181c113d6e",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "ffea9f16139f9f3562d0a3a0a00b34ae2aa452d7df80cb5dafeaeabe0033b013",
+      "permitTombstoneDigest": "ff07a0c99daab0d0b0d31c7acd07508047b05f026b6cb2df40e6870ccc15c7f0",
+      "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+      "recoveryEventDigest": "a5d39e4a1709609a4d53b948c5355adfbbdee13a3c53b38369c2059d1b0f0cc7",
+      "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+      "schemaId": "tdt.r9a-p1-r2-r2.cycle-closure-receipt.v1",
+      "schemaVersion": 1,
+      "selfSha256": "8a13ac047fff4115cf5372d71148caf38e9279fd1d5e0e5cc53440311fed121a"
+    }
+  ],
+  "consumeLedger": [
+    {
+      "consumeRequestDigest": "f7408692382a4a6a8b02e1e12d683b794676b935f36b5af533573574b2bc3d00",
+      "cycleBindingDigest": "0d2cef415186dae3888bc4004f9dab68916ecfe0bbb3f235726f7756753652fb",
+      "cycleOrdinal": 1,
+      "issueReceiptReplay": true,
+      "operationDetailDigest": "b881510d8fa227796605a284617b74f8e12a64e99671a9780c0a9100f184d05d",
+      "permitBodyExactEquality": true,
+      "permitDigestReplay": true,
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "state": "PERMIT_CONSUMED",
+      "timeAdmission": true,
+      "tombstoneDigest": "bd498e19ae574587b5ff44971be68b8ccdbfd78edffff06032488f5e7af70927"
+    },
+    {
+      "consumeRequestDigest": "178dd0235813497cd6a70d903ba8bacf30a5752060b9d8667d274106e8ef550c",
+      "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+      "cycleOrdinal": 2,
+      "issueReceiptReplay": true,
+      "operationDetailDigest": "d9de1eaa32ed8ab9754a28ede436109dd9429b5377d7f9af001a30a34fdc4ec2",
+      "permitBodyExactEquality": true,
+      "permitDigestReplay": true,
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "state": "PERMIT_CONSUMED",
+      "timeAdmission": true,
+      "tombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788"
+    },
+    {
+      "consumeRequestDigest": "f311f80f6f892141fae5b18974e88a350516bacab50bef8d9d03ca4028ab9a0b",
+      "cycleBindingDigest": "6fc51ae35b1dd7dfb764a9954adc7c16b7f5b63324266e968bdefd0563250da4",
+      "cycleOrdinal": 3,
+      "issueReceiptReplay": true,
+      "operationDetailDigest": "73f5f4a7476cb335607baa528690b501de92e57e3559741be105bee65b009f86",
+      "permitBodyExactEquality": true,
+      "permitDigestReplay": true,
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "state": "PERMIT_CONSUMED",
+      "timeAdmission": true,
+      "tombstoneDigest": "ff07a0c99daab0d0b0d31c7acd07508047b05f026b6cb2df40e6870ccc15c7f0"
+    }
+  ],
+  "cycles": [
+    {
+      "closureDigest": "3e33073be3506750623ec41ebfd8f54600c0950388b93ae42d950e54f3554352",
+      "cycleBindingDigest": "0d2cef415186dae3888bc4004f9dab68916ecfe0bbb3f235726f7756753652fb",
+      "cycleOrdinal": 1,
+      "issueReceiptDigest": "80413fe18aa271535f1d380f2f562e6de35eab1665708a740d78f45cfc29293f",
+      "permitDigest": "152afa062458de929b6ca9a2910cc2a2dafd0f1513357d40a4730c7c9ede772c",
+      "state": "CYCLE_CLOSED",
+      "tombstoneDigest": "bd498e19ae574587b5ff44971be68b8ccdbfd78edffff06032488f5e7af70927"
+    },
+    {
+      "closureDigest": "307139fa3037ccc4fec590efae4950e79bcd98f49ad1a40deab57b8dd56b1dd2",
+      "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+      "cycleOrdinal": 2,
+      "issueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+      "permitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+      "state": "CYCLE_CLOSED",
+      "tombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788"
+    },
+    {
+      "closureDigest": "0a8f588a1743cf624cf49fce7473062b64dce5e70cfa57292af21a1c70d04d4b",
+      "cycleBindingDigest": "6fc51ae35b1dd7dfb764a9954adc7c16b7f5b63324266e968bdefd0563250da4",
+      "cycleOrdinal": 3,
+      "issueReceiptDigest": "0589d207281676eb8cd8e5fc724a5532e5e4f5e52e19eeded5bda18af1e48295",
+      "permitDigest": "ffea9f16139f9f3562d0a3a0a00b34ae2aa452d7df80cb5dafeaeabe0033b013",
+      "state": "CYCLE_CLOSED",
+      "tombstoneDigest": "ff07a0c99daab0d0b0d31c7acd07508047b05f026b6cb2df40e6870ccc15c7f0"
+    }
+  ],
+  "issueLedger": [
+    {
+      "cycleOrdinal": 1,
+      "expiresAtMs": 1800000060000,
+      "hookId": "R9AP1R2R1_PREVIEW_SUBMISSION_PENDING",
+      "identitySnapshotDigest": "cdf44aff7ad279e1e6443a12093325dcb9605b610213e8bda76018fb23f99b73",
+      "issueReceiptDigest": "80413fe18aa271535f1d380f2f562e6de35eab1665708a740d78f45cfc29293f",
+      "issueRequestDigest": "8f44b6a10fde9e2b11427f00ba519b575dc5103437c5bfe2853be3bd6c3b317d",
+      "issuedAtMs": 1800000000000,
+      "operationId": "r9a-p1-r2-r2:111111111111:1:preview:67ddc26c27470059",
+      "operationKind": "preview",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "152afa062458de929b6ca9a2910cc2a2dafd0f1513357d40a4730c7c9ede772c",
+      "permitSelfSha256": "d4cfb1a0fc8f5eb11fed5b3a4c722030072eb058a019086f6079711be8e7ab10",
+      "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+      "state": "PERMIT_ISSUED"
+    },
+    {
+      "cycleOrdinal": 2,
+      "expiresAtMs": 1800000060001,
+      "hookId": "R9AP1R2R1_EXPORT_TERMINAL_MAP_PENDING",
+      "identitySnapshotDigest": "b1786905ca1f42c2fa123672d0871a3541ba7a17966cfdf986e0a4a204e6ff24",
+      "issueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+      "issueRequestDigest": "4242949fcbc21499138f0bb143340de9d9ffd472d26425c0a424c44979aa3714",
+      "issuedAtMs": 1800000000001,
+      "operationId": "r9a-p1-r2-r2:111111111111:2:export:40dcfd58de0dbe7e",
+      "operationKind": "export",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+      "permitSelfSha256": "09de4336eaec29f859c9f431dbbe9bb61d3dbe4ba857ea8fd2b6112cd87a2b6b",
+      "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+      "state": "PERMIT_ISSUED"
+    },
+    {
+      "cycleOrdinal": 3,
+      "expiresAtMs": 1800000060002,
+      "hookId": "R9AP1R2R1_PREVIEW_SUBMISSION_PENDING",
+      "identitySnapshotDigest": "08deb1a9cd9ba59189b73223a5a331af6111f3721546119368b1936ce08cfbaf",
+      "issueReceiptDigest": "0589d207281676eb8cd8e5fc724a5532e5e4f5e52e19eeded5bda18af1e48295",
+      "issueRequestDigest": "eff546d6dba08bd827db880a8c762d67154416623875b7a93012d8f8dc60d266",
+      "issuedAtMs": 1800000000002,
+      "operationId": "r9a-p1-r2-r2:111111111111:3:preview:229202cd3782cebc",
+      "operationKind": "preview",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "ffea9f16139f9f3562d0a3a0a00b34ae2aa452d7df80cb5dafeaeabe0033b013",
+      "permitSelfSha256": "f89a12afa72cfff0ae17cf11fef26701d22c02dc580c6386c7e205ed164faf44",
+      "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+      "state": "PERMIT_ISSUED"
+    }
+  ],
+  "nextCycleOrdinal": 4,
+  "ownerBindingReceipt": {
+    "boundAtMs": 1800000000000,
+    "documentInstanceNonceDigest": "50f8ffba609706389f3b8721e33d6dfeb1c8fba7f8ec0c5ca9f67360e4586b83",
+    "expiresAtMs": 1800000900000,
+    "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+    "packageClosureDigest": "2222222222222222222222222222222222222222222222222222222222222222",
+    "qualificationSessionDigest": "4444444444444444444444444444444444444444444444444444444444444444",
+    "r1BootPermitDigest": "3333333333333333333333333333333333333333333333333333333333333333",
+    "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+    "schemaId": "tdt.r9a-p1-r2-r2.owner-binding-receipt.v1",
+    "schemaVersion": 1,
+    "selfSha256": "c597cf620248354d0ff4a7fdc4e7d5ddfa71d0e4f743dc5d87232003aa9ed1e8",
+    "senderPartitionId": "persist:tdt-r9a-p1-r2-r2",
+    "senderRendererPid": 2701,
+    "senderWebContentsId": 17,
+    "senderWindowId": 7
+  },
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2",
+  "plan": {
+    "cycles": [
+      {
+        "cycleOrdinal": 1,
+        "hookId": "R9AP1R2R1_PREVIEW_SUBMISSION_PENDING",
+        "operationId": "r9a-p1-r2-r2:111111111111:1:preview:67ddc26c27470059",
+        "operationKind": "preview"
+      },
+      {
+        "cycleOrdinal": 2,
+        "hookId": "R9AP1R2R1_EXPORT_TERMINAL_MAP_PENDING",
+        "operationId": "r9a-p1-r2-r2:111111111111:2:export:40dcfd58de0dbe7e",
+        "operationKind": "export"
+      },
+      {
+        "cycleOrdinal": 3,
+        "hookId": "R9AP1R2R1_PREVIEW_SUBMISSION_PENDING",
+        "operationId": "r9a-p1-r2-r2:111111111111:3:preview:229202cd3782cebc",
+        "operationKind": "preview"
+      }
+    ],
+    "expiresAtMs": 1800000900000,
+    "issuedAtMs": 1800000000000,
+    "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+    "packageClosureDigest": "2222222222222222222222222222222222222222222222222222222222222222",
+    "planDigest": "e21910e4d848d77b17b246a49d0f9a8f7cc4459606adc07528355dd303eee080",
+    "qualificationSessionDigest": "4444444444444444444444444444444444444444444444444444444444444444",
+    "r1BootPermitDigest": "3333333333333333333333333333333333333333333333333333333333333333",
+    "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+    "schemaId": "tdt.r9a-p1-r2-r2.recovery-plan.v2",
+    "schemaVersion": 2,
+    "selfSha256": "b331a0f529c7214909abae2c8eb999752510ab04b0cfde9acd8e9667ce645e11"
+  },
+  "replayAttemptLedger": [
+    {
+      "atMs": 1800000000000,
+      "code": "E_R9AP1R2R2_PERMIT_ALREADY_CONSUMED",
+      "cycleOrdinal": 1,
+      "permitDigest": "152afa062458de929b6ca9a2910cc2a2dafd0f1513357d40a4730c7c9ede772c"
+    }
+  ],
+  "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+  "schemaId": "tdt.r9a-p1-r2-r2.authority-snapshot.v1",
+  "schemaVersion": 1,
+  "senderContinuityLedger": [
+    {
+      "atMs": 1800000000000,
+      "authorityState": "OWNER_BOUND",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 1
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PLAN_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 2
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 3
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 4
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 5
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 6
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 7
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 8
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 9
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 10
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 11
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 12
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 13
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 14
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 15
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 16
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 17
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 18
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 19
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 20
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 21
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 22
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 23
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 24
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 25
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 26
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 27
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 28
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 29
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 30
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 31
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_CONSUMED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 32
+    },
+    {
+      "atMs": 1800000000000,
+      "authorityState": "PERMIT_CONSUMED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 33
+    },
+    {
+      "atMs": 1800000000001,
+      "authorityState": "CYCLE_CLOSED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 34
+    },
+    {
+      "atMs": 1800000000001,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 35
+    },
+    {
+      "atMs": 1800000000001,
+      "authorityState": "PERMIT_CONSUMED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 36
+    },
+    {
+      "atMs": 1800000000001,
+      "authorityState": "PERMIT_CONSUMED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 37
+    },
+    {
+      "atMs": 1800000000002,
+      "authorityState": "CYCLE_CLOSED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 38
+    },
+    {
+      "atMs": 1800000000002,
+      "authorityState": "PERMIT_ISSUED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 39
+    },
+    {
+      "atMs": 1800000000002,
+      "authorityState": "PERMIT_CONSUMED",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "senderTupleDigest": "36e0451acb109d571032138f91f47a0455cc8afdb06d44b9cff55b297294b707",
+      "sequence": 40
+    }
+  ],
+  "tombstoneLedger": [
+    {
+      "consumeRequestDigest": "f7408692382a4a6a8b02e1e12d683b794676b935f36b5af533573574b2bc3d00",
+      "consumedAtMs": 1800000000000,
+      "cycleBindingDigest": "0d2cef415186dae3888bc4004f9dab68916ecfe0bbb3f235726f7756753652fb",
+      "cycleOrdinal": 1,
+      "issueReceiptDigest": "80413fe18aa271535f1d380f2f562e6de35eab1665708a740d78f45cfc29293f",
+      "nonceDigest": "0662f741ac4e2eddfb588b2baf299698df1a29a3f1b680ee62f4a2f3a6e6bc1b",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "152afa062458de929b6ca9a2910cc2a2dafd0f1513357d40a4730c7c9ede772c",
+      "permitSelfSha256": "d4cfb1a0fc8f5eb11fed5b3a4c722030072eb058a019086f6079711be8e7ab10",
+      "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+      "schemaId": "tdt.r9a-p1-r2-r2.permit-tombstone.v1",
+      "schemaVersion": 1,
+      "selfSha256": "3c3113bf46c4224bcc02b4ab31eca9d8c4aa6eb711c077e3d714d5549f9aeaae",
+      "terminalState": "CONSUMED_SINGLE_USE",
+      "tombstoneDigest": "bd498e19ae574587b5ff44971be68b8ccdbfd78edffff06032488f5e7af70927"
+    },
+    {
+      "consumeRequestDigest": "178dd0235813497cd6a70d903ba8bacf30a5752060b9d8667d274106e8ef550c",
+      "consumedAtMs": 1800000000001,
+      "cycleBindingDigest": "69b060338f07ca3ae378eaf62fa7d9b9663ad53d622a37e5caad3e6c6cf0e447",
+      "cycleOrdinal": 2,
+      "issueReceiptDigest": "f41895c566706674047bb9e3d1ad548f44edafc696bae8862e9c47d78577dab2",
+      "nonceDigest": "52ede3fe6ec5aec3db73a6c68da762a49ed7ac777e8f31b6a6a3f5bd49d1c8f6",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "c3f395c936e0757ab2b6aaf5e6cf304d176b0a6e1d5e9a9b5c845054649b1c8a",
+      "permitSelfSha256": "09de4336eaec29f859c9f431dbbe9bb61d3dbe4ba857ea8fd2b6112cd87a2b6b",
+      "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+      "schemaId": "tdt.r9a-p1-r2-r2.permit-tombstone.v1",
+      "schemaVersion": 1,
+      "selfSha256": "bfc1295030b9567eb0ce70e55908e1ff43cdf9bdd6d40eb16e071cdcffbaa1b7",
+      "terminalState": "CONSUMED_SINGLE_USE",
+      "tombstoneDigest": "ea217037c3db6ca24db10c2a950ecb24531ae3395e038001d3bccc5fb64a4788"
+    },
+    {
+      "consumeRequestDigest": "f311f80f6f892141fae5b18974e88a350516bacab50bef8d9d03ca4028ab9a0b",
+      "consumedAtMs": 1800000000002,
+      "cycleBindingDigest": "6fc51ae35b1dd7dfb764a9954adc7c16b7f5b63324266e968bdefd0563250da4",
+      "cycleOrdinal": 3,
+      "issueReceiptDigest": "0589d207281676eb8cd8e5fc724a5532e5e4f5e52e19eeded5bda18af1e48295",
+      "nonceDigest": "e04fbbe7b61ba7e7bf6a3b534e990a43379156f7566a89e9ccba4f5f7988b527",
+      "ownerBindingDigest": "2ce02bc0ff8418668961e0fc3c308b24bd01ec9632a23939916c6564afc9c9d0",
+      "permitDigest": "ffea9f16139f9f3562d0a3a0a00b34ae2aa452d7df80cb5dafeaeabe0033b013",
+      "permitSelfSha256": "f89a12afa72cfff0ae17cf11fef26701d22c02dc580c6386c7e205ed164faf44",
+      "runId": "1111111111111111111111111111111111111111111111111111111111111111",
+      "schemaId": "tdt.r9a-p1-r2-r2.permit-tombstone.v1",
+      "schemaVersion": 1,
+      "selfSha256": "7c41da714cc72c739caf688f456a468bae22abdced8d1fdeef2dda81bf8089d8",
+      "terminalState": "CONSUMED_SINGLE_USE",
+      "tombstoneDigest": "ff07a0c99daab0d0b0d31c7acd07508047b05f026b6cb2df40e6870ccc15c7f0"
+    }
+  ]
+}

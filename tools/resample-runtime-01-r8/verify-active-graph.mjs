@@ -1,0 +1,7 @@
+import fs from 'node:fs';import path from 'node:path';import {ROOT,report,capture,check} from './lib.mjs';
+const files=['app/src/runtime/assets/generated-runtime-asset-manifest.json','artifacts/active-graph-01/source-bake/dynamic-asset-manifest-receipt.json','app/src/runtime/active-graph/generated-active-runtime-graph.json'];let manifest=null;for(const rel of files){const p=path.join(ROOT,rel);if(fs.existsSync(p)){manifest=JSON.parse(fs.readFileSync(p,'utf8'));break;}}
+function haystack(v){return JSON.stringify(v);}
+const checks=[];checks.push(capture('manifest-present',()=>{check(manifest,'E_R8_ACTIVE_GRAPH_MISSING','Runtime asset manifest missing');return true;}));
+checks.push(capture('r8-runtime-assets-admitted',()=>{const h=haystack(manifest);for(const token of ['ewa_source_prepare_r8.wgsl','ewa_aniso_tile_r4_r8.wgsl','ewa_aniso_tile_r6_r8.wgsl','ewa_generated_manifest_r8.json','export_detail_residual_r8.wgsl','export_finalize_rgba8_r8.wgsl'])check(h.includes(token),'E_R8_ACTIVE_GRAPH_ASSET_MISSING',token);return true;}));
+checks.push(capture('tools-not-admitted',()=>{const h=haystack(manifest);check(!h.includes('tools/resample-runtime-01-r8'),'E_R8_TOOL_RUNTIME_ADMISSION','R8 tool admitted');check(!h.includes('fixtures/resample-runtime-01-r8'),'E_R8_FIXTURE_RUNTIME_ADMISSION','R8 fixture admitted');return true;}));
+report('TDT_RESAMPLE_RUNTIME_01_R8_ACTIVE_GRAPH_REPORT.json',checks);if(checks.some(x=>!x.pass))process.exit(1);

@@ -1,0 +1,6 @@
+
+> dadumdadum@1.0.0 build:renderer
+> node tools/generate-runtime-manifest.mjs && vite build --config vite.config.ts
+
+[TDT-RUNTIME-SSOT-01-R1] generated build 6d013ca3438448f90edee28e; lockConsistent=false
+sh: 1: vite: not found

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "status": "BLOCKED",
+  "buildRunsCompleted": 0,
+  "rendererBuildIds": [],
+  "deterministic": null,
+  "reason": "production dependency install/build unavailable"
+}

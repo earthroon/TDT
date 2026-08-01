@@ -1,0 +1,3 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+export function digestFile(file){return crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');}
+export function packageTreeManifest(root){const rows=[];const walk=(dir)=>{for(const e of fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){const full=path.join(dir,e.name),rel=path.relative(root,full).replaceAll(path.sep,'/');if(e.isDirectory())walk(full);else if(e.isFile())rows.push({relativePath:rel,size:fs.statSync(full).size,sha256:digestFile(full)});}};walk(root);const canonical=JSON.stringify(rows);return {rows,digest:crypto.createHash('sha256').update(canonical).digest('hex')};}

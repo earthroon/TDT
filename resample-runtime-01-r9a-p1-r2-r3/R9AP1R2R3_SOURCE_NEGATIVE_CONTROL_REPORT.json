@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.source-negative-controls.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "status": "PASS",
+  "oldPipelineDisposed": true,
+  "oldDisposeCounts": {
+    "rootDisposeCount": 1,
+    "tensorDisposeCount": 1,
+    "adaptiveDisposeCount": 1,
+    "effectDisposeCount": 1
+  },
+  "idempotentDisposePass": true,
+  "invalidationReceipt": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.r9a-p1-r2-r3.pipeline-invalidation-receipt.v1",
+    "runtimeEpoch": 1,
+    "deviceEpoch": 31,
+    "deviceIdentity": "device-31",
+    "targetEntryCount": 1,
+    "buildingEntryCount": 0,
+    "activeEntryCount": 1,
+    "disposedEntryCount": 1,
+    "lateCompletionPendingCount": 0,
+    "cycleBindingDigest": null,
+    "invalidationDigest": "aa1229b386b16156663deef46340d4e7b0c87478268d8f20235b82627ddc7f7b",
+    "selfSha256": "4bd8cd91d2f3f3c6344ac04a43f8be273f64045363f288c84d87e00a85b021f6"
+  },
+  "rebuildReceipt": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.r9a-p1-r2-r3.pipeline-rebuild-receipt.v1",
+    "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+    "authorityId": "tdt.resample.canonical-pipeline-registry.r2-r3.v1",
+    "mode": "RECOVERY_EAGER",
+    "runId": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+    "cycleOrdinal": 1,
+    "cycleBindingDigest": "2557a7f63fd2aa33f7880e8f787f08959054a9fde0c5fd14341dedca6aff58d9",
+    "permitTombstoneDigest": "7a77ff62f7e81e7eea0fc88fc83caafc6c0348993db113ef18e826e76fdcfeb1",
+    "ownerBindingDigest": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581",
+    "packageClosureDigest": "6d4cb937d6d22521566bba561458d0d1952df6df7a80e46ef5dab9014fbc3557",
+    "runtimeEpoch": 1,
+    "oldDeviceEpoch": 31,
+    "deviceEpoch": 32,
+    "deviceIdentity": "device-32",
+    "adapterIdentity": "adapter-canonical",
+    "entryKeyDigest": "b2b9362d1c686068b6da6232aadcaf18009afab628ca800d9eec45f4bfa6a438",
+    "registryGeneration": 7,
+    "buildSequence": 2,
+    "physicalBuildCount": 1,
+    "singleFlightJoinCount": 0,
+    "oldEpochActiveCount": 0,
+    "oldEpochBuildingCount": 0,
+    "currentEpochActiveCount": 1,
+    "pipelineFamilyCount": 4,
+    "pipelineSetIdentityDigest": "5de0c21fe3309a0f21f10e61d117df3b44b9e50ec68c78247b413ba5a9fa4a8c",
+    "invalidationReceiptDigest": "c42dd66aac3ce187f399b20dbfb736bd59ab060daf8fa627cb20891b9171c8bc",
+    "startedAtMs": 3002,
+    "completedAtMs": 3003,
+    "durationMs": 1,
+    "rebuildDigest": "1f0c4e5f9d9103d379e730c6e1608fb6beb3390008fdcea7e3c7ecba3d6bafc9",
+    "selfSha256": "e9423f8b9552cdad44b38912063123d54260e4d1824e07fedb412e3a6444481b"
+  },
+  "pipelineSetIdentity": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.r9a-p1-r2-r3.pipeline-set-identity.v1",
+    "authorityId": "tdt.resample.canonical-pipeline-registry.r2-r3.v1",
+    "runtimeEpoch": 1,
+    "deviceEpoch": 32,
+    "deviceIdentity": "device-32",
+    "adapterIdentity": "adapter-canonical",
+    "ownerId": "dadum.gpu.consumer.legacy-pipeline",
+    "pipelineFamilyCount": 4,
+    "ewa": {
+      "schemaVersion": 8,
+      "runtimeEpoch": 1,
+      "deviceEpoch": 32,
+      "deviceIdentity": "device-32",
+      "layoutDigest": "1dc5ae5b68174891b6aa9850aa05ee0d9ae8a20468d9517259951a2dd9e9c0f0",
+      "parameterAbiId": "tdt.ewa.params.v4",
+      "kernelContractId": "tdt.ewa.kernel-contract.v4",
+      "kernelContractDigest": "79a3e49d77951e92f86bb5b17e561e8de4f0269100a8d3e0fc1a47456e8fd292",
+      "kernelId": "tdt.ewa.kernel.v4",
+      "generatorId": "tdt.ewa.generator.v4",
+      "generatedManifestId": "tdt.ewa.generated-manifest.v4",
+      "generatedManifestDigest": "908de08ff48fd6b9a3a71ebbc9ebe4a6ab08bf37e58c45a451d7524f2464ec61",
+      "phaseConventionId": "tdt.ewa.phase.continuous-source-lattice.v1",
+      "borderId": "tdt.ewa.border.unclipped-support.v1",
+      "axialFieldSchemaId": "tdt.structure-tensor.r1c.axial-field.v1",
+      "axialInterpolationId": "tdt.axial.double-angle.bilinear.v1",
+      "pipelines": {
+        "canonical": "ewa-canonical:device-32",
+        "tiledR4": "ewa-tiled-r4:device-32",
+        "tiledR6": "ewa-tiled-r6:device-32",
+        "validationR4": "ewa-validation-r4:device-32",
+        "validationR6": "ewa-validation-r6:device-32",
+        "reference": "ewa-reference:device-32",
+        "comparator": "ewa-comparator:device-32"
+      }
+    },
+    "tensor": {
+      "runtimeEpoch": 1,
+      "deviceEpoch": 32,
+      "deviceIdentity": "device-32",
+      "abiId": "tdt.structure-tensor.r1c.abi.v1",
+      "fieldSchemaId": "tdt.structure-tensor.r1c.field.v1",
+      "axialFieldSchemaId": "tdt.structure-tensor.r1c.axial-field.v1",
+      "pipelineIdentity": "tensor:device-32",
+      "axialPipelineIdentity": "tensor-axial:device-32",
+      "shaderDigests": {
+        "axial": "d9fe7c78953d47009c9b79936b97ee5ee6f003b5c0b7ab82fcce43711eb8d788",
+        "structure": "195f76eaa28dd85eb399f9ccc2e06404f06a441a5f2a684b3abecb1b8486d598"
+      }
+    },
+    "adaptive": {
+      "runtimeEpoch": 1,
+      "deviceEpoch": 32,
+      "deviceIdentity": "device-32",
+      "abiId": "tdt.adaptive-policy.r1d.abi.v1",
+      "fieldSchemaId": "tdt.adaptive-policy.r1d.field.v1",
+      "pipelineIdentity": "adaptive:device-32",
+      "shaderDigest": "24092096c15ba33c4f0982b20a14100d03136621451cfa166e0da878cf2b20fb",
+      "neutralQmapIdentity": "neutral-qmap:device-32"
+    },
+    "bakemonoRinneWgsl04": {
+      "runtimeEpoch": 1,
+      "deviceEpoch": 32,
+      "deviceIdentity": "device-32",
+      "ownerId": "dadum.gpu.consumer.bakemono-rinne-wgsl-04",
+      "pipelineFamilyId": "tdt.pipeline.bakemono-rinne.command-graph-family.wgsl04.v1",
+      "kernelId": "tdt.effect.bakemono-rinne.kernel.wgsl.r1c-gated-shadow.v1",
+      "kernelAbiId": "tdt.effect.bakemono-rinne.abi.r1c-gated-shadow.v1",
+      "generatedWgslDigest": "0a896d82793eb41b62da8f99c11f150368f27d7cc2b3c9d342731c7d3d9192c4",
+      "generatorManifestDigest": "d2d5b67713ff9f27b32cd83d938b333ba3090d47ceae01121aea8ab783f27e3e",
+      "bindGroupLayoutDigest": "d2400a3c46baa768545832df80c08ad0a80da14f2daad3a80704d5348d730e7a",
+      "uniformAbiDigest": "72aad578240542ca81aed37fd7e28e1ea1679cef49ca8d882ffde31df6524911",
+      "canonicalDeltaDigest": "066dc599c59c79f5c4c6355d8b6cab087720948a0350da616f9711f6dc62cc4c",
+      "structureGateSourceDigest": "6d5665bec17181a154a7b5ab7b6d6bd8ab77299bf3377edf807bac098232f914",
+      "pipelineIdentity": "bkr04:device-32",
+      "pipelineIdentityDigest": "7cdc94cc362b09a32ca99bc124e249f8a49019702ec1b66230694222a8f7b10a"
+    },
+    "pipelineSetIdentityDigest": "5de0c21fe3309a0f21f10e61d117df3b44b9e50ec68c78247b413ba5a9fa4a8c",
+    "selfSha256": "f5a490d55adbdb1cbb93acfff92abb7ed92e2b988e2135e2de97a7ed443a5fe2"
+  },
+  "registrySnapshot": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.r9a-p1-r2-r3.pipeline-registry-snapshot.v1",
+    "authorityId": "tdt.resample.canonical-pipeline-registry.r2-r3.v1",
+    "registryGeneration": 7,
+    "buildSequence": 2,
+    "physicalBuildCount": 2,
+    "singleFlightJoinCount": 0,
+    "lateCompletionDisposeCount": 0,
+    "invalidationCount": 1,
+    "entries": [
+      {
+        "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+        "keySchemaId": "tdt.r9a-p1-r2-r3.pipeline-registry-key.v1",
+        "state": "DISPOSED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 31,
+        "deviceIdentity": "device-31",
+        "adapterIdentity": "adapter-canonical",
+        "buildSequence": 1,
+        "reservationGeneration": 1,
+        "buildToken": {
+          "registryGenerationAtReservation": 1,
+          "buildSequence": 1,
+          "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+          "runtimeEpoch": 1,
+          "deviceEpoch": 31,
+          "deviceIdentity": "device-31"
+        },
+        "joinCount": 0,
+        "pipelineSetIdentityDigest": "f3549117586cba3575f20afee9af69dc67e72ee54218b64dfde5ec6f0577abf0",
+        "rebuildReceiptDigest": null,
+        "invalidationReason": "unit-old-reuse",
+        "failureCode": null
+      },
+      {
+        "entryKeyDigest": "b2b9362d1c686068b6da6232aadcaf18009afab628ca800d9eec45f4bfa6a438",
+        "keySchemaId": "tdt.r9a-p1-r2-r3.pipeline-registry-key.v1",
+        "state": "ACTIVE",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 32,
+        "deviceIdentity": "device-32",
+        "adapterIdentity": "adapter-canonical",
+        "buildSequence": 2,
+        "reservationGeneration": 6,
+        "buildToken": {
+          "registryGenerationAtReservation": 6,
+          "buildSequence": 2,
+          "entryKeyDigest": "b2b9362d1c686068b6da6232aadcaf18009afab628ca800d9eec45f4bfa6a438",
+          "runtimeEpoch": 1,
+          "deviceEpoch": 32,
+          "deviceIdentity": "device-32"
+        },
+        "joinCount": 0,
+        "pipelineSetIdentityDigest": "5de0c21fe3309a0f21f10e61d117df3b44b9e50ec68c78247b413ba5a9fa4a8c",
+        "rebuildReceiptDigest": "1f0c4e5f9d9103d379e730c6e1608fb6beb3390008fdcea7e3c7ecba3d6bafc9",
+        "invalidationReason": null,
+        "failureCode": null
+      }
+    ],
+    "lifecycle": [
+      {
+        "sequence": 1,
+        "event": "BUILD_RESERVED",
+        "registryGeneration": 1,
+        "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+        "state": "BUILDING",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 31,
+        "reservationGeneration": 1,
+        "buildSequence": 1
+      },
+      {
+        "sequence": 2,
+        "event": "ACTIVE_COMMITTED",
+        "registryGeneration": 2,
+        "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+        "state": "ACTIVE",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 31,
+        "pipelineSetIdentityDigest": "f3549117586cba3575f20afee9af69dc67e72ee54218b64dfde5ec6f0577abf0",
+        "rebuildReceiptDigest": null
+      },
+      {
+        "sequence": 3,
+        "event": "INVALIDATION_STARTED",
+        "registryGeneration": 3,
+        "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+        "state": "INVALIDATING",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 31,
+        "reason": "unit-old-reuse"
+      },
+      {
+        "sequence": 4,
+        "event": "INVALIDATED",
+        "registryGeneration": 4,
+        "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+        "state": "INVALIDATED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 31
+      },
+      {
+        "sequence": 5,
+        "event": "DISPOSED",
+        "registryGeneration": 5,
+        "entryKeyDigest": "82458a6f6d6c4cb8d5fcfc586a582b31a87eedfba37a1bcc3143877b22869f9a",
+        "state": "DISPOSED",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 31
+      },
+      {
+        "sequence": 6,
+        "event": "BUILD_RESERVED",
+        "registryGeneration": 6,
+        "entryKeyDigest": "b2b9362d1c686068b6da6232aadcaf18009afab628ca800d9eec45f4bfa6a438",
+        "state": "BUILDING",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 32,
+        "reservationGeneration": 6,
+        "buildSequence": 2
+      },
+      {
+        "sequence": 7,
+        "event": "ACTIVE_COMMITTED",
+        "registryGeneration": 7,
+        "entryKeyDigest": "b2b9362d1c686068b6da6232aadcaf18009afab628ca800d9eec45f4bfa6a438",
+        "state": "ACTIVE",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 32,
+        "pipelineSetIdentityDigest": "5de0c21fe3309a0f21f10e61d117df3b44b9e50ec68c78247b413ba5a9fa4a8c",
+        "rebuildReceiptDigest": "1f0c4e5f9d9103d379e730c6e1608fb6beb3390008fdcea7e3c7ecba3d6bafc9"
+      }
+    ],
+    "snapshotDigest": "e30c858a1a3eafe46a5491541f667835bfae5936570b2c9fc618fdd24926524e",
+    "selfSha256": "f5017ca8471dbb1d397f3f19161820bfa1b082367bd8721fc7ce5f3bf3419f8b"
+  },
+  "rows": [
+    {
+      "id": "VALIDATION_BEFORE_REBUILD",
+      "status": true,
+      "observedCode": "E_R9AP1R2R3_REGISTRY_NOT_READY",
+      "expected": [
+        "E_R9AP1R2R3_REGISTRY_NOT_READY"
+      ]
+    },
+    {
+      "id": "OLD_PIPELINE_EXECUTION",
+      "status": true,
+      "observedCode": "E_R9AP1R2R3_STALE_PIPELINE_SET",
+      "expected": [
+        "E_R9AP1R2R3_STALE_PIPELINE_SET"
+      ]
+    },
+    {
+      "id": "EAGER_REBUILD_REUSE",
+      "status": true,
+      "observedCode": "E_R9AP1R2R3_BUILD_ALREADY_TERMINAL",
+      "expected": [
+        "E_R9AP1R2R3_BUILD_ALREADY_TERMINAL"
+      ]
+    },
+    {
+      "id": "INVALIDATION_EXTRA_KEY",
+      "status": true,
+      "observedCode": "E_R9AP1R2R3_INVALIDATION_IDENTITY",
+      "expected": [
+        "E_R9AP1R2R3_INVALIDATION_IDENTITY"
+      ]
+    },
+    {
+      "id": "ADAPTIVE_OMISSION",
+      "status": true,
+      "observedCode": "E_R9AP1R2R3_PIPELINE_FAMILY_INCOMPLETE",
+      "expected": [
+        "E_R9AP1R2R3_PIPELINE_FAMILY_INCOMPLETE"
+      ]
+    }
+  ],
+  "selfSha256": "db7c151a9feebcd7c2076ce73041e16a9a1b17a921cd82d7ac45c704e5fe6d2b"
+}

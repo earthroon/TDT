@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "status": "PASS",
+  "passCount": 19,
+  "checkCount": 19,
+  "records": [
+    {
+      "id": "legacy-manifest",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect"
+      ]
+    },
+    {
+      "id": "legacy-global-ownership",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry"
+      ]
+    },
+    {
+      "id": "async-global-reservation",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js"
+      ]
+    },
+    {
+      "id": "deferred-global-attribution",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION unique prior owner / owner-finished-while-absent claim / one-shot claim consumption / receipt evidence"
+      ]
+    },
+    {
+      "id": "placeholder-quarantine",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-R6-PLACEHOLDER-QUARANTINE non-authoritative legacy placeholder isolation and receipt evidence"
+      ]
+    },
+    {
+      "id": "runtime-ownership",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority"
+      ]
+    },
+    {
+      "id": "boot-determinism",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R1-20 deterministic receipt parity 100/100 f87aac902fe6d462cf20ff486a8cce5a315023eac87795e9573dd6e722262abf"
+      ]
+    },
+    {
+      "id": "r7-export-truth",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489"
+      ]
+    },
+    {
+      "id": "export-worker-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 e2dd2a106fa1882c448190970d987038c1b08998fb13d41b7cd73422631a8ba7"
+      ]
+    },
+    {
+      "id": "export-worker-02",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb"
+      ]
+    },
+    {
+      "id": "export-worker-03",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 93c7aa4dd5541eae0901adf1c23fcab19b7a0ab2c3943e385f3f452352405306"
+      ]
+    },
+    {
+      "id": "export-worker-04",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 1b7b1eb13cdaa681c1c2d1f24dde90509315deafd65a30375cc30a15440a2458"
+      ]
+    },
+    {
+      "id": "export-worker-05",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 661dbd57144a9b2638e2c12866dece598869398f404fcaa7c3d1d1362776368a"
+      ]
+    },
+    {
+      "id": "export-worker-06",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a9baf7c99d0df495809daac38539f3346bf8bd867ef37c746b7d187c1f307e0d"
+      ]
+    },
+    {
+      "id": "export-worker-07",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 e8c2c2ab16b1708f25e8adac6bca2486d37eb48f574b2c597b9a39efbc6ef8ad"
+      ]
+    },
+    {
+      "id": "export-promotion-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS GATE-EP01-48 cancel fail closed",
+        "PASS GATE-EP01-49 window stable contract",
+        "PASS GATE-EP01-50 window save contract",
+        "PASS GATE-EP01-51 module implementation",
+        "PASS GATE-EP01-52 host injected",
+        "PASS GATE-EP01-53 spec retained",
+        "PASS GATE-EP01-54 promotion report generator",
+        "PASS TDT-EXPORT-PROMOTION-01 54/54"
+      ]
+    },
+    {
+      "id": "modjpeg-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS MJ01-G078 sealed TDT_MODJPEG_01_COI_CONTRACT_REPORT",
+        "PASS MJ01-G079 sealed TDT_MODJPEG_01_CHILD_WORKER_CLOSURE_REPORT",
+        "PASS MJ01-G080 sealed TDT_MODJPEG_01_ABI_REPORT",
+        "PASS MJ01-G081 sealed TDT_MODJPEG_01_OUTPUT_IDENTITY_REPORT",
+        "PASS MJ01-G082 sealed TDT_MODJPEG_01_PROMOTION_RECEIPT",
+        "PASS MJ01-G083 deterministic contract 83",
+        "PASS MJ01-G084 deterministic contract 84",
+        "PASS TDT-MODJPEG-01 GATES 84/84"
+      ]
+    },
+    {
+      "id": "jxl-codec-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS JXL01-G102 sealed TDT_JXL_CODEC_01_EP03_INTEGRATION_REPORT.json",
+        "PASS JXL01-G103 sealed TDT_JXL_CODEC_01_PROMOTION_RECEIPT.json",
+        "PASS JXL01-G104 sealed TDT_JXL_CODEC_01_FIX_RECEIPT.json",
+        "PASS JXL01-G105 promotion blocked truth",
+        "PASS JXL01-G106 fix source truth",
+        "PASS JXL01-G107 output identity not claimed",
+        "PASS JXL01-G108 production closure not claimed",
+        "PASS TDT-JXL-CODEC-01 GATES 108/108"
+      ]
+    },
+    {
+      "id": "psd-decoder-01",
+      "status": "PASS",
+      "exitCode": 0,
+      "outputTail": [
+        "PASS PSD01-G106 promotion blocked truth",
+        "PASS PSD01-G107 fix source truth",
+        "PASS PSD01-G108 production evidence not claimed",
+        "PASS PSD01-G109 source invariant 109",
+        "PASS PSD01-G110 source invariant 110",
+        "PASS PSD01-G111 source invariant 111",
+        "PASS PSD01-G112 source invariant 112",
+        "PASS TDT-PSD-DECODER-01 GATES 112/112"
+      ]
+    }
+  ],
+  "receiptDigest": "2eab1f75412ff5763632d7026783e87e5a96517bcf8fd1064da3d50dd78f9694"
+}

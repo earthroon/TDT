@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl03.source-negative-control-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-03",
+  "status": "PASS",
+  "mutantCount": 48,
+  "detectedCount": 48,
+  "baseline": {
+    "straight": {
+      "active": 650,
+      "lambda2Positive": 0,
+      "mean": 0.9999894519019956,
+      "center": 0.9999894519019928,
+      "negative": 0
+    },
+    "corner": {
+      "active": 660,
+      "lambda2Positive": 95,
+      "mean": 0.9738786802821091,
+      "center": 0.8563802079926186,
+      "negative": 0
+    },
+    "junction": {
+      "active": 1200,
+      "lambda2Positive": 100,
+      "mean": 0.9730474840608834,
+      "center": 0.7305697734908226,
+      "negative": 0
+    }
+  },
+  "gateIdentity": 1,
+  "gateZeroCoherence": 0,
+  "gateZeroEdge": 0,
+  "rows": [
+    {
+      "id": "M1",
+      "description": "blurH removed",
+      "detected": true,
+      "evidence": {
+        "active": 132,
+        "lambda2Positive": 0,
+        "mean": 0.9999999575488219,
+        "center": 0.9999999465185243,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M2",
+      "description": "blurV removed",
+      "detected": true,
+      "evidence": {
+        "active": 396,
+        "lambda2Positive": 18,
+        "mean": 0.9949524793751312,
+        "center": 0.9722782219307129,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M3",
+      "description": "blurH only",
+      "detected": true,
+      "evidence": {
+        "active": 396,
+        "lambda2Positive": 18,
+        "mean": 0.994952479375127,
+        "center": 0.9722782219307129,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M4",
+      "description": "blurV only",
+      "detected": true,
+      "evidence": {
+        "active": 396,
+        "lambda2Positive": 18,
+        "mean": 0.9949524793751312,
+        "center": 0.9722782219307129,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M5",
+      "description": "eigen reads raw",
+      "detected": true,
+      "evidence": {
+        "active": 132,
+        "lambda2Positive": 0,
+        "mean": 0.9999999575488219,
+        "center": 0.9999999465185243,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M6",
+      "description": "eigen reads blurH",
+      "detected": true,
+      "evidence": {
+        "active": 396,
+        "lambda2Positive": 18,
+        "mean": 0.994952479375127,
+        "center": 0.9722782219307129,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M7",
+      "description": "center gradient fake blur",
+      "detected": true,
+      "evidence": {
+        "active": 132,
+        "lambda2Positive": 0,
+        "mean": 0.9999999575488219,
+        "center": 0.9999999465185243,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M8",
+      "description": "gradient blur before outer",
+      "detected": true,
+      "evidence": {
+        "active": 1031,
+        "lambda2Positive": 131,
+        "mean": 0.9509017698054295,
+        "center": 0.8391770947699342,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M9",
+      "description": "Jxy forced zero",
+      "detected": true,
+      "evidence": {
+        "active": 660,
+        "lambda2Positive": 97,
+        "mean": 0.955007622295717,
+        "center": 0.7525893890674625,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M10",
+      "description": "Jyy forced zero",
+      "detected": true,
+      "evidence": {
+        "active": 380,
+        "lambda2Positive": 0,
+        "mean": 1.2106030382175104,
+        "center": 1.7275636591737795,
+        "negative": 100
+      }
+    },
+    {
+      "id": "M11",
+      "description": "lambda2 forced zero",
+      "detected": true,
+      "evidence": {
+        "active": 660,
+        "lambda2Positive": 0,
+        "mean": 0.9994091893288822,
+        "center": 0.9967980077498662,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M12",
+      "description": "coherence forced one",
+      "detected": true,
+      "evidence": {
+        "active": 660,
+        "lambda2Positive": 95,
+        "mean": 1,
+        "center": 1,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M13",
+      "description": "lambda2 removed from denominator",
+      "detected": true,
+      "evidence": {
+        "active": 660,
+        "lambda2Positive": 95,
+        "mean": 0.9821471038240182,
+        "center": 0.9018565374731174,
+        "negative": 0
+      }
+    },
+    {
+      "id": "M14",
+      "description": "negative lambda clamp removed",
+      "detected": true,
+      "evidence": {
+        "active": 660,
+        "lambda2Positive": 94,
+        "mean": 0.9749298154545946,
+        "center": 0.862161451441288,
+        "negative": 1
+      }
+    },
+    {
+      "id": "M15",
+      "description": "tensorSigma zero",
+      "detected": true,
+      "evidence": {
+        "invalidParameters": true
+      }
+    },
+    {
+      "id": "M16",
+      "description": "kernelRadius zero",
+      "detected": true,
+      "evidence": {
+        "invalidParameters": true
+      }
+    },
+    {
+      "id": "M17",
+      "description": "stage-local source tensor",
+      "detected": true,
+      "evidence": "authentic handle seal"
+    },
+    {
+      "id": "M18",
+      "description": "retained final-stage tensor",
+      "detected": true,
+      "evidence": "authentic handle seal"
+    },
+    {
+      "id": "M19",
+      "description": "axial texture disguised as fieldTexture",
+      "detected": true,
+      "evidence": "authentic handle seal"
+    },
+    {
+      "id": "M20",
+      "description": "legacy tensor texture",
+      "detected": true,
+      "evidence": "authentic handle seal"
+    },
+    {
+      "id": "M21",
+      "description": "deviceEpoch mismatch",
+      "detected": true,
+      "evidence": {
+        "k": "deviceEpoch",
+        "v": 1
+      }
+    },
+    {
+      "id": "M22",
+      "description": "commandGraphId mismatch",
+      "detected": true,
+      "evidence": {
+        "k": "commandGraphId",
+        "v": "other"
+      }
+    },
+    {
+      "id": "M23",
+      "description": "sourceSurfaceId mismatch",
+      "detected": true,
+      "evidence": {
+        "k": "sourceSurfaceId",
+        "v": "other"
+      }
+    },
+    {
+      "id": "M24",
+      "description": "sourceSurfaceRevision mismatch",
+      "detected": true,
+      "evidence": {
+        "k": "sourceSurfaceRevision",
+        "v": 2
+      }
+    },
+    {
+      "id": "M25",
+      "description": "width mismatch",
+      "detected": true,
+      "evidence": {
+        "k": "width",
+        "v": 32
+      }
+    },
+    {
+      "id": "M26",
+      "description": "producer receipt digest mutation",
+      "detected": true,
+      "evidence": "receipt self-digest verification"
+    },
+    {
+      "id": "M27",
+      "description": "lambda2 receipt digest mutation",
+      "detected": true,
+      "evidence": "digest mismatch"
+    },
+    {
+      "id": "M28",
+      "description": "physical pass false receipt",
+      "detected": true,
+      "evidence": "receipt constructor rejects"
+    },
+    {
+      "id": "M29",
+      "description": "compat request to canonical",
+      "detected": true,
+      "evidence": "profile mismatch"
+    },
+    {
+      "id": "M30",
+      "description": "canonical request to compatibility",
+      "detected": true,
+      "evidence": "distinct profile"
+    },
+    {
+      "id": "M31",
+      "description": "terminal R1C binding removed",
+      "detected": true,
+      "evidence": "binding absent"
+    },
+    {
+      "id": "M32",
+      "description": "output/tensor binding exchanged",
+      "detected": true,
+      "evidence": "digest changed"
+    },
+    {
+      "id": "M33",
+      "description": "uniform binding 7",
+      "detected": true,
+      "evidence": "digest changed"
+    },
+    {
+      "id": "M34",
+      "description": "compatibility ABI version",
+      "detected": true,
+      "evidence": "enum mismatch"
+    },
+    {
+      "id": "M35",
+      "description": "canonical profile enum compatibility",
+      "detected": true,
+      "evidence": "enum mismatch"
+    },
+    {
+      "id": "M36",
+      "description": "output authority final",
+      "detected": true,
+      "evidence": "authority rejected"
+    },
+    {
+      "id": "M37",
+      "description": "coherence only",
+      "detected": true,
+      "evidence": {
+        "mutant": "coherence",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M38",
+      "description": "edge only",
+      "detected": true,
+      "evidence": {
+        "mutant": "structureEdge",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M39",
+      "description": "coherence plus edge",
+      "detected": true,
+      "evidence": {
+        "mutant": "coherence + structureEdge",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M40",
+      "description": "max gate",
+      "detected": true,
+      "evidence": {
+        "mutant": "max(coherence, structureEdge)",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M41",
+      "description": "gate duplicated in glow",
+      "detected": true,
+      "evidence": {
+        "mutant": "pow(coherence, params.coherenceExponent) * structureEdge /* duplicated glow */",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M42",
+      "description": "gate applied to phase",
+      "detected": true,
+      "evidence": {
+        "mutant": "pow(coherence, params.coherenceExponent) * structureEdge /* phase */",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M43",
+      "description": "gate omitted from final k",
+      "detected": true,
+      "evidence": {
+        "mutant": "1.0",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M44",
+      "description": "hard floor added",
+      "detected": true,
+      "evidence": {
+        "mutant": "max(0.25, pow(coherence, params.coherenceExponent) * structureEdge)",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M45",
+      "description": "exponent ignored",
+      "detected": true,
+      "evidence": {
+        "mutant": "coherence * structureEdge",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M46",
+      "description": "nonfinite becomes one",
+      "detected": true,
+      "evidence": {
+        "mutant": "select(1.0, pow(coherence, params.coherenceExponent) * structureEdge, finite4(terminalR1C))",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M47",
+      "description": "R channel used",
+      "detected": true,
+      "evidence": {
+        "mutant": "pow(terminalR1C.r, params.coherenceExponent) * structureEdge",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    },
+    {
+      "id": "M48",
+      "description": "G channel used",
+      "detected": true,
+      "evidence": {
+        "mutant": "pow(coherence, params.coherenceExponent) * terminalR1C.g",
+        "authority": "pow(coherence, params.coherenceExponent) * structureEdge"
+      }
+    }
+  ],
+  "selfSha256": "cbf8ae7e33d8ac387e726198124b69cbb18c52d35b0640fead2d63d33f5caaa5"
+}

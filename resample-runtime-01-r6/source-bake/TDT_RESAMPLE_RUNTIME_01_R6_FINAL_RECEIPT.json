@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "state": "RESAMPLE_RUNTIME_R6_KERNEL_CONTRACT_SEALED_AWAITING_R7",
+  "counts": {
+    "PASS": 148,
+    "DEFERRED": 5
+  },
+  "parameterAbiId": "tdt.delta-k-ewa.params.v4",
+  "parameterAbiVersion": 65550,
+  "parameterBytes": 96,
+  "kernelContractId": "tdt.ewa.kernel-contract.r6.v1",
+  "kernelId": "tdt.ewa.ellipse.phase-correct-parametric-r6.v1",
+  "generatedManifestId": "tdt.ewa.generated-shader-manifest.r6.v1",
+  "phaseConventionId": "tdt.ewa.source-lattice.pixel-center-v2",
+  "phaseConventionEnum": 2,
+  "borderId": "tdt.ewa.border.clamp-extension-logical-distance-v1",
+  "borderEnum": 1,
+  "defaultKernelSharpness": 1.65,
+  "defaultKernelTaperExponent": 1,
+  "generatedOutputCount": 5,
+  "files": [
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_kernel_contract_v4.mjs",
+      "sha256": "ae644228f72503f8d751a24bcf97ed0eafd446361380fbe572cce5254bf8f56e",
+      "bytes": 6414
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v4.mjs",
+      "sha256": "e8880cc46d2eec796e360c44f326e87692db9b25c23d788c6dff30c0e357fcf6",
+      "bytes": 4502
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r6.mjs",
+      "sha256": "9cba998b53c84345a34d43f6451968b0d27989ea38998f5c693b7b01e9b67382",
+      "bytes": 1714
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_kernel_receipt_r6.mjs",
+      "sha256": "194c56d45cfab5f8e6d126275cd7ce40f564e83f4b40ab72ff2f9b54f1161e4b",
+      "bytes": 933
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r6.mjs",
+      "sha256": "f6327f8028a42ba402c1295d4c2cccc49a4d55ec1f3d9a261c7a9c18203d6643",
+      "bytes": 4686
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "sha256": "58ba24e685caa4d40f2ed81b184963b175104f25166d53717bc9b3406ed741ed",
+      "bytes": 19199
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+      "sha256": "76a7bdfd51489f80629bb65b2599e6bc1c6b509a74fc0c417f8e1fa530cf50ac",
+      "bytes": 13991
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "sha256": "9b1d432a8a095f92c88bf6ecabae2eb834d88738684f59607992ee9ce660fe31",
+      "bytes": 14474
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r6.wgsl",
+      "sha256": "c8f1a893b6ea0f3cf7c7b0fab4a4fcfbbf24a77627517f5fb30fd7b0446c65a8",
+      "bytes": 8416
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r6.wgsl",
+      "sha256": "4c1229695396f4c11dc14502f99e2c25242924fd83a9fcb52f7169abb3912b71",
+      "bytes": 8416
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r6.wgsl",
+      "sha256": "5eb574cec5c5b1612a592ccee0011e3623051cfe645938062dab97f4b3df4696",
+      "bytes": 9368
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r6.wgsl",
+      "sha256": "60320808e0f6749d7975ca86afa8b0085ca5c256f392b2fdd531e02a0c8ce71d",
+      "bytes": 9368
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v5_r6.wgsl",
+      "sha256": "70ae9edc4c5fd221a46ed546e8bbb3935b4176277aad62948078c2270892e81f",
+      "bytes": 7042
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_generated_manifest_r6.json",
+      "sha256": "11f3bcca8ee3540a30f48433e1a9f2a5ea2f5bfa04dbf8ac9de14d3bc8669a47",
+      "bytes": 5334
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaimed": false,
+  "packagedElectronClaimed": false,
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R7"
+}

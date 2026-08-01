@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/parent-freeze-receipt.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "patchId",
+    "pass",
+    "parentZipSha256",
+    "productionPointerRawSha256"
+  ],
+  "title": "R12A parent-freeze-receipt",
+  "type": "object"
+}

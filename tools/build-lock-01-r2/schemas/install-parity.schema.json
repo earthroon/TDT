@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tdt.build-lock-r2.install-parity.v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "receiptKind",
+    "selfSha256"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer"
+    },
+    "receiptKind": {
+      "const": "build-lock-r2-install-parity"
+    },
+    "selfSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "additionalProperties": true
+}

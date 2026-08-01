@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PREVIEW-PRESENTER-01",
+  "state": "PREVIEW_PRESENTER_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "sourceSealSha256": "b9988de26d66ca867bf8573a0906dacaa874d6da0c5fa0dff6b516fc7e80b421",
+  "changedFileCount": 24,
+  "files": [
+    {
+      "relative": "app/legacy-runtime/hooks/afterRenderHook.js",
+      "byteLength": 739,
+      "sha256": "be1b507bab3c59e8702144ae687ec0bbcfc035c3ab65f70a0dd655ca5c0beccb"
+    },
+    {
+      "relative": "app/legacy-runtime/input/webgpu_preview_presenter.js",
+      "byteLength": 1285,
+      "sha256": "3d93567a568cc89a83e86ae6baa7bd5cf9740e900d0d24a392dc318a726430d5"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/present_webgpu.js",
+      "byteLength": 381,
+      "sha256": "ab49829547ad83a85084d6857afc4a1681efe6cd82b65e7de0f02e32f389a55f"
+    },
+    {
+      "relative": "app/legacy-runtime/preview_fit_bind.js",
+      "byteLength": 400,
+      "sha256": "52cb1618ecb4d090a8e979bc59ee69d370f99b94872a31e2b3891b5f9cb25714"
+    },
+    {
+      "relative": "app/legacy-runtime/style.css",
+      "byteLength": 12664,
+      "sha256": "31405747aa0f6fce007c5d4de8a1debc6cea014efd625967b73a2cc5cff5cb02"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 30676,
+      "sha256": "4e32f48035149b41404a5010aeeb51235550f2ff9333c3044134b8089945caab"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 29867,
+      "sha256": "0391be24b98ad0aa32afefc431a8d1c17af1998fdeec85a2c1470d94c05c944d"
+    },
+    {
+      "relative": "app/src/env.d.ts",
+      "byteLength": 11460,
+      "sha256": "8075ef1a97766aee49bda156d6288b7b327eb775e3ee812cbb586104a2fe9158"
+    },
+    {
+      "relative": "app/src/legacy/legacy-shell.html",
+      "byteLength": 12990,
+      "sha256": "34e58581f7859488ca5c669d0c4dfc07a2b9817c289dbd37a327d6e4587dcc8f"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "byteLength": 2049,
+      "sha256": "ea2b7dc72d354bba905366a84aa9739f70a3f19c588b8f7540ddbba14989e031"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "byteLength": 23079,
+      "sha256": "bb12af97e2fb8390ff847396e09edde60570c3e224f3430010244a75b3dbeb4e"
+    },
+    {
+      "relative": "app/src/runtime/pipeline/pipeline-service.ts",
+      "byteLength": 10392,
+      "sha256": "a9cb5b45fb83dd7e55e88bb19254ad543ca8071486fb06f5a6e990763cc7eed8"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-consumer-profile.json",
+      "byteLength": 541,
+      "sha256": "3bac86c95ecfca528519b4e4d2a3bcb1789e48a233288ee5992b5f2a2d7fdd4b"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-frame-receipt-ledger.ts",
+      "byteLength": 1789,
+      "sha256": "b79897d86629201ec113c6aaa763a439255f752deb4334c0a745acb12f580cc7"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-frame-scheduler.ts",
+      "byteLength": 4242,
+      "sha256": "5193c64a03bc1cabe3b8dcdaff975b6606bac2736ba6bcbc33ddbd9348b86085"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-layout-authority.ts",
+      "byteLength": 3688,
+      "sha256": "c8370788b31a3d62505f1328956a6b00c76eacbb780a757b6ffb43e85be4a51e"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-presentation-profile.json",
+      "byteLength": 699,
+      "sha256": "4c698bb426cda22b3d322052cac428952a161cb46e6903fd22f1e0b8373f92e5"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-presenter-service.ts",
+      "byteLength": 24194,
+      "sha256": "b01a16a657eebab1de948a7db749adc7b0f9395a55b8d7de4701879d1b9bac3e"
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-presenter-types.ts",
+      "byteLength": 2210,
+      "sha256": "e6cffbd0c168a349d4b4a64d42a0dea9f7845d7da1bfc94168e6089851ad82d4"
+    },
+    {
+      "relative": "app/src/runtime/preview/shaders/preview-present.wgsl",
+      "byteLength": 727,
+      "sha256": "cfe0fdb5960d4d3677d9fb537a7c2be6fb3fd127cc3efdc88cb1e98893a82e8b"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1704,
+      "sha256": "4b70bfee616a4994a43585659b1392e7419e6c62e38f74dd99effcfc04de29a8"
+    },
+    {
+      "relative": "app/src/stores/preview.store.ts",
+      "byteLength": 2559,
+      "sha256": "17e3ef0367fc9eb8fd7aa3e627c1561df8034aa6b611bc382c85a3cd40c263f5"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 23124,
+      "sha256": "0867839fa8d1788e266673f1b148da59b5b178ba9f92709db192c344cf7ee84e"
+    },
+    {
+      "relative": "tools/preview-visible-canvas-owner-manifest.json",
+      "byteLength": 467,
+      "sha256": "2bf5721e3b7d52c0c9716f5074dda0ad41fe3eb14182abcb0a819ea4061dac96"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 50,
+    "DEFERRED": 10
+  },
+  "productionPointerMutated": false,
+  "packagedClaims": false
+}

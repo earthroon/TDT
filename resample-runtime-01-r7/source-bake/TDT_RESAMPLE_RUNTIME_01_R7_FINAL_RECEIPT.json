@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "state": "RESAMPLE_RUNTIME_R7_CANONICAL_LOWPASS_CONVERGENCE_SEALED_AWAITING_R8",
+  "counts": {
+    "PASS": 172,
+    "DEFERRED": 5
+  },
+  "plannerId": "tdt.ewa.multistage.planner.v2",
+  "plannerProfileId": "tdt.ewa.canonical-r6-support-profile.v1",
+  "sharedRuntimeId": "tdt.ewa.canonical-lowpass-runtime.r7.v1",
+  "kernelId": "tdt.ewa.ellipse.phase-correct-parametric-r6.v1",
+  "parameterAbiId": "tdt.delta-k-ewa.params.v4",
+  "residualId": "tdt.ewa.detail-residual.directional-r7.v1",
+  "finalizationId": "tdt.ewa.export-finalize-rgba8.r7.v1",
+  "files": [
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v2.mjs",
+      "sha256": "30a404d447100d499b656bc68b6a14ed6093ff835333ebabcb79f6090a4b09ca"
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_contract_r7.mjs",
+      "sha256": "d0f7538f44209409d2bf06b652afe27afda96f6aaee5284fd1236fe0a2a96952"
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r7.mjs",
+      "sha256": "63eefdc4d1d737803950770e0020a0e23ace78ab66d27bdcdf7c4d0377e08ba9"
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_convergence_receipt_r7.mjs",
+      "sha256": "ca409f430dd8f4564490fbc0b44c2af52a3a24a6587fc3776ef7734114dc66fb"
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/export_residual_runtime_r7.mjs",
+      "sha256": "96959de83b290042caeadfa4d4e4798cd232b06bcc6e180094de00cf80674b5a"
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/export_finalize_runtime_r7.mjs",
+      "sha256": "60c9c02d31edc76b9793ecdf2286c45d3aca0b75aaaefaf96e5df80ff5106ef2"
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/shaders/export_detail_residual_r7.wgsl",
+      "sha256": "d9a383d85e521b907e135c2de1cfcb9a158807ee9c44863541b49fe204df6ace"
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/shaders/export_finalize_rgba8_r7.wgsl",
+      "sha256": "46a1e901d0a3d6cb7569c53d9ef4736a47cef7f65479eadf89ec099bad2bc477"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaimed": false,
+  "packagedElectronClaimed": false,
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R8"
+}

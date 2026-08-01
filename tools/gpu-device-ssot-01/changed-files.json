@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-GPU-DEVICE-SSOT-01",
+  "files": [
+    {
+      "relative": "app/legacy-runtime/EmotionPipeline_tensorFinal_patch.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/EmotionPipeline_tensorFinal_patch_autowire.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/app/core/#U00d1#U2500K_Qmap/webgpu/qmap_lab_sep9.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/adaptive_ewa_downscale_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/downscale_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/ewa_aniso_downscale_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/qmap_lod_meanmax_mix_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/downscale_webgpu/tilemask_from_qmap_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/preprocess_webgpu/preprocess_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/adapter.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/adapter_compat.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_gammaProof_webgpu.mjs",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/guided_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/preblur_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/resize_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/worker_porttrace.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/deltaE_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/patch/passA_colorDenoise_bind.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/path_stabilizer_from_src.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/qmap/dk_fft_qmap_webgpu_v2.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/core/worker_porttrace.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/init/shader_warmup.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/input/webgpu_source_bridge.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/blendif_webgpu_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/blit_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/dk_builder_webgpu_compute.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/present_webgpu.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/js/passes/qwave_warp_webgpu_pass.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/patch/passA_colorDenoise_bind.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/qmap_shared_surface.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_system.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_webgpu_overlay.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/webgpu_cache_shaders.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/legacy-runtime/webgpu_runtime.js",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/boot/bootstrap-renderer.ts",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/env.d.ts",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-authority-profile.json",
+      "status": "added"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "status": "added"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "status": "added"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-service.ts",
+      "status": "modified"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/node-manifest.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-gate-report.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/input/canonical-baseline-input.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/input/input-audit-receipt.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/receipts/source-bake-receipt.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/receipts/source-gate-report.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/promotion-baseline-00/receipts/typescript-transpile-report.json",
+      "status": "modified"
+    },
+    {
+      "relative": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "status": "modified"
+    },
+    {
+      "relative": "package.json",
+      "status": "modified"
+    },
+    {
+      "relative": "specs/TDT-GPU-DEVICE-SSOT-01_SINGLE_ADAPTER_DEVICE_AUTHORITY_DEVICE_EPOCH_DEVICE_LOSS_RECOVERY_PIPELINE_CACHE_OWNERSHIP_LEGACY_GPU_RUNTIME_RETIREMENT_SPEC.md",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/finalize-gpu-device-ssot-01.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/gate-gpu-device-ssot-01.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/generate-consumer-manifest.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/lib.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/run-gpu-authority-contract-smoke.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/run-gpu-authority-runtime-smoke.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/run.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/scan-direct-gpu-authority.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/scan-pipeline-ownership.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/verify-gpu-authority-source.mjs",
+      "status": "added"
+    },
+    {
+      "relative": "tools/gpu-device-ssot-01/verify-gpu-boot-order.mjs",
+      "status": "added"
+    }
+  ]
+}

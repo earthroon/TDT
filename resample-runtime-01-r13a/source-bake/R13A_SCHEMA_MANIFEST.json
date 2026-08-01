@@ -1,0 +1,67 @@
+{
+  "schemaId": "tdt.resample.schema-manifest.r13a.v1",
+  "schemaVersion": 1,
+  "schemas": [
+    {
+      "name": "rollout-plan-v2.schema.json",
+      "sha256": "9327601beaeec159d6a1f7a03c2ab4597f2d608865b3c0616341364f68686882"
+    },
+    {
+      "name": "fleet-ledger-v2.schema.json",
+      "sha256": "4a7666f3ac74f29c3d1a7cb57ee821574e220fe71b24122ba8cfd912b218c69b"
+    },
+    {
+      "name": "installation-admission.schema.json",
+      "sha256": "fe28e9f7be97a8611f73cf07685d56223d74205fdb490753f1737d21dc8e8292"
+    },
+    {
+      "name": "update-lease-v2.schema.json",
+      "sha256": "5bc3759b68990027059489513a2f6e35b93f78861a983a06304cbc7728912c86"
+    },
+    {
+      "name": "lease-claim.schema.json",
+      "sha256": "f61fe99577b6fc13ca85bac587e4bb65cfb583350f5161d7a2f0609871a48be8"
+    },
+    {
+      "name": "drain-permit.schema.json",
+      "sha256": "2f68b1499a652e10b78e27d9e2defef9b4a2ae18fb853736fa72c3e9be785821"
+    },
+    {
+      "name": "local-transition-binding.schema.json",
+      "sha256": "d09724945891d7e53509387fe7c5748af24968e2b295746fe920bef1a2942c6c"
+    },
+    {
+      "name": "local-completion.schema.json",
+      "sha256": "2061f3849a7a79ae86e21082d8c4c6c6e51b04d05882fcf72ae120bbb1b61e10"
+    },
+    {
+      "name": "post-update-evidence-v2.schema.json",
+      "sha256": "7608bcc30ac124f3b1e3b1210a9c88f8b4b206a7a8806f604c808f00839db461"
+    },
+    {
+      "name": "evidence-ack.schema.json",
+      "sha256": "91fdfd23e3bc834bdf663c4ddc65832e7247d6f0491a63aa377072ed2dcdfe21"
+    },
+    {
+      "name": "exact-aggregate-v2.schema.json",
+      "sha256": "8b5e80ef8d604a7e790c2f93cb0ba340d638361399a113e8b8fca274ba766d80"
+    },
+    {
+      "name": "privacy-report-v2.schema.json",
+      "sha256": "db282dc9dabc2b2053bce1801c65e24f9142e88a186b797fc24e9b1338fd710b"
+    },
+    {
+      "name": "containment-v2.schema.json",
+      "sha256": "e701e08a269a9c6a3823a7eaf7af79b4e23982c15048987814ddc48905f19b5c"
+    },
+    {
+      "name": "recovery-replay.schema.json",
+      "sha256": "44316ef96088fe3f87f5048565120c6b80b1e34a8e334cec22e2021072d0d897"
+    },
+    {
+      "name": "final-fleet-receipt.schema.json",
+      "sha256": "053ca5c00a7077bb12e94b05972947f493b00ae19c08adc4718407e8f1c258cc"
+    }
+  ],
+  "selfSha256": "760e4e6671bfd413541a7673475dacead05b5fa4e512fc78fc58d11e9d469737"
+}

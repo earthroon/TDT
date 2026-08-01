@@ -1,0 +1,2572 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr06.source-gate-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-06",
+  "status": "PASS",
+  "gateCount": 256,
+  "passCount": 256,
+  "failCount": 0,
+  "gates": [
+    {
+      "id": "BKR06-S-001",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "patch id",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-002",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "consumer id",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-003",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "field authority id",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-004",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap semantic",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-005",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-006",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave semantic",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-007",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave producer",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-008",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "consumer registration",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-009",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "exact source revision policy",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-010",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "effective claim required",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-011",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer fail closed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-012",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap semantic fail closed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-013",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave required",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-014",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "execution receipt checked",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-015",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "cpu compute denied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-016",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "webgl compute denied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-017",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "canvas compute denied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-018",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "intermediate readback denied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-019",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap pin",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-020",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave pin",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-021",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "field alias denied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-022",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "device identity matched",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-023",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "field set receipt",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-024",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "caller texture count zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-025",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "pin count two",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-026",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "private WeakMap",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-027",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "authentic capability required",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-028",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap descriptor digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-029",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave descriptor digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-030",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit field receipt digest",
+        "ok": true,
+        "evidence": "f9cd3061785d1fa74fd347a3c8450e4e6faf8a9d4a4022cef21f01518b5675ee"
+      }
+    },
+    {
+      "id": "BKR06-S-031",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit qmap receipt digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-032",
+      "domain": "AUTHORITY",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit qwave receipt digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-033",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "ABI version two",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-034",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "six bindings",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-035",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "binding 0",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-036",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "binding 1",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-037",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "binding 2",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-038",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "binding 3",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-039",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "binding 4",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-040",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "binding 5",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-041",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "uniform bytes 128",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-042",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "base role",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-043",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap role",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-044",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave role",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-045",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "r1c role",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-046",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "storage output role",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-047",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "uniform role",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-048",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "output rgba16float",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-049",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "pipeline six bindings asserted",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-050",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap r16 format flag",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-051",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "checksum after flags",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-052",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "no post checksum mutation",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-053",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap size packed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-054",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave size packed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-055",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "derived mask enum packed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-056",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "field authority enum packed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-057",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap mapping enum packed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-058",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave mapping enum packed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-059",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "dynamic uniform allocation",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-060",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "standalone buffer zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-061",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "one effect allocation",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-062",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit total allocations two",
+        "ok": true,
+        "evidence": 2
+      }
+    },
+    {
+      "id": "BKR06-S-063",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "pipeline identity digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-064",
+      "domain": "ABI",
+      "status": "PASS",
+      "evidence": {
+        "name": "layout digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-065",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "manual qmap sampler",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-066",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "manual qwave sampler",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-067",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap confidence validity mapping",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-068",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave confidence validity mapping",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-069",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "scalar gain applied once",
+        "ok": true,
+        "evidence": 1
+      }
+    },
+    {
+      "id": "BKR06-S-070",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "reserved B unused qwave",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-071",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "alpha from base",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-072",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "straight RGB unpremultiply",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-073",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "linear luminance coefficients",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-074",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "highlight deterministic",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-075",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "coherence from B",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-076",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "edge from A",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-077",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "structure gate",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-078",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no alpha texture binding",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-079",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no highlight texture binding",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-080",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no edge texture binding",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-081",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no legacy deltaE binding",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-082",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "caller fields denied list",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-083",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "legacy DeltaE final denied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-084",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "legacy mask final denied code",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-085",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap mapping id",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-086",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave mapping id",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-087",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "derived mask profile id",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-088",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "canonical output semantic",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-089",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "finite output check",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-090",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "transparent RGB zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-091",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "output premultiplied",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-092",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "manual bilinear count receipt",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-093",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "legacy mask count zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-094",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "legacy deltaE count zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-095",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit derived profile",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-096",
+      "domain": "DERIVATION",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit caller textures zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-097",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "field set starts acquired",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-098",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "bind transitions bound",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-099",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "release transitions released",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-100",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "graph onComplete release",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-101",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap release recorded",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-102",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave release recorded",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-103",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "pre-submit cleanup",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-104",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "submitted graph rejected",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-105",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "pin current before bind",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-106",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate graph transient",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-107",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate transferable",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-108",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage field set",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-109",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate qmap generation",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-110",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate qwave generation",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-111",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "adoption preserves field set",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-112",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "adoption preserves qmap receipt",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-113",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "adoption preserves qwave receipt",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-114",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "adoption checks generations",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-115",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "adoption caller count zero",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-116",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit qmap released",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-117",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit qwave released",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-118",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit candidate adopted",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-119",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit selected candidate",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-120",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit lambda resolver once",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-121",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "field alias negative",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-122",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "stale revision negative",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-123",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "stale epoch negative",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-124",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "released pin error code",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-125",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "field release order error code",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-126",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "source surface mismatch error",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-127",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "source revision mismatch error",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-128",
+      "domain": "LIFETIME",
+      "status": "PASS",
+      "evidence": {
+        "name": "device epoch mismatch error",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-129",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "R9A imports v6 integration",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-130",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "R9A final v6 branch",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-131",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "shadow v4 preserved",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-132",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "analysis bridge passed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-133",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "source surface passed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-134",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "source revision passed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-135",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "field set receipt returned",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-136",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "stack passes bridge",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-137",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "stack builds v6 family",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-138",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "stack attaches v6",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-139",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "stack retains v4 shadow alias",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-140",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "stack disposes v6 owner",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-141",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "stack validates v6 epoch",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-142",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "single graph submit",
+        "ok": true,
+        "evidence": 1
+      }
+    },
+    {
+      "id": "BKR06-S-143",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "no create encoder in v6 modules",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-144",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "no queue submit in recorder",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-145",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "no readback in v6 modules",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-146",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "seven added passes receipt",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-147",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "terminal r1c count one",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-148",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "effect dispatch count one",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-149",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "submit count zero before submit",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-150",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "encoder count zero in recorder",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-151",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "uniform count two",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-152",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "no post submit hook",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-153",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "final claim false in recording",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-154",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit seven passes",
+        "ok": true,
+        "evidence": 7
+      }
+    },
+    {
+      "id": "BKR06-S-155",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit one submit",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-156",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit one encoder",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-157",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit zero readback",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-158",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "output receipts terminal",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-159",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "field receipt envelope",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-160",
+      "domain": "R9A",
+      "status": "PASS",
+      "evidence": {
+        "name": "native effect final texture adopted",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-161",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage canonicalFieldSetReceiptDigest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-162",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage qmapExecutionReceiptDigest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-163",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage qwaveExecutionReceiptDigest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-164",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage derivedMaskProfileId",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-165",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage qwaveMappingId",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-166",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage qmapFieldGeneration",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-167",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage qwaveFieldGeneration",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-168",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "candidate lineage callerSuppliedEffectTextureCount",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-169",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage canonicalEffectFieldSetReceiptDigest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-170",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage qmapExecutionReceiptDigest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-171",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage qwaveExecutionReceiptDigest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-172",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage derivedMaskProfileId",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-173",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage qwaveMappingId",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-174",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage qmapFieldGeneration",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-175",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage qwaveFieldGeneration",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-176",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final receipt lineage callerSuppliedEffectTextureCount",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-177",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "v6 effect identity selected",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-178",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final effect kernel id included",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-179",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final effect ABI included",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-180",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "ordered lowpass",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-181",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "ordered terminal r1c",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-182",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "ordered final effect",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-183",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "field set receipt sealed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-184",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap execution sealed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-185",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave execution sealed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-186",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap generation four",
+        "ok": true,
+        "evidence": 4
+      }
+    },
+    {
+      "id": "BKR06-S-187",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave generation seven",
+        "ok": true,
+        "evidence": 7
+      }
+    },
+    {
+      "id": "BKR06-S-188",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final role bkr",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-189",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "final output semantic canonical",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-190",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "negative report sealed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-191",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "negative 72 detected",
+        "ok": true,
+        "evidence": 72
+      }
+    },
+    {
+      "id": "BKR06-S-192",
+      "domain": "LINEAGE",
+      "status": "PASS",
+      "evidence": {
+        "name": "physical report sealed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-193",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap descriptor exists",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-194",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap rgba16 default",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-195",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap four channels",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-196",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap response R",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-197",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap confidence G",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-198",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap reserved B",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-199",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap validity A",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-200",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap semantic digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-201",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer exists",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-202",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer future",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-203",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer unbound version",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-204",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer no shader assets",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-205",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qmap producer no public facade",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-206",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "qwave producer canonical",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-207",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "semantic generator source",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-208",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "producer generator source",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-209",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "semantic registry digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-210",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "producer inventory digest",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-211",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "GPU consumer admitted",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-212",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "GPU consumer required",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-213",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "stable BKR06 codes",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-214",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "type request final",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-215",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "type field lineage",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-216",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "type forbidden keys",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-217",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "registry product effect fallback",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-218",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "registry v6 identity",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-219",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "registry v4 shadow audit",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-220",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "pipeline family count four",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-221",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "v6 family owns shadow v1",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-222",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "v6 family dispose shadow",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-223",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "spec present",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-224",
+      "domain": "REGISTRY",
+      "status": "PASS",
+      "evidence": {
+        "name": "spec sha present",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-225",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit report sealed",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-226",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "unit status pass",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-227",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "negative status pass",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-228",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "physical status pending",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-229",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "readme present",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-230",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "parent WGSL05 readme",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-231",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "parent WGSL04 readme",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-232",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "parent source gate artifact",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-233",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "formula compatibility preserved",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-234",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "WGSL02 compatibility module preserved",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-235",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "WGSL03 r1c kernel preserved",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-236",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "WGSL04 graph tensor preserved",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-237",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "WGSL05 adoption preserved",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-238",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no Math.random in v6 modules",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-239",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no caller qmap in final effect binding",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-240",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "no caller scalar in final effect binding",
+        "ok": true,
+        "evidence": null
+      }
+    },
+    {
+      "id": "BKR06-S-241",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_contract.mjs",
+        "ok": true,
+        "evidence": "e85abf08b485187cd85ad5c2ddfa9da78e374b28e6dcac41c6e21be1a6d7641e"
+      }
+    },
+    {
+      "id": "BKR06-S-242",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_params.mjs",
+        "ok": true,
+        "evidence": "7208a123f6fd8f05ca489237acc99d38c13a549820117a86f9efaccd5d3e250a"
+      }
+    },
+    {
+      "id": "BKR06-S-243",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_receipt.mjs",
+        "ok": true,
+        "evidence": "651e8d51ac5c2c0ce6063ca6467588181721f46f958438aeacaa7074f5452a21"
+      }
+    },
+    {
+      "id": "BKR06-S-244",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_field_authority.mjs",
+        "ok": true,
+        "evidence": "035412976edf567ee0c2076df39ec162c37a056084567ad71de9eecaa1865e0e"
+      }
+    },
+    {
+      "id": "BKR06-S-245",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_graph_effect.mjs",
+        "ok": true,
+        "evidence": "db7df9c76037e26606d9c725b6cf4420ec89252e7ba84cd4d664ff7468ef5376"
+      }
+    },
+    {
+      "id": "BKR06-S-246",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_integration.mjs",
+        "ok": true,
+        "evidence": "575d8e71a82d23082ac9d465bca6d5284c5d7b8716d140db9a1be77f5b575e06"
+      }
+    },
+    {
+      "id": "BKR06-S-247",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_pipeline_family.mjs",
+        "ok": true,
+        "evidence": "2a39c84a64049ec1f9d9ab2c0fb3baf920ec05537509a6290a4dced6446de4a2"
+      }
+    },
+    {
+      "id": "BKR06-S-248",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/shaders/bakemono_rinne_fusion_authority_fields_v2.generated.wgsl",
+        "ok": true,
+        "evidence": "e1e07e5baf82b104f47e29f3b6f5354b53820d67f94c2fbc64fabdfd271287cc"
+      }
+    },
+    {
+      "id": "BKR06-S-249",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_adoption.mjs",
+        "ok": true,
+        "evidence": "403dba2cee76d43f5b62a6ccd5931d5fc8469297ea10497e4929296aadb8fe55"
+      }
+    },
+    {
+      "id": "BKR06-S-250",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_identity.mjs",
+        "ok": true,
+        "evidence": "028ca21f48e0a11a5a8cf8356585d83dd042dd52abe890ab32a3431010b75293"
+      }
+    },
+    {
+      "id": "BKR06-S-251",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs",
+        "ok": true,
+        "evidence": "458ce2b7651bbe98c9d0ac690d2d87365a3cf22ad32a7367e634372bbe63f5f5"
+      }
+    },
+    {
+      "id": "BKR06-S-252",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+        "ok": true,
+        "evidence": "dbb780e24220e82a3e31e5f179457c3d9caeb9163c4ef9d2d4ff7367df3051f3"
+      }
+    },
+    {
+      "id": "BKR06-S-253",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/modules/dk_resample/canonical_pipeline_registry_r2r3.mjs",
+        "ok": true,
+        "evidence": "267769c5f1dd1576c0fffb83089edb602735f1df68352b9756bc4e3370774913"
+      }
+    },
+    {
+      "id": "BKR06-S-254",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_scalar_profiles.mjs",
+        "ok": true,
+        "evidence": "4fd8c1c065c3b4ef6ab02b4f71ae5a8ee915016f1261aed706badb71b26e153c"
+      }
+    },
+    {
+      "id": "BKR06-S-255",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+        "ok": true,
+        "evidence": "8c6b92110b950aee396e519e0d54f046ca5313e72e908d6af581a3cc040a4074"
+      }
+    },
+    {
+      "id": "BKR06-S-256",
+      "domain": "REGRESSION",
+      "status": "PASS",
+      "evidence": {
+        "name": "implementation digest tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+        "ok": true,
+        "evidence": "529df80b4410c5d138df0784eec6bf0c8c3bf5f854db1aa72a7b6306db337862"
+      }
+    }
+  ],
+  "selfSha256": "c7936c4c298f561fabbaac1a7d89ef895d28fc2016871cdda38d40cf4ec918f7"
+}

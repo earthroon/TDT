@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1D",
+  "pass": true,
+  "counts": {
+    "pass": 13,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "policy-schema",
+      "pass": true,
+      "message": "policy schema",
+      "detail": null
+    },
+    {
+      "id": "policy-orientation",
+      "pass": true,
+      "message": "R1C orientation",
+      "detail": null
+    },
+    {
+      "id": "policy-angle-denied",
+      "pass": true,
+      "message": "fixed angle denied",
+      "detail": null
+    },
+    {
+      "id": "policy-sensitivity",
+      "pass": true,
+      "message": "Q threshold changes digest",
+      "detail": null
+    },
+    {
+      "id": "policy-no-fast-mix",
+      "pass": true,
+      "message": "fast mix denied",
+      "detail": null
+    },
+    {
+      "id": "legacy-kernel-truth",
+      "pass": true,
+      "message": "legacy kernel truthful",
+      "detail": null
+    },
+    {
+      "id": "legacy-claim",
+      "pass": true,
+      "message": "legacy cannot claim/publish",
+      "detail": null
+    },
+    {
+      "id": "worker-legacy-envelope",
+      "pass": true,
+      "message": "legacy worker normalized",
+      "detail": null
+    },
+    {
+      "id": "worker-canonical-envelope",
+      "pass": true,
+      "message": "canonical worker normalized",
+      "detail": null
+    },
+    {
+      "id": "export-exact",
+      "pass": true,
+      "message": "exact final accepted",
+      "detail": null
+    },
+    {
+      "id": "export-fallback-rejected",
+      "pass": true,
+      "message": "authoritative fallback rejected",
+      "detail": null
+    },
+    {
+      "id": "export-compat",
+      "pass": true,
+      "message": "explicit compatibility payload preserved",
+      "detail": null
+    },
+    {
+      "id": "worker-handler",
+      "pass": true,
+      "message": "worker handler installed",
+      "detail": null
+    }
+  ],
+  "policy1": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.adaptive-policy.r1d.v1",
+    "compatibilityMode": "canonical-webgpu",
+    "qThreshold": 0.3,
+    "level1Band": 0.18,
+    "level2Threshold": 0.48,
+    "level1TensorInfluence": 0.45,
+    "level2TensorInfluence": 1,
+    "level0FootprintScale": 1,
+    "level1FootprintScale": 1,
+    "level2FootprintScale": 1,
+    "deThreshold": 0,
+    "deSoftness": 0.25,
+    "deStrength": 1,
+    "maxAnisotropy": 3,
+    "tensorSigma": 1.15,
+    "coherenceExponent": 1.25,
+    "orientationAuthority": "r1c-integrated-structure-tensor",
+    "fixedAnisoAngleAuthority": false,
+    "fastTextureMixAllowed": false,
+    "policyDigest": "02058c699b373c911b91ffd19dcaeb9866e18f2696b27fcf233e0546dee9e1f9"
+  },
+  "policy2": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.adaptive-policy.r1d.v1",
+    "compatibilityMode": "canonical-webgpu",
+    "qThreshold": 0.7,
+    "level1Band": 0.18,
+    "level2Threshold": 0.8799999999999999,
+    "level1TensorInfluence": 0.45,
+    "level2TensorInfluence": 1,
+    "level0FootprintScale": 1,
+    "level1FootprintScale": 1,
+    "level2FootprintScale": 1,
+    "deThreshold": 0,
+    "deSoftness": 0.25,
+    "deStrength": 1,
+    "maxAnisotropy": 3,
+    "tensorSigma": 1.15,
+    "coherenceExponent": 1.25,
+    "orientationAuthority": "r1c-integrated-structure-tensor",
+    "fixedAnisoAngleAuthority": false,
+    "fastTextureMixAllowed": false,
+    "policyDigest": "2e45ad7b24ea0f2b37c741aae9e7ad0f36bb8d294840c975297813da79cef81f"
+  },
+  "legacy": {
+    "schemaVersion": 1,
+    "patchId": "TDT-RESAMPLE-RUNTIME-01-R1D",
+    "requestedPolicy": "aniso",
+    "executedKernelId": "legacy-webgl-lanczos-compat-v1",
+    "compatibilityMode": true,
+    "canonicalAnisotropicClaim": false,
+    "allowFinalPublication": false,
+    "width": 32,
+    "height": 24
+  },
+  "env1": {
+    "schemaVersion": 1,
+    "requestId": "x",
+    "runtimeEpoch": 3,
+    "deviceEpoch": 0,
+    "mode": "worker-compatibility-bytes",
+    "requestedPolicy": "adaptive",
+    "sourceWidth": 2,
+    "sourceHeight": 2,
+    "targetWidth": 2,
+    "targetHeight": 2,
+    "sourceBackend": "cpu-bytes",
+    "outputMode": "compatibility-bytes",
+    "allowFinalPublication": false,
+    "payload": {
+      "bytes": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0
+      },
+      "options": {}
+    }
+  },
+  "env2": {
+    "requestId": "y",
+    "runtimeEpoch": 3,
+    "deviceEpoch": 2,
+    "sourceWidth": 8,
+    "sourceHeight": 8,
+    "targetWidth": 4,
+    "targetHeight": 4,
+    "sourceBackend": "webgpu",
+    "requestedPolicy": "adaptive",
+    "payload": {},
+    "schemaVersion": 1,
+    "mode": "worker-canonical-surface",
+    "outputMode": "surface",
+    "allowFinalPublication": true
+  }
+}

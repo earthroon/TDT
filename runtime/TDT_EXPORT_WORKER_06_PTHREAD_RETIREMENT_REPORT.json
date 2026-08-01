@@ -1,0 +1,17 @@
+{
+  "patchId": "TDT-EXPORT-WORKER-06",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "workerId": "dadum.worker.encoder.modjpeg-canonical-v1",
+  "codecProtocolVersion": "dadum-modjpeg-canonical-worker-v1",
+  "workerArtifactSetDigest": "cd0bca5d6c4406497c2f85ce5515a17d9d8e19dc722b38cfb0fd748df0cef395",
+  "artifactVerificationMode": "source-graph-only",
+  "schema": "tdt-export-worker-06-pthread-retirement-report-v1",
+  "requestedCanonicalMode": "single-thread",
+  "observedSourceArtifactMode": "pthread-pool-8",
+  "pthreadPoolSize": 8,
+  "pthreadRetirementVerified": false,
+  "childClosureVerified": false,
+  "sharedMemoryRequiredByCurrentArtifact": true,
+  "falsePromotionPrevented": true
+}

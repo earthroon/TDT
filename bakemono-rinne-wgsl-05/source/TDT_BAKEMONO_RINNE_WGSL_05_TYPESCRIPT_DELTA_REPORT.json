@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr05.typescript-baseline-delta.v1",
+  "status": "PASS",
+  "parentErrorCount": 52,
+  "candidateErrorCount": 52,
+  "introducedErrorCount": 0,
+  "introducedErrors": [],
+  "note": "Dependency-free targeted compile; pre-existing repository errors are baseline-matched.",
+  "selfSha256": "3fce90a62e5cf00532ba1c5a5da07dfc0ac391bc1617f908dfac34ebb11eb265"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "status": "DEFERRED",
+  "state": "SOURCE_BAKED_AWAITING_PACKAGED_BASELINE",
+  "baselineReceiptDigest": null,
+  "stableErrorCode": "E_ACTIVE_GRAPH_BASELINE_RECEIPT_MISSING",
+  "runtimePassIssued": false,
+  "productionPointerMutation": false,
+  "receiptDigest": "20c223f5eba2a25ca12570ff6c569228ae96879928a3ba294b1552ca6eb71afd"
+}

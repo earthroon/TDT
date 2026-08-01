@@ -1,0 +1,11 @@
+import { admitControlledR10ATransition } from '../../app/features/resample-runtime/r12a/r10a-transition-admission.mjs';
+import { check, sourceArtifact, seal } from './lib.mjs';
+const beforeHash = '1'.repeat(64); const afterHash = '2'.repeat(64);
+const finalRelease = { state: 'RESAMPLE_RUNTIME_R10A_RELEASE_REQUALIFIED_POINTER_CAS_AND_ROLLBACK_DRILL_SEALED', previousBuildId: 'build-prev', previousPackageContentId: 'pkg-prev', targetBuildId: 'build-target', targetPackageContentId: 'pkg-target', transition: { beforePackageContentId: 'pkg-prev', afterPackageContentId: 'pkg-target', beforeGeneration: 4, afterGeneration: 5, beforeRawSha256: beforeHash, afterRawSha256: afterHash }, receiptSha256: '3'.repeat(64) };
+const lineage = { state: 'RESAMPLE_RUNTIME_R10A_CURRENT_LINEAGE_RESTORED_AWAITING_R11A', receiptSha256: '4'.repeat(64) };
+const sourceSession = { active: true, quarantined: false, sessionId: 'session-source', generation: 7, buildId: 'build-prev', packageContentId: 'pkg-prev', pointerGeneration: 4, pointerRawSha256: beforeHash, webContentsId: 10, rendererPid: 20 };
+const pointer = { generation: 5, activeBuildId: 'build-target', activePackageContentId: 'pkg-target' };
+const receipt = admitControlledR10ATransition({ finalRelease, lineageRestoration: lineage, sourceSession, currentProductionPointer: pointer, currentProductionPointerRawSha256: afterHash });
+check(receipt.controlled === true && receipt.previousPackageContentId === 'pkg-prev' && receipt.targetPackageContentId === 'pkg-target', 'E_R12A_CONTROLLED_TRANSITION_MISMATCH', 'controlled transition admission failed');
+sourceArtifact('R12A_TRANSITION_ADMISSION_SELF_TEST.json', seal({ schemaVersion: 1, patchId: 'TDT-RESAMPLE-RUNTIME-01-R12A', pass: true, receipt, sourceSessionHmacRevalidationRequired: true, senderBindingRequired: true, transitionLeaseSingleUseRequired: true, unrelatedPointerDriftRejected: true }));
+console.log('R12A transition admission PASS');

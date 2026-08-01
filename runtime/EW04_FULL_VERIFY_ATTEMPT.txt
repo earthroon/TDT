@@ -1,0 +1,9 @@
+
+> dadumdadum@1.0.0 verify:renderer
+> npm run typecheck:renderer && npm run build:renderer && npm run verify:runtime-entry && npm run verify:pinia && npm run verify:runtime-ownership && npm run verify:legacy-manifest && npm run verify:legacy-global-ownership && npm run verify:async-global-reservation && npm run verify:deferred-global-attribution && npm run verify:placeholder-quarantine && npm run verify:diagnostic-single-emission && npm run verify:boot-determinism && npm run verify:r7-export-truth && npm run verify:export-worker-01 && npm run verify:export-worker-02 && npm run verify:export-worker-03 && npm run verify:export-worker-04
+
+
+> dadumdadum@1.0.0 typecheck:renderer
+> vue-tsc --noEmit -p tsconfig.json
+
+sh: 1: vue-tsc: not found

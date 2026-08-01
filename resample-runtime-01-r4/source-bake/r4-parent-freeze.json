@@ -1,0 +1,213 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "PARENT-01",
+      "message": "parent bundle identity exact",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+        "expected": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl"
+      },
+      "id": "PARENT-R2-productR4",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+        "expected": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl"
+      },
+      "id": "PARENT-R2-productR6",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+        "expected": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl"
+      },
+      "id": "PARENT-R2-validationR4",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+        "expected": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl"
+      },
+      "id": "PARENT-R2-validationR6",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+        "expected": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl"
+      },
+      "id": "PARENT-R2-directReference",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+        "expected": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r2.mjs"
+      },
+      "id": "PARENT-R2-profileSelector",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+        "expected": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+        "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r2.mjs"
+      },
+      "id": "PARENT-R2-parityRuntime",
+      "message": "frozen R2 asset immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "50680a02de0bcef84caf0d9f501fa3c3a63aab4e5855f90d2d982cf8ab4cf907",
+        "expected": "50680a02de0bcef84caf0d9f501fa3c3a63aab4e5855f90d2d982cf8ab4cf907",
+        "present": true
+      },
+      "id": "PARENT-R3-TDT_RESAMPLE_RUNTIME_01_R3_FIXTURE_MANIFEST.json",
+      "message": "R3 evidence immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "9d4bf3ef540b3df638252631ebebf437840476beba4c6b38d5b8ca3d226bbca0",
+        "expected": "9d4bf3ef540b3df638252631ebebf437840476beba4c6b38d5b8ca3d226bbca0",
+        "present": true
+      },
+      "id": "PARENT-R3-TDT_RESAMPLE_RUNTIME_01_R3_ORACLE_IDENTITY.json",
+      "message": "R3 evidence immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "7e84ddd9b3196fda13c47540cb83959c88aaa7a85f9770ade46a45da659522ba",
+        "expected": "7e84ddd9b3196fda13c47540cb83959c88aaa7a85f9770ade46a45da659522ba",
+        "present": true
+      },
+      "id": "PARENT-R3-TDT_RESAMPLE_RUNTIME_01_R3_ORACLE_SELF_TEST_RECEIPT.json",
+      "message": "R3 evidence immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "5c2e0678760af8ec8116c8661ac8e716a4377507a41655930e4f997b40cd1bef",
+        "expected": "5c2e0678760af8ec8116c8661ac8e716a4377507a41655930e4f997b40cd1bef",
+        "present": true
+      },
+      "id": "PARENT-R3-TDT_RESAMPLE_RUNTIME_01_R3_NEGATIVE_CONTROL_RECEIPT.json",
+      "message": "R3 evidence immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "ab2af3ffcef50f62af5ffce5560253d96fd64ea4811e6b84ad60dd0bcf9aa092",
+        "expected": "ab2af3ffcef50f62af5ffce5560253d96fd64ea4811e6b84ad60dd0bcf9aa092",
+        "present": true
+      },
+      "id": "PARENT-R3-TDT_RESAMPLE_RUNTIME_01_R3_CURRENT_PRODUCT_REJECTION_RECEIPT.json",
+      "message": "R3 evidence immutable",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual": "c831e6367e05efaa3f4ef990ade826b4aa9f69058d0c70e99c8c249deb526ceb",
+        "expected": "c831e6367e05efaa3f4ef990ade826b4aa9f69058d0c70e99c8c249deb526ceb",
+        "present": true
+      },
+      "id": "PARENT-R3-TDT_RESAMPLE_RUNTIME_01_R3_ZERO_RUNTIME_CPU_FALLBACK_RECEIPT.json",
+      "message": "R3 evidence immutable",
+      "pass": true
+    }
+  ],
+  "parentBundleSha256": "706033b69dd076eecb76de2c46ce9eeb543db40b969f338d285ad927c7266e7d",
+  "parentFiles": {
+    "directReference": {
+      "actual": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+      "expected": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl"
+    },
+    "parityRuntime": {
+      "actual": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+      "expected": "b787e6fffcf3c2c98d36cc6bb2fc34a2f67e460ae79b76bd3fa4144f4d768ba5",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r2.mjs"
+    },
+    "productR4": {
+      "actual": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+      "expected": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl"
+    },
+    "productR6": {
+      "actual": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+      "expected": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl"
+    },
+    "profileSelector": {
+      "actual": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+      "expected": "07f1d65d5bc09b0f7231034ef85001ba4fdd6346cf93abe2cda441012ccd8b33",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r2.mjs"
+    },
+    "validationR4": {
+      "actual": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+      "expected": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl"
+    },
+    "validationR6": {
+      "actual": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+      "expected": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl"
+    }
+  },
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "r3Evidence": {
+    "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_CURRENT_PRODUCT_REJECTION_RECEIPT.json": {
+      "actual": "ab2af3ffcef50f62af5ffce5560253d96fd64ea4811e6b84ad60dd0bcf9aa092",
+      "expected": "ab2af3ffcef50f62af5ffce5560253d96fd64ea4811e6b84ad60dd0bcf9aa092",
+      "present": true
+    },
+    "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_NEGATIVE_CONTROL_RECEIPT.json": {
+      "actual": "5c2e0678760af8ec8116c8661ac8e716a4377507a41655930e4f997b40cd1bef",
+      "expected": "5c2e0678760af8ec8116c8661ac8e716a4377507a41655930e4f997b40cd1bef",
+      "present": true
+    },
+    "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_ORACLE_IDENTITY.json": {
+      "actual": "9d4bf3ef540b3df638252631ebebf437840476beba4c6b38d5b8ca3d226bbca0",
+      "expected": "9d4bf3ef540b3df638252631ebebf437840476beba4c6b38d5b8ca3d226bbca0",
+      "present": true
+    },
+    "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_ORACLE_SELF_TEST_RECEIPT.json": {
+      "actual": "7e84ddd9b3196fda13c47540cb83959c88aaa7a85f9770ade46a45da659522ba",
+      "expected": "7e84ddd9b3196fda13c47540cb83959c88aaa7a85f9770ade46a45da659522ba",
+      "present": true
+    },
+    "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_ZERO_RUNTIME_CPU_FALLBACK_RECEIPT.json": {
+      "actual": "c831e6367e05efaa3f4ef990ade826b4aa9f69058d0c70e99c8c249deb526ceb",
+      "expected": "c831e6367e05efaa3f4ef990ade826b4aa9f69058d0c70e99c8c249deb526ceb",
+      "present": true
+    },
+    "fixtures/resample-runtime-01-r3/TDT_RESAMPLE_RUNTIME_01_R3_FIXTURE_MANIFEST.json": {
+      "actual": "50680a02de0bcef84caf0d9f501fa3c3a63aab4e5855f90d2d982cf8ab4cf907",
+      "expected": "50680a02de0bcef84caf0d9f501fa3c3a63aab4e5855f90d2d982cf8ab4cf907",
+      "present": true
+    }
+  },
+  "schemaVersion": 1
+}

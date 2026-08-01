@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-03",
+  "kernelId": "tdt.effect.bakemono-rinne.kernel.wgsl.r1c-gated-shadow.v1",
+  "kernelAbiId": "tdt.effect.bakemono-rinne.abi.r1c-gated-shadow.v1",
+  "pipelineFamilyId": "tdt.pipeline.bakemono-rinne.r1c-gated-shadow.wgsl03.v1",
+  "compatibilityKernelDigest": "a3c851b3188c31a7a2f71d5723e356ff385d9c6fc0372140f5d891dec58f27ff",
+  "generatedWgslDigest": "2c08dbd37160e348c84780e22ba4cd9b886f43fb25e5e57f96ca15dc309c137b",
+  "probeWgslDigest": "4f72ee56c2a830b55829570316fe59fff9fd65fa7828a0f528e8c7c98bd59c12",
+  "canonicalByteLength": 7313,
+  "probeByteLength": 2309,
+  "generatorSourceDigest": "0af15b68c99f2b1e1e1b7a8e164d1760a35d3e2d82a46884555e1dbd4df62f36",
+  "probeTemplateDigest": "c55339dfa717cf17f78d720899ef1230ca689c883608b533689aaef6f2019e8b",
+  "structureGateId": "tdt.effect.bakemono-rinne.structure-gate.coherence-edge.v1",
+  "manifestDigest": "e41aeaed57680a4a276cd557f82a8d9fa52498b8a8bb35218bba3a77cd9c2b5e"
+}

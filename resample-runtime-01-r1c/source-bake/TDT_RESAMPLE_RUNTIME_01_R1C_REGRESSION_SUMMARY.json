@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1C",
+  "state": "RESAMPLE_RUNTIME_R1C_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "results": {
+    "r1c": {
+      "pass": 90,
+      "deferred": 6,
+      "fail": 0,
+      "sourceContract": "90/90",
+      "tensorMath": "15/15",
+      "mockRuntime": "18/18"
+    },
+    "r1b": {
+      "pass": 72,
+      "deferred": 12,
+      "fail": 0
+    },
+    "r1a": {
+      "pass": 57,
+      "deferred": 11,
+      "fail": 0
+    },
+    "activeGraph": {
+      "pass": 30,
+      "deferred": 10,
+      "fail": 0,
+      "regression": "19/19"
+    },
+    "gpuDeviceSsot": {
+      "pass": 30,
+      "deferred": 30,
+      "fail": 0
+    },
+    "surfaceLifecycle": {
+      "pass": 52,
+      "deferred": 8,
+      "fail": 0
+    },
+    "previewPresenter": {
+      "pass": 50,
+      "deferred": 10,
+      "fail": 0
+    },
+    "runtimeR7": "PASS",
+    "exportWorkers": "01-07 PASS",
+    "exportPromotion": {
+      "ep01": "54/54",
+      "ep02": "60/60",
+      "ep03": "68/68"
+    },
+    "buildLock": "72/72",
+    "buildEmit": "84/84",
+    "modjpeg": "84/84",
+    "nativeDecoder": "120/120",
+    "jxlCodec": "108/108",
+    "psdDecoder": "112/112",
+    "promotionBaselineSource": "66/66",
+    "promotionBaselinePackaged": "NOT_RERUN_NO_CANONICAL_PACKAGED_INPUT",
+    "typescriptSyntax": "91 files PASS",
+    "wgslStructuralBalance": "9 files PASS"
+  },
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false
+}

@@ -1,0 +1,670 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1B",
+  "pass": true,
+  "counts": {
+    "pass": 75,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "planner-identity-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-identity-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-identity-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-identity-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "id": "planner-identity-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-one-stage-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-one-stage-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-one-stage-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-one-stage-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "id": "planner-one-stage-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-stage-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-exact-half-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-exact-half-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-exact-half-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-exact-half-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "id": "planner-exact-half-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-exact-half-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-exact-half-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-odd-half-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-odd-half-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-odd-half-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-odd-half-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "id": "planner-odd-half-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-odd-half-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-odd-half-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 7,
+        "actual": 7
+      }
+    },
+    {
+      "id": "planner-deep-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-monotonic-2",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-monotonic-3",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-monotonic-4",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-monotonic-5",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-monotonic-6",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-deep-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 6,
+        "actual": 6
+      }
+    },
+    {
+      "id": "planner-non-square-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-monotonic-2",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-monotonic-3",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-monotonic-4",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-monotonic-5",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-square-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-2",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-3",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-4",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-5",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-monotonic-6",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-non-uniform-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-monotonic-2",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-monotonic-3",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-axis-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-one-pixel-deterministic",
+      "pass": true,
+      "message": "deterministic digest",
+      "detail": null
+    },
+    {
+      "id": "planner-one-pixel-exact",
+      "pass": true,
+      "message": "exact final target",
+      "detail": null
+    },
+    {
+      "id": "planner-one-pixel-frozen",
+      "pass": true,
+      "message": "plan frozen",
+      "detail": null
+    },
+    {
+      "id": "planner-one-pixel-count",
+      "pass": true,
+      "message": "stage count exact",
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "id": "planner-one-pixel-monotonic-0",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-pixel-monotonic-1",
+      "pass": true,
+      "message": "monotonic chain",
+      "detail": null
+    },
+    {
+      "id": "planner-one-pixel-limit",
+      "pass": true,
+      "message": "stage limit",
+      "detail": null
+    },
+    {
+      "id": "planner-upscale-reject",
+      "pass": true,
+      "message": "upscale rejected",
+      "detail": null
+    }
+  ],
+  "records": [
+    {
+      "name": "identity",
+      "stageCount": 0,
+      "outputs": [],
+      "digest": "7541bf32496ce4b0af1a9921c7f2f488cb62ca34a3b9a68a4a3395a127cb3156"
+    },
+    {
+      "name": "one-stage",
+      "stageCount": 1,
+      "outputs": [
+        [
+          75,
+          75
+        ]
+      ],
+      "digest": "0a554ccc40dea36cb30bd2616e5afccc4f9766d6d47333ed0f8c53b81231c19e"
+    },
+    {
+      "name": "exact-half",
+      "stageCount": 2,
+      "outputs": [
+        [
+          67,
+          67
+        ],
+        [
+          50,
+          50
+        ]
+      ],
+      "digest": "bf3c1fb9493b84ec790f44949b3f137bc7b9feb5ab5967b6e7996eff1c3d53f9"
+    },
+    {
+      "name": "odd-half",
+      "stageCount": 2,
+      "outputs": [
+        [
+          12,
+          12
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "digest": "9e7a455abf1ace715e696df21f414313c3e46e76b2549f48594f6b686e105b05"
+    },
+    {
+      "name": "deep",
+      "stageCount": 7,
+      "outputs": [
+        [
+          5462,
+          5462
+        ],
+        [
+          3642,
+          3642
+        ],
+        [
+          2428,
+          2428
+        ],
+        [
+          1619,
+          1619
+        ],
+        [
+          1080,
+          1080
+        ],
+        [
+          720,
+          720
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "digest": "160da7cc2506a60d151d9498463ec879f84c89bca912e14dd94496b45c49dfdb"
+    },
+    {
+      "name": "non-square",
+      "stageCount": 6,
+      "outputs": [
+        [
+          5334,
+          4000
+        ],
+        [
+          3556,
+          2667
+        ],
+        [
+          2371,
+          1778
+        ],
+        [
+          1581,
+          1186
+        ],
+        [
+          1054,
+          791
+        ],
+        [
+          1000,
+          750
+        ]
+      ],
+      "digest": "ac29d2234105d64f0b802c2210f99456850413b9774b1fcc89e70ec642d96085"
+    },
+    {
+      "name": "non-uniform",
+      "stageCount": 7,
+      "outputs": [
+        [
+          5462,
+          2731
+        ],
+        [
+          3642,
+          1821
+        ],
+        [
+          2428,
+          1214
+        ],
+        [
+          1619,
+          810
+        ],
+        [
+          1080,
+          640
+        ],
+        [
+          720,
+          640
+        ],
+        [
+          640,
+          640
+        ]
+      ],
+      "digest": "218f020b853c1132e550c4b506ae4c30e35a4a7d392e57ac540f982c70963269"
+    },
+    {
+      "name": "one-axis",
+      "stageCount": 4,
+      "outputs": [
+        [
+          4096,
+          1366
+        ],
+        [
+          4096,
+          911
+        ],
+        [
+          4096,
+          608
+        ],
+        [
+          4096,
+          512
+        ]
+      ],
+      "digest": "546638ceec65885a7e366cd053f125293124927bf230aa2340a8d71097b77913"
+    },
+    {
+      "name": "one-pixel",
+      "stageCount": 2,
+      "outputs": [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "digest": "80cd98b168654dad88f2b7e081fa08de9adb0d497a2ff03773c28037f44a492b"
+    }
+  ]
+}

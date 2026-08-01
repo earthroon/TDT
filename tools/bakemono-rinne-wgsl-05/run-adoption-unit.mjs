@@ -1,0 +1,21 @@
+import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import { fileURLToPath } from 'node:url';
+if(!globalThis.crypto)globalThis.crypto=crypto.webcrypto;
+import { createAdoptionFixture,graphFixture,identityFixture,baseSurfaceFixture,candidateMetadataFixture,lowpassReceiptFixture,pipeBundleFixture,fakeTexture } from './test-fixture.mjs';
+import { createTransferableCandidateHandleWgsl05,selectCanonicalFinalTextureWgsl05,assertTransferableCandidateWgsl05 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_adoption.mjs';
+import { createCanonicalFinalOutputReceiptWgsl05 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_identity.mjs';
+import { assertFinalTextureDescriptorWgsl05 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_contract.mjs';
+import { verifyBakemonoRinneReceiptWgsl05 } from '../../app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_05_receipt.mjs';
+import { seal } from './util.mjs';
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'), OUT=path.join(ROOT,'artifacts/bakemono-rinne-wgsl-05/source'); fs.mkdirSync(OUT,{recursive:true});
+const fixture=await createAdoptionFixture();
+assertTransferableCandidateWgsl05(fixture.candidate,{width:32,height:24,...fixture.identity,commandGraphId:fixture.graph.id});
+const selection=await selectCanonicalFinalTextureWgsl05(fixture.graph,{effect:fixture.effect,identity:fixture.identity,baseEwaSurface:fixture.base,baseEwaOwned:true,nativeEffectCandidate:fixture.candidate,nativeEffectRecordingReceipt:fixture.recordingReceipt,sourceRevision:11,jobId:'job:bkr05-source'});
+assertFinalTextureDescriptorWgsl05(selection.descriptor,{...fixture.identity,commandGraphId:fixture.graph.id});
+fixture.graph.markSubmitted();
+const finalOutput=await createCanonicalFinalOutputReceiptWgsl05({lowpassReceipt:lowpassReceiptFixture(),pipeBundle:pipeBundleFixture(),selection,submission:{receipt:{queueSubmitCount:1,commandEncoderCount:1,commandGraphId:fixture.graph.id}},sourceWidth:64,sourceHeight:48,targetWidth:32,targetHeight:24});
+const receiptValid=await verifyBakemonoRinneReceiptWgsl05(finalOutput.receipt);
+let replayCode=null; try{fixture.candidate.adoptForFinal({commandGraphId:fixture.graph.id,...fixture.identity});}catch(e){replayCode=e.code;}
+const releaseGraph=graphFixture('graph:release'), releaseCandidate=createTransferableCandidateHandleWgsl05(releaseGraph,candidateMetadataFixture(releaseGraph,identityFixture(),fakeTexture('released')));releaseCandidate.release('unit-release');let releasedAdoptionCode=null;try{releaseCandidate.adoptForFinal({commandGraphId:releaseGraph.id,...identityFixture()});}catch(e){releasedAdoptionCode=e.code;}
+const identityGraph=graphFixture('graph:identity'), identityBase=baseSurfaceFixture(identityGraph,identityFixture(),fakeTexture('identity-base'));const identitySelection=await selectCanonicalFinalTextureWgsl05(identityGraph,{effect:{mode:'DISABLED'},identity:identityFixture(),baseEwaSurface:identityBase,baseEwaOwned:false,nativeEffectCandidate:null,sourceRevision:1,jobId:'identity'});
+const body={schemaVersion:1,schemaId:'tdt.bkr05.adoption-unit-report.v1',status:'PASS',candidateState:fixture.candidate.state,finalRole:selection.finalRole,selectedTextureIsCandidate:selection.texture===fixture.metadata.texture,baseRetirementScheduled:selection.baseRetirementScheduled,baseTrackedAfterSelection:fixture.graph.tracked.includes(fixture.base.texture),descriptorValid:true,receiptValid,replayCode,releasedAdoptionCode,identityFinalRole:identitySelection.finalRole,identityUsesBaseTexture:identitySelection.texture===identityBase.texture,queueSubmitCount:finalOutput.receipt.queueSubmitCount,commandEncoderCount:finalOutput.receipt.commandEncoderCount,intermediateReadbackCount:finalOutput.receipt.intermediateReadbackCount,kernelGraphRoles:finalOutput.actualIdentity.orderedKernelGraph.map(row=>row.role),actualIdentityDigest:finalOutput.actualIdentityDigest,finalReceiptDigest:finalOutput.receipt.receiptDigest};
+const report=seal(body);fs.writeFileSync(path.join(OUT,'TDT_BAKEMONO_RINNE_WGSL_05_ADOPTION_UNIT_REPORT.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

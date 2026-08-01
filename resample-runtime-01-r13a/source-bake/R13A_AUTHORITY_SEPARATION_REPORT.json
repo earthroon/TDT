@@ -1,0 +1,10 @@
+{
+  "electronMainImport": true,
+  "localPointerWriterCount": 0,
+  "preloadNarrowCapability": true,
+  "productionPointerWriterCount": 0,
+  "requiredModuleCount": 22,
+  "runtimeModuleDeclared": true,
+  "schemaVersion": 1,
+  "selfSha256": "2fc9dee8f519e8051a36ecd51c993dd6bffeafcda559a549a52cd780b38de43a"
+}

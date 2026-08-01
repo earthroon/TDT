@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl02.cpu-oracle-fixture-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "status": "PASS",
+  "physicalComparisonPerformed": false,
+  "fixtureManifestDigest": "2f27778714fdf5d86dd25985e1e1a3eeb23643e80908e190fea8f7f38c257e26",
+  "fixtureCount": 86,
+  "pixelCount": 1605,
+  "nonfiniteCount": 0,
+  "alphaMismatchCount": 0,
+  "hiddenRgbLeakCount": 0,
+  "maxAbsoluteError": null,
+  "meanAbsoluteError": null,
+  "p99AbsoluteError": null,
+  "maxHalfUlpDistance": null,
+  "pixelsOver1Ulp": null,
+  "pixelsOver2Ulp": null,
+  "pixelsOver4Ulp": null,
+  "firstMismatch": null,
+  "oracleAuthority": "WGSL-01_PARENT_F32_F16_AWARE",
+  "selfSha256": "08ed12f7c94d9db996dfe1f309272671dd3e47972d05ce57b9e07d6fafc0f57e"
+}

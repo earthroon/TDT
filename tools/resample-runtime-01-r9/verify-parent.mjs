@@ -1,0 +1,21 @@
+import { capture, check, sha256File, writeSourceArtifact } from './source-report.mjs';
+const expected={
+'README_TDT_RESAMPLE_RUNTIME_01_R8_APPLIED.md':'378fc13d2a9a06cfd91183809f7a75df27435e60cc31fd8d588098972487fe9a',
+'specs/TDT-RESAMPLE-RUNTIME-01-R8_UNCLIPPED_SUPPORT_ALPHA_BORDER_DC_CONSERVATION_ZERO_SILENT_DEGRADATION_SEAL_SPEC.md':'909cf58039e7924900b29e5ee67166761e9a2c8052e454e1640585b1f49ee4f7',
+'app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_contract_r8.mjs':'fbc0db4663a1116bf64cbfd06150cbb5d8f03a3b63217dfe0de4c1e55b06cd21',
+'app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r8.mjs':'9d492931ac6849b9d2e3d2fe7d1f14475589cd8da705b02c9c79134e06c0cb7d',
+'app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v3.mjs':'2d4416d19684b68308e711e7a133c50477c487ef53bcb2ee45838976e5d9989f',
+'app/legacy-runtime/core/compute/qmap_webgpu/ewa_support_envelope_r8.mjs':'8f890d38084d92bc2ef8044fb505b418be31d955bc87efd2f58bd63e34c31db5',
+'app/legacy-runtime/core/compute/qmap_webgpu/ewa_source_prepare_runtime_r8.mjs':'ef4ecabf4fae11232840a9976a9e997413efd6e869c996436b7208314d35b870',
+'app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r8.mjs':'63407dcddbf736a8b44c58b3acf396cf67e3aa48979d7a1ca24f1ce7dbe751a1',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_source_prepare_r8.wgsl':'9980a95892426d47ce01d10d071693606d024e7a711ab6635d529c7e8496e0d9',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl':'b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl':'caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl':'ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r8.wgsl':'848582c747543db92514fb5b73ee3b667cdc45efeef7aa7f32d2516471df0fc3',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r8.wgsl':'792cb27c7adcb4cc6d54324c524f62eabe00e22bbcce45e337cd24217aa16d09',
+'app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_generated_manifest_r8.json':'e1b57005fb27f5ac076551ecee9676411b7560d3f0b732fba27a37ebaa97d57e',
+'app/legacy-runtime/modules/dk_resample/export_residual_runtime_r8.mjs':'f90439271da4d8ac9ce975336c44488c0a0c12951436b48a626d357869f93d9b',
+'app/legacy-runtime/modules/dk_resample/export_finalize_runtime_r8.mjs':'f90dc15164ba4b186fde57676f51bc74eeea60640f39b1586e0d14a5e6237f81'};
+const checks=Object.entries(expected).map(([relativePath,digest])=>capture(relativePath,()=>{const actual=sha256File(relativePath);check(actual===digest,'E_R9_PARENT_EVIDENCE_MISMATCH','R8 parent digest mismatch',{relativePath,expected:digest,actual});return{relativePath,sha256:actual};}));
+const report={schemaVersion:1,patchId:'TDT-RESAMPLE-RUNTIME-01-R9',pass:checks.every(x=>x.status==='PASS'),checks,expected};writeSourceArtifact('TDT_RESAMPLE_RUNTIME_01_R9_PARENT_REPORT.json',report);if(!report.pass)process.exit(1);console.log(`R9 parent freeze ${checks.length}/${checks.length}`);

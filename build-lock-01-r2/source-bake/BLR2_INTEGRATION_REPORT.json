@@ -1,0 +1,12 @@
+{
+  "dependencyVerifierWired": true,
+  "failCount": 0,
+  "passCount": 7,
+  "productionScriptsWired": true,
+  "r10aRebuildWired": true,
+  "r14aLineageWired": true,
+  "r9aPreflightWired": true,
+  "schemaVersion": 1,
+  "selfSha256": "1ca06f26b5419eb0a5935881a545504718e40d3a5d31f6e3abfce58fe3d5da9d",
+  "toolchainVerifierWired": true
+}

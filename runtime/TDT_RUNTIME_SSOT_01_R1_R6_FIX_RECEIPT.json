@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R1",
+  "revisionId": "TDT-RUNTIME-SSOT-01-R1-R6",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "590b48348ad2735deafccd47",
+  "promotable": false,
+  "authority": {
+    "viteEntry": "/src/main.ts",
+    "piniaSerializableStateOnly": true,
+    "runtimeServiceIsolation": true,
+    "pipelineAuthorityOwner": "dadum.runtime.pipeline",
+    "legacyPipelineGlobalPolicy": "quarantined-non-authoritative-namespace",
+    "placeholderPublicationPolicy": "fail-closed-at-publishFinal",
+    "serviceReceiptEvidence": true,
+    "finalSurfaceExportRequired": true
+  },
+  "reproducedFailure": {
+    "code": "E_RUNTIME_PLACEHOLDER_REJECTED",
+    "message": "Legacy placeholder pipeline cannot become authoritative",
+    "source": "app/legacy-runtime/pipeline_bind_guard.js",
+    "rootCause": "PipelineService.initialize treated the existence of an intentionally non-authoritative compatibility placeholder as an authority adoption attempt."
+  },
+  "correction": {
+    "bootDisposition": "PLACEHOLDER_QUARANTINED",
+    "bootDiagnostic": "I_RUNTIME_LEGACY_PLACEHOLDER_QUARANTINED",
+    "placeholderAdopted": false,
+    "authoritativeServiceId": "dadum.runtime.pipeline",
+    "publicationRejectionCode": "E_RUNTIME_PLACEHOLDER_REJECTED",
+    "receiptEvidence": {
+      "authorityModel": "runtime-service-only",
+      "legacyGlobalName": "pipeline",
+      "legacyDisposition": "PLACEHOLDER_QUARANTINED",
+      "placeholderAdopted": false
+    }
+  },
+  "counts": {
+    "legacyRootScripts": 50,
+    "legacyGlobalInventory": 1994,
+    "runtimeModules": 13,
+    "runtimeServices": 12,
+    "receiptParityRuns": 100,
+    "typeScriptSyntaxUnits": 48,
+    "stableErrorCodesReferenced": 29,
+    "stableErrorCodesDeclared": 29
+  },
+  "digests": {
+    "appliedReadmeSha256": "1655c19a379a1dc9e2bd9000cedf4f3007b758bd41cbbc8a2a5efca3eaf9e623",
+    "patchDiffSha256": "1c30687aa54e4d85883a60e4584867f23dfa9f5ebbfc7267523f8b33c52db1fd",
+    "pipelineServiceSha256": "68bc51b539ed5ca5e2d9907f5f24f4e0f78384998f4575bab01c939921cfdbc6",
+    "runtimeReceiptSha256": "0701d6e3e3f9807b6a9bed41775bc7ed5d50993146dccba08eb27a98f8242695",
+    "serviceContainerSha256": "fa1762bb376ffd46cc803b6e69047053d06daa32b3dbb30e191e0c2f565327aa",
+    "runtimeModulesSha256": "44f20f7529fcfcdd2b08c1a730e3c1f6b2999fc11a2f32ef0729c24e29d68f7c",
+    "packageJsonSha256": "653e9cdc145626ab9df6de9bed59d4912e28ae789611873554e794513fadae4a",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "sourceGraphSha256": "c9dd753bc87777fda6097a23dc22526ad135acbd5deaf56e2fdc5209c41c61f1",
+    "legacyManifestSha256": "c6dc5b5ed9d483491e6ea6d97477a213aa1bc2f11564db6e419180649feb35ef",
+    "runtimePlanSha256": "66ca69474f05b7e58183befa6bf7e2936d7a00f264f0516524420c269f78f32a",
+    "servicePlanSha256": "4b63dde751b530af9ff4b1b0525ead2676fe78dd9a1d672b98e76cb62903518f",
+    "runtimeManifestSelfSha256": "07a3a1980928e518a25089b2c087cca0624f26f2f95836f302f4bb24b983e2a7",
+    "staticGateReportSha256": "67c480d92c64d7050d5371fba80d64fa1ce58d48a70e6fd31a859884fa45f256"
+  },
+  "gates": [
+    {
+      "id": "GATE-R1-R6-PLACEHOLDER-QUARANTINE",
+      "result": "PASS",
+      "name": "Non-authoritative legacy placeholder isolation and receipt evidence"
+    },
+    {
+      "id": "GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R4-ASYNC-GLOBAL-RESERVATION",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R3-GLOBAL-OWNERSHIP",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R2-DIAG",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-20",
+      "result": "PASS",
+      "runs": 100,
+      "digest": "084ccb2bf54e8f1d8528e124f02b5da08d225f6408c248e1ceab9448327fc489"
+    },
+    {
+      "id": "GATE-R1-TS-PARSE",
+      "result": "PASS",
+      "units": 48
+    },
+    {
+      "id": "GATE-R1-ERROR-CODE",
+      "result": "PASS",
+      "referenced": 29,
+      "declared": 29
+    },
+    {
+      "id": "GATE-R1-LOCK",
+      "result": "BLOCKED",
+      "details": {
+        "consistent": false,
+        "missing": [
+          {
+            "name": "pinia",
+            "expected": "3.0.1",
+            "actual": null
+          },
+          {
+            "name": "vue",
+            "expected": "3.5.40",
+            "actual": null
+          },
+          {
+            "name": "@napi-rs/cli",
+            "expected": "^2.18.4",
+            "actual": null
+          },
+          {
+            "name": "@vitejs/plugin-vue",
+            "expected": "6.0.7",
+            "actual": null
+          },
+          {
+            "name": "typescript",
+            "expected": "5.9.3",
+            "actual": null
+          },
+          {
+            "name": "vite",
+            "expected": "8.1.5",
+            "actual": null
+          },
+          {
+            "name": "vue-tsc",
+            "expected": "3.2.2",
+            "actual": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "GATE-R1-VUE-TSC",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-R1-VITE-BUILD",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-R1-ELECTRON-SMOKE",
+      "result": "NOT_RUN"
+    }
+  ],
+  "blockers": [
+    {
+      "code": "BLOCK-R1-LOCK-001",
+      "reason": "package-lock.json does not contain the installed Vue/Pinia/Vite dependency graph in this source-bake environment"
+    },
+    {
+      "code": "BLOCK-R1-LOCAL-PROMOTION-001",
+      "reason": "Vue semantic typecheck, Vite production build, and Electron smoke must be run in the local dependency environment"
+    }
+  ],
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R6_PLACEHOLDER_QUARANTINE_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "4fd5a82ff132e448e591543e0d5c245c7bb87492fddd54a34167822b92b7a829"
+}

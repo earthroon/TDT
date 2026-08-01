@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "filesScanned": 860,
+  "counts": {
+    "createTexture": {
+      "calls": 184,
+      "files": 117
+    },
+    "destroy": {
+      "calls": 13,
+      "files": 5
+    },
+    "createImageBitmap": {
+      "calls": 24,
+      "files": 16
+    },
+    "readPixels": {
+      "calls": 59,
+      "files": 45
+    },
+    "mapAsync": {
+      "calls": 16,
+      "files": 12
+    },
+    "filteredSurface": {
+      "calls": 14,
+      "files": 6
+    },
+    "filteredRgba8": {
+      "calls": 4,
+      "files": 3
+    }
+  },
+  "filteredRgba8Assignments": [],
+  "pass": true
+}

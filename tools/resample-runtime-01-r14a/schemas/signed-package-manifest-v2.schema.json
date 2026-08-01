@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "signed-package-manifest-v2.schema.json",
+  "type": "object",
+  "required": [
+    "signed",
+    "manifestSha256",
+    "signatures"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "signed": {
+      "type": "object"
+    },
+    "manifestSha256": {
+      "type": "string"
+    },
+    "signatures": {
+      "type": "array"
+    }
+  }
+}

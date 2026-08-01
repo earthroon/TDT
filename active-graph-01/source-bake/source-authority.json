@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "files": [
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/icms-auto-binding.js",
+      "sourceSha256": "dfe52b4d7f77b9f3438b8f0dadbf054411cdb4b673a02c16a679bde7bb6244a8",
+      "sourceByteLength": 135
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-ash-qmap-binding.js",
+      "sourceSha256": "ef497f3065856af0ecd69357f6779e248de55f56c885e6142b1bb23f45fef648",
+      "sourceByteLength": 337
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-batch-queue.js",
+      "sourceSha256": "0c8301cc5bb879e4214074463f9401673f74dd8ac1efd0fbfda3f1e61fe6571f",
+      "sourceByteLength": 170
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-delta-k-controls.js",
+      "sourceSha256": "1bd239816d12363e066479a0186cba40139adff086c6e61f3e5bc24d682ef11d",
+      "sourceByteLength": 212
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-filter-worker-bridge.js",
+      "sourceSha256": "c6b8018e13a188b688d2cce872669029d5e2cc921dcd882a46b84178839752d1",
+      "sourceByteLength": 359
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-main-entry.js",
+      "sourceSha256": "b463073746dc63946ef988253c1b0d9c210736dc707d0856ea305e33db51ab04",
+      "sourceByteLength": 1321
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-spot-psd-binding.js",
+      "sourceSha256": "a06cd54f144d1c27951233b8e7cafc5d4fe78780851566dda2adf3de1f0897fc",
+      "sourceByteLength": 2242
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/main.js",
+      "sourceSha256": "6cf010e49a5cc8e4aa2e4f924f1242932d28b3a9042bcb4d52d4c1fd88e75529",
+      "sourceByteLength": 187506
+    },
+    {
+      "sourceRelative": "app/src/boot/runtime-modules.ts",
+      "sourceSha256": "06c0837a464c672f4cb0cd244c128e1bcf342e9361dee7a29cd258f57869b062",
+      "sourceByteLength": 35723
+    },
+    {
+      "sourceRelative": "app/src/boot/stable-error.ts",
+      "sourceSha256": "ed2e890492c56632ebfb3315df7a9e429fd03e590484f48ff5209e5a458e88b6",
+      "sourceByteLength": 39274
+    },
+    {
+      "sourceRelative": "app/src/env.d.ts",
+      "sourceSha256": "078b77965a08bd389f6085d37d9170e692d5c59f6d35f1e33ae13d6295581db4",
+      "sourceByteLength": 19379
+    },
+    {
+      "sourceRelative": "app/src/legacy/legacy-runtime-adapter.ts",
+      "sourceSha256": "ba77588f774b0d07ea0f88a28f7d2c12f0b3a026d920046e73e6cdab4b6d5a76",
+      "sourceByteLength": 8333
+    },
+    {
+      "sourceRelative": "app/src/runtime/active-graph/active-graph-service.ts",
+      "sourceSha256": "30b550156a8d754ce8b8cdf5a3ea5bc1defafd44f021101019c1ab7dde17b6bb",
+      "sourceByteLength": 6084
+    },
+    {
+      "sourceRelative": "app/src/runtime/admission/installed-admission-service.ts",
+      "sourceSha256": "ea9f1778a9f91c362b56cfcab960afe58e14c5a9097a33f500b9c788bc9119f2",
+      "sourceByteLength": 10836
+    },
+    {
+      "sourceRelative": "app/src/runtime/assets/runtime-asset-authority.ts",
+      "sourceSha256": "49e72a1403dc6103cdeff0d59123d912a02d94ffdc6843915d586572641ea34f",
+      "sourceByteLength": 4083
+    },
+    {
+      "sourceRelative": "app/src/runtime/decode/decoder-registry-service.ts",
+      "sourceSha256": "e6d5ba359e9a6d69159d0bc139cf2ea7a0260f13c30a9643ced339ae96d20846",
+      "sourceByteLength": 3967
+    },
+    {
+      "sourceRelative": "app/src/runtime/export/export-authority-service.ts",
+      "sourceSha256": "ba48c4761c2d01a6baf9b39fc1b6f6fa7cd0bbca93d3cf7d53ba4dca8bcd1079",
+      "sourceByteLength": 61489
+    },
+    {
+      "sourceRelative": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "sourceSha256": "8019622319a80cae3eca74af3032319bc7a5db85611f074bba9279e24424b803",
+      "sourceByteLength": 39138
+    },
+    {
+      "sourceRelative": "app/src/runtime/gpu/gpu-device-qualification-observer.ts",
+      "sourceSha256": "aeea635e89c72b63f1a2688a66d3c6c07896226275fee6e9a0f4652d8fce8b92",
+      "sourceByteLength": 6492
+    },
+    {
+      "sourceRelative": "app/src/runtime/host-bridge-service.ts",
+      "sourceSha256": "c023a25afbe56962b91febe50da7eba45f58b7fa30934ef4f426c0defa8382cd",
+      "sourceByteLength": 3383
+    },
+    {
+      "sourceRelative": "app/src/runtime/pipeline/legacy-final-surface-bridge-service.ts",
+      "sourceSha256": "736de3d41909250fefcb12b0b198be6c6eeeb8465386bd2780253f4ad91e17a5",
+      "sourceByteLength": 14380
+    },
+    {
+      "sourceRelative": "app/src/runtime/pipeline/pipeline-service.ts",
+      "sourceSha256": "d8cae515c5787615c167d29d65526596b8c86d12b7163d8a79a2f6cdad93e6d3",
+      "sourceByteLength": 13590
+    },
+    {
+      "sourceRelative": "app/src/runtime/preview/preview-presenter-service.ts",
+      "sourceSha256": "0674102adabc9e27c96a4e0532e41d44a442fef69a1c183434a248015ec68947",
+      "sourceByteLength": 30988
+    },
+    {
+      "sourceRelative": "app/src/runtime/resample/canonical-resample-executor-r8a.ts",
+      "sourceSha256": "8ebf304342a608e4f31c244db6653c3ad02383a7b8226f45d34ccfa9680cb64c",
+      "sourceByteLength": 13841
+    },
+    {
+      "sourceRelative": "app/src/runtime/resample/resample-compatibility-types.ts",
+      "sourceSha256": "92f501c25c80d2480b3af93caca6e03e744aa62e20c21e82145ac3e7207e2a12",
+      "sourceByteLength": 4027
+    },
+    {
+      "sourceRelative": "app/src/runtime/resample/resample-worker-broker-service.ts",
+      "sourceSha256": "0caf0c33b4113417b54358df660ccc2185a0039e84a5d23e52f20e3c0189fe45",
+      "sourceByteLength": 15520
+    },
+    {
+      "sourceRelative": "app/src/runtime/sequence/deterministic-sequence-service.ts",
+      "sourceSha256": "e8fed173b6ef65bf3428aeef30a760d8cd39292feaa3d258a9f4779417826e63",
+      "sourceByteLength": 1768
+    },
+    {
+      "sourceRelative": "app/src/runtime/service-token.ts",
+      "sourceSha256": "69d52c2d9ac4c61289546eb82954f8a637b763eed475a6a33bfe79ea668680f5",
+      "sourceByteLength": 2012
+    },
+    {
+      "sourceRelative": "app/src/runtime/side-effects/side-effect-registry.ts",
+      "sourceSha256": "7607259459256fba3b9e312343ac1f1e27dd9af004e6eca4a1103bb1ea82506d",
+      "sourceByteLength": 11354
+    },
+    {
+      "sourceRelative": "app/src/runtime/surfaces/surface-registry-authority-service.ts",
+      "sourceSha256": "59c94e795aea8d181e23af8c14a514deabe0e9562c2a73e3c33b121e9f8d9e54",
+      "sourceByteLength": 32689
+    },
+    {
+      "sourceRelative": "app/src/runtime/surfaces/surface-types.ts",
+      "sourceSha256": "4814d9311d132ea3dd662d4b52eaf973944f5c0d1f3e1936da550f5b20a3b3d3",
+      "sourceByteLength": 4805
+    },
+    {
+      "sourceRelative": "app/src/runtime/workers/encoder-worker-broker-service.ts",
+      "sourceSha256": "7835005d901eda0d38f82f98d5458f2f665009a206df43ded61814e317b0a6bc",
+      "sourceByteLength": 50882
+    },
+    {
+      "sourceRelative": "electron.mjs",
+      "sourceSha256": "7a82a055f2718a24e0e1bdf7d926587d0ee2574cb5e52c66c849972ecdc4e1d7",
+      "sourceByteLength": 29127
+    },
+    {
+      "sourceRelative": "package-lock.json",
+      "sourceSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+      "sourceByteLength": 164589
+    },
+    {
+      "sourceRelative": "package.json",
+      "sourceSha256": "6cdac2a029c8bc60c7c1d8b9947919d2b705c3dfb4616ccc53907f5050414e9d",
+      "sourceByteLength": 50351
+    },
+    {
+      "sourceRelative": "preload.cjs",
+      "sourceSha256": "3dd8dd13cd083c617a359ef11038f0519ac015f222210cb5f7989e8ce9af7b30",
+      "sourceByteLength": 5980
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/audit-randomness.mjs",
+      "sourceSha256": "55ea802e67753575b23584b3d21115f56f3645dd0e80ca5fae4a82ae35800163",
+      "sourceByteLength": 2052
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/finalize-source-bake.mjs",
+      "sourceSha256": "62910d4cf79a766e3d79bbd9221f59e2a81e5ac0589ce34c05633c216967a1db",
+      "sourceByteLength": 2476
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/gate-source.mjs",
+      "sourceSha256": "1b74ba816c26d30b2581fb548b9dbeef82b88f9c40b1c63a65233851ebfefd12",
+      "sourceByteLength": 13530
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/generate-active-graph.mjs",
+      "sourceSha256": "3dfc250a045739eeab20c101e31b6fb1f57b415d5df526cc32d9be0f6bc24573",
+      "sourceByteLength": 21542
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/generate-all.mjs",
+      "sourceSha256": "6b731da4f7c76b1cd8363b5d4c5600164de31b28f83ee164c984bddcf688381d",
+      "sourceByteLength": 455
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "sourceSha256": "cb425abafb948d9e818ba1d6847b87d83b3cb56ac533e02ee2ab2f37e6210c75",
+      "sourceByteLength": 21316
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/lib.mjs",
+      "sourceSha256": "49d825c1fa9b9e3de093acda67698fc41d50caf810e6a641864c1e1bfbb2559a",
+      "sourceByteLength": 4455
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/regression-suite.mjs",
+      "sourceSha256": "0369d0d8380125709c34c618b0ed3761870fa8316bb55509bfc0e36aa4cae538",
+      "sourceByteLength": 2258
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/run-packaged-observation.mjs",
+      "sourceSha256": "d1ae68564e2f9b171ca0203d585e1e25d22bb09893b703174df81a1934f3b7e6",
+      "sourceByteLength": 767
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/run.mjs",
+      "sourceSha256": "3718a08f753a21844b3ca46da1899b6cf852e9404230d1f343897edb46a381ca",
+      "sourceByteLength": 414
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/transpile-source-check.mjs",
+      "sourceSha256": "be013797b52efcda1a96367c6439179b849135c39b1cfc82d863a379adf86021",
+      "sourceByteLength": 1811
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/verify-javascript-parse-closure-r8a.mjs",
+      "sourceSha256": "e6149fcd55365a4bec765002fb9ff87c7f4d6dac7ae3e847fc777443180a0289",
+      "sourceByteLength": 6514
+    },
+    {
+      "sourceRelative": "tools/runtime-manifest-lib.mjs",
+      "sourceSha256": "33c5760e55c226bdc1259c3776f5d356e30c09df23e30c1e15990c9f2b19ddf8",
+      "sourceByteLength": 9576
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/audit-surface-call-sites.mjs",
+      "sourceSha256": "50789ac38a26d689e70b51f9e32b069fd88a78dd121ccb366f58bdc1f5b71063",
+      "sourceByteLength": 1385
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/gate-surface-lifecycle-01.mjs",
+      "sourceSha256": "68172035d855595dbe3865b1851474ed86d45e2595a086aa37362aac88a38a60",
+      "sourceByteLength": 1518
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/lib.mjs",
+      "sourceSha256": "cc8718d0d017995b75a7f365e610ad0c949209c606430b5c6e49b30395b8c999",
+      "sourceByteLength": 1788
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/run-surface-runtime-smoke.mjs",
+      "sourceSha256": "aad47881cac885318b837f1892cccef78a2533de9e45948284e1b19cd8007ae0",
+      "sourceByteLength": 7522
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/run.mjs",
+      "sourceSha256": "40bbfbad7cffac3fd29921353e0d0dbb9734d148eb195c45ff34c6019c130b3e",
+      "sourceByteLength": 399
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/verify-source-contract.mjs",
+      "sourceSha256": "500f8f88dc54ccb43bf36306d6e9338e6b97ddc96e2e45f477d47dc08f05833c",
+      "sourceByteLength": 4360
+    },
+    {
+      "sourceRelative": "vite.config.ts",
+      "sourceSha256": "4ffcecc6af64012ef1f3661e65fa313973acef9815599188c9baefdc1b26f2d8",
+      "sourceByteLength": 1356
+    }
+  ],
+  "digest": "70309fe8bd71fe23fc50a2ca2bec5ca607ed6468ec7af973b2978c08a0fa14ef"
+}

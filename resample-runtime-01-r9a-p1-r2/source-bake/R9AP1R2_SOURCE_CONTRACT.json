@@ -1,0 +1,10 @@
+{
+  "historicalPassCarryForward": 0,
+  "normalRecoveryPolicyPreserved": true,
+  "packagedGateCount": 420,
+  "receiptKind": "r9a-p1-r2-source-contract",
+  "schemaVersion": 1,
+  "selfSha256": "e79c5dfd7ba11a363d80477a75a17951b08f4de4bebc651007502fbbff0032d6",
+  "sourceGateCount": 360,
+  "summaryTrustCount": 0
+}

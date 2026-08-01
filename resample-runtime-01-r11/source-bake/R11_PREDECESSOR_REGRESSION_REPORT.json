@@ -1,0 +1,8 @@
+{
+  "command": "node tools/resample-runtime-01-r10/run.mjs",
+  "pass": true,
+  "schemaVersion": 1,
+  "status": 0,
+  "stderrTail": "",
+  "stdoutTail": "R10 source gates 129 PASS / 0 FAIL\nPASS R10 isolated R9 predecessor regression including R1A-R8 1/1\nTDT-RESAMPLE-RUNTIME-01-R10 129 SOURCE PASS / 202 RELEASE PENDING / 0 FAIL\n"
+}

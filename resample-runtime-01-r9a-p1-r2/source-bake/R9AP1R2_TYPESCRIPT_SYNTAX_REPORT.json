@@ -1,0 +1,76 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 13
+  },
+  "receiptKind": "r9a-p1-r2-typescript-syntax",
+  "rows": [
+    {
+      "errors": [],
+      "file": "app/src/env.d.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/main.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/boot/runtime-modules.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/service-token.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/pipeline/pipeline-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/preview/preview-presenter-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/export/export-authority-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/qualification/r9a-p1-r1-qualification-service.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/qualification/r9a-p1-r1-qualification-runner.ts",
+      "status": "PASS"
+    },
+    {
+      "errors": [],
+      "file": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "status": "PASS"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "f7686ae9ef74a450c15f9d2ee1f98386fb89a114f1add528c2f83629cbd62c3b"
+}

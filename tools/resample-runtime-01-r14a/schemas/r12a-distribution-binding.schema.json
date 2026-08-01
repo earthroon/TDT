@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "r12a-distribution-binding.schema.json",
+  "type": "object",
+  "required": [
+    "distributionAdmissionReceiptSha256",
+    "stagedPackageReceiptSha256",
+    "packageContentId",
+    "receiptSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

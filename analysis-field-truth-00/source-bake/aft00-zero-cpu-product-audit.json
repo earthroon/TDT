@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "registeredProducerFindings": [],
+  "compatibilityAllowlist": [
+    {
+      "file": "app/legacy-runtime/js/modules/fft_qmap_runtime.js",
+      "mode": "diagnostic-cpu-reference",
+      "symbols": [
+        "buildFFTMagnitudeTexture"
+      ]
+    },
+    {
+      "file": "app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_fft.js",
+      "mode": "diagnostic-reference-only",
+      "symbols": [
+        "computeFFTQmapFromCanvas"
+      ]
+    },
+    {
+      "file": "app/legacy-runtime/phase/phase_field.js",
+      "mode": "compatibility-non-product",
+      "symbols": [
+        "computeRepresentativePhase"
+      ]
+    },
+    {
+      "file": "app/legacy-runtime/libs/atlas/atlasQmapRuntime.js",
+      "mode": "compatibility-non-product",
+      "symbols": [
+        "AtlasQmapRuntime"
+      ]
+    }
+  ],
+  "broadAllowlist": false
+}

@@ -1,0 +1,4011 @@
+{
+  "patchId": "TDT-BUILD-LOCK-01-R2",
+  "schemaId": "tdt.build-lock-r2.gate-catalog.v1",
+  "schemaVersion": 1,
+  "selfSha256": "e9bec3f8f5f697f5f6e67842b113f4a8ff5d646c0e5a50d55e2507cd13a698fe",
+  "sourceMandatory": [
+    {
+      "id": "BLR2-S001",
+      "requirement": "parent-lineage-authority-owner"
+    },
+    {
+      "id": "BLR2-S002",
+      "requirement": "parent-lineage-schema-identity"
+    },
+    {
+      "id": "BLR2-S003",
+      "requirement": "parent-lineage-input-completeness"
+    },
+    {
+      "id": "BLR2-S004",
+      "requirement": "parent-lineage-exact-identity"
+    },
+    {
+      "id": "BLR2-S005",
+      "requirement": "parent-lineage-canonical-digest"
+    },
+    {
+      "id": "BLR2-S006",
+      "requirement": "parent-lineage-path-normalization"
+    },
+    {
+      "id": "BLR2-S007",
+      "requirement": "parent-lineage-environment-isolation"
+    },
+    {
+      "id": "BLR2-S008",
+      "requirement": "parent-lineage-network-boundary"
+    },
+    {
+      "id": "BLR2-S009",
+      "requirement": "parent-lineage-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S010",
+      "requirement": "parent-lineage-stable-error"
+    },
+    {
+      "id": "BLR2-S011",
+      "requirement": "parent-lineage-negative-control"
+    },
+    {
+      "id": "BLR2-S012",
+      "requirement": "parent-lineage-receipt-emission"
+    },
+    {
+      "id": "BLR2-S013",
+      "requirement": "parent-lineage-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S014",
+      "requirement": "parent-lineage-parent-lineage"
+    },
+    {
+      "id": "BLR2-S015",
+      "requirement": "parent-lineage-mutation-zero"
+    },
+    {
+      "id": "BLR2-S016",
+      "requirement": "parent-lineage-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S017",
+      "requirement": "parent-lineage-count-invariant"
+    },
+    {
+      "id": "BLR2-S018",
+      "requirement": "parent-lineage-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S019",
+      "requirement": "parent-lineage-readback-verification"
+    },
+    {
+      "id": "BLR2-S020",
+      "requirement": "parent-lineage-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S021",
+      "requirement": "package-metadata-authority-owner"
+    },
+    {
+      "id": "BLR2-S022",
+      "requirement": "package-metadata-schema-identity"
+    },
+    {
+      "id": "BLR2-S023",
+      "requirement": "package-metadata-input-completeness"
+    },
+    {
+      "id": "BLR2-S024",
+      "requirement": "package-metadata-exact-identity"
+    },
+    {
+      "id": "BLR2-S025",
+      "requirement": "package-metadata-canonical-digest"
+    },
+    {
+      "id": "BLR2-S026",
+      "requirement": "package-metadata-path-normalization"
+    },
+    {
+      "id": "BLR2-S027",
+      "requirement": "package-metadata-environment-isolation"
+    },
+    {
+      "id": "BLR2-S028",
+      "requirement": "package-metadata-network-boundary"
+    },
+    {
+      "id": "BLR2-S029",
+      "requirement": "package-metadata-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S030",
+      "requirement": "package-metadata-stable-error"
+    },
+    {
+      "id": "BLR2-S031",
+      "requirement": "package-metadata-negative-control"
+    },
+    {
+      "id": "BLR2-S032",
+      "requirement": "package-metadata-receipt-emission"
+    },
+    {
+      "id": "BLR2-S033",
+      "requirement": "package-metadata-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S034",
+      "requirement": "package-metadata-parent-lineage"
+    },
+    {
+      "id": "BLR2-S035",
+      "requirement": "package-metadata-mutation-zero"
+    },
+    {
+      "id": "BLR2-S036",
+      "requirement": "package-metadata-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S037",
+      "requirement": "package-metadata-count-invariant"
+    },
+    {
+      "id": "BLR2-S038",
+      "requirement": "package-metadata-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S039",
+      "requirement": "package-metadata-readback-verification"
+    },
+    {
+      "id": "BLR2-S040",
+      "requirement": "package-metadata-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S041",
+      "requirement": "exact-root-graph-authority-owner"
+    },
+    {
+      "id": "BLR2-S042",
+      "requirement": "exact-root-graph-schema-identity"
+    },
+    {
+      "id": "BLR2-S043",
+      "requirement": "exact-root-graph-input-completeness"
+    },
+    {
+      "id": "BLR2-S044",
+      "requirement": "exact-root-graph-exact-identity"
+    },
+    {
+      "id": "BLR2-S045",
+      "requirement": "exact-root-graph-canonical-digest"
+    },
+    {
+      "id": "BLR2-S046",
+      "requirement": "exact-root-graph-path-normalization"
+    },
+    {
+      "id": "BLR2-S047",
+      "requirement": "exact-root-graph-environment-isolation"
+    },
+    {
+      "id": "BLR2-S048",
+      "requirement": "exact-root-graph-network-boundary"
+    },
+    {
+      "id": "BLR2-S049",
+      "requirement": "exact-root-graph-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S050",
+      "requirement": "exact-root-graph-stable-error"
+    },
+    {
+      "id": "BLR2-S051",
+      "requirement": "exact-root-graph-negative-control"
+    },
+    {
+      "id": "BLR2-S052",
+      "requirement": "exact-root-graph-receipt-emission"
+    },
+    {
+      "id": "BLR2-S053",
+      "requirement": "exact-root-graph-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S054",
+      "requirement": "exact-root-graph-parent-lineage"
+    },
+    {
+      "id": "BLR2-S055",
+      "requirement": "exact-root-graph-mutation-zero"
+    },
+    {
+      "id": "BLR2-S056",
+      "requirement": "exact-root-graph-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S057",
+      "requirement": "exact-root-graph-count-invariant"
+    },
+    {
+      "id": "BLR2-S058",
+      "requirement": "exact-root-graph-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S059",
+      "requirement": "exact-root-graph-readback-verification"
+    },
+    {
+      "id": "BLR2-S060",
+      "requirement": "exact-root-graph-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S061",
+      "requirement": "lock-candidate-authority-owner"
+    },
+    {
+      "id": "BLR2-S062",
+      "requirement": "lock-candidate-schema-identity"
+    },
+    {
+      "id": "BLR2-S063",
+      "requirement": "lock-candidate-input-completeness"
+    },
+    {
+      "id": "BLR2-S064",
+      "requirement": "lock-candidate-exact-identity"
+    },
+    {
+      "id": "BLR2-S065",
+      "requirement": "lock-candidate-canonical-digest"
+    },
+    {
+      "id": "BLR2-S066",
+      "requirement": "lock-candidate-path-normalization"
+    },
+    {
+      "id": "BLR2-S067",
+      "requirement": "lock-candidate-environment-isolation"
+    },
+    {
+      "id": "BLR2-S068",
+      "requirement": "lock-candidate-network-boundary"
+    },
+    {
+      "id": "BLR2-S069",
+      "requirement": "lock-candidate-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S070",
+      "requirement": "lock-candidate-stable-error"
+    },
+    {
+      "id": "BLR2-S071",
+      "requirement": "lock-candidate-negative-control"
+    },
+    {
+      "id": "BLR2-S072",
+      "requirement": "lock-candidate-receipt-emission"
+    },
+    {
+      "id": "BLR2-S073",
+      "requirement": "lock-candidate-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S074",
+      "requirement": "lock-candidate-parent-lineage"
+    },
+    {
+      "id": "BLR2-S075",
+      "requirement": "lock-candidate-mutation-zero"
+    },
+    {
+      "id": "BLR2-S076",
+      "requirement": "lock-candidate-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S077",
+      "requirement": "lock-candidate-count-invariant"
+    },
+    {
+      "id": "BLR2-S078",
+      "requirement": "lock-candidate-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S079",
+      "requirement": "lock-candidate-readback-verification"
+    },
+    {
+      "id": "BLR2-S080",
+      "requirement": "lock-candidate-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S081",
+      "requirement": "lock-semantic-graph-authority-owner"
+    },
+    {
+      "id": "BLR2-S082",
+      "requirement": "lock-semantic-graph-schema-identity"
+    },
+    {
+      "id": "BLR2-S083",
+      "requirement": "lock-semantic-graph-input-completeness"
+    },
+    {
+      "id": "BLR2-S084",
+      "requirement": "lock-semantic-graph-exact-identity"
+    },
+    {
+      "id": "BLR2-S085",
+      "requirement": "lock-semantic-graph-canonical-digest"
+    },
+    {
+      "id": "BLR2-S086",
+      "requirement": "lock-semantic-graph-path-normalization"
+    },
+    {
+      "id": "BLR2-S087",
+      "requirement": "lock-semantic-graph-environment-isolation"
+    },
+    {
+      "id": "BLR2-S088",
+      "requirement": "lock-semantic-graph-network-boundary"
+    },
+    {
+      "id": "BLR2-S089",
+      "requirement": "lock-semantic-graph-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S090",
+      "requirement": "lock-semantic-graph-stable-error"
+    },
+    {
+      "id": "BLR2-S091",
+      "requirement": "lock-semantic-graph-negative-control"
+    },
+    {
+      "id": "BLR2-S092",
+      "requirement": "lock-semantic-graph-receipt-emission"
+    },
+    {
+      "id": "BLR2-S093",
+      "requirement": "lock-semantic-graph-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S094",
+      "requirement": "lock-semantic-graph-parent-lineage"
+    },
+    {
+      "id": "BLR2-S095",
+      "requirement": "lock-semantic-graph-mutation-zero"
+    },
+    {
+      "id": "BLR2-S096",
+      "requirement": "lock-semantic-graph-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S097",
+      "requirement": "lock-semantic-graph-count-invariant"
+    },
+    {
+      "id": "BLR2-S098",
+      "requirement": "lock-semantic-graph-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S099",
+      "requirement": "lock-semantic-graph-readback-verification"
+    },
+    {
+      "id": "BLR2-S100",
+      "requirement": "lock-semantic-graph-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S101",
+      "requirement": "npm-config-authority-authority-owner"
+    },
+    {
+      "id": "BLR2-S102",
+      "requirement": "npm-config-authority-schema-identity"
+    },
+    {
+      "id": "BLR2-S103",
+      "requirement": "npm-config-authority-input-completeness"
+    },
+    {
+      "id": "BLR2-S104",
+      "requirement": "npm-config-authority-exact-identity"
+    },
+    {
+      "id": "BLR2-S105",
+      "requirement": "npm-config-authority-canonical-digest"
+    },
+    {
+      "id": "BLR2-S106",
+      "requirement": "npm-config-authority-path-normalization"
+    },
+    {
+      "id": "BLR2-S107",
+      "requirement": "npm-config-authority-environment-isolation"
+    },
+    {
+      "id": "BLR2-S108",
+      "requirement": "npm-config-authority-network-boundary"
+    },
+    {
+      "id": "BLR2-S109",
+      "requirement": "npm-config-authority-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S110",
+      "requirement": "npm-config-authority-stable-error"
+    },
+    {
+      "id": "BLR2-S111",
+      "requirement": "npm-config-authority-negative-control"
+    },
+    {
+      "id": "BLR2-S112",
+      "requirement": "npm-config-authority-receipt-emission"
+    },
+    {
+      "id": "BLR2-S113",
+      "requirement": "npm-config-authority-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S114",
+      "requirement": "npm-config-authority-parent-lineage"
+    },
+    {
+      "id": "BLR2-S115",
+      "requirement": "npm-config-authority-mutation-zero"
+    },
+    {
+      "id": "BLR2-S116",
+      "requirement": "npm-config-authority-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S117",
+      "requirement": "npm-config-authority-count-invariant"
+    },
+    {
+      "id": "BLR2-S118",
+      "requirement": "npm-config-authority-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S119",
+      "requirement": "npm-config-authority-readback-verification"
+    },
+    {
+      "id": "BLR2-S120",
+      "requirement": "npm-config-authority-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S121",
+      "requirement": "environment-projection-authority-owner"
+    },
+    {
+      "id": "BLR2-S122",
+      "requirement": "environment-projection-schema-identity"
+    },
+    {
+      "id": "BLR2-S123",
+      "requirement": "environment-projection-input-completeness"
+    },
+    {
+      "id": "BLR2-S124",
+      "requirement": "environment-projection-exact-identity"
+    },
+    {
+      "id": "BLR2-S125",
+      "requirement": "environment-projection-canonical-digest"
+    },
+    {
+      "id": "BLR2-S126",
+      "requirement": "environment-projection-path-normalization"
+    },
+    {
+      "id": "BLR2-S127",
+      "requirement": "environment-projection-environment-isolation"
+    },
+    {
+      "id": "BLR2-S128",
+      "requirement": "environment-projection-network-boundary"
+    },
+    {
+      "id": "BLR2-S129",
+      "requirement": "environment-projection-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S130",
+      "requirement": "environment-projection-stable-error"
+    },
+    {
+      "id": "BLR2-S131",
+      "requirement": "environment-projection-negative-control"
+    },
+    {
+      "id": "BLR2-S132",
+      "requirement": "environment-projection-receipt-emission"
+    },
+    {
+      "id": "BLR2-S133",
+      "requirement": "environment-projection-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S134",
+      "requirement": "environment-projection-parent-lineage"
+    },
+    {
+      "id": "BLR2-S135",
+      "requirement": "environment-projection-mutation-zero"
+    },
+    {
+      "id": "BLR2-S136",
+      "requirement": "environment-projection-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S137",
+      "requirement": "environment-projection-count-invariant"
+    },
+    {
+      "id": "BLR2-S138",
+      "requirement": "environment-projection-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S139",
+      "requirement": "environment-projection-readback-verification"
+    },
+    {
+      "id": "BLR2-S140",
+      "requirement": "environment-projection-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S141",
+      "requirement": "registry-identity-authority-owner"
+    },
+    {
+      "id": "BLR2-S142",
+      "requirement": "registry-identity-schema-identity"
+    },
+    {
+      "id": "BLR2-S143",
+      "requirement": "registry-identity-input-completeness"
+    },
+    {
+      "id": "BLR2-S144",
+      "requirement": "registry-identity-exact-identity"
+    },
+    {
+      "id": "BLR2-S145",
+      "requirement": "registry-identity-canonical-digest"
+    },
+    {
+      "id": "BLR2-S146",
+      "requirement": "registry-identity-path-normalization"
+    },
+    {
+      "id": "BLR2-S147",
+      "requirement": "registry-identity-environment-isolation"
+    },
+    {
+      "id": "BLR2-S148",
+      "requirement": "registry-identity-network-boundary"
+    },
+    {
+      "id": "BLR2-S149",
+      "requirement": "registry-identity-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S150",
+      "requirement": "registry-identity-stable-error"
+    },
+    {
+      "id": "BLR2-S151",
+      "requirement": "registry-identity-negative-control"
+    },
+    {
+      "id": "BLR2-S152",
+      "requirement": "registry-identity-receipt-emission"
+    },
+    {
+      "id": "BLR2-S153",
+      "requirement": "registry-identity-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S154",
+      "requirement": "registry-identity-parent-lineage"
+    },
+    {
+      "id": "BLR2-S155",
+      "requirement": "registry-identity-mutation-zero"
+    },
+    {
+      "id": "BLR2-S156",
+      "requirement": "registry-identity-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S157",
+      "requirement": "registry-identity-count-invariant"
+    },
+    {
+      "id": "BLR2-S158",
+      "requirement": "registry-identity-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S159",
+      "requirement": "registry-identity-readback-verification"
+    },
+    {
+      "id": "BLR2-S160",
+      "requirement": "registry-identity-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S161",
+      "requirement": "frozen-cache-closure-authority-owner"
+    },
+    {
+      "id": "BLR2-S162",
+      "requirement": "frozen-cache-closure-schema-identity"
+    },
+    {
+      "id": "BLR2-S163",
+      "requirement": "frozen-cache-closure-input-completeness"
+    },
+    {
+      "id": "BLR2-S164",
+      "requirement": "frozen-cache-closure-exact-identity"
+    },
+    {
+      "id": "BLR2-S165",
+      "requirement": "frozen-cache-closure-canonical-digest"
+    },
+    {
+      "id": "BLR2-S166",
+      "requirement": "frozen-cache-closure-path-normalization"
+    },
+    {
+      "id": "BLR2-S167",
+      "requirement": "frozen-cache-closure-environment-isolation"
+    },
+    {
+      "id": "BLR2-S168",
+      "requirement": "frozen-cache-closure-network-boundary"
+    },
+    {
+      "id": "BLR2-S169",
+      "requirement": "frozen-cache-closure-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S170",
+      "requirement": "frozen-cache-closure-stable-error"
+    },
+    {
+      "id": "BLR2-S171",
+      "requirement": "frozen-cache-closure-negative-control"
+    },
+    {
+      "id": "BLR2-S172",
+      "requirement": "frozen-cache-closure-receipt-emission"
+    },
+    {
+      "id": "BLR2-S173",
+      "requirement": "frozen-cache-closure-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S174",
+      "requirement": "frozen-cache-closure-parent-lineage"
+    },
+    {
+      "id": "BLR2-S175",
+      "requirement": "frozen-cache-closure-mutation-zero"
+    },
+    {
+      "id": "BLR2-S176",
+      "requirement": "frozen-cache-closure-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S177",
+      "requirement": "frozen-cache-closure-count-invariant"
+    },
+    {
+      "id": "BLR2-S178",
+      "requirement": "frozen-cache-closure-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S179",
+      "requirement": "frozen-cache-closure-readback-verification"
+    },
+    {
+      "id": "BLR2-S180",
+      "requirement": "frozen-cache-closure-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S181",
+      "requirement": "lifecycle-replay-plan-authority-owner"
+    },
+    {
+      "id": "BLR2-S182",
+      "requirement": "lifecycle-replay-plan-schema-identity"
+    },
+    {
+      "id": "BLR2-S183",
+      "requirement": "lifecycle-replay-plan-input-completeness"
+    },
+    {
+      "id": "BLR2-S184",
+      "requirement": "lifecycle-replay-plan-exact-identity"
+    },
+    {
+      "id": "BLR2-S185",
+      "requirement": "lifecycle-replay-plan-canonical-digest"
+    },
+    {
+      "id": "BLR2-S186",
+      "requirement": "lifecycle-replay-plan-path-normalization"
+    },
+    {
+      "id": "BLR2-S187",
+      "requirement": "lifecycle-replay-plan-environment-isolation"
+    },
+    {
+      "id": "BLR2-S188",
+      "requirement": "lifecycle-replay-plan-network-boundary"
+    },
+    {
+      "id": "BLR2-S189",
+      "requirement": "lifecycle-replay-plan-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S190",
+      "requirement": "lifecycle-replay-plan-stable-error"
+    },
+    {
+      "id": "BLR2-S191",
+      "requirement": "lifecycle-replay-plan-negative-control"
+    },
+    {
+      "id": "BLR2-S192",
+      "requirement": "lifecycle-replay-plan-receipt-emission"
+    },
+    {
+      "id": "BLR2-S193",
+      "requirement": "lifecycle-replay-plan-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S194",
+      "requirement": "lifecycle-replay-plan-parent-lineage"
+    },
+    {
+      "id": "BLR2-S195",
+      "requirement": "lifecycle-replay-plan-mutation-zero"
+    },
+    {
+      "id": "BLR2-S196",
+      "requirement": "lifecycle-replay-plan-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S197",
+      "requirement": "lifecycle-replay-plan-count-invariant"
+    },
+    {
+      "id": "BLR2-S198",
+      "requirement": "lifecycle-replay-plan-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S199",
+      "requirement": "lifecycle-replay-plan-readback-verification"
+    },
+    {
+      "id": "BLR2-S200",
+      "requirement": "lifecycle-replay-plan-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S201",
+      "requirement": "install-content-schema-authority-owner"
+    },
+    {
+      "id": "BLR2-S202",
+      "requirement": "install-content-schema-schema-identity"
+    },
+    {
+      "id": "BLR2-S203",
+      "requirement": "install-content-schema-input-completeness"
+    },
+    {
+      "id": "BLR2-S204",
+      "requirement": "install-content-schema-exact-identity"
+    },
+    {
+      "id": "BLR2-S205",
+      "requirement": "install-content-schema-canonical-digest"
+    },
+    {
+      "id": "BLR2-S206",
+      "requirement": "install-content-schema-path-normalization"
+    },
+    {
+      "id": "BLR2-S207",
+      "requirement": "install-content-schema-environment-isolation"
+    },
+    {
+      "id": "BLR2-S208",
+      "requirement": "install-content-schema-network-boundary"
+    },
+    {
+      "id": "BLR2-S209",
+      "requirement": "install-content-schema-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S210",
+      "requirement": "install-content-schema-stable-error"
+    },
+    {
+      "id": "BLR2-S211",
+      "requirement": "install-content-schema-negative-control"
+    },
+    {
+      "id": "BLR2-S212",
+      "requirement": "install-content-schema-receipt-emission"
+    },
+    {
+      "id": "BLR2-S213",
+      "requirement": "install-content-schema-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S214",
+      "requirement": "install-content-schema-parent-lineage"
+    },
+    {
+      "id": "BLR2-S215",
+      "requirement": "install-content-schema-mutation-zero"
+    },
+    {
+      "id": "BLR2-S216",
+      "requirement": "install-content-schema-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S217",
+      "requirement": "install-content-schema-count-invariant"
+    },
+    {
+      "id": "BLR2-S218",
+      "requirement": "install-content-schema-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S219",
+      "requirement": "install-content-schema-readback-verification"
+    },
+    {
+      "id": "BLR2-S220",
+      "requirement": "install-content-schema-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S221",
+      "requirement": "zero-lock-mutation-authority-owner"
+    },
+    {
+      "id": "BLR2-S222",
+      "requirement": "zero-lock-mutation-schema-identity"
+    },
+    {
+      "id": "BLR2-S223",
+      "requirement": "zero-lock-mutation-input-completeness"
+    },
+    {
+      "id": "BLR2-S224",
+      "requirement": "zero-lock-mutation-exact-identity"
+    },
+    {
+      "id": "BLR2-S225",
+      "requirement": "zero-lock-mutation-canonical-digest"
+    },
+    {
+      "id": "BLR2-S226",
+      "requirement": "zero-lock-mutation-path-normalization"
+    },
+    {
+      "id": "BLR2-S227",
+      "requirement": "zero-lock-mutation-environment-isolation"
+    },
+    {
+      "id": "BLR2-S228",
+      "requirement": "zero-lock-mutation-network-boundary"
+    },
+    {
+      "id": "BLR2-S229",
+      "requirement": "zero-lock-mutation-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S230",
+      "requirement": "zero-lock-mutation-stable-error"
+    },
+    {
+      "id": "BLR2-S231",
+      "requirement": "zero-lock-mutation-negative-control"
+    },
+    {
+      "id": "BLR2-S232",
+      "requirement": "zero-lock-mutation-receipt-emission"
+    },
+    {
+      "id": "BLR2-S233",
+      "requirement": "zero-lock-mutation-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S234",
+      "requirement": "zero-lock-mutation-parent-lineage"
+    },
+    {
+      "id": "BLR2-S235",
+      "requirement": "zero-lock-mutation-mutation-zero"
+    },
+    {
+      "id": "BLR2-S236",
+      "requirement": "zero-lock-mutation-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S237",
+      "requirement": "zero-lock-mutation-count-invariant"
+    },
+    {
+      "id": "BLR2-S238",
+      "requirement": "zero-lock-mutation-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S239",
+      "requirement": "zero-lock-mutation-readback-verification"
+    },
+    {
+      "id": "BLR2-S240",
+      "requirement": "zero-lock-mutation-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S241",
+      "requirement": "toolchain-profile-authority-owner"
+    },
+    {
+      "id": "BLR2-S242",
+      "requirement": "toolchain-profile-schema-identity"
+    },
+    {
+      "id": "BLR2-S243",
+      "requirement": "toolchain-profile-input-completeness"
+    },
+    {
+      "id": "BLR2-S244",
+      "requirement": "toolchain-profile-exact-identity"
+    },
+    {
+      "id": "BLR2-S245",
+      "requirement": "toolchain-profile-canonical-digest"
+    },
+    {
+      "id": "BLR2-S246",
+      "requirement": "toolchain-profile-path-normalization"
+    },
+    {
+      "id": "BLR2-S247",
+      "requirement": "toolchain-profile-environment-isolation"
+    },
+    {
+      "id": "BLR2-S248",
+      "requirement": "toolchain-profile-network-boundary"
+    },
+    {
+      "id": "BLR2-S249",
+      "requirement": "toolchain-profile-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S250",
+      "requirement": "toolchain-profile-stable-error"
+    },
+    {
+      "id": "BLR2-S251",
+      "requirement": "toolchain-profile-negative-control"
+    },
+    {
+      "id": "BLR2-S252",
+      "requirement": "toolchain-profile-receipt-emission"
+    },
+    {
+      "id": "BLR2-S253",
+      "requirement": "toolchain-profile-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S254",
+      "requirement": "toolchain-profile-parent-lineage"
+    },
+    {
+      "id": "BLR2-S255",
+      "requirement": "toolchain-profile-mutation-zero"
+    },
+    {
+      "id": "BLR2-S256",
+      "requirement": "toolchain-profile-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S257",
+      "requirement": "toolchain-profile-count-invariant"
+    },
+    {
+      "id": "BLR2-S258",
+      "requirement": "toolchain-profile-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S259",
+      "requirement": "toolchain-profile-readback-verification"
+    },
+    {
+      "id": "BLR2-S260",
+      "requirement": "toolchain-profile-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S261",
+      "requirement": "native-toolchain-manifest-authority-owner"
+    },
+    {
+      "id": "BLR2-S262",
+      "requirement": "native-toolchain-manifest-schema-identity"
+    },
+    {
+      "id": "BLR2-S263",
+      "requirement": "native-toolchain-manifest-input-completeness"
+    },
+    {
+      "id": "BLR2-S264",
+      "requirement": "native-toolchain-manifest-exact-identity"
+    },
+    {
+      "id": "BLR2-S265",
+      "requirement": "native-toolchain-manifest-canonical-digest"
+    },
+    {
+      "id": "BLR2-S266",
+      "requirement": "native-toolchain-manifest-path-normalization"
+    },
+    {
+      "id": "BLR2-S267",
+      "requirement": "native-toolchain-manifest-environment-isolation"
+    },
+    {
+      "id": "BLR2-S268",
+      "requirement": "native-toolchain-manifest-network-boundary"
+    },
+    {
+      "id": "BLR2-S269",
+      "requirement": "native-toolchain-manifest-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S270",
+      "requirement": "native-toolchain-manifest-stable-error"
+    },
+    {
+      "id": "BLR2-S271",
+      "requirement": "native-toolchain-manifest-negative-control"
+    },
+    {
+      "id": "BLR2-S272",
+      "requirement": "native-toolchain-manifest-receipt-emission"
+    },
+    {
+      "id": "BLR2-S273",
+      "requirement": "native-toolchain-manifest-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S274",
+      "requirement": "native-toolchain-manifest-parent-lineage"
+    },
+    {
+      "id": "BLR2-S275",
+      "requirement": "native-toolchain-manifest-mutation-zero"
+    },
+    {
+      "id": "BLR2-S276",
+      "requirement": "native-toolchain-manifest-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S277",
+      "requirement": "native-toolchain-manifest-count-invariant"
+    },
+    {
+      "id": "BLR2-S278",
+      "requirement": "native-toolchain-manifest-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S279",
+      "requirement": "native-toolchain-manifest-readback-verification"
+    },
+    {
+      "id": "BLR2-S280",
+      "requirement": "native-toolchain-manifest-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S281",
+      "requirement": "production-build-driver-authority-owner"
+    },
+    {
+      "id": "BLR2-S282",
+      "requirement": "production-build-driver-schema-identity"
+    },
+    {
+      "id": "BLR2-S283",
+      "requirement": "production-build-driver-input-completeness"
+    },
+    {
+      "id": "BLR2-S284",
+      "requirement": "production-build-driver-exact-identity"
+    },
+    {
+      "id": "BLR2-S285",
+      "requirement": "production-build-driver-canonical-digest"
+    },
+    {
+      "id": "BLR2-S286",
+      "requirement": "production-build-driver-path-normalization"
+    },
+    {
+      "id": "BLR2-S287",
+      "requirement": "production-build-driver-environment-isolation"
+    },
+    {
+      "id": "BLR2-S288",
+      "requirement": "production-build-driver-network-boundary"
+    },
+    {
+      "id": "BLR2-S289",
+      "requirement": "production-build-driver-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S290",
+      "requirement": "production-build-driver-stable-error"
+    },
+    {
+      "id": "BLR2-S291",
+      "requirement": "production-build-driver-negative-control"
+    },
+    {
+      "id": "BLR2-S292",
+      "requirement": "production-build-driver-receipt-emission"
+    },
+    {
+      "id": "BLR2-S293",
+      "requirement": "production-build-driver-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S294",
+      "requirement": "production-build-driver-parent-lineage"
+    },
+    {
+      "id": "BLR2-S295",
+      "requirement": "production-build-driver-mutation-zero"
+    },
+    {
+      "id": "BLR2-S296",
+      "requirement": "production-build-driver-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S297",
+      "requirement": "production-build-driver-count-invariant"
+    },
+    {
+      "id": "BLR2-S298",
+      "requirement": "production-build-driver-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S299",
+      "requirement": "production-build-driver-readback-verification"
+    },
+    {
+      "id": "BLR2-S300",
+      "requirement": "production-build-driver-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S301",
+      "requirement": "electron-package-closure-authority-owner"
+    },
+    {
+      "id": "BLR2-S302",
+      "requirement": "electron-package-closure-schema-identity"
+    },
+    {
+      "id": "BLR2-S303",
+      "requirement": "electron-package-closure-input-completeness"
+    },
+    {
+      "id": "BLR2-S304",
+      "requirement": "electron-package-closure-exact-identity"
+    },
+    {
+      "id": "BLR2-S305",
+      "requirement": "electron-package-closure-canonical-digest"
+    },
+    {
+      "id": "BLR2-S306",
+      "requirement": "electron-package-closure-path-normalization"
+    },
+    {
+      "id": "BLR2-S307",
+      "requirement": "electron-package-closure-environment-isolation"
+    },
+    {
+      "id": "BLR2-S308",
+      "requirement": "electron-package-closure-network-boundary"
+    },
+    {
+      "id": "BLR2-S309",
+      "requirement": "electron-package-closure-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S310",
+      "requirement": "electron-package-closure-stable-error"
+    },
+    {
+      "id": "BLR2-S311",
+      "requirement": "electron-package-closure-negative-control"
+    },
+    {
+      "id": "BLR2-S312",
+      "requirement": "electron-package-closure-receipt-emission"
+    },
+    {
+      "id": "BLR2-S313",
+      "requirement": "electron-package-closure-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S314",
+      "requirement": "electron-package-closure-parent-lineage"
+    },
+    {
+      "id": "BLR2-S315",
+      "requirement": "electron-package-closure-mutation-zero"
+    },
+    {
+      "id": "BLR2-S316",
+      "requirement": "electron-package-closure-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S317",
+      "requirement": "electron-package-closure-count-invariant"
+    },
+    {
+      "id": "BLR2-S318",
+      "requirement": "electron-package-closure-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S319",
+      "requirement": "electron-package-closure-readback-verification"
+    },
+    {
+      "id": "BLR2-S320",
+      "requirement": "electron-package-closure-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S321",
+      "requirement": "receipt-schemas-authority-owner"
+    },
+    {
+      "id": "BLR2-S322",
+      "requirement": "receipt-schemas-schema-identity"
+    },
+    {
+      "id": "BLR2-S323",
+      "requirement": "receipt-schemas-input-completeness"
+    },
+    {
+      "id": "BLR2-S324",
+      "requirement": "receipt-schemas-exact-identity"
+    },
+    {
+      "id": "BLR2-S325",
+      "requirement": "receipt-schemas-canonical-digest"
+    },
+    {
+      "id": "BLR2-S326",
+      "requirement": "receipt-schemas-path-normalization"
+    },
+    {
+      "id": "BLR2-S327",
+      "requirement": "receipt-schemas-environment-isolation"
+    },
+    {
+      "id": "BLR2-S328",
+      "requirement": "receipt-schemas-network-boundary"
+    },
+    {
+      "id": "BLR2-S329",
+      "requirement": "receipt-schemas-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S330",
+      "requirement": "receipt-schemas-stable-error"
+    },
+    {
+      "id": "BLR2-S331",
+      "requirement": "receipt-schemas-negative-control"
+    },
+    {
+      "id": "BLR2-S332",
+      "requirement": "receipt-schemas-receipt-emission"
+    },
+    {
+      "id": "BLR2-S333",
+      "requirement": "receipt-schemas-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S334",
+      "requirement": "receipt-schemas-parent-lineage"
+    },
+    {
+      "id": "BLR2-S335",
+      "requirement": "receipt-schemas-mutation-zero"
+    },
+    {
+      "id": "BLR2-S336",
+      "requirement": "receipt-schemas-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S337",
+      "requirement": "receipt-schemas-count-invariant"
+    },
+    {
+      "id": "BLR2-S338",
+      "requirement": "receipt-schemas-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S339",
+      "requirement": "receipt-schemas-readback-verification"
+    },
+    {
+      "id": "BLR2-S340",
+      "requirement": "receipt-schemas-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S341",
+      "requirement": "stable-error-registry-authority-owner"
+    },
+    {
+      "id": "BLR2-S342",
+      "requirement": "stable-error-registry-schema-identity"
+    },
+    {
+      "id": "BLR2-S343",
+      "requirement": "stable-error-registry-input-completeness"
+    },
+    {
+      "id": "BLR2-S344",
+      "requirement": "stable-error-registry-exact-identity"
+    },
+    {
+      "id": "BLR2-S345",
+      "requirement": "stable-error-registry-canonical-digest"
+    },
+    {
+      "id": "BLR2-S346",
+      "requirement": "stable-error-registry-path-normalization"
+    },
+    {
+      "id": "BLR2-S347",
+      "requirement": "stable-error-registry-environment-isolation"
+    },
+    {
+      "id": "BLR2-S348",
+      "requirement": "stable-error-registry-network-boundary"
+    },
+    {
+      "id": "BLR2-S349",
+      "requirement": "stable-error-registry-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S350",
+      "requirement": "stable-error-registry-stable-error"
+    },
+    {
+      "id": "BLR2-S351",
+      "requirement": "stable-error-registry-negative-control"
+    },
+    {
+      "id": "BLR2-S352",
+      "requirement": "stable-error-registry-receipt-emission"
+    },
+    {
+      "id": "BLR2-S353",
+      "requirement": "stable-error-registry-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S354",
+      "requirement": "stable-error-registry-parent-lineage"
+    },
+    {
+      "id": "BLR2-S355",
+      "requirement": "stable-error-registry-mutation-zero"
+    },
+    {
+      "id": "BLR2-S356",
+      "requirement": "stable-error-registry-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S357",
+      "requirement": "stable-error-registry-count-invariant"
+    },
+    {
+      "id": "BLR2-S358",
+      "requirement": "stable-error-registry-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S359",
+      "requirement": "stable-error-registry-readback-verification"
+    },
+    {
+      "id": "BLR2-S360",
+      "requirement": "stable-error-registry-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S361",
+      "requirement": "negative-control-source-authority-owner"
+    },
+    {
+      "id": "BLR2-S362",
+      "requirement": "negative-control-source-schema-identity"
+    },
+    {
+      "id": "BLR2-S363",
+      "requirement": "negative-control-source-input-completeness"
+    },
+    {
+      "id": "BLR2-S364",
+      "requirement": "negative-control-source-exact-identity"
+    },
+    {
+      "id": "BLR2-S365",
+      "requirement": "negative-control-source-canonical-digest"
+    },
+    {
+      "id": "BLR2-S366",
+      "requirement": "negative-control-source-path-normalization"
+    },
+    {
+      "id": "BLR2-S367",
+      "requirement": "negative-control-source-environment-isolation"
+    },
+    {
+      "id": "BLR2-S368",
+      "requirement": "negative-control-source-network-boundary"
+    },
+    {
+      "id": "BLR2-S369",
+      "requirement": "negative-control-source-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S370",
+      "requirement": "negative-control-source-stable-error"
+    },
+    {
+      "id": "BLR2-S371",
+      "requirement": "negative-control-source-negative-control"
+    },
+    {
+      "id": "BLR2-S372",
+      "requirement": "negative-control-source-receipt-emission"
+    },
+    {
+      "id": "BLR2-S373",
+      "requirement": "negative-control-source-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S374",
+      "requirement": "negative-control-source-parent-lineage"
+    },
+    {
+      "id": "BLR2-S375",
+      "requirement": "negative-control-source-mutation-zero"
+    },
+    {
+      "id": "BLR2-S376",
+      "requirement": "negative-control-source-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S377",
+      "requirement": "negative-control-source-count-invariant"
+    },
+    {
+      "id": "BLR2-S378",
+      "requirement": "negative-control-source-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S379",
+      "requirement": "negative-control-source-readback-verification"
+    },
+    {
+      "id": "BLR2-S380",
+      "requirement": "negative-control-source-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S381",
+      "requirement": "product-wiring-authority-owner"
+    },
+    {
+      "id": "BLR2-S382",
+      "requirement": "product-wiring-schema-identity"
+    },
+    {
+      "id": "BLR2-S383",
+      "requirement": "product-wiring-input-completeness"
+    },
+    {
+      "id": "BLR2-S384",
+      "requirement": "product-wiring-exact-identity"
+    },
+    {
+      "id": "BLR2-S385",
+      "requirement": "product-wiring-canonical-digest"
+    },
+    {
+      "id": "BLR2-S386",
+      "requirement": "product-wiring-path-normalization"
+    },
+    {
+      "id": "BLR2-S387",
+      "requirement": "product-wiring-environment-isolation"
+    },
+    {
+      "id": "BLR2-S388",
+      "requirement": "product-wiring-network-boundary"
+    },
+    {
+      "id": "BLR2-S389",
+      "requirement": "product-wiring-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S390",
+      "requirement": "product-wiring-stable-error"
+    },
+    {
+      "id": "BLR2-S391",
+      "requirement": "product-wiring-negative-control"
+    },
+    {
+      "id": "BLR2-S392",
+      "requirement": "product-wiring-receipt-emission"
+    },
+    {
+      "id": "BLR2-S393",
+      "requirement": "product-wiring-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S394",
+      "requirement": "product-wiring-parent-lineage"
+    },
+    {
+      "id": "BLR2-S395",
+      "requirement": "product-wiring-mutation-zero"
+    },
+    {
+      "id": "BLR2-S396",
+      "requirement": "product-wiring-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S397",
+      "requirement": "product-wiring-count-invariant"
+    },
+    {
+      "id": "BLR2-S398",
+      "requirement": "product-wiring-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S399",
+      "requirement": "product-wiring-readback-verification"
+    },
+    {
+      "id": "BLR2-S400",
+      "requirement": "product-wiring-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-S401",
+      "requirement": "source-finalizer-authority-owner"
+    },
+    {
+      "id": "BLR2-S402",
+      "requirement": "source-finalizer-schema-identity"
+    },
+    {
+      "id": "BLR2-S403",
+      "requirement": "source-finalizer-input-completeness"
+    },
+    {
+      "id": "BLR2-S404",
+      "requirement": "source-finalizer-exact-identity"
+    },
+    {
+      "id": "BLR2-S405",
+      "requirement": "source-finalizer-canonical-digest"
+    },
+    {
+      "id": "BLR2-S406",
+      "requirement": "source-finalizer-path-normalization"
+    },
+    {
+      "id": "BLR2-S407",
+      "requirement": "source-finalizer-environment-isolation"
+    },
+    {
+      "id": "BLR2-S408",
+      "requirement": "source-finalizer-network-boundary"
+    },
+    {
+      "id": "BLR2-S409",
+      "requirement": "source-finalizer-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-S410",
+      "requirement": "source-finalizer-stable-error"
+    },
+    {
+      "id": "BLR2-S411",
+      "requirement": "source-finalizer-negative-control"
+    },
+    {
+      "id": "BLR2-S412",
+      "requirement": "source-finalizer-receipt-emission"
+    },
+    {
+      "id": "BLR2-S413",
+      "requirement": "source-finalizer-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-S414",
+      "requirement": "source-finalizer-parent-lineage"
+    },
+    {
+      "id": "BLR2-S415",
+      "requirement": "source-finalizer-mutation-zero"
+    },
+    {
+      "id": "BLR2-S416",
+      "requirement": "source-finalizer-deterministic-replay"
+    },
+    {
+      "id": "BLR2-S417",
+      "requirement": "source-finalizer-count-invariant"
+    },
+    {
+      "id": "BLR2-S418",
+      "requirement": "source-finalizer-failure-cleanup"
+    },
+    {
+      "id": "BLR2-S419",
+      "requirement": "source-finalizer-readback-verification"
+    },
+    {
+      "id": "BLR2-S420",
+      "requirement": "source-finalizer-finalizer-recomputation"
+    }
+  ],
+  "specSha256": "c7fcc062defe7b03ddef4d00bf8c21a29d3e482e8651324067071c5e458c63c8",
+  "win32Mandatory": [
+    {
+      "id": "BLR2-P001",
+      "requirement": "canonical-win32-host-authority-owner"
+    },
+    {
+      "id": "BLR2-P002",
+      "requirement": "canonical-win32-host-schema-identity"
+    },
+    {
+      "id": "BLR2-P003",
+      "requirement": "canonical-win32-host-input-completeness"
+    },
+    {
+      "id": "BLR2-P004",
+      "requirement": "canonical-win32-host-exact-identity"
+    },
+    {
+      "id": "BLR2-P005",
+      "requirement": "canonical-win32-host-canonical-digest"
+    },
+    {
+      "id": "BLR2-P006",
+      "requirement": "canonical-win32-host-path-normalization"
+    },
+    {
+      "id": "BLR2-P007",
+      "requirement": "canonical-win32-host-environment-isolation"
+    },
+    {
+      "id": "BLR2-P008",
+      "requirement": "canonical-win32-host-network-boundary"
+    },
+    {
+      "id": "BLR2-P009",
+      "requirement": "canonical-win32-host-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P010",
+      "requirement": "canonical-win32-host-stable-error"
+    },
+    {
+      "id": "BLR2-P011",
+      "requirement": "canonical-win32-host-negative-control"
+    },
+    {
+      "id": "BLR2-P012",
+      "requirement": "canonical-win32-host-receipt-emission"
+    },
+    {
+      "id": "BLR2-P013",
+      "requirement": "canonical-win32-host-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P014",
+      "requirement": "canonical-win32-host-parent-lineage"
+    },
+    {
+      "id": "BLR2-P015",
+      "requirement": "canonical-win32-host-mutation-zero"
+    },
+    {
+      "id": "BLR2-P016",
+      "requirement": "canonical-win32-host-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P017",
+      "requirement": "canonical-win32-host-count-invariant"
+    },
+    {
+      "id": "BLR2-P018",
+      "requirement": "canonical-win32-host-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P019",
+      "requirement": "canonical-win32-host-readback-verification"
+    },
+    {
+      "id": "BLR2-P020",
+      "requirement": "canonical-win32-host-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P021",
+      "requirement": "clean-workspace-ab-authority-owner"
+    },
+    {
+      "id": "BLR2-P022",
+      "requirement": "clean-workspace-ab-schema-identity"
+    },
+    {
+      "id": "BLR2-P023",
+      "requirement": "clean-workspace-ab-input-completeness"
+    },
+    {
+      "id": "BLR2-P024",
+      "requirement": "clean-workspace-ab-exact-identity"
+    },
+    {
+      "id": "BLR2-P025",
+      "requirement": "clean-workspace-ab-canonical-digest"
+    },
+    {
+      "id": "BLR2-P026",
+      "requirement": "clean-workspace-ab-path-normalization"
+    },
+    {
+      "id": "BLR2-P027",
+      "requirement": "clean-workspace-ab-environment-isolation"
+    },
+    {
+      "id": "BLR2-P028",
+      "requirement": "clean-workspace-ab-network-boundary"
+    },
+    {
+      "id": "BLR2-P029",
+      "requirement": "clean-workspace-ab-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P030",
+      "requirement": "clean-workspace-ab-stable-error"
+    },
+    {
+      "id": "BLR2-P031",
+      "requirement": "clean-workspace-ab-negative-control"
+    },
+    {
+      "id": "BLR2-P032",
+      "requirement": "clean-workspace-ab-receipt-emission"
+    },
+    {
+      "id": "BLR2-P033",
+      "requirement": "clean-workspace-ab-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P034",
+      "requirement": "clean-workspace-ab-parent-lineage"
+    },
+    {
+      "id": "BLR2-P035",
+      "requirement": "clean-workspace-ab-mutation-zero"
+    },
+    {
+      "id": "BLR2-P036",
+      "requirement": "clean-workspace-ab-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P037",
+      "requirement": "clean-workspace-ab-count-invariant"
+    },
+    {
+      "id": "BLR2-P038",
+      "requirement": "clean-workspace-ab-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P039",
+      "requirement": "clean-workspace-ab-readback-verification"
+    },
+    {
+      "id": "BLR2-P040",
+      "requirement": "clean-workspace-ab-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P041",
+      "requirement": "candidate-lock-generation-authority-owner"
+    },
+    {
+      "id": "BLR2-P042",
+      "requirement": "candidate-lock-generation-schema-identity"
+    },
+    {
+      "id": "BLR2-P043",
+      "requirement": "candidate-lock-generation-input-completeness"
+    },
+    {
+      "id": "BLR2-P044",
+      "requirement": "candidate-lock-generation-exact-identity"
+    },
+    {
+      "id": "BLR2-P045",
+      "requirement": "candidate-lock-generation-canonical-digest"
+    },
+    {
+      "id": "BLR2-P046",
+      "requirement": "candidate-lock-generation-path-normalization"
+    },
+    {
+      "id": "BLR2-P047",
+      "requirement": "candidate-lock-generation-environment-isolation"
+    },
+    {
+      "id": "BLR2-P048",
+      "requirement": "candidate-lock-generation-network-boundary"
+    },
+    {
+      "id": "BLR2-P049",
+      "requirement": "candidate-lock-generation-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P050",
+      "requirement": "candidate-lock-generation-stable-error"
+    },
+    {
+      "id": "BLR2-P051",
+      "requirement": "candidate-lock-generation-negative-control"
+    },
+    {
+      "id": "BLR2-P052",
+      "requirement": "candidate-lock-generation-receipt-emission"
+    },
+    {
+      "id": "BLR2-P053",
+      "requirement": "candidate-lock-generation-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P054",
+      "requirement": "candidate-lock-generation-parent-lineage"
+    },
+    {
+      "id": "BLR2-P055",
+      "requirement": "candidate-lock-generation-mutation-zero"
+    },
+    {
+      "id": "BLR2-P056",
+      "requirement": "candidate-lock-generation-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P057",
+      "requirement": "candidate-lock-generation-count-invariant"
+    },
+    {
+      "id": "BLR2-P058",
+      "requirement": "candidate-lock-generation-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P059",
+      "requirement": "candidate-lock-generation-readback-verification"
+    },
+    {
+      "id": "BLR2-P060",
+      "requirement": "candidate-lock-generation-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P061",
+      "requirement": "exact-root-graph-runtime-authority-owner"
+    },
+    {
+      "id": "BLR2-P062",
+      "requirement": "exact-root-graph-runtime-schema-identity"
+    },
+    {
+      "id": "BLR2-P063",
+      "requirement": "exact-root-graph-runtime-input-completeness"
+    },
+    {
+      "id": "BLR2-P064",
+      "requirement": "exact-root-graph-runtime-exact-identity"
+    },
+    {
+      "id": "BLR2-P065",
+      "requirement": "exact-root-graph-runtime-canonical-digest"
+    },
+    {
+      "id": "BLR2-P066",
+      "requirement": "exact-root-graph-runtime-path-normalization"
+    },
+    {
+      "id": "BLR2-P067",
+      "requirement": "exact-root-graph-runtime-environment-isolation"
+    },
+    {
+      "id": "BLR2-P068",
+      "requirement": "exact-root-graph-runtime-network-boundary"
+    },
+    {
+      "id": "BLR2-P069",
+      "requirement": "exact-root-graph-runtime-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P070",
+      "requirement": "exact-root-graph-runtime-stable-error"
+    },
+    {
+      "id": "BLR2-P071",
+      "requirement": "exact-root-graph-runtime-negative-control"
+    },
+    {
+      "id": "BLR2-P072",
+      "requirement": "exact-root-graph-runtime-receipt-emission"
+    },
+    {
+      "id": "BLR2-P073",
+      "requirement": "exact-root-graph-runtime-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P074",
+      "requirement": "exact-root-graph-runtime-parent-lineage"
+    },
+    {
+      "id": "BLR2-P075",
+      "requirement": "exact-root-graph-runtime-mutation-zero"
+    },
+    {
+      "id": "BLR2-P076",
+      "requirement": "exact-root-graph-runtime-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P077",
+      "requirement": "exact-root-graph-runtime-count-invariant"
+    },
+    {
+      "id": "BLR2-P078",
+      "requirement": "exact-root-graph-runtime-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P079",
+      "requirement": "exact-root-graph-runtime-readback-verification"
+    },
+    {
+      "id": "BLR2-P080",
+      "requirement": "exact-root-graph-runtime-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P081",
+      "requirement": "cache-acquisition-authority-owner"
+    },
+    {
+      "id": "BLR2-P082",
+      "requirement": "cache-acquisition-schema-identity"
+    },
+    {
+      "id": "BLR2-P083",
+      "requirement": "cache-acquisition-input-completeness"
+    },
+    {
+      "id": "BLR2-P084",
+      "requirement": "cache-acquisition-exact-identity"
+    },
+    {
+      "id": "BLR2-P085",
+      "requirement": "cache-acquisition-canonical-digest"
+    },
+    {
+      "id": "BLR2-P086",
+      "requirement": "cache-acquisition-path-normalization"
+    },
+    {
+      "id": "BLR2-P087",
+      "requirement": "cache-acquisition-environment-isolation"
+    },
+    {
+      "id": "BLR2-P088",
+      "requirement": "cache-acquisition-network-boundary"
+    },
+    {
+      "id": "BLR2-P089",
+      "requirement": "cache-acquisition-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P090",
+      "requirement": "cache-acquisition-stable-error"
+    },
+    {
+      "id": "BLR2-P091",
+      "requirement": "cache-acquisition-negative-control"
+    },
+    {
+      "id": "BLR2-P092",
+      "requirement": "cache-acquisition-receipt-emission"
+    },
+    {
+      "id": "BLR2-P093",
+      "requirement": "cache-acquisition-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P094",
+      "requirement": "cache-acquisition-parent-lineage"
+    },
+    {
+      "id": "BLR2-P095",
+      "requirement": "cache-acquisition-mutation-zero"
+    },
+    {
+      "id": "BLR2-P096",
+      "requirement": "cache-acquisition-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P097",
+      "requirement": "cache-acquisition-count-invariant"
+    },
+    {
+      "id": "BLR2-P098",
+      "requirement": "cache-acquisition-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P099",
+      "requirement": "cache-acquisition-readback-verification"
+    },
+    {
+      "id": "BLR2-P100",
+      "requirement": "cache-acquisition-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P101",
+      "requirement": "offline-npm-ci-a-authority-owner"
+    },
+    {
+      "id": "BLR2-P102",
+      "requirement": "offline-npm-ci-a-schema-identity"
+    },
+    {
+      "id": "BLR2-P103",
+      "requirement": "offline-npm-ci-a-input-completeness"
+    },
+    {
+      "id": "BLR2-P104",
+      "requirement": "offline-npm-ci-a-exact-identity"
+    },
+    {
+      "id": "BLR2-P105",
+      "requirement": "offline-npm-ci-a-canonical-digest"
+    },
+    {
+      "id": "BLR2-P106",
+      "requirement": "offline-npm-ci-a-path-normalization"
+    },
+    {
+      "id": "BLR2-P107",
+      "requirement": "offline-npm-ci-a-environment-isolation"
+    },
+    {
+      "id": "BLR2-P108",
+      "requirement": "offline-npm-ci-a-network-boundary"
+    },
+    {
+      "id": "BLR2-P109",
+      "requirement": "offline-npm-ci-a-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P110",
+      "requirement": "offline-npm-ci-a-stable-error"
+    },
+    {
+      "id": "BLR2-P111",
+      "requirement": "offline-npm-ci-a-negative-control"
+    },
+    {
+      "id": "BLR2-P112",
+      "requirement": "offline-npm-ci-a-receipt-emission"
+    },
+    {
+      "id": "BLR2-P113",
+      "requirement": "offline-npm-ci-a-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P114",
+      "requirement": "offline-npm-ci-a-parent-lineage"
+    },
+    {
+      "id": "BLR2-P115",
+      "requirement": "offline-npm-ci-a-mutation-zero"
+    },
+    {
+      "id": "BLR2-P116",
+      "requirement": "offline-npm-ci-a-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P117",
+      "requirement": "offline-npm-ci-a-count-invariant"
+    },
+    {
+      "id": "BLR2-P118",
+      "requirement": "offline-npm-ci-a-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P119",
+      "requirement": "offline-npm-ci-a-readback-verification"
+    },
+    {
+      "id": "BLR2-P120",
+      "requirement": "offline-npm-ci-a-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P121",
+      "requirement": "offline-npm-ci-b-authority-owner"
+    },
+    {
+      "id": "BLR2-P122",
+      "requirement": "offline-npm-ci-b-schema-identity"
+    },
+    {
+      "id": "BLR2-P123",
+      "requirement": "offline-npm-ci-b-input-completeness"
+    },
+    {
+      "id": "BLR2-P124",
+      "requirement": "offline-npm-ci-b-exact-identity"
+    },
+    {
+      "id": "BLR2-P125",
+      "requirement": "offline-npm-ci-b-canonical-digest"
+    },
+    {
+      "id": "BLR2-P126",
+      "requirement": "offline-npm-ci-b-path-normalization"
+    },
+    {
+      "id": "BLR2-P127",
+      "requirement": "offline-npm-ci-b-environment-isolation"
+    },
+    {
+      "id": "BLR2-P128",
+      "requirement": "offline-npm-ci-b-network-boundary"
+    },
+    {
+      "id": "BLR2-P129",
+      "requirement": "offline-npm-ci-b-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P130",
+      "requirement": "offline-npm-ci-b-stable-error"
+    },
+    {
+      "id": "BLR2-P131",
+      "requirement": "offline-npm-ci-b-negative-control"
+    },
+    {
+      "id": "BLR2-P132",
+      "requirement": "offline-npm-ci-b-receipt-emission"
+    },
+    {
+      "id": "BLR2-P133",
+      "requirement": "offline-npm-ci-b-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P134",
+      "requirement": "offline-npm-ci-b-parent-lineage"
+    },
+    {
+      "id": "BLR2-P135",
+      "requirement": "offline-npm-ci-b-mutation-zero"
+    },
+    {
+      "id": "BLR2-P136",
+      "requirement": "offline-npm-ci-b-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P137",
+      "requirement": "offline-npm-ci-b-count-invariant"
+    },
+    {
+      "id": "BLR2-P138",
+      "requirement": "offline-npm-ci-b-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P139",
+      "requirement": "offline-npm-ci-b-readback-verification"
+    },
+    {
+      "id": "BLR2-P140",
+      "requirement": "offline-npm-ci-b-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P141",
+      "requirement": "install-graph-parity-authority-owner"
+    },
+    {
+      "id": "BLR2-P142",
+      "requirement": "install-graph-parity-schema-identity"
+    },
+    {
+      "id": "BLR2-P143",
+      "requirement": "install-graph-parity-input-completeness"
+    },
+    {
+      "id": "BLR2-P144",
+      "requirement": "install-graph-parity-exact-identity"
+    },
+    {
+      "id": "BLR2-P145",
+      "requirement": "install-graph-parity-canonical-digest"
+    },
+    {
+      "id": "BLR2-P146",
+      "requirement": "install-graph-parity-path-normalization"
+    },
+    {
+      "id": "BLR2-P147",
+      "requirement": "install-graph-parity-environment-isolation"
+    },
+    {
+      "id": "BLR2-P148",
+      "requirement": "install-graph-parity-network-boundary"
+    },
+    {
+      "id": "BLR2-P149",
+      "requirement": "install-graph-parity-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P150",
+      "requirement": "install-graph-parity-stable-error"
+    },
+    {
+      "id": "BLR2-P151",
+      "requirement": "install-graph-parity-negative-control"
+    },
+    {
+      "id": "BLR2-P152",
+      "requirement": "install-graph-parity-receipt-emission"
+    },
+    {
+      "id": "BLR2-P153",
+      "requirement": "install-graph-parity-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P154",
+      "requirement": "install-graph-parity-parent-lineage"
+    },
+    {
+      "id": "BLR2-P155",
+      "requirement": "install-graph-parity-mutation-zero"
+    },
+    {
+      "id": "BLR2-P156",
+      "requirement": "install-graph-parity-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P157",
+      "requirement": "install-graph-parity-count-invariant"
+    },
+    {
+      "id": "BLR2-P158",
+      "requirement": "install-graph-parity-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P159",
+      "requirement": "install-graph-parity-readback-verification"
+    },
+    {
+      "id": "BLR2-P160",
+      "requirement": "install-graph-parity-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P161",
+      "requirement": "lifecycle-replay-a-authority-owner"
+    },
+    {
+      "id": "BLR2-P162",
+      "requirement": "lifecycle-replay-a-schema-identity"
+    },
+    {
+      "id": "BLR2-P163",
+      "requirement": "lifecycle-replay-a-input-completeness"
+    },
+    {
+      "id": "BLR2-P164",
+      "requirement": "lifecycle-replay-a-exact-identity"
+    },
+    {
+      "id": "BLR2-P165",
+      "requirement": "lifecycle-replay-a-canonical-digest"
+    },
+    {
+      "id": "BLR2-P166",
+      "requirement": "lifecycle-replay-a-path-normalization"
+    },
+    {
+      "id": "BLR2-P167",
+      "requirement": "lifecycle-replay-a-environment-isolation"
+    },
+    {
+      "id": "BLR2-P168",
+      "requirement": "lifecycle-replay-a-network-boundary"
+    },
+    {
+      "id": "BLR2-P169",
+      "requirement": "lifecycle-replay-a-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P170",
+      "requirement": "lifecycle-replay-a-stable-error"
+    },
+    {
+      "id": "BLR2-P171",
+      "requirement": "lifecycle-replay-a-negative-control"
+    },
+    {
+      "id": "BLR2-P172",
+      "requirement": "lifecycle-replay-a-receipt-emission"
+    },
+    {
+      "id": "BLR2-P173",
+      "requirement": "lifecycle-replay-a-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P174",
+      "requirement": "lifecycle-replay-a-parent-lineage"
+    },
+    {
+      "id": "BLR2-P175",
+      "requirement": "lifecycle-replay-a-mutation-zero"
+    },
+    {
+      "id": "BLR2-P176",
+      "requirement": "lifecycle-replay-a-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P177",
+      "requirement": "lifecycle-replay-a-count-invariant"
+    },
+    {
+      "id": "BLR2-P178",
+      "requirement": "lifecycle-replay-a-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P179",
+      "requirement": "lifecycle-replay-a-readback-verification"
+    },
+    {
+      "id": "BLR2-P180",
+      "requirement": "lifecycle-replay-a-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P181",
+      "requirement": "lifecycle-replay-b-authority-owner"
+    },
+    {
+      "id": "BLR2-P182",
+      "requirement": "lifecycle-replay-b-schema-identity"
+    },
+    {
+      "id": "BLR2-P183",
+      "requirement": "lifecycle-replay-b-input-completeness"
+    },
+    {
+      "id": "BLR2-P184",
+      "requirement": "lifecycle-replay-b-exact-identity"
+    },
+    {
+      "id": "BLR2-P185",
+      "requirement": "lifecycle-replay-b-canonical-digest"
+    },
+    {
+      "id": "BLR2-P186",
+      "requirement": "lifecycle-replay-b-path-normalization"
+    },
+    {
+      "id": "BLR2-P187",
+      "requirement": "lifecycle-replay-b-environment-isolation"
+    },
+    {
+      "id": "BLR2-P188",
+      "requirement": "lifecycle-replay-b-network-boundary"
+    },
+    {
+      "id": "BLR2-P189",
+      "requirement": "lifecycle-replay-b-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P190",
+      "requirement": "lifecycle-replay-b-stable-error"
+    },
+    {
+      "id": "BLR2-P191",
+      "requirement": "lifecycle-replay-b-negative-control"
+    },
+    {
+      "id": "BLR2-P192",
+      "requirement": "lifecycle-replay-b-receipt-emission"
+    },
+    {
+      "id": "BLR2-P193",
+      "requirement": "lifecycle-replay-b-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P194",
+      "requirement": "lifecycle-replay-b-parent-lineage"
+    },
+    {
+      "id": "BLR2-P195",
+      "requirement": "lifecycle-replay-b-mutation-zero"
+    },
+    {
+      "id": "BLR2-P196",
+      "requirement": "lifecycle-replay-b-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P197",
+      "requirement": "lifecycle-replay-b-count-invariant"
+    },
+    {
+      "id": "BLR2-P198",
+      "requirement": "lifecycle-replay-b-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P199",
+      "requirement": "lifecycle-replay-b-readback-verification"
+    },
+    {
+      "id": "BLR2-P200",
+      "requirement": "lifecycle-replay-b-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P201",
+      "requirement": "lifecycle-parity-authority-owner"
+    },
+    {
+      "id": "BLR2-P202",
+      "requirement": "lifecycle-parity-schema-identity"
+    },
+    {
+      "id": "BLR2-P203",
+      "requirement": "lifecycle-parity-input-completeness"
+    },
+    {
+      "id": "BLR2-P204",
+      "requirement": "lifecycle-parity-exact-identity"
+    },
+    {
+      "id": "BLR2-P205",
+      "requirement": "lifecycle-parity-canonical-digest"
+    },
+    {
+      "id": "BLR2-P206",
+      "requirement": "lifecycle-parity-path-normalization"
+    },
+    {
+      "id": "BLR2-P207",
+      "requirement": "lifecycle-parity-environment-isolation"
+    },
+    {
+      "id": "BLR2-P208",
+      "requirement": "lifecycle-parity-network-boundary"
+    },
+    {
+      "id": "BLR2-P209",
+      "requirement": "lifecycle-parity-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P210",
+      "requirement": "lifecycle-parity-stable-error"
+    },
+    {
+      "id": "BLR2-P211",
+      "requirement": "lifecycle-parity-negative-control"
+    },
+    {
+      "id": "BLR2-P212",
+      "requirement": "lifecycle-parity-receipt-emission"
+    },
+    {
+      "id": "BLR2-P213",
+      "requirement": "lifecycle-parity-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P214",
+      "requirement": "lifecycle-parity-parent-lineage"
+    },
+    {
+      "id": "BLR2-P215",
+      "requirement": "lifecycle-parity-mutation-zero"
+    },
+    {
+      "id": "BLR2-P216",
+      "requirement": "lifecycle-parity-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P217",
+      "requirement": "lifecycle-parity-count-invariant"
+    },
+    {
+      "id": "BLR2-P218",
+      "requirement": "lifecycle-parity-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P219",
+      "requirement": "lifecycle-parity-readback-verification"
+    },
+    {
+      "id": "BLR2-P220",
+      "requirement": "lifecycle-parity-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P221",
+      "requirement": "node-toolchain-runtime-authority-owner"
+    },
+    {
+      "id": "BLR2-P222",
+      "requirement": "node-toolchain-runtime-schema-identity"
+    },
+    {
+      "id": "BLR2-P223",
+      "requirement": "node-toolchain-runtime-input-completeness"
+    },
+    {
+      "id": "BLR2-P224",
+      "requirement": "node-toolchain-runtime-exact-identity"
+    },
+    {
+      "id": "BLR2-P225",
+      "requirement": "node-toolchain-runtime-canonical-digest"
+    },
+    {
+      "id": "BLR2-P226",
+      "requirement": "node-toolchain-runtime-path-normalization"
+    },
+    {
+      "id": "BLR2-P227",
+      "requirement": "node-toolchain-runtime-environment-isolation"
+    },
+    {
+      "id": "BLR2-P228",
+      "requirement": "node-toolchain-runtime-network-boundary"
+    },
+    {
+      "id": "BLR2-P229",
+      "requirement": "node-toolchain-runtime-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P230",
+      "requirement": "node-toolchain-runtime-stable-error"
+    },
+    {
+      "id": "BLR2-P231",
+      "requirement": "node-toolchain-runtime-negative-control"
+    },
+    {
+      "id": "BLR2-P232",
+      "requirement": "node-toolchain-runtime-receipt-emission"
+    },
+    {
+      "id": "BLR2-P233",
+      "requirement": "node-toolchain-runtime-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P234",
+      "requirement": "node-toolchain-runtime-parent-lineage"
+    },
+    {
+      "id": "BLR2-P235",
+      "requirement": "node-toolchain-runtime-mutation-zero"
+    },
+    {
+      "id": "BLR2-P236",
+      "requirement": "node-toolchain-runtime-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P237",
+      "requirement": "node-toolchain-runtime-count-invariant"
+    },
+    {
+      "id": "BLR2-P238",
+      "requirement": "node-toolchain-runtime-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P239",
+      "requirement": "node-toolchain-runtime-readback-verification"
+    },
+    {
+      "id": "BLR2-P240",
+      "requirement": "node-toolchain-runtime-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P241",
+      "requirement": "msvc-toolchain-runtime-authority-owner"
+    },
+    {
+      "id": "BLR2-P242",
+      "requirement": "msvc-toolchain-runtime-schema-identity"
+    },
+    {
+      "id": "BLR2-P243",
+      "requirement": "msvc-toolchain-runtime-input-completeness"
+    },
+    {
+      "id": "BLR2-P244",
+      "requirement": "msvc-toolchain-runtime-exact-identity"
+    },
+    {
+      "id": "BLR2-P245",
+      "requirement": "msvc-toolchain-runtime-canonical-digest"
+    },
+    {
+      "id": "BLR2-P246",
+      "requirement": "msvc-toolchain-runtime-path-normalization"
+    },
+    {
+      "id": "BLR2-P247",
+      "requirement": "msvc-toolchain-runtime-environment-isolation"
+    },
+    {
+      "id": "BLR2-P248",
+      "requirement": "msvc-toolchain-runtime-network-boundary"
+    },
+    {
+      "id": "BLR2-P249",
+      "requirement": "msvc-toolchain-runtime-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P250",
+      "requirement": "msvc-toolchain-runtime-stable-error"
+    },
+    {
+      "id": "BLR2-P251",
+      "requirement": "msvc-toolchain-runtime-negative-control"
+    },
+    {
+      "id": "BLR2-P252",
+      "requirement": "msvc-toolchain-runtime-receipt-emission"
+    },
+    {
+      "id": "BLR2-P253",
+      "requirement": "msvc-toolchain-runtime-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P254",
+      "requirement": "msvc-toolchain-runtime-parent-lineage"
+    },
+    {
+      "id": "BLR2-P255",
+      "requirement": "msvc-toolchain-runtime-mutation-zero"
+    },
+    {
+      "id": "BLR2-P256",
+      "requirement": "msvc-toolchain-runtime-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P257",
+      "requirement": "msvc-toolchain-runtime-count-invariant"
+    },
+    {
+      "id": "BLR2-P258",
+      "requirement": "msvc-toolchain-runtime-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P259",
+      "requirement": "msvc-toolchain-runtime-readback-verification"
+    },
+    {
+      "id": "BLR2-P260",
+      "requirement": "msvc-toolchain-runtime-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P261",
+      "requirement": "rust-toolchain-runtime-authority-owner"
+    },
+    {
+      "id": "BLR2-P262",
+      "requirement": "rust-toolchain-runtime-schema-identity"
+    },
+    {
+      "id": "BLR2-P263",
+      "requirement": "rust-toolchain-runtime-input-completeness"
+    },
+    {
+      "id": "BLR2-P264",
+      "requirement": "rust-toolchain-runtime-exact-identity"
+    },
+    {
+      "id": "BLR2-P265",
+      "requirement": "rust-toolchain-runtime-canonical-digest"
+    },
+    {
+      "id": "BLR2-P266",
+      "requirement": "rust-toolchain-runtime-path-normalization"
+    },
+    {
+      "id": "BLR2-P267",
+      "requirement": "rust-toolchain-runtime-environment-isolation"
+    },
+    {
+      "id": "BLR2-P268",
+      "requirement": "rust-toolchain-runtime-network-boundary"
+    },
+    {
+      "id": "BLR2-P269",
+      "requirement": "rust-toolchain-runtime-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P270",
+      "requirement": "rust-toolchain-runtime-stable-error"
+    },
+    {
+      "id": "BLR2-P271",
+      "requirement": "rust-toolchain-runtime-negative-control"
+    },
+    {
+      "id": "BLR2-P272",
+      "requirement": "rust-toolchain-runtime-receipt-emission"
+    },
+    {
+      "id": "BLR2-P273",
+      "requirement": "rust-toolchain-runtime-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P274",
+      "requirement": "rust-toolchain-runtime-parent-lineage"
+    },
+    {
+      "id": "BLR2-P275",
+      "requirement": "rust-toolchain-runtime-mutation-zero"
+    },
+    {
+      "id": "BLR2-P276",
+      "requirement": "rust-toolchain-runtime-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P277",
+      "requirement": "rust-toolchain-runtime-count-invariant"
+    },
+    {
+      "id": "BLR2-P278",
+      "requirement": "rust-toolchain-runtime-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P279",
+      "requirement": "rust-toolchain-runtime-readback-verification"
+    },
+    {
+      "id": "BLR2-P280",
+      "requirement": "rust-toolchain-runtime-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P281",
+      "requirement": "wasm-toolchain-runtime-authority-owner"
+    },
+    {
+      "id": "BLR2-P282",
+      "requirement": "wasm-toolchain-runtime-schema-identity"
+    },
+    {
+      "id": "BLR2-P283",
+      "requirement": "wasm-toolchain-runtime-input-completeness"
+    },
+    {
+      "id": "BLR2-P284",
+      "requirement": "wasm-toolchain-runtime-exact-identity"
+    },
+    {
+      "id": "BLR2-P285",
+      "requirement": "wasm-toolchain-runtime-canonical-digest"
+    },
+    {
+      "id": "BLR2-P286",
+      "requirement": "wasm-toolchain-runtime-path-normalization"
+    },
+    {
+      "id": "BLR2-P287",
+      "requirement": "wasm-toolchain-runtime-environment-isolation"
+    },
+    {
+      "id": "BLR2-P288",
+      "requirement": "wasm-toolchain-runtime-network-boundary"
+    },
+    {
+      "id": "BLR2-P289",
+      "requirement": "wasm-toolchain-runtime-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P290",
+      "requirement": "wasm-toolchain-runtime-stable-error"
+    },
+    {
+      "id": "BLR2-P291",
+      "requirement": "wasm-toolchain-runtime-negative-control"
+    },
+    {
+      "id": "BLR2-P292",
+      "requirement": "wasm-toolchain-runtime-receipt-emission"
+    },
+    {
+      "id": "BLR2-P293",
+      "requirement": "wasm-toolchain-runtime-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P294",
+      "requirement": "wasm-toolchain-runtime-parent-lineage"
+    },
+    {
+      "id": "BLR2-P295",
+      "requirement": "wasm-toolchain-runtime-mutation-zero"
+    },
+    {
+      "id": "BLR2-P296",
+      "requirement": "wasm-toolchain-runtime-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P297",
+      "requirement": "wasm-toolchain-runtime-count-invariant"
+    },
+    {
+      "id": "BLR2-P298",
+      "requirement": "wasm-toolchain-runtime-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P299",
+      "requirement": "wasm-toolchain-runtime-readback-verification"
+    },
+    {
+      "id": "BLR2-P300",
+      "requirement": "wasm-toolchain-runtime-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P301",
+      "requirement": "native-addon-build-a-authority-owner"
+    },
+    {
+      "id": "BLR2-P302",
+      "requirement": "native-addon-build-a-schema-identity"
+    },
+    {
+      "id": "BLR2-P303",
+      "requirement": "native-addon-build-a-input-completeness"
+    },
+    {
+      "id": "BLR2-P304",
+      "requirement": "native-addon-build-a-exact-identity"
+    },
+    {
+      "id": "BLR2-P305",
+      "requirement": "native-addon-build-a-canonical-digest"
+    },
+    {
+      "id": "BLR2-P306",
+      "requirement": "native-addon-build-a-path-normalization"
+    },
+    {
+      "id": "BLR2-P307",
+      "requirement": "native-addon-build-a-environment-isolation"
+    },
+    {
+      "id": "BLR2-P308",
+      "requirement": "native-addon-build-a-network-boundary"
+    },
+    {
+      "id": "BLR2-P309",
+      "requirement": "native-addon-build-a-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P310",
+      "requirement": "native-addon-build-a-stable-error"
+    },
+    {
+      "id": "BLR2-P311",
+      "requirement": "native-addon-build-a-negative-control"
+    },
+    {
+      "id": "BLR2-P312",
+      "requirement": "native-addon-build-a-receipt-emission"
+    },
+    {
+      "id": "BLR2-P313",
+      "requirement": "native-addon-build-a-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P314",
+      "requirement": "native-addon-build-a-parent-lineage"
+    },
+    {
+      "id": "BLR2-P315",
+      "requirement": "native-addon-build-a-mutation-zero"
+    },
+    {
+      "id": "BLR2-P316",
+      "requirement": "native-addon-build-a-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P317",
+      "requirement": "native-addon-build-a-count-invariant"
+    },
+    {
+      "id": "BLR2-P318",
+      "requirement": "native-addon-build-a-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P319",
+      "requirement": "native-addon-build-a-readback-verification"
+    },
+    {
+      "id": "BLR2-P320",
+      "requirement": "native-addon-build-a-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P321",
+      "requirement": "native-addon-build-b-authority-owner"
+    },
+    {
+      "id": "BLR2-P322",
+      "requirement": "native-addon-build-b-schema-identity"
+    },
+    {
+      "id": "BLR2-P323",
+      "requirement": "native-addon-build-b-input-completeness"
+    },
+    {
+      "id": "BLR2-P324",
+      "requirement": "native-addon-build-b-exact-identity"
+    },
+    {
+      "id": "BLR2-P325",
+      "requirement": "native-addon-build-b-canonical-digest"
+    },
+    {
+      "id": "BLR2-P326",
+      "requirement": "native-addon-build-b-path-normalization"
+    },
+    {
+      "id": "BLR2-P327",
+      "requirement": "native-addon-build-b-environment-isolation"
+    },
+    {
+      "id": "BLR2-P328",
+      "requirement": "native-addon-build-b-network-boundary"
+    },
+    {
+      "id": "BLR2-P329",
+      "requirement": "native-addon-build-b-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P330",
+      "requirement": "native-addon-build-b-stable-error"
+    },
+    {
+      "id": "BLR2-P331",
+      "requirement": "native-addon-build-b-negative-control"
+    },
+    {
+      "id": "BLR2-P332",
+      "requirement": "native-addon-build-b-receipt-emission"
+    },
+    {
+      "id": "BLR2-P333",
+      "requirement": "native-addon-build-b-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P334",
+      "requirement": "native-addon-build-b-parent-lineage"
+    },
+    {
+      "id": "BLR2-P335",
+      "requirement": "native-addon-build-b-mutation-zero"
+    },
+    {
+      "id": "BLR2-P336",
+      "requirement": "native-addon-build-b-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P337",
+      "requirement": "native-addon-build-b-count-invariant"
+    },
+    {
+      "id": "BLR2-P338",
+      "requirement": "native-addon-build-b-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P339",
+      "requirement": "native-addon-build-b-readback-verification"
+    },
+    {
+      "id": "BLR2-P340",
+      "requirement": "native-addon-build-b-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P341",
+      "requirement": "native-artifact-parity-authority-owner"
+    },
+    {
+      "id": "BLR2-P342",
+      "requirement": "native-artifact-parity-schema-identity"
+    },
+    {
+      "id": "BLR2-P343",
+      "requirement": "native-artifact-parity-input-completeness"
+    },
+    {
+      "id": "BLR2-P344",
+      "requirement": "native-artifact-parity-exact-identity"
+    },
+    {
+      "id": "BLR2-P345",
+      "requirement": "native-artifact-parity-canonical-digest"
+    },
+    {
+      "id": "BLR2-P346",
+      "requirement": "native-artifact-parity-path-normalization"
+    },
+    {
+      "id": "BLR2-P347",
+      "requirement": "native-artifact-parity-environment-isolation"
+    },
+    {
+      "id": "BLR2-P348",
+      "requirement": "native-artifact-parity-network-boundary"
+    },
+    {
+      "id": "BLR2-P349",
+      "requirement": "native-artifact-parity-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P350",
+      "requirement": "native-artifact-parity-stable-error"
+    },
+    {
+      "id": "BLR2-P351",
+      "requirement": "native-artifact-parity-negative-control"
+    },
+    {
+      "id": "BLR2-P352",
+      "requirement": "native-artifact-parity-receipt-emission"
+    },
+    {
+      "id": "BLR2-P353",
+      "requirement": "native-artifact-parity-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P354",
+      "requirement": "native-artifact-parity-parent-lineage"
+    },
+    {
+      "id": "BLR2-P355",
+      "requirement": "native-artifact-parity-mutation-zero"
+    },
+    {
+      "id": "BLR2-P356",
+      "requirement": "native-artifact-parity-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P357",
+      "requirement": "native-artifact-parity-count-invariant"
+    },
+    {
+      "id": "BLR2-P358",
+      "requirement": "native-artifact-parity-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P359",
+      "requirement": "native-artifact-parity-readback-verification"
+    },
+    {
+      "id": "BLR2-P360",
+      "requirement": "native-artifact-parity-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P361",
+      "requirement": "typecheck-a-authority-owner"
+    },
+    {
+      "id": "BLR2-P362",
+      "requirement": "typecheck-a-schema-identity"
+    },
+    {
+      "id": "BLR2-P363",
+      "requirement": "typecheck-a-input-completeness"
+    },
+    {
+      "id": "BLR2-P364",
+      "requirement": "typecheck-a-exact-identity"
+    },
+    {
+      "id": "BLR2-P365",
+      "requirement": "typecheck-a-canonical-digest"
+    },
+    {
+      "id": "BLR2-P366",
+      "requirement": "typecheck-a-path-normalization"
+    },
+    {
+      "id": "BLR2-P367",
+      "requirement": "typecheck-a-environment-isolation"
+    },
+    {
+      "id": "BLR2-P368",
+      "requirement": "typecheck-a-network-boundary"
+    },
+    {
+      "id": "BLR2-P369",
+      "requirement": "typecheck-a-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P370",
+      "requirement": "typecheck-a-stable-error"
+    },
+    {
+      "id": "BLR2-P371",
+      "requirement": "typecheck-a-negative-control"
+    },
+    {
+      "id": "BLR2-P372",
+      "requirement": "typecheck-a-receipt-emission"
+    },
+    {
+      "id": "BLR2-P373",
+      "requirement": "typecheck-a-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P374",
+      "requirement": "typecheck-a-parent-lineage"
+    },
+    {
+      "id": "BLR2-P375",
+      "requirement": "typecheck-a-mutation-zero"
+    },
+    {
+      "id": "BLR2-P376",
+      "requirement": "typecheck-a-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P377",
+      "requirement": "typecheck-a-count-invariant"
+    },
+    {
+      "id": "BLR2-P378",
+      "requirement": "typecheck-a-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P379",
+      "requirement": "typecheck-a-readback-verification"
+    },
+    {
+      "id": "BLR2-P380",
+      "requirement": "typecheck-a-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P381",
+      "requirement": "typecheck-b-authority-owner"
+    },
+    {
+      "id": "BLR2-P382",
+      "requirement": "typecheck-b-schema-identity"
+    },
+    {
+      "id": "BLR2-P383",
+      "requirement": "typecheck-b-input-completeness"
+    },
+    {
+      "id": "BLR2-P384",
+      "requirement": "typecheck-b-exact-identity"
+    },
+    {
+      "id": "BLR2-P385",
+      "requirement": "typecheck-b-canonical-digest"
+    },
+    {
+      "id": "BLR2-P386",
+      "requirement": "typecheck-b-path-normalization"
+    },
+    {
+      "id": "BLR2-P387",
+      "requirement": "typecheck-b-environment-isolation"
+    },
+    {
+      "id": "BLR2-P388",
+      "requirement": "typecheck-b-network-boundary"
+    },
+    {
+      "id": "BLR2-P389",
+      "requirement": "typecheck-b-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P390",
+      "requirement": "typecheck-b-stable-error"
+    },
+    {
+      "id": "BLR2-P391",
+      "requirement": "typecheck-b-negative-control"
+    },
+    {
+      "id": "BLR2-P392",
+      "requirement": "typecheck-b-receipt-emission"
+    },
+    {
+      "id": "BLR2-P393",
+      "requirement": "typecheck-b-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P394",
+      "requirement": "typecheck-b-parent-lineage"
+    },
+    {
+      "id": "BLR2-P395",
+      "requirement": "typecheck-b-mutation-zero"
+    },
+    {
+      "id": "BLR2-P396",
+      "requirement": "typecheck-b-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P397",
+      "requirement": "typecheck-b-count-invariant"
+    },
+    {
+      "id": "BLR2-P398",
+      "requirement": "typecheck-b-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P399",
+      "requirement": "typecheck-b-readback-verification"
+    },
+    {
+      "id": "BLR2-P400",
+      "requirement": "typecheck-b-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P401",
+      "requirement": "renderer-emit-a-authority-owner"
+    },
+    {
+      "id": "BLR2-P402",
+      "requirement": "renderer-emit-a-schema-identity"
+    },
+    {
+      "id": "BLR2-P403",
+      "requirement": "renderer-emit-a-input-completeness"
+    },
+    {
+      "id": "BLR2-P404",
+      "requirement": "renderer-emit-a-exact-identity"
+    },
+    {
+      "id": "BLR2-P405",
+      "requirement": "renderer-emit-a-canonical-digest"
+    },
+    {
+      "id": "BLR2-P406",
+      "requirement": "renderer-emit-a-path-normalization"
+    },
+    {
+      "id": "BLR2-P407",
+      "requirement": "renderer-emit-a-environment-isolation"
+    },
+    {
+      "id": "BLR2-P408",
+      "requirement": "renderer-emit-a-network-boundary"
+    },
+    {
+      "id": "BLR2-P409",
+      "requirement": "renderer-emit-a-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P410",
+      "requirement": "renderer-emit-a-stable-error"
+    },
+    {
+      "id": "BLR2-P411",
+      "requirement": "renderer-emit-a-negative-control"
+    },
+    {
+      "id": "BLR2-P412",
+      "requirement": "renderer-emit-a-receipt-emission"
+    },
+    {
+      "id": "BLR2-P413",
+      "requirement": "renderer-emit-a-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P414",
+      "requirement": "renderer-emit-a-parent-lineage"
+    },
+    {
+      "id": "BLR2-P415",
+      "requirement": "renderer-emit-a-mutation-zero"
+    },
+    {
+      "id": "BLR2-P416",
+      "requirement": "renderer-emit-a-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P417",
+      "requirement": "renderer-emit-a-count-invariant"
+    },
+    {
+      "id": "BLR2-P418",
+      "requirement": "renderer-emit-a-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P419",
+      "requirement": "renderer-emit-a-readback-verification"
+    },
+    {
+      "id": "BLR2-P420",
+      "requirement": "renderer-emit-a-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P421",
+      "requirement": "renderer-emit-b-authority-owner"
+    },
+    {
+      "id": "BLR2-P422",
+      "requirement": "renderer-emit-b-schema-identity"
+    },
+    {
+      "id": "BLR2-P423",
+      "requirement": "renderer-emit-b-input-completeness"
+    },
+    {
+      "id": "BLR2-P424",
+      "requirement": "renderer-emit-b-exact-identity"
+    },
+    {
+      "id": "BLR2-P425",
+      "requirement": "renderer-emit-b-canonical-digest"
+    },
+    {
+      "id": "BLR2-P426",
+      "requirement": "renderer-emit-b-path-normalization"
+    },
+    {
+      "id": "BLR2-P427",
+      "requirement": "renderer-emit-b-environment-isolation"
+    },
+    {
+      "id": "BLR2-P428",
+      "requirement": "renderer-emit-b-network-boundary"
+    },
+    {
+      "id": "BLR2-P429",
+      "requirement": "renderer-emit-b-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P430",
+      "requirement": "renderer-emit-b-stable-error"
+    },
+    {
+      "id": "BLR2-P431",
+      "requirement": "renderer-emit-b-negative-control"
+    },
+    {
+      "id": "BLR2-P432",
+      "requirement": "renderer-emit-b-receipt-emission"
+    },
+    {
+      "id": "BLR2-P433",
+      "requirement": "renderer-emit-b-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P434",
+      "requirement": "renderer-emit-b-parent-lineage"
+    },
+    {
+      "id": "BLR2-P435",
+      "requirement": "renderer-emit-b-mutation-zero"
+    },
+    {
+      "id": "BLR2-P436",
+      "requirement": "renderer-emit-b-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P437",
+      "requirement": "renderer-emit-b-count-invariant"
+    },
+    {
+      "id": "BLR2-P438",
+      "requirement": "renderer-emit-b-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P439",
+      "requirement": "renderer-emit-b-readback-verification"
+    },
+    {
+      "id": "BLR2-P440",
+      "requirement": "renderer-emit-b-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P441",
+      "requirement": "electron-unpacked-a-authority-owner"
+    },
+    {
+      "id": "BLR2-P442",
+      "requirement": "electron-unpacked-a-schema-identity"
+    },
+    {
+      "id": "BLR2-P443",
+      "requirement": "electron-unpacked-a-input-completeness"
+    },
+    {
+      "id": "BLR2-P444",
+      "requirement": "electron-unpacked-a-exact-identity"
+    },
+    {
+      "id": "BLR2-P445",
+      "requirement": "electron-unpacked-a-canonical-digest"
+    },
+    {
+      "id": "BLR2-P446",
+      "requirement": "electron-unpacked-a-path-normalization"
+    },
+    {
+      "id": "BLR2-P447",
+      "requirement": "electron-unpacked-a-environment-isolation"
+    },
+    {
+      "id": "BLR2-P448",
+      "requirement": "electron-unpacked-a-network-boundary"
+    },
+    {
+      "id": "BLR2-P449",
+      "requirement": "electron-unpacked-a-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P450",
+      "requirement": "electron-unpacked-a-stable-error"
+    },
+    {
+      "id": "BLR2-P451",
+      "requirement": "electron-unpacked-a-negative-control"
+    },
+    {
+      "id": "BLR2-P452",
+      "requirement": "electron-unpacked-a-receipt-emission"
+    },
+    {
+      "id": "BLR2-P453",
+      "requirement": "electron-unpacked-a-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P454",
+      "requirement": "electron-unpacked-a-parent-lineage"
+    },
+    {
+      "id": "BLR2-P455",
+      "requirement": "electron-unpacked-a-mutation-zero"
+    },
+    {
+      "id": "BLR2-P456",
+      "requirement": "electron-unpacked-a-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P457",
+      "requirement": "electron-unpacked-a-count-invariant"
+    },
+    {
+      "id": "BLR2-P458",
+      "requirement": "electron-unpacked-a-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P459",
+      "requirement": "electron-unpacked-a-readback-verification"
+    },
+    {
+      "id": "BLR2-P460",
+      "requirement": "electron-unpacked-a-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P461",
+      "requirement": "electron-unpacked-b-authority-owner"
+    },
+    {
+      "id": "BLR2-P462",
+      "requirement": "electron-unpacked-b-schema-identity"
+    },
+    {
+      "id": "BLR2-P463",
+      "requirement": "electron-unpacked-b-input-completeness"
+    },
+    {
+      "id": "BLR2-P464",
+      "requirement": "electron-unpacked-b-exact-identity"
+    },
+    {
+      "id": "BLR2-P465",
+      "requirement": "electron-unpacked-b-canonical-digest"
+    },
+    {
+      "id": "BLR2-P466",
+      "requirement": "electron-unpacked-b-path-normalization"
+    },
+    {
+      "id": "BLR2-P467",
+      "requirement": "electron-unpacked-b-environment-isolation"
+    },
+    {
+      "id": "BLR2-P468",
+      "requirement": "electron-unpacked-b-network-boundary"
+    },
+    {
+      "id": "BLR2-P469",
+      "requirement": "electron-unpacked-b-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P470",
+      "requirement": "electron-unpacked-b-stable-error"
+    },
+    {
+      "id": "BLR2-P471",
+      "requirement": "electron-unpacked-b-negative-control"
+    },
+    {
+      "id": "BLR2-P472",
+      "requirement": "electron-unpacked-b-receipt-emission"
+    },
+    {
+      "id": "BLR2-P473",
+      "requirement": "electron-unpacked-b-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P474",
+      "requirement": "electron-unpacked-b-parent-lineage"
+    },
+    {
+      "id": "BLR2-P475",
+      "requirement": "electron-unpacked-b-mutation-zero"
+    },
+    {
+      "id": "BLR2-P476",
+      "requirement": "electron-unpacked-b-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P477",
+      "requirement": "electron-unpacked-b-count-invariant"
+    },
+    {
+      "id": "BLR2-P478",
+      "requirement": "electron-unpacked-b-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P479",
+      "requirement": "electron-unpacked-b-readback-verification"
+    },
+    {
+      "id": "BLR2-P480",
+      "requirement": "electron-unpacked-b-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P481",
+      "requirement": "production-build-parity-authority-owner"
+    },
+    {
+      "id": "BLR2-P482",
+      "requirement": "production-build-parity-schema-identity"
+    },
+    {
+      "id": "BLR2-P483",
+      "requirement": "production-build-parity-input-completeness"
+    },
+    {
+      "id": "BLR2-P484",
+      "requirement": "production-build-parity-exact-identity"
+    },
+    {
+      "id": "BLR2-P485",
+      "requirement": "production-build-parity-canonical-digest"
+    },
+    {
+      "id": "BLR2-P486",
+      "requirement": "production-build-parity-path-normalization"
+    },
+    {
+      "id": "BLR2-P487",
+      "requirement": "production-build-parity-environment-isolation"
+    },
+    {
+      "id": "BLR2-P488",
+      "requirement": "production-build-parity-network-boundary"
+    },
+    {
+      "id": "BLR2-P489",
+      "requirement": "production-build-parity-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P490",
+      "requirement": "production-build-parity-stable-error"
+    },
+    {
+      "id": "BLR2-P491",
+      "requirement": "production-build-parity-negative-control"
+    },
+    {
+      "id": "BLR2-P492",
+      "requirement": "production-build-parity-receipt-emission"
+    },
+    {
+      "id": "BLR2-P493",
+      "requirement": "production-build-parity-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P494",
+      "requirement": "production-build-parity-parent-lineage"
+    },
+    {
+      "id": "BLR2-P495",
+      "requirement": "production-build-parity-mutation-zero"
+    },
+    {
+      "id": "BLR2-P496",
+      "requirement": "production-build-parity-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P497",
+      "requirement": "production-build-parity-count-invariant"
+    },
+    {
+      "id": "BLR2-P498",
+      "requirement": "production-build-parity-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P499",
+      "requirement": "production-build-parity-readback-verification"
+    },
+    {
+      "id": "BLR2-P500",
+      "requirement": "production-build-parity-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P501",
+      "requirement": "zero-mutation-runtime-authority-owner"
+    },
+    {
+      "id": "BLR2-P502",
+      "requirement": "zero-mutation-runtime-schema-identity"
+    },
+    {
+      "id": "BLR2-P503",
+      "requirement": "zero-mutation-runtime-input-completeness"
+    },
+    {
+      "id": "BLR2-P504",
+      "requirement": "zero-mutation-runtime-exact-identity"
+    },
+    {
+      "id": "BLR2-P505",
+      "requirement": "zero-mutation-runtime-canonical-digest"
+    },
+    {
+      "id": "BLR2-P506",
+      "requirement": "zero-mutation-runtime-path-normalization"
+    },
+    {
+      "id": "BLR2-P507",
+      "requirement": "zero-mutation-runtime-environment-isolation"
+    },
+    {
+      "id": "BLR2-P508",
+      "requirement": "zero-mutation-runtime-network-boundary"
+    },
+    {
+      "id": "BLR2-P509",
+      "requirement": "zero-mutation-runtime-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P510",
+      "requirement": "zero-mutation-runtime-stable-error"
+    },
+    {
+      "id": "BLR2-P511",
+      "requirement": "zero-mutation-runtime-negative-control"
+    },
+    {
+      "id": "BLR2-P512",
+      "requirement": "zero-mutation-runtime-receipt-emission"
+    },
+    {
+      "id": "BLR2-P513",
+      "requirement": "zero-mutation-runtime-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P514",
+      "requirement": "zero-mutation-runtime-parent-lineage"
+    },
+    {
+      "id": "BLR2-P515",
+      "requirement": "zero-mutation-runtime-mutation-zero"
+    },
+    {
+      "id": "BLR2-P516",
+      "requirement": "zero-mutation-runtime-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P517",
+      "requirement": "zero-mutation-runtime-count-invariant"
+    },
+    {
+      "id": "BLR2-P518",
+      "requirement": "zero-mutation-runtime-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P519",
+      "requirement": "zero-mutation-runtime-readback-verification"
+    },
+    {
+      "id": "BLR2-P520",
+      "requirement": "zero-mutation-runtime-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P521",
+      "requirement": "lock-cas-promotion-authority-owner"
+    },
+    {
+      "id": "BLR2-P522",
+      "requirement": "lock-cas-promotion-schema-identity"
+    },
+    {
+      "id": "BLR2-P523",
+      "requirement": "lock-cas-promotion-input-completeness"
+    },
+    {
+      "id": "BLR2-P524",
+      "requirement": "lock-cas-promotion-exact-identity"
+    },
+    {
+      "id": "BLR2-P525",
+      "requirement": "lock-cas-promotion-canonical-digest"
+    },
+    {
+      "id": "BLR2-P526",
+      "requirement": "lock-cas-promotion-path-normalization"
+    },
+    {
+      "id": "BLR2-P527",
+      "requirement": "lock-cas-promotion-environment-isolation"
+    },
+    {
+      "id": "BLR2-P528",
+      "requirement": "lock-cas-promotion-network-boundary"
+    },
+    {
+      "id": "BLR2-P529",
+      "requirement": "lock-cas-promotion-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P530",
+      "requirement": "lock-cas-promotion-stable-error"
+    },
+    {
+      "id": "BLR2-P531",
+      "requirement": "lock-cas-promotion-negative-control"
+    },
+    {
+      "id": "BLR2-P532",
+      "requirement": "lock-cas-promotion-receipt-emission"
+    },
+    {
+      "id": "BLR2-P533",
+      "requirement": "lock-cas-promotion-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P534",
+      "requirement": "lock-cas-promotion-parent-lineage"
+    },
+    {
+      "id": "BLR2-P535",
+      "requirement": "lock-cas-promotion-mutation-zero"
+    },
+    {
+      "id": "BLR2-P536",
+      "requirement": "lock-cas-promotion-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P537",
+      "requirement": "lock-cas-promotion-count-invariant"
+    },
+    {
+      "id": "BLR2-P538",
+      "requirement": "lock-cas-promotion-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P539",
+      "requirement": "lock-cas-promotion-readback-verification"
+    },
+    {
+      "id": "BLR2-P540",
+      "requirement": "lock-cas-promotion-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P541",
+      "requirement": "post-promotion-replay-authority-owner"
+    },
+    {
+      "id": "BLR2-P542",
+      "requirement": "post-promotion-replay-schema-identity"
+    },
+    {
+      "id": "BLR2-P543",
+      "requirement": "post-promotion-replay-input-completeness"
+    },
+    {
+      "id": "BLR2-P544",
+      "requirement": "post-promotion-replay-exact-identity"
+    },
+    {
+      "id": "BLR2-P545",
+      "requirement": "post-promotion-replay-canonical-digest"
+    },
+    {
+      "id": "BLR2-P546",
+      "requirement": "post-promotion-replay-path-normalization"
+    },
+    {
+      "id": "BLR2-P547",
+      "requirement": "post-promotion-replay-environment-isolation"
+    },
+    {
+      "id": "BLR2-P548",
+      "requirement": "post-promotion-replay-network-boundary"
+    },
+    {
+      "id": "BLR2-P549",
+      "requirement": "post-promotion-replay-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P550",
+      "requirement": "post-promotion-replay-stable-error"
+    },
+    {
+      "id": "BLR2-P551",
+      "requirement": "post-promotion-replay-negative-control"
+    },
+    {
+      "id": "BLR2-P552",
+      "requirement": "post-promotion-replay-receipt-emission"
+    },
+    {
+      "id": "BLR2-P553",
+      "requirement": "post-promotion-replay-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P554",
+      "requirement": "post-promotion-replay-parent-lineage"
+    },
+    {
+      "id": "BLR2-P555",
+      "requirement": "post-promotion-replay-mutation-zero"
+    },
+    {
+      "id": "BLR2-P556",
+      "requirement": "post-promotion-replay-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P557",
+      "requirement": "post-promotion-replay-count-invariant"
+    },
+    {
+      "id": "BLR2-P558",
+      "requirement": "post-promotion-replay-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P559",
+      "requirement": "post-promotion-replay-readback-verification"
+    },
+    {
+      "id": "BLR2-P560",
+      "requirement": "post-promotion-replay-finalizer-recomputation"
+    },
+    {
+      "id": "BLR2-P561",
+      "requirement": "production-admission-finalizer-authority-owner"
+    },
+    {
+      "id": "BLR2-P562",
+      "requirement": "production-admission-finalizer-schema-identity"
+    },
+    {
+      "id": "BLR2-P563",
+      "requirement": "production-admission-finalizer-input-completeness"
+    },
+    {
+      "id": "BLR2-P564",
+      "requirement": "production-admission-finalizer-exact-identity"
+    },
+    {
+      "id": "BLR2-P565",
+      "requirement": "production-admission-finalizer-canonical-digest"
+    },
+    {
+      "id": "BLR2-P566",
+      "requirement": "production-admission-finalizer-path-normalization"
+    },
+    {
+      "id": "BLR2-P567",
+      "requirement": "production-admission-finalizer-environment-isolation"
+    },
+    {
+      "id": "BLR2-P568",
+      "requirement": "production-admission-finalizer-network-boundary"
+    },
+    {
+      "id": "BLR2-P569",
+      "requirement": "production-admission-finalizer-silent-fallback-zero"
+    },
+    {
+      "id": "BLR2-P570",
+      "requirement": "production-admission-finalizer-stable-error"
+    },
+    {
+      "id": "BLR2-P571",
+      "requirement": "production-admission-finalizer-negative-control"
+    },
+    {
+      "id": "BLR2-P572",
+      "requirement": "production-admission-finalizer-receipt-emission"
+    },
+    {
+      "id": "BLR2-P573",
+      "requirement": "production-admission-finalizer-receipt-self-hash"
+    },
+    {
+      "id": "BLR2-P574",
+      "requirement": "production-admission-finalizer-parent-lineage"
+    },
+    {
+      "id": "BLR2-P575",
+      "requirement": "production-admission-finalizer-mutation-zero"
+    },
+    {
+      "id": "BLR2-P576",
+      "requirement": "production-admission-finalizer-deterministic-replay"
+    },
+    {
+      "id": "BLR2-P577",
+      "requirement": "production-admission-finalizer-count-invariant"
+    },
+    {
+      "id": "BLR2-P578",
+      "requirement": "production-admission-finalizer-failure-cleanup"
+    },
+    {
+      "id": "BLR2-P579",
+      "requirement": "production-admission-finalizer-readback-verification"
+    },
+    {
+      "id": "BLR2-P580",
+      "requirement": "production-admission-finalizer-finalizer-recomputation"
+    }
+  ]
+}

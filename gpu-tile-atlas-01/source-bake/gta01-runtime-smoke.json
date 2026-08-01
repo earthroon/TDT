@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 52,
+  "passed": 52,
+  "failed": [],
+  "checks": [
+    {
+      "name": "empty-boot",
+      "pass": true,
+      "detail": "empty"
+    },
+    {
+      "name": "first-ingest-ok",
+      "pass": true,
+      "detail": "ok"
+    },
+    {
+      "name": "first-ingest-miss-two",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "first-page-table-generation",
+      "pass": true,
+      "detail": "[{\"id\":0,\"vg\":1,\"sg\":1,\"use\":3,\"pin\":0,\"inflight\":0,\"key\":\"b75fd0a5a8d6163bee046c8ee4fc47e19edd9e27d1e6200349562ab863a8c6e5\",\"pt\":1},{\"id\":1,\"vg\":1,\"sg\":1,\"use\":4,\"pin\":0,\"inflight\":0,\"key\":\"b9355f886ea35ce2d662e575987e2696dd240bfd8e5dd72adddbf27f99758bcd\",\"pt\":1}]"
+    },
+    {
+      "name": "second-all-hit",
+      "pass": true,
+      "detail": "{\"ok\":true,\"handles\":[{\"id\":0,\"vg\":1,\"sg\":1,\"use\":5,\"pin\":0,\"inflight\":0,\"key\":\"b75fd0a5a8d6163bee046c8ee4fc47e19edd9e27d1e6200349562ab863a8c6e5\",\"pt\":1},{\"id\":1,\"vg\":1,\"sg\":1,\"use\":6,\"pin\":0,\"inflight\":0,\"key\":\"b9355f886ea35ce2d662e575987e2696dd240bfd8e5dd72adddbf27f99758bcd\",\"pt\":1}],\"misses\":0,\"hits\":2}"
+    },
+    {
+      "name": "hit-generation-stable",
+      "pass": true,
+      "detail": "vg"
+    },
+    {
+      "name": "mixed-hit-miss",
+      "pass": true,
+      "detail": "{\"ok\":true,\"handles\":[{\"id\":1,\"vg\":1,\"sg\":1,\"use\":8,\"pin\":0,\"inflight\":0,\"key\":\"b9355f886ea35ce2d662e575987e2696dd240bfd8e5dd72adddbf27f99758bcd\",\"pt\":2},{\"id\":2,\"vg\":1,\"sg\":1,\"use\":9,\"pin\":0,\"inflight\":0,\"key\":\"e15a80cd17ef402721cd92d887239b080454d02d9ce5788ee28003ba18a25d6f\",\"pt\":2}],\"misses\":1,\"hits\":1}"
+    },
+    {
+      "name": "page-table-once-per-commit",
+      "pass": true,
+      "detail": "pt=2"
+    },
+    {
+      "name": "source-revision-key-diff",
+      "pass": true,
+      "detail": "digest"
+    },
+    {
+      "name": "key-deterministic",
+      "pass": true,
+      "detail": "digest"
+    },
+    {
+      "name": "pin-increments",
+      "pass": true,
+      "detail": "pin"
+    },
+    {
+      "name": "read-submit-inflight",
+      "pass": true,
+      "detail": "inflight"
+    },
+    {
+      "name": "release-before-fence-rejected",
+      "pass": true,
+      "detail": "rejected"
+    },
+    {
+      "name": "fence-clears-inflight",
+      "pass": true,
+      "detail": "fence"
+    },
+    {
+      "name": "release-clears-pin",
+      "pass": true,
+      "detail": "release"
+    },
+    {
+      "name": "insufficient-victims-fails",
+      "pass": true,
+      "detail": "fail"
+    },
+    {
+      "name": "insufficient-no-mutation",
+      "pass": true,
+      "detail": "atomic admission"
+    },
+    {
+      "name": "deterministic-oldest-victim",
+      "pass": true,
+      "detail": "oldest"
+    },
+    {
+      "name": "virtual-reuse-generation",
+      "pass": true,
+      "detail": "vg"
+    },
+    {
+      "name": "slot-reuse-generation",
+      "pass": true,
+      "detail": "sg"
+    },
+    {
+      "name": "stale-handle-rejected",
+      "pass": true,
+      "detail": "stale"
+    },
+    {
+      "name": "materialize-request-order-preserved",
+      "pass": true,
+      "detail": "order"
+    },
+    {
+      "name": "duplicate-output-detected",
+      "pass": true,
+      "detail": "duplicate"
+    },
+    {
+      "name": "missing-tile-fail-closed",
+      "pass": true,
+      "detail": "missing"
+    },
+    {
+      "name": "stride-aligned",
+      "pass": true,
+      "detail": "512"
+    },
+    {
+      "name": "raw-tile-bytes",
+      "pass": true,
+      "detail": "512"
+    },
+    {
+      "name": "page-entry-bytes",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "name": "page-byte-length-safe",
+      "pass": true,
+      "detail": "safe"
+    },
+    {
+      "name": "offset-u32",
+      "pass": true,
+      "detail": "u32"
+    },
+    {
+      "name": "generation-monotonic",
+      "pass": true,
+      "detail": "monotonic"
+    },
+    {
+      "name": "exact-copy",
+      "pass": true,
+      "detail": "copy"
+    },
+    {
+      "name": "single-writer-count",
+      "pass": true,
+      "detail": "one writer"
+    },
+    {
+      "name": "materialize-complete",
+      "pass": true,
+      "detail": "complete"
+    },
+    {
+      "name": "no-nonfinite",
+      "pass": true,
+      "detail": "finite"
+    },
+    {
+      "name": "singleflight-same-digest",
+      "pass": true,
+      "detail": "same promise"
+    },
+    {
+      "name": "singleflight-different-digest",
+      "pass": true,
+      "detail": "different"
+    },
+    {
+      "name": "cancellation-before-submit-rollback",
+      "pass": true,
+      "detail": "model rollback"
+    },
+    {
+      "name": "cancellation-after-submit-no-handle-publication",
+      "pass": true,
+      "detail": "model no publication"
+    },
+    {
+      "name": "device-loss-invalidates",
+      "pass": true,
+      "detail": "invalidated"
+    },
+    {
+      "name": "page-trim-disposal-accounting",
+      "pass": true,
+      "detail": "zero"
+    },
+    {
+      "name": "no-negative-byte-counter",
+      "pass": true,
+      "detail": "nonnegative"
+    },
+    {
+      "name": "no-wall-clock-ordering",
+      "pass": true,
+      "detail": "sequence only"
+    },
+    {
+      "name": "no-cpu-pixel-compute",
+      "pass": true,
+      "detail": "ledger false"
+    },
+    {
+      "name": "no-webgl",
+      "pass": true,
+      "detail": "ledger false"
+    },
+    {
+      "name": "no-canvas",
+      "pass": true,
+      "detail": "ledger false"
+    },
+    {
+      "name": "zero-readback",
+      "pass": true,
+      "detail": "count"
+    },
+    {
+      "name": "atlas-off-bypass-identity",
+      "pass": true,
+      "detail": "identity"
+    },
+    {
+      "name": "future-pool-fail-closed",
+      "pass": true,
+      "detail": "not promoted"
+    },
+    {
+      "name": "quality-atlas-not-aliased",
+      "pass": true,
+      "detail": "semantic separation"
+    },
+    {
+      "name": "physical-binding-pin-only",
+      "pass": true,
+      "detail": "handle omits offset"
+    },
+    {
+      "name": "production-pointer-unchanged",
+      "pass": true,
+      "detail": "unpromoted"
+    },
+    {
+      "name": "receipt-deterministic",
+      "pass": true,
+      "detail": "canonical"
+    }
+  ],
+  "digest": "c9957a4e0886c0965610144d484faf66d6b615280081320309448d48bad9dcd4"
+}

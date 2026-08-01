@@ -1,0 +1,54 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-06",
+  "name": "Split UI Four Handle / State Clamp Invariant Real Code Patch",
+  "status": "PASS",
+  "depends_on": [
+    "TDT-BLENDIF-WGPU-01",
+    "TDT-BLENDIF-WGPU-02",
+    "TDT-BLENDIF-WGPU-03",
+    "TDT-BLENDIF-WGPU-04",
+    "TDT-BLENDIF-WGPU-05"
+  ],
+  "mutation_policy": "direct-source-edit-no-apply-script",
+  "changed_files": [
+    "app/js/blendif/blendif_schema.js",
+    "app/blendif_ui.js"
+  ],
+  "checked_files": [
+    "app/js/passes/dk_after_final_color_webgpu.js",
+    "app/js/passes/blendif_webgpu_pass.js",
+    "app/js/passes/blendif_webgpu_wgsl.js"
+  ],
+  "split_ui": {
+    "underlying_handles": ["Black Out", "Black In", "White In", "White Out"],
+    "this_layer_handles": ["Black Out", "Black In", "White In", "White Out"],
+    "internal_range": "0..1",
+    "display_range": "0..255"
+  },
+  "state_policy": {
+    "primary_state": ["underSplit", "thisSplit"],
+    "legacy_compat_fields": ["underRange", "thisRange", "underFeather", "thisFeather"],
+    "legacy_fields_deleted": false,
+    "split_to_legacy_compat": true
+  },
+  "invariants": {
+    "underSplit_ordered": true,
+    "thisSplit_ordered": true,
+    "split_values_clamped_0_1": true,
+    "ui_disabled_when_webgpu_unavailable": true
+  },
+  "forbidden_mutations_checked": {
+    "wgsl_split_mask_added": false,
+    "params_struct_changed": false,
+    "uniform_layout_changed": false,
+    "oklab_added": false,
+    "use_oklab_removed": false,
+    "preset_migration_added": false,
+    "webgl_fallback_revived": false,
+    "qmap_feather_changed": false,
+    "blend_mode_changed_again": false,
+    "range_mapping_policy_changed": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_06_SPLIT_UI_FOUR_HANDLE"
+}

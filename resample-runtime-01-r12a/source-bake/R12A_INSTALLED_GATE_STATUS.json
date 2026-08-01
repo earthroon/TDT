@@ -1,0 +1,3376 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 0,
+    "PENDING": 480,
+    "SKIPPED": 0
+  },
+  "gates": [
+    {
+      "evidence": null,
+      "id": "R12A-P001",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R9A_PHYSICAL_FINAL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P002",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R9A_PHYSICAL_FINAL_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P003",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_FINAL_RELEASE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P004",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_FINAL_RELEASE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P005",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_LINEAGE_RESTORATION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P006",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_LINEAGE_RESTORATION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P007",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_INSTALLED_FINAL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P008",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_INSTALLED_FINAL_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P009",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_NOT_QUARANTINED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P010",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_NOT_QUARANTINED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P011",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_V3_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P012",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_V3_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P013",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_ACTIVE_TARGET_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P014",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_ACTIVE_TARGET_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P015",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_PREVIOUS_SOURCE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P016",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_PREVIOUS_SOURCE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P017",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_INSTALLED_PACKAGE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P018",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_INSTALLED_PACKAGE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P019",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_IMMUTABLE_PACKAGE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P020",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_IMMUTABLE_PACKAGE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P021",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_R11A_SESSION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P022",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_R11A_SESSION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P023",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_POINTER_BINDING_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P024",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_POINTER_BINDING_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P025",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RELEASE_TRANSITION_BEFORE_AFTER_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P026",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RELEASE_TRANSITION_BEFORE_AFTER_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P027",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPERATOR_UPDATE_INTENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P028",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPERATOR_UPDATE_INTENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P029",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "INSTALL_ROOT_LAYOUT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P030",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "INSTALL_ROOT_LAYOUT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P031",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STABLE_LAUNCHER_PRESENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P032",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STABLE_LAUNCHER_PRESENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P033",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_PRESENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P034",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_PRESENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P035",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_STATE_ROOT_WRITABLE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P036",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_STATE_ROOT_WRITABLE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P037",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGED_WINDOWS_EXECUTION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P038",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGED_WINDOWS_EXECUTION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P039",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEPENDENCY_LOCK_CURRENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P040",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEPENDENCY_LOCK_CURRENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P041",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_TRANSITION_RECOGNIZED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P042",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_TRANSITION_RECOGNIZED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P043",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_EQUALS_RELEASE_PREVIOUS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P044",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_EQUALS_RELEASE_PREVIOUS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P045",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_EQUALS_RELEASE_ACTIVE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P046",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_EQUALS_RELEASE_ACTIVE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P047",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_HMAC_VALID_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P048",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_HMAC_VALID_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P049",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_SENDER_VALID_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P050",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_SENDER_VALID_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P051",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_ACTIVE_AT_DETECTION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P052",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_SESSION_ACTIVE_AT_DETECTION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P053",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UNRELATED_POINTER_DRIFT_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P054",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UNRELATED_POINTER_DRIFT_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P055",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LEASE_ISSUED_ONCE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P056",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LEASE_ISSUED_ONCE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P057",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LEASE_CONSUMED_ONCE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P058",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LEASE_CONSUMED_ONCE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P059",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LOCK_ACQUIRED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P060",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LOCK_ACQUIRED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P061",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SECOND_UPDATE_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P062",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SECOND_UPDATE_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P063",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TRANSACTION_CREATED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P064",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TRANSACTION_CREATED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P065",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JOURNAL_GENESIS_FLUSHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P066",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JOURNAL_GENESIS_FLUSHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P067",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_PACKAGE_PRESERVED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P068",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_PACKAGE_PRESERVED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P069",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PACKAGE_NOT_EXECUTED_NORMAL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P070",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PACKAGE_NOT_EXECUTED_NORMAL_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P071",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_UI_CAPABILITY_ONLY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P072",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_UI_CAPABILITY_ONLY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P073",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_RENDERER_FS_ACCESS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P074",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_RENDERER_FS_ACCESS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P075",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_RENDERER_POINTER_ACCESS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P076",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_RENDERER_POINTER_ACCESS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P077",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_PRODUCTION_POINTER_WRITE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P078",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_PRODUCTION_POINTER_WRITE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P079",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "START_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P080",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "START_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P081",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PAYLOAD_MATERIALIZED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P082",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PAYLOAD_MATERIALIZED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P083",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PATH_POLICY_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P084",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PATH_POLICY_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P085",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CASE_COLLISION_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P086",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CASE_COLLISION_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P087",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ADS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P088",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ADS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P089",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "REPARSE_POINT_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P090",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "REPARSE_POINT_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P091",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SYMLINK_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P092",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SYMLINK_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P093",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UNEXPECTED_EXECUTABLE_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P094",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UNEXPECTED_EXECUTABLE_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P095",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FILE_COUNT_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P096",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FILE_COUNT_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P097",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TOTAL_BYTES_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P098",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TOTAL_BYTES_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P099",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PER_FILE_SHA256_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P100",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PER_FILE_SHA256_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P101",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PATH_SET_DIGEST_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P102",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PATH_SET_DIGEST_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P103",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_CONTENT_ID_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P104",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_CONTENT_ID_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P105",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RUNTIME_CLOSURE_DIGEST_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P106",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RUNTIME_CLOSURE_DIGEST_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P107",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVE_GRAPH_DIGEST_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P108",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVE_GRAPH_DIGEST_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P109",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JAVASCRIPT_PARSE_DIGEST_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P110",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JAVASCRIPT_PARSE_DIGEST_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P111",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WGSL_MANIFEST_DIGEST_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P112",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WGSL_MANIFEST_DIGEST_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P113",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NATIVE_ADDON_DIGEST_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P114",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NATIVE_ADDON_DIGEST_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P115",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_STORE_ATOMIC_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P116",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_STORE_ATOMIC_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P117",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_POST_COMMIT_IMMUTABLE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P118",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_POST_COMMIT_IMMUTABLE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P119",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGING_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P120",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGING_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P121",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_PROCESS_ROLE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P122",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_PROCESS_ROLE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P123",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_PACKAGE_ROOT_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P124",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_PACKAGE_ROOT_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P125",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_INSTALL_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P126",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_INSTALL_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P127",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_TRANSACTION_ID_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P128",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_TRANSACTION_ID_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P129",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_CACHE_NAMESPACE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P130",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_CACHE_NAMESPACE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P131",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVE_ROOT_ACCESS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P132",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVE_ROOT_ACCESS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P133",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_ROOT_ACCESS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P134",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_ROOT_ACCESS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P135",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_TREE_ACCESS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P136",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_TREE_ACCESS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P137",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEV_SERVER_ACCESS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P138",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEV_SERVER_ACCESS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P139",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NORMAL_R11A_SESSION_NOT_ISSUED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P140",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NORMAL_R11A_SESSION_NOT_ISSUED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P141",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "HARDWARE_D3D12_USED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P142",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "HARDWARE_D3D12_USED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P143",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R9A_KERNEL_IDENTITY_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P144",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R9A_KERNEL_IDENTITY_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P145",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R9A_SINGLE_SUBMIT_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P146",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R9A_SINGLE_SUBMIT_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P147",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "VALIDATION_COUNTER_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P148",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "VALIDATION_COUNTER_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P149",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCT_REFERENCE_PARITY_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P150",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCT_REFERENCE_PARITY_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P151",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ORACLE_ULP_BOUND_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P152",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ORACLE_ULP_BOUND_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P153",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIEW_SMOKE_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P154",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIEW_SMOKE_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P155",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXPORT_SMOKE_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P156",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXPORT_SMOKE_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P157",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CPU_FALLBACK_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P158",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CPU_FALLBACK_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P159",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_CANARY_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P160",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STAGED_CANARY_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P161",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DRAIN_INTENT_FLUSHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P162",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DRAIN_INTENT_FLUSHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P163",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NEW_BOOTSTRAP_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P164",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NEW_BOOTSTRAP_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P165",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NEW_PREVIEW_GRANT_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P166",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NEW_PREVIEW_GRANT_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P167",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NEW_EXPORT_GRANT_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P168",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NEW_EXPORT_GRANT_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P169",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXISTING_PREVIEW_GRANTS_REVOKED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P170",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXISTING_PREVIEW_GRANTS_REVOKED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P171",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXISTING_EXPORT_GRANTS_REVOKED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P172",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXISTING_EXPORT_GRANTS_REVOKED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P173",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SAVE_SESSION_ABORT_REQUESTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P174",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SAVE_SESSION_ABORT_REQUESTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P175",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SAVE_TEMP_FILES_REMOVED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P176",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SAVE_TEMP_FILES_REMOVED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P177",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_DRAIN_EVENT_DELIVERED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P178",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_DRAIN_EVENT_DELIVERED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P179",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_DRAIN_ACK_RECEIVED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P180",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_DRAIN_ACK_RECEIVED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P181",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIEW_SCHEDULER_IDLE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P182",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIEW_SCHEDULER_IDLE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P183",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXPORT_QUEUE_IDLE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P184",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXPORT_QUEUE_IDLE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P185",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WORKER_PENDING_JOBS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P186",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WORKER_PENDING_JOBS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P187",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "GPU_COMPLETION_TICKETS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P188",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "GPU_COMPLETION_TICKETS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P189",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SURFACE_PINS_RELEASED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P190",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SURFACE_PINS_RELEASED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P191",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_PACKAGE_HANDLES_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P192",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_PACKAGE_HANDLES_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P193",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVE_BROWSERWINDOWS_HIDDEN_OR_CLOSED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P194",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVE_BROWSERWINDOWS_HIDDEN_OR_CLOSED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P195",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DRAIN_DEADLINE_RESPECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P196",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DRAIN_DEADLINE_RESPECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P197",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FORCED_ABORT_COUNT_RECORDED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P198",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FORCED_ABORT_COUNT_RECORDED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P199",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DRAIN_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P200",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DRAIN_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P201",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVATION_INTENT_FLUSHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P202",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVATION_INTENT_FLUSHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P203",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_EXPECTATION_CURRENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P204",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_EXPECTATION_CURRENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P205",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_EXPECTATION_CURRENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P206",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_EXPECTATION_CURRENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P207",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_CAS_ONCE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P208",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_CAS_ONCE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P209",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_GENERATION_PLUS_ONE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P210",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_GENERATION_PLUS_ONE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P211",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "INSTALL_GENERATION_PLUS_ONE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P212",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "INSTALL_GENERATION_PLUS_ONE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P213",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_TARGET_IDENTITY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P214",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_TARGET_IDENTITY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P215",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_PREVIOUS_IDENTITY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P216",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_PREVIOUS_IDENTITY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P217",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_READBACK_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P218",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_READBACK_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P219",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_BYTES_UNCHANGED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P220",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_BYTES_UNCHANGED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P221",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_BYTES_UNCHANGED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P222",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PACKAGE_BYTES_UNCHANGED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P223",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RELAUNCH_REQUEST_FLUSHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P224",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RELAUNCH_REQUEST_FLUSHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P225",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RELAUNCH_NONCE_192_BIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P226",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RELAUNCH_NONCE_192_BIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P227",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PARENT_PID_BOUND_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P228",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PARENT_PID_BOUND_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P229",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LAUNCHER_ACK_RECEIVED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P230",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LAUNCHER_ACK_RECEIVED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P231",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_PROCESS_EXITED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P232",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_PROCESS_EXITED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P233",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_PROCESS_NORMAL_WINDOW_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P234",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_PROCESS_NORMAL_WINDOW_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P235",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STATIC_SERVER_OLD_ROOT_CLOSED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P236",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STATIC_SERVER_OLD_ROOT_CLOSED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P237",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PROCESS_STARTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P238",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PROCESS_STARTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P239",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVATION_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P240",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ACTIVATION_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P241",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_LAUNCH_ENVELOPE_VALID_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P242",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_LAUNCH_ENVELOPE_VALID_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P243",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_EXECUTING_PACKAGE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P244",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_EXECUTING_PACKAGE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P245",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_LOCAL_POINTER_MATCH_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P246",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_LOCAL_POINTER_MATCH_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P247",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PRODUCTION_POINTER_MATCH_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P248",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PRODUCTION_POINTER_MATCH_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P249",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_TRANSACTION_MATCH_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P250",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_TRANSACTION_MATCH_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P251",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PACKAGE_CLOSURE_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P252",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_PACKAGE_CLOSURE_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P253",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_ACTIVE_GRAPH_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P254",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_ACTIVE_GRAPH_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P255",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_JAVASCRIPT_PARSE_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P256",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_JAVASCRIPT_PARSE_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P257",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_R9A_IDENTITY_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P258",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_R9A_IDENTITY_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P259",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_HIDDEN_WINDOW_USED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P260",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_HIDDEN_WINDOW_USED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P261",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_STARTUP_CANARY_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P262",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_STARTUP_CANARY_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P263",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_MAIN_SESSION_ISSUED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P264",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_MAIN_SESSION_ISSUED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P265",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_GENERATION_NEW_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P266",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_GENERATION_NEW_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P267",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_TARGET_PACKAGE_BOUND_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P268",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_TARGET_PACKAGE_BOUND_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P269",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_TARGET_POINTER_BOUND_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P270",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_TARGET_POINTER_BOUND_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P271",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_SESSION_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P272",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_SESSION_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P273",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_GRANT_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P274",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_GRANT_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P275",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "REATTESTATION_RECEIPT_FLUSHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P276",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "REATTESTATION_RECEIPT_FLUSHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P277",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TRANSACTION_REATTESTED_STATE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P278",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TRANSACTION_REATTESTED_STATE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P279",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_BOOT_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P280",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_BOOT_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P281",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "COMMIT_INTENT_FLUSHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P282",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "COMMIT_INTENT_FLUSHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P283",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TRANSACTION_COMMITTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P284",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TRANSACTION_COMMITTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P285",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JOURNAL_COMMIT_ACK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P286",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JOURNAL_COMMIT_ACK_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P287",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LOCK_RELEASED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P288",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LOCK_RELEASED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P289",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WINDOW_SHOW_AFTER_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P290",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WINDOW_SHOW_AFTER_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P291",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIEW_GRANT_AFTER_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P292",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIEW_GRANT_AFTER_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P293",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXPORT_GRANT_AFTER_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P294",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "EXPORT_GRANT_AFTER_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P295",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "HOST_SAVE_AFTER_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P296",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "HOST_SAVE_AFTER_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P297",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRE_COMMIT_PREVIEW_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P298",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRE_COMMIT_PREVIEW_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P299",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRE_COMMIT_EXPORT_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P300",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRE_COMMIT_EXPORT_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P301",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRE_COMMIT_SAVE_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P302",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRE_COMMIT_SAVE_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P303",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_SESSION_STATUS_ACTIVE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P304",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_SESSION_STATUS_ACTIVE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P305",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "QUARANTINE_FALSE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P306",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "QUARANTINE_FALSE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P307",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CROSS_GENERATION_ASSET_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P308",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CROSS_GENERATION_ASSET_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P309",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SILENT_FALLBACK_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P310",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SILENT_FALLBACK_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P311",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NORMAL_RUNTIME_CPU_FALLBACK_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P312",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NORMAL_RUNTIME_CPU_FALLBACK_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P313",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PENDING_UPDATE_JOBS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P314",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PENDING_UPDATE_JOBS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P315",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_PACKAGE_RETENTION_STARTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P316",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_PACKAGE_RETENTION_STARTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P317",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_RUNTIME_SMOKE_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P318",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_RUNTIME_SMOKE_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P319",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "COMMIT_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P320",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "COMMIT_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P321",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_TRANSACTION_CREATE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P322",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_TRANSACTION_CREATE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P323",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_PAYLOAD_MATERIALIZE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P324",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_PAYLOAD_MATERIALIZE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P325",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_CLOSURE_VERIFY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P326",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_CLOSURE_VERIFY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P327",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_STAGED_CANARY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P328",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_STAGED_CANARY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P329",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_DRAIN_INTENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P330",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_DRAIN_INTENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P331",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_MID_DRAIN_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P332",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_MID_DRAIN_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P333",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_DRAIN_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P334",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_DRAIN_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P335",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_ACTIVATION_INTENT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P336",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_ACTIVATION_INTENT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P337",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_PACKAGE_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P338",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_PACKAGE_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P339",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_POINTER_CAS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P340",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_POINTER_CAS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P341",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_POINTER_CAS_EFFECT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P342",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_POINTER_CAS_EFFECT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P343",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_POINTER_CAS_ACK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P344",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_POINTER_CAS_ACK_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P345",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_RELAUNCH_REQUEST_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P346",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_RELAUNCH_REQUEST_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P347",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_OLD_PROCESS_EXIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P348",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_OLD_PROCESS_EXIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P349",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_TARGET_PROCESS_START_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P350",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_TARGET_PROCESS_START_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P351",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_R11A_REATTESTATION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P352",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_R11A_REATTESTATION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P353",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_R11A_REATTESTATION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P354",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_AFTER_R11A_REATTESTATION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P355",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_COMMIT_ACK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P356",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "KILL_BEFORE_COMMIT_ACK_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P357",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JOURNAL_CORRUPT_TAIL_RECOVERY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P358",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "JOURNAL_CORRUPT_TAIL_RECOVERY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P359",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RECOVERY_MATRIX_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P360",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RECOVERY_MATRIX_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P361",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_CLOSURE_FAILURE_QUARANTINED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P362",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_CLOSURE_FAILURE_QUARANTINED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P363",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_CANARY_FAILURE_QUARANTINED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P364",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_CANARY_FAILURE_QUARANTINED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P365",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_R11A_FAILURE_QUARANTINED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P366",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_R11A_FAILURE_QUARANTINED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P367",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_CRASH_DURING_BOOT_QUARANTINED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P368",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_CRASH_DURING_BOOT_QUARANTINED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P369",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_DEVICE_LOSS_DURING_BOOT_QUARANTINED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P370",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TARGET_DEVICE_LOSS_DURING_BOOT_QUARANTINED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P371",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_PACKAGE_EXISTENCE_VERIFIED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P372",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_PACKAGE_EXISTENCE_VERIFIED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P373",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_PACKAGE_CLOSURE_VERIFIED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P374",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_PACKAGE_CLOSURE_VERIFIED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P375",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_PREVIOUS_RECOVERY_ONLY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P376",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_PREVIOUS_RECOVERY_ONLY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P377",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_NORMAL_SESSION_NOT_ISSUED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P378",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PREVIOUS_NORMAL_SESSION_NOT_ISSUED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P379",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_ROLLBACK_RECOMMENDATION_CREATED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P380",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_ROLLBACK_RECOMMENDATION_CREATED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P381",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_ROLLBACK_NOT_PERFORMED_BY_R12A_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P382",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R10A_ROLLBACK_NOT_PERFORMED_BY_R12A_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P383",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_QUALIFIED_PREVIOUS_FAIL_CLOSED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P384",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_QUALIFIED_PREVIOUS_FAIL_CLOSED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P385",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "AMBIGUOUS_POINTER_FAIL_CLOSED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P386",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "AMBIGUOUS_POINTER_FAIL_CLOSED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P387",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "AMBIGUOUS_JOURNAL_FAIL_CLOSED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P388",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "AMBIGUOUS_JOURNAL_FAIL_CLOSED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P389",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "QUARANTINE_LEDGER_APPEND_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P390",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "QUARANTINE_LEDGER_APPEND_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P391",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "QUARANTINE_STATE_ATOMIC_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P392",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "QUARANTINE_STATE_ATOMIC_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P393",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RECOVERY_UI_CAPABILITY_ONLY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P394",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RECOVERY_UI_CAPABILITY_ONLY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P395",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "USER_DATA_UNTOUCHED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P396",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "USER_DATA_UNTOUCHED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P397",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_SILENT_REMOTE_ROLLBACK_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P398",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NO_SILENT_REMOTE_ROLLBACK_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P399",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FAILURE_COORDINATION_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P400",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FAILURE_COORDINATION_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P401",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "MAIN_RENDERER_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P402",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "MAIN_RENDERER_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P403",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_WORKER_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P404",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_WORKER_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P405",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WORKER_WASM_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P406",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WORKER_WASM_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P407",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WASM_PTHREAD_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P408",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WASM_PTHREAD_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P409",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NATIVE_ADDON_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P410",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "NATIVE_ADDON_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P411",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WGSL_MANIFEST_GENERATION_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P412",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WGSL_MANIFEST_GENERATION_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P413",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PIPELINE_CACHE_NAMESPACE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P414",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PIPELINE_CACHE_NAMESPACE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P415",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SURFACE_REGISTRY_NAMESPACE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P416",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SURFACE_REGISTRY_NAMESPACE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P417",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ENCODER_WORKER_NAMESPACE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P418",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "ENCODER_WORKER_NAMESPACE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P419",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STATIC_SERVER_ROOT_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P420",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "STATIC_SERVER_ROOT_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P421",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LAZY_ASSET_TARGET_ONLY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P422",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LAZY_ASSET_TARGET_ONLY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P423",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_ASSET_FETCH_REJECTED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P424",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OLD_ASSET_FETCH_REJECTED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P425",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "MULTI_WINDOW_SESSION_DRAIN_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P426",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "MULTI_WINDOW_SESSION_DRAIN_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P427",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "MULTI_WINDOW_SHOW_BARRIER_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P428",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "MULTI_WINDOW_SHOW_BARRIER_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P429",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WINDOW_REOPEN_AFTER_COMMIT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P430",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "WINDOW_REOPEN_AFTER_COMMIT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P431",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEVICE_LOSS_AFTER_UPDATE_RECOVERY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P432",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEVICE_LOSS_AFTER_UPDATE_RECOVERY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P433",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_CRASH_AFTER_UPDATE_RECOVERY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P434",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RENDERER_CRASH_AFTER_UPDATE_RECOVERY_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P435",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_REPEAT_SECOND_GENERATION_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P436",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_REPEAT_SECOND_GENERATION_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P437",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RESIDENCY_PLATEAU_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P438",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "RESIDENCY_PLATEAU_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P439",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "GENERATION_SOAK_RECEIPT_SEALED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P440",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "GENERATION_SOAK_RECEIPT_SEALED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P441",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "INSTALLED_GATE_REPORT_480_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P442",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "INSTALLED_GATE_REPORT_480_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P443",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PENDING_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P444",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PENDING_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P445",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEFERRED_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P446",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "DEFERRED_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P447",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SKIPPED_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P448",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SKIPPED_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P449",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FAIL_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P450",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FAIL_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P451",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_PASS_360_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P452",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "SOURCE_PASS_360_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P453",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_STATE_EXACT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P454",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_STATE_EXACT_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P455",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CHILD_ARTIFACT_SET_COMPLETE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P456",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CHILD_ARTIFACT_SET_COMPLETE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P457",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CHILD_ARTIFACT_DIGESTS_VALID_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P458",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "CHILD_ARTIFACT_DIGESTS_VALID_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P459",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_RECEIPT_SELF_HASH_VALID_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P460",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_RECEIPT_SELF_HASH_VALID_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P461",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_MUTATED_FALSE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P462",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "PRODUCTION_POINTER_MUTATED_FALSE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P463",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_MUTATED_TRUE_ONCE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P464",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "LOCAL_POINTER_MUTATED_TRUE_ONCE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P465",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_ISSUED_TRUE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P466",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "R11A_SESSION_ISSUED_TRUE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P467",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LOCK_HELD_FALSE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P468",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "UPDATE_LOCK_HELD_FALSE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P469",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TEMP_FILES_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P470",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "TEMP_FILES_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P471",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_SAVE_SESSIONS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P472",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_SAVE_SESSIONS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P473",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_GRANTS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P474",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_GRANTS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P475",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_WORKERS_ZERO_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P476",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "OPEN_WORKERS_ZERO_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P477",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "HISTORICAL_RECEIPTS_UNCHANGED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P478",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "HISTORICAL_RECEIPTS_UNCHANGED_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P479",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_NEGATIVE_CONTROLS_PASS_PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R12A-P480",
+      "reason": "requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills",
+      "requirement": "FINAL_NEGATIVE_CONTROLS_PASS_RECEIPT_BOUND",
+      "status": "PENDING"
+    }
+  ],
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "schemaId": "tdt.resample.installed-gate-status.r12a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "4dccaa16b61a007d4db85abf434fda6f1c0161b6ff7a6f888104378be3ff25fe",
+  "state": "AWAITING_R10A_RELEASE_R11A_INSTALLED_AND_PACKAGED_UPDATE_EXECUTION"
+}

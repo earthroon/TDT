@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "pass": true,
+  "checks": [
+    {
+      "id": "SMOKE-01",
+      "pass": true,
+      "message": "reach 4 selects R4",
+      "detail": {
+        "schemaVersion": 1,
+        "profile": {
+          "profileId": "tdt.ewa.tile.r2.r4-8x8-v1",
+          "key": "R4",
+          "maxReach": 4,
+          "candidateSide": 9,
+          "candidateCount": 81,
+          "tileWidth": 24,
+          "tileHeight": 24,
+          "tileElements": 576,
+          "workgroupStorageBytes": 9216,
+          "workgroup": {
+            "x": 8,
+            "y": 8,
+            "z": 1
+          },
+          "productShaderAsset": "ewa_aniso_tile_r4_r2.wgsl",
+          "validationShaderAsset": "ewa_aniso_tile_validation_r4_r2.wgsl"
+        },
+        "proof": {
+          "schemaVersion": 1,
+          "schemaId": "tdt.ewa.tiled-profile.r2.v1",
+          "srcPerDstX": 1.5,
+          "srcPerDstY": 1.5,
+          "scaleBound": 1.5,
+          "sigmaMain": 1,
+          "sigmaCross": 0.5,
+          "maxAnisotropy": 2,
+          "policyFootprintBound": 1,
+          "maxSampleReach": 6,
+          "majorRadiusBound": 2.121320343559643,
+          "minorRadiusBound": 0.82,
+          "requiredReach": 3
+        },
+        "tileProof": {
+          "spanX": 12,
+          "spanY": 12,
+          "requiredTileWidth": 20,
+          "requiredTileHeight": 20,
+          "zeroFallbackRequired": true
+        }
+      }
+    },
+    {
+      "id": "SMOKE-02",
+      "pass": true,
+      "message": "reach 5/6 selects R6",
+      "detail": {
+        "schemaVersion": 1,
+        "profile": {
+          "profileId": "tdt.ewa.tile.r2.r6-8x8-v1",
+          "key": "R6",
+          "maxReach": 6,
+          "candidateSide": 13,
+          "candidateCount": 169,
+          "tileWidth": 28,
+          "tileHeight": 28,
+          "tileElements": 784,
+          "workgroupStorageBytes": 12544,
+          "workgroup": {
+            "x": 8,
+            "y": 8,
+            "z": 1
+          },
+          "productShaderAsset": "ewa_aniso_tile_r6_r2.wgsl",
+          "validationShaderAsset": "ewa_aniso_tile_validation_r6_r2.wgsl"
+        },
+        "proof": {
+          "schemaVersion": 1,
+          "schemaId": "tdt.ewa.tiled-profile.r2.v1",
+          "srcPerDstX": 2,
+          "srcPerDstY": 2,
+          "scaleBound": 2,
+          "sigmaMain": 1.25,
+          "sigmaCross": 0.65,
+          "maxAnisotropy": 3,
+          "policyFootprintBound": 1,
+          "maxSampleReach": 6,
+          "majorRadiusBound": 4.330127018922193,
+          "minorRadiusBound": 0.82,
+          "requiredReach": 5
+        },
+        "tileProof": {
+          "spanX": 15,
+          "spanY": 15,
+          "requiredTileWidth": 27,
+          "requiredTileHeight": 27,
+          "zeroFallbackRequired": true
+        }
+      }
+    },
+    {
+      "id": "SMOKE-03",
+      "pass": true,
+      "message": "unsupported footprint fail closed",
+      "detail": null
+    },
+    {
+      "id": "SMOKE-04",
+      "pass": true,
+      "message": "R4/R6 pipeline identities differ",
+      "detail": null
+    },
+    {
+      "id": "SMOKE-05",
+      "pass": true,
+      "message": "reference digest pinned",
+      "detail": null
+    },
+    {
+      "id": "SMOKE-06",
+      "pass": true,
+      "message": "R4 strict dispatch receipt",
+      "detail": {
+        "receiptId": "ewa-r2-opt-00000001",
+        "schemaVersion": 3,
+        "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+        "jobId": "r2-r4",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 2,
+        "deviceIdentity": "mock-device",
+        "pipelineIdentity": "tdt.delta-k-ewa.r2-r4:tdt.delta-k-ewa.params.v3:c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+        "paramsDigest": "26918a693fe22923e1532d15dfb59e6737a8c350c475dbe896452b6e3655ade9",
+        "sourceWidth": 150,
+        "sourceHeight": 150,
+        "outputWidth": 100,
+        "outputHeight": 100,
+        "workgroupsX": 13,
+        "workgroupsY": 13,
+        "submitted": true,
+        "completed": true,
+        "tensorMode": "canonical-stage-local-r1c",
+        "tensorTruthClaim": true,
+        "adaptivePolicyFieldConsumed": true,
+        "ewaAbi": "tdt.delta-k-ewa.params.v3",
+        "ellipseKernelId": "tdt.ewa.ellipse.radial-v1",
+        "optimizationProfileId": "tdt.ewa.tile.r2.r4-8x8-v1",
+        "requiredReach": 3,
+        "strictSharedTile": true,
+        "productDirectLoadFallback": false,
+        "receiptType": "ewa-r2-optimization",
+        "profileKey": "R4",
+        "candidateCount": 81,
+        "tileWidth": 24,
+        "tileHeight": 24,
+        "workgroupStorageBytes": 9216,
+        "footprintProof": {
+          "schemaVersion": 1,
+          "schemaId": "tdt.ewa.tiled-profile.r2.v1",
+          "srcPerDstX": 1.5,
+          "srcPerDstY": 1.5,
+          "scaleBound": 1.5,
+          "sigmaMain": 1,
+          "sigmaCross": 0.5,
+          "maxAnisotropy": 2,
+          "policyFootprintBound": 1,
+          "maxSampleReach": 6,
+          "majorRadiusBound": 2.121320343559643,
+          "minorRadiusBound": 0.82,
+          "requiredReach": 3
+        },
+        "tileProof": {
+          "spanX": 12,
+          "spanY": 12,
+          "requiredTileWidth": 20,
+          "requiredTileHeight": 20,
+          "zeroFallbackRequired": true
+        },
+        "profileProofDigest": "278637a089f63808f92a371ebad95d29d2daa041287b18200281e75081956ac2",
+        "parityStatus": "NOT_RUN",
+        "timestampFeatureAdmitted": false
+      }
+    },
+    {
+      "id": "SMOKE-07",
+      "pass": true,
+      "message": "R6 dispatch receipt",
+      "detail": {
+        "receiptId": "ewa-r2-opt-00000002",
+        "schemaVersion": 3,
+        "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+        "jobId": "r2-r6",
+        "runtimeEpoch": 1,
+        "deviceEpoch": 2,
+        "deviceIdentity": "mock-device",
+        "pipelineIdentity": "tdt.delta-k-ewa.r2-r6:tdt.delta-k-ewa.params.v3:0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+        "paramsDigest": "8b43d80292cb0b0874f303512dc42a16b414af2c2313ae2887609ad78261581c",
+        "sourceWidth": 200,
+        "sourceHeight": 200,
+        "outputWidth": 100,
+        "outputHeight": 100,
+        "workgroupsX": 13,
+        "workgroupsY": 13,
+        "submitted": true,
+        "completed": true,
+        "tensorMode": "canonical-stage-local-r1c",
+        "tensorTruthClaim": true,
+        "adaptivePolicyFieldConsumed": true,
+        "ewaAbi": "tdt.delta-k-ewa.params.v3",
+        "ellipseKernelId": "tdt.ewa.ellipse.radial-v1",
+        "optimizationProfileId": "tdt.ewa.tile.r2.r6-8x8-v1",
+        "requiredReach": 5,
+        "strictSharedTile": true,
+        "productDirectLoadFallback": false,
+        "receiptType": "ewa-r2-optimization",
+        "profileKey": "R6",
+        "candidateCount": 169,
+        "tileWidth": 28,
+        "tileHeight": 28,
+        "workgroupStorageBytes": 12544,
+        "footprintProof": {
+          "schemaVersion": 1,
+          "schemaId": "tdt.ewa.tiled-profile.r2.v1",
+          "srcPerDstX": 2,
+          "srcPerDstY": 2,
+          "scaleBound": 2,
+          "sigmaMain": 1.25,
+          "sigmaCross": 0.65,
+          "maxAnisotropy": 3,
+          "policyFootprintBound": 1,
+          "maxSampleReach": 6,
+          "majorRadiusBound": 4.330127018922193,
+          "minorRadiusBound": 0.82,
+          "requiredReach": 5
+        },
+        "tileProof": {
+          "spanX": 15,
+          "spanY": 15,
+          "requiredTileWidth": 27,
+          "requiredTileHeight": 27,
+          "zeroFallbackRequired": true
+        },
+        "profileProofDigest": "fc59eb6277a9d5286b04d55e3b7bc6e8301d4f8d963f091fa15fb9aab580ca10",
+        "parityStatus": "NOT_RUN",
+        "timestampFeatureAdmitted": false
+      }
+    },
+    {
+      "id": "SMOKE-08",
+      "pass": true,
+      "message": "one submit per product dispatch",
+      "detail": {
+        "submitCount": 2
+      }
+    },
+    {
+      "id": "SMOKE-09",
+      "pass": true,
+      "message": "timestamp absence defers",
+      "detail": null
+    },
+    {
+      "id": "SMOKE-10",
+      "pass": true,
+      "message": "bundle resources disposed",
+      "detail": {
+        "destroyCount": 7
+      }
+    }
+  ],
+  "submitCount": 2,
+  "destroyCount": 7
+}

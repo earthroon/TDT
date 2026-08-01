@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ANALYSIS-FIELD-TRUTH-00",
+  "state": "ANALYSIS_FIELD_TRUTH_00_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "parentZipSha256": "89e824847d0c477cffbf7a1f2d807c32f7a41872243d292734f46b01ebe00b5a",
+  "parentSourceSealSha256": "f3af1f740a76ebfc6c07293b0287dfceee18f0202f8929ea88365d24dbc17f3b",
+  "sourceSealSha256": "465f4ab940f426a581983e4f3ea53d230ead99d5cf907bc3b4e5c4cc548f9128",
+  "changedFileCount": 56,
+  "sealedFileCount": 58,
+  "files": [
+    {
+      "relative": "README_TDT_ANALYSIS_FIELD_TRUTH_00_APPLIED.md",
+      "byteLength": 6138,
+      "sha256": "ddaf528b85ac94a31e1e63ff1531accb73eea7f0acd79949c203c6b87494ee59"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/analysis_field_bridge.mjs",
+      "byteLength": 1120,
+      "sha256": "4d3425489ff1b74124d1c68f4b587b3a1821ec784f7cb9ae9a7c555ae018e85b"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/analysis_field_receipt_compat.mjs",
+      "byteLength": 856,
+      "sha256": "14fd4f9c644b18a8e511c4a0a5b060e3a5b1636812be48b0afd166f562d0d5b5"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/analysis_field_request_normalizer.mjs",
+      "byteLength": 1726,
+      "sha256": "438c8f298d969f256ceb5a150152ac233faea2bb1ebbca339ef067a808cf9ef5"
+    },
+    {
+      "relative": "app/legacy-runtime/js/modules/fft_qmap_runtime.js",
+      "byteLength": 1624,
+      "sha256": "1230510fad96ddbf3ecb164201d5ce2118c6801aa04d813b5ca018ffc817c14b"
+    },
+    {
+      "relative": "app/legacy-runtime/js/modules/qmapFFTBuilder.js",
+      "byteLength": 1121,
+      "sha256": "a8cec4db49cdeafe11a5a788c580834ad8fdb68e8e2397909990a45bce3ca332"
+    },
+    {
+      "relative": "app/legacy-runtime/workers/fft_peak_worker.js",
+      "byteLength": 580,
+      "sha256": "5a6a8d8adbeef9fd19a82328bfd8c2c7a0335e932d80f4cfe2fb459757dfdddf"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 22174,
+      "sha256": "ecec0634f3e46bf2ac46b16aa626770c45405d6c1edba1ecea90d9967c9688c0"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 25076,
+      "sha256": "cca7f1e60bff0f4dc2dca777532db44a45e81304b40b6f89a3cb6a502ec8605c"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 71855,
+      "sha256": "d4222811c80b0cb99b6190e0474c109239e2b9fbbd0a673ff68b4cb79425ccd6"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106337,
+      "sha256": "b4431407bfad6d6f67e200149f7386f986e8c43da8de35d58f3c494f027a9f82"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 189837,
+      "sha256": "7831a5eb61ba4e82c75e1551bf240feb9ca2644963f8ebf2fb62750c24b3c85a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-authority-service.ts",
+      "byteLength": 31760,
+      "sha256": "2d5d88e70781035efd4486893dedc5f5de7fe0002d5ec7d053895edeb84dbc82"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-compatibility-bridge.ts",
+      "byteLength": 428,
+      "sha256": "9d8d551c0b3677aeec2505db3d50e3638ae197173725bfa5ab17383955e735f6"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-errors.ts",
+      "byteLength": 1287,
+      "sha256": "62cf9f222b3aa42b1de814c8b4d059945bc9d178e2d123f823e20ed39cdd5902"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-execution-ledger-service.ts",
+      "byteLength": 697,
+      "sha256": "633509eca110d237f055d3f62893626ed26691549c9591e039b30bae70700c7a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-global.d.ts",
+      "byteLength": 201,
+      "sha256": "9d9a7fd700a9c263d4b68771e53aa80c2472bb3b6a20f619e653c2b94a46a413"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-neutral-resource-service.ts",
+      "byteLength": 476,
+      "sha256": "0c75476846d1f61a1992766321f4b603f6478f6f9d8fced204c1a84430d8c21a"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-receipt.ts",
+      "byteLength": 3358,
+      "sha256": "834ec04088d1e701b7f6ec67c829fcd21d8d955c6ab2a973f74ceb3490fecced"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-semantic-registry.ts",
+      "byteLength": 1712,
+      "sha256": "fc42091c1bd49f88270be4042362f154952381a1bce43d6b001fcf693ffca303"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-types.ts",
+      "byteLength": 10084,
+      "sha256": "72ee3b028d96c9103351b8fc0b6f9d307e63a1ad3ff814101ae98313a5988496"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-claim-report.json",
+      "byteLength": 4502,
+      "sha256": "72945b7a9cd20832645224bd56821b3a80c728db2c1424adfff2558c6b759499"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-compatibility-classification.json",
+      "byteLength": 22335,
+      "sha256": "a99dc49395963f91699d5c219c2ca72d6015d736796035da406c6c4555f7f25f"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-producer-inventory.json",
+      "byteLength": 5902,
+      "sha256": "170d0ca22f786291f31c9b890a27a2d623d620ff7cc39105593f1fe2fcbd37b8"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-semantic-registry.json",
+      "byteLength": 23822,
+      "sha256": "5d9b9a4775a51cdbbac48ab3254f6494595105cbb70853a7e5a14a158b049922"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1392,
+      "sha256": "06d4d6be96df8cb7356bc2147b0e8a3250a943b62f074d63bc1a40a1150039e6"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "byteLength": 460,
+      "sha256": "913e68e96cae1700493a9795865e7b1a98bb72245fb1e95605b009aba84c4cfc"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "byteLength": 230,
+      "sha256": "77540297e952d3a5d2af0fe85048ade491aef6e594e259200ae4b257d6142170"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "byteLength": 9987,
+      "sha256": "18d066077acea257d28020e924ced5da40235750232d655015509175d42a6e09"
+    },
+    {
+      "relative": "artifacts/active-graph-01/source-bake/source-gate-report.json",
+      "byteLength": 9286,
+      "sha256": "660bb12ba0024d2e9b961ad2bdd5b2cc47469c0bf3516a2cbd9ff8004521d519"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_CLAIM_REPORT.json",
+      "byteLength": 4502,
+      "sha256": "72945b7a9cd20832645224bd56821b3a80c728db2c1424adfff2558c6b759499"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_ERROR_CODES.json",
+      "byteLength": 1349,
+      "sha256": "e34bfeef9125e22b1fbab9ef716c23b182bdcc8c72ec0076d0b1d9315d327e25"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_IMPLEMENTATION_CLASSIFICATION.json",
+      "byteLength": 22335,
+      "sha256": "a99dc49395963f91699d5c219c2ca72d6015d736796035da406c6c4555f7f25f"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_PRODUCER_INVENTORY.json",
+      "byteLength": 5902,
+      "sha256": "170d0ca22f786291f31c9b890a27a2d623d620ff7cc39105593f1fe2fcbd37b8"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_REGRESSION_SUMMARY.json",
+      "byteLength": 2372,
+      "sha256": "0181feef747ec288bf2102413ee2869b87452a6ab7aa9c45d07cbaa3aac50278"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_SEMANTIC_REGISTRY.json",
+      "byteLength": 23822,
+      "sha256": "5d9b9a4775a51cdbbac48ab3254f6494595105cbb70853a7e5a14a158b049922"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/TDT_ANALYSIS_FIELD_TRUTH_00_SOURCE_GATE.json",
+      "byteLength": 16869,
+      "sha256": "d75307ed85d1acba6e2183e9da05c7da453f09b8c67410ebab5dca0664e4a5f5"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/aft00-claim-truth.json",
+      "byteLength": 252,
+      "sha256": "9ae0e36711957e400467542da05006deb82461601d8c35457430e06a4a45859a"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/aft00-runtime-smoke.json",
+      "byteLength": 1749,
+      "sha256": "6f4cafec7b99918f3538e835871e1d539bd010bf6f272cab5665ed270e35ad8d"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/aft00-source-contract.json",
+      "byteLength": 7972,
+      "sha256": "52006cf886cb195b79265db3a649cd6eff9159893165eec18461d426cfd46803"
+    },
+    {
+      "relative": "artifacts/analysis-field-truth-00/source-bake/aft00-zero-cpu-product-audit.json",
+      "byteLength": 868,
+      "sha256": "5cf10905481f5f6a91e7b31e5659b0577d3ba7efcee0623741fd17014e9f3293"
+    },
+    {
+      "relative": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "byteLength": 106337,
+      "sha256": "b4431407bfad6d6f67e200149f7386f986e8c43da8de35d58f3c494f027a9f82"
+    },
+    {
+      "relative": "package.json",
+      "byteLength": 19509,
+      "sha256": "4e7f9ea663449d9364d6d4c82cc829d79cd080934bdd478e246e32c23bd01e1b"
+    },
+    {
+      "relative": "patches/TDT_ANALYSIS_FIELD_TRUTH_00_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 16984,
+      "sha256": "252796651d05669af4f935ddc5afc3edb3cafba38f7dbcedfcd61e8a49e6d801"
+    },
+    {
+      "relative": "patches/TDT_ANALYSIS_FIELD_TRUTH_00_canonical_gpu_analysis_field_authority_semantic_identity_effective_execution_zero_cpu_compute_legacy_migration.diff",
+      "byteLength": 381836,
+      "sha256": "8ddf6e3fd320972162eb0ac3186d05cd38c026d5d39e686ba139b6af9e265896"
+    },
+    {
+      "relative": "specs/TDT-ANALYSIS-FIELD-TRUTH-00_CANONICAL_GPU_ANALYSIS_FIELD_AUTHORITY_SEMANTIC_IDENTITY_EFFECTIVE_EXECUTION_ZERO_CPU_COMPUTE_LEGACY_MIGRATION_SEAL_SPEC.md",
+      "byteLength": 81013,
+      "sha256": "c0961e61fc5e35563a5139352d714b56e7ed5d0b3b72bcf1087279ab0c8709d3"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/audit-current-implementations.mjs",
+      "byteLength": 3880,
+      "sha256": "14380ff9737887a00645b23a75ca9dba223dd6fba5ad503ee62cc4e41eb747f5"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/finalize.mjs",
+      "byteLength": 3290,
+      "sha256": "7bbcfc5e1a259adab7d32145fcd6e149adda6b6f563bb6d63abb06da38ab196c"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/gate.mjs",
+      "byteLength": 1099,
+      "sha256": "685d35278d7551cb3a3a3e07aaed6b7ad2a2e96c3306348e245601661ae5aaa8"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-error-codes.mjs",
+      "byteLength": 1337,
+      "sha256": "643fc66192803f191b62f767818432e0ba37bb7fc08e9c3a03da61f218a9031d"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+      "byteLength": 3205,
+      "sha256": "50daec5901a9589c7305d76835c1ee59613aed2c3eab5e52a7dbfcd5e542402b"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+      "byteLength": 5340,
+      "sha256": "3671a7313b5244d948f112b911d3c51f792d4246f97fb1afbb6116152739ee17"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/lib.mjs",
+      "byteLength": 1981,
+      "sha256": "942b080fcea91bb54b56e290c0ff288ac20663745d9a0693b341f99d1194f764"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/run.mjs",
+      "byteLength": 333,
+      "sha256": "d4900855a4a7a64a380a9bdda93bf7d23c6e37cd2fcfb36a2c28ac58ebd8308e"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/runtime-smoke.mjs",
+      "byteLength": 8121,
+      "sha256": "a87b4ce00dc370b1feaa0a7e70d0394bab47737d32513a34fa3467248d0f5627"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-claim-truth.mjs",
+      "byteLength": 2810,
+      "sha256": "e54f51695dcf9266f875d5cdf29aa34f81699957352ba0a79bd498feb4f32290"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-no-cpu-product-compute.mjs",
+      "byteLength": 1919,
+      "sha256": "f331e0ac99956bc299f7f771202a92bebfe7b429d043f9482ac7e85b8dc3c1d2"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-source-contract.mjs",
+      "byteLength": 8428,
+      "sha256": "b0133ae82629b41338c14dbe36e35ae9d7496f0129a261a1490a57de49bf1356"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 120,
+    "DEFERRED": 8
+  },
+  "semanticRegistryVersion": "tdt.analysis.semantic-registry.aft00.v1",
+  "analysisFieldAuthorityId": "dadum.analysis-field-authority.aft00",
+  "productionPointerMutated": false,
+  "cpuProductComputeClaim": false,
+  "physicalGpuClaims": false,
+  "fftEffectiveExecutionClaim": false,
+  "hannakairoTopologyEffectiveExecutionClaim": false,
+  "analyticQwaveEffectiveExecutionClaim": false,
+  "persistentAtlasEffectiveExecutionClaim": false,
+  "zeroIntermediateReadbackPhysicalClaim": false,
+  "windowsPackagedElectronClaims": false
+}

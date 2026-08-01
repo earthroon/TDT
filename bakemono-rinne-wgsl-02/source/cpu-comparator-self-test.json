@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl02.cpu-comparator-self-test.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "status": "PASS",
+  "predicates": {
+    "exactSelfComparison": true,
+    "mutationDetected": true,
+    "metricsComplete": true,
+    "logicalTruthMutationRejected": true,
+    "fixtureDigestPresent": true
+  },
+  "fixtureCount": 86,
+  "mutationResult": {
+    "nonfiniteCount": 0,
+    "alphaMismatchCount": 0,
+    "maxAbsoluteError": 9.5367431640625e-7,
+    "meanAbsoluteError": 2.384185791015625e-7,
+    "p99AbsoluteError": 9.5367431640625e-7,
+    "maxHalfUlpDistance": 16,
+    "pixelsOver1Ulp": 1,
+    "pixelsOver2Ulp": 1,
+    "pixelsOver4Ulp": 1,
+    "firstMismatch": {
+      "elementIndex": 0,
+      "pixelIndex": 0,
+      "channel": 0,
+      "expectedBits": 0,
+      "actualBits": 16,
+      "absoluteError": 9.5367431640625e-7,
+      "halfUlpDistance": 16
+    },
+    "pass": false
+  },
+  "selfSha256": "1e76e7bae8d0fb0533aeff73ef8bc2645ce60c8252fce80c5f5e99584f55a1c4"
+}

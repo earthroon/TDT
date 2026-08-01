@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 verify:dependency-lock
+> node tools/verify-dependency-lock.mjs
+
+FAIL dependency lock rootExact=false exactDirect=true promotionReceipt=false

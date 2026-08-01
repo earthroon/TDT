@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "wgpuSupportedFormats": [
+    "jxl",
+    "png",
+    "webp"
+  ],
+  "jpegRejected": true,
+  "implicitPngCoercionCount": 0,
+  "canonicalExecutorRegistered": true,
+  "executorAuthority": "tdt.resample.canonical-executor-registration.r8a.v1",
+  "receiptDigestRecomputedAt": [
+    "executor",
+    "broker"
+  ],
+  "typescriptTranspilePassCount": 5,
+  "fullVueTypecheckPerformed": false,
+  "fullVueTypecheckReason": "node_modules unavailable in source bake environment",
+  "selfSha256": "4d275867ae6cf3fb96c5369a28265f173c2b5eb1d27082374c5824a11e1c0070"
+}

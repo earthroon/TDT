@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "state": "RESAMPLE_RUNTIME_R6_KERNEL_CONTRACT_SEALED_AWAITING_R7",
+  "counts": {
+    "PASS": 148,
+    "DEFERRED": 5
+  },
+  "gates": [
+    {
+      "id": "R6-001",
+      "requirement": "PARENT_BUNDLE_IDENTITY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-002",
+      "requirement": "R5_PRODUCT_R4_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-003",
+      "requirement": "R5_PRODUCT_R6_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-004",
+      "requirement": "R5_VALIDATION_R4_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-005",
+      "requirement": "R5_VALIDATION_R6_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-006",
+      "requirement": "R5_REFERENCE_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-007",
+      "requirement": "R5_AXIAL_SHADER_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-008",
+      "requirement": "V3_PACKER_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-009",
+      "requirement": "R4_TILE_PROOF_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-010",
+      "requirement": "R5_AXIAL_CONTRACT_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-011",
+      "requirement": "R5_PARITY_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-012",
+      "requirement": "R5_SPEC_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-013",
+      "requirement": "R5_README_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-014",
+      "requirement": "R3_ORACLE_REGRESSION",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-015",
+      "requirement": "R4_R5_SEMANTIC_REGRESSION",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-016",
+      "requirement": "ABI_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-017",
+      "requirement": "ABI_VERSION",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-018",
+      "requirement": "ABI_BYTES",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-019",
+      "requirement": "ABI_FIELD_COUNT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-020",
+      "requirement": "ABI_INSIZES_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-021",
+      "requirement": "ABI_OUTSIZE_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-022",
+      "requirement": "ABI_SRCPERDST_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-023",
+      "requirement": "ABI_DSTPERSRC_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-024",
+      "requirement": "ABI_SIGMA_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-025",
+      "requirement": "ABI_ELLIPSE_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-026",
+      "requirement": "ABI_GATE_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-027",
+      "requirement": "ABI_SHARPNESS_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-028",
+      "requirement": "ABI_TAPER_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-029",
+      "requirement": "ABI_PHASE_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-030",
+      "requirement": "ABI_BORDER_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-031",
+      "requirement": "ABI_STAGE_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-032",
+      "requirement": "ABI_FLAGS_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-033",
+      "requirement": "ABI_VERSION_OFFSET",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-034",
+      "requirement": "ABI_PREFIX_PRESERVED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-035",
+      "requirement": "ABI_NO_IMPLICIT_PADDING",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-036",
+      "requirement": "ABI_WGSL_JS_PARITY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-037",
+      "requirement": "ABI_SCHEMA_FROZEN",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-038",
+      "requirement": "ABI_SCHEMA_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-039",
+      "requirement": "SHARPNESS_DEFAULT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-040",
+      "requirement": "SHARPNESS_RANGE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-041",
+      "requirement": "SHARPNESS_NONFINITE_REJECT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-042",
+      "requirement": "TAPER_DEFAULT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-043",
+      "requirement": "TAPER_RANGE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-044",
+      "requirement": "TAPER_NONFINITE_REJECT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-045",
+      "requirement": "TAPER_ALIAS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-046",
+      "requirement": "TAPER_ALIAS_AMBIGUITY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-047",
+      "requirement": "PHASE_DEFAULT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-048",
+      "requirement": "PHASE_OVERRIDE_REJECT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-049",
+      "requirement": "BORDER_DEFAULT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-050",
+      "requirement": "BORDER_UNKNOWN_REJECT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-051",
+      "requirement": "PACK_ALL_WORDS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-052",
+      "requirement": "PACK_SHARPNESS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-053",
+      "requirement": "PACK_TAPER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-054",
+      "requirement": "PACK_PHASE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-055",
+      "requirement": "PACK_BORDER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-056",
+      "requirement": "PACK_STAGE_TAIL",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-057",
+      "requirement": "PACK_DIGEST_SENSITIVITY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-058",
+      "requirement": "PACK_REPLAY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-059",
+      "requirement": "KERNEL_CONTRACT_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-060",
+      "requirement": "KERNEL_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-061",
+      "requirement": "KERNEL_DEFAULTS_SSOT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-062",
+      "requirement": "KERNEL_RANGES_SSOT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-063",
+      "requirement": "KERNEL_SUPPORT_Q",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-064",
+      "requirement": "KERNEL_Q_ZERO",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-065",
+      "requirement": "KERNEL_RADIAL_UNIFORM",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-066",
+      "requirement": "KERNEL_TAPER_UNIFORM",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-067",
+      "requirement": "KERNEL_OPERATION_ORDER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-068",
+      "requirement": "KERNEL_FINITE_GUARD",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-069",
+      "requirement": "KERNEL_NEGATIVE_WEIGHT_ZERO",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-070",
+      "requirement": "KERNEL_NO_LITERAL_SHARPNESS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-071",
+      "requirement": "KERNEL_NO_LITERAL_TAPER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-072",
+      "requirement": "KERNEL_SUPPORT_UNCHANGED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-073",
+      "requirement": "KERNEL_DEFAULT_R5_ORACLE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-074",
+      "requirement": "KERNEL_SHARPNESS_SENSITIVITY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-075",
+      "requirement": "KERNEL_TAPER_SENSITIVITY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-076",
+      "requirement": "KERNEL_CONSTANT_DC",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-077",
+      "requirement": "KERNEL_IMPULSE_NORMALIZED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-078",
+      "requirement": "KERNEL_FRAGMENT_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-079",
+      "requirement": "PHASE_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-080",
+      "requirement": "PHASE_ENUM",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-081",
+      "requirement": "PHASE_EQUATION",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-082",
+      "requirement": "BORDER_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-083",
+      "requirement": "BORDER_ENUM",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-084",
+      "requirement": "BORDER_LOGICAL_COORD",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-085",
+      "requirement": "BORDER_FETCH_CLAMP",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-086",
+      "requirement": "BORDER_AXIAL_CLAMP",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-087",
+      "requirement": "BORDER_WEIGHTS_UNCLAMPED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-088",
+      "requirement": "BORDER_FALLBACK_HELPER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-089",
+      "requirement": "BORDER_POLICY_EXCLUDED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-090",
+      "requirement": "BORDER_NEGATIVE_CONTROL",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-091",
+      "requirement": "PHASE_RUNTIME_ASSERT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-092",
+      "requirement": "BORDER_RUNTIME_ASSERT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-093",
+      "requirement": "PHASE_FRAGMENT_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-094",
+      "requirement": "BORDER_FRAGMENT_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-095",
+      "requirement": "GENERATOR_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-096",
+      "requirement": "GENERATOR_QUARANTINED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-097",
+      "requirement": "TEMPLATES_PRESENT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-098",
+      "requirement": "TEMPLATES_QUARANTINED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-099",
+      "requirement": "GENERATED_OUTPUT_COUNT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-100",
+      "requirement": "GENERATED_HEADER_PRODUCT_R4",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-101",
+      "requirement": "GENERATED_HEADER_PRODUCT_R6",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-102",
+      "requirement": "GENERATED_HEADER_VALIDATION_R4",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-103",
+      "requirement": "GENERATED_HEADER_VALIDATION_R6",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-104",
+      "requirement": "GENERATED_HEADER_REFERENCE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-105",
+      "requirement": "GENERATED_MANIFEST_ID",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-106",
+      "requirement": "GENERATED_MANIFEST_OUTPUTS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-107",
+      "requirement": "GENERATED_OUTPUT_DIGESTS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-108",
+      "requirement": "GENERATED_TEMPLATE_DIGESTS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-109",
+      "requirement": "GENERATED_CONTRACT_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-110",
+      "requirement": "GENERATED_REPLAY",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-111",
+      "requirement": "GENERATED_ONE_TERMINAL_NEWLINE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-112",
+      "requirement": "GENERATED_NO_VOLATILE_DATA",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-113",
+      "requirement": "GENERATED_MUTATION_DETECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-114",
+      "requirement": "TEMPLATE_STALE_DETECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-115",
+      "requirement": "CONTRACT_STALE_DETECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-116",
+      "requirement": "MANIFEST_MUTATION_DETECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-117",
+      "requirement": "FRAGMENT_MARKER_MUTATION_DETECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-118",
+      "requirement": "PROFILE_SWAP_DETECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-119",
+      "requirement": "PRODUCT_REFERENCE_FULL_DIGEST_DIFFER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-120",
+      "requirement": "R6_PROFILE_ADAPTER",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-121",
+      "requirement": "R4_TILE_PROOF_REUSED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-122",
+      "requirement": "R6_PRODUCT_ASSETS_SELECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-123",
+      "requirement": "R6_VALIDATION_ASSETS_SELECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-124",
+      "requirement": "R6_REFERENCE_ASSET_SELECTED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-125",
+      "requirement": "R6_BUFFER_SIZE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-126",
+      "requirement": "R6_V4_PACKER_WIRED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-127",
+      "requirement": "R6_V3_CANONICAL_REJECT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-128",
+      "requirement": "R6_AXIAL_FIELD_REQUIRED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-129",
+      "requirement": "R6_BUNDLE_IDENTITIES",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-130",
+      "requirement": "R6_LAYOUT_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-131",
+      "requirement": "R6_PARAM_DIGEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-132",
+      "requirement": "R6_EFFECTIVE_PARAMS_RECEIPT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-133",
+      "requirement": "R6_SHADER_DIGEST_RECEIPT",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-134",
+      "requirement": "R6_NO_REFERENCE_PRODUCT_FALLBACK",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-135",
+      "requirement": "R6_DEVICE_EPOCH",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-136",
+      "requirement": "R6_DISPOSE_ONCE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-137",
+      "requirement": "R6_MOCK_SUBMISSION",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-138",
+      "requirement": "ORACLE_QUARANTINED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-139",
+      "requirement": "FIXTURES_DETERMINISTIC",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-140",
+      "requirement": "ACTIVE_ASSET_MANIFEST",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-141",
+      "requirement": "STATIC_ADMISSION",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-142",
+      "requirement": "ACTIVE_GRAPH_SINGLE_CANONICAL",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-143",
+      "requirement": "NO_CPU_FALLBACK",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-144",
+      "requirement": "NO_CANVAS_WEBGL_FALLBACK",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-145",
+      "requirement": "PREDECESSOR_R1A_R5",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-146",
+      "requirement": "PRODUCTION_POINTER_UNCHANGED",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-147",
+      "requirement": "DETERMINISTIC_RECEIPTS",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-148",
+      "requirement": "SOURCE_RECEIPT_COMPLETE",
+      "status": "PASS",
+      "reason": "source-abi-generator-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R6-149",
+      "requirement": "PHYSICAL_WGSL_COMPILE",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R6-150",
+      "requirement": "PHYSICAL_DEFAULT_R5_R6_PARITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R6-151",
+      "requirement": "PHYSICAL_PARAMETER_SENSITIVITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R6-152",
+      "requirement": "PHYSICAL_PRODUCT_REFERENCE_PARITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R6-153",
+      "requirement": "PACKAGED_ELECTRON_IDENTITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuExecuted": false,
+  "packagedElectronVerified": false,
+  "failCount": 0
+}

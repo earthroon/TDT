@@ -1,0 +1,23 @@
+{
+  "lineageHead": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "lineageRootDigest": "5a010c5115bd7fb896db15d085204d9222667cbbbbc8a11cda5b915daf2ff1a1",
+  "nextReplay": [
+    {
+      "authority": "TDT-RESAMPLE-RUNTIME-01-R11A",
+      "status": "REQUIRED_NOT_CURRENT"
+    },
+    {
+      "authority": "TDT-RESAMPLE-RUNTIME-01-R12A",
+      "status": "REQUIRED_NOT_CURRENT"
+    },
+    {
+      "authority": "TDT-RESAMPLE-RUNTIME-01-R13A",
+      "status": "REQUIRED_NOT_CURRENT"
+    }
+  ],
+  "pass": true,
+  "productionPointerMutated": false,
+  "schemaVersion": 1,
+  "selfSha256": "4c77749b360cc607bb7bba9a0ae7e39ab4a016512ac1ee5b7b9eb9c93d49d69b",
+  "smokeReceiptSha256": "08541a7750447fe60ce265a9ffbb07a60bf33700452fa03a9de959eeadafb820"
+}

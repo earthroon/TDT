@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "PSD_DECODER_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-psd-e2e-not-run",
+    "serializer-independent-roundtrip-corpus-not-run",
+    "production-worker-generation-closure-not-measured",
+    "psb-zip-capabilities-not-promoted"
+  ],
+  "parserSha256": "ca803df175c9a4af8eeda9c80ca559fecea7f126b41ea68acb8012933908949f",
+  "workerSha256": "1091d6a55d331a7e78a8d14f6b88a43ef6a0925b775f494113f6742031713ce7",
+  "presentationPsdCoreWasmSha256": "7acf14e838c63d6ede977e756d2ea643c856f14a7a6c4d28175ada1aeb14984b",
+  "independentParserArtifact": "app/legacy-runtime/decoders/psd-independent-exact-parser.mjs",
+  "encoderArtifactSharing": false,
+  "evidenceSealSha256": "75e1f39f2e223f9c7bfadb6791e254a10cf4522b2ff40fc0419bd300416631bb"
+}

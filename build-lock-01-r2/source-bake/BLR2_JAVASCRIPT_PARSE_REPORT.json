@@ -1,0 +1,193 @@
+{
+  "failCount": 0,
+  "passCount": 37,
+  "rows": [
+    {
+      "file": "tools/build-lock-01-r2/candidate-lock.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/contract.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/exact-root-graph.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/finalize-source.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/finalize-win32.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/finalizer.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/gate-source.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/generate-downstream-invalidation.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/generate-implementation-manifest.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/generate-source-artifacts.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/identity.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/install-content-manifest.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/install-runner.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/lib.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/lifecycle-plan.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/lifecycle-runner.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/mutation-monitor.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/native-build-runner.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/native-toolchain-manifest.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/npm-config-authority.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/package-closure-manifest.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/post-promotion-replay.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/production-build-runner.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/promote-lock-cas.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/promote.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/recover.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/registry-cache-closure.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/run-win32.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-integration.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-javascript-parse.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-negative-controls.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-parent-lineage.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-policy-source.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-root-graph-source.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-source-contract.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-source.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/build-lock-01-r2/verify-win32.mjs",
+      "status": "PASS",
+      "stderr": ""
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "30b3d70ad4574180de1064dce4c3b08e162eb97268d829b1c4010008029ef7f3"
+}

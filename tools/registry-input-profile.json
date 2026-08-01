@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "registryProfileId": "dadum.registry-input-v1",
+  "transportRegistrySource": "TDT_BUILD_LOCK_REGISTRY",
+  "logicalResolvedHostPolicy": "canonical-npmjs-v1",
+  "canonicalLogicalHost": "registry.npmjs.org",
+  "strictSsl": true,
+  "fallbackRegistryAllowed": false,
+  "credentialSourceId": "process-secret-channel-v1",
+  "publicReceiptPolicy": "origin-digest-only-v1"
+}

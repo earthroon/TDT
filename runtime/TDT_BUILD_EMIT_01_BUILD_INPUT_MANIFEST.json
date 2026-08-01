@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "target": "win32-x64",
+  "packageJsonSha256": "827678020310b13143dccaaca09ee7c625eb0d0775e4f45e5e45c23eff816e4c",
+  "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "lockPromotionReceiptSha256": "f6bd4492fd5b28c5cac696fb5bee6ecbc0c040d15fb1efea205f71e6a61caab9",
+  "lockPromotionState": "INPUT_PROFILE_SEALED",
+  "lockPromoted": false,
+  "frozenCacheDigest": null,
+  "toolchainProfileDigest": "cfe36b2ec5c025773dcaac5a563425908fd6c802bb9952d2b051434673e36dc2",
+  "buildAuthorityDigest": "8b0e6c59b57685dfe07b4e6d99a4cfad5fbc08e97876c5eb89afb28f95624aac",
+  "sourceTreeDigest": "8b0e6c59b57685dfe07b4e6d99a4cfad5fbc08e97876c5eb89afb28f95624aac",
+  "sourceRuntimeManifestDigest": "5401675b67429db3ff9b2a6a160116bb4881a13f205a64f24f021898a34c1a41",
+  "workerSourceManifestDigest": "10179d0c57b32a913de814af3cb264091f6dcf3d3e0504514d5a5df44e2ce725",
+  "legacySourceManifestDigest": "d2cf46d9409ea10492b541da5b479268dcad7e61ac3fdf664a8c7167b710b36b",
+  "networkPolicy": "offline-build-v1",
+  "selfDigest": "261764d0d862a76d7a7680342b791aed12f69eafa0c5efde4cad0be83257e332"
+}

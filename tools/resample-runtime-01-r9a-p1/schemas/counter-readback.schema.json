@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"tdt.r9a-p1.counter-readback.v1","type":"object","required":["schemaVersion","schemaId","rows"],"properties":{"schemaId":{"const":"tdt.r9a-p1.raw-counter-readback.v1"},"rows":{"type":"array"}}}

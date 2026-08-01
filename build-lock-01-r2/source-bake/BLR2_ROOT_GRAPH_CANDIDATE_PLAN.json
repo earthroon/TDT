@@ -1,0 +1,11 @@
+{
+  "command": "npm install --package-lock-only --ignore-scripts --strict-peer-deps --install-strategy=hoisted --no-audit --no-fund",
+  "executed": false,
+  "expectedOldLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "isolatedWorkspaceRequired": true,
+  "networkPhase": "candidate-and-cache-acquisition-only",
+  "packageJsonPreSha256": "e1f8c034e54f37087c368d0339fc64b0d53210b29d3ab4f1ab94a6651727bb39",
+  "receiptKind": "build-lock-r2-lock-candidate-plan",
+  "schemaVersion": 1,
+  "selfSha256": "4bc9e98658f6ed79fcb9928103ad1b340fe33e24dce53081fcd6aabe7a63b8f9"
+}

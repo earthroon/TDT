@@ -1,0 +1,115 @@
+{
+  "schema": "dadum-fix-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-01",
+  "title": "Worker URL Authority / Encoder Worker Broker / Control Protocol / Runtime Epoch / Worker Artifact Digest Seal",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "generatedAtUtc": "2026-07-24T12:23:24Z",
+  "parent": {
+    "artifact": "44_TDT_RUNTIME_SSOT_01_R1_R7_EXACT_API_ENCODER_IDENTITY_FINAL_SURFACE_RECEIPT_SOURCE_BAKED_UNPROMOTED.zip",
+    "sha256": "6d4e8ae8505c1942d2b4e9bc80af73123483d8e9f0ed19acbaed9a3624991cfa"
+  },
+  "runtime": {
+    "buildId": "25944c4f0d4d15b8dda57555",
+    "manifestDigest": "27c5d2815342469872f5ee6396df82d5dbb4d185b34c7979d2524bf71b6d078a",
+    "workerSourceManifestDigest": "dc78d3ea1966c1f7cac24ed0abd19a2fe7495136e19bd97bd1947712d6edade4",
+    "workerCount": 3,
+    "workerIds": [
+      "dadum.worker.encoder.png16-v1",
+      "dadum.worker.encoder.psd-export-v1",
+      "dadum.worker.encoder.webp-lossless-v1"
+    ],
+    "artifactVerificationMode": "source-graph-only",
+    "promotionEligible": false
+  },
+  "authority": {
+    "rawWorkerConstructorOwner": "app/src/runtime/workers/worker-registry-service.ts",
+    "broker": "app/src/runtime/workers/encoder-worker-broker-service.ts",
+    "legacyBridge": "window.DadumRuntimeWorkerBridge",
+    "controlProtocolVersion": "dadum-worker-control-v1",
+    "workerUrlImportMode": "vite-worker-url-query",
+    "directLegacyWorkerConstructionAllowed": false
+  },
+  "promotedWorkers": [
+    {
+      "workerId": "dadum.worker.encoder.png16-v1",
+      "codecProtocolVersion": "dadum-png16-worker-v1",
+      "ownerRuntimeEncoderIds": [
+        "dadum.encoder.png16.v1"
+      ],
+      "workerArtifactSetDigest": "0574361a8f654845f17cc2aa2e2cb3a5b11102e7d54c2a0ea8c02384bb833398",
+      "entrySourceSha256": "973596b7aa9e3a3892e679c8a84aa7a4bc3f1d934fc2238138ddc8759bbd8562",
+      "transferPolicyId": "transfer-input-transfer-output-v1",
+      "wasmPolicyId": "lodepng-wasm-worker-only-v1"
+    },
+    {
+      "workerId": "dadum.worker.encoder.psd-export-v1",
+      "codecProtocolVersion": "dadum-psd-export-worker-v1",
+      "ownerRuntimeEncoderIds": [
+        "dadum.encoder.psd.v1"
+      ],
+      "workerArtifactSetDigest": "17df56b8f2db53471c204eed1c69f29858c08a015224d31335c38011852ba247",
+      "entrySourceSha256": "8a9365aa8b1ba46e578c768ef6cd40a84f7e3bebf68a5d877ad12e0faf7d5756",
+      "transferPolicyId": "transfer-request-transfer-output-v1",
+      "wasmPolicyId": "psd-rust-wasm-worker-serializer-v1"
+    },
+    {
+      "workerId": "dadum.worker.encoder.webp-lossless-v1",
+      "codecProtocolVersion": "dadum-webp-lossless-worker-v1",
+      "ownerRuntimeEncoderIds": [
+        "dadum.encoder.webp-lossless.v1"
+      ],
+      "workerArtifactSetDigest": "a9968cd64c1eadf93793656601b5ec71e79b8ae4cccae951606522f90a4d2612",
+      "entrySourceSha256": "da43dd0e782eb16f4258d36b7af5a139603c21711b86384279dc5191843a9e87",
+      "transferPolicyId": "sab-copy-input-transfer-output-v1",
+      "wasmPolicyId": "webp-wasm-worker-only-v1"
+    }
+  ],
+  "verification": {
+    "jsMjsSyntaxFiles": 13,
+    "strictTypeScriptWorkerBroker": "PASS",
+    "strictTypeScriptRuntimeClosure": "PASS_WITH_TEMPORARY_PINIA_DECLARATION_SHIM",
+    "parentR7Gates": "PASS_15_OF_15",
+    "exportWorker01Gates": "PASS_20_OF_20",
+    "determinismRuns": 100,
+    "viteBuild": "NOT_RUN_DEPENDENCY_MISSING",
+    "electronWorkerE2E": "NOT_RUN",
+    "emittedArtifactSha256": "NOT_AVAILABLE_SOURCE_BAKE_ONLY"
+  },
+  "artifacts": {
+    "spec": {
+      "path": "specs/TDT-EXPORT-WORKER-01_WORKER_URL_AUTHORITY_BROKER_PROTOCOL_EPOCH_SCRIPT_DIGEST_SPEC.md",
+      "sha256": "4b0ce03dd034cc11e2098ae0812ef6656dc1408fbde6f58ad85d09dc20d5769c"
+    },
+    "patch": {
+      "path": "patches/TDT_EXPORT_WORKER_01_worker_url_authority_broker_protocol_epoch_script_digest.diff",
+      "sha256": "70cfdcd3d19f9dfcd2cd942d27e5a051e549b94f1731e313c9bae6497234a7df"
+    },
+    "verificationLog": {
+      "path": "artifacts/runtime/SOURCE_BAKE_FINAL_VERIFY_EXPORT_WORKER_01.txt",
+      "sha256": "11fc0685bf6985d2c26deab5e13984062875888348cf2981abcdf3459c2ee6d5"
+    },
+    "sourceTreeDigest": "9965b4c983e498c2392817d1712c239ab081f3f8307565ec6138fa081828b76c"
+  },
+  "promotionBlockers": [
+    "node_modules absent in bake container",
+    "vue-tsc unavailable",
+    "vite unavailable",
+    "Vite emitted Worker asset set not produced",
+    "Electron WebP/PNG16/PSD Worker E2E not executed",
+    "emitted Worker JS/WASM SHA-256 not verified"
+  ],
+  "sourceBakeSealPayload": {
+    "schema": "dadum-source-bake-seal-v1",
+    "patchId": "TDT-EXPORT-WORKER-01",
+    "status": "SOURCE_BAKED_UNPROMOTED",
+    "parentZipSha256": "6d4e8ae8505c1942d2b4e9bc80af73123483d8e9f0ed19acbaed9a3624991cfa",
+    "sourceTreeDigest": "9965b4c983e498c2392817d1712c239ab081f3f8307565ec6138fa081828b76c",
+    "runtimeBuildId": "25944c4f0d4d15b8dda57555",
+    "runtimeManifestDigest": "27c5d2815342469872f5ee6396df82d5dbb4d185b34c7979d2524bf71b6d078a",
+    "workerSourceManifestDigest": "dc78d3ea1966c1f7cac24ed0abd19a2fe7495136e19bd97bd1947712d6edade4",
+    "patchSha256": "70cfdcd3d19f9dfcd2cd942d27e5a051e549b94f1731e313c9bae6497234a7df",
+    "verificationLogSha256": "11fc0685bf6985d2c26deab5e13984062875888348cf2981abcdf3459c2ee6d5",
+    "specSha256": "4b0ce03dd034cc11e2098ae0812ef6656dc1408fbde6f58ad85d09dc20d5769c"
+  },
+  "sourceBakeSealSha256": "8cd32e039da7b013afe1ef7af844240b5beae79624506b1d45c247da2c2d90f2"
+}

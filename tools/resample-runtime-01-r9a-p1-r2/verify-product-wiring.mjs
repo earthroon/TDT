@@ -1,0 +1,18 @@
+import {capture,check,read,sourceArtifact,seal} from './lib.mjs';const rows=[];const add=(id,fn)=>rows.push(capture(id,fn));
+add('WIRE-01-HOLDER-SERVICE',()=>check(read('app/src/boot/runtime-modules.ts').includes('R9AP1R2RecoveryHolderService'),'E_R9AP1R2_WIRING','holder missing'));
+add('WIRE-02-SERVICE-ID',()=>check(read('app/src/runtime/service-token.ts').includes('r9aP1R2RecoveryHolder'),'E_R9AP1R2_WIRING','service ID missing'));
+add('WIRE-03-EXACT-BUDGET',()=>check(read('app/src/runtime/gpu/gpu-device-authority-service.ts').includes('maxAttempts !== 3'),'E_R9AP1R2_WIRING','exact budget guard missing'));
+add('WIRE-04-CONTROLLED-LOSS',()=>check(read('app/src/runtime/gpu/gpu-device-authority-service.ts').includes('requestControlledLossR9AP1R2'),'E_R9AP1R2_WIRING','loss method missing'));
+add('WIRE-05-PREVIEW-PENDING',()=>check(read('app/src/runtime/preview/preview-presenter-service.ts').includes("notifyOperationPending('preview'"),'E_R9AP1R2_WIRING','preview hook missing'));
+add('WIRE-06-EXPORT-PENDING',()=>check(read('app/src/runtime/export/export-authority-service.ts').includes("notifyOperationPending('export'"),'E_R9AP1R2_WIRING','export hook missing'));
+add('WIRE-07-PIPELINE-REVOKE',()=>check(read('app/src/runtime/pipeline/pipeline-service.ts').includes('#revokeLostGpuBinding'),'E_R9AP1R2_WIRING','pipeline revoke missing'));
+add('WIRE-08-EXPLICIT-REGISTRY',()=>check(read('app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs').includes('pipelineRegistry = new Map'),'E_R9AP1R2_WIRING','explicit registry missing'));
+add('WIRE-09-NO-WEAKMAP-PIPELINES',()=>check(!read('app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs').includes('const pipelines = new WeakMap'),'E_R9AP1R2_WIRING','weak map pipeline remains'));
+add('WIRE-10-PERMIT-MAIN',()=>check(read('app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs').includes('createRecoveryPermitAuthorityR9AP1R2'),'E_R9AP1R2_WIRING','main permit authority missing'));
+add('WIRE-11-PRELOAD',()=>check(read('preload.cjs').includes('r9aP1Recovery'),'E_R9AP1R2_WIRING','preload bridge missing'));
+add('WIRE-12-SAME-COMPOSITION',()=>check(read('app/src/runtime/qualification/r9a-p1-r1-qualification-runner.ts').includes('runRecoveryQualificationR9AP1R2(outcome'),'E_R9AP1R2_WIRING','same composition handoff missing'));
+add('WIRE-13-THREE-CYCLE',()=>check(read('app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts').includes('for (const permit of plan.cycles)'),'E_R9AP1R2_WIRING','cycle loop missing'));
+add('WIRE-14-POST-VALIDATION',()=>check(read('app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts').includes('POST_RECOVERY_VALIDATION_LEDGER'),'E_R9AP1R2_WIRING','post validation ledger missing'));
+add('WIRE-15-NO-DIRECT-DRIVER',()=>{const s=read('app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts');check(!s.includes('createDeltaKStack')&&!s.includes('runDeltaKStack')&&!s.includes('downscaleRGBAWithWGSL'),'E_R9AP1R2_DIRECT_DRIVER','direct driver import');return true;});
+add('WIRE-16-PUBLIC-ENTRIES',()=>{const s=read('app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts');check(s.includes('DadumPreviewPresenter')&&s.includes('DadumRuntimeExport'),'E_R9AP1R2_WIRING','public entries absent');return true;});
+const fails=rows.filter(x=>x.status==='FAIL');sourceArtifact('R9AP1R2_PRODUCT_WIRING_REPORT.json',seal({schemaVersion:1,receiptKind:'r9a-p1-r2-product-wiring',counts:{PASS:rows.length-fails.length,FAIL:fails.length},rows}));check(!fails.length,'E_R9AP1R2_WIRING','product wiring failed',{fails});console.log(`R9A-P1-R2 product wiring PASS ${rows.length}/${rows.length}`);

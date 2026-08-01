@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "filesScanned": 876,
+  "methods": [
+    "createShaderModule",
+    "createComputePipeline",
+    "createRenderPipeline",
+    "createComputePipelineAsync",
+    "createRenderPipelineAsync"
+  ],
+  "findings": [],
+  "pass": true
+}

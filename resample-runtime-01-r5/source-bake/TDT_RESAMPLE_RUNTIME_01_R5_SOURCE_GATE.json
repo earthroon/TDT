@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R5",
+  "state": "RESAMPLE_RUNTIME_R5_AXIAL_SUBPIXEL_CONTINUITY_SEALED_AWAITING_R6",
+  "counts": {
+    "PASS": 132,
+    "DEFERRED": 5
+  },
+  "gates": [
+    {
+      "id": "R5-001",
+      "requirement": "PARENT_BUNDLE_IDENTITY",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-002",
+      "requirement": "R4_PRODUCT_R4_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-003",
+      "requirement": "R4_PRODUCT_R6_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-004",
+      "requirement": "R4_VALIDATION_R4_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-005",
+      "requirement": "R4_VALIDATION_R6_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-006",
+      "requirement": "R4_REFERENCE_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-007",
+      "requirement": "R4_PROFILE_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-008",
+      "requirement": "R4_PARITY_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-009",
+      "requirement": "R3_ORACLE_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-010",
+      "requirement": "R4_COORDINATE_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-011",
+      "requirement": "TANGENT_EIGEN_FROZEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-012",
+      "requirement": "TANGENT_SEMANTIC_PRESERVED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-013",
+      "requirement": "AXIAL_SHADER_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-014",
+      "requirement": "AXIAL_SCHEMA_UNIQUE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-015",
+      "requirement": "AXIAL_FORMAT_RGBA16F",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-016",
+      "requirement": "AXIAL_CHANNEL_CONTRACT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-017",
+      "requirement": "AXIAL_NEUTRAL_RECORD",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-018",
+      "requirement": "AXIAL_INPUT_FINITE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-019",
+      "requirement": "AXIAL_INPUT_NORM",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-020",
+      "requirement": "AXIAL_TANGENT_NORMALIZE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-021",
+      "requirement": "AXIAL_ALGEBRAIC_FORM",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-022",
+      "requirement": "AXIAL_OUTPUT_RENORMALIZE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-023",
+      "requirement": "AXIAL_NO_ATAN2",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-024",
+      "requirement": "AXIAL_NO_TRIG",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-025",
+      "requirement": "AXIAL_SIGN_INVARIANCE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-026",
+      "requirement": "AXIAL_CARDINAL_FIXTURES",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-027",
+      "requirement": "AXIAL_DIAGONAL_FIXTURES",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-028",
+      "requirement": "AXIAL_PASS_AFTER_EIGEN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-029",
+      "requirement": "AXIAL_SAME_SUBMISSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-030",
+      "requirement": "AXIAL_TEXTURE_OWNERSHIP",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-031",
+      "requirement": "AXIAL_RELEASE_EXACTLY_ONCE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-032",
+      "requirement": "AXIAL_FAILURE_CLOSURE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-033",
+      "requirement": "HANDLE_TANGENT_COMPAT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-034",
+      "requirement": "HANDLE_AXIAL_EXPLICIT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-035",
+      "requirement": "TEMP_COUNT_SIX",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-036",
+      "requirement": "R5_PRODUCT_R4_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-037",
+      "requirement": "R5_PRODUCT_R6_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-038",
+      "requirement": "R5_VALIDATION_R4_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-039",
+      "requirement": "R5_VALIDATION_R6_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-040",
+      "requirement": "R5_REFERENCE_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-041",
+      "requirement": "SOURCE_P_UNCHANGED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-042",
+      "requirement": "TENSOR_BASE_FLOOR",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-043",
+      "requirement": "TENSOR_FRACT_FROM_P",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-044",
+      "requirement": "FOUR_LOGICAL_NEIGHBORS",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-045",
+      "requirement": "FOUR_TEXTURE_LOADS",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-046",
+      "requirement": "NO_TENSOR_TEXTURE_SAMPLE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-047",
+      "requirement": "NO_TANGENT_BILINEAR",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-048",
+      "requirement": "BILINEAR_WEIGHT_NONNEGATIVE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-049",
+      "requirement": "BILINEAR_WEIGHT_SUM",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-050",
+      "requirement": "BORDER_WEIGHT_UNCLAMPED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-051",
+      "requirement": "BORDER_FETCH_CLAMPED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-052",
+      "requirement": "SAMPLE_AXIAL_RENORMALIZE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-053",
+      "requirement": "SAMPLE_INVALID_NEUTRALIZE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-054",
+      "requirement": "COHERENCE_WEIGHTED_SUM",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-055",
+      "requirement": "COHERENCE_MASS_RETAINED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-056",
+      "requirement": "EFFECTIVE_COHERENCE_MAGNITUDE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-057",
+      "requirement": "EFFECTIVE_COHERENCE_BOUNDED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-058",
+      "requirement": "PHASE_AGREEMENT_BOUNDED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-059",
+      "requirement": "EDGE_BILINEAR",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-060",
+      "requirement": "EDGE_NOT_DIRECTION_WEIGHT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-061",
+      "requirement": "ZERO_COHERENCE_NEUTRAL",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-062",
+      "requirement": "ORTHOGONAL_CANCELLATION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-063",
+      "requirement": "UNEQUAL_CONFIDENCE_DOMINANCE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-064",
+      "requirement": "CONSTANT_FIELD_PHASE_INVARIANCE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-065",
+      "requirement": "VERTICAL_SEAM_SHORT_PATH",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-066",
+      "requirement": "ONE_179_SEAM_SHORT_PATH",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-067",
+      "requirement": "SIGN_FLIP_FIELD_IDENTITY",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-068",
+      "requirement": "HALF_ANGLE_ALGEBRAIC",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-069",
+      "requirement": "HALF_ANGLE_NO_ATAN2",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-070",
+      "requirement": "HALF_ANGLE_VERTICAL_FALLBACK",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-071",
+      "requirement": "HALF_ANGLE_CANONICAL_SIGN",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-072",
+      "requirement": "HALF_ANGLE_ROUNDTRIP",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-073",
+      "requirement": "ELLIPSE_USES_EFFECTIVE_FIELD",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-074",
+      "requirement": "ISOTROPIC_AT_ZERO_COHERENCE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-075",
+      "requirement": "R4_SAMPLE_LATTICE_PRESERVED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-076",
+      "requirement": "R4_TILE_ORIGIN_PRESERVED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-077",
+      "requirement": "R4_STRICT_SOURCE_TILE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-078",
+      "requirement": "R4_PROFILE_SELECTION_PRESERVED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-079",
+      "requirement": "R5_REFERENCE_DIRECT_SOURCE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-080",
+      "requirement": "R5_PRODUCT_REFERENCE_DISTINCT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-081",
+      "requirement": "R5_REFERENCE_NOT_FALLBACK",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-082",
+      "requirement": "ORACLE_PRESENT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-083",
+      "requirement": "ORACLE_CONVERSION_SELF_TEST",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-084",
+      "requirement": "ORACLE_INTERPOLATION_SELF_TEST",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-085",
+      "requirement": "ORACLE_RECONSTRUCTION_SELF_TEST",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-086",
+      "requirement": "ORACLE_FIXTURE_BOUND",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-087",
+      "requirement": "ORACLE_RUNTIME_EXCLUSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-088",
+      "requirement": "PHASE_SWEEP_X_CONTINUITY",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-089",
+      "requirement": "PHASE_SWEEP_Y_CONTINUITY",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-090",
+      "requirement": "PHASE_SWEEP_DIAGONAL_CONTINUITY",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-091",
+      "requirement": "ONE_BY_ONE_BORDER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-092",
+      "requirement": "ONE_BY_N_BORDER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-093",
+      "requirement": "N_BY_ONE_BORDER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-094",
+      "requirement": "NONFINITE_NEUTRALIZATION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-095",
+      "requirement": "COHERENCE_CLAMP",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-096",
+      "requirement": "EDGE_CLAMP",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-097",
+      "requirement": "VALIDATION_INVALID_COUNTER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-098",
+      "requirement": "VALIDATION_CANCELLATION_COUNTER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-099",
+      "requirement": "VALIDATION_VERTICAL_COUNTER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-100",
+      "requirement": "VALIDATION_NONFINITE_COUNTER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-101",
+      "requirement": "VALIDATION_WEIGHT_COUNTER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-102",
+      "requirement": "VALIDATION_RECONSTRUCTION_COUNTER",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-103",
+      "requirement": "CANONICAL_LOADER_R5",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-104",
+      "requirement": "CANONICAL_STACK_AXIAL_BIND",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-105",
+      "requirement": "MISSING_AXIAL_FAIL_CLOSED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-106",
+      "requirement": "TANGENT_BIND_REJECT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-107",
+      "requirement": "BUNDLE_AXIAL_IDENTITIES",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-108",
+      "requirement": "CACHE_AXIAL_IDENTITIES",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-109",
+      "requirement": "RUNTIME_EPOCH_REJECT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-110",
+      "requirement": "DEVICE_EPOCH_REJECT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-111",
+      "requirement": "DEVICE_IDENTITY_REJECT",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-112",
+      "requirement": "DEVICE_LOSS_DISPOSE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-113",
+      "requirement": "NO_CPU_CONVERSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-114",
+      "requirement": "NO_CPU_INTERPOLATION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-115",
+      "requirement": "NO_CANVAS_FALLBACK",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-116",
+      "requirement": "NO_WEBGL_FALLBACK",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-117",
+      "requirement": "NO_IMAGE_READBACK",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-118",
+      "requirement": "ACTIVE_ASSET_MANIFEST",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-119",
+      "requirement": "STATIC_ADMISSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-120",
+      "requirement": "ACTIVE_GRAPH_SINGLE_CANONICAL",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-121",
+      "requirement": "GENERATED_REPLAY",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-122",
+      "requirement": "DETERMINISTIC_FIXTURES",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-123",
+      "requirement": "DETERMINISTIC_RECEIPTS",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-124",
+      "requirement": "R1A_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-125",
+      "requirement": "R1B_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-126",
+      "requirement": "R1C_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-127",
+      "requirement": "R1D_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-128",
+      "requirement": "R2_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-129",
+      "requirement": "R3_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-130",
+      "requirement": "R4_REGRESSION",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-131",
+      "requirement": "PRODUCTION_POINTER_UNCHANGED",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-132",
+      "requirement": "SOURCE_RECEIPT_COMPLETE",
+      "status": "PASS",
+      "reason": "source-axial-oracle-runtime-and-regression-evidence-verified"
+    },
+    {
+      "id": "R5-133",
+      "requirement": "PHYSICAL_WGSL_COMPILE",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R5-134",
+      "requirement": "PHYSICAL_AXIAL_TEXTURE_PARITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R5-135",
+      "requirement": "PHYSICAL_PRODUCT_REFERENCE_PARITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R5-136",
+      "requirement": "PHYSICAL_COUNTER_READBACK",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    },
+    {
+      "id": "R5-137",
+      "requirement": "PACKAGED_ELECTRON_IDENTITY",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-packaged-electron-evidence"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuExecuted": false,
+  "packagedElectronVerified": false,
+  "failCount": 0
+}

@@ -1,0 +1,8 @@
+{
+  "currentLineageHead": "TDT-RESAMPLE-RUNTIME-01-R13A",
+  "historicalPassCarryForward": 0,
+  "oldR13ReceiptSha256": "0023fbacaae88f442c653787dd2624e88966b0f7f4bc9e27c8cd3ee70814cb3d",
+  "schemaVersion": 1,
+  "selfSha256": "57ac64d5c3a2682bb569c36be04d2c2faa056028f24e012ba7277ec119406045",
+  "status": "SUPERSEDED_BY_R13A"
+}

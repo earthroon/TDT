@@ -1,0 +1,79 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-09",
+  "name": "OkLab L Metric / sRGB Linearization Seal Real Code Patch",
+  "status": "PASS",
+  "created_at": "2026-07-06T05:04:43Z",
+  "depends_on": [
+    "TDT-BLENDIF-WGPU-01",
+    "TDT-BLENDIF-WGPU-02",
+    "TDT-BLENDIF-WGPU-03",
+    "TDT-BLENDIF-WGPU-04",
+    "TDT-BLENDIF-WGPU-05",
+    "TDT-BLENDIF-WGPU-06",
+    "TDT-BLENDIF-WGPU-07",
+    "TDT-BLENDIF-WGPU-08"
+  ],
+  "mutation_policy": "direct-source-edit-no-apply-script",
+  "changed_files": [
+    "app/js/passes/blendif_webgpu_wgsl.js",
+    "app/blendif_ui.js",
+    "app/js/blendif/blendif_schema.js"
+  ],
+  "checked_files": [
+    "app/js/passes/blendif_webgpu_pass.js",
+    "app/js/passes/dk_after_final_color_webgpu.js",
+    "app/applyBlendingIf.js"
+  ],
+  "metric_policy": {
+    "metric_kind_0": "OkLab L",
+    "previous_metric_kind_0": "Rec.709 luma",
+    "srgb_to_linear_required": true,
+    "oklab_component_used": "L",
+    "oklab_ab_used": false
+  },
+  "wgsl_functions": {
+    "srgbToLinear1": true,
+    "srgbToLinear3": true,
+    "oklabLFromLinearRgb": true,
+    "oklabLFromSrgb": true
+  },
+  "use_oklab_policy": {
+    "useOklab_literal_absent_from_core_files": true,
+    "useOklab_uniform_present": false,
+    "useOklab_packed": false,
+    "useOklab_ui_toggle_active": false
+  },
+  "preset_policy": {
+    "preset_migration_done": false,
+    "metricSpace_forced_to_oklabL_v2": false,
+    "legacy_luma_preset_shift_until_10": true
+  },
+  "static_checks": {
+    "srgbToLinear1": true,
+    "srgbToLinear3": true,
+    "oklabLFromLinearRgb": true,
+    "oklabLFromSrgb": true,
+    "metric0_oklab": true,
+    "default_oklab": true,
+    "rec709_constants_absent": true,
+    "use_oklab_literal_absent_core": true,
+    "ui_label_oklab": true,
+    "metric_labels_schema": true,
+    "metric_space_not_forced_oklab": true,
+    "params_struct_unchanged_v2": true,
+    "split_mask_still_present": true,
+    "no_apply_script_created": true
+  },
+  "forbidden_mutations_checked": {
+    "params_struct_changed": false,
+    "uniform_layout_changed": false,
+    "pack_params_rewritten": false,
+    "split_ui_changed_again": false,
+    "split_mask_changed_again": false,
+    "qmap_feather_clamp_changed": false,
+    "preset_migration_added": false,
+    "webgl_fallback_revived": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_09_OKLAB_L_METRIC"
+}

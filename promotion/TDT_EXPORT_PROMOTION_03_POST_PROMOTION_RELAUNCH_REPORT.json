@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_POST_PROMOTION_RELAUNCH_REPORT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "production-pointer-not-mutated",
+    "promoted-package-relaunch-not-run"
+  ],
+  "promotedBuildRelaunched": false
+}

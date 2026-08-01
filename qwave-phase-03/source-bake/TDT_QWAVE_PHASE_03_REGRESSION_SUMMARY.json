@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-QWAVE-PHASE-03",
+  "state": "QWAVE_PHASE_03_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false,
+  "qwavePhase03": {
+    "pass": 192,
+    "deferred": 12,
+    "fail": 0,
+    "sourceContract": "88/88",
+    "wgslContract": "72/72",
+    "runtimeSmoke": "32/32"
+  },
+  "analysisChain": {
+    "analysisFieldTruth00": {
+      "pass": 120,
+      "deferred": 8,
+      "fail": 0
+    },
+    "spectralQmap02": {
+      "pass": 168,
+      "deferred": 12,
+      "fail": 0
+    },
+    "spectralQmap03": {
+      "pass": 204,
+      "deferred": 12,
+      "fail": 0
+    },
+    "hannakairoPhase01": {
+      "pass": 184,
+      "deferred": 12,
+      "fail": 0
+    },
+    "hannakairoGate02": {
+      "pass": 172,
+      "deferred": 12,
+      "fail": 0
+    }
+  },
+  "resample": {
+    "r1a": {
+      "pass": 57,
+      "deferred": 11,
+      "fail": 0
+    },
+    "r1b": {
+      "pass": 72,
+      "deferred": 12,
+      "fail": 0
+    },
+    "r1c": {
+      "pass": 90,
+      "deferred": 6,
+      "fail": 0
+    },
+    "r1d": {
+      "pass": 100,
+      "deferred": 8,
+      "fail": 0
+    },
+    "r2": {
+      "pass": 81,
+      "deferred": 27,
+      "fail": 0
+    }
+  },
+  "runtime": {
+    "activeGraph": {
+      "pass": 30,
+      "deferred": 10,
+      "fail": 0,
+      "regression": "19/19",
+      "typescriptTranspile": "8/8",
+      "roots": 56,
+      "nodes": 339,
+      "edges": 346,
+      "assets": 62,
+      "digest": "7a14bb04953d07a462d81e37905c3956633a3c13c65090c14fa2f49536d0bcc3"
+    },
+    "gpuDeviceSsot": {
+      "pass": 30,
+      "deferred": 30,
+      "fail": 0,
+      "consumers": 14,
+      "directAuthorityFindings": 0,
+      "pipelineOwnershipFindings": 0
+    },
+    "surfaceLifecycle": {
+      "pass": 52,
+      "deferred": 8,
+      "fail": 0
+    },
+    "previewPresenter": {
+      "pass": 50,
+      "deferred": 10,
+      "fail": 0
+    },
+    "runtimeR7": "PASS"
+  },
+  "exportBuildCodec": {
+    "exportWorker01To07": "PASS",
+    "exportPromotion01": "54/54",
+    "exportPromotion02": "60/60",
+    "exportPromotion03": "68/68",
+    "buildLock": "72/72",
+    "buildEmit": "84/84",
+    "modjpeg": "84/84",
+    "nativeDecoder": "120/120",
+    "jxlCodec": "108/108",
+    "psdDecoder": "112/112",
+    "promotionBaseline": {
+      "sourceGate": "66/66",
+      "state": "SOURCE_BAKED_UNPROMOTED"
+    }
+  },
+  "staticValidation": {
+    "stableErrorRegistry": "746/746",
+    "typescriptSyntaxFiles": 130,
+    "vueTsc": "DEFERRED_NODE_MODULES_ABSENT"
+  },
+  "ssot": {
+    "semanticRegistryVersion": "tdt.analysis.semantic-registry.qwave-phase-03.v1",
+    "semanticDescriptorCount": 30,
+    "semanticRegistryDigest": "3f26cfc7fca1559f072b421ba5d54cf01171c30878fc73ced15a581f3aaa41e1",
+    "producerCount": 8,
+    "producerInventoryDigest": "3c53b7b322a469ad5a7e0d13063e8dbe957c5333dee804585cb4dcf5db797b26",
+    "runtimeAssetCount": 62,
+    "runtimeAssetManifestDigest": "a84565dd33a234c467f4c1b16aa9fcec22ae90d3dd6e55d057e549053bb5270f"
+  },
+  "deferredPhysicalEvidence": [
+    "physical WGSL compilation and bind-group validation",
+    "source-selection atomic counters",
+    "product principal-root versus independent polar reference parity",
+    "NaN and Infinity physical comparator evidence",
+    "actual zero intermediate readback trace",
+    "device-loss interruption and stale-epoch publication rejection",
+    "repeated-run GPU memory plateau",
+    "renderer-worker boundary",
+    "Windows x64 Packaged Electron relaunch",
+    "verified-unpromoted promotion receipt"
+  ]
+}

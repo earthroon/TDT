@@ -1,0 +1,49 @@
+TDT-JXL-CODEC-01 FINAL SOURCE VERIFY
+STATUS=SOURCE_BAKED_UNPROMOTED
+EVIDENCE_STATE=JXL_CODEC_SOURCE_ADOPTED
+
+=== identities ===
+BUILD_ID=c4a33007055d20625c041f48
+BUILD_AUTHORITY_DIGEST=7da86cb21817bc8dd3089bfb791bfb1ed73d6e43f67f6645722e3e3b1939c4dd
+SOURCE_BAKE_SEAL=1875efdf6ada325d051d41472e719ea1e132bc8fc87bc051405b0fd566de0ee7
+ENCODER_WORKER_MANIFEST_DIGEST=b0419fc269eb79df9e9de9a2386893fb0f311e3ddf26c167b14c12155fe9255b
+INDEPENDENT_DECODER_MANIFEST_DIGEST=7ff77c69365ea056d7976b95c0b00a8c714cb3f4b3c4868a5c46452f7c8d6950
+ENCODER_WASM_SHA256=2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31
+DECODER_WASM_SHA256=0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3
+
+=== source bake seal recomputation ===
+PASS source bake seal 1875efdf6ada325d051d41472e719ea1e132bc8fc87bc051405b0fd566de0ee7
+
+=== manifest determinism ===
+[TDT-MODJPEG-01] generated 5 worker descriptors b0419fc269eb79df9e9de9a2386893fb0f311e3ddf26c167b14c12155fe9255b
+PASS JXL-CODEC-01 decoder source manifest 7ff77c69365ea056d7976b95c0b00a8c714cb3f4b3c4868a5c46452f7c8d6950
+[TDT-EXPORT-PROMOTION-03] generated build c4a33007055d20625c041f48; lockConsistent=false
+PASS runtime manifest deterministic
+PASS encoder worker manifest deterministic
+PASS independent decoder manifest deterministic
+
+=== JXL gates and policy tests ===
+PASS TDT-JXL-CODEC-01 RUNTIME TESTS 168/168
+PASS TDT-JXL-CODEC-01 GATES 108/108
+
+=== parent regression ===
+PASS parent regression closure
+PASS GATE-R1-ERROR-CODE stable error registry 466/466 referenced codes declared
+PASS TypeScript syntax 76 files
+PASS isolated strict TypeScript closure
+
+=== production fail closed ===
+FAIL dependency lock rootExact=false exactDirect=true promotionReceipt=false
+EXIT_CODE=1
+PASS Vite not executed before lock promotion
+
+=== artifact bytes ===
+ed383c356823f11ec272c996b77cde7a5ddaae598cbd3bf8544854b48fdda91e  app/legacy-runtime/encoders/jxl_bindings.mjs
+2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31  app/legacy-runtime/encoders/jxl_bindings.wasm
+28e848c7503e29286db47827819402363990f82d3574ba7451b3a62c8b8ca8b2  app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge.js
+0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3  app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge_bg.wasm
+
+=== evidence truth ===
+PASS no false production promotion or codec round-trip claim
+
+PASS TDT-JXL-CODEC-01 final source verification

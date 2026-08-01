@@ -1,0 +1,1 @@
+export { computeEwaR4AxisTileProof, computeEwaR4FootprintProof, computeEwaR4TileProof, selectEwaR4Profile, EWA_R4_PROFILES } from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r4.mjs';

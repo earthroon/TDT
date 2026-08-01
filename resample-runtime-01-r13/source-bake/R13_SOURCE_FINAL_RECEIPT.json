@@ -1,0 +1,4076 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.rollout.source-harness.r13.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R13",
+  "state": "RESAMPLE_RUNTIME_R13_COHORT_ROLLOUT_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_MULTI_INSTALLATION_FLEET",
+  "counts": {
+    "PASS": 192,
+    "PENDING": 408,
+    "DEFERRED": 0,
+    "SKIPPED": 0,
+    "FAIL": 0
+  },
+  "sourcePass": 192,
+  "fleetPass": 0,
+  "pending": 408,
+  "deferred": 0,
+  "skipped": 0,
+  "fail": 0,
+  "sourceGates": [
+    {
+      "id": "R13-S001",
+      "name": "PARENT_BUNDLE_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S002",
+      "name": "PARENT_BUNDLE_SHA256_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_SHA256_EXACT"
+      }
+    },
+    {
+      "id": "R13-S003",
+      "name": "PARENT_R12_SPEC_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SPEC_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S004",
+      "name": "PARENT_R12_SPEC_SHA256_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SPEC_SHA256_EXACT"
+      }
+    },
+    {
+      "id": "R13-S005",
+      "name": "PARENT_R12_SOURCE_RECEIPT_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_RECEIPT_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S006",
+      "name": "PARENT_R12_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_RECEIPT_SHA256_EXACT"
+      }
+    },
+    {
+      "id": "R13-S007",
+      "name": "PARENT_R12_SOURCE_STATE_EXACT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_STATE_EXACT"
+      }
+    },
+    {
+      "id": "R13-S008",
+      "name": "PARENT_R12_SOURCE_PASS_168",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_SOURCE_PASS_168"
+      }
+    },
+    {
+      "id": "R13-S009",
+      "name": "PARENT_R12_INSTALLED_PENDING_358",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_INSTALLED_PENDING_358"
+      }
+    },
+    {
+      "id": "R13-S010",
+      "name": "PARENT_R12_FAIL_ZERO",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_R12_FAIL_ZERO"
+      }
+    },
+    {
+      "id": "R13-S011",
+      "name": "PARENT_PRODUCTION_POINTER_NOT_MUTATED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_PRODUCTION_POINTER_NOT_MUTATED"
+      }
+    },
+    {
+      "id": "R13-S012",
+      "name": "PARENT_LOCAL_POINTER_NOT_MUTATED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PARENT_LOCAL_POINTER_NOT_MUTATED"
+      }
+    },
+    {
+      "id": "R13-S013",
+      "name": "R10_POINTER_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R10_POINTER_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S014",
+      "name": "R11_ADMISSION_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R11_ADMISSION_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S015",
+      "name": "R12_INSTALL_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R12_INSTALL_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S016",
+      "name": "R13_ROLLOUT_AUTHORITY_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_ROLLOUT_AUTHORITY_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S017",
+      "name": "R13_PARENT_FREEZE_MANIFEST_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_PARENT_FREEZE_MANIFEST_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S018",
+      "name": "R13_PARENT_FREEZE_CHILD_DIGESTS_COMPLETE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_PARENT_FREEZE_CHILD_DIGESTS_COMPLETE"
+      }
+    },
+    {
+      "id": "R13-S019",
+      "name": "R13_SOURCE_MODE_DECLARED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_SOURCE_MODE_DECLARED"
+      }
+    },
+    {
+      "id": "R13-S020",
+      "name": "R13_FLEET_EXECUTION_ABSENT_RECORDED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_FLEET_EXECUTION_ABSENT_RECORDED"
+      }
+    },
+    {
+      "id": "R13-S021",
+      "name": "R13_NO_PARENT_RECEIPT_REWRITE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_NO_PARENT_RECEIPT_REWRITE"
+      }
+    },
+    {
+      "id": "R13-S022",
+      "name": "R13_NO_PARENT_POINTER_WRITE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_NO_PARENT_POINTER_WRITE"
+      }
+    },
+    {
+      "id": "R13-S023",
+      "name": "R13_PREDECESSOR_REGRESSION_ENTRY_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_PREDECESSOR_REGRESSION_ENTRY_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S024",
+      "name": "R13_CURRENT_FACTS_RECEIPT_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_CURRENT_FACTS_RECEIPT_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S025",
+      "name": "ROLLOUT_PLAN_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S026",
+      "name": "ROLLOUT_LEDGER_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_LEDGER_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S027",
+      "name": "FLEET_ENROLLMENT_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FLEET_ENROLLMENT_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S028",
+      "name": "COHORT_ASSIGNMENT_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_ASSIGNMENT_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S029",
+      "name": "RING_ADMISSION_LEASE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_ADMISSION_LEASE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S030",
+      "name": "LOCAL_EVIDENCE_ENVELOPE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_ENVELOPE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S031",
+      "name": "FLEET_AGGREGATE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FLEET_AGGREGATE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S032",
+      "name": "RING_DECISION_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_DECISION_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S033",
+      "name": "CONTAINMENT_DIRECTIVE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S034",
+      "name": "ROLLBACK_RECOMMENDATION_BATCH_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_BATCH_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S035",
+      "name": "PRIVACY_PROFILE_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PRIVACY_PROFILE_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S036",
+      "name": "FINAL_ROLLOUT_RECEIPT_SCHEMA_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FINAL_ROLLOUT_RECEIPT_SCHEMA_ID"
+      }
+    },
+    {
+      "id": "R13-S037",
+      "name": "ROLLOUT_PLAN_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S038",
+      "name": "LOCAL_R10_POINTER_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R10_POINTER_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S039",
+      "name": "LOCAL_R12_ACTIVATION_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R12_ACTIVATION_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S040",
+      "name": "LOCAL_R11_ADMISSION_AUTHORITY_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R11_ADMISSION_AUTHORITY_ID"
+      }
+    },
+    {
+      "id": "R13-S041",
+      "name": "R13_POINTER_MUTATION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_POINTER_MUTATION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S042",
+      "name": "R13_LOCAL_INSTALL_MUTATION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_LOCAL_INSTALL_MUTATION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S043",
+      "name": "R13_USER_JOB_AUTHORITY_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_USER_JOB_AUTHORITY_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S044",
+      "name": "R13_RELEASE_QUALIFICATION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_RELEASE_QUALIFICATION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S045",
+      "name": "R13_CANARY_RING_COUNT_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_CANARY_RING_COUNT_PINNED"
+      }
+    },
+    {
+      "id": "R13-S046",
+      "name": "R13_BASIS_POINT_DOMAIN_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_BASIS_POINT_DOMAIN_PINNED"
+      }
+    },
+    {
+      "id": "R13-S047",
+      "name": "R13_GATE_COUNT_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_GATE_COUNT_PINNED"
+      }
+    },
+    {
+      "id": "R13-S048",
+      "name": "R13_STATE_MACHINE_VERSION_PINNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R13_STATE_MACHINE_VERSION_PINNED"
+      }
+    },
+    {
+      "id": "R13-S049",
+      "name": "INSTALLATION_ENROLLMENT_ID_RANDOM",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "INSTALLATION_ENROLLMENT_ID_RANDOM"
+      }
+    },
+    {
+      "id": "R13-S050",
+      "name": "INSTALLATION_ENROLLMENT_ID_NOT_HARDWARE_DERIVED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "INSTALLATION_ENROLLMENT_ID_NOT_HARDWARE_DERIVED"
+      }
+    },
+    {
+      "id": "R13-S051",
+      "name": "INSTALLATION_ENROLLMENT_ID_NOT_USER_DERIVED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "INSTALLATION_ENROLLMENT_ID_NOT_USER_DERIVED"
+      }
+    },
+    {
+      "id": "R13-S052",
+      "name": "ROLLOUT_PSEUDONYM_HMAC_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PSEUDONYM_HMAC_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S053",
+      "name": "ROLLOUT_PSEUDONYM_RELEASE_SCOPED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PSEUDONYM_RELEASE_SCOPED"
+      }
+    },
+    {
+      "id": "R13-S054",
+      "name": "ROLLOUT_PSEUDONYM_NO_RAW_ENROLLMENT_ID",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PSEUDONYM_NO_RAW_ENROLLMENT_ID"
+      }
+    },
+    {
+      "id": "R13-S055",
+      "name": "COHORT_HMAC_SHA256_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_HMAC_SHA256_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S056",
+      "name": "COHORT_BUCKET_0_9999_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_BUCKET_0_9999_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S057",
+      "name": "COHORT_SECRET_NOT_DISTRIBUTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "COHORT_SECRET_NOT_DISTRIBUTED"
+      }
+    },
+    {
+      "id": "R13-S058",
+      "name": "ENROLLMENT_KEY_ROTATION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ENROLLMENT_KEY_ROTATION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S059",
+      "name": "EVIDENCE_SIGNING_KEY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "EVIDENCE_SIGNING_KEY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S060",
+      "name": "EVIDENCE_REPLAY_NONCE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "EVIDENCE_REPLAY_NONCE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S061",
+      "name": "EVIDENCE_MONOTONIC_SEQUENCE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "EVIDENCE_MONOTONIC_SEQUENCE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S062",
+      "name": "NO_IMAGE_BYTES_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_IMAGE_BYTES_FIELD"
+      }
+    },
+    {
+      "id": "R13-S063",
+      "name": "NO_PIXEL_HASH_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_PIXEL_HASH_FIELD"
+      }
+    },
+    {
+      "id": "R13-S064",
+      "name": "NO_FILE_NAME_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_FILE_NAME_FIELD"
+      }
+    },
+    {
+      "id": "R13-S065",
+      "name": "NO_USER_PATH_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_USER_PATH_FIELD"
+      }
+    },
+    {
+      "id": "R13-S066",
+      "name": "NO_EXIF_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_EXIF_FIELD"
+      }
+    },
+    {
+      "id": "R13-S067",
+      "name": "NO_DOCUMENT_METADATA_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_DOCUMENT_METADATA_FIELD"
+      }
+    },
+    {
+      "id": "R13-S068",
+      "name": "NO_ACCOUNT_NAME_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_ACCOUNT_NAME_FIELD"
+      }
+    },
+    {
+      "id": "R13-S069",
+      "name": "NO_EMAIL_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_EMAIL_FIELD"
+      }
+    },
+    {
+      "id": "R13-S070",
+      "name": "NO_PRECISE_LOCATION_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_PRECISE_LOCATION_FIELD"
+      }
+    },
+    {
+      "id": "R13-S071",
+      "name": "NO_STABLE_HARDWARE_SERIAL_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_STABLE_HARDWARE_SERIAL_FIELD"
+      }
+    },
+    {
+      "id": "R13-S072",
+      "name": "ADAPTER_FAMILY_BUCKET_ONLY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ADAPTER_FAMILY_BUCKET_ONLY"
+      }
+    },
+    {
+      "id": "R13-S073",
+      "name": "DRIVER_VERSION_BUCKET_POLICY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "DRIVER_VERSION_BUCKET_POLICY"
+      }
+    },
+    {
+      "id": "R13-S074",
+      "name": "TIME_BUCKET_COARSENING_POLICY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "TIME_BUCKET_COARSENING_POLICY"
+      }
+    },
+    {
+      "id": "R13-S075",
+      "name": "RETENTION_TTL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RETENTION_TTL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S076",
+      "name": "LOCAL_ONLY_MODE_SUPPORTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_ONLY_MODE_SUPPORTED"
+      }
+    },
+    {
+      "id": "R13-S077",
+      "name": "ROLLOUT_ID_192BIT_RANDOM",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_ID_192BIT_RANDOM"
+      }
+    },
+    {
+      "id": "R13-S078",
+      "name": "ROLLOUT_PLAN_CANONICAL_JSON",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_CANONICAL_JSON"
+      }
+    },
+    {
+      "id": "R13-S079",
+      "name": "ROLLOUT_PLAN_SELF_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_SELF_HASH"
+      }
+    },
+    {
+      "id": "R13-S080",
+      "name": "ROLLOUT_PLAN_SIGNATURE_FIELD",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_SIGNATURE_FIELD"
+      }
+    },
+    {
+      "id": "R13-S081",
+      "name": "ROLLOUT_PLAN_GENERATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_GENERATION"
+      }
+    },
+    {
+      "id": "R13-S082",
+      "name": "ROLLOUT_PLAN_RAW_HASH_CAS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLOUT_PLAN_RAW_HASH_CAS"
+      }
+    },
+    {
+      "id": "R13-S083",
+      "name": "TARGET_BUILD_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "TARGET_BUILD_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S084",
+      "name": "TARGET_PACKAGE_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "TARGET_PACKAGE_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S085",
+      "name": "SOURCE_BUILD_SET_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_BUILD_SET_BOUND"
+      }
+    },
+    {
+      "id": "R13-S086",
+      "name": "R10_RELEASE_RECEIPT_DIGEST_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R10_RELEASE_RECEIPT_DIGEST_BOUND"
+      }
+    },
+    {
+      "id": "R13-S087",
+      "name": "R9_PHYSICAL_RECEIPT_DIGEST_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "R9_PHYSICAL_RECEIPT_DIGEST_BOUND"
+      }
+    },
+    {
+      "id": "R13-S088",
+      "name": "RING_LAB_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_LAB_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S089",
+      "name": "RING_CANARY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_CANARY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S090",
+      "name": "RING_EARLY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_EARLY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S091",
+      "name": "RING_BROAD_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_BROAD_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S092",
+      "name": "RING_MAJORITY_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MAJORITY_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S093",
+      "name": "RING_FULL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_FULL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S094",
+      "name": "RING_TARGET_BASIS_POINTS_MONOTONIC",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_TARGET_BASIS_POINTS_MONOTONIC"
+      }
+    },
+    {
+      "id": "R13-S095",
+      "name": "RING_MIN_INSTALLATIONS_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MIN_INSTALLATIONS_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S096",
+      "name": "RING_MIN_SESSIONS_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MIN_SESSIONS_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S097",
+      "name": "RING_MIN_DWELL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_MIN_DWELL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S098",
+      "name": "RING_EVIDENCE_COVERAGE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_EVIDENCE_COVERAGE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S099",
+      "name": "RING_ADVANCE_SINGLE_STEP",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_ADVANCE_SINGLE_STEP"
+      }
+    },
+    {
+      "id": "R13-S100",
+      "name": "RING_REGRESSION_FORBIDDEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_REGRESSION_FORBIDDEN"
+      }
+    },
+    {
+      "id": "R13-S101",
+      "name": "RING_PAUSE_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_PAUSE_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S102",
+      "name": "RING_CONTAIN_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_CONTAIN_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S103",
+      "name": "RING_COMPLETE_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_COMPLETE_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S104",
+      "name": "RING_REJECT_STATE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "RING_REJECT_STATE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S105",
+      "name": "PLAN_SUPERSESSION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_SUPERSESSION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S106",
+      "name": "PLAN_SPLIT_BRAIN_DETECTION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_SPLIT_BRAIN_DETECTION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S107",
+      "name": "PLAN_APPEND_ONLY_LEDGER_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_APPEND_ONLY_LEDGER_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S108",
+      "name": "PLAN_OPERATOR_APPROVAL_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PLAN_OPERATOR_APPROVAL_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S109",
+      "name": "LEASE_ROLLOUT_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_ROLLOUT_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S110",
+      "name": "LEASE_PLAN_DIGEST_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_PLAN_DIGEST_BOUND"
+      }
+    },
+    {
+      "id": "R13-S111",
+      "name": "LEASE_RING_ID_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_RING_ID_BOUND"
+      }
+    },
+    {
+      "id": "R13-S112",
+      "name": "LEASE_COHORT_BUCKET_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_COHORT_BUCKET_BOUND"
+      }
+    },
+    {
+      "id": "R13-S113",
+      "name": "LEASE_INSTALLATION_PSEUDONYM_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_INSTALLATION_PSEUDONYM_BOUND"
+      }
+    },
+    {
+      "id": "R13-S114",
+      "name": "LEASE_TARGET_BUILD_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_TARGET_BUILD_BOUND"
+      }
+    },
+    {
+      "id": "R13-S115",
+      "name": "LEASE_TARGET_PACKAGE_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_TARGET_PACKAGE_BOUND"
+      }
+    },
+    {
+      "id": "R13-S116",
+      "name": "LEASE_SOURCE_BUILD_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_SOURCE_BUILD_BOUND"
+      }
+    },
+    {
+      "id": "R13-S117",
+      "name": "LEASE_LOCAL_R10_EXPECTED_GENERATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_LOCAL_R10_EXPECTED_GENERATION"
+      }
+    },
+    {
+      "id": "R13-S118",
+      "name": "LEASE_LOCAL_R10_EXPECTED_RAW_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_LOCAL_R10_EXPECTED_RAW_HASH"
+      }
+    },
+    {
+      "id": "R13-S119",
+      "name": "LEASE_NOT_BEFORE_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_NOT_BEFORE_BOUND"
+      }
+    },
+    {
+      "id": "R13-S120",
+      "name": "LEASE_EXPIRES_AT_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_EXPIRES_AT_BOUND"
+      }
+    },
+    {
+      "id": "R13-S121",
+      "name": "LEASE_SINGLE_USE_NONCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_SINGLE_USE_NONCE"
+      }
+    },
+    {
+      "id": "R13-S122",
+      "name": "LEASE_SIGNATURE_REQUIRED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_SIGNATURE_REQUIRED"
+      }
+    },
+    {
+      "id": "R13-S123",
+      "name": "LEASE_REVOCATION_ID_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_REVOCATION_ID_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S124",
+      "name": "LEASE_REPLAY_REJECTED_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_REPLAY_REJECTED_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S125",
+      "name": "LEASE_WRONG_RING_REJECTED_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_WRONG_RING_REJECTED_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S126",
+      "name": "LEASE_WRONG_PACKAGE_REJECTED_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_WRONG_PACKAGE_REJECTED_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S127",
+      "name": "LEASE_STALE_R10_REJECTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_STALE_R10_REJECTED"
+      }
+    },
+    {
+      "id": "R13-S128",
+      "name": "LEASE_OFFLINE_EXPIRY_REJECTED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_OFFLINE_EXPIRY_REJECTED"
+      }
+    },
+    {
+      "id": "R13-S129",
+      "name": "LEASE_ONLY_AUTHORIZES_LOCAL_R10",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_ONLY_AUTHORIZES_LOCAL_R10"
+      }
+    },
+    {
+      "id": "R13-S130",
+      "name": "LEASE_CANNOT_WRITE_LOCAL_R10",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_CANNOT_WRITE_LOCAL_R10"
+      }
+    },
+    {
+      "id": "R13-S131",
+      "name": "LEASE_CANNOT_WRITE_R12_POINTER",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_CANNOT_WRITE_R12_POINTER"
+      }
+    },
+    {
+      "id": "R13-S132",
+      "name": "LEASE_CANNOT_ISSUE_R11_TOKEN",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LEASE_CANNOT_ISSUE_R11_TOKEN"
+      }
+    },
+    {
+      "id": "R13-S133",
+      "name": "LOCAL_R10_CAS_HANDOFF_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R10_CAS_HANDOFF_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S134",
+      "name": "LOCAL_R12_UPDATE_HANDOFF_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R12_UPDATE_HANDOFF_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S135",
+      "name": "LOCAL_R11_ATTESTATION_HANDOFF_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_R11_ATTESTATION_HANDOFF_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S136",
+      "name": "UNADMITTED_INSTALLATION_REMAINS_ON_SOURCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "UNADMITTED_INSTALLATION_REMAINS_ON_SOURCE"
+      }
+    },
+    {
+      "id": "R13-S137",
+      "name": "LOCAL_EVIDENCE_ALLOWLIST_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_ALLOWLIST_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S138",
+      "name": "LOCAL_EVIDENCE_SCHEMA_VERSIONED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SCHEMA_VERSIONED"
+      }
+    },
+    {
+      "id": "R13-S139",
+      "name": "LOCAL_EVIDENCE_RELEASE_SCOPED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_RELEASE_SCOPED"
+      }
+    },
+    {
+      "id": "R13-S140",
+      "name": "LOCAL_EVIDENCE_RING_SCOPED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_RING_SCOPED"
+      }
+    },
+    {
+      "id": "R13-S141",
+      "name": "LOCAL_EVIDENCE_INSTALLATION_PSEUDONYM",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_INSTALLATION_PSEUDONYM"
+      }
+    },
+    {
+      "id": "R13-S142",
+      "name": "LOCAL_EVIDENCE_SEQUENCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SEQUENCE"
+      }
+    },
+    {
+      "id": "R13-S143",
+      "name": "LOCAL_EVIDENCE_NONCE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_NONCE"
+      }
+    },
+    {
+      "id": "R13-S144",
+      "name": "LOCAL_EVIDENCE_SIGNATURE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SIGNATURE"
+      }
+    },
+    {
+      "id": "R13-S145",
+      "name": "LOCAL_EVIDENCE_SELF_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SELF_HASH"
+      }
+    },
+    {
+      "id": "R13-S146",
+      "name": "LOCAL_EVIDENCE_R10_RESULT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_R10_RESULT"
+      }
+    },
+    {
+      "id": "R13-S147",
+      "name": "LOCAL_EVIDENCE_R12_RESULT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_R12_RESULT"
+      }
+    },
+    {
+      "id": "R13-S148",
+      "name": "LOCAL_EVIDENCE_R11_RESULT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_R11_RESULT"
+      }
+    },
+    {
+      "id": "R13-S149",
+      "name": "LOCAL_EVIDENCE_CANARY_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_CANARY_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S150",
+      "name": "LOCAL_EVIDENCE_CRASH_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_CRASH_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S151",
+      "name": "LOCAL_EVIDENCE_DEVICE_LOSS_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_DEVICE_LOSS_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S152",
+      "name": "LOCAL_EVIDENCE_QUARANTINE_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_QUARANTINE_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S153",
+      "name": "LOCAL_EVIDENCE_SESSION_COUNTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_SESSION_COUNTS"
+      }
+    },
+    {
+      "id": "R13-S154",
+      "name": "LOCAL_EVIDENCE_EXPOSURE_DURATION_BUCKET",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_EXPOSURE_DURATION_BUCKET"
+      }
+    },
+    {
+      "id": "R13-S155",
+      "name": "LOCAL_EVIDENCE_ADAPTER_FAMILY_BUCKET",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_ADAPTER_FAMILY_BUCKET"
+      }
+    },
+    {
+      "id": "R13-S156",
+      "name": "LOCAL_EVIDENCE_NO_RAW_LOGS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "LOCAL_EVIDENCE_NO_RAW_LOGS"
+      }
+    },
+    {
+      "id": "R13-S157",
+      "name": "AGGREGATOR_SIGNATURE_VERIFICATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_SIGNATURE_VERIFICATION"
+      }
+    },
+    {
+      "id": "R13-S158",
+      "name": "AGGREGATOR_REPLAY_DEDUP",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_REPLAY_DEDUP"
+      }
+    },
+    {
+      "id": "R13-S159",
+      "name": "AGGREGATOR_SEQUENCE_MONOTONIC",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_SEQUENCE_MONOTONIC"
+      }
+    },
+    {
+      "id": "R13-S160",
+      "name": "AGGREGATOR_UNIQUE_PSEUDONYM_COUNT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_UNIQUE_PSEUDONYM_COUNT"
+      }
+    },
+    {
+      "id": "R13-S161",
+      "name": "AGGREGATOR_LATE_EVIDENCE_BUCKET",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_LATE_EVIDENCE_BUCKET"
+      }
+    },
+    {
+      "id": "R13-S162",
+      "name": "AGGREGATOR_MISSING_EVIDENCE_NOT_SUCCESS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_MISSING_EVIDENCE_NOT_SUCCESS"
+      }
+    },
+    {
+      "id": "R13-S163",
+      "name": "AGGREGATOR_EXACT_DECISION_VIEW",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_EXACT_DECISION_VIEW"
+      }
+    },
+    {
+      "id": "R13-S164",
+      "name": "AGGREGATOR_PUBLIC_PRIVACY_VIEW",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATOR_PUBLIC_PRIVACY_VIEW"
+      }
+    },
+    {
+      "id": "R13-S165",
+      "name": "AGGREGATE_CHILD_DIGESTS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_CHILD_DIGESTS"
+      }
+    },
+    {
+      "id": "R13-S166",
+      "name": "AGGREGATE_SELF_HASH",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_SELF_HASH"
+      }
+    },
+    {
+      "id": "R13-S167",
+      "name": "AGGREGATE_APPEND_ONLY_LEDGER",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_APPEND_ONLY_LEDGER"
+      }
+    },
+    {
+      "id": "R13-S168",
+      "name": "AGGREGATE_DECISION_INPUT_FREEZE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "AGGREGATE_DECISION_INPUT_FREEZE"
+      }
+    },
+    {
+      "id": "R13-S169",
+      "name": "CRITICAL_BREAKER_TABLE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CRITICAL_BREAKER_TABLE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S170",
+      "name": "NONCRITICAL_THRESHOLD_TABLE_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NONCRITICAL_THRESHOLD_TABLE_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S171",
+      "name": "WILSON_UPPER_BOUND_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "WILSON_UPPER_BOUND_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S172",
+      "name": "BASELINE_COMPARISON_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "BASELINE_COMPARISON_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S173",
+      "name": "ZERO_CRITICAL_EVENT_POLICY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ZERO_CRITICAL_EVENT_POLICY"
+      }
+    },
+    {
+      "id": "R13-S174",
+      "name": "PAUSE_STOPS_NEW_LEASES",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PAUSE_STOPS_NEW_LEASES"
+      }
+    },
+    {
+      "id": "R13-S175",
+      "name": "PAUSE_REVOKES_UNCONSUMED_LEASES",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "PAUSE_REVOKES_UNCONSUMED_LEASES"
+      }
+    },
+    {
+      "id": "R13-S176",
+      "name": "CONTAINMENT_DIRECTIVE_SIGNED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_SIGNED"
+      }
+    },
+    {
+      "id": "R13-S177",
+      "name": "CONTAINMENT_DIRECTIVE_RELEASE_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_RELEASE_BOUND"
+      }
+    },
+    {
+      "id": "R13-S178",
+      "name": "CONTAINMENT_DIRECTIVE_GENERATION_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_GENERATION_BOUND"
+      }
+    },
+    {
+      "id": "R13-S179",
+      "name": "CONTAINMENT_DIRECTIVE_EXPIRY_BOUND",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_DIRECTIVE_EXPIRY_BOUND"
+      }
+    },
+    {
+      "id": "R13-S180",
+      "name": "CONTAINMENT_CANNOT_MUTATE_POINTER",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_CANNOT_MUTATE_POINTER"
+      }
+    },
+    {
+      "id": "R13-S181",
+      "name": "CONTAINMENT_CAN_REQUEST_R11_QUARANTINE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "CONTAINMENT_CAN_REQUEST_R11_QUARANTINE"
+      }
+    },
+    {
+      "id": "R13-S182",
+      "name": "ROLLBACK_RECOMMENDATION_PER_INSTALLATION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_PER_INSTALLATION"
+      }
+    },
+    {
+      "id": "R13-S183",
+      "name": "ROLLBACK_RECOMMENDATION_R10_ONLY",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_R10_ONLY"
+      }
+    },
+    {
+      "id": "R13-S184",
+      "name": "ROLLBACK_RECOMMENDATION_EXPECTED_CAS",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_EXPECTED_CAS"
+      }
+    },
+    {
+      "id": "R13-S185",
+      "name": "NO_ROLLBACK_TARGET_INVENTION",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_ROLLBACK_TARGET_INVENTION"
+      }
+    },
+    {
+      "id": "R13-S186",
+      "name": "NO_REMOTE_SILENT_ROLLBACK",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "NO_REMOTE_SILENT_ROLLBACK"
+      }
+    },
+    {
+      "id": "R13-S187",
+      "name": "SMALL_CELL_SUPPRESSION_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SMALL_CELL_SUPPRESSION_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S188",
+      "name": "K_ANONYMITY_MINIMUM_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "K_ANONYMITY_MINIMUM_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S189",
+      "name": "SOURCE_NEGATIVE_CONTROLS_DEFINED",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_NEGATIVE_CONTROLS_DEFINED"
+      }
+    },
+    {
+      "id": "R13-S190",
+      "name": "SOURCE_FINALIZER_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_FINALIZER_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S191",
+      "name": "SOURCE_GATE_REPORT_PRESENT",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "SOURCE_GATE_REPORT_PRESENT"
+      }
+    },
+    {
+      "id": "R13-S192",
+      "name": "FLEET_GATES_PENDING_IN_SOURCE_MODE",
+      "status": "PASS",
+      "evidence": {
+        "requirement": "FLEET_GATES_PENDING_IN_SOURCE_MODE"
+      }
+    }
+  ],
+  "fleetGates": [
+    {
+      "id": "R13-F001",
+      "requirement": "R10_TARGET_RELEASE_RECEIPT_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F002",
+      "requirement": "R10_TARGET_RELEASE_RECEIPT_SHA256_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F003",
+      "requirement": "R10_TARGET_RELEASE_STATE_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F004",
+      "requirement": "R10_TARGET_SOURCE_PASS_129",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F005",
+      "requirement": "R10_TARGET_RELEASE_PASS_202",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F006",
+      "requirement": "R10_TARGET_PENDING_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F007",
+      "requirement": "R10_TARGET_FAIL_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F008",
+      "requirement": "R9_TARGET_PHYSICAL_RECEIPT_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F009",
+      "requirement": "R9_TARGET_PHYSICAL_PASS_187",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F010",
+      "requirement": "R12_SOURCE_RECEIPT_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F011",
+      "requirement": "R12_SOURCE_PASS_168",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F012",
+      "requirement": "R12_INSTALLED_CAPABILITY_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F013",
+      "requirement": "R11_SOURCE_RECEIPT_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F014",
+      "requirement": "R11_SOURCE_PASS_148",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F015",
+      "requirement": "FLEET_ENROLLMENT_REGISTRY_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F016",
+      "requirement": "FLEET_ENROLLMENT_REGISTRY_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F017",
+      "requirement": "FLEET_ENROLLMENT_REGISTRY_SELF_HASH_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F018",
+      "requirement": "FLEET_ENROLLED_COUNT_NONZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F019",
+      "requirement": "FLEET_DUPLICATE_ENROLLMENT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F020",
+      "requirement": "FLEET_HARDWARE_SERIAL_FIELDS_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F021",
+      "requirement": "FLEET_USER_IDENTITY_FIELDS_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F022",
+      "requirement": "SOURCE_RELEASE_SET_NONEMPTY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F023",
+      "requirement": "SOURCE_RELEASES_ALL_R10_QUALIFIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F024",
+      "requirement": "TARGET_RELEASE_DISTINCT_FROM_SOURCE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F025",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F026",
+      "requirement": "ROLLOUT_OPERATOR_APPROVAL_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F027",
+      "requirement": "ROLLOUT_PLAN_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F028",
+      "requirement": "ROLLOUT_PLAN_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F029",
+      "requirement": "ROLLOUT_PLAN_GENERATION_INITIALIZED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F030",
+      "requirement": "ROLLOUT_LEDGER_GENESIS_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F031",
+      "requirement": "ROLLOUT_CHILD_DIGESTS_COMPLETE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F032",
+      "requirement": "FLEET_PREDECESSOR_ADMISSION_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F033",
+      "requirement": "ROLLOUT_PLAN_ID_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F034",
+      "requirement": "ROLLOUT_PLAN_DIGEST_RECOMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F035",
+      "requirement": "ROLLOUT_PLAN_GENERATION_MATCH",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F036",
+      "requirement": "ROLLOUT_PLAN_RAW_HASH_MATCH",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F037",
+      "requirement": "ROLLOUT_TARGET_BUILD_MATCH_R10",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F038",
+      "requirement": "ROLLOUT_TARGET_PACKAGE_MATCH_R10",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F039",
+      "requirement": "ROLLOUT_SOURCE_SET_MATCH_FLEET",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F040",
+      "requirement": "ROLLOUT_RING_ORDER_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F041",
+      "requirement": "LAB_RING_TARGET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F042",
+      "requirement": "CANARY_RING_TARGET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F043",
+      "requirement": "EARLY_RING_TARGET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F044",
+      "requirement": "BROAD_RING_TARGET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F045",
+      "requirement": "MAJORITY_RING_TARGET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F046",
+      "requirement": "FULL_RING_TARGET_10000_BPS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F047",
+      "requirement": "RING_TARGETS_STRICTLY_MONOTONIC",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F048",
+      "requirement": "RING_MIN_COUNTS_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F049",
+      "requirement": "RING_MIN_SESSIONS_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F050",
+      "requirement": "RING_MIN_DWELL_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F051",
+      "requirement": "RING_COVERAGE_THRESHOLDS_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F052",
+      "requirement": "SMALL_FLEET_PROFILE_EXPLICIT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F053",
+      "requirement": "LARGE_FLEET_PROFILE_EXPLICIT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F054",
+      "requirement": "COHORT_BUCKET_ASSIGNMENTS_COMPLETE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F055",
+      "requirement": "COHORT_BUCKET_RANGE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F056",
+      "requirement": "COHORT_ASSIGNMENT_HMAC_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F057",
+      "requirement": "COHORT_ASSIGNMENT_STABLE_WITHIN_ROLLOUT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F058",
+      "requirement": "COHORT_ASSIGNMENT_CHANGES_ACROSS_ROLLOUTS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F059",
+      "requirement": "ROLLOUT_PSEUDONYMS_UNIQUE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F060",
+      "requirement": "ROLLOUT_PSEUDONYM_RAW_ID_ABSENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F061",
+      "requirement": "LAB_RING_OPERATOR_LIST_EXPLICIT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F062",
+      "requirement": "LAB_RING_NO_RANDOM_USER_SELECTION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F063",
+      "requirement": "CANARY_RING_BASIS_POINT_SELECTION_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F064",
+      "requirement": "EARLY_RING_SUPERSET_CANARY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F065",
+      "requirement": "BROAD_RING_SUPERSET_EARLY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F066",
+      "requirement": "MAJORITY_RING_SUPERSET_BROAD",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F067",
+      "requirement": "FULL_RING_COVERS_ALL_ELIGIBLE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F068",
+      "requirement": "RING_ADMISSION_GENERATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F069",
+      "requirement": "RING_STATE_LAB_ACTIVE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F070",
+      "requirement": "UNADMITTED_INSTALLATIONS_RETAIN_SOURCE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F071",
+      "requirement": "RING_ADMISSION_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F072",
+      "requirement": "ROLLOUT_PLAN_ADMISSION_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F073",
+      "requirement": "LEASE_BATCH_GENERATION_MATCH_PLAN",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F074",
+      "requirement": "LEASE_BATCH_RING_MATCH_ACTIVE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F075",
+      "requirement": "LEASE_BATCH_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F076",
+      "requirement": "LEASE_BATCH_COUNT_MATCH_RING_DELTA",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F077",
+      "requirement": "LEASE_INSTALLATION_PSEUDONYMS_UNIQUE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F078",
+      "requirement": "LEASE_COHORT_BUCKETS_MATCH_ASSIGNMENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F079",
+      "requirement": "LEASE_TARGET_BUILD_MATCH_PLAN",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F080",
+      "requirement": "LEASE_TARGET_PACKAGE_MATCH_PLAN",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F081",
+      "requirement": "LEASE_SOURCE_BUILD_MATCH_LOCAL_POINTER",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F082",
+      "requirement": "LEASE_LOCAL_R10_GENERATION_MATCH",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F083",
+      "requirement": "LEASE_LOCAL_R10_RAW_HASH_MATCH",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F084",
+      "requirement": "LEASE_NOT_BEFORE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F085",
+      "requirement": "LEASE_EXPIRY_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F086",
+      "requirement": "LEASE_SINGLE_USE_NONCES_UNIQUE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F087",
+      "requirement": "LEASE_REVOKED_COUNT_ZERO_AT_ISSUE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F088",
+      "requirement": "LEASE_REPLAY_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F089",
+      "requirement": "LEASE_WRONG_INSTALLATION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F090",
+      "requirement": "LEASE_WRONG_RING_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F091",
+      "requirement": "LEASE_WRONG_PACKAGE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F092",
+      "requirement": "LEASE_STALE_POINTER_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F093",
+      "requirement": "LOCAL_R10_ADMISSION_STARTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F094",
+      "requirement": "LOCAL_R10_CAS_INPUTS_MATCH_LEASE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F095",
+      "requirement": "LOCAL_R10_PROMOTION_RECEIPT_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F096",
+      "requirement": "LOCAL_R10_PROMOTION_STATE_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F097",
+      "requirement": "LOCAL_R10_POINTER_GENERATION_INCREMENTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F098",
+      "requirement": "LOCAL_R10_ACTIVE_PACKAGE_MATCH_TARGET",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F099",
+      "requirement": "LOCAL_R10_PRODUCTION_POINTER_MUTATED_LOCALLY_ONLY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F100",
+      "requirement": "R13_REMOTE_POINTER_MUTATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F101",
+      "requirement": "R12_UPDATE_TRANSACTION_CREATED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F102",
+      "requirement": "R12_TARGET_PACKAGE_STAGED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F103",
+      "requirement": "R12_CLOSURE_VERIFIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F104",
+      "requirement": "R12_STAGED_CANARY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F105",
+      "requirement": "R12_LOCAL_ACTIVATION_POINTER_CAS_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F106",
+      "requirement": "R12_CROSS_GENERATION_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F107",
+      "requirement": "R12_INTERRUPTED_RECOVERY_STATUS_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F108",
+      "requirement": "R12_PRODUCTION_POINTER_MUTATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F109",
+      "requirement": "R11_INSTALLED_ATTESTATION_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F110",
+      "requirement": "R11_STARTUP_CANARY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F111",
+      "requirement": "R11_RUNTIME_TOKEN_ISSUED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F112",
+      "requirement": "R11_QUARANTINED_FALSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F113",
+      "requirement": "R11_PACKAGE_MATCH_TARGET",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F114",
+      "requirement": "R11_DEVICE_EPOCH_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F115",
+      "requirement": "R11_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F116",
+      "requirement": "R11_FAULT_SENTINEL_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F117",
+      "requirement": "R11_CPU_FALLBACK_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F118",
+      "requirement": "LOCAL_CHAIN_RECEIPT_DIGEST_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F119",
+      "requirement": "LEASE_CONSUMED_ONCE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F120",
+      "requirement": "LEASE_CONSUMPTION_LEDGER_APPEND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F121",
+      "requirement": "LEASE_EXPIRED_UNUSED_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F122",
+      "requirement": "FAILED_LOCAL_CHAIN_NOT_COUNTED_SUCCESS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F123",
+      "requirement": "UNADMITTED_SOURCE_RUNTIME_REMAINS_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F124",
+      "requirement": "LOCAL_CHAIN_BATCH_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F125",
+      "requirement": "EVIDENCE_WINDOW_ID_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F126",
+      "requirement": "EVIDENCE_WINDOW_START_COARSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F127",
+      "requirement": "EVIDENCE_WINDOW_END_COARSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F128",
+      "requirement": "EVIDENCE_RELEASE_ID_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F129",
+      "requirement": "EVIDENCE_RING_ID_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F130",
+      "requirement": "EVIDENCE_PLAN_DIGEST_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F131",
+      "requirement": "EVIDENCE_INSTALLATION_PSEUDONYM_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F132",
+      "requirement": "EVIDENCE_RAW_ENROLLMENT_ID_ABSENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F133",
+      "requirement": "EVIDENCE_SEQUENCE_MONOTONIC",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F134",
+      "requirement": "EVIDENCE_NONCE_UNIQUE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F135",
+      "requirement": "EVIDENCE_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F136",
+      "requirement": "EVIDENCE_SELF_HASH_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F137",
+      "requirement": "EVIDENCE_SCHEMA_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F138",
+      "requirement": "EVIDENCE_ALLOWLIST_ONLY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F139",
+      "requirement": "EVIDENCE_USER_IMAGE_BYTES_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F140",
+      "requirement": "EVIDENCE_PIXEL_HASH_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F141",
+      "requirement": "EVIDENCE_FILE_NAME_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F142",
+      "requirement": "EVIDENCE_USER_PATH_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F143",
+      "requirement": "EVIDENCE_EXIF_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F144",
+      "requirement": "EVIDENCE_ACCOUNT_ID_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F145",
+      "requirement": "EVIDENCE_PRECISE_LOCATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F146",
+      "requirement": "EVIDENCE_HARDWARE_SERIAL_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F147",
+      "requirement": "EVIDENCE_ADAPTER_FAMILY_BUCKET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F148",
+      "requirement": "EVIDENCE_DRIVER_BUCKET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F149",
+      "requirement": "EVIDENCE_TIME_BUCKET_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F150",
+      "requirement": "EVIDENCE_R10_PROMOTION_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F151",
+      "requirement": "EVIDENCE_R12_ACTIVATION_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F152",
+      "requirement": "EVIDENCE_R11_ADMISSION_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F153",
+      "requirement": "EVIDENCE_STARTUP_CANARY_FAILURE_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F154",
+      "requirement": "EVIDENCE_VALIDATION_NONZERO_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F155",
+      "requirement": "EVIDENCE_ARTIFACT_DRIFT_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F156",
+      "requirement": "EVIDENCE_CROSS_GENERATION_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F157",
+      "requirement": "EVIDENCE_DEVICE_LOSS_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F158",
+      "requirement": "EVIDENCE_RENDERER_CRASH_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F159",
+      "requirement": "EVIDENCE_GPU_CRASH_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F160",
+      "requirement": "EVIDENCE_QUARANTINE_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F161",
+      "requirement": "EVIDENCE_SESSION_COUNT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F162",
+      "requirement": "EVIDENCE_EXPOSURE_DURATION_BUCKET",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F163",
+      "requirement": "AGGREGATOR_DUPLICATE_ENVELOPE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F164",
+      "requirement": "AGGREGATOR_REPLAY_ENVELOPE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F165",
+      "requirement": "AGGREGATOR_STALE_SEQUENCE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F166",
+      "requirement": "AGGREGATOR_WRONG_RELEASE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F167",
+      "requirement": "AGGREGATOR_WRONG_RING_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F168",
+      "requirement": "AGGREGATOR_LATE_EVIDENCE_SEPARATE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F169",
+      "requirement": "AGGREGATOR_MISSING_EVIDENCE_EXPLICIT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F170",
+      "requirement": "AGGREGATOR_INPUT_SET_DIGEST_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F171",
+      "requirement": "AGGREGATOR_EXACT_VIEW_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F172",
+      "requirement": "EVIDENCE_WINDOW_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F173",
+      "requirement": "ACTIVE_RING_ID_MATCH_PLAN",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F174",
+      "requirement": "ACTIVE_RING_TARGET_COUNT_REACHED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F175",
+      "requirement": "ACTIVE_RING_MIN_INSTALLATIONS_REACHED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F176",
+      "requirement": "ACTIVE_RING_MIN_SESSIONS_REACHED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F177",
+      "requirement": "ACTIVE_RING_MIN_DWELL_REACHED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F178",
+      "requirement": "ACTIVE_RING_EVIDENCE_COVERAGE_REACHED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F179",
+      "requirement": "ACTIVE_RING_UNKNOWN_INSTALLATIONS_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F180",
+      "requirement": "ACTIVE_RING_CRITICAL_BREAKER_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F181",
+      "requirement": "ARTIFACT_DRIFT_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F182",
+      "requirement": "PACKAGE_DIGEST_MISMATCH_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F183",
+      "requirement": "CROSS_GENERATION_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F184",
+      "requirement": "VALIDATION_NONZERO_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F185",
+      "requirement": "FAULT_SENTINEL_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F186",
+      "requirement": "NONFINITE_OUTPUT_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F187",
+      "requirement": "STARTUP_CANARY_FAILURE_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F188",
+      "requirement": "R12_RECOVERY_AMBIGUOUS_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F189",
+      "requirement": "R11_SILENT_FALLBACK_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F190",
+      "requirement": "UNAUTHORIZED_POINTER_MUTATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F191",
+      "requirement": "LEASE_REPLAY_COUNT_ZERO_ADVANCEMENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F192",
+      "requirement": "CONTAINMENT_DIRECTIVE_FOR_OTHER_RELEASE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F193",
+      "requirement": "ACTIVATION_FAILURE_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F194",
+      "requirement": "R11_ADMISSION_FAILURE_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F195",
+      "requirement": "RENDERER_CRASH_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F196",
+      "requirement": "GPU_CRASH_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F197",
+      "requirement": "DEVICE_LOSS_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F198",
+      "requirement": "QUARANTINE_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F199",
+      "requirement": "ACTIVATION_FAILURE_WILSON_UPPER_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F200",
+      "requirement": "R11_FAILURE_WILSON_UPPER_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F201",
+      "requirement": "RENDERER_CRASH_WILSON_UPPER_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F202",
+      "requirement": "GPU_CRASH_WILSON_UPPER_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F203",
+      "requirement": "DEVICE_LOSS_WILSON_UPPER_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F204",
+      "requirement": "QUARANTINE_WILSON_UPPER_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F205",
+      "requirement": "SOURCE_BASELINE_WINDOW_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F206",
+      "requirement": "SOURCE_BASELINE_DIGEST_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F207",
+      "requirement": "BASELINE_CRASH_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F208",
+      "requirement": "BASELINE_DEVICE_LOSS_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F209",
+      "requirement": "BASELINE_QUARANTINE_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F210",
+      "requirement": "TARGET_CRASH_NOT_ABOVE_POLICY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F211",
+      "requirement": "TARGET_DEVICE_LOSS_NOT_ABOVE_POLICY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F212",
+      "requirement": "TARGET_QUARANTINE_NOT_ABOVE_POLICY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F213",
+      "requirement": "LAB_ZERO_TOLERANCE_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F214",
+      "requirement": "CANARY_ZERO_CRITICAL_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F215",
+      "requirement": "EARLY_STATISTICAL_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F216",
+      "requirement": "BROAD_STATISTICAL_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F217",
+      "requirement": "MAJORITY_STATISTICAL_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F218",
+      "requirement": "FULL_STATISTICAL_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F219",
+      "requirement": "EVIDENCE_COVERAGE_NOT_INFERRED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F220",
+      "requirement": "MISSING_EVIDENCE_NOT_DROPPED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F221",
+      "requirement": "LATE_EVIDENCE_NOT_BACKDATED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F222",
+      "requirement": "RING_DECISION_INPUT_SET_FROZEN",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F223",
+      "requirement": "RING_ADVANCE_OPERATOR_APPROVAL_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F224",
+      "requirement": "RING_ADVANCEMENT_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F225",
+      "requirement": "DECISION_AGGREGATE_EXACT_COUNTS_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F226",
+      "requirement": "DECISION_AGGREGATE_SIGNED_INPUT_ONLY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F227",
+      "requirement": "DECISION_AGGREGATE_NO_RANDOM_NOISE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F228",
+      "requirement": "PUBLIC_AGGREGATE_SEPARATE_FROM_DECISION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F229",
+      "requirement": "PUBLIC_K_ANONYMITY_MINIMUM_5",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F230",
+      "requirement": "PUBLIC_SMALL_CELL_SUPPRESSION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F231",
+      "requirement": "PUBLIC_RING_CELL_SUPPRESSION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F232",
+      "requirement": "PUBLIC_ADAPTER_CELL_SUPPRESSION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F233",
+      "requirement": "PUBLIC_DRIVER_CELL_SUPPRESSION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F234",
+      "requirement": "PUBLIC_TIME_BUCKET_COARSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F235",
+      "requirement": "PUBLIC_NO_INSTALLATION_PSEUDONYMS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F236",
+      "requirement": "PUBLIC_NO_RAW_EVIDENCE_ENVELOPES",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F237",
+      "requirement": "PUBLIC_NO_INSTALLATION_SEQUENCE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F238",
+      "requirement": "PUBLIC_NO_EXACT_EVENT_TIMESTAMPS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F239",
+      "requirement": "PUBLIC_NO_USER_CONTENT_FIELDS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F240",
+      "requirement": "PUBLIC_NO_HARDWARE_SERIAL_FIELDS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F241",
+      "requirement": "PUBLIC_NO_PRECISE_DRIVER_STRING",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F242",
+      "requirement": "PUBLIC_NO_PRECISE_GPU_NAME",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F243",
+      "requirement": "PUBLIC_TOTALS_CONSISTENT_AFTER_SUPPRESSION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F244",
+      "requirement": "SUPPRESSION_MAP_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F245",
+      "requirement": "SUPPRESSED_CELLS_NOT_ZERO_FILLED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F246",
+      "requirement": "OPT_IN_ENROLLMENT_RECEIPT_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F247",
+      "requirement": "LOCAL_ONLY_INSTALLATIONS_EXCLUDED_EXPLICITLY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F248",
+      "requirement": "LOCAL_ONLY_NOT_COUNTED_FAILURE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F249",
+      "requirement": "LOCAL_ONLY_NOT_COUNTED_SUCCESS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F250",
+      "requirement": "DATA_RETENTION_TTL_APPLIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F251",
+      "requirement": "EXPIRED_RAW_ENVELOPES_DELETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F252",
+      "requirement": "AGGREGATE_RECEIPTS_RETAINED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F253",
+      "requirement": "ENROLLMENT_REVOCATION_APPLIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F254",
+      "requirement": "ROLLOUT_PSEUDONYM_ROTATED_NEXT_ROLLOUT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F255",
+      "requirement": "EVIDENCE_KEY_ROTATION_APPLIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F256",
+      "requirement": "COMPROMISED_KEY_REVOKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F257",
+      "requirement": "REVOKED_KEY_EVIDENCE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F258",
+      "requirement": "AGGREGATOR_ACCESS_LOG_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F259",
+      "requirement": "AGGREGATOR_EXPORT_LOG_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F260",
+      "requirement": "PRIVACY_POLICY_DIGEST_MATCH_PLAN",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F261",
+      "requirement": "PRIVACY_POLICY_CHANGE_REQUIRES_NEW_GENERATION",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F262",
+      "requirement": "PRIVACY_NEGATIVE_FIELD_INJECTION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F263",
+      "requirement": "PRIVACY_SMALL_CELL_NEGATIVE_CONTROL_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F264",
+      "requirement": "PRIVACY_PSEUDONYM_LINKAGE_TEST_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F265",
+      "requirement": "PUBLIC_AGGREGATE_SELF_HASH_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F266",
+      "requirement": "PUBLIC_AGGREGATE_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F267",
+      "requirement": "PRIVACY_AUDIT_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F268",
+      "requirement": "PRIVACY_PRESERVING_AGGREGATE_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F269",
+      "requirement": "BREAKER_EVENT_DETECTED_WITHIN_WINDOW",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F270",
+      "requirement": "BREAKER_DECISION_SEQUENCE_MONOTONIC",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F271",
+      "requirement": "ROLLOUT_PAUSE_STATE_ENTERED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F272",
+      "requirement": "NEW_LEASE_ISSUANCE_STOPPED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F273",
+      "requirement": "UNCONSUMED_LEASES_REVOKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F274",
+      "requirement": "CONSUMED_LEASES_AUDITED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F275",
+      "requirement": "ACTIVE_RING_NOT_ADVANCED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F276",
+      "requirement": "LATER_RINGS_NOT_OPENED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F277",
+      "requirement": "CONTAINMENT_DIRECTIVE_CREATED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F278",
+      "requirement": "CONTAINMENT_DIRECTIVE_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F279",
+      "requirement": "CONTAINMENT_DIRECTIVE_PLAN_DIGEST_MATCH",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F280",
+      "requirement": "CONTAINMENT_DIRECTIVE_RELEASE_MATCH",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F281",
+      "requirement": "CONTAINMENT_DIRECTIVE_GENERATION_INCREMENTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F282",
+      "requirement": "CONTAINMENT_DIRECTIVE_EXPIRY_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F283",
+      "requirement": "CONTAINMENT_DIRECTIVE_REPLAY_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F284",
+      "requirement": "CONTAINMENT_DIRECTIVE_OLDER_GENERATION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F285",
+      "requirement": "CONTAINMENT_DIRECTIVE_R11_QUARANTINE_REQUEST_EXPLICIT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F286",
+      "requirement": "R11_REMOTE_DIRECTIVE_VALIDATION_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F287",
+      "requirement": "R11_TARGET_RELEASE_MATCH_DIRECTIVE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F288",
+      "requirement": "R11_NEW_JOB_ADMISSION_BLOCKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F289",
+      "requirement": "R11_EXISTING_RESULT_INVALIDATION_POLICY_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F290",
+      "requirement": "R11_USER_CONTENT_NOT_UPLOADED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F291",
+      "requirement": "ROLLBACK_RECOMMENDATION_BATCH_CREATED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F292",
+      "requirement": "ROLLBACK_RECOMMENDATION_TARGETS_ONLY_AFFECTED_RELEASE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F293",
+      "requirement": "ROLLBACK_RECOMMENDATION_LOCAL_R10_GENERATION_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F294",
+      "requirement": "ROLLBACK_RECOMMENDATION_LOCAL_R10_HASH_BOUND",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F295",
+      "requirement": "ROLLBACK_RECOMMENDATION_PREVIOUS_PACKAGE_QUALIFIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F296",
+      "requirement": "ROLLBACK_RECOMMENDATION_R12_PREVIOUS_RECOVERABLE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F297",
+      "requirement": "ROLLBACK_RECOMMENDATION_OPERATOR_POLICY_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F298",
+      "requirement": "ROLLBACK_RECOMMENDATION_POINTER_MUTATION_FALSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F299",
+      "requirement": "REMOTE_SILENT_ROLLBACK_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F300",
+      "requirement": "R13_PRODUCTION_POINTER_WRITE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F301",
+      "requirement": "R13_LOCAL_ACTIVATION_POINTER_WRITE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F302",
+      "requirement": "LOCAL_R10_ROLLBACK_RECEIPTS_COLLECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F303",
+      "requirement": "LOCAL_R12_RECOVERY_RECEIPTS_COLLECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F304",
+      "requirement": "LOCAL_R11_PREVIOUS_ADMISSION_RECEIPTS_COLLECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F305",
+      "requirement": "ROLLBACK_FAILED_INSTALLATIONS_EXPLICIT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F306",
+      "requirement": "ROLLBACK_UNKNOWN_INSTALLATIONS_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F307",
+      "requirement": "BAD_RELEASE_FURTHER_DOWNLOAD_BLOCKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F308",
+      "requirement": "BAD_RELEASE_CACHE_PIN_BLOCKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F309",
+      "requirement": "BAD_RELEASE_PLAN_STATUS_CONTAINED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F310",
+      "requirement": "BAD_RELEASE_REISSUE_REQUIRES_NEW_BUILD",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F311",
+      "requirement": "BAD_RELEASE_REISSUE_REQUIRES_NEW_PACKAGE_ID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F312",
+      "requirement": "BAD_RELEASE_REISSUE_REQUIRES_NEW_R10_RECEIPT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F313",
+      "requirement": "CONTAINMENT_INPUT_SET_DIGEST_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F314",
+      "requirement": "CONTAINMENT_LEDGER_APPEND_ONLY",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F315",
+      "requirement": "CONTAINMENT_OPERATOR_ACK_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F316",
+      "requirement": "CONTAINMENT_PUBLIC_NOTICE_PRIVACY_FILTERED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F317",
+      "requirement": "CONTAINMENT_RECOVERY_RATE_COMPUTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F318",
+      "requirement": "CONTAINMENT_RECOVERY_THRESHOLD_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F319",
+      "requirement": "CONTAINMENT_FINAL_STATE_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F320",
+      "requirement": "BAD_RELEASE_CONTAINMENT_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F321",
+      "requirement": "ALL_RING_DECISION_RECEIPTS_PRESENT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F322",
+      "requirement": "LAB_RING_COMPLETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F323",
+      "requirement": "CANARY_RING_COMPLETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F324",
+      "requirement": "EARLY_RING_COMPLETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F325",
+      "requirement": "BROAD_RING_COMPLETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F326",
+      "requirement": "MAJORITY_RING_COMPLETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F327",
+      "requirement": "FULL_RING_COMPLETED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F328",
+      "requirement": "RING_ORDER_NO_SKIP",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F329",
+      "requirement": "RING_GENERATIONS_MONOTONIC",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F330",
+      "requirement": "ROLLOUT_PLAN_NOT_MUTATED_IN_PLACE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F331",
+      "requirement": "FINAL_TARGET_ELIGIBLE_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F332",
+      "requirement": "FINAL_TARGET_ADMITTED_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F333",
+      "requirement": "FINAL_SOURCE_REMAINING_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F334",
+      "requirement": "FINAL_EXPLICIT_EXCLUSION_COUNT_RECORDED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F335",
+      "requirement": "FINAL_UNKNOWN_COUNT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F336",
+      "requirement": "FINAL_DUPLICATE_INSTALLATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F337",
+      "requirement": "FINAL_CRITICAL_BREAKER_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F338",
+      "requirement": "FINAL_ARTIFACT_DRIFT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F339",
+      "requirement": "FINAL_CROSS_GENERATION_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F340",
+      "requirement": "FINAL_VALIDATION_NONZERO_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F341",
+      "requirement": "FINAL_CANARY_FAILURE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F342",
+      "requirement": "FINAL_RECOVERY_AMBIGUOUS_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F343",
+      "requirement": "FINAL_UNAUTHORIZED_POINTER_WRITE_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F344",
+      "requirement": "FINAL_REMOTE_SILENT_ROLLBACK_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F345",
+      "requirement": "FINAL_EVIDENCE_COVERAGE_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F346",
+      "requirement": "FINAL_CRASH_RATE_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F347",
+      "requirement": "FINAL_DEVICE_LOSS_RATE_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F348",
+      "requirement": "FINAL_QUARANTINE_RATE_POLICY_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F349",
+      "requirement": "FINAL_PRIVACY_AUDIT_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F350",
+      "requirement": "FINAL_RAW_USER_CONTENT_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F351",
+      "requirement": "FINAL_PUBLIC_SMALL_CELL_SUPPRESSION_PASS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F352",
+      "requirement": "FINAL_RETENTION_POLICY_APPLIED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F353",
+      "requirement": "FINAL_ROLLOUT_LEDGER_COMPLETE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F354",
+      "requirement": "FINAL_CHILD_ARTIFACT_DIGESTS_COMPLETE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F355",
+      "requirement": "FINAL_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F356",
+      "requirement": "FINAL_RECEIPT_SIGNATURE_VALID",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F357",
+      "requirement": "SOURCE_PASS_192",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F358",
+      "requirement": "FLEET_PASS_408",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F359",
+      "requirement": "PENDING_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F360",
+      "requirement": "DEFERRED_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F361",
+      "requirement": "SKIPPED_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F362",
+      "requirement": "FAIL_ZERO",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F363",
+      "requirement": "PRODUCTION_POINTER_MUTATED_BY_R13_FALSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F364",
+      "requirement": "LOCAL_POINTER_MUTATED_BY_R13_FALSE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F365",
+      "requirement": "ROLLBACK_RECOMMENDATION_AUTHORITY_R10",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F366",
+      "requirement": "FINAL_STATE_EXACT",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F367",
+      "requirement": "NEXT_AUTHORITY_DECLARED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F368",
+      "requirement": "FLEET_ROLLOUT_FINAL_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F369",
+      "requirement": "NEGATIVE_UNSIGNED_PLAN_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F370",
+      "requirement": "NEGATIVE_STALE_PLAN_GENERATION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F371",
+      "requirement": "NEGATIVE_PLAN_HASH_MISMATCH_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F372",
+      "requirement": "NEGATIVE_RING_SKIP_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F373",
+      "requirement": "NEGATIVE_RING_REGRESSION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F374",
+      "requirement": "NEGATIVE_UNSIGNED_LEASE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F375",
+      "requirement": "NEGATIVE_LEASE_REPLAY_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F376",
+      "requirement": "NEGATIVE_LEASE_WRONG_INSTALLATION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F377",
+      "requirement": "NEGATIVE_LEASE_WRONG_PACKAGE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F378",
+      "requirement": "NEGATIVE_LEASE_STALE_R10_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F379",
+      "requirement": "NEGATIVE_EXPIRED_LEASE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F380",
+      "requirement": "NEGATIVE_DUPLICATE_PSEUDONYM_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F381",
+      "requirement": "NEGATIVE_EVIDENCE_REPLAY_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F382",
+      "requirement": "NEGATIVE_EVIDENCE_SEQUENCE_ROLLBACK_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F383",
+      "requirement": "NEGATIVE_EVIDENCE_WRONG_RING_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F384",
+      "requirement": "NEGATIVE_EVIDENCE_WRONG_RELEASE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F385",
+      "requirement": "NEGATIVE_EVIDENCE_USER_IMAGE_FIELD_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F386",
+      "requirement": "NEGATIVE_EVIDENCE_PIXEL_HASH_FIELD_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F387",
+      "requirement": "NEGATIVE_EVIDENCE_FILE_PATH_FIELD_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F388",
+      "requirement": "NEGATIVE_EVIDENCE_HARDWARE_SERIAL_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F389",
+      "requirement": "NEGATIVE_MISSING_EVIDENCE_NOT_SUCCESS",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F390",
+      "requirement": "NEGATIVE_LATE_EVIDENCE_NOT_BACKDATED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F391",
+      "requirement": "NEGATIVE_CRITICAL_BREAKER_BLOCKS_ADVANCE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F392",
+      "requirement": "NEGATIVE_VALIDATION_NONZERO_CONTAINS_RELEASE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F393",
+      "requirement": "NEGATIVE_ARTIFACT_DRIFT_CONTAINS_RELEASE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F394",
+      "requirement": "NEGATIVE_CROSS_GENERATION_CONTAINS_RELEASE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F395",
+      "requirement": "NEGATIVE_R12_RECOVERY_AMBIGUOUS_CONTAINS_RELEASE",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F396",
+      "requirement": "NEGATIVE_PUBLIC_SMALL_CELL_DISCLOSURE_BLOCKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F397",
+      "requirement": "NEGATIVE_SUPPRESSED_CELL_ZERO_FILL_BLOCKED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F398",
+      "requirement": "NEGATIVE_REVOKED_EVIDENCE_KEY_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F399",
+      "requirement": "NEGATIVE_OLD_CONTAINMENT_DIRECTIVE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F400",
+      "requirement": "NEGATIVE_CONTAINMENT_WRONG_RELEASE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F401",
+      "requirement": "NEGATIVE_R13_PRODUCTION_POINTER_WRITE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F402",
+      "requirement": "NEGATIVE_R13_LOCAL_POINTER_WRITE_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F403",
+      "requirement": "NEGATIVE_REMOTE_SILENT_ROLLBACK_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F404",
+      "requirement": "NEGATIVE_UNQUALIFIED_ROLLBACK_TARGET_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F405",
+      "requirement": "NEGATIVE_SPLIT_BRAIN_PLAN_DETECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F406",
+      "requirement": "NEGATIVE_AGGREGATE_INPUT_MUTATION_DETECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F407",
+      "requirement": "NEGATIVE_FINAL_UNKNOWN_INSTALLATION_REJECTED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    },
+    {
+      "id": "R13-F408",
+      "requirement": "NEGATIVE_CONTROL_RECEIPT_SEALED",
+      "status": "PENDING",
+      "reason": "requires-qualified-R9-R10-release-multiple-R11-admitted-R12-installed-executions-and-signed-fleet-evidence"
+    }
+  ],
+  "qualifiedMultiInstallationFleetPresent": false,
+  "fleetExecutionPerformed": false,
+  "productionPointerMutatedByR13": false,
+  "localActivationPointerMutatedByR13": false,
+  "productionPointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "specSha256": "b74a0ea8c0e5de8a401f9f622414229ee8002ea9ba7c15848474d5149545bfe2",
+  "childArtifacts": [
+    {
+      "name": "R13_CONTRACT_MANIFEST.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_CONTRACT_MANIFEST.json",
+      "sha256": "b6ee8a09a9b9eabf0750597e8b277a7ca790c5af86bac711ddd38aee0c4320d1"
+    },
+    {
+      "name": "R13_PARENT_FREEZE_RECEIPT.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_PARENT_FREEZE_RECEIPT.json",
+      "sha256": "fb2490d6a254165c3a39badf7fd32f53b6da80db361f22a0a01e4a5b3cecbad7"
+    },
+    {
+      "name": "R13_CURRENT_FACTS_RECEIPT.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_CURRENT_FACTS_RECEIPT.json",
+      "sha256": "e4341b32c15693a03625b7bdec801dec2131ef6a26969d79c8186e44a55e7013"
+    },
+    {
+      "name": "R13_ENROLLMENT_PRIVACY_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_ENROLLMENT_PRIVACY_SOURCE_GATE.json",
+      "sha256": "b381e0a0a4fe140914431f4f5510af995e625fb2200cd93c2c64bc9cf57d9f6a"
+    },
+    {
+      "name": "R13_ROLLOUT_PLAN_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_ROLLOUT_PLAN_SOURCE_GATE.json",
+      "sha256": "0837e7e850c7cae04de6181873ce11f0a18a6d47c8f0c3f3aecb8c5a78f389ac"
+    },
+    {
+      "name": "R13_ADMISSION_LEASE_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_ADMISSION_LEASE_SOURCE_GATE.json",
+      "sha256": "c07c3de98fdd2b92a7a1eb61aaa58c185fc40e518765202911fb626863367d7e"
+    },
+    {
+      "name": "R13_EVIDENCE_AGGREGATION_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_EVIDENCE_AGGREGATION_SOURCE_GATE.json",
+      "sha256": "76821b512e560f6e0319981051a2202a2f5ce5d384c3070d952a04fa12f8d9ce"
+    },
+    {
+      "name": "R13_CONTAINMENT_AND_FINALIZER_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_CONTAINMENT_AND_FINALIZER_SOURCE_GATE.json",
+      "sha256": "1959011c799f756a6db57ebaf9109cebdffbff2909fd3984051c3063ccaeec91"
+    },
+    {
+      "name": "R13_RUNTIME_MODULE_SELF_TEST.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_RUNTIME_MODULE_SELF_TEST.json",
+      "sha256": "b9b7057129549b2c483ad9506900c6c372cac68166f3f5bef07fdc6677385ecb"
+    },
+    {
+      "name": "R13_NEGATIVE_CONTROL_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_NEGATIVE_CONTROL_SOURCE_GATE.json",
+      "sha256": "eabba43199c7618c5326334a3b8ef51374c14e3f57b9aac54e133c17122f7390"
+    },
+    {
+      "name": "R13_SOURCE_GATE_REPORT.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_SOURCE_GATE_REPORT.json",
+      "sha256": "28606e931fa0715c6868270a9b46a8028f9bc48378ac90e340c462030fd51679"
+    },
+    {
+      "name": "R13_PREDECESSOR_REGRESSION_REPORT.json",
+      "relativePath": "artifacts/resample-runtime-01-r13/source-bake/R13_PREDECESSOR_REGRESSION_REPORT.json",
+      "sha256": "1d7e0d8935a312a4cbf48a3a373393f5ea7e0b2ef133eecfcede18c83db9b047"
+    }
+  ],
+  "selfSha256": "4ffd904d207ddf484b5cc23670b6ea7ab81bec21d5db27d62658cf9e32c7600c"
+}

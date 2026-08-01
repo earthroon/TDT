@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ANALYSIS-FIELD-TRUTH-00",
+  "state": "ANALYSIS_FIELD_TRUTH_00_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "counts": {
+    "PASS": 120,
+    "DEFERRED": 8
+  },
+  "gates": [
+    {
+      "id": "AFT00-001",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-002",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-003",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-004",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-005",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-006",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-007",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-008",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-009",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-010",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-011",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-012",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-013",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-014",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-015",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-016",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-017",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-018",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-019",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-020",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-021",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-022",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-023",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-024",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-025",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-026",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-027",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-028",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-029",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-030",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-031",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-032",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-033",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-034",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-035",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-036",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-037",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-038",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-039",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-040",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-041",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-042",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-043",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-044",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-045",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-046",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-047",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-048",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-049",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-050",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-051",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-052",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-053",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-054",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-055",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-056",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-057",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-058",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-059",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-060",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-061",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-062",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-063",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-064",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-065",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-066",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-067",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-068",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-069",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-070",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-071",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-072",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-073",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-074",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-075",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-076",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-077",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-078",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-079",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-080",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-081",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-082",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-083",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-084",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-085",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-086",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-087",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-088",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-089",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-090",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-091",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-092",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-093",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-094",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-095",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-096",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-097",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-098",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-099",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-100",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-101",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-102",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-103",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-104",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-105",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-106",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-107",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-108",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-109",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-110",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-111",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-112",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-113",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-114",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-115",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-116",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-117",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-118",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-119",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-120",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-121",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-122",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-123",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-124",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "AFT00-125",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-126",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-127",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    },
+    {
+      "id": "AFT00-128",
+      "status": "PASS",
+      "reason": "source-contract-audit-and-mock-runtime-verified"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false,
+  "cpuProductComputeClaim": false,
+  "failCount": 0
+}

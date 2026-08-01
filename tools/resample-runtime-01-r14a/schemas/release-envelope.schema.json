@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "release-envelope.schema.json",
+  "type": "object",
+  "required": [
+    "schemaId",
+    "manifestSha256",
+    "checkpointSha256",
+    "envelopeSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

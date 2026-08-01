@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "wgpuOnlyFailurePropagated": true,
+  "failureCode": "E_R8A_WGPU_PREPASS_FAILED",
+  "explicitFallbackPassed": true,
+  "fallbackPolicy": "legacy-explicit",
+  "eventCount": 4,
+  "counters": {
+    "success": 1,
+    "failure": 2,
+    "explicitFallback": 1,
+    "silentFallback": 0
+  },
+  "silentFallbackCount": 0,
+  "selfSha256": "f844b6e101cb508437f32c757ffb2188c82a1b32df5e3706eb5a16bbb0ae969d"
+}

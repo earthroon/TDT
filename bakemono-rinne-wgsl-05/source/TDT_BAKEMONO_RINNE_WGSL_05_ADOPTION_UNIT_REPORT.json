@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr05.adoption-unit-report.v1",
+  "status": "PASS",
+  "candidateState": "ADOPTED",
+  "finalRole": "BAKEMONO_RINNE_R1C_FINAL",
+  "selectedTextureIsCandidate": true,
+  "baseRetirementScheduled": true,
+  "baseTrackedAfterSelection": true,
+  "descriptorValid": true,
+  "receiptValid": true,
+  "replayCode": "E_BKR05_FINAL_CANDIDATE_REPLAY",
+  "releasedAdoptionCode": "E_BKR05_FINAL_CANDIDATE_RELEASED",
+  "identityFinalRole": "EWA_IDENTITY_FINAL",
+  "identityUsesBaseTexture": true,
+  "queueSubmitCount": 1,
+  "commandEncoderCount": 1,
+  "intermediateReadbackCount": 0,
+  "kernelGraphRoles": [
+    "LOWPASS",
+    "TERMINAL_R1C",
+    "FINAL_EFFECT"
+  ],
+  "actualIdentityDigest": "7755e64617037187fdaf508d6344d977c100f93b02f0d2e4f13a01418348d666",
+  "finalReceiptDigest": "a9beade3f17ae773092598b01231daa7bc02d1b87a09345f9f7606f694d5279d",
+  "selfSha256": "f268ca1ab9d96fb04e2d11b6581c85cf40c0d64be67dd51bcf92778106cee79f"
+}

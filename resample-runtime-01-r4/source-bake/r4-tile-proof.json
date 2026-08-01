@@ -1,0 +1,192 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "TILE-01",
+      "message": "fixture manifest deterministic",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-odd-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-odd-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-partial-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-partial-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-one-x-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-one-x-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-one-y-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-one-y-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-noninteger-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-noninteger-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-exact-2to1-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-exact-2to1-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-anisotropic-xy-r4-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-anisotropic-xy-r4-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-odd-r6-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-odd-r6-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-partial-r6-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-partial-r6-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-one-axis-r6-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-one-axis-r6-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-noninteger-r6-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-noninteger-r6-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-exact-2to1-r6-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-exact-2to1-r6-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-anisotropic-xy-r6-profile",
+      "message": "expected profile selected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-anisotropic-xy-r6-proof",
+      "message": "phase-aware tile proof and witnesses present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-footprint-fail",
+      "message": "footprint reach above six fails closed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-storage-fail",
+      "message": "workgroup storage failure is stable",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-coverage-fail",
+      "message": "tile insufficiency fails closed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "TILE-input-fail",
+      "message": "invalid dimensions fail closed",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "schemaVersion": 1
+}

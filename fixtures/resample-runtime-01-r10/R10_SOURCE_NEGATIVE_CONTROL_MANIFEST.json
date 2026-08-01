@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "controls": [
+    "pointer-self-hash-tamper",
+    "raw-hash-cas-mismatch",
+    "generation-aba",
+    "lock-exclusive-create",
+    "single-candidate-bootstrap-rejection",
+    "partial-rollback-rejection",
+    "source-mode-pointer-mutation-rejection"
+  ],
+  "deterministic": true
+}

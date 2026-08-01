@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "JXL_CODEC_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-jxl-e2e-not-run",
+    "independent-jxl-roundtrip-corpus-not-run",
+    "pthread-generation-closure-not-measured-in-production"
+  ],
+  "surfaceId": "dadum.jxl-decoded-rgba8-exact-v1",
+  "storage": "rgba8unorm",
+  "sampleEncoding": "rgba8unorm-u8-v1",
+  "alphaMode": "straight",
+  "sourceVerified": true,
+  "productionRoundtripVerified": false,
+  "selfDigest": "7711915331fa4f753aec312d6c8b062c9f24785ff478e64ca889101397193288"
+}

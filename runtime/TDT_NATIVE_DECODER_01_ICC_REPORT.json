@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-NATIVE-DECODER-01",
+  "status": "BLOCKED_RELEASE_ADDON_MISSING",
+  "evidenceState": "SOURCE_BAKED_UNPROMOTED",
+  "blockers": [
+    "release-addon-missing",
+    "win32-x64-release-build-not-run",
+    "packaged-electron-execution-not-run",
+    "independent-pixel-roundtrip-not-run"
+  ],
+  "pngIccp": true,
+  "jpegApp2Icc": true,
+  "webpIccp": true,
+  "independentIccVerified": false,
+  "selfDigest": "70d8e6a9c390f21b80fc519f956a3920b2082a594fbfd0c4966a0820e2094256"
+}

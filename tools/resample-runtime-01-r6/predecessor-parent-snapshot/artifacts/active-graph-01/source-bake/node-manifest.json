@@ -1,0 +1,2855 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "nodes": [
+    {
+      "nodeId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+      "sourceSha256": "509d3f4f014a39dc56e8b85388d35dc998ae5c99402bbee960e36a9bea4ccb33",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js"
+    },
+    {
+      "nodeId": "dadum.legacy.EmotionPipeline_preblurFusion_patch.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/EmotionPipeline_preblurFusion_patch.js",
+      "sourceSha256": "3775d687fe494a7b5fb25bf1bc5a2ab3ba60f1b60f614276c682934c83759122",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_preblurFusion_patch.js"
+    },
+    {
+      "nodeId": "dadum.legacy.EmotionPipeline_qmap_patch.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/EmotionPipeline_qmap_patch.js",
+      "sourceSha256": "060847a1747138d901d4e965de828736c69c2ffc0eb66c2355373489c048192e",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_qmap_patch.js"
+    },
+    {
+      "nodeId": "dadum.legacy.EmotionRenderer.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/EmotionRenderer.js",
+      "sourceSha256": "dbe1abaa1770be749c8de61f1c83ab5fd9ec3b2c9ce43900fe2d7539b1ce267b",
+      "ownerRootId": "dadum.legacy.EmotionRenderer.js"
+    },
+    {
+      "nodeId": "dadum.legacy.ac_wire.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/ac_wire.js",
+      "sourceSha256": "4aa9ecc12a89c787e5fb806e7fffdf1da66f1afff178fd5b04461e9d4c73b513",
+      "ownerRootId": "dadum.legacy.ac_wire.js"
+    },
+    {
+      "nodeId": "dadum.legacy.blendif_ui.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/blendif_ui.js",
+      "sourceSha256": "5306d7c14fe3e96f89728f19871151542a8c341600db6c931226216005e17077",
+      "ownerRootId": "dadum.legacy.blendif_ui.js"
+    },
+    {
+      "nodeId": "dadum.legacy.core-bind_depth_pipeline.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/bind_depth_pipeline.js",
+      "sourceSha256": "cf777fbde4f9115de29b2df795535600ea7da66dcb79f84c63ed7c617480989d",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.legacy.engine-passes-brushedMetalHook.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/engine/passes/brushedMetalHook.js",
+      "sourceSha256": "92fa2b100c83df45dc341cf551afe81c5b657ffa24f72da286d09b852a4e52ce",
+      "ownerRootId": "dadum.legacy.engine-passes-brushedMetalHook.js"
+    },
+    {
+      "nodeId": "dadum.legacy.engine-passes-brushedMetalPass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/engine/passes/brushedMetalPass.js",
+      "sourceSha256": "ca34c7c0fdc3f8919f5f7c29432782dfb34c6996c006a5897baecd73bff65323",
+      "ownerRootId": "dadum.legacy.engine-passes-brushedMetalPass.js"
+    },
+    {
+      "nodeId": "dadum.legacy.export_manager.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/export_manager.js",
+      "sourceSha256": "a85af148dd1eec25cdee4542904236c531a80a8d06226057aae121a7bbdd8084",
+      "ownerRootId": "dadum.legacy.export_manager.js"
+    },
+    {
+      "nodeId": "dadum.legacy.hooks-afterRenderHook.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/hooks/afterRenderHook.js",
+      "sourceSha256": "be1b507bab3c59e8702144ae687ec0bbcfc035c3ab65f70a0dd655ca5c0beccb",
+      "ownerRootId": "dadum.legacy.hooks-afterRenderHook.js"
+    },
+    {
+      "nodeId": "dadum.legacy.image_input_bind.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/image_input_bind.js",
+      "sourceSha256": "ac9350fa46619fd7470ebb0228c7005f1e6fa8cb66958003aff2f7e3ad8a4d76",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.legacy.index-inline-01.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/index-inline-01.mjs",
+      "sourceSha256": "c7285a8e6b29733758e88cffa9a98d2aea60f543b8fab5d4aa7fad7f9e015830",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.legacy.index-inline-02.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/index-inline-02.mjs",
+      "sourceSha256": "783d9c026d2d5b6565d13a534ee30d374da4a25c1abcc2e36e7274c31fed5caa",
+      "ownerRootId": "dadum.legacy.index-inline-02.mjs"
+    },
+    {
+      "nodeId": "dadum.legacy.index-inline-03.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/index-inline-03.mjs",
+      "sourceSha256": "812c6541feb2140295630ceff827669a56f181aa2e3c27d4c6a4de2bdda8d216",
+      "ownerRootId": "dadum.legacy.index-inline-03.mjs"
+    },
+    {
+      "nodeId": "dadum.legacy.index-inline-04.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/index-inline-04.mjs",
+      "sourceSha256": "d623b4dfdd6202259d9ebb56fcb2e0cf3fd8586ebadf6fe5c2581f5e3d3f6315",
+      "ownerRootId": "dadum.legacy.index-inline-04.mjs"
+    },
+    {
+      "nodeId": "dadum.legacy.index-inline-05.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/index-inline-05.mjs",
+      "sourceSha256": "e294e7fe925445d5c9f754b394b51ffb0a46e3d978bc3220d21b96762f2d69bc",
+      "ownerRootId": "dadum.legacy.index-inline-05.mjs"
+    },
+    {
+      "nodeId": "dadum.legacy.index-inline-06.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/index-inline-06.js",
+      "sourceSha256": "248ca6af60a20095389c6d101b7e8550e2f8a875bf3460d87b174aacdb6bd050",
+      "ownerRootId": "dadum.legacy.index-inline-06.js"
+    },
+    {
+      "nodeId": "dadum.legacy.init_once.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/init_once.js",
+      "sourceSha256": "7010bcbf96f46b97063867b43da9c52da67fb087d4af4b7d4fb8fb5811ef1440",
+      "ownerRootId": "dadum.legacy.init_once.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-chroma_blue_dither_pass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/chroma_blue_dither_pass.js",
+      "sourceSha256": "de6f20db62805b5e41a0ac56ff9df9558f18911e88f51d307842424c37f52b5c",
+      "ownerRootId": "dadum.legacy.js-chroma_blue_dither_pass.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-compression_preprocess_ab.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/compression_preprocess_ab.js",
+      "sourceSha256": "cd1c3c8e914e6860114cf5da5be0b0cb87a0b9ea5b6a185979af725378fb6b52",
+      "ownerRootId": "dadum.legacy.js-compression_preprocess_ab.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-core-pipeline_rev.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/core/pipeline_rev.js",
+      "sourceSha256": "b4104890a22e4ddc41555e414a21b34dc64a1fb6477bdb09a8d94b823fd6ca35",
+      "ownerRootId": "dadum.legacy.js-core-pipeline_rev.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_afterfinal_wgpu_wire.js",
+      "sourceSha256": "249dc095c10674069f8f9e826668c7408aa206c4df6b8d09337c3a2e50b8ad3c",
+      "ownerRootId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-passes-dk_autowire.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_autowire.js",
+      "sourceSha256": "82ff290f4807d322daca958228572d74f25d684ea72614d74c9725309da3dc1f",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-passes-dk_preview_wire.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_preview_wire.js",
+      "sourceSha256": "54bd4d457338bbd8b7c4be3df5b2bfd81fe7ebe8b1bb41c7c1416a2378b71fcd",
+      "ownerRootId": "dadum.legacy.js-passes-dk_preview_wire.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_sharpen_bootstrap.js",
+      "sourceSha256": "4342726ed7c0abff678e0bc243d529e2d636fc5af00a23fbaa57f6cb3952786f",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.legacy.js-texture_preserve_patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/texture_preserve_patch.js",
+      "sourceSha256": "1da9d2fa66c5ac8a4ac93cce88ac6eb99b41ea04c023af9ef240a4c17d2be331",
+      "ownerRootId": "dadum.legacy.js-texture_preserve_patch.js"
+    },
+    {
+      "nodeId": "dadum.legacy.lib-upng.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/lib/upng.js",
+      "sourceSha256": "813083fb6a46f1c2b2ffc57829bdf4bc34a91ca16c97e4e20c645607ac4f1156",
+      "ownerRootId": "dadum.legacy.lib-upng.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/main.js",
+      "sourceSha256": "6cf010e49a5cc8e4aa2e4f924f1242932d28b3a9042bcb4d52d4c1fd88e75529",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#ash-qmap-binding",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-ash-qmap-binding.js",
+      "sourceSha256": "ef497f3065856af0ecd69357f6779e248de55f56c885e6142b1bb23f45fef648",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#batch-queue",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-batch-queue.js",
+      "sourceSha256": "0c8301cc5bb879e4214074463f9401673f74dd8ac1efd0fbfda3f1e61fe6571f",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#delta-k-controls",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-delta-k-controls.js",
+      "sourceSha256": "1bd239816d12363e066479a0186cba40139adff086c6e61f3e5bc24d682ef11d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#entry-authority",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-main-entry.js",
+      "sourceSha256": "b463073746dc63946ef988253c1b0d9c210736dc707d0856ea305e33db51ab04",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#filter-worker-bridge",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-filter-worker-bridge.js",
+      "sourceSha256": "c6b8018e13a188b688d2cce872669029d5e2cc921dcd882a46b84178839752d1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#icms-auto-binding",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/icms-auto-binding.js",
+      "sourceSha256": "dfe52b4d7f77b9f3438b8f0dadbf054411cdb4b673a02c16a679bde7bb6244a8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.main.js#spot-psd-binding",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-spot-psd-binding.js",
+      "sourceSha256": "a06cd54f144d1c27951233b8e7cafc5d4fe78780851566dda2adf3de1f0897fc",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.legacy.packs-dadum_all_packs_loader.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/packs/dadum_all_packs_loader.js",
+      "sourceSha256": "cf037606cf874010ef407426b63ed557e64d6909d9fe1f23d5552c914fe08970",
+      "ownerRootId": "dadum.legacy.packs-dadum_all_packs_loader.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches-ash_engine_orchestrator.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches/ash_engine_orchestrator.js",
+      "sourceSha256": "0156d562a42abdeda1c6c2aec7b0f40708b4b31ff0ca87c81050ed6d19274292",
+      "ownerRootId": "dadum.legacy.patches-ash_engine_orchestrator.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches-canvas2d_willReadFrequently_patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches/canvas2d_willReadFrequently_patch.js",
+      "sourceSha256": "66df22e8e9e44050ec31e77390869d12105be5b2ea62529c25296885763d0bbc",
+      "ownerRootId": "dadum.legacy.patches-canvas2d_willReadFrequently_patch.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches-icc_default_loader.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches/icc_default_loader.js",
+      "sourceSha256": "685438f3c41a4c040da7e850c7d2e2999dd00faa2e062a4af9fecfd3b6f26cba",
+      "ownerRootId": "dadum.legacy.patches-icc_default_loader.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches-preload_assets.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches/preload_assets.js",
+      "sourceSha256": "2b2cdfb3bfa224fba2e01db624ff42e28ca9488ce9f747fde2cac5a3d51bacbf",
+      "ownerRootId": "dadum.legacy.patches-preload_assets.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches_gl2_squeeze/gl2_squeeze_autowire.js",
+      "sourceSha256": "b1ad422a22d6e1ac914fd55d624924c1fcf6bf555eadb1b235cb60d1a5493685",
+      "ownerRootId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches_gl2_squeeze-gl_resource_tracker.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches_gl2_squeeze/gl_resource_tracker.js",
+      "sourceSha256": "1c9c7896b0d9acc20703d2fb125f8349491dc45f2ebd5c2d924c8afa518b5611",
+      "ownerRootId": "dadum.legacy.patches_gl2_squeeze-gl_resource_tracker.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches_mrt_pbo-mrt_fbo_setup.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches_mrt_pbo/mrt_fbo_setup.js",
+      "sourceSha256": "75a86ea72640ae3bdc3af2c0e34f8e1444ded77d7a2b5ccf0e79ab82b274ce86",
+      "ownerRootId": "dadum.legacy.patches_mrt_pbo-mrt_fbo_setup.js"
+    },
+    {
+      "nodeId": "dadum.legacy.patches_mrt_pbo-pbo_readback.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches_mrt_pbo/pbo_readback.js",
+      "sourceSha256": "b0e70031676e7e76060a895a17637ec604c34596b692271ea50ad307a063d1b9",
+      "ownerRootId": "dadum.legacy.patches_mrt_pbo-pbo_readback.js"
+    },
+    {
+      "nodeId": "dadum.legacy.pipeline_bind_guard.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/pipeline_bind_guard.js",
+      "sourceSha256": "527aed3d79da868b4e15f4da321499a43b6b17936d20de3381cd954ab1628625",
+      "ownerRootId": "dadum.legacy.pipeline_bind_guard.js"
+    },
+    {
+      "nodeId": "dadum.legacy.preview_fit_bind.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/preview_fit_bind.js",
+      "sourceSha256": "52cb1618ecb4d090a8e979bc59ee69d370f99b94872a31e2b3891b5f9cb25714",
+      "ownerRootId": "dadum.legacy.preview_fit_bind.js"
+    },
+    {
+      "nodeId": "dadum.legacy.qwave-qwave_boot.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/qwave/qwave_boot.js",
+      "sourceSha256": "708cf9196bac0a1c01b169b1f05f6e46a7e5d6adb2c3b472359b3c8395d0009c",
+      "ownerRootId": "dadum.legacy.qwave-qwave_boot.js"
+    },
+    {
+      "nodeId": "dadum.legacy.renderer.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/renderer.js",
+      "sourceSha256": "2c67dbd68fe6d9a6eb56c4bdc4443cbc52bb1270bcda9b649cdf54089f94fb74",
+      "ownerRootId": "dadum.legacy.renderer.js"
+    },
+    {
+      "nodeId": "dadum.legacy.resize_export_bind.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/resize_export_bind.js",
+      "sourceSha256": "29d2107e9d3387557fac1b559890fef84fbdaca6314eeed65844297c05b94052",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.legacy.scripts-colorRegionRenderer.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/scripts/colorRegionRenderer.js",
+      "sourceSha256": "39e81d77e1b419a9fff4e742371f8d93223ddf94d12ee47b378681541809c59c",
+      "ownerRootId": "dadum.legacy.scripts-colorRegionRenderer.js"
+    },
+    {
+      "nodeId": "dadum.legacy.share-modal.safe.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/share-modal.safe.js",
+      "sourceSha256": "5cf1a27742a14831cad19f906394828b4f3900b5139f41eb84d497decf66aa59",
+      "ownerRootId": "dadum.legacy.share-modal.safe.js"
+    },
+    {
+      "nodeId": "dadum.legacy.shims_runtime.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/shims_runtime.js",
+      "sourceSha256": "0ab476786f6c69bebc4c8d0cc6d9e44414496417bb145c7586861c4cf1f68be5",
+      "ownerRootId": "dadum.legacy.shims_runtime.js"
+    },
+    {
+      "nodeId": "dadum.legacy.ui_bind.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/ui_bind.js",
+      "sourceSha256": "941205611a20ed31d5797dba355cf4aaa74bacf271f22573af4dd0ecfc8fa4cd",
+      "ownerRootId": "dadum.legacy.ui_bind.js"
+    },
+    {
+      "nodeId": "dadum.legacy.ui_ssot_layout.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/ui_ssot_layout.js",
+      "sourceSha256": "b668a887d653ec17da52de57da149601b9335765f995d78784a95752ea4ef58e",
+      "ownerRootId": "dadum.legacy.ui_ssot_layout.js"
+    },
+    {
+      "nodeId": "dadum.legacy.vendor-piexif.min.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/piexif.min.js",
+      "sourceSha256": "24454b5d718418a9a7362c2504e2f0c2d86912356ba417e7d0e4b63da57b2929",
+      "ownerRootId": "dadum.legacy.vendor-piexif.min.js"
+    },
+    {
+      "nodeId": "dadum.legacy.wire_blendif_hook.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/wire_blendif_hook.js",
+      "sourceSha256": "51c161a0cccbbb6699b999b54c40eafbc0fc0be0a9ffa4cb63bdd177eb3c9678",
+      "ownerRootId": "dadum.legacy.wire_blendif_hook.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.icms.auto.binding.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/icms-auto-binding.js",
+      "sourceSha256": "dfe52b4d7f77b9f3438b8f0dadbf054411cdb4b673a02c16a679bde7bb6244a8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.legacy.ash.qmap.binding.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-ash-qmap-binding.js",
+      "sourceSha256": "ef497f3065856af0ecd69357f6779e248de55f56c885e6142b1bb23f45fef648",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.legacy.batch.queue.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-batch-queue.js",
+      "sourceSha256": "0c8301cc5bb879e4214074463f9401673f74dd8ac1efd0fbfda3f1e61fe6571f",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.legacy.delta.k.controls.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-delta-k-controls.js",
+      "sourceSha256": "1bd239816d12363e066479a0186cba40139adff086c6e61f3e5bc24d682ef11d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.legacy.filter.worker.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-filter-worker-bridge.js",
+      "sourceSha256": "c6b8018e13a188b688d2cce872669029d5e2cc921dcd882a46b84178839752d1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.legacy.main.entry.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-main-entry.js",
+      "sourceSha256": "b463073746dc63946ef988253c1b0d9c210736dc707d0856ea305e33db51ab04",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.active.graph.legacy.spot.psd.binding.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-spot-psd-binding.js",
+      "sourceSha256": "a06cd54f144d1c27951233b8e7cafc5d4fe78780851566dda2adf3de1f0897fc",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.adaptive.sharpen.frag",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/adaptive-sharpen.frag",
+      "sourceSha256": "cac78ac827445038b428c10fcabdfb477881c28b012106c405a81d8af2009220",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.applyemotionpreblurfusion.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/applyEmotionPreblurFusion.js",
+      "sourceSha256": "9117cf41900c288ee96608cbaaaa24218b4c494fac24c83814eec8cc7aba61c6",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.applyfinaltensorsharpen.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/applyFinalTensorSharpen.js",
+      "sourceSha256": "05821b22749fa93003f32a8125bb01dd829d5807c82ae81bb0ec92f66bcb0f46",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.ash.qmap.postpatch.kit.js.qmap.combine.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_combine.js",
+      "sourceSha256": "3785408f67ef21cf7d8e0e668a6b871584ac30ca74f440a1b22af4c8cb8b2d30",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.ash.qmap.postpatch.kit.js.qmap.fft.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/ASH_QMAP_PostPatch_kit/js/qmap_fft.js",
+      "sourceSha256": "8adb834e974cecb13646931275594203cfb9ef6b500a14373a56f8b22842962b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.bakemono.neon.frag.glsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/bakemono_neon_frag.glsl",
+      "sourceSha256": "1e518939ba1fd950c9591abb7c821fb2e8f8ec82d302b3caabbbe7f4ae139dae",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.basic.vert",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/basic.vert",
+      "sourceSha256": "2a989b90e12b5ab3c38ee2bded34c5501e432fe0b2e7e93aec2121c47ddc50f7",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.batchexportcolormask.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/batchExportColorMask.js",
+      "sourceSha256": "d5e8ab0345c01e2622ffe65753fe0823357d9de9363a22734f5d2e7d8bec9b3b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.blurshader.frag",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/blurShader.frag",
+      "sourceSha256": "fc32d1f95f596ce91dd7dbdfe0bbdf8eaf11e4bc94dc684e01a79f0a64078e14",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.computeqmapcentroid.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/computeQmapCentroid.js",
+      "sourceSha256": "ca5bc1edceb18507d046ee9ba71b8926198eb07ed5af7cb1f46a7a560db80f49",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.constants.artifactclean.const.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/constants/artifactClean.const.js",
+      "sourceSha256": "70a867eff32a564fb0c33f5be43b1e291779687cb5187b2fda8dc4ff6dfe4074",
+      "ownerRootId": "dadum.legacy.ac_wire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.directional.gate.finalize.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-directional-gate-finalize.wgsl",
+      "sourceSha256": "07da2465b2de380b8b0ac7926a2fd2f9be4ec99c58988856612cbba4e9153f37",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.gate.compare.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-compare.wgsl",
+      "sourceSha256": "eb58078520b63a039d8ccdad6852ff6f3907c87d81f21b528c4bc973990e28b8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.gate.fixture.generator.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-fixture-generator.wgsl",
+      "sourceSha256": "158021bf01afb6bc5ef4dc267116541dd39737f4c0ad5a90e462b822ff2acdfb",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.gate.reference.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-reference.wgsl",
+      "sourceSha256": "3be01a1b6939087234ef08bdae4293fded3d4d5f0b346a5fc84dd39c060d6441",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.spectral.project.stage.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-spectral-project-stage.wgsl",
+      "sourceSha256": "aa65c90899181e44c0ef1e92361d404f16f5438aa45607a92cc98306ac039a36",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.gate.shaders.hannakairo.tensor.spectral.align.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-tensor-spectral-align.wgsl",
+      "sourceSha256": "cf36ed1d9532d0854da860a52553ab6c5168a165efd21a5d12eddb7d579b6be2",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.axial.convert.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl",
+      "sourceSha256": "0199bdb2013e1bcfa5ecf257d7cc748c88eebf45a5892ead31a453b9e77ed082",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.compare.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl",
+      "sourceSha256": "2d711541cf934788567f659b6d55131a25815a1f9034d04a3ad480d92fc7df99",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.fixture.generator.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl",
+      "sourceSha256": "4c35bbe81144acbb9af7aded6bb0a7c35dff4c61924a7614fa4502b36bab271d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.phase.coherence.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl",
+      "sourceSha256": "b26fda6221d7c8398c113d6881b466754838db37075fc97bb3c69c16a0eccf0f",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.reference.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl",
+      "sourceSha256": "91c32acdd882dcc1b7a0fc12d17465baa7ef03395246beecd154315af24c0c4e",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.hannakairo.shaders.hannakairo.wrapped.circulation.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl",
+      "sourceSha256": "e817b7c9389d4055b6180e21898dac571222f70f9221155acbf075b1cd51c1f8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.compare.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-compare.wgsl",
+      "sourceSha256": "a7e6a2cea2884bb0ebc7a6d90a90283ea02e97584717a910269b54c55202aa71",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.fixture.generator.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-fixture-generator.wgsl",
+      "sourceSha256": "24376b04b804a6451668c492bb5146238a36c0988316346ae76358f9d9f72168",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.principal.sqrt.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-principal-sqrt.wgsl",
+      "sourceSha256": "b30a0f2803b95af04e98e13d907fc51f8a594bea40769bccd80dcb3f3186058e",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.reference.polar.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-reference-polar.wgsl",
+      "sourceSha256": "e3a04aa1513dd9b02f04437ebf80dcf97046b639014f7c9250c394a13570af6c",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.analytic.to.rg.compat.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-to-rg-compat.wgsl",
+      "sourceSha256": "76b3e444917b3604d7cd61d53195fd753b73a04be3f75c6cc16bc925ce2e42c6",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.curvature.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-curvature.wgsl",
+      "sourceSha256": "bab6369fd197154022cf62147c681d05922cc2a57d5514e1ae41e7f447b60dfb",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.defect.project.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-defect-project.wgsl",
+      "sourceSha256": "ee712a4e8f54136b199e6de0946817c3eb71b59a7df623fb8ccb4c731354868e",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.hilbert.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-hilbert.wgsl",
+      "sourceSha256": "3ee231502b3fe609a96378c3911a968fdab047d67f559cb0f9d046baf8837174",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.local.aniso.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-local-aniso.wgsl",
+      "sourceSha256": "ee66b191523fd44267136f1515d9577f58081b2bb7ecd1182b9a4d882d8c6ec5",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.imag.spectral.project.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-spectral-project.wgsl",
+      "sourceSha256": "fc1256dc4eddd28bfd2d691607fd1cb6651fd050b2aa74c09f38cc39513d8589",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.qwave.shaders.qwave.source.selection.counter.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-source-selection-counter.wgsl",
+      "sourceSha256": "eff2f0884af0dee6016504c8f100d2c3722dd5f40d13e83cb77bf87f73eae1c9",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.complex.compare.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/complex-compare.wgsl",
+      "sourceSha256": "cccf7db3c65e15fe70676e2c056a70404570c57adcb78762e00abe08f601aa85",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.complex.transpose.16x16.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/complex-transpose-16x16.wgsl",
+      "sourceSha256": "ae6bbcd7cc59ce0ce29d277ee73911e8186f5d5c1de4e7ca51e6d7e62d378be4",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.direct.dft.reference.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/direct-dft-reference.wgsl",
+      "sourceSha256": "2dfd0ab89a781f60fe9547c15709465b0bae8004b0f3491ac6a1492d58ec29ec",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.field.set.compare.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-field-set-compare.wgsl",
+      "sourceSha256": "7973daf773db0654bae70e0f9de6a81d59ea8694994954ba7d8da149f72ce4ec",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.finalize.fields.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-finalize-fields.wgsl",
+      "sourceSha256": "15dc4975e18543e2c1bb26af0702b43a82dc3d940e41349ab7b2d674ddd9cedd",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.fixture.generator.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-fixture-generator.wgsl",
+      "sourceSha256": "fa948f5481c8707ec1cd73e4da23fe4014875543c6bb5c80401a06969e174515",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.partial.merge.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-merge.wgsl",
+      "sourceSha256": "f25390af4306c07eb2035e2ebacd2e14c6147a0dbdb74eeb9b6b25e84fdba675",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.partial.reduce.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-reduce.wgsl",
+      "sourceSha256": "1994e856e22be0957fafc83ce0dc2330290b7733582b35544167f7dec5a4fcca",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.power.normalize.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-power-normalize.wgsl",
+      "sourceSha256": "cd3a9b398711a7151042efa52b71502f28d6c794daae5da61ca8382e81ca1243",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.spectral.reduction.reference.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-reduction-reference.wgsl",
+      "sourceSha256": "82d79acfad2476eba7a033069d2ab428ba22883e68fb124330e6a8e7cd05db10",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.stockham.radix2.stage.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/stockham-radix2-stage.wgsl",
+      "sourceSha256": "d094e286cb808c61cf18b0ed133d94d529108c2dd0c7ac840557fbb589978bc0",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.analysis.spectral.shaders.writer.ownership.validation.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/analysis/spectral/shaders/writer-ownership-validation.wgsl",
+      "sourceSha256": "56c16a74f5508bb1ccb549eb7012c8c4c508f9d3cc820982d4aab08d1164ec45",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.ash.ash.adapter.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/ash/ASH_Adapter.js",
+      "sourceSha256": "e3420fad2ad0a23072dd1793ce60f41d3bcc9f813bf9cc816c533c2434bf203b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.ash.ash.qmapbridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/ash/ASH_QMapBridge.js",
+      "sourceSha256": "9c6c51a7334f33a8f31faa9869fcccd39edbc8161ed6225d08452440c4f323a7",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.ash.graindecisionkernel.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/ASH_GrainDecisionKernel.js",
+      "sourceSha256": "0ee3bb528c187e1d617a42d90606b07dd8cf71cfb2c797261d2bf53d07c56ed0",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.ash.output.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/ASH_output.js",
+      "sourceSha256": "3de54d4a4d940051a1c3ea0a5e59c4035a080adf37e4d47bc5d52d6b09deb06a",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.ash.texturesense.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/ASH_TextureSense.js",
+      "sourceSha256": "5c0bad1cb0c2ee93322c2c78e836360770677b57e3ddf9d3bd4f0be05925c358",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.filter.gated.apply.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/filter_gated_apply.wgsl",
+      "sourceSha256": "b26b6ed2f29fba1392c8cd680de4917c6ab7bf104c1186e76f555bd803bbf9a7",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.manager.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "sourceSha256": "8bef11af28fee3c12aa0467e20907b990374277adc8b05902c8d2fb3f93dee63",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.localized.pass.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_pass.wgsl",
+      "sourceSha256": "dd17b55b3567df0afb97c80ebe0877f6c1e24f8bc0fcb55e964c1306b1613981",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.mask.webgpu.mask.morph3x3.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/mask_webgpu/mask_morph3x3.wgsl",
+      "sourceSha256": "c610546f27eb1cf36906afc6245e750e8d08bb02052a3886bf30695d1d4bd243",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adapter.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adapter.js",
+      "sourceSha256": "f8dd7604707c4f2f95f3b0ea50bc74c51eb5d73fa41760e140635aabafe420f1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.contract.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_contract.mjs",
+      "sourceSha256": "ccbde7d53457e36b24f2db23e9202e362cdfbc94deb8cb0934e8dfbc6c921852",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.params.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_params.mjs",
+      "sourceSha256": "b2551ee2dae987247b3318793ecf9191ec4ecf073f184f9526b6b264a4183e9d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.receipt.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_receipt.mjs",
+      "sourceSha256": "00001e4a3bdd44f2d880eb0d090189410a0e9182a10639c1937610beae4fe7b4",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.adaptive.policy.r1d.runtime.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/adaptive_policy_r1d_runtime.mjs",
+      "sourceSha256": "42012bea8f920fbb2b528585132630438ef45f18fa77d77564816ccc041a1f3a",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.bilateral.preblur.tile.rgba16f.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/bilateral_preblur_tile_rgba16f.wgsl",
+      "sourceSha256": "678da3426fab942a94cb7bcb2952f52d989d9b977572247633840715527f01a2",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deband.dither.rgba16f.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_rgba16f.wgsl",
+      "sourceSha256": "0a782b94c9d897cd6e0f507a3a715e92db46bee45ee914ee8222bcd80708018d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deband.dither.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deband_dither_webgpu.js",
+      "sourceSha256": "9c25490084fd6d1d2ad4befc4e75f1be01a69d070ed6626a8f4cc47e33ce3136",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deblock.rgba16f.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_rgba16f.wgsl",
+      "sourceSha256": "2518c28980b1a33c73d1e3c3b2c1bcd0427af96506dde5ce6e4f6246b6607785",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deblock.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deblock_webgpu.js",
+      "sourceSha256": "4c9d8853ac9a9a46ef6379cb3b0476b203df82e7e8c6296522106d7216474b3c",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.compare.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_compare.wgsl",
+      "sourceSha256": "7414455ae8a2a91ec9504c26a8c30f0bb2627f3fd1d743591b0869ed25f55c74",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.safe.blend.rgba16f.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_safe_blend_rgba16f.wgsl",
+      "sourceSha256": "1ef7ceb1bfbf59a0bc3447bec210a000a99584469443de2b6595cf42ffd88330",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltae.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaE_webgpu.js",
+      "sourceSha256": "fe15fafebd1e6a6d236639b85194d81db1fbb583b3c399ee5ff7bb10fe060e73",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.downscale.only.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_downscale_only.wgsl",
+      "sourceSha256": "18796da2cac32c6998bab54b10a89d25c199f85675143966ca8dcbcf4f5b66e5",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.gammaproof.webgpu.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_gammaProof_webgpu.mjs",
+      "sourceSha256": "28ae1aef32b395caa1d8956aa6fc7d0e2a126b6ba6599edf4002497f6504cc60",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.material.qmap.fused.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_material_qmap_fused.wgsl",
+      "sourceSha256": "5b3a2616c47c2a6cb3ca2207154f945a4c5fc755fe7dc73776e63fb0c3a8e813",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.qmap.only.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_qmap_only.wgsl",
+      "sourceSha256": "d7b3a03e40a63a821f591edd492cafd7875b5e01df80e3b222c02f0788f1a7c1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.deltak.stack.autoewa.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "sourceSha256": "8d99b6b52336a63a6f5a1c52f49c0419ac20c7530c1ed6974982fcf49db8fc8f",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.contract.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+      "sourceSha256": "7bcca59dada980af953bf8ac369bbf54f838c4e07eba8103158d4ffc2b489141",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.params.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params.mjs",
+      "sourceSha256": "f4cac2bc78858475877597f4419d18e58c0c49c7905b78357b63a4eae04041dc",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.params.v3.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_params_v3.mjs",
+      "sourceSha256": "7a46125442b519bd7b65b98b319260b1b7fcce5b46e98a4632f73d795accdc62",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.runtime.receipt.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_runtime_receipt.mjs",
+      "sourceSha256": "459cf74225b941eff22381765c80501098367985f72f1595dbc4702d30e39547",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.aniso.tile.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+      "sourceSha256": "92dbd206f747a6cbada1ae6f2b810ebd3cff74a64bd8197a1d21fce29e009b59",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.axial.contract.r5.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_axial_contract_r5.mjs",
+      "sourceSha256": "80d49122501f83157c76107a78365079cab53061a61d0693cadadefe570b2705",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.multistage.runtime.receipt.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_multistage_runtime_receipt.mjs",
+      "sourceSha256": "8e06c87fcf4dc3614a3de0483d6f0f373dde00f251c5d567e66950a822706f24",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.optimization.receipt.r4.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_optimization_receipt_r4.mjs",
+      "sourceSha256": "8b9ce4913616d684a8e08e66846d995883c77971c3785cc0da5340a4cec1ddb6",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.stage.planner.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner.mjs",
+      "sourceSha256": "c4758506b719d763734470b311379f6aac155ae144206504171445d1abcf40f7",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.ewa.tiled.profile.r4.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r4.mjs",
+      "sourceSha256": "008c48ed1e326952ec42b0e7f101957759f17942a364b2a6241fa1156aa3536a",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.fusion.runner.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/fusion_runner_webgpu.js",
+      "sourceSha256": "084fa392a3083625edde22aa2996e9f0837d220b81171292e0cc266ada084cf7",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.guided.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/guided_webgpu.js",
+      "sourceSha256": "96958a15c5475c12d6e3859b2fd7dde141ef331cb3a4ced1678f53067825f2b4",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.index.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/index.js",
+      "sourceSha256": "4d9a5fcab7460d0ec5a2554846065a897ea45b08077f2e6a582c4764fcbbaed1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.oklab.chroma.denoise.rgba16f.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_rgba16f.wgsl",
+      "sourceSha256": "043437dc9059f9c3c5d1845b18f726a91892ab452f29982fbc9905e5f6668aa9",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.oklab.chroma.denoise.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/oklab_chroma_denoise_webgpu.js",
+      "sourceSha256": "5cc0b463fc21079e6dbcfa6db32e83705f9e440d0754bc0b0528ad7b07ff4da2",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.preblur.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/preblur_webgpu.js",
+      "sourceSha256": "9e4c205ca1bb70a2d25439921052ce60148f5e42b7e3968e4cd22e1d92c95108",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.qmap.core.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/qmap_core.wgsl",
+      "sourceSha256": "d13119dbbe7acc46fc08009de115500143e77f785e8d1cba79724c359b5e9292",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.resize.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/resize_webgpu.js",
+      "sourceSha256": "21e6893b4030dc6b9c4350bf789f9efc97e30bcf318350755fdd83c52be05b85",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.runtime.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "sourceSha256": "2eb81ff78d6423d172b6501dc6c4d97325497f4683006ebba9927dba1a2f7f8b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.adaptive.policy.projection.r1d.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/adaptive_policy_projection_r1d.wgsl",
+      "sourceSha256": "3602951807672a520bf045a164abc697e61a63b00fc54afa519384fc4affceec",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.parity.compare.r2.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_parity_compare_r2.wgsl",
+      "sourceSha256": "c7fd2b23b9a8cfaf95abc52986cef79759e0f0ecf33430f870d8b92127062bf5",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v1.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v1.wgsl",
+      "sourceSha256": "a5783e1607b030b547a1a83a6ae7fbd0562bbe7fc7a16fb5399ce25c31bf11c8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v2.r1c.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v2_r1c.wgsl",
+      "sourceSha256": "bfd0e2d94e15467379b92c9c2ed4a3555be1d1b0a9a67b4f0f167eb550dbc4eb",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v3.r4.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v3_r4.wgsl",
+      "sourceSha256": "4c0f978f48845f7af8c6c84b1b795f9a26bfc3ed8c043e66e034d206964da447",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.reference.v4.r5.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v4_r5.wgsl",
+      "sourceSha256": "4f8a4574ff9ad5fb0f5eeaad5e687e8d83d1639698f4d90ba4c146568d2bfd5b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r2.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r2.wgsl",
+      "sourceSha256": "c2714270086eb1ad0a514e4850f01816b98890cfbd16755372001547b34aee24",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r4.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r4.wgsl",
+      "sourceSha256": "d743126cf2413b7591363db2ee52ad430fa14fcd3c4a0f07907a9392482046ca",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r4.r5.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r5.wgsl",
+      "sourceSha256": "7e2bc7b8f1daa181bf6bc13754b664d11a71a8cdb564745d8b7d652c5f333e52",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r2.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r2.wgsl",
+      "sourceSha256": "0d7cb8a26cb063708bb4f04e665f0ef8e6d44cb4db58d802b341ad220bea58a7",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r4.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r4.wgsl",
+      "sourceSha256": "1299c11260a188b0a5bfed7eabdc46c6c0c268db25bc372827cb6f839dd12948",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.r6.r5.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r5.wgsl",
+      "sourceSha256": "a40bea61442074b0a19bfad3ab96c8a21b436119c41832243e0049601d5c205d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v2.legacy.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v2_legacy.wgsl",
+      "sourceSha256": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v2.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v2.wgsl",
+      "sourceSha256": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.v3.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_v3.wgsl",
+      "sourceSha256": "c1b8dab861942d59634c0482024ba6056d819027bc8efa293aa1ffbfe6d84641",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r2.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r2.wgsl",
+      "sourceSha256": "f9f7efedde8ca7c547359ac91b175aabb0868be2d87a50d2680d7373c6e210fd",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r4.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r4.wgsl",
+      "sourceSha256": "2c573a4839ab6f30bfeee7da2a5336becfabd48230ea2acd5f2a06f835663ba1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r4.r5.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r5.wgsl",
+      "sourceSha256": "b0aeb90dca2a076d293e2907b91c541000258bb1784a50ce6261ea9e49f68535",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r2.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r2.wgsl",
+      "sourceSha256": "0c6bbbd8a3007f79bc7e1eb4dee0dec5ad2f4e7f20dfc1d095d7e16068eb7c8e",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r4.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r4.wgsl",
+      "sourceSha256": "6a8107db3922eec9598c924806d2c90ceccef0c6a7d47cc75cf2412092dc477b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.ewa.aniso.tile.validation.r6.r5.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r5.wgsl",
+      "sourceSha256": "8c85b53f78e4880f9ad03264478d184b7bab582cc2586b93fdbc9bcafcf7b6fd",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.axial.r5.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_axial_r5.wgsl",
+      "sourceSha256": "2f00744b42416f0730682bdf397bca3fc05fce3d5dc10a2d2e27f32563725bca",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.blur.h.r1c.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_blur_h_r1c.wgsl",
+      "sourceSha256": "3a61bff829b29a8cfee2a6cd034f80c907f9818419a2ff11872f3694827f0dad",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.blur.v.r1c.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_blur_v_r1c.wgsl",
+      "sourceSha256": "b107acc388179159aa0baf32abba2be445b4d91b34e73d0c40539e785497d038",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.eigen.r1c.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_eigen_r1c.wgsl",
+      "sourceSha256": "c4560743a9d42718e261c2cd2f069289aed6efabd341dc11b89c7c765ff38728",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.gradient.r1c.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_gradient_r1c.wgsl",
+      "sourceSha256": "8684b23a8ce508cdc3f924c33d1aa953d9f7f385caf5946f9abde60a0125d523",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.shaders.structure.tensor.outer.r1c.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/structure_tensor_outer_r1c.wgsl",
+      "sourceSha256": "9f5efaf050770153aff11f8ac75fc23e58be0dd645bf447bfbb77b5db46acab7",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.params.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_params.mjs",
+      "sourceSha256": "3340bd9853573ef4c43a3321cc94a7130af0f7056657159281273403bbf486dd",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "sourceSha256": "097d8a9cc5fc292df53e7db71e7598d05701d16569d8c978aae298ec852e9708",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.compute.qmap.webgpu.structure.tensor.runtime.receipt.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime_receipt.mjs",
+      "sourceSha256": "71f44d513a40461520a152af1aa17ef472c5f88e8fa6291ad0801989fa9fd627",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.patch.passa.colordenoise.bind.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/patch/passA_colorDenoise_bind.js",
+      "sourceSha256": "9bef5d5919b7f6adc59bddeb99f6a4dfc134786aa1fe3b16b659ea1f1a1969a4",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.path.stabilizer.from.src.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/path_stabilizer_from_src.js",
+      "sourceSha256": "545bd4e5556a61989981b38e455b2ebdfbd1aa0877d65b00a1792c8ffb2270fb",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.qmap.dk.bind.main.patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/qmap/dk_bind_main_patch.js",
+      "sourceSha256": "123b5de18ed4092e72b23fff09a3fd17525071fcc9ff158744c30292d863ea04",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.qmap.dk.fft.qmap.webgpu.v2.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/qmap/dk_fft_qmap_webgpu_v2.js",
+      "sourceSha256": "a90a209d4581ce6b3e4c6941e22c8e2338654c7430860504d928eb190cac37d0",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.reactordecision.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/reactorDecision.js",
+      "sourceSha256": "8691602f2f23e78dbb226e3e6bf6e5031af09e93a9626f41e511e0d4749d5d0d",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.shaders.wgsl",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/shaders.wgsl",
+      "sourceSha256": "ffb6f4e0856dfeab82df68b68dfd20cba869269ba1bec626c26426829ecf2959",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.utils.color.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/utils_color.js",
+      "sourceSha256": "6d5361cc27f4b2cd3e66b29b09f61ff1c5aa53167a6ed4700538aaa1591f4352",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.webgl2.view.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/webgl2_view.js",
+      "sourceSha256": "8891075f4d9c360bdc4ed5b660a723009fca64e210779cc24ac38190d82e4692",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.webgpu.depth.bake.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/webgpu_depth_bake.js",
+      "sourceSha256": "fb72b352b32676a3adc353d16c56a7d1feff3bc9c4ea0f1b61b82d9735f9f8a3",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.core.worker.p99.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/core/worker_p99.js",
+      "sourceSha256": "2adb23ffee5615a9c559d560dd0b514b122b08ef3ac2195a7e67dc76efc61593",
+      "ownerRootId": "dadum.legacy.core-bind_depth_pipeline.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.dadum.artifact.integration.patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_integration_patch.js",
+      "sourceSha256": "ea73bee924e63a48de9d0303647afd00c5b0aec1ca9dc9c53cb37bb79f0c139f",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_suppressor_bridge.js",
+      "sourceSha256": "6678c89afca058b9bd59785cfb7f6e4e935e40f53ad6035519171b7006569d56",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_suppressor.js",
+      "sourceSha256": "2751f810f25a3bbda8a11580ac3b9b0e1018d35445ebe8047277d9a3a5df3c03",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.dadum.artifact.suppressor.worker.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/dadum_artifact_suppressor_worker.js",
+      "sourceSha256": "8f9d2372c6c45b1f868175d1fcd8e742bae3edfbd9f0f86032ac91a92ff4a669",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.debug.tilemask.overlay.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/debug/tilemask_overlay.js",
+      "sourceSha256": "4a69c864baa92ca426b4aafcea540e4e21c2ad56566684607aeb171d3b6957a3",
+      "ownerRootId": "dadum.legacy.ui_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.alpha.hygiene.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/alpha_hygiene.js",
+      "sourceSha256": "1265d1310628a98f5570c1ed8b0bf946854423cea29f92ed52352e032dad4328",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.decode.jxl.surface.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/decode_jxl_surface.js",
+      "sourceSha256": "52d859de62fcb830d2d43fdf372b4a04bc921c83fa55956fef4725c0862203a9",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.decode.native.surface.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/decode_native_surface.js",
+      "sourceSha256": "ebbb1ccc16e75a534d4c90945f6a457d94b25aa95af30b790a2d196795eb3394",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.decode.psd.surface.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/decode_psd_surface.js",
+      "sourceSha256": "31c1ecb9882b2934b4ff262a439bec4d9cbef4050579a77b12daaddb208615e5",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.decoded.surface.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/decoded_surface.js",
+      "sourceSha256": "7c4b9bf03f861842730de370e1a111a45d8e79701444b46acaeab483c46effb2",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.decoder.registry.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/decoder_registry.js",
+      "sourceSha256": "f3d0803d30dfc4d38d5a4a554da3df0d6b686e94bd16671b4257b6a24ed3187c",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.psd.decode.worker.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/psd_decode_worker.js",
+      "sourceSha256": "435b1de01685b081ea83c4e21e1280394bd78ddf974551d4b70b8c7b6b9690a1",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.decoders.psd.worker.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/decoders/psd_worker_bridge.js",
+      "sourceSha256": "e78ea11b732d5da8c8fbadad94c3bc778e0d44ae1dba1f2c3ace8a94f32ecef7",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.edgekernel.glsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/edgeKernel.glsl",
+      "sourceSha256": "cc7f2209da4e7095e2282dc3b627a185202a3fbcd7ac38b877331fc012a07ef6",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.encodergbatojxl.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/encodeRGBAtoJXL.js",
+      "sourceSha256": "f55b7cacf0be0d518eb7e33e447ebcde975ab012b3cf69850b3b9e748bb3737f",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.export.autotune.jxl.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/export_autotune_jxl.mjs",
+      "sourceSha256": "e0422f12d58b01a3dfef6169274fcda3f0271d13d466e475328b10b8f9d025e2",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.jxl.bindings.mjs",
+      "kind": "worker-child",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/jxl_bindings.mjs",
+      "sourceSha256": "ed383c356823f11ec272c996b77cde7a5ddaae598cbd3bf8544854b48fdda91e",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.jxl.bindings.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/jxl_bindings.wasm",
+      "sourceSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.jxl.canonical.adapter.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/jxl-canonical-adapter.mjs",
+      "sourceSha256": "6a69dfae9dd78f8cc6cbb9ee567357055cfdf9e5f68b0541cf4506244876ec7b",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.jxl.child.worker.tracker.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/jxl-child-worker-tracker.mjs",
+      "sourceSha256": "59b306b8e2d9df7eacb5cb85bcd66d31e3bde71000621aadb92ec43f79112015",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.jxl.loader.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/jxl_loader.js",
+      "sourceSha256": "b9a709fd6daffd780c67bfdb3bec52c939d53cd08e83a0cb86b2725a877c4635",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.jxl.worker.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/jxl_worker.js",
+      "sourceSha256": "24640685ba2243725a07475710d1a6005ac30158b178ab33de8b196cb1c34409",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.libmodjpeg.wasm.mjs",
+      "kind": "worker-child",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/libmodjpeg_wasm.mjs",
+      "sourceSha256": "6c951106e5cc2b68b06b8f6290e448a892c2a31da017f3c5946f5fb7903b6166",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.lodepng.wasm.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/lodepng_wasm.mjs",
+      "sourceSha256": "cbad3219c3bda8d8196ec6f674addcc30dae880c4fdbcc3ff3db6c7a35cb4c60",
+      "ownerRootId": "dadum.worker.encoder.png-family-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.lodepng.wasm.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/lodepng_wasm.wasm",
+      "sourceSha256": "566f8893fd0f7379ddcf0902ee99dd3a8e2d17c4297079b9303ec6dd467de696",
+      "ownerRootId": "dadum.worker.encoder.png-family-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.modjpeg.canonical.adapter.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/modjpeg-canonical-adapter.mjs",
+      "sourceSha256": "a729f769fe3b6c86d0bac631d9ce4c0cfabd2f2becae110fe9283c7d559ae30d",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.modjpeg.child.worker.tracker.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/modjpeg-child-worker-tracker.mjs",
+      "sourceSha256": "cae2f4cb217f449b4fa4dd9e8e2b8efb860e9520a9a927773fc967b863768dd4",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.png.family.lode.bridge.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/png_family_lode_bridge.mjs",
+      "sourceSha256": "70ef2ab2b69bb817b41b5a57f08427e25552a1ee99087258a494750ba6290bdf",
+      "ownerRootId": "dadum.worker.encoder.png-family-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.webp.api.forced.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/webp_api_forced.js",
+      "sourceSha256": "f48a6ad46bbb4900bebe1bcf10f0dbdaf14c5d3e3bac95298267b55a53e57660",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.webp.api.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/webp_api.js",
+      "sourceSha256": "edb003498fb4b6363ced3636c8fce81e32d0fc5517d9491b5bb803e6b28b199f",
+      "ownerRootId": "dadum.worker.encoder.webp-lossless-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.encoders.webp.bindings.qmap.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/encoders/webp_bindings_qmap.mjs",
+      "sourceSha256": "716108e92b9ca074e0c4f3f16f847bfc3c34dd2778d5b1e409d11c9915959c5b",
+      "ownerRootId": "dadum.worker.encoder.webp-lossless-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.export.autotune.jxl.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/export_autotune_jxl.mjs",
+      "sourceSha256": "0de03ca374b87642a773e47d8d632dafc8a5e093cb5a01eaec45eb7ea5a1567a",
+      "ownerRootId": "dadum.legacy.renderer.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.export.kwebp.patched.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/export_kwebp_PATCHED.js",
+      "sourceSha256": "7584fca0a06a77e54f8b392ea3a874e545c3c8ab48c9b89750c6368b8d108414",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.export.pipeline.patch.qcoupled.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/export_pipeline_patch_qcoupled.js",
+      "sourceSha256": "38a6302db03ba0b793c6016951eb67e62cc15bd45fabea9b51b18e616ca8e83a",
+      "ownerRootId": "dadum.legacy.index-inline-02.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.export.unified.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/export-unified.js",
+      "sourceSha256": "03a533095fc4d9d3355e285d3d4bb045f4580937b2385b27960eed1970012ffb",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.export.webp.near.adaptive.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/export_webp_near_adaptive.js",
+      "sourceSha256": "9773e991075db52ad429cefa414ea5fd908f8f4b2304b206d9cceb0c167a877f",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.filters.awb.auto.deltaek.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/filters/awb_auto_deltaEK.js",
+      "sourceSha256": "e11b0eb7a937c8ecdd0549c133c016fe87d3bd53b2a8ed12cc1c49e9bca73b86",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.filters.awb.inject.helper.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/filters/awb_inject_helper.js",
+      "sourceSha256": "568cbc40ac16380c2a85128d9340d691e17f216441d7b88eff9fd05978e4f25a",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.filterworker.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/filterWorker.js",
+      "sourceSha256": "000850ec72899511f7c6236f08d3413107cae768cbf143749ca256610955a7e8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.finalize.pass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/finalize_pass.js",
+      "sourceSha256": "29e00e828eec22252bbbdaf30d3426b3a47985d4e93097e3f80cdecac7bc0baf",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gaborbank.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gaborBank.js",
+      "sourceSha256": "c5ee6356e86e86f27eca47bf5d9813f5536d53c891a45c7ea9c949baf9035f41",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.generateqmap.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/generateQMap.js",
+      "sourceSha256": "c4f7a1cb23015fd92c49422459ca5d8e890bca6f581ea480c181bcda8467f775",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gl.curvesafe.downscale.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gl/curvesafe_downscale.js",
+      "sourceSha256": "d994687854902b6be8705b3284b03333b17e0df6ded7a0e48b399c9f1d62bb83",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gl.fastlane.patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gl_fastlane_patch.js",
+      "sourceSha256": "04f6f6fdda56100aca5804130bf2d4d5b3d98d74d5a085e0f41789b2b36b1bd6",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gl.getcontext.patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gl_getcontext_patch.js",
+      "sourceSha256": "9d85ebc486778d7e9fb55192958192c88d3089bdd4ebe1b16614e37225da8a33",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gl.qmap.tensor.from.cpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gl/qmap_tensor_from_cpu.js",
+      "sourceSha256": "92b8c5ac39639656f7f2590730c916cafae46599014406be5a54075b6f2c228d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gl.qtensor.from.qmap.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gl/qtensor_from_qmap.js",
+      "sourceSha256": "555f94e809e471efcc499e4ac27df8ac04393453bfad377e35694b04451f2f6c",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.gl.state.trim.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/gl_state_trim.js",
+      "sourceSha256": "b69a86971ba64c79e288779f46a8ede4ee970c84451ab735c0a5812f0715a3a3",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.glsl.util.glsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/glsl_util.glsl",
+      "sourceSha256": "410558cb4697e8e692e0321b1376d690725be582badb99d85e39e3ae830905c1",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.export.capture.ssot.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/export_capture_ssot.js",
+      "sourceSha256": "b7c15011a2c5e32b47c0838e871fd2d50b750da76984eb3412a629a19316cde6",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.export.download.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/export_download_bridge.js",
+      "sourceSha256": "69b36b56884983e73b398801256b149e9b99d304732ba99e213e84ec3a10b4b5",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.export.surface.ssot.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/export_surface_ssot.js",
+      "sourceSha256": "8bbcbbcf9fcdce4b5ed45d80bf29a8777deeeaa4cd135b7c645d5ed7559399bc",
+      "ownerRootId": "dadum.legacy.export_manager.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.filtered.surface.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/filtered_surface_bridge.js",
+      "sourceSha256": "3e0a33cf044b838d26b76675fd18df731972603720d9aa5771d52e31638892e6",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.offscreen.surface.ssot.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/offscreen_surface_ssot.js",
+      "sourceSha256": "42c1da5d9a20b97dac166764ba4dabeda16986821ad2447f814ffa2cf7500dc9",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.source.surface.state.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/source_surface_state.js",
+      "sourceSha256": "aae0ac7f8a910f0598406f8d364454c9050f527199b8fadbde6f9ed0c8da5b13",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.webgpu.preview.presenter.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/webgpu_preview_presenter.js",
+      "sourceSha256": "3d93567a568cc89a83e86ae6baa7bd5cf9740e900d0d24a392dc318a726430d5",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.input.webgpu.source.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/input/webgpu_source_bridge.js",
+      "sourceSha256": "7250613f917d54914562e684f082f26b582f2a74d5b4fda84e10d327156c0598",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.integrateintodadumdadum.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/integrateIntoDadumdadum.js",
+      "sourceSha256": "3601a34b558b1ba185de2800cf42c285df43c08e40740fcc73eb65d0eff1eb52",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.blendif.blendif.schema.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/blendif/blendif_schema.js",
+      "sourceSha256": "1b2b2c13d1a62b6d6a4e7b6b9ef0fb8b9b6dcef2b5e8d44dbe673b7e18a5adc0",
+      "ownerRootId": "dadum.legacy.blendif_ui.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.install.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_install.js",
+      "sourceSha256": "c961154b3f3e36f74dd0aa727d7f4135d7ef7e1e4bb5b87ae1fcc3f480d9fcca",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.jxl.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_jxl.js",
+      "sourceSha256": "fd8de881bff61f8fe3d8ebd931b88a29779ad31c0186c85814ade129639c642d",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.png.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_png.js",
+      "sourceSha256": "bf4eefff48d2c7e9d531a3e6ce2a1a603eda0d69df62c56002aeb1842257836d",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.export.wgpu.export.webp.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/export/wgpu_export_webp.js",
+      "sourceSha256": "30c25d289d4d6acd333ecdc11d32f07d5dfba915880b99319ed72f004640111a",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.modules.artifactclean.presets.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/modules/artifactClean.presets.js",
+      "sourceSha256": "ad1effb24ef4fda549baeadee8632464466d1cf6ca1d37d35b4f94a8f613b08e",
+      "ownerRootId": "dadum.legacy.ac_wire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.modules.artifactcleanpass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/modules/artifactCleanPass.js",
+      "sourceSha256": "c3e07d983d29b8e34dc6d4b8732c8639d07125723ce77a8b9463213ed836ae24",
+      "ownerRootId": "dadum.legacy.ac_wire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.attach.adaptive.sharpen.pass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/attach_adaptive_sharpen_pass.js",
+      "sourceSha256": "5822f9ef92c5d7872d8bc65db0dd9ed1920b061a03db1e9b1eccbf83c45d8345",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.attach.qwave.bake.pass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/attach_qwave_bake_pass.js",
+      "sourceSha256": "ad6f70f67b9dce053954098b842bb1a0cc94659f6a815505ded4ba796a106d68",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.blendif.webgpu.pass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/blendif_webgpu_pass.js",
+      "sourceSha256": "dbf2e18792d537edb38dda84823ac07bd10de53d2655eaeeae309edacf892e79",
+      "ownerRootId": "dadum.legacy.wire_blendif_hook.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.blendif.webgpu.wgsl.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/blendif_webgpu_wgsl.js",
+      "sourceSha256": "64ed41cd7b8459bb44275565367e27603dd89fef3482269395d3465d20449886",
+      "ownerRootId": "dadum.legacy.wire_blendif_hook.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.blit.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/blit_webgpu.js",
+      "sourceSha256": "bf08e6b32159abf2342b2b651f67fb113b145e844e8501f982ebfbc1d80c35ca",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.dk.after.final.color.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_after_final_color_webgpu.js",
+      "sourceSha256": "e79406d00d33bb01720ad995e69adffbe3ea49ac7324c822fa2464f0dd7543cb",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.dk.builder.webgpu.compute.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/dk_builder_webgpu_compute.js",
+      "sourceSha256": "942e9ffc6e4fb95bc05f40851463a38c7e177ebe78ff3e7dffdd8d59ef4283e9",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.present.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/present_webgpu.js",
+      "sourceSha256": "ab49829547ad83a85084d6857afc4a1681efe6cd82b65e7de0f02e32f389a55f",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.qwave.builder.webgpu.compute.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "sourceSha256": "dd54ff8b59af0424619d68899dfd738233bae67fb68adedf72f27c782eefb182",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.qwave.warp.webgpu.pass.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/qwave_warp_webgpu_pass.js",
+      "sourceSha256": "b069a32c69e15b502e433748fbee87f3ec41cd85ebe6313e9d1f2890ca489a8e",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.qwave.warp.webgpu.wgsl.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/qwave_warp_webgpu_wgsl.js",
+      "sourceSha256": "9895d12eb6f929abbd98577a3509f3fd2e64c9a2cec1b43078272f5d9f627730",
+      "ownerRootId": "dadum.legacy.js-passes-dk_sharpen_bootstrap.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.passes.upgrade.pipeline.to.webgpu.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/passes/upgrade_pipeline_to_webgpu.js",
+      "sourceSha256": "0be27204863558adf5e5c5dddaad007746c093796c24843a1fed42245c5f5fab",
+      "ownerRootId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.pipeline.downscale.curvesafe.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/pipeline.downscale.curvesafe.js",
+      "sourceSha256": "0206cf5a8aa3c96c10f15a0102c543dee74a86a9f391536dbed2a4560610b30d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.js.ui.artifactcleanpanel.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/js/ui/artifactCleanPanel.js",
+      "sourceSha256": "974c86e82076d3ed1dec107a67dd0b60fbc2c1ffded1ce7bb06d7aae06232121",
+      "ownerRootId": "dadum.legacy.ac_wire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.icms.little.icms.little.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icms_little.js",
+      "sourceSha256": "bee19fa72b1c471e1238b176dfaf802fedd07a8901bb8e18d22b4ed67a5feada",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.icms.little.icms.little.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icms_little.wasm",
+      "sourceSha256": "557e2ee4708ed9fa834f32152600127c8ddc64de352c80199a2a3879d12edd37",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.icms.little.icmslittlebridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icmsLittleBridge.js",
+      "sourceSha256": "dce93a033d506cf2d675632e21cb3d06f66032e2d25e4bbdb9c661c8931e8e20",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.icms.little.icmslittleloader.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/icms_little/icmsLittleLoader.js",
+      "sourceSha256": "be69229c43c8c3f0636a4efd008d6a6fd380f3aa5844fd176b3e603e176de044",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.lcms.cmyk.view.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/lcms/cmyk_view.js",
+      "sourceSha256": "77b2d62fa8cf8564d08194f394842bd815af603ab286859b2b5675c5be085394",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.lcms.lcms.icmsa.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/lcms/lcms_icmsA.mjs",
+      "sourceSha256": "c387a706008c06f0ae9b6ea48335f9435323836e6c5a22052956a4fd4d257b65",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.lcms.lcms.icmsa.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/lcms/lcms_icmsA.wasm",
+      "sourceSha256": "65eb2ea60f1d61aea14978b4b631bd2bcdf188e3c0a1b25d2af612f5b745699e",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.lcms.lcmsloader.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/lcms/lcmsLoader.js",
+      "sourceSha256": "e3b9e15ab9ea903744131a40f4bb153d8a09b28ae2f58126025a9f55e790079e",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.psd.pkg.v2.psd.exporter.wasm.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/psd/pkg-v2/psd_exporter_wasm.js",
+      "sourceSha256": "db88c6dc27e74d4507a71d4735b08511a2d627e2b6b446b9c58d3d3893a0de16",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.psd.psd.export.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/psd/psd_export_bridge.js",
+      "sourceSha256": "381908cfde035f635c4268a8b93d20de05913e453689e3d5e3fc3d69f7000dac",
+      "ownerRootId": "dadum.legacy.export_manager.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.libs.psd.request.codec.v2.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/libs/psd/request-codec-v2.js",
+      "sourceSha256": "bfd625e39b5a5c5a49c36285c9c3180d6edafed17c9f49e177a982fcf5a7cb69",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.metadata.resolution.ssot.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/metadata/resolution_ssot.js",
+      "sourceSha256": "633a954ad271f01952ee6e2cb096b01824a50c24fa58fc50805e0b60a2edf909",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.modules.dk.resample.export.wgsl.downscale.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "sourceSha256": "2e34a0423f3065d0d9828661f816b63ccbe2c22f0478d2221eabeb0c6b80aa7f",
+      "ownerRootId": "dadum.legacy.resize_export_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.modules.dk.resample.shaders.export.ewa.lowpass.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/modules/dk_resample/shaders/export_ewa_lowpass.wgsl",
+      "sourceSha256": "3a4f788db3793ea98de2b4228e9220b15229eb731adc202062e3d3cc369ac029",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.modules.dk.resample.shaders.export.ewa.recompose.linear.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/modules/dk_resample/shaders/export_ewa_recompose_linear.wgsl",
+      "sourceSha256": "941885d39505ed6c830d0d8926509472b95604315a1b5a51562374043f161faf",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.modules.dk.resample.shaders.export.ewa.recompose.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/modules/dk_resample/shaders/export_ewa_recompose.wgsl",
+      "sourceSha256": "0ee118825690f13c27539649df0e528f3131488fd3a4ffefd2f6b84163343970",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.native.native.decode.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/native/native_decode_bridge.js",
+      "sourceSha256": "6d2f85eb8c898cce23463771f0a4e4fb76a74f4688f68a50e73219dcc0ccb2ed",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.noink.qmap.render.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/noink_qmap_render.js",
+      "sourceSha256": "1788574ee1857bc98ab8672ab11f380bab6c654379a00000d768a0c7e83ca1d9",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.export.pipeline.patch.qcoupled.plus.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/export_pipeline_patch_qcoupled_plus.js",
+      "sourceSha256": "38aa5494901cc09e9c5d9c677277040eee52785b12fa51013a02a682c4a652b7",
+      "ownerRootId": "dadum.legacy.index-inline-03.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.export.pipeline.zero.fullencode.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/export_pipeline_zero_fullencode.js",
+      "sourceSha256": "9a33e5e5b88310b1694af9024074a2473d61ca5d6c2d59db205b0e81ce36f5c9",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.export.qsampler.reduce.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/export_qsampler_reduce.js",
+      "sourceSha256": "0609dd5713b75b67a66d584f6c0ee35e942c7423efa9e2a68690e131b6f3f7d8",
+      "ownerRootId": "dadum.legacy.index-inline-03.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.lab.delta.sampler.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/lab_delta_sampler.js",
+      "sourceSha256": "473598637448fd85416d9fbe31025121eac032e28b25e67a89e22007539c24d4",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.map.quality.curves.pro.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/map_quality_curves_pro.js",
+      "sourceSha256": "718db5767f70f4a5c217e1a35b184b87bb68259405e1cf93413b65cedf2fb49b",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.save.savepng16.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/save/savePNG16.js",
+      "sourceSha256": "9913baf2fc4accda21ad667d5df4bbb00438ca6c5bac658826c7c285014a52e4",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patch.zero.copy.pool.fullencode.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patch/zero_copy_pool_fullencode.js",
+      "sourceSha256": "63b67a3780ecce365f2ad32b68ad167d72155e496552fc54d3958aae511be5dd",
+      "ownerRootId": "dadum.legacy.index-inline-01.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patches.gl2.squeeze.gl2.pbo.reader.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches_gl2_squeeze/gl2_pbo_reader.js",
+      "sourceSha256": "7fea06c2cb899eae905701be35460312c048513d65c91783b5c2e543ccc03ba4",
+      "ownerRootId": "dadum.legacy.patches_gl2_squeeze-gl2_squeeze_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patches.patches.integration.snippets.psi.pipeline.patch.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches/patches/integration_snippets/psi_pipeline_patch.js",
+      "sourceSha256": "3c82b8a963a3d7a8680f3ee1c7c40c6ebe957d51208eeb3d47f6f97d37273dd2",
+      "ownerRootId": "dadum.legacy.patches-ash_engine_orchestrator.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.patches.patches.integration.snippets.use.adaptive.policy.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/patches/patches/integration_snippets/use_adaptive_policy.js",
+      "sourceSha256": "ebad3cf6137d1f3eb99405bd7ec2243a82bfccc9c7f6214909781cf81279dff7",
+      "ownerRootId": "dadum.legacy.patches-ash_engine_orchestrator.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.qwave.qwave.system.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/qwave/qwave_system.js",
+      "sourceSha256": "f86ed74ed1cd222a73ee25b35833cabf7c362c321c7e9fd62d27516dc7d1bfb2",
+      "ownerRootId": "dadum.legacy.qwave-qwave_boot.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.rinne.bakemono.fusion.frag.glsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/rinne_bakemono_fusion_frag.glsl",
+      "sourceSha256": "b783fa50044e31255a97038f60e8d89caa4aad17f03d3ba5715258db1719ef40",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.rinne.colorcycle.frag.glsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/rinne_colorcycle_frag.glsl",
+      "sourceSha256": "20e7f69b1db971cd0efd6df9a8fe7e18eb5dab7a6f41bd4795d6e27125c01a0d",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.save.savepng16.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/save/savePNG16.js",
+      "sourceSha256": "a003e4535cf1d3981b60c511db58bd8b400ba94b217753f494b32055cd78c804",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.save.upng.16bit.wrapper.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/save/upng-16bit-wrapper.js",
+      "sourceSha256": "e85a4328b5bef61e10d25adafe2903f35531f9e465f2dc66d1fdc54aacda6e9a",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.scripts.encoder.webp.enc.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/scripts/encoder/webp_enc.wasm",
+      "sourceSha256": "cd5d4935a48c0672cb06407bb443bc0087aff947c6b864bac886982c73b3027f",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.tensorqmapmodule.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/tensorQmapModule.js",
+      "sourceSha256": "3cdb2cdf2b3dbd8e3a96c9e30ee09c4585cbeca1812b93e30e02b279f994f399",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.tex.upload.hints.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/tex_upload_hints.js",
+      "sourceSha256": "2202534991010c05498ac93a9ba968d144e2beb50fc2b0279676b640bd3da824",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.tile.encoder.worker.qaware.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/tile_encoder_worker_qaware.js",
+      "sourceSha256": "44f99e3643d0c4127ad8b7c86175a24b0f12dbc69e673b5504e6d170e038b234",
+      "ownerRootId": "dadum.legacy.index-inline-02.mjs"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.utils.readpixels.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/utils/readPixels.js",
+      "sourceSha256": "c2c527ad9fa05ee1a588708d65682af02f11545380bb02e60f136583281fbc59",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.decode.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_decode.js",
+      "sourceSha256": "f620ce4dfc3a136b9ac63ac770874b2214c241604d650249c02408870c1b0f7e",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.wgpu.bridge.bg.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge_bg.wasm",
+      "sourceSha256": "0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.jxl.wgpu.bridge.jxl.wgpu.bridge.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge.js",
+      "sourceSha256": "28e848c7503e29286db47827819402363990f82d3574ba7451b3a62c8b8ca8b2",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.psd.psd.core.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/psd/psd_core.mjs",
+      "sourceSha256": "fd40e6650b00225e033ace87a938c6c9fa0cbec3edce7aa448ba79f323df67a7",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.psd.psd.core.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/psd/psd_core.wasm",
+      "sourceSha256": "7acf14e838c63d6ede977e756d2ea643c856f14a7a6c4d28175ada1aeb14984b",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.upng.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/UPNG.js",
+      "sourceSha256": "5e832eab114e1b174520a1e138a10918e551e1301af3e6ff4f96b0a1169c13e9",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.vendor.upng16.upng.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/vendor/upng16/UPNG.js",
+      "sourceSha256": "5e832eab114e1b174520a1e138a10918e551e1301af3e6ff4f96b0a1169c13e9",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.wasm.libmodjpeg.wasm.wasm",
+      "kind": "wasm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/wasm/libmodjpeg_wasm.wasm",
+      "sourceSha256": "6f669d33e1d7f47f95ca14c4562bbb55985942f5c43a01521aeb6f01dd2e0a14",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.webglutils.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/webglUtils.js",
+      "sourceSha256": "557535752c9820fe9e3814f6d8f7d7ddacbdb972442c13ca6b56c37882e953d6",
+      "ownerRootId": "dadum.legacy.EmotionPipeline_CURVED_DEARTIFACT_PATCH.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.webgpu.runtime.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/webgpu_runtime.js",
+      "sourceSha256": "364dbd001b933812479d3db5f77e2c2466074663bd0a14360824f0e06ee5b185",
+      "ownerRootId": "dadum.legacy.js-passes-dk_afterfinal_wgpu_wire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.webp.enc.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/webp_enc.js",
+      "sourceSha256": "dd5676d6f238eaccc39341d92a92b815d308852fa6b01ce08f50e1ba51c5c41d",
+      "ownerRootId": "dadum.legacy.js-passes-dk_autowire.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.worker.codecs.jxl.canonical.handler.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/worker-codecs/jxl-canonical-handler.mjs",
+      "sourceSha256": "e43f0183a97c16b56cfc0482c2509e3a118c8cb3f763ec00e0697821d667f33f",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.worker.codecs.modjpeg.canonical.handler.mjs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/worker-codecs/modjpeg-canonical-handler.mjs",
+      "sourceSha256": "100a923f757fd621ae92673f9c69051ff6f2c07e4e35a15ccf7f40b473740fc8",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.worker.codecs.png.family.handler.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/worker-codecs/png-family-handler.js",
+      "sourceSha256": "453e137d8435177fd3847fe73117f7292b88a0b2771de269af58bc57ae75fb18",
+      "ownerRootId": "dadum.worker.encoder.png-family-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.worker.codecs.psd.canonical.handler.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/worker-codecs/psd-canonical-handler.js",
+      "sourceSha256": "55f48b4f0f68dea6d7516d71579ee2f48d0f8adb18bdd99e18aae343a66c2eb2",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.worker.codecs.psd.structure.verifier.v2.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/worker-codecs/psd-structure-verifier-v2.js",
+      "sourceSha256": "c690b5814abf313dd7114bb5d72fac74ea116fae7895fb2fda8f6ab796e33edf",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.worker.codecs.webp.lossless.handler.js",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/worker-codecs/webp-lossless-handler.js",
+      "sourceSha256": "0143f9cd772aaa4f9e3ad8fff03b5e75b0a4f3e79aca14bcc5d3da2ce265863f",
+      "ownerRootId": "dadum.worker.encoder.webp-lossless-v1"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.workers.ashworkerhandle.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/workers/ashWorkerHandle.js",
+      "sourceSha256": "6c6035b8813359b8d7d1cad3eaee858e82b1db29e89c4f37ac71aca1314b6b0b",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.workers.lcmsworker.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/workers/lcmsWorker.js",
+      "sourceSha256": "ceb0d14baa67ea883f8643ed6e4bebc758544d1b5b5ae327e04e6684f330d4fd",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.workers.lcmsworkerclient.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/workers/lcmsWorkerClient.js",
+      "sourceSha256": "a841fa84e68411af3c485653225312ef04452aba523bbd4aa765e816f61a9c0e",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.legacy.runtime.workers.workerrpc.js",
+      "kind": "classic-script",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/legacy-runtime/workers/workerRpc.js",
+      "sourceSha256": "6b062ae6630aabf93f6a53f9f99b31b268b3f380a04d70a36314fa5b05ce597e",
+      "ownerRootId": "dadum.legacy.image_input_bind.js"
+    },
+    {
+      "nodeId": "dadum.node.native.psd.exporter.wasm.v2.cargo.toml",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "native/psd-exporter-wasm-v2/Cargo.toml",
+      "sourceSha256": "ff2c837131855d9ee363d223baaafd5f61acc9d0c422295d242e7f5d2505b6fb",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.native.psd.exporter.wasm.v2.src.lib.rs",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "native/psd-exporter-wasm-v2/src/lib.rs",
+      "sourceSha256": "997289ac84a40553445dd14e8b0fa8e2145601531bcbff98048636e34883e389",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.compare.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-compare.wgsl",
+      "sourceSha256": "1ed9e4f9e349a93cfcc7a0497cd0c8a0cf9dfb6d8d594bf40b2a7f1760da274e",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.fixture.generator.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-fixture-generator.wgsl",
+      "sourceSha256": "3395bc3367aa810295116f73f0b8de170dd561aa3394978339c6e188d6cbe97a",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.materialize.window.batch.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-materialize-window-batch.wgsl",
+      "sourceSha256": "a1871dc211bfc3782b21e3a193899e594a89e91fc34bfa2348adb6b1e6d36a75",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.page.table.validate.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-page-table-validate.wgsl",
+      "sourceSha256": "7ebdb46974979f65e03e28905fe7f9f05318bbd9a034ff66aaf0a327b0620f96",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.analysis.atlas.shaders.tile.atlas.reference.copy.wgsl",
+      "kind": "shader-glsl",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/analysis/atlas/shaders/tile-atlas-reference-copy.wgsl",
+      "sourceSha256": "9f8d6c39b74f0b64c0ec54b6cfd11dad9d40efc02eef7575dbba2988cf4328f8",
+      "ownerRootId": "dadum.legacy.main.js"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.codecs.jpeg.jpeg.encode.plan.v1.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/codecs/jpeg/jpeg-encode-plan-v1.ts",
+      "sourceSha256": "8796cb269bbe786579938127673364f39d0991811c32a4f83132579c71a33d60",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.codecs.jpeg.jpeg.structure.verifier.v2.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/codecs/jpeg/jpeg-structure-verifier-v2.ts",
+      "sourceSha256": "88d02297a129b947c1d5fb9b8ed825e42b4d0c8081c2f4c70ee144188540571c",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.codecs.jxl.jxl.structure.verifier.v2.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/codecs/jxl/jxl-structure-verifier-v2.ts",
+      "sourceSha256": "93aa8201b73f759d47057f466d0deb9f8cba0569d5692c6e03fbca7dd4330163",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.workers.entries.jxl.canonical.worker.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/jxl-canonical.worker.ts",
+      "sourceSha256": "a8e77f90b3150a40af40034407b94eaae9cad10a5a862e33da9d1077b71fca32",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.workers.entries.modjpeg.canonical.worker.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/modjpeg-canonical.worker.ts",
+      "sourceSha256": "2c6b6a53973c272f403432cbe81cacc09889b3130cb61af87588966c302042b5",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.workers.entries.png.family.worker.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/png-family.worker.ts",
+      "sourceSha256": "476fe6067584be5b284ee5ec0cb0d8d64c22e97c529245ec4c6bad0a76a0efd9",
+      "ownerRootId": "dadum.worker.encoder.png-family-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.workers.entries.psd.canonical.worker.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/psd-canonical.worker.ts",
+      "sourceSha256": "c17d7b58f6b4872ac10b31bad6d5af59c8cba4bd107d4fad06607fb50e27e6ba",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.workers.entries.webp.lossless.worker.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/webp-lossless.worker.ts",
+      "sourceSha256": "e665a823e4693c1518663a57e8b883be911de6f89675f7bf2857b73e6ddf76e1",
+      "ownerRootId": "dadum.worker.encoder.webp-lossless-v1"
+    },
+    {
+      "nodeId": "dadum.node.src.runtime.workers.worker.entry.runtime.ts",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/worker-entry-runtime.ts",
+      "sourceSha256": "9795cc8872a89f9bd412f51d6b1e36ba021aeb9f879e064a9feadc6460f8a187",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.renderer.entry",
+      "kind": "esm-module",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/main.ts",
+      "sourceSha256": "f096ccd227651d8d1560f254bc0faabfb33ba7f83dd9d129584af81b8a0f413e",
+      "ownerRootId": "dadum.renderer.entry"
+    },
+    {
+      "nodeId": "dadum.worker.encoder.jxl-canonical-v1",
+      "kind": "worker-entry",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/jxl-canonical.worker.ts",
+      "sourceSha256": "a8e77f90b3150a40af40034407b94eaae9cad10a5a862e33da9d1077b71fca32",
+      "ownerRootId": "dadum.worker.encoder.jxl-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.worker.encoder.modjpeg-canonical-v1",
+      "kind": "worker-entry",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/modjpeg-canonical.worker.ts",
+      "sourceSha256": "2c6b6a53973c272f403432cbe81cacc09889b3130cb61af87588966c302042b5",
+      "ownerRootId": "dadum.worker.encoder.modjpeg-canonical-v1"
+    },
+    {
+      "nodeId": "dadum.worker.encoder.png-family-v1",
+      "kind": "worker-entry",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/png-family.worker.ts",
+      "sourceSha256": "476fe6067584be5b284ee5ec0cb0d8d64c22e97c529245ec4c6bad0a76a0efd9",
+      "ownerRootId": "dadum.worker.encoder.png-family-v1"
+    },
+    {
+      "nodeId": "dadum.worker.encoder.psd-canonical-v2",
+      "kind": "worker-entry",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/psd-canonical.worker.ts",
+      "sourceSha256": "c17d7b58f6b4872ac10b31bad6d5af59c8cba4bd107d4fad06607fb50e27e6ba",
+      "ownerRootId": "dadum.worker.encoder.psd-canonical-v2"
+    },
+    {
+      "nodeId": "dadum.worker.encoder.webp-lossless-v1",
+      "kind": "worker-entry",
+      "status": "ACTIVE_REQUIRED",
+      "sourceRelative": "app/src/runtime/workers/entries/webp-lossless.worker.ts",
+      "sourceSha256": "e665a823e4693c1518663a57e8b883be911de6f89675f7bf2857b73e6ddf76e1",
+      "ownerRootId": "dadum.worker.encoder.webp-lossless-v1"
+    }
+  ],
+  "digest": "77d6b531a3836f6830110a17a7ed1b5a6bad4f3e45a5686a28702b4f48e0a532"
+}

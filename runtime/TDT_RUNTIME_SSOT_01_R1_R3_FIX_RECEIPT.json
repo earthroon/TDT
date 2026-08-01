@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R1",
+  "revisionId": "TDT-RUNTIME-SSOT-01-R1-R3",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "6d013ca3438448f90edee28e",
+  "authority": {
+    "viteEntry": "/src/main.ts",
+    "piniaSerializableStateOnly": true,
+    "runtimeServiceIsolation": true,
+    "globalRegistryPolicy": "inventory-only",
+    "globalWriteAdmission": "record.declaredGlobalWrites-only",
+    "moduleGraphOwnership": "static-import-graph",
+    "unicodeIdentifierGrammar": "ECMAScript-ID_Start-ID_Continue"
+  },
+  "counts": {
+    "legacyRootScripts": 50,
+    "legacyGlobalInventory": 1994,
+    "runtimeModules": 13,
+    "runtimeServices": 12,
+    "receiptParityRuns": 100,
+    "typescriptSyntaxUnits": 48,
+    "stableErrorCodesReferenced": 29,
+    "stableErrorCodesDeclared": 29
+  },
+  "repairedOwnership": {
+    "moduleId": "dadum.legacy.index-inline-01.mjs",
+    "exactGlobal": "__ΔK_webpLazyInit",
+    "exactDeclared": true,
+    "truncatedPrefixPresent": false,
+    "scope": "static-module-graph",
+    "mainStaticGraphDeltaKCoreDeclared": true
+  },
+  "digests": {
+    "sourceGraphSha256": "175017797f069c2e324fc3dd14dc40b444be0d68c8edb8e7c9ede9e257959a15",
+    "legacyManifestSha256": "c6dc5b5ed9d483491e6ea6d97477a213aa1bc2f11564db6e419180649feb35ef",
+    "runtimePlanSha256": "66ca69474f05b7e58183befa6bf7e2936d7a00f264f0516524420c269f78f32a",
+    "servicePlanSha256": "4b63dde751b530af9ff4b1b0525ead2676fe78dd9a1d672b98e76cb62903518f",
+    "runtimeManifestSelfSha256": "add49fcd20fa784b0e7bddcbb726fa4ad550e637732181220616464c48beff5e",
+    "generatorSha256": "845aba06315d006b037c0dd3fdc62b94e581885d694e96ef66372d01530bad89",
+    "adapterSha256": "f60c7f4c5615da5ab1fbf38074306969afe2e85d2fc8631ccc3fc1af35d8039d",
+    "legacyManifestFileSha256": "c6dc5b5ed9d483491e6ea6d97477a213aa1bc2f11564db6e419180649feb35ef",
+    "appliedReadmeSha256": "1e5873d290237e5d6906629e30f880091a3d918ce96450c9165f94826ca9da2c",
+    "verifyReportSha256": "96ab0ad5b716cd0dd3bf1fc4c60c9a4e4c3a819b2dd855516b4766402b3c914b",
+    "vueTscAttemptSha256": "5c0db149098600884755052733adeaf74448883e76f1e3d117645e57c9ca1fcf",
+    "viteBuildAttemptSha256": "b646a51a4f10a7ee2e00eeec3da3ce00fb8d55bd3c30041168080941f19dbbd8"
+  },
+  "receiptParityDigest": "cfe396e1735d70dccd7dd78ce09cafe93ebbb75113f87561fb52acad5c92200c",
+  "gates": [
+    {
+      "id": "GATE-R1-01",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-02",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-06",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-07",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-08",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-11",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R3-GLOBAL-OWNERSHIP",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R2-DIAG",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-15",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-17",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-20",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-TS-PARSE",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-ERROR-CODE",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-LOCK",
+      "result": "BLOCKED"
+    },
+    {
+      "id": "GATE-R1-VUE-TSC",
+      "result": "BLOCKED"
+    },
+    {
+      "id": "GATE-R1-VITE-BUILD",
+      "result": "BLOCKED"
+    },
+    {
+      "id": "GATE-R1-ELECTRON-SMOKE",
+      "result": "NOT_RUN"
+    }
+  ],
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R3_UNICODE_GLOBAL_IDENTITY_STATIC_MODULE_GRAPH_OWNERSHIP_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "abcba899834763abef9cd16e956f5900d1b7832774705ab28852fa3344f96e49"
+}

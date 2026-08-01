@@ -1,0 +1,11 @@
+{
+  "historicalPassCarryForward": 0,
+  "packagedPhysicalExecuted": false,
+  "parentBundleSha256": "4b9414a4edc5aed983879eec21cd003833e917ece83b452d658a5727ef677eb7",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1",
+  "physicalGateCount": 480,
+  "schemaVersion": 1,
+  "selfSha256": "539923b072d36b64fe3bdee35ab8944d7665b9dca5ad87618a092dc6d8bdd45f",
+  "sourceGateCount": 360,
+  "state": "RESAMPLE_RUNTIME_R9A_P1_PACKAGED_PRODUCT_GRAPH_INSTRUMENTATION_SOURCE_SEALED_AWAITING_BUILD_LOCK_R2_WIN32_AND_PHYSICAL_GPU"
+}

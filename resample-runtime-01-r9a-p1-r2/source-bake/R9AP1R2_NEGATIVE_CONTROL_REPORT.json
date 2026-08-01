@@ -1,0 +1,219 @@
+{
+  "failCount": 0,
+  "passCount": 42,
+  "receiptKind": "r9a-p1-r2-negative-controls",
+  "schemaVersion": 1,
+  "selfSha256": "e96b27dfb6d1eb717a874389fda91778da855782967e8445e5eecd743defc9a7",
+  "tests": [
+    {
+      "evidence": true,
+      "id": "NC01-BASE-POLICY-ONE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC02-EXACT-THREE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC03-NO-RUNNER-DESTROY",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC04-HOLDER-OWNS-LOSS",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC05-OLD-PIPE-DISPOSE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC06-FINAL-REVOKE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC07-EXPORT-PIN-ASSERT",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC08-PERMIT-CONSUME",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC09-FOURTH-LOSS",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC10-STALE-LEASE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC11-OLD-SURFACE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC12-SAME-COMPOSITION",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC13-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC14-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC15-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC16-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC17-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC18-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC19-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC20-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC21-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC22-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC23-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC24-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC25-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC26-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC27-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC28-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC29-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC30-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC31-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC32-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC33-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC34-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC35-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC36-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC37-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC38-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC39-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC40-FAIL-CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC41-PERMIT-WRONG-ORDER",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "NC42-PERMIT-REPLAY",
+      "status": "PASS"
+    }
+  ]
+}

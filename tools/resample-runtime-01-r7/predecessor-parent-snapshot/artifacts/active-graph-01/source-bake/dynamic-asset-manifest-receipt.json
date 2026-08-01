@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "manifestRelative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+  "manifestDigest": "09824079ffa01920393cac7214cd8690d3a2064c329fd7225701396df01a81af",
+  "assetCount": 84,
+  "missingAssetCount": 0,
+  "externalNetworkAssetCount": 0,
+  "receiptDigest": "530b0b8fb0e054fefd218b511595eb64e048cac9846d006834f0595a1ceecc2c"
+}

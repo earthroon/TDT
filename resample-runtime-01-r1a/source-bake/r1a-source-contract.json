@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1A",
+  "pass": true,
+  "counts": {
+    "pass": 40,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "RA1A-01",
+      "pass": true,
+      "message": "spec identity",
+      "detail": null
+    },
+    {
+      "id": "RA1A-02",
+      "pass": true,
+      "message": "facade paths preserved",
+      "detail": null
+    },
+    {
+      "id": "RA1A-03",
+      "pass": true,
+      "message": "exports preserved",
+      "detail": null
+    },
+    {
+      "id": "RA1A-04",
+      "pass": true,
+      "message": "GPUTexture return preserved",
+      "detail": null
+    },
+    {
+      "id": "RA1A-05",
+      "pass": true,
+      "message": "positional ABI present",
+      "detail": null
+    },
+    {
+      "id": "RA1A-06",
+      "pass": true,
+      "message": "object ABI present",
+      "detail": null
+    },
+    {
+      "id": "RA1A-07",
+      "pass": true,
+      "message": "ambiguous alias rejection",
+      "detail": null
+    },
+    {
+      "id": "RA1A-08",
+      "pass": true,
+      "message": "active caller migrated",
+      "detail": null
+    },
+    {
+      "id": "RA1A-09",
+      "pass": true,
+      "message": "legacy telemetry",
+      "detail": null
+    },
+    {
+      "id": "RA1A-10",
+      "pass": true,
+      "message": "internal runner not exported",
+      "detail": null
+    },
+    {
+      "id": "RA1A-11",
+      "pass": true,
+      "message": "64-byte params",
+      "detail": null
+    },
+    {
+      "id": "RA1A-12",
+      "pass": true,
+      "message": "field offsets",
+      "detail": null
+    },
+    {
+      "id": "RA1A-13",
+      "pass": true,
+      "message": "WGSL params layout",
+      "detail": null
+    },
+    {
+      "id": "RA1A-14",
+      "pass": true,
+      "message": "minBindingSize",
+      "detail": null
+    },
+    {
+      "id": "RA1A-15",
+      "pass": true,
+      "message": "ABI digest",
+      "detail": null
+    },
+    {
+      "id": "RA1A-16",
+      "pass": true,
+      "message": "unneeded f16 removed",
+      "detail": null
+    },
+    {
+      "id": "RA1A-17",
+      "pass": true,
+      "message": "no direct adapter/device request",
+      "detail": null
+    },
+    {
+      "id": "RA1A-18",
+      "pass": true,
+      "message": "GPU Authority pipeline creation",
+      "detail": null
+    },
+    {
+      "id": "RA1A-19",
+      "pass": true,
+      "message": "workgroup 8x8",
+      "detail": null
+    },
+    {
+      "id": "RA1A-20",
+      "pass": true,
+      "message": "workgroup common origin",
+      "detail": null
+    },
+    {
+      "id": "RA1A-21",
+      "pass": true,
+      "message": "tile origin does not depend on gid",
+      "detail": null
+    },
+    {
+      "id": "RA1A-22",
+      "pass": true,
+      "message": "barrier before divergent bounds return",
+      "detail": null
+    },
+    {
+      "id": "RA1A-23",
+      "pass": true,
+      "message": "post-barrier return",
+      "detail": null
+    },
+    {
+      "id": "RA1A-24",
+      "pass": true,
+      "message": "tile extent",
+      "detail": null
+    },
+    {
+      "id": "RA1A-25",
+      "pass": true,
+      "message": "storage budget",
+      "detail": null
+    },
+    {
+      "id": "RA1A-26",
+      "pass": true,
+      "message": "flattened cooperative load",
+      "detail": null
+    },
+    {
+      "id": "RA1A-27",
+      "pass": true,
+      "message": "single coordinate mapping",
+      "detail": null
+    },
+    {
+      "id": "RA1A-28",
+      "pass": true,
+      "message": "double PAD removed",
+      "detail": null
+    },
+    {
+      "id": "RA1A-29",
+      "pass": true,
+      "message": "reference shader preserved under R1C/R2",
+      "detail": null
+    },
+    {
+      "id": "RA1A-30",
+      "pass": true,
+      "message": "reference independent of shared memory",
+      "detail": null
+    },
+    {
+      "id": "RA1A-31",
+      "pass": true,
+      "message": "shared parameter schema",
+      "detail": null
+    },
+    {
+      "id": "RA1A-32",
+      "pass": true,
+      "message": "output metadata registration adapter",
+      "detail": null
+    },
+    {
+      "id": "RA1A-33",
+      "pass": true,
+      "message": "temporary resource cleanup",
+      "detail": null
+    },
+    {
+      "id": "RA1A-34",
+      "pass": true,
+      "message": "queue fence",
+      "detail": null
+    },
+    {
+      "id": "RA1A-35",
+      "pass": true,
+      "message": "dispatch receipt",
+      "detail": null
+    },
+    {
+      "id": "RA1A-36",
+      "pass": true,
+      "message": "device epoch validation",
+      "detail": null
+    },
+    {
+      "id": "RA1A-37",
+      "pass": true,
+      "message": "R1A scale admission preserved through R1B planner",
+      "detail": null
+    },
+    {
+      "id": "RA1A-38",
+      "pass": true,
+      "message": "dimension admission",
+      "detail": null
+    },
+    {
+      "id": "RA1A-39",
+      "pass": true,
+      "message": "finite parameter validation",
+      "detail": null
+    },
+    {
+      "id": "RA1A-40",
+      "pass": true,
+      "message": "no silent algorithm fallback",
+      "detail": null
+    }
+  ],
+  "shaderDigests": {
+    "product": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8",
+    "reference": "a5783e1607b030b547a1a83a6ae7fbd0562bbe7fc7a16fb5399ce25c31bf11c8"
+  }
+}

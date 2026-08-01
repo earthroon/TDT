@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "receipt": {
+    "afterGeneration": 5,
+    "afterRawSha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "beforeGeneration": 4,
+    "beforeRawSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "controlled": true,
+    "finalReleaseDigest": "3333333333333333333333333333333333333333333333333333333333333333",
+    "lineageRestorationDigest": "4444444444444444444444444444444444444444444444444444444444444444",
+    "previousPackageContentId": "pkg-prev",
+    "receiptSha256": "3f77718113493db246809215327597e62850a597f16ce156e98f0ca69b3259ee",
+    "schemaId": "tdt.resample-runtime.controlled-transition-admission.r12a.v1",
+    "schemaVersion": 1,
+    "sourceSessionDigest": "35e0834c8d163b06792a1c4105e08c4fb12dbfa6f4cac3ead2038b08b51e3d57",
+    "targetPackageContentId": "pkg-target"
+  },
+  "schemaVersion": 1,
+  "selfSha256": "df9d554b99724f71a129edfc8179c7074ca25e341abd24276ea824136d43dd11",
+  "senderBindingRequired": true,
+  "sourceSessionHmacRevalidationRequired": true,
+  "transitionLeaseSingleUseRequired": true,
+  "unrelatedPointerDriftRejected": true
+}

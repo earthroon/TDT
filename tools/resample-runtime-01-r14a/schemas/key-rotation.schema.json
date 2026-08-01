@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "key-rotation.schema.json",
+  "type": "object",
+  "required": [
+    "oldRootSha256",
+    "newRootSha256",
+    "rotationReceiptSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

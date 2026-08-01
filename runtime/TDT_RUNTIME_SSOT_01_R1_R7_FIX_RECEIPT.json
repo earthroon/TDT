@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RUNTIME-SSOT-01-R7",
+  "revisionId": "TDT-RUNTIME-SSOT-01-R1-R7",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "finalPromotionPassIssued": false,
+  "buildId": "4f0a37088755db46b05cc419",
+  "promotable": false,
+  "authority": {
+    "viteEntry": "/src/main.ts",
+    "legacyExportManagerApiId": "dadum.legacy.export-manager",
+    "legacyExportManagerApiVersion": 1,
+    "legacyExportManagerImplementationId": "export-manager-js-r7",
+    "legacyExportManagerRegistryRevision": 7,
+    "exactApiMethods": [
+      "listEncoderRecords",
+      "exportByFormatExact"
+    ],
+    "perFormatEncoderIdentity": true,
+    "genericLegacyDispatchIdentityRetired": true,
+    "zeroEncoderFailClosed": true,
+    "pipelineFinalRevisionOwner": "dadum.runtime.pipeline",
+    "legacyFinalSurfaceBridge": "dadum.runtime.legacy-final-surface-bridge",
+    "legacyFinalGlobalsPolicy": "compatibility-mirror-after-authoritative-promotion",
+    "exportAuthorityOwner": "dadum.runtime.export",
+    "exportReceiptLedgerOwner": "dadum.runtime.export-receipts",
+    "runtimeExportSource": "runtime-final-surface",
+    "sourceSurfaceDowngradeAllowed": false,
+    "outputSha256Required": true,
+    "signatureVerificationRequired": true,
+    "png16IhdrBitDepthRequired": 16
+  },
+  "correction": {
+    "previousDisconnects": [
+      "EncoderRegistryService did not adopt window.ExportManager exact API",
+      "encode/export modules could activate without an eligible per-format encoder",
+      "legacy filtered results were not promoted into PipelineService final revision authority",
+      "export success did not seal exact format, signature and output byte digest in one receipt"
+    ],
+    "exactManagerAdoption": true,
+    "finalSurfacePromotionBridgeInstalled": true,
+    "deterministicExportReceiptLedgerInstalled": true
+  },
+  "encoderIdentity": {
+    "descriptorRecordsObserved": 7,
+    "eligibleRuntimeEncoders": 6,
+    "jpegAliasOwner": "dadum.encoder.jpg.v1",
+    "canonical": [
+      {
+        "format": "jxl",
+        "runtimeEncoderId": "dadum.encoder.jxl.v1"
+      },
+      {
+        "format": "webp",
+        "runtimeEncoderId": "dadum.encoder.webp.v1"
+      },
+      {
+        "format": "webp-lossless",
+        "runtimeEncoderId": "dadum.encoder.webp-lossless.v1"
+      },
+      {
+        "format": "png",
+        "runtimeEncoderId": "dadum.encoder.png.v1"
+      },
+      {
+        "format": "png16",
+        "runtimeEncoderId": "dadum.encoder.png16.v1"
+      },
+      {
+        "format": "jpg",
+        "runtimeEncoderId": "dadum.encoder.jpg.v1"
+      },
+      {
+        "format": "psd",
+        "runtimeEncoderId": "dadum.encoder.psd.v1"
+      }
+    ]
+  },
+  "counts": {
+    "legacyRootScripts": 50,
+    "legacyGlobalInventory": 2003,
+    "runtimeModules": 13,
+    "runtimeServices": 14,
+    "sourceRecords": 1214,
+    "bootReceiptParityRuns": 100,
+    "exportReceiptParityRuns": 100,
+    "typeScriptSyntaxUnits": 51,
+    "stableErrorCodesReferenced": 46,
+    "stableErrorCodesDeclared": 46,
+    "fileInventoryEntries": 1361
+  },
+  "smoke": {
+    "legacyExportManagerExactApi": {
+      "result": "PASS",
+      "identity": "export-manager-js-r7",
+      "registryRevision": 7,
+      "descriptorRecords": 7,
+      "exactPngEnvelope": "PASS",
+      "displayLabelRejected": "PASS",
+      "realWorkerWasmEncoderExecution": "NOT_RUN"
+    },
+    "targetedStrictTypeScript": {
+      "result": "PASS",
+      "compiler": "global tsc 5.8.3",
+      "note": "temporary Pinia and vite/client declaration stubs; not a replacement for project vue-tsc"
+    }
+  },
+  "digests": {
+    "appliedReadmeSha256": "b91271a6af2c2f919b537f0a1b80516cff6da23c95281e5d644d84a9344460d1",
+    "patchDiffSha256": "19a0623d38a556a4044ce3fc923dcdf1686baf2a9f21719d9389b4b570beeae7",
+    "finalVerifyReportSha256": "d537a782e4742ba97674b413de46f7741216a01d7973318600374dc742acd949",
+    "fileInventorySha256": "eb64ad6e252a42550f18e50675047472d2afb8ae946f4c22b9a614b09af984e8",
+    "specSha256": "a87fc1ed318cb0c9044cc08633c5fb25c74cdd175144a4fee1d11824e3ea021d",
+    "legacyExportManagerSha256": "a7810a7430acb84e37c98ee48a1da853547b25cf54c46c3c9b2b0e10048cc01f",
+    "legacyMainSha256": "5878f0ed73dd67f019b217daf701b68dc7901d8013e7da19aea61fd2bae2132d",
+    "legacyOffscreenSurfaceSha256": "42c1da5d9a20b97dac166764ba4dabeda16986821ad2447f814ffa2cf7500dc9",
+    "encoderRegistryServiceSha256": "ac974a170763f379f31de42352ae4d6550045f572c126bf80b02eceb22e724a4",
+    "pipelineServiceSha256": "a29b8ca77986ed4d5585e1ed38b7ea3a174a36247c117f8f25a66b8a1f3a5513",
+    "legacyFinalSurfaceBridgeSha256": "517aea2dc6afd91b34b4b558099bd4b7bf378cca1278474151176f8a18616e3a",
+    "exportAuthorityServiceSha256": "cd0f9a47e096ba9b8cd7a19a3a718f08f16d33213ff7a1d1951e3eeeb8457375",
+    "exportReceiptSha256": "7220e6af51d702bd5c660ae60a079ffc5b446c439be08ba404cd48db667bfa3d",
+    "exportReceiptLedgerSha256": "8f6d7829c97815a4038132bfbc1c56ae6609f2edb2583d99db0e8c2ae485db7b",
+    "runtimeModulesSha256": "8e57a12fdfa86a2c98033e50af837af2f5c05e0829e1b7edf3ee97ebfbc83198",
+    "stableErrorsSha256": "aa4b531cf3f853d5fbc3d5f77af29998bc97ee2f78cebab6d9c3014cd2932c62",
+    "packageJsonSha256": "575fa4d777042c6c58a05fb65434449fddd63e0da76b4aa10bc8376dedad927d",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "sourceGraphSha256": "9a4f8c0ebf7440048e1c906437337723a40a951bcdbff3f8315168360b2d636c",
+    "legacyManifestSha256": "cefea4521cbcbc2a07e6a0d1e89702ec3b49a7091c47a869d3f27c748a79e763",
+    "runtimePlanSha256": "0cfabb15ee3e90ca5f987d8a40dd751c1adeba77b77c63e10efb1f62e4bf334e",
+    "servicePlanSha256": "254ce248c95e5ad22ed5373091b6e48208ce62f1b637dc2eb5cadec97af7907c",
+    "runtimeManifestSelfSha256": "933d25e55eedf3a3e96bb5c5827cfffc4b15ba8e635e476a3bf3eeaccb099870",
+    "bootReceiptParitySha256": "ed62b955b8e1102db65befa75e511dcbb33280c7103e8e4917b3812be0ee5dc4",
+    "exportReceiptParitySha256": "c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489",
+    "targetedStrictTypeScriptLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "gates": [
+    {
+      "id": "GATE-R1-01/02",
+      "result": "PASS",
+      "name": "Vite entry and production source serving closure"
+    },
+    {
+      "id": "GATE-R1-08",
+      "result": "PASS",
+      "name": "Pinia serializability"
+    },
+    {
+      "id": "GATE-R1-06/07/15/17",
+      "result": "PASS",
+      "name": "Capability, service, resource and export authority ownership"
+    },
+    {
+      "id": "GATE-R1-11",
+      "result": "PASS",
+      "legacyRootScripts": 50
+    },
+    {
+      "id": "GATE-R1-R2-DIAG",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R3-GLOBAL-OWNERSHIP",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R4-ASYNC-GLOBAL-RESERVATION",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-R6-PLACEHOLDER-QUARANTINE",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-20",
+      "result": "PASS",
+      "runs": 100,
+      "digest": "ed62b955b8e1102db65befa75e511dcbb33280c7103e8e4917b3812be0ee5dc4"
+    },
+    {
+      "id": "GATE-R7-01..15",
+      "result": "PASS",
+      "runs": 100,
+      "digest": "c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489"
+    },
+    {
+      "id": "GATE-R1-TS-PARSE",
+      "result": "PASS",
+      "units": 51
+    },
+    {
+      "id": "GATE-R1-ERROR-CODE",
+      "result": "PASS",
+      "referenced": 46,
+      "declared": 46
+    },
+    {
+      "id": "GATE-R7-STRICT-TSC-STUB",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R7-LEGACY-EXACT-API-SMOKE",
+      "result": "PASS"
+    },
+    {
+      "id": "GATE-R1-LOCK",
+      "result": "BLOCKED",
+      "details": {
+        "consistent": false,
+        "missing": [
+          {
+            "name": "pinia",
+            "expected": "3.0.1",
+            "actual": null
+          },
+          {
+            "name": "vue",
+            "expected": "3.5.40",
+            "actual": null
+          },
+          {
+            "name": "@napi-rs/cli",
+            "expected": "^2.18.4",
+            "actual": null
+          },
+          {
+            "name": "@vitejs/plugin-vue",
+            "expected": "6.0.7",
+            "actual": null
+          },
+          {
+            "name": "typescript",
+            "expected": "5.9.3",
+            "actual": null
+          },
+          {
+            "name": "vite",
+            "expected": "8.1.5",
+            "actual": null
+          },
+          {
+            "name": "vue-tsc",
+            "expected": "3.2.2",
+            "actual": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "GATE-R1-VUE-TSC",
+      "result": "NOT_RUN",
+      "exitCode": 127
+    },
+    {
+      "id": "GATE-R1-VITE-BUILD",
+      "result": "NOT_RUN",
+      "exitCode": 127
+    },
+    {
+      "id": "GATE-R1-ELECTRON-SMOKE",
+      "result": "NOT_RUN"
+    },
+    {
+      "id": "GATE-R7-REAL-WORKER-WASM-E2E",
+      "result": "NOT_RUN"
+    }
+  ],
+  "outOfScope": [
+    "Worker URL authority repair",
+    "Unified encoder Worker RPC",
+    "Timeout, cancel, crash restart and Worker epoch",
+    "JXL, JPEG and PNG8 dedicated Worker migration",
+    "PSD plane split and LCMS Worker closure",
+    "Native decoder dav1d build repair"
+  ],
+  "blockers": [
+    {
+      "code": "BLOCK-R1-LOCK-001",
+      "reason": "package-lock.json does not contain the Vue/Pinia/Vite dependency graph declared by package.json"
+    },
+    {
+      "code": "BLOCK-R1-LOCAL-PROMOTION-001",
+      "reason": "project vue-tsc, Vite production build and Electron runtime smoke require the local dependency environment"
+    },
+    {
+      "code": "BLOCK-R7-CODEC-E2E-001",
+      "reason": "real per-format Worker/WASM encoder end-to-end execution was not run in this source-bake environment"
+    },
+    {
+      "code": "BLOCK-R7-WORKER-AUTHORITY-001",
+      "reason": "Worker URL and unified Worker RPC authority are explicitly deferred to TDT-EXPORT-WORKER follow-up patches"
+    }
+  ],
+  "marker": "PASS_TDT_RUNTIME_SSOT_01_R1_R7_EXACT_API_ENCODER_IDENTITY_FINAL_SURFACE_RECEIPT_SOURCE_BAKE_UNPROMOTED",
+  "sourceBakeSealSha256": "28c16d594a1d752466f1908f193eaea2083da3131b15d3fc390c84a12c79a921"
+}

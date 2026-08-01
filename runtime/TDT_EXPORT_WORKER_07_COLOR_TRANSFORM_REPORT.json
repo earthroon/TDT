@@ -1,0 +1,21 @@
+{
+  "schema": "tdt-export-worker-07-color-transform-report-v1",
+  "generatedAt": "2026-07-24T17:11:04.827Z",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "patchId": "TDT-EXPORT-WORKER-07",
+  "promotionEligible": false,
+  "lcmsLoaderPresent": true,
+  "lcmsGlueSha256": "c387a706008c06f0ae9b6ea48335f9435323836e6c5a22052956a4fd4d257b65",
+  "lcmsWasmSha256": "65eb2ea60f1d61aea14978b4b631bd2bcdf188e3c0a1b25d2af612f5b745699e",
+  "lcmsFixedHeapBytes": 536870912,
+  "actualCmykTransformExecuted": false,
+  "transformCacheGenerationLocal": true,
+  "transformCacheMaxEntries": 2,
+  "nativeCmykDigestContractPresent": true,
+  "storedCmykDigestContractPresent": true,
+  "nativeSamplePolicy": "lcms-native-cmyk8",
+  "psdStoragePolicy": "invert-cmyk8-for-psd-v1",
+  "bundledIccFiles": [],
+  "bundledSrgbProfilePresent": false,
+  "explicitProfileBytesRequired": true
+}

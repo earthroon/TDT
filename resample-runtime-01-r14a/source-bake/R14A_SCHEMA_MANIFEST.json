@@ -1,0 +1,87 @@
+{
+  "schemaId": "tdt.resample.schema-manifest.r14a.v1",
+  "schemaVersion": 1,
+  "schemas": [
+    {
+      "name": "root-metadata.schema.json",
+      "sha256": "09150242d57eb38e51286f30af12b139dfab9cd2188e117708d909b3b788f6d6"
+    },
+    {
+      "name": "delegated-metadata.schema.json",
+      "sha256": "380de98e15afe700514436795e32cd5eec121123e7f4d3cfd4d3e9d6cab0ce84"
+    },
+    {
+      "name": "signed-package-manifest-v2.schema.json",
+      "sha256": "f031206af33ed54cc2a4d3cec562b4eb5201c9c15f458621bb33d58e937e8cce"
+    },
+    {
+      "name": "release-envelope.schema.json",
+      "sha256": "347fa05d815d19ef0cfca37b0bd6de3550efb68e95db1759f2207cc8bbcd7386"
+    },
+    {
+      "name": "transparency-leaf.schema.json",
+      "sha256": "006756a56fbc6bd029778d61d934ff69f98cb1de3538925535dc59569f7f1f49"
+    },
+    {
+      "name": "inclusion-proof.schema.json",
+      "sha256": "4b69b3240f1b341eaa388c5f49fb8ee223e4355d4affbc6c59d9ff1fa399969e"
+    },
+    {
+      "name": "consistency-proof.schema.json",
+      "sha256": "d2577e3ccdb3f51e91aa05bcfef917cacbedc88825c3852ae49276bf610805f5"
+    },
+    {
+      "name": "checkpoint.schema.json",
+      "sha256": "0086f56d27c5583ca033e96a4c476a0bc1ed2822e15eba98f5b6883c4796a49e"
+    },
+    {
+      "name": "witness-signature-set.schema.json",
+      "sha256": "ef6ffdb2c5e91842e5965a030bdf1eb2efd0736fd4c4f7d97d23991039002a6e"
+    },
+    {
+      "name": "key-rotation.schema.json",
+      "sha256": "080e022cd2a266e838deced706dbf3bb066493f20870de15cdfd42fbcc7e4c00"
+    },
+    {
+      "name": "key-revocation.schema.json",
+      "sha256": "945cfa9ad897c9f6f3e3eff4c991234856c449bcf257ac73943f539dcba76751"
+    },
+    {
+      "name": "mirror-fetch.schema.json",
+      "sha256": "0b803555a294f6f321656bd62609878dc4768bc45d187124a90f6ad512dc004d"
+    },
+    {
+      "name": "range-reassembly.schema.json",
+      "sha256": "ec2c2c6f4a0038cfb98f0ac63f124a88f34681c386c352b0bf436d1f5e7d3c7b"
+    },
+    {
+      "name": "streaming-verification.schema.json",
+      "sha256": "d7b2fbe5b64142f7838906c736453289fe59b4b3921469d302c1f67be737b95b"
+    },
+    {
+      "name": "local-trust-state.schema.json",
+      "sha256": "51ee30851ebbb2ed8855b689b2b421ca97a06a1a4f2dc57809e44ba87d71590b"
+    },
+    {
+      "name": "rollback-permit.schema.json",
+      "sha256": "715eeacb799581a8ea2d12a1d054158bfb3e5fdf323c84dba5859aac5c7e9578"
+    },
+    {
+      "name": "distribution-admission.schema.json",
+      "sha256": "574558b09748861046e061b1f95ae32aa563d8e73e46d4c766e5350c57857b2b"
+    },
+    {
+      "name": "r12a-distribution-binding.schema.json",
+      "sha256": "490d09ac164d3b9c7e557c54776be626f39c885282fad585e78c919323812176"
+    },
+    {
+      "name": "r13a-distribution-binding.schema.json",
+      "sha256": "9369e16d2726049a89e6a0309d0e56bb1c372953f1516b4e6258b0f07447eee2"
+    },
+    {
+      "name": "distribution-final-receipt.schema.json",
+      "sha256": "c3fc156399236619b094db9a6435c2f9bedaba66e613da6d77e6449517355dc1"
+    }
+  ],
+  "selfSha256": "fab638561a08c35583a75a5ca20bd9eec9d52e8ed2ae8e078b981edb674a6d9b"
+}

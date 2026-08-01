@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-01",
+  "buildId": "429c1a7b691c53cbf11234b6",
+  "stableApiId": "dadum.runtime.export",
+  "stableApiVersion": 1,
+  "bootstrapFacadeState": "REGISTERING",
+  "adoptionTransition": [
+    "REGISTERING",
+    "SEALED",
+    "ADOPTED",
+    "RETIRED"
+  ],
+  "privateCodecHostImplementationId": "export-manager-codec-host-ep01",
+  "publicFacadeTerminalState": "RETIRED",
+  "publicExportCallableAfterAdoption": false,
+  "privateExactInvocationVerified": true,
+  "adoptedEncoderDescriptorCount": 7,
+  "runtimeSmokeReport": "TDT_EXPORT_PROMOTION_01_LEGACY_FACADE_RUNTIME_SMOKE.json"
+}

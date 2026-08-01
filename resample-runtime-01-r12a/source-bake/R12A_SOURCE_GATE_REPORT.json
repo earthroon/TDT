@@ -1,0 +1,2172 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 360
+  },
+  "gates": [
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S001",
+      "requirement": "PARENT_BUNDLE_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S002",
+      "requirement": "PARENT_BUNDLE_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S003",
+      "requirement": "PARENT_R11A_SPEC_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S004",
+      "requirement": "PARENT_R11A_SPEC_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S005",
+      "requirement": "PARENT_R11A_SOURCE_RECEIPT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S006",
+      "requirement": "PARENT_R11A_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S007",
+      "requirement": "PARENT_R11A_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S008",
+      "requirement": "PARENT_R11A_SOURCE_PASS_332",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S009",
+      "requirement": "PARENT_R11A_INSTALLED_PENDING_400",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S010",
+      "requirement": "PARENT_R11A_FAIL_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S011",
+      "requirement": "CURRENT_R10A_SOURCE_RECEIPT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S012",
+      "requirement": "CURRENT_R10A_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S013",
+      "requirement": "CURRENT_R10A_SOURCE_PASS_260",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S014",
+      "requirement": "CURRENT_R10A_RELEASE_PENDING_300",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S015",
+      "requirement": "CURRENT_R10A_FAIL_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S016",
+      "requirement": "PRODUCTION_POINTER_MIRRORS_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S017",
+      "requirement": "PRODUCTION_POINTER_MIRROR_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S018",
+      "requirement": "PRODUCTION_POINTER_SCHEMA_V2_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S019",
+      "requirement": "PRODUCTION_POINTER_ACTIVE_NULL_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S020",
+      "requirement": "PRODUCTION_POINTER_MUTATION_FALSE_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S021",
+      "requirement": "R12_HISTORICAL_RECEIPT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S022",
+      "requirement": "R12_HISTORICAL_RECEIPT_MARKED_SUPERSEDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S023",
+      "requirement": "R12A_SPEC_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S024",
+      "requirement": "R12A_SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S025",
+      "requirement": "R12A_SOURCE_GATE_COUNT_360",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S026",
+      "requirement": "R12A_INSTALLED_GATE_COUNT_480",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S027",
+      "requirement": "R12A_TOTAL_GATE_COUNT_840",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S028",
+      "requirement": "HISTORICAL_PASS_CARRY_FORWARD_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S029",
+      "requirement": "R11A_R10A_LINEAGE_ORDER_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PARENT_FREEZE_RECEIPT.json",
+      "id": "R12A-S030",
+      "requirement": "PARENT_BYTES_IMMUTABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S031",
+      "requirement": "MAIN_UPDATE_COORDINATOR_SINGLETON_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S032",
+      "requirement": "MAIN_UPDATE_COORDINATOR_SINGLETON_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S033",
+      "requirement": "PERSISTENT_TRANSACTION_V2_SSOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S034",
+      "requirement": "PERSISTENT_TRANSACTION_V2_SSOT_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S035",
+      "requirement": "APPEND_ONLY_JOURNAL_V2_SSOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S036",
+      "requirement": "APPEND_ONLY_JOURNAL_V2_SSOT_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S037",
+      "requirement": "LOCAL_ACTIVATION_POINTER_SSOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S038",
+      "requirement": "LOCAL_ACTIVATION_POINTER_SSOT_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S039",
+      "requirement": "R11A_SESSION_AUTHORITY_SEPARATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S040",
+      "requirement": "R11A_SESSION_AUTHORITY_SEPARATION_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S041",
+      "requirement": "R10A_PRODUCTION_POINTER_READ_ONLY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S042",
+      "requirement": "R10A_PRODUCTION_POINTER_READ_ONLY_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S043",
+      "requirement": "STABLE_LAUNCHER_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S044",
+      "requirement": "STABLE_LAUNCHER_AUTHORITY_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S045",
+      "requirement": "NORMAL_RUNTIME_BOOT_BARRIER_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S046",
+      "requirement": "NORMAL_RUNTIME_BOOT_BARRIER_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S047",
+      "requirement": "RECOVERY_ONLY_CAPABILITY_SET_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S048",
+      "requirement": "RECOVERY_ONLY_CAPABILITY_SET_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S049",
+      "requirement": "UPDATE_TRANSITION_STATE_MACHINE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S050",
+      "requirement": "UPDATE_TRANSITION_STATE_MACHINE_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S051",
+      "requirement": "PROCESS_GENERATION_BINDING_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S052",
+      "requirement": "PROCESS_GENERATION_BINDING_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S053",
+      "requirement": "NO_RENDERER_POINTER_WRITE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S054",
+      "requirement": "NO_RENDERER_POINTER_WRITE_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S055",
+      "requirement": "NO_RENDERER_JOURNAL_WRITE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S056",
+      "requirement": "NO_RENDERER_JOURNAL_WRITE_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S057",
+      "requirement": "NO_HOT_PATCH_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S058",
+      "requirement": "NO_HOT_PATCH_AUTHORITY_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S059",
+      "requirement": "NO_DELTA_PATCH_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S060",
+      "requirement": "NO_DELTA_PATCH_AUTHORITY_VERIFIER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S061",
+      "requirement": "R10A_FINAL_RELEASE_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S062",
+      "requirement": "R10A_FINAL_RELEASE_INPUT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S063",
+      "requirement": "R10A_LINEAGE_RESTORATION_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S064",
+      "requirement": "R10A_LINEAGE_RESTORATION_INPUT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S065",
+      "requirement": "R10A_PROMOTION_BEFORE_IDENTITY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S066",
+      "requirement": "R10A_PROMOTION_BEFORE_IDENTITY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S067",
+      "requirement": "R10A_PROMOTION_AFTER_IDENTITY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S068",
+      "requirement": "R10A_PROMOTION_AFTER_IDENTITY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S069",
+      "requirement": "SOURCE_SESSION_ENVELOPE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S070",
+      "requirement": "SOURCE_SESSION_ENVELOPE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S071",
+      "requirement": "SOURCE_SESSION_POINTER_GENERATION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S072",
+      "requirement": "SOURCE_SESSION_POINTER_GENERATION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S073",
+      "requirement": "SOURCE_SESSION_POINTER_RAW_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S074",
+      "requirement": "SOURCE_SESSION_POINTER_RAW_HASH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S075",
+      "requirement": "SOURCE_PACKAGE_EQUALS_R10A_PREVIOUS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S076",
+      "requirement": "SOURCE_PACKAGE_EQUALS_R10A_PREVIOUS_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S077",
+      "requirement": "TARGET_PACKAGE_EQUALS_R10A_ACTIVE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S078",
+      "requirement": "TARGET_PACKAGE_EQUALS_R10A_ACTIVE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S079",
+      "requirement": "CONTROLLED_POINTER_DRIFT_ONLY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S080",
+      "requirement": "CONTROLLED_POINTER_DRIFT_ONLY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S081",
+      "requirement": "UNRELATED_POINTER_DRIFT_REJECTED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S082",
+      "requirement": "UNRELATED_POINTER_DRIFT_REJECTED_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S083",
+      "requirement": "SOURCE_SESSION_HMAC_VALIDATED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S084",
+      "requirement": "SOURCE_SESSION_HMAC_VALIDATED_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S085",
+      "requirement": "SOURCE_SESSION_SENDER_BINDING_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S086",
+      "requirement": "SOURCE_SESSION_SENDER_BINDING_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S087",
+      "requirement": "SOURCE_SESSION_NOT_QUARANTINED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S088",
+      "requirement": "SOURCE_SESSION_NOT_QUARANTINED_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S089",
+      "requirement": "UPDATE_TRANSITION_LEASE_SINGLE_USE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSITION_ADMISSION_SELF_TEST.json",
+      "id": "R12A-S090",
+      "requirement": "UPDATE_TRANSITION_LEASE_SINGLE_USE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S091",
+      "requirement": "ELECTRON_MAIN_IMPORT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S092",
+      "requirement": "ELECTRON_MAIN_IMPORT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S093",
+      "requirement": "COORDINATOR_CREATED_BEFORE_WINDOW_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S094",
+      "requirement": "COORDINATOR_CREATED_BEFORE_WINDOW_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S095",
+      "requirement": "RECOVERY_PREFLIGHT_BEFORE_R11A_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S096",
+      "requirement": "RECOVERY_PREFLIGHT_BEFORE_R11A_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S097",
+      "requirement": "UPDATE_IPC_NARROW_SURFACE_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S098",
+      "requirement": "UPDATE_IPC_NARROW_SURFACE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S099",
+      "requirement": "UPDATE_STATUS_READ_ONLY_IPC_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S100",
+      "requirement": "UPDATE_STATUS_READ_ONLY_IPC_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S101",
+      "requirement": "UPDATE_REQUEST_SESSION_BOUND_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S102",
+      "requirement": "UPDATE_REQUEST_SESSION_BOUND_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S103",
+      "requirement": "UPDATE_REQUEST_OPERATOR_INTENT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S104",
+      "requirement": "UPDATE_REQUEST_OPERATOR_INTENT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S105",
+      "requirement": "PRELOAD_NO_POINTER_PATH_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S106",
+      "requirement": "PRELOAD_NO_POINTER_PATH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S107",
+      "requirement": "PRELOAD_NO_JOURNAL_PATH_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S108",
+      "requirement": "PRELOAD_NO_JOURNAL_PATH_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S109",
+      "requirement": "PRELOAD_NO_SIGNING_KEY_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ELECTRON_WIRING_REPORT.json",
+      "id": "R12A-S110",
+      "requirement": "PRELOAD_NO_SIGNING_KEY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S111",
+      "requirement": "RENDERER_UPDATE_SERVICE_CONSUMER_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S112",
+      "requirement": "RENDERER_UPDATE_SERVICE_CONSUMER_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S113",
+      "requirement": "ACTIVE_GRAPH_UPDATE_NODE_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S114",
+      "requirement": "ACTIVE_GRAPH_UPDATE_NODE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S115",
+      "requirement": "RUNTIME_MANIFEST_UPDATE_MODULE_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S116",
+      "requirement": "RUNTIME_MANIFEST_UPDATE_MODULE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S117",
+      "requirement": "WINDOW_SHOW_R12A_BARRIER_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S118",
+      "requirement": "WINDOW_SHOW_R12A_BARRIER_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S119",
+      "requirement": "APP_QUIT_COORDINATOR_HOOK_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RENDERER_WIRING_REPORT.json",
+      "id": "R12A-S120",
+      "requirement": "APP_QUIT_COORDINATOR_HOOK_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S121",
+      "requirement": "TRANSACTION_V2_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S122",
+      "requirement": "TRANSACTION_V2_SCHEMA_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S123",
+      "requirement": "TRANSACTION_ID_192_BIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S124",
+      "requirement": "TRANSACTION_ID_192_BIT_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S125",
+      "requirement": "TRANSACTION_SOURCE_IDENTITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S126",
+      "requirement": "TRANSACTION_SOURCE_IDENTITY_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S127",
+      "requirement": "TRANSACTION_TARGET_IDENTITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S128",
+      "requirement": "TRANSACTION_TARGET_IDENTITY_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S129",
+      "requirement": "TRANSACTION_R10A_RELEASE_BINDING_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S130",
+      "requirement": "TRANSACTION_R10A_RELEASE_BINDING_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S131",
+      "requirement": "TRANSACTION_R11A_SOURCE_SESSION_BINDING_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S132",
+      "requirement": "TRANSACTION_R11A_SOURCE_SESSION_BINDING_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S133",
+      "requirement": "TRANSACTION_PRODUCTION_POINTER_BINDING_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S134",
+      "requirement": "TRANSACTION_PRODUCTION_POINTER_BINDING_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S135",
+      "requirement": "TRANSACTION_LOCAL_POINTER_BINDING_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S136",
+      "requirement": "TRANSACTION_LOCAL_POINTER_BINDING_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S137",
+      "requirement": "TRANSACTION_MONOTONIC_SEQUENCE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S138",
+      "requirement": "TRANSACTION_MONOTONIC_SEQUENCE_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S139",
+      "requirement": "TRANSACTION_STATE_SKIP_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S140",
+      "requirement": "TRANSACTION_STATE_SKIP_REJECTED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S141",
+      "requirement": "JOURNAL_V2_HASH_CHAIN_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S142",
+      "requirement": "JOURNAL_V2_HASH_CHAIN_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S143",
+      "requirement": "JOURNAL_INTENT_BEFORE_EFFECT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S144",
+      "requirement": "JOURNAL_INTENT_BEFORE_EFFECT_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S145",
+      "requirement": "JOURNAL_FSYNC_BEFORE_EFFECT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S146",
+      "requirement": "JOURNAL_FSYNC_BEFORE_EFFECT_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S147",
+      "requirement": "SINGLE_ACTIVE_UPDATE_LOCK_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S148",
+      "requirement": "SINGLE_ACTIVE_UPDATE_LOCK_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S149",
+      "requirement": "STALE_LOCK_PID_VERIFICATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_TRANSACTION_JOURNAL_LOCK_SELF_TEST.json",
+      "id": "R12A-S150",
+      "requirement": "STALE_LOCK_PID_VERIFICATION_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S151",
+      "requirement": "R12_PACKAGE_PATH_POLICY_REUSED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S152",
+      "requirement": "R12_PACKAGE_PATH_POLICY_REUSED_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S153",
+      "requirement": "SAME_VOLUME_LAYOUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S154",
+      "requirement": "SAME_VOLUME_LAYOUT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S155",
+      "requirement": "TARGET_IMMUTABLE_PACKAGE_STORE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S156",
+      "requirement": "TARGET_IMMUTABLE_PACKAGE_STORE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S157",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S158",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S159",
+      "requirement": "TARGET_BUILD_ID_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S160",
+      "requirement": "TARGET_BUILD_ID_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S161",
+      "requirement": "TARGET_RUNTIME_CLOSURE_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S162",
+      "requirement": "TARGET_RUNTIME_CLOSURE_DIGEST_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S163",
+      "requirement": "TARGET_ACTIVE_GRAPH_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S164",
+      "requirement": "TARGET_ACTIVE_GRAPH_DIGEST_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S165",
+      "requirement": "TARGET_JAVASCRIPT_PARSE_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S166",
+      "requirement": "TARGET_JAVASCRIPT_PARSE_DIGEST_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S167",
+      "requirement": "TARGET_R9A_PHYSICAL_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S168",
+      "requirement": "TARGET_R9A_PHYSICAL_DIGEST_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S169",
+      "requirement": "STAGED_EXECUTION_ROLE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S170",
+      "requirement": "STAGED_EXECUTION_ROLE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S171",
+      "requirement": "STAGED_LAUNCH_ENVELOPE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S172",
+      "requirement": "STAGED_LAUNCH_ENVELOPE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S173",
+      "requirement": "STAGED_NO_NORMAL_SESSION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S174",
+      "requirement": "STAGED_NO_NORMAL_SESSION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S175",
+      "requirement": "STAGED_R11A_CANARY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S176",
+      "requirement": "STAGED_R11A_CANARY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S177",
+      "requirement": "STAGED_PREVIEW_EXPORT_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S178",
+      "requirement": "STAGED_PREVIEW_EXPORT_SMOKE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S179",
+      "requirement": "STAGED_CPU_FALLBACK_ZERO_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_AUTHORITY_AND_STATE_MODEL_RECEIPT.json",
+      "id": "R12A-S180",
+      "requirement": "STAGED_CPU_FALLBACK_ZERO_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S181",
+      "requirement": "DRAIN_INTENT_PERSISTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S182",
+      "requirement": "DRAIN_INTENT_PERSISTED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S183",
+      "requirement": "NEW_BOOTSTRAP_BLOCKED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S184",
+      "requirement": "NEW_BOOTSTRAP_BLOCKED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S185",
+      "requirement": "NEW_JOB_GRANT_BLOCKED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S186",
+      "requirement": "NEW_JOB_GRANT_BLOCKED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S187",
+      "requirement": "ACTIVE_SESSIONS_ENUMERATED_MAIN_ONLY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S188",
+      "requirement": "ACTIVE_SESSIONS_ENUMERATED_MAIN_ONLY_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S189",
+      "requirement": "ACTIVE_PREVIEW_GRANTS_REVOKED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S190",
+      "requirement": "ACTIVE_PREVIEW_GRANTS_REVOKED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S191",
+      "requirement": "ACTIVE_EXPORT_GRANTS_REVOKED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S192",
+      "requirement": "ACTIVE_EXPORT_GRANTS_REVOKED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S193",
+      "requirement": "OPEN_SAVE_SESSIONS_ABORTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S194",
+      "requirement": "OPEN_SAVE_SESSIONS_ABORTED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S195",
+      "requirement": "RENDERER_DRAIN_NOTIFICATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S196",
+      "requirement": "RENDERER_DRAIN_NOTIFICATION_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S197",
+      "requirement": "RENDERER_DRAIN_ACK_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S198",
+      "requirement": "RENDERER_DRAIN_ACK_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S199",
+      "requirement": "PREVIEW_SCHEDULER_SUSPENDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S200",
+      "requirement": "PREVIEW_SCHEDULER_SUSPENDED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S201",
+      "requirement": "EXPORT_QUEUE_SUSPENDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S202",
+      "requirement": "EXPORT_QUEUE_SUSPENDED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S203",
+      "requirement": "GPU_COMPLETION_TICKETS_SETTLED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S204",
+      "requirement": "GPU_COMPLETION_TICKETS_SETTLED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S205",
+      "requirement": "DRAIN_DEADLINE_BOUNDED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S206",
+      "requirement": "DRAIN_DEADLINE_BOUNDED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S207",
+      "requirement": "FORCED_ABORT_RECEIPT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S208",
+      "requirement": "FORCED_ABORT_RECEIPT_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S209",
+      "requirement": "DRAIN_ZERO_COUNTS_REQUIRED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SESSION_DRAIN_SELF_TEST.json",
+      "id": "R12A-S210",
+      "requirement": "DRAIN_ZERO_COUNTS_REQUIRED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S211",
+      "requirement": "ACTIVATION_INTENT_V2_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S212",
+      "requirement": "ACTIVATION_INTENT_V2_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S213",
+      "requirement": "ACTIVATION_INTENT_DRAIN_BOUND_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S214",
+      "requirement": "ACTIVATION_INTENT_DRAIN_BOUND_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S215",
+      "requirement": "ACTIVATION_INTENT_STAGED_CANARY_BOUND_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S216",
+      "requirement": "ACTIVATION_INTENT_STAGED_CANARY_BOUND_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S217",
+      "requirement": "ACTIVATION_INTENT_POINTERS_FROZEN_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S218",
+      "requirement": "ACTIVATION_INTENT_POINTERS_FROZEN_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S219",
+      "requirement": "PACKAGE_STORE_COMMIT_BEFORE_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S220",
+      "requirement": "PACKAGE_STORE_COMMIT_BEFORE_CAS_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S221",
+      "requirement": "LOCAL_POINTER_RAW_HASH_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S222",
+      "requirement": "LOCAL_POINTER_RAW_HASH_CAS_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S223",
+      "requirement": "LOCAL_POINTER_GENERATION_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S224",
+      "requirement": "LOCAL_POINTER_GENERATION_CAS_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S225",
+      "requirement": "LOCAL_INSTALL_GENERATION_INCREMENT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S226",
+      "requirement": "LOCAL_INSTALL_GENERATION_INCREMENT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S227",
+      "requirement": "LOCAL_POINTER_READBACK_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S228",
+      "requirement": "LOCAL_POINTER_READBACK_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S229",
+      "requirement": "PRODUCTION_POINTER_WRITE_FORBIDDEN_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S230",
+      "requirement": "PRODUCTION_POINTER_WRITE_FORBIDDEN_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S231",
+      "requirement": "RELAUNCH_REQUEST_FSYNC_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S232",
+      "requirement": "RELAUNCH_REQUEST_FSYNC_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S233",
+      "requirement": "RELAUNCH_REQUEST_NONCE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S234",
+      "requirement": "RELAUNCH_REQUEST_NONCE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S235",
+      "requirement": "STABLE_LAUNCHER_HANDOFF_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S236",
+      "requirement": "STABLE_LAUNCHER_HANDOFF_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S237",
+      "requirement": "OLD_PROCESS_NO_NORMAL_REENTRY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S238",
+      "requirement": "OLD_PROCESS_NO_NORMAL_REENTRY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S239",
+      "requirement": "TARGET_PROCESS_LAUNCH_ENVELOPE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVATION_RELAUNCH_SELF_TEST.json",
+      "id": "R12A-S240",
+      "requirement": "TARGET_PROCESS_LAUNCH_ENVELOPE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S241",
+      "requirement": "TARGET_BOOT_RECOVERY_PREFLIGHT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S242",
+      "requirement": "TARGET_BOOT_RECOVERY_PREFLIGHT_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S243",
+      "requirement": "EXECUTING_PACKAGE_EQUALS_LOCAL_POINTER_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S244",
+      "requirement": "EXECUTING_PACKAGE_EQUALS_LOCAL_POINTER_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S245",
+      "requirement": "EXECUTING_PACKAGE_EQUALS_PRODUCTION_ACTIVE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S246",
+      "requirement": "EXECUTING_PACKAGE_EQUALS_PRODUCTION_ACTIVE_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S247",
+      "requirement": "TARGET_CLOSURE_REVALIDATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S248",
+      "requirement": "TARGET_CLOSURE_REVALIDATED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S249",
+      "requirement": "TARGET_ACTIVE_GRAPH_REVALIDATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S250",
+      "requirement": "TARGET_ACTIVE_GRAPH_REVALIDATED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S251",
+      "requirement": "TARGET_R9A_IDENTITY_REVALIDATED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S252",
+      "requirement": "TARGET_R9A_IDENTITY_REVALIDATED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S253",
+      "requirement": "R11A_HIDDEN_WINDOW_CANARY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S254",
+      "requirement": "R11A_HIDDEN_WINDOW_CANARY_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S255",
+      "requirement": "R11A_FRESH_SESSION_GENERATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S256",
+      "requirement": "R11A_FRESH_SESSION_GENERATION_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S257",
+      "requirement": "OLD_SESSION_REUSE_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S258",
+      "requirement": "OLD_SESSION_REUSE_REJECTED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S259",
+      "requirement": "OLD_GRANT_REUSE_REJECTED_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S260",
+      "requirement": "OLD_GRANT_REUSE_REJECTED_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S261",
+      "requirement": "REATTESTATION_RECEIPT_SCHEMA_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S262",
+      "requirement": "REATTESTATION_RECEIPT_SCHEMA_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S263",
+      "requirement": "REATTESTATION_SESSION_DIGEST_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S264",
+      "requirement": "REATTESTATION_SESSION_DIGEST_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S265",
+      "requirement": "TRANSACTION_R11A_REATTESTED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S266",
+      "requirement": "TRANSACTION_R11A_REATTESTED_STATE_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S267",
+      "requirement": "COMMIT_MARKER_AFTER_REATTESTATION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S268",
+      "requirement": "COMMIT_MARKER_AFTER_REATTESTATION_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S269",
+      "requirement": "WINDOW_SHOW_AFTER_COMMIT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S270",
+      "requirement": "WINDOW_SHOW_AFTER_COMMIT_SELF_TESTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S271",
+      "requirement": "RECOVERY_BEFORE_NORMAL_BOOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S272",
+      "requirement": "RECOVERY_BEFORE_NORMAL_BOOT_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S273",
+      "requirement": "RECOVERY_JOINT_AUTHORITY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S274",
+      "requirement": "RECOVERY_JOINT_AUTHORITY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S275",
+      "requirement": "PRE_DRAIN_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S276",
+      "requirement": "PRE_DRAIN_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S277",
+      "requirement": "MID_DRAIN_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S278",
+      "requirement": "MID_DRAIN_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S279",
+      "requirement": "POST_DRAIN_PRE_CAS_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S280",
+      "requirement": "POST_DRAIN_PRE_CAS_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S281",
+      "requirement": "PACKAGE_COMMIT_PRE_CAS_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S282",
+      "requirement": "PACKAGE_COMMIT_PRE_CAS_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S283",
+      "requirement": "CAS_INTENT_PRE_EFFECT_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S284",
+      "requirement": "CAS_INTENT_PRE_EFFECT_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S285",
+      "requirement": "CAS_EFFECT_PRE_ACK_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S286",
+      "requirement": "CAS_EFFECT_PRE_ACK_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S287",
+      "requirement": "RELAUNCH_REQUEST_PRE_EXIT_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S288",
+      "requirement": "RELAUNCH_REQUEST_PRE_EXIT_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S289",
+      "requirement": "TARGET_BOOT_PRE_R11A_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S290",
+      "requirement": "TARGET_BOOT_PRE_R11A_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S291",
+      "requirement": "R11A_PASS_PRE_COMMIT_INTERRUPTION_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S292",
+      "requirement": "R11A_PASS_PRE_COMMIT_INTERRUPTION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S293",
+      "requirement": "TARGET_ATTESTATION_FAILURE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S294",
+      "requirement": "TARGET_ATTESTATION_FAILURE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S295",
+      "requirement": "PREVIOUS_RECOVERY_ONLY_RESTORE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S296",
+      "requirement": "PREVIOUS_RECOVERY_ONLY_RESTORE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S297",
+      "requirement": "AMBIGUOUS_STATE_QUARANTINE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S298",
+      "requirement": "AMBIGUOUS_STATE_QUARANTINE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S299",
+      "requirement": "RECOVERY_IDEMPOTENT_REPLAY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_RECOVERY_MATRIX_SELF_TEST.json",
+      "id": "R12A-S300",
+      "requirement": "RECOVERY_IDEMPOTENT_REPLAY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S301",
+      "requirement": "MAIN_RENDERER_GENERATION_MATCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S302",
+      "requirement": "MAIN_RENDERER_GENERATION_MATCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S303",
+      "requirement": "RENDERER_WORKER_GENERATION_MATCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S304",
+      "requirement": "RENDERER_WORKER_GENERATION_MATCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S305",
+      "requirement": "WORKER_WASM_GENERATION_MATCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S306",
+      "requirement": "WORKER_WASM_GENERATION_MATCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S307",
+      "requirement": "WASM_PTHREAD_GENERATION_MATCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S308",
+      "requirement": "WASM_PTHREAD_GENERATION_MATCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S309",
+      "requirement": "NATIVE_ADDON_GENERATION_MATCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S310",
+      "requirement": "NATIVE_ADDON_GENERATION_MATCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S311",
+      "requirement": "WGSL_MANIFEST_GENERATION_MATCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S312",
+      "requirement": "WGSL_MANIFEST_GENERATION_MATCH_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S313",
+      "requirement": "PIPELINE_CACHE_GENERATION_KEY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S314",
+      "requirement": "PIPELINE_CACHE_GENERATION_KEY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S315",
+      "requirement": "SURFACE_REGISTRY_GENERATION_KEY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S316",
+      "requirement": "SURFACE_REGISTRY_GENERATION_KEY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S317",
+      "requirement": "ENCODER_WORKER_GENERATION_KEY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S318",
+      "requirement": "ENCODER_WORKER_GENERATION_KEY_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S319",
+      "requirement": "STATIC_SERVER_ROOT_GENERATION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_ACTIVE_GRAPH_REPORT.json",
+      "id": "R12A-S320",
+      "requirement": "STATIC_SERVER_ROOT_GENERATION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S321",
+      "requirement": "DEV_SERVER_FORBIDDEN_INSTALLED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S322",
+      "requirement": "DEV_SERVER_FORBIDDEN_INSTALLED_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S323",
+      "requirement": "SOURCE_TREE_FALLBACK_FORBIDDEN_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S324",
+      "requirement": "SOURCE_TREE_FALLBACK_FORBIDDEN_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S325",
+      "requirement": "LAZY_ASSET_OLD_GENERATION_REJECTED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S326",
+      "requirement": "LAZY_ASSET_OLD_GENERATION_REJECTED_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S327",
+      "requirement": "CROSS_GENERATION_ASSET_COUNT_ZERO_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S328",
+      "requirement": "CROSS_GENERATION_ASSET_COUNT_ZERO_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S329",
+      "requirement": "NORMAL_RUNTIME_ONLY_CURRENT_GENERATION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S330",
+      "requirement": "NORMAL_RUNTIME_ONLY_CURRENT_GENERATION_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S331",
+      "requirement": "USER_DOCUMENT_PATH_EXCLUDED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S332",
+      "requirement": "USER_DOCUMENT_PATH_EXCLUDED_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S333",
+      "requirement": "USER_CONTENT_BYTES_EXCLUDED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S334",
+      "requirement": "USER_CONTENT_BYTES_EXCLUDED_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S335",
+      "requirement": "RAW_CRASH_DUMP_EXCLUDED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S336",
+      "requirement": "RAW_CRASH_DUMP_EXCLUDED_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S337",
+      "requirement": "INSTALL_INTERNAL_PATH_POLICY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S338",
+      "requirement": "INSTALL_INTERNAL_PATH_POLICY_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S339",
+      "requirement": "SOURCE_NEGATIVE_CONTROLS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S340",
+      "requirement": "SOURCE_NEGATIVE_CONTROLS_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S341",
+      "requirement": "POINTER_MUTATION_NEGATIVE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S342",
+      "requirement": "POINTER_MUTATION_NEGATIVE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S343",
+      "requirement": "SILENT_RESTART_NEGATIVE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S344",
+      "requirement": "SILENT_RESTART_NEGATIVE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S345",
+      "requirement": "WINDOW_SHOW_EARLY_NEGATIVE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S346",
+      "requirement": "WINDOW_SHOW_EARLY_NEGATIVE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S347",
+      "requirement": "SESSION_DRAIN_BYPASS_NEGATIVE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S348",
+      "requirement": "SESSION_DRAIN_BYPASS_NEGATIVE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S349",
+      "requirement": "R11_HANDOFF_LEGACY_TOKEN_NEGATIVE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R12A-S350",
+      "requirement": "R11_HANDOFF_LEGACY_TOKEN_NEGATIVE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R12A-S351",
+      "requirement": "PREDECESSOR_REGRESSION_ISOLATED_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R12A-S352",
+      "requirement": "PREDECESSOR_REGRESSION_ISOLATED_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R12A-S353",
+      "requirement": "HISTORICAL_RECEIPTS_IMMUTABLE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R12A-S354",
+      "requirement": "HISTORICAL_RECEIPTS_IMMUTABLE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R12A-S355",
+      "requirement": "SOURCE_ARTIFACT_SET_COMPLETE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R12A-S356",
+      "requirement": "SOURCE_ARTIFACT_SET_COMPLETE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R12A-S357",
+      "requirement": "SOURCE_GATE_REPORT_COMPLETE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R12A-S358",
+      "requirement": "SOURCE_GATE_REPORT_COMPLETE_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R12A-S359",
+      "requirement": "SOURCE_FINAL_RECEIPT_SELF_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r12a/source-bake/R12A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R12A-S360",
+      "requirement": "SOURCE_FINAL_RECEIPT_SELF_HASH_PASS",
+      "status": "PASS"
+    }
+  ],
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "schemaVersion": 1,
+  "selfSha256": "968bc33665519f796b21debe05de6fd901e50367319c8ab7168775ffd23bbebf"
+}

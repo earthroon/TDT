@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "JXL_CODEC_SOURCE_ADOPTED",
+  "buildId": "979039f74be47bc43bec0fb7",
+  "buildAuthorityDigest": "ab5d667b8a9e5afd418a7816e1c917327369207f11f6cff09e46f29b07a65bed",
+  "productionEligible": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-jxl-e2e-not-run",
+    "independent-jxl-roundtrip-corpus-not-run",
+    "pthread-generation-closure-not-measured-in-production"
+  ],
+  "verifierIds": [
+    "dadum.jxl-container-structure-v2",
+    "dadum.jxl-container-metadata-verifier-v1"
+  ],
+  "requiredBoxes": [
+    "JXL ",
+    "ftyp",
+    "jxlc|jxlp",
+    "Exif",
+    "xml "
+  ],
+  "productionContainerVerified": false,
+  "selfDigest": "3d2e555badaea991d86e60de4cd937f4122049381e31786b6b84f1666166d532"
+}

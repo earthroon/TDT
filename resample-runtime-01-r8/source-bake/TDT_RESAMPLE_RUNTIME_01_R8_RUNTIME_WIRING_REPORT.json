@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": false,
+  "checks": [
+    {
+      "id": "preview-r8",
+      "pass": false,
+      "errorCode": "E_R8_PREVIEW_NOT_WIRED",
+      "message": "preview R8",
+      "detail": null
+    },
+    {
+      "id": "export-r8",
+      "pass": false,
+      "errorCode": "E_R8_EXPORT_NOT_WIRED",
+      "message": "executeCanonicalEwaLowpassR8",
+      "detail": null
+    },
+    {
+      "id": "neutral-policy-init",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "adaptive-policy-coupling",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "no-runtime-cpu-fallback",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "r7-identity-alias",
+      "pass": true,
+      "value": true
+    }
+  ]
+}

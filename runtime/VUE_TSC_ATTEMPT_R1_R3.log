@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 typecheck:renderer
+> vue-tsc --noEmit -p tsconfig.json
+
+sh: 1: vue-tsc: not found

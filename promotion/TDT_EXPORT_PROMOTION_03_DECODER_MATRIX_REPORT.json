@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_DECODER_MATRIX_REPORT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "native-raster-decoder-addon-missing",
+    "packaged-independent-decoder-execution-not-run"
+  ],
+  "decoderMatrixId": "dadum.export.ep03-independent-decoder-matrix-v1",
+  "records": [
+    {
+      "decoderId": "dadum.decoder.native-raster-v1",
+      "formats": [
+        "png",
+        "jpeg",
+        "webp"
+      ],
+      "sourceArtifacts": [
+        "native/decoder-rs/src/lib.rs"
+      ],
+      "packagedArtifactRequired": "native/decoder-rs/*.node",
+      "sourceRegistered": true,
+      "artifacts": [
+        {
+          "file": "native/decoder-rs/src/lib.rs",
+          "present": true,
+          "sha256": "2367fb0a91e583e5e25c61eeb3a703633080659ac5309e2ba645f29373c7022a"
+        }
+      ],
+      "encoderSha256": null,
+      "decoderArtifactDistinctFromEncoder": true
+    },
+    {
+      "decoderId": "dadum.decoder.jxl-independent-v1",
+      "formats": [
+        "jxl"
+      ],
+      "sourceArtifacts": [
+        "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_decode.js",
+        "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge_bg.wasm"
+      ],
+      "encoderArtifact": "app/legacy-runtime/encoders/jxl_bindings.wasm",
+      "sourceRegistered": true,
+      "artifacts": [
+        {
+          "file": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_decode.js",
+          "present": true,
+          "sha256": "f620ce4dfc3a136b9ac63ac770874b2214c241604d650249c02408870c1b0f7e"
+        },
+        {
+          "file": "app/legacy-runtime/vendor/jxl_wgpu_bridge/jxl_wgpu_bridge_bg.wasm",
+          "present": true,
+          "sha256": "0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3"
+        }
+      ],
+      "encoderSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+      "decoderArtifactDistinctFromEncoder": true
+    },
+    {
+      "decoderId": "dadum.decoder.psd-independent-v1",
+      "formats": [
+        "psd"
+      ],
+      "sourceArtifacts": [
+        "app/legacy-runtime/decoders/psd_decode_worker.js",
+        "app/legacy-runtime/vendor/psd/psd_core.wasm"
+      ],
+      "encoderArtifact": "app/legacy-runtime/libs/psd/pkg/psd_exporter_wasm_bg.wasm",
+      "sourceRegistered": true,
+      "artifacts": [
+        {
+          "file": "app/legacy-runtime/decoders/psd_decode_worker.js",
+          "present": true,
+          "sha256": "435b1de01685b081ea83c4e21e1280394bd78ddf974551d4b70b8c7b6b9690a1"
+        },
+        {
+          "file": "app/legacy-runtime/vendor/psd/psd_core.wasm",
+          "present": true,
+          "sha256": "7acf14e838c63d6ede977e756d2ea643c856f14a7a6c4d28175ada1aeb14984b"
+        }
+      ],
+      "encoderSha256": "b751bbdc06bc0aa3c5adf61c16bf3cc2899810533f91627ba720f11332279361",
+      "decoderArtifactDistinctFromEncoder": true
+    }
+  ],
+  "nativeNodePresent": false,
+  "packagedExecutionVerified": false
+}

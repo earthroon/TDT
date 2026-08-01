@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/local-pointer-cas-receipt.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "updateTransactionId",
+    "localActivationPointerCasCount",
+    "receiptSha256"
+  ],
+  "title": "R12A local-pointer-cas-receipt",
+  "type": "object"
+}

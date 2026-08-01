@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "controls": [
+    "legacy-export-profile",
+    "role-in-plan-digest",
+    "residual-in-plan-digest",
+    "hardware-filtered-lowpass",
+    "legacy-export-lowpass-fetch",
+    "intermediate-residual",
+    "residual-feedback",
+    "residual-lowpass-id-collision",
+    "intermediate-readback"
+  ]
+}

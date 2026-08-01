@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "PASS",
+  "testCount": 96,
+  "passed": 96,
+  "failed": []
+}

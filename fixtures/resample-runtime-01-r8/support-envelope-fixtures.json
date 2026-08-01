@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "support": [
+    {
+      "scale": 1,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1,
+      "minorBound": 0.82,
+      "requiredReach": 1
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1,
+      "majorBound": 1.25,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1.5,
+      "majorBound": 1.875,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.3258252147247767,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1,
+      "majorBound": 1.7677669529663689,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1.5,
+      "majorBound": 2.6516504294495533,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.6237976320958223,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1,
+      "majorBound": 2.1650635094610964,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1.5,
+      "majorBound": 3.2475952641916446,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.875,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1,
+      "majorBound": 2.5,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1.5,
+      "majorBound": 3.75,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.0546875,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1,
+      "majorBound": 1.40625,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1.5,
+      "majorBound": 2.109375,
+      "minorBound": 1.096875,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.4915533665653737,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1,
+      "majorBound": 1.988737822087165,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1.5,
+      "majorBound": 2.9831067331307475,
+      "minorBound": 1.096875,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.8267723361078003,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1,
+      "majorBound": 2.4356964481437338,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1.5,
+      "majorBound": 3.6535446722156006,
+      "minorBound": 1.096875,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 0.75,
+      "majorBound": 2.109375,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1,
+      "majorBound": 2.8125,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.125,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1.5,
+      "majorBound": 4.21875,
+      "minorBound": 1.096875,
+      "requiredReach": 5
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.40625,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1,
+      "majorBound": 1.875,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1.5,
+      "majorBound": 2.8125,
+      "minorBound": 1.4625000000000001,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.988737822087165,
+      "minorBound": 0.82,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1,
+      "majorBound": 2.6516504294495533,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1.5,
+      "majorBound": 3.97747564417433,
+      "minorBound": 1.4625000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 0.75,
+      "majorBound": 2.4356964481437333,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1,
+      "majorBound": 3.2475952641916446,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1.5,
+      "majorBound": 4.871392896287467,
+      "minorBound": 1.4625000000000001,
+      "requiredReach": 5
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 0.75,
+      "majorBound": 2.8125,
+      "minorBound": 0.82,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1,
+      "majorBound": 3.75,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.5,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1.5,
+      "majorBound": 5.625,
+      "minorBound": 1.4625000000000001,
+      "requiredReach": 6
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.640625,
+      "minorBound": 0.8531249999999999,
+      "requiredReach": 2
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1,
+      "majorBound": 2.1875,
+      "minorBound": 1.1375,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1.5,
+      "majorBound": 3.28125,
+      "minorBound": 1.7062499999999998,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 0.75,
+      "majorBound": 2.320194125768359,
+      "minorBound": 0.8531249999999999,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1,
+      "majorBound": 3.0935921676911455,
+      "minorBound": 1.1375,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1.5,
+      "majorBound": 4.640388251536718,
+      "minorBound": 1.7062499999999998,
+      "requiredReach": 5
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 0.75,
+      "majorBound": 2.8416458561676894,
+      "minorBound": 0.8531249999999999,
+      "requiredReach": 3
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1,
+      "majorBound": 3.788861141556919,
+      "minorBound": 1.1375,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1.5,
+      "majorBound": 5.683291712335379,
+      "minorBound": 1.7062499999999998,
+      "requiredReach": 6
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 0.75,
+      "majorBound": 3.28125,
+      "minorBound": 0.8531249999999999,
+      "requiredReach": 4
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1,
+      "majorBound": 4.375,
+      "minorBound": 1.1375,
+      "requiredReach": 5
+    },
+    {
+      "scale": 1.75,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1.5,
+      "majorBound": 6.5625,
+      "minorBound": 1.7062499999999998,
+      "requiredReach": 7
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 0.75,
+      "majorBound": 1.875,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 2
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1,
+      "majorBound": 2.5,
+      "minorBound": 1.3,
+      "requiredReach": 3
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 1,
+      "policyFootprintBound": 1.5,
+      "majorBound": 3.75,
+      "minorBound": 1.9500000000000002,
+      "requiredReach": 4
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 0.75,
+      "majorBound": 2.6516504294495533,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 3
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1,
+      "majorBound": 3.5355339059327378,
+      "minorBound": 1.3,
+      "requiredReach": 4
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 2,
+      "policyFootprintBound": 1.5,
+      "majorBound": 5.303300858899107,
+      "minorBound": 1.9500000000000002,
+      "requiredReach": 6
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 0.75,
+      "majorBound": 3.2475952641916446,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1,
+      "majorBound": 4.330127018922193,
+      "minorBound": 1.3,
+      "requiredReach": 5
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 3,
+      "policyFootprintBound": 1.5,
+      "majorBound": 6.495190528383289,
+      "minorBound": 1.9500000000000002,
+      "requiredReach": 7
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 0.75,
+      "majorBound": 3.75,
+      "minorBound": 0.9750000000000001,
+      "requiredReach": 4
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1,
+      "majorBound": 5,
+      "minorBound": 1.3,
+      "requiredReach": 5
+    },
+    {
+      "scale": 2,
+      "maxAnisotropy": 4,
+      "policyFootprintBound": 1.5,
+      "majorBound": 7.5,
+      "minorBound": 1.9500000000000002,
+      "requiredReach": 8
+    }
+  ]
+}

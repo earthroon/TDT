@@ -1,0 +1,21 @@
+{
+  "authorities": [
+    "offline-root",
+    "delegated-release",
+    "transparency-log",
+    "witness-quorum",
+    "local-trust-state",
+    "r12a-staging",
+    "r13a-rollout"
+  ],
+  "parentBundleSha256": "2fe000460badb12945aafeed44a49ecfba2d41e6bea15055c9d081bab8b852d9",
+  "parentReceiptSha256": "bba464e8d49a37a947ff93912a8e2b06a24c75e21068eb239b67f62b6f99de33",
+  "parentSpecSha256": "0147e19035c89096efaf2e2169362fbdfe2b7c8da6b4125d24036bd5e7d405a5",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R14A",
+  "pointerWriterCount": 0,
+  "schemaId": "tdt.resample.contract-manifest.r14a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "84d2a6f9215e70ef538e60e2512fb3c000fd6902d101464d6fa056d8553fb1cb",
+  "summaryTrustCount": 0,
+  "transportAuthorities": []
+}

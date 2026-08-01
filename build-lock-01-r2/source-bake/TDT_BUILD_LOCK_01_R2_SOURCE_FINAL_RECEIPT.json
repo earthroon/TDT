@@ -1,0 +1,32 @@
+{
+  "authoritySnapshotSha256": "55fd525829c948a3c248cd4a40eb3fed87eac427c73af9efe0cce262ed4e51a9",
+  "candidateLockGenerated": false,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 420,
+    "PENDING": 580,
+    "SKIPPED": 0
+  },
+  "currentRootMismatchCount": 12,
+  "downstreamInvalidationReceiptSha256": "ef096b50f15a9bb5bdc40add5b09c7e18478c3d74df2185dd4438c3f5f922381",
+  "historicalPassCarryForward": 0,
+  "implementationDigest": "a00cd7ca33bd98d13e1f2c44b5835143dd83cccd1c5dcd8b5997351c30208aaf",
+  "implementationManifestSha256": "ffc58fa76e3c46a71749a33118f4d34cdd1e1522c67ad2178ee3334d98f9e622",
+  "localActivationPointerMutated": false,
+  "nativeToolchainClosed": false,
+  "offlineInstallAComplete": false,
+  "offlineInstallBComplete": false,
+  "packageLockPromoted": false,
+  "parentR14ASourceReceiptSha256": "0396cc63f7f2dfd17d5bfb81480ba778968c0419bc2cb55281a04d44d02e0ee1",
+  "patchId": "TDT-BUILD-LOCK-01-R2",
+  "productionBuildAdmitted": false,
+  "productionPointerMutated": false,
+  "receiptKind": "build-lock-r2-source-final",
+  "rootDependencyGraphExact": false,
+  "schemaVersion": 1,
+  "selfSha256": "83ffd28e7d14cf7b72662cc2a0848e00a1d799964ba6d8c3fdfde76d704535dd",
+  "sourceGateReportSha256": "ffab37cf5f37c17cccf208218fa1f4021e2ae351d2a123c7bdee08536a340585",
+  "specSha256": "c7fcc062defe7b03ddef4d00bf8c21a29d3e482e8651324067071c5e458c63c8",
+  "state": "BUILD_LOCK_R2_EXACT_ROOT_GRAPH_AND_PRODUCTION_ADMISSION_HARNESS_SOURCE_SEALED_AWAITING_CANONICAL_WIN32_X64"
+}

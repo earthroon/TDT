@@ -1,0 +1,20 @@
+{
+  "activeGraphSha256": "2e0db4fa7e457f3d066071a1b7f9c5979c9740e78db7778f5a7d7fbddca8a592",
+  "appModuleCount": 15,
+  "dependencyLockConsistent": false,
+  "evidenceReportCount": 14,
+  "installedExecutionClaimed": false,
+  "launcherModuleCount": 6,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "promotable": false,
+  "requiredScriptCount": 9,
+  "runtimeManifestSha256": "e95fed65844c36225fd05580683f41429ff7d1f3db8528dd603a02e5d6b435cd",
+  "schemaCount": 16,
+  "schemaVersion": 1,
+  "selfSha256": "3b320ba03dd7d7ba0936801d6ab682d15f5e1bc96c1358290ea1754c3d1dd031",
+  "sourceModePointerMutation": false,
+  "specSha256": "5a1ad84df38203f71e59b02969b6f5d940faac35b250743e1969cdb7980ac204",
+  "stableErrorCodeCount": 61,
+  "toolFileCount": 24
+}

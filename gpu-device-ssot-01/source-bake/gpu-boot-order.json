@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "gpuIndex": 10388,
+  "legacyIndex": 21914,
+  "gpuBeforeLegacy": true,
+  "legacyDependsOnGpuAuthority": true,
+  "dependencyTokenObserved": true,
+  "pass": true
+}

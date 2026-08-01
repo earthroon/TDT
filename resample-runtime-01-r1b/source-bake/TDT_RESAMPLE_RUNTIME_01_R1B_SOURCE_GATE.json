@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1B",
+  "state": "RESAMPLE_RUNTIME_R1B_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "counts": {
+    "PASS": 72,
+    "DEFERRED": 12
+  },
+  "gates": [
+    {
+      "id": "RB01",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB02",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB03",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB04",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB05",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB06",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB07",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB08",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB09",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB10",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB11",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB12",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB13",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB14",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB15",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB16",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB17",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB18",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB19",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB20",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB21",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB22",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB23",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB24",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB25",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB26",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB27",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB28",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB29",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB30",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB31",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB32",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB33",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB34",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB35",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB36",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB37",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB38",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB39",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB40",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB41",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB42",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB43",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB44",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB45",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB46",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB47",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB48",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB49",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB50",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB51",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB52",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB53",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB54",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB55",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB56",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB57",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB58",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB59",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB60",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB61",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB62",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB63",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB64",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB65",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB66",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB67",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB68",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB69",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB70",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB71",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB72",
+      "status": "PASS",
+      "reason": "source-planner-and-mock-runtime-verified"
+    },
+    {
+      "id": "RB73",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB74",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB75",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB76",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB77",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB78",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB79",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB80",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB81",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB82",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB83",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    },
+    {
+      "id": "RB84",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false,
+  "failCount": 0
+}

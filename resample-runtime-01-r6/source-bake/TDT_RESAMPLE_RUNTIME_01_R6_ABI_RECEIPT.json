@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "checks": [
+    {
+      "name": "abi-id",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "abi-version",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "abi-bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "abi-field-count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "offset:inSize",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "offset:outSize",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "offset:srcPerDst",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "name": "offset:dstPerSrc",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "name": "offset:sigmaMain",
+      "pass": true,
+      "detail": 32
+    },
+    {
+      "name": "offset:maxAnisotropy",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "name": "offset:edgeLow",
+      "pass": true,
+      "detail": 48
+    },
+    {
+      "name": "offset:minorCoverageFactor",
+      "pass": true,
+      "detail": 56
+    },
+    {
+      "name": "offset:kernelSharpness",
+      "pass": true,
+      "detail": 64
+    },
+    {
+      "name": "offset:kernelTaperExponent",
+      "pass": true,
+      "detail": 68
+    },
+    {
+      "name": "offset:phaseConvention",
+      "pass": true,
+      "detail": 72
+    },
+    {
+      "name": "offset:borderMode",
+      "pass": true,
+      "detail": 76
+    },
+    {
+      "name": "offset:stageIndex",
+      "pass": true,
+      "detail": 80
+    },
+    {
+      "name": "offset:flags",
+      "pass": true,
+      "detail": 88
+    },
+    {
+      "name": "offset:abiVersion",
+      "pass": true,
+      "detail": 92
+    },
+    {
+      "name": "contract-canonical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contract-digest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-size",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-sharpness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-taper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-phase",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-border",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-tail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pack-digest-sensitivity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reject:sharp-nan",
+      "pass": true,
+      "detail": "E_R6_KERNEL_PARAMETER_NONFINITE"
+    },
+    {
+      "name": "reject:sharp-range",
+      "pass": true,
+      "detail": "E_R6_KERNEL_PARAMETER_RANGE"
+    },
+    {
+      "name": "reject:taper-range",
+      "pass": true,
+      "detail": "E_R6_KERNEL_PARAMETER_RANGE"
+    },
+    {
+      "name": "reject:alias",
+      "pass": true,
+      "detail": "E_R6_AMBIGUOUS_KERNEL_ALIAS"
+    },
+    {
+      "name": "reject:phase",
+      "pass": true,
+      "detail": "E_R6_PHASE_CONVENTION_UNSUPPORTED"
+    },
+    {
+      "name": "reject:border",
+      "pass": true,
+      "detail": "E_R6_BORDER_MODE_UNSUPPORTED"
+    }
+  ]
+}

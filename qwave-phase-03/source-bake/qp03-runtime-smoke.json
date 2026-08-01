@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 32,
+  "passed": 32,
+  "failed": [],
+  "checks": [
+    {
+      "name": "reconstruct:4,0",
+      "pass": true,
+      "detail": "{\"q\":[2,1,0,1,2,0],\"z\":[4,0]}"
+    },
+    {
+      "name": "reconstruct:-4,0",
+      "pass": true,
+      "detail": "{\"q\":[2,0,1,1,0,2],\"z\":[-4,0]}"
+    },
+    {
+      "name": "reconstruct:0,4",
+      "pass": true,
+      "detail": "{\"q\":[2,0.7071067811865475,0.7071067811865475,1,1.4142135623730951,1.4142135623730951],\"z\":[0,4.000000000000001]}"
+    },
+    {
+      "name": "reconstruct:0,-4",
+      "pass": true,
+      "detail": "{\"q\":[2,0.7071067811865475,-0.7071067811865475,1,1.4142135623730951,-1.4142135623730951],\"z\":[0,-4.000000000000001]}"
+    },
+    {
+      "name": "reconstruct:3,4",
+      "pass": true,
+      "detail": "{\"q\":[2.23606797749979,0.8944271909999159,0.4472135954999579,1,2,1],\"z\":[3,4]}"
+    },
+    {
+      "name": "reconstruct:-3,4",
+      "pass": true,
+      "detail": "{\"q\":[2.23606797749979,0.4472135954999579,0.8944271909999159,1,1,2],\"z\":[-3,4]}"
+    },
+    {
+      "name": "reconstruct:1e-8,1e-8",
+      "pass": true,
+      "detail": "{\"q\":[0.00011892071150027212,0.9238795325112867,0.38268343236508984,1,0.000109868411346781,0.00004550898605622274],\"z\":[1e-8,1.0000000000000002e-8]}"
+    },
+    {
+      "name": "reconstruct:0,0",
+      "pass": true,
+      "detail": "{\"q\":[0,1,0,1,0,0],\"z\":[0,0]}"
+    },
+    {
+      "name": "negative-real-positive-imag-branch",
+      "pass": true,
+      "detail": "[2,0,1,1,0,2]"
+    },
+    {
+      "name": "negative-imag-negative-branch",
+      "pass": true,
+      "detail": "[2.0000000003125,0.000012500000515174184,-0.9999999999218752,1,0.000025000001034254616,-2.00000000015625]"
+    },
+    {
+      "name": "positive-real-positive-root",
+      "pass": true,
+      "detail": "[2,1,0,1,2,0]"
+    },
+    {
+      "name": "zero-neutral-phase",
+      "pass": true,
+      "detail": "[0,1,0,1,0,0]"
+    },
+    {
+      "name": "nonfinite-invalid",
+      "pass": true,
+      "detail": "invalid"
+    },
+    {
+      "name": "magnitude-sqrt-abs-z",
+      "pass": true,
+      "detail": "sqrt(abs Z)"
+    },
+    {
+      "name": "local-flat-zero",
+      "pass": true,
+      "detail": "flat"
+    },
+    {
+      "name": "local-gradient-positive",
+      "pass": true,
+      "detail": "gradient"
+    },
+    {
+      "name": "local-clamped",
+      "pass": true,
+      "detail": "clamp"
+    },
+    {
+      "name": "spectral-quadrature-positive",
+      "pass": true,
+      "detail": "sin phase"
+    },
+    {
+      "name": "spectral-quadrature-negative",
+      "pass": true,
+      "detail": "signed"
+    },
+    {
+      "name": "spectral-invalid-zero",
+      "pass": true,
+      "detail": "invalid"
+    },
+    {
+      "name": "defect-sign-positive",
+      "pass": true,
+      "detail": "positive"
+    },
+    {
+      "name": "defect-sign-negative",
+      "pass": true,
+      "detail": "negative"
+    },
+    {
+      "name": "defect-confidence-zero",
+      "pass": true,
+      "detail": "zero"
+    },
+    {
+      "name": "phase-unit-normalized",
+      "pass": true,
+      "detail": "unit"
+    },
+    {
+      "name": "analytic-neutral-bits",
+      "pass": true,
+      "detail": "cos phase neutral"
+    },
+    {
+      "name": "source-selection-exclusive",
+      "pass": true,
+      "detail": "one source"
+    },
+    {
+      "name": "zero-intermediate-readback",
+      "pass": true,
+      "detail": "submission ledger zero"
+    },
+    {
+      "name": "visual-time-separated",
+      "pass": true,
+      "detail": "analysis parameters omit time"
+    },
+    {
+      "name": "visual-kelvin-separated",
+      "pass": true,
+      "detail": "analysis parameters omit Kelvin"
+    },
+    {
+      "name": "legacy-phase01-range",
+      "pass": true,
+      "detail": "phase01"
+    },
+    {
+      "name": "legacy-aq-clamped",
+      "pass": true,
+      "detail": "AQ"
+    },
+    {
+      "name": "deterministic-digest",
+      "pass": true,
+      "detail": "312816aef2a49843c699c8774e4cab542c97fea25d6aba8e7901024e5d0fce57"
+    }
+  ],
+  "digest": "ebdca6cdc9e5d0a091d629f15db0c3984a566f976dd60278bd12790d697ccc90"
+}

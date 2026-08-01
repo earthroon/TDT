@@ -1,0 +1,65 @@
+{
+  "behavioralChecks": [
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8/verify-support.mjs",
+      "tail": [
+        ""
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8/verify-semantics.mjs",
+      "tail": [
+        ""
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8/verify-conservation.mjs",
+      "tail": [
+        ""
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8/verify-generated-sources.mjs",
+      "tail": [
+        ""
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8/verify-negative-controls.mjs",
+      "tail": [
+        ""
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8a/verify-parse-closure.mjs",
+      "tail": [
+        "PASS R8A JavaScript parse closure 243/243"
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8a/verify-runtime-self-tests.mjs",
+      "tail": [
+        "PASS R8A runtime module self tests"
+      ]
+    },
+    {
+      "exitCode": 0,
+      "script": "tools/resample-runtime-01-r8a/verify-zero-silent-fallback.mjs",
+      "tail": [
+        "PASS R8A zero silent export fallback"
+      ]
+    }
+  ],
+  "pass": true,
+  "r8MathAndGeneratedShaderBehaviorPreserved": true,
+  "r8RuntimeWiringSupersededByR9A": true,
+  "schemaVersion": 1,
+  "selfSha256": "ef1dd31e72c5f55c6413d62e5ddea68ad4624fef7e45110b0bee7c703a588920"
+}

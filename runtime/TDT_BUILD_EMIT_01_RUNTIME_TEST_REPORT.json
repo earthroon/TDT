@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-EMIT-01",
+  "scope": "POLICY_AND_SYNTHETIC_RUNTIME",
+  "passed": 120,
+  "total": 120,
+  "failed": []
+}

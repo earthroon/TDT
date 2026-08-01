@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-01",
+  "buildId": "429c1a7b691c53cbf11234b6",
+  "dependencyInstallAttempted": true,
+  "dependencyInstallSucceeded": false,
+  "dependencyInstallFailure": "internal-npm-registry-http-503-pinia-3.0.1",
+  "lockConsistent": false,
+  "lockConsistency": {
+    "consistent": false,
+    "missing": [
+      {
+        "name": "pinia",
+        "expected": "3.0.1",
+        "actual": null
+      },
+      {
+        "name": "vue",
+        "expected": "3.5.40",
+        "actual": null
+      },
+      {
+        "name": "@napi-rs/cli",
+        "expected": "^2.18.4",
+        "actual": null
+      },
+      {
+        "name": "@vitejs/plugin-vue",
+        "expected": "6.0.7",
+        "actual": null
+      },
+      {
+        "name": "typescript",
+        "expected": "5.9.3",
+        "actual": null
+      },
+      {
+        "name": "vite",
+        "expected": "8.1.5",
+        "actual": null
+      },
+      {
+        "name": "vue-tsc",
+        "expected": "3.2.2",
+        "actual": null
+      }
+    ]
+  },
+  "strictTypeScriptIsolated": true,
+  "strictTypeScriptExitCode": 0,
+  "fullRendererVerifyAttempted": true,
+  "fullRendererVerifyExitCode": 127,
+  "fullRendererVerifyFailure": "vue-tsc-not-found",
+  "productionRendererBuildAttempted": true,
+  "productionRendererBuildExitCode": 127,
+  "productionRendererBuildFailure": "vite-not-found",
+  "packagedElectronBuildAttempted": false,
+  "electronE2eAttempted": false,
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false
+}

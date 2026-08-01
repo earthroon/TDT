@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PREVIEW-PRESENTER-01",
+  "state": "PREVIEW_PRESENTER_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "previewGate": {
+    "pass": 50,
+    "deferred": 10,
+    "fail": 0
+  },
+  "runtimeSmoke": {
+    "actualPreviewPresenterClassExecuted": true,
+    "pipelineSubscriptionObserved": true,
+    "cpuUploadPresentation": true,
+    "gpuDirectPresentation": true,
+    "supersededDropObserved": true,
+    "surfacePinHeldThroughFence": true,
+    "pinReleaseBeforeFence": 0,
+    "visibleCanvasReadbackCount": 0,
+    "outputMutationCount": 0,
+    "deviceLossParticipantObserved": true,
+    "activePinsAfterDispose": 0
+  },
+  "regressions": {
+    "runtimeR7": {
+      "pass": 15,
+      "fail": 0
+    },
+    "promotionBaseline": {
+      "pass": 66,
+      "fail": 0
+    },
+    "activeGraphSource": {
+      "pass": 30,
+      "deferred": 10,
+      "fail": 0
+    },
+    "activeGraphRegression": {
+      "pass": 19,
+      "fail": 0
+    },
+    "gpuDeviceSsot": {
+      "pass": 30,
+      "deferred": 30,
+      "fail": 0
+    },
+    "surfaceLifecycle": {
+      "pass": 52,
+      "deferred": 8,
+      "fail": 0
+    },
+    "exportWorker01To07": "PASS",
+    "exportPromotion01": {
+      "pass": 54,
+      "fail": 0
+    },
+    "exportPromotion02": {
+      "pass": 60,
+      "fail": 0
+    },
+    "exportPromotion03": {
+      "pass": 68,
+      "fail": 0
+    },
+    "buildLock": {
+      "pass": 72,
+      "fail": 0
+    },
+    "buildEmit": {
+      "pass": 84,
+      "fail": 0
+    },
+    "modjpeg": {
+      "pass": 84,
+      "fail": 0
+    },
+    "nativeDecoder": {
+      "pass": 120,
+      "fail": 0
+    },
+    "jxlCodec": {
+      "pass": 108,
+      "fail": 0
+    },
+    "psdDecoder": {
+      "pass": 112,
+      "fail": 0
+    },
+    "typescriptSyntax": {
+      "files": 91,
+      "fail": 0
+    }
+  },
+  "changedSourceFiles": 36,
+  "productionPointerMutated": false,
+  "packagedClaims": false
+}

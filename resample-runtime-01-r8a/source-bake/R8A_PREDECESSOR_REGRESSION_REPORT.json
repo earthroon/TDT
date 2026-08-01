@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "behavioralR8Checks": [
+    {
+      "script": "tools/resample-runtime-01-r8/verify-support.mjs",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "tools/resample-runtime-01-r8/verify-semantics.mjs",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "tools/resample-runtime-01-r8/verify-conservation.mjs",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "tools/resample-runtime-01-r8/verify-generated-sources.mjs",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "tools/resample-runtime-01-r8/verify-runtime-wiring.mjs",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "tools/resample-runtime-01-r8/verify-negative-controls.mjs",
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "parentR13HistoricalSourcePass": 192,
+  "parentR13HistoricalFail": 0,
+  "downstreamReceiptCurrent": false,
+  "replayRequired": true,
+  "selfSha256": "1ddb35e9cf0617ddf1dabb346e0aa19603ebc53f26b2aeb1ed75e90cf5c02804"
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_ROLLBACK_DRILL_RECEIPT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "no-previous-promoted-package",
+    "rollback-drill-not-run"
+  ],
+  "rollbackUnit": "whole-build-only",
+  "legacyFallbackUsed": false,
+  "perEncoderRollbackUsed": false
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "schemaVersion": 1,
+  "selfSha256": "6a7b06b2047a19aef9ce44ed5c2f2c518792a76d9e3d483c5f8b03988846d298",
+  "status": 0,
+  "stderr": "",
+  "stdout": "R9A gate catalog 286 source / 214 physical\nR9A parent and lineage PASS\nR9A command graph source PASS\nR9A runtime module self tests PASS\nR9A validation sampling PASS\nR9A queue fence retirement PASS\nR9A negative controls PASS 13\nR9A product wiring PASS\nPASS R9A R8/R8A behavioral regression with R9A wiring supersession 1/1\nR9A source contract PASS\nR9A source gates 286 PASS / 0 FAIL\nTDT-RESAMPLE-RUNTIME-01-R9A 286 SOURCE PASS / 214 PHYSICAL PENDING / 0 FAIL\n",
+  "tempRemoved": true
+}

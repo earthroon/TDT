@@ -1,0 +1,14 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-04",
+  "checks": [
+    "EmotionPipeline_CURVED_DEARTIFACT_PATCH.js must not dynamically import ./applyBlendingIf.js",
+    "wire_blendif_hook.js must not import applyBlendingIf.js",
+    "window.__BlendIfHookWGPU must remain present",
+    "window.__BlendIfHook must be legacy disabled/no-op",
+    "blendif_ui.js must expose WebGPU unavailable runtime status",
+    "applyBlendingIf.js must remain present with deprecated marker",
+    "no apply script is created by this bake",
+    "Params struct and uniform size remain unchanged"
+  ],
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_04_WEBGPU_ONLY_GATE"
+}

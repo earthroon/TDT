@@ -1,0 +1,36 @@
+{
+  "config": {
+    "audit": false,
+    "buildNetworkAllowed": false,
+    "fund": false,
+    "installStrategy": "hoisted",
+    "locale": "C",
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "sourceDateEpoch": 1784937600,
+    "strictPeerDeps": true,
+    "targetArch": "x64",
+    "targetPlatform": "win32",
+    "timezone": "UTC"
+  },
+  "digest": "6dd153790a05ddf1767c9f093c601a45330cfc2605416070894211356b7c94c6",
+  "environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "",
+    "SOURCE_DATE_EPOCH": "1784937600",
+    "SystemRoot": "",
+    "TEMP": "",
+    "TMP": "",
+    "TZ": "UTC",
+    "npm_config_arch": "x64",
+    "npm_config_audit": "false",
+    "npm_config_fund": "false",
+    "npm_config_install_strategy": "hoisted",
+    "npm_config_platform": "win32",
+    "npm_config_strict_peer_deps": "true"
+  },
+  "receiptKind": "build-lock-r2-effective-config",
+  "schemaVersion": 1,
+  "selfSha256": "6b458e91aa6e54009fabcbd0bf9e1c32b1fed5e2e02c4ac86a0561319ee53730"
+}

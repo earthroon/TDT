@@ -1,0 +1,20 @@
+{
+  "localActivationPointerMutated": false,
+  "pass": true,
+  "physicalPendingExpected": 214,
+  "productionPointerMutated": false,
+  "reports": [
+    "R9A_PARENT_AND_LINEAGE_REPORT.json",
+    "R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+    "R9A_RUNTIME_MODULE_SELF_TEST.json",
+    "R9A_VALIDATION_SAMPLING_REPORT.json",
+    "R9A_FENCE_RETIREMENT_REPORT.json",
+    "R9A_NEGATIVE_CONTROL_REPORT.json",
+    "R9A_PRODUCT_WIRING_REPORT.json",
+    "R9A_PREDECESSOR_REGRESSION_REPORT.json"
+  ],
+  "schemaVersion": 1,
+  "sourcePassExpected": 286,
+  "specSha256": "a6bcd275e8d5df1f1a813c7b7f2ed96c851378fc1971eee430c96a5eb7a06b2d",
+  "selfSha256": "93a5823b093093017ea23c8d8ff231f5a31ed8deb19d916d4718f42f9fe0661b"
+}

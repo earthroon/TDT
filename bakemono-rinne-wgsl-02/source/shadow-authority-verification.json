@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl02.shadow-authority-verification.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "status": "PASS",
+  "predicates": {
+    "recorderSubmitZero": true,
+    "recorderDispatchOne": true,
+    "wrapperSubmitOne": true,
+    "wrapperDispatchOne": true,
+    "outputShadow": true,
+    "publishCountsZero": true,
+    "canonicalClaimFalse": true,
+    "destroyIdempotent": true,
+    "missingRejected": true,
+    "aliasRejected": true,
+    "canonicalRejected": true,
+    "noProductReadback": true,
+    "noDirectAdapter": true,
+    "noProductImports": true,
+    "workgroupsExact": true
+  },
+  "productFilesScanned": [
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs",
+    "app/src/runtime/surfaces/surface-registry-authority-service.ts",
+    "app/src/runtime/export/export-authority-service.ts"
+  ],
+  "productImports": [],
+  "kernelReceiptDigest": "ad28991f005fb784e00aaf4ef7e1d7dedba1b60148eccad9bc825ece99cd4233",
+  "dispatchReceiptDigest": "22eb18b52c9a07c2b65d1edfc91e4540bb0b6fc62ff5820387051ed1fc37d76b",
+  "selfSha256": "a019bac13b55d2d73502a0ec819e22f942de9707f97d4b7bac01f57938c524cf"
+}

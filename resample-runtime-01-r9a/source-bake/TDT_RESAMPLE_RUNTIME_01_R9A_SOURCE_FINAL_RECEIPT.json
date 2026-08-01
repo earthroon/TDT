@@ -1,0 +1,3038 @@
+{
+  "canonicalJobEncoderCount": 1,
+  "canonicalJobSubmitCount": 1,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 286,
+    "PENDING": 214,
+    "SKIPPED": 0
+  },
+  "deferred": 0,
+  "exportPreMapFenceAwaitCount": 0,
+  "fail": 0,
+  "localActivationPointerMutated": false,
+  "nextAuthority": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A",
+  "pending": 214,
+  "physicalExportOnSubmittedWorkDoneCount": null,
+  "physicalGates": [
+    {
+      "evidence": null,
+      "id": "R9A-P001",
+      "requirement": "Windows x64 packaged Electron execution",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P002",
+      "requirement": "Hardware D3D12 adapter admitted",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P003",
+      "requirement": "Software adapter rejected",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P004",
+      "requirement": "timestamp-query feature admitted",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P005",
+      "requirement": "R8A packaged module parse and import",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P006",
+      "requirement": "R8A canonical executor physical dispatch",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P007",
+      "requirement": "Same package bytes before and after run",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P008",
+      "requirement": "Source tree inaccessible from package",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P009",
+      "requirement": "Vite dev server disabled",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P010",
+      "requirement": "Network disabled during qualification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P011",
+      "requirement": "Package content ID frozen",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P012",
+      "requirement": "GPU device identity frozen for run",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P013",
+      "requirement": "Power state recorded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P014",
+      "requirement": "Display state recorded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P015",
+      "requirement": "Driver identity recorded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P016",
+      "requirement": "Electron version recorded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P017",
+      "requirement": "Chromium version recorded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P018",
+      "requirement": "Run lock is exclusive",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P019",
+      "requirement": "Interruption marker is present",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P020",
+      "requirement": "Cleanup ledger closes",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P021",
+      "requirement": "R4 one-stage product/reference raw16 exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P022",
+      "requirement": "R6 one-stage product/reference raw16 exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P023",
+      "requirement": "R4 multi-stage product/reference raw16 exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P024",
+      "requirement": "R6 multi-stage product/reference raw16 exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P025",
+      "requirement": "R4 oracle max ULP within 1",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P026",
+      "requirement": "R6 oracle max ULP within 1",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P027",
+      "requirement": "Fractional phase matrix exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P028",
+      "requirement": "Negative coordinate matrix exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P029",
+      "requirement": "Border corner matrix exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P030",
+      "requirement": "One-by-one fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P031",
+      "requirement": "One-by-N fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P032",
+      "requirement": "N-by-one fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P033",
+      "requirement": "Premultiplied alpha fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P034",
+      "requirement": "Transparent hidden RGB fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P035",
+      "requirement": "Constant DC fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P036",
+      "requirement": "Neutral policy fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P037",
+      "requirement": "Adaptive policy fixture exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P038",
+      "requirement": "Residual disabled identity exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P039",
+      "requirement": "Residual alpha invariant exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P040",
+      "requirement": "Source preparation exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P041",
+      "requirement": "Single-submit output equals R8A baseline output",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P042",
+      "requirement": "Pass order physical observation matches receipt",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P043",
+      "requirement": "Stage count physical observation matches planner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P044",
+      "requirement": "No intermediate CPU readback",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P045",
+      "requirement": "No intermediate texture-to-buffer copy",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P046",
+      "requirement": "Preview terminal texture semantic exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P047",
+      "requirement": "Export final byte semantic exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P048",
+      "requirement": "R4 validation variant output equals product output",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P049",
+      "requirement": "R6 validation variant output equals product output",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P050",
+      "requirement": "Validation pipeline shader digest exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P051",
+      "requirement": "Product pipeline shader digest exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P052",
+      "requirement": "Generated manifest digest exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P053",
+      "requirement": "Kernel contract identity exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P054",
+      "requirement": "Parameter ABI identity exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P055",
+      "requirement": "Planner identity exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P056",
+      "requirement": "Command graph digest exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P057",
+      "requirement": "No nonfinite output",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P058",
+      "requirement": "No fault sentinel output",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P059",
+      "requirement": "No support clipping",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P060",
+      "requirement": "No center fallback",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P061",
+      "requirement": "First job per device epoch sampled",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P062",
+      "requirement": "First job per kernel digest sampled",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P063",
+      "requirement": "First job per plan digest sampled",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P064",
+      "requirement": "Periodic sample schedule exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P065",
+      "requirement": "Post-device-loss first job sampled",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P066",
+      "requirement": "Post-pipeline-rebuild first job sampled",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P067",
+      "requirement": "Unsampled job uses product pipeline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P068",
+      "requirement": "Sampled job uses validation pipeline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P069",
+      "requirement": "Sampled job dispatch count remains one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P070",
+      "requirement": "Sampled output equals unsampled output",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P071",
+      "requirement": "All admitted counters zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P072",
+      "requirement": "All reserved counters zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P073",
+      "requirement": "Controlled radius fault counter increments",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P074",
+      "requirement": "Controlled zero-weight fault counter increments",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P075",
+      "requirement": "Controlled nonfinite weight counter increments",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P076",
+      "requirement": "Controlled nonfinite accumulation counter increments",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P077",
+      "requirement": "Only expected counter increments per fault",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P078",
+      "requirement": "Counter clear precedes dispatch",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P079",
+      "requirement": "Counter copy follows dispatch",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P080",
+      "requirement": "Counter readback exact 32 words",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P081",
+      "requirement": "Counter observer asynchronous in Preview",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P082",
+      "requirement": "Preview sampled frame does not CPU-stall",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P083",
+      "requirement": "Export strict sample rejects nonzero counter",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P084",
+      "requirement": "Export strict sample saves only after zero counter",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P085",
+      "requirement": "Validation sample receipt exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P086",
+      "requirement": "Validation trigger reason exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P087",
+      "requirement": "Validation shader digest exact",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P088",
+      "requirement": "Counter buffer reuse is fence-safe",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P089",
+      "requirement": "Counter buffer live bytes plateau",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P090",
+      "requirement": "Counter readback buffer is unmapped",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P091",
+      "requirement": "Counter observer survives 256 jobs",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P092",
+      "requirement": "Counter observer recovers after loss",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P093",
+      "requirement": "No inferred zero counters",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P094",
+      "requirement": "No duplicate validation dispatch",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P095",
+      "requirement": "Validation overhead receipt complete",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P096",
+      "requirement": "Preview one-stage encoder count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P097",
+      "requirement": "Preview one-stage submit count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P098",
+      "requirement": "Preview multi-stage encoder count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P099",
+      "requirement": "Preview multi-stage submit count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P100",
+      "requirement": "Export one-stage encoder count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P101",
+      "requirement": "Export one-stage submit count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P102",
+      "requirement": "Export multi-stage encoder count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P103",
+      "requirement": "Export multi-stage submit count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P104",
+      "requirement": "Source preparation stage submit count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P105",
+      "requirement": "Tensor stage submit count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P106",
+      "requirement": "Adaptive stage submit count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P107",
+      "requirement": "EWA stage submit count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P108",
+      "requirement": "Residual stage submit count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P109",
+      "requirement": "Finalization stage submit count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P110",
+      "requirement": "Preview onSubmittedWorkDone count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P111",
+      "requirement": "Export pre-map onSubmittedWorkDone count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P112",
+      "requirement": "Stage loop fence count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P113",
+      "requirement": "Terminal Export map count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P114",
+      "requirement": "Preview map count equals zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P115",
+      "requirement": "Validation Preview asynchronous map count bounded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P116",
+      "requirement": "Submission serial monotonic",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P117",
+      "requirement": "Completion ticket count equals submit count",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P118",
+      "requirement": "Completion ticket settles exactly once",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P119",
+      "requirement": "Uniform slots reclaim after completion",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P120",
+      "requirement": "Transient textures reclaim after completion",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P121",
+      "requirement": "Same-queue downstream consumer starts without CPU fence",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P122",
+      "requirement": "No hidden compatibility wrapper submit",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P123",
+      "requirement": "No hidden compatibility wrapper fence",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P124",
+      "requirement": "Command buffer count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P125",
+      "requirement": "Timestamp query resolve in same submit",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P126",
+      "requirement": "Validation counter copy in same submit",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P127",
+      "requirement": "Export terminal copy in same submit",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P128",
+      "requirement": "No partial submit on injected recording failure",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P129",
+      "requirement": "Device loss rejects pending ticket",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P130",
+      "requirement": "Post-loss new job uses new submission epoch",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P131",
+      "requirement": "R4 one-stage median GPU time no worse than 1.05 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P132",
+      "requirement": "R6 one-stage median GPU time no worse than 1.05 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P133",
+      "requirement": "R4 two-stage median GPU time at most 0.90 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P134",
+      "requirement": "R6 two-stage median GPU time at most 0.90 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P135",
+      "requirement": "R4 three-plus-stage median GPU time at most 0.80 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P136",
+      "requirement": "R6 three-plus-stage median GPU time at most 0.85 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P137",
+      "requirement": "R4 multi-stage p95 at most 0.95 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P138",
+      "requirement": "R6 multi-stage p95 at most 0.95 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P139",
+      "requirement": "Preview CPU encode-submit time at most 0.60 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P140",
+      "requirement": "Export CPU encode-submit time at most 0.60 baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P141",
+      "requirement": "Submit count reduction matches stage count collapse",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P142",
+      "requirement": "Fence wait CPU time is zero for Preview",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P143",
+      "requirement": "Unsampled validation overhead at most 3 percent",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P144",
+      "requirement": "Sampled validation overhead at most 15 percent",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P145",
+      "requirement": "Uniform ring allocation count plateaus",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P146",
+      "requirement": "Bind group allocation count is bounded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P147",
+      "requirement": "Command encoder allocation count equals job count",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P148",
+      "requirement": "No per-stage uniform buffer creation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P149",
+      "requirement": "No per-stage readback buffer creation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P150",
+      "requirement": "Timestamp raw ticks preserved",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P151",
+      "requirement": "AB/BA benchmark order balanced",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P152",
+      "requirement": "Warmup at least 128 iterations",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P153",
+      "requirement": "Measured paired samples at least 256",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P154",
+      "requirement": "R4 and R6 measured separately",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P155",
+      "requirement": "One-stage and multi-stage measured separately",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P156",
+      "requirement": "Preview and Export measured separately",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P157",
+      "requirement": "Sampled and unsampled measured separately",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P158",
+      "requirement": "Median calculation is deterministic",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P159",
+      "requirement": "p95 calculation is deterministic",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P160",
+      "requirement": "Outlier rejection policy is explicit",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P161",
+      "requirement": "No wall-clock substitution for GPU timestamps",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P162",
+      "requirement": "CPU timings use monotonic high-resolution clock",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P163",
+      "requirement": "Thermal state is recorded",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P164",
+      "requirement": "Power state changes invalidate run",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P165",
+      "requirement": "Driver reset invalidates run",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P166",
+      "requirement": "Background load anomaly invalidates run",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P167",
+      "requirement": "Baseline and candidate use same package bytes",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P168",
+      "requirement": "Baseline is test-only and cannot become product",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P169",
+      "requirement": "Performance receipt contains raw sample digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P170",
+      "requirement": "All performance thresholds pass",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P171",
+      "requirement": "Uniform arena live bytes plateau",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P172",
+      "requirement": "Counter arena live bytes plateau",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P173",
+      "requirement": "Timestamp arena live bytes plateau",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P174",
+      "requirement": "Transient texture live bytes plateau",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P175",
+      "requirement": "Bind group cache cardinality plateaus",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P176",
+      "requirement": "Pipeline cache cardinality plateaus",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P177",
+      "requirement": "Last 64 iteration slope is nonpositive",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P178",
+      "requirement": "Renderer private memory slope acceptable",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P179",
+      "requirement": "GPU process memory slope acceptable",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P180",
+      "requirement": "No mapped buffer leak",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P181",
+      "requirement": "No submission ticket leak",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P182",
+      "requirement": "No completion callback leak",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P183",
+      "requirement": "No Surface Registry leak",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P184",
+      "requirement": "Device loss cycle one recovers",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P185",
+      "requirement": "Device loss cycle two recovers",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P186",
+      "requirement": "Device loss cycle three recovers",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P187",
+      "requirement": "Each loss revokes old graph tickets",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P188",
+      "requirement": "Each loss invalidates old uniform slots",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P189",
+      "requirement": "Each loss rebuilds arenas",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P190",
+      "requirement": "Each loss rebuilds pipelines",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P191",
+      "requirement": "Post-loss sampled validation passes",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P192",
+      "requirement": "Post-loss parity passes",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P193",
+      "requirement": "Post-loss residency returns to baseline",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P194",
+      "requirement": "Stale completion cannot corrupt new epoch",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P195",
+      "requirement": "Cleanup ledger closes after loss suite",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P196",
+      "requirement": "Preview canonical broker uses R9A graph",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P197",
+      "requirement": "Preview Surface Registry handoff succeeds",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P198",
+      "requirement": "Preview returns without queue fence",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P199",
+      "requirement": "Preview sampled validation alert path works",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P200",
+      "requirement": "Export canonical path uses R9A graph",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P201",
+      "requirement": "Export terminal readback count equals one",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P202",
+      "requirement": "Export strict validation prevents bad save",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P203",
+      "requirement": "PNG success receipt contains R9A submission identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P204",
+      "requirement": "WebP success receipt contains R9A submission identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P205",
+      "requirement": "JXL success receipt contains R9A submission identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P206",
+      "requirement": "Zero silent fallback remains observed",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P207",
+      "requirement": "Actual kernel identity propagates to all export receipts",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P208",
+      "requirement": "Packaged Preview and Export outputs share lowpass identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P209",
+      "requirement": "All 214 physical gates PASS",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P210",
+      "requirement": "No physical gate PENDING",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P211",
+      "requirement": "No physical gate DEFERRED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P212",
+      "requirement": "No physical gate SKIPPED",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P213",
+      "requirement": "No physical gate FAIL",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "R9A-P214",
+      "requirement": "R9A final physical receipt self-hash valid",
+      "status": "PENDING"
+    }
+  ],
+  "physicalPass": 0,
+  "physicalPreviewOnSubmittedWorkDoneCount": null,
+  "previewQueueFenceAwaitCount": 0,
+  "productionPointerMutated": false,
+  "r10ThroughR13ReceiptsCurrent": false,
+  "r8aReceiptCurrent": true,
+  "schemaId": "tdt.resample.single-submit-validation-performance.r9a.v1",
+  "schemaVersion": 1,
+  "skipped": 0,
+  "sourceGates": [
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S001",
+      "requirement": "R8A final source receipt is present and digest-verified",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S002",
+      "requirement": "R8A final state is exact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S003",
+      "requirement": "R8A 253 source gates remain PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S004",
+      "requirement": "R8A physical gates remain DEFERRED until R9A execution",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S005",
+      "requirement": "R8A Active Graph parse closure remains exact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S006",
+      "requirement": "R8A canonical executor registration remains present",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S007",
+      "requirement": "R8A actual kernel identity bundle remains source of truth",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S008",
+      "requirement": "R8A repeated device-loss authority remains admitted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S009",
+      "requirement": "R8A zero-silent-fallback contract remains admitted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S010",
+      "requirement": "R8 mathematical kernel files remain hash-frozen",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S011",
+      "requirement": "R8 support planner v3 remains hash-frozen",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S012",
+      "requirement": "R8 generated WGSL manifest remains hash-frozen",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S013",
+      "requirement": "R8A downstream invalidation receipt remains byte-identical",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S014",
+      "requirement": "R9 through R13 historical receipts remain historical only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S015",
+      "requirement": "No superseded downstream receipt is accepted as current",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S016",
+      "requirement": "Production Pointer mirrors remain byte-identical",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S017",
+      "requirement": "Local activation pointer is not created by source bake",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S018",
+      "requirement": "Parent package.json expansion is isolated from frozen runtime files",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S019",
+      "requirement": "Lineage manifest names R8A as immediate parent",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S020",
+      "requirement": "Next current authority is R9A only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S021",
+      "requirement": "R9A owns command recording and submission policy only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S022",
+      "requirement": "R9A does not change EWA kernel math",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S023",
+      "requirement": "R9A does not change planner stage geometry",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PARENT_AND_LINEAGE_REPORT.json",
+      "id": "R9A-S024",
+      "requirement": "R9A does not change alpha or transfer semantics",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S025",
+      "requirement": "R9A does not mutate Production Pointer",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S026",
+      "requirement": "R9A does not mutate local activation pointer",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S027",
+      "requirement": "R9A does not issue R11 runtime admission tokens",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S028",
+      "requirement": "R9A does not perform fleet rollout",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S029",
+      "requirement": "GPUDevice Authority remains single device owner",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S030",
+      "requirement": "Surface Registry remains texture ownership authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S031",
+      "requirement": "Validation sampling policy has one SSOT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S032",
+      "requirement": "Submission fence registry has one SSOT",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S033",
+      "requirement": "Uniform arena has one owner per device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S034",
+      "requirement": "Physical promotion cannot be inferred from source PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S035",
+      "requirement": "Canonical command graph schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S036",
+      "requirement": "Graph identity includes job and device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S037",
+      "requirement": "Exactly one encoder is created per canonical job",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S038",
+      "requirement": "Source preparation records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S039",
+      "requirement": "Stage tensor records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S040",
+      "requirement": "Adaptive policy records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S041",
+      "requirement": "EWA product records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S042",
+      "requirement": "Validation variant records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S043",
+      "requirement": "Residual records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S044",
+      "requirement": "Finalization records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S045",
+      "requirement": "Terminal texture copy records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S046",
+      "requirement": "Timestamp resolves record into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S047",
+      "requirement": "Validation counter copy records into supplied encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S048",
+      "requirement": "No stage helper submits when encoder is supplied",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S049",
+      "requirement": "No stage helper awaits queue completion when encoder is supplied",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S050",
+      "requirement": "Graph pass order is deterministic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S051",
+      "requirement": "Graph resource dependency edges are explicit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S052",
+      "requirement": "Each stage consumes previous stage texture in-order",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S053",
+      "requirement": "Tensor pass precedes its EWA pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S054",
+      "requirement": "Adaptive policy pass precedes its EWA pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S055",
+      "requirement": "Residual is terminal-stage-only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S056",
+      "requirement": "Finalization follows selected lowpass or residual texture",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S057",
+      "requirement": "Export readback copy is last GPU operation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S058",
+      "requirement": "Preview graph contains no readback copy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S059",
+      "requirement": "Graph abort before submit destroys all unsubmitted resources",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S060",
+      "requirement": "Graph recording error cannot submit partial work",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S061",
+      "requirement": "Graph cannot be submitted twice",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S062",
+      "requirement": "Graph completion ticket is immutable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S063",
+      "requirement": "Graph receipt contains exact pass sequence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S064",
+      "requirement": "Graph receipt contains exact stage count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S065",
+      "requirement": "Graph receipt contains encoder count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S066",
+      "requirement": "Graph receipt contains submit count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S067",
+      "requirement": "Graph receipt contains validation sample decision",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S068",
+      "requirement": "Graph receipt contains uniform slot identities",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S069",
+      "requirement": "Graph receipt contains timestamp query range",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S070",
+      "requirement": "Graph receipt digest is canonical",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S071",
+      "requirement": "prepareCanonicalSourceR9A accepts encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S072",
+      "requirement": "buildStageLocalTensorR9A accepts encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S073",
+      "requirement": "buildAdaptivePolicyFieldR9A accepts encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S074",
+      "requirement": "recordEwaDispatchR9A accepts encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_COMMAND_GRAPH_SOURCE_REPORT.json",
+      "id": "R9A-S075",
+      "requirement": "recordExportResidualR9A accepts encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S076",
+      "requirement": "recordExportFinalizationR9A accepts encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S077",
+      "requirement": "Standalone compatibility wrappers remain available",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S078",
+      "requirement": "Standalone wrappers submit exactly once",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S079",
+      "requirement": "Encoder-aware helpers submit zero times",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S080",
+      "requirement": "Encoder-aware helpers fence zero times",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S081",
+      "requirement": "Recorded pass receipt is returned without claiming completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S082",
+      "requirement": "Completion fields are set only by graph finalizer",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S083",
+      "requirement": "Stage helper cannot destroy resources before submission completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S084",
+      "requirement": "Stage helper cannot reuse stale encoder context",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S085",
+      "requirement": "Stage helper verifies device identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S086",
+      "requirement": "Stage helper verifies device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S087",
+      "requirement": "Stage helper verifies command graph identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S088",
+      "requirement": "Stage helper rejects foreign uniform arena",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S089",
+      "requirement": "Stage helper rejects foreign counter arena",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S090",
+      "requirement": "Stage helper rejects unsupported texture semantics",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S091",
+      "requirement": "Legacy raw pipeline path remains outside canonical graph",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S092",
+      "requirement": "Canonical path cannot fall back to standalone helper",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S093",
+      "requirement": "API migration manifest lists every replaced call site",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S094",
+      "requirement": "Old stage-level submit calls are absent from active canonical path",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S095",
+      "requirement": "Uniform ring schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S096",
+      "requirement": "Uniform ring is device-epoch scoped",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S097",
+      "requirement": "Uniform ring stride uses minUniformBufferOffsetAlignment",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S098",
+      "requirement": "EWA 96-byte payload fits one aligned slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S099",
+      "requirement": "Tensor payload fits aligned typed slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S100",
+      "requirement": "Source preparation payload fits aligned typed slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S101",
+      "requirement": "Adaptive policy payload fits aligned typed slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S102",
+      "requirement": "Residual payload fits aligned typed slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S103",
+      "requirement": "Finalization payload fits aligned typed slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S104",
+      "requirement": "Slot identity includes arena generation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S105",
+      "requirement": "Slot identity includes submission serial",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S106",
+      "requirement": "Slot identity includes job identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S107",
+      "requirement": "Slot identity includes pass identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S108",
+      "requirement": "Dynamic offsets are alignment-valid",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S109",
+      "requirement": "Bind group layouts admit dynamic offsets where required",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S110",
+      "requirement": "No shared mutable single uniform buffer remains in canonical path",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S111",
+      "requirement": "CPU writes never overwrite in-flight slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_VALIDATION_SAMPLING_REPORT.json",
+      "id": "R9A-S112",
+      "requirement": "Ring exhaustion is fail-closed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S113",
+      "requirement": "Ring exhaustion does not allocate silent unbounded buffers",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S114",
+      "requirement": "Overflow pool has explicit bounded policy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S115",
+      "requirement": "Overflow pool use is receipted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S116",
+      "requirement": "Slot reclamation occurs only after submission completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S117",
+      "requirement": "Slot reclamation is idempotent",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S118",
+      "requirement": "Slot release before submit aborts cleanly",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S119",
+      "requirement": "Device loss invalidates all slots",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S120",
+      "requirement": "Old epoch slot cannot bind to new device",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S121",
+      "requirement": "Arena disposal destroys backing buffers once",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S122",
+      "requirement": "Arena live-byte accounting is exact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S123",
+      "requirement": "Arena high-water mark is receipted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S124",
+      "requirement": "Arena capacity is configurable but bounded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S125",
+      "requirement": "Preview and Export may share arena under same device authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S126",
+      "requirement": "Preview and Export cannot share a slot concurrently",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S127",
+      "requirement": "Per-job slot count is derivable from stage plan",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S128",
+      "requirement": "Ring wraparound negative control exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S129",
+      "requirement": "Misaligned dynamic offset negative control exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S130",
+      "requirement": "Premature slot reuse negative control exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S131",
+      "requirement": "Stale epoch slot negative control exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S132",
+      "requirement": "Uniform byte digest is recorded per pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S133",
+      "requirement": "Validation sampling policy schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S134",
+      "requirement": "Policy identity is canonical and digest-bound",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S135",
+      "requirement": "Policy includes build identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S136",
+      "requirement": "Policy includes device identity class",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S137",
+      "requirement": "Policy includes kernel contract digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S138",
+      "requirement": "Policy includes planner identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S139",
+      "requirement": "Policy includes sampling denominator",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S140",
+      "requirement": "Policy includes mandatory trigger set",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S141",
+      "requirement": "First canonical job per device epoch is sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S142",
+      "requirement": "First job per kernel digest is sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S143",
+      "requirement": "First job per plan digest is sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S144",
+      "requirement": "First job after device loss is sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S145",
+      "requirement": "First job after pipeline rebuild is sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S146",
+      "requirement": "Periodic deterministic sample is supported",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S147",
+      "requirement": "Sampling decision is deterministic for same inputs",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S148",
+      "requirement": "Sampling decision uses monotonic canonical job sequence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S149",
+      "requirement": "Sampling decision does not use user file name",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S150",
+      "requirement": "Sampling decision does not use image pixel hash",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S151",
+      "requirement": "Sampling decision does not use wall-clock randomness",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S152",
+      "requirement": "Unsampled stage uses product pipeline",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S153",
+      "requirement": "Sampled stage uses validation pipeline in product position",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S154",
+      "requirement": "Sampled stage is not dispatched twice",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S155",
+      "requirement": "Validation output texture is canonical product output",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S156",
+      "requirement": "Validation counter buffer has 32 u32 words",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S157",
+      "requirement": "Counter buffer is cleared before sampled graph",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_RUNTIME_MODULE_SELF_TEST.json",
+      "id": "R9A-S158",
+      "requirement": "Reserved counters must remain zero",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S159",
+      "requirement": "Counter copy occurs in same command graph",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S160",
+      "requirement": "Counter readback buffer is ring-managed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S161",
+      "requirement": "Preview counter readback is asynchronous",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S162",
+      "requirement": "Preview counter failure revokes subsequent admission",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S163",
+      "requirement": "Export strict sample waits before save",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S164",
+      "requirement": "Export non-sampled job does not add readback",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S165",
+      "requirement": "Counter nonzero discards sampled Export output",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S166",
+      "requirement": "Counter nonzero emits structured fault receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S167",
+      "requirement": "Counter observer is device-epoch scoped",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S168",
+      "requirement": "Counter observer survives multiple jobs",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S169",
+      "requirement": "Counter observer is re-created after device loss",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S170",
+      "requirement": "Counter sample rate is receipted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S171",
+      "requirement": "Counter trigger reason is receipted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S172",
+      "requirement": "Counter values are preserved exactly",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S173",
+      "requirement": "No counter value is replaced by inferred zero",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S174",
+      "requirement": "Validation shader identity equals generated manifest record",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S175",
+      "requirement": "Canonical source preparation has no onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S176",
+      "requirement": "Canonical tensor stage has no onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S177",
+      "requirement": "Canonical adaptive policy stage has no onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S178",
+      "requirement": "Canonical EWA stage has no onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S179",
+      "requirement": "Canonical residual stage has no onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S180",
+      "requirement": "Canonical finalization stage has no onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S181",
+      "requirement": "Canonical multi-stage loop has no stage fence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S182",
+      "requirement": "One queue submit occurs per canonical job",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S183",
+      "requirement": "Preview returns without CPU queue fence by default",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S184",
+      "requirement": "Export uses mapAsync as terminal synchronization",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S185",
+      "requirement": "Explicit strict validation may await counter map only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S186",
+      "requirement": "No redundant onSubmittedWorkDone precedes mapAsync",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S187",
+      "requirement": "Submission fence registry schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S188",
+      "requirement": "Submission serial is monotonic per device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S189",
+      "requirement": "Completion promise is created once per submission",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S190",
+      "requirement": "Completion promise is shared by all resource owners",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S191",
+      "requirement": "Completion observer does not resubmit commands",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S192",
+      "requirement": "Completion observer releases uniform slots",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S193",
+      "requirement": "Completion observer releases transient resources",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S194",
+      "requirement": "Completion observer records GPU completion status",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S195",
+      "requirement": "Device loss rejects all pending completion tickets",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S196",
+      "requirement": "Stale completion cannot release new epoch resources",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S197",
+      "requirement": "Downstream same-queue consumers use texture dependency not CPU wait",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S198",
+      "requirement": "External CPU consumer must request explicit completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S199",
+      "requirement": "Compatibility wrapper fence use is receipted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S200",
+      "requirement": "Queue fence count is measured physically",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S201",
+      "requirement": "Submit count is measured physically",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S202",
+      "requirement": "Silent fallback to stage-level fencing is forbidden",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S203",
+      "requirement": "Graph resource ledger schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S204",
+      "requirement": "Every transient texture has one owner",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S205",
+      "requirement": "Every transient buffer has one owner",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_FENCE_RETIREMENT_REPORT.json",
+      "id": "R9A-S206",
+      "requirement": "Retained terminal inputs have explicit lease",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S207",
+      "requirement": "Intermediate textures release after submission completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S208",
+      "requirement": "Terminal texture lifetime is caller-owned",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S209",
+      "requirement": "Preview surface registry transfer is explicit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S210",
+      "requirement": "Export terminal readback buffer is destroyed after unmap",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S211",
+      "requirement": "Validation counter readback buffer is destroyed after observation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S212",
+      "requirement": "Timestamp buffers are pooled or bounded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S213",
+      "requirement": "No mapped buffer remains after job completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S214",
+      "requirement": "Graph abort destroys unsubmitted resources",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S215",
+      "requirement": "Graph submit transfers cleanup to completion registry",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S216",
+      "requirement": "Completion cleanup is exactly-once",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S217",
+      "requirement": "Device loss aborts recording graph",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S218",
+      "requirement": "Device loss rejects submitted graph ticket",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S219",
+      "requirement": "Device loss clears uniform arena",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S220",
+      "requirement": "Device loss clears counter arena",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S221",
+      "requirement": "Device loss clears timestamp arena",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S222",
+      "requirement": "Device loss clears pipeline graph cache",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S223",
+      "requirement": "Device loss preserves historical receipt only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S224",
+      "requirement": "New epoch builds new arenas",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S225",
+      "requirement": "New epoch builds new command graph authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S226",
+      "requirement": "Three consecutive device-loss cycles remain supported",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S227",
+      "requirement": "Post-loss first job is mandatorily sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S228",
+      "requirement": "Post-loss output parity is revalidated",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S229",
+      "requirement": "Resource live bytes return to baseline",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S230",
+      "requirement": "Resource cardinality returns to baseline",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S231",
+      "requirement": "No old epoch bind group is reused",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S232",
+      "requirement": "No stale graph can submit after recovery",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S233",
+      "requirement": "R9A command graph receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S234",
+      "requirement": "R9A submission receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S235",
+      "requirement": "R9A uniform arena receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PRODUCT_WIRING_REPORT.json",
+      "id": "R9A-S236",
+      "requirement": "R9A validation sample receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S237",
+      "requirement": "R9A performance receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S238",
+      "requirement": "Actual R8A kernel identity is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S239",
+      "requirement": "Actual generated shader digest set is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S240",
+      "requirement": "Actual ABI identity is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S241",
+      "requirement": "Actual planner identity is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S242",
+      "requirement": "R8A lowpass receipt digest is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S243",
+      "requirement": "Pass sequence digest is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S244",
+      "requirement": "Uniform payload digest set is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S245",
+      "requirement": "Validation counter digest is embedded when sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S246",
+      "requirement": "Timestamp raw digest is embedded when measured",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S247",
+      "requirement": "Submission serial is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S248",
+      "requirement": "Device epoch is embedded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S249",
+      "requirement": "Package content identity is reserved for physical receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S250",
+      "requirement": "No source receipt claims hardware timing",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S251",
+      "requirement": "No source receipt claims physical counter values",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S252",
+      "requirement": "Source and physical states are distinct",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S253",
+      "requirement": "Receipt child artifact digests are canonical",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S254",
+      "requirement": "Receipt self-hash is verified",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S255",
+      "requirement": "Stage helper standalone submit inside graph is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S256",
+      "requirement": "Stage helper queue fence inside graph is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S257",
+      "requirement": "Second encoder creation is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S258",
+      "requirement": "Second queue submit is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S259",
+      "requirement": "Uniform slot misalignment is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_NEGATIVE_CONTROL_REPORT.json",
+      "id": "R9A-S260",
+      "requirement": "Uniform slot premature reuse is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S261",
+      "requirement": "Uniform arena unbounded growth is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S262",
+      "requirement": "Validation job double dispatch is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S263",
+      "requirement": "Validation counter inferred-zero substitution is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S264",
+      "requirement": "Sample schedule randomness is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S265",
+      "requirement": "Counter readback omission is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S266",
+      "requirement": "Preview synchronous fence regression is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S267",
+      "requirement": "Export pre-map queue fence regression is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S268",
+      "requirement": "Partial graph submit after recording error is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S269",
+      "requirement": "Stale device epoch graph submit is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S270",
+      "requirement": "Stale completion cleanup is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S271",
+      "requirement": "Old kernel identity propagation is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S272",
+      "requirement": "Historical R9 receipt reuse is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S273",
+      "requirement": "Production pointer mutation is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S274",
+      "requirement": "CPU resample fallback is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S275",
+      "requirement": "R9A source tools are parser-valid",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_PREDECESSOR_REGRESSION_REPORT.json",
+      "id": "R9A-S276",
+      "requirement": "R9A runtime modules are parser-valid",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S277",
+      "requirement": "R9A TypeScript modules transpile",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S278",
+      "requirement": "R9A active runtime nodes are admitted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S279",
+      "requirement": "R9A command graph edges are admitted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S280",
+      "requirement": "R9A validation shaders remain active assets",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S281",
+      "requirement": "R9A test-only baseline remains quarantined",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S282",
+      "requirement": "Source gate catalog has 286 unique IDs",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S283",
+      "requirement": "Physical gate catalog has 214 unique IDs",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S284",
+      "requirement": "Source final state is exact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S285",
+      "requirement": "Physical final state is unreachable with pending gates",
+      "status": "PASS"
+    },
+    {
+      "evidence": "artifacts/resample-runtime-01-r9a/source-bake/R9A_SOURCE_CONTRACT_REPORT.json",
+      "id": "R9A-S286",
+      "requirement": "Next authority is R10A replay",
+      "status": "PASS"
+    }
+  ],
+  "sourcePass": 286,
+  "specSha256": "a6bcd275e8d5df1f1a813c7b7f2ed96c851378fc1971eee430c96a5eb7a06b2d",
+  "state": "RESAMPLE_RUNTIME_R9A_SINGLE_SUBMIT_VALIDATION_AND_PERFORMANCE_HARNESS_SOURCE_SEALED_AWAITING_PHYSICAL_GPU",
+  "uniformInFlightOverwriteCount": 0,
+  "validationDoubleDispatchCount": 0,
+  "selfSha256": "2295d63dfa56319d7f1fc91020d9af77258ff38270bbdf3b4b2cb4389f64c5ee"
+}

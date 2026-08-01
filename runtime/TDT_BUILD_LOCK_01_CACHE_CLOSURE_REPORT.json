@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "cachePolicyId": "project-closure-frozen-cache-v1",
+  "recordCount": 0,
+  "missingCount": 0,
+  "mismatchCount": 0,
+  "cacheClosureDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "frozen": false,
+  "blocker": "candidate-lock-unavailable"
+}

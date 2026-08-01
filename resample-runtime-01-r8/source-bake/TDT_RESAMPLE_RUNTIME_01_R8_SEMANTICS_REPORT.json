@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "explicit-source",
+      "pass": true,
+      "value": {
+        "sourceTransferId": "tdt.transfer.srgb",
+        "sourceAlphaMode": "tdt.alpha.straight",
+        "sourceFormat": "rgba8unorm",
+        "sourceSemanticId": null
+      }
+    },
+    {
+      "id": "unknown-source-reject",
+      "pass": true,
+      "value": "E_R8_SOURCE_SEMANTIC_UNKNOWN"
+    },
+    {
+      "id": "legacy-output-only",
+      "pass": true,
+      "value": {
+        "outputTransferId": "tdt.transfer.srgb",
+        "outputAlphaMode": "tdt.alpha.premultiplied"
+      }
+    },
+    {
+      "id": "canonical-internal",
+      "pass": true,
+      "value": true
+    },
+    {
+      "id": "straight-srgb-roundtrip",
+      "pass": true,
+      "value": 0
+    },
+    {
+      "id": "premult-srgb-correct-domain",
+      "pass": true,
+      "value": 0
+    },
+    {
+      "id": "hidden-rgb-zero",
+      "pass": true,
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "no-double-premultiply",
+      "pass": true,
+      "value": [
+        0.3,
+        0.1,
+        0.05,
+        0.5
+      ]
+    }
+  ]
+}

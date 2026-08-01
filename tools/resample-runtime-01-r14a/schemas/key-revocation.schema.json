@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "key-revocation.schema.json",
+  "type": "object",
+  "required": [
+    "signed",
+    "revocationSha256",
+    "signatures"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

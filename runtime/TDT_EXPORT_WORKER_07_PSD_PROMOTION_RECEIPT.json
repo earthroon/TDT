@@ -1,0 +1,32 @@
+{
+  "schema": "tdt-export-worker-07-psd-promotion-receipt-v1",
+  "generatedAt": "2026-07-24T17:11:04.827Z",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "patchId": "TDT-EXPORT-WORKER-07",
+  "promotionEligible": false,
+  "workerClosureSourceBaked": true,
+  "workerId": "dadum.worker.encoder.psd-canonical-v2",
+  "codecProtocolVersion": "dadum-psd-canonical-worker-v2",
+  "operation": "encode.psd-canonical-v2",
+  "rendererPlanePreparationReachable": false,
+  "rendererColorTransformReachable": false,
+  "rendererPsdByteWriterReachable": false,
+  "workerStructureVerifierExecuted": true,
+  "rgb8WorkerSmokePassed": true,
+  "rgb16WorkerSmokePassed": true,
+  "actualCmykTransformExecuted": false,
+  "independentColorValidationExecuted": false,
+  "canonicalRustWasm": false,
+  "viteProductionBuildExecuted": false,
+  "electronE2eExecuted": false,
+  "packageLockConsistent": false,
+  "parentSealsPreserved": true,
+  "blockers": [
+    "actual CMYK LCMS transform not executed",
+    "independent color validation not executed",
+    "canonical Rust/WASM v2 not built",
+    "bundled ICC assets absent",
+    "Vite/Electron promotion not executed",
+    "package-lock dependency graph inconsistent"
+  ]
+}

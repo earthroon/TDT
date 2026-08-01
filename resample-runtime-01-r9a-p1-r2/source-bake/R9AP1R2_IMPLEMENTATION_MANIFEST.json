@@ -1,0 +1,108 @@
+{
+  "fileCount": 25,
+  "receiptKind": "r9a-p1-r2-implementation-manifest",
+  "rows": [
+    {
+      "relativePath": "electron.mjs",
+      "sha256": "7a82a055f2718a24e0e1bdf7d926587d0ee2574cb5e52c66c849972ecdc4e1d7"
+    },
+    {
+      "relativePath": "preload.cjs",
+      "sha256": "927457d0c4f62d7dcfdee3dd478ef8cb22419cef76f968c318e728475f23a34c"
+    },
+    {
+      "relativePath": "package.json",
+      "sha256": "d15bc67c8c4c57640df124e0100a3ad18d35f18e551ed102798de3652940bbb8"
+    },
+    {
+      "relativePath": "package-lock.json",
+      "sha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+    },
+    {
+      "relativePath": "app/src/env.d.ts",
+      "sha256": "539e8ea66f26734a5f8a0c5483b8f00575aef6ff96a71636a4e62f2cbb480f27"
+    },
+    {
+      "relativePath": "app/src/main.ts",
+      "sha256": "b60f9c543514eb4cb8b490903443b17e413f2dcd3224fce4d7f6893d5514efa1"
+    },
+    {
+      "relativePath": "app/src/boot/runtime-modules.ts",
+      "sha256": "06c0837a464c672f4cb0cd244c128e1bcf342e9361dee7a29cd258f57869b062"
+    },
+    {
+      "relativePath": "tools/runtime-manifest-lib.mjs",
+      "sha256": "33c5760e55c226bdc1259c3776f5d356e30c09df23e30c1e15990c9f2b19ddf8"
+    },
+    {
+      "relativePath": "artifacts/runtime/generated-runtime-manifest.source.json",
+      "sha256": "e7b90e07cd36f0945f8f5130451c2c20bfd856796f9f0027db1feed1455f582e"
+    },
+    {
+      "relativePath": "app/src/runtime/service-token.ts",
+      "sha256": "69d52c2d9ac4c61289546eb82954f8a637b763eed475a6a33bfe79ea668680f5"
+    },
+    {
+      "relativePath": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "sha256": "012a1f5223dbf91688b94da08437af6c6bd22480b8892ac9ff7fdb040cf5e178"
+    },
+    {
+      "relativePath": "app/src/runtime/gpu/gpu-authority-profile.json",
+      "sha256": "09312098623d4a8eecd152e3247928391c796740a4d8a0384a41d49d540e03f4"
+    },
+    {
+      "relativePath": "app/src/runtime/pipeline/pipeline-service.ts",
+      "sha256": "a3856e1001d32caf7768a89d1c9d651c6e3adbadd2c1ef7ba0131baed94e978a"
+    },
+    {
+      "relativePath": "app/src/runtime/preview/preview-presenter-service.ts",
+      "sha256": "df55030ed55c775d5db5497d245ce1e645eaaab32da7234326ebdbd0a7613943"
+    },
+    {
+      "relativePath": "app/src/runtime/export/export-authority-service.ts",
+      "sha256": "d9eb5771c730384b9604dc25148eff0a7b715c544f4b1e6478a819d79ebfa0d1"
+    },
+    {
+      "relativePath": "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts",
+      "sha256": "2cfe5789378d7a3f45ac9d7e3e76b5f3968b8d460e4f1e175f6689cd2c83ffe1"
+    },
+    {
+      "relativePath": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "sha256": "8d09463718f7c5a4d4559bb8cf9bc3201e2ea2c380b4289b8f629ac7825cad87"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r1-qualification-service.ts",
+      "sha256": "87f8e2c7f82ca855c29b089250bd3400693c2927363788efd9c1db0e540cda4d"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r1-qualification-runner.ts",
+      "sha256": "7c1fc407165f873bc02602444d08bf2060a8d65a1537fb3e287d5dbe1083bb2f"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "sha256": "74c8303d3c1e17ffa60149e9f327d79e57dc96d2f24ff5c5e1a8e2067e4e247b"
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs",
+      "sha256": "ba96d573eedc4115c21b0739eceda3aa0d59a320120ad74730a63fcfe7163059"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "sha256": "dd88354da9caf28ce2db1abc9049710754ffe2c72c320da5225b33b82e3b5176"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r2/lib.mjs",
+      "sha256": "e38ac52ce1db2b176078bed9f3e3fffb8f44e95267d8f54f6450530b328154ff"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r2/recovery-permit-authority.mjs",
+      "sha256": "319df744bd968821035b42f6ac81811d8e177b9a659f80990b17dc1a9eb41d26"
+    },
+    {
+      "relativePath": "README_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_APPLIED.md",
+      "sha256": "74b6eb82f9982f4e00e5dca9b5400c9cef103724c1a48698c69fccc04e2b0f8a"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "3e42876fe6ee03fc5acb81ad4d6138f2b7021dc33ec0a052aa94f15ef5fb31c5"
+}

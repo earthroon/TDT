@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 50,
+  "passed": 50,
+  "failed": [],
+  "checks": [
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl:exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl:brace",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl:entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl:no-map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl:exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl:brace",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl:entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl:no-map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl:exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl:brace",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl:entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl:no-map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl:exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl:brace",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl:entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl:no-map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl:exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl:brace",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl:entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl:no-map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl:exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl:brace",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl:entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl:no-map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "axial:t.x*t.x - t.y*t.y",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "axial:2.0*t.x*t.y",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "axial:inverseSqrt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "axial:vec4<f32>(0.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "coherence:for (var oy:i32=-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "coherence:length(sum)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "coherence:valid_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "coherence:min_valid_weight",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:a00.xy,a01.xy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:a01.xy,a11.xy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:a11.xy,a10.xy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:a10.xy,a00.xy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:round_half_away",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:0.5*winding",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "winding:snap_tolerance",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "reference-independent-angle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "compare:mismatch_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "compare:nonfinite_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "compare:max_abs_error_bits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "compare:first_mismatch",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "manifest:app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "manifest:app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "manifest:app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "manifest:app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "manifest:app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "manifest:app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "digests": {
+    "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl": "0199bdb2013e1bcfa5ecf257d7cc748c88eebf45a5892ead31a453b9e77ed082",
+    "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl": "b26fda6221d7c8398c113d6881b466754838db37075fc97bb3c69c16a0eccf0f",
+    "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl": "e817b7c9389d4055b6180e21898dac571222f70f9221155acbf075b1cd51c1f8",
+    "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl": "4c35bbe81144acbb9af7aded6bb0a7c35dff4c61924a7614fa4502b36bab271d",
+    "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl": "91c32acdd882dcc1b7a0fc12d17465baa7ef03395246beecd154315af24c0c4e",
+    "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl": "2d711541cf934788567f659b6d55131a25815a1f9034d04a3ad480d92fc7df99"
+  }
+}

@@ -1,0 +1,15 @@
+import {check,sourceArtifact,seal} from './lib.mjs';
+import {decideValidationSampleR9A,resetValidationSamplingR9A} from '../../app/legacy-runtime/core/compute/qmap_webgpu/ewa_validation_sampling_r9a.mjs';
+resetValidationSamplingR9A();
+const input={deviceEpoch:1,kernelDigest:'kernel-a',planDigest:'plan-a',consumerEnvelope:'preview',periodicInterval:4};
+const rows=Array.from({length:8},()=>decideValidationSampleR9A(input));
+check(rows[0].sampled&&rows[0].reason==='FIRST_IDENTITY_JOB','E_R9A_SAMPLE_FIRST','First identity job was not sampled');
+check(rows[3].sampled&&rows[3].reason==='PERIODIC','E_R9A_SAMPLE_PERIODIC','Periodic sampling mismatch');
+check(rows[7].sampled&&rows[7].reason==='PERIODIC','E_R9A_SAMPLE_PERIODIC','Second periodic sampling mismatch');
+const strict=decideValidationSampleR9A({...input,planDigest:'plan-b',explicitStrict:true});
+check(strict.sampled&&strict.reason==='EXPLICIT_STRICT','E_R9A_SAMPLE_STRICT','Strict export sample missing');
+const postLoss=decideValidationSampleR9A({...input,deviceEpoch:2,afterDeviceLoss:true});
+check(postLoss.sampled&&postLoss.reason==='POST_DEVICE_LOSS','E_R9A_SAMPLE_POST_LOSS','Post-loss sample missing');
+check(rows.every(row=>!row.userContentInfluenced&&!row.randomInfluenced&&!row.wallClockInfluenced),'E_R9A_SAMPLE_NONDETERMINISTIC','Sampling uses forbidden input');
+sourceArtifact('R9A_VALIDATION_SAMPLING_REPORT.json',seal({schemaVersion:1,pass:true,rows,strict,postLoss,productAndValidationDoubleDispatch:false,counterWordCount:32}));
+console.log('R9A validation sampling PASS');

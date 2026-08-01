@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "policyId": "inventory-only-ignore-scripts-v1",
+  "executionCount": 0,
+  "packages": []
+}

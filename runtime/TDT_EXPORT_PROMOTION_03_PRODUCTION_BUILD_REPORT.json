@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "status": "BLOCKED",
+  "candidateState": "SOURCE_BAKED_UNPROMOTED",
+  "strictTypeScriptVerified": true,
+  "productionRendererBuildVerified": false,
+  "packagedElectronVerified": false,
+  "packagedCrossFormatE2EVerified": false,
+  "productionPromoted": false,
+  "attempts": {
+    "strictTypeScriptExitCode": 0,
+    "buildRendererExitCode": 1,
+    "verifyRendererExitCode": 127,
+    "packagedE2EReportExitCode": 0
+  },
+  "blockers": [
+    "dependency-lock-root-graph-mismatch",
+    "vue-tsc-not-installed",
+    "native-raster-decoder-addon-missing",
+    "packaged-electron-content-not-verified",
+    "production-icc-fixtures-missing",
+    "modjpeg-single-thread-rebuild-not-run"
+  ]
+}

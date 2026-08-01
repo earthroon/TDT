@@ -1,0 +1,11 @@
+{
+  "schema": "tdt-export-worker-05-jxl-independent-roundtrip-v1",
+  "status": "NOT_EXECUTED",
+  "promotionEligible": false,
+  "independentDecoderExecuted": false,
+  "rgba8ExactRoundTripVerified": false,
+  "hiddenRgbFixtureRequired": true,
+  "hiddenRgbVerified": false,
+  "alphaExactVerified": false,
+  "rgba16ExactRoundTripVerified": false
+}

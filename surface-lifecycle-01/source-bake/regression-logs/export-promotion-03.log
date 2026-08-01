@@ -1,0 +1,69 @@
+PASS GATE-EP03-01 EP03 gate script
+PASS GATE-EP03-02 EP03 in full verify
+PASS GATE-EP03-03 source chain
+PASS GATE-EP03-04 fixture corpus packaged
+PASS GATE-EP03-05 E2E mode explicit
+PASS GATE-EP03-06 E2E root
+PASS GATE-EP03-07 E2E token
+PASS GATE-EP03-08 256-bit token syntax
+PASS GATE-EP03-09 invalid token fail closed
+PASS GATE-EP03-10 root escape fail closed
+PASS GATE-EP03-11 preauthorized save mode
+PASS GATE-EP03-12 launch identity IPC
+PASS GATE-EP03-13 packaged launch observed
+PASS GATE-EP03-14 preload E2E boundary
+PASS GATE-EP03-15 token not exposed directly
+PASS GATE-EP03-16 host receipt save mode
+PASS GATE-EP03-17 typed launch protocol
+PASS GATE-EP03-18 native decoder identity
+PASS GATE-EP03-19 JXL decoder identity
+PASS GATE-EP03-20 PSD decoder identity
+PASS GATE-EP03-21 JXL independence class
+PASS GATE-EP03-22 PSD independence class
+PASS GATE-EP03-23 no encoder sharing
+PASS GATE-EP03-24 JXL registry binding
+PASS GATE-EP03-25 PSD registry binding
+PASS GATE-EP03-26 decoder evidence surface
+PASS GATE-EP03-27 JXL decoder WASM
+PASS GATE-EP03-28 PSD decoder WASM
+PASS GATE-EP03-29 fixture manifest identity
+PASS GATE-EP03-30 minimum source fixture classes
+PASS GATE-EP03-31 hidden RGB fixture
+PASS GATE-EP03-32 16-bit fixture
+PASS GATE-EP03-33 ICC fixture contract
+PASS GATE-EP03-34 PNG8 exact gate
+PASS GATE-EP03-35 PNG16 exact gate
+PASS GATE-EP03-36 WebP exact gate
+PASS GATE-EP03-37 JXL exact gate
+PASS GATE-EP03-38 JXL hidden RGB gate
+PASS GATE-EP03-39 JPEG quality gate
+PASS GATE-EP03-40 PSD RGB plane gate
+PASS GATE-EP03-41 PSD CMYK LCMS gate
+PASS GATE-EP03-42 PSD CMYK color gate
+PASS GATE-EP03-43 MODJPEG artifact verifier
+PASS GATE-EP03-44 canonical pthread pool 8 gate
+PASS GATE-EP03-45 canonical pthread symbols present gate
+PASS GATE-EP03-46 canonical child worker present gate
+PASS GATE-EP03-47 canonical shared memory artifact gate
+PASS GATE-EP03-48 candidate launch receipt
+PASS GATE-EP03-49 save E2E receipt
+PASS GATE-EP03-50 cross-format receipt
+PASS GATE-EP03-51 format receipt binding
+PASS GATE-EP03-52 package identity in receipt
+PASS GATE-EP03-53 build identity in receipt
+PASS GATE-EP03-54 worker identity in receipt
+PASS GATE-EP03-55 receipt conservation verifier
+PASS GATE-EP03-56 pointer schema v2
+PASS GATE-EP03-57 pointer identity
+PASS GATE-EP03-58 whole-build rollback
+PASS GATE-EP03-59 fallback forbidden
+PASS GATE-EP03-60 pointer CAS gate
+PASS GATE-EP03-61 pointer temp write
+PASS GATE-EP03-62 pointer fsync
+PASS GATE-EP03-63 pointer atomic rename
+PASS GATE-EP03-64 receipt pass before pointer
+PASS GATE-EP03-65 post-promotion relaunch report
+PASS GATE-EP03-66 rollback whole-build truth
+PASS GATE-EP03-67 rollback relaunch gate
+PASS GATE-EP03-68 stable errors and spec retained
+PASS TDT-EXPORT-PROMOTION-03 68/68

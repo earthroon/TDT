@@ -1,0 +1,47 @@
+{
+  "schema": "dadum-export-worker-02-pending-closure-report-v1",
+  "patchId": "TDT-EXPORT-WORKER-02",
+  "buildId": "7ae69d05bf5e825df68983ec",
+  "jobAuthority": "dadum.runtime.encoder-worker-broker-ew02",
+  "rpcProtocolVersion": "dadum-worker-rpc-v1",
+  "workerCount": 3,
+  "policies": {
+    "maxInstancesPerWorker": 1,
+    "maxActiveJobsPerWorker": 1,
+    "queueDiscipline": "FIFO",
+    "maxQueuedJobsPerWorker": 8,
+    "maxQueuedBytesPerWorker": 536870912,
+    "restartWindowMs": 60000,
+    "restartLimit": 3,
+    "restartBackoffMs": [
+      0,
+      250,
+      1000
+    ],
+    "jobReceiptLedgerLimit": 256
+  },
+  "runtimeSmoke": {
+    "result": "PASS",
+    "fifoJobs": 2,
+    "queuedCancel": 1,
+    "activeCrashRestart": 1,
+    "pendingAtTerminal": 0,
+    "queuedAtTerminal": 0,
+    "activeAtTerminal": 0,
+    "retiredReceipts": 6,
+    "restarts": 1,
+    "logSha256": "0b4daa3f41c2289083939b8a5241e2cccdb4da254382cd9a656cdd7402d0fe35"
+  },
+  "staticGate": {
+    "result": "PASS",
+    "gateCount": 24,
+    "parityRuns": 100,
+    "digest": "5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb"
+  },
+  "scopeTruth": {
+    "productionWorkerBundleVerified": false,
+    "electronWorkerE2EVerified": false,
+    "realWasmEncodeVerified": false,
+    "artifactVerificationMode": "source-graph-only"
+  }
+}

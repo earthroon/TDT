@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-HANNAKAIRO-PHASE-01",
+  "state": "HANNAKAIRO_PHASE_01_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "parentPatchId": "TDT-SPECTRAL-QMAP-03",
+  "parentZipSha256": "bd25cd7093cbb38100b297d449b9db3bd51882126e23418199b1a6e7377b9c81",
+  "parentSourceSealSha256": "af0227a5858ba14f13e1a56d68909299cd029b8636970817f3d32627b2f268fd",
+  "sourceSealSha256": "d0538fcd7df0c25aad45bead9ff28df00793a690cda8801523939cb8c9a99b86",
+  "changedFileCount": 75,
+  "sealedFileCount": 53,
+  "observationalFileCount": 24,
+  "files": [
+    {
+      "relative": "README_TDT_HANNAKAIRO_PHASE_01_APPLIED.md",
+      "byteLength": 3835,
+      "sha256": "a05d6060002665ecc910dd7f279b70d64ec05be4f58d445d4d7eef651e8d0ac3"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/hannakairo_phase_bridge.mjs",
+      "byteLength": 987,
+      "sha256": "e69910643990ae8797c8e084636c5d531e6359c2910ab99104f64ee6669eef5b"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-axial-convert.wgsl",
+      "byteLength": 1251,
+      "sha256": "0199bdb2013e1bcfa5ecf257d7cc748c88eebf45a5892ead31a453b9e77ed082"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-compare.wgsl",
+      "byteLength": 1071,
+      "sha256": "2d711541cf934788567f659b6d55131a25815a1f9034d04a3ad480d92fc7df99"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-fixture-generator.wgsl",
+      "byteLength": 906,
+      "sha256": "4c35bbe81144acbb9af7aded6bb0a7c35dff4c61924a7614fa4502b36bab271d"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-phase-coherence.wgsl",
+      "byteLength": 1634,
+      "sha256": "b26fda6221d7c8398c113d6881b466754838db37075fc97bb3c69c16a0eccf0f"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-reference.wgsl",
+      "byteLength": 1306,
+      "sha256": "91c32acdd882dcc1b7a0fc12d17465baa7ef03395246beecd154315af24c0c4e"
+    },
+    {
+      "relative": "app/legacy-runtime/core/analysis/hannakairo/shaders/hannakairo-wrapped-circulation.wgsl",
+      "byteLength": 2277,
+      "sha256": "e817b7c9389d4055b6180e21898dac571222f70f9221155acbf075b1cd51c1f8"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "byteLength": 13924,
+      "sha256": "b3b3b4c58f535a09ee7898a7f452c1134344555b2d18255f4e7e5bffb8a236f7"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs",
+      "byteLength": 12335,
+      "sha256": "d0d5a67cd9f26dacd23848d952f8de8d6f4de6357455c0ca3823d2f9c2d3d29a"
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime_receipt.mjs",
+      "byteLength": 596,
+      "sha256": "71f44d513a40461520a152af1aa17ef472c5f88e8fa6291ad0801989fa9fd627"
+    },
+    {
+      "relative": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "byteLength": 17350,
+      "sha256": "2e34a0423f3065d0d9828661f816b63ccbe2c22f0478d2221eabeb0c6b80aa7f"
+    },
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "byteLength": 26064,
+      "sha256": "4e2ef9f2e589bb5d306a92d58e306bb92a7d01e26eb3c102f144d94a553cfaa4"
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "byteLength": 27040,
+      "sha256": "6bff9df47fec8fda39b2b7c66dbb066f4aacbe134fb9dc347cc7fb203c3cfb92"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-manifest.json",
+      "byteLength": 71988,
+      "sha256": "3e38c31b08bd09a896a5bdd7fd47c0a1267d1c99bfd937f59fa812d80e1f352d"
+    },
+    {
+      "relative": "app/src/legacy/generated-legacy-static-admission.json",
+      "byteLength": 106337,
+      "sha256": "026a3271e4eb4bc37b00cb65263e43f1708318c9b4393825b23430b1486d4fc3"
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 201030,
+      "sha256": "196527ac292ee2370bc79dbdef9a9a3064a09f0018c2506a2b684d3d9edf8b8e"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-errors.ts",
+      "byteLength": 1890,
+      "sha256": "8ba0361962a9359b586caab1e5eae6d9dff422edb977b704e89e72b9f498b178"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-global.d.ts",
+      "byteLength": 642,
+      "sha256": "979816d6018d6134862208a96cdb85109c11bfba0c8ab516683e755140f39db4"
+    },
+    {
+      "relative": "app/src/runtime/analysis/analysis-field-types.ts",
+      "byteLength": 10746,
+      "sha256": "8f9086d85d970dbea50e01685488ed99e6ae6ab9cdf1143e79e0564a07aabf89"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-claim-report.json",
+      "byteLength": 5045,
+      "sha256": "3711dab9c071a337608c5538a3bc2f15698605eab71ccf782e5b7ab5984d0e57"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-compatibility-classification.json",
+      "byteLength": 26241,
+      "sha256": "34617b81da72ec73d5b785a02b3da7b0d550be8e0cab171981bd8c844ee620be"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-producer-inventory.json",
+      "byteLength": 8904,
+      "sha256": "a69ec0acfa79ad1d2af5b402980a7d90930168bf5da426cb372df8778cecf076"
+    },
+    {
+      "relative": "app/src/runtime/analysis/generated/generated-analysis-semantic-registry.json",
+      "byteLength": 33978,
+      "sha256": "bb9f16dabeff7f80e7a0f9017e0e93283a9ca6c4f577cf670cd0bf68d3046684"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-phase-job-arena.ts",
+      "byteLength": 1767,
+      "sha256": "863b0541c8c08f99fb3fa414611de7b90b382a078fd4884748e7f593e973f8b7"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-phase-parameters.ts",
+      "byteLength": 2051,
+      "sha256": "bf27da37aecb17ba1accb783bf58217310522e8456563c2485fbdd6745224bff"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-phase-receipt.ts",
+      "byteLength": 936,
+      "sha256": "5bf22014717eab24ba892abc092710ce35c2d608105b9841f92801785521c309"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-phase-service.ts",
+      "byteLength": 14902,
+      "sha256": "88c33c566d68b51db8bb58032bff2535198a118759a3a73ce70143ef5c50b99b"
+    },
+    {
+      "relative": "app/src/runtime/analysis/hannakairo/hannakairo-phase-types.ts",
+      "byteLength": 2139,
+      "sha256": "d3e18d89d8b2b01e2fa75953a8b22ec3ba4c8f0030ee116cbb631c7d472e133f"
+    },
+    {
+      "relative": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "byteLength": 26868,
+      "sha256": "f3869b1a039967bfb32222c82d85b05c4fcf3587b1cfc59c48d4cd2d0a3a62b0"
+    },
+    {
+      "relative": "app/src/runtime/gpu/gpu-consumer-manifest.json",
+      "byteLength": 1404,
+      "sha256": "fdf1511702bbc24b508d3c93d7013f3b7cbd1073b1f43d5f712e270e53147c31"
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "byteLength": 1562,
+      "sha256": "513e74f046f9ebb4eee7bec6f1d3628bc3b21ce1a64a67d5914e7609ba86ef81"
+    },
+    {
+      "relative": "artifacts/hannakairo-phase-01/source-bake/TDT_HANNAKAIRO_PHASE_01_REGRESSION_SUMMARY.json",
+      "byteLength": 4452,
+      "sha256": "c40e4f2887f19472a306f7d1f31e2ae242fd176cf7cbebf965e867883974bdda"
+    },
+    {
+      "relative": "artifacts/hannakairo-phase-01/source-bake/TDT_HANNAKAIRO_PHASE_01_SOURCE_GATE.json",
+      "byteLength": 27541,
+      "sha256": "1bd8e70740318f8760fe24c2f184cdffd6731eb3d3bff74c482999641c42df01"
+    },
+    {
+      "relative": "artifacts/hannakairo-phase-01/source-bake/hp01-runtime-smoke.json",
+      "byteLength": 1698,
+      "sha256": "04344dd728509b9304e9dce8d29a753e97ee921606d8bc5297e9002fb230871b"
+    },
+    {
+      "relative": "artifacts/hannakairo-phase-01/source-bake/hp01-source-contract.json",
+      "byteLength": 6785,
+      "sha256": "5ad6bb97389a8dacc4252fef9f83ca7b18ace1adb2d1372209187d10864664f9"
+    },
+    {
+      "relative": "artifacts/hannakairo-phase-01/source-bake/hp01-wgsl-contract.json",
+      "byteLength": 7560,
+      "sha256": "8b031d951af343078f2980906f08e25a9b3f5623815e8698cf984049c482a0cb"
+    },
+    {
+      "relative": "patches/TDT_HANNAKAIRO_PHASE_01_CHANGED_FILE_MANIFEST.json",
+      "byteLength": 28075,
+      "sha256": "35041fd017338eaf9de920ea168ad02037d8f85af7874e74cefaa83cacc96894"
+    },
+    {
+      "relative": "patches/TDT_HANNAKAIRO_PHASE_01_axial_double_angle_wrapped_circulation_winding_defect_gpu_truth.diff",
+      "byteLength": 234417,
+      "sha256": "0de4cc834562ea6535887d42b8410e5b85cdcf0c3360e49e5ed6d535e2490a56"
+    },
+    {
+      "relative": "specs/TDT-HANNAKAIRO-PHASE-01_AXIAL_DOUBLE_ANGLE_FIELD_WRAPPED_CIRCULATION_WINDING_DEFECT_GPU_TRUTH_SEAL_SPEC.md",
+      "byteLength": 73552,
+      "sha256": "f477ac7181f668b697bd64006ed9c48806da83109eeac34f8ea7afa9a689c85c"
+    },
+    {
+      "relative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "byteLength": 10502,
+      "sha256": "51c6eb7e76f0b96fd515b54bb389b0450a77ce56129458d17ef55e9d4b8e17f9"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-producer-inventory.mjs",
+      "byteLength": 5380,
+      "sha256": "eebf1bac722fd9a4f3ceb1ff65700dc8712029817b80a29b59905ad1e65b23c6"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/generate-semantic-registry.mjs",
+      "byteLength": 7492,
+      "sha256": "951a8bbe7c3d70fc375728c6ba7f844caa5d8cc197efca1c1143b6784421a8ff"
+    },
+    {
+      "relative": "tools/analysis-field-truth-00/verify-source-contract.mjs",
+      "byteLength": 8596,
+      "sha256": "eb1531f5958b84695389b36c2728347090133f98dcb9c7bc12cb5ef049dc5afd"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/finalize.mjs",
+      "byteLength": 3203,
+      "sha256": "c674f3e5dfea38a315ec2a4825308f13fd147550a62e4a1bfcac5c4811b5f193"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/gate.mjs",
+      "byteLength": 1111,
+      "sha256": "9da99e7a6bc1c99f77896da7de73a1e744d86026f08268f2c56dfce5cebd31ee"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/lib.mjs",
+      "byteLength": 1492,
+      "sha256": "51ae88bffbf495d14340e1c3d430ddaa8c30edf7796151f74cc2f5c65af3aa63"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/run.mjs",
+      "byteLength": 366,
+      "sha256": "285fdc59179a6c1a78c26bebdf6e2623b1bb5807cef799e38766bc2dce66e26f"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/runtime-smoke.mjs",
+      "byteLength": 2713,
+      "sha256": "06b360caa9aa7b27c6b844ee721a1b60f9bb611fade2f0b265110fd229425f3a"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/verify-source-contract.mjs",
+      "byteLength": 4364,
+      "sha256": "04d8998d42313bd56a5e8cda1616a9155f0fff4ce4a5bdaa705e6042f364f60d"
+    },
+    {
+      "relative": "tools/hannakairo-phase-01/verify-wgsl-contract.mjs",
+      "byteLength": 2123,
+      "sha256": "aa19e0f5c5719b66f8284a2edba2ac19222b021efeee8b84534da38573b28a72"
+    },
+    {
+      "relative": "tools/spectral-qmap-02/verify-source-contract.mjs",
+      "byteLength": 8599,
+      "sha256": "f36e8fc7b5fa5a05370946488d50fc53d9e196927da2192f2e702d748db211a5"
+    },
+    {
+      "relative": "tools/spectral-qmap-03/verify-source-contract.mjs",
+      "byteLength": 6479,
+      "sha256": "bb8d5c24dbeaa53a6c008d1e01de8e82ed7a4acd12750dbea1245da6570d6533"
+    }
+  ],
+  "gateCounts": {
+    "PASS": 184,
+    "DEFERRED": 12
+  },
+  "semanticRegistryVersion": "tdt.analysis.semantic-registry.hannakairo-phase-01.v1",
+  "analysisFieldAuthorityId": "dadum.analysis-field-authority.aft00",
+  "hannakairoPhaseAuthorityId": "dadum.hannakairo-phase-authority.hp01",
+  "inputSemanticId": "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1",
+  "outputSemanticIds": [
+    "tdt.analysis.hannakairo.axial-order.v1",
+    "tdt.analysis.hannakairo.phase-coherence.v1",
+    "tdt.analysis.hannakairo.winding-defect.v1"
+  ],
+  "r1cTensorRecomputed": false,
+  "intermediateReadbackCount": 0,
+  "cpuProductComputeClaim": false,
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "enrollment": true,
+  "pseudonym": true,
+  "cohort": true,
+  "plan": true,
+  "ringStateMachine": true,
+  "lease": true,
+  "evidence": true,
+  "exactAggregate": true,
+  "privacyAggregate": true,
+  "wilson": true,
+  "decision": true,
+  "containment": true,
+  "rollback": true,
+  "ledger": true,
+  "localChain": true,
+  "finalizer": true,
+  "pass": true,
+  "selfSha256": "0709297f301ad3c859159abf1ee6a567969a7765b9588501a5e39e28372218a7"
+}

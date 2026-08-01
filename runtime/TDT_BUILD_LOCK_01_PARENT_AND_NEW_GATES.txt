@@ -1,0 +1,372 @@
+[TDT-EXPORT-PROMOTION-03] generated 5 worker descriptors 5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d
+[TDT-EXPORT-PROMOTION-03] generated build 29eb717f1014ed1971ae375f; lockConsistent=false
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 c92bfa5aec39cfe4028989f4325e057852f39ef5e29e224fbec8ae5dcaf51741
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 02cfab6548c4eccf50599049be008be2db027b0955cd5020f56ffc530df4d7b2
+PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 50f30d1c3d9f52dfd680a45d8982081f5b5995ba4916e673e366f27f97b39b4d
+PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 52a6d8c4855f4bea7d099473fa91aa100ccb5517e7e759ab01d6e21a89792ddf
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a96fc9db56134b9ae50a08be616bdba429f646ab310b688f23ef21f0d0997bb8
+PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 89c0fa7e3433904230744188f62226102afcd51baff6c472f161601e0229df36
+PASS GATE-EP01-01 stable API id
+PASS GATE-EP01-02 stable API version
+PASS GATE-EP01-03 implementation id separate
+PASS GATE-EP01-04 no EW public API
+PASS GATE-EP01-05 no product blob URL
+PASS GATE-EP01-06 no URL result contract
+PASS GATE-EP01-07 host receipt result
+PASS GATE-EP01-08 host save authority call
+PASS GATE-EP01-09 retired facade receipt
+PASS GATE-EP01-10 whole build rollback
+PASS GATE-EP01-11 EP01 receipt schema
+PASS GATE-EP01-12 on disk digest evidence
+PASS GATE-EP01-13 path privacy digest
+PASS GATE-EP01-14 truthful source state
+PASS GATE-EP01-15 profile truth
+PASS GATE-EP01-16 codec host adoption
+PASS GATE-EP01-17 one time adoption call
+PASS GATE-EP01-18 facade lifecycle
+PASS GATE-EP01-19 sealed state
+PASS GATE-EP01-20 adopted state
+PASS GATE-EP01-21 retired tombstone
+PASS GATE-EP01-22 frozen tombstone
+PASS GATE-EP01-23 retired error
+PASS GATE-EP01-24 private codec host identity
+PASS GATE-EP01-25 main stable API check
+PASS GATE-EP01-26 main bridge no blob URL
+PASS GATE-EP01-27 main bridge no anchor click
+PASS GATE-EP01-28 main requires save receipt
+PASS GATE-EP01-29 resize delegates stable API
+PASS GATE-EP01-30 resize no manager
+PASS GATE-EP01-31 resize no blob URL
+PASS GATE-EP01-32 resize no second pixel pipeline
+PASS GATE-EP01-33 preload begin
+PASS GATE-EP01-34 preload chunk
+PASS GATE-EP01-35 preload commit
+PASS GATE-EP01-36 preload abort
+PASS GATE-EP01-37 8MiB chunks
+PASS GATE-EP01-38 main begin
+PASS GATE-EP01-39 main chunk
+PASS GATE-EP01-40 main commit
+PASS GATE-EP01-41 main abort
+PASS GATE-EP01-42 fsync
+PASS GATE-EP01-43 atomic rename attempt
+PASS GATE-EP01-44 disk verification
+PASS GATE-EP01-45 path privacy
+PASS GATE-EP01-46 typed host save
+PASS GATE-EP01-47 renderer chunk digest
+PASS GATE-EP01-48 cancel fail closed
+PASS GATE-EP01-49 window stable contract
+PASS GATE-EP01-50 window save contract
+PASS GATE-EP01-51 module implementation
+PASS GATE-EP01-52 host injected
+PASS GATE-EP01-53 spec retained
+PASS GATE-EP01-54 promotion report generator
+PASS TDT-EXPORT-PROMOTION-01 54/54
+PASS GATE-EP02-01 exact npm packageManager
+PASS GATE-EP02-02 exact node engine
+PASS GATE-EP02-03 exact npm engine
+PASS GATE-EP02-04 direct versions exact
+PASS GATE-EP02-05 toolchain profile id
+PASS GATE-EP02-06 canonical package target
+PASS GATE-EP02-07 offline build policy
+PASS GATE-EP02-08 dependency policy
+PASS GATE-EP02-09 zero policy exceptions
+PASS GATE-EP02-10 toolchain script
+PASS GATE-EP02-11 lock script
+PASS GATE-EP02-12 emitted generator script
+PASS GATE-EP02-13 production manifest script
+PASS GATE-EP02-14 route probe script
+PASS GATE-EP02-15 build starts with authority gates
+PASS GATE-EP02-16 production Vite mode
+PASS GATE-EP02-17 postbuild emitted manifest
+PASS GATE-EP02-18 postbuild emitted verify
+PASS GATE-EP02-19 postbuild COI probe
+PASS GATE-EP02-20 EP02 in full verify
+PASS GATE-EP02-21 unpacked canonical target
+PASS GATE-EP02-22 native package gate
+PASS GATE-EP02-23 package content generation
+PASS GATE-EP02-24 native release allowlist
+PASS GATE-EP02-25 broad native glob removed
+PASS GATE-EP02-26 minimal asar unpack
+PASS GATE-EP02-27 no implicit native rebuild
+PASS GATE-EP02-28 no node-gyp package rebuild
+PASS GATE-EP02-29 no source dependency rebuild
+PASS GATE-EP02-30 runtime promotion lineage
+PASS GATE-EP02-31 lock root exactness
+PASS GATE-EP02-32 transitive integrity check
+PASS GATE-EP02-33 toolchain in build identity
+PASS GATE-EP02-34 dependency digest in manifest
+PASS GATE-EP02-35 source manifest truth
+PASS GATE-EP02-36 source cannot self promote
+PASS GATE-EP02-37 Vite prebuild remains source mode
+PASS GATE-EP02-38 emitted mode generator
+PASS GATE-EP02-39 worker emitted closure digest
+PASS GATE-EP02-40 ambiguous worker fail closed
+PASS GATE-EP02-41 renderer build identity
+PASS GATE-EP02-42 runtime binds worker digest
+PASS GATE-EP02-43 runtime binds Vite digest
+PASS GATE-EP02-44 EP02 cannot final promote
+PASS GATE-EP02-45 COOP probe
+PASS GATE-EP02-46 COEP probe
+PASS GATE-EP02-47 WASM MIME probe
+PASS GATE-EP02-48 ICC MIME probe
+PASS GATE-EP02-49 PE x64 machine check
+PASS GATE-EP02-50 native addon discovery
+PASS GATE-EP02-51 release addon singularity
+PASS GATE-EP02-52 debug addon exclusion
+PASS GATE-EP02-53 ASAR authority
+PASS GATE-EP02-54 package content id
+PASS GATE-EP02-55 source/intermediate exclusion
+PASS GATE-EP02-56 package native singularity
+PASS GATE-EP02-57 lock receipt state
+PASS GATE-EP02-58 toolchain receipt state
+PASS GATE-EP02-59 production source manifest error
+PASS GATE-EP02-60 spec retained
+PASS TDT-EXPORT-PROMOTION-02 60/60
+PASS GATE-EP03-01 EP03 gate script
+PASS GATE-EP03-02 EP03 in full verify
+PASS GATE-EP03-03 source chain
+PASS GATE-EP03-04 fixture corpus packaged
+PASS GATE-EP03-05 E2E mode explicit
+PASS GATE-EP03-06 E2E root
+PASS GATE-EP03-07 E2E token
+PASS GATE-EP03-08 256-bit token syntax
+PASS GATE-EP03-09 invalid token fail closed
+PASS GATE-EP03-10 root escape fail closed
+PASS GATE-EP03-11 preauthorized save mode
+PASS GATE-EP03-12 launch identity IPC
+PASS GATE-EP03-13 packaged launch observed
+PASS GATE-EP03-14 preload E2E boundary
+PASS GATE-EP03-15 token not exposed directly
+PASS GATE-EP03-16 host receipt save mode
+PASS GATE-EP03-17 typed launch protocol
+PASS GATE-EP03-18 native decoder identity
+PASS GATE-EP03-19 JXL decoder identity
+PASS GATE-EP03-20 PSD decoder identity
+PASS GATE-EP03-21 JXL independence class
+PASS GATE-EP03-22 PSD independence class
+PASS GATE-EP03-23 no encoder sharing
+PASS GATE-EP03-24 JXL registry binding
+PASS GATE-EP03-25 PSD registry binding
+PASS GATE-EP03-26 decoder evidence surface
+PASS GATE-EP03-27 JXL decoder WASM
+PASS GATE-EP03-28 PSD decoder WASM
+PASS GATE-EP03-29 fixture manifest identity
+PASS GATE-EP03-30 minimum source fixture classes
+PASS GATE-EP03-31 hidden RGB fixture
+PASS GATE-EP03-32 16-bit fixture
+PASS GATE-EP03-33 ICC fixture contract
+PASS GATE-EP03-34 PNG8 exact gate
+PASS GATE-EP03-35 PNG16 exact gate
+PASS GATE-EP03-36 WebP exact gate
+PASS GATE-EP03-37 JXL exact gate
+PASS GATE-EP03-38 JXL hidden RGB gate
+PASS GATE-EP03-39 JPEG quality gate
+PASS GATE-EP03-40 PSD RGB plane gate
+PASS GATE-EP03-41 PSD CMYK LCMS gate
+PASS GATE-EP03-42 PSD CMYK color gate
+PASS GATE-EP03-43 MODJPEG artifact verifier
+PASS GATE-EP03-44 pthread pool zero gate
+PASS GATE-EP03-45 pthread symbol zero gate
+PASS GATE-EP03-46 child worker zero gate
+PASS GATE-EP03-47 shared memory false gate
+PASS GATE-EP03-48 candidate launch receipt
+PASS GATE-EP03-49 save E2E receipt
+PASS GATE-EP03-50 cross-format receipt
+PASS GATE-EP03-51 format receipt binding
+PASS GATE-EP03-52 package identity in receipt
+PASS GATE-EP03-53 build identity in receipt
+PASS GATE-EP03-54 worker identity in receipt
+PASS GATE-EP03-55 receipt conservation verifier
+PASS GATE-EP03-56 pointer schema v2
+PASS GATE-EP03-57 pointer identity
+PASS GATE-EP03-58 whole-build rollback
+PASS GATE-EP03-59 fallback forbidden
+PASS GATE-EP03-60 pointer CAS gate
+PASS GATE-EP03-61 pointer temp write
+PASS GATE-EP03-62 pointer fsync
+PASS GATE-EP03-63 pointer atomic rename
+PASS GATE-EP03-64 receipt pass before pointer
+PASS GATE-EP03-65 post-promotion relaunch report
+PASS GATE-EP03-66 rollback whole-build truth
+PASS GATE-EP03-67 rollback relaunch gate
+PASS GATE-EP03-68 stable errors and spec retained
+PASS TDT-EXPORT-PROMOTION-03 68/68
+PASS GATE-R1-ERROR-CODE stable error registry 331/331 referenced codes declared
+PASS TypeScript syntax 71 files
+PASS EP03 promotion pointer v2 source truth
+PASS RT-EW05-CONTAINER-SMOKE boxes=JXL ,ftyp,Exif,xml ,jxlc bytes=483
+PASS RT-EW06-JPEG-STRUCTURE bytes=151 SOF0/4:4:4
+PASS RT-EW07-PSD-CLOSURE cases=3 budget-reject=1 digest-reject=1 length-reject=1
+PASS EP03 source runtime smoke: E2E guard + pointer CAS/readback
+PASS TEST-BL01-001 profile identity
+PASS TEST-BL01-002 profile digest sensitivity
+PASS TEST-BL01-003 unknown recovery mode rejected
+PASS TEST-BL01-004 online offline exclusivity
+PASS TEST-BL01-005 node version pinned
+PASS TEST-BL01-006 npm version pinned
+PASS TEST-BL01-007 non-win host cannot promote
+PASS TEST-BL01-008 win32 x64 target explicit
+PASS TEST-BL01-009 unknown npm config detected
+PASS TEST-BL01-010 node options detected
+PASS TEST-BL01-011 token redaction
+PASS TEST-BL01-012 password redaction
+PASS TEST-BL01-013 origin digest hides raw
+PASS TEST-BL01-014 scope registry policy explicit
+PASS TEST-BL01-015 silent fallback forbidden
+PASS TEST-BL01-016 401 classified
+PASS TEST-BL01-017 404 classified
+PASS TEST-BL01-018 429 classified
+PASS TEST-BL01-019 503 classified
+PASS TEST-BL01-020 tls failure classified
+PASS TEST-BL01-021 workspace clean reset
+PASS TEST-BL01-022 node_modules residue avoided
+PASS TEST-BL01-023 package sha fixed
+PASS TEST-BL01-024 lock sha fixed
+PASS TEST-BL01-025 package-lock-only command
+PASS TEST-BL01-026 candidate package mutation gate
+PASS TEST-BL01-027 lock v2 rejected
+PASS TEST-BL01-028 lock v3 observed
+PASS TEST-BL01-029 root missing detected
+PASS TEST-BL01-030 root excess algorithm
+PASS TEST-BL01-031 exact mismatch detected
+PASS TEST-BL01-032 caret rejected
+PASS TEST-BL01-033 tilde rejected
+PASS TEST-BL01-034 tag rejected
+PASS TEST-BL01-035 integrity verifier present
+PASS TEST-BL01-036 resolved verifier present
+PASS TEST-BL01-037 http tarball rejected
+PASS TEST-BL01-038 file source rejected
+PASS TEST-BL01-039 git ssh rejected
+PASS TEST-BL01-040 https accepted by source policy
+PASS TEST-BL01-041 strict peer configured
+PASS TEST-BL01-042 legacy peers disabled
+PASS TEST-BL01-043 optional metadata preserved
+PASS TEST-BL01-044 os metadata preserved
+PASS TEST-BL01-045 cpu metadata preserved
+PASS TEST-BL01-046 lifecycle inventory emitted
+PASS TEST-BL01-047 ignore scripts configured
+PASS TEST-BL01-048 execution count evidence
+PASS TEST-BL01-049 cache path derived
+PASS TEST-BL01-050 cache missing gate
+PASS TEST-BL01-051 sri verify
+PASS TEST-BL01-052 sha256 cache evidence
+PASS TEST-BL01-053 content address policy
+PASS TEST-BL01-054 cache records sorted
+PASS TEST-BL01-055 mtime excluded
+PASS TEST-BL01-056 content changes digest
+PASS TEST-BL01-057 run a offline
+PASS TEST-BL01-058 run b offline
+PASS TEST-BL01-059 network count evidence a
+PASS TEST-BL01-060 offline env explicit
+PASS TEST-BL01-061 run lock mutation check
+PASS TEST-BL01-062 run b same mutation contract
+PASS TEST-BL01-063 run package mutation check
+PASS TEST-BL01-064 run b package contract
+PASS TEST-BL01-065 lifecycle execution receipt
+PASS TEST-BL01-066 ignore scripts command
+PASS TEST-BL01-067 install graph A artifact
+PASS TEST-BL01-068 install graph B artifact
+PASS TEST-BL01-069 same instance count
+PASS TEST-BL01-070 count difference rejected
+PASS TEST-BL01-071 path difference affects graph
+PASS TEST-BL01-072 version difference affects graph
+PASS TEST-BL01-073 package json digest evidence
+PASS TEST-BL01-074 content digest compared
+PASS TEST-BL01-075 whole content match
+PASS TEST-BL01-076 optional set represented
+PASS TEST-BL01-077 peer placement path represented
+PASS TEST-BL01-078 bin set compared
+PASS TEST-BL01-079 extraneous gate in spec
+PASS TEST-BL01-080 invalid package gate in spec
+PASS TEST-BL01-081 node_modules cache rejected
+PASS TEST-BL01-082 symlink targets hashed
+PASS TEST-BL01-083 bin shim set included
+PASS TEST-BL01-084 hidden lock contract in spec
+PASS TEST-BL01-085 same graph approved
+PASS TEST-BL01-086 same content approved
+PASS TEST-BL01-087 cas success
+PASS TEST-BL01-088 stale cas rejected
+PASS TEST-BL01-089 atomic temp strategy present
+PASS TEST-BL01-090 readback mismatch gate
+PASS TEST-BL01-091 receipt canonical digest
+PASS TEST-BL01-092 same payload deterministic
+PASS TEST-BL01-093 dependency verifier integration
+PASS TEST-BL01-094 lock in build id
+PASS TEST-BL01-095 pointer mutation forbidden
+PASS TEST-BL01-096 source state bounded
+PASS TDT-BUILD-LOCK-01 runtime tests 96/96
+PASS GATE-BL01-01 recovery script
+PASS GATE-BL01-02 source script
+PASS GATE-BL01-03 gate script
+PASS GATE-BL01-04 runtime test script
+PASS GATE-BL01-05 full verify inclusion
+PASS GATE-BL01-06 profile identity
+PASS GATE-BL01-07 node npm pin
+PASS GATE-BL01-08 canonical target
+PASS GATE-BL01-09 lock v3
+PASS GATE-BL01-10 hoisted install
+PASS GATE-BL01-11 peer policy
+PASS GATE-BL01-12 lifecycle policy
+PASS GATE-BL01-13 offline replay twice
+PASS GATE-BL01-14 mutation zero
+PASS GATE-BL01-15 no registry fallback
+PASS GATE-BL01-16 origin redaction
+PASS GATE-BL01-17 save exact
+PASS GATE-BL01-18 strict peers
+PASS GATE-BL01-19 ignore scripts
+PASS GATE-BL01-20 logical host normalization
+PASS GATE-BL01-21 ambient config projection
+PASS GATE-BL01-22 registry origin digest
+PASS GATE-BL01-23 secret redaction
+PASS GATE-BL01-24 isolated env
+PASS GATE-BL01-25 isolated userconfig
+PASS GATE-BL01-26 isolated global config
+PASS GATE-BL01-27 isolated cache
+PASS GATE-BL01-28 clean workspace
+PASS GATE-BL01-29 candidate lock only
+PASS GATE-BL01-30 candidate package immutable
+PASS GATE-BL01-31 candidate version gate
+PASS GATE-BL01-32 root graph verifier
+PASS GATE-BL01-33 exact direct verifier
+PASS GATE-BL01-34 integrity verifier
+PASS GATE-BL01-35 resolved verifier
+PASS GATE-BL01-36 unsupported source verifier
+PASS GATE-BL01-37 http tarball verifier
+PASS GATE-BL01-38 lifecycle inventory
+PASS GATE-BL01-39 cacache content address
+PASS GATE-BL01-40 tarball SRI verification
+PASS GATE-BL01-41 cache policy identity
+PASS GATE-BL01-42 offline A
+PASS GATE-BL01-43 offline B
+PASS GATE-BL01-44 offline flag
+PASS GATE-BL01-45 ci lock immutable
+PASS GATE-BL01-46 lifecycle zero receipt
+PASS GATE-BL01-47 install graph builder
+PASS GATE-BL01-48 content graph digest
+PASS GATE-BL01-49 symlink target capture
+PASS GATE-BL01-50 bin shim capture
+PASS GATE-BL01-51 node_modules cache gate
+PASS GATE-BL01-52 A B compare
+PASS GATE-BL01-53 mutation timeline artifact
+PASS GATE-BL01-54 promotion CAS
+PASS GATE-BL01-55 atomic rename
+PASS GATE-BL01-56 fsync
+PASS GATE-BL01-57 readback gate
+PASS GATE-BL01-58 win32 promotion only
+PASS GATE-BL01-59 pointer unchanged
+PASS GATE-BL01-60 legacy lock verifier receipt binding
+PASS GATE-BL01-61 build id lock digest
+PASS GATE-BL01-62 build authority digest
+PASS GATE-BL01-63 96 runtime tests
+PASS GATE-BL01-64 spec retained
+PASS GATE-BL01-65 required source artifacts
+PASS GATE-BL01-66 fix pointer truth
+PASS GATE-BL01-67 old lock forensic 12 mismatches
+PASS GATE-BL01-68 source mutation zero
+PASS GATE-BL01-69 no false promotion
+PASS GATE-BL01-70 stable errors
+PASS GATE-BL01-71 runtime lineage
+PASS GATE-BL01-72 explicit promotion command
+PASS TDT-BUILD-LOCK-01 72/72

@@ -1,0 +1,3564 @@
+{
+  "childArtifacts": [
+    {
+      "name": "R12_PARENT_FREEZE_RECEIPT.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_PARENT_FREEZE_RECEIPT.json",
+      "sha256": "dca2d7147da84e2f72181189770a7d84c8062514d5b7682ba3fdb33067d89e00"
+    },
+    {
+      "name": "R12_LOCAL_POINTER_SCHEMA_RECEIPT.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_LOCAL_POINTER_SCHEMA_RECEIPT.json",
+      "sha256": "0d5070ac33398f485c5688f0ce16f37c8f809511527fdfcfa03b67e2d2d8ed20"
+    },
+    {
+      "name": "R12_TRANSACTION_STATE_MACHINE_RECEIPT.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_TRANSACTION_STATE_MACHINE_RECEIPT.json",
+      "sha256": "b05ce8f7c4d55506fa06b893d42f27953d6dc53f4446ebd73e2ff283a65fbdc1"
+    },
+    {
+      "name": "R12_RECOVERY_MATRIX_SELF_TEST.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_RECOVERY_MATRIX_SELF_TEST.json",
+      "sha256": "0930d8872e68f30a1dedbbb515617d17ee0cc9547ff9e60b4e80f0d3436e71e6"
+    },
+    {
+      "name": "R12_RUNTIME_MODULE_SELF_TEST.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_RUNTIME_MODULE_SELF_TEST.json",
+      "sha256": "bfc89da22f268e389dc69db5418e69f61a0d27be57d634728e7fb0733f9a85c3"
+    },
+    {
+      "name": "R12_NEGATIVE_CONTROL_SOURCE_GATE.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_NEGATIVE_CONTROL_SOURCE_GATE.json",
+      "sha256": "e22e9df51005691b61bc8bd245a824ce2842cb01d49a7cbe615f86498d57a3eb"
+    },
+    {
+      "name": "R12_SOURCE_GATE_REPORT.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_SOURCE_GATE_REPORT.json",
+      "sha256": "7be70446d65e3a52a344c1501e4fa6c2696011ac3f7ae153106bb9c3454f55b7"
+    },
+    {
+      "name": "R12_PREDECESSOR_REGRESSION_REPORT.json",
+      "relativePath": "artifacts/resample-runtime-01-r12/source-bake/R12_PREDECESSOR_REGRESSION_REPORT.json",
+      "sha256": "0e5a515ffe12911beef57e10159fb4b68d837ec2f33226493b08cb4c22d6738a"
+    }
+  ],
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 168,
+    "PENDING": 358,
+    "SKIPPED": 0
+  },
+  "deferred": 0,
+  "fail": 0,
+  "installedGates": [
+    {
+      "id": "R12-P001",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_FINAL_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P002",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_FINAL_RECEIPT_SHA256_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P003",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_FINAL_RECEIPT_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P004",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_FINAL_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P005",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_SOURCE_PASS_129",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P006",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_RELEASE_PASS_202",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P007",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P008",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_FAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P009",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_FINAL_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P010",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_FINAL_RECEIPT_SHA256_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P011",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_FINAL_RECEIPT_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P012",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_FINAL_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P013",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_SOURCE_PASS_148",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P014",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_INSTALLED_PASS_228",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P015",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P016",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_FAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P017",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_SOURCE_HISTORICAL_ATTESTATION_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P018",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ACTIVE_NOT_QUARANTINED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P019",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SOURCE_PACKAGE_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P020",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SOURCE_INSTALL_GENERATION_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P021",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_SCHEMA_V3",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P022",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P023",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_RAW_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P024",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P025",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_GENERATION_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P026",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_ACTIVE_BUILD_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P027",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_ACTIVE_PACKAGE_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P028",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_RELEASE_PROFILE_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P029",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_BUILD_MATCH_PRODUCTION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P030",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_PACKAGE_MATCH_PRODUCTION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P031",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P032",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_SCHEMA_V1_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P033",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_ID_EXACT_INSTALLED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P034",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_RAW_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P035",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P036",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_SOURCE_MATCHES_R10_PREVIOUS_OR_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P037",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_INSTALL_GENERATION_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P038",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_SELECTION_MODE_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P039",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "POINTER_MIRROR_IDENTITY_WHEN_APPLICABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P040",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_MUTATION_ZERO_BEFORE_UPDATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P041",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_R10_RELEASE_RECEIPT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P042",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_R9_PHYSICAL_DIGEST_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P043",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_FULL_PRODUCT_DIGEST_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P044",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_EXPECTED_MANIFEST_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P045",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_PACKAGE_MANIFEST_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P046",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UPDATE_TRANSACTION_ID_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P047",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UPDATE_TRANSACTION_ID_ENTROPY_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P048",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SOURCE_MATCHES_PRODUCTION_PREVIOUS_OR_ACTIVE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P049",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UPDATE_TRANSITION_LEASE_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P050",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "EXPECTED_PRODUCTION_GENERATION_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P051",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "EXPECTED_PRODUCTION_RAW_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P052",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "EXPECTED_LOCAL_GENERATION_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P053",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "EXPECTED_LOCAL_RAW_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P054",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSITION_LEASE_UPDATER_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P055",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UPDATE_LOCK_ACQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P056",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCK_OWNER_IDENTITY_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P057",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CONCURRENT_TRANSACTION_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P058",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSACTION_CREATED_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P059",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSACTION_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P060",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSITION_PREVIEW_EXPORT_BLOCKED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P061",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGING_ON_SAME_VOLUME",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P062",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGING_ROOT_CANONICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P063",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGING_ROOT_NOT_ACTIVE_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P064",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGING_ROOT_NOT_PREVIOUS_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P065",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PAYLOAD_PARTIAL_CREATED_EMPTY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P066",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ARCHIVE_ENTRY_COUNT_PRECHECKED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P067",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ARCHIVE_TOTAL_BYTES_PRECHECKED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P068",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ABSOLUTE_ENTRY_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P069",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRAVERSAL_ENTRY_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P070",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UNC_ENTRY_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P071",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RESERVED_NAME_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P072",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRAILING_DOT_SPACE_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P073",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CASE_COLLISION_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P074",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ADS_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P075",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SYMLINK_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P076",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "JUNCTION_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P077",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "REPARSE_POINT_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P078",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "HARDLINK_EXTERNALIZATION_REJECTED_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P079",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FILE_TEMP_WRITE_THEN_RENAME",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P080",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FILE_BYTES_FLUSHED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P081",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MATERIALIZED_FILE_COUNT_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P082",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MATERIALIZED_TOTAL_BYTES_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P083",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PATH_SET_DIGEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P084",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PER_FILE_SIZE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P085",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PER_FILE_SHA256_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P086",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UNEXPECTED_FILE_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P087",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UNEXPECTED_EXECUTABLE_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P088",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PAYLOAD_PARTIAL_NOT_EXECUTABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P089",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MATERIALIZATION_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P090",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PAYLOAD_MATERIALIZED_STATE_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P091",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "APP_ASAR_PRESENT_AND_HASHED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P092",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RENDERER_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P093",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WORKER_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P094",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CHILD_WORKER_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P095",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WASM_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P096",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PTHREAD_HELPER_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P097",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NATIVE_ADDON_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P098",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CODEC_BINARY_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P099",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CANONICAL_WGSL_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P100",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GENERATED_WGSL_CLOSURE_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P101",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GENERATED_WGSL_MANIFEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P102",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RUNTIME_ASSET_MANIFEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P103",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVE_GRAPH_DIGEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P104",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_METADATA_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P105",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RELEASE_RECEIPT_DIGESTS_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P106",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MANIFEST_SELF_EXCLUSION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P107",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CLOSURE_ROOT_DIGEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P108",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PAYLOAD_VERIFIED_RENAME_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P109",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_INCOMING_RENAME_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P110",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_INCOMING_REVERIFIED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P111",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "EXISTING_PACKAGE_REUSE_BYTE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P112",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CONTENT_ID_COLLISION_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P113",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_FINAL_RENAME_ATOMIC",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P114",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_ROOT_READ_ONLY_POLICY_APPLIED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P115",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_STORE_COMMIT_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P116",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_STORE_COMMITTED_STATE_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P117",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_PROCESS_LAUNCHED_FROM_TARGET_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P118",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_ENV_PACKAGE_ROOT_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P119",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_ENV_PACKAGE_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P120",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_ENV_INSTALL_GENERATION_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P121",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_ENV_TRANSACTION_ID_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P122",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_PROCESS_CWD_TARGET_SCOPED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P123",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVE_PACKAGE_FILE_OPEN_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P124",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIOUS_PACKAGE_FILE_OPEN_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P125",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SOURCE_REPOSITORY_ACCESS_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P126",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "DEV_SERVER_CONNECTION_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P127",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MAIN_PROCESS_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P128",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RENDERER_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P129",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WORKER_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P130",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CHILD_WORKER_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P131",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WASM_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P132",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PTHREAD_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P133",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NATIVE_ADDON_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P134",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WGSL_GENERATION_HANDSHAKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P135",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CACHE_NAMESPACE_TARGET_SCOPED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P136",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "OLD_GENERATION_ASSET_LOAD_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P137",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_HARDWARE_ADAPTER_ACQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P138",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_SOFTWARE_ADAPTER_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P139",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_R4_DC_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P140",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_R4_FRACTIONAL_IMPULSE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P141",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_R6_ANISOTROPIC_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P142",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_BORDER_CORNER_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P143",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_ALPHA_EDGE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P144",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_NEUTRAL_POLICY_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P145",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_RESIDUAL_DISABLED_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P146",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_COUNTER_ZERO_CONTROL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P147",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_COUNTER_POSITIVE_CONTROL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P148",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_PRODUCT_REFERENCE_RAW16_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P149",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_GPU_ORACLE_ULP_WITHIN_ONE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P150",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_NONFINITE_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P151",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_FAULT_SENTINEL_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P152",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CPU_FALLBACK_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P153",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_UNEXPECTED_READBACK_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P154",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_PREVIEW_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P155",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_EXPORT_SMOKE_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P156",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P157",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_TOKEN_NOT_ISSUED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P158",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_STATE_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P159",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_PACKAGE_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P160",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P161",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_TRANSACTION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P162",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STAGED_CANARY_ACTIVE_ASSET_USE_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P163",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MAINTENANCE_BARRIER_ENTERED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P164",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEW_PREVIEW_ADMISSION_BLOCKED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P165",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEW_EXPORT_ADMISSION_BLOCKED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P166",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PENDING_JOBS_DRAINED_OR_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P167",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RENDERER_PROCESS_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P168",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WORKER_PROCESS_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P169",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PTHREAD_WORKER_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P170",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NATIVE_ADDON_HANDLE_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P171",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PACKAGE_ROOT_OPEN_HANDLE_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P172",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GPU_SUBMISSION_QUIESCENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P173",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAUNCHER_ONLY_COORDINATOR",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P174",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FORCED_TERMINATIONS_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P175",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "QUIESCENCE_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P176",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_REVALIDATED_PRE_INTENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P177",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_REVALIDATED_PRE_INTENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P178",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P179",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P180",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_TARGET_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P181",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_CANARY_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P182",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_QUIESCENCE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P183",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_PRODUCTION_HASH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P184",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_INTENT_LOCAL_HASH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P185",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PROPOSED_INSTALL_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P186",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVATION_PREPARED_STATE_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P187",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_REVALIDATED_PRE_CAS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P188",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_TARGET_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P189",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_GENERATION_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P190",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_REVALIDATED_PRE_CAS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P191",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_RAW_HASH_CAS_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P192",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_GENERATION_CAS_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P193",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UPDATE_LOCK_STILL_HELD",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P194",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_PACKAGE_STORE_CLOSURE_REVALIDATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P195",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_TEMP_SAME_DIRECTORY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P196",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_TEMP_BYTES_FLUSHED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P197",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_ATOMIC_REPLACE_SUCCESS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P198",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_PARENT_FLUSH_ATTEMPTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P199",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_READBACK_BYTES_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P200",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_SELF_HASH_AFTER_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P201",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_RAW_HASH_AFTER_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P202",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_GENERATION_INCREMENTED_ONE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P203",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_ACTIVE_BUILD_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P204",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_ACTIVE_PACKAGE_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P205",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_ACTIVE_ROOT_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P206",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_PREVIOUS_SOURCE_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P207",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_SELECTION_MODE_NORMAL_AFTER_ACTIVATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P208",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "OLD_PACKAGE_DIRECTORY_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P209",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_BYTES_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P210",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "POINTER_CAS_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P211",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LOCAL_POINTER_COMMITTED_STATE_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P212",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STABLE_LAUNCHER_RESOLVES_TARGET_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P213",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAUNCH_ENVELOPE_CREATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P214",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAUNCH_ENVELOPE_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P215",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAUNCH_ENVELOPE_TARGET_IDENTITY_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P216",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAUNCH_ENVELOPE_INSTALL_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P217",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_PACKAGE_RELAUNCHED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P218",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P219",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P220",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_TRANSACTION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P221",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_LOCAL_POINTER_HASH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P222",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_PRODUCTION_POINTER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P223",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_PACKAGE_ROOT_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P224",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_INSTALLED_BYTES_REHASH_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P225",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_STARTUP_CANARY_RERUN_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P226",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_STAGED_CANARY_NOT_REUSED_AS_TOKEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P227",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_SESSION_TOKEN_ISSUED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P228",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_TOKEN_PACKAGE_MATCH_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P229",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_TOKEN_INSTALL_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P230",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_TOKEN_POINTER_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P231",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_TOKEN_DEVICE_EPOCH_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P232",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_QUARANTINED_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P233",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_PRODUCTION_POINTER_MUTATED_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P234",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIEW_WITH_NEW_TOKEN_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P235",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "EXPORT_WITH_NEW_TOKEN_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P236",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P237",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_HANDOFF_PASSED_STATE_JOURNALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P238",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSACTION_COMMITTED_MARKER_WRITTEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P239",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSACTION_COMMITTED_MARKER_FLUSHED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P240",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TRANSACTION_FINAL_STATE_COMMITTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P241",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_CREATED_ACTIVE_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P242",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_DURING_MATERIALIZATION_RESUMABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P243",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_MATERIALIZATION_REVERIFY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P244",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_CLOSURE_VERIFIED_RECANARY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P245",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_DURING_STAGED_CANARY_NO_PASS_REUSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P246",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_CANARY_BEFORE_INTENT_RESUMABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P247",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_INTENT_REVALIDATES_POINTERS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P248",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_DURING_QUIESCENCE_NO_CAS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P249",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_PACKAGE_STORE_COMMIT_ACTIVE_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P250",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_BEFORE_POINTER_TEMP_REPLACE_ACTIVE_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P251",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_POINTER_REPLACE_DETECTED_FROM_BYTES",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P252",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_POINTER_REPLACE_HANDOFF_PENDING",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P253",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_JOURNAL_ACK_HANDOFF_PENDING",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P254",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_DURING_TARGET_RELAUNCH_RECOVERED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P255",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_DURING_R11_ATTESTATION_RERUN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P256",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_R11_PASS_BEFORE_COMMIT_RECONSTRUCTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P257",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "KILL_AFTER_COMMIT_BEFORE_LOCK_RELEASE_RECONSTRUCTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P258",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CORRUPT_JOURNAL_TAIL_DETECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P259",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CORRUPT_JOURNAL_TAIL_PRESERVED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P260",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAST_VALID_JOURNAL_HEAD_RECOVERED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P261",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTUAL_LOCAL_POINTER_WINS_OVER_STALE_STATE_FILE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P262",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTUAL_PRODUCTION_POINTER_RECHECKED_ON_RECOVERY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P263",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "AMBIGUOUS_POINTER_STATE_FAIL_CLOSED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P264",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ORPHAN_PARTIAL_STAGING_NOT_ACTIVATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P265",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ORPHAN_VERIFIED_PACKAGE_NOT_AUTO_ACTIVATED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P266",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "STALE_TARGET_TRANSACTION_ABORTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P267",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_IDEMPOTENT_SECOND_RUN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P268",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P269",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "INTERRUPTION_MATRIX_ALL_CASES_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P270",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "INTERRUPTION_RECOVERY_PASSED_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P271",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "MAIN_RENDERER_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P272",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RENDERER_WORKER_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P273",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WORKER_CHILD_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P274",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WORKER_WASM_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P275",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WASM_PTHREAD_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P276",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "APP_NATIVE_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P277",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WGSL_MANIFEST_BYTES_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P278",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PLANNER_PIPELINE_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P279",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_TOKEN_JOB_GENERATION_EXACT_PHYSICAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P280",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "DYNAMIC_IMPORT_BASE_TARGET_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P281",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WORKER_URL_BASE_TARGET_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P282",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WASM_URL_BASE_TARGET_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P283",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NATIVE_RESOLUTION_BASE_TARGET_ROOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P284",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "OLD_PACKAGE_PATH_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P285",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GLOBAL_MODULE_CACHE_FALLBACK_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P286",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "HTTP_CACHE_PARTITION_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P287",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CODE_CACHE_PARTITION_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P288",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WASM_CACHE_PARTITION_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P289",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "WGSL_CACHE_PARTITION_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P290",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PIPELINE_CACHE_PARTITION_TARGET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P291",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SERVICE_WORKER_OLD_CONTROL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P292",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CROSS_GENERATION_RPC_REJECTS_STALE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P293",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CROSS_GENERATION_ASSET_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P294",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GENERATION_MISMATCH_NEGATIVE_CONTROL_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P295",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_R11_FAILURE_TRIGGERS_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P296",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_QUARANTINE_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P297",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_PREVIEW_BLOCKED_AFTER_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P298",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_EXPORT_BLOCKED_AFTER_QUARANTINE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P299",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "TARGET_PROCESSES_STOPPED_BEFORE_RECOVERY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P300",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIOUS_PACKAGE_CLOSURE_REVERIFIED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P301",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIOUS_HISTORICAL_R11_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P302",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_INTENT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P303",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_LOCAL_POINTER_CAS_SUCCESS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P304",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_INSTALL_GENERATION_INCREMENTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P305",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_MODE_EXPLICIT_RECOVERY_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P306",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RECOVERY_PRODUCTION_POINTER_UNCHANGED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P307",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIOUS_NORMAL_RUNTIME_BLOCKED_WHEN_R10_MISMATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P308",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "UPDATER_RECOVERY_UI_ALLOWED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P309",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_ROLLBACK_RECOMMENDATION_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P310",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ROLLBACK_RECOMMENDATION_EXECUTION_AUTHORITY_R10",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P311",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ROLLBACK_RECOMMENDATION_OPERATOR_APPROVAL_REQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P312",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NO_QUALIFIED_PREVIOUS_NOT_INVENTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P313",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_ROLLBACK_AFTERWARD_HANDOFF_SUPPORTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P314",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R10_MATCHED_PREVIOUS_R11_READMISSION_SUPPORTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P315",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIOUS_PACKAGE_RETAINED_AFTER_COMMIT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P316",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_NORMAL_SESSIONS_AT_LEAST_THREE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P317",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_QUARANTINE_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P318",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_DEVICE_LOSS_THRESHOLD_CLEAR",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P319",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_CRASH_THRESHOLD_CLEAR",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P320",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_NO_PENDING_RECOMMENDATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P321",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_NO_ACTIVE_RECOVERY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P322",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_MINIMUM_ELAPSED_POLICY_MET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P323",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_ACTIVE_PACKAGE_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P324",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_PREVIOUS_DURING_RETENTION_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P325",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_R10_ACTIVE_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P326",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_R10_PREVIOUS_ELIGIBLE_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P327",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_INCOMPLETE_TRANSACTION_PACKAGE_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P328",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_OPEN_HANDLE_PACKAGE_FORBIDDEN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P329",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_DELETION_LIST_DIGEST_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P330",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "GC_POST_DELETE_PATH_ABSENCE_VERIFIED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P331",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "RETENTION_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P332",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "LAST_KNOWN_GOOD_PRESERVED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P333",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FINAL_RECEIPT_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P334",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FINAL_RECEIPT_SELF_HASH_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P335",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FINAL_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P336",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SOURCE_PASS_168",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P337",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "INSTALLED_PASS_358",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P338",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P339",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "DEFERRED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P340",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "SKIPPED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P341",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "FAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P342",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "ACTIVE_GENERATION_CONSISTENT_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P343",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "CROSS_GENERATION_COUNT_ZERO_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P344",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "INTERRUPTED_RECOVERY_TRUE_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P345",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_TOKEN_ISSUED_TRUE_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P346",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "R11_QUARANTINED_FALSE_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P347",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PREVIOUS_RECOVERABLE_TRUE_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P348",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "PRODUCTION_POINTER_MUTATED_FALSE_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P349",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "USER_IMAGE_BYTES_ABSENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P350",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "USER_FILE_NAME_ABSENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P351",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "USER_CONTENT_PATH_ABSENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P352",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "USER_PIXEL_HASH_ABSENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P353",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NETWORK_TELEMETRY_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P354",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEGATIVE_MUTATED_PACKAGE_DETECTED_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P355",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEGATIVE_STALE_POINTER_DETECTED_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P356",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEGATIVE_MIXED_WORKER_DETECTED_FINAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P357",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEGATIVE_R11_EARLY_ADMISSION_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R12-P358",
+      "reason": "requires-qualified-R10-release-R11-admitted-source-installation-and-packaged-Windows-atomic-update-execution",
+      "requirement": "NEGATIVE_PRODUCTION_POINTER_WRITE_REJECTED_FINAL",
+      "status": "PENDING"
+    }
+  ],
+  "installedPass": 0,
+  "localActivationPointerMutated": false,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12",
+  "pending": 358,
+  "productionPointerMutated": false,
+  "productionPointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "r10FinalReleaseReceiptPresent": false,
+  "r11ActiveInstalledReceiptPresent": false,
+  "receiptSha256": "f84ba1ff1e03d9804d2a714a42065e8b2e1a3ab99967d00a5cc934a617b09d3c",
+  "schemaId": "tdt.resample-runtime.r12.source-harness.v1",
+  "schemaVersion": 1,
+  "skipped": 0,
+  "sourceGates": [
+    {
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_SHA256_EXACT"
+      },
+      "id": "R12-S001",
+      "name": "PARENT_BUNDLE_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_SPEC_SHA256_EXACT"
+      },
+      "id": "R12-S002",
+      "name": "PARENT_R11_SPEC_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_SOURCE_RECEIPT_SHA256_EXACT"
+      },
+      "id": "R12-S003",
+      "name": "PARENT_R11_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_STATE_EXACT"
+      },
+      "id": "R12-S004",
+      "name": "PARENT_R11_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_SOURCE_PASS_148"
+      },
+      "id": "R12-S005",
+      "name": "PARENT_R11_SOURCE_PASS_148",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_INSTALLED_PENDING_228"
+      },
+      "id": "R12-S006",
+      "name": "PARENT_R11_INSTALLED_PENDING_228",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_R11_FAIL_ZERO"
+      },
+      "id": "R12-S007",
+      "name": "PARENT_R11_FAIL_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_R10_SOURCE_STATE_RECORDED"
+      },
+      "id": "R12-S008",
+      "name": "CURRENT_R10_SOURCE_STATE_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_R10_RELEASE_PENDING_RECORDED"
+      },
+      "id": "R12-S009",
+      "name": "CURRENT_R10_RELEASE_PENDING_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_PRODUCTION_POINTER_SCHEMA_V2_RECORDED"
+      },
+      "id": "R12-S010",
+      "name": "CURRENT_PRODUCTION_POINTER_SCHEMA_V2_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_PRODUCTION_POINTER_ACTIVE_NULL_RECORDED"
+      },
+      "id": "R12-S011",
+      "name": "CURRENT_PRODUCTION_POINTER_ACTIVE_NULL_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CURRENT_PRODUCTION_POINTER_RAW_HASH_RECORDED"
+      },
+      "id": "R12-S012",
+      "name": "CURRENT_PRODUCTION_POINTER_RAW_HASH_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_STATE_EXACT"
+      },
+      "id": "R12-S013",
+      "name": "SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_GATE_COUNT_168"
+      },
+      "id": "R12-S014",
+      "name": "SOURCE_GATE_COUNT_168",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALLED_GATE_COUNT_358"
+      },
+      "id": "R12-S015",
+      "name": "INSTALLED_GATE_COUNT_358",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TOTAL_GATE_COUNT_526"
+      },
+      "id": "R12-S016",
+      "name": "TOTAL_GATE_COUNT_526",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_PRODUCTION_AUTHORITY_READ_ONLY"
+      },
+      "id": "R12-S017",
+      "name": "R10_PRODUCTION_AUTHORITY_READ_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R12_LOCAL_POINTER_AUTHORITY_ONLY"
+      },
+      "id": "R12-S018",
+      "name": "R12_LOCAL_POINTER_AUTHORITY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_RUNTIME_ADMISSION_AUTHORITY_ONLY"
+      },
+      "id": "R12-S019",
+      "name": "R11_RUNTIME_ADMISSION_AUTHORITY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRODUCTION_POINTER_WRITER_NOT_IMPORTED"
+      },
+      "id": "R12-S020",
+      "name": "PRODUCTION_POINTER_WRITER_NOT_IMPORTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_ID_EXACT"
+      },
+      "id": "R12-S021",
+      "name": "LOCAL_POINTER_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_SCHEMA_V1"
+      },
+      "id": "R12-S022",
+      "name": "LOCAL_POINTER_SCHEMA_V1",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RECOVERY_ONLY_MODE_EXPLICIT"
+      },
+      "id": "R12-S023",
+      "name": "RECOVERY_ONLY_MODE_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_NORMAL_RUNTIME_ON_POINTER_MISMATCH"
+      },
+      "id": "R12-S024",
+      "name": "NO_NORMAL_RUNTIME_ON_POINTER_MISMATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_ACTIVE_DIRECTORY_SSOT"
+      },
+      "id": "R12-S025",
+      "name": "NO_ACTIVE_DIRECTORY_SSOT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "IMMUTABLE_PACKAGE_STORE_AUTHORITY"
+      },
+      "id": "R12-S026",
+      "name": "IMMUTABLE_PACKAGE_STORE_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STABLE_LAUNCHER_OUTSIDE_PACKAGE_GENERATION"
+      },
+      "id": "R12-S027",
+      "name": "STABLE_LAUNCHER_OUTSIDE_PACKAGE_GENERATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_HOT_PATCH_AUTHORITY"
+      },
+      "id": "R12-S028",
+      "name": "NO_HOT_PATCH_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_DELTA_PATCH_AUTHORITY"
+      },
+      "id": "R12-S029",
+      "name": "NO_DELTA_PATCH_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_CPU_FALLBACK_AUTHORITY"
+      },
+      "id": "R12-S030",
+      "name": "NO_CPU_FALLBACK_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_LEGACY_SHADER_FALLBACK_AUTHORITY"
+      },
+      "id": "R12-S031",
+      "name": "NO_LEGACY_SHADER_FALLBACK_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_AUTOMATIC_R10_ROLLBACK"
+      },
+      "id": "R12-S032",
+      "name": "NO_AUTOMATIC_R10_ROLLBACK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALL_ROOT_LAYOUT_DECLARED"
+      },
+      "id": "R12-S033",
+      "name": "INSTALL_ROOT_LAYOUT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCHER_ROOT_DECLARED"
+      },
+      "id": "R12-S034",
+      "name": "LAUNCHER_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGES_ROOT_DECLARED"
+      },
+      "id": "R12-S035",
+      "name": "PACKAGES_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGING_ROOT_DECLARED"
+      },
+      "id": "R12-S036",
+      "name": "STAGING_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STATE_ROOT_DECLARED"
+      },
+      "id": "R12-S037",
+      "name": "STATE_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_ROOT_DECLARED"
+      },
+      "id": "R12-S038",
+      "name": "JOURNAL_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCK_ROOT_DECLARED"
+      },
+      "id": "R12-S039",
+      "name": "LOCK_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_ROOT_DECLARED"
+      },
+      "id": "R12-S040",
+      "name": "QUARANTINE_ROOT_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SAME_VOLUME_REQUIREMENT"
+      },
+      "id": "R12-S041",
+      "name": "SAME_VOLUME_REQUIREMENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CASE_INSENSITIVE_CANONICAL_SET"
+      },
+      "id": "R12-S042",
+      "name": "CASE_INSENSITIVE_CANONICAL_SET",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ABSOLUTE_PATH_REJECTED"
+      },
+      "id": "R12-S043",
+      "name": "ABSOLUTE_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRAVERSAL_PATH_REJECTED"
+      },
+      "id": "R12-S044",
+      "name": "TRAVERSAL_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNC_PATH_REJECTED"
+      },
+      "id": "R12-S045",
+      "name": "UNC_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RESERVED_DEVICE_NAME_REJECTED"
+      },
+      "id": "R12-S046",
+      "name": "RESERVED_DEVICE_NAME_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRAILING_DOT_SPACE_REJECTED"
+      },
+      "id": "R12-S047",
+      "name": "TRAILING_DOT_SPACE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CASE_COLLISION_REJECTED"
+      },
+      "id": "R12-S048",
+      "name": "CASE_COLLISION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ADS_REJECTED"
+      },
+      "id": "R12-S049",
+      "name": "ADS_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SYMLINK_REJECTED"
+      },
+      "id": "R12-S050",
+      "name": "SYMLINK_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JUNCTION_REJECTED"
+      },
+      "id": "R12-S051",
+      "name": "JUNCTION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "REPARSE_POINT_REJECTED"
+      },
+      "id": "R12-S052",
+      "name": "REPARSE_POINT_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SCHEMA_ID_EXACT"
+      },
+      "id": "R12-S053",
+      "name": "TRANSACTION_SCHEMA_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_ID_ENTROPY_BOUND"
+      },
+      "id": "R12-S054",
+      "name": "TRANSACTION_ID_ENTROPY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SOURCE_IDENTITY_BOUND"
+      },
+      "id": "R12-S055",
+      "name": "TRANSACTION_SOURCE_IDENTITY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_TARGET_IDENTITY_BOUND"
+      },
+      "id": "R12-S056",
+      "name": "TRANSACTION_TARGET_IDENTITY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_PRODUCTION_POINTER_BOUND"
+      },
+      "id": "R12-S057",
+      "name": "TRANSACTION_PRODUCTION_POINTER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_LOCAL_POINTER_BOUND"
+      },
+      "id": "R12-S058",
+      "name": "TRANSACTION_LOCAL_POINTER_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_STAGING_ROOT_BOUND"
+      },
+      "id": "R12-S059",
+      "name": "TRANSACTION_STAGING_ROOT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_STATE_MONOTONIC"
+      },
+      "id": "R12-S060",
+      "name": "TRANSACTION_STATE_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SKIP_REJECTED"
+      },
+      "id": "R12-S061",
+      "name": "TRANSACTION_SKIP_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_REWIND_REJECTED"
+      },
+      "id": "R12-S062",
+      "name": "TRANSACTION_REWIND_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_SCHEMA_ID_EXACT"
+      },
+      "id": "R12-S063",
+      "name": "JOURNAL_SCHEMA_ID_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_SEQUENCE_MONOTONIC"
+      },
+      "id": "R12-S064",
+      "name": "JOURNAL_SEQUENCE_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_HASH_CHAIN_REQUIRED"
+      },
+      "id": "R12-S065",
+      "name": "JOURNAL_HASH_CHAIN_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_INTENT_BEFORE_EFFECT"
+      },
+      "id": "R12-S066",
+      "name": "JOURNAL_INTENT_BEFORE_EFFECT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_FLUSH_REQUIRED"
+      },
+      "id": "R12-S067",
+      "name": "JOURNAL_FLUSH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_READBACK_REQUIRED"
+      },
+      "id": "R12-S068",
+      "name": "JOURNAL_READBACK_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_CORRUPT_TAIL_PRESERVED"
+      },
+      "id": "R12-S069",
+      "name": "JOURNAL_CORRUPT_TAIL_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_STATE_ATOMIC_REPLACE"
+      },
+      "id": "R12-S070",
+      "name": "TRANSACTION_STATE_ATOMIC_REPLACE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TRANSACTION_SELF_HASH_REQUIRED"
+      },
+      "id": "R12-S071",
+      "name": "TRANSACTION_SELF_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SINGLE_ACTIVE_TRANSACTION"
+      },
+      "id": "R12-S072",
+      "name": "SINGLE_ACTIVE_TRANSACTION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_FINAL_RELEASE_INPUT_REQUIRED"
+      },
+      "id": "R12-S073",
+      "name": "R10_FINAL_RELEASE_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_EXPECTED_MANIFEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S074",
+      "name": "R11_EXPECTED_MANIFEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_CONTENT_MANIFEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S075",
+      "name": "PACKAGE_CONTENT_MANIFEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R9_PHYSICAL_DIGEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S076",
+      "name": "R9_PHYSICAL_DIGEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "FULL_PRODUCT_DIGEST_INPUT_REQUIRED"
+      },
+      "id": "R12-S077",
+      "name": "FULL_PRODUCT_DIGEST_INPUT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TARGET_MUST_MATCH_R10_ACTIVE"
+      },
+      "id": "R12-S078",
+      "name": "TARGET_MUST_MATCH_R10_ACTIVE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SEMVER_NOT_AUTHORITY"
+      },
+      "id": "R12-S079",
+      "name": "SEMVER_NOT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PAYLOAD_PARTIAL_DIRECTORY_REQUIRED"
+      },
+      "id": "R12-S080",
+      "name": "PAYLOAD_PARTIAL_DIRECTORY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PAYLOAD_VERIFIED_DIRECTORY_REQUIRED"
+      },
+      "id": "R12-S081",
+      "name": "PAYLOAD_VERIFIED_DIRECTORY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_FILE_COUNT_BOUND"
+      },
+      "id": "R12-S082",
+      "name": "MANIFEST_FILE_COUNT_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_TOTAL_BYTES_BOUND"
+      },
+      "id": "R12-S083",
+      "name": "MANIFEST_TOTAL_BYTES_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PER_FILE_SHA256_REQUIRED"
+      },
+      "id": "R12-S084",
+      "name": "PER_FILE_SHA256_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PATH_SET_DIGEST_REQUIRED"
+      },
+      "id": "R12-S085",
+      "name": "PATH_SET_DIGEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNEXPECTED_FILE_REJECTED"
+      },
+      "id": "R12-S086",
+      "name": "UNEXPECTED_FILE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNEXPECTED_EXECUTABLE_REJECTED"
+      },
+      "id": "R12-S087",
+      "name": "UNEXPECTED_EXECUTABLE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "HARDLINK_EXTERNALIZATION_REJECTED"
+      },
+      "id": "R12-S088",
+      "name": "HARDLINK_EXTERNALIZATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_SELF_EXCLUSION_FIXED"
+      },
+      "id": "R12-S089",
+      "name": "MANIFEST_SELF_EXCLUSION_FIXED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CONTENT_ID_STORE_PATH_FIXED"
+      },
+      "id": "R12-S090",
+      "name": "CONTENT_ID_STORE_PATH_FIXED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CONTENT_ID_COLLISION_FAIL_CLOSED"
+      },
+      "id": "R12-S091",
+      "name": "CONTENT_ID_COLLISION_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_STORE_MERGE_FORBIDDEN"
+      },
+      "id": "R12-S092",
+      "name": "PACKAGE_STORE_MERGE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_EXECUTION_ROLE_EXPLICIT"
+      },
+      "id": "R12-S093",
+      "name": "STAGED_EXECUTION_ROLE_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_PACKAGE_ROOT_EXPLICIT"
+      },
+      "id": "R12-S094",
+      "name": "STAGED_PACKAGE_ROOT_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_GENERATION_EXPLICIT"
+      },
+      "id": "R12-S095",
+      "name": "STAGED_GENERATION_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_TRANSACTION_ID_EXPLICIT"
+      },
+      "id": "R12-S096",
+      "name": "STAGED_TRANSACTION_ID_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVE_ROOT_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S097",
+      "name": "ACTIVE_ROOT_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIOUS_ROOT_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S098",
+      "name": "PREVIOUS_ROOT_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_TREE_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S099",
+      "name": "SOURCE_TREE_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DEV_SERVER_ACCESS_FORBIDDEN"
+      },
+      "id": "R12-S100",
+      "name": "DEV_SERVER_ACCESS_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "GENERATION_NEUTRAL_CACHE_FORBIDDEN"
+      },
+      "id": "R12-S101",
+      "name": "GENERATION_NEUTRAL_CACHE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "OLD_NATIVE_PATH_FALLBACK_FORBIDDEN"
+      },
+      "id": "R12-S102",
+      "name": "OLD_NATIVE_PATH_FALLBACK_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCH_ENVELOPE_SCHEMA_EXACT"
+      },
+      "id": "R12-S103",
+      "name": "LAUNCH_ENVELOPE_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CHILD_HANDSHAKE_REQUIRED"
+      },
+      "id": "R12-S104",
+      "name": "CHILD_HANDSHAKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_R11_FIXTURE_AUTHORITY_REUSED"
+      },
+      "id": "R12-S105",
+      "name": "STAGED_R11_FIXTURE_AUTHORITY_REUSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STAGED_CANARY_NO_TOKEN_ISSUE"
+      },
+      "id": "R12-S106",
+      "name": "STAGED_CANARY_NO_TOKEN_ISSUE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "HARDWARE_GPU_REQUIRED"
+      },
+      "id": "R12-S107",
+      "name": "HARDWARE_GPU_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRODUCT_REFERENCE_RAW16_EXACT_REQUIRED"
+      },
+      "id": "R12-S108",
+      "name": "PRODUCT_REFERENCE_RAW16_EXACT_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "GPU_ORACLE_ULP_BOUND_REQUIRED"
+      },
+      "id": "R12-S109",
+      "name": "GPU_ORACLE_ULP_BOUND_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "VALIDATION_POSITIVE_CONTROL_REQUIRED"
+      },
+      "id": "R12-S110",
+      "name": "VALIDATION_POSITIVE_CONTROL_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIEW_EXPORT_SMOKE_REQUIRED"
+      },
+      "id": "R12-S111",
+      "name": "PREVIEW_EXPORT_SMOKE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CPU_FALLBACK_ZERO_REQUIRED"
+      },
+      "id": "R12-S112",
+      "name": "CPU_FALLBACK_ZERO_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_REQUIRED_FIELDS_DECLARED"
+      },
+      "id": "R12-S113",
+      "name": "LOCAL_POINTER_REQUIRED_FIELDS_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_SELF_HASH_REQUIRED"
+      },
+      "id": "R12-S114",
+      "name": "LOCAL_POINTER_SELF_HASH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_RAW_HASH_CAS_REQUIRED"
+      },
+      "id": "R12-S115",
+      "name": "LOCAL_POINTER_RAW_HASH_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LOCAL_POINTER_GENERATION_CAS_REQUIRED"
+      },
+      "id": "R12-S116",
+      "name": "LOCAL_POINTER_GENERATION_CAS_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALL_GENERATION_MONOTONIC"
+      },
+      "id": "R12-S117",
+      "name": "INSTALL_GENERATION_MONOTONIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_SCHEMA_EXACT"
+      },
+      "id": "R12-S118",
+      "name": "ACTIVATION_INTENT_SCHEMA_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_POINTERS_FROZEN"
+      },
+      "id": "R12-S119",
+      "name": "ACTIVATION_INTENT_POINTERS_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_CANARY_BOUND"
+      },
+      "id": "R12-S120",
+      "name": "ACTIVATION_INTENT_CANARY_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_QUIESCENCE_BOUND"
+      },
+      "id": "R12-S121",
+      "name": "ACTIVATION_INTENT_QUIESCENCE_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVATION_INTENT_STALE_REJECTED"
+      },
+      "id": "R12-S122",
+      "name": "ACTIVATION_INTENT_STALE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_STORE_COMMIT_PRECEDES_POINTER_CAS"
+      },
+      "id": "R12-S123",
+      "name": "PACKAGE_STORE_COMMIT_PRECEDES_POINTER_CAS",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_CAS_IS_COMMIT_POINT"
+      },
+      "id": "R12-S124",
+      "name": "POINTER_CAS_IS_COMMIT_POINT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SAME_DIRECTORY_TEMP_REQUIRED"
+      },
+      "id": "R12-S125",
+      "name": "SAME_DIRECTORY_TEMP_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "FLUSH_BEFORE_REPLACE_REQUIRED"
+      },
+      "id": "R12-S126",
+      "name": "FLUSH_BEFORE_REPLACE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ATOMIC_REPLACE_REQUIRED"
+      },
+      "id": "R12-S127",
+      "name": "ATOMIC_REPLACE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_READBACK_REQUIRED"
+      },
+      "id": "R12-S128",
+      "name": "POINTER_READBACK_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "OLD_PACKAGE_NOT_MOVED_ON_ACTIVATION"
+      },
+      "id": "R12-S129",
+      "name": "OLD_PACKAGE_NOT_MOVED_ON_ACTIVATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCHER_POINTER_SINGLE_READ"
+      },
+      "id": "R12-S130",
+      "name": "LAUNCHER_POINTER_SINGLE_READ",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NO_PRODUCTION_POINTER_WRITE_PATH"
+      },
+      "id": "R12-S131",
+      "name": "NO_PRODUCTION_POINTER_WRITE_PATH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CAS_AUTO_RETRY_FORBIDDEN"
+      },
+      "id": "R12-S132",
+      "name": "CAS_AUTO_RETRY_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RECOVERY_MATRIX_ALL_BOUNDARIES_DECLARED"
+      },
+      "id": "R12-S133",
+      "name": "RECOVERY_MATRIX_ALL_BOUNDARIES_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRECOMMIT_ACTIVE_UNCHANGED"
+      },
+      "id": "R12-S134",
+      "name": "PRECOMMIT_ACTIVE_UNCHANGED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POST_CAS_HANDOFF_PENDING_RECONSTRUCTED"
+      },
+      "id": "R12-S135",
+      "name": "POST_CAS_HANDOFF_PENDING_RECONSTRUCTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_PASS_COMMIT_RECONSTRUCTED"
+      },
+      "id": "R12-S136",
+      "name": "R11_PASS_COMMIT_RECONSTRUCTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_FAIL_TARGET_QUARANTINED"
+      },
+      "id": "R12-S137",
+      "name": "R11_FAIL_TARGET_QUARANTINED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIOUS_RESTORE_RECOVERY_ONLY"
+      },
+      "id": "R12-S138",
+      "name": "PREVIOUS_RESTORE_RECOVERY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PREVIOUS_NORMAL_RUNTIME_REQUIRES_R10_MATCH"
+      },
+      "id": "R12-S139",
+      "name": "PREVIOUS_NORMAL_RUNTIME_REQUIRES_R10_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "JOURNAL_AND_POINTER_JOINT_AUTHORITY"
+      },
+      "id": "R12-S140",
+      "name": "JOURNAL_AND_POINTER_JOINT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "AMBIGUOUS_RECOVERY_FAIL_CLOSED"
+      },
+      "id": "R12-S141",
+      "name": "AMBIGUOUS_RECOVERY_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAUNCH_ENVELOPE_GENERATION_BOUND"
+      },
+      "id": "R12-S142",
+      "name": "LAUNCH_ENVELOPE_GENERATION_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MAIN_RENDERER_GENERATION_MATCH"
+      },
+      "id": "R12-S143",
+      "name": "MAIN_RENDERER_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RENDERER_WORKER_GENERATION_MATCH"
+      },
+      "id": "R12-S144",
+      "name": "RENDERER_WORKER_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WORKER_WASM_GENERATION_MATCH"
+      },
+      "id": "R12-S145",
+      "name": "WORKER_WASM_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WASM_PTHREAD_GENERATION_MATCH"
+      },
+      "id": "R12-S146",
+      "name": "WASM_PTHREAD_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "APP_NATIVE_GENERATION_MATCH"
+      },
+      "id": "R12-S147",
+      "name": "APP_NATIVE_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WGSL_MANIFEST_BYTES_GENERATION_MATCH"
+      },
+      "id": "R12-S148",
+      "name": "WGSL_MANIFEST_BYTES_GENERATION_MATCH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PIPELINE_CACHE_GENERATION_KEYED"
+      },
+      "id": "R12-S149",
+      "name": "PIPELINE_CACHE_GENERATION_KEYED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_TOKEN_INSTALL_GENERATION_BOUND"
+      },
+      "id": "R12-S150",
+      "name": "R11_TOKEN_INSTALL_GENERATION_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CACHE_PARTITION_PACKAGE_BOUND"
+      },
+      "id": "R12-S151",
+      "name": "CACHE_PARTITION_PACKAGE_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SERVICE_WORKER_GENERATION_POLICY"
+      },
+      "id": "R12-S152",
+      "name": "SERVICE_WORKER_GENERATION_POLICY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_MUTATED_PACKAGE_DETECTED"
+      },
+      "id": "R12-S153",
+      "name": "NEGATIVE_MUTATED_PACKAGE_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_CASE_COLLISION_DETECTED"
+      },
+      "id": "R12-S154",
+      "name": "NEGATIVE_CASE_COLLISION_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_TRAVERSAL_DETECTED"
+      },
+      "id": "R12-S155",
+      "name": "NEGATIVE_TRAVERSAL_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_ADS_DETECTED"
+      },
+      "id": "R12-S156",
+      "name": "NEGATIVE_ADS_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_JUNCTION_DETECTED"
+      },
+      "id": "R12-S157",
+      "name": "NEGATIVE_JUNCTION_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_CONTENT_ID_COLLISION_DETECTED"
+      },
+      "id": "R12-S158",
+      "name": "NEGATIVE_CONTENT_ID_COLLISION_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_OLD_WORKER_DETECTED"
+      },
+      "id": "R12-S159",
+      "name": "NEGATIVE_OLD_WORKER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_OLD_WASM_HELPER_DETECTED"
+      },
+      "id": "R12-S160",
+      "name": "NEGATIVE_OLD_WASM_HELPER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_OLD_NATIVE_ADDON_DETECTED"
+      },
+      "id": "R12-S161",
+      "name": "NEGATIVE_OLD_NATIVE_ADDON_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_STALE_R10_POINTER_DETECTED"
+      },
+      "id": "R12-S162",
+      "name": "NEGATIVE_STALE_R10_POINTER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_STALE_LOCAL_POINTER_DETECTED"
+      },
+      "id": "R12-S163",
+      "name": "NEGATIVE_STALE_LOCAL_POINTER_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_POINTER_HASH_MISMATCH_DETECTED"
+      },
+      "id": "R12-S164",
+      "name": "NEGATIVE_POINTER_HASH_MISMATCH_DETECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_POST_CAS_KILL_RECOVERED"
+      },
+      "id": "R12-S165",
+      "name": "NEGATIVE_POST_CAS_KILL_RECOVERED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_R11_HANDOFF_KILL_RECOVERED"
+      },
+      "id": "R12-S166",
+      "name": "NEGATIVE_R11_HANDOFF_KILL_RECOVERED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NEGATIVE_PRODUCTION_POINTER_WRITE_REJECTED"
+      },
+      "id": "R12-S167",
+      "name": "NEGATIVE_PRODUCTION_POINTER_WRITE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_FINAL_RECEIPT_SEALED"
+      },
+      "id": "R12-S168",
+      "name": "SOURCE_FINAL_RECEIPT_SEALED",
+      "status": "PASS"
+    }
+  ],
+  "sourcePass": 168,
+  "specSha256": "3aa4a313ad4dc4c7ec9194fd52fd6cf4f14a0483ec12d74e001ca55594c1f917",
+  "state": "RESAMPLE_RUNTIME_R12_ATOMIC_UPDATE_HARNESS_SOURCE_BAKED_AWAITING_QUALIFIED_RELEASE_AND_R11_ACTIVE_INSTALLATION"
+}

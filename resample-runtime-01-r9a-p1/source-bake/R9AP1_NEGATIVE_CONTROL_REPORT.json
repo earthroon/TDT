@@ -1,0 +1,200 @@
+{
+  "failCount": 0,
+  "passCount": 48,
+  "schemaVersion": 1,
+  "selfSha256": "9adb1647a30c8349f444bcdcee077bdfaeccf617b761ce8c12dbde256feffa7e",
+  "tests": [
+    {
+      "id": "NC01-BUILD-LOCK-SOURCE-AS-FINAL",
+      "status": "PASS"
+    },
+    {
+      "id": "NC02-DEV-SERVER",
+      "status": "PASS"
+    },
+    {
+      "id": "NC03-SOFTWARE-ADAPTER",
+      "status": "PASS"
+    },
+    {
+      "id": "NC04-SOURCE-RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "NC05-DIRECT-GRAPH-IMPORT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC06-CHALLENGE-MAC",
+      "status": "PASS"
+    },
+    {
+      "id": "NC07-CHALLENGE-WINDOW",
+      "status": "PASS"
+    },
+    {
+      "id": "NC08-CHALLENGE-WEBCONTENTS",
+      "status": "PASS"
+    },
+    {
+      "id": "NC09-CHALLENGE-PID",
+      "status": "PASS"
+    },
+    {
+      "id": "NC10-ARTIFACT-PATH-ESCAPE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC11-DOUBLE-RUN-LOCK",
+      "status": "PASS"
+    },
+    {
+      "id": "NC12-LEDGER-SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "id": "NC13-LEDGER-SEQUENCE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC14-LEDGER-CHAIN",
+      "status": "PASS"
+    },
+    {
+      "id": "NC15-LEDGER-SELF-HASH",
+      "status": "PASS"
+    },
+    {
+      "id": "NC16-LEDGER-TIME",
+      "status": "PASS"
+    },
+    {
+      "id": "NC17-LEDGER-HEAD",
+      "status": "PASS"
+    },
+    {
+      "id": "NC18-FORGED-ENCODER-SUMMARY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC19-MISSING-SUBMIT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC20-EXTRA-SUBMIT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC21-MAP-LEAK",
+      "status": "PASS"
+    },
+    {
+      "id": "NC22-COUNTER-SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "id": "NC23-COUNTER-WIDTH",
+      "status": "PASS"
+    },
+    {
+      "id": "NC24-NORMAL-COUNTER-NONZERO",
+      "status": "PASS"
+    },
+    {
+      "id": "NC25-FAULT-COUNTER-ZERO",
+      "status": "PASS"
+    },
+    {
+      "id": "NC26-FAULT-COUNTER-MULTIPLE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC27-COUNTER-COVERAGE-NORMAL",
+      "status": "PASS"
+    },
+    {
+      "id": "NC28-COUNTER-COVERAGE-FAULT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC29-TIMESTAMP-SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "id": "NC30-TIMESTAMP-MISSING",
+      "status": "PASS"
+    },
+    {
+      "id": "NC31-TIMESTAMP-INSUFFICIENT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC32-TIMESTAMP-NEGATIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC33-TIMESTAMP-NONINTEGER",
+      "status": "PASS"
+    },
+    {
+      "id": "NC34-RESIDENCY-SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "id": "NC35-RESIDENCY-JOB-COUNT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC36-RESIDENCY-TAIL-MISSING",
+      "status": "PASS"
+    },
+    {
+      "id": "NC37-RESIDENCY-NONFINITE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC38-EPOCH-SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "id": "NC39-EPOCH-CYCLES",
+      "status": "PASS"
+    },
+    {
+      "id": "NC40-SUMMARY-ONLY-PERFORMANCE",
+      "status": "PASS"
+    },
+    {
+      "id": "NC41-SUMMARY-ONLY-RESIDENCY",
+      "status": "PASS"
+    },
+    {
+      "id": "NC42-SUMMARY-ONLY-COUNTERS",
+      "status": "PASS"
+    },
+    {
+      "id": "NC43-OLD-PLACEHOLDER-REMOVED",
+      "status": "PASS"
+    },
+    {
+      "id": "NC44-PREVIEW-DIRECT-IMPORT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC45-EXPORT-DIRECT-IMPORT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC46-POINTER-WRITER-ABSENT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC47-LOCAL-POINTER-WRITER-ABSENT",
+      "status": "PASS"
+    },
+    {
+      "id": "NC48-HISTORICAL-CARRY-FORWARD",
+      "status": "PASS"
+    }
+  ]
+}

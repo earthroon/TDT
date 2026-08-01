@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "checks": [
+    {
+      "id": "residual-id",
+      "pass": true
+    },
+    {
+      "id": "residual-abi",
+      "pass": true
+    },
+    {
+      "id": "detail-zero-disabled",
+      "pass": true
+    },
+    {
+      "id": "terminal-guard",
+      "pass": true
+    },
+    {
+      "id": "once-after-lowpass",
+      "pass": true
+    },
+    {
+      "id": "separate-output",
+      "pass": true
+    },
+    {
+      "id": "logical-distance",
+      "pass": true
+    },
+    {
+      "id": "finalize-separate",
+      "pass": true
+    },
+    {
+      "id": "lowpass-id-not-residual",
+      "pass": true
+    }
+  ],
+  "residualExecutionLimit": 1
+}

@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 7
+  },
+  "receiptKind": "r9a-p1-r2-javascript-parse",
+  "rows": [
+    {
+      "file": "electron.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "preload.cjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "tools/runtime-manifest-lib.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r2/lib.mjs",
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "app/electron/resample-runtime-r9a-p1-r2/recovery-permit-authority.mjs",
+      "status": "PASS",
+      "stderr": ""
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "ad07df4f96a853c029e696640575dcf0554da4932f6dce286990d9790994b15c"
+}

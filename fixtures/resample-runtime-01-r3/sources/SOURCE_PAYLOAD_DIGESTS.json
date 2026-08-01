@@ -1,0 +1,279 @@
+{
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "height": 17,
+      "patternId": "asymmetric-four-corner",
+      "sourceDigest": "2ec8ea88a4da46a9d64b01759fe5b4800888294fdb12ea70a8ed70b9ab71cd81",
+      "sourceId": "source-asymmetric-four-corner",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "border-impulse",
+      "sourceDigest": "89c841a931b557910a7e3caa88ddd7e490ba5edf4fac5bc2668876a176024508",
+      "sourceId": "source-border-impulse",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "checkerboard-1px",
+      "sourceDigest": "b70fa1d0c5087491b06c43d90b7128a8ba2275f181f00534a3f096e3b5df2a4e",
+      "sourceId": "source-checkerboard-1px",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "checkerboard-2px",
+      "sourceDigest": "3275d932a1ac95a81278864cf64f8f3a11b2bf1d2d6c7848da7b5dd66057a054",
+      "sourceId": "source-checkerboard-2px",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "constant-rgba",
+      "sourceDigest": "f4183b61fe1f4047417e9f7e4c304abb991f19a7757e65732987ac5f0e300adc",
+      "sourceId": "source-constant-rgba",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "diagonal-binary-step",
+      "sourceDigest": "53a4cb9efd94a9dab6d3b6c33a49575e9fcd75e640fe618afe8e592071321633",
+      "sourceId": "source-diagonal-binary-step",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "diagonal-stripe",
+      "sourceDigest": "ca7a6a3903ac9772a46d282383f2ce5466178726fae8b40189c3e62321cb6917",
+      "sourceId": "source-diagonal-stripe",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "horizontal-binary-step",
+      "sourceDigest": "949985730a7cecb6cbc4ad6692bfef3419639ef1cee4b7315ffa3c40341f44ab",
+      "sourceId": "source-horizontal-binary-step",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "horizontal-sinusoid",
+      "sourceDigest": "4183ff9f7b35b4799da79fcc16af461f589297bedf26737aa6ffb68cb8165467",
+      "sourceId": "source-horizontal-sinusoid",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "bc8eb520a035d51df5f565156211043b5f41ecc0f44f74deb2013923375e0773",
+      "sourceId": "source-linear-x-ramp",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "9ebf0bc27e8e28c3f6d636b6201fc59cc7c82a48a71b0590f8a7563def7c4721",
+      "sourceId": "source-linear-y-ramp",
+      "width": 17
+    },
+    {
+      "height": 1,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "4cedf1b5853449bd1867156ab7eec567f3c9671fc840902d22842f8042a0fea2",
+      "sourceId": "source-one-pixel-high",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "1faa9e9fdb38f8b3c3614639d9b6a0659402d78a152714d52cfeefba93056d97",
+      "sourceId": "source-one-pixel-wide",
+      "width": 1
+    },
+    {
+      "height": 17,
+      "patternId": "premultiplied-alpha-edge",
+      "sourceDigest": "0aaec7df4121f5c24a5c5ead9c2cbcf3acd1bbda4e3f4d6ddd9e9114ebc10c70",
+      "sourceId": "source-premultiplied-alpha-edge",
+      "width": 17
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "945b6bc2b4ed742487ba176d8b68ad2da06a1c81a76339c7c7c1ef260a7a75bd",
+      "sourceId": "source-ratio-x-13-8",
+      "width": 13
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "3f7b2660f3de8057d2d3b3a3eff053c00d905e8b96d15f34197a9cacc0f916d0",
+      "sourceId": "source-ratio-x-17-8",
+      "width": 17
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "8ac6804a793c5745652a9a2cacebce4f939bff08842a4995279d2212298811cb",
+      "sourceId": "source-ratio-x-2-1",
+      "width": 2
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "e70e44142f371ea544e0d638f0ed16a71c578c545fbb3d4d24d2c48ce523b8af",
+      "sourceId": "source-ratio-x-3-2",
+      "width": 3
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "f68e846afedb3cb90767490a366a51bbee97edef3ffd398d0b825e633147cb1a",
+      "sourceId": "source-ratio-x-31-16",
+      "width": 31
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "2eafae289b7539e540f33db906563c2693cd1d638ef2692465a1ee76b0f5fcb2",
+      "sourceId": "source-ratio-x-7-4",
+      "width": 7
+    },
+    {
+      "height": 9,
+      "patternId": "linear-x-ramp",
+      "sourceDigest": "3755989a2db1d88456ed115e501cddb75fe4b66f2d3de9ed5dbaba362f647abe",
+      "sourceId": "source-ratio-x-9-8",
+      "width": 9
+    },
+    {
+      "height": 7,
+      "patternId": "rgba-channel-separated-ramp",
+      "sourceDigest": "96505770a266b67f26b95f9fa5018f8a8c778c9320197aec133563247246ac5a",
+      "sourceId": "source-ratio-xy-0",
+      "width": 9
+    },
+    {
+      "height": 9,
+      "patternId": "rgba-channel-separated-ramp",
+      "sourceDigest": "ba2f9883529c9fe815c7e37b94a53cd673e9f67b8a93103d2f60b995b0915d64",
+      "sourceId": "source-ratio-xy-1",
+      "width": 13
+    },
+    {
+      "height": 17,
+      "patternId": "rgba-channel-separated-ramp",
+      "sourceDigest": "d7b154d3fdeb12f2aada8e1a4c6a39f05343b2ad51f3cf6852efca97dde9dfed",
+      "sourceId": "source-ratio-xy-2",
+      "width": 7
+    },
+    {
+      "height": 13,
+      "patternId": "rgba-channel-separated-ramp",
+      "sourceDigest": "89f5147b68520ae1d81f3f00362192d9e42b946ddb3e3bae4a7f5fb93e8a57dc",
+      "sourceId": "source-ratio-xy-3",
+      "width": 31
+    },
+    {
+      "height": 13,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "5da8f143b8cf2a3e9e5ed72f744f1520fa8bdc1eec459e92b76f7060eb66a901",
+      "sourceId": "source-ratio-y-13-8",
+      "width": 9
+    },
+    {
+      "height": 17,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "375f0404437bde6f2662fa28d65345e735af816300739c398684807bb92ec8a7",
+      "sourceId": "source-ratio-y-17-8",
+      "width": 9
+    },
+    {
+      "height": 2,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "dc29c37ee83fa4ddfba8e38aeaebf6ebd5b3cc99adb58de71a41f5d1823c7fb1",
+      "sourceId": "source-ratio-y-2-1",
+      "width": 9
+    },
+    {
+      "height": 3,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "e8f95c7e3cf43ed8a3ee4a9a79b24dd52f19f1c6cb370a9fa7cd830d9780688e",
+      "sourceId": "source-ratio-y-3-2",
+      "width": 9
+    },
+    {
+      "height": 31,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "c8289c658a30ac96da4b791e347bf4690bc36509bf8616c3849e88a9e90e0429",
+      "sourceId": "source-ratio-y-31-16",
+      "width": 9
+    },
+    {
+      "height": 7,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "a2d596d6bb5c2d97ee6d5781a79401f3321f7fa61c02cc85a2f9f466e51914d3",
+      "sourceId": "source-ratio-y-7-4",
+      "width": 9
+    },
+    {
+      "height": 9,
+      "patternId": "linear-y-ramp",
+      "sourceDigest": "9498e71079d70113c6732eea1169470175a728597212e5678d4d6ca97456023e",
+      "sourceId": "source-ratio-y-9-8",
+      "width": 9
+    },
+    {
+      "height": 17,
+      "patternId": "rgba-channel-separated-ramp",
+      "sourceDigest": "29bba26dcf31d33201cd553147cc97194858c5add8205bfb670439240241f561",
+      "sourceId": "source-rgba-channel-separated-ramp",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "single-impulse",
+      "sourceDigest": "e05e4b25937b588da5b575278b6db46f77780ad0724f44667f6212404ba2cb47",
+      "sourceId": "source-single-impulse",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "transparent-rgb-payload",
+      "sourceDigest": "28fa9fe67836fc127aa0d8ad9377ac0e6318d0b8d099fdba351c581ef40b14e0",
+      "sourceId": "source-transparent-rgb-payload",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "two-adjacent-unequal-impulses",
+      "sourceDigest": "8094cc954bea3e7e75a4457daebc93f035d9a5db7fbfdcd7d59644a6940ebe06",
+      "sourceId": "source-two-adjacent-unequal-impulses",
+      "width": 17
+    },
+    {
+      "height": 2,
+      "patternId": "asymmetric-four-corner",
+      "sourceDigest": "cdd3d41b0389ad4477d21c629ff3ac1af19defa42dcb261ef9f448ccbe85c7a6",
+      "sourceId": "source-two-by-two",
+      "width": 2
+    },
+    {
+      "height": 17,
+      "patternId": "vertical-binary-step",
+      "sourceDigest": "cc0614674af7b90b23cd9dfcf6296d470cc1d7665b5709ffe67ebe2716511615",
+      "sourceId": "source-vertical-binary-step",
+      "width": 17
+    },
+    {
+      "height": 17,
+      "patternId": "vertical-sinusoid",
+      "sourceDigest": "0620d529b8f0503bbf1c1f3b6060cbea18ad7c3d45f18e30464366dd74c237cb",
+      "sourceId": "source-vertical-sinusoid",
+      "width": 17
+    }
+  ]
+}

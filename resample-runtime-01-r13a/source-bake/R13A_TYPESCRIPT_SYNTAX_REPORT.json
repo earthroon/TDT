@@ -1,0 +1,15 @@
+{
+  "compilerAvailable": true,
+  "failCount": 0,
+  "files": [
+    "app/src/runtime/fleet/fleet-rollout-service.ts",
+    "app/src/boot/runtime-modules.ts",
+    "app/src/boot/bootstrap-renderer.ts",
+    "app/src/runtime/service-token.ts",
+    "app/src/runtime/update/runtime-update-service.ts",
+    "app/src/env.d.ts"
+  ],
+  "passCount": 6,
+  "schemaVersion": 1,
+  "selfSha256": "06c586a19ece87bf85215c9d0a5ba12ef379d2d93078bb1e668194fae159dfbc"
+}

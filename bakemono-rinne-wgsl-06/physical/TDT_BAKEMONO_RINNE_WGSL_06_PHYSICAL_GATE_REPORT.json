@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr06.physical-gate-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-06",
+  "status": "PENDING",
+  "gateCount": 80,
+  "passCount": 0,
+  "pendingCount": 80,
+  "qmapCanonicalProducerState": "UNBOUND_FUTURE",
+  "physicalGpuClaim": false,
+  "rows": [
+    {
+      "id": "BKR06-P-001",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-002",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-003",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-004",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-005",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-006",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-007",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-008",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-009",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-010",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-011",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-012",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-013",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-014",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-015",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-016",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-017",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-018",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-019",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-020",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-021",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-022",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-023",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-024",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-025",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-026",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-027",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-028",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-029",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-030",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-031",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-032",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-033",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-034",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-035",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-036",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-037",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-038",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-039",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-040",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-041",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-042",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-043",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-044",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-045",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-046",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-047",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-048",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-049",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-050",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-051",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-052",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-053",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-054",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-055",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-056",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-057",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-058",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-059",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-060",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-061",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-062",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-063",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-064",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-065",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-066",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-067",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-068",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-069",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-070",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-071",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-072",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-073",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-074",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-075",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-076",
+      "status": "PENDING",
+      "reason": "WEBGPU_ELECTRON_RUNTIME_UNAVAILABLE"
+    },
+    {
+      "id": "BKR06-P-077",
+      "status": "PENDING",
+      "reason": "QMAP_CANONICAL_PRODUCER_UNBOUND"
+    },
+    {
+      "id": "BKR06-P-078",
+      "status": "PENDING",
+      "reason": "PACKAGED_PRODUCT_NOT_BUILT"
+    },
+    {
+      "id": "BKR06-P-079",
+      "status": "PENDING",
+      "reason": "DEVICE_SCOPED_FIELD_SET_NOT_EXECUTED"
+    },
+    {
+      "id": "BKR06-P-080",
+      "status": "PENDING",
+      "reason": "PREVIEW_EXPORT_PHYSICAL_CONSUMPTION_NOT_EXECUTED"
+    }
+  ],
+  "selfSha256": "cb6369f596cf60069ecb7d03215a331113c232bce26732192f06214b5cdae021"
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "sideEffects": [
+    {
+      "sideEffectId": "dadum.legacy.delta-k-controls#deBoostSlider#input#uniform",
+      "ownerNodeId": "dadum.legacy.main.js#delta-k-controls",
+      "sideEffectKind": "dom-event-listener",
+      "targetIdentity": "#deBoostSlider",
+      "eventType": "input",
+      "callbackIdentity": "update-de-boost-uniform",
+      "activationPhase": "legacy-script-evaluation",
+      "cardinality": "zero-or-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    },
+    {
+      "sideEffectId": "dadum.legacy.delta-k-controls#deltaKSlider#input#uniform",
+      "ownerNodeId": "dadum.legacy.main.js#delta-k-controls",
+      "sideEffectKind": "dom-event-listener",
+      "targetIdentity": "#deltaKSlider",
+      "eventType": "input",
+      "callbackIdentity": "update-delta-k-uniform",
+      "activationPhase": "legacy-script-evaluation",
+      "cardinality": "zero-or-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    },
+    {
+      "sideEffectId": "dadum.legacy.delta-k-controls#falloffSlider#input#uniform",
+      "ownerNodeId": "dadum.legacy.main.js#delta-k-controls",
+      "sideEffectKind": "dom-event-listener",
+      "targetIdentity": "#falloffSlider",
+      "eventType": "input",
+      "callbackIdentity": "update-falloff-uniform",
+      "activationPhase": "legacy-script-evaluation",
+      "cardinality": "zero-or-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    },
+    {
+      "sideEffectId": "dadum.legacy.delta-k-controls#preblurSlider#input#uniform",
+      "ownerNodeId": "dadum.legacy.main.js#delta-k-controls",
+      "sideEffectKind": "dom-event-listener",
+      "targetIdentity": "#preblurSlider",
+      "eventType": "input",
+      "callbackIdentity": "update-preblur-uniform",
+      "activationPhase": "legacy-script-evaluation",
+      "cardinality": "zero-or-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    },
+    {
+      "sideEffectId": "dadum.legacy.spot-psd-binding#document#DOMContentLoaded#bind-canonical",
+      "ownerNodeId": "dadum.legacy.main.js#spot-psd-binding",
+      "sideEffectKind": "dom-event-listener",
+      "targetIdentity": "document",
+      "eventType": "DOMContentLoaded",
+      "callbackIdentity": "bindSpotPsdCanonical",
+      "activationPhase": "legacy-script-evaluation",
+      "cardinality": "exactly-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    },
+    {
+      "sideEffectId": "dadum.legacy.spot-psd-binding#exportSpotPsdBtn#click#export-spot-psd",
+      "ownerNodeId": "dadum.legacy.main.js#spot-psd-binding",
+      "sideEffectKind": "dom-event-listener",
+      "targetIdentity": "#exportSpotPsdBtn",
+      "eventType": "click",
+      "callbackIdentity": "exportSpotPsdCanonical",
+      "activationPhase": "dom-ready",
+      "cardinality": "exactly-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    },
+    {
+      "sideEffectId": "dadum.runtime.side-effects#EventTarget#addEventListener#legacy-compatibility-capture",
+      "ownerNodeId": "dadum.renderer.entry",
+      "sideEffectKind": "service-registration",
+      "targetIdentity": "EventTarget.prototype",
+      "eventType": "addEventListener",
+      "callbackIdentity": "legacy-owner-propagating-interceptor",
+      "activationPhase": "active-graph-module",
+      "cardinality": "exactly-one",
+      "disposerIdentity": "dadum.runtime.side-effects.dispose"
+    }
+  ],
+  "digest": "6819b18900bf4f844316ea23e7429c99db23ddf731c4c44676c27eeed6beb45d"
+}

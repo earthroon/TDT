@@ -1,0 +1,7 @@
+TDT-EXPORT-WORKER-06 strict TypeScript closure
+command=tsc -p /tmp/tdt-ew06-types/tsconfig.json --pretty false
+exitCode=0
+frameworkTypes=temporary isolated Vue/Pinia/Vite declarations outside the source tree
+sourceTreeModifiedByStubs=false
+result=PASS
+note=Full project vue-tsc was unavailable; see EW06_FULL_VERIFY_ATTEMPT.txt.

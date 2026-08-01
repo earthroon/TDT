@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "actualKernelIdentity": true,
+    "exportR9A": true,
+    "exportSingleGraph": true,
+    "exportStrictCounter": true,
+    "noSilentFallback": true,
+    "previewNoAwaitCounter": true,
+    "previewR9A": true
+  },
+  "exportPreMapFenceCount": 0,
+  "pass": true,
+  "previewQueueFenceCount": 0,
+  "schemaVersion": 1,
+  "validationDoubleDispatchCount": 0,
+  "selfSha256": "4478374e3c99ac2b22bbf64e58bee030b09164f000e33154539fefd2d9e24251"
+}

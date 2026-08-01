@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/installed-final-receipt.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "state",
+    "counts",
+    "receiptSha256"
+  ],
+  "title": "R12A installed-final-receipt",
+  "type": "object"
+}

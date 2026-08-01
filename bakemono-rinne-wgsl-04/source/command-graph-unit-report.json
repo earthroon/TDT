@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl04-command-graph-unit-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-04",
+  "status": "PASS",
+  "commandGraphId": "graph:bkr04-source",
+  "passCount": 7,
+  "addedPassCount": 7,
+  "passLabels": [
+    "tdt.bkr04.tensor.gradient:operation:bkr04-source",
+    "tdt.bkr04.tensor.outer:operation:bkr04-source",
+    "tdt.bkr04.tensor.blurH:operation:bkr04-source",
+    "tdt.bkr04.tensor.blurV:operation:bkr04-source",
+    "tdt.bkr04.tensor.eigen:operation:bkr04-source",
+    "tdt.bkr04.tensor.axial:operation:bkr04-source",
+    "tdt.bkr04.effect:operation:bkr04-source"
+  ],
+  "uniformRingAllocationCount": 2,
+  "commandEncoderCount": 0,
+  "queueSubmitCount": 0,
+  "intermediateReadbackCount": 0,
+  "postSubmitHookCount": 0,
+  "candidateAuthority": "R9A_GRAPH_CANDIDATE_SHADOW_ONLY",
+  "canonicalFinalTextureClaim": false,
+  "candidateReleaseIdempotent": true,
+  "qualificationResolverCallCount": 1,
+  "pipelineFamilyCount": 4,
+  "pipelineIdentityDigest": "977de2b8fbd9b980f983977623dffc2d16353c235c690729207e8a824d335307",
+  "graphRecordingReceiptDigest": "2f3a250eafe31bc470c523cecba8d5515f99216df9c04147ce8b68bfbe444e81",
+  "selfSha256": "b97fa518dcdafa85f82bcc73f7c73c468bb983b7d632f99ae700a46ecb87e6e4"
+}

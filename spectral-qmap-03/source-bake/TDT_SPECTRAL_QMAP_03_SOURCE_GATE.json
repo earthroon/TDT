@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-SPECTRAL-QMAP-03",
+  "state": "SPECTRAL_QMAP_03_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "counts": {
+    "PASS": 204,
+    "DEFERRED": 12
+  },
+  "gates": [
+    {
+      "id": "SQ03-001",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-002",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-003",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-004",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-005",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-006",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-007",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-008",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-009",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-010",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-011",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-012",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-013",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-014",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-015",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-016",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-017",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-018",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-019",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-020",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-021",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-022",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-023",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-024",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-025",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-026",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-027",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-028",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-029",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-030",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-031",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-032",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-033",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-034",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-035",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-036",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-037",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-038",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-039",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-040",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-041",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-042",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-043",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-044",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-045",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-046",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-047",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-048",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-049",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-050",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-051",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-052",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-053",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-054",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-055",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-056",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-057",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-058",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-059",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-060",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-061",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-062",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-063",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-064",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-065",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-066",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-067",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-068",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-069",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-070",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-071",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-072",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-073",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-074",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-075",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-076",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-077",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-078",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-079",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-080",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-081",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-082",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-083",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-084",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-085",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-086",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-087",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-088",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-089",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-090",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-091",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-092",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-093",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-094",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-095",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-096",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-097",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-098",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-099",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-100",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-101",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-102",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-103",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-104",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-105",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-106",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-107",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-108",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-109",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-110",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-111",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-112",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-113",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-114",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-115",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-116",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-117",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-118",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-119",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-120",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-121",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-122",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-123",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-124",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-125",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-126",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-127",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-128",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-129",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-130",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-131",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-132",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-133",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-134",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-135",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-136",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-137",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-138",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-139",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-140",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-141",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-142",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-143",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-144",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-145",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-146",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-147",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-148",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-149",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-150",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-151",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-152",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-153",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-154",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-155",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-156",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-157",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-158",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-159",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-160",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-161",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-162",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-163",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-164",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-165",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-166",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-167",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-168",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-169",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-170",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-171",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-172",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-173",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-174",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-175",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-176",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-177",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-178",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-179",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-180",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-181",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-182",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-183",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-184",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-185",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-186",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-187",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-188",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-189",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-190",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-191",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-192",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-193",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-194",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-195",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-196",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-197",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-198",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-199",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-200",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-201",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-202",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-203",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-204",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-205",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-206",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-207",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-208",
+      "status": "DEFERRED",
+      "reason": "requires-physical-webgpu-or-windows-packaged-electron-evidence"
+    },
+    {
+      "id": "SQ03-209",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-210",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-211",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-212",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-213",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-214",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-215",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    },
+    {
+      "id": "SQ03-216",
+      "status": "PASS",
+      "reason": "source-contract-wgsl-audit-and-deterministic-mock-verified"
+    }
+  ],
+  "productionPointerMutated": false,
+  "physicalGpuClaims": false,
+  "cpuProductComputeClaim": false,
+  "intermediateReadbackClaim": 0,
+  "atomicFieldSetPublication": true,
+  "failCount": 0
+}

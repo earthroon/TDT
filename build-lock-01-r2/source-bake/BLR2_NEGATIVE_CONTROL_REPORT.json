@@ -1,0 +1,208 @@
+{
+  "failCount": 0,
+  "passCount": 40,
+  "schemaVersion": 1,
+  "selfSha256": "89512e5c0422662e2b801b8fb6625f853ea666220e8954ff4bd0e1b8e612902a",
+  "tests": [
+    {
+      "expectedError": "E_BUILD_LOCK_R2_DIRECT_RANGE_FORBIDDEN",
+      "id": 1,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_ROOT_GRAPH_MISMATCH",
+      "id": 2,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_ROOT_GRAPH_MISMATCH",
+      "id": 3,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_INTEGRITY_MISSING",
+      "id": 4,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_LOCKFILE_VERSION",
+      "id": 5,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_NPM_CONFIG_DRIFT",
+      "id": 6,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_NPM_CONFIG_DRIFT",
+      "id": 7,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_CACHE_MUTATED",
+      "id": 8,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_TOOLCHAIN_DRIFT",
+      "id": 9,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_INSTALL_GRAPH_DIVERGENCE",
+      "id": 10,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_LIFECYCLE_UNDECLARED",
+      "id": 11,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_LIFECYCLE_OUTPUT_DIVERGENCE",
+      "id": 12,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_MSVC_DRIFT",
+      "id": 13,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_MSVC_DRIFT",
+      "id": 14,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_RUST_DRIFT",
+      "id": 15,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_RUST_DRIFT",
+      "id": 16,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_WASM_TOOLCHAIN_DRIFT",
+      "id": 17,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_NATIVE_BYTES_DIVERGENCE",
+      "id": 18,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_NATIVE_BYTES_DIVERGENCE",
+      "id": 19,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_TYPECHECK_FAILED",
+      "id": 20,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_BUILD_BYTES_DIVERGENCE",
+      "id": 21,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_ELECTRON_UNPACKED_FAILED",
+      "id": 22,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_BUILD_BYTES_DIVERGENCE",
+      "id": 23,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_LOCK_MUTATION",
+      "id": 24,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_SOURCE_MUTATION",
+      "id": 25,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_PROMOTION_CAS_MISMATCH",
+      "id": 26,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_POST_PROMOTION_REPLAY",
+      "id": 27,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_POST_PROMOTION_REPLAY",
+      "id": 28,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_FINAL_SUMMARY_TRUST",
+      "id": 29,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_FINAL_CHILD_MISSING",
+      "id": 30,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_TOOLCHAIN_DRIFT",
+      "id": 31,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_BUILD_BYTES_DIVERGENCE",
+      "id": 32,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_FINAL_CHILD_MISSING",
+      "id": 33,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_FINAL_CHILD_MISSING",
+      "id": 34,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_BUILD_BYTES_DIVERGENCE",
+      "id": 35,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_BUILD_BYTES_DIVERGENCE",
+      "id": 36,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_INSTALL_CONTENT_DIVERGENCE",
+      "id": 37,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_NATIVE_BUILD_FAILED",
+      "id": 38,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_PROMOTION_CAS_MISMATCH",
+      "id": 39,
+      "status": "PASS"
+    },
+    {
+      "expectedError": "E_BUILD_LOCK_R2_FINAL_SUMMARY_TRUST",
+      "id": 40,
+      "status": "PASS"
+    }
+  ]
+}

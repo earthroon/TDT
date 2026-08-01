@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 60,
+  "passed": 60,
+  "failed": [],
+  "checks": [
+    {
+      "name": "file:hannakairo-spectral-project-stage.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-spectral-project-stage.wgsl"
+    },
+    {
+      "name": "balanced-brace:hannakairo-spectral-project-stage.wgsl",
+      "pass": true,
+      "detail": "braces"
+    },
+    {
+      "name": "compute:hannakairo-spectral-project-stage.wgsl",
+      "pass": true,
+      "detail": "compute"
+    },
+    {
+      "name": "workgroup:hannakairo-spectral-project-stage.wgsl",
+      "pass": true,
+      "detail": "workgroup"
+    },
+    {
+      "name": "no-map:hannakairo-spectral-project-stage.wgsl",
+      "pass": true,
+      "detail": "no readback"
+    },
+    {
+      "name": "file:hannakairo-tensor-spectral-align.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-tensor-spectral-align.wgsl"
+    },
+    {
+      "name": "balanced-brace:hannakairo-tensor-spectral-align.wgsl",
+      "pass": true,
+      "detail": "braces"
+    },
+    {
+      "name": "compute:hannakairo-tensor-spectral-align.wgsl",
+      "pass": true,
+      "detail": "compute"
+    },
+    {
+      "name": "workgroup:hannakairo-tensor-spectral-align.wgsl",
+      "pass": true,
+      "detail": "workgroup"
+    },
+    {
+      "name": "no-map:hannakairo-tensor-spectral-align.wgsl",
+      "pass": true,
+      "detail": "no readback"
+    },
+    {
+      "name": "file:hannakairo-directional-gate-finalize.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-directional-gate-finalize.wgsl"
+    },
+    {
+      "name": "balanced-brace:hannakairo-directional-gate-finalize.wgsl",
+      "pass": true,
+      "detail": "braces"
+    },
+    {
+      "name": "compute:hannakairo-directional-gate-finalize.wgsl",
+      "pass": true,
+      "detail": "compute"
+    },
+    {
+      "name": "workgroup:hannakairo-directional-gate-finalize.wgsl",
+      "pass": true,
+      "detail": "workgroup"
+    },
+    {
+      "name": "no-map:hannakairo-directional-gate-finalize.wgsl",
+      "pass": true,
+      "detail": "no readback"
+    },
+    {
+      "name": "file:hannakairo-gate-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-fixture-generator.wgsl"
+    },
+    {
+      "name": "balanced-brace:hannakairo-gate-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "braces"
+    },
+    {
+      "name": "compute:hannakairo-gate-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "compute"
+    },
+    {
+      "name": "workgroup:hannakairo-gate-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "workgroup"
+    },
+    {
+      "name": "no-map:hannakairo-gate-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "no readback"
+    },
+    {
+      "name": "file:hannakairo-gate-reference.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-reference.wgsl"
+    },
+    {
+      "name": "balanced-brace:hannakairo-gate-reference.wgsl",
+      "pass": true,
+      "detail": "braces"
+    },
+    {
+      "name": "compute:hannakairo-gate-reference.wgsl",
+      "pass": true,
+      "detail": "compute"
+    },
+    {
+      "name": "workgroup:hannakairo-gate-reference.wgsl",
+      "pass": true,
+      "detail": "workgroup"
+    },
+    {
+      "name": "no-map:hannakairo-gate-reference.wgsl",
+      "pass": true,
+      "detail": "no readback"
+    },
+    {
+      "name": "file:hannakairo-gate-compare.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/gate/shaders/hannakairo-gate-compare.wgsl"
+    },
+    {
+      "name": "balanced-brace:hannakairo-gate-compare.wgsl",
+      "pass": true,
+      "detail": "braces"
+    },
+    {
+      "name": "compute:hannakairo-gate-compare.wgsl",
+      "pass": true,
+      "detail": "compute"
+    },
+    {
+      "name": "workgroup:hannakairo-gate-compare.wgsl",
+      "pass": true,
+      "detail": "workgroup"
+    },
+    {
+      "name": "no-map:hannakairo-gate-compare.wgsl",
+      "pass": true,
+      "detail": "no readback"
+    },
+    {
+      "name": "project:grid_width",
+      "pass": true,
+      "detail": "grid_width"
+    },
+    {
+      "name": "project:grid_height",
+      "pass": true,
+      "detail": "grid_height"
+    },
+    {
+      "name": "project:window_width",
+      "pass": true,
+      "detail": "window_width"
+    },
+    {
+      "name": "project:window_height",
+      "pass": true,
+      "detail": "window_height"
+    },
+    {
+      "name": "project:stride_x",
+      "pass": true,
+      "detail": "stride_x"
+    },
+    {
+      "name": "project:stride_y",
+      "pass": true,
+      "detail": "stride_y"
+    },
+    {
+      "name": "project:plane_count",
+      "pass": true,
+      "detail": "plane_count"
+    },
+    {
+      "name": "project:candidate_weight",
+      "pass": true,
+      "detail": "candidate_weight"
+    },
+    {
+      "name": "project:valid_count",
+      "pass": true,
+      "detail": "valid_count"
+    },
+    {
+      "name": "project:inverseSqrt",
+      "pass": true,
+      "detail": "inverseSqrt"
+    },
+    {
+      "name": "project:textureStore",
+      "pass": true,
+      "detail": "textureStore"
+    },
+    {
+      "name": "project-four-candidates",
+      "pass": true,
+      "detail": "2x2"
+    },
+    {
+      "name": "project-no-extrapolate",
+      "pass": true,
+      "detail": "coverage"
+    },
+    {
+      "name": "project-invalid-zero",
+      "pass": true,
+      "detail": "invalid"
+    },
+    {
+      "name": "align:tensor_axial_raw",
+      "pass": true,
+      "detail": "tensor_axial_raw"
+    },
+    {
+      "name": "align:signed_dot",
+      "pass": true,
+      "detail": "signed_dot"
+    },
+    {
+      "name": "align:0.5 * (signed_dot + 1.0)",
+      "pass": true,
+      "detail": "0.5 * (signed_dot + 1.0)"
+    },
+    {
+      "name": "align:tensor_confidence * spectral_confidence",
+      "pass": true,
+      "detail": "tensor_confidence * spectral_confidence"
+    },
+    {
+      "name": "align:phase_coherence_weight",
+      "pass": true,
+      "detail": "phase_coherence_weight"
+    },
+    {
+      "name": "align:textureStore",
+      "pass": true,
+      "detail": "textureStore"
+    },
+    {
+      "name": "gate:params.enabled == 0u",
+      "pass": true,
+      "detail": "params.enabled == 0u"
+    },
+    {
+      "name": "gate:params.strength == 0.0",
+      "pass": true,
+      "detail": "params.strength == 0.0"
+    },
+    {
+      "name": "gate:vec4<f32>(1.0, 0.0, 0.0, 0.0)",
+      "pass": true,
+      "detail": "vec4<f32>(1.0, 0.0, 0.0, 0.0)"
+    },
+    {
+      "name": "gate:1.0 - attenuation",
+      "pass": true,
+      "detail": "1.0 - attenuation"
+    },
+    {
+      "name": "gate:params.min_multiplier",
+      "pass": true,
+      "detail": "params.min_multiplier"
+    },
+    {
+      "name": "neutral-no-tanh",
+      "pass": true,
+      "detail": "no tanh"
+    },
+    {
+      "name": "neutral-no-epsilon-subtract",
+      "pass": true,
+      "detail": "no epsilon subtraction"
+    },
+    {
+      "name": "reference-independent-angle",
+      "pass": true,
+      "detail": "angle reference"
+    },
+    {
+      "name": "compare-neutral-bits",
+      "pass": true,
+      "detail": "bit exact"
+    },
+    {
+      "name": "compare-errors",
+      "pass": true,
+      "detail": "errors"
+    }
+  ],
+  "shaderDigests": {
+    "hannakairo-spectral-project-stage.wgsl": "aa65c90899181e44c0ef1e92361d404f16f5438aa45607a92cc98306ac039a36",
+    "hannakairo-tensor-spectral-align.wgsl": "cf36ed1d9532d0854da860a52553ab6c5168a165efd21a5d12eddb7d579b6be2",
+    "hannakairo-directional-gate-finalize.wgsl": "07da2465b2de380b8b0ac7926a2fd2f9be4ec99c58988856612cbba4e9153f37",
+    "hannakairo-gate-fixture-generator.wgsl": "158021bf01afb6bc5ef4dc267116541dd39737f4c0ad5a90e462b822ff2acdfb",
+    "hannakairo-gate-reference.wgsl": "3be01a1b6939087234ef08bdae4293fded3d4d5f0b346a5fc84dd39c060d6441",
+    "hannakairo-gate-compare.wgsl": "eb58078520b63a039d8ccdad6852ff6f3907c87d81f21b528c4bc973990e28b8"
+  }
+}

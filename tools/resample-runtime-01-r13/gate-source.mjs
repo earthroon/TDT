@@ -1,0 +1,1 @@
+await import('./generate-source-artifacts.mjs');await import('./verify-parent-freeze.mjs');await import('./verify-runtime-self-tests.mjs');await import('./verify-negative-controls.mjs');await import('./verify-source-contract.mjs');

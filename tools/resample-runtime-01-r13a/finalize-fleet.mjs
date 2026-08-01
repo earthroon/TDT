@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { finalizeFleetV2 } from '../../app/features/resample-runtime/r13a/fleet-finalizer-v2.mjs';
+const inputFile=process.env.DADUM_R13A_FLEET_INPUT;
+const keyFile=process.env.DADUM_R13A_FINAL_PRIVATE_KEY;
+const keyId=process.env.DADUM_R13A_FINAL_KEY_ID;
+if(!inputFile||!fs.existsSync(inputFile)) throw Object.assign(new Error('R13A fleet input missing'),{code:'E_R13A_R12A_INSTALLED_RECEIPT_MISSING'});
+if(!keyFile||!fs.existsSync(keyFile)||!keyId) throw Object.assign(new Error('R13A fleet final signing key missing'),{code:'E_R13A_KEY_REVOKED'});
+const input=JSON.parse(fs.readFileSync(inputFile,'utf8'));
+if(!input.r12aTransactions||!input.localCompletions?.length) throw Object.assign(new Error('R12A installed replay input missing'),{code:'E_R13A_R12A_INSTALLED_RECEIPT_MISSING'});
+const privateKey=crypto.createPrivateKey(fs.readFileSync(keyFile,'utf8'));
+const authority={keyId,privateKey,publicKey:crypto.createPublicKey(privateKey)};
+const receipt=finalizeFleetV2(input,authority);
+const root=process.env.DADUM_R13A_FLEET_ARTIFACT_ROOT||path.join(process.cwd(),'artifacts/resample-runtime-01-r13a/fleet');
+fs.mkdirSync(root,{recursive:true});
+const target=path.join(root,'R13A_FINAL_FLEET_RECEIPT.json');
+const temp=`${target}.tmp-${process.pid}`;
+const fd=fs.openSync(temp,'w');
+try{fs.writeFileSync(fd,JSON.stringify(receipt,null,2)+'\n');fs.fsyncSync(fd);}finally{fs.closeSync(fd);}
+fs.renameSync(temp,target);
+console.log(`R13A fleet final receipt ${receipt.finalReceiptSha256}`);

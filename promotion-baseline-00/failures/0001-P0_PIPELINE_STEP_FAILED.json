@@ -1,0 +1,17 @@
+{
+  "cause": null,
+  "code": "P0_PIPELINE_STEP_FAILED",
+  "createdAt": "2026-07-25T10:31:13.102Z",
+  "detail": {
+    "args": [
+      "--require-canonical"
+    ],
+    "exitCode": 1,
+    "script": "audit-input.mjs",
+    "signal": null
+  },
+  "schemaVersion": 1,
+  "selfDigest": "2a4d16282ffe19108cc14063855a71b6fdda7c28bad53d04b8625361a9bb1d84",
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "status": "FAIL"
+}

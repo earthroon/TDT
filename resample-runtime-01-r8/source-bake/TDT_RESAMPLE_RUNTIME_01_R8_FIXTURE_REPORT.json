@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "support-fixture-count",
+      "pass": true,
+      "value": 60
+    },
+    {
+      "id": "alpha-fixture-count",
+      "pass": true,
+      "value": 5
+    },
+    {
+      "id": "policy-bound",
+      "pass": true,
+      "value": 1.5
+    }
+  ],
+  "supportFixtureCount": 60,
+  "alphaFixtureCount": 5,
+  "borderFixtureCount": 4
+}

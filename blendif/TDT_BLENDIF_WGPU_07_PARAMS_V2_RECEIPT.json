@@ -1,0 +1,73 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-07",
+  "name": "Uniform Params V2 / Split Pack Rebind Real Code Patch",
+  "status": "PASS",
+  "created_at": "2026-07-06T04:31:51+00:00",
+  "depends_on": [
+    "TDT-BLENDIF-WGPU-01",
+    "TDT-BLENDIF-WGPU-02",
+    "TDT-BLENDIF-WGPU-03",
+    "TDT-BLENDIF-WGPU-04",
+    "TDT-BLENDIF-WGPU-05",
+    "TDT-BLENDIF-WGPU-06"
+  ],
+  "mutation_policy": "direct-source-edit-no-apply-script",
+  "changed_files": [
+    "app/js/passes/blendif_webgpu_wgsl.js",
+    "app/js/passes/blendif_webgpu_pass.js",
+    "app/js/passes/dk_after_final_color_webgpu.js"
+  ],
+  "checked_files": [
+    "app/js/blendif/blendif_schema.js",
+    "app/blendif_ui.js"
+  ],
+  "params_v2": {
+    "uniform_bytes": 80,
+    "fields": {
+      "underSplit": "vec4f",
+      "thisSplit": "vec4f",
+      "blend": "vec4f",
+      "gates": "vec4f",
+      "modes": "vec4u"
+    },
+    "float_slots": 16,
+    "uint_slots": 4,
+    "flags": {
+      "bit0": "phaseGateOn",
+      "bit1": "phaseWrap"
+    }
+  },
+  "bridge_policy": {
+    "true_split_mask_added": false,
+    "split_to_legacy_range_feather_in_wgsl": true,
+    "qmap_feather_formula_changed": false,
+    "qfeather_max_packed_but_unused_until_08": true
+  },
+  "removed_legacy_uniform_refs": {
+    "underRange": true,
+    "thisRange": true,
+    "underFeather": true,
+    "thisFeather": true,
+    "useOklab": true
+  },
+  "static_checks": {
+    "params_struct_v2_present": true,
+    "wgsl_bridge_present": true,
+    "true_splitmask_absent": true,
+    "wgsl_forbidden_uniform_refs_absent": true,
+    "pack_params_v2_present": true,
+    "pack_uint_slots_present": true,
+    "mapper_split_params_present": true,
+    "apply_script_absent": true
+  },
+  "forbidden_mutations_checked": {
+    "wgsl_split_mask_added": false,
+    "qmap_feather_clamp_changed": false,
+    "oklab_added": false,
+    "preset_migration_added": false,
+    "webgl_fallback_revived": false,
+    "split_ui_changed_again": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_07_PARAMS_V2_SPLIT_PACK_REBIND"
+}

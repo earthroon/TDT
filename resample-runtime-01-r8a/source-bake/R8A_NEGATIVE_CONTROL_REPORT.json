@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "negativeControlCount": 9,
+  "controls": [
+    {
+      "name": "top-level-return",
+      "rejected": true,
+      "diagnosticCode": "E_R8A_PARSE_TOP_LEVEL_RETURN"
+    },
+    {
+      "name": "duplicate-declaration",
+      "rejected": true,
+      "diagnosticCode": "E_R8A_PARSE_DUPLICATE_DECLARATION"
+    },
+    {
+      "name": "webp-import-side-effect",
+      "rejected": true
+    },
+    {
+      "name": "duplicate-format-mapper",
+      "rejected": true
+    },
+    {
+      "name": "caller-forged-kernel-fallback",
+      "rejected": true
+    },
+    {
+      "name": "executor-collision",
+      "rejected": true
+    },
+    {
+      "name": "identity-digest-mismatch",
+      "rejected": true
+    },
+    {
+      "name": "state-collision",
+      "rejected": true
+    },
+    {
+      "name": "bridge-replacement-leak",
+      "rejected": true
+    }
+  ],
+  "selfSha256": "0fd467d1baa179ad7103a814f23448c417313e3517fd0e68721d36747da1849d"
+}

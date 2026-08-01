@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "state": "INPUT_PROFILE_SEALED",
+  "promoted": false,
+  "expectedOldLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "candidateLockSha256": null,
+  "promotedLockSha256": null,
+  "atomicReplace": false,
+  "readbackVerified": false,
+  "pointerMutationPerformed": false,
+  "blocker": "noncanonical-host-win32-x64-required"
+}

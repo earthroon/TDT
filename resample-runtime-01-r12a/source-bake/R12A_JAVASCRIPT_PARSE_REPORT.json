@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "file": "electron.mjs",
+      "pass": true
+    },
+    {
+      "file": "preload.cjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/main-session-authority.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/electron-admission-controller.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/r12a-contract.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/crypto-utils.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/main-update-coordinator.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/r10a-transition-admission.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/r11a-drain-adapter.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/update-lock.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/update-transaction-v2.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/update-journal-v2.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/staged-package-orchestrator.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/activation-controller.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/launcher-handoff.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/boot-recovery-controller.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/post-activation-reattestation.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/finalizer.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r12a/privacy-policy.mjs",
+      "pass": true
+    },
+    {
+      "file": "launcher/resample-runtime-r12a/read-local-pointer.mjs",
+      "pass": true
+    },
+    {
+      "file": "launcher/resample-runtime-r12a/verify-relaunch-request.mjs",
+      "pass": true
+    },
+    {
+      "file": "launcher/resample-runtime-r12a/verify-package-closure.mjs",
+      "pass": true
+    },
+    {
+      "file": "launcher/resample-runtime-r12a/launch-target.mjs",
+      "pass": true
+    },
+    {
+      "file": "launcher/resample-runtime-r12a/write-launch-ack.mjs",
+      "pass": true
+    },
+    {
+      "file": "launcher/resample-runtime-r12a/index.mjs",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "schemaVersion": 1,
+  "selfSha256": "0cc49da35e5d110fabecc59f3525b52dc1ad50d4592fc82e0ff7265df4d39063"
+}

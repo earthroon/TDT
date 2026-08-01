@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PREVIEW-PRESENTER-01",
+  "scannedFiles": 878,
+  "canonicalCanvasId": "dadumPreviewCanvas",
+  "canonicalHits": [
+    {
+      "relative": "app/src/legacy/legacy-shell.html",
+      "token": "dadumPreviewCanvas",
+      "index": 12294,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/style.css",
+      "token": "dadumPreviewCanvas",
+      "index": 11825,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/style.css",
+      "token": "dadumPreviewCanvas",
+      "index": 12429,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/style.css",
+      "token": "dadumPreviewCanvas",
+      "index": 12514,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/style.css",
+      "token": "dadumPreviewCanvas",
+      "index": 12569,
+      "allowedWriter": false
+    }
+  ],
+  "forbiddenOverlay": [],
+  "canonicalReadback": [],
+  "canonicalContextOwners": [
+    {
+      "relative": "app/src/runtime/preview/preview-presenter-service.ts",
+      "token": "getContext('webgpu')",
+      "index": 3871,
+      "allowedWriter": true
+    }
+  ],
+  "nonCanonicalWebGpuContextOwners": [
+    {
+      "relative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "token": "getContext('webgpu')",
+      "index": 5780,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/mask_webgpu/mask_localized_manager.js",
+      "token": "getContext('webgpu')",
+      "index": 6400,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "token": "getContext('webgpu')",
+      "index": 32097,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/runtime.js",
+      "token": "getContext(\"webgpu\")",
+      "index": 32178,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/qmap_shared_surface.js",
+      "token": "getContext('webgpu')",
+      "index": 1120,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/qwave/qwave_system.js",
+      "token": "getContext('webgpu')",
+      "index": 13944,
+      "allowedWriter": false
+    },
+    {
+      "relative": "app/legacy-runtime/webgpu_runtime.js",
+      "token": "getContext('webgpu')",
+      "index": 628,
+      "allowedWriter": false
+    }
+  ],
+  "pass": true
+}

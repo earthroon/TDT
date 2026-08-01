@@ -1,0 +1,7 @@
+{
+  "deleteBeforeAckRejected": true,
+  "durableOutboxPassed": true,
+  "schemaVersion": 1,
+  "selfSha256": "40c54086f9bbcc29f2e28073eef1c1e85f6ea27b4d350699d828cf281e7568b7",
+  "signedAckPassed": true
+}

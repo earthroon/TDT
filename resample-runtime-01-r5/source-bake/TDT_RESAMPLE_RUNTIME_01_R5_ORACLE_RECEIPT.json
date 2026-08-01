@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R5",
+  "pass": true,
+  "fixtureCount": 27,
+  "checks": [
+    {
+      "id": "sign-0",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-0",
+      "pass": true
+    },
+    {
+      "id": "sign-15",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-15",
+      "pass": true
+    },
+    {
+      "id": "sign-45",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-45",
+      "pass": true
+    },
+    {
+      "id": "sign-89",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-89",
+      "pass": true
+    },
+    {
+      "id": "sign-90",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-90",
+      "pass": true
+    },
+    {
+      "id": "sign-135",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-135",
+      "pass": true
+    },
+    {
+      "id": "sign-179",
+      "pass": true
+    },
+    {
+      "id": "roundtrip-179",
+      "pass": true
+    },
+    {
+      "id": "sign--89",
+      "pass": true
+    },
+    {
+      "id": "roundtrip--89",
+      "pass": true
+    },
+    {
+      "id": "branch-seam-short-path",
+      "pass": true
+    },
+    {
+      "id": "orthogonal-cancel",
+      "pass": true
+    },
+    {
+      "id": "confidence-dominance",
+      "pass": true
+    },
+    {
+      "id": "edge-0",
+      "pass": true
+    },
+    {
+      "id": "edge-1",
+      "pass": true
+    },
+    {
+      "id": "edge-2",
+      "pass": true
+    },
+    {
+      "id": "edge-3",
+      "pass": true
+    },
+    {
+      "id": "edge-4",
+      "pass": true
+    },
+    {
+      "id": "edge-5",
+      "pass": true
+    },
+    {
+      "id": "edge-6",
+      "pass": true
+    },
+    {
+      "id": "edge-7",
+      "pass": true
+    },
+    {
+      "id": "edge-8",
+      "pass": true
+    },
+    {
+      "id": "edge-9",
+      "pass": true
+    },
+    {
+      "id": "edge-10",
+      "pass": true
+    },
+    {
+      "id": "edge-11",
+      "pass": true
+    },
+    {
+      "id": "edge-12",
+      "pass": true
+    },
+    {
+      "id": "edge-13",
+      "pass": true
+    },
+    {
+      "id": "edge-14",
+      "pass": true
+    },
+    {
+      "id": "edge-15",
+      "pass": true
+    },
+    {
+      "id": "edge-16",
+      "pass": true
+    },
+    {
+      "id": "edge-17",
+      "pass": true
+    },
+    {
+      "id": "edge-18",
+      "pass": true
+    },
+    {
+      "id": "edge-19",
+      "pass": true
+    },
+    {
+      "id": "edge-20",
+      "pass": true
+    },
+    {
+      "id": "edge-21",
+      "pass": true
+    },
+    {
+      "id": "edge-22",
+      "pass": true
+    },
+    {
+      "id": "edge-23",
+      "pass": true
+    },
+    {
+      "id": "edge-24",
+      "pass": true
+    },
+    {
+      "id": "edge-25",
+      "pass": true
+    },
+    {
+      "id": "edge-26",
+      "pass": true
+    },
+    {
+      "id": "edge-27",
+      "pass": true
+    },
+    {
+      "id": "edge-28",
+      "pass": true
+    },
+    {
+      "id": "edge-29",
+      "pass": true
+    },
+    {
+      "id": "edge-30",
+      "pass": true
+    },
+    {
+      "id": "edge-31",
+      "pass": true
+    },
+    {
+      "id": "edge-32",
+      "pass": true
+    },
+    {
+      "id": "edge-33",
+      "pass": true
+    },
+    {
+      "id": "edge-34",
+      "pass": true
+    },
+    {
+      "id": "edge-35",
+      "pass": true
+    },
+    {
+      "id": "edge-36",
+      "pass": true
+    },
+    {
+      "id": "edge-37",
+      "pass": true
+    },
+    {
+      "id": "edge-38",
+      "pass": true
+    },
+    {
+      "id": "edge-39",
+      "pass": true
+    },
+    {
+      "id": "edge-40",
+      "pass": true
+    },
+    {
+      "id": "edge-41",
+      "pass": true
+    },
+    {
+      "id": "edge-42",
+      "pass": true
+    },
+    {
+      "id": "edge-43",
+      "pass": true
+    },
+    {
+      "id": "edge-44",
+      "pass": true
+    },
+    {
+      "id": "edge-45",
+      "pass": true
+    },
+    {
+      "id": "edge-46",
+      "pass": true
+    },
+    {
+      "id": "edge-47",
+      "pass": true
+    },
+    {
+      "id": "edge-48",
+      "pass": true
+    },
+    {
+      "id": "edge-49",
+      "pass": true
+    },
+    {
+      "id": "edge-50",
+      "pass": true
+    },
+    {
+      "id": "edge-51",
+      "pass": true
+    },
+    {
+      "id": "edge-52",
+      "pass": true
+    },
+    {
+      "id": "edge-53",
+      "pass": true
+    },
+    {
+      "id": "edge-54",
+      "pass": true
+    },
+    {
+      "id": "edge-55",
+      "pass": true
+    },
+    {
+      "id": "edge-56",
+      "pass": true
+    },
+    {
+      "id": "edge-57",
+      "pass": true
+    },
+    {
+      "id": "edge-58",
+      "pass": true
+    },
+    {
+      "id": "edge-59",
+      "pass": true
+    },
+    {
+      "id": "edge-60",
+      "pass": true
+    },
+    {
+      "id": "edge-61",
+      "pass": true
+    },
+    {
+      "id": "edge-62",
+      "pass": true
+    },
+    {
+      "id": "edge-63",
+      "pass": true
+    },
+    {
+      "id": "edge-64",
+      "pass": true
+    }
+  ]
+}

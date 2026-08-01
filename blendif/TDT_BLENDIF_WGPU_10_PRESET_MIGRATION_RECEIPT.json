@@ -1,0 +1,70 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-10",
+  "name": "Legacy Preset Migration V1 To V2 / Idempotent Remap Real Code Patch",
+  "status": "PASS",
+  "created_at": "2026-07-06T05:18:26Z",
+  "depends_on": [
+    "TDT-BLENDIF-WGPU-01",
+    "TDT-BLENDIF-WGPU-02",
+    "TDT-BLENDIF-WGPU-03",
+    "TDT-BLENDIF-WGPU-04",
+    "TDT-BLENDIF-WGPU-05",
+    "TDT-BLENDIF-WGPU-06",
+    "TDT-BLENDIF-WGPU-07",
+    "TDT-BLENDIF-WGPU-08",
+    "TDT-BLENDIF-WGPU-09"
+  ],
+  "mutation_policy": "direct-source-edit-no-apply-script",
+  "changed_files": [
+    "app/js/blendif/blendif_schema.js",
+    "app/blendif_ui.js"
+  ],
+  "migration": {
+    "from": "luma-srgb-v1",
+    "to": "oklabL-v2",
+    "idempotent": true,
+    "remap_space": "gray-axis",
+    "remap_function": "oklabLFromGraySrgb",
+    "metricUnder_0_remaps_underSplit": true,
+    "metricThis_0_remaps_thisSplit": true,
+    "non_l_metrics_remapped": false
+  },
+  "preserved_fields": [
+    "opacity",
+    "mode",
+    "qmapSigma",
+    "qFeatherMax",
+    "deltaKThreshold",
+    "deltaKFeather",
+    "phaseGateOn",
+    "phaseMin01",
+    "phaseMax01",
+    "phaseWrap",
+    "phaseFeather01",
+    "enable",
+    "order"
+  ],
+  "idempotency_checks": {
+    "double_migration_does_not_change_underSplit": true,
+    "double_migration_does_not_change_thisSplit": true,
+    "double_migration_does_not_update_migratedAt": true,
+    "oklabL_v2_input_noop": true
+  },
+  "smoke_cases": {
+    "basic_luma_preset": "PASS",
+    "mixed_metric_preset": "PASS",
+    "already_migrated_preset": "PASS"
+  },
+  "forbidden_mutations_checked": {
+    "wgsl_changed": false,
+    "params_struct_changed": false,
+    "uniform_layout_changed": false,
+    "pack_params_rewritten": false,
+    "split_mask_changed_again": false,
+    "qmap_feather_clamp_changed": false,
+    "split_ui_changed_again": false,
+    "webgl_fallback_revived": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_10_PRESET_MIGRATION_IDEMPOTENT"
+}

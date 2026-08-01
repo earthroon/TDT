@@ -1,0 +1,4075 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 0,
+    "PENDING": 580,
+    "SKIPPED": 0
+  },
+  "gates": [
+    {
+      "evidence": null,
+      "id": "BLR2-P001",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P002",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P003",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P004",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P005",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P006",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P007",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P008",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P009",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P010",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P011",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P012",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P013",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P014",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P015",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P016",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P017",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P018",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P019",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P020",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "canonical-win32-host-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P021",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P022",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P023",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P024",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P025",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P026",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P027",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P028",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P029",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P030",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P031",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P032",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P033",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P034",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P035",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P036",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P037",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P038",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P039",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P040",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "clean-workspace-ab-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P041",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P042",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P043",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P044",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P045",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P046",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P047",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P048",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P049",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P050",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P051",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P052",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P053",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P054",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P055",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P056",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P057",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P058",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P059",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P060",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "candidate-lock-generation-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P061",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P062",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P063",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P064",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P065",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P066",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P067",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P068",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P069",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P070",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P071",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P072",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P073",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P074",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P075",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P076",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P077",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P078",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P079",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P080",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "exact-root-graph-runtime-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P081",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P082",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P083",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P084",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P085",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P086",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P087",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P088",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P089",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P090",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P091",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P092",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P093",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P094",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P095",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P096",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P097",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P098",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P099",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P100",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "cache-acquisition-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P101",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P102",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P103",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P104",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P105",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P106",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P107",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P108",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P109",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P110",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P111",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P112",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P113",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P114",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P115",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P116",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P117",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P118",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P119",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P120",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-a-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P121",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P122",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P123",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P124",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P125",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P126",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P127",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P128",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P129",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P130",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P131",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P132",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P133",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P134",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P135",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P136",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P137",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P138",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P139",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P140",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "offline-npm-ci-b-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P141",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P142",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P143",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P144",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P145",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P146",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P147",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P148",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P149",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P150",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P151",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P152",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P153",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P154",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P155",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P156",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P157",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P158",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P159",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P160",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "install-graph-parity-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P161",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P162",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P163",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P164",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P165",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P166",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P167",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P168",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P169",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P170",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P171",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P172",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P173",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P174",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P175",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P176",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P177",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P178",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P179",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P180",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-a-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P181",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P182",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P183",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P184",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P185",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P186",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P187",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P188",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P189",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P190",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P191",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P192",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P193",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P194",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P195",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P196",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P197",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P198",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P199",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P200",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-replay-b-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P201",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P202",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P203",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P204",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P205",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P206",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P207",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P208",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P209",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P210",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P211",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P212",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P213",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P214",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P215",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P216",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P217",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P218",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P219",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P220",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lifecycle-parity-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P221",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P222",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P223",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P224",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P225",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P226",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P227",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P228",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P229",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P230",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P231",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P232",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P233",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P234",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P235",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P236",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P237",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P238",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P239",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P240",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "node-toolchain-runtime-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P241",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P242",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P243",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P244",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P245",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P246",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P247",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P248",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P249",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P250",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P251",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P252",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P253",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P254",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P255",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P256",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P257",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P258",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P259",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P260",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "msvc-toolchain-runtime-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P261",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P262",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P263",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P264",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P265",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P266",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P267",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P268",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P269",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P270",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P271",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P272",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P273",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P274",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P275",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P276",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P277",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P278",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P279",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P280",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "rust-toolchain-runtime-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P281",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P282",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P283",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P284",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P285",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P286",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P287",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P288",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P289",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P290",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P291",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P292",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P293",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P294",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P295",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P296",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P297",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P298",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P299",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P300",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "wasm-toolchain-runtime-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P301",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P302",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P303",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P304",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P305",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P306",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P307",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P308",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P309",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P310",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P311",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P312",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P313",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P314",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P315",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P316",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P317",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P318",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P319",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P320",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-a-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P321",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P322",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P323",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P324",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P325",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P326",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P327",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P328",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P329",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P330",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P331",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P332",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P333",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P334",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P335",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P336",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P337",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P338",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P339",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P340",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-addon-build-b-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P341",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P342",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P343",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P344",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P345",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P346",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P347",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P348",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P349",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P350",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P351",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P352",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P353",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P354",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P355",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P356",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P357",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P358",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P359",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P360",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "native-artifact-parity-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P361",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P362",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P363",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P364",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P365",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P366",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P367",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P368",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P369",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P370",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P371",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P372",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P373",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P374",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P375",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P376",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P377",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P378",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P379",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P380",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-a-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P381",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P382",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P383",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P384",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P385",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P386",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P387",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P388",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P389",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P390",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P391",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P392",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P393",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P394",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P395",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P396",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P397",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P398",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P399",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P400",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "typecheck-b-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P401",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P402",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P403",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P404",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P405",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P406",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P407",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P408",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P409",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P410",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P411",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P412",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P413",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P414",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P415",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P416",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P417",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P418",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P419",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P420",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-a-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P421",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P422",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P423",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P424",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P425",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P426",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P427",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P428",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P429",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P430",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P431",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P432",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P433",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P434",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P435",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P436",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P437",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P438",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P439",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P440",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "renderer-emit-b-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P441",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P442",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P443",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P444",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P445",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P446",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P447",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P448",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P449",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P450",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P451",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P452",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P453",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P454",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P455",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P456",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P457",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P458",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P459",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P460",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-a-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P461",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P462",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P463",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P464",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P465",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P466",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P467",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P468",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P469",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P470",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P471",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P472",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P473",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P474",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P475",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P476",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P477",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P478",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P479",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P480",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "electron-unpacked-b-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P481",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P482",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P483",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P484",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P485",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P486",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P487",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P488",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P489",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P490",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P491",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P492",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P493",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P494",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P495",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P496",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P497",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P498",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P499",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P500",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-build-parity-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P501",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P502",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P503",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P504",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P505",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P506",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P507",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P508",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P509",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P510",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P511",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P512",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P513",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P514",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P515",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P516",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P517",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P518",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P519",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P520",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "zero-mutation-runtime-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P521",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P522",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P523",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P524",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P525",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P526",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P527",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P528",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P529",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P530",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P531",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P532",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P533",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P534",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P535",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P536",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P537",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P538",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P539",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P540",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "lock-cas-promotion-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P541",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P542",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P543",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P544",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P545",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P546",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P547",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P548",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P549",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P550",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P551",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P552",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P553",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P554",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P555",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P556",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P557",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P558",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P559",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P560",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "post-promotion-replay-finalizer-recomputation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P561",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-authority-owner",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P562",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-schema-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P563",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-input-completeness",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P564",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-exact-identity",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P565",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-canonical-digest",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P566",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-path-normalization",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P567",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-environment-isolation",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P568",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-network-boundary",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P569",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-silent-fallback-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P570",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-stable-error",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P571",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-negative-control",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P572",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-receipt-emission",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P573",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-receipt-self-hash",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P574",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-parent-lineage",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P575",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-mutation-zero",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P576",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-deterministic-replay",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P577",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-count-invariant",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P578",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-failure-cleanup",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P579",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-readback-verification",
+      "status": "PENDING"
+    },
+    {
+      "evidence": null,
+      "id": "BLR2-P580",
+      "reason": "requires-canonical-win32-x64-offline-ci-native-toolchain-production-build-and-lock-cas",
+      "requirement": "production-admission-finalizer-finalizer-recomputation",
+      "status": "PENDING"
+    }
+  ],
+  "patchId": "TDT-BUILD-LOCK-01-R2",
+  "schemaVersion": 1,
+  "selfSha256": "d5e9fa17d6f074447e97a68c2e5188b55384c244fa830ba973276f997f015292",
+  "state": "AWAITING_CANONICAL_WIN32_X64_DUAL_INSTALL_NATIVE_BUILD_AND_LOCK_PROMOTION"
+}

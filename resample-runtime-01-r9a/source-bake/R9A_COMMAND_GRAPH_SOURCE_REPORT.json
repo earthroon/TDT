@@ -1,0 +1,24 @@
+{
+  "canonicalJobEncoderCount": 1,
+  "canonicalJobSubmitCount": 1,
+  "checks": {
+    "export wiring": true,
+    "no stage fence": true,
+    "one encoder authority": true,
+    "one queue submit authority": true,
+    "preview wiring": true,
+    "record EWA": true,
+    "record adaptive": true,
+    "record finalization": true,
+    "record residual": true,
+    "record source": true,
+    "record tensor": true,
+    "single runtime export": true
+  },
+  "pass": true,
+  "schemaVersion": 1,
+  "stageFenceCount": 0,
+  "stageSubmitCount": 0,
+  "validationDoubleDispatchCount": 0,
+  "selfSha256": "f3e94f05e5c7e52c5eb5ae84ea24d0e8c6b521337a30292706a6b592ec0a54b8"
+}

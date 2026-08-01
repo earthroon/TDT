@@ -1,0 +1,13 @@
+{
+  "browserWindowHiddenUntilAdmission": true,
+  "chunkAndCommitRevalidateSession": true,
+  "crashListenersBound": true,
+  "exportSaveRevalidatesGrant": true,
+  "legacyFrameCaptureDiskWriteDisabled": true,
+  "mainOwnsSessionSecret": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "preloadCapabilityNarrow": true,
+  "schemaVersion": 1,
+  "selfSha256": "16eedf7268fe103d67fcae3ba795d6edee687f87f7508bcca1e472a290d27e17"
+}

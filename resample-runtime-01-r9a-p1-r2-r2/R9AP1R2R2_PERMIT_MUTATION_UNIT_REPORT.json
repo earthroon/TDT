@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r2.permit-mutation-unit-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2",
+  "mutationCount": 24,
+  "acceptedCount": 0,
+  "rows": [
+    {
+      "key": "schemaVersion",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_LEGACY_PERMIT_DENIED"
+    },
+    {
+      "key": "schemaId",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_LEGACY_PERMIT_DENIED"
+    },
+    {
+      "key": "runId",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "planDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "ownerBindingDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "cycleOrdinal",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_CONSUME_STATE"
+    },
+    {
+      "key": "issueSequence",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "operationKind",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "operationId",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "hookId",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "expectedRuntimeEpoch",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "expectedDeviceEpoch",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "expectedDeviceIdentity",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "expectedAdapterIdentity",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "identitySnapshotDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "packageClosureDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "r1BootPermitDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "qualificationSessionDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "nonce",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "issuedAtMs",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "notBeforeMs",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "expiresAtMs",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_BODY_MISMATCH"
+    },
+    {
+      "key": "permitDigest",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_DIGEST"
+    },
+    {
+      "key": "selfSha256",
+      "accepted": false,
+      "code": "E_R9AP1R2R2_PERMIT_DIGEST"
+    }
+  ]
+}

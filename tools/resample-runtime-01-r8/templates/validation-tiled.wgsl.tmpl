@@ -1,0 +1,49 @@
+{{HEADER}}
+{{PROFILE_CONSTANTS}}
+const EPS: f32 = 0.000001;
+{{ABI}}
+@group(0) @binding(0) var srcTex: texture_2d<f32>;
+@group(0) @binding(1) var axialTex: texture_2d<f32>;
+@group(0) @binding(2) var dstTex: texture_storage_2d<rgba16float, write>;
+@group(0) @binding(3) var<uniform> U: Params;
+@group(0) @binding(4) var policyTex: texture_2d<f32>;
+@group(0) @binding(5) var<storage, read_write> validation: array<atomic<u32>, 32>;
+var<workgroup> tile: array<vec4<f32>, {{TILE_ELEMENTS}}>;
+{{COORDINATE}}
+{{BORDER}}
+fn sampleTileObserved(logicalCoord: vec2<i32>, tileOrigin: vec2<i32>) -> vec4<f32> {
+  let localCoord = logicalCoord - tileOrigin;
+  if (localCoord.x < 0 || localCoord.y < 0 || localCoord.x >= i32(TILE_W) || localCoord.y >= i32(TILE_H)) { atomicAdd(&validation[0], 1u); return loadSourceClamped(logicalCoord); }
+  return tile[u32(localCoord.y) * TILE_W + u32(localCoord.x)];
+}
+{{AXIAL}}
+{{KERNEL}}
+@compute @workgroup_size(8, 8, 1)
+fn main(@builtin(workgroup_id) workgroupId: vec3<u32>, @builtin(local_invocation_index) localIndex: u32, @builtin(global_invocation_id) gid: vec3<u32>) {
+  if (U.abiVersion != R6_ABI_VERSION) { atomicAdd(&validation[16], 1u); return; }
+  if (U.phaseConvention != R6_PHASE_CONVENTION) { atomicAdd(&validation[17], 1u); return; }
+  if (U.borderMode != R6_BORDER_MODE) { atomicAdd(&validation[18], 1u); return; }
+  if (!isFinite(U.kernelSharpness) || !isFinite(U.kernelTaperExponent) || U.kernelSharpness < 0.25 || U.kernelSharpness > 4.0 || U.kernelTaperExponent < 0.25 || U.kernelTaperExponent > 4.0) { atomicAdd(&validation[19], 1u); return; }
+  if (R8_GENERATED_CONTRACT_SENTINEL != R8_GENERATED_CONTRACT_SENTINEL_EXPECTED) { atomicAdd(&validation[24], 1u); return; }
+  let groupOrigin = workgroupId.xy * vec2<u32>(WG_W, WG_H);
+  let lastActive = min(groupOrigin + vec2<u32>(WG_W - 1u, WG_H - 1u), U.outSize - vec2<u32>(1u));
+  let firstP = sourcePosition(groupOrigin);
+  let lastP = sourcePosition(lastActive);
+  let baseMin = vec2<i32>(floor(min(firstP, lastP)));
+  let tileOrigin = baseMin - vec2<i32>(HALO);
+  var preloadIndex = localIndex;
+  loop { if (preloadIndex >= TILE_ELEMENTS) { break; } let tileX=preloadIndex%TILE_W; let tileY=preloadIndex/TILE_W; tile[preloadIndex]=loadSourceClamped(tileOrigin+vec2<i32>(i32(tileX),i32(tileY))); preloadIndex+=WORKGROUP_INVOCATIONS; }
+  workgroupBarrier();
+  if (gid.x >= U.outSize.x || gid.y >= U.outSize.y) { return; }
+  let p=sourcePosition(gid.xy); let base=sourceBase(p);
+  let policySize=textureDimensions(policyTex); let policyCoord=clamp(vec2<i32>(floor((p+vec2<f32>(0.5))/vec2<f32>(U.inSize)*vec2<f32>(policySize))),vec2<i32>(0),vec2<i32>(policySize)-vec2<i32>(1));
+  let policyRaw=textureLoad(policyTex,policyCoord,0); let policy=select(vec4<f32>(0.0, 1.0, 1.0, 1.0),policyRaw,(U.flags&1u)!=0u); let field=ellipseField(sampleAxial(p),policy);
+  if (!r8FieldSupported(field)) { atomicAdd(&validation[0],1u); textureStore(dstTex,vec2<i32>(gid.xy),r8FaultValue()); return; }
+  var accumulated=vec4<f32>(0.0); var weightSum=0.0;
+  for(var offsetY:i32=-MAX_REACH;offsetY<=MAX_REACH;offsetY++){for(var offsetX:i32=-MAX_REACH;offsetX<=MAX_REACH;offsetX++){
+    let logicalSampleCoord=base+vec2<i32>(offsetX,offsetY); let delta=vec2<f32>(logicalSampleCoord)-p; let q=ellipseDistance(delta,field);
+    if(!isFinite(q)){atomicAdd(&validation[20],1u);} let weight=kernelWeight(q); if(!isFinite(weight)){atomicAdd(&validation[21],1u);} if(weight<0.0){atomicAdd(&validation[22],1u);} if(q>1.0&&weight>0.0){atomicAdd(&validation[23],1u);}
+    if(weight>0.0){accumulated+=sampleTileObserved(logicalSampleCoord,tileOrigin)*weight;weightSum+=weight;}
+  }}
+  if(!isFinite(weightSum)){atomicAdd(&validation[2],1u);textureStore(dstTex,vec2<i32>(gid.xy),r8FaultValue());return;} if(!(weightSum>EPS)){atomicAdd(&validation[1],1u);textureStore(dstTex,vec2<i32>(gid.xy),r8FaultValue());return;} if(!all(isFinite(accumulated))){atomicAdd(&validation[3],1u);textureStore(dstTex,vec2<i32>(gid.xy),r8FaultValue());return;} let outputValue=accumulated/weightSum; if(!all(isFinite(outputValue))){atomicAdd(&validation[5],1u);textureStore(dstTex,vec2<i32>(gid.xy),r8FaultValue());return;} textureStore(dstTex,vec2<i32>(gid.xy),outputValue);
+}

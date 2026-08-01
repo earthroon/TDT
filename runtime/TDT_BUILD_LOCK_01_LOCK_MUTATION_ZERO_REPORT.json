@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "policyId": "raw-byte-zero-v1",
+  "packageJsonBefore": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+  "packageLockBefore": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "packageJsonAfter": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+  "packageLockAfter": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "packageJsonMutationZero": true,
+  "packageLockMutationZero": true,
+  "stages": [
+    {
+      "id": "input-profile",
+      "packageJsonSha256": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+      "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+    },
+    {
+      "id": "registry-probe",
+      "packageJsonSha256": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+      "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+    },
+    {
+      "id": "candidate-recovery",
+      "packageJsonSha256": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+      "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+    }
+  ],
+  "status": "PASS"
+}

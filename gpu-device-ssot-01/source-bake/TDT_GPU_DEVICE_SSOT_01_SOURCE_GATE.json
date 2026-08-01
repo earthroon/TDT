@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-GPU-DEVICE-SSOT-01",
+  "state": "GPU_DEVICE_SSOT_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "counts": {
+    "PASS": 30,
+    "DEFERRED": 30
+  },
+  "gates": [
+    {
+      "id": "GD01-01",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-02",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-03",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-04",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-05",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-06",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-07",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-08",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-09",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-10",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-11",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-12",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-13",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-14",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-15",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-16",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-17",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-18",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-19",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-20",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-21",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-22",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-23",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-24",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-25",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-26",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-27",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-28",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-29",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-30",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-31",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-32",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-33",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-34",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-35",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-36",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-37",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-38",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-39",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-40",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-41",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-42",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-43",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-44",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-45",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-46",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-47",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-48",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-49",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-50",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-51",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-52",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-53",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-54",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-55",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-56",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-57",
+      "status": "PASS",
+      "reason": "source-contract-verified"
+    },
+    {
+      "id": "GD01-58",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-59",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    },
+    {
+      "id": "GD01-60",
+      "status": "DEFERRED",
+      "reason": "requires-renderer-or-packaged-webgpu-observation"
+    }
+  ],
+  "productionPointerMutated": false,
+  "packagedClaims": false,
+  "failCount": 0
+}

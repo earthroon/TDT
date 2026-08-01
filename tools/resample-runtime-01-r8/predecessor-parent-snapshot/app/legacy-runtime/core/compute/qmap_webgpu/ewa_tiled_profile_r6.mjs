@@ -1,0 +1,8 @@
+import { selectEwaR4Profile,EWA_R4_COORDINATE_CONVENTION_ID,EWA_R4_PRODUCT_COORDINATE_ID,EWA_R4_TILE_COVERAGE_PROOF_ID,EWA_R4_PROFILE_SCHEMA_ID } from './ewa_tiled_profile_r4.mjs';
+export const EWA_R6_PROFILE_SCHEMA_ID='tdt.ewa.tiled-profile.r6.v1';
+export const EWA_R6_PROFILES=Object.freeze({
+ R4:Object.freeze({profileId:'tdt.ewa.tile.r6.r4-8x8-v1',key:'R4',maxReach:4,candidateSide:9,candidateCount:81,tileWidth:24,tileHeight:24,tileElements:576,workgroupStorageBytes:9216,workgroup:Object.freeze({x:8,y:8,z:1}),productShaderAsset:'ewa_aniso_tile_r4_r6.wgsl',validationShaderAsset:'ewa_aniso_tile_validation_r4_r6.wgsl'}),
+ R6:Object.freeze({profileId:'tdt.ewa.tile.r6.r6-8x8-v1',key:'R6',maxReach:6,candidateSide:13,candidateCount:169,tileWidth:28,tileHeight:28,tileElements:784,workgroupStorageBytes:12544,workgroup:Object.freeze({x:8,y:8,z:1}),productShaderAsset:'ewa_aniso_tile_r6_r6.wgsl',validationShaderAsset:'ewa_aniso_tile_validation_r6_r6.wgsl'}),
+});
+export function selectEwaR6Profile(request,deviceLimits=null){const base=selectEwaR4Profile(request,deviceLimits);const profile=EWA_R6_PROFILES[base.profile.key];if(!profile)throw Object.assign(new Error('E_R6_SHADER_ROLE_IDENTITY_MISMATCH'),{code:'E_R6_SHADER_ROLE_IDENTITY_MISMATCH'});return Object.freeze({schemaVersion:1,profileSchemaId:EWA_R6_PROFILE_SCHEMA_ID,coordinateConventionId:EWA_R4_COORDINATE_CONVENTION_ID,productCoordinateId:EWA_R4_PRODUCT_COORDINATE_ID,tileCoverageProofId:EWA_R4_TILE_COVERAGE_PROOF_ID,profile,proof:base.proof,tileProof:Object.freeze({...base.tileProof,profileId:profile.profileId})});}
+export {EWA_R4_COORDINATE_CONVENTION_ID,EWA_R4_PRODUCT_COORDINATE_ID,EWA_R4_TILE_COVERAGE_PROOF_ID,EWA_R4_PROFILE_SCHEMA_ID};

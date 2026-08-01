@@ -1,0 +1,18 @@
+{
+  "adapterRoles": [
+    "performance-canonical",
+    "minimum-compatibility"
+  ],
+  "deviceLossCycles": 3,
+  "pairedSamples": 256,
+  "residencyMeasuredJobs": 1024,
+  "residencyWarmup": 128,
+  "schemaId": "tdt.r9a-p1.fixture-schedule.v1",
+  "schemaVersion": 1,
+  "selfSha256": "571f5057d2e3e8e0faa0c271b14284aa8dbfe4f0552907cf6cc94658e7f53f9b",
+  "surfaces": [
+    "preview",
+    "export"
+  ],
+  "warmupIterations": 128
+}

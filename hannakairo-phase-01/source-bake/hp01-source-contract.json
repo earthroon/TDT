@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 46,
+  "passed": 46,
+  "failed": [],
+  "checks": [
+    {
+      "id": "source-1",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-phase-service.ts"
+    },
+    {
+      "id": "source-2",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-phase-types.ts"
+    },
+    {
+      "id": "source-3",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-phase-parameters.ts"
+    },
+    {
+      "id": "source-4",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-phase-job-arena.ts"
+    },
+    {
+      "id": "source-5",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/hannakairo/hannakairo-phase-receipt.ts"
+    },
+    {
+      "id": "source-6",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/hannakairo/hannakairo_phase_bridge.mjs"
+    },
+    {
+      "id": "source-7",
+      "pass": true,
+      "detail": "specs/TDT-HANNAKAIRO-PHASE-01_AXIAL_DOUBLE_ANGLE_FIELD_WRAPPED_CIRCULATION_WINDING_DEFECT_GPU_TRUTH_SEAL_SPEC.md"
+    },
+    {
+      "id": "service:publishFieldSet",
+      "pass": true,
+      "detail": "publishFieldSet"
+    },
+    {
+      "id": "service:HANNAKAIRO_AXIAL_SEMANTIC_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_AXIAL_SEMANTIC_ID"
+    },
+    {
+      "id": "service:HANNAKAIRO_COHERENCE_SEMANTIC_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_COHERENCE_SEMANTIC_ID"
+    },
+    {
+      "id": "service:HANNAKAIRO_DEFECT_SEMANTIC_ID",
+      "pass": true,
+      "detail": "HANNAKAIRO_DEFECT_SEMANTIC_ID"
+    },
+    {
+      "id": "service:intermediatePixelReadbackCount:0",
+      "pass": true,
+      "detail": "intermediatePixelReadbackCount:0"
+    },
+    {
+      "id": "service:queue.submit",
+      "pass": true,
+      "detail": "queue.submit"
+    },
+    {
+      "id": "service:onSubmittedWorkDone",
+      "pass": true,
+      "detail": "onSubmittedWorkDone"
+    },
+    {
+      "id": "service:stage-plaquette",
+      "pass": true,
+      "detail": "stage-plaquette"
+    },
+    {
+      "id": "tensor:copyTextureToTexture",
+      "pass": true,
+      "detail": "copyTextureToTexture"
+    },
+    {
+      "id": "tensor:analysisFieldHandle",
+      "pass": true,
+      "detail": "analysisFieldHandle"
+    },
+    {
+      "id": "tensor:tdt.analysis.producer.tensor.r1c",
+      "pass": true,
+      "detail": "tdt.analysis.producer.tensor.r1c"
+    },
+    {
+      "id": "tensor:cpuPixelComputeUsed:false",
+      "pass": true,
+      "detail": "cpuPixelComputeUsed:false"
+    },
+    {
+      "id": "tensor:intermediatePixelReadbackCount:0",
+      "pass": true,
+      "detail": "intermediatePixelReadbackCount:0"
+    },
+    {
+      "id": "boot:HannakairoPhaseService",
+      "pass": true,
+      "detail": "HannakairoPhaseService"
+    },
+    {
+      "id": "boot:dadum.module.hannakairo-phase-01-v1",
+      "pass": true,
+      "detail": "dadum.module.hannakairo-phase-01-v1"
+    },
+    {
+      "id": "boot:tdt.analysis.consumer.hannakairo-phase",
+      "pass": true,
+      "detail": "tdt.analysis.consumer.hannakairo-phase"
+    },
+    {
+      "id": "boot:SERVICE_IDS.hannakairoPhase",
+      "pass": true,
+      "detail": "SERVICE_IDS.hannakairoPhase"
+    },
+    {
+      "id": "global-bridge",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "facade-cpu-reject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "facade-webgl-reject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "facade-canvas-reject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "no-phase-field-import",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "no-directional-shader-import",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "no-map-read",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "error:E_HANNAKAIRO_PARAMETER_INVALID",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_PARAMETER_INVALID"
+    },
+    {
+      "id": "error:E_HANNAKAIRO_SERVICE_NOT_ACTIVE",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_SERVICE_NOT_ACTIVE"
+    },
+    {
+      "id": "error:E_HANNAKAIRO_CANCELLED",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_CANCELLED"
+    },
+    {
+      "id": "error:E_HANNAKAIRO_INPUT_SEMANTIC_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_INPUT_SEMANTIC_MISMATCH"
+    },
+    {
+      "id": "error:E_HANNAKAIRO_INPUT_SOURCE_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_INPUT_SOURCE_MISMATCH"
+    },
+    {
+      "id": "error:E_HANNAKAIRO_INPUT_STAGE_MISMATCH",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_INPUT_STAGE_MISMATCH"
+    },
+    {
+      "id": "error:E_HANNAKAIRO_CPU_INPUT_FORBIDDEN",
+      "pass": true,
+      "detail": "E_HANNAKAIRO_CPU_INPUT_FORBIDDEN"
+    },
+    {
+      "id": "registry-version",
+      "pass": true,
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "id": "semantic:tdt.analysis.hannakairo.axial-order.v1",
+      "pass": true,
+      "detail": "rgba16float"
+    },
+    {
+      "id": "semantic:tdt.analysis.hannakairo.phase-coherence.v1",
+      "pass": true,
+      "detail": "rgba16float"
+    },
+    {
+      "id": "semantic:tdt.analysis.hannakairo.winding-defect.v1",
+      "pass": true,
+      "detail": "rgba16float"
+    },
+    {
+      "id": "defect-coordinate",
+      "pass": true,
+      "detail": "stage-plaquette"
+    },
+    {
+      "id": "producer-canonical",
+      "pass": true,
+      "detail": "canonical"
+    },
+    {
+      "id": "producer-version",
+      "pass": true,
+      "detail": "1.0.0"
+    },
+    {
+      "id": "producer-assets",
+      "pass": true,
+      "detail": "6"
+    }
+  ],
+  "sourceDigests": {
+    "app/src/runtime/analysis/hannakairo/hannakairo-phase-service.ts": "88c33c566d68b51db8bb58032bff2535198a118759a3a73ce70143ef5c50b99b",
+    "app/src/runtime/analysis/hannakairo/hannakairo-phase-types.ts": "d3e18d89d8b2b01e2fa75953a8b22ec3ba4c8f0030ee116cbb631c7d472e133f",
+    "app/src/runtime/analysis/hannakairo/hannakairo-phase-parameters.ts": "bf27da37aecb17ba1accb783bf58217310522e8456563c2485fbdd6745224bff",
+    "app/src/runtime/analysis/hannakairo/hannakairo-phase-job-arena.ts": "863b0541c8c08f99fb3fa414611de7b90b382a078fd4884748e7f593e973f8b7",
+    "app/src/runtime/analysis/hannakairo/hannakairo-phase-receipt.ts": "5bf22014717eab24ba892abc092710ce35c2d608105b9841f92801785521c309",
+    "app/legacy-runtime/core/analysis/hannakairo/hannakairo_phase_bridge.mjs": "e69910643990ae8797c8e084636c5d531e6359c2910ab99104f64ee6669eef5b",
+    "specs/TDT-HANNAKAIRO-PHASE-01_AXIAL_DOUBLE_ANGLE_FIELD_WRAPPED_CIRCULATION_WINDING_DEFECT_GPU_TRUTH_SEAL_SPEC.md": "f477ac7181f668b697bd64006ed9c48806da83109eeac34f8ea7afa9a689c85c"
+  }
+}

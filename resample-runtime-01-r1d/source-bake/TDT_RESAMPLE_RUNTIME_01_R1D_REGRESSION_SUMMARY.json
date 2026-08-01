@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1D",
+  "state": "RESAMPLE_RUNTIME_R1D_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "environment": {
+    "platform": "linux",
+    "physicalWebGpuExecuted": false,
+    "windowsPackagedElectronExecuted": false,
+    "productionPointerMutated": false
+  },
+  "results": [
+    {"name":"R1D Source Contract","result":"91/91 PASS"},
+    {"name":"R1D Mock Runtime","result":"13/13 PASS"},
+    {"name":"R1D Gate","result":"100 PASS / 8 DEFERRED / 0 FAIL"},
+    {"name":"R1C Gate","result":"90 PASS / 6 DEFERRED / 0 FAIL"},
+    {"name":"R1B Gate","result":"72 PASS / 12 DEFERRED / 0 FAIL"},
+    {"name":"R1A Gate","result":"57 PASS / 11 DEFERRED / 0 FAIL"},
+    {"name":"Active Graph","result":"30 PASS / 10 DEFERRED"},
+    {"name":"Active Graph Regression","result":"19/19 PASS"},
+    {"name":"GPU Device SSOT","result":"30 PASS / 30 DEFERRED / 0 FAIL"},
+    {"name":"Surface Lifecycle","result":"52 PASS / 8 DEFERRED / 0 FAIL"},
+    {"name":"Preview Presenter","result":"50 PASS / 10 DEFERRED / 0 FAIL"},
+    {"name":"Runtime R7","result":"PASS"},
+    {"name":"Export Worker 01-07","result":"PASS"},
+    {"name":"Export Promotion 01","result":"54/54 PASS"},
+    {"name":"Export Promotion 02","result":"60/60 PASS"},
+    {"name":"Export Promotion 03","result":"68/68 PASS"},
+    {"name":"Build Lock","result":"72/72 PASS"},
+    {"name":"Build Emit","result":"84/84 PASS"},
+    {"name":"MODJPEG","result":"84/84 PASS"},
+    {"name":"Native Decoder","result":"120/120 PASS"},
+    {"name":"JXL Codec","result":"108/108 PASS"},
+    {"name":"PSD Decoder","result":"112/112 PASS"},
+    {"name":"Promotion Baseline Source","result":"66/66 PASS"},
+    {"name":"Stable Error Registry","result":"614/614 PASS"},
+    {"name":"TypeScript Syntax","result":"94 files PASS"}
+  ],
+  "deferredGateIds": ["RD101","RD102","RD103","RD104","RD105","RD106","RD107","RD108"],
+  "notes": [
+    "No physical GPU pixel claim is made.",
+    "No Windows packaged-Electron claim is made.",
+    "The full packaged Promotion Baseline was not executable without canonical packaged input; its source gate passed."
+  ]
+}

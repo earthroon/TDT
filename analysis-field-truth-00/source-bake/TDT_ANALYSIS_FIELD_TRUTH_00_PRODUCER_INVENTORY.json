@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "producerCount": 10,
+  "producers": [
+    {
+      "producerId": "tdt.analysis.producer.tensor.r1c",
+      "producerVersion": "1.0.0",
+      "implementationId": "tdt-structure-tensor-r1c",
+      "outputSemanticIds": [
+        "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1"
+      ],
+      "acceptedInputSemanticIds": [],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/legacy-runtime/core/compute/qmap_webgpu/structure_tensor_runtime.mjs"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.tensor-gradient-r1c",
+        "dadum.asset.shader.tensor-outer-r1c",
+        "dadum.asset.shader.tensor-blur-h-r1c",
+        "dadum.asset.shader.tensor-blur-v-r1c",
+        "dadum.asset.shader.tensor-eigen-r1c"
+      ],
+      "publicFacadeIds": []
+    },
+    {
+      "producerId": "tdt.analysis.producer.spectral.fft",
+      "producerVersion": "1.0.0",
+      "implementationId": "tdt-spectral-stockham-2d-webgpu-v1",
+      "outputSemanticIds": [
+        "tdt.analysis.spectral.window-frequency-complex.v1"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.spectral.window-spatial-complex.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/src/runtime/analysis/spectral/spectral-stockham-executor-service.ts",
+        "app/src/runtime/analysis/spectral/spectral-stockham-plan.ts",
+        "app/src/runtime/analysis/spectral/spectral-fft-job-arena.ts",
+        "app/src/runtime/analysis/spectral/spectral-fft-receipt.ts",
+        "app/src/runtime/analysis/spectral/spectral-fft-types.ts"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.spectral-stockham-radix2-stage-v1",
+        "dadum.asset.shader.spectral-complex-transpose-16x16-v1",
+        "dadum.asset.shader.spectral-direct-dft-reference-v1",
+        "dadum.asset.shader.spectral-complex-compare-v1",
+        "dadum.asset.shader.spectral-writer-ownership-validation-v1",
+        "dadum.asset.shader.spectral-fixture-generator-v1"
+      ],
+      "publicFacadeIds": [
+        "executeBatchedStockham2D",
+        "computeQMap_GPU_All",
+        "QmapFFTBuilder"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.spectral.reduction",
+      "producerVersion": "1.0.0",
+      "implementationId": "tdt-spectral-power-entropy-orientation-phase-reduction-v1",
+      "outputSemanticIds": [
+        "tdt.analysis.spectral.window-power-spectrum.v1",
+        "tdt.analysis.spectral.window-entropy.v1",
+        "tdt.analysis.spectral.window-peak-orientation.v1",
+        "tdt.analysis.spectral.window-complex-phase.v1",
+        "tdt.analysis.spectral.window-summary.v1"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.spectral.window-frequency-complex.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/src/runtime/analysis/spectral/spectral-reduction-service.ts",
+        "app/src/runtime/analysis/spectral/spectral-reduction-plan.ts",
+        "app/src/runtime/analysis/spectral/spectral-reduction-receipt.ts",
+        "app/src/runtime/analysis/spectral/spectral-window-layout-receipt.ts"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.spectral-power-normalize-v1",
+        "dadum.asset.shader.spectral-partial-reduce-v1",
+        "dadum.asset.shader.spectral-partial-merge-v1",
+        "dadum.asset.shader.spectral-finalize-fields-v1",
+        "dadum.asset.shader.spectral-reduction-reference-v1",
+        "dadum.asset.shader.spectral-field-set-compare-v1"
+      ],
+      "publicFacadeIds": [
+        "reduceSpectralFields",
+        "QmapFFTBuilder.buildSpectralFields"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.hannakairo.directional-gate",
+      "producerVersion": "2.0.0",
+      "implementationId": "tdt-hannakairo-tensor-spectral-directional-gate-v2",
+      "outputSemanticIds": [
+        "tdt.analysis.hannakairo.tensor-spectral-alignment.v1",
+        "tdt.analysis.hannakairo.directional-gate.v2"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1",
+        "tdt.analysis.spectral.window-peak-orientation.v1",
+        "tdt.analysis.hannakairo.phase-coherence.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/src/runtime/analysis/hannakairo/hannakairo-gate-service.ts",
+        "app/src/runtime/analysis/hannakairo/hannakairo-gate-types.ts",
+        "app/src/runtime/analysis/hannakairo/hannakairo-gate-parameters.ts",
+        "app/src/runtime/analysis/hannakairo/hannakairo-gate-receipt.ts",
+        "app/legacy-runtime/core/analysis/hannakairo/hannakairo_gate_bridge.mjs",
+        "app/legacy-runtime/shaders/phase_gate_hannakairo.frag"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.hannakairo-spectral-project-stage-v2",
+        "dadum.asset.shader.hannakairo-tensor-spectral-align-v2",
+        "dadum.asset.shader.hannakairo-directional-gate-finalize-v2",
+        "dadum.asset.shader.hannakairo-gate-fixture-generator-v2",
+        "dadum.asset.shader.hannakairo-gate-reference-v2",
+        "dadum.asset.shader.hannakairo-gate-compare-v2"
+      ],
+      "publicFacadeIds": [
+        "phase_gate_hannakairo",
+        "buildHannakairoDirectionalGate"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.hannakairo.topology",
+      "producerVersion": "1.0.0",
+      "implementationId": "tdt-hannakairo-axial-winding-defect-v1",
+      "outputSemanticIds": [
+        "tdt.analysis.hannakairo.axial-order.v1",
+        "tdt.analysis.hannakairo.winding-defect.v1",
+        "tdt.analysis.hannakairo.phase-coherence.v1"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/src/runtime/analysis/hannakairo/hannakairo-phase-service.ts",
+        "app/src/runtime/analysis/hannakairo/hannakairo-phase-types.ts",
+        "app/src/runtime/analysis/hannakairo/hannakairo-phase-parameters.ts",
+        "app/src/runtime/analysis/hannakairo/hannakairo-phase-receipt.ts"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.hannakairo-axial-convert-v1",
+        "dadum.asset.shader.hannakairo-phase-coherence-v1",
+        "dadum.asset.shader.hannakairo-wrapped-circulation-v1",
+        "dadum.asset.shader.hannakairo-fixture-generator-v1",
+        "dadum.asset.shader.hannakairo-reference-v1",
+        "dadum.asset.shader.hannakairo-compare-v1"
+      ],
+      "publicFacadeIds": [
+        "buildHannakairoPhaseFields"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.qmap.normalized-response",
+      "producerVersion": "0.0.0-unbound",
+      "implementationId": "tdt-qmap-normalized-response-publication-unbound-v1",
+      "outputSemanticIds": [
+        "tdt.analysis.qmap.normalized-response.v1"
+      ],
+      "acceptedInputSemanticIds": [],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "future",
+      "sourceFiles": [
+        "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_06_field_authority.mjs"
+      ],
+      "shaderAssets": [],
+      "publicFacadeIds": []
+    },
+    {
+      "producerId": "tdt.analysis.producer.qwave.local-aniso-compat",
+      "producerVersion": "1.0.0",
+      "implementationId": "tdt-qwave-local-aniso-compat",
+      "outputSemanticIds": [
+        "tdt.analysis.qwave.local-anisotropy-compat.v1"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.qwave.real-delta-k-compat.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "compatibility",
+      "sourceFiles": [
+        "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js"
+      ],
+      "shaderAssets": [],
+      "publicFacadeIds": [
+        "ensureQWaveRGWGPU"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.qwave.analytic",
+      "producerVersion": "3.0.0",
+      "implementationId": "tdt-qwave-analytic-complex-v2",
+      "outputSemanticIds": [
+        "tdt.analysis.qwave.real-delta-k-compat.v1",
+        "tdt.analysis.qwave.imaginary-component.v1",
+        "tdt.analysis.qwave.analytic-complex.v2"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.spectral.window-complex-phase.v1",
+        "tdt.analysis.hannakairo.winding-defect.v1",
+        "tdt.analysis.tensor.curvature.r1c.future.v1",
+        "tdt.analysis.qwave.hilbert-phase.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/src/runtime/analysis/qwave/qwave-phase-service.ts",
+        "app/src/runtime/analysis/qwave/qwave-phase-types.ts",
+        "app/src/runtime/analysis/qwave/qwave-phase-parameters.ts",
+        "app/src/runtime/analysis/qwave/qwave-phase-receipt.ts",
+        "app/legacy-runtime/core/analysis/qwave/qwave_phase_bridge.mjs",
+        "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.qwave-imag-local-aniso-v3",
+        "dadum.asset.shader.qwave-imag-spectral-project-v3",
+        "dadum.asset.shader.qwave-imag-defect-project-v3",
+        "dadum.asset.shader.qwave-imag-curvature-v3",
+        "dadum.asset.shader.qwave-imag-hilbert-v3",
+        "dadum.asset.shader.qwave-analytic-principal-sqrt-v3",
+        "dadum.asset.shader.qwave-analytic-to-rg-compat-v3",
+        "dadum.asset.shader.qwave-analytic-fixture-generator-v3",
+        "dadum.asset.shader.qwave-analytic-reference-polar-v3",
+        "dadum.asset.shader.qwave-analytic-compare-v3",
+        "dadum.asset.shader.qwave-source-selection-counter-v3"
+      ],
+      "publicFacadeIds": [
+        "publishQWaveRealDeltaK",
+        "buildAnalyticQWave",
+        "ensureQWaveRGWGPU"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.tile-atlas.materializer",
+      "producerVersion": "1.0.0",
+      "implementationId": "tdt-gpu-tile-atlas-materializer-v1",
+      "outputSemanticIds": [
+        "tdt.analysis.spectral.window-spatial-complex.v1"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.spectral.window-spatial-complex.v1"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "canonical",
+      "sourceFiles": [
+        "app/src/runtime/analysis/atlas/gpu-tile-atlas-authority-service.ts",
+        "app/src/runtime/analysis/atlas/gpu-tile-atlas-types.ts",
+        "app/src/runtime/analysis/atlas/gpu-tile-atlas-page-table.ts"
+      ],
+      "shaderAssets": [
+        "dadum.asset.shader.tile-atlas-materialize-window-batch-v1",
+        "dadum.asset.shader.tile-atlas-page-table-validate-v1",
+        "dadum.asset.shader.tile-atlas-fixture-generator-v1",
+        "dadum.asset.shader.tile-atlas-reference-copy-v1",
+        "dadum.asset.shader.tile-atlas-compare-v1"
+      ],
+      "publicFacadeIds": [
+        "ingestWindowBatch",
+        "materializeWindowBatch",
+        "pinTile"
+      ]
+    },
+    {
+      "producerId": "tdt.analysis.producer.policy.fusion",
+      "producerVersion": "0.0.0",
+      "implementationId": "tdt-analysis-policy-fusion-unpromoted",
+      "outputSemanticIds": [
+        "tdt.analysis.policy.fused-analysis.v1"
+      ],
+      "acceptedInputSemanticIds": [
+        "tdt.analysis.tensor.tangent-coherence-edge.r1c.v1",
+        "tdt.analysis.spectral.window-summary.v1",
+        "tdt.analysis.hannakairo.winding-defect.v1",
+        "tdt.analysis.qwave.analytic-complex.v2"
+      ],
+      "acceptedSourceFormats": [
+        "rgba8unorm",
+        "rgba16float",
+        "rgba8unorm-srgb",
+        "complex-f32-interleaved"
+      ],
+      "executionBackend": "webgpu",
+      "kernelLanguage": "wgsl",
+      "productAdmission": "future",
+      "sourceFiles": [],
+      "shaderAssets": [],
+      "publicFacadeIds": []
+    }
+  ],
+  "inventoryDigest": "fa1d59558275083c61677fde0962463dcf33707216e2e278f074f68853a81907"
+}

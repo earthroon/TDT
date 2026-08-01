@@ -1,0 +1,711 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-01",
+  "gateCount": 176,
+  "gates": [
+    {
+      "id": "BKR01-INV-001",
+      "description": "authority source path exact"
+    },
+    {
+      "id": "BKR01-INV-002",
+      "description": "authority source SHA-256 exact"
+    },
+    {
+      "id": "BKR01-INV-003",
+      "description": "utility source path exact"
+    },
+    {
+      "id": "BKR01-INV-004",
+      "description": "utility source SHA-256 exact"
+    },
+    {
+      "id": "BKR01-INV-005",
+      "description": "exactly one FORMULA_AUTHORITY"
+    },
+    {
+      "id": "BKR01-INV-006",
+      "description": "duplicate alias byte identity"
+    },
+    {
+      "id": "BKR01-INV-007",
+      "description": "root mixed-dialect fusion quarantined"
+    },
+    {
+      "id": "BKR01-INV-008",
+      "description": "patched root fusion future-only"
+    },
+    {
+      "id": "BKR01-INV-009",
+      "description": "patched shaders fusion quarantined"
+    },
+    {
+      "id": "BKR01-INV-010",
+      "description": "standalone Rinne reference-only"
+    },
+    {
+      "id": "BKR01-INV-011",
+      "description": "standalone Bakemono reference-only"
+    },
+    {
+      "id": "BKR01-INV-012",
+      "description": "tensor Bakemono future-only"
+    },
+    {
+      "id": "BKR01-INV-013",
+      "description": "deltaE attenuation future-only"
+    },
+    {
+      "id": "BKR01-INV-014",
+      "description": "gamma Rinne future-only"
+    },
+    {
+      "id": "BKR01-INV-015",
+      "description": "empty Bakemono document-only"
+    },
+    {
+      "id": "BKR01-INV-016",
+      "description": "falloff fragment document-only"
+    },
+    {
+      "id": "BKR01-INV-017",
+      "description": "inventory canonical JSON order"
+    },
+    {
+      "id": "BKR01-INV-018",
+      "description": "inventory digest reproducible"
+    },
+    {
+      "id": "BKR01-INV-019",
+      "description": "unknown fragment fail-closed"
+    },
+    {
+      "id": "BKR01-INV-020",
+      "description": "source rename without manifest fails"
+    },
+    {
+      "id": "BKR01-INV-021",
+      "description": "digest mutation negative control"
+    },
+    {
+      "id": "BKR01-INV-022",
+      "description": "classification mutation negative control"
+    },
+    {
+      "id": "BKR01-INV-023",
+      "description": "second authority negative control"
+    },
+    {
+      "id": "BKR01-INV-024",
+      "description": "quarantined generator input negative control"
+    },
+    {
+      "id": "BKR01-FOR-001",
+      "description": "TAU_COMPAT equals 6.283"
+    },
+    {
+      "id": "BKR01-FOR-002",
+      "description": "effective RGB-to-XYZ matrix exact"
+    },
+    {
+      "id": "BKR01-FOR-003",
+      "description": "effective XYZ-to-RGB matrix exact"
+    },
+    {
+      "id": "BKR01-FOR-004",
+      "description": "Lab threshold 0.008856 exact"
+    },
+    {
+      "id": "BKR01-FOR-005",
+      "description": "Lab linear coefficient 7.787 exact"
+    },
+    {
+      "id": "BKR01-FOR-006",
+      "description": "white point 0.9505/1/1.089 exact"
+    },
+    {
+      "id": "BKR01-FOR-007",
+      "description": "Rinne phase order exact"
+    },
+    {
+      "id": "BKR01-FOR-008",
+      "description": "Lab a displacement exact"
+    },
+    {
+      "id": "BKR01-FOR-009",
+      "description": "Lab b displacement exact"
+    },
+    {
+      "id": "BKR01-FOR-010",
+      "description": "CMYK C phase multiplier 0.8 exact"
+    },
+    {
+      "id": "BKR01-FOR-011",
+      "description": "CMYK M phase multiplier 0.9 exact"
+    },
+    {
+      "id": "BKR01-FOR-012",
+      "description": "CMYK displacement 0.1 exact"
+    },
+    {
+      "id": "BKR01-FOR-013",
+      "description": "Lab/CMYK mix 0.5 exact"
+    },
+    {
+      "id": "BKR01-FOR-014",
+      "description": "mask average 0.5/0.5 exact"
+    },
+    {
+      "id": "BKR01-FOR-015",
+      "description": "neon sqrt exponent 0.5 exact"
+    },
+    {
+      "id": "BKR01-FOR-016",
+      "description": "neon multiplier 1.5 exact"
+    },
+    {
+      "id": "BKR01-FOR-017",
+      "description": "fusion smoothstep 0.3/0.6 exact"
+    },
+    {
+      "id": "BKR01-FOR-018",
+      "description": "final k q*s*power exact"
+    },
+    {
+      "id": "BKR01-FOR-019",
+      "description": "final alpha preserved"
+    },
+    {
+      "id": "BKR01-FOR-020",
+      "description": "Lab output clamp preserved"
+    },
+    {
+      "id": "BKR01-FOR-021",
+      "description": "CMYK output unclamped internally"
+    },
+    {
+      "id": "BKR01-FOR-022",
+      "description": "operation ordering canonical"
+    },
+    {
+      "id": "BKR01-FOR-023",
+      "description": "profile ID required"
+    },
+    {
+      "id": "BKR01-FOR-024",
+      "description": "compat profile shadow-only"
+    },
+    {
+      "id": "BKR01-FOR-025",
+      "description": "R1C profile distinct ID"
+    },
+    {
+      "id": "BKR01-FOR-026",
+      "description": "constant mutation negative control"
+    },
+    {
+      "id": "BKR01-FOR-027",
+      "description": "matrix transpose negative control"
+    },
+    {
+      "id": "BKR01-FOR-028",
+      "description": "hidden sRGB decode negative control"
+    },
+    {
+      "id": "BKR01-COL-001",
+      "description": "canonical input rgba16float"
+    },
+    {
+      "id": "BKR01-COL-002",
+      "description": "canonical input linear"
+    },
+    {
+      "id": "BKR01-COL-003",
+      "description": "canonical input premultiplied"
+    },
+    {
+      "id": "BKR01-COL-004",
+      "description": "legacy working encoded RGB"
+    },
+    {
+      "id": "BKR01-COL-005",
+      "description": "legacy working straight alpha"
+    },
+    {
+      "id": "BKR01-COL-006",
+      "description": "safe unpremultiply"
+    },
+    {
+      "id": "BKR01-COL-007",
+      "description": "alpha epsilon range"
+    },
+    {
+      "id": "BKR01-COL-008",
+      "description": "linear-to-sRGB adapter explicit"
+    },
+    {
+      "id": "BKR01-COL-009",
+      "description": "legacy rgb2lab no internal transfer decode"
+    },
+    {
+      "id": "BKR01-COL-010",
+      "description": "legacy output finite check"
+    },
+    {
+      "id": "BKR01-COL-011",
+      "description": "encoded output clamp at adapter"
+    },
+    {
+      "id": "BKR01-COL-012",
+      "description": "sRGB-to-linear adapter explicit"
+    },
+    {
+      "id": "BKR01-COL-013",
+      "description": "output premultiply"
+    },
+    {
+      "id": "BKR01-COL-014",
+      "description": "output alpha preserved"
+    },
+    {
+      "id": "BKR01-COL-015",
+      "description": "hidden RGB zero at alpha zero"
+    },
+    {
+      "id": "BKR01-COL-016",
+      "description": "color contract ID receipt"
+    },
+    {
+      "id": "BKR01-COL-017",
+      "description": "surface adapter ID receipt"
+    },
+    {
+      "id": "BKR01-COL-018",
+      "description": "row-major corrected profile not aliased"
+    },
+    {
+      "id": "BKR01-COL-019",
+      "description": "alpha-mode mutation negative control"
+    },
+    {
+      "id": "BKR01-COL-020",
+      "description": "transfer-mode mutation negative control"
+    },
+    {
+      "id": "BKR01-SCL-001",
+      "description": "qmap role explicit"
+    },
+    {
+      "id": "BKR01-SCL-002",
+      "description": "qmap range [0,1]"
+    },
+    {
+      "id": "BKR01-SCL-003",
+      "description": "qmap neutral 0"
+    },
+    {
+      "id": "BKR01-SCL-004",
+      "description": "qmap output-pixel coordinates"
+    },
+    {
+      "id": "BKR01-SCL-005",
+      "description": "legacy deltaE profile explicit"
+    },
+    {
+      "id": "BKR01-SCL-006",
+      "description": "legacy deltaE not CIEDE2000 claim"
+    },
+    {
+      "id": "BKR01-SCL-007",
+      "description": "Q-wave real deltaK profile explicit"
+    },
+    {
+      "id": "BKR01-SCL-008",
+      "description": "Q-wave confidence channel G"
+    },
+    {
+      "id": "BKR01-SCL-009",
+      "description": "Q-wave validity channel A"
+    },
+    {
+      "id": "BKR01-SCL-010",
+      "description": "Q-wave mapping distinct formula ID"
+    },
+    {
+      "id": "BKR01-SCL-011",
+      "description": "q and s no texture alias"
+    },
+    {
+      "id": "BKR01-SCL-012",
+      "description": "scalar gain explicit"
+    },
+    {
+      "id": "BKR01-SCL-013",
+      "description": "missing scalar fail-closed"
+    },
+    {
+      "id": "BKR01-SCL-014",
+      "description": "semantic mismatch fail-closed"
+    },
+    {
+      "id": "BKR01-SCL-015",
+      "description": "range metadata required"
+    },
+    {
+      "id": "BKR01-SCL-016",
+      "description": "coordinate mapping required"
+    },
+    {
+      "id": "BKR01-SCL-017",
+      "description": "validity zero makes scalar zero"
+    },
+    {
+      "id": "BKR01-SCL-018",
+      "description": "profile ID in receipt"
+    },
+    {
+      "id": "BKR01-SCL-019",
+      "description": "deltaE label spoof negative control"
+    },
+    {
+      "id": "BKR01-SCL-020",
+      "description": "Q-wave alias negative control"
+    },
+    {
+      "id": "BKR01-TEN-001",
+      "description": "required semantic ID exact"
+    },
+    {
+      "id": "BKR01-TEN-002",
+      "description": "fieldTexture tangent packing exact"
+    },
+    {
+      "id": "BKR01-TEN-003",
+      "description": "axial texture packing distinguished"
+    },
+    {
+      "id": "BKR01-TEN-004",
+      "description": "terminal source surface lineage"
+    },
+    {
+      "id": "BKR01-TEN-005",
+      "description": "terminal source revision lineage"
+    },
+    {
+      "id": "BKR01-TEN-006",
+      "description": "tensor dimensions exact"
+    },
+    {
+      "id": "BKR01-TEN-007",
+      "description": "identity coordinate mapping"
+    },
+    {
+      "id": "BKR01-TEN-008",
+      "description": "runtime epoch exact"
+    },
+    {
+      "id": "BKR01-TEN-009",
+      "description": "device epoch exact"
+    },
+    {
+      "id": "BKR01-TEN-010",
+      "description": "device identity exact"
+    },
+    {
+      "id": "BKR01-TEN-011",
+      "description": "tensor truth claim true"
+    },
+    {
+      "id": "BKR01-TEN-012",
+      "description": "tensor mode canonical-terminal-r1c"
+    },
+    {
+      "id": "BKR01-TEN-013",
+      "description": "tensor sigma positive"
+    },
+    {
+      "id": "BKR01-TEN-014",
+      "description": "kernel radius positive"
+    },
+    {
+      "id": "BKR01-TEN-015",
+      "description": "gradient digest recorded"
+    },
+    {
+      "id": "BKR01-TEN-016",
+      "description": "outer digest recorded"
+    },
+    {
+      "id": "BKR01-TEN-017",
+      "description": "blurH digest recorded"
+    },
+    {
+      "id": "BKR01-TEN-018",
+      "description": "blurV digest recorded"
+    },
+    {
+      "id": "BKR01-TEN-019",
+      "description": "eigen digest recorded"
+    },
+    {
+      "id": "BKR01-TEN-020",
+      "description": "lambda2 receipt digest recorded"
+    },
+    {
+      "id": "BKR01-TEN-021",
+      "description": "same command graph ownership"
+    },
+    {
+      "id": "BKR01-TEN-022",
+      "description": "raw GPUTexture denied"
+    },
+    {
+      "id": "BKR01-TEN-023",
+      "description": "stale tensor denied"
+    },
+    {
+      "id": "BKR01-TEN-024",
+      "description": "prior frame tensor denied"
+    },
+    {
+      "id": "BKR01-TEN-025",
+      "description": "CPU tensor denied"
+    },
+    {
+      "id": "BKR01-TEN-026",
+      "description": "WebGL tensor denied"
+    },
+    {
+      "id": "BKR01-TEN-027",
+      "description": "axial-as-tangent negative control"
+    },
+    {
+      "id": "BKR01-TEN-028",
+      "description": "missing tensor no open-gate fallback"
+    },
+    {
+      "id": "BKR01-L2-001",
+      "description": "flat field energy neutral"
+    },
+    {
+      "id": "BKR01-L2-002",
+      "description": "straight edge active"
+    },
+    {
+      "id": "BKR01-L2-003",
+      "description": "straight edge coherence >=0.90"
+    },
+    {
+      "id": "BKR01-L2-004",
+      "description": "corner lambda2 positive"
+    },
+    {
+      "id": "BKR01-L2-005",
+      "description": "junction lambda2 positive"
+    },
+    {
+      "id": "BKR01-L2-006",
+      "description": "corner coherence separated"
+    },
+    {
+      "id": "BKR01-L2-007",
+      "description": "junction coherence separated"
+    },
+    {
+      "id": "BKR01-L2-008",
+      "description": "mixed fixture min coherence <0.95"
+    },
+    {
+      "id": "BKR01-L2-009",
+      "description": "nonfinite count zero"
+    },
+    {
+      "id": "BKR01-L2-010",
+      "description": "blur-removed mutant fails"
+    },
+    {
+      "id": "BKR01-L2-011",
+      "description": "blurH-only mutant fails"
+    },
+    {
+      "id": "BKR01-L2-012",
+      "description": "blurV-only mutant fails"
+    },
+    {
+      "id": "BKR01-L2-013",
+      "description": "center-repeat fake blur fails"
+    },
+    {
+      "id": "BKR01-L2-014",
+      "description": "temporal hysteresis tensor fails"
+    },
+    {
+      "id": "BKR01-L2-015",
+      "description": "hardcoded coherence one fails"
+    },
+    {
+      "id": "BKR01-L2-016",
+      "description": "zero lambda2 receipt fails"
+    },
+    {
+      "id": "BKR01-L2-017",
+      "description": "command graph order exact"
+    },
+    {
+      "id": "BKR01-L2-018",
+      "description": "compact counter schema exact"
+    },
+    {
+      "id": "BKR01-L2-019",
+      "description": "product readback remains zero"
+    },
+    {
+      "id": "BKR01-L2-020",
+      "description": "sampled qualification readback bounded"
+    },
+    {
+      "id": "BKR01-PHS-001",
+      "description": "phase contract ID exact"
+    },
+    {
+      "id": "BKR01-PHS-002",
+      "description": "phaseBase finite"
+    },
+    {
+      "id": "BKR01-PHS-003",
+      "description": "STILL_EXPLICIT mode"
+    },
+    {
+      "id": "BKR01-PHS-004",
+      "description": "PREVIEW_FRAME_INDEXED mode"
+    },
+    {
+      "id": "BKR01-PHS-005",
+      "description": "TIMELINE_EXPLICIT mode"
+    },
+    {
+      "id": "BKR01-PHS-006",
+      "description": "frame index integer"
+    },
+    {
+      "id": "BKR01-PHS-007",
+      "description": "phase step finite"
+    },
+    {
+      "id": "BKR01-PHS-008",
+      "description": "phase origin finite"
+    },
+    {
+      "id": "BKR01-PHS-009",
+      "description": "phase wrap mode explicit"
+    },
+    {
+      "id": "BKR01-PHS-010",
+      "description": "performance.now denied"
+    },
+    {
+      "id": "BKR01-PHS-011",
+      "description": "Date.now denied"
+    },
+    {
+      "id": "BKR01-PHS-012",
+      "description": "Math.random denied"
+    },
+    {
+      "id": "BKR01-PHS-013",
+      "description": "crypto randomness denied"
+    },
+    {
+      "id": "BKR01-PHS-014",
+      "description": "same input ten-run deterministic"
+    },
+    {
+      "id": "BKR01-PHS-015",
+      "description": "phase receipt digest lineage"
+    },
+    {
+      "id": "BKR01-PHS-016",
+      "description": "missing phase receipt fails"
+    },
+    {
+      "id": "BKR01-AUT-001",
+      "description": "formula receipt schema exact"
+    },
+    {
+      "id": "BKR01-AUT-002",
+      "description": "formula inventory digest parent"
+    },
+    {
+      "id": "BKR01-AUT-003",
+      "description": "source digest parent"
+    },
+    {
+      "id": "BKR01-AUT-004",
+      "description": "utility digest parent"
+    },
+    {
+      "id": "BKR01-AUT-005",
+      "description": "parameter digest parent"
+    },
+    {
+      "id": "BKR01-AUT-006",
+      "description": "scalar profile digest parent"
+    },
+    {
+      "id": "BKR01-AUT-007",
+      "description": "tensor admission digest parent"
+    },
+    {
+      "id": "BKR01-AUT-008",
+      "description": "phase receipt digest parent"
+    },
+    {
+      "id": "BKR01-AUT-009",
+      "description": "color contract digest parent"
+    },
+    {
+      "id": "BKR01-AUT-010",
+      "description": "output authority explicit"
+    },
+    {
+      "id": "BKR01-AUT-011",
+      "description": "shadow profile canonical commit denied"
+    },
+    {
+      "id": "BKR01-AUT-012",
+      "description": "canonical profile tensor required"
+    },
+    {
+      "id": "BKR01-AUT-013",
+      "description": "no silent profile default"
+    },
+    {
+      "id": "BKR01-AUT-014",
+      "description": "no unknown profile"
+    },
+    {
+      "id": "BKR01-AUT-015",
+      "description": "stable error code preserved"
+    },
+    {
+      "id": "BKR01-AUT-016",
+      "description": "canonical JSON reproducible"
+    },
+    {
+      "id": "BKR01-AUT-017",
+      "description": "receipt tamper negative control"
+    },
+    {
+      "id": "BKR01-AUT-018",
+      "description": "parent digest omission negative control"
+    },
+    {
+      "id": "BKR01-AUT-019",
+      "description": "multiple profile negative control"
+    },
+    {
+      "id": "BKR01-AUT-020",
+      "description": "unknown authority negative control"
+    }
+  ]
+}

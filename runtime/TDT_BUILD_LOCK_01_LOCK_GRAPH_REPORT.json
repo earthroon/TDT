@@ -1,0 +1,7 @@
+{
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "BLOCKED",
+  "blocker": "REGISTRY_AVAILABILITY_5XX",
+  "candidateAvailable": false,
+  "existingLockForensicDigest": "d5e03476389df21445dc11d6dcf6444e94349edd62a5e75c3c00be18ee32b140"
+}

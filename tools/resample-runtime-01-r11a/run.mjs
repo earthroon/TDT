@@ -1,0 +1,13 @@
+await import('./generate-source-artifacts.mjs');
+await import('./verify-parent-lineage.mjs');
+await import('./verify-main-authority.mjs');
+await import('./verify-installed-admission.mjs');
+await import('./verify-electron-wiring.mjs');
+await import('./verify-renderer-wiring.mjs');
+await import('./verify-javascript-parse.mjs');
+await import('./verify-typescript-syntax.mjs');
+await import('./verify-negative-controls.mjs');
+await import('./verify-predecessor-regression.mjs');
+await import('./verify-source-contract.mjs');
+await import('./gate-source.mjs');
+await import('./finalize-source.mjs');

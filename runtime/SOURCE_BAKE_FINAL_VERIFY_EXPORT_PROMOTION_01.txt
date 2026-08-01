@@ -1,0 +1,93 @@
+=== EP01 FINAL SOURCE VERIFY ===
+2026-07-24T17:38:23Z
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+PASS GATE-R1-08 Pinia static serializability gate
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect
+PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry
+PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js
+PASS GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION unique prior owner / owner-finished-while-absent claim / one-shot claim consumption / receipt evidence
+PASS GATE-R1-R6-PLACEHOLDER-QUARANTINE non-authoritative legacy placeholder isolation and receipt evidence
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+PASS GATE-R1-20 deterministic receipt parity 100/100 e787165f16033577729d0395b3d8ef45e99031bc90428afef031bdddb20f36ca
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 c92bfa5aec39cfe4028989f4325e057852f39ef5e29e224fbec8ae5dcaf51741
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 02cfab6548c4eccf50599049be008be2db027b0955cd5020f56ffc530df4d7b2
+PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 50f30d1c3d9f52dfd680a45d8982081f5b5995ba4916e673e366f27f97b39b4d
+PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 52a6d8c4855f4bea7d099473fa91aa100ccb5517e7e759ab01d6e21a89792ddf
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a96fc9db56134b9ae50a08be616bdba429f646ab310b688f23ef21f0d0997bb8
+PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 89c0fa7e3433904230744188f62226102afcd51baff6c472f161601e0229df36
+PASS GATE-EP01-01 stable API id
+PASS GATE-EP01-02 stable API version
+PASS GATE-EP01-03 implementation id separate
+PASS GATE-EP01-04 no EW public API
+PASS GATE-EP01-05 no product blob URL
+PASS GATE-EP01-06 no URL result contract
+PASS GATE-EP01-07 host receipt result
+PASS GATE-EP01-08 host save authority call
+PASS GATE-EP01-09 retired facade receipt
+PASS GATE-EP01-10 whole build rollback
+PASS GATE-EP01-11 EP01 receipt schema
+PASS GATE-EP01-12 on disk digest evidence
+PASS GATE-EP01-13 path privacy digest
+PASS GATE-EP01-14 truthful source state
+PASS GATE-EP01-15 profile truth
+PASS GATE-EP01-16 codec host adoption
+PASS GATE-EP01-17 one time adoption call
+PASS GATE-EP01-18 facade lifecycle
+PASS GATE-EP01-19 sealed state
+PASS GATE-EP01-20 adopted state
+PASS GATE-EP01-21 retired tombstone
+PASS GATE-EP01-22 frozen tombstone
+PASS GATE-EP01-23 retired error
+PASS GATE-EP01-24 private codec host identity
+PASS GATE-EP01-25 main stable API check
+PASS GATE-EP01-26 main bridge no blob URL
+PASS GATE-EP01-27 main bridge no anchor click
+PASS GATE-EP01-28 main requires save receipt
+PASS GATE-EP01-29 resize delegates stable API
+PASS GATE-EP01-30 resize no manager
+PASS GATE-EP01-31 resize no blob URL
+PASS GATE-EP01-32 resize no second pixel pipeline
+PASS GATE-EP01-33 preload begin
+PASS GATE-EP01-34 preload chunk
+PASS GATE-EP01-35 preload commit
+PASS GATE-EP01-36 preload abort
+PASS GATE-EP01-37 8MiB chunks
+PASS GATE-EP01-38 main begin
+PASS GATE-EP01-39 main chunk
+PASS GATE-EP01-40 main commit
+PASS GATE-EP01-41 main abort
+PASS GATE-EP01-42 fsync
+PASS GATE-EP01-43 atomic rename attempt
+PASS GATE-EP01-44 disk verification
+PASS GATE-EP01-45 path privacy
+PASS GATE-EP01-46 typed host save
+PASS GATE-EP01-47 renderer chunk digest
+PASS GATE-EP01-48 cancel fail closed
+PASS GATE-EP01-49 window stable contract
+PASS GATE-EP01-50 window save contract
+PASS GATE-EP01-51 module implementation
+PASS GATE-EP01-52 host injected
+PASS GATE-EP01-53 spec retained
+PASS GATE-EP01-54 promotion report generator
+PASS TDT-EXPORT-PROMOTION-01 54/54
+PASS RT-EW05-CONTAINER-SMOKE boxes=JXL ,ftyp,Exif,xml ,jxlc bytes=483
+PASS RT-EW06-JPEG-STRUCTURE bytes=151 SOF0/4:4:4
+PASS RT-EW07-PSD-CLOSURE cases=3 budget-reject=1 digest-reject=1 length-reject=1
+PASS TypeScript syntax 69 files
+PASS GATE-R1-ERROR-CODE stable error registry 242/242 referenced codes declared
+PASS EP01 promotion pointer source truth
+=== STRICT TYPESCRIPT ===
+PASS strict TypeScript closure
+=== LEGACY FACADE SMOKE ===
+[ΔK] Lazy encoder registered: jxl (priority 10)
+[ΔK] Lazy encoder registered: webp-lossless (priority 8)
+[ΔK] Lazy encoder registered: png (priority 1)
+[ΔK] Lazy encoder registered: psd (priority 3)
+[ΔK] Lazy encoder registered: png16 (priority 2)
+[ΔK] Lazy encoder registered: jpg (priority 5)
+[ΔK] Lazy encoder registered: jpeg (priority 5)
+[ΔK] Encoder registered: png (priority 999)
+{"status":"PASS","publicState":"RETIRED","adoptedCount":7,"appliedFormat":"png","implementationId":"export-manager-codec-host-ep01"}

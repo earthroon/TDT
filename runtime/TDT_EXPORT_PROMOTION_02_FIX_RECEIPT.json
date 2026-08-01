@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "buildId": "9589f94c2952ceaf55425a60",
+  "sourceBakeSeal": "7ed1786f63c03761c926d31a16ef0cf91dbf509925f859e116d7646c9a2bb869",
+  "candidateState": "SOURCE_BAKED_UNPROMOTED",
+  "toolchainProfileVerified": true,
+  "dependencyLockVerified": false,
+  "productionBuildVerified": false,
+  "emittedArtifactsVerified": false,
+  "packagedArtifactVerified": false,
+  "productionPromoted": false,
+  "productionPointerMutationPerformed": false,
+  "blockers": [
+    "DEPENDENCY_LOCK_MISMATCH",
+    "NATIVE_ADDON_MISSING"
+  ],
+  "buildAuthorityDigest": "c0a57d3fc93e19921e52b15116b94180113bf0e9c491f9a035e8f3423b8dac1b",
+  "toolchainProfileDigest": "267e6960598f8141f3b5c896528c6ae89d2fbb7356678d958ad1c63fd76e26dd",
+  "dependencyGraphDigest": "d5e03476389df21445dc11d6dcf6444e94349edd62a5e75c3c00be18ee32b140",
+  "patchDiffSha256": "112b7e5c2971cf6486176c116dfb57fa4b2f48ecfb69fea388909e075aa4b206",
+  "finalVerifySha256": "0a56263a2344370a5234035883e4a3026cce33f148bc41b4ed7b72ec34d54d97"
+}

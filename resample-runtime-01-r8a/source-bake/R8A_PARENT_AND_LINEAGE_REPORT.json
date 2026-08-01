@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "parentZip": "61_TDT_RESAMPLE_RUNTIME_01_R13_COHORT_ROLLOUT_PRIVACY_SOURCE_BAKED_AWAITING_FLEET.zip",
+  "parentZipSha256": "5d6d474f073357281199c739bbd6ea03ca97b55f426fae208bf043d5bff9b855",
+  "logicalCorrectionParent": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "repositoryApplicationParent": "TDT-RESAMPLE-RUNTIME-01-R13",
+  "targetState": "RESAMPLE_RUNTIME_R8A_ACTIVE_RUNTIME_TRUTH_CLOSURE_SEALED_AWAITING_R9A_PHYSICAL_GPU",
+  "mathFrozenFileCount": 13,
+  "historicalReceiptCount": 5,
+  "pointerMutationCount": 0,
+  "downstreamInvalidationReceipt": "artifacts/resample-runtime-01-r8a/source-bake/TDT_RESAMPLE_RUNTIME_01_R8A_DOWNSTREAM_INVALIDATION_RECEIPT.json",
+  "selfSha256": "bfff1340a0a16c1c4d2a4016d35337b4b26718e1c7986a898ca8c37551a4c51a"
+}

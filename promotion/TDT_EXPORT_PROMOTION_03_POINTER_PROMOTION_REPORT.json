@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_POINTER_PROMOTION_REPORT",
+  "status": "BLOCKED",
+  "verified": false,
+  "blockers": [
+    "cross-format-receipt-not-pass",
+    "production-pointer-not-mutated"
+  ],
+  "expectedPreviousPointerSha256": null,
+  "pointerMutationPerformed": false,
+  "compareAndSwapVerified": false
+}

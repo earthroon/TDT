@@ -1,0 +1,111 @@
+{
+  "canonicalHost": false,
+  "canonicalInputDigest": "6902f5172595df9f9e3f35381082885a2d964496524628d20e91402a0f44b1fd",
+  "canonicalToolchain": true,
+  "createdAt": "2026-07-26T07:27:40.891Z",
+  "directVersionsExact": true,
+  "nonExactDirectVersions": [],
+  "productionPointerPreflight": {
+    "digest": "b2d1dc61d1cd31defa26a8344c9bda6441d08e0fc64f580a8e056f2a1c98b6ed",
+    "records": [
+      {
+        "byteLength": 1379,
+        "exists": true,
+        "path": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+        "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      {
+        "byteLength": null,
+        "exists": false,
+        "path": "artifacts/promotion/active-build.json",
+        "sha256": null
+      },
+      {
+        "byteLength": null,
+        "exists": false,
+        "path": "artifacts/promotion/production-build.json",
+        "sha256": null
+      }
+    ]
+  },
+  "rootGraphExact": false,
+  "rootGraphMismatches": [
+    {
+      "actual": "^3.10.1",
+      "expected": "3.10.1",
+      "group": "dependencies",
+      "name": "jszip"
+    },
+    {
+      "actual": "^2.1.0",
+      "expected": "2.1.0",
+      "group": "dependencies",
+      "name": "pako"
+    },
+    {
+      "actual": null,
+      "expected": "3.0.1",
+      "group": "dependencies",
+      "name": "pinia"
+    },
+    {
+      "actual": "^0.33.2",
+      "expected": "0.33.2",
+      "group": "dependencies",
+      "name": "sharp"
+    },
+    {
+      "actual": null,
+      "expected": "3.5.40",
+      "group": "dependencies",
+      "name": "vue"
+    },
+    {
+      "actual": null,
+      "expected": "2.18.4",
+      "group": "devDependencies",
+      "name": "@napi-rs/cli"
+    },
+    {
+      "actual": null,
+      "expected": "6.0.7",
+      "group": "devDependencies",
+      "name": "@vitejs/plugin-vue"
+    },
+    {
+      "actual": "^29.0.0",
+      "expected": "29.0.0",
+      "group": "devDependencies",
+      "name": "electron"
+    },
+    {
+      "actual": "^24.13.3",
+      "expected": "24.13.3",
+      "group": "devDependencies",
+      "name": "electron-builder"
+    },
+    {
+      "actual": null,
+      "expected": "5.9.3",
+      "group": "devDependencies",
+      "name": "typescript"
+    },
+    {
+      "actual": null,
+      "expected": "8.1.5",
+      "group": "devDependencies",
+      "name": "vite"
+    },
+    {
+      "actual": null,
+      "expected": "3.2.2",
+      "group": "devDependencies",
+      "name": "vue-tsc"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfDigest": "b6e73a20a33ab819885454e670442e88e00b65496a71a4e1405cb8fe25be41ff",
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "state": "SOURCE_INPUT_AUDITED_UNPROMOTED",
+  "status": "BLOCKED"
+}

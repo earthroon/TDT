@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 verify:export-worker-03
+> node tools/gate-export-worker-03.mjs
+
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 93c7aa4dd5541eae0901adf1c23fcab19b7a0ab2c3943e385f3f452352405306

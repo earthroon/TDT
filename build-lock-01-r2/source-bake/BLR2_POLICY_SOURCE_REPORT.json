@@ -1,0 +1,25 @@
+{
+  "buildNetworkAllowed": false,
+  "canonical": {
+    "audit": false,
+    "buildNetworkAllowed": false,
+    "fund": false,
+    "installStrategy": "hoisted",
+    "locale": "C",
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "sourceDateEpoch": 1784937600,
+    "strictPeerDeps": true,
+    "targetArch": "x64",
+    "targetPlatform": "win32",
+    "timezone": "UTC"
+  },
+  "failCount": 0,
+  "lifecycleHardcodedCountTrusted": false,
+  "npmrcSha256": "4c5480f5812f38f1fd936d94d9741fd05517b3087489f40f4cc474a2c9af635a",
+  "passCount": 18,
+  "projectedEnvironmentDigest": "6dd153790a05ddf1767c9f093c601a45330cfc2605416070894211356b7c94c6",
+  "schemaVersion": 1,
+  "selfSha256": "9cc994c032a4e9d4b29dbf054341b356d9c3a4c4113b52a7f41fb5ee70ac55a2",
+  "toolchainProfileSha256": "cfe36b2ec5c025773dcaac5a563425908fd6c802bb9952d2b051434673e36dc2"
+}

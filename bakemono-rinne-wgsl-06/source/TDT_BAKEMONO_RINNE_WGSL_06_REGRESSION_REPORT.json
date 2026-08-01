@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.bkr06.regression-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-06",
+  "status": "PASS_WITH_SUPERSEDED_EXACT_VERIFIERS",
+  "wgsl06": {
+    "sourceGate": "256/256",
+    "authorityUnit": "PASS",
+    "typescriptNewErrors": 0
+  },
+  "wgsl03": {
+    "status": "PASS",
+    "sourceGate": "208/208"
+  },
+  "wgsl04": {
+    "preservedInvariantStatus": "PASS",
+    "legacyExactVerifierStatus": "SUPERSEDED_EXPECTATION",
+    "legacyExactVerifierPassCount": 218,
+    "legacyExactVerifierGateCount": 224,
+    "supersededRows": [
+      {
+        "id": "BKR04-REG-001",
+        "description": "Stack imports WGSL-04 family factory"
+      },
+      {
+        "id": "BKR04-REG-002",
+        "description": "Stack builds four families"
+      },
+      {
+        "id": "BKR04-REG-003",
+        "description": "Stack attaches effect family"
+      },
+      {
+        "id": "BKR04-REG-004",
+        "description": "Dispose cascades effect family"
+      },
+      {
+        "id": "BKR04-REG-006",
+        "description": "Registry requires effect family"
+      },
+      {
+        "id": "BKR04-REG-008",
+        "description": "Registry identity includes effect"
+      }
+    ],
+    "reason": "Product final family ownership moved from direct WGSL-04 family to WGSL-06 family.shadowV1 while WGSL-04 shadow implementation remains preserved."
+  },
+  "wgsl05": {
+    "sourceGateStatus": "PASS",
+    "sourceGate": "240/240",
+    "adoptionInvariantStatus": "PASS",
+    "legacyNegativeVerifierStatus": "SUPERSEDED_EXPECTATION",
+    "supersededRows": [
+      {
+        "id": "BKR05-NC-037",
+        "name": "retired upgradeWgsl04CandidateForFinalWgsl05 exact token"
+      }
+    ],
+    "reason": "CANONICAL_FINAL no longer upgrades a WGSL-04 candidate; WGSL-06 creates a final-admissible authority-field candidate directly and WGSL-05 adoption remains the final selector."
+  },
+  "r2r3": {
+    "preservedInvariantStatus": "PASS",
+    "legacyExactVerifierStatus": "SUPERSEDED_CHANGED_FILE_MANIFEST",
+    "legacyExactVerifierPassCount": 119,
+    "legacyExactVerifierGateCount": 120,
+    "supersededRow": "R2R3-S118 changed file manifest complete"
+  },
+  "activeGraph": {
+    "passCount": 30,
+    "deferredCount": 10,
+    "failCount": 0,
+    "state": "SOURCE_BAKED_AWAITING_PACKAGED_BASELINE"
+  },
+  "directInvariantChecks": {
+    "wgsl04ShadowV1Preserved": true,
+    "wgsl04CompatibilityFactoryPreserved": true,
+    "wgsl05AdoptionPreserved": true,
+    "r2r3FourFamilyContractPreserved": true,
+    "activeGraphNoFail": true
+  },
+  "historicalReceiptMutation": false,
+  "selfSha256": "ce0a5d88d34fbb3a833f9efd9b537865229704c2dd6b52b8689b30f48896415d"
+}

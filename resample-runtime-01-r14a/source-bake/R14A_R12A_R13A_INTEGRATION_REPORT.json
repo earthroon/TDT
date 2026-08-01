@@ -1,0 +1,11 @@
+{
+  "distributionAdmissionSha256": "baa67e94e32a001f653bd4c568137f671a40ceb04e0274c165469d32abd2c736",
+  "failCount": 0,
+  "launcherAdmissionEnforced": true,
+  "passCount": 5,
+  "productionPointerWriterCount": 0,
+  "r12aBindingSha256": "2e73c417d899e31a7dda5e8e981fd020a09e5faf1276e7b59c2d6400ba1283b6",
+  "r13aBindingSha256": "e09edbec234436cff764a4af9d2ab089226b4606ff7236996ebe6bddd59bcce4",
+  "schemaVersion": 1,
+  "selfSha256": "d614e6062d026b0c266f2b89936a6e2bfe251feb8741708f58c0f84d43e12ff7"
+}

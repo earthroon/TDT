@@ -1,0 +1,21 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-06",
+  "checks": {
+    "schema_has_split_to_legacy": true,
+    "schema_has_apply_split_to_legacy": true,
+    "ui_has_under_split_controls": true,
+    "ui_has_this_split_controls": true,
+    "ui_has_data_blendif_split_bindings": true,
+    "ui_calls_apply_split_to_legacy_compat": true,
+    "ui_calls_dk_bump_pipeline_rev_for_split": true,
+    "wgsl_split_mask_added": false,
+    "params_struct_changed": false,
+    "uniform_layout_changed": false,
+    "oklab_added": false,
+    "preset_migration_added": false,
+    "webgl_fallback_revived": false,
+    "qmap_feather_changed": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_06_SPLIT_UI_FOUR_HANDLE"
+}

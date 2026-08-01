@@ -1,0 +1,24 @@
+
+> dadumdadum@1.0.0 build:renderer
+> npm run verify:toolchain && npm run verify:dependency-lock && node tools/generate-runtime-worker-manifest.mjs && node tools/generate-runtime-manifest.mjs && vite build --config vite.config.ts --mode production && npm run generate:emitted-artifacts && npm run generate:production-runtime-manifest && npm run verify:emitted-artifacts && npm run verify:static-coi-routes
+
+
+> dadumdadum@1.0.0 verify:toolchain
+> node tools/verify-toolchain-profile.mjs
+
+PASS EP02-TOOLCHAIN profileId
+PASS EP02-TOOLCHAIN nodeVersion
+PASS EP02-TOOLCHAIN npmVersion
+PASS EP02-TOOLCHAIN packageManager
+PASS EP02-TOOLCHAIN engineNode
+PASS EP02-TOOLCHAIN engineNpm
+PASS EP02-TOOLCHAIN targetPlatform
+PASS EP02-TOOLCHAIN targetArch
+PASS EP02-TOOLCHAIN buildNetworkDisabled
+PASS TDT-EXPORT-PROMOTION-02 toolchain 267e6960598f8141f3b5c896528c6ae89d2fbb7356678d958ad1c63fd76e26dd
+
+> dadumdadum@1.0.0 verify:dependency-lock
+> node tools/verify-dependency-lock.mjs
+
+FAIL EP02 dependency lock rootExact=false exactDirect=true integrityMissing=0
+EXIT=1

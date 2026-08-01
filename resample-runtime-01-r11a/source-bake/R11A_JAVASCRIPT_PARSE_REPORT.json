@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "file": "electron.mjs",
+      "pass": true
+    },
+    {
+      "file": "preload.cjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/r11a-contract.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/crypto-utils.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/installed-release-admission.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/quarantine-ledger.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/main-session-authority.mjs",
+      "pass": true
+    },
+    {
+      "file": "app/features/resample-runtime/r11a/electron-admission-controller.mjs",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "schemaVersion": 1,
+  "selfSha256": "82b5835aa1ae8c820175c0f6a1a28c3e5a95ca0257ec2224325cd4b7896a1fdf"
+}

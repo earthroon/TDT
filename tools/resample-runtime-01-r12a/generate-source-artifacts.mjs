@@ -1,0 +1,12 @@
+import { read, sourceArtifact, seal, sha256File, check } from './lib.mjs';
+import { PATCH_ID, SPEC, SOURCE_PASS, INSTALLED_PENDING, SOURCE_STATE } from './identity.mjs';
+const text = read(SPEC);
+const rows = [...text.matchAll(/^#### (R12A-[SP]\d{3}) `([^`]+)`/gm)].map((match) => ({ id: match[1], requirement: match[2].trim() }));
+const sourceMandatory = rows.filter((row) => row.id.startsWith('R12A-S'));
+const installedMandatory = rows.filter((row) => row.id.startsWith('R12A-P'));
+check(sourceMandatory.length === SOURCE_PASS, 'E_R12A_FINAL_RECEIPT_INCOMPLETE', 'source gate count mismatch', sourceMandatory.length);
+check(installedMandatory.length === INSTALLED_PENDING, 'E_R12A_FINAL_RECEIPT_INCOMPLETE', 'installed gate count mismatch', installedMandatory.length);
+sourceArtifact('R12A_GATE_REQUIREMENTS.json', seal({ schemaVersion: 1, schemaId: 'tdt.resample.gate-catalog.r12a.v1', patchId: PATCH_ID, specSha256: sha256File(SPEC), sourceMandatory, installedMandatory }));
+sourceArtifact('R12A_INSTALLED_GATE_STATUS.json', seal({ schemaVersion: 1, schemaId: 'tdt.resample.installed-gate-status.r12a.v1', patchId: PATCH_ID, state: 'AWAITING_R10A_RELEASE_R11A_INSTALLED_AND_PACKAGED_UPDATE_EXECUTION', counts: { PASS: 0, PENDING: INSTALLED_PENDING, DEFERRED: 0, SKIPPED: 0, FAIL: 0 }, gates: installedMandatory.map((gate) => ({ ...gate, status: 'PENDING', evidence: null, reason: 'requires-R9A-physical-R10A-final-release-R11A-installed-session-controlled-transition-drain-local-pointer-CAS-stable-launcher-target-reattestation-and-interruption-recovery-drills' })) }));
+sourceArtifact('R12A_SOURCE_EXPECTED_STATE.json', seal({ schemaVersion: 1, patchId: PATCH_ID, state: SOURCE_STATE, counts: { PASS: SOURCE_PASS, PENDING: INSTALLED_PENDING, DEFERRED: 0, SKIPPED: 0, FAIL: 0 } }));
+console.log(`R12A gate catalog ${sourceMandatory.length} source / ${installedMandatory.length} installed`);

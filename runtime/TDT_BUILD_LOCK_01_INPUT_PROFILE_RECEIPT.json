@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "PASS",
+  "state": "INPUT_PROFILE_SEALED",
+  "mode": "recover",
+  "inputProfile": {
+    "schemaVersion": 1,
+    "profileId": "dadum.dependency-input.win32-x64-v1",
+    "nodeVersion": "22.16.0",
+    "npmVersion": "10.9.2",
+    "lockfileVersion": 3,
+    "targetPlatform": "win32",
+    "targetArch": "x64",
+    "installStrategy": "hoisted",
+    "directVersionPolicy": "exact-semver-v1",
+    "peerPolicy": "strict-no-legacy-v1",
+    "lifecyclePolicy": "ignore-all-during-lock-proof-v1",
+    "recoveryMode": "registry-online-then-frozen-cache-v1",
+    "logicalResolvedHostPolicy": "canonical-npmjs-v1",
+    "registryIdentityRef": "tools/registry-input-profile.json",
+    "cachePolicyId": "project-closure-frozen-cache-v1",
+    "networkPolicy": "registry-only-during-acquisition-v1",
+    "offlineReplayRequired": true,
+    "offlineReplayCount": 2,
+    "lockMutationPolicy": "raw-byte-zero-v1"
+  },
+  "registryProfileId": "dadum.registry-input-v1",
+  "toolchainProfileId": "dadum.production-toolchain-v1",
+  "inputDigests": {
+    "packageJsonSha256": "6c74a9ec64d918736103ef7d1550327b90d44c7e760e57ef4897f7ba0614f7cb",
+    "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+    "toolchainProfileSha256": "cfe36b2ec5c025773dcaac5a563425908fd6c802bb9952d2b051434673e36dc2",
+    "dependencyInputProfileSha256": "0f97163dbb9d958d8858e9e52540cd24f9958fafaa5a649eeec3a8595f448688",
+    "canonicalNpmrcSha256": "4c5480f5812f38f1fd936d94d9741fd05517b3087489f40f4cc474a2c9af635a",
+    "registryInputProfileSha256": "b67215168c1c1cb7710e12b2146c92fd71c920e67bf842c058efa0b90b6b2b10"
+  },
+  "sourceDirectDependencyCount": 12
+}

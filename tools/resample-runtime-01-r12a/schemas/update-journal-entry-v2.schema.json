@@ -1,0 +1,15 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/update-journal-entry-v2.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "sequence",
+    "updateTransactionId",
+    "phase",
+    "entrySha256"
+  ],
+  "title": "R12A update-journal-entry-v2",
+  "type": "object"
+}

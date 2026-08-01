@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "REG-r1a",
+      "message": "predecessor R1A gate rerun",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "REG-r1b",
+      "message": "predecessor R1B gate rerun",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "REG-r1c",
+      "message": "predecessor R1C gate rerun",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "REG-r1d",
+      "message": "predecessor R1D gate rerun",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "REG-r3",
+      "message": "predecessor R3 gate rerun with frozen evidence restored",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "REG-r2-frozen-assets",
+      "message": "R2 frozen product, validation, reference, profile, and parity assets remain byte-identical",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "REG-r3-frozen-evidence",
+      "message": "R3 frozen evidence remains byte-identical after rerun",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "schemaVersion": 1
+}

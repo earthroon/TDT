@@ -1,0 +1,28 @@
+{
+  "patchId": "TDT-EXPORT-WORKER-04",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "buildId": "22997b711a2f00ce5912c49e",
+  "generatedAt": "2026-07-24T15:23:36.631299Z",
+  "workerSourceManifestDigest": "230bd177fa54495b276913d1eb5702fa3b022b1420bed9bd396fdda468dae0f7",
+  "artifactVerificationMode": "source-graph-only",
+  "schema": "dadum-ew04-main-thread-byte-writer-report-v1",
+  "result": "PASS_SOURCE_GRAPH_ONLY",
+  "activePsdByteWriterRealm": "worker",
+  "activePsdByteWriterImplementation": "dadum.psd-source-reference-serializer-v2",
+  "canonicalWorkerId": "dadum.worker.encoder.psd-canonical-v1",
+  "mainThreadPsdByteWriterReachable": false,
+  "removedFromActivePath": [
+    "buildLayeredPSD8",
+    "injectResolutionResourceIntoPSD",
+    "manual 8BPS header writer",
+    "manual 8BIM resource writer",
+    "manual layer record writer"
+  ],
+  "rendererMainStillOwns": [
+    "RGBA8/RGBA16 plane split",
+    "LCMS RGB-to-CMYK transform",
+    "PSD Document Plan v2 construction"
+  ],
+  "truthBoundary": "Plane preparation may remain renderer-main in EW04; all PSD structure/resource/compression bytes must be produced in the canonical worker.",
+  "runtimeE2eVerified": false
+}

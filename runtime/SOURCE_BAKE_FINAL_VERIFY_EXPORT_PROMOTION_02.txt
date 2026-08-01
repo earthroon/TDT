@@ -1,0 +1,167 @@
+TDT-EXPORT-PROMOTION-02 FINAL SOURCE VERIFY
+timestampUtc=2026-07-25T05:01:16Z
+
+[TDT-EXPORT-PROMOTION-02] generated 5 worker descriptors 5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d
+[TDT-EXPORT-PROMOTION-02] generated build 9589f94c2952ceaf55425a60; lockConsistent=false
+[TDT-EXPORT-PROMOTION-02] generated 5 worker descriptors 5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d
+[TDT-EXPORT-PROMOTION-02] generated build 9589f94c2952ceaf55425a60; lockConsistent=false
+PASS manifest determinism buildId=9589f94c2952ceaf55425a60 runtimeSha=fa01e08d5dc90363a736a8be255bb0c41190766e69a2c26a1f200cb173a76b51 workerSha=df7caf7d6f9013e3efa0e52e752be10badd78c2e1134ae7e04195ed856f74929
+EP02_SOURCE_BAKE_SEAL=7ed1786f63c03761c926d31a16ef0cf91dbf509925f859e116d7646c9a2bb869
+PASS GATE-EP02-01 exact npm packageManager
+PASS GATE-EP02-02 exact node engine
+PASS GATE-EP02-03 exact npm engine
+PASS GATE-EP02-04 direct versions exact
+PASS GATE-EP02-05 toolchain profile id
+PASS GATE-EP02-06 canonical package target
+PASS GATE-EP02-07 offline build policy
+PASS GATE-EP02-08 dependency policy
+PASS GATE-EP02-09 zero policy exceptions
+PASS GATE-EP02-10 toolchain script
+PASS GATE-EP02-11 lock script
+PASS GATE-EP02-12 emitted generator script
+PASS GATE-EP02-13 production manifest script
+PASS GATE-EP02-14 route probe script
+PASS GATE-EP02-15 build starts with authority gates
+PASS GATE-EP02-16 production Vite mode
+PASS GATE-EP02-17 postbuild emitted manifest
+PASS GATE-EP02-18 postbuild emitted verify
+PASS GATE-EP02-19 postbuild COI probe
+PASS GATE-EP02-20 EP02 in full verify
+PASS GATE-EP02-21 unpacked canonical target
+PASS GATE-EP02-22 native package gate
+PASS GATE-EP02-23 package content generation
+PASS GATE-EP02-24 native release allowlist
+PASS GATE-EP02-25 broad native glob removed
+PASS GATE-EP02-26 minimal asar unpack
+PASS GATE-EP02-27 no implicit native rebuild
+PASS GATE-EP02-28 no node-gyp package rebuild
+PASS GATE-EP02-29 no source dependency rebuild
+PASS GATE-EP02-30 runtime patch identity
+PASS GATE-EP02-31 lock root exactness
+PASS GATE-EP02-32 transitive integrity check
+PASS GATE-EP02-33 toolchain in build identity
+PASS GATE-EP02-34 dependency digest in manifest
+PASS GATE-EP02-35 source manifest truth
+PASS GATE-EP02-36 source cannot self promote
+PASS GATE-EP02-37 Vite prebuild remains source mode
+PASS GATE-EP02-38 emitted mode generator
+PASS GATE-EP02-39 worker emitted closure digest
+PASS GATE-EP02-40 ambiguous worker fail closed
+PASS GATE-EP02-41 renderer build identity
+PASS GATE-EP02-42 runtime binds worker digest
+PASS GATE-EP02-43 runtime binds Vite digest
+PASS GATE-EP02-44 EP02 cannot final promote
+PASS GATE-EP02-45 COOP probe
+PASS GATE-EP02-46 COEP probe
+PASS GATE-EP02-47 WASM MIME probe
+PASS GATE-EP02-48 ICC MIME probe
+PASS GATE-EP02-49 PE x64 machine check
+PASS GATE-EP02-50 native addon discovery
+PASS GATE-EP02-51 release addon singularity
+PASS GATE-EP02-52 debug addon exclusion
+PASS GATE-EP02-53 ASAR authority
+PASS GATE-EP02-54 package content id
+PASS GATE-EP02-55 source/intermediate exclusion
+PASS GATE-EP02-56 package native singularity
+PASS GATE-EP02-57 lock receipt state
+PASS GATE-EP02-58 toolchain receipt state
+PASS GATE-EP02-59 production source manifest error
+PASS GATE-EP02-60 spec retained
+PASS TDT-EXPORT-PROMOTION-02 60/60
+PASS GATE-EP01-01 stable API id
+PASS GATE-EP01-02 stable API version
+PASS GATE-EP01-03 implementation id separate
+PASS GATE-EP01-04 no EW public API
+PASS GATE-EP01-05 no product blob URL
+PASS GATE-EP01-06 no URL result contract
+PASS GATE-EP01-07 host receipt result
+PASS GATE-EP01-08 host save authority call
+PASS GATE-EP01-09 retired facade receipt
+PASS GATE-EP01-10 whole build rollback
+PASS GATE-EP01-11 EP01 receipt schema
+PASS GATE-EP01-12 on disk digest evidence
+PASS GATE-EP01-13 path privacy digest
+PASS GATE-EP01-14 truthful source state
+PASS GATE-EP01-15 profile truth
+PASS GATE-EP01-16 codec host adoption
+PASS GATE-EP01-17 one time adoption call
+PASS GATE-EP01-18 facade lifecycle
+PASS GATE-EP01-19 sealed state
+PASS GATE-EP01-20 adopted state
+PASS GATE-EP01-21 retired tombstone
+PASS GATE-EP01-22 frozen tombstone
+PASS GATE-EP01-23 retired error
+PASS GATE-EP01-24 private codec host identity
+PASS GATE-EP01-25 main stable API check
+PASS GATE-EP01-26 main bridge no blob URL
+PASS GATE-EP01-27 main bridge no anchor click
+PASS GATE-EP01-28 main requires save receipt
+PASS GATE-EP01-29 resize delegates stable API
+PASS GATE-EP01-30 resize no manager
+PASS GATE-EP01-31 resize no blob URL
+PASS GATE-EP01-32 resize no second pixel pipeline
+PASS GATE-EP01-33 preload begin
+PASS GATE-EP01-34 preload chunk
+PASS GATE-EP01-35 preload commit
+PASS GATE-EP01-36 preload abort
+PASS GATE-EP01-37 8MiB chunks
+PASS GATE-EP01-38 main begin
+PASS GATE-EP01-39 main chunk
+PASS GATE-EP01-40 main commit
+PASS GATE-EP01-41 main abort
+PASS GATE-EP01-42 fsync
+PASS GATE-EP01-43 atomic rename attempt
+PASS GATE-EP01-44 disk verification
+PASS GATE-EP01-45 path privacy
+PASS GATE-EP01-46 typed host save
+PASS GATE-EP01-47 renderer chunk digest
+PASS GATE-EP01-48 cancel fail closed
+PASS GATE-EP01-49 window stable contract
+PASS GATE-EP01-50 window save contract
+PASS GATE-EP01-51 module implementation
+PASS GATE-EP01-52 host injected
+PASS GATE-EP01-53 spec retained
+PASS GATE-EP01-54 promotion report generator
+PASS TDT-EXPORT-PROMOTION-01 54/54
+PASS GATE-EW07-01..46 PSD Plane Split / LCMS / Memory / Color / Main-thread Isolation source seal; determinism 100/100 89c0fa7e3433904230744188f62226102afcd51baff6c472f161601e0229df36
+PASS GATE-EW06-01..44 MODJPEG dedicated Worker source seal; determinism 100/100 a96fc9db56134b9ae50a08be616bdba429f646ab310b688f23ef21f0d0997bb8
+PASS GATE-EW05-01..38 JXL canonical worker source seal; determinism 100/100 52a6d8c4855f4bea7d099473fa91aa100ccb5517e7e759ab01d6e21a89792ddf
+PASS GATE-EW04-01..32 PSD Canonical Serializer inheritance under EW07; determinism 100/100 50f30d1c3d9f52dfd680a45d8982081f5b5995ba4916e673e366f27f97b39b4d
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 02cfab6548c4eccf50599049be008be2db027b0955cd5020f56ffc530df4d7b2
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 c92bfa5aec39cfe4028989f4325e057852f39ef5e29e224fbec8ae5dcaf51741
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-R1-ERROR-CODE stable error registry 266/266 referenced codes declared
+PASS TypeScript syntax 69 files
+PASS EP01 promotion pointer source truth
+PASS changed JavaScript/MJS syntax
+exitCode=0
+EXPECTED BLOCKER: dependency lock verifier
+FAIL EP02 dependency lock rootExact=false exactDirect=true integrityMissing=0
+exitCode=1
+EXPECTED BLOCKER: production build attempt
+
+> dadumdadum@1.0.0 build:renderer
+> npm run verify:toolchain && npm run verify:dependency-lock && node tools/generate-runtime-worker-manifest.mjs && node tools/generate-runtime-manifest.mjs && vite build --config vite.config.ts --mode production && npm run generate:emitted-artifacts && npm run generate:production-runtime-manifest && npm run verify:emitted-artifacts && npm run verify:static-coi-routes
+
+
+> dadumdadum@1.0.0 verify:toolchain
+> node tools/verify-toolchain-profile.mjs
+
+PASS EP02-TOOLCHAIN profileId
+PASS EP02-TOOLCHAIN nodeVersion
+PASS EP02-TOOLCHAIN npmVersion
+PASS EP02-TOOLCHAIN packageManager
+PASS EP02-TOOLCHAIN engineNode
+PASS EP02-TOOLCHAIN engineNpm
+PASS EP02-TOOLCHAIN targetPlatform
+PASS EP02-TOOLCHAIN targetArch
+PASS EP02-TOOLCHAIN buildNetworkDisabled
+PASS TDT-EXPORT-PROMOTION-02 toolchain 267e6960598f8141f3b5c896528c6ae89d2fbb7356678d958ad1c63fd76e26dd
+
+> dadumdadum@1.0.0 verify:dependency-lock
+> node tools/verify-dependency-lock.mjs
+
+FAIL EP02 dependency lock rootExact=false exactDirect=true integrityMissing=0
+exitCode=1
+PASS source-baked fail-closed boundary preserved

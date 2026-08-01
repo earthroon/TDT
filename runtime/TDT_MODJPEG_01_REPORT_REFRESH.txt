@@ -1,0 +1,22 @@
+=== regenerate manifests ===
+[TDT-MODJPEG-01] generated 5 worker descriptors 30738be8f28c6a6006ad29c16268c7123ae9af8de596b88db0f1eae188bcfc9f
+[TDT-EXPORT-PROMOTION-03] generated build 96511c9cdb32f7bc496cc4f1; lockConsistent=false
+PASS BUILD-EMIT-01 legacy static admission 214/1171 12c13ca2288fffb7407c7490102dfdca58c81a8fcb199c43c7b3b6c9bb6e22d8
+=== refresh modjpeg + ep03 reports ===
+file:///mnt/data/tdt_modjpeg_01_bake/tools/verify-modjpeg-canonical-artifact.mjs:19
+ canonicalAdoptionEligible:pthreadPoolSize===8&&pthreadSymbolCount>0&&childWorkerReferenceCount>0&&/shared:true/.test(glue)&&missingAbi.length===0,
+                                                ^
+
+ReferenceError: pthreadSymbolCount is not defined
+    at file:///mnt/data/tdt_modjpeg_01_bake/tools/verify-modjpeg-canonical-artifact.mjs:19:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.16.0
+PASS TDT-MODJPEG-01 source reports 12
+BLOCKED EP03 runtime promotion; baseBlockers=3; crossBlockers=10
+PASS EP03 receipt references conserved; promotionStatus=BLOCKED
+EP03_BUILD_ID=96511c9cdb32f7bc496cc4f1
+EP03_SOURCE_BAKE_SEAL=f1cd7f614380c17a0ab9a257227dab21e9e6862675a15fae5cf88f51df8f050b
+EP03_POINTER_SHA256=051199205c070d78b311a0aee18a3fb4b9196df5f4ec56af68ebfeadd29f2016

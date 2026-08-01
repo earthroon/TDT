@@ -1,0 +1,1039 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-QWAVE-PHASE-03",
+  "state": "QWAVE_PHASE_03_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "pass": 192,
+  "deferred": 12,
+  "fail": 0,
+  "failCount": 0,
+  "counts": {
+    "PASS": 192,
+    "DEFERRED": 12,
+    "FAIL": 0
+  },
+  "gates": [
+    {
+      "gateId": "QP03-001",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-service.ts"
+    },
+    {
+      "gateId": "QP03-002",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-types.ts"
+    },
+    {
+      "gateId": "QP03-003",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-parameters.ts"
+    },
+    {
+      "gateId": "QP03-004",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-job-arena.ts"
+    },
+    {
+      "gateId": "QP03-005",
+      "status": "PASS",
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-receipt.ts"
+    },
+    {
+      "gateId": "QP03-006",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/qwave_phase_bridge.mjs"
+    },
+    {
+      "gateId": "QP03-007",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js"
+    },
+    {
+      "gateId": "QP03-008",
+      "status": "PASS",
+      "detail": "specs/TDT-QWAVE-PHASE-03_ANALYTIC_QWAVE_COMPLEX_FIELD_SOURCE_SELECTABLE_IMAGINARY_COMPONENT_VISUAL_WAVE_SEPARATION_SEAL_SPEC.md"
+    },
+    {
+      "gateId": "QP03-009",
+      "status": "PASS",
+      "detail": "tdt.analysis.qwave.real-delta-k-compat.v1"
+    },
+    {
+      "gateId": "QP03-010",
+      "status": "PASS",
+      "detail": "tdt.analysis.qwave.imaginary-component.v1"
+    },
+    {
+      "gateId": "QP03-011",
+      "status": "PASS",
+      "detail": "tdt.analysis.qwave.analytic-complex.v2"
+    },
+    {
+      "gateId": "QP03-012",
+      "status": "PASS",
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "gateId": "QP03-013",
+      "status": "PASS",
+      "detail": "visual semantic present"
+    },
+    {
+      "gateId": "QP03-014",
+      "status": "PASS",
+      "detail": "tdt-qwave-analytic-complex-v2"
+    },
+    {
+      "gateId": "QP03-015",
+      "status": "PASS",
+      "detail": "canonical"
+    },
+    {
+      "gateId": "QP03-016",
+      "status": "PASS",
+      "detail": "3.0.0"
+    },
+    {
+      "gateId": "QP03-017",
+      "status": "PASS",
+      "detail": "tdt.analysis.qwave.real-delta-k-compat.v1"
+    },
+    {
+      "gateId": "QP03-018",
+      "status": "PASS",
+      "detail": "tdt.analysis.qwave.imaginary-component.v1"
+    },
+    {
+      "gateId": "QP03-019",
+      "status": "PASS",
+      "detail": "tdt.analysis.qwave.analytic-complex.v2"
+    },
+    {
+      "gateId": "QP03-020",
+      "status": "PASS",
+      "detail": "local-anisotropy-compat"
+    },
+    {
+      "gateId": "QP03-021",
+      "status": "PASS",
+      "detail": "spectral-quadrature"
+    },
+    {
+      "gateId": "QP03-022",
+      "status": "PASS",
+      "detail": "hannakairo-defect"
+    },
+    {
+      "gateId": "QP03-023",
+      "status": "PASS",
+      "detail": "tensor-curvature"
+    },
+    {
+      "gateId": "QP03-024",
+      "status": "PASS",
+      "detail": "hilbert-quadrature"
+    },
+    {
+      "gateId": "QP03-025",
+      "status": "PASS",
+      "detail": "publishRealDeltaKCompatibility"
+    },
+    {
+      "gateId": "QP03-026",
+      "status": "PASS",
+      "detail": "buildAnalyticQWave"
+    },
+    {
+      "gateId": "QP03-027",
+      "status": "PASS",
+      "detail": "buildLegacyRg"
+    },
+    {
+      "gateId": "QP03-028",
+      "status": "PASS",
+      "detail": "publishFieldSet"
+    },
+    {
+      "gateId": "QP03-029",
+      "status": "PASS",
+      "detail": "intermediatePixelReadbackCount:0"
+    },
+    {
+      "gateId": "QP03-030",
+      "status": "PASS",
+      "detail": "visualWaveSeparated:true"
+    },
+    {
+      "gateId": "QP03-031",
+      "status": "PASS",
+      "detail": "principalRoot:true"
+    },
+    {
+      "gateId": "QP03-032",
+      "status": "PASS",
+      "detail": "E_QWAVE_IMAGINARY_SOURCE_NOT_PROMOTED"
+    },
+    {
+      "gateId": "QP03-033",
+      "status": "PASS",
+      "detail": "sourceMode:p.sourceMode"
+    },
+    {
+      "gateId": "QP03-034",
+      "status": "PASS",
+      "detail": "imaginaryGain"
+    },
+    {
+      "gateId": "QP03-035",
+      "status": "PASS",
+      "detail": "localAnisotropyScale"
+    },
+    {
+      "gateId": "QP03-036",
+      "status": "PASS",
+      "detail": "defectScale"
+    },
+    {
+      "gateId": "QP03-037",
+      "status": "PASS",
+      "detail": "curvatureScale"
+    },
+    {
+      "gateId": "QP03-038",
+      "status": "PASS",
+      "detail": "imaginaryClamp"
+    },
+    {
+      "gateId": "QP03-039",
+      "status": "PASS",
+      "detail": "epsilon"
+    },
+    {
+      "gateId": "QP03-040",
+      "status": "PASS",
+      "detail": "parameterDigest"
+    },
+    {
+      "gateId": "QP03-041",
+      "status": "PASS",
+      "detail": "principalRootBranch"
+    },
+    {
+      "gateId": "QP03-042",
+      "status": "PASS",
+      "detail": "dispatchCount:2"
+    },
+    {
+      "gateId": "QP03-043",
+      "status": "PASS",
+      "detail": "queueSubmissionCount:1"
+    },
+    {
+      "gateId": "QP03-044",
+      "status": "PASS",
+      "detail": "intermediateReadbackCount:0"
+    },
+    {
+      "gateId": "QP03-045",
+      "status": "PASS",
+      "detail": "atomicFieldSetPublication:true"
+    },
+    {
+      "gateId": "QP03-046",
+      "status": "PASS",
+      "detail": "visualWaveSeparated:true"
+    },
+    {
+      "gateId": "QP03-047",
+      "status": "PASS",
+      "detail": "qwave-imag-local-aniso-v3"
+    },
+    {
+      "gateId": "QP03-048",
+      "status": "PASS",
+      "detail": "qwave-imag-spectral-project-v3"
+    },
+    {
+      "gateId": "QP03-049",
+      "status": "PASS",
+      "detail": "qwave-imag-defect-project-v3"
+    },
+    {
+      "gateId": "QP03-050",
+      "status": "PASS",
+      "detail": "qwave-imag-curvature-v3"
+    },
+    {
+      "gateId": "QP03-051",
+      "status": "PASS",
+      "detail": "qwave-imag-hilbert-v3"
+    },
+    {
+      "gateId": "QP03-052",
+      "status": "PASS",
+      "detail": "qwave-analytic-principal-sqrt-v3"
+    },
+    {
+      "gateId": "QP03-053",
+      "status": "PASS",
+      "detail": "qwave-analytic-to-rg-compat-v3"
+    },
+    {
+      "gateId": "QP03-054",
+      "status": "PASS",
+      "detail": "qwave-analytic-fixture-generator-v3"
+    },
+    {
+      "gateId": "QP03-055",
+      "status": "PASS",
+      "detail": "qwave-analytic-reference-polar-v3"
+    },
+    {
+      "gateId": "QP03-056",
+      "status": "PASS",
+      "detail": "qwave-analytic-compare-v3"
+    },
+    {
+      "gateId": "QP03-057",
+      "status": "PASS",
+      "detail": "qwave-source-selection-counter-v3"
+    },
+    {
+      "gateId": "QP03-058",
+      "status": "PASS",
+      "detail": "service token"
+    },
+    {
+      "gateId": "QP03-059",
+      "status": "PASS",
+      "detail": "service registration"
+    },
+    {
+      "gateId": "QP03-060",
+      "status": "PASS",
+      "detail": "module declaration"
+    },
+    {
+      "gateId": "QP03-061",
+      "status": "PASS",
+      "detail": "capability"
+    },
+    {
+      "gateId": "QP03-062",
+      "status": "PASS",
+      "detail": "legacy dependency"
+    },
+    {
+      "gateId": "QP03-063",
+      "status": "PASS",
+      "detail": "global bridge"
+    },
+    {
+      "gateId": "QP03-064",
+      "status": "PASS",
+      "detail": "GPU owner admitted"
+    },
+    {
+      "gateId": "QP03-065",
+      "status": "PASS",
+      "detail": "E_QWAVE_BRIDGE_COLLISION"
+    },
+    {
+      "gateId": "QP03-066",
+      "status": "PASS",
+      "detail": "E_QWAVE_SERVICE_NOT_ACTIVE"
+    },
+    {
+      "gateId": "QP03-067",
+      "status": "PASS",
+      "detail": "E_QWAVE_CANCELLED"
+    },
+    {
+      "gateId": "QP03-068",
+      "status": "PASS",
+      "detail": "E_QWAVE_INPUT_REAL_REQUIRED"
+    },
+    {
+      "gateId": "QP03-069",
+      "status": "PASS",
+      "detail": "E_QWAVE_SOURCE_MODE_INVALID"
+    },
+    {
+      "gateId": "QP03-070",
+      "status": "PASS",
+      "detail": "E_QWAVE_SOURCE_SEMANTIC_MISMATCH"
+    },
+    {
+      "gateId": "QP03-071",
+      "status": "PASS",
+      "detail": "E_QWAVE_SOURCE_IDENTITY_MISMATCH"
+    },
+    {
+      "gateId": "QP03-072",
+      "status": "PASS",
+      "detail": "E_QWAVE_LAYOUT_RECEIPT_REQUIRED"
+    },
+    {
+      "gateId": "QP03-073",
+      "status": "PASS",
+      "detail": "E_QWAVE_LAYOUT_DIGEST_MISMATCH"
+    },
+    {
+      "gateId": "QP03-074",
+      "status": "PASS",
+      "detail": "E_QWAVE_IMAGINARY_SOURCE_NOT_PROMOTED"
+    },
+    {
+      "gateId": "QP03-075",
+      "status": "PASS",
+      "detail": "E_QWAVE_COMPATIBILITY_ADAPTER_INVALID"
+    },
+    {
+      "gateId": "QP03-076",
+      "status": "PASS",
+      "detail": "E_QWAVE_VISUAL_BRIDGE_UNAVAILABLE"
+    },
+    {
+      "gateId": "QP03-077",
+      "status": "PASS",
+      "detail": "canonical real and analytic bridge"
+    },
+    {
+      "gateId": "QP03-078",
+      "status": "PASS",
+      "detail": "old embedded shader retired"
+    },
+    {
+      "gateId": "QP03-079",
+      "status": "PASS",
+      "detail": "visual namespace"
+    },
+    {
+      "gateId": "QP03-080",
+      "status": "PASS",
+      "detail": "no visual bitmap CPU sampling"
+    },
+    {
+      "gateId": "QP03-081",
+      "status": "PASS",
+      "detail": "no visual overlay Kelvin readback"
+    },
+    {
+      "gateId": "QP03-082",
+      "status": "PASS",
+      "detail": "explicit Kelvin"
+    },
+    {
+      "gateId": "QP03-083",
+      "status": "PASS",
+      "detail": "analysis time-independent"
+    },
+    {
+      "gateId": "QP03-084",
+      "status": "PASS",
+      "detail": "analysis Kelvin-free"
+    },
+    {
+      "gateId": "QP03-085",
+      "status": "PASS",
+      "detail": "analysis no Canvas/WebGL"
+    },
+    {
+      "gateId": "QP03-086",
+      "status": "PASS",
+      "detail": "zero readback source"
+    },
+    {
+      "gateId": "QP03-087",
+      "status": "PASS",
+      "detail": "real field remains GPU resident with exact format"
+    },
+    {
+      "gateId": "QP03-088",
+      "status": "PASS",
+      "detail": "imaginary and analytic fields publish atomically"
+    },
+    {
+      "gateId": "QP03-089",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-local-aniso.wgsl"
+    },
+    {
+      "gateId": "QP03-090",
+      "status": "PASS",
+      "detail": "qwave-imag-local-aniso.wgsl"
+    },
+    {
+      "gateId": "QP03-091",
+      "status": "PASS",
+      "detail": "qwave-imag-local-aniso.wgsl"
+    },
+    {
+      "gateId": "QP03-092",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-spectral-project.wgsl"
+    },
+    {
+      "gateId": "QP03-093",
+      "status": "PASS",
+      "detail": "qwave-imag-spectral-project.wgsl"
+    },
+    {
+      "gateId": "QP03-094",
+      "status": "PASS",
+      "detail": "qwave-imag-spectral-project.wgsl"
+    },
+    {
+      "gateId": "QP03-095",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-defect-project.wgsl"
+    },
+    {
+      "gateId": "QP03-096",
+      "status": "PASS",
+      "detail": "qwave-imag-defect-project.wgsl"
+    },
+    {
+      "gateId": "QP03-097",
+      "status": "PASS",
+      "detail": "qwave-imag-defect-project.wgsl"
+    },
+    {
+      "gateId": "QP03-098",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-curvature.wgsl"
+    },
+    {
+      "gateId": "QP03-099",
+      "status": "PASS",
+      "detail": "qwave-imag-curvature.wgsl"
+    },
+    {
+      "gateId": "QP03-100",
+      "status": "PASS",
+      "detail": "qwave-imag-curvature.wgsl"
+    },
+    {
+      "gateId": "QP03-101",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-hilbert.wgsl"
+    },
+    {
+      "gateId": "QP03-102",
+      "status": "PASS",
+      "detail": "qwave-imag-hilbert.wgsl"
+    },
+    {
+      "gateId": "QP03-103",
+      "status": "PASS",
+      "detail": "qwave-imag-hilbert.wgsl"
+    },
+    {
+      "gateId": "QP03-104",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-principal-sqrt.wgsl"
+    },
+    {
+      "gateId": "QP03-105",
+      "status": "PASS",
+      "detail": "qwave-analytic-principal-sqrt.wgsl"
+    },
+    {
+      "gateId": "QP03-106",
+      "status": "PASS",
+      "detail": "qwave-analytic-principal-sqrt.wgsl"
+    },
+    {
+      "gateId": "QP03-107",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-to-rg-compat.wgsl"
+    },
+    {
+      "gateId": "QP03-108",
+      "status": "PASS",
+      "detail": "qwave-analytic-to-rg-compat.wgsl"
+    },
+    {
+      "gateId": "QP03-109",
+      "status": "PASS",
+      "detail": "qwave-analytic-to-rg-compat.wgsl"
+    },
+    {
+      "gateId": "QP03-110",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-fixture-generator.wgsl"
+    },
+    {
+      "gateId": "QP03-111",
+      "status": "PASS",
+      "detail": "qwave-analytic-fixture-generator.wgsl"
+    },
+    {
+      "gateId": "QP03-112",
+      "status": "PASS",
+      "detail": "qwave-analytic-fixture-generator.wgsl"
+    },
+    {
+      "gateId": "QP03-113",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-reference-polar.wgsl"
+    },
+    {
+      "gateId": "QP03-114",
+      "status": "PASS",
+      "detail": "qwave-analytic-reference-polar.wgsl"
+    },
+    {
+      "gateId": "QP03-115",
+      "status": "PASS",
+      "detail": "qwave-analytic-reference-polar.wgsl"
+    },
+    {
+      "gateId": "QP03-116",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-compare.wgsl"
+    },
+    {
+      "gateId": "QP03-117",
+      "status": "PASS",
+      "detail": "qwave-analytic-compare.wgsl"
+    },
+    {
+      "gateId": "QP03-118",
+      "status": "PASS",
+      "detail": "qwave-analytic-compare.wgsl"
+    },
+    {
+      "gateId": "QP03-119",
+      "status": "PASS",
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-source-selection-counter.wgsl"
+    },
+    {
+      "gateId": "QP03-120",
+      "status": "PASS",
+      "detail": "qwave-source-selection-counter.wgsl"
+    },
+    {
+      "gateId": "QP03-121",
+      "status": "PASS",
+      "detail": "qwave-source-selection-counter.wgsl"
+    },
+    {
+      "gateId": "QP03-122",
+      "status": "PASS",
+      "detail": "WGSL assets contain no host readback API tokens"
+    },
+    {
+      "gateId": "QP03-123",
+      "status": "PASS",
+      "detail": "abs(gx)+abs(gy)"
+    },
+    {
+      "gateId": "QP03-124",
+      "status": "PASS",
+      "detail": "p.scale"
+    },
+    {
+      "gateId": "QP03-125",
+      "status": "PASS",
+      "detail": "p.gain"
+    },
+    {
+      "gateId": "QP03-126",
+      "status": "PASS",
+      "detail": "p.clampValue"
+    },
+    {
+      "gateId": "QP03-127",
+      "status": "PASS",
+      "detail": "textureStore"
+    },
+    {
+      "gateId": "QP03-128",
+      "status": "PASS",
+      "detail": "var v=vec2<f32>(0.)"
+    },
+    {
+      "gateId": "QP03-129",
+      "status": "PASS",
+      "detail": "s.xy*w"
+    },
+    {
+      "gateId": "QP03-130",
+      "status": "PASS",
+      "detail": "s.z*w"
+    },
+    {
+      "gateId": "QP03-131",
+      "status": "PASS",
+      "detail": "q.y"
+    },
+    {
+      "gateId": "QP03-132",
+      "status": "PASS",
+      "detail": "window"
+    },
+    {
+      "gateId": "QP03-133",
+      "status": "PASS",
+      "detail": "signed"
+    },
+    {
+      "gateId": "QP03-134",
+      "status": "PASS",
+      "detail": "d.r*d.b"
+    },
+    {
+      "gateId": "QP03-135",
+      "status": "PASS",
+      "detail": "sum/conf"
+    },
+    {
+      "gateId": "QP03-136",
+      "status": "PASS",
+      "detail": "p.defectScale"
+    },
+    {
+      "gateId": "QP03-137",
+      "status": "PASS",
+      "detail": "textureStore"
+    },
+    {
+      "gateId": "QP03-138",
+      "status": "PASS",
+      "detail": "r=sqrt(a.r*a.r+b.r*b.r)"
+    },
+    {
+      "gateId": "QP03-139",
+      "status": "PASS",
+      "detail": "u=sqrt(max(0.,.5*(r+a.r)))"
+    },
+    {
+      "gateId": "QP03-140",
+      "status": "PASS",
+      "detail": "select(-1.,1.,b.r>=0.)"
+    },
+    {
+      "gateId": "QP03-141",
+      "status": "PASS",
+      "detail": "sqrt(max(r,0.))"
+    },
+    {
+      "gateId": "QP03-142",
+      "status": "PASS",
+      "detail": "vec4<f32>(0.,1.,0.,0.)"
+    },
+    {
+      "gateId": "QP03-143",
+      "status": "PASS",
+      "detail": "min(a.g,b.b)"
+    },
+    {
+      "gateId": "QP03-144",
+      "status": "PASS",
+      "detail": "atan2(a.b,a.g)"
+    },
+    {
+      "gateId": "QP03-145",
+      "status": "PASS",
+      "detail": "phase01"
+    },
+    {
+      "gateId": "QP03-146",
+      "status": "PASS",
+      "detail": "b.g"
+    },
+    {
+      "gateId": "QP03-147",
+      "status": "PASS",
+      "detail": "clamp(a.r,0.,1.)"
+    },
+    {
+      "gateId": "QP03-148",
+      "status": "PASS",
+      "detail": "atan2(z.y,z.x)"
+    },
+    {
+      "gateId": "QP03-149",
+      "status": "PASS",
+      "detail": "sqrt(length(z))"
+    },
+    {
+      "gateId": "QP03-150",
+      "status": "PASS",
+      "detail": ".5*atan2"
+    },
+    {
+      "gateId": "QP03-151",
+      "status": "PASS",
+      "detail": "cos(t)"
+    },
+    {
+      "gateId": "QP03-152",
+      "status": "PASS",
+      "detail": "sin(t)"
+    },
+    {
+      "gateId": "QP03-153",
+      "status": "PASS",
+      "detail": "atomicAdd"
+    },
+    {
+      "gateId": "QP03-154",
+      "status": "PASS",
+      "detail": "atomicMin"
+    },
+    {
+      "gateId": "QP03-155",
+      "status": "PASS",
+      "detail": "isFinite"
+    },
+    {
+      "gateId": "QP03-156",
+      "status": "PASS",
+      "detail": "1e-5"
+    },
+    {
+      "gateId": "QP03-157",
+      "status": "PASS",
+      "detail": "p.mode<5u"
+    },
+    {
+      "gateId": "QP03-158",
+      "status": "PASS",
+      "detail": "atomicAdd(&counts[p.mode],1u)"
+    },
+    {
+      "gateId": "QP03-159",
+      "status": "PASS",
+      "detail": "product root independent from polar reference"
+    },
+    {
+      "gateId": "QP03-160",
+      "status": "PASS",
+      "detail": "independent polar reference"
+    },
+    {
+      "gateId": "QP03-161",
+      "status": "PASS",
+      "detail": "{\"q\":[2,1,0,1,2,0],\"z\":[4,0]}"
+    },
+    {
+      "gateId": "QP03-162",
+      "status": "PASS",
+      "detail": "{\"q\":[2,0,1,1,0,2],\"z\":[-4,0]}"
+    },
+    {
+      "gateId": "QP03-163",
+      "status": "PASS",
+      "detail": "{\"q\":[2,0.7071067811865475,0.7071067811865475,1,1.4142135623730951,1.4142135623730951],\"z\":[0,4.000000000000001]}"
+    },
+    {
+      "gateId": "QP03-164",
+      "status": "PASS",
+      "detail": "{\"q\":[2,0.7071067811865475,-0.7071067811865475,1,1.4142135623730951,-1.4142135623730951],\"z\":[0,-4.000000000000001]}"
+    },
+    {
+      "gateId": "QP03-165",
+      "status": "PASS",
+      "detail": "{\"q\":[2.23606797749979,0.8944271909999159,0.4472135954999579,1,2,1],\"z\":[3,4]}"
+    },
+    {
+      "gateId": "QP03-166",
+      "status": "PASS",
+      "detail": "{\"q\":[2.23606797749979,0.4472135954999579,0.8944271909999159,1,1,2],\"z\":[-3,4]}"
+    },
+    {
+      "gateId": "QP03-167",
+      "status": "PASS",
+      "detail": "{\"q\":[0.00011892071150027212,0.9238795325112867,0.38268343236508984,1,0.000109868411346781,0.00004550898605622274],\"z\":[1e-8,1.0000000000000002e-8]}"
+    },
+    {
+      "gateId": "QP03-168",
+      "status": "PASS",
+      "detail": "{\"q\":[0,1,0,1,0,0],\"z\":[0,0]}"
+    },
+    {
+      "gateId": "QP03-169",
+      "status": "PASS",
+      "detail": "[2,0,1,1,0,2]"
+    },
+    {
+      "gateId": "QP03-170",
+      "status": "PASS",
+      "detail": "[2.0000000003125,0.000012500000515174184,-0.9999999999218752,1,0.000025000001034254616,-2.00000000015625]"
+    },
+    {
+      "gateId": "QP03-171",
+      "status": "PASS",
+      "detail": "[2,1,0,1,2,0]"
+    },
+    {
+      "gateId": "QP03-172",
+      "status": "PASS",
+      "detail": "[0,1,0,1,0,0]"
+    },
+    {
+      "gateId": "QP03-173",
+      "status": "PASS",
+      "detail": "invalid"
+    },
+    {
+      "gateId": "QP03-174",
+      "status": "PASS",
+      "detail": "sqrt(abs Z)"
+    },
+    {
+      "gateId": "QP03-175",
+      "status": "PASS",
+      "detail": "flat"
+    },
+    {
+      "gateId": "QP03-176",
+      "status": "PASS",
+      "detail": "gradient"
+    },
+    {
+      "gateId": "QP03-177",
+      "status": "PASS",
+      "detail": "clamp"
+    },
+    {
+      "gateId": "QP03-178",
+      "status": "PASS",
+      "detail": "sin phase"
+    },
+    {
+      "gateId": "QP03-179",
+      "status": "PASS",
+      "detail": "signed"
+    },
+    {
+      "gateId": "QP03-180",
+      "status": "PASS",
+      "detail": "invalid"
+    },
+    {
+      "gateId": "QP03-181",
+      "status": "PASS",
+      "detail": "positive"
+    },
+    {
+      "gateId": "QP03-182",
+      "status": "PASS",
+      "detail": "negative"
+    },
+    {
+      "gateId": "QP03-183",
+      "status": "PASS",
+      "detail": "zero"
+    },
+    {
+      "gateId": "QP03-184",
+      "status": "PASS",
+      "detail": "unit"
+    },
+    {
+      "gateId": "QP03-185",
+      "status": "PASS",
+      "detail": "cos phase neutral"
+    },
+    {
+      "gateId": "QP03-186",
+      "status": "PASS",
+      "detail": "one source"
+    },
+    {
+      "gateId": "QP03-187",
+      "status": "PASS",
+      "detail": "submission ledger zero"
+    },
+    {
+      "gateId": "QP03-188",
+      "status": "PASS",
+      "detail": "analysis parameters omit time"
+    },
+    {
+      "gateId": "QP03-189",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-190",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-191",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-192",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-193",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-194",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-195",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-196",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-197",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-198",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-199",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-200",
+      "status": "DEFERRED",
+      "detail": "Physical WebGPU / Packaged Electron evidence required"
+    },
+    {
+      "gateId": "QP03-201",
+      "status": "PASS",
+      "detail": "analysis parameters omit Kelvin"
+    },
+    {
+      "gateId": "QP03-202",
+      "status": "PASS",
+      "detail": "phase01"
+    },
+    {
+      "gateId": "QP03-203",
+      "status": "PASS",
+      "detail": "AQ"
+    },
+    {
+      "gateId": "QP03-204",
+      "status": "PASS",
+      "detail": "312816aef2a49843c699c8774e4cab542c97fea25d6aba8e7901024e5d0fce57"
+    }
+  ],
+  "physicalGpuClaims": false,
+  "productionPointerMutation": false,
+  "gateDigest": "b6ff0d7641aadbc1ddb67f6c62bc44228d09e2584eb94ac684ed51e6abb4f693"
+}

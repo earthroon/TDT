@@ -1,0 +1,28 @@
+{
+  "awaiting": [
+    "TDT-RESAMPLE-RUNTIME-01-R9A-PHYSICAL",
+    "TDT-RESAMPLE-RUNTIME-01-R10A-RELEASE",
+    "TDT-RESAMPLE-RUNTIME-01-R11A",
+    "TDT-RESAMPLE-RUNTIME-01-R12A",
+    "TDT-RESAMPLE-RUNTIME-01-R13A"
+  ],
+  "currentAuthority": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "currentReceipts": [
+    "TDT-RESAMPLE-RUNTIME-01-R8A-SOURCE",
+    "TDT-RESAMPLE-RUNTIME-01-R9A-SOURCE"
+  ],
+  "historicalPassCarryForward": 0,
+  "localActivationPointerMutated": false,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "productionPointerMutated": false,
+  "schemaId": "tdt.resample.downstream-lineage-status.r10a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "2cd9049208e8c7ded76a6cfa59dba046a2fbdde78e74b676fa497e07886f8734",
+  "superseded": [
+    "TDT-RESAMPLE-RUNTIME-01-R9",
+    "TDT-RESAMPLE-RUNTIME-01-R10",
+    "TDT-RESAMPLE-RUNTIME-01-R11",
+    "TDT-RESAMPLE-RUNTIME-01-R12",
+    "TDT-RESAMPLE-RUNTIME-01-R13"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "INPUT_PROFILE_SEALED",
+  "startedAt": "2026-07-25T05:56:10.187Z",
+  "completedAt": "2026-07-25T05:56:13.445Z",
+  "canonicalHost": false,
+  "inputDigest": "88bab96d99cb2e31534b14f6e49dd014b03a0c2fb185840c50aba25dd29d263f",
+  "originalAuthorityMutationZero": true,
+  "oldLockMismatchCount": 12,
+  "registryStatus": "BLOCKED",
+  "candidateStatus": "BLOCKED",
+  "cacheStatus": "BLOCKED",
+  "offlineCiAStatus": "BLOCKED",
+  "offlineCiBStatus": "BLOCKED",
+  "reproducibilityStatus": "BLOCKED",
+  "promotionStatus": "BLOCKED",
+  "blockers": [
+    "E_BUILD_LOCK_REGISTRY_UNAVAILABLE"
+  ],
+  "productionPointerMutationPerformed": false,
+  "finalReceiptDigest": "aabc8b3f59326f6df07bdd3d5ab4363ecc8b25e9776d72deddd52844c0f671aa",
+  "buildId": "504fb9a14ff3026416a33b41",
+  "buildAuthorityDigest": "6a1b3ce0b25db34ca260ba5838be3d1fb4edb04f4ab096b85d5803d0a364d6bb",
+  "sourceGraphDigest": "80afa71e093828b857813c190f85b5bb9c72e9fb0bb9b07852cc1c71f9b0e11a",
+  "runtimeManifestDigest": "4b7878158f31fd1fd84cc658238759b5a80fc347e83aa1ee3d5f04c3661a02d9",
+  "workerManifestDigest": "5907e0b385aad556076bf82b49276936d61387161145a7fda2aac38e9f1c8a4d",
+  "sourceBakeSeal": "40958ee29c6c74179bfde8d06a7ad5d375ee6b0825ea27be825b32d2ab1eda8c",
+  "sourceBakeSealPayloadSha256": "f1f5adf9d67a11020c99047ae5133546b2bf90e45a5b917502d75ad4509d798e"
+}

@@ -1,0 +1,59 @@
+
+> dadumdadum@1.0.0 verify:export-promotion-01
+> node tools/gate-export-promotion-01.mjs
+
+PASS GATE-EP01-01 stable API id
+PASS GATE-EP01-02 stable API version
+PASS GATE-EP01-03 implementation id separate
+PASS GATE-EP01-04 no EW public API
+PASS GATE-EP01-05 no product blob URL
+PASS GATE-EP01-06 no URL result contract
+PASS GATE-EP01-07 host receipt result
+PASS GATE-EP01-08 host save authority call
+PASS GATE-EP01-09 retired facade receipt
+PASS GATE-EP01-10 whole build rollback
+PASS GATE-EP01-11 EP01 receipt schema
+PASS GATE-EP01-12 on disk digest evidence
+PASS GATE-EP01-13 path privacy digest
+PASS GATE-EP01-14 truthful source state
+PASS GATE-EP01-15 profile truth
+PASS GATE-EP01-16 codec host adoption
+PASS GATE-EP01-17 one time adoption call
+PASS GATE-EP01-18 facade lifecycle
+PASS GATE-EP01-19 sealed state
+PASS GATE-EP01-20 adopted state
+PASS GATE-EP01-21 retired tombstone
+PASS GATE-EP01-22 frozen tombstone
+PASS GATE-EP01-23 retired error
+PASS GATE-EP01-24 private codec host identity
+PASS GATE-EP01-25 main stable API check
+PASS GATE-EP01-26 main bridge no blob URL
+PASS GATE-EP01-27 main bridge no anchor click
+PASS GATE-EP01-28 main requires save receipt
+PASS GATE-EP01-29 resize delegates stable API
+PASS GATE-EP01-30 resize no manager
+PASS GATE-EP01-31 resize no blob URL
+PASS GATE-EP01-32 resize no second pixel pipeline
+PASS GATE-EP01-33 preload begin
+PASS GATE-EP01-34 preload chunk
+PASS GATE-EP01-35 preload commit
+PASS GATE-EP01-36 preload abort
+PASS GATE-EP01-37 8MiB chunks
+PASS GATE-EP01-38 main begin
+PASS GATE-EP01-39 main chunk
+PASS GATE-EP01-40 main commit
+PASS GATE-EP01-41 main abort
+PASS GATE-EP01-42 fsync
+PASS GATE-EP01-43 atomic rename attempt
+PASS GATE-EP01-44 disk verification
+PASS GATE-EP01-45 path privacy
+PASS GATE-EP01-46 typed host save
+PASS GATE-EP01-47 renderer chunk digest
+PASS GATE-EP01-48 cancel fail closed
+PASS GATE-EP01-49 window stable contract
+PASS GATE-EP01-50 window save contract
+PASS GATE-EP01-51 module implementation
+PASS GATE-EP01-52 host injected
+PASS GATE-EP01-53 spec retained
+PASS GATE-EP01-54 promotion report generator
+PASS TDT-EXPORT-PROMOTION-01 54/54

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 20,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "plan-8x8",
+      "pass": true
+    },
+    {
+      "name": "plan-rectangular",
+      "pass": true
+    },
+    {
+      "name": "plan-deterministic",
+      "pass": true
+    },
+    {
+      "name": "reject-non-power-two",
+      "pass": true
+    },
+    {
+      "name": "reject-size",
+      "pass": true
+    },
+    {
+      "name": "reject-empty",
+      "pass": true
+    },
+    {
+      "name": "reject-buffer-limit",
+      "pass": true
+    },
+    {
+      "name": "stockham-impulse-8",
+      "pass": true
+    },
+    {
+      "name": "stockham-complex-16",
+      "pass": true
+    },
+    {
+      "name": "transpose-roundtrip",
+      "pass": true
+    },
+    {
+      "name": "fft2-8x8-dft",
+      "pass": true
+    },
+    {
+      "name": "fft2-8x16-dft",
+      "pass": true
+    },
+    {
+      "name": "natural-dc",
+      "pass": true
+    },
+    {
+      "name": "zero-readback-ledger",
+      "pass": true
+    },
+    {
+      "name": "lifecycle-transfer",
+      "pass": true
+    },
+    {
+      "name": "cancel-fail-closed",
+      "pass": true
+    },
+    {
+      "name": "validation-deferred",
+      "pass": true
+    },
+    {
+      "name": "product-input-is-handle",
+      "pass": true
+    },
+    {
+      "name": "output-semantic",
+      "pass": true
+    },
+    {
+      "name": "no-cpu-product-fallback",
+      "pass": true
+    }
+  ],
+  "physicalGpuClaims": false
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "sourceParentZipSha256": "6b6d7e403d4d289c43c28956b74df5c272da7138055fd180df671a5a5298fa63",
+  "fileCount": 15,
+  "files": [
+    "package.json",
+    "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_contract.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs",
+    "app/src/legacy/generated-legacy-static-admission.json",
+    "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+    "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+    "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+    "artifacts/active-graph-01/source-bake/dynamic-asset-manifest-receipt.json",
+    "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+    "artifacts/active-graph-01/source-bake/edge-manifest.json",
+    "artifacts/active-graph-01/source-bake/source-authority.json",
+    "artifacts/active-graph-01/source-bake/randomness-audit.json",
+    "artifacts/active-graph-01/source-bake/node-manifest.json"
+  ]
+}

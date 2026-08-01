@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "partitionId": "tdt.package.test-partition.resample-r9.v1",
+  "productionAuthority": false,
+  "entryHtml": "renderer/physical-r9/index.html",
+  "entryModule": "app/renderer/physical-r9/physical-runner.mjs",
+  "guard": "app/electron/r9-physical-e2e-guard.mjs",
+  "environmentSwitch": "DADUM_R9_PHYSICAL_MODE=1",
+  "networkPolicy": "loopback-only",
+  "sourceTreeAccess": false,
+  "devServerAllowed": false,
+  "runtimeAssets": [
+    "R8 product R4",
+    "R8 product R6",
+    "R8 direct reference",
+    "R8 validation R4",
+    "R8 validation R6",
+    "R8 source preparation",
+    "R8 residual",
+    "R8 finalization"
+  ]
+}

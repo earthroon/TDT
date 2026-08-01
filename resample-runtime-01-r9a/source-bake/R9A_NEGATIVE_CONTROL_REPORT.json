@@ -1,0 +1,21 @@
+{
+  "controls": {
+    "doubleSubmitRejected": true,
+    "foreignEncoderRejected": true,
+    "inferredZeroRejected": true,
+    "misalignedOffsetRejected": true,
+    "performanceRegressionRejected": true,
+    "stageFenceRejected": true,
+    "stageSubmitRejected": true,
+    "staleTicketRejected": true,
+    "supersededReceiptRejected": true,
+    "uniformOverwriteRejected": true,
+    "validationDoubleDispatchRejected": true
+  },
+  "count": 13,
+  "exhausted": "E_R9A_UNIFORM_RING_EXHAUSTED",
+  "nonzero": "E_R9A_VALIDATION_COUNTER_NONZERO",
+  "pass": true,
+  "schemaVersion": 1,
+  "selfSha256": "a5f1941c74238c52d63c69d4c3f9017f329bf3041f54ce75a9de46c0245f7014"
+}

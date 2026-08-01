@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r2.implementation-manifest.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2",
+  "files": [
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-codec.mjs",
+      "byteLength": 4874,
+      "sha256": "196cfe1f2b4312640f4e247b85dfe36d1800329c6fc7f903b420db6940753413"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/owner-binding.mjs",
+      "byteLength": 3828,
+      "sha256": "7bff3ea02cba450da744468b8c43f8de5d020db65fe5753a2037aea1110e68df"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/permit-authority.mjs",
+      "byteLength": 26427,
+      "sha256": "8327f1f21aedc356cd0b6dedd33c60356aefacf27517a9aeea14fe68174f39df"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r2-r2/evidence-finalizer.mjs",
+      "byteLength": 1094,
+      "sha256": "6df7b3baa0c061ed2baa74209bab1b2e835c4cfc2d0bdfc91ec6af10d5304d76"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "byteLength": 17160,
+      "sha256": "b16bfd66cfa3bbef952326ab126c0bccee0a308074da167ef99d2110de6e26cc"
+    },
+    {
+      "rel": "preload.cjs",
+      "byteLength": 5980,
+      "sha256": "3dd8dd13cd083c617a359ef11038f0519ac015f222210cb5f7989e8ce9af7b30"
+    },
+    {
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts",
+      "byteLength": 8430,
+      "sha256": "3a65db173153c82538f361ca5ff77e0152893ddce9228d0c38f667105d099157"
+    },
+    {
+      "rel": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "byteLength": 29551,
+      "sha256": "0a7dbfc8ece949be2fb0c940c282be87a0e5652b52637c29fd467a782bde8649"
+    },
+    {
+      "rel": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "byteLength": 18615,
+      "sha256": "cd642d26e1fa619e120659cbf5784392bcb6f2913dba4a0c63a5680869b263d1"
+    },
+    {
+      "rel": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "byteLength": 37805,
+      "sha256": "dbf0a8a83f242923865d98ebed1cff9025fd1010d1191d7928d83913b310357f"
+    },
+    {
+      "rel": "app/src/boot/stable-error.ts",
+      "byteLength": 36525,
+      "sha256": "c9e661948ee9e2a950ada327291f56d983787ca9ad67b331b9a3b5249458c0b0"
+    },
+    {
+      "rel": "app/src/env.d.ts",
+      "byteLength": 18574,
+      "sha256": "67617705b4fc4ab4dd6899736528d6e8c096388d9f77e04126dad74c331be7e7"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2_JIT_CONTROLLED_LOSS_PERMIT_FULL_FIELD_SENDER_OWNERSHIP_SINGLE_USE_TOMBSTONE_SEAL_SPEC.md",
+      "byteLength": 54031,
+      "sha256": "81abf90aecd2f1c814b9a9a94eb6fc98ded4cea4490c77655f76bdb17707162b"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2_JIT_CONTROLLED_LOSS_PERMIT_FULL_FIELD_SENDER_OWNERSHIP_SINGLE_USE_TOMBSTONE_SEAL_SPEC.md.sha256",
+      "byteLength": 65,
+      "sha256": "4cd7eb92e3fed058a6e79d85630c5d8e155c53ce64e661f22827e0317a1910ac"
+    },
+    {
+      "rel": "README_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R2_APPLIED.md",
+      "byteLength": 1529,
+      "sha256": "4908aaf3fb3efc123d56ade2910208c3f0d7aa0a8372362df54fce302b87f138"
+    },
+    {
+      "rel": "package.json",
+      "byteLength": 48495,
+      "sha256": "9c2d34c883c68aec41715ee3a4baadf40e7e56afeb4814b32e169ab0283d2843"
+    },
+    {
+      "rel": "app/electron/resample-runtime-r9a-p1-r1/qualification-boot-authority.mjs",
+      "byteLength": 8377,
+      "sha256": "0e472b8e0f4cde41fd381d2e1357bfc88b333a12e4e127b5d7b73ce707920b86"
+    },
+    {
+      "rel": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "byteLength": 276042,
+      "sha256": "48e7262a0687e0e554272715d9b6efee197962e9ab817cf6d3c158514d46c374"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r1/verify-source.mjs",
+      "byteLength": 40459,
+      "sha256": "9c5caa55a6ecc2f09ca9b92c6167cf76162995bfa71fa980770a3ccfc5d21a76"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r2/verify-source.mjs",
+      "byteLength": 20021,
+      "sha256": "7f6fc42057b939427893c1c018fcca045711f289ecee9d90d57eb6c9b3fa1167"
+    },
+    {
+      "rel": "tools/resample-runtime-01-r9a-p1-r2-r2/verify-packaged.mjs",
+      "byteLength": 4392,
+      "sha256": "acb97d2dd6def384f8d5125f97e2e629163b0484da627f1f657468a962a0c967"
+    }
+  ],
+  "authoritySnapshotDigest": "79b940c830a52fdebde69c70e944c033e2d7fc726caf45cabf571aabc8f41295",
+  "sourceGateCount": 120
+}

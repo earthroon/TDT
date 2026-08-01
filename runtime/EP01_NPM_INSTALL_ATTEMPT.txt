@@ -1,0 +1,22 @@
+=== npm install --ignore-scripts attempt ===
+result: FAILED
+reason: internal npm registry returned HTTP 503 while fetching pinia@3.0.1
+0 verbose cli /opt/nvm/versions/node/v22.16.0/bin/node /opt/nvm/versions/node/v22.16.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/data/tdt_export_promotion_01_bake/.npmrc
+5 silly config load:file:/home/oai/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--ignore-scripts" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/home/oai/.npm/_logs/2026-07-24T17_35_02_673Z-
+10 verbose logfile /home/oai/.npm/_logs/2026-07-24T17_35_02_673Z-debug-0.log
+11 silly logfile start cleaning logs, removing 3 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest pinia@3.0.1
+16 silly packumentCache full:https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/pinia cache-miss
+17 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/pinia attempt 1 failed with 503
+18 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/pinia attempt 2 failed with 503

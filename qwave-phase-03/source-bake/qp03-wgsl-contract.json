@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 72,
+  "passed": 72,
+  "failed": [],
+  "checks": [
+    {
+      "name": "exists:qwave-imag-local-aniso.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-local-aniso.wgsl"
+    },
+    {
+      "name": "compute:qwave-imag-local-aniso.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-local-aniso.wgsl"
+    },
+    {
+      "name": "balanced:qwave-imag-local-aniso.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-local-aniso.wgsl"
+    },
+    {
+      "name": "exists:qwave-imag-spectral-project.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-spectral-project.wgsl"
+    },
+    {
+      "name": "compute:qwave-imag-spectral-project.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-spectral-project.wgsl"
+    },
+    {
+      "name": "balanced:qwave-imag-spectral-project.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-spectral-project.wgsl"
+    },
+    {
+      "name": "exists:qwave-imag-defect-project.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-defect-project.wgsl"
+    },
+    {
+      "name": "compute:qwave-imag-defect-project.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-defect-project.wgsl"
+    },
+    {
+      "name": "balanced:qwave-imag-defect-project.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-defect-project.wgsl"
+    },
+    {
+      "name": "exists:qwave-imag-curvature.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-curvature.wgsl"
+    },
+    {
+      "name": "compute:qwave-imag-curvature.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-curvature.wgsl"
+    },
+    {
+      "name": "balanced:qwave-imag-curvature.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-curvature.wgsl"
+    },
+    {
+      "name": "exists:qwave-imag-hilbert.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-imag-hilbert.wgsl"
+    },
+    {
+      "name": "compute:qwave-imag-hilbert.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-hilbert.wgsl"
+    },
+    {
+      "name": "balanced:qwave-imag-hilbert.wgsl",
+      "pass": true,
+      "detail": "qwave-imag-hilbert.wgsl"
+    },
+    {
+      "name": "exists:qwave-analytic-principal-sqrt.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-principal-sqrt.wgsl"
+    },
+    {
+      "name": "compute:qwave-analytic-principal-sqrt.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-principal-sqrt.wgsl"
+    },
+    {
+      "name": "balanced:qwave-analytic-principal-sqrt.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-principal-sqrt.wgsl"
+    },
+    {
+      "name": "exists:qwave-analytic-to-rg-compat.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-to-rg-compat.wgsl"
+    },
+    {
+      "name": "compute:qwave-analytic-to-rg-compat.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-to-rg-compat.wgsl"
+    },
+    {
+      "name": "balanced:qwave-analytic-to-rg-compat.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-to-rg-compat.wgsl"
+    },
+    {
+      "name": "exists:qwave-analytic-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-fixture-generator.wgsl"
+    },
+    {
+      "name": "compute:qwave-analytic-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-fixture-generator.wgsl"
+    },
+    {
+      "name": "balanced:qwave-analytic-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-fixture-generator.wgsl"
+    },
+    {
+      "name": "exists:qwave-analytic-reference-polar.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-reference-polar.wgsl"
+    },
+    {
+      "name": "compute:qwave-analytic-reference-polar.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-reference-polar.wgsl"
+    },
+    {
+      "name": "balanced:qwave-analytic-reference-polar.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-reference-polar.wgsl"
+    },
+    {
+      "name": "exists:qwave-analytic-compare.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-analytic-compare.wgsl"
+    },
+    {
+      "name": "compute:qwave-analytic-compare.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-compare.wgsl"
+    },
+    {
+      "name": "balanced:qwave-analytic-compare.wgsl",
+      "pass": true,
+      "detail": "qwave-analytic-compare.wgsl"
+    },
+    {
+      "name": "exists:qwave-source-selection-counter.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/shaders/qwave-source-selection-counter.wgsl"
+    },
+    {
+      "name": "compute:qwave-source-selection-counter.wgsl",
+      "pass": true,
+      "detail": "qwave-source-selection-counter.wgsl"
+    },
+    {
+      "name": "balanced:qwave-source-selection-counter.wgsl",
+      "pass": true,
+      "detail": "qwave-source-selection-counter.wgsl"
+    },
+    {
+      "name": "all-wgsl-no-host-readback-api",
+      "pass": true,
+      "detail": "WGSL assets contain no host readback API tokens"
+    },
+    {
+      "name": "local:abs(gx)+abs(gy)",
+      "pass": true,
+      "detail": "abs(gx)+abs(gy)"
+    },
+    {
+      "name": "local:p.scale",
+      "pass": true,
+      "detail": "p.scale"
+    },
+    {
+      "name": "local:p.gain",
+      "pass": true,
+      "detail": "p.gain"
+    },
+    {
+      "name": "local:p.clampValue",
+      "pass": true,
+      "detail": "p.clampValue"
+    },
+    {
+      "name": "local:textureStore",
+      "pass": true,
+      "detail": "textureStore"
+    },
+    {
+      "name": "spectral:var v=vec2<f32>(0.)",
+      "pass": true,
+      "detail": "var v=vec2<f32>(0.)"
+    },
+    {
+      "name": "spectral:s.xy*w",
+      "pass": true,
+      "detail": "s.xy*w"
+    },
+    {
+      "name": "spectral:s.z*w",
+      "pass": true,
+      "detail": "s.z*w"
+    },
+    {
+      "name": "spectral:q.y",
+      "pass": true,
+      "detail": "q.y"
+    },
+    {
+      "name": "spectral:window",
+      "pass": true,
+      "detail": "window"
+    },
+    {
+      "name": "defect:signed",
+      "pass": true,
+      "detail": "signed"
+    },
+    {
+      "name": "defect:d.r*d.b",
+      "pass": true,
+      "detail": "d.r*d.b"
+    },
+    {
+      "name": "defect:sum/conf",
+      "pass": true,
+      "detail": "sum/conf"
+    },
+    {
+      "name": "defect:p.defectScale",
+      "pass": true,
+      "detail": "p.defectScale"
+    },
+    {
+      "name": "defect:textureStore",
+      "pass": true,
+      "detail": "textureStore"
+    },
+    {
+      "name": "sqrt:r=sqrt(a.r*a.r+b.r*b.r)",
+      "pass": true,
+      "detail": "r=sqrt(a.r*a.r+b.r*b.r)"
+    },
+    {
+      "name": "sqrt:u=sqrt(max(0.,.5*(r+a.r)))",
+      "pass": true,
+      "detail": "u=sqrt(max(0.,.5*(r+a.r)))"
+    },
+    {
+      "name": "sqrt:select(-1.,1.,b.r>=0.)",
+      "pass": true,
+      "detail": "select(-1.,1.,b.r>=0.)"
+    },
+    {
+      "name": "sqrt:sqrt(max(r,0.))",
+      "pass": true,
+      "detail": "sqrt(max(r,0.))"
+    },
+    {
+      "name": "sqrt:vec4<f32>(0.,1.,0.,0.)",
+      "pass": true,
+      "detail": "vec4<f32>(0.,1.,0.,0.)"
+    },
+    {
+      "name": "sqrt:min(a.g,b.b)",
+      "pass": true,
+      "detail": "min(a.g,b.b)"
+    },
+    {
+      "name": "compat:atan2(a.b,a.g)",
+      "pass": true,
+      "detail": "atan2(a.b,a.g)"
+    },
+    {
+      "name": "compat:phase01",
+      "pass": true,
+      "detail": "phase01"
+    },
+    {
+      "name": "compat:b.g",
+      "pass": true,
+      "detail": "b.g"
+    },
+    {
+      "name": "compat:clamp(a.r,0.,1.)",
+      "pass": true,
+      "detail": "clamp(a.r,0.,1.)"
+    },
+    {
+      "name": "reference:atan2(z.y,z.x)",
+      "pass": true,
+      "detail": "atan2(z.y,z.x)"
+    },
+    {
+      "name": "reference:sqrt(length(z))",
+      "pass": true,
+      "detail": "sqrt(length(z))"
+    },
+    {
+      "name": "reference:.5*atan2",
+      "pass": true,
+      "detail": ".5*atan2"
+    },
+    {
+      "name": "reference:cos(t)",
+      "pass": true,
+      "detail": "cos(t)"
+    },
+    {
+      "name": "reference:sin(t)",
+      "pass": true,
+      "detail": "sin(t)"
+    },
+    {
+      "name": "compare:atomicAdd",
+      "pass": true,
+      "detail": "atomicAdd"
+    },
+    {
+      "name": "compare:atomicMin",
+      "pass": true,
+      "detail": "atomicMin"
+    },
+    {
+      "name": "compare:isFinite",
+      "pass": true,
+      "detail": "isFinite"
+    },
+    {
+      "name": "compare:1e-5",
+      "pass": true,
+      "detail": "1e-5"
+    },
+    {
+      "name": "counter:p.mode<5u",
+      "pass": true,
+      "detail": "p.mode<5u"
+    },
+    {
+      "name": "counter:atomicAdd(&counts[p.mode],1u)",
+      "pass": true,
+      "detail": "atomicAdd(&counts[p.mode],1u)"
+    },
+    {
+      "name": "principal-no-atan2",
+      "pass": true,
+      "detail": "product root independent from polar reference"
+    },
+    {
+      "name": "reference-no-closed-form",
+      "pass": true,
+      "detail": "independent polar reference"
+    }
+  ],
+  "digest": "b12196b7ced1a80770137841631bccf2fff5f5eec6cec68653942c529583f6b9"
+}

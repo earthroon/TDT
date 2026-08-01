@@ -1,0 +1,13 @@
+{
+  "edges": 407,
+  "graphSha256": "2e0db4fa7e457f3d066071a1b7f9c5979c9740e78db7778f5a7d7fbddca8a592",
+  "nodes": 390,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "requiredEdgeCount": 4,
+  "requiredNodeCount": 4,
+  "roots": 56,
+  "schemaVersion": 1,
+  "selfSha256": "dea7992214d12b45fbd04441e87aa9cc0bde65bd7ab92e4bd60c80174604f375",
+  "sourceReceiptSha256": "9e87612561f0e8a70c7f109e08fa7945a6dead7fd2c4f1dfdc73d3201e3943a1"
+}

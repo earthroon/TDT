@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "pass": true,
+  "checks": [
+    {
+      "id": "major-bound-no-clamp",
+      "pass": true,
+      "value": {
+        "schemaVersion": 1,
+        "schemaId": "tdt.ewa.support-envelope.r8.v1",
+        "sourceWidth": 200,
+        "sourceHeight": 200,
+        "outputWidth": 100,
+        "outputHeight": 100,
+        "srcPerDstX": 2,
+        "srcPerDstY": 2,
+        "scaleBound": 2,
+        "sigmaMain": 1.25,
+        "sigmaCross": 0.65,
+        "shrinkClamp": 2.5,
+        "minorCoverageFactor": 0.82,
+        "maxAnisotropy": 3,
+        "rootAnisotropyBound": 1.7320508075688772,
+        "policyFootprintBound": 1,
+        "majorBound": 4.330127018922193,
+        "minorBound": 1.3,
+        "requiredRadius": 4.330127018922193,
+        "requiredReach": 5,
+        "scaleTInequalityWitness": 2,
+        "scaleNInequalityWitness": 2
+      }
+    },
+    {
+      "id": "minor-bound-anisotropy-independent",
+      "pass": true,
+      "value": 4
+    },
+    {
+      "id": "shrink-conflict",
+      "pass": true,
+      "value": "E_R8_SHRINK_CLAMP_CONFLICT"
+    },
+    {
+      "id": "unsupported",
+      "pass": true,
+      "value": "E_R8_SUPPORT_UNSUPPORTED"
+    },
+    {
+      "id": "policy-bound",
+      "pass": true,
+      "value": 1.5
+    },
+    {
+      "id": "planner-v3",
+      "pass": true,
+      "value": {
+        "stageCount": 2,
+        "stages": [
+          [
+            1024,
+            512,
+            5,
+            "R6"
+          ],
+          [
+            512,
+            256,
+            5,
+            "R6"
+          ]
+        ],
+        "planDigest": "bdb2cfaba29226e80320883b1efb9bdeac7652c0d2fd47ebef0b5920b0e6efbf"
+      }
+    },
+    {
+      "id": "upscale-reject",
+      "pass": true
+    },
+    {
+      "id": "profile-r4-r6",
+      "pass": true,
+      "value": [
+        4,
+        5
+      ]
+    }
+  ]
+}

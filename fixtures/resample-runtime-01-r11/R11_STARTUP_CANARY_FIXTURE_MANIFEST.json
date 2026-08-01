@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.resample-runtime.startup-canary-fixture-manifest.r11.v1",
+  "fixtureSetId": "tdt.resample-runtime.startup-canary-fixtures.r11.v1",
+  "fixtures": [
+    {
+      "id": "r4-constant-dc",
+      "profile": "R4",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "r4-fractional-impulse",
+      "profile": "R4",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "r6-anisotropic-diagonal",
+      "profile": "R6",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "border-corner",
+      "profile": "R6",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "alpha-edge",
+      "profile": "R4",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "neutral-policy",
+      "profile": "R4",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "residual-disabled",
+      "profile": "R6",
+      "source": "synthetic",
+      "userContent": false
+    },
+    {
+      "id": "counter-positive-control",
+      "profile": "R4",
+      "source": "synthetic",
+      "userContent": false
+    }
+  ]
+}

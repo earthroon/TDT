@@ -1,0 +1,1510 @@
+{
+  "sourceMandatory": [
+    {
+      "id": "R11-S001",
+      "requirement": "PARENT_BUNDLE_PRESENT"
+    },
+    {
+      "id": "R11-S002",
+      "requirement": "PARENT_BUNDLE_SHA256_EXACT"
+    },
+    {
+      "id": "R11-S003",
+      "requirement": "R10_SPEC_PRESENT"
+    },
+    {
+      "id": "R11-S004",
+      "requirement": "R10_SPEC_SHA256_EXACT"
+    },
+    {
+      "id": "R11-S005",
+      "requirement": "R10_SOURCE_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R11-S006",
+      "requirement": "R10_SOURCE_RECEIPT_SHA256_EXACT"
+    },
+    {
+      "id": "R11-S007",
+      "requirement": "R10_SOURCE_STATE_EXACT"
+    },
+    {
+      "id": "R11-S008",
+      "requirement": "R10_SOURCE_PASS_129"
+    },
+    {
+      "id": "R11-S009",
+      "requirement": "R10_RELEASE_PENDING_202"
+    },
+    {
+      "id": "R11-S010",
+      "requirement": "R10_FAIL_ZERO"
+    },
+    {
+      "id": "R11-S011",
+      "requirement": "R10_POINTER_NOT_MUTATED"
+    },
+    {
+      "id": "R11-S012",
+      "requirement": "POINTER_MIRRORS_PRESENT"
+    },
+    {
+      "id": "R11-S013",
+      "requirement": "POINTER_MIRRORS_BYTE_EQUAL"
+    },
+    {
+      "id": "R11-S014",
+      "requirement": "POINTER_RAW_SHA256_EXACT"
+    },
+    {
+      "id": "R11-S015",
+      "requirement": "POINTER_SCHEMA_V2_READABLE"
+    },
+    {
+      "id": "R11-S016",
+      "requirement": "POINTER_ACTIVE_NULL_RECORDED"
+    },
+    {
+      "id": "R11-S017",
+      "requirement": "R10_FINAL_RELEASE_ABSENT_RECORDED"
+    },
+    {
+      "id": "R11-S018",
+      "requirement": "R11_REQUIRED_PREDECESSOR_DECLARED"
+    },
+    {
+      "id": "R11-S019",
+      "requirement": "R11_SCOPE_EXCLUDES_POINTER_WRITE"
+    },
+    {
+      "id": "R11-S020",
+      "requirement": "R11_PARENT_FREEZE_MANIFEST_SEALED"
+    },
+    {
+      "id": "R11-S021",
+      "requirement": "INSTALLED_ATTESTATION_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S022",
+      "requirement": "EXPECTED_MANIFEST_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S023",
+      "requirement": "STARTUP_CANARY_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S024",
+      "requirement": "SESSION_TOKEN_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S025",
+      "requirement": "DRIFT_LEDGER_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S026",
+      "requirement": "QUARANTINE_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S027",
+      "requirement": "ROLLBACK_RECOMMENDATION_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S028",
+      "requirement": "FINAL_RECEIPT_SCHEMA_ID"
+    },
+    {
+      "id": "R11-S029",
+      "requirement": "RUNTIME_ADMISSION_TOKEN_VERSION"
+    },
+    {
+      "id": "R11-S030",
+      "requirement": "CANARY_FIXTURE_SET_ID"
+    },
+    {
+      "id": "R11-S031",
+      "requirement": "POLICY_PROFILE_ID"
+    },
+    {
+      "id": "R11-S032",
+      "requirement": "POINTER_AUTHORITY_ID"
+    },
+    {
+      "id": "R11-S033",
+      "requirement": "RELEASE_RECEIPT_AUTHORITY_ID"
+    },
+    {
+      "id": "R11-S034",
+      "requirement": "KERNEL_ID_PINNED"
+    },
+    {
+      "id": "R11-S035",
+      "requirement": "PLANNER_ID_PINNED"
+    },
+    {
+      "id": "R11-S036",
+      "requirement": "ABI_ID_PINNED"
+    },
+    {
+      "id": "R11-S037",
+      "requirement": "COORDINATE_CONVENTION_PINNED"
+    },
+    {
+      "id": "R11-S038",
+      "requirement": "AXIAL_FIELD_ID_PINNED"
+    },
+    {
+      "id": "R11-S039",
+      "requirement": "BORDER_CONTRACT_PINNED"
+    },
+    {
+      "id": "R11-S040",
+      "requirement": "SURFACE_CONTRACT_PINNED"
+    },
+    {
+      "id": "R11-S041",
+      "requirement": "QUARANTINE_THRESHOLDS_PINNED"
+    },
+    {
+      "id": "R11-S042",
+      "requirement": "PERFORMANCE_DRIFT_POLICY_PINNED"
+    },
+    {
+      "id": "R11-S043",
+      "requirement": "EXPECTED_MANIFEST_GENERATOR_PRESENT"
+    },
+    {
+      "id": "R11-S044",
+      "requirement": "EXPECTED_MANIFEST_VERIFIER_PRESENT"
+    },
+    {
+      "id": "R11-S045",
+      "requirement": "MANIFEST_EXCLUDES_SELF_REFERENCE"
+    },
+    {
+      "id": "R11-S046",
+      "requirement": "MANIFEST_RELATIVE_PATHS_ONLY"
+    },
+    {
+      "id": "R11-S047",
+      "requirement": "MANIFEST_PATH_NORMALIZATION"
+    },
+    {
+      "id": "R11-S048",
+      "requirement": "MANIFEST_DUPLICATE_PATH_REJECTED"
+    },
+    {
+      "id": "R11-S049",
+      "requirement": "MANIFEST_FILE_SIZE_RECORDED"
+    },
+    {
+      "id": "R11-S050",
+      "requirement": "MANIFEST_FILE_SHA256_RECORDED"
+    },
+    {
+      "id": "R11-S051",
+      "requirement": "MANIFEST_ROLE_RECORDED"
+    },
+    {
+      "id": "R11-S052",
+      "requirement": "MANIFEST_LOAD_MODE_RECORDED"
+    },
+    {
+      "id": "R11-S053",
+      "requirement": "MANIFEST_TREE_ROOT_RECORDED"
+    },
+    {
+      "id": "R11-S054",
+      "requirement": "MANIFEST_SELF_SHA256_RECORDED"
+    },
+    {
+      "id": "R11-S055",
+      "requirement": "R10_CHILD_ARTIFACT_BINDING_SUPPORTED"
+    },
+    {
+      "id": "R11-S056",
+      "requirement": "PACKAGE_CONTENT_ID_BINDING_SUPPORTED"
+    },
+    {
+      "id": "R11-S057",
+      "requirement": "APP_ASAR_COVERAGE"
+    },
+    {
+      "id": "R11-S058",
+      "requirement": "UNPACKED_RUNTIME_COVERAGE"
+    },
+    {
+      "id": "R11-S059",
+      "requirement": "WORKER_CLOSURE_COVERAGE"
+    },
+    {
+      "id": "R11-S060",
+      "requirement": "WASM_CLOSURE_COVERAGE"
+    },
+    {
+      "id": "R11-S061",
+      "requirement": "NATIVE_ADDON_CLOSURE_COVERAGE"
+    },
+    {
+      "id": "R11-S062",
+      "requirement": "WGSL_CLOSURE_COVERAGE"
+    },
+    {
+      "id": "R11-S063",
+      "requirement": "GENERATED_MANIFEST_COVERAGE"
+    },
+    {
+      "id": "R11-S064",
+      "requirement": "ACTIVE_GRAPH_COVERAGE"
+    },
+    {
+      "id": "R11-S065",
+      "requirement": "MISSING_FILE_FAIL_CLOSED"
+    },
+    {
+      "id": "R11-S066",
+      "requirement": "EXTRA_EXECUTABLE_FILE_FAIL_CLOSED"
+    },
+    {
+      "id": "R11-S067",
+      "requirement": "STARTUP_LOCK_IMPLEMENTED"
+    },
+    {
+      "id": "R11-S068",
+      "requirement": "STARTUP_LOCK_EXCLUSIVE"
+    },
+    {
+      "id": "R11-S069",
+      "requirement": "STALE_LOCK_NOT_AUTO_DELETED"
+    },
+    {
+      "id": "R11-S070",
+      "requirement": "BOOT_ID_GENERATED"
+    },
+    {
+      "id": "R11-S071",
+      "requirement": "UNCLEAN_SESSION_MARKER_READ"
+    },
+    {
+      "id": "R11-S072",
+      "requirement": "R10_FINAL_RECEIPT_ADMISSION_FIRST"
+    },
+    {
+      "id": "R11-S073",
+      "requirement": "POINTER_READ_BEFORE_PACKAGE_HASH"
+    },
+    {
+      "id": "R11-S074",
+      "requirement": "POINTER_SELF_HASH_VERIFICATION"
+    },
+    {
+      "id": "R11-S075",
+      "requirement": "POINTER_GENERATION_CAPTURE"
+    },
+    {
+      "id": "R11-S076",
+      "requirement": "ACTIVE_BUILD_CAPTURE"
+    },
+    {
+      "id": "R11-S077",
+      "requirement": "ACTIVE_PACKAGE_CAPTURE"
+    },
+    {
+      "id": "R11-S078",
+      "requirement": "EXECUTING_PACKAGE_ID_CAPTURE"
+    },
+    {
+      "id": "R11-S079",
+      "requirement": "PACKAGE_POINTER_EQUALITY_CHECK"
+    },
+    {
+      "id": "R11-S080",
+      "requirement": "FULL_CLOSURE_HASH_BEFORE_CANARY"
+    },
+    {
+      "id": "R11-S081",
+      "requirement": "ARTIFACT_DRIFT_STOPS_CANARY"
+    },
+    {
+      "id": "R11-S082",
+      "requirement": "DEVICE_AUTHORITY_AFTER_ARTIFACT_PASS"
+    },
+    {
+      "id": "R11-S083",
+      "requirement": "CANARY_BEFORE_USER_JOB"
+    },
+    {
+      "id": "R11-S084",
+      "requirement": "SESSION_TOKEN_AFTER_CANARY_ONLY"
+    },
+    {
+      "id": "R11-S085",
+      "requirement": "TOKEN_REQUIRED_BY_PREVIEW"
+    },
+    {
+      "id": "R11-S086",
+      "requirement": "TOKEN_REQUIRED_BY_EXPORT"
+    },
+    {
+      "id": "R11-S087",
+      "requirement": "TOKEN_REVOCATION_IMPLEMENTED"
+    },
+    {
+      "id": "R11-S088",
+      "requirement": "CLEAN_SHUTDOWN_SEAL_IMPLEMENTED"
+    },
+    {
+      "id": "R11-S089",
+      "requirement": "STARTUP_FAILURE_STABLE_RECEIPT"
+    },
+    {
+      "id": "R11-S090",
+      "requirement": "STARTUP_REENTRY_FORBIDDEN"
+    },
+    {
+      "id": "R11-S091",
+      "requirement": "SOURCE_MODE_CANNOT_ADMIT_RUNTIME"
+    },
+    {
+      "id": "R11-S092",
+      "requirement": "CANARY_USES_PACKAGED_RUNTIME"
+    },
+    {
+      "id": "R11-S093",
+      "requirement": "CANARY_NO_SOURCE_TREE_IMPORT"
+    },
+    {
+      "id": "R11-S094",
+      "requirement": "CANARY_NO_DEV_SERVER"
+    },
+    {
+      "id": "R11-S095",
+      "requirement": "CANARY_NO_USER_IMAGE"
+    },
+    {
+      "id": "R11-S096",
+      "requirement": "CANARY_FIXTURES_DETERMINISTIC"
+    },
+    {
+      "id": "R11-S097",
+      "requirement": "CANARY_R4_CONSTANT_FIXTURE"
+    },
+    {
+      "id": "R11-S098",
+      "requirement": "CANARY_R4_FRACTIONAL_FIXTURE"
+    },
+    {
+      "id": "R11-S099",
+      "requirement": "CANARY_R6_ANISO_FIXTURE"
+    },
+    {
+      "id": "R11-S100",
+      "requirement": "CANARY_BORDER_CORNER_FIXTURE"
+    },
+    {
+      "id": "R11-S101",
+      "requirement": "CANARY_ALPHA_EDGE_FIXTURE"
+    },
+    {
+      "id": "R11-S102",
+      "requirement": "CANARY_NEUTRAL_POLICY_FIXTURE"
+    },
+    {
+      "id": "R11-S103",
+      "requirement": "CANARY_RESIDUAL_DISABLED_FIXTURE"
+    },
+    {
+      "id": "R11-S104",
+      "requirement": "CANARY_COUNTER_POSITIVE_CONTROL"
+    },
+    {
+      "id": "R11-S105",
+      "requirement": "CANARY_COUNTER_ZERO_CONTROL"
+    },
+    {
+      "id": "R11-S106",
+      "requirement": "CANARY_PRODUCT_REFERENCE_RAW16"
+    },
+    {
+      "id": "R11-S107",
+      "requirement": "CANARY_ORACLE_BINARY16_ULP"
+    },
+    {
+      "id": "R11-S108",
+      "requirement": "CANARY_VALIDATION_COUNTER_READBACK"
+    },
+    {
+      "id": "R11-S109",
+      "requirement": "CANARY_NONFINITE_SCAN"
+    },
+    {
+      "id": "R11-S110",
+      "requirement": "CANARY_FAULT_SENTINEL_SCAN"
+    },
+    {
+      "id": "R11-S111",
+      "requirement": "CANARY_NO_CPU_PRODUCT_FALLBACK"
+    },
+    {
+      "id": "R11-S112",
+      "requirement": "CANARY_NO_CANVAS_FALLBACK"
+    },
+    {
+      "id": "R11-S113",
+      "requirement": "CANARY_NO_WEBGL_FALLBACK"
+    },
+    {
+      "id": "R11-S114",
+      "requirement": "CANARY_POST_LOSS_ENTRY"
+    },
+    {
+      "id": "R11-S115",
+      "requirement": "CANARY_PERIODIC_ENTRY"
+    },
+    {
+      "id": "R11-S116",
+      "requirement": "CANARY_RECEIPT_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-S117",
+      "requirement": "SESSION_IDENTITY_FIELDS_COMPLETE"
+    },
+    {
+      "id": "R11-S118",
+      "requirement": "SESSION_DEVICE_EPOCH_BOUND"
+    },
+    {
+      "id": "R11-S119",
+      "requirement": "SESSION_POINTER_GENERATION_BOUND"
+    },
+    {
+      "id": "R11-S120",
+      "requirement": "SESSION_PACKAGE_ID_BOUND"
+    },
+    {
+      "id": "R11-S121",
+      "requirement": "SESSION_KERNEL_ID_BOUND"
+    },
+    {
+      "id": "R11-S122",
+      "requirement": "SESSION_PLANNER_ID_BOUND"
+    },
+    {
+      "id": "R11-S123",
+      "requirement": "SESSION_ABI_ID_BOUND"
+    },
+    {
+      "id": "R11-S124",
+      "requirement": "SESSION_GRAPH_DIGEST_BOUND"
+    },
+    {
+      "id": "R11-S125",
+      "requirement": "SESSION_CANARY_DIGEST_BOUND"
+    },
+    {
+      "id": "R11-S126",
+      "requirement": "LAZY_WORKER_HASH_CHECK"
+    },
+    {
+      "id": "R11-S127",
+      "requirement": "LAZY_WASM_HASH_CHECK"
+    },
+    {
+      "id": "R11-S128",
+      "requirement": "LAZY_NATIVE_ADDON_HASH_CHECK"
+    },
+    {
+      "id": "R11-S129",
+      "requirement": "LAZY_WGSL_HASH_CHECK"
+    },
+    {
+      "id": "R11-S130",
+      "requirement": "DRIFT_LEDGER_APPEND_ONLY"
+    },
+    {
+      "id": "R11-S131",
+      "requirement": "DRIFT_LEDGER_HASH_CHAIN"
+    },
+    {
+      "id": "R11-S132",
+      "requirement": "DRIFT_LEDGER_MONOTONIC_SEQUENCE"
+    },
+    {
+      "id": "R11-S133",
+      "requirement": "DRIFT_EVENT_STABLE_TYPES"
+    },
+    {
+      "id": "R11-S134",
+      "requirement": "CRASH_MARKER_SOURCE"
+    },
+    {
+      "id": "R11-S135",
+      "requirement": "RENDERER_GONE_LISTENER_SOURCE"
+    },
+    {
+      "id": "R11-S136",
+      "requirement": "GPU_PROCESS_GONE_LISTENER_SOURCE"
+    },
+    {
+      "id": "R11-S137",
+      "requirement": "DEVICE_LOST_LISTENER_SOURCE"
+    },
+    {
+      "id": "R11-S138",
+      "requirement": "RESOURCE_LEDGER_SOURCE"
+    },
+    {
+      "id": "R11-S139",
+      "requirement": "PERIODIC_CANARY_SCHEDULER_SOURCE"
+    },
+    {
+      "id": "R11-S140",
+      "requirement": "QUARANTINE_PERSISTENCE_SOURCE"
+    },
+    {
+      "id": "R11-S141",
+      "requirement": "QUARANTINE_NO_SILENT_CLEAR"
+    },
+    {
+      "id": "R11-S142",
+      "requirement": "QUARANTINE_BLOCKS_PREVIEW"
+    },
+    {
+      "id": "R11-S143",
+      "requirement": "QUARANTINE_BLOCKS_EXPORT"
+    },
+    {
+      "id": "R11-S144",
+      "requirement": "ROLLBACK_RECOMMENDATION_SOURCE"
+    },
+    {
+      "id": "R11-S145",
+      "requirement": "RECOMMENDATION_R10_ONLY_EXECUTOR"
+    },
+    {
+      "id": "R11-S146",
+      "requirement": "RECOMMENDATION_NO_TARGET_INVENTION"
+    },
+    {
+      "id": "R11-S147",
+      "requirement": "PRIVACY_FIELD_ALLOWLIST"
+    },
+    {
+      "id": "R11-S148",
+      "requirement": "SOURCE_FINALIZER_PRESENT"
+    }
+  ],
+  "installedMandatory": [
+    {
+      "id": "R11-P001",
+      "requirement": "R10_FINAL_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R11-P002",
+      "requirement": "R10_FINAL_RECEIPT_SHA256_VALID"
+    },
+    {
+      "id": "R11-P003",
+      "requirement": "R10_FINAL_RECEIPT_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-P004",
+      "requirement": "R10_FINAL_STATE_EXACT"
+    },
+    {
+      "id": "R11-P005",
+      "requirement": "R10_SOURCE_PASS_129"
+    },
+    {
+      "id": "R11-P006",
+      "requirement": "R10_RELEASE_PASS_202"
+    },
+    {
+      "id": "R11-P007",
+      "requirement": "R10_PENDING_ZERO"
+    },
+    {
+      "id": "R11-P008",
+      "requirement": "R10_DEFERRED_ZERO"
+    },
+    {
+      "id": "R11-P009",
+      "requirement": "R10_SKIPPED_ZERO"
+    },
+    {
+      "id": "R11-P010",
+      "requirement": "R10_FAIL_ZERO"
+    },
+    {
+      "id": "R11-P011",
+      "requirement": "R10_CANDIDATE_BUILD_ID_PRESENT"
+    },
+    {
+      "id": "R11-P012",
+      "requirement": "R10_CANDIDATE_PACKAGE_ID_PRESENT"
+    },
+    {
+      "id": "R11-P013",
+      "requirement": "R10_PREVIOUS_BUILD_ID_PRESENT"
+    },
+    {
+      "id": "R11-P014",
+      "requirement": "R10_PREVIOUS_PACKAGE_ID_PRESENT"
+    },
+    {
+      "id": "R11-P015",
+      "requirement": "R10_POINTER_GENERATION_PRESENT"
+    },
+    {
+      "id": "R11-P016",
+      "requirement": "R10_POINTER_AFTER_REPROMOTION_PRESENT"
+    },
+    {
+      "id": "R11-P017",
+      "requirement": "R10_PROMOTION_SMOKE_TRUE"
+    },
+    {
+      "id": "R11-P018",
+      "requirement": "R10_ROLLBACK_DRILL_TRUE"
+    },
+    {
+      "id": "R11-P019",
+      "requirement": "R10_REPROMOTION_SMOKE_TRUE"
+    },
+    {
+      "id": "R11-P020",
+      "requirement": "R10_WHOLE_BUILD_IDENTITY_TRUE"
+    },
+    {
+      "id": "R11-P021",
+      "requirement": "R10_LEGACY_FALLBACK_FALSE"
+    },
+    {
+      "id": "R11-P022",
+      "requirement": "R10_PER_ENCODER_ROLLBACK_FALSE"
+    },
+    {
+      "id": "R11-P023",
+      "requirement": "R10_PER_KERNEL_ROLLBACK_FALSE"
+    },
+    {
+      "id": "R11-P024",
+      "requirement": "R10_CHILD_ARTIFACTS_COMPLETE"
+    },
+    {
+      "id": "R11-P025",
+      "requirement": "POINTER_SCHEMA_V3"
+    },
+    {
+      "id": "R11-P026",
+      "requirement": "POINTER_ID_EXACT"
+    },
+    {
+      "id": "R11-P027",
+      "requirement": "POINTER_RAW_SHA256_RECOMPUTED"
+    },
+    {
+      "id": "R11-P028",
+      "requirement": "POINTER_SELF_HASH_RECOMPUTED"
+    },
+    {
+      "id": "R11-P029",
+      "requirement": "POINTER_GENERATION_MATCH_R10"
+    },
+    {
+      "id": "R11-P030",
+      "requirement": "POINTER_ACTIVE_BUILD_MATCH_R10"
+    },
+    {
+      "id": "R11-P031",
+      "requirement": "POINTER_ACTIVE_PACKAGE_MATCH_R10"
+    },
+    {
+      "id": "R11-P032",
+      "requirement": "POINTER_RELEASE_PROFILE_MATCH_R10"
+    },
+    {
+      "id": "R11-P033",
+      "requirement": "POINTER_QUALIFICATION_SET_MATCH_R10"
+    },
+    {
+      "id": "R11-P034",
+      "requirement": "EXECUTABLE_PATH_CANONICAL"
+    },
+    {
+      "id": "R11-P035",
+      "requirement": "RESOURCES_PATH_CANONICAL"
+    },
+    {
+      "id": "R11-P036",
+      "requirement": "EXPECTED_MANIFEST_PRESENT"
+    },
+    {
+      "id": "R11-P037",
+      "requirement": "EXPECTED_MANIFEST_DIGEST_MATCH_R10_CHILD"
+    },
+    {
+      "id": "R11-P038",
+      "requirement": "EXPECTED_MANIFEST_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-P039",
+      "requirement": "EXPECTED_MANIFEST_BUILD_MATCH"
+    },
+    {
+      "id": "R11-P040",
+      "requirement": "EXPECTED_MANIFEST_PACKAGE_MATCH"
+    },
+    {
+      "id": "R11-P041",
+      "requirement": "EXPECTED_MANIFEST_PROFILE_MATCH"
+    },
+    {
+      "id": "R11-P042",
+      "requirement": "EXPECTED_MANIFEST_TREE_ROOT_VALID"
+    },
+    {
+      "id": "R11-P043",
+      "requirement": "EXPECTED_MANIFEST_FILE_COUNT_NONZERO"
+    },
+    {
+      "id": "R11-P044",
+      "requirement": "INSTALLED_FILE_SET_COMPLETE"
+    },
+    {
+      "id": "R11-P045",
+      "requirement": "INSTALLED_FILE_SET_NO_DUPLICATE"
+    },
+    {
+      "id": "R11-P046",
+      "requirement": "INSTALLED_FILE_SET_NO_TRAVERSAL"
+    },
+    {
+      "id": "R11-P047",
+      "requirement": "INSTALLED_FILE_SET_NO_SYMLINK_ESCAPE"
+    },
+    {
+      "id": "R11-P048",
+      "requirement": "APP_ASAR_SHA256_MATCH"
+    },
+    {
+      "id": "R11-P049",
+      "requirement": "UNPACKED_JS_SHA256_MATCH"
+    },
+    {
+      "id": "R11-P050",
+      "requirement": "WORKER_SHA256_MATCH"
+    },
+    {
+      "id": "R11-P051",
+      "requirement": "WASM_SHA256_MATCH"
+    },
+    {
+      "id": "R11-P052",
+      "requirement": "NATIVE_ADDON_SHA256_MATCH"
+    },
+    {
+      "id": "R11-P053",
+      "requirement": "WGSL_SHA256_MATCH"
+    },
+    {
+      "id": "R11-P054",
+      "requirement": "GENERATED_WGSL_MANIFEST_MATCH"
+    },
+    {
+      "id": "R11-P055",
+      "requirement": "RUNTIME_ASSET_MANIFEST_MATCH"
+    },
+    {
+      "id": "R11-P056",
+      "requirement": "ACTIVE_GRAPH_DIGEST_MATCH"
+    },
+    {
+      "id": "R11-P057",
+      "requirement": "PACKAGE_CONTENT_ID_RECOMPUTED"
+    },
+    {
+      "id": "R11-P058",
+      "requirement": "PACKAGE_CONTENT_ID_MATCH_POINTER"
+    },
+    {
+      "id": "R11-P059",
+      "requirement": "PACKAGE_CONTENT_ID_MATCH_R10"
+    },
+    {
+      "id": "R11-P060",
+      "requirement": "EXTRA_EXECUTABLE_FILE_ZERO"
+    },
+    {
+      "id": "R11-P061",
+      "requirement": "MISSING_EXECUTABLE_FILE_ZERO"
+    },
+    {
+      "id": "R11-P062",
+      "requirement": "MIXED_BUILD_ASSET_ZERO"
+    },
+    {
+      "id": "R11-P063",
+      "requirement": "ARTIFACT_DRIFT_ZERO"
+    },
+    {
+      "id": "R11-P064",
+      "requirement": "ATTESTATION_BEFORE_CANARY"
+    },
+    {
+      "id": "R11-P065",
+      "requirement": "HARDWARE_WEBGPU_ADAPTER_PRESENT"
+    },
+    {
+      "id": "R11-P066",
+      "requirement": "SOFTWARE_ADAPTER_FALSE"
+    },
+    {
+      "id": "R11-P067",
+      "requirement": "FALLBACK_ADAPTER_FALSE"
+    },
+    {
+      "id": "R11-P068",
+      "requirement": "D3D12_BACKEND_RECORDED"
+    },
+    {
+      "id": "R11-P069",
+      "requirement": "ADAPTER_IDENTITY_RECORDED"
+    },
+    {
+      "id": "R11-P070",
+      "requirement": "DRIVER_IDENTITY_RECORDED"
+    },
+    {
+      "id": "R11-P071",
+      "requirement": "DEVICE_FEATURES_RECORDED"
+    },
+    {
+      "id": "R11-P072",
+      "requirement": "TIMESTAMP_QUERY_EXPECTATION_RECORDED"
+    },
+    {
+      "id": "R11-P073",
+      "requirement": "DEVICE_EPOCH_INITIALIZED"
+    },
+    {
+      "id": "R11-P074",
+      "requirement": "R4_PRODUCT_COMPILES"
+    },
+    {
+      "id": "R11-P075",
+      "requirement": "R6_PRODUCT_COMPILES"
+    },
+    {
+      "id": "R11-P076",
+      "requirement": "DIRECT_REFERENCE_COMPILES"
+    },
+    {
+      "id": "R11-P077",
+      "requirement": "VALIDATION_R4_COMPILES"
+    },
+    {
+      "id": "R11-P078",
+      "requirement": "VALIDATION_R6_COMPILES"
+    },
+    {
+      "id": "R11-P079",
+      "requirement": "SOURCE_PREP_COMPILES"
+    },
+    {
+      "id": "R11-P080",
+      "requirement": "RESIDUAL_COMPILES"
+    },
+    {
+      "id": "R11-P081",
+      "requirement": "FINALIZATION_COMPILES"
+    },
+    {
+      "id": "R11-P082",
+      "requirement": "R4_CONSTANT_PRODUCT_REFERENCE_EXACT"
+    },
+    {
+      "id": "R11-P083",
+      "requirement": "R4_CONSTANT_ORACLE_ULP"
+    },
+    {
+      "id": "R11-P084",
+      "requirement": "R4_CONSTANT_DC_PRESERVED"
+    },
+    {
+      "id": "R11-P085",
+      "requirement": "R4_FRACTIONAL_PRODUCT_REFERENCE_EXACT"
+    },
+    {
+      "id": "R11-P086",
+      "requirement": "R4_FRACTIONAL_ORACLE_ULP"
+    },
+    {
+      "id": "R11-P087",
+      "requirement": "R6_ANISO_PRODUCT_REFERENCE_EXACT"
+    },
+    {
+      "id": "R11-P088",
+      "requirement": "R6_ANISO_ORACLE_ULP"
+    },
+    {
+      "id": "R11-P089",
+      "requirement": "R6_AXIAL_CONTINUITY_PASS"
+    },
+    {
+      "id": "R11-P090",
+      "requirement": "BORDER_CORNER_PRODUCT_REFERENCE_EXACT"
+    },
+    {
+      "id": "R11-P091",
+      "requirement": "BORDER_CORNER_ORACLE_ULP"
+    },
+    {
+      "id": "R11-P092",
+      "requirement": "BORDER_LOGICAL_DISTANCE_PASS"
+    },
+    {
+      "id": "R11-P093",
+      "requirement": "ALPHA_EDGE_PRODUCT_REFERENCE_EXACT"
+    },
+    {
+      "id": "R11-P094",
+      "requirement": "ALPHA_EDGE_ORACLE_ULP"
+    },
+    {
+      "id": "R11-P095",
+      "requirement": "ALPHA_ZERO_RGB_ZERO"
+    },
+    {
+      "id": "R11-P096",
+      "requirement": "ALPHA_PREMULTIPLIED_INVARIANT"
+    },
+    {
+      "id": "R11-P097",
+      "requirement": "NEUTRAL_POLICY_IDENTITY"
+    },
+    {
+      "id": "R11-P098",
+      "requirement": "RESIDUAL_DISABLED_IDENTITY"
+    },
+    {
+      "id": "R11-P099",
+      "requirement": "RESIDUAL_ALPHA_UNCHANGED"
+    },
+    {
+      "id": "R11-P100",
+      "requirement": "VALIDATION_ZERO_CONTROL_ALL_ZERO"
+    },
+    {
+      "id": "R11-P101",
+      "requirement": "VALIDATION_POSITIVE_CONTROL_EXPECTED_COUNTER"
+    },
+    {
+      "id": "R11-P102",
+      "requirement": "VALIDATION_POSITIVE_CONTROL_OTHER_ZERO"
+    },
+    {
+      "id": "R11-P103",
+      "requirement": "COUNTER_BUFFER_CLEAR_VERIFIED"
+    },
+    {
+      "id": "R11-P104",
+      "requirement": "NONFINITE_OUTPUT_ZERO"
+    },
+    {
+      "id": "R11-P105",
+      "requirement": "FAULT_SENTINEL_ZERO"
+    },
+    {
+      "id": "R11-P106",
+      "requirement": "INTERMEDIATE_READBACK_ZERO"
+    },
+    {
+      "id": "R11-P107",
+      "requirement": "CPU_PRODUCT_FALLBACK_ZERO"
+    },
+    {
+      "id": "R11-P108",
+      "requirement": "CANVAS_FALLBACK_ZERO"
+    },
+    {
+      "id": "R11-P109",
+      "requirement": "WEBGL_FALLBACK_ZERO"
+    },
+    {
+      "id": "R11-P110",
+      "requirement": "STARTUP_CANARY_RECEIPT_SEALED"
+    },
+    {
+      "id": "R11-P111",
+      "requirement": "SESSION_TOKEN_ISSUED_AFTER_CANARY"
+    },
+    {
+      "id": "R11-P112",
+      "requirement": "SESSION_TOKEN_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-P113",
+      "requirement": "SESSION_TOKEN_SELF_HASH_VALID"
+    },
+    {
+      "id": "R11-P114",
+      "requirement": "SESSION_TOKEN_BUILD_MATCH"
+    },
+    {
+      "id": "R11-P115",
+      "requirement": "SESSION_TOKEN_PACKAGE_MATCH"
+    },
+    {
+      "id": "R11-P116",
+      "requirement": "SESSION_TOKEN_POINTER_GENERATION_MATCH"
+    },
+    {
+      "id": "R11-P117",
+      "requirement": "SESSION_TOKEN_DEVICE_EPOCH_MATCH"
+    },
+    {
+      "id": "R11-P118",
+      "requirement": "SESSION_TOKEN_ADAPTER_MATCH"
+    },
+    {
+      "id": "R11-P119",
+      "requirement": "SESSION_TOKEN_DRIVER_RECORDED"
+    },
+    {
+      "id": "R11-P120",
+      "requirement": "SESSION_TOKEN_KERNEL_MATCH"
+    },
+    {
+      "id": "R11-P121",
+      "requirement": "SESSION_TOKEN_PLANNER_MATCH"
+    },
+    {
+      "id": "R11-P122",
+      "requirement": "SESSION_TOKEN_ABI_MATCH"
+    },
+    {
+      "id": "R11-P123",
+      "requirement": "SESSION_TOKEN_GRAPH_MATCH"
+    },
+    {
+      "id": "R11-P124",
+      "requirement": "SESSION_TOKEN_CANARY_DIGEST_MATCH"
+    },
+    {
+      "id": "R11-P125",
+      "requirement": "PREVIEW_REQUIRES_VALID_TOKEN"
+    },
+    {
+      "id": "R11-P126",
+      "requirement": "EXPORT_REQUIRES_VALID_TOKEN"
+    },
+    {
+      "id": "R11-P127",
+      "requirement": "STALE_TOKEN_REJECTED"
+    },
+    {
+      "id": "R11-P128",
+      "requirement": "REVOKED_TOKEN_REJECTED"
+    },
+    {
+      "id": "R11-P129",
+      "requirement": "DEVICE_EPOCH_CHANGE_REVOKES_TOKEN"
+    },
+    {
+      "id": "R11-P130",
+      "requirement": "POINTER_GENERATION_CHANGE_REVOKES_TOKEN"
+    },
+    {
+      "id": "R11-P131",
+      "requirement": "LAZY_WORKER_VERIFIED_BEFORE_SPAWN"
+    },
+    {
+      "id": "R11-P132",
+      "requirement": "LAZY_WASM_VERIFIED_BEFORE_INSTANTIATE"
+    },
+    {
+      "id": "R11-P133",
+      "requirement": "LAZY_NATIVE_VERIFIED_BEFORE_LOAD"
+    },
+    {
+      "id": "R11-P134",
+      "requirement": "LAZY_WGSL_VERIFIED_BEFORE_MODULE"
+    },
+    {
+      "id": "R11-P135",
+      "requirement": "LAZY_ASSET_MISMATCH_QUARANTINES"
+    },
+    {
+      "id": "R11-P136",
+      "requirement": "SESSION_JOB_SEQUENCE_MONOTONIC"
+    },
+    {
+      "id": "R11-P137",
+      "requirement": "SESSION_CLEAN_SHUTDOWN_SEALED"
+    },
+    {
+      "id": "R11-P138",
+      "requirement": "SESSION_RECEIPT_SEALED"
+    },
+    {
+      "id": "R11-P139",
+      "requirement": "EVENT_LEDGER_PRESENT"
+    },
+    {
+      "id": "R11-P140",
+      "requirement": "EVENT_LEDGER_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-P141",
+      "requirement": "EVENT_LEDGER_SEQUENCE_MONOTONIC"
+    },
+    {
+      "id": "R11-P142",
+      "requirement": "EVENT_LEDGER_HASH_CHAIN_VALID"
+    },
+    {
+      "id": "R11-P143",
+      "requirement": "EVENT_LEDGER_HEAD_SEALED"
+    },
+    {
+      "id": "R11-P144",
+      "requirement": "STARTUP_EVENT_RECORDED"
+    },
+    {
+      "id": "R11-P145",
+      "requirement": "CANARY_EVENT_RECORDED"
+    },
+    {
+      "id": "R11-P146",
+      "requirement": "JOB_ADMISSION_EVENT_RECORDED"
+    },
+    {
+      "id": "R11-P147",
+      "requirement": "JOB_COMPLETION_EVENT_RECORDED"
+    },
+    {
+      "id": "R11-P148",
+      "requirement": "VALIDATION_FAULT_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P149",
+      "requirement": "FAULT_SENTINEL_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P150",
+      "requirement": "ARTIFACT_DRIFT_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P151",
+      "requirement": "DEVICE_LOSS_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P152",
+      "requirement": "RENDERER_CRASH_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P153",
+      "requirement": "GPU_PROCESS_CRASH_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P154",
+      "requirement": "RESOURCE_LEAK_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P155",
+      "requirement": "PERFORMANCE_DRIFT_EVENT_SUPPORTED"
+    },
+    {
+      "id": "R11-P156",
+      "requirement": "UNCLEAN_SHUTDOWN_DETECTED"
+    },
+    {
+      "id": "R11-P157",
+      "requirement": "RENDERER_CRASH_ROLLING_WINDOW"
+    },
+    {
+      "id": "R11-P158",
+      "requirement": "GPU_CRASH_ROLLING_WINDOW"
+    },
+    {
+      "id": "R11-P159",
+      "requirement": "DEVICE_LOSS_ROLLING_WINDOW"
+    },
+    {
+      "id": "R11-P160",
+      "requirement": "LOGICAL_RESOURCE_BASELINE_CAPTURED"
+    },
+    {
+      "id": "R11-P161",
+      "requirement": "RESOURCE_COUNT_RETURNS_BASELINE"
+    },
+    {
+      "id": "R11-P162",
+      "requirement": "RESOURCE_BYTES_RETURNS_BASELINE"
+    },
+    {
+      "id": "R11-P163",
+      "requirement": "PIPELINE_CACHE_CARDINALITY_STABLE"
+    },
+    {
+      "id": "R11-P164",
+      "requirement": "BIND_GROUP_CACHE_CARDINALITY_STABLE"
+    },
+    {
+      "id": "R11-P165",
+      "requirement": "PERIODIC_CANARY_AFTER_32_JOBS"
+    },
+    {
+      "id": "R11-P166",
+      "requirement": "PERIODIC_CANARY_AFTER_24_HOURS"
+    },
+    {
+      "id": "R11-P167",
+      "requirement": "PERFORMANCE_DRIFT_THREE_STRIKES"
+    },
+    {
+      "id": "R11-P168",
+      "requirement": "DRIFT_RECEIPT_SEALED"
+    },
+    {
+      "id": "R11-P169",
+      "requirement": "FIRST_DEVICE_LOSS_REVOKES_TOKEN"
+    },
+    {
+      "id": "R11-P170",
+      "requirement": "FIRST_DEVICE_LOSS_STOPS_SUBMISSION"
+    },
+    {
+      "id": "R11-P171",
+      "requirement": "FIRST_DEVICE_LOSS_REJECTS_PENDING_JOBS"
+    },
+    {
+      "id": "R11-P172",
+      "requirement": "FIRST_DEVICE_LOSS_DISPOSES_OLD_EPOCH"
+    },
+    {
+      "id": "R11-P173",
+      "requirement": "FIRST_DEVICE_LOSS_RECREATES_DEVICE"
+    },
+    {
+      "id": "R11-P174",
+      "requirement": "FIRST_DEVICE_LOSS_REBUILDS_PIPELINES"
+    },
+    {
+      "id": "R11-P175",
+      "requirement": "FIRST_DEVICE_LOSS_RUNS_POST_LOSS_CANARY"
+    },
+    {
+      "id": "R11-P176",
+      "requirement": "POST_LOSS_CANARY_PASS_READMITS"
+    },
+    {
+      "id": "R11-P177",
+      "requirement": "POST_LOSS_CANARY_FAIL_QUARANTINES"
+    },
+    {
+      "id": "R11-P178",
+      "requirement": "SECOND_DEVICE_LOSS_SESSION_QUARANTINES"
+    },
+    {
+      "id": "R11-P179",
+      "requirement": "THIRD_DEVICE_LOSS_24H_QUARANTINES"
+    },
+    {
+      "id": "R11-P180",
+      "requirement": "VALIDATION_NONZERO_QUARANTINES"
+    },
+    {
+      "id": "R11-P181",
+      "requirement": "FAULT_SENTINEL_QUARANTINES"
+    },
+    {
+      "id": "R11-P182",
+      "requirement": "ARTIFACT_DRIFT_QUARANTINES"
+    },
+    {
+      "id": "R11-P183",
+      "requirement": "STARTUP_CANARY_FAILURE_QUARANTINES"
+    },
+    {
+      "id": "R11-P184",
+      "requirement": "RENDERER_CRASH_THRESHOLD_QUARANTINES"
+    },
+    {
+      "id": "R11-P185",
+      "requirement": "GPU_CRASH_THRESHOLD_QUARANTINES"
+    },
+    {
+      "id": "R11-P186",
+      "requirement": "RESOURCE_LEAK_THRESHOLD_QUARANTINES"
+    },
+    {
+      "id": "R11-P187",
+      "requirement": "QUARANTINE_RECEIPT_PERSISTED"
+    },
+    {
+      "id": "R11-P188",
+      "requirement": "QUARANTINE_SURVIVES_RESTART"
+    },
+    {
+      "id": "R11-P189",
+      "requirement": "QUARANTINE_BLOCKS_PREVIEW"
+    },
+    {
+      "id": "R11-P190",
+      "requirement": "QUARANTINE_BLOCKS_EXPORT"
+    },
+    {
+      "id": "R11-P191",
+      "requirement": "QUARANTINE_NO_CPU_FALLBACK"
+    },
+    {
+      "id": "R11-P192",
+      "requirement": "QUARANTINE_NO_SILENT_CLEAR"
+    },
+    {
+      "id": "R11-P193",
+      "requirement": "RECOMMENDATION_CREATED_ON_QUARANTINE"
+    },
+    {
+      "id": "R11-P194",
+      "requirement": "RECOMMENDATION_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-P195",
+      "requirement": "RECOMMENDATION_SELF_HASH_VALID"
+    },
+    {
+      "id": "R11-P196",
+      "requirement": "FAILED_BUILD_ID_RECORDED"
+    },
+    {
+      "id": "R11-P197",
+      "requirement": "FAILED_PACKAGE_ID_RECORDED"
+    },
+    {
+      "id": "R11-P198",
+      "requirement": "FAILURE_EVIDENCE_DIGEST_RECORDED"
+    },
+    {
+      "id": "R11-P199",
+      "requirement": "CURRENT_POINTER_HASH_RECORDED"
+    },
+    {
+      "id": "R11-P200",
+      "requirement": "CURRENT_POINTER_GENERATION_RECORDED"
+    },
+    {
+      "id": "R11-P201",
+      "requirement": "TARGET_PREVIOUS_BUILD_FROM_R10"
+    },
+    {
+      "id": "R11-P202",
+      "requirement": "TARGET_PREVIOUS_PACKAGE_FROM_R10"
+    },
+    {
+      "id": "R11-P203",
+      "requirement": "TARGET_QUALIFICATION_RECEIPTS_PRESENT"
+    },
+    {
+      "id": "R11-P204",
+      "requirement": "TARGET_PACKAGE_REGISTRY_ENTRY_PRESENT"
+    },
+    {
+      "id": "R11-P205",
+      "requirement": "TARGET_NOT_EQUAL_FAILED_PACKAGE"
+    },
+    {
+      "id": "R11-P206",
+      "requirement": "EXPECTED_CAS_BEFORE_HASH_PRESENT"
+    },
+    {
+      "id": "R11-P207",
+      "requirement": "EXPECTED_CAS_GENERATION_PRESENT"
+    },
+    {
+      "id": "R11-P208",
+      "requirement": "EXECUTION_AUTHORITY_R10_ONLY"
+    },
+    {
+      "id": "R11-P209",
+      "requirement": "OPERATOR_APPROVAL_REQUIRED"
+    },
+    {
+      "id": "R11-P210",
+      "requirement": "NO_QUALIFIED_TARGET_NOT_INVENTED"
+    },
+    {
+      "id": "R11-P211",
+      "requirement": "RECOMMENDATION_DOES_NOT_MUTATE_POINTER"
+    },
+    {
+      "id": "R11-P212",
+      "requirement": "RECOMMENDATION_RECEIPT_SEALED"
+    },
+    {
+      "id": "R11-P213",
+      "requirement": "FINAL_INSTALLED_RECEIPT_SCHEMA_VALID"
+    },
+    {
+      "id": "R11-P214",
+      "requirement": "FINAL_INSTALLED_STATE_EXACT"
+    },
+    {
+      "id": "R11-P215",
+      "requirement": "SOURCE_PASS_148"
+    },
+    {
+      "id": "R11-P216",
+      "requirement": "INSTALLED_PASS_228"
+    },
+    {
+      "id": "R11-P217",
+      "requirement": "PENDING_ZERO"
+    },
+    {
+      "id": "R11-P218",
+      "requirement": "DEFERRED_ZERO"
+    },
+    {
+      "id": "R11-P219",
+      "requirement": "SKIPPED_ZERO"
+    },
+    {
+      "id": "R11-P220",
+      "requirement": "FAIL_ZERO"
+    },
+    {
+      "id": "R11-P221",
+      "requirement": "USER_PIXEL_DATA_ABSENT"
+    },
+    {
+      "id": "R11-P222",
+      "requirement": "USER_FILE_NAME_ABSENT"
+    },
+    {
+      "id": "R11-P223",
+      "requirement": "USER_PATH_ABSENT"
+    },
+    {
+      "id": "R11-P224",
+      "requirement": "USER_PIXEL_HASH_ABSENT"
+    },
+    {
+      "id": "R11-P225",
+      "requirement": "NETWORK_TELEMETRY_ZERO"
+    },
+    {
+      "id": "R11-P226",
+      "requirement": "NEGATIVE_MUTATED_WGSL_DETECTED"
+    },
+    {
+      "id": "R11-P227",
+      "requirement": "NEGATIVE_STALE_TOKEN_DETECTED"
+    },
+    {
+      "id": "R11-P228",
+      "requirement": "NEGATIVE_POINTER_WRITE_ATTEMPT_REJECTED"
+    }
+  ]
+}

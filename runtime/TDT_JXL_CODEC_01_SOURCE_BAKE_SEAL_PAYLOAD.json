@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-JXL-CODEC-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "JXL_CODEC_SOURCE_ADOPTED",
+  "buildId": "c4a33007055d20625c041f48",
+  "buildAuthorityDigest": "7da86cb21817bc8dd3089bfb791bfb1ed73d6e43f67f6645722e3e3b1939c4dd",
+  "sourceRuntimeManifestDigest": "03bd490098b454eba6de881e5f42a28cdebb13a59d393a5acb994aee1c7c2238",
+  "encoderWorkerManifestDigest": "b0419fc269eb79df9e9de9a2386893fb0f311e3ddf26c167b14c12155fe9255b",
+  "independentDecoderManifestDigest": "7ff77c69365ea056d7976b95c0b00a8c714cb3f4b3c4868a5c46452f7c8d6950",
+  "specSha256": "726f2eeb9c317a50137cff072cb00c9f4207c7e9d3ae38aa5021f0171c00a91f",
+  "encoderWasmSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+  "encoderGlueSha256": "ed383c356823f11ec272c996b77cde7a5ddaae598cbd3bf8544854b48fdda91e",
+  "decoderWasmSha256": "0f2524ed35343520f3492dea6a12cf50ea3d1d25023b0617ded65beff8bab7b3",
+  "decoderGlueSha256": "28e848c7503e29286db47827819402363990f82d3574ba7451b3a62c8b8ca8b2",
+  "abiSymbol": "jxl_encode_qmap_ex",
+  "canonicalPthreadPoolSize": 4,
+  "exactDecodedSurfaceId": "dadum.jxl-decoded-rgba8-exact-v1",
+  "sourceGatePassed": true,
+  "sourceGateCount": 108,
+  "runtimePolicyPassed": true,
+  "runtimePolicyCount": 168,
+  "strictTypeScriptVerified": true,
+  "parentRegressionVerified": true,
+  "stableErrorRegistryVerified": true,
+  "productionBuildFailClosed": true,
+  "productionViteExecuted": false,
+  "independentRoundtripExecuted": false,
+  "hiddenRgbCorpusExecuted": false,
+  "pthreadGenerationClosureMeasuredInProduction": false,
+  "productionPromoted": false,
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "production-vite-emit-not-run",
+    "packaged-electron-jxl-e2e-not-run",
+    "independent-jxl-roundtrip-corpus-not-run",
+    "pthread-generation-closure-not-measured-in-production"
+  ],
+  "changedSourceRecords": [
+    {
+      "path": "app/legacy-runtime/decoders/jxl-independent-rgba8-adapter.d.mts",
+      "parentSha256": null,
+      "currentSha256": "830358567f0905541853bc82ca76e827f2dbe13e2c19309ab2bd27443a3f6fe5",
+      "change": "added"
+    },
+    {
+      "path": "app/legacy-runtime/decoders/jxl-independent-rgba8-adapter.mjs",
+      "parentSha256": null,
+      "currentSha256": "59fef80ee1b87f9536cf82a298415e4b5a67e678d91f1dc61bfa790ccebc1f34",
+      "change": "added"
+    },
+    {
+      "path": "app/legacy-runtime/encoders/jxl-canonical-adapter.mjs",
+      "parentSha256": "f10586684857e6282501d4ad4590afbf2791bd0ca4acbe413db7fb47d484dc12",
+      "currentSha256": "6a69dfae9dd78f8cc6cbb9ee567357055cfdf9e5f68b0541cf4506244876ec7b",
+      "change": "modified"
+    },
+    {
+      "path": "app/legacy-runtime/encoders/jxl-child-worker-tracker.mjs",
+      "parentSha256": null,
+      "currentSha256": "59b306b8e2d9df7eacb5cb85bcd66d31e3bde71000621aadb92ec43f79112015",
+      "change": "added"
+    },
+    {
+      "path": "app/src/boot/stable-error.ts",
+      "parentSha256": "281ee64dba0a8eb7c0a605f1521a673a22fff70a89174e38658657941f7c209a",
+      "currentSha256": "b221dce28ae1e41870c0c9eaafba34756d0fd4c4cb970c185885f9aefa8b7855",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/codecs/jxl/jxl-container-metadata-verifier-v1.ts",
+      "parentSha256": null,
+      "currentSha256": "b3e84647a7cc70a5150c05d5c65d80b92989ab6e56afc6d3b29e157f275a7e88",
+      "change": "added"
+    },
+    {
+      "path": "app/src/runtime/codecs/jxl/jxl-promotion-types.ts",
+      "parentSha256": "6d0d55473354fa3d941a19a155f24e9c29200359e29d7fb0cb513912e0c9bba6",
+      "currentSha256": "c8ff7f813c02d38dc90841ea60fb0bea6be63bc4d1ea1e85242a0962d75ab375",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/codecs/jxl/jxl-roundtrip-verifier-v1.ts",
+      "parentSha256": null,
+      "currentSha256": "3f9dbf6edb7a3bad6aca520227b905a7006b1c0b28ab5ae09cd1d566a2cec26e",
+      "change": "added"
+    },
+    {
+      "path": "app/src/runtime/decode/decoder-registry-service.ts",
+      "parentSha256": "b3d2fdfb4c150593289e60eea9857ccd19bc61dbf08638a9adf572ffc2a4ec8f",
+      "currentSha256": "3f2c2560bc6aa0327665ba3d9a667c50feb77980d20c52c4454228cf1cb17cce",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/decode/independent-decoder-profile.ts",
+      "parentSha256": "b7d359b5ab6c1f968a9fc068e3d99db7606a7f55746236e33b4668a6d31b7b34",
+      "currentSha256": "7c8ca84d9c5b4f10d7fb4473716559417f037086405468cfb9f6d6da3922577c",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/export/export-authority-service.ts",
+      "parentSha256": "05356360981243f2c9a6418840685d19654a5b4d86b1b3f52eb46ed8b5648634",
+      "currentSha256": "f1d937cb1a9b6ebd2648cfb513d326dd3118291e09901d387e6550fefa1d4f20",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/export/export-receipt.ts",
+      "parentSha256": "3ba2727823f29db7a33dda1255359eda3d62e28d45aaee6697d3b5e6069cd56a",
+      "currentSha256": "c74a202af3edddb4772aeb6e774c797a51e9033e0eacf2c56765bf9641de42a3",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/workers/entries/jxl-independent-decoder.worker.ts",
+      "parentSha256": null,
+      "currentSha256": "9072f0817389402265c3e192ea65109843ff161638bf811215c4bb5293d9e2e7",
+      "change": "added"
+    },
+    {
+      "path": "app/src/runtime/workers/generated-jxl-independent-decoder-manifest.json",
+      "parentSha256": null,
+      "currentSha256": "cb0d0ad6ce14da5a67d4c20616090be6accac20e1c6026c08a8d46f76e0e7085",
+      "change": "added"
+    },
+    {
+      "path": "app/src/runtime/workers/generated-worker-manifest.json",
+      "parentSha256": "94bdbc99b0c2c623b9eab10e8e973f39c6c76572d40505461729cb75309fd5c2",
+      "currentSha256": "10179d0c57b32a913de814af3cb264091f6dcf3d3e0504514d5a5df44e2ce725",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/workers/generated-worker-manifest.ts",
+      "parentSha256": "f1be045e285a0179a29274b5469a482d3b49c9a9e9c42d9ece75a773ee7ad1c2",
+      "currentSha256": "84a7a6071dac8d5d663ec1c11cb8cd2ee512d8f8db3a33438304e32893e6e09c",
+      "change": "modified"
+    },
+    {
+      "path": "package.json",
+      "parentSha256": "189af69bedba485fa315db21b93ad41096f4002e08542c7b312a4cb0b42fe982",
+      "currentSha256": "e5c93722a2e53ddd4a6f282e1dde341b5f4c85260b6c06764885a3ad6d087e64",
+      "change": "modified"
+    },
+    {
+      "path": "specs/TDT-JXL-CODEC-01_JXL_ENCODE_DECODE_RUNTIME_CLOSURE_ABI_INDEPENDENT_RGBA8_HIDDEN_RGB_CONTAINER_METADATA_PTHREAD_GENERATION_TRUTH_SPEC.md",
+      "parentSha256": null,
+      "currentSha256": "726f2eeb9c317a50137cff072cb00c9f4207c7e9d3ae38aa5021f0171c00a91f",
+      "change": "added"
+    },
+    {
+      "path": "tools/build-emit-01-lib.mjs",
+      "parentSha256": "922849d16ce19bf37a72e17d1cbf95af434adfc04042e9ea23b8f278090ae73a",
+      "currentSha256": "a569e51324c345f35d6c81b92a487ffe992ac77aff670960b8b4e96d523d49a8",
+      "change": "modified"
+    },
+    {
+      "path": "tools/finalize-jxl-codec-01-source-bake.mjs",
+      "parentSha256": null,
+      "currentSha256": "59dd6f0318bf0aba47aab19ee8522e5a1acf44abdfe46889b0b8833e00780e38",
+      "change": "added"
+    },
+    {
+      "path": "tools/gate-build-lock-01.mjs",
+      "parentSha256": "8b67d73065839cb2a952aab77701ae2fa92cbe729a3e9bd507afee2b9f07f1ac",
+      "currentSha256": "50fa6ad37cb4543401eaa3c97599fd953d2787b86170be94137f48b398a1d86c",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-export-promotion-02.mjs",
+      "parentSha256": "8dff803886a2834458aa27d553983638fe3de38a0385059ffbf87a87911ff155",
+      "currentSha256": "bd3678bbe3ef85bba77af7d22f5c48e866ff1c3c660145bab7a7edaa22a69768",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-jxl-codec-01.mjs",
+      "parentSha256": null,
+      "currentSha256": "b9502a6610f008cd3d3d3a38e52b87f71957526890eec27f068f72c720fb8239",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-emitted-worker-manifest-v2.mjs",
+      "parentSha256": "07c17d5180ff0dee6d2a55e6b803578d3989525e44079950a23b3f693f4bb015",
+      "currentSha256": "c33a28d0fcb1e004b5b4afe5751063949c5ff6187504e9740c87ee7b6b3b0672",
+      "change": "modified"
+    },
+    {
+      "path": "tools/generate-jxl-codec-01-source-reports.mjs",
+      "parentSha256": null,
+      "currentSha256": "510b766a062689b26a3b8d2816d44812e603babbda902d43394e4143384cff04",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-jxl-independent-decoder-manifest.mjs",
+      "parentSha256": null,
+      "currentSha256": "f8ac8e6bb94bffdc1d8acce58bc0a19c3bc5ea55a08b51b4985cf2f1656d8d29",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-runtime-worker-manifest.mjs",
+      "parentSha256": "b0ea93270830f264bb2daf20b8031ff68b5bb97d594e134775d5734b9af06722",
+      "currentSha256": "290842d95841bd26ef9eb631ffc97885d3e15d7d934e62601a636725606ed18d",
+      "change": "modified"
+    },
+    {
+      "path": "tools/jxl-codec-01-lib.mjs",
+      "parentSha256": null,
+      "currentSha256": "18e2d5350cefdc383fc661af2d51dc9a62d116a3da62b39e0b100e5c43722628",
+      "change": "added"
+    },
+    {
+      "path": "tools/runtime-manifest-lib.mjs",
+      "parentSha256": "e1fbb9869835dc429b9b0871b9903e35ad7abe0da9ff9361c116281555db017a",
+      "currentSha256": "a96afd930bd2b151b2901c61469f637d966c5f2b91b57100c706d2303e10f640",
+      "change": "modified"
+    },
+    {
+      "path": "tools/verify-jxl-codec-01-runtime.mjs",
+      "parentSha256": null,
+      "currentSha256": "c30df59d9f91e0f4932a6a2b275021b33b4a79fca005481afea341bdeffe1d41",
+      "change": "added"
+    },
+    {
+      "path": "tools/verify-worker-closure-v2.mjs",
+      "parentSha256": "0323346f8a990eb6d49f3a1df9d0de5ed8702fc5b1d45866618749f9725ada3c",
+      "currentSha256": "f6c40b3a6e310b9aef89574264bde86da0a75b16d94a020474b028119356c304",
+      "change": "modified"
+    }
+  ],
+  "sourceBakeSeal": "1875efdf6ada325d051d41472e719ea1e132bc8fc87bc051405b0fd566de0ee7"
+}

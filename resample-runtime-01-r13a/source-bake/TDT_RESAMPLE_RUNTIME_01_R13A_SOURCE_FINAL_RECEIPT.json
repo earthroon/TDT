@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 786,
+    "PENDING": 744,
+    "SKIPPED": 0
+  },
+  "finalWriterSummaryTrustCount": 0,
+  "fleetExecutionPerformed": false,
+  "historicalPassCarryForward": 0,
+  "localActivationPointerMutatedByR13A": false,
+  "parentR12ASourceReceiptSha256": "b5f3a951820633bdb572435766487aaabd7ddaf51cb24ffd2fdc9511a52fbca4",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R13A",
+  "productionPointerMutatedByR13A": false,
+  "schemaVersion": 1,
+  "selfSha256": "3d68fee92a582efd61f544b36054e41971da748bfa25a360e0cb41cfb5fbbace",
+  "sourceGateReportSha256": "b08826e3b0c7746a2a35cccffa411e416f0f63963802bef4d40f484ba1e51eef",
+  "specSha256": "0147e19035c89096efaf2e2169362fbdfe2b7c8da6b4125d24036bd5e7d405a5",
+  "state": "RESAMPLE_RUNTIME_R13A_FLEET_TO_LOCAL_TRANSITION_BINDING_SOURCE_SEALED_AWAITING_R12A_INSTALLED_AND_QUALIFIED_FLEET"
+}

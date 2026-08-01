@@ -1,0 +1,1426 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl04-source-gate-report.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-04",
+  "status": "PASS",
+  "gateCount": 224,
+  "passCount": 224,
+  "failCount": 0,
+  "groupSummary": {
+    "BASE": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "REG": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "GRAPH": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "UNIF": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "INPUT": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "L2": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "RCPT": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    },
+    "REGR": {
+      "total": 28,
+      "pass": 28,
+      "fail": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "BKR04-BASE-001",
+      "description": "Parent WGSL-03 receipt exists",
+      "status": "PASS",
+      "evidence": "artifacts/bakemono-rinne-wgsl-03/source/source-final-receipt.json"
+    },
+    {
+      "id": "BKR04-BASE-002",
+      "description": "Parent patch identity",
+      "status": "PASS",
+      "evidence": "TDT-BAKEMONO-RINNE-WGSL-03"
+    },
+    {
+      "id": "BKR04-BASE-003",
+      "description": "Parent source gates complete",
+      "status": "PASS",
+      "evidence": 208
+    },
+    {
+      "id": "BKR04-BASE-004",
+      "description": "Parent physical gates pending",
+      "status": "PASS",
+      "evidence": 56
+    },
+    {
+      "id": "BKR04-BASE-005",
+      "description": "Parent output remains candidate shadow",
+      "status": "PASS",
+      "evidence": "CANONICAL_CANDIDATE_SHADOW_ONLY"
+    },
+    {
+      "id": "BKR04-BASE-006",
+      "description": "Parent canonical final claim false",
+      "status": "PASS",
+      "evidence": false
+    },
+    {
+      "id": "BKR04-BASE-007",
+      "description": "Parent next patch WGSL-04",
+      "status": "PASS",
+      "evidence": "TDT-BAKEMONO-RINNE-WGSL-04"
+    },
+    {
+      "id": "BKR04-BASE-008",
+      "description": "WGSL-04 spec present",
+      "status": "PASS",
+      "evidence": "specs/TDT-BAKEMONO-RINNE-WGSL-04_R9A_COMMAND_GRAPH_PIPELINE_FAMILY_SINGLE_SUBMIT_ZERO_READBACK_SEAL_SPEC.md"
+    },
+    {
+      "id": "BKR04-BASE-009",
+      "description": "WGSL-04 README present",
+      "status": "PASS",
+      "evidence": "README_TDT_BAKEMONO_RINNE_WGSL_04_APPLIED.md"
+    },
+    {
+      "id": "BKR04-BASE-010",
+      "description": "Contract module present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_contract.mjs"
+    },
+    {
+      "id": "BKR04-BASE-011",
+      "description": "Pipeline family module present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_pipeline_family.mjs"
+    },
+    {
+      "id": "BKR04-BASE-012",
+      "description": "Qualification authority present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_qualification_authority.mjs"
+    },
+    {
+      "id": "BKR04-BASE-013",
+      "description": "Graph tensor module present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_graph_tensor.mjs"
+    },
+    {
+      "id": "BKR04-BASE-014",
+      "description": "Graph effect module present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_graph_effect.mjs"
+    },
+    {
+      "id": "BKR04-BASE-015",
+      "description": "Integration module present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_integration.mjs"
+    },
+    {
+      "id": "BKR04-BASE-016",
+      "description": "Receipt module present",
+      "status": "PASS",
+      "evidence": "app/legacy-runtime/core/compute/qmap_webgpu/bakemono_rinne_wgsl_04_receipt.mjs"
+    },
+    {
+      "id": "BKR04-BASE-017",
+      "description": "Type contract present",
+      "status": "PASS",
+      "evidence": "app/src/runtime/effects/bakemono-rinne/bakemono-rinne-wgsl-04-types.ts"
+    },
+    {
+      "id": "BKR04-BASE-018",
+      "description": "Owner identity exact",
+      "status": "PASS",
+      "evidence": "dadum.gpu.consumer.bakemono-rinne-wgsl-04"
+    },
+    {
+      "id": "BKR04-BASE-019",
+      "description": "Pipeline family identity exact",
+      "status": "PASS",
+      "evidence": "tdt.pipeline.bakemono-rinne.command-graph-family.wgsl04.v1"
+    },
+    {
+      "id": "BKR04-BASE-020",
+      "description": "Candidate authority shadow only",
+      "status": "PASS",
+      "evidence": "R9A_GRAPH_CANDIDATE_SHADOW_ONLY"
+    },
+    {
+      "id": "BKR04-BASE-021",
+      "description": "Modes exact",
+      "status": "PASS",
+      "evidence": [
+        "DISABLED",
+        "CANONICAL_SHADOW"
+      ]
+    },
+    {
+      "id": "BKR04-BASE-022",
+      "description": "Purposes exclude product final",
+      "status": "PASS",
+      "evidence": [
+        "QUALIFICATION_GRAPH_SHADOW",
+        "DIAGNOSTIC_GRAPH_SHADOW"
+      ]
+    },
+    {
+      "id": "BKR04-BASE-023",
+      "description": "Canonical ABI has 9 bindings",
+      "status": "PASS",
+      "evidence": 9
+    },
+    {
+      "id": "BKR04-BASE-024",
+      "description": "Uniform bytes inherited 128",
+      "status": "PASS",
+      "evidence": 128
+    },
+    {
+      "id": "BKR04-BASE-025",
+      "description": "Kernel identity inherited",
+      "status": "PASS",
+      "evidence": "tdt.effect.bakemono-rinne.kernel.wgsl.r1c-gated-shadow.v1"
+    },
+    {
+      "id": "BKR04-BASE-026",
+      "description": "Kernel ABI inherited",
+      "status": "PASS",
+      "evidence": "tdt.effect.bakemono-rinne.abi.r1c-gated-shadow.v1"
+    },
+    {
+      "id": "BKR04-BASE-027",
+      "description": "Fixture corpus digest sealed",
+      "status": "PASS",
+      "evidence": "c32a30f595644f9dd4c99b56b0a9c91f1f8db391823599e15f26a9d4a607e9b3"
+    },
+    {
+      "id": "BKR04-BASE-028",
+      "description": "Stable error set complete",
+      "status": "PASS",
+      "evidence": 26
+    },
+    {
+      "id": "BKR04-REG-001",
+      "description": "Stack imports WGSL-04 family factory",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-002",
+      "description": "Stack builds four families",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-003",
+      "description": "Stack attaches effect family",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-004",
+      "description": "Dispose cascades effect family",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-005",
+      "description": "Effect disposed before root EWA",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-006",
+      "description": "Registry requires effect family",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-007",
+      "description": "Registry family count is four",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-008",
+      "description": "Registry identity includes effect",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-009",
+      "description": "Registry checks effect runtime epoch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-010",
+      "description": "Registry checks effect device epoch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-011",
+      "description": "Registry checks effect device identity",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-012",
+      "description": "Registry seals effect owner",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-013",
+      "description": "Registry seals effect family ID",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-014",
+      "description": "Registry seals generated WGSL digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-015",
+      "description": "Registry seals manifest digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-016",
+      "description": "Registry seals layout digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-017",
+      "description": "Registry seals uniform digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-018",
+      "description": "Registry seals canonical delta",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-019",
+      "description": "Registry seals structure gate digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-020",
+      "description": "Registry seals pipeline identity",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-021",
+      "description": "Registry seals identity digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-022",
+      "description": "GPU consumer manifest admits owner",
+      "status": "PASS",
+      "evidence": "dadum.gpu.consumer.bakemono-rinne-wgsl-04"
+    },
+    {
+      "id": "BKR04-REG-023",
+      "description": "GPU consumer purpose graph native",
+      "status": "PASS",
+      "evidence": "r9a-command-graph-native-bakemono-rinne-shadow"
+    },
+    {
+      "id": "BKR04-REG-024",
+      "description": "Pipeline build excludes formula receipt",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-025",
+      "description": "Pipeline build excludes phase receipt",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-026",
+      "description": "Pipeline identity has device epoch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REG-027",
+      "description": "R2-R3 source regression passes",
+      "status": "PASS",
+      "evidence": 120
+    },
+    {
+      "id": "BKR04-REG-028",
+      "description": "R2-R3 four-family expectation active",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-001",
+      "description": "Active integration returns candidate",
+      "status": "PASS",
+      "evidence": "tdt.effect.bakemono-rinne.r9a-candidate-handle.wgsl04.v1"
+    },
+    {
+      "id": "BKR04-GRAPH-002",
+      "description": "Active integration returns recording receipt",
+      "status": "PASS",
+      "evidence": "tdt.effect.bakemono-rinne.r9a-graph-recording-receipt.wgsl04.v1"
+    },
+    {
+      "id": "BKR04-GRAPH-003",
+      "description": "Active integration adds seven passes",
+      "status": "PASS",
+      "evidence": 7
+    },
+    {
+      "id": "BKR04-GRAPH-004",
+      "description": "Terminal R1C dispatch count six",
+      "status": "PASS",
+      "evidence": [
+        "tdt.bkr04.tensor.gradient:operation:bkr04-source",
+        "tdt.bkr04.tensor.outer:operation:bkr04-source",
+        "tdt.bkr04.tensor.blurH:operation:bkr04-source",
+        "tdt.bkr04.tensor.blurV:operation:bkr04-source",
+        "tdt.bkr04.tensor.eigen:operation:bkr04-source",
+        "tdt.bkr04.tensor.axial:operation:bkr04-source",
+        "tdt.bkr04.effect:operation:bkr04-source"
+      ]
+    },
+    {
+      "id": "BKR04-GRAPH-005",
+      "description": "Effect dispatch count one",
+      "status": "PASS",
+      "evidence": [
+        "tdt.bkr04.tensor.gradient:operation:bkr04-source",
+        "tdt.bkr04.tensor.outer:operation:bkr04-source",
+        "tdt.bkr04.tensor.blurH:operation:bkr04-source",
+        "tdt.bkr04.tensor.blurV:operation:bkr04-source",
+        "tdt.bkr04.tensor.eigen:operation:bkr04-source",
+        "tdt.bkr04.tensor.axial:operation:bkr04-source",
+        "tdt.bkr04.effect:operation:bkr04-source"
+      ]
+    },
+    {
+      "id": "BKR04-GRAPH-006",
+      "description": "Pass order gradient first",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.tensor.gradient:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-007",
+      "description": "Pass order outer second",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.tensor.outer:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-008",
+      "description": "Pass order blurH third",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.tensor.blurH:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-009",
+      "description": "Pass order blurV fourth",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.tensor.blurV:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-010",
+      "description": "Pass order eigen fifth",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.tensor.eigen:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-011",
+      "description": "Pass order axial sixth",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.tensor.axial:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-012",
+      "description": "Effect pass seventh",
+      "status": "PASS",
+      "evidence": "tdt.bkr04.effect:operation:bkr04-source"
+    },
+    {
+      "id": "BKR04-GRAPH-013",
+      "description": "Disabled mode records zero passes",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-GRAPH-014",
+      "description": "Tensor recorder uses graph beginComputePass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-015",
+      "description": "Effect recorder uses graph beginComputePass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-016",
+      "description": "Tensor recorder has no raw encoder access",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-017",
+      "description": "Effect recorder has no raw encoder access",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-018",
+      "description": "Tensor recorder creates no encoder",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-019",
+      "description": "Effect recorder creates no encoder",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-020",
+      "description": "Tensor recorder submits zero queues",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-021",
+      "description": "Effect recorder submits zero queues",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-022",
+      "description": "Integration imported by R9A runtime",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-023",
+      "description": "R9A integration records before submit",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-024",
+      "description": "Identity stage supports native integration",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-025",
+      "description": "Normal stage supports native integration",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-026",
+      "description": "Terminal texture remains EWA texture",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-GRAPH-027",
+      "description": "Recording receipt submit count zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-GRAPH-028",
+      "description": "Recording receipt command encoder count zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-UNIF-001",
+      "description": "Exactly two graph uniform allocations",
+      "status": "PASS",
+      "evidence": 2
+    },
+    {
+      "id": "BKR04-UNIF-002",
+      "description": "Tensor allocation is 64 bytes",
+      "status": "PASS",
+      "evidence": 64
+    },
+    {
+      "id": "BKR04-UNIF-003",
+      "description": "Effect allocation is 128 bytes",
+      "status": "PASS",
+      "evidence": 128
+    },
+    {
+      "id": "BKR04-UNIF-004",
+      "description": "Tensor allocation pass ID exact",
+      "status": "PASS",
+      "evidence": "operation:bkr04-source:terminal-r1c"
+    },
+    {
+      "id": "BKR04-UNIF-005",
+      "description": "Effect allocation pass ID exact",
+      "status": "PASS",
+      "evidence": "operation:bkr04-source:bakemono-rinne"
+    },
+    {
+      "id": "BKR04-UNIF-006",
+      "description": "Tensor allocation has payload digest",
+      "status": "PASS",
+      "evidence": "db0313cf37c8e9d5712c3eec0022e1e6c159710c98979daa3222937a3462da24"
+    },
+    {
+      "id": "BKR04-UNIF-007",
+      "description": "Effect allocation has payload digest",
+      "status": "PASS",
+      "evidence": "f8b4fa4cfe7dc15d18872b077aacf5fb30e73b6149250a44109e7f5d49240776"
+    },
+    {
+      "id": "BKR04-UNIF-008",
+      "description": "Tensor allocation runtime epoch bound",
+      "status": "PASS",
+      "evidence": 7
+    },
+    {
+      "id": "BKR04-UNIF-009",
+      "description": "Effect allocation runtime epoch bound",
+      "status": "PASS",
+      "evidence": 7
+    },
+    {
+      "id": "BKR04-UNIF-010",
+      "description": "Tensor allocation device epoch bound",
+      "status": "PASS",
+      "evidence": 3
+    },
+    {
+      "id": "BKR04-UNIF-011",
+      "description": "Effect allocation device epoch bound",
+      "status": "PASS",
+      "evidence": 3
+    },
+    {
+      "id": "BKR04-UNIF-012",
+      "description": "Tensor recorder calls allocateUniform",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-013",
+      "description": "Effect recorder calls allocateUniform",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-014",
+      "description": "Tensor recorder creates no uniform buffer",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-015",
+      "description": "Effect recorder creates no uniform buffer",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-016",
+      "description": "Tensor recorder writes no buffer directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-017",
+      "description": "Effect recorder writes no buffer directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-018",
+      "description": "Tensor receipt standalone buffer count zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-019",
+      "description": "Effect receipt standalone buffer count zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-020",
+      "description": "Recording receipt uniform count two",
+      "status": "PASS",
+      "evidence": 2
+    },
+    {
+      "id": "BKR04-UNIF-021",
+      "description": "Recording receipt standalone count zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-UNIF-022",
+      "description": "Uniform offsets are aligned",
+      "status": "PASS",
+      "evidence": [
+        0,
+        256
+      ]
+    },
+    {
+      "id": "BKR04-UNIF-023",
+      "description": "Uniform buffers share ring identity",
+      "status": "PASS",
+      "evidence": [
+        "uniform-ring-buffer",
+        "uniform-ring-buffer"
+      ]
+    },
+    {
+      "id": "BKR04-UNIF-024",
+      "description": "Tensor BGL binding uses allocation offset",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-025",
+      "description": "Effect BGL binding uses allocation offset",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-026",
+      "description": "Tensor BGL binding uses allocation size",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-027",
+      "description": "Effect BGL binding uses allocation size",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-UNIF-028",
+      "description": "Uniform ring owns submission retirement",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-001",
+      "description": "Effect mode normalized active",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-002",
+      "description": "Effect purpose qualification admitted",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-003",
+      "description": "Base is generated from final EWA internally",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-004",
+      "description": "Caller base field absent from graph request contract",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-005",
+      "description": "Q-map bound directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-006",
+      "description": "Scalar bound directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-007",
+      "description": "Alpha depth bound directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-008",
+      "description": "Highlight bound directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-009",
+      "description": "Mask edge bound directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-010",
+      "description": "Terminal R1C field bound directly",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-011",
+      "description": "Output storage binding index seven",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-012",
+      "description": "Uniform binding index eight",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-013",
+      "description": "Input descriptors carry content digests",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-014",
+      "description": "Input descriptors match output width",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-015",
+      "description": "Input descriptors match output height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-016",
+      "description": "Input descriptors match runtime epoch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-017",
+      "description": "Input descriptors match device epoch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-018",
+      "description": "Input descriptors match device identity",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-019",
+      "description": "No implicit zero texture creation",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-020",
+      "description": "No Q-map resampling in WGSL-04",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-021",
+      "description": "No scalar generation in WGSL-04",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-022",
+      "description": "No mask derivation in WGSL-04",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-023",
+      "description": "Alias validator invoked",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-024",
+      "description": "Output alias validator invoked",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-025",
+      "description": "Normalizers preserve effect request",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-026",
+      "description": "Public compatibility facade accepts effect",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-027",
+      "description": "Public compatibility facade accepts resolver",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-INPUT-028",
+      "description": "Active request missing inputs fails closed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-001",
+      "description": "Qualification receipt physical status",
+      "status": "PASS",
+      "evidence": "PHYSICAL_PASS"
+    },
+    {
+      "id": "BKR04-L2-002",
+      "description": "Qualification receipt physical execution",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-003",
+      "description": "Qualification receipt pass true",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-004",
+      "description": "Qualification shader set exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-005",
+      "description": "Qualification parameter digest exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-006",
+      "description": "Qualification pipeline identity exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-007",
+      "description": "Qualification adapter exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-008",
+      "description": "Qualification device exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-009",
+      "description": "Qualification corpus exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-010",
+      "description": "Resolver invoked exactly once",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "id": "BKR04-L2-011",
+      "description": "Resolver input uses tensorPipelineIdentity",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-012",
+      "description": "Authority maps receipt pipelineIdentity",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-013",
+      "description": "Authority register verifies WGSL-03 receipt",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-014",
+      "description": "Authority rejects nonphysical receipt",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-015",
+      "description": "Authority requires physicalExecution true",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-016",
+      "description": "Authority requires pass true",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-017",
+      "description": "Operation path has no lambda probe import",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-018",
+      "description": "Operation path has no probe dispatch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-019",
+      "description": "Operation path has no readback buffer",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-020",
+      "description": "Operation path has no mapAsync",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-021",
+      "description": "Operation path has no copyBufferToBuffer",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-022",
+      "description": "Terminal producer stores receipt digest",
+      "status": "PASS",
+      "evidence": "5e9b7e1b3815bd3b251321f5e44c40facb7ff8f768455a00049d959db9414bcb"
+    },
+    {
+      "id": "BKR04-L2-023",
+      "description": "Candidate stores effect receipt digest",
+      "status": "PASS",
+      "evidence": "4abfd80f2231d75a6db0f603d5aae1cc34422300acb26ea332b955c904348f64"
+    },
+    {
+      "id": "BKR04-L2-024",
+      "description": "Recording receipt stores tensor digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-025",
+      "description": "Recording receipt stores effect digest",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-L2-026",
+      "description": "Nonzero corner evidence present",
+      "status": "PASS",
+      "evidence": 19
+    },
+    {
+      "id": "BKR04-L2-027",
+      "description": "Nonzero junction evidence present",
+      "status": "PASS",
+      "evidence": 23
+    },
+    {
+      "id": "BKR04-L2-028",
+      "description": "Coherence distribution evidence valid",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-001",
+      "description": "Graph receipt schema exact",
+      "status": "PASS",
+      "evidence": "tdt.effect.bakemono-rinne.r9a-graph-recording-receipt.wgsl04.v1"
+    },
+    {
+      "id": "BKR04-RCPT-002",
+      "description": "Graph receipt self verifies",
+      "status": "PASS",
+      "evidence": "2f3a250eafe31bc470c523cecba8d5515f99216df9c04147ce8b68bfbe444e81"
+    },
+    {
+      "id": "BKR04-RCPT-003",
+      "description": "Graph receipt digest 64 hex",
+      "status": "PASS",
+      "evidence": "2f3a250eafe31bc470c523cecba8d5515f99216df9c04147ce8b68bfbe444e81"
+    },
+    {
+      "id": "BKR04-RCPT-004",
+      "description": "Graph receipt command graph exact",
+      "status": "PASS",
+      "evidence": "graph:bkr04-source"
+    },
+    {
+      "id": "BKR04-RCPT-005",
+      "description": "Graph receipt base lineage exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-006",
+      "description": "Graph receipt pipeline identity exact",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-007",
+      "description": "Graph receipt pass before zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-RCPT-008",
+      "description": "Graph receipt pass after seven",
+      "status": "PASS",
+      "evidence": 7
+    },
+    {
+      "id": "BKR04-RCPT-009",
+      "description": "Graph receipt added passes seven",
+      "status": "PASS",
+      "evidence": 7
+    },
+    {
+      "id": "BKR04-RCPT-010",
+      "description": "Graph receipt submit count zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-RCPT-011",
+      "description": "Graph receipt intermediate readback zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-RCPT-012",
+      "description": "Graph receipt post-submit hook zero",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "id": "BKR04-RCPT-013",
+      "description": "Graph receipt final claim false",
+      "status": "PASS",
+      "evidence": false
+    },
+    {
+      "id": "BKR04-RCPT-014",
+      "description": "Candidate schema exact",
+      "status": "PASS",
+      "evidence": "tdt.effect.bakemono-rinne.r9a-candidate-handle.wgsl04.v1"
+    },
+    {
+      "id": "BKR04-RCPT-015",
+      "description": "Candidate authority exact",
+      "status": "PASS",
+      "evidence": "R9A_GRAPH_CANDIDATE_SHADOW_ONLY"
+    },
+    {
+      "id": "BKR04-RCPT-016",
+      "description": "Candidate semantic inherited",
+      "status": "PASS",
+      "evidence": "tdt.surface.bakemono-rinne.r1c-gated-shadow-candidate.linear-premul.v1"
+    },
+    {
+      "id": "BKR04-RCPT-017",
+      "description": "Candidate format rgba16float",
+      "status": "PASS",
+      "evidence": "rgba16float"
+    },
+    {
+      "id": "BKR04-RCPT-018",
+      "description": "Candidate transfer linear",
+      "status": "PASS",
+      "evidence": "linear"
+    },
+    {
+      "id": "BKR04-RCPT-019",
+      "description": "Candidate alpha premultiplied",
+      "status": "PASS",
+      "evidence": "premultiplied"
+    },
+    {
+      "id": "BKR04-RCPT-020",
+      "description": "Candidate coordinate output pixel",
+      "status": "PASS",
+      "evidence": "output-pixel"
+    },
+    {
+      "id": "BKR04-RCPT-021",
+      "description": "Candidate epoch current",
+      "status": "PASS",
+      "evidence": 3
+    },
+    {
+      "id": "BKR04-RCPT-022",
+      "description": "Candidate graph current",
+      "status": "PASS",
+      "evidence": "graph:bkr04-source"
+    },
+    {
+      "id": "BKR04-RCPT-023",
+      "description": "Candidate final claim false",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-024",
+      "description": "Candidate surface publish zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-025",
+      "description": "Candidate preview publish zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-026",
+      "description": "Candidate export publish zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-RCPT-027",
+      "description": "Candidate initially retained",
+      "status": "PASS",
+      "evidence": false
+    },
+    {
+      "id": "BKR04-RCPT-028",
+      "description": "Candidate release idempotent",
+      "status": "PASS",
+      "evidence": 7
+    },
+    {
+      "id": "BKR04-REGR-001",
+      "description": "Parent WGSL-03 source report PASS",
+      "status": "PASS",
+      "evidence": 208
+    },
+    {
+      "id": "BKR04-REGR-002",
+      "description": "R2-R3 registry report PASS",
+      "status": "PASS",
+      "evidence": 120
+    },
+    {
+      "id": "BKR04-REGR-003",
+      "description": "Negative controls all detected",
+      "status": "PASS",
+      "evidence": 56
+    },
+    {
+      "id": "BKR04-REGR-004",
+      "description": "WGSL-03 generated shader unchanged",
+      "status": "PASS",
+      "evidence": "2c08dbd37160e348c84780e22ba4cd9b886f43fb25e5e57f96ca15dc309c137b"
+    },
+    {
+      "id": "BKR04-REGR-005",
+      "description": "Compatibility kernel remains separate",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-006",
+      "description": "WGSL-03 isolated shadow runtime retained",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-007",
+      "description": "WGSL-04 does not publish Surface Registry",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-008",
+      "description": "WGSL-04 does not publish Preview",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-009",
+      "description": "WGSL-04 does not publish Export",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-010",
+      "description": "WGSL-04 does not replace terminal texture",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-011",
+      "description": "Post-submit hook stable error present",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-012",
+      "description": "Post-submit callback removed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-013",
+      "description": "Envelope deltaK execution zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-014",
+      "description": "Envelope native record count present",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-015",
+      "description": "Envelope added pass count present",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-016",
+      "description": "Envelope effect readback zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-017",
+      "description": "Envelope effect submit zero",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-018",
+      "description": "Command graph still owns one submit",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-019",
+      "description": "No WGSL-04 direct queue fence",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-020",
+      "description": "No WGSL-04 randomness",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-021",
+      "description": "No WGSL-04 readPixels",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-022",
+      "description": "No WGSL-04 CPU pixel loop",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-023",
+      "description": "JavaScript modules parse statically",
+      "status": "PASS",
+      "evidence": "node --check run separately"
+    },
+    {
+      "id": "BKR04-REGR-024",
+      "description": "TypeScript contract syntax present",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-025",
+      "description": "Spec declares 224 source gates",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-026",
+      "description": "Spec declares 64 physical gates",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-027",
+      "description": "Spec declares 56 mutants",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "BKR04-REGR-028",
+      "description": "Next authority remains WGSL-05",
+      "status": "PASS",
+      "evidence": null
+    }
+  ],
+  "selfSha256": "a06a12f064df51aea52f1be2010857ff990a13772e74ba977bc88d1516aa3ea0"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-02",
+  "status": "BLOCKED",
+  "candidateState": "SOURCE_BAKED_UNPROMOTED",
+  "productionBuildVerified": false,
+  "emittedArtifactsVerified": false,
+  "packagedArtifactVerified": false,
+  "blockers": [
+    "DEPENDENCY_LOCK_MISMATCH",
+    "NATIVE_ADDON_MISSING"
+  ]
+}

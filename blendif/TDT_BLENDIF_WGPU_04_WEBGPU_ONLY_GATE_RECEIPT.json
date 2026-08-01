@@ -1,0 +1,54 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-04",
+  "name": "WebGPU Only Gate / No Silent WebGL Fallback Real Code Patch",
+  "status": "PASS",
+  "created_at": "2026-07-06T03:58:46.919614+00:00",
+  "depends_on": [
+    "TDT-BLENDIF-WGPU-01",
+    "TDT-BLENDIF-WGPU-02",
+    "TDT-BLENDIF-WGPU-03"
+  ],
+  "mutation_policy": "direct-source-edit-no-apply-script",
+  "changed_files": [
+    "app/EmotionPipeline_CURVED_DEARTIFACT_PATCH.js",
+    "app/wire_blendif_hook.js",
+    "app/blendif_ui.js",
+    "app/applyBlendingIf.js",
+    "app/js/passes/dk_after_final_color_webgpu.js",
+    "app/js/passes/blendif_webgpu_pass.js",
+    "app/js/passes/blendif_webgpu_wgsl.js"
+  ],
+  "route_policy": {
+    "official_backend": "webgpu",
+    "webgl_fallback_allowed": false,
+    "webgpu_unavailable_behavior": "disable_blendif",
+    "legacy_webgl_file_deleted": false
+  },
+  "applied_cumulative": [
+    "PASS_TDT_BLENDIF_WGPU_02_RANGE_MAPPING_HOTFIX",
+    "PASS_TDT_BLENDIF_WGPU_03_MODE_ENUM_PARITY",
+    "PASS_TDT_BLENDIF_WGPU_04_WEBGPU_ONLY_GATE"
+  ],
+  "webgpu_available_behavior": {
+    "uses_webgpu_blendif": true,
+    "calls_webgl_apply_blending_if": false,
+    "calls_legacy_webgl_hook": false
+  },
+  "webgpu_unavailable_behavior": {
+    "ui_disabled": true,
+    "status_message_present": true,
+    "falls_back_to_webgl": false
+  },
+  "forbidden_mutations_checked": {
+    "split_slider_added": false,
+    "schema_v2_added": false,
+    "params_struct_changed": false,
+    "uniform_layout_changed": false,
+    "oklab_added": false,
+    "use_oklab_removed": false,
+    "preset_migration_added": false,
+    "qmap_feather_changed": false,
+    "apply_script_created": false
+  },
+  "result_marker": "PASS_TDT_BLENDIF_WGPU_04_WEBGPU_ONLY_GATE"
+}

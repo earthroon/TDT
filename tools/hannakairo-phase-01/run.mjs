@@ -1,0 +1,1 @@
+import {spawnSync} from 'node:child_process';for(const script of ['tools/hannakairo-phase-01/verify-source-contract.mjs','tools/hannakairo-phase-01/verify-wgsl-contract.mjs','tools/hannakairo-phase-01/runtime-smoke.mjs','tools/hannakairo-phase-01/gate.mjs']){const r=spawnSync(process.execPath,[script],{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1);}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.parent-evidence-baseline.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "parentZipSha256": "334591314e9bbc392eb0b6274912112de9e4344846d0f544178fa3abcb827b97",
+  "fileCount": 20,
+  "files": [
+    {
+      "rel": "README_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R1_APPLIED.md",
+      "byteLength": 2689,
+      "sha256": "2d19a582b45e396ef6bd5d273b9d850591ecd0c2abf6fb80db82ee99e2aea338"
+    },
+    {
+      "rel": "README_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R2_APPLIED.md",
+      "byteLength": 1529,
+      "sha256": "4908aaf3fb3efc123d56ade2910208c3f0d7aa0a8372362df54fce302b87f138"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r1/source-bake/R9AP1R2R1_CYCLE_BINDING_UNIT_REPORT.json",
+      "byteLength": 442,
+      "sha256": "a1b88effbe333a8196fcfa27362a02761e7a94d2b4d2ff19192d43c66dbc4c54"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r1/source-bake/R9AP1R2R1_IMPLEMENTATION_MANIFEST.json",
+      "byteLength": 5857,
+      "sha256": "c8964e774f1337bc7d717ed04a2ba3fcdd4b73a19719da31ca33b4ecf849cc6e"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r1/source-bake/R9AP1R2R1_PARENT_INPUT_IDENTITY.json",
+      "byteLength": 907,
+      "sha256": "0710e715ef1ea92833adf1e3674116ff65346e9caa99f99e27998d0ca1018223"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r1/source-bake/R9AP1R2R1_PREVIEW_TICKET_UNIT_REPORT.json",
+      "byteLength": 320,
+      "sha256": "e994f32bda3867b465d4a71eb8120ba6e8ca0bb8173ee64565f37eed5e30f5f1"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r1/source-bake/R9AP1R2R1_SOURCE_GATE_REPORT.json",
+      "byteLength": 20294,
+      "sha256": "8443adfa916ab9538f031f8fd512a77e6c64cf225865818316635689572f3347"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r1/source-bake/TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R1_SOURCE_FINAL_RECEIPT.json",
+      "byteLength": 1214,
+      "sha256": "3e1ac694694b197fd18a1728e36d768ccd8a75e002516455febcb8797302219c"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_AUTHORITY_UNIT_SNAPSHOT.json",
+      "byteLength": 28511,
+      "sha256": "264acb64400fd41fd78945e2af0e319e1e211d89563d9688d44add5cae9931db"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_CONCURRENCY_UNIT_REPORT.json",
+      "byteLength": 230,
+      "sha256": "3a9a60c3a6c7acd5b61d6a6386a3fcf7ad0781ed626dc76f00b333bad9195aac"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_IMPLEMENTATION_MANIFEST.json",
+      "byteLength": 4447,
+      "sha256": "d9ac6a95dedea736a794a1bb2030740128a0adce7dc2afeed0e934ab775bd9ac"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_PACKAGED_PHYSICAL_PENDING_REPORT.json",
+      "byteLength": 5798,
+      "sha256": "c78d71f17ec93c16dbf9b4517c86c88ddfa43a066c9698b885f23bd13e24c82b"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_PERMIT_MUTATION_UNIT_REPORT.json",
+      "byteLength": 3017,
+      "sha256": "0e34671f5a20aeb8def2a328572df5eded1ad567c2c1f996b4f5c3732facb1dd"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_SOURCE_GATE_REPORT.json",
+      "byteLength": 25286,
+      "sha256": "9cf6fcc244f4d4dc7be523c351bd39306b97ac9e84abc784f3797a084b9e4a20"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/R9AP1R2R2_TYPESCRIPT_BASELINE_COMPARISON.json",
+      "byteLength": 1449,
+      "sha256": "dc84d4aff827b1a53665a0b7adcd3acca94b05edab3795f3449ef4cb4db5ab3f"
+    },
+    {
+      "rel": "artifacts/resample-runtime-01-r9a-p1-r2-r2/TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R2_SOURCE_FINAL_RECEIPT.json",
+      "byteLength": 659,
+      "sha256": "c4f15a522a1f0ec3c4b174f1446c123790ff4124fcaf759cbe33b98a6f79d22c"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1_LOST_OPERATION_TERMINAL_REJECTION_PREVIEW_DEFERRED_EXPORT_MAP_RECOVERY_EVENT_CORRELATION_SEAL_SPEC.md",
+      "byteLength": 43568,
+      "sha256": "e5a868ba29cdcdd01b999af6d25c1e70c68987313f505302d288ab20f8a2ea92"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1_LOST_OPERATION_TERMINAL_REJECTION_PREVIEW_DEFERRED_EXPORT_MAP_RECOVERY_EVENT_CORRELATION_SEAL_SPEC.md.sha256",
+      "byteLength": 205,
+      "sha256": "3692d36b426a98e752ee9e988fce47cb541fd94a0efafc5436b71275138614b4"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2_JIT_CONTROLLED_LOSS_PERMIT_FULL_FIELD_SENDER_OWNERSHIP_SINGLE_USE_TOMBSTONE_SEAL_SPEC.md",
+      "byteLength": 54031,
+      "sha256": "81abf90aecd2f1c814b9a9a94eb6fc98ded4cea4490c77655f76bdb17707162b"
+    },
+    {
+      "rel": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2_JIT_CONTROLLED_LOSS_PERMIT_FULL_FIELD_SENDER_OWNERSHIP_SINGLE_USE_TOMBSTONE_SEAL_SPEC.md.sha256",
+      "byteLength": 65,
+      "sha256": "4cd7eb92e3fed058a6e79d85630c5d8e155c53ce64e661f22827e0317a1910ac"
+    }
+  ],
+  "selfSha256": "b5a7b5307562ede4414ec4a468dd91a06df86de7df66151640cbb35c2791171f"
+}

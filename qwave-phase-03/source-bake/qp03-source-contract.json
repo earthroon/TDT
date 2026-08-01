@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "count": 88,
+  "passed": 88,
+  "failed": [],
+  "checks": [
+    {
+      "name": "file:app/src/runtime/analysis/qwave/qwave-phase-service.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-service.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/qwave/qwave-phase-types.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-types.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/qwave/qwave-phase-parameters.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-parameters.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/qwave/qwave-phase-job-arena.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-job-arena.ts"
+    },
+    {
+      "name": "file:app/src/runtime/analysis/qwave/qwave-phase-receipt.ts",
+      "pass": true,
+      "detail": "app/src/runtime/analysis/qwave/qwave-phase-receipt.ts"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/qwave/qwave_phase_bridge.mjs",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/qwave/qwave_phase_bridge.mjs"
+    },
+    {
+      "name": "file:app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js",
+      "pass": true,
+      "detail": "app/legacy-runtime/js/passes/qwave_builder_webgpu_compute.js"
+    },
+    {
+      "name": "file:specs/TDT-QWAVE-PHASE-03_ANALYTIC_QWAVE_COMPLEX_FIELD_SOURCE_SELECTABLE_IMAGINARY_COMPONENT_VISUAL_WAVE_SEPARATION_SEAL_SPEC.md",
+      "pass": true,
+      "detail": "specs/TDT-QWAVE-PHASE-03_ANALYTIC_QWAVE_COMPLEX_FIELD_SOURCE_SELECTABLE_IMAGINARY_COMPONENT_VISUAL_WAVE_SEPARATION_SEAL_SPEC.md"
+    },
+    {
+      "name": "semantic:tdt.analysis.qwave.real-delta-k-compat.v1",
+      "pass": true,
+      "detail": "tdt.analysis.qwave.real-delta-k-compat.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.qwave.imaginary-component.v1",
+      "pass": true,
+      "detail": "tdt.analysis.qwave.imaginary-component.v1"
+    },
+    {
+      "name": "semantic:tdt.analysis.qwave.analytic-complex.v2",
+      "pass": true,
+      "detail": "tdt.analysis.qwave.analytic-complex.v2"
+    },
+    {
+      "name": "registry-version",
+      "pass": true,
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "name": "visual-semantic-separated",
+      "pass": true,
+      "detail": "visual semantic present"
+    },
+    {
+      "name": "producer-present",
+      "pass": true,
+      "detail": "tdt-qwave-analytic-complex-v2"
+    },
+    {
+      "name": "producer-canonical",
+      "pass": true,
+      "detail": "canonical"
+    },
+    {
+      "name": "producer-version",
+      "pass": true,
+      "detail": "3.0.0"
+    },
+    {
+      "name": "producer-output:tdt.analysis.qwave.real-delta-k-compat.v1",
+      "pass": true,
+      "detail": "tdt.analysis.qwave.real-delta-k-compat.v1"
+    },
+    {
+      "name": "producer-output:tdt.analysis.qwave.imaginary-component.v1",
+      "pass": true,
+      "detail": "tdt.analysis.qwave.imaginary-component.v1"
+    },
+    {
+      "name": "producer-output:tdt.analysis.qwave.analytic-complex.v2",
+      "pass": true,
+      "detail": "tdt.analysis.qwave.analytic-complex.v2"
+    },
+    {
+      "name": "source-mode:local-anisotropy-compat",
+      "pass": true,
+      "detail": "local-anisotropy-compat"
+    },
+    {
+      "name": "source-mode:spectral-quadrature",
+      "pass": true,
+      "detail": "spectral-quadrature"
+    },
+    {
+      "name": "source-mode:hannakairo-defect",
+      "pass": true,
+      "detail": "hannakairo-defect"
+    },
+    {
+      "name": "source-mode:tensor-curvature",
+      "pass": true,
+      "detail": "tensor-curvature"
+    },
+    {
+      "name": "source-mode:hilbert-quadrature",
+      "pass": true,
+      "detail": "hilbert-quadrature"
+    },
+    {
+      "name": "service:publishRealDeltaKCompatibility",
+      "pass": true,
+      "detail": "publishRealDeltaKCompatibility"
+    },
+    {
+      "name": "service:buildAnalyticQWave",
+      "pass": true,
+      "detail": "buildAnalyticQWave"
+    },
+    {
+      "name": "service:buildLegacyRg",
+      "pass": true,
+      "detail": "buildLegacyRg"
+    },
+    {
+      "name": "service:publishFieldSet",
+      "pass": true,
+      "detail": "publishFieldSet"
+    },
+    {
+      "name": "service:intermediatePixelReadbackCount:0",
+      "pass": true,
+      "detail": "intermediatePixelReadbackCount:0"
+    },
+    {
+      "name": "service:visualWaveSeparated:true",
+      "pass": true,
+      "detail": "visualWaveSeparated:true"
+    },
+    {
+      "name": "service:principalRoot:true",
+      "pass": true,
+      "detail": "principalRoot:true"
+    },
+    {
+      "name": "service:E_QWAVE_IMAGINARY_SOURCE_NOT_PROMOTED",
+      "pass": true,
+      "detail": "E_QWAVE_IMAGINARY_SOURCE_NOT_PROMOTED"
+    },
+    {
+      "name": "service:sourceMode:p.sourceMode",
+      "pass": true,
+      "detail": "sourceMode:p.sourceMode"
+    },
+    {
+      "name": "parameter:imaginaryGain",
+      "pass": true,
+      "detail": "imaginaryGain"
+    },
+    {
+      "name": "parameter:localAnisotropyScale",
+      "pass": true,
+      "detail": "localAnisotropyScale"
+    },
+    {
+      "name": "parameter:defectScale",
+      "pass": true,
+      "detail": "defectScale"
+    },
+    {
+      "name": "parameter:curvatureScale",
+      "pass": true,
+      "detail": "curvatureScale"
+    },
+    {
+      "name": "parameter:imaginaryClamp",
+      "pass": true,
+      "detail": "imaginaryClamp"
+    },
+    {
+      "name": "parameter:epsilon",
+      "pass": true,
+      "detail": "epsilon"
+    },
+    {
+      "name": "parameter:parameterDigest",
+      "pass": true,
+      "detail": "parameterDigest"
+    },
+    {
+      "name": "receipt:principalRootBranch",
+      "pass": true,
+      "detail": "principalRootBranch"
+    },
+    {
+      "name": "receipt:dispatchCount:2",
+      "pass": true,
+      "detail": "dispatchCount:2"
+    },
+    {
+      "name": "receipt:queueSubmissionCount:1",
+      "pass": true,
+      "detail": "queueSubmissionCount:1"
+    },
+    {
+      "name": "receipt:intermediateReadbackCount:0",
+      "pass": true,
+      "detail": "intermediateReadbackCount:0"
+    },
+    {
+      "name": "receipt:atomicFieldSetPublication:true",
+      "pass": true,
+      "detail": "atomicFieldSetPublication:true"
+    },
+    {
+      "name": "receipt:visualWaveSeparated:true",
+      "pass": true,
+      "detail": "visualWaveSeparated:true"
+    },
+    {
+      "name": "asset:qwave-imag-local-aniso-v3",
+      "pass": true,
+      "detail": "qwave-imag-local-aniso-v3"
+    },
+    {
+      "name": "asset:qwave-imag-spectral-project-v3",
+      "pass": true,
+      "detail": "qwave-imag-spectral-project-v3"
+    },
+    {
+      "name": "asset:qwave-imag-defect-project-v3",
+      "pass": true,
+      "detail": "qwave-imag-defect-project-v3"
+    },
+    {
+      "name": "asset:qwave-imag-curvature-v3",
+      "pass": true,
+      "detail": "qwave-imag-curvature-v3"
+    },
+    {
+      "name": "asset:qwave-imag-hilbert-v3",
+      "pass": true,
+      "detail": "qwave-imag-hilbert-v3"
+    },
+    {
+      "name": "asset:qwave-analytic-principal-sqrt-v3",
+      "pass": true,
+      "detail": "qwave-analytic-principal-sqrt-v3"
+    },
+    {
+      "name": "asset:qwave-analytic-to-rg-compat-v3",
+      "pass": true,
+      "detail": "qwave-analytic-to-rg-compat-v3"
+    },
+    {
+      "name": "asset:qwave-analytic-fixture-generator-v3",
+      "pass": true,
+      "detail": "qwave-analytic-fixture-generator-v3"
+    },
+    {
+      "name": "asset:qwave-analytic-reference-polar-v3",
+      "pass": true,
+      "detail": "qwave-analytic-reference-polar-v3"
+    },
+    {
+      "name": "asset:qwave-analytic-compare-v3",
+      "pass": true,
+      "detail": "qwave-analytic-compare-v3"
+    },
+    {
+      "name": "asset:qwave-source-selection-counter-v3",
+      "pass": true,
+      "detail": "qwave-source-selection-counter-v3"
+    },
+    {
+      "name": "service-token",
+      "pass": true,
+      "detail": "service token"
+    },
+    {
+      "name": "runtime-service-register",
+      "pass": true,
+      "detail": "service registration"
+    },
+    {
+      "name": "runtime-module",
+      "pass": true,
+      "detail": "module declaration"
+    },
+    {
+      "name": "runtime-capability",
+      "pass": true,
+      "detail": "capability"
+    },
+    {
+      "name": "runtime-dependency",
+      "pass": true,
+      "detail": "legacy dependency"
+    },
+    {
+      "name": "global-bridge",
+      "pass": true,
+      "detail": "global bridge"
+    },
+    {
+      "name": "gpu-consumer",
+      "pass": true,
+      "detail": "GPU owner admitted"
+    },
+    {
+      "name": "error:E_QWAVE_BRIDGE_COLLISION",
+      "pass": true,
+      "detail": "E_QWAVE_BRIDGE_COLLISION"
+    },
+    {
+      "name": "error:E_QWAVE_SERVICE_NOT_ACTIVE",
+      "pass": true,
+      "detail": "E_QWAVE_SERVICE_NOT_ACTIVE"
+    },
+    {
+      "name": "error:E_QWAVE_CANCELLED",
+      "pass": true,
+      "detail": "E_QWAVE_CANCELLED"
+    },
+    {
+      "name": "error:E_QWAVE_INPUT_REAL_REQUIRED",
+      "pass": true,
+      "detail": "E_QWAVE_INPUT_REAL_REQUIRED"
+    },
+    {
+      "name": "error:E_QWAVE_SOURCE_MODE_INVALID",
+      "pass": true,
+      "detail": "E_QWAVE_SOURCE_MODE_INVALID"
+    },
+    {
+      "name": "error:E_QWAVE_SOURCE_SEMANTIC_MISMATCH",
+      "pass": true,
+      "detail": "E_QWAVE_SOURCE_SEMANTIC_MISMATCH"
+    },
+    {
+      "name": "error:E_QWAVE_SOURCE_IDENTITY_MISMATCH",
+      "pass": true,
+      "detail": "E_QWAVE_SOURCE_IDENTITY_MISMATCH"
+    },
+    {
+      "name": "error:E_QWAVE_LAYOUT_RECEIPT_REQUIRED",
+      "pass": true,
+      "detail": "E_QWAVE_LAYOUT_RECEIPT_REQUIRED"
+    },
+    {
+      "name": "error:E_QWAVE_LAYOUT_DIGEST_MISMATCH",
+      "pass": true,
+      "detail": "E_QWAVE_LAYOUT_DIGEST_MISMATCH"
+    },
+    {
+      "name": "error:E_QWAVE_IMAGINARY_SOURCE_NOT_PROMOTED",
+      "pass": true,
+      "detail": "E_QWAVE_IMAGINARY_SOURCE_NOT_PROMOTED"
+    },
+    {
+      "name": "error:E_QWAVE_COMPATIBILITY_ADAPTER_INVALID",
+      "pass": true,
+      "detail": "E_QWAVE_COMPATIBILITY_ADAPTER_INVALID"
+    },
+    {
+      "name": "error:E_QWAVE_VISUAL_BRIDGE_UNAVAILABLE",
+      "pass": true,
+      "detail": "E_QWAVE_VISUAL_BRIDGE_UNAVAILABLE"
+    },
+    {
+      "name": "legacy-delegates",
+      "pass": true,
+      "detail": "canonical real and analytic bridge"
+    },
+    {
+      "name": "legacy-no-embedded-wgsl",
+      "pass": true,
+      "detail": "old embedded shader retired"
+    },
+    {
+      "name": "visual-global-prefix",
+      "pass": true,
+      "detail": "visual namespace"
+    },
+    {
+      "name": "visual-no-imagebitmap-readback",
+      "pass": true,
+      "detail": "no visual bitmap CPU sampling"
+    },
+    {
+      "name": "visual-overlay-no-canvas-readback",
+      "pass": true,
+      "detail": "no visual overlay Kelvin readback"
+    },
+    {
+      "name": "visual-default-kelvin",
+      "pass": true,
+      "detail": "explicit Kelvin"
+    },
+    {
+      "name": "no-analysis-time-input",
+      "pass": true,
+      "detail": "analysis time-independent"
+    },
+    {
+      "name": "no-analysis-kelvin",
+      "pass": true,
+      "detail": "analysis Kelvin-free"
+    },
+    {
+      "name": "no-analysis-canvas",
+      "pass": true,
+      "detail": "analysis no Canvas/WebGL"
+    },
+    {
+      "name": "no-map-read",
+      "pass": true,
+      "detail": "zero readback source"
+    },
+    {
+      "name": "real-copy-gpu-only",
+      "pass": true,
+      "detail": "real field remains GPU resident with exact format"
+    },
+    {
+      "name": "field-set-output-count",
+      "pass": true,
+      "detail": "imaginary and analytic fields publish atomically"
+    }
+  ],
+  "digest": "298c18c0983a003dd0de61a8dc42196d8e3a147765d8263de6b2320d5854ab62"
+}

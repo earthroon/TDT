@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "sourceParentZipSha256": "0adaaa54ee02badc5851d86a6633123874b04f05b082d6c2c9d91c3419a0c005",
+  "files": [
+    {
+      "relativePath": "package.json",
+      "sha256": "9f987bfb3623c68417141c72a49dda6263951b030d01c04f3bb76df3186fb8a1"
+    },
+    {
+      "relativePath": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "sha256": "54270b855344e4663408f375a52ed0e1afd4aa1fbb091ac1116449fb936d487c"
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner.mjs",
+      "sha256": "c4758506b719d763734470b311379f6aac155ae144206504171445d1abcf40f7"
+    },
+    {
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/deltaK_stack_autoEWA.mjs",
+      "sha256": "9b1d432a8a095f92c88bf6ecabae2eb834d88738684f59607992ee9ce660fe31"
+    },
+    {
+      "relativePath": "app/legacy-runtime/modules/dk_resample/export_wgsl_downscale.js",
+      "sha256": "2e34a0423f3065d0d9828661f816b63ccbe2c22f0478d2221eabeb0c6b80aa7f"
+    },
+    {
+      "relativePath": "app/src/legacy/generated-legacy-static-admission.json",
+      "sha256": "23d14a6f18541016d11345c7d036d18e75843d29b075faecf383b3dfa6d45b37"
+    },
+    {
+      "relativePath": "app/src/runtime/assets/generated-runtime-asset-manifest.json",
+      "sha256": "2d2ba16f2814271e68816d1db38e8a523b4221ea29dc2f42781cd23e9748d843"
+    },
+    {
+      "relativePath": "app/src/runtime/assets/generated-runtime-asset-manifest.ts",
+      "sha256": "c8c6033c6ff43b2b5c6478f1064567551f7d23b33495b5192202f02097b95f53"
+    },
+    {
+      "relativePath": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "sha256": "4836f1962fdab0066e967e9cc1defe737e48ed4b708a011720cd296db0b4aa8c"
+    },
+    {
+      "relativePath": "app/src/runtime/active-graph/generated-active-runtime-graph.ts",
+      "sha256": "ff1386792edf82dc5649a298eab4b986db2c553437f8609c7a7293901aea9e3a"
+    },
+    {
+      "relativePath": "artifacts/runtime/TDT_BUILD_EMIT_01_LEGACY_STATIC_ADMISSION_MANIFEST.json",
+      "sha256": "23d14a6f18541016d11345c7d036d18e75843d29b075faecf383b3dfa6d45b37"
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/dynamic-asset-manifest-receipt.json",
+      "sha256": "6e1ff0b22b9e34ced565ce478e7d70f0490750961c10f3d0e362a718017bdac1"
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/graph-generation-receipt.json",
+      "sha256": "152df0b0141e6472bc6cf8fe350599f35d8ba0e8862451dd3dd92b19cf8f65a1"
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/edge-manifest.json",
+      "sha256": "80f46a9ec8db9d67b24776b4f76cdcebed65330ff98cd405a78262a29cab28cd"
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/source-authority.json",
+      "sha256": "cf7cf05a2583a25776c2c8a6841b5d6941c05f222804d0d35c9d12dbf6418e7c"
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/randomness-audit.json",
+      "sha256": "320de20811bee3ee85c1a4b0adc3f350928a380229ff368ae6e9b06f85ea1729"
+    },
+    {
+      "relativePath": "artifacts/active-graph-01/source-bake/node-manifest.json",
+      "sha256": "547fc8faa24b49a7eb8ca91733e0be271189d15a28b93d656633ec4938c47be4"
+    }
+  ],
+  "removeFiles": [
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_stage_planner_v2.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_contract_r7.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_canonical_lowpass_runtime_r7.mjs",
+    "app/legacy-runtime/core/compute/qmap_webgpu/ewa_convergence_receipt_r7.mjs",
+    "app/legacy-runtime/modules/dk_resample/export_residual_runtime_r7.mjs",
+    "app/legacy-runtime/modules/dk_resample/export_finalize_runtime_r7.mjs",
+    "app/legacy-runtime/modules/dk_resample/shaders/export_detail_residual_r7.wgsl",
+    "app/legacy-runtime/modules/dk_resample/shaders/export_finalize_rgba8_r7.wgsl"
+  ]
+}

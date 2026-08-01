@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "borderSeparationCount": 18,
+  "checks": [
+    {
+      "name": "default-r5:0",
+      "pass": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "default-r5:0.015625",
+      "pass": true,
+      "detail": {
+        "actual": 0.959320932336732,
+        "expected": 0.959320932336732
+      }
+    },
+    {
+      "name": "default-r5:0.0625",
+      "pass": true,
+      "detail": {
+        "actual": 0.8456383262413169,
+        "expected": 0.8456383262413169
+      }
+    },
+    {
+      "name": "default-r5:0.125",
+      "pass": true,
+      "detail": {
+        "actual": 0.7119259380135127,
+        "expected": 0.7119259380135127
+      }
+    },
+    {
+      "name": "default-r5:0.25",
+      "pass": true,
+      "detail": {
+        "actual": 0.4964948975181255,
+        "expected": 0.4964948975181255
+      }
+    },
+    {
+      "name": "default-r5:0.5",
+      "pass": true,
+      "detail": {
+        "actual": 0.21911749623247462,
+        "expected": 0.21911749623247462
+      }
+    },
+    {
+      "name": "default-r5:0.75",
+      "pass": true,
+      "detail": {
+        "actual": 0.07252714589091383,
+        "expected": 0.07252714589091383
+      }
+    },
+    {
+      "name": "default-r5:0.9375",
+      "pass": true,
+      "detail": {
+        "actual": 0.013307017887025267,
+        "expected": 0.013307017887025267
+      }
+    },
+    {
+      "name": "default-r5:1",
+      "pass": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "default-r5:1.015625",
+      "pass": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "default-r5:-0.015625",
+      "pass": true,
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "q-zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "q-one",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "support",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "sharpness-sensitivity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "taper-sensitivity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "constant-dc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "impulse-normalized",
+      "pass": true,
+      "detail": 0.5592404719155643
+    },
+    {
+      "name": "fetch-clamp:-0.375:-3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:-2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:-1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:-0.375:6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:-3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:-2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:-1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:0.125:6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:-3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:-2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:-1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fetch-clamp:3.875:6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "border-negative-control",
+      "pass": true,
+      "detail": 18
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[TDT-RUNTIME-SSOT-01-R1] generated build eee360738e92f72a44043680; lockConsistent=false
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+PASS GATE-R1-08 Pinia static serializability gate
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect
+PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry
+PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+PASS GATE-R1-20 deterministic receipt parity 100/100 ed8c2aec1a1658686c118207b34cfa61c23f579ad12b0dee224198c9631dd83c
+PASS TypeScript syntax 48 files
+PASS GATE-R1-ERROR-CODE stable error registry 29/29 referenced codes declared
+PASS_TDT_RUNTIME_SSOT_01_R1_SOURCE_BAKE_UNPROMOTED

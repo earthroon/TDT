@@ -1,0 +1,14 @@
+{
+  "appQuitHookBound": true,
+  "bootRecoveryBeforeWindow": true,
+  "mainCoordinatorSingleton": true,
+  "narrowUpdateIpc": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "preloadExposesJournalPath": false,
+  "preloadExposesPointerPath": false,
+  "preloadExposesSigningKey": false,
+  "r11aWindowShowDelegatedToR12A": true,
+  "schemaVersion": 1,
+  "selfSha256": "6ccd63207f51c3872409ddc16204b7374a750c613f38b5acbfd48dc4fe427abf"
+}

@@ -1,0 +1,11 @@
+{
+  "installedAdmissionReceiptSha256": "437c39ba8c694216fffd8dfb945647e36661145c67331d01fcc2c3d3f6746919",
+  "installedClosureVerified": true,
+  "lineageCurrentVerified": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "pointerV3Verified": true,
+  "r10aFinalStateVerified": true,
+  "schemaVersion": 1,
+  "selfSha256": "cedeb19dc00642b45f2331ff3eb341e8177db98b4c1bf0b0a588c84c39fbc2f2"
+}

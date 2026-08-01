@@ -1,0 +1,14 @@
+export const PATCH_ID = 'TDT-RESAMPLE-RUNTIME-01-R8A';
+export const SOURCE_STATE = 'RESAMPLE_RUNTIME_R8A_ACTIVE_RUNTIME_TRUTH_CLOSURE_SEALED_AWAITING_R9A_PHYSICAL_GPU';
+export const DOWNSTREAM_STATE = 'R9_TO_R13_SOURCE_RECEIPTS_SUPERSEDED_BY_R8A_REBASE_REQUIRED';
+export const NEXT_AUTHORITY = 'TDT-RESAMPLE-RUNTIME-01-R9A';
+export const PARENT_ZIP = '61_TDT_RESAMPLE_RUNTIME_01_R13_COHORT_ROLLOUT_PRIVACY_SOURCE_BAKED_AWAITING_FLEET.zip';
+export const PARENT_ZIP_SHA256 = '5d6d474f073357281199c739bbd6ea03ca97b55f426fae208bf043d5bff9b855';
+export const SPEC_SHA256 = 'fa0d411bcca0a58f86dc51729c0dd4452dc0422f4d03039daf7a95b603647a52';
+export const SOURCE_GATE_COUNT = 253;
+export const PHYSICAL_GATE_COUNT = 8;
+export const PARSER_AUTHORITY = 'tdt.active-runtime.javascript-parse-closure.r8a.v1';
+export const EXECUTOR_AUTHORITY = 'tdt.resample.canonical-executor-registration.r8a.v1';
+export const IDENTITY_AUTHORITY = 'tdt.resample.actual-kernel-identity-propagation.r8a.v1';
+export const RECOVERY_AUTHORITY = 'tdt.resample.repeated-device-loss-registration.r8a.v1';
+export const EXPORT_AUTHORITY = 'tdt.export.zero-silent-fallback.r8a.v1';

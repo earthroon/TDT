@@ -1,0 +1,12 @@
+{
+  "activeGraphNodePresent": true,
+  "exportDrainParticipant": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "previewDrainParticipant": true,
+  "rendererPointerWriteAllowed": false,
+  "rendererUpdateServiceConsumer": true,
+  "runtimeManifestModulePresent": true,
+  "schemaVersion": 1,
+  "selfSha256": "2316053a4c58fc1fed51fda16af98aaa54e38aa7a61e30ddd8c2058e5b1bccc8"
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "https://dadum.local/schemas/r12a/transition-admission-receipt.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "schemaId",
+    "previousPackageContentId",
+    "targetPackageContentId",
+    "receiptSha256"
+  ],
+  "title": "R12A transition-admission-receipt",
+  "type": "object"
+}

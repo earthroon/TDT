@@ -1,0 +1,208 @@
+{
+  "failCount": 0,
+  "passCount": 40,
+  "schemaVersion": 1,
+  "selfSha256": "7b389d19931ab7ca4aa3da4555c3a3022cef0e73ee408d2853f9174584ee9667",
+  "tests": [
+    {
+      "errorCode": "E_R13A_PLAN_INVALID",
+      "name": "tampered-plan",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_LEASE_EXPIRED",
+      "name": "expired-lease",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_LEASE_REPLAY",
+      "name": "lease-replay",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_DRAIN_PERMIT_MISSING",
+      "name": "permit-claim-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_FLEET_BINDING_MISMATCH",
+      "name": "binding-transaction-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_R12A_INSTALLED_RECEIPT_MISSING",
+      "name": "r12a-child-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_EVIDENCE_ACK_INVALID",
+      "name": "ack-evidence-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_FINALIZER_REVALIDATION_FAILED",
+      "name": "aggregate-summary-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_PRIVACY_REPORT_INVALID",
+      "name": "privacy-report-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_UNKNOWN_INSTALLATION",
+      "name": "unknown-installation",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_MISSING_EVIDENCE",
+      "name": "missing-ack",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_FINALIZER_REVALIDATION_FAILED",
+      "name": "pointer-mutation",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_FINALIZER_REVALIDATION_FAILED",
+      "name": "ring-decision-short",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_PRIVACY_REPORT_INVALID",
+      "name": "privacy-small-k",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R13A_EVIDENCE_OUTBOX_LOSS",
+      "name": "delete-before-ack",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-16",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-17",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-18",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-19",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-20",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-21",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-22",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-23",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-24",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-25",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-26",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-27",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-28",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-29",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-30",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-31",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-32",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-33",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-34",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-35",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-36",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-37",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-38",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-39",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_FAIL_CLOSED_ASSERTION",
+      "name": "contract-family-40",
+      "status": "PASS"
+    }
+  ]
+}

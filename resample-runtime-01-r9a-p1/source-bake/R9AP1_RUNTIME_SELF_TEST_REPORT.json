@@ -1,0 +1,33 @@
+{
+  "failCount": 0,
+  "passCount": 4,
+  "schemaVersion": 1,
+  "selfSha256": "acd7c7a98a0690d980b0964b499934fb3e5f4685b1da01130251072c42492b55",
+  "tests": [
+    {
+      "evidence": {
+        "eventCount": 2,
+        "pass": true
+      },
+      "id": "R9AP1-LEDGER-CHAIN",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-UNIFORM-EPOCH-INVALIDATE",
+      "status": "PASS"
+    },
+    {
+      "evidence": true,
+      "id": "R9AP1-TICKET-LOST-REJECTS",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "events": 0
+      },
+      "id": "R9AP1-COMMAND-GRAPH-SINGLE-SUBMIT",
+      "status": "PASS"
+    }
+  ]
+}

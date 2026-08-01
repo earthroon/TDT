@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "schemaVersion": 1,
+  "status": 0,
+  "stderr": "",
+  "stdout": "R9 fixtures 24 digest 310aa66bb645d67f9379602d7ce1ecabfbabbd474b0b7d303d4c0546f207392a\nR9 parent freeze 17/17\nR9 source gates 110 PASS / 0 FAIL\nPASS R9 isolated R8 predecessor regression including R1A-R7 1/1\nTDT-RESAMPLE-RUNTIME-01-R9 110 SOURCE PASS / 187 PHYSICAL PENDING / 0 FAIL\n",
+  "tempRemoved": true
+}

@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"tdt.r9a-p1.timestamp-samples.v1","type":"object","required":["schemaVersion","schemaId","rows"],"properties":{"schemaId":{"const":"tdt.r9a-p1.raw-timestamp-samples.v1"},"rows":{"type":"array"}}}

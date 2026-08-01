@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "artifacts/promotion/TDT_EXPORT_PROMOTION_POINTER_V2.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+      "size": 1379
+    },
+    {
+      "path": "artifacts/resample-runtime-01-r10a/source-bake/TDT_RESAMPLE_RUNTIME_01_R10A_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "2fa87a9f3a2c1a36798265d84512cf89932c6aeb2316052a6a049a0793a76d0b",
+      "size": 137634
+    },
+    {
+      "path": "artifacts/resample-runtime-01-r11a/source-bake/TDT_RESAMPLE_RUNTIME_01_R11A_SOURCE_FINAL_RECEIPT.json",
+      "sha256": "2c6a2aaf222e302fde862dda07c4d35e59d2df3d2e6d277b350657c27c63f934",
+      "size": 201036
+    },
+    {
+      "path": "artifacts/runtime/TDT_EXPORT_PROMOTION_POINTER.json",
+      "sha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+      "size": 1379
+    },
+    {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R10A_R8A_R9A_RELEASE_REQUALIFICATION_PRODUCTION_CANDIDATE_REBUILD_PRODUCTION_POINTER_CAS_REPLAY_ROLLBACK_DRILL_REPLAY_DOWNSTREAM_RECEIPT_LINEAGE_RESTORATION_SEAL_SPEC.md",
+      "sha256": "a81c2a65af855663137ab3269351d9ef17e1eb2c7ec71fbcfcdf81c6ba282aea",
+      "size": 68942
+    },
+    {
+      "path": "specs/TDT-RESAMPLE-RUNTIME-01-R11A_R10A_RELEASE_ADMISSION_ELECTRON_STARTUP_ATTESTATION_WIRING_INSTALLED_SESSION_TOKEN_ENFORCEMENT_CRASH_DEVICE_LOSS_RUNTIME_QUARANTINE_PREVIEW_EXPORT_ADMISSION_INTEGRATION_SEAL_SPEC.md",
+      "sha256": "a2a2d68ab276b5c1733dfd91bf478d237ca11d6c6498a345b0f318f679aaaff5",
+      "size": 64128
+    }
+  ],
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "schemaVersion": 1,
+  "snapshotId": "tdt.resample-runtime.r12a-predecessor-snapshot.v1",
+  "snapshotSha256": "bfd4f0d47d4a20b4c13783679b399a756fd99efe8c82b02bbefb36ecd08633c5"
+}

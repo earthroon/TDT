@@ -1,0 +1,1195 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 148
+  },
+  "gates": [
+    {
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_PRESENT"
+      },
+      "id": "R11-S001",
+      "name": "PARENT_BUNDLE_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PARENT_BUNDLE_SHA256_EXACT"
+      },
+      "id": "R11-S002",
+      "name": "PARENT_BUNDLE_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_SPEC_PRESENT"
+      },
+      "id": "R11-S003",
+      "name": "R10_SPEC_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_SPEC_SHA256_EXACT"
+      },
+      "id": "R11-S004",
+      "name": "R10_SPEC_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_SOURCE_RECEIPT_PRESENT"
+      },
+      "id": "R11-S005",
+      "name": "R10_SOURCE_RECEIPT_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_SOURCE_RECEIPT_SHA256_EXACT"
+      },
+      "id": "R11-S006",
+      "name": "R10_SOURCE_RECEIPT_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_SOURCE_STATE_EXACT"
+      },
+      "id": "R11-S007",
+      "name": "R10_SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_SOURCE_PASS_129"
+      },
+      "id": "R11-S008",
+      "name": "R10_SOURCE_PASS_129",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_RELEASE_PENDING_202"
+      },
+      "id": "R11-S009",
+      "name": "R10_RELEASE_PENDING_202",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_FAIL_ZERO"
+      },
+      "id": "R11-S010",
+      "name": "R10_FAIL_ZERO",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_POINTER_NOT_MUTATED"
+      },
+      "id": "R11-S011",
+      "name": "R10_POINTER_NOT_MUTATED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_MIRRORS_PRESENT"
+      },
+      "id": "R11-S012",
+      "name": "POINTER_MIRRORS_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_MIRRORS_BYTE_EQUAL"
+      },
+      "id": "R11-S013",
+      "name": "POINTER_MIRRORS_BYTE_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_RAW_SHA256_EXACT"
+      },
+      "id": "R11-S014",
+      "name": "POINTER_RAW_SHA256_EXACT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_SCHEMA_V2_READABLE"
+      },
+      "id": "R11-S015",
+      "name": "POINTER_SCHEMA_V2_READABLE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_ACTIVE_NULL_RECORDED"
+      },
+      "id": "R11-S016",
+      "name": "POINTER_ACTIVE_NULL_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_FINAL_RELEASE_ABSENT_RECORDED"
+      },
+      "id": "R11-S017",
+      "name": "R10_FINAL_RELEASE_ABSENT_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_REQUIRED_PREDECESSOR_DECLARED"
+      },
+      "id": "R11-S018",
+      "name": "R11_REQUIRED_PREDECESSOR_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_SCOPE_EXCLUDES_POINTER_WRITE"
+      },
+      "id": "R11-S019",
+      "name": "R11_SCOPE_EXCLUDES_POINTER_WRITE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R11_PARENT_FREEZE_MANIFEST_SEALED"
+      },
+      "id": "R11-S020",
+      "name": "R11_PARENT_FREEZE_MANIFEST_SEALED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "INSTALLED_ATTESTATION_SCHEMA_ID"
+      },
+      "id": "R11-S021",
+      "name": "INSTALLED_ATTESTATION_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "EXPECTED_MANIFEST_SCHEMA_ID"
+      },
+      "id": "R11-S022",
+      "name": "EXPECTED_MANIFEST_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STARTUP_CANARY_SCHEMA_ID"
+      },
+      "id": "R11-S023",
+      "name": "STARTUP_CANARY_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_TOKEN_SCHEMA_ID"
+      },
+      "id": "R11-S024",
+      "name": "SESSION_TOKEN_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DRIFT_LEDGER_SCHEMA_ID"
+      },
+      "id": "R11-S025",
+      "name": "DRIFT_LEDGER_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_SCHEMA_ID"
+      },
+      "id": "R11-S026",
+      "name": "QUARANTINE_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_SCHEMA_ID"
+      },
+      "id": "R11-S027",
+      "name": "ROLLBACK_RECOMMENDATION_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "FINAL_RECEIPT_SCHEMA_ID"
+      },
+      "id": "R11-S028",
+      "name": "FINAL_RECEIPT_SCHEMA_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RUNTIME_ADMISSION_TOKEN_VERSION"
+      },
+      "id": "R11-S029",
+      "name": "RUNTIME_ADMISSION_TOKEN_VERSION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_FIXTURE_SET_ID"
+      },
+      "id": "R11-S030",
+      "name": "CANARY_FIXTURE_SET_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POLICY_PROFILE_ID"
+      },
+      "id": "R11-S031",
+      "name": "POLICY_PROFILE_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_AUTHORITY_ID"
+      },
+      "id": "R11-S032",
+      "name": "POINTER_AUTHORITY_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RELEASE_RECEIPT_AUTHORITY_ID"
+      },
+      "id": "R11-S033",
+      "name": "RELEASE_RECEIPT_AUTHORITY_ID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "KERNEL_ID_PINNED"
+      },
+      "id": "R11-S034",
+      "name": "KERNEL_ID_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PLANNER_ID_PINNED"
+      },
+      "id": "R11-S035",
+      "name": "PLANNER_ID_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ABI_ID_PINNED"
+      },
+      "id": "R11-S036",
+      "name": "ABI_ID_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "COORDINATE_CONVENTION_PINNED"
+      },
+      "id": "R11-S037",
+      "name": "COORDINATE_CONVENTION_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "AXIAL_FIELD_ID_PINNED"
+      },
+      "id": "R11-S038",
+      "name": "AXIAL_FIELD_ID_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "BORDER_CONTRACT_PINNED"
+      },
+      "id": "R11-S039",
+      "name": "BORDER_CONTRACT_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SURFACE_CONTRACT_PINNED"
+      },
+      "id": "R11-S040",
+      "name": "SURFACE_CONTRACT_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_THRESHOLDS_PINNED"
+      },
+      "id": "R11-S041",
+      "name": "QUARANTINE_THRESHOLDS_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PERFORMANCE_DRIFT_POLICY_PINNED"
+      },
+      "id": "R11-S042",
+      "name": "PERFORMANCE_DRIFT_POLICY_PINNED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "EXPECTED_MANIFEST_GENERATOR_PRESENT"
+      },
+      "id": "R11-S043",
+      "name": "EXPECTED_MANIFEST_GENERATOR_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "EXPECTED_MANIFEST_VERIFIER_PRESENT"
+      },
+      "id": "R11-S044",
+      "name": "EXPECTED_MANIFEST_VERIFIER_PRESENT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_EXCLUDES_SELF_REFERENCE"
+      },
+      "id": "R11-S045",
+      "name": "MANIFEST_EXCLUDES_SELF_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_RELATIVE_PATHS_ONLY"
+      },
+      "id": "R11-S046",
+      "name": "MANIFEST_RELATIVE_PATHS_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_PATH_NORMALIZATION"
+      },
+      "id": "R11-S047",
+      "name": "MANIFEST_PATH_NORMALIZATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_DUPLICATE_PATH_REJECTED"
+      },
+      "id": "R11-S048",
+      "name": "MANIFEST_DUPLICATE_PATH_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_FILE_SIZE_RECORDED"
+      },
+      "id": "R11-S049",
+      "name": "MANIFEST_FILE_SIZE_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_FILE_SHA256_RECORDED"
+      },
+      "id": "R11-S050",
+      "name": "MANIFEST_FILE_SHA256_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_ROLE_RECORDED"
+      },
+      "id": "R11-S051",
+      "name": "MANIFEST_ROLE_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_LOAD_MODE_RECORDED"
+      },
+      "id": "R11-S052",
+      "name": "MANIFEST_LOAD_MODE_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_TREE_ROOT_RECORDED"
+      },
+      "id": "R11-S053",
+      "name": "MANIFEST_TREE_ROOT_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MANIFEST_SELF_SHA256_RECORDED"
+      },
+      "id": "R11-S054",
+      "name": "MANIFEST_SELF_SHA256_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_CHILD_ARTIFACT_BINDING_SUPPORTED"
+      },
+      "id": "R11-S055",
+      "name": "R10_CHILD_ARTIFACT_BINDING_SUPPORTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_CONTENT_ID_BINDING_SUPPORTED"
+      },
+      "id": "R11-S056",
+      "name": "PACKAGE_CONTENT_ID_BINDING_SUPPORTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "APP_ASAR_COVERAGE"
+      },
+      "id": "R11-S057",
+      "name": "APP_ASAR_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNPACKED_RUNTIME_COVERAGE"
+      },
+      "id": "R11-S058",
+      "name": "UNPACKED_RUNTIME_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WORKER_CLOSURE_COVERAGE"
+      },
+      "id": "R11-S059",
+      "name": "WORKER_CLOSURE_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WASM_CLOSURE_COVERAGE"
+      },
+      "id": "R11-S060",
+      "name": "WASM_CLOSURE_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "NATIVE_ADDON_CLOSURE_COVERAGE"
+      },
+      "id": "R11-S061",
+      "name": "NATIVE_ADDON_CLOSURE_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "WGSL_CLOSURE_COVERAGE"
+      },
+      "id": "R11-S062",
+      "name": "WGSL_CLOSURE_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "GENERATED_MANIFEST_COVERAGE"
+      },
+      "id": "R11-S063",
+      "name": "GENERATED_MANIFEST_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVE_GRAPH_COVERAGE"
+      },
+      "id": "R11-S064",
+      "name": "ACTIVE_GRAPH_COVERAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "MISSING_FILE_FAIL_CLOSED"
+      },
+      "id": "R11-S065",
+      "name": "MISSING_FILE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "EXTRA_EXECUTABLE_FILE_FAIL_CLOSED"
+      },
+      "id": "R11-S066",
+      "name": "EXTRA_EXECUTABLE_FILE_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STARTUP_LOCK_IMPLEMENTED"
+      },
+      "id": "R11-S067",
+      "name": "STARTUP_LOCK_IMPLEMENTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STARTUP_LOCK_EXCLUSIVE"
+      },
+      "id": "R11-S068",
+      "name": "STARTUP_LOCK_EXCLUSIVE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STALE_LOCK_NOT_AUTO_DELETED"
+      },
+      "id": "R11-S069",
+      "name": "STALE_LOCK_NOT_AUTO_DELETED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "BOOT_ID_GENERATED"
+      },
+      "id": "R11-S070",
+      "name": "BOOT_ID_GENERATED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "UNCLEAN_SESSION_MARKER_READ"
+      },
+      "id": "R11-S071",
+      "name": "UNCLEAN_SESSION_MARKER_READ",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "R10_FINAL_RECEIPT_ADMISSION_FIRST"
+      },
+      "id": "R11-S072",
+      "name": "R10_FINAL_RECEIPT_ADMISSION_FIRST",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_READ_BEFORE_PACKAGE_HASH"
+      },
+      "id": "R11-S073",
+      "name": "POINTER_READ_BEFORE_PACKAGE_HASH",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_SELF_HASH_VERIFICATION"
+      },
+      "id": "R11-S074",
+      "name": "POINTER_SELF_HASH_VERIFICATION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "POINTER_GENERATION_CAPTURE"
+      },
+      "id": "R11-S075",
+      "name": "POINTER_GENERATION_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVE_BUILD_CAPTURE"
+      },
+      "id": "R11-S076",
+      "name": "ACTIVE_BUILD_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ACTIVE_PACKAGE_CAPTURE"
+      },
+      "id": "R11-S077",
+      "name": "ACTIVE_PACKAGE_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "EXECUTING_PACKAGE_ID_CAPTURE"
+      },
+      "id": "R11-S078",
+      "name": "EXECUTING_PACKAGE_ID_CAPTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PACKAGE_POINTER_EQUALITY_CHECK"
+      },
+      "id": "R11-S079",
+      "name": "PACKAGE_POINTER_EQUALITY_CHECK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "FULL_CLOSURE_HASH_BEFORE_CANARY"
+      },
+      "id": "R11-S080",
+      "name": "FULL_CLOSURE_HASH_BEFORE_CANARY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ARTIFACT_DRIFT_STOPS_CANARY"
+      },
+      "id": "R11-S081",
+      "name": "ARTIFACT_DRIFT_STOPS_CANARY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DEVICE_AUTHORITY_AFTER_ARTIFACT_PASS"
+      },
+      "id": "R11-S082",
+      "name": "DEVICE_AUTHORITY_AFTER_ARTIFACT_PASS",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_BEFORE_USER_JOB"
+      },
+      "id": "R11-S083",
+      "name": "CANARY_BEFORE_USER_JOB",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_TOKEN_AFTER_CANARY_ONLY"
+      },
+      "id": "R11-S084",
+      "name": "SESSION_TOKEN_AFTER_CANARY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TOKEN_REQUIRED_BY_PREVIEW"
+      },
+      "id": "R11-S085",
+      "name": "TOKEN_REQUIRED_BY_PREVIEW",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TOKEN_REQUIRED_BY_EXPORT"
+      },
+      "id": "R11-S086",
+      "name": "TOKEN_REQUIRED_BY_EXPORT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "TOKEN_REVOCATION_IMPLEMENTED"
+      },
+      "id": "R11-S087",
+      "name": "TOKEN_REVOCATION_IMPLEMENTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CLEAN_SHUTDOWN_SEAL_IMPLEMENTED"
+      },
+      "id": "R11-S088",
+      "name": "CLEAN_SHUTDOWN_SEAL_IMPLEMENTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STARTUP_FAILURE_STABLE_RECEIPT"
+      },
+      "id": "R11-S089",
+      "name": "STARTUP_FAILURE_STABLE_RECEIPT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "STARTUP_REENTRY_FORBIDDEN"
+      },
+      "id": "R11-S090",
+      "name": "STARTUP_REENTRY_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_MODE_CANNOT_ADMIT_RUNTIME"
+      },
+      "id": "R11-S091",
+      "name": "SOURCE_MODE_CANNOT_ADMIT_RUNTIME",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_USES_PACKAGED_RUNTIME"
+      },
+      "id": "R11-S092",
+      "name": "CANARY_USES_PACKAGED_RUNTIME",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NO_SOURCE_TREE_IMPORT"
+      },
+      "id": "R11-S093",
+      "name": "CANARY_NO_SOURCE_TREE_IMPORT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NO_DEV_SERVER"
+      },
+      "id": "R11-S094",
+      "name": "CANARY_NO_DEV_SERVER",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NO_USER_IMAGE"
+      },
+      "id": "R11-S095",
+      "name": "CANARY_NO_USER_IMAGE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_FIXTURES_DETERMINISTIC"
+      },
+      "id": "R11-S096",
+      "name": "CANARY_FIXTURES_DETERMINISTIC",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_R4_CONSTANT_FIXTURE"
+      },
+      "id": "R11-S097",
+      "name": "CANARY_R4_CONSTANT_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_R4_FRACTIONAL_FIXTURE"
+      },
+      "id": "R11-S098",
+      "name": "CANARY_R4_FRACTIONAL_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_R6_ANISO_FIXTURE"
+      },
+      "id": "R11-S099",
+      "name": "CANARY_R6_ANISO_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_BORDER_CORNER_FIXTURE"
+      },
+      "id": "R11-S100",
+      "name": "CANARY_BORDER_CORNER_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_ALPHA_EDGE_FIXTURE"
+      },
+      "id": "R11-S101",
+      "name": "CANARY_ALPHA_EDGE_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NEUTRAL_POLICY_FIXTURE"
+      },
+      "id": "R11-S102",
+      "name": "CANARY_NEUTRAL_POLICY_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_RESIDUAL_DISABLED_FIXTURE"
+      },
+      "id": "R11-S103",
+      "name": "CANARY_RESIDUAL_DISABLED_FIXTURE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_COUNTER_POSITIVE_CONTROL"
+      },
+      "id": "R11-S104",
+      "name": "CANARY_COUNTER_POSITIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_COUNTER_ZERO_CONTROL"
+      },
+      "id": "R11-S105",
+      "name": "CANARY_COUNTER_ZERO_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_PRODUCT_REFERENCE_RAW16"
+      },
+      "id": "R11-S106",
+      "name": "CANARY_PRODUCT_REFERENCE_RAW16",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_ORACLE_BINARY16_ULP"
+      },
+      "id": "R11-S107",
+      "name": "CANARY_ORACLE_BINARY16_ULP",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_VALIDATION_COUNTER_READBACK"
+      },
+      "id": "R11-S108",
+      "name": "CANARY_VALIDATION_COUNTER_READBACK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NONFINITE_SCAN"
+      },
+      "id": "R11-S109",
+      "name": "CANARY_NONFINITE_SCAN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_FAULT_SENTINEL_SCAN"
+      },
+      "id": "R11-S110",
+      "name": "CANARY_FAULT_SENTINEL_SCAN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NO_CPU_PRODUCT_FALLBACK"
+      },
+      "id": "R11-S111",
+      "name": "CANARY_NO_CPU_PRODUCT_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NO_CANVAS_FALLBACK"
+      },
+      "id": "R11-S112",
+      "name": "CANARY_NO_CANVAS_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_NO_WEBGL_FALLBACK"
+      },
+      "id": "R11-S113",
+      "name": "CANARY_NO_WEBGL_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_POST_LOSS_ENTRY"
+      },
+      "id": "R11-S114",
+      "name": "CANARY_POST_LOSS_ENTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_PERIODIC_ENTRY"
+      },
+      "id": "R11-S115",
+      "name": "CANARY_PERIODIC_ENTRY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CANARY_RECEIPT_SCHEMA_VALID"
+      },
+      "id": "R11-S116",
+      "name": "CANARY_RECEIPT_SCHEMA_VALID",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_IDENTITY_FIELDS_COMPLETE"
+      },
+      "id": "R11-S117",
+      "name": "SESSION_IDENTITY_FIELDS_COMPLETE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_DEVICE_EPOCH_BOUND"
+      },
+      "id": "R11-S118",
+      "name": "SESSION_DEVICE_EPOCH_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_POINTER_GENERATION_BOUND"
+      },
+      "id": "R11-S119",
+      "name": "SESSION_POINTER_GENERATION_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_PACKAGE_ID_BOUND"
+      },
+      "id": "R11-S120",
+      "name": "SESSION_PACKAGE_ID_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_KERNEL_ID_BOUND"
+      },
+      "id": "R11-S121",
+      "name": "SESSION_KERNEL_ID_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_PLANNER_ID_BOUND"
+      },
+      "id": "R11-S122",
+      "name": "SESSION_PLANNER_ID_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_ABI_ID_BOUND"
+      },
+      "id": "R11-S123",
+      "name": "SESSION_ABI_ID_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_GRAPH_DIGEST_BOUND"
+      },
+      "id": "R11-S124",
+      "name": "SESSION_GRAPH_DIGEST_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SESSION_CANARY_DIGEST_BOUND"
+      },
+      "id": "R11-S125",
+      "name": "SESSION_CANARY_DIGEST_BOUND",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAZY_WORKER_HASH_CHECK"
+      },
+      "id": "R11-S126",
+      "name": "LAZY_WORKER_HASH_CHECK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAZY_WASM_HASH_CHECK"
+      },
+      "id": "R11-S127",
+      "name": "LAZY_WASM_HASH_CHECK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAZY_NATIVE_ADDON_HASH_CHECK"
+      },
+      "id": "R11-S128",
+      "name": "LAZY_NATIVE_ADDON_HASH_CHECK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "LAZY_WGSL_HASH_CHECK"
+      },
+      "id": "R11-S129",
+      "name": "LAZY_WGSL_HASH_CHECK",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DRIFT_LEDGER_APPEND_ONLY"
+      },
+      "id": "R11-S130",
+      "name": "DRIFT_LEDGER_APPEND_ONLY",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DRIFT_LEDGER_HASH_CHAIN"
+      },
+      "id": "R11-S131",
+      "name": "DRIFT_LEDGER_HASH_CHAIN",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DRIFT_LEDGER_MONOTONIC_SEQUENCE"
+      },
+      "id": "R11-S132",
+      "name": "DRIFT_LEDGER_MONOTONIC_SEQUENCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DRIFT_EVENT_STABLE_TYPES"
+      },
+      "id": "R11-S133",
+      "name": "DRIFT_EVENT_STABLE_TYPES",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "CRASH_MARKER_SOURCE"
+      },
+      "id": "R11-S134",
+      "name": "CRASH_MARKER_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RENDERER_GONE_LISTENER_SOURCE"
+      },
+      "id": "R11-S135",
+      "name": "RENDERER_GONE_LISTENER_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "GPU_PROCESS_GONE_LISTENER_SOURCE"
+      },
+      "id": "R11-S136",
+      "name": "GPU_PROCESS_GONE_LISTENER_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "DEVICE_LOST_LISTENER_SOURCE"
+      },
+      "id": "R11-S137",
+      "name": "DEVICE_LOST_LISTENER_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RESOURCE_LEDGER_SOURCE"
+      },
+      "id": "R11-S138",
+      "name": "RESOURCE_LEDGER_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PERIODIC_CANARY_SCHEDULER_SOURCE"
+      },
+      "id": "R11-S139",
+      "name": "PERIODIC_CANARY_SCHEDULER_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_PERSISTENCE_SOURCE"
+      },
+      "id": "R11-S140",
+      "name": "QUARANTINE_PERSISTENCE_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_NO_SILENT_CLEAR"
+      },
+      "id": "R11-S141",
+      "name": "QUARANTINE_NO_SILENT_CLEAR",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_BLOCKS_PREVIEW"
+      },
+      "id": "R11-S142",
+      "name": "QUARANTINE_BLOCKS_PREVIEW",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "QUARANTINE_BLOCKS_EXPORT"
+      },
+      "id": "R11-S143",
+      "name": "QUARANTINE_BLOCKS_EXPORT",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "ROLLBACK_RECOMMENDATION_SOURCE"
+      },
+      "id": "R11-S144",
+      "name": "ROLLBACK_RECOMMENDATION_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RECOMMENDATION_R10_ONLY_EXECUTOR"
+      },
+      "id": "R11-S145",
+      "name": "RECOMMENDATION_R10_ONLY_EXECUTOR",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "RECOMMENDATION_NO_TARGET_INVENTION"
+      },
+      "id": "R11-S146",
+      "name": "RECOMMENDATION_NO_TARGET_INVENTION",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "PRIVACY_FIELD_ALLOWLIST"
+      },
+      "id": "R11-S147",
+      "name": "PRIVACY_FIELD_ALLOWLIST",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "requirement": "SOURCE_FINALIZER_PRESENT"
+      },
+      "id": "R11-S148",
+      "name": "SOURCE_FINALIZER_PRESENT",
+      "status": "PASS"
+    }
+  ],
+  "pass": true,
+  "schemaId": "tdt.resample-runtime.r11.source-gate-report.v1",
+  "schemaVersion": 1
+}

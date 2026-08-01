@@ -1,0 +1,327 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "id": "SRC-productR4-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR4-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validationR6-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-p",
+      "message": "destination-center mapping present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-base",
+      "message": "floor base present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-sample",
+      "message": "base plus integer offset present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-delta",
+      "message": "exact sample distance present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-reference-forbidden",
+      "message": "round-centered and offset-only signatures absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-partial",
+      "message": "partial group active-last clamp present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-origin",
+      "message": "tile origin uses phase-aware baseMin",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-barrier",
+      "message": "uniform barrier preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR4-fallback",
+      "message": "product direct-load fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-partial",
+      "message": "partial group active-last clamp present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-origin",
+      "message": "tile origin uses phase-aware baseMin",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-barrier",
+      "message": "uniform barrier preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-productR6-fallback",
+      "message": "product direct-load fallback absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation-schema",
+      "message": "eight-word validation schema",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[0]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[1]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[2]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[3]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[4]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[5]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[6]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-validation[7]",
+      "message": "validation counter present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-digest-independence",
+      "message": "product and reference digests differ",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-r4-halo",
+      "message": "reach-4 halo exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-r6-halo",
+      "message": "reach-6 halo exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-weight",
+      "message": "radial weight identity preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "SRC-abi",
+      "message": "80-byte v3 ABI preserved",
+      "pass": true
+    }
+  ],
+  "digests": {
+    "parity": {
+      "digest": "bbc73dd789353eb2fda95b4c24ec33f7711f81c2e8315027c0dab3f39db2c288",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_parity_runtime_r4.mjs"
+    },
+    "productR4": {
+      "digest": "d743126cf2413b7591363db2ee52ad430fa14fcd3c4a0f07907a9392482046ca",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r4.wgsl"
+    },
+    "productR6": {
+      "digest": "1299c11260a188b0a5bfed7eabdc46c6c0c268db25bc372827cb6f839dd12948",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r4.wgsl"
+    },
+    "profile": {
+      "digest": "008c48ed1e326952ec42b0e7f101957759f17942a364b2a6241fa1156aa3536a",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_tiled_profile_r4.mjs"
+    },
+    "receipt": {
+      "digest": "8b9ce4913616d684a8e08e66846d995883c77971c3785cc0da5340a4cec1ddb6",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_optimization_receipt_r4.mjs"
+    },
+    "reference": {
+      "digest": "4c0f978f48845f7af8c6c84b1b795f9a26bfc3ed8c043e66e034d206964da447",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v3_r4.wgsl"
+    },
+    "runtime": {
+      "digest": "cbc5f5ae0c6bb4be529364b41ca90c516b52c48478a585601db2b57d7ae28277",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_aniso_tile.mjs"
+    },
+    "validationR4": {
+      "digest": "2c573a4839ab6f30bfeee7da2a5336becfabd48230ea2acd5f2a06f835663ba1",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r4_r4.wgsl"
+    },
+    "validationR6": {
+      "digest": "6a8107db3922eec9598c924806d2c90ceccef0c6a7d47cc75cf2412092dc477b",
+      "relative": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_validation_r6_r4.wgsl"
+    }
+  },
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "schemaVersion": 1
+}

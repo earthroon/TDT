@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-NATIVE-DECODER-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "BLOCKED_RELEASE_ADDON_MISSING",
+  "buildId": "9281046f23f6de8dbcd1357f",
+  "buildAuthorityDigest": "67ddd327647e2f481c7ac94a9f5ab02c013758727d7bfaf2f7dd886d6ff5c69c",
+  "sourceRuntimeManifestDigest": "30b402521eb13d7b0ba4c8ade66edd237591c7d90b083a6caaac4c40fee5b394",
+  "sourceWorkerManifestDigest": "435ac3eac48b6ec05a84df1d687d4c0d36886c633b9d418c2917d1cf11c8e3ab",
+  "specSha256": "d175f020a90c64d9ac663add2d2fd51bd94945ec51c38388247ccc7c11cd642e",
+  "abiVersion": "dadum-native-decoder-abi-v1",
+  "canonicalAddonFilename": "decoder_rs.win32-x64-msvc.node",
+  "releaseAddonPresent": false,
+  "releaseAddonSha256": null,
+  "exactSurfaces": [
+    "rgba8unorm-u8-v1",
+    "rgba16le-unorm-u16-v1"
+  ],
+  "sourceGatePassed": true,
+  "sourceGateCount": 120,
+  "runtimePolicyPassed": true,
+  "runtimePolicyCount": 150,
+  "strictTypeScriptVerified": true,
+  "nativeBuildExecuted": false,
+  "packagedExecutionVerified": false,
+  "productionPromoted": false,
+  "blockers": [
+    "release-addon-missing",
+    "rust-toolchain-missing",
+    "napi-cli-install-missing",
+    "win32-x64-release-build-not-run",
+    "packaged-electron-execution-not-run",
+    "independent-raster-roundtrip-not-run"
+  ],
+  "changedSourceRecords": [
+    {
+      "path": "app/electron/native-decoder-attestation.mjs",
+      "parentSha256": null,
+      "currentSha256": "a63457b2690443b74788f20668adb1fc46972ef1a34036fdc5040c20b4e4930e",
+      "change": "added"
+    },
+    {
+      "path": "app/legacy-runtime/decoders/decode_native_surface.js",
+      "parentSha256": "51c92146bb26fc844269b2b9cea842abef9d0bd00a071a29264a858e645006b3",
+      "currentSha256": "ebbb1ccc16e75a534d4c90945f6a457d94b25aa95af30b790a2d196795eb3394",
+      "change": "modified"
+    },
+    {
+      "path": "app/legacy-runtime/export_manager.js",
+      "parentSha256": "540188157bcade33cb1745be30f16b84ca96b850a24798ce7f0254da6459b83e",
+      "currentSha256": "a85af148dd1eec25cdee4542904236c531a80a8d06226057aae121a7bbdd8084",
+      "change": "modified"
+    },
+    {
+      "path": "app/legacy-runtime/native/native_decode_bridge.js",
+      "parentSha256": "d0f62828260050f008a08ff9275b22f8448da357026221e97bce9b201d0715d0",
+      "currentSha256": "6d2f85eb8c898cce23463771f0a4e4fb76a74f4688f68a50e73219dcc0ccb2ed",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/boot/stable-error.ts",
+      "parentSha256": "e636b5b8ce5c2e4217aa5e7c832d300d629f6bc26deb5a80e9f80def299e0d75",
+      "currentSha256": "281ee64dba0a8eb7c0a605f1521a673a22fff70a89174e38658657941f7c209a",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/env.d.ts",
+      "parentSha256": "a8635d7c82d53497d0560245bf41b94590d07b327e02f04f867c2a6676e49ee4",
+      "currentSha256": "da132b70f322d4024315e9e00bbd4a13c3162ea638e727adc7b3e4edcd739e52",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/decode/decoder-registry-service.ts",
+      "parentSha256": "7ee874204fb3b2ad7b45ceee23e64e61bb38d269535e67baa0a3da4113330a75",
+      "currentSha256": "b3d2fdfb4c150593289e60eea9857ccd19bc61dbf08638a9adf572ffc2a4ec8f",
+      "change": "modified"
+    },
+    {
+      "path": "electron.mjs",
+      "parentSha256": "7b1741b87d6aab015574ba6b67e3f282817e7e155c29003752d55819f71ddfa2",
+      "currentSha256": "a74af3882fda8a00523490c8d8f309baaedff3504a245d7a821ef28466107eb6",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/Cargo.toml",
+      "parentSha256": "4867ce66440de1951d56884d4f3449ff4b9da7e6a11f3a680f2bc93bb2278ff4",
+      "currentSha256": "57037d826b23de858b206707ffe45be0a1b756baffcc4373f429a8d179b2c38f",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/README.md",
+      "parentSha256": "6f73a945356d4a2f889ed4ec637324a93bb6cdc878737333a131c187e0f9ea95",
+      "currentSha256": "39390894e1f1b1e648897b98587a1eb7bb059565da35e631b4eb3299c90e376d",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/index.cjs",
+      "parentSha256": "dfc7b571a9b7cfe137184d04828fd4f807efa0f882c2d7c493a0e848420fbf74",
+      "currentSha256": "5d8b34e4b86bb264c9df82185da8696e756e7dda7540c69fa1952049e54703d8",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/index.d.ts",
+      "parentSha256": "ae032b8964f080219a080aaf5f7620c4b4a66c7e277aec9d67ee841de45a03f8",
+      "currentSha256": "77b1595966aed7d858e2d92cdff6baae092a302202bfaa6da43e9d1739d88153",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/index.js",
+      "parentSha256": "55ed0c15e8c6f154f39d7e4062402fde3f8cb2002a06bf5a1875a17fca6358dc",
+      "currentSha256": "fc685d8826c16c3b330e9e6e55f7e171ce44e75f880dcd2201fc6929f362129f",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/package-lock.json",
+      "parentSha256": "6d000798e57168dfac51568cbf68c1f275daf04de5213a57715481bf9dd7cfab",
+      "currentSha256": "b469a21323b46cbec552f755aa1930ea293678e9d9b7df203575bbe4f149fc98",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/package.json",
+      "parentSha256": "879f340d9fb1083250151017eb18a0155aa634f7f29ef75cb03a5c798f4f33f8",
+      "currentSha256": "b70375f1f61997611bd1b17e68e46f410e8607a814dd3842d88e6b944e994961",
+      "change": "modified"
+    },
+    {
+      "path": "native/decoder-rs/src/lib.rs",
+      "parentSha256": "2367fb0a91e583e5e25c61eeb3a703633080659ac5309e2ba645f29373c7022a",
+      "currentSha256": "ee9943ae7138863bf34af3189e1568c671e857b1e7d0fd1237ff5236e5175eb9",
+      "change": "modified"
+    },
+    {
+      "path": "package.json",
+      "parentSha256": "e9496faccd457804a8c49ea1978519eb253612693cae3de308dde9831e3828a1",
+      "currentSha256": "189af69bedba485fa315db21b93ad41096f4002e08542c7b312a4cb0b42fe982",
+      "change": "modified"
+    },
+    {
+      "path": "preload.cjs",
+      "parentSha256": "07e5d38126e095e6d0e84323f1a3b3aec2641ff9f0a3fc515ae4f513a6fa322f",
+      "currentSha256": "b9c765c6f8de319a3e2da915aa970da076ea6d8d30932035684221361442fdc0",
+      "change": "modified"
+    },
+    {
+      "path": "specs/TDT-NATIVE-DECODER-01_RELEASE_NODE_ADDON_ABI_ARCHITECTURE_EXACT_SURFACE_METADATA_PACKAGING_INDEPENDENT_RASTER_DECODE_TRUTH_SPEC.md",
+      "parentSha256": null,
+      "currentSha256": "d175f020a90c64d9ac663add2d2fd51bd94945ec51c38388247ccc7c11cd642e",
+      "change": "added"
+    },
+    {
+      "path": "specs/TDT-NATIVE-DECODER-01_RELEASE_NODE_ADDON_ABI_ARCHITECTURE_EXACT_SURFACE_METADATA_PACKAGING_INDEPENDENT_RASTER_DECODE_TRUTH_SPEC.md.sha256",
+      "parentSha256": null,
+      "currentSha256": "8c7354e3e4249cf7e2c44e8c69ae190d6efec716eb1e047a8a0e059424a7ba1e",
+      "change": "added"
+    },
+    {
+      "path": "tools/finalize-native-decoder-01-source-bake.mjs",
+      "parentSha256": null,
+      "currentSha256": "53689fce11267afb2834c2e31a817717d2cbf80fa23d238e31283516dd8193fb",
+      "change": "added"
+    },
+    {
+      "path": "tools/gate-export-promotion-02.mjs",
+      "parentSha256": "00b2c615428ed5178e759bae9976c4c961ccdcf836618fb22e6ecaacc740a2be",
+      "currentSha256": "8dff803886a2834458aa27d553983638fe3de38a0385059ffbf87a87911ff155",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-native-decoder-01.mjs",
+      "parentSha256": null,
+      "currentSha256": "3a862d507d98cedeb78ff1a517c628be8de2dda7bd52baa45297b382269a2b4e",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-native-decoder-01-source-reports.mjs",
+      "parentSha256": null,
+      "currentSha256": "55dc6fc7fc17867b4ffe1a8104438e4b9af538524d83545f7885db291b159072",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-package-content-manifest.mjs",
+      "parentSha256": "17d906301835ec7a7f2a34bcaa98c9c6344b65bb7781ecc988defff4333f1744",
+      "currentSha256": "7249b0c0238c8200c9e6cd05087435c9e8ba0870dd16f01df8c1470ab0d17bd6",
+      "change": "modified"
+    },
+    {
+      "path": "tools/native-decoder-01-lib.mjs",
+      "parentSha256": null,
+      "currentSha256": "30019a2ee9c5c1ce254b4ed23fac31a455b456ad7e961d465b9eb51e8e15078c",
+      "change": "added"
+    },
+    {
+      "path": "tools/verify-independent-decoder-matrix.mjs",
+      "parentSha256": "12a70d96184e408904f90842a98696e022554a3e8bcb69576916a4c02a1d1562",
+      "currentSha256": "76cb1aa2e736740d85ca22acfc5c6d930487c0f2417654961f116c1e991b2055",
+      "change": "modified"
+    },
+    {
+      "path": "tools/verify-native-addon-package.mjs",
+      "parentSha256": "76f62089336267946f86fef425e223b1a38747ccd54bb25e096e63650d5e6735",
+      "currentSha256": "9616c2f9f15243883b8ff333f9515ab6a4e81fa7678ca356e6b1eb1a3d32460a",
+      "change": "modified"
+    },
+    {
+      "path": "tools/verify-native-decoder-01-runtime.mjs",
+      "parentSha256": null,
+      "currentSha256": "c6997830db76010efe61c98fd91e9035eab54a6e0cbf2f66354e8c16d3c4ef67",
+      "change": "added"
+    }
+  ],
+  "sourceBakeSeal": "26e458ddf24f9e50f89562af4e7adecbd0938d0dbeb684837ea3737cff6a75d6"
+}

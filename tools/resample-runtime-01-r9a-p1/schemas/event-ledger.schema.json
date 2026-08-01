@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"tdt.r9a-p1.event-ledger.v1","type":"object","required":["schemaVersion","schemaId","runId","eventCount","headSha256","events"],"properties":{"schemaVersion":{"const":1},"schemaId":{"const":"tdt.ewa.physical-event-ledger.r9a-p1.v1"},"events":{"type":"array"}}}

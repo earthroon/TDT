@@ -1,0 +1,15 @@
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import {spawnSync} from 'node:child_process';
+import {check,sourceArtifact,seal,read} from './lib.mjs';
+const root=fs.mkdtempSync(path.join(os.tmpdir(),'r8a-negative-'));const controls=[];
+function expectNodeFailure(name,source){const file=path.join(root,`${name}.mjs`);fs.writeFileSync(file,source);const result=spawnSync(process.execPath,['--check',file],{encoding:'utf8'});check(result.status!==0,'E_R8A_NEGATIVE_CONTROL_DID_NOT_FAIL',`${name} parser negative control passed`);controls.push({name,rejected:true,diagnosticCode:name==='top-level-return'?'E_R8A_PARSE_TOP_LEVEL_RETURN':'E_R8A_PARSE_DUPLICATE_DECLARATION'});}
+expectNodeFailure('top-level-return','return;');
+expectNodeFailure('duplicate-declaration','function same(){}\nfunction same(){}\nexport {};');
+const activeParser=read('tools/active-graph-01/verify-javascript-parse-closure-r8a.mjs');
+check(activeParser.includes('E_R8A')&&activeParser.includes('sourceRelative'),'E_R8A_PARSER_DIAGNOSTIC_UNSTABLE','parser diagnostics lack stable code or location');
+const webp=read('app/legacy-runtime/encoders/webp_api_forced.js');check(!webp.includes('document.querySelector')&&!webp.includes('canvas.to'),'E_R8A_WEBP_SIDE_EFFECT_NEGATIVE','WebP import side effect remains');controls.push({name:'webp-import-side-effect',rejected:true});
+const installer=read('app/legacy-runtime/js/export/wgpu_export_install.js');check((installer.match(/function mapUIExportFormatToWGPU/g)||[]).length===1,'E_R8A_DUPLICATE_FORMAT_MAPPER','format mapper is duplicated');controls.push({name:'duplicate-format-mapper',rejected:true});
+const compatibility=read('app/legacy-runtime/modules/dk_resample/resample_compatibility_r1d.mjs');check(!/executedKernelId:\s*['"]tdt-ewa-aniso-r1c-v3/.test(compatibility),'E_R8A_HARDCODED_KERNEL_ID','hard-coded compatibility kernel remains');controls.push({name:'caller-forged-kernel-fallback',rejected:true});
+const broker=read('app/src/runtime/resample/resample-worker-broker-service.ts');check(broker.includes('E_RUNTIME_SERVICE_COLLISION')&&broker.includes('E_R8A_ACTUAL_IDENTITY_DIGEST_MISMATCH'),'E_R8A_EXECUTOR_NEGATIVE_CONTROL_MISSING','executor collision or identity mismatch guard missing');controls.push({name:'executor-collision',rejected:true},{name:'identity-digest-mismatch',rejected:true});
+const recovery=read('app/legacy-runtime/modules/dk_resample/export_state_recovery_r8a.mjs');check(recovery.includes('E_R8A_EXPORT_STATE_COLLISION')&&recovery.includes('unregister?.()'),'E_R8A_RECOVERY_NEGATIVE_CONTROL_MISSING','recovery collision or bridge unregister guard missing');controls.push({name:'state-collision',rejected:true},{name:'bridge-replacement-leak',rejected:true});
+fs.rmSync(root,{recursive:true,force:true});
+const report=seal({schemaVersion:1,patchId:'TDT-RESAMPLE-RUNTIME-01-R8A',pass:true,negativeControlCount:controls.length,controls});sourceArtifact('R8A_NEGATIVE_CONTROL_REPORT.json',report);console.log(`PASS R8A negative controls ${controls.length}`);

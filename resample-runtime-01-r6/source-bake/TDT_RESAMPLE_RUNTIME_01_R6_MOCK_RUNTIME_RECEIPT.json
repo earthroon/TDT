@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "caseCount": 257,
+  "uniformWriteBytes": 96,
+  "canonicalV3Fallback": false,
+  "cpuProductFallback": false,
+  "imageReadback": false,
+  "physicalGpuExecuted": false
+}

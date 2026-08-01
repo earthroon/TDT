@@ -1,0 +1,15 @@
+PASS build id
+PASS build authority
+PASS PSD manifest
+PASS source seal
+PASS fix seal binding
+PASS promotion seal binding
+PASS gates
+PASS runtime tests
+PASS strict TypeScript
+PASS parent regression
+PASS production fail closed
+PASS package lock unchanged
+PASS presentation PSD wasm unchanged
+PASS promotion false
+PASS SOURCE_BAKE_FINAL_VERIFY_PSD_DECODER_01

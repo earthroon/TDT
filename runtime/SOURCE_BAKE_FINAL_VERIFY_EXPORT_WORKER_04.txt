@@ -1,0 +1,36 @@
+TDT-EXPORT-WORKER-04 SOURCE BAKE FINAL VERIFY
+status=SOURCE_BAKED_UNPROMOTED
+utc=2026-07-24T15:22:48Z
+
+[TDT-EXPORT-WORKER-04] generated build 22997b711a2f00ce5912c49e; lockConsistent=false
+PASS GATE-R1-01 Vite entry closure; GATE-R1-02 production source serving closure
+PASS GATE-R1-08 Pinia static serializability gate
+PASS GATE-R1-06 capability ownership; GATE-R1-07 service ownership; GATE-R1-15 resource isolation; GATE-R1-17 export authority
+PASS GATE-R1-11 legacy admission; 50 root scripts admitted, Unicode globals exact, per-module ownership active, syntax clean, no /app path dialect
+PASS GATE-R1-R3-GLOBAL-OWNERSHIP Unicode identifier exactness / static module graph ownership / inventory-only global registry
+PASS GATE-R1-R4-ASYNC-GLOBAL-RESERVATION icmsLittle reserved synchronously by main.js; late dynamic import mutates the owned shell; no temporal misattribution to icc_default_loader.js
+PASS GATE-R1-R5-DEFERRED-GLOBAL-ATTRIBUTION unique prior owner / owner-finished-while-absent claim / one-shot claim consumption / receipt evidence
+PASS GATE-R1-R6-PLACEHOLDER-QUARANTINE non-authoritative legacy placeholder isolation and receipt evidence
+PASS GATE-R1-R2-DIAG diagnostic error single-emission
+PASS GATE-R1-20 deterministic receipt parity 100/100 837a84053ec8d807d418be02cd65bdeac57c155c5654c0fd3aeb571df3204516
+PASS TypeScript syntax 62 files
+PASS GATE-R1-ERROR-CODE stable error registry 117/117 referenced codes declared
+PASS GATE-R7-01..15 Exact API / Encoder Identity / Final Surface / Receipt; receipt parity 100/100 c8a7302fe03ddc38050d56298977a0f478630f7ba8034b669b929289fb70a489
+PASS GATE-EW01-01..20 Worker URL Authority / Broker / Protocol / Epoch / Artifact Digest; broker receipt parity 100/100 31d5b336a56cac06947bed03e02a42e6b3c78406ef8bb56690f478432a5059f0
+PASS GATE-EW02-01..24 Unified RPC / Timeout / Abort / Cancel / Crash Restart / Pending Closure; receipt parity 100/100 5e1e966eba6f9ec89e2406b51905e8e3009e2d9209671d1941b50c22904c78bb
+PASS GATE-EW03-01..30 WebP Lossless / PNG8+PNG16 Canonical Worker Promotion source seal; determinism 100/100 7bf8f64e628c8e8143ce73ca6695db7a273a807b1ee5614e95f18b986b649523
+PASS GATE-EW04-01..32 PSD Canonical Serializer source seal; determinism 100/100 c7bef5acdbbf35354fc740ef04878bfe2d9a20a8237623736c5f53612782e1d3
+PASS_TDT_EXPORT_WORKER_04_SOURCE_BAKE_UNPROMOTED
+
+PASS EW04 PSD source reference runtime smoke 4/4 backend=source-reference-js
+
+STRICT_TYPESCRIPT_EXIT=0
+FULL_VERIFY_EXIT=127
+FULL_VERIFY_BLOCKER=vue-tsc not found
+
+TOOLCHAIN
+rustc=missing
+cargo=missing
+wasm-pack=missing
+v22.16.0
+Version 5.8.3

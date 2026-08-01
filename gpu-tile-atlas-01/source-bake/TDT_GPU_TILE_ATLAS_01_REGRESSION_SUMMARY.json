@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-GPU-TILE-ATLAS-01",
+  "state": "GPU_TILE_ATLAS_01_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "physicalGpuClaims": false,
+  "productionPointerMutated": false,
+  "gpuTileAtlas01": {
+    "pass": 212,
+    "deferred": 12,
+    "fail": 0,
+    "sourceContract": "96/96",
+    "wgslContract": "64/64",
+    "runtimeSmoke": "52/52"
+  },
+  "analysisChain": {
+    "analysisFieldTruth00": { "pass": 120, "deferred": 8, "fail": 0 },
+    "spectralQmap02": { "pass": 168, "deferred": 12, "fail": 0 },
+    "spectralQmap03": { "pass": 204, "deferred": 12, "fail": 0 },
+    "hannakairoPhase01": { "pass": 184, "deferred": 12, "fail": 0 },
+    "hannakairoGate02": { "pass": 172, "deferred": 12, "fail": 0 },
+    "qwavePhase03": { "pass": 192, "deferred": 12, "fail": 0 }
+  },
+  "resample": {
+    "r1a": { "pass": 57, "deferred": 11, "fail": 0 },
+    "r1b": { "pass": 72, "deferred": 12, "fail": 0 },
+    "r1c": { "pass": 90, "deferred": 6, "fail": 0 },
+    "r1d": { "pass": 100, "deferred": 8, "fail": 0 },
+    "r2": { "pass": 81, "deferred": 27, "fail": 0 }
+  },
+  "runtime": {
+    "activeGraph": {
+      "pass": 30,
+      "deferred": 10,
+      "fail": 0,
+      "regression": "19/19",
+      "typescriptTranspile": "8/8",
+      "roots": 56,
+      "nodes": 344,
+      "edges": 351,
+      "assets": 67,
+      "digest": "a85949dd776b9e94cf16405a59a4c6e1be5a4c307e3a458b885a6e3608519e97"
+    },
+    "gpuDeviceSsot": {
+      "pass": 30,
+      "deferred": 30,
+      "fail": 0,
+      "consumers": 15,
+      "directAuthorityFindings": 0,
+      "pipelineOwnershipFindings": 0
+    },
+    "surfaceLifecycle": { "pass": 52, "deferred": 8, "fail": 0 },
+    "previewPresenter": { "pass": 50, "deferred": 10, "fail": 0 },
+    "runtimeR7": "PASS"
+  },
+  "exportBuildCodec": {
+    "exportWorker01To07": "PASS",
+    "exportPromotion01": "54/54",
+    "exportPromotion02": "60/60",
+    "exportPromotion03": "68/68",
+    "buildLock": "72/72",
+    "buildEmit": "84/84",
+    "modjpeg": "84/84",
+    "nativeDecoder": "120/120",
+    "jxlCodec": "108/108",
+    "psdDecoder": "112/112",
+    "promotionBaseline": {
+      "sourceGate": "66/66",
+      "state": "SOURCE_INPUT_AUDITED_UNPROMOTED",
+      "packagedPipeline": "BLOCKED_AS_EXPECTED"
+    }
+  },
+  "staticValidation": {
+    "stableErrorRegistry": "786/786",
+    "typescriptSyntaxFiles": 138,
+    "vueTsc": "DEFERRED_NODE_MODULES_ABSENT"
+  },
+  "ssot": {
+    "semanticRegistryVersion": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1",
+    "semanticDescriptorCount": 30,
+    "semanticRegistryDigest": "65a3b14f73c1d4912f3f04cf67a9be7bce9fcc953e36c206abcfec458a6bf96d",
+    "producerCount": 9,
+    "producerInventoryDigest": "98686a73d7309ef3a610af493da2e833b4c506eae47a7f4bf8a1b23c871a6619",
+    "runtimeAssetCount": 67,
+    "runtimeAssetManifestDigest": "41ebb95c25cabbc1c5b9e0d1e374697eb3500628438c9fe52d6d30e66ae99ab4"
+  },
+  "deferredPhysicalEvidence": [
+    "physical WGSL compilation and bind-group validation",
+    "physical page-table mirror and CPU shadow parity",
+    "real write-fence visibility ordering",
+    "real read-pin fence and eviction exclusion",
+    "real generation-fault detection in the materializer",
+    "actual zero intermediate readback trace",
+    "device-loss interruption and empty-Atlas rebuild",
+    "repeated ingest/materialize GPU memory plateau",
+    "renderer-worker boundary",
+    "Windows x64 Packaged Electron relaunch",
+    "verified-unpromoted promotion receipt"
+  ]
+}

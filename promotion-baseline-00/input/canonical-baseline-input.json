@@ -1,0 +1,22 @@
+{
+  "buildAuthoritySha256": "3cfb333a16c1154f4f2439c06ce02c3193507861819626426f2bc6df37e6da2a",
+  "createdAt": "2026-07-26T07:27:40.829Z",
+  "electronAuthoritySha256": "af1f66b763bf4e44c1c32bb11c3a5c54774fd48aa04646b957701181c4c43e28",
+  "frozenCacheClosureDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "frozenCacheManifestSha256": "bbf5075c4f85f7b39122dff29b8f9cabae396ada67bd169dc32fa01f5cf86a13",
+  "lockPromotionReceiptSha256": "f6bd4492fd5b28c5cac696fb5bee6ecbc0c040d15fb1efea205f71e6a61caab9",
+  "nodeVersion": "22.16.0",
+  "npmVersion": "10.9.2",
+  "packageJsonSha256": "94b8255b098b7d7754f0f4550b9bc9f55a53764e0cc30cfd401e4af6991da171",
+  "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "productionPointerPreflightSha256": "b2d1dc61d1cd31defa26a8344c9bda6441d08e0fc64f580a8e056f2a1c98b6ed",
+  "promotionAuthoritySha256": "e2ea352ed10f9a0e0adab32392ebc99e8dfe6ed80a14f8bfe78befa11d86d31d",
+  "registryProfileSha256": "b67215168c1c1cb7710e12b2146c92fd71c920e67bf842c058efa0b90b6b2b10",
+  "runtimeApiSchemaSha256": "d365013568faaec089c31eb476a0b17aa041a53b9beb8fa1943ed429f52cdc11",
+  "schemaVersion": 1,
+  "selfDigest": "6902f5172595df9f9e3f35381082885a2d964496524628d20e91402a0f44b1fd",
+  "sourceTreeDigest": "8cd9a413b0f2129e5e25f6cafd588031d71d561a31907cca046a950adcb006b2",
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "target": "win32-x64",
+  "toolchainProfileSha256": "cfe36b2ec5c025773dcaac5a563425908fd6c802bb9952d2b051434673e36dc2"
+}

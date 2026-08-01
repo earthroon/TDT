@@ -1,0 +1,9 @@
+{
+  "exactAggregateRecomputed": true,
+  "finalState": "RESAMPLE_RUNTIME_R13A_FLEET_LEASE_LOCAL_TRANSITION_EVIDENCE_AND_CONTAINMENT_RECOVERY_SEALED_AWAITING_R14A",
+  "privacyReportRecomputed": true,
+  "rawArtifactRevalidationPassed": true,
+  "schemaVersion": 1,
+  "selfSha256": "9512c10cd3508ba5541f4bc8a50c84caa9a3866631687fc87ee78620e823fd35",
+  "summaryBooleanTrustCount": 0
+}

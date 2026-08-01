@@ -1,0 +1,12 @@
+{
+  "activeGraphReceiptSha256": "9e87612561f0e8a70c7f109e08fa7945a6dead7fd2c4f1dfdc73d3201e3943a1",
+  "errorCodeCount": 50,
+  "parseReceiptSha256": "d88c61e914fa1e3bf259a638829ad20100b8b5a5332a202f60126ab120de19f7",
+  "pass": true,
+  "schemaCount": 26,
+  "schemaVersion": 1,
+  "scriptCount": 10,
+  "selfSha256": "ef819808ca5e405c4218dfa322380aea9263b7f11406a7f385f044176f878e4b",
+  "sourceModePointerMutation": false,
+  "toolFileCount": 16
+}

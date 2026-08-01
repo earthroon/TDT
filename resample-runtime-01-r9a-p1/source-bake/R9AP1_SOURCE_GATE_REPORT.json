@@ -1,0 +1,2193 @@
+{
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 360,
+    "PENDING": 0,
+    "SKIPPED": 0
+  },
+  "evidenceReports": [
+    "R9AP1_PARENT_FREEZE_REPORT.json",
+    "R9AP1_IMPLEMENTATION_MANIFEST.json",
+    "R9AP1_RUNTIME_SELF_TEST_REPORT.json",
+    "R9AP1_PRODUCT_WIRING_REPORT.json",
+    "R9AP1_HARNESS_WIRING_REPORT.json",
+    "R9AP1_NEGATIVE_CONTROL_REPORT.json",
+    "R9AP1_JAVASCRIPT_PARSE_REPORT.json",
+    "R9AP1_TYPESCRIPT_SYNTAX_REPORT.json",
+    "R9AP1_SOURCE_CONTRACT_REPORT.json"
+  ],
+  "gates": [
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S001",
+      "requirement": "Parent bundle SHA-256 equals 4b9414a4edc5aed983879eec21cd003833e917ece83b452d658a5727ef677eb7",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S002",
+      "requirement": "Build Lock R2 specification SHA-256 equals c7fcc062defe7b03ddef4d00bf8c21a29d3e482e8651324067071c5e458c63c8",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S003",
+      "requirement": "Build Lock R2 source receipt SHA-256 equals cdc6476a0ae6fda4b8dd1f4744d7d9122442a1125038f8014dc72323089c99ed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S004",
+      "requirement": "Build Lock R2 source state is exact and not promoted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S005",
+      "requirement": "Build Lock R2 Win32 final receipt is required only by physical execution",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S006",
+      "requirement": "Current package-lock remains unpromoted during P1 source bake",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S007",
+      "requirement": "Original R9A specification SHA-256 equals a6bcd275e8d5df1f1a813c7b7f2ed96c851378fc1971eee430c96a5eb7a06b2d",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S008",
+      "requirement": "Original R9A source receipt SHA-256 equals a70e3b088b3fc09f3f8e039fc7965c65f1d241c9a3300a35cc11389bbbeb0ab8",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S009",
+      "requirement": "Original R9A 286 source gates are replay inputs and not pass carry-forward",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S010",
+      "requirement": "Original R9A 214 physical gates are superseded by P1 physical gates",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S011",
+      "requirement": "R8A mathematical and shader authority remains frozen",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S012",
+      "requirement": "R9A product command graph identity remains tdt.ewa.command-graph.r9a.v1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S013",
+      "requirement": "R9A runtime identity remains tdt.ewa.single-submit-runtime.r9a.v1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S014",
+      "requirement": "R9A validation sampling identity remains tdt.ewa.validation-sampling.r9a.v1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S015",
+      "requirement": "R9A uniform ring identity remains tdt.ewa.uniform-ring.r9a.v1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S016",
+      "requirement": "R9A submission fence identity remains tdt.ewa.submission-fence-registry.r9a.v1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S017",
+      "requirement": "R10A through R14A receipts are marked replay-required",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S018",
+      "requirement": "Production Pointer is read-only to P1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S019",
+      "requirement": "Local Activation Pointer is read-only to P1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S020",
+      "requirement": "Historical pass carry-forward equals zero",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S021",
+      "requirement": "Parent source receipt bytes remain immutable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S022",
+      "requirement": "Parent package-lock bytes remain immutable during source verification",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S023",
+      "requirement": "Parent pointer mirror bytes remain immutable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S024",
+      "requirement": "P1 source verifier runs predecessor checks in isolated tree",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S025",
+      "requirement": "P1 source finalizer binds parent hashes by raw bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S026",
+      "requirement": "P1 cannot consume a future Build Lock R2 receipt by filename only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S027",
+      "requirement": "Build Lock R2 final receipt schema and child digests are mandatory in physical mode",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S028",
+      "requirement": "Build Lock R2 packageContentId must equal executing packaged bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S029",
+      "requirement": "R9A P1 lineage head is explicit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S030",
+      "requirement": "No downstream receipt is silently rewritten by source verification",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S031",
+      "requirement": "physical-runner placeholder is detected and must be replaced",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S032",
+      "requirement": "command-graph-observer is detected as unwired in parent",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S033",
+      "requirement": "performance suite summary-only admission is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S034",
+      "requirement": "residency suite summary-only admission is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S035",
+      "requirement": "validation suite summary-only admission is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S036",
+      "requirement": "physical verifier file-existence-only behavior is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S037",
+      "requirement": "absence of timestamp query recording is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S038",
+      "requirement": "absence of packaged qualification orchestrator is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S039",
+      "requirement": "absence of raw event ledger is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S040",
+      "requirement": "absence of fixture schedule binding is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S041",
+      "requirement": "absence of main-process run lock is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S042",
+      "requirement": "absence of renderer qualification capability is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S043",
+      "requirement": "absence of package identity binding in observations is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S044",
+      "requirement": "absence of window and renderer process binding is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S045",
+      "requirement": "absence of device epoch chain in observations is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S046",
+      "requirement": "absence of resource create-destroy ledger is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S047",
+      "requirement": "absence of query-set resolve ledger is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S048",
+      "requirement": "absence of controlled fault authority is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S049",
+      "requirement": "absence of old-session rejection after device loss is detected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S050",
+      "requirement": "current rejectEpoch promise-settlement defect is covered",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S051",
+      "requirement": "stale completion transition from REJECTED to COMPLETE is covered",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S052",
+      "requirement": "uniform ring has explicit epoch invalidation requirement",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S053",
+      "requirement": "uniform ring authority disposal is externally reachable through device authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S054",
+      "requirement": "validation counter buffer lifetime is measurable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S055",
+      "requirement": "baseline path cannot be selected as product path",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S056",
+      "requirement": "direct low-level harness imports cannot claim Preview E2E",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S057",
+      "requirement": "direct low-level harness imports cannot claim Export E2E",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S058",
+      "requirement": "dev server execution cannot claim physical pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S059",
+      "requirement": "source fixture mocks cannot claim physical pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S060",
+      "requirement": "software adapter cannot claim hardware pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S061",
+      "requirement": "Main process owns qualification run lock",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S062",
+      "requirement": "Main process issues 192-bit run challenge",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S063",
+      "requirement": "Main process binds challenge to packageContentId",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S064",
+      "requirement": "Main process binds challenge to Build Lock R2 receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S065",
+      "requirement": "Main process binds challenge to BrowserWindow id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S066",
+      "requirement": "Main process binds challenge to webContents id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S067",
+      "requirement": "Main process binds challenge to renderer OS process id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S068",
+      "requirement": "Main process binds challenge to fixture schedule digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S069",
+      "requirement": "Main process binds challenge to requested adapter role",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S070",
+      "requirement": "Main process binds challenge to expiration",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S071",
+      "requirement": "Qualification BrowserWindow is hidden",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S072",
+      "requirement": "Qualification BrowserWindow has isolated session partition",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S073",
+      "requirement": "Qualification BrowserWindow has no user document access",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S074",
+      "requirement": "Qualification BrowserWindow has no arbitrary navigation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S075",
+      "requirement": "Qualification BrowserWindow has no devtools in canonical run",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S076",
+      "requirement": "Qualification BrowserWindow has network disabled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S077",
+      "requirement": "Qualification BrowserWindow loads packaged file URL only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S078",
+      "requirement": "Preload exposes narrow qualification capability",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S079",
+      "requirement": "Preload does not expose filesystem paths",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S080",
+      "requirement": "Preload does not expose pointer writers",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S081",
+      "requirement": "Preload validates sender identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S082",
+      "requirement": "Preload validates challenge nonce",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S083",
+      "requirement": "Renderer cannot choose fixture order",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S084",
+      "requirement": "Renderer cannot choose expected thresholds",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S085",
+      "requirement": "Renderer cannot choose package identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S086",
+      "requirement": "Renderer cannot choose adapter role",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S087",
+      "requirement": "Renderer cannot finalize physical receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S088",
+      "requirement": "Main process owns interruption marker",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S089",
+      "requirement": "Main process owns run state transitions",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S090",
+      "requirement": "Main process owns final artifact publication",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S091",
+      "requirement": "Run states are CREATED PRECHECK RUNNING DRAINING FINALIZING COMMITTED FAILED INTERRUPTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S092",
+      "requirement": "State transitions are monotonic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S093",
+      "requirement": "Run state journal is append-only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S094",
+      "requirement": "Run artifact writes are atomic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S095",
+      "requirement": "Run directory is unique per challenge",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S096",
+      "requirement": "Concurrent qualification runs are rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S097",
+      "requirement": "Abandoned run is recoverable as INTERRUPTED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S098",
+      "requirement": "Normal application workspace is not shown during qualification",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S099",
+      "requirement": "Qualification mode cannot issue R11A normal installed session",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S100",
+      "requirement": "Qualification evidence contains no user content",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S101",
+      "requirement": "GPU Device Authority owns low-level observation hooks",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S102",
+      "requirement": "R9A command graph owns semantic observation hooks",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S103",
+      "requirement": "Low-level and semantic ledgers share run id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S104",
+      "requirement": "Low-level and semantic ledgers share job id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S105",
+      "requirement": "Low-level and semantic ledgers share device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S106",
+      "requirement": "Low-level observer records createCommandEncoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S107",
+      "requirement": "Low-level observer records encoder finish",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S108",
+      "requirement": "Low-level observer records queue submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S109",
+      "requirement": "Low-level observer records onSubmittedWorkDone",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S110",
+      "requirement": "Low-level observer records buffer mapAsync",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S111",
+      "requirement": "Low-level observer records buffer unmap",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S112",
+      "requirement": "Low-level observer records buffer create and destroy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S113",
+      "requirement": "Low-level observer records texture create and destroy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S114",
+      "requirement": "Low-level observer records query set create and destroy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S115",
+      "requirement": "Low-level observer records query resolve copy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S116",
+      "requirement": "Low-level observer records device lost",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S117",
+      "requirement": "Semantic observer records source prepare pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S118",
+      "requirement": "Semantic observer records tensor passes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S119",
+      "requirement": "Semantic observer records adaptive policy pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S120",
+      "requirement": "Semantic observer records every EWA stage pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S121",
+      "requirement": "Semantic observer records residual pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S122",
+      "requirement": "Semantic observer records finalization pass",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S123",
+      "requirement": "Semantic observer records validation counter clear",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S124",
+      "requirement": "Semantic observer records validation counter copy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S125",
+      "requirement": "Semantic observer records terminal readback copy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S126",
+      "requirement": "Each event has monotonic sequence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S127",
+      "requirement": "Each event has monotonic timestamp",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S128",
+      "requirement": "Each event binds encoder identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S129",
+      "requirement": "Each event binds submission serial when applicable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S130",
+      "requirement": "Each event binds resource identity when applicable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S131",
+      "requirement": "Each event binds stage index and stage count when applicable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S132",
+      "requirement": "Event ledger uses canonical JSON",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S133",
+      "requirement": "Event ledger forms a hash chain",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S134",
+      "requirement": "Event ledger rejects duplicate sequence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S135",
+      "requirement": "Event ledger rejects sequence gap",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S136",
+      "requirement": "Event ledger rejects unknown event kind",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S137",
+      "requirement": "Observer cannot mutate WebGPU arguments",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S138",
+      "requirement": "Observer cannot add queue submissions",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S139",
+      "requirement": "Observer cannot add CPU fences",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S140",
+      "requirement": "Observer is disabled outside qualification mode",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S141",
+      "requirement": "Observer overhead is measured separately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S142",
+      "requirement": "Observer raw ledger is retained for finalizer replay",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S143",
+      "requirement": "Command graph receipt is derived from events",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S144",
+      "requirement": "No summary-only command graph receipt is accepted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S145",
+      "requirement": "Hidden submits outside R9A graph are attributed to caller and fail the job",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S146",
+      "requirement": "Preview qualification enters through product runtime surface",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S147",
+      "requirement": "Preview qualification reaches runDeltaKStack active caller",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S148",
+      "requirement": "Preview qualification reaches executeCanonicalEwaLowpassR9A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S149",
+      "requirement": "Preview qualification uses GPU Device Authority lease",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S150",
+      "requirement": "Preview qualification publishes through Surface Registry",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S151",
+      "requirement": "Preview harness cannot import createEwaCommandGraphR9A directly",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S152",
+      "requirement": "Preview harness cannot import shader modules directly",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S153",
+      "requirement": "Preview fixture injection is qualification-only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S154",
+      "requirement": "Preview fixture bytes are canonical generated fixtures",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S155",
+      "requirement": "Preview output receipt binds final surface identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S156",
+      "requirement": "Export qualification enters through DadumRuntimeExport or ExportAuthorityService",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S157",
+      "requirement": "Export qualification reaches downscaleRGBAWithWGSL through product binding",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S158",
+      "requirement": "Export qualification reaches executeCanonicalEwaLowpassR9A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S159",
+      "requirement": "Export qualification uses normal encoder selection",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S160",
+      "requirement": "Export qualification uses normal save admission in discard-only test target",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S161",
+      "requirement": "Export harness cannot call executeDownscale private function",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S162",
+      "requirement": "Export harness cannot import createEwaCommandGraphR9A directly",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S163",
+      "requirement": "Export output receipt binds format encoder identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S164",
+      "requirement": "Preview and Export use same lowpass identity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S165",
+      "requirement": "Preview and Export use same kernel digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S166",
+      "requirement": "Preview and Export use same planner digest",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S167",
+      "requirement": "Preview and Export use same package bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S168",
+      "requirement": "Preview and Export fixture request digests are recorded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S169",
+      "requirement": "Preview and Export completion semantics remain product semantics",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S170",
+      "requirement": "Qualification cannot enable CPU fallback",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S171",
+      "requirement": "Qualification cannot enable WebGL fallback",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S172",
+      "requirement": "Qualification cannot skip admission guards",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S173",
+      "requirement": "Qualification cannot bypass Surface Registry",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S174",
+      "requirement": "Qualification cannot bypass Export Authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S175",
+      "requirement": "Qualification cannot write final user files",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S176",
+      "requirement": "One canonical job creates exactly one command encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S177",
+      "requirement": "One canonical job finishes exactly one command buffer",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S178",
+      "requirement": "One canonical job calls queue.submit exactly once",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S179",
+      "requirement": "Source prepare emits no independent submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S180",
+      "requirement": "Tensor emits no independent submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S181",
+      "requirement": "Adaptive policy emits no independent submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S182",
+      "requirement": "EWA stage loop emits no independent submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S183",
+      "requirement": "Residual emits no independent submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S184",
+      "requirement": "Finalization emits no independent submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S185",
+      "requirement": "Validation counter copy is in the same encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S186",
+      "requirement": "Timestamp resolve is in the same encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S187",
+      "requirement": "Export terminal copy is in the same encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S188",
+      "requirement": "Preview uses zero map operations",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S189",
+      "requirement": "Export uses exactly one terminal map operation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S190",
+      "requirement": "Preview uses zero onSubmittedWorkDone calls",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S191",
+      "requirement": "Export uses zero pre-map onSubmittedWorkDone calls",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S192",
+      "requirement": "Queue observer completion is counted separately from product CPU fence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S193",
+      "requirement": "Command pass order is deterministic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S194",
+      "requirement": "Pass count equals semantic plan",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S195",
+      "requirement": "Stage count equals planner receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S196",
+      "requirement": "Command buffer labels bind job id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S197",
+      "requirement": "Encoder labels bind run id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S198",
+      "requirement": "Submission serial is monotonic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S199",
+      "requirement": "Completion ticket is one per submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S200",
+      "requirement": "Completion ticket settles exactly once",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S201",
+      "requirement": "Recording failure before submit produces zero submits",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S202",
+      "requirement": "Double submit is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S203",
+      "requirement": "Record after submit is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S204",
+      "requirement": "Foreign encoder context is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S205",
+      "requirement": "Compatibility wrapper hidden submit is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S206",
+      "requirement": "Unknown queue submit during job is rejected",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S207",
+      "requirement": "Graph event digest is included in product receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S208",
+      "requirement": "Graph event digest is included in physical child receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S209",
+      "requirement": "Graph observation is bound to device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S210",
+      "requirement": "Graph observation is bound to packageContentId",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S211",
+      "requirement": "Validation sampling first job rule remains deterministic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S212",
+      "requirement": "Validation periodic interval remains deterministic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S213",
+      "requirement": "Post-loss first job is mandatory sample",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S214",
+      "requirement": "Post-pipeline-rebuild first job is mandatory sample",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S215",
+      "requirement": "Explicit strict Export is mandatory sample",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S216",
+      "requirement": "Validation decision is independent of user pixels",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S217",
+      "requirement": "Validation decision is independent of randomness",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S218",
+      "requirement": "Validation decision is independent of wall clock",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S219",
+      "requirement": "Validation variant dispatch replaces product variant and does not duplicate it",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S220",
+      "requirement": "Validation output path equals product output path",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S221",
+      "requirement": "Counter buffer contains exactly 32 u32 words",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S222",
+      "requirement": "Counter buffer clear precedes sampled dispatch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S223",
+      "requirement": "Counter copy follows all sampled dispatches",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S224",
+      "requirement": "Counter readback happens after submit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S225",
+      "requirement": "Counter readback cannot infer zero from missing buffer",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S226",
+      "requirement": "Controlled fault mode is main-challenge gated",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S227",
+      "requirement": "Controlled fault mode is unavailable in normal runtime",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S228",
+      "requirement": "Controlled radius fault has dedicated counter",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S229",
+      "requirement": "Controlled zero-weight fault has dedicated counter",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S230",
+      "requirement": "Controlled nonfinite-weight fault has dedicated counter",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S231",
+      "requirement": "Controlled nonfinite-accumulation fault has dedicated counter",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S232",
+      "requirement": "Only expected counter increments for each controlled fault",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S233",
+      "requirement": "Reserved counters remain zero",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S234",
+      "requirement": "Fault fixture output cannot be published",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S235",
+      "requirement": "Fault fixture output cannot be saved",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S236",
+      "requirement": "Fault injection parameters are not user options",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S237",
+      "requirement": "Fault shader digest is recorded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S238",
+      "requirement": "Normal validation shader digest is recorded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S239",
+      "requirement": "Product shader digest is recorded",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S240",
+      "requirement": "Fault run is isolated from performance run",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S241",
+      "requirement": "Fault run is isolated from residency run",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S242",
+      "requirement": "Fault counter evidence uses raw readback bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S243",
+      "requirement": "Finalizer recomputes counters from raw bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S244",
+      "requirement": "Nonzero normal counter fails immediately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S245",
+      "requirement": "Missing controlled fault increment fails immediately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S246",
+      "requirement": "Uniform ring slot has explicit device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S247",
+      "requirement": "Uniform ring slot has explicit runtime epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S248",
+      "requirement": "Uniform ring slot has job id and pass id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S249",
+      "requirement": "Uniform ring slot transitions FREE to RECORDED to IN_FLIGHT to FREE",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S250",
+      "requirement": "Uniform ring cannot overwrite IN_FLIGHT slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S251",
+      "requirement": "Uniform ring exhaustion is stable error",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S252",
+      "requirement": "Uniform payload alignment is checked",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S253",
+      "requirement": "Uniform payload bounds are checked",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S254",
+      "requirement": "Uniform buffer creation count is bounded per device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S255",
+      "requirement": "Uniform slots reclaim only after ticket completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S256",
+      "requirement": "Device loss invalidates all old-epoch slots",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S257",
+      "requirement": "Device loss destroys old ring buffer",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S258",
+      "requirement": "New device epoch creates new ring authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S259",
+      "requirement": "Old allocation cannot bind to new device",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S260",
+      "requirement": "Fence registry owns explicit deferred completion",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S261",
+      "requirement": "rejectEpoch rejects pending completion promise",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S262",
+      "requirement": "rejectEpoch prevents later COMPLETE transition",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S263",
+      "requirement": "Completion callback checks epoch and ticket state",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S264",
+      "requirement": "Ticket retirement is idempotent",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S265",
+      "requirement": "Ticket ledger records LOST distinctly from FAILED",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S266",
+      "requirement": "External terminal map completion must be bound exactly once",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S267",
+      "requirement": "Unbound external completion is finalization failure",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S268",
+      "requirement": "Stale completion cannot reclaim new epoch slot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S269",
+      "requirement": "Fence registry dispose rejects pending tickets",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S270",
+      "requirement": "Physical runner can snapshot exact live ticket count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S271",
+      "requirement": "Physical runner can snapshot exact slot state counts",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S272",
+      "requirement": "Uniform and ticket ledgers are included in raw evidence",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S273",
+      "requirement": "No synthetic zero leak counts are accepted",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S274",
+      "requirement": "No finalizer summary trust is allowed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S275",
+      "requirement": "Cleanup after interrupted run is explicit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S276",
+      "requirement": "Primary adapter requires timestamp-query feature",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S277",
+      "requirement": "Query set is created once per bounded batch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S278",
+      "requirement": "Each logical phase has beginning and end query indices",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S279",
+      "requirement": "Graph total has beginning and end query indices",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S280",
+      "requirement": "Query resolve is recorded in canonical encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S281",
+      "requirement": "Query copy is recorded in canonical encoder",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S282",
+      "requirement": "Raw timestamp ticks are preserved",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S283",
+      "requirement": "Timestamp period identity is recorded when available",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S284",
+      "requirement": "CPU wall clock cannot replace GPU timestamp",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S285",
+      "requirement": "CPU encode-submit uses monotonic high-resolution clock",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S286",
+      "requirement": "Warmup count minimum is 128",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S287",
+      "requirement": "Paired sample count minimum is 256",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S288",
+      "requirement": "ABBA order is deterministic and balanced",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S289",
+      "requirement": "Baseline is packaged test-only partition",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S290",
+      "requirement": "Baseline cannot become Active Graph product node",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S291",
+      "requirement": "Baseline and candidate use identical fixture and parameters",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S292",
+      "requirement": "Baseline and candidate use identical package bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S293",
+      "requirement": "One-stage and multi-stage are measured separately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S294",
+      "requirement": "R4 and R6 are measured separately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S295",
+      "requirement": "Preview and Export are measured separately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S296",
+      "requirement": "Sampled and unsampled runs are measured separately",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S297",
+      "requirement": "Median and p95 algorithms are fixed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S298",
+      "requirement": "Outlier policy is fixed before run",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S299",
+      "requirement": "Thermal and power invalidation policy is explicit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S300",
+      "requirement": "Correctness failure invalidates performance result",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S301",
+      "requirement": "Resource ledger tracks buffer live bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S302",
+      "requirement": "Resource ledger tracks texture live bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S303",
+      "requirement": "Resource ledger tracks query set count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S304",
+      "requirement": "Resource ledger tracks bind group count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S305",
+      "requirement": "Resource ledger tracks pipeline cache count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S306",
+      "requirement": "Resource ledger tracks mapped buffer count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S307",
+      "requirement": "Resource ledger tracks submission ticket count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S308",
+      "requirement": "Resource ledger tracks completion callback count",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S309",
+      "requirement": "Resource ledger tracks Surface Registry pins",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S310",
+      "requirement": "Residency plateau uses raw samples",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S311",
+      "requirement": "Last-64 slope policy is fixed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S312",
+      "requirement": "Renderer private memory is sampled by main process",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S313",
+      "requirement": "GPU process memory is sampled by main process",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S314",
+      "requirement": "Controlled device loss uses GPU Authority recovery path",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S315",
+      "requirement": "Three sequential controlled losses are required",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S316",
+      "requirement": "Loss during pending Preview job is covered",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S317",
+      "requirement": "Loss during pending Export job is covered",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S318",
+      "requirement": "Each loss increments device epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S319",
+      "requirement": "Old graph authority is disposed after loss",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S320",
+      "requirement": "Old pipeline cache is disposed after loss",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S321",
+      "requirement": "Post-loss first job is sampled",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S322",
+      "requirement": "Post-loss parity is mandatory",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S323",
+      "requirement": "Post-loss residency returns to plateau",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S324",
+      "requirement": "No stale completion crosses epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S325",
+      "requirement": "Cleanup ledger closes after loss suite",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S326",
+      "requirement": "Packaged environment child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S327",
+      "requirement": "Product graph observation child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S328",
+      "requirement": "Validation fault child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S329",
+      "requirement": "Uniform lifetime child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S330",
+      "requirement": "Performance child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S331",
+      "requirement": "Residency child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S332",
+      "requirement": "Device loss child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S333",
+      "requirement": "Preview E2E child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S334",
+      "requirement": "Export E2E child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S335",
+      "requirement": "Adapter matrix child receipt schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S336",
+      "requirement": "Raw event ledger schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S337",
+      "requirement": "Raw counter bytes manifest schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S338",
+      "requirement": "Raw timestamp sample manifest schema exists",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S339",
+      "requirement": "Finalizer reads raw child artifacts from disk",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S340",
+      "requirement": "Finalizer recomputes graph counts",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S341",
+      "requirement": "Finalizer recomputes counter values",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S342",
+      "requirement": "Finalizer recomputes performance statistics",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S343",
+      "requirement": "Finalizer recomputes residency slopes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S344",
+      "requirement": "Finalizer recomputes device epoch chain",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S345",
+      "requirement": "Finalizer rejects externally supplied pass booleans",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S346",
+      "requirement": "Finalizer rejects missing child artifact",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S347",
+      "requirement": "Finalizer rejects child digest mismatch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S348",
+      "requirement": "Finalizer rejects package identity mismatch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S349",
+      "requirement": "Finalizer rejects run challenge mismatch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S350",
+      "requirement": "Finalizer rejects mixed adapter run",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S351",
+      "requirement": "Finalizer rejects mixed package bytes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S352",
+      "requirement": "Finalizer rejects incomplete fixture matrix",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S353",
+      "requirement": "Final receipt is written atomically",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S354",
+      "requirement": "Final receipt has self SHA-256",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S355",
+      "requirement": "Physical verifier replays final receipt and all children",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S356",
+      "requirement": "Physical verifier rejects source-mode final receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S357",
+      "requirement": "Physical verifier rejects missing raw ledger roots",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S358",
+      "requirement": "Physical verifier rejects future-schema child receipt",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S359",
+      "requirement": "Physical verifier rejects duplicate child receipt kind",
+      "status": "PASS"
+    },
+    {
+      "evidence": "R9AP1_SOURCE_EVIDENCE_SET",
+      "id": "R9AP1-S360",
+      "requirement": "Physical verifier records zero summary trust count",
+      "status": "PASS"
+    }
+  ],
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1",
+  "physicalCounts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 0,
+    "PENDING": 480,
+    "SKIPPED": 0
+  },
+  "schemaVersion": 1,
+  "selfSha256": "97fca595a8b02f48a79c33853e6e2156acdd2550e64511b323c4851bd85a101a",
+  "state": "RESAMPLE_RUNTIME_R9A_P1_PACKAGED_PRODUCT_GRAPH_INSTRUMENTATION_SOURCE_SEALED_AWAITING_BUILD_LOCK_R2_WIN32_AND_PHYSICAL_GPU"
+}

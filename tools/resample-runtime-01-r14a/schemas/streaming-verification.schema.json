@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "streaming-verification.schema.json",
+  "type": "object",
+  "required": [
+    "observedByteLength",
+    "observedSha256",
+    "preverifyExecutionCount",
+    "receiptSha256"
+  ],
+  "additionalProperties": true,
+  "properties": {}
+}

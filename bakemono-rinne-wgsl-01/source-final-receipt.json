@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.wgsl-01.source-final-receipt.v1",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-01",
+  "status": "SOURCE_BAKED_AWAITING_WGSL_02",
+  "parentBundle": "64_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R3_EXPLICIT_PIPELINE_REBUILD_SINGLE_FLIGHT_SOURCE_BAKED_AWAITING_EXTERNAL_BUILD_AND_THREE_CYCLE_PHYSICAL_GPU.zip",
+  "parentBundleSha256": "fce5bfa56823d223a36faecedcf2b552b82a4452ecb599b6ae894a92ada76d50",
+  "sourceGateReportSha256": "f5f34c41b225fe606087fd65977b99df6c1ac584497a7555c9021241b11f2a07",
+  "implementationManifestSha256": "f48dd350c165ab57732a0ef5e23f785a0269ba2d633c175a1b9a89ceb09847e5",
+  "formulaOracleReportSha256": "90decd491b6f2c13b2b4668bb843237f956c445c8e68866ee9f4ce48e8dbf6c5",
+  "tensorNegativeControlReportSha256": "0a996676f5fa8b7fc66f9f1ad40e06c23fb171ecf43aebb8b871593bafb88b9a",
+  "inventoryDigest": "460801db36170be2c5c2c37e83dab0c29cf92100ae07f06bbf94767d4a026954",
+  "gateCount": 176,
+  "passCount": 176,
+  "failCount": 0,
+  "wgslKernelAuthorityClaim": false,
+  "canonicalFinalTextureClaim": false,
+  "nextPatch": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "selfSha256": "1b9b490165efa9ea76b32417a074000f67d6d0e1b4bb20f2c7fa109384e01678"
+}

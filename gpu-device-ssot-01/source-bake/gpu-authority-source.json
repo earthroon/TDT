@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "checks": {
+    "profileSchema": true,
+    "recoveryBounded": true,
+    "crossEpochReuseFalse": true,
+    "consumerManifest": true,
+    "canonicalServiceId": true,
+    "facadeOnly": true,
+    "bridgeTyped": true,
+    "stateMachine": true,
+    "epochIdentity": true,
+    "staleLease": true,
+    "singleLostObserver": true,
+    "bridgeNoRawDeviceProperty": true,
+    "serviceNoRawDeviceGetter": true,
+    "stableErrorSurface": true,
+    "workerRetired": true,
+    "specPresent": true
+  },
+  "failed": [],
+  "pass": true
+}

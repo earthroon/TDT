@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8",
+  "mode": "isolated-r7-parent-snapshot",
+  "pass": true,
+  "status": 0,
+  "parentZipSha256": "61e277ee6328dbb62583cab54699d9344ff7a504a22ec6870530d99e2be58433",
+  "snapshotFileCount": 31,
+  "tail": [
+    "",
+    "> dadumdadum@1.0.0 verify:resample-runtime-01-r7",
+    "> node tools/resample-runtime-01-r7/run.mjs",
+    "",
+    "PASS R7 isolated R6 predecessor regression including R1A-R5 1/1",
+    "TDT-RESAMPLE-RUNTIME-01-R7 172 PASS / 5 DEFERRED / 0 FAIL",
+    ""
+  ]
+}

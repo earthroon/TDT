@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "modelOnly": true,
+  "runtimeEpochPreserved": true,
+  "deviceEpochIncremented": true,
+  "sameEpochDedup": true,
+  "staleRejected": true,
+  "crossEpochReuse": false,
+  "pass": true
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-PSD-DECODER-01",
+  "sourceBakeSeal": "e634d5248b17ed751164fc1a274fb84cffcf5ec56124535d9de68d72db6ead6d",
+  "parentRoot": "tdt_jxl_codec_01_bake",
+  "changedSourceCount": 20,
+  "changedSourceDigest": "8886696bc8f9f05b091dac2e346b5dbe5bca66e05f8b0b7cb89b5e8cf8539cc4",
+  "packageJsonSha256": "b3a149af9c30917e3749a3c949bcfa7bd471637b4a8a11735f9e9ca35a10972c",
+  "packageLockSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+  "productionPointerMutated": false,
+  "sourceMutationAccountingVerified": true,
+  "evidenceSealSha256": "3349f3671bc5b85785aa569de0a30c3721f55021367e729828667759b45b7b0d"
+}

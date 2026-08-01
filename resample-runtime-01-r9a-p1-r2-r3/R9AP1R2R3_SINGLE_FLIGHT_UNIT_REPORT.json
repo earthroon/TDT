@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.single-flight-unit-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "status": "PASS",
+  "matrix": [
+    {
+      "callerCount": 2,
+      "physicalFactoryCount": 1,
+      "physicalBuildCount": 1,
+      "joinCount": 1,
+      "activeEntryCount": 1,
+      "samePipelineObjectCount": 2,
+      "samePipelineSetDigestCount": 2,
+      "pass": true
+    },
+    {
+      "callerCount": 4,
+      "physicalFactoryCount": 1,
+      "physicalBuildCount": 1,
+      "joinCount": 3,
+      "activeEntryCount": 1,
+      "samePipelineObjectCount": 4,
+      "samePipelineSetDigestCount": 4,
+      "pass": true
+    },
+    {
+      "callerCount": 8,
+      "physicalFactoryCount": 1,
+      "physicalBuildCount": 1,
+      "joinCount": 7,
+      "activeEntryCount": 1,
+      "samePipelineObjectCount": 8,
+      "samePipelineSetDigestCount": 8,
+      "pass": true
+    }
+  ],
+  "differentKey": {
+    "pass": true,
+    "physicalBuildCount": 2,
+    "joinCount": 0
+  },
+  "failedRetry": {
+    "pass": true,
+    "firstFailureCode": "E_R9AP1R2R3_BUILD_FAILED",
+    "physicalBuildCount": 2,
+    "entryStates": [
+      "ACTIVE"
+    ]
+  },
+  "selfSha256": "ca1fc76f95f4c20870234edd65bd67267c0c9d55d614f6fc95e5f2287ba11bf6"
+}

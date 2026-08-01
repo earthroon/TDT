@@ -1,0 +1,96 @@
+{
+  "fileCount": 22,
+  "receiptKind": "r9a-p1-r1-implementation-manifest",
+  "rows": [
+    {
+      "relativePath": "electron.mjs",
+      "sha256": "7a82a055f2718a24e0e1bdf7d926587d0ee2574cb5e52c66c849972ecdc4e1d7"
+    },
+    {
+      "relativePath": "preload.cjs",
+      "sha256": "562fc39aa2f08ef0238b67e6f155058df43e419dc8d805da075ac139ce1fc30e"
+    },
+    {
+      "relativePath": "vite.config.ts",
+      "sha256": "4ffcecc6af64012ef1f3661e65fa313973acef9815599188c9baefdc1b26f2d8"
+    },
+    {
+      "relativePath": "package.json",
+      "sha256": "f92fcc2d5eb6c3c6580fe90a5e148df38a96d7e349f229d824b2f0808c9646f7"
+    },
+    {
+      "relativePath": "package-lock.json",
+      "sha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1/artifact-publisher.mjs",
+      "sha256": "e7e40633d365086ac6b71176c65ef77b122acd315a4a68bb3242254a5aeb0593"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/lib.mjs",
+      "sha256": "6ca356b1aad50d93b704c85d765574e0c8653b3a52923ada9546f9c762ad8c4f"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/external-build-admission-sidecar.mjs",
+      "sha256": "3fac4f1b55088064e78ef13164c178f6d92459b032141b60d60b6c30c67f8f64"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/packaged-closure-binding.mjs",
+      "sha256": "f61b8f8a98f4a40d01a4e8040151f937306f9748b6000e0f539d194c48ba143c"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/qualification-boot-authority.mjs",
+      "sha256": "64d23eabea5dcddbb1a38cb9c9c0bdfcebd4d241b78b0061bf0fc357cd9fd0d0"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "sha256": "c847d11f843519049fd8d5cc9b0b874da49e373f49bbc934ef1ebecc8b49d9b8"
+    },
+    {
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/R9AP1R1_FIXTURE_SCHEDULE.json",
+      "sha256": "c12cf2534ef08df0803dac8ba2ea60267060b70eb0e85fe920bf5af62b4e68e8"
+    },
+    {
+      "relativePath": "app/src/main.ts",
+      "sha256": "b60f9c543514eb4cb8b490903443b17e413f2dcd3224fce4d7f6893d5514efa1"
+    },
+    {
+      "relativePath": "app/src/env.d.ts",
+      "sha256": "f95fbb72afa9c19988b26371e89b15b952c726c653937311396991da4f2cb553"
+    },
+    {
+      "relativePath": "app/src/boot/bootstrap-renderer.ts",
+      "sha256": "5365c67abcbaad4d576ce4008bb4cd22880f078cd010d417b3e7a721a74ebd56"
+    },
+    {
+      "relativePath": "app/src/runtime/admission/installed-admission-service.ts",
+      "sha256": "ea9f1778a9f91c362b56cfcab960afe58e14c5a9097a33f500b9c788bc9119f2"
+    },
+    {
+      "relativePath": "app/src/runtime/distribution/release-distribution-service.ts",
+      "sha256": "5c1db2a8f3457496deca144acafe4ca7ffd145f208487ef9f0b80bb463fa53a7"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r1-fixture-schedule.json",
+      "sha256": "c12cf2534ef08df0803dac8ba2ea60267060b70eb0e85fe920bf5af62b4e68e8"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r1-qualification-types.ts",
+      "sha256": "3d03bdfe0ce98037e8cb3a4f88477ee9cc786fb73acf93ac5d279c2f614afe44"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r1-qualification-service.ts",
+      "sha256": "81559a5e667abee5cdb5a366b71da09cbafd47a6ae8397fb4d71295599c435d1"
+    },
+    {
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r1-qualification-runner.ts",
+      "sha256": "afc193fcc1feca9a1029de9db8fdc5020d8548435f2b518faf32261a10a50d0f"
+    },
+    {
+      "relativePath": "tools/build-lock-01-r2/emit-external-admission-sidecar.mjs",
+      "sha256": "ecec41a5f244ba7389506e4f05e79f71548c8a186934e6e01ce26bce2832ce3b"
+    }
+  ],
+  "schemaVersion": 1,
+  "selfSha256": "66672a77bc1c3fe2afa12c1e74e274a10176ed35eabc871875a16801e6057a79"
+}

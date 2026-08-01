@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "state": "RESAMPLE_RUNTIME_R2_SOURCE_BAKED_AWAITING_PACKAGED_GPU",
+  "r2": {
+    "sourceContract": "25/25 PASS",
+    "mockRuntime": "10/10 PASS",
+    "gate": {
+      "PASS": 81,
+      "DEFERRED": 27,
+      "FAIL": 0
+    }
+  },
+  "predecessors": {
+    "R1D": "100 PASS / 8 DEFERRED / 0 FAIL",
+    "R1C": "90 PASS / 6 DEFERRED / 0 FAIL",
+    "R1B": "72 PASS / 12 DEFERRED / 0 FAIL",
+    "R1A": "57 PASS / 11 DEFERRED / 0 FAIL"
+  },
+  "runtime": {
+    "activeGraph": "30 PASS / 10 DEFERRED",
+    "activeGraphRegression": "19/19 PASS",
+    "gpuDeviceSsot": "30 PASS / 30 DEFERRED / 0 FAIL",
+    "surfaceLifecycle": "52 PASS / 8 DEFERRED / 0 FAIL",
+    "previewPresenter": "50 PASS / 10 DEFERRED / 0 FAIL",
+    "runtimeR7": "PASS"
+  },
+  "export": {
+    "worker01": "PASS",
+    "worker02": "PASS",
+    "worker03": "PASS",
+    "worker04": "PASS",
+    "worker05": "PASS",
+    "worker06": "PASS",
+    "worker07": "PASS",
+    "promotion01": "54/54 PASS",
+    "promotion02": "60/60 PASS",
+    "promotion03": "68/68 PASS"
+  },
+  "buildAndCodecs": {
+    "buildLock": "72/72 PASS",
+    "buildEmit": "84/84 PASS",
+    "modjpeg": "84/84 PASS",
+    "nativeDecoder": "120/120 PASS",
+    "jxlCodec": "108/108 PASS",
+    "psdDecoder": "112/112 PASS",
+    "promotionBaselineSource": "66/66 PASS"
+  },
+  "static": {
+    "stableErrors": "628/628 PASS",
+    "typescriptSyntax": "94 files PASS",
+    "wgslStructuralBalance": "5 files PASS",
+    "runtimeAssetCount": 27
+  },
+  "claims": {
+    "physicalGpu": false,
+    "exactPixelParity": false,
+    "performance": false,
+    "windowsPackagedElectron": false,
+    "productionPointerMutated": false
+  }
+}

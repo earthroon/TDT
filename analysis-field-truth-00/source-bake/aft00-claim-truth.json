@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "errors": [],
+  "sourcePresenceIsExecution": false,
+  "claimLevelsRequireReceipt": true,
+  "activeGraphNodeCount": 31,
+  "claimReportDigest": "89f73f3bea8b722aa7d26e3267db2963f6a76ad103b3d313b3f9503c5f583583"
+}

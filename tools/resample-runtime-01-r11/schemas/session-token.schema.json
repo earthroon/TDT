@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schemaId",
+    "tokenId",
+    "buildId",
+    "packageContentId",
+    "pointerGeneration",
+    "deviceEpoch",
+    "tokenSha256"
+  ],
+  "properties": {
+    "schemaId": {
+      "const": "tdt.resample-runtime.session-attestation-token.r11.v1"
+    }
+  }
+}

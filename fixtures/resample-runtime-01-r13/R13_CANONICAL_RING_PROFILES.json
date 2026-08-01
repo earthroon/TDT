@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "largeFleet": [
+    {"ringId":"RING-0","name":"LAB","basisPoints":0,"selection":"explicit-allowlist","minimumDwellSeconds":7200},
+    {"ringId":"RING-1","name":"CANARY","basisPoints":50,"minimumDwellSeconds":21600},
+    {"ringId":"RING-2","name":"EARLY","basisPoints":500,"minimumDwellSeconds":43200},
+    {"ringId":"RING-3","name":"BROAD","basisPoints":2500,"minimumDwellSeconds":86400},
+    {"ringId":"RING-4","name":"MAJORITY","basisPoints":6000,"minimumDwellSeconds":172800},
+    {"ringId":"RING-5","name":"FULL","basisPoints":10000,"minimumDwellSeconds":259200}
+  ],
+  "smallFleetCounts": {"LAB":1,"CANARY":2,"EARLY":3,"BROAD":5,"MAJORITY":"all-but-one","FULL":"all"}
+}

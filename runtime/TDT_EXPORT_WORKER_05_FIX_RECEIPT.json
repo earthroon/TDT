@@ -1,0 +1,138 @@
+{
+  "schema": "dadum-ew05-fix-receipt-v1",
+  "patchId": "TDT-EXPORT-WORKER-05",
+  "title": "JXL Dedicated Worker Promotion / ABI / Bit-depth / Pthread / Container Truth",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "promotionEligible": false,
+  "promotionGranted": false,
+  "buildId": "f1f406107dbd882d73738283",
+  "sourceBakeSeal": "98dc19c10abb70b1f3c6cab64d7623889b23251955a8fe0bac36653423df138b",
+  "generatedAt": "2026-07-24T15:46:10.311162Z",
+  "parentPatchId": "TDT-EXPORT-WORKER-04",
+  "parentArchive": "44_TDT_EXPORT_WORKER_04_PSD_RUST_WASM_CANONICAL_SERIALIZER_PROMOTION_SOURCE_BAKED_UNPROMOTED.zip",
+  "scope": [
+    "dedicated canonical JXL worker and EW02 broker operation",
+    "jxl_encode_qmap_ex ABI preservation",
+    "RGBA8 lossless-only product capability",
+    "RGBA16, lossy and custom ICC fail-closed gates",
+    "pthread request and compiled pool truth",
+    "worker-local JXL container finalization",
+    "JXL structure verifier v2 and post-worker mutation seal",
+    "EW05 export receipt evidence"
+  ],
+  "canonicalJxlTarget": {
+    "workerId": "dadum.worker.encoder.jxl-canonical-v1",
+    "operation": "encode.jxl-lossless",
+    "abiSymbol": "jxl_encode_qmap_ex",
+    "inputStorage": "rgba8",
+    "bitDepthsAdvertised": [
+      8
+    ],
+    "losslessOnly": true,
+    "compiledPthreadPoolSize": 4,
+    "wasmArtifactPresent": true,
+    "wasmArtifactSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+    "actualWasmEncodeExecuted": false
+  },
+  "validation": {
+    "inheritedGates": "PASS",
+    "ew05StaticGates": "PASS 38/38",
+    "jxlContainerSourceSmoke": "PASS",
+    "strictTypescriptClosure": "PASS",
+    "changedJavaScriptSyntax": "PASS",
+    "fullVueTscViteElectron": "BLOCKED vue-tsc/node_modules unavailable",
+    "actualJxlWasmEncode": "NOT_RUN",
+    "independentDecoderRoundtrip": "NOT_RUN",
+    "rgba16AbiFixture": "NOT_RUN",
+    "pthreadChildClosure": "NOT_RUN",
+    "lockConsistency": {
+      "consistent": false,
+      "missing": [
+        {
+          "name": "pinia",
+          "expected": "3.0.1",
+          "actual": null
+        },
+        {
+          "name": "vue",
+          "expected": "3.5.40",
+          "actual": null
+        },
+        {
+          "name": "@napi-rs/cli",
+          "expected": "^2.18.4",
+          "actual": null
+        },
+        {
+          "name": "@vitejs/plugin-vue",
+          "expected": "6.0.7",
+          "actual": null
+        },
+        {
+          "name": "typescript",
+          "expected": "5.9.3",
+          "actual": null
+        },
+        {
+          "name": "vite",
+          "expected": "8.1.5",
+          "actual": null
+        },
+        {
+          "name": "vue-tsc",
+          "expected": "3.2.2",
+          "actual": null
+        }
+      ]
+    }
+  },
+  "workerManifest": {
+    "sourceManifestDigest": "bd4afde4b9e85c3bf481bf9556bf71cc29d9b8b9a430373ccbf66cdd6c13f43f",
+    "artifactVerificationMode": "source-graph-only",
+    "workerCount": 4,
+    "jxlWorkerId": "dadum.worker.encoder.jxl-canonical-v1",
+    "jxlArtifactSetDigest": "1e63113465767d6efa40304de9e86df9728fef0d1698cff4973c47a0c028380d"
+  },
+  "sealComponents": {
+    "schema": "dadum-ew05-source-bake-seal-v1",
+    "patchId": "TDT-EXPORT-WORKER-05",
+    "status": "SOURCE_BAKED_UNPROMOTED",
+    "buildId": "f1f406107dbd882d73738283",
+    "parentPatchId": "TDT-EXPORT-WORKER-04",
+    "runtimeManifestSelfDigest": "087d19ddd3c50c5d5eed828c685d01b32c1ef6af68159124f53ebd17b377635f",
+    "runtimeSourceGraphDigest": "b528f8054d92e3da65e7058b5d6775aee1bc5456b2ec3defa548cbeb926f727a",
+    "runtimePlanDigest": "cf42ecd820a72d28f278a04bb0b0aba98a510951332e4a7c40b2380528868816",
+    "legacyManifestDigest": "9768a4205004019ab2278d3a1f4bd59851032c5fbd06b4641aa471c9c097a51d",
+    "workerSourceManifestDigest": "bd4afde4b9e85c3bf481bf9556bf71cc29d9b8b9a430373ccbf66cdd6c13f43f",
+    "jxlWorkerArtifactSetDigest": "1e63113465767d6efa40304de9e86df9728fef0d1698cff4973c47a0c028380d",
+    "jxlWasmArtifactSha256": "2536b058983c2fbc14d37f438a742fa01ed24c2b06951b8552d7f7830c560f31",
+    "promotionEligible": false,
+    "actualJxlWasmEncodeExecuted": false,
+    "independentDecoderExecuted": false,
+    "rgba16AbiVerified": false,
+    "pthreadClosureVerified": false,
+    "specSha256": "832ec67a0e43cedb261c09f841c77b86e0914ac0c2834bb96fd1921e1e1103d1",
+    "sourceVerifySha256": "7865a943f3632ffbe178cb739aa96cf016af1e5474d0a34c489f701636c1bca4",
+    "strictTsSha256": "ea1d484c1fef89c20dc61ff975466d5f1eb04df9f8418d8e0595291b187b4477",
+    "fullVerifySha256": "452fdea55b3b4a1e55980a9adbdc571fef76b9b560a3294e717de91e42650714",
+    "structureSmokeSha256": "48f2248f7eee01bf91a0b0e15e5021e67949039cb69de538495caed6c9bcb51b",
+    "promotionSha256": "9ae96335b585603590eb89c18f3714aab7d4057bb039c1eb0cc1c59259928021",
+    "abiSha256": "356aa6104889c895b4f5ffa140d739093fa8b129a4ea5f9723325d2f130a0410",
+    "pthreadSha256": "781f68b23d2f0e973b8356b4526840407b8dc9f2ce23fe7398ffb1e6e58a4279",
+    "roundtripSha256": "fb716eaf09b27da274e5806c2352692ae6471f6e00464f88f907a0daf340fa6c",
+    "isolationSha256": "6f4835d1779cf398db951a6f94135e72b6656ebae5c294e0086a7b913b9e0870",
+    "containerSha256": "1237768a7217f381c43f2dad157050c04ef25fbabda0978c6969a2e5e455435f",
+    "diffSha256": "9fae0b2cc6aa6e313a1212c97f6088e672a64ce48be6ff294f2538ee09ab45f5",
+    "appliedReadmeSha256": "701f54fbc6739a6549c511c42cd1ce26d07fabcf95edf25df641c42a90b77e72"
+  },
+  "sourceBakeSealPayloadSha256": "98dc19c10abb70b1f3c6cab64d7623889b23251955a8fe0bac36653423df138b",
+  "blockers": [
+    "vite-production-build-not-run",
+    "electron-worker-e2e-not-run",
+    "actual-jxl-wasm-encode-not-run",
+    "independent-jxl-decoder-roundtrip-not-run",
+    "pthread-child-closure-not-measured",
+    "rgba16-abi-fixture-not-run",
+    "package-lock-inconsistent"
+  ]
+}

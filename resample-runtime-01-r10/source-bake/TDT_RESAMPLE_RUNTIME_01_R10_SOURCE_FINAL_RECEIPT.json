@@ -1,0 +1,2652 @@
+{
+  "bootstrapRequiresTwoQualifiedPackages": true,
+  "counts": {
+    "DEFERRED": 0,
+    "FAIL": 0,
+    "PASS": 129,
+    "PENDING": 202,
+    "SKIPPED": 0
+  },
+  "currentActiveBuildId": null,
+  "currentActivePackageContentId": null,
+  "nextAuthority": null,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R10",
+  "pointerGeneration": 0,
+  "pointerRawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+  "productionPointerMutated": false,
+  "r9PhysicalFinalReceiptPresent": false,
+  "releaseGates": [
+    {
+      "id": "R10-P001",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_FINAL_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P002",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_FINAL_RECEIPT_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P003",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_FINAL_STATE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P004",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_SOURCE_PASS_110",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P005",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_PHYSICAL_PASS_187",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P006",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P007",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_DEFERRED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P008",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_SKIPPED_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P009",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_FAIL_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P010",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_POINTER_MUTATION_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P011",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_PACKAGE_DIGEST_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P012",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_PACKAGE_POST_HASH_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P013",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_BUILD_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P014",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_PACKAGE_CONTENT_ID_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P015",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_ADAPTER_PROFILE_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P016",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_CHILD_MANIFEST_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P017",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_RECEIPT_DIGEST_RECOMPUTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P018",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_RECEIPT_READ_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P019",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_CANDIDATE_PACKAGE_EXISTS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P020",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_CANDIDATE_PACKAGE_READ_ONLY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P021",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FULL_PRODUCT_RECEIPT_PRESENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P022",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FULL_PRODUCT_RECEIPT_PASS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P023",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FULL_PRODUCT_BUILD_ID_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P024",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FULL_PRODUCT_PACKAGE_ID_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P025",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FULL_PRODUCT_BLOCKERS_EMPTY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P026",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "QUALIFICATION_SET_DIGEST",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P027",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_RELEASE_PROFILE_FULL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P028",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_NO_MIXED_ARTIFACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P029",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_BUILD_MANIFEST_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P030",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_RUNTIME_KERNEL_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P031",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_ABI_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P032",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_PLANNER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P033",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_ACTIVE_GRAPH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P034",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_PACKAGE_HASH_RECHECK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P035",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CANDIDATE_ELIGIBLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P036",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "OPERATOR_APPROVAL_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P037",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "RUN_ID_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P038",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "EVIDENCE_DIRECTORY_EMPTY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P039",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "GLOBAL_LOCK_ACQUIRED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P040",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "LOCK_OWNER_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P041",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "LOCK_EXPECTED_POINTER_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P042",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "MAINTENANCE_BARRIER_ENTERED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P043",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "NEW_JOB_REJECTION_OBSERVED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P044",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PENDING_JOB_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P045",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PENDING_READBACK_COUNT_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P046",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PENDING_SAVE_SESSION_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P047",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ACTIVE_WORKER_JOB_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P048",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROCESS_QUIESCENCE_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P049",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ACTIVE_PROCESS_EXITED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P050",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FORCED_KILL_NOT_USED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P051",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_CANONICAL_FILE_SELECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P052",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_BEFORE_READ",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P053",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_BEFORE_JSON_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P054",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_BEFORE_RAW_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P055",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_BEFORE_SELF_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P056",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_BEFORE_GENERATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P057",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_MIRROR_BEFORE_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P058",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "EXPECTED_HASH_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P059",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "EXPECTED_GENERATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P060",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTION_INTENT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P061",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTION_INTENT_CANDIDATE_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P062",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTION_INTENT_PREVIOUS_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P063",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTION_TRANSITION_ID_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P064",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_V3_PROMOTE_DOCUMENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P065",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P066",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_ACTIVE_CANDIDATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P067",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_PREVIOUS_SNAPSHOT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P068",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_QUALIFICATION_MAP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P069",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_ROLLBACK_UNIT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P070",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_FALLBACK_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P071",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_SELF_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P072",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_TEMP_SAME_VOLUME",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P073",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_TEMP_FLUSHED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P074",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_ATOMIC_REPLACE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P075",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_READBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P076",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_RAW_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P077",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_SCHEMA_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P078",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_GENERATION_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P079",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_IDENTITY_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P080",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_MIRROR_SYNC",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P081",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_PROMOTE_CAS_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P082",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_LAUNCH_FROM_POINTER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P083",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_NO_SOURCE_TREE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P084",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_BUILD_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P085",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_PACKAGE_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P086",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_PROFILE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P087",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_QUALIFICATION_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P088",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_RUNTIME_READY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P089",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_DEVICE_HARDWARE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P090",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P091",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_PREVIEW_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P092",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_EXPORT_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P093",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_PREVIEW_EXPORT_IDENTITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P094",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_ALPHA_BORDER_DC_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P095",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P096",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_NO_CPU_FALLBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P097",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_NO_LEGACY_FALLBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P098",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_PACKAGE_HASH_STABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P099",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PROMOTED_SMOKE_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P100",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PREVIOUS_EXISTS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P101",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PREVIOUS_DISTINCT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P102",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PREVIOUS_QUALIFIED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P103",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_BOOTSTRAP_RULE_SATISFIED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P104",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_TRIGGER_ARMED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P105",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_TRIGGER_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P106",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_TRIGGER_OBSERVED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P107",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_TRIGGER_SCOPE_EXACT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P108",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_NO_PACKAGE_MUTATION",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P109",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_NEW_JOB_BLOCKED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P110",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_ACTIVE_PROCESS_EXITED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P111",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_POINTER_BEFORE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P112",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_INTENT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P113",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_TRANSITION_ID_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P114",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_POINTER_DOCUMENT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P115",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P116",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_ACTIVE_PREVIOUS",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P117",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PREVIOUS_CANDIDATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P118",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_WHOLE_BUILD_FLAG",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P119",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_NO_PARTIAL_SWAP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P120",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_ATOMIC_REPLACE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P121",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_READBACK_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P122",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_CAS_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P123",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_LAUNCH_FROM_POINTER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P124",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_BUILD_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P125",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PACKAGE_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P126",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_RUNTIME_READY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P127",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PREVIEW_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P128",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_EXPORT_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P129",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_MINIMUM_FORMAT_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P130",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P131",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_NO_FALLBACK",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P132",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_PACKAGE_HASH_STABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P133",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_RECEIPT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P134",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_DURATION_RECORDED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P135",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "ROLLBACK_TRIGGER_DISARMED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P136",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_APPROVAL_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P137",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_POINTER_BEFORE_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P138",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_INTENT_SEALED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P139",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_TRANSITION_ID_VALID",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P140",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_GENERATION_PLUS_ONE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P141",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_ACTIVE_CANDIDATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P142",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_PREVIOUS_A",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P143",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_QUALIFICATION_MAP",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P144",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_ATOMIC_REPLACE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P145",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_READBACK_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P146",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "REPROMOTION_CAS_RECEIPT",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P147",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_LAUNCH_FROM_POINTER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P148",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_BUILD_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P149",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_PACKAGE_ID_MATCH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P150",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RUNTIME_READY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P151",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_PREVIEW_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P152",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_EXPORT_SMOKE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P153",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RESAMPLE_IDENTITY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P154",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_VALIDATION_COUNTER_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P155",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P156",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_PACKAGE_HASH_STABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P157",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_POINTER_ACTIVE_B",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P158",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_POINTER_PREVIOUS_A",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P159",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_POINTER_CANDIDATE_CLEARED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P160",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_POINTER_GENERATION_CHAIN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P161",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_POINTER_HASH_CHAIN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P162",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_TRANSITION_ID_UNIQUE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P163",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_CHILDREN_COMPLETE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P164",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_R9_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P165",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_FULL_PRODUCT_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P166",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_PROMOTION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P167",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_ROLLBACK_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P168",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_REPROMOTION_BOUND",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P169",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_POINTER_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P170",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_QUALIFICATION_SET",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P171",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_WHOLE_BUILD_TRUE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P172",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_FALLBACK_FALSE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P173",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_BLOCKERS_EMPTY",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P174",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RECEIPT_SELF_HASH",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P175",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "RELEASE_LEDGER_ORDER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P176",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "RELEASE_LEDGER_DIGEST_CHAIN",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P177",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "RELEASE_LEDGER_NO_DUPLICATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P178",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "RELEASE_LEDGER_IMMUTABLE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P179",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "LOCK_RELEASED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P180",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "MAINTENANCE_BARRIER_EXITED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P181",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "NEW_JOB_ADMISSION_RESTORED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P182",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CLEANUP_PENDING_ZERO",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P183",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "POINTER_MIRRORS_FINAL_EQUAL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P184",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "NO_BACKGROUND_POINTER_WRITER",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P185",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "STALE_PROMOTION_INTENT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P186",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "STALE_ROLLBACK_INTENT_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P187",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "CONCURRENT_WRITER_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P188",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "TRUNCATED_POINTER_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P189",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "SELF_HASH_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P190",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "GENERATION_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P191",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PACKAGE_MISMATCH_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P192",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "QUALIFICATION_MISMATCH_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P193",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PARTIAL_ROLLBACK_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P194",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "SOURCE_OVERRIDE_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P195",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "UNAPPROVED_MUTATION_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P196",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "PENDING_JOB_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P197",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "LOCK_CONTENTION_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P198",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_SOURCE_ONLY_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P199",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "R9_PENDING_NEGATIVE_CONTROL",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P200",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "BOOTSTRAP_SINGLE_CANDIDATE_REJECTED",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P201",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "FINAL_RELEASE_STATE",
+      "status": "PENDING"
+    },
+    {
+      "id": "R10-P202",
+      "reason": "requires-final-R9-physical-receipt-two-qualified-packages-operator-approval-and-Windows-pointer-drill",
+      "requirement": "RELEASE_GATE_COUNT_EXACT",
+      "status": "PENDING"
+    }
+  ],
+  "schemaId": "tdt.resample-runtime.r10.source-harness.v1",
+  "schemaVersion": 1,
+  "sourceGates": [
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S001",
+      "message": null,
+      "requirement": "PARENT_BUNDLE_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S002",
+      "message": null,
+      "requirement": "PARENT_SPEC_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S003",
+      "message": null,
+      "requirement": "PARENT_SOURCE_RECEIPT_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S004",
+      "message": null,
+      "requirement": "PARENT_FINALIZER_DIGEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S005",
+      "message": null,
+      "requirement": "PARENT_SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S006",
+      "message": null,
+      "requirement": "REQUIRED_R9_FINAL_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S007",
+      "message": null,
+      "requirement": "R9_FINAL_RECEIPT_PATH_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S008",
+      "message": null,
+      "requirement": "R9_COUNTS_EXACT_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "evidenceKey": "pointer",
+      "id": "R10-S009",
+      "message": null,
+      "requirement": "R9_POINTER_UNCHANGED_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S010",
+      "message": null,
+      "requirement": "R9_PACKAGE_IDENTITY_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S011",
+      "message": null,
+      "requirement": "R9_ADAPTER_PROFILE_BOUND",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S012",
+      "message": null,
+      "requirement": "R9_CHILD_DIGEST_MANIFEST_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S013",
+      "message": null,
+      "requirement": "R9_RECEIPT_IMMUTABLE_INPUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S014",
+      "message": null,
+      "requirement": "R9_SOURCE_ONLY_REJECTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "DEFERRED": 0,
+        "FAIL": 0,
+        "PASS": 110,
+        "PENDING": 187,
+        "SKIPPED": 0
+      },
+      "evidenceKey": "r9",
+      "id": "R10-S015",
+      "message": null,
+      "requirement": "R9_PENDING_REJECTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S016",
+      "message": null,
+      "requirement": "GLOBAL_POINTER_IDENTITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S017",
+      "message": null,
+      "requirement": "GLOBAL_POINTER_V2_INPUT_SUPPORT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S018",
+      "message": null,
+      "requirement": "GLOBAL_POINTER_V3_OUTPUT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S019",
+      "message": null,
+      "requirement": "NO_COMPONENT_SELECTION_POINTER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S020",
+      "message": null,
+      "requirement": "WHOLE_BUILD_POINTER_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "evidenceKey": "pointer",
+      "id": "R10-S021",
+      "message": null,
+      "requirement": "CURRENT_POINTER_DIGEST_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "generation": 0,
+        "rawSha256": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8"
+      },
+      "evidenceKey": "pointer",
+      "id": "R10-S022",
+      "message": null,
+      "requirement": "CURRENT_POINTER_MIRRORS_EQUAL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S023",
+      "message": null,
+      "requirement": "CURRENT_ACTIVE_NULL_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S024",
+      "message": null,
+      "requirement": "CURRENT_CANDIDATE_UNPROMOTED_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S025",
+      "message": null,
+      "requirement": "CURRENT_POINTER_NOT_ELIGIBLE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S026",
+      "message": null,
+      "requirement": "FULL_PRODUCT_ADMISSION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S027",
+      "message": null,
+      "requirement": "EP03_OR_EQUIVALENT_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S028",
+      "message": null,
+      "requirement": "QUALIFICATION_SET_IDENTITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S029",
+      "message": null,
+      "requirement": "BUILD_ID_EQUALITY_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S030",
+      "message": null,
+      "requirement": "PACKAGE_ID_EQUALITY_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S031",
+      "message": null,
+      "requirement": "POINTER_V3_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S032",
+      "message": null,
+      "requirement": "POINTER_CANONICAL_JSON",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S033",
+      "message": null,
+      "requirement": "POINTER_SELF_HASH_EXCLUSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S034",
+      "message": null,
+      "requirement": "POINTER_RAW_FILE_HASH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S035",
+      "message": null,
+      "requirement": "POINTER_GENERATION_U64",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S036",
+      "message": null,
+      "requirement": "POINTER_EXPECTED_GENERATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S037",
+      "message": null,
+      "requirement": "POINTER_EXPECTED_FILE_HASH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S038",
+      "message": null,
+      "requirement": "POINTER_TRANSITION_ID",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S039",
+      "message": null,
+      "requirement": "POINTER_TRANSITION_KIND_ENUM",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S040",
+      "message": null,
+      "requirement": "POINTER_QUALIFICATION_MAP",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S041",
+      "message": null,
+      "requirement": "POINTER_ACTIVE_RELEASE_PROFILE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S042",
+      "message": null,
+      "requirement": "POINTER_PREVIOUS_SNAPSHOT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S043",
+      "message": null,
+      "requirement": "POINTER_CANDIDATE_CLEARED_FINAL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S044",
+      "message": null,
+      "requirement": "POINTER_NO_CIRCULAR_RECEIPT_HASH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S045",
+      "message": null,
+      "requirement": "POINTER_COMPAT_READER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S046",
+      "message": null,
+      "requirement": "POINTER_V2_WRITE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S047",
+      "message": null,
+      "requirement": "POINTER_MIRROR_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S048",
+      "message": null,
+      "requirement": "POINTER_MIRROR_ATOMICITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S049",
+      "message": null,
+      "requirement": "POINTER_SCHEMA_DOWNGRADE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "pointerModel",
+      "id": "R10-S050",
+      "message": null,
+      "requirement": "POINTER_UNKNOWN_FIELD_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S051",
+      "message": null,
+      "requirement": "PROMOTION_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S052",
+      "message": null,
+      "requirement": "ROLLBACK_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S053",
+      "message": null,
+      "requirement": "REPROMOTION_INTENT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S054",
+      "message": null,
+      "requirement": "CAS_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S055",
+      "message": null,
+      "requirement": "RELAUNCH_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S056",
+      "message": null,
+      "requirement": "SMOKE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S057",
+      "message": null,
+      "requirement": "ROLLBACK_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S058",
+      "message": null,
+      "requirement": "FINAL_RELEASE_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S059",
+      "message": null,
+      "requirement": "RELEASE_LEDGER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S060",
+      "message": null,
+      "requirement": "REJECTION_RECEIPT_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S061",
+      "message": null,
+      "requirement": "ATOMIC_JSON_WRITE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S062",
+      "message": null,
+      "requirement": "RECEIPT_CHILD_DIGESTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S063",
+      "message": null,
+      "requirement": "RECEIPT_NO_SELF_CYCLE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S064",
+      "message": null,
+      "requirement": "RECEIPT_IMMUTABLE_AFTER_SEAL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S065",
+      "message": null,
+      "requirement": "RECEIPT_VOLATILE_FIELD_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "E_R10_R9_FINAL_RECEIPT_MISSING",
+        "E_R10_R9_FINAL_STATE_MISMATCH",
+        "E_R10_R9_PENDING_GATE",
+        "E_R10_FULL_PRODUCT_RECEIPT_MISSING",
+        "E_R10_QUALIFICATION_IDENTITY_MISMATCH",
+        "E_R10_PACKAGE_MUTATED",
+        "E_R10_POINTER_SCHEMA_INVALID",
+        "E_R10_POINTER_SELF_HASH_MISMATCH",
+        "E_R10_POINTER_CAS_MISMATCH",
+        "E_R10_POINTER_GENERATION_MISMATCH",
+        "E_R10_PROMOTION_LOCK_HELD",
+        "E_R10_PROMOTION_LOCK_RECOVERY_REQUIRED",
+        "E_R10_MAINTENANCE_DRAIN_TIMEOUT",
+        "E_R10_PENDING_JOB_NONZERO",
+        "E_R10_OPERATOR_APPROVAL_MISSING",
+        "E_R10_ATOMIC_REPLACE_FAILED",
+        "E_R10_POINTER_READBACK_MISMATCH",
+        "E_R10_PROMOTED_IDENTITY_MISMATCH",
+        "E_R10_PROMOTED_SMOKE_FAILED",
+        "E_R10_ROLLBACK_TARGET_MISSING",
+        "E_R10_ROLLBACK_TARGET_UNQUALIFIED",
+        "E_R10_PARTIAL_ROLLBACK_FORBIDDEN",
+        "E_R10_ROLLBACK_CAS_FAILED",
+        "E_R10_ROLLBACK_SMOKE_FAILED",
+        "E_R10_REPROMOTION_CAS_FAILED",
+        "E_R10_FINAL_SMOKE_FAILED",
+        "E_R10_BOOTSTRAP_SECOND_PACKAGE_REQUIRED",
+        "E_R10_RELEASE_LEDGER_BROKEN",
+        "E_R10_RELEASE_RECEIPT_INCOMPLETE",
+        "E_R10_SOURCE_CANNOT_PROMOTE"
+      ],
+      "evidenceKey": "errors",
+      "id": "R10-S066",
+      "message": null,
+      "requirement": "STABLE_ERROR_CODE_REGISTRY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S067",
+      "message": null,
+      "requirement": "SOURCE_AND_RELEASE_GATE_SPLIT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S068",
+      "message": null,
+      "requirement": "NO_RELEASE_PASS_FROM_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S069",
+      "message": null,
+      "requirement": "NO_POINTER_MUTATION_FROM_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S070",
+      "message": null,
+      "requirement": "NO_PACKAGE_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S071",
+      "message": null,
+      "requirement": "PROMOTION_LOCK_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S072",
+      "message": null,
+      "requirement": "LOCK_EXCLUSIVE_CREATE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S073",
+      "message": null,
+      "requirement": "LOCK_AUTO_STALE_DELETE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S074",
+      "message": null,
+      "requirement": "LOCK_RECOVERY_RECEIPT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S075",
+      "message": null,
+      "requirement": "LOCK_SCOPE_GLOBAL_POINTER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S076",
+      "message": null,
+      "requirement": "LOCK_HELD_THROUGH_DRILL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S077",
+      "message": null,
+      "requirement": "LOCK_RELEASE_AFTER_FINAL_SMOKE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S078",
+      "message": null,
+      "requirement": "MAINTENANCE_BARRIER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S079",
+      "message": null,
+      "requirement": "NEW_JOB_ADMISSION_BLOCK",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S080",
+      "message": null,
+      "requirement": "PENDING_JOB_DRAIN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S081",
+      "message": null,
+      "requirement": "DRAIN_TIMEOUT_FAIL_CLOSED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S082",
+      "message": null,
+      "requirement": "NO_HOT_SWAP_RUNNING_PROCESS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S083",
+      "message": null,
+      "requirement": "PROCESS_TERMINATION_BEFORE_SWITCH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "barrier",
+      "id": "R10-S084",
+      "message": null,
+      "requirement": "PROCESS_KILL_FALLBACK_RECEIPT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S085",
+      "message": null,
+      "requirement": "SOURCE_TREE_ISOLATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S086",
+      "message": null,
+      "requirement": "PACKAGE_READ_ONLY_GUARD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S087",
+      "message": null,
+      "requirement": "SAME_VOLUME_TEMP_POINTER",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S088",
+      "message": null,
+      "requirement": "WINDOWS_ATOMIC_REPLACE_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S089",
+      "message": null,
+      "requirement": "POINTER_FILE_FLUSH",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S090",
+      "message": null,
+      "requirement": "POINTER_DIRECTORY_DURABILITY_POLICY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S091",
+      "message": null,
+      "requirement": "POINTER_READBACK_VERIFY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S092",
+      "message": null,
+      "requirement": "CAS_MISMATCH_NO_RETRY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S093",
+      "message": null,
+      "requirement": "CAS_SINGLE_WRITER_TEST",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S094",
+      "message": null,
+      "requirement": "CAS_ABA_PREVENTION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "cas",
+      "id": "R10-S095",
+      "message": null,
+      "requirement": "CAS_PARTIAL_WRITE_NEGATIVE_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S096",
+      "message": null,
+      "requirement": "BOOTSTRAP_POLICY_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S097",
+      "message": null,
+      "requirement": "BOOTSTRAP_DISTINCT_CONTENT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S098",
+      "message": null,
+      "requirement": "BOOTSTRAP_BOTH_QUALIFIED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "bootstrap",
+      "id": "R10-S099",
+      "message": null,
+      "requirement": "BOOTSTRAP_FAKE_BUILD_ID_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        "cas-receipt.schema.json",
+        "final-release-receipt.schema.json",
+        "pointer-v3.schema.json",
+        "release-ledger.schema.json",
+        "transition-intent.schema.json"
+      ],
+      "evidenceKey": "schemas",
+      "id": "R10-S100",
+      "message": null,
+      "requirement": "ROLLBACK_TRIGGER_SCHEMA",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S101",
+      "message": null,
+      "requirement": "ROLLBACK_TRIGGER_NO_PACKAGE_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S102",
+      "message": null,
+      "requirement": "ROLLBACK_WHOLE_BUILD_ONLY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S103",
+      "message": null,
+      "requirement": "ROLLBACK_POINTER_CAS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S104",
+      "message": null,
+      "requirement": "ROLLBACK_PREVIOUS_IDENTITY_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S105",
+      "message": null,
+      "requirement": "ROLLBACK_RELAUNCH_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S106",
+      "message": null,
+      "requirement": "ROLLBACK_MINIMUM_SMOKE_DEFINED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S107",
+      "message": null,
+      "requirement": "REPROMOTION_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S108",
+      "message": null,
+      "requirement": "REPROMOTION_NEW_GENERATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "releaseFlow",
+      "id": "R10-S109",
+      "message": null,
+      "requirement": "FINAL_CANDIDATE_ACTIVE_RULE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "lock",
+      "id": "R10-S110",
+      "message": null,
+      "requirement": "FINAL_LOCK_CLEANUP",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S111",
+      "message": null,
+      "requirement": "NO_LEGACY_FALLBACK",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S112",
+      "message": null,
+      "requirement": "NO_ENV_BUILD_OVERRIDE",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S113",
+      "message": null,
+      "requirement": "NO_PERCENT_ROLLOUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "noMutation",
+      "id": "R10-S114",
+      "message": null,
+      "requirement": "NO_BACKGROUND_MUTATION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": [
+        {
+          "sha256": "b14038f8e987b2c97e38ce289348cc003d3d2820fcecfdbdfbf5955fcaa44a25",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r4_r8.wgsl"
+        },
+        {
+          "sha256": "caead67b6e188e2a4ca98b9f6f44ad875500288dbd049cdac62fcbebddaca4df",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_tile_r6_r8.wgsl"
+        },
+        {
+          "sha256": "ffc0633c29429230e244d0a1fbb4135053e386c95f28ad8e625eafd098692ec7",
+          "x": "app/legacy-runtime/core/compute/qmap_webgpu/shaders/ewa_aniso_reference_v6_r8.wgsl"
+        }
+      ],
+      "evidenceKey": "graph",
+      "id": "R10-S115",
+      "message": null,
+      "requirement": "ACTIVE_GRAPH_ADMISSION",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "bundle": "cb0c62b6ef2f880bdc3eaa183e412dd91f30588d10617bd54b2858dab0aa23bf",
+        "pointerRaw": "1462587f6b2abd55eb87aa709783d6452ca994c9d31179a12397f1101eeffcf8",
+        "r9Finalizer": "5c0887622b409de03a020bde44bd7f0c1d0e52cdc4f071c881ba283de6c8bb7e",
+        "r9SourceReceipt": "2cde15d4fb06deedf83800ba4f9ece2147dfb3fe509e2f804a9b94886daf669d",
+        "r9Spec": "570c580fe89d31e88bbf05d8f6f46e937611c4bb485f4b2a399b3019b3a8c608"
+      },
+      "evidenceKey": "parent",
+      "id": "R10-S116",
+      "message": null,
+      "requirement": "R8_R9_RUNTIME_HASH_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R10-S117",
+      "message": null,
+      "requirement": "PREDECESSOR_REGRESSION_COMMAND",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R10-S118",
+      "message": null,
+      "requirement": "SCRIPT_ENTRYPOINTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "scripts",
+      "id": "R10-S119",
+      "message": null,
+      "requirement": "POWERSHELL_ENTRYPOINTS",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S120",
+      "message": null,
+      "requirement": "RUN_ID_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": 30,
+      "evidenceKey": "files",
+      "id": "R10-S121",
+      "message": null,
+      "requirement": "OUTPUT_OVERWRITE_GUARD",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "network",
+      "id": "R10-S122",
+      "message": null,
+      "requirement": "NETWORK_DISABLED_BY_DEFAULT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "approval",
+      "id": "R10-S123",
+      "message": null,
+      "requirement": "OPERATOR_APPROVAL_INPUT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": true,
+      "evidenceKey": "approval",
+      "id": "R10-S124",
+      "message": null,
+      "requirement": "APPROVAL_NOT_EMBEDDED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S125",
+      "message": null,
+      "requirement": "SOURCE_STATE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S126",
+      "message": null,
+      "requirement": "RELEASE_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S127",
+      "message": null,
+      "requirement": "REJECTED_STATE_DECLARED",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT",
+      "evidenceKey": "sourceState",
+      "id": "R10-S128",
+      "message": null,
+      "requirement": "NO_IMPLICIT_NEXT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "errorCode": null,
+      "evidence": {
+        "release": 202,
+        "source": 129
+      },
+      "evidenceKey": "gateCount",
+      "id": "R10-S129",
+      "message": null,
+      "requirement": "SOURCE_GATE_COUNT_EXACT",
+      "status": "PASS"
+    }
+  ],
+  "state": "RESAMPLE_RUNTIME_R10_PROMOTION_HARNESS_SOURCE_BAKED_AWAITING_R9_PHYSICAL_RECEIPT"
+}

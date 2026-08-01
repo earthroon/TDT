@@ -1,0 +1,2 @@
+import path from 'node:path';import {ROOT} from './lib.mjs';import {resolveRunDir,readRunJson} from './physical/read-run.mjs';
+const runId=process.env.DADUM_R9_RUN_ID;if(!runId)throw Object.assign(new Error('DADUM_R9_RUN_ID is required'),{code:'E_R9_PENDING_PHYSICAL_GATE'});const dir=resolveRunDir(ROOT,runId),r=readRunJson(dir,'R9_RESIDENCY_SUMMARY.json');if(!(r.pass===true))throw Object.assign(new Error('verify-residency failed'),{code:r.errorCode??'E_R9_SOURCE_HARNESS_INCOMPLETE',detail:r});console.log('verify-residency PASS');

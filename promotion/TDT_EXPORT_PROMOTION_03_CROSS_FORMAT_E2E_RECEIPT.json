@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-EXPORT-PROMOTION-03",
+  "reportId": "TDT_EXPORT_PROMOTION_03_CROSS_FORMAT_E2E_RECEIPT",
+  "status": "BLOCKED",
+  "verified": false,
+  "packageContentId": null,
+  "rendererBuildId": "24a051fd97023b761a9ddadc",
+  "fixtureCorpusDigest": "ce6abed114d85241866523700d6430a2b9dbeb0144a334fee5c218b09ac725b7",
+  "formatReceipts": [
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_PNG8_ROUNDTRIP_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_PNG8_ROUNDTRIP_REPORT.json",
+      "sha256": "b9f06bc56d9e86749e6a080d2a43fbcaa6974ef29c5825ae7e70bd51ca917d88",
+      "status": "BLOCKED"
+    },
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_PNG16_ROUNDTRIP_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_PNG16_ROUNDTRIP_REPORT.json",
+      "sha256": "f4ff8c1860f3a3f9e1796e6652691cbd3d00bcae1497c39065045c3a90ac0eaa",
+      "status": "BLOCKED"
+    },
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_WEBP_LOSSLESS_ROUNDTRIP_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_WEBP_LOSSLESS_ROUNDTRIP_REPORT.json",
+      "sha256": "0034632548935fee3b9e07870e9439a79f5bb51a7071331fb057cdfeb7c01b6a",
+      "status": "BLOCKED"
+    },
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_JXL_ROUNDTRIP_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_JXL_ROUNDTRIP_REPORT.json",
+      "sha256": "af6f8a2c06b8c35e578144c4c4b17e7a559fd3ee60c92567c041f013decaa856",
+      "status": "BLOCKED"
+    },
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_JPEG_VALIDATION_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_JPEG_VALIDATION_REPORT.json",
+      "sha256": "37512303c8686f3606420dee66a458b2da41496ea313887575fe7c4e1c0e0f51",
+      "status": "BLOCKED"
+    },
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_PSD_RGB_ROUNDTRIP_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_PSD_RGB_ROUNDTRIP_REPORT.json",
+      "sha256": "4a46e820de1ddd1c6a69e772e91818a191171b2c8ff80f2fe1635a2853877245",
+      "status": "BLOCKED"
+    },
+    {
+      "reportId": "TDT_EXPORT_PROMOTION_03_PSD_CMYK_COLOR_REPORT",
+      "filename": "TDT_EXPORT_PROMOTION_03_PSD_CMYK_COLOR_REPORT.json",
+      "sha256": "4202d90c74fc2ff255092f37386cbce9fb464d496a2f6df1f71389abd0d907e9",
+      "status": "BLOCKED"
+    }
+  ],
+  "profileResults": {
+    "core-raster-v1": "BLOCKED",
+    "psd-rgb-v1": "BLOCKED",
+    "psd-cmyk-v1": "BLOCKED",
+    "full-product-v1": "BLOCKED"
+  },
+  "receiptConservationVerified": false,
+  "blockers": [
+    "cross-format-e2e-not-run",
+    "jpeg-output-identity-corpus-not-run",
+    "native-raster-decoder-addon-missing",
+    "packaged-candidate-not-launched",
+    "packaged-electron-coi-e2e-not-run",
+    "packaged-electron-content-not-verified",
+    "packaged-independent-decoder-execution-not-run",
+    "production-emitted-pthread-child-closure-not-verified",
+    "production-icc-fixtures-missing",
+    "receipt-conservation-not-verified"
+  ],
+  "receiptDigest": "911c2e2f383b32381d42cfc506e872cca3fd7ffe6c4f1b1a000ecb2b2d6fa058"
+}

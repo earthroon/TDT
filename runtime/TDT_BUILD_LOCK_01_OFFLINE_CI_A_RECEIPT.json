@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BUILD-LOCK-01",
+  "runId": "A",
+  "status": "BLOCKED",
+  "canonicalHost": false,
+  "observedHost": {
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "offline": true,
+  "ignoreScripts": true,
+  "lifecycleExecutionCount": 0,
+  "networkAttemptCount": 0,
+  "blocker": "noncanonical-host-win32-x64-required"
+}

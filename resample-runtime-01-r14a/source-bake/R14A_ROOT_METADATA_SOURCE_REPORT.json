@@ -1,0 +1,46 @@
+{
+  "failCount": 0,
+  "passCount": 9,
+  "roles": {
+    "release": {
+      "keyCount": 3,
+      "threshold": 2
+    },
+    "revocation": {
+      "keyCount": 3,
+      "threshold": 2
+    },
+    "rollback-permit": {
+      "keyCount": 3,
+      "threshold": 2
+    },
+    "root": {
+      "keyCount": 3,
+      "threshold": 2
+    },
+    "snapshot": {
+      "keyCount": 2,
+      "threshold": 1
+    },
+    "targets": {
+      "keyCount": 3,
+      "threshold": 2
+    },
+    "timestamp": {
+      "keyCount": 2,
+      "threshold": 1
+    },
+    "transparency-log": {
+      "keyCount": 2,
+      "threshold": 1
+    },
+    "witness": {
+      "keyCount": 3,
+      "threshold": 2
+    }
+  },
+  "rootSha256": "3b661cd6f83b88b90ccb69894e638ebefc063932d082f0fc1ca68fe1d7cca2e8",
+  "rootVersion": 1,
+  "schemaVersion": 1,
+  "selfSha256": "058ae3da507bbc43e28c75359dd779767078e8dd0c5e02b5901eb3eb040af3ba"
+}

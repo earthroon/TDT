@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "authorities": {
+    "parser": "tdt.active-runtime.javascript-parse-closure.r8a.v1",
+    "executor": "tdt.resample.canonical-executor-registration.r8a.v1",
+    "identity": "tdt.resample.actual-kernel-identity-propagation.r8a.v1",
+    "recovery": "tdt.resample.repeated-device-loss-registration.r8a.v1",
+    "export": "tdt.export.zero-silent-fallback.r8a.v1"
+  },
+  "activeGraphDigest": "f16cb0a53e4968dd691d7151a44060908c95cc9dee7493a966857eabffcc5978",
+  "activeRequiredUnparsedCount": 0,
+  "canonicalExecutorRegistered": true,
+  "actualKernelIdentityPropagated": true,
+  "repeatedDeviceLossCyclesPassed": 3,
+  "silentFallbackCount": 0,
+  "productionPointerMutated": false,
+  "localActivationPointerMutated": false,
+  "fullVueTypecheckPerformed": false,
+  "selfSha256": "19bf9e84e6d131c710b84c6d835a4348b2a2897b9a61f9051e4ca42853f67ace"
+}

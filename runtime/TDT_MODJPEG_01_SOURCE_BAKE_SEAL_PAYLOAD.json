@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-MODJPEG-01",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "evidenceState": "CANONICAL_PTHREAD_ARTIFACT_SOURCE_ADOPTED",
+  "buildId": "24a051fd97023b761a9ddadc",
+  "buildAuthorityDigest": "9d6e81e9fdecded8db3c53badaf650cdb8056c32e121f47a5cd4b7718abb5846",
+  "sourceRuntimeManifestDigest": "9b1a3fdfc21acf229337e9adcd5c2eb4505b3e5b54596f60bb1f6a6791df7e09",
+  "sourceWorkerManifestDigest": "435ac3eac48b6ec05a84df1d687d4c0d36886c633b9d418c2917d1cf11c8e3ab",
+  "modjpegWorkerArtifactSetDigest": "1883ff7a565f03ce9c8b2ae6b632fb4030fe08afd325cdfc66c8b1bce86551ff",
+  "canonicalModuleSha256": "6c951106e5cc2b68b06b8f6290e448a892c2a31da017f3c5946f5fb7903b6166",
+  "canonicalWasmSha256": "6f669d33e1d7f47f95ca14c4562bbb55985942f5c43a01521aeb6f01dd2e0a14",
+  "artifactBytesPreserved": true,
+  "canonicalPthreadArtifact": true,
+  "pthreadPoolSize": 8,
+  "sharedMemoryInitialBytes": 268435456,
+  "sharedMemoryMaximumBytes": 2147483648,
+  "viteDevCoiSourceContractVerified": true,
+  "vitePreviewCoiSourceContractVerified": true,
+  "electronCoiSourceContractVerified": true,
+  "childWorkerTrackerSourceVerified": true,
+  "productionEmittedChildClosureVerified": false,
+  "packagedElectronCoiE2EVerified": false,
+  "jpegOutputIdentityCorpusVerified": false,
+  "changedSourceRecords": [
+    {
+      "path": "app/legacy-runtime/encoders/modjpeg-canonical-adapter.mjs",
+      "parentSha256": "0be2ee697f3e497c191b75740c53f50772d32804b54c32075f25d58741a3532c",
+      "currentSha256": "a729f769fe3b6c86d0bac631d9ce4c0cfabd2f2becae110fe9283c7d559ae30d",
+      "change": "modified"
+    },
+    {
+      "path": "app/legacy-runtime/encoders/modjpeg-child-worker-tracker.mjs",
+      "parentSha256": null,
+      "currentSha256": "cae2f4cb217f449b4fa4dd9e8e2b8efb860e9520a9a927773fc967b863768dd4",
+      "change": "added"
+    },
+    {
+      "path": "app/legacy-runtime/worker-codecs/modjpeg-canonical-handler.mjs",
+      "parentSha256": "5b3b7d290892820308739dd7436aac1fc93d2d9ab48a3dcf0a85f1a7ed9e6996",
+      "currentSha256": "100a923f757fd621ae92673f9c69051ff6f2c07e4e35a15ccf7f40b473740fc8",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/boot/stable-error.ts",
+      "parentSha256": "ba41b8994429cb313593d6f7cc5ccd69788dd6c34514a4d1c45c52be91dee967",
+      "currentSha256": "e636b5b8ce5c2e4217aa5e7c832d300d629f6bc26deb5a80e9f80def299e0d75",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/legacy/generated-legacy-static-admission.json",
+      "parentSha256": "4c59970572e5285cde3be6be84e887709507658dfa50725427ab48701e277190",
+      "currentSha256": "2d0eabc884fa8908bd6a8a6e3882925a211e9680d474aa304e89e1a07da27211",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/export/export-authority-service.ts",
+      "parentSha256": "f374929bdeb61ae8e030f7420e7366e68868e63a6cfaae849dc4750a2a908933",
+      "currentSha256": "05356360981243f2c9a6418840685d19654a5b4d86b1b3f52eb46ed8b5648634",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/export/export-receipt.ts",
+      "parentSha256": "4e0ce0768710b6d1b124389b32ffcd8d82e76d0bd55777b3ae48cf40166d318a",
+      "currentSha256": "3ba2727823f29db7a33dda1255359eda3d62e28d45aaee6697d3b5e6069cd56a",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/modjpeg/modjpeg-error-codes.ts",
+      "parentSha256": null,
+      "currentSha256": "f3152dc5b85a5a544667d42099fe0d7495b8ebb81490d1561378161dd859f36e",
+      "change": "added"
+    },
+    {
+      "path": "app/src/runtime/workers/encoder-worker-types.ts",
+      "parentSha256": "4c8cab19b9e537840da3f4a7be94f406601563c1bddae1fca77a55bb0b29f5d7",
+      "currentSha256": "388f94ab96391bef80c7edd6ba8101245e388306750be6bf276f78de40169fed",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/workers/generated-worker-manifest.json",
+      "parentSha256": "df7caf7d6f9013e3efa0e52e752be10badd78c2e1134ae7e04195ed856f74929",
+      "currentSha256": "94bdbc99b0c2c623b9eab10e8e973f39c6c76572d40505461729cb75309fd5c2",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/workers/generated-worker-manifest.ts",
+      "parentSha256": "0da6cd2c4aa9305a4771886bf13e4c6775753d968d162572dbc15c7bfa7b4724",
+      "currentSha256": "f1be045e285a0179a29274b5469a482d3b49c9a9e9c42d9ece75a773ee7ad1c2",
+      "change": "modified"
+    },
+    {
+      "path": "app/src/runtime/workers/worker-entry-runtime.ts",
+      "parentSha256": "705e9a6d601f37ba191e8f160aa95416914ddb851cbf9847352b22c973ec5d50",
+      "currentSha256": "9795cc8872a89f9bd412f51d6b1e36ba021aeb9f879e064a9feadc6460f8a187",
+      "change": "modified"
+    },
+    {
+      "path": "package.json",
+      "parentSha256": "68289fe4777ecce06b28f2582a3305a4cf79fbaa5a5aec723941fd3d6b06659b",
+      "currentSha256": "e9496faccd457804a8c49ea1978519eb253612693cae3de308dde9831e3828a1",
+      "change": "modified"
+    },
+    {
+      "path": "specs/TDT-MODJPEG-01_EXISTING_PTHREAD_ARTIFACT_CANONICAL_ADOPTION_SHARED_MEMORY_COI_RUNTIME_CHILD_WORKER_CLOSURE_ABI_444_OUTPUT_IDENTITY_SPEC.md",
+      "parentSha256": null,
+      "currentSha256": "e9d7b693b470e1742cbde875c50b7d9ba5bed46f6fe9035981af51cc02e82d5f",
+      "change": "added"
+    },
+    {
+      "path": "tools/gate-export-promotion-03.mjs",
+      "parentSha256": "406dab9d00bd5523772e926946da0b123b986b8cf01f855dffec359d7a756597",
+      "currentSha256": "50149591aece7a897275081d42b650efeba353830a1a9c9ae0e4a02ad8310f43",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-export-worker-06.mjs",
+      "parentSha256": "14e727b7a15575e1930d61287788a28edc3dd2e717bd89814d42590b7e839700",
+      "currentSha256": "c99dafc8a7aab0603067ce9f4ae5d6e6abccb9e13f662104f224e51de22ef275",
+      "change": "modified"
+    },
+    {
+      "path": "tools/gate-modjpeg-01.mjs",
+      "parentSha256": null,
+      "currentSha256": "df8cf1a3b4a0a3f962bc2fd9826bddbb9829dbe19240c105e9d5df32524da81f",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-emitted-worker-manifest-v2.mjs",
+      "parentSha256": "a7f7bc654e5e5db85734c065f1e6585018858dfb89e628ce95e56d6dbe9a90fa",
+      "currentSha256": "07c17d5180ff0dee6d2a55e6b803578d3989525e44079950a23b3f693f4bb015",
+      "change": "modified"
+    },
+    {
+      "path": "tools/generate-ep03-source-reports.mjs",
+      "parentSha256": "b8f97debed0309dcbdaa66dca7d7b0dc1bb41bdeb42d69fbd419e3b6431036c2",
+      "currentSha256": "e1b65e0380ac5f46d631b35b7ee40c1de8e6797d6655d4d586d6159055f7b688",
+      "change": "modified"
+    },
+    {
+      "path": "tools/generate-modjpeg-01-source-reports.mjs",
+      "parentSha256": null,
+      "currentSha256": "dca124cc1a61f7f06984b747473f4cfd0eee1a017a53ee24308232dfa95e1b41",
+      "change": "added"
+    },
+    {
+      "path": "tools/generate-runtime-worker-manifest.mjs",
+      "parentSha256": "a8114d379aa1d5d3217772f353b77ae9666208c7488b963c8cda8e8794feadf9",
+      "currentSha256": "b0ea93270830f264bb2daf20b8031ff68b5bb97d594e134775d5734b9af06722",
+      "change": "modified"
+    },
+    {
+      "path": "tools/modjpeg-01-lib.mjs",
+      "parentSha256": null,
+      "currentSha256": "c2479d47a7fc95d27c723673aee8a3b9f85a8b4456093cfb3d7c29976058759d",
+      "change": "added"
+    },
+    {
+      "path": "tools/verify-modjpeg-01-runtime.mjs",
+      "parentSha256": null,
+      "currentSha256": "1c5aeb8ec5d8463a1ac0dd25ef49f894c11a7d17680de75babf5adac4fa489eb",
+      "change": "added"
+    },
+    {
+      "path": "tools/verify-modjpeg-canonical-artifact.mjs",
+      "parentSha256": "c0c79bfe80ff3d2971130f31acea588bd80a347348796da69d7bb7e666082317",
+      "currentSha256": "668ddbc5432eabebe71375ef3a440e243d9d93eabf515be61933224201b31368",
+      "change": "modified"
+    },
+    {
+      "path": "tools/verify-worker-closure-v2.mjs",
+      "parentSha256": "6bd0e13ed2aa33a359b2f2a780471729eccad76ef1804dc5391fd686a71c3a77",
+      "currentSha256": "0323346f8a990eb6d49f3a1df9d0de5ed8702fc5b1d45866618749f9725ada3c",
+      "change": "modified"
+    },
+    {
+      "path": "vite.config.ts",
+      "parentSha256": "3518310911a739140280d07214ee825f0d14edf9ebd1284798a1be60428e551d",
+      "currentSha256": "e81cc19272cc39ec2142f5be4a402785bf1cdac031ee55cfde1017f8af7fd0dc",
+      "change": "modified"
+    }
+  ],
+  "patchSha256": "64e45b31db96c6b3aae66071a99c356d4dd91d56bb0bc4f0c6d9b70b7d36c946",
+  "reports": [
+    {
+      "name": "TDT_MODJPEG_01_CANONICAL_ARTIFACT_REPORT.json",
+      "sha256": "d0194d5a555be0c4285899ac01f08b074ad3d09b10b1f6ad1b950722422a9014"
+    },
+    {
+      "name": "TDT_MODJPEG_01_SHARED_MEMORY_REPORT.json",
+      "sha256": "4bc691a5636dfaf46f8b73dc94bc720bd3498ff93b0d475f4df95018513c51f3"
+    },
+    {
+      "name": "TDT_MODJPEG_01_COI_CONTRACT_REPORT.json",
+      "sha256": "99fd663a8d52181977a9737909f8882f8481565655ce9f3d0a3a9303812e0054"
+    },
+    {
+      "name": "TDT_MODJPEG_01_CHILD_WORKER_CLOSURE_REPORT.json",
+      "sha256": "6c303eaf39cbaf6dc361bc8ccfb657780871e420f7f928cea5685fc24ba60c59"
+    },
+    {
+      "name": "TDT_MODJPEG_01_ABI_REPORT.json",
+      "sha256": "2396879b571c15d5791f471150799eac73e86ab9eb8c18c0073ba6fc1df4e1e6"
+    },
+    {
+      "name": "TDT_MODJPEG_01_OUTPUT_IDENTITY_REPORT.json",
+      "sha256": "316e09786efb092f3bb4e21e75773a95d2664fff32e2fe4aaa6eb85eab07ce9b"
+    },
+    {
+      "name": "TDT_MODJPEG_01_VITE_DEV_COI_REPORT.json",
+      "sha256": "2897535d1226e4df198cadfd4204100cc738e0bd894b213099d75ca9a58fa69d"
+    },
+    {
+      "name": "TDT_MODJPEG_01_VITE_PREVIEW_COI_REPORT.json",
+      "sha256": "2897535d1226e4df198cadfd4204100cc738e0bd894b213099d75ca9a58fa69d"
+    },
+    {
+      "name": "TDT_MODJPEG_01_ELECTRON_COI_REPORT.json",
+      "sha256": "9fb122700457d20da659ed7d9da2dda7ac99d8eeeec007186e6b1f4fb2d774f5"
+    },
+    {
+      "name": "TDT_MODJPEG_01_WORKER_GENERATION_REPORT.json",
+      "sha256": "b4545517bf9d4d5686e11305ba3d4e1d1384dd9b448c70b4b30ea8c9b6afffe2"
+    },
+    {
+      "name": "TDT_MODJPEG_01_SOURCE_MUTATION_REPORT.json",
+      "sha256": "ebe4aa8cbe6ca9d621fde0f7c60daab63214f6c537587a3cfb0d7b45439d7d18"
+    },
+    {
+      "name": "TDT_MODJPEG_01_PROMOTION_RECEIPT.json",
+      "sha256": "2ed039b4d01c42142122a8215eca0a591ab2f2c563bb735bf9726812b375ac88"
+    },
+    {
+      "name": "TDT_MODJPEG_01_GATE_REPORT.json",
+      "sha256": "868fd8c911553a01deb23958ae4b48205d23d242de4449076e7a78b3b42c6386"
+    },
+    {
+      "name": "TDT_MODJPEG_01_RUNTIME_TEST_REPORT.json",
+      "sha256": "fd380caaabd15723d5ac5274d1b5fae46b23ad32eabad2a8044faa4c8345706b"
+    },
+    {
+      "name": "TDT_MODJPEG_01_STRICT_TYPESCRIPT_VERIFY.txt",
+      "sha256": "5ce0997288f0d5f7e28715d70a46dfacbc44216e30cbd19e51cb5b26064165d3"
+    },
+    {
+      "name": "SOURCE_BAKE_FINAL_VERIFY_MODJPEG_01.txt",
+      "sha256": "273d9af79e47160a2c3013fbf859aec9beab71df37d07df17d640a214adf3661"
+    },
+    {
+      "name": "TDT_MODJPEG_01_PRODUCTION_BUILD_ATTEMPT.txt",
+      "sha256": "dbd74963a39a0a4e0a8a652be8a52f7bde0c7f7f23b354373fa5c0e91ea7dd30"
+    }
+  ],
+  "blockers": [
+    "dependency-lock-not-promoted",
+    "noncanonical-build-host",
+    "production-emitted-pthread-child-bootstrap-not-verified",
+    "packaged-electron-coi-generation-closure-not-executed",
+    "jpeg-output-identity-repetition-corpus-not-executed"
+  ],
+  "sourceBakeSeal": "e56f1babb1843c8e53d54578b7c8d1cc7bba552a3ddfaa4ca561264af28ca2e5"
+}

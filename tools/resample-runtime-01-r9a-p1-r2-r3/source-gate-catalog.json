@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r3.source-gate-catalog.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R3",
+  "gateCount": 120,
+  "rows": [
+    {
+      "id": "R2R3-S001",
+      "description": "authority ID exact"
+    },
+    {
+      "id": "R2R3-S002",
+      "description": "canonical key schema exact"
+    },
+    {
+      "id": "R2R3-S003",
+      "description": "device identity included"
+    },
+    {
+      "id": "R2R3-S004",
+      "description": "adapter identity included"
+    },
+    {
+      "id": "R2R3-S005",
+      "description": "WeakMap key non-authoritative"
+    },
+    {
+      "id": "R2R3-S006",
+      "description": "registry generation monotonic"
+    },
+    {
+      "id": "R2R3-S007",
+      "description": "build sequence monotonic"
+    },
+    {
+      "id": "R2R3-S008",
+      "description": "exact key set validation"
+    },
+    {
+      "id": "R2R3-S009",
+      "description": "snapshot digest replay"
+    },
+    {
+      "id": "R2R3-S010",
+      "description": "no GPU object serialization"
+    },
+    {
+      "id": "R2R3-S011",
+      "description": "BUILDING caller joins"
+    },
+    {
+      "id": "R2R3-S012",
+      "description": "build Promise stable reference"
+    },
+    {
+      "id": "R2R3-S013",
+      "description": "physical build count one"
+    },
+    {
+      "id": "R2R3-S014",
+      "description": "join count exact"
+    },
+    {
+      "id": "R2R3-S015",
+      "description": "no BUILDING replacement"
+    },
+    {
+      "id": "R2R3-S016",
+      "description": "ACTIVE exact reuse"
+    },
+    {
+      "id": "R2R3-S017",
+      "description": "different key no join"
+    },
+    {
+      "id": "R2R3-S018",
+      "description": "failed entry no silent reuse"
+    },
+    {
+      "id": "R2R3-S019",
+      "description": "duplicate callback bounded"
+    },
+    {
+      "id": "R2R3-S020",
+      "description": "single-flight negative matrix pass"
+    },
+    {
+      "id": "R2R3-S021",
+      "description": "build token all fields"
+    },
+    {
+      "id": "R2R3-S022",
+      "description": "current entry object check"
+    },
+    {
+      "id": "R2R3-S023",
+      "description": "reservation generation check"
+    },
+    {
+      "id": "R2R3-S024",
+      "description": "build sequence check"
+    },
+    {
+      "id": "R2R3-S025",
+      "description": "entry key digest check"
+    },
+    {
+      "id": "R2R3-S026",
+      "description": "runtime epoch check"
+    },
+    {
+      "id": "R2R3-S027",
+      "description": "device epoch check"
+    },
+    {
+      "id": "R2R3-S028",
+      "description": "device identity check"
+    },
+    {
+      "id": "R2R3-S029",
+      "description": "lease current check"
+    },
+    {
+      "id": "R2R3-S030",
+      "description": "stale commit rejected"
+    },
+    {
+      "id": "R2R3-S031",
+      "description": "exact old identity selection"
+    },
+    {
+      "id": "R2R3-S032",
+      "description": "BUILDING invalidation token revoke"
+    },
+    {
+      "id": "R2R3-S033",
+      "description": "ACTIVE root dispose once"
+    },
+    {
+      "id": "R2R3-S034",
+      "description": "Tensor chained dispose"
+    },
+    {
+      "id": "R2R3-S035",
+      "description": "Adaptive chained dispose"
+    },
+    {
+      "id": "R2R3-S036",
+      "description": "late completion dispose"
+    },
+    {
+      "id": "R2R3-S037",
+      "description": "old active count zero"
+    },
+    {
+      "id": "R2R3-S038",
+      "description": "old building count zero"
+    },
+    {
+      "id": "R2R3-S039",
+      "description": "invalidation receipt replay"
+    },
+    {
+      "id": "R2R3-S040",
+      "description": "invalidation lifecycle order"
+    },
+    {
+      "id": "R2R3-S041",
+      "description": "EWA runtime epoch exact"
+    },
+    {
+      "id": "R2R3-S042",
+      "description": "EWA device epoch exact"
+    },
+    {
+      "id": "R2R3-S043",
+      "description": "EWA device identity exact"
+    },
+    {
+      "id": "R2R3-S044",
+      "description": "layout digest present"
+    },
+    {
+      "id": "R2R3-S045",
+      "description": "kernel contract digest present"
+    },
+    {
+      "id": "R2R3-S046",
+      "description": "generated manifest digest present"
+    },
+    {
+      "id": "R2R3-S047",
+      "description": "canonical pipeline identity present"
+    },
+    {
+      "id": "R2R3-S048",
+      "description": "validation pipeline identities present"
+    },
+    {
+      "id": "R2R3-S049",
+      "description": "comparator identity present"
+    },
+    {
+      "id": "R2R3-S050",
+      "description": "EWA identity digest replay"
+    },
+    {
+      "id": "R2R3-S051",
+      "description": "Tensor runtime epoch exact"
+    },
+    {
+      "id": "R2R3-S052",
+      "description": "Tensor device epoch exact"
+    },
+    {
+      "id": "R2R3-S053",
+      "description": "Tensor device identity exact"
+    },
+    {
+      "id": "R2R3-S054",
+      "description": "ABI present"
+    },
+    {
+      "id": "R2R3-S055",
+      "description": "field schema present"
+    },
+    {
+      "id": "R2R3-S056",
+      "description": "axial schema present"
+    },
+    {
+      "id": "R2R3-S057",
+      "description": "chain identity present"
+    },
+    {
+      "id": "R2R3-S058",
+      "description": "axial identity present"
+    },
+    {
+      "id": "R2R3-S059",
+      "description": "shader digest map sorted"
+    },
+    {
+      "id": "R2R3-S060",
+      "description": "Tensor identity digest replay"
+    },
+    {
+      "id": "R2R3-S061",
+      "description": "Adaptive schema v2"
+    },
+    {
+      "id": "R2R3-S062",
+      "description": "runtime epoch exact"
+    },
+    {
+      "id": "R2R3-S063",
+      "description": "device epoch exact"
+    },
+    {
+      "id": "R2R3-S064",
+      "description": "device identity exact"
+    },
+    {
+      "id": "R2R3-S065",
+      "description": "ABI present"
+    },
+    {
+      "id": "R2R3-S066",
+      "description": "field schema present"
+    },
+    {
+      "id": "R2R3-S067",
+      "description": "pipeline identity present"
+    },
+    {
+      "id": "R2R3-S068",
+      "description": "shader digest present"
+    },
+    {
+      "id": "R2R3-S069",
+      "description": "dispose idempotent"
+    },
+    {
+      "id": "R2R3-S070",
+      "description": "Adaptive omission matrix pass"
+    },
+    {
+      "id": "R2R3-S071",
+      "description": "request digest replay"
+    },
+    {
+      "id": "R2R3-S072",
+      "description": "request identity exact"
+    },
+    {
+      "id": "R2R3-S073",
+      "description": "lease owner unchanged"
+    },
+    {
+      "id": "R2R3-S074",
+      "description": "pipeline family count three"
+    },
+    {
+      "id": "R2R3-S075",
+      "description": "physical build count one"
+    },
+    {
+      "id": "R2R3-S076",
+      "description": "current active count one"
+    },
+    {
+      "id": "R2R3-S077",
+      "description": "old counts zero"
+    },
+    {
+      "id": "R2R3-S078",
+      "description": "pipeline set digest replay"
+    },
+    {
+      "id": "R2R3-S079",
+      "description": "rebuild digest replay"
+    },
+    {
+      "id": "R2R3-S080",
+      "description": "receipt after ACTIVE only"
+    },
+    {
+      "id": "R2R3-S081",
+      "description": "rebuild return evidence supported"
+    },
+    {
+      "id": "R2R3-S082",
+      "description": "participant IDs sorted"
+    },
+    {
+      "id": "R2R3-S083",
+      "description": "set digest replay"
+    },
+    {
+      "id": "R2R3-S084",
+      "description": "holder receipt included"
+    },
+    {
+      "id": "R2R3-S085",
+      "description": "missing holder receipt denied"
+    },
+    {
+      "id": "R2R3-S086",
+      "description": "recovered event count exact"
+    },
+    {
+      "id": "R2R3-S087",
+      "description": "recovered event set digest present"
+    },
+    {
+      "id": "R2R3-S088",
+      "description": "recovery failure omits recovered event"
+    },
+    {
+      "id": "R2R3-S089",
+      "description": "participant evidence no raw object"
+    },
+    {
+      "id": "R2R3-S090",
+      "description": "event correlation exact"
+    },
+    {
+      "id": "R2R3-S091",
+      "description": "legal transition table present"
+    },
+    {
+      "id": "R2R3-S092",
+      "description": "REACQUIRING before REBUILDING"
+    },
+    {
+      "id": "R2R3-S093",
+      "description": "lease acquired in rebuild"
+    },
+    {
+      "id": "R2R3-S094",
+      "description": "explicit rebuild API called"
+    },
+    {
+      "id": "R2R3-S095",
+      "description": "receipt replay before VALIDATING"
+    },
+    {
+      "id": "R2R3-S096",
+      "description": "failure transitions FAILED"
+    },
+    {
+      "id": "R2R3-S097",
+      "description": "lease release finally"
+    },
+    {
+      "id": "R2R3-S098",
+      "description": "active cycle stores receipt"
+    },
+    {
+      "id": "R2R3-S099",
+      "description": "completed cycle stores receipt"
+    },
+    {
+      "id": "R2R3-S100",
+      "description": "holder ledger full lineage"
+    },
+    {
+      "id": "R2R3-S101",
+      "description": "closure schema v2"
+    },
+    {
+      "id": "R2R3-S102",
+      "description": "invalidation digest included"
+    },
+    {
+      "id": "R2R3-S103",
+      "description": "rebuild digest included"
+    },
+    {
+      "id": "R2R3-S104",
+      "description": "pipeline set digest included"
+    },
+    {
+      "id": "R2R3-S105",
+      "description": "participant set digest included"
+    },
+    {
+      "id": "R2R3-S106",
+      "description": "Main acknowledgement exact"
+    },
+    {
+      "id": "R2R3-S107",
+      "description": "validation token exact"
+    },
+    {
+      "id": "R2R3-S108",
+      "description": "require-ready before fixture"
+    },
+    {
+      "id": "R2R3-S109",
+      "description": "lazy build count zero"
+    },
+    {
+      "id": "R2R3-S110",
+      "description": "validation-before-rebuild denied"
+    },
+    {
+      "id": "R2R3-S111",
+      "description": "ten child artifacts declared"
+    },
+    {
+      "id": "R2R3-S112",
+      "description": "child self-hashes replay"
+    },
+    {
+      "id": "R2R3-S113",
+      "description": "three-cycle matrix schema exact"
+    },
+    {
+      "id": "R2R3-S114",
+      "description": "parent R2-R1 bytes preserved"
+    },
+    {
+      "id": "R2R3-S115",
+      "description": "parent R2-R2 bytes preserved"
+    },
+    {
+      "id": "R2R3-S116",
+      "description": "no parent receipt overwrite"
+    },
+    {
+      "id": "R2R3-S117",
+      "description": "implementation manifest complete"
+    },
+    {
+      "id": "R2R3-S118",
+      "description": "changed file manifest complete"
+    },
+    {
+      "id": "R2R3-S119",
+      "description": "active graph no new randomness"
+    },
+    {
+      "id": "R2R3-S120",
+      "description": "source final receipt sealed"
+    }
+  ]
+}

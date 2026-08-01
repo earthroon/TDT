@@ -1,0 +1,5 @@
+
+> dadumdadum@1.0.0 verify:active-graph-01:source
+> node tools/active-graph-01/gate-source.mjs
+
+PASS TDT-ACTIVE-GRAPH-01 source gate 30/40 PASS, 10 DEFERRED state=SOURCE_BAKED_AWAITING_PACKAGED_BASELINE

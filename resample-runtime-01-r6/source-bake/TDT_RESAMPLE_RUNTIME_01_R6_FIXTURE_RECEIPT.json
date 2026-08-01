@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R6",
+  "pass": true,
+  "path": "tools/resample-runtime-01-r6/fixtures.json",
+  "digest": "c58450f144d88f35f406313ce53f19207d3f2a68ef64cb69f975b97743a80118",
+  "caseCount": 302
+}

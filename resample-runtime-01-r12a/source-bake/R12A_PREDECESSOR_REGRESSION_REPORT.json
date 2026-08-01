@@ -1,0 +1,18 @@
+{
+  "fail": 0,
+  "historicalReceiptMutationCount": 0,
+  "isolatedSnapshotVerification": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "predecessorOrder": [
+    "TDT-RESAMPLE-RUNTIME-01-R10A",
+    "TDT-RESAMPLE-RUNTIME-01-R11A"
+  ],
+  "predecessorTreeMutated": false,
+  "r10aReleasePending": 300,
+  "r10aSourcePass": 260,
+  "r11aInstalledPending": 400,
+  "r11aSourcePass": 332,
+  "schemaVersion": 1,
+  "selfSha256": "e38d2feb3163d705b3192e75794839ce8d75d095981af388cc8cc53ab11087f8"
+}

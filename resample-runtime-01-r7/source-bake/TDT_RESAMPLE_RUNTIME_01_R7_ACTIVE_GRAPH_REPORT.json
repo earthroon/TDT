@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "checks": [
+    {
+      "id": "ewa_canonical_lowpass_runtime_r7.mjs",
+      "pass": true
+    },
+    {
+      "id": "export_residual_runtime_r7.mjs",
+      "pass": true
+    },
+    {
+      "id": "export_finalize_runtime_r7.mjs",
+      "pass": true
+    },
+    {
+      "id": "export_detail_residual_r7.wgsl",
+      "pass": true
+    },
+    {
+      "id": "export_finalize_rgba8_r7.wgsl",
+      "pass": true
+    },
+    {
+      "id": "retired:export_ewa_lowpass.wgsl",
+      "pass": true
+    },
+    {
+      "id": "retired:export_ewa_recompose.wgsl",
+      "pass": true
+    },
+    {
+      "id": "retired:export_ewa_recompose_linear.wgsl",
+      "pass": true
+    }
+  ]
+}

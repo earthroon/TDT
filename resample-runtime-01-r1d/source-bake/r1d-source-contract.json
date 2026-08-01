@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1D",
+  "pass": true,
+  "counts": {
+    "pass": 91,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "RD-S001",
+      "pass": true,
+      "message": "spec identity",
+      "detail": null
+    },
+    {
+      "id": "RD-S002",
+      "pass": true,
+      "message": "adaptive policy schema",
+      "detail": null
+    },
+    {
+      "id": "RD-S003",
+      "pass": true,
+      "message": "adaptation field schema",
+      "detail": null
+    },
+    {
+      "id": "RD-S004",
+      "pass": true,
+      "message": "R1C orientation authority",
+      "detail": null
+    },
+    {
+      "id": "RD-S005",
+      "pass": true,
+      "message": "fixed angle denied",
+      "detail": null
+    },
+    {
+      "id": "RD-S006",
+      "pass": true,
+      "message": "fast texture mix denied",
+      "detail": null
+    },
+    {
+      "id": "RD-S007",
+      "pass": true,
+      "message": "policy digest",
+      "detail": null
+    },
+    {
+      "id": "RD-S008",
+      "pass": true,
+      "message": "globals limited to facade",
+      "detail": null
+    },
+    {
+      "id": "RD-S009",
+      "pass": true,
+      "message": "Q and DeltaE policy",
+      "detail": null
+    },
+    {
+      "id": "RD-S010",
+      "pass": true,
+      "message": "tensor parameters mapped",
+      "detail": null
+    },
+    {
+      "id": "RD-S011",
+      "pass": true,
+      "message": "policy pipeline",
+      "detail": null
+    },
+    {
+      "id": "RD-S012",
+      "pass": true,
+      "message": "stage aligned policy build",
+      "detail": null
+    },
+    {
+      "id": "RD-S013",
+      "pass": true,
+      "message": "policy field rgba16float",
+      "detail": null
+    },
+    {
+      "id": "RD-S014",
+      "pass": true,
+      "message": "policy fence",
+      "detail": null
+    },
+    {
+      "id": "RD-S015",
+      "pass": true,
+      "message": "policy shader writes field",
+      "detail": null
+    },
+    {
+      "id": "RD-S016",
+      "pass": true,
+      "message": "policy tensor influence",
+      "detail": null
+    },
+    {
+      "id": "RD-S017",
+      "pass": true,
+      "message": "policy footprint scale",
+      "detail": null
+    },
+    {
+      "id": "RD-S018",
+      "pass": true,
+      "message": "canonical adaptive adapter",
+      "detail": null
+    },
+    {
+      "id": "RD-S019",
+      "pass": true,
+      "message": "adapter reuses R1C facade",
+      "detail": null
+    },
+    {
+      "id": "RD-S020",
+      "pass": true,
+      "message": "kernel truth",
+      "detail": null
+    },
+    {
+      "id": "RD-S021",
+      "pass": true,
+      "message": "canonical claim true only canonical",
+      "detail": null
+    },
+    {
+      "id": "RD-S022",
+      "pass": true,
+      "message": "canonical publication allowed",
+      "detail": null
+    },
+    {
+      "id": "RD-S023",
+      "pass": true,
+      "message": "legacy kernel truth",
+      "detail": null
+    },
+    {
+      "id": "RD-S024",
+      "pass": true,
+      "message": "legacy claim false",
+      "detail": null
+    },
+    {
+      "id": "RD-S025",
+      "pass": true,
+      "message": "legacy publication denied",
+      "detail": null
+    },
+    {
+      "id": "RD-S026",
+      "pass": true,
+      "message": "adaptive canonical default path",
+      "detail": null
+    },
+    {
+      "id": "RD-S027",
+      "pass": true,
+      "message": "adaptive calls canonical adapter",
+      "detail": null
+    },
+    {
+      "id": "RD-S028",
+      "pass": true,
+      "message": "independent adaptive not product path",
+      "detail": null
+    },
+    {
+      "id": "RD-S029",
+      "pass": true,
+      "message": "adaptive chain requests canonical mode",
+      "detail": null
+    },
+    {
+      "id": "RD-S030",
+      "pass": true,
+      "message": "EngineAuto canonical overload",
+      "detail": null
+    },
+    {
+      "id": "RD-S031",
+      "pass": true,
+      "message": "EngineAuto legacy receipt",
+      "detail": null
+    },
+    {
+      "id": "RD-S032",
+      "pass": true,
+      "message": "requested/executed identity split",
+      "detail": null
+    },
+    {
+      "id": "RD-S033",
+      "pass": true,
+      "message": "WebGL Lanczos truthful identity",
+      "detail": null
+    },
+    {
+      "id": "RD-S034",
+      "pass": true,
+      "message": "EngineAuto claim field",
+      "detail": null
+    },
+    {
+      "id": "RD-S035",
+      "pass": true,
+      "message": "worker owns no GPU/WebGL",
+      "detail": null
+    },
+    {
+      "id": "RD-S036",
+      "pass": true,
+      "message": "worker renderer port",
+      "detail": null
+    },
+    {
+      "id": "RD-S037",
+      "pass": true,
+      "message": "worker compatibility mode",
+      "detail": null
+    },
+    {
+      "id": "RD-S038",
+      "pass": true,
+      "message": "worker canonical mode",
+      "detail": null
+    },
+    {
+      "id": "RD-S039",
+      "pass": true,
+      "message": "zero output rejected",
+      "detail": null
+    },
+    {
+      "id": "RD-S040",
+      "pass": true,
+      "message": "worker canonical receipt required",
+      "detail": null
+    },
+    {
+      "id": "RD-S041",
+      "pass": true,
+      "message": "worker compatibility cannot publish",
+      "detail": null
+    },
+    {
+      "id": "RD-S042",
+      "pass": true,
+      "message": "renderer broker authority",
+      "detail": null
+    },
+    {
+      "id": "RD-S043",
+      "pass": true,
+      "message": "broker recovery participant",
+      "detail": null
+    },
+    {
+      "id": "RD-S044",
+      "pass": true,
+      "message": "runtime epoch gate",
+      "detail": null
+    },
+    {
+      "id": "RD-S045",
+      "pass": true,
+      "message": "generation gate",
+      "detail": null
+    },
+    {
+      "id": "RD-S046",
+      "pass": true,
+      "message": "truthful compatibility executor",
+      "detail": null
+    },
+    {
+      "id": "RD-S047",
+      "pass": true,
+      "message": "scaled compatibility requires canonical executor",
+      "detail": null
+    },
+    {
+      "id": "RD-S048",
+      "pass": true,
+      "message": "worker GPU ownership false",
+      "detail": null
+    },
+    {
+      "id": "RD-S049",
+      "pass": true,
+      "message": "Pipeline resample receipt binding",
+      "detail": null
+    },
+    {
+      "id": "RD-S050",
+      "pass": true,
+      "message": "canonical surface evidence gate",
+      "detail": null
+    },
+    {
+      "id": "RD-S051",
+      "pass": true,
+      "message": "legacy continuity identity",
+      "detail": null
+    },
+    {
+      "id": "RD-S052",
+      "pass": true,
+      "message": "Pipeline mismatch gate",
+      "detail": null
+    },
+    {
+      "id": "RD-S053",
+      "pass": true,
+      "message": "bridge compatibility mode",
+      "detail": null
+    },
+    {
+      "id": "RD-S054",
+      "pass": true,
+      "message": "compatibility bytes denied",
+      "detail": null
+    },
+    {
+      "id": "RD-S055",
+      "pass": true,
+      "message": "bridge claim evidence",
+      "detail": null
+    },
+    {
+      "id": "RD-S056",
+      "pass": true,
+      "message": "bridge canonical evidence",
+      "detail": null
+    },
+    {
+      "id": "RD-S057",
+      "pass": true,
+      "message": "bridge receipt propagation",
+      "detail": null
+    },
+    {
+      "id": "RD-S058",
+      "pass": true,
+      "message": "shared ledger authority",
+      "detail": null
+    },
+    {
+      "id": "RD-S059",
+      "pass": true,
+      "message": "shared tuple type",
+      "detail": null
+    },
+    {
+      "id": "RD-S060",
+      "pass": true,
+      "message": "tuple digest",
+      "detail": null
+    },
+    {
+      "id": "RD-S061",
+      "pass": true,
+      "message": "opposite consumer comparison",
+      "detail": null
+    },
+    {
+      "id": "RD-S062",
+      "pass": true,
+      "message": "tuple mismatch fail closed",
+      "detail": null
+    },
+    {
+      "id": "RD-S063",
+      "pass": true,
+      "message": "Preview validates tuple",
+      "detail": null
+    },
+    {
+      "id": "RD-S064",
+      "pass": true,
+      "message": "Preview records consumption",
+      "detail": null
+    },
+    {
+      "id": "RD-S065",
+      "pass": true,
+      "message": "Preview receipt shared digest",
+      "detail": null
+    },
+    {
+      "id": "RD-S066",
+      "pass": true,
+      "message": "Preview receipt resample identity",
+      "detail": null
+    },
+    {
+      "id": "RD-S067",
+      "pass": true,
+      "message": "Preview does not invoke resample",
+      "detail": null
+    },
+    {
+      "id": "RD-S068",
+      "pass": true,
+      "message": "Export validates tuple",
+      "detail": null
+    },
+    {
+      "id": "RD-S069",
+      "pass": true,
+      "message": "Export records consumption",
+      "detail": null
+    },
+    {
+      "id": "RD-S070",
+      "pass": true,
+      "message": "Export dimension mismatch gate",
+      "detail": null
+    },
+    {
+      "id": "RD-S071",
+      "pass": true,
+      "message": "Export receipt shared digest",
+      "detail": null
+    },
+    {
+      "id": "RD-S072",
+      "pass": true,
+      "message": "Export receipt resample identity",
+      "detail": null
+    },
+    {
+      "id": "RD-S073",
+      "pass": true,
+      "message": "authoritative export mode",
+      "detail": null
+    },
+    {
+      "id": "RD-S074",
+      "pass": true,
+      "message": "export final required",
+      "detail": null
+    },
+    {
+      "id": "RD-S075",
+      "pass": true,
+      "message": "legacy mode explicit",
+      "detail": null
+    },
+    {
+      "id": "RD-S076",
+      "pass": true,
+      "message": "UI exact target forwarded",
+      "detail": null
+    },
+    {
+      "id": "RD-S077",
+      "pass": true,
+      "message": "UI delegates Runtime Export",
+      "detail": null
+    },
+    {
+      "id": "RD-S078",
+      "pass": true,
+      "message": "canvas compatibility cannot publish",
+      "detail": null
+    },
+    {
+      "id": "RD-S079",
+      "pass": true,
+      "message": "compatibility worker brokered",
+      "detail": null
+    },
+    {
+      "id": "RD-S080",
+      "pass": true,
+      "message": "ledger service ID",
+      "detail": null
+    },
+    {
+      "id": "RD-S081",
+      "pass": true,
+      "message": "worker broker service ID",
+      "detail": null
+    },
+    {
+      "id": "RD-S082",
+      "pass": true,
+      "message": "ledger composition",
+      "detail": null
+    },
+    {
+      "id": "RD-S083",
+      "pass": true,
+      "message": "broker composition",
+      "detail": null
+    },
+    {
+      "id": "RD-S084",
+      "pass": true,
+      "message": "compatibility module",
+      "detail": null
+    },
+    {
+      "id": "RD-S085",
+      "pass": true,
+      "message": "ledger capability",
+      "detail": null
+    },
+    {
+      "id": "RD-S086",
+      "pass": true,
+      "message": "product EWA policy binding",
+      "detail": null
+    },
+    {
+      "id": "RD-S087",
+      "pass": true,
+      "message": "reference EWA policy binding",
+      "detail": null
+    },
+    {
+      "id": "RD-S088",
+      "pass": true,
+      "message": "runtime policy texture bind",
+      "detail": null
+    },
+    {
+      "id": "RD-S089",
+      "pass": true,
+      "message": "policy consumption receipt",
+      "detail": null
+    },
+    {
+      "id": "RD-S090",
+      "pass": true,
+      "message": "product/reference remain independent",
+      "detail": null
+    },
+    {
+      "id": "RD-S091",
+      "pass": true,
+      "message": "production pointer untouched",
+      "detail": null
+    }
+  ]
+}

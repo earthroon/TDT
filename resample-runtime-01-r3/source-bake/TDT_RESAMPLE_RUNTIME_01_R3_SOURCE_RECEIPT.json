@@ -1,0 +1,188 @@
+{
+  "changedFileCount": 31,
+  "files": [
+    {
+      "byteLength": 1582,
+      "relative": "README_TDT_RESAMPLE_RUNTIME_01_R3_APPLIED.md",
+      "sha256": "367c212c26e605f766596ef8382918c37c993d1ae3bd4973abfcb362b6e7ad2e"
+    },
+    {
+      "byteLength": 30789,
+      "relative": "app/src/boot/stable-error.ts",
+      "sha256": "9e1ff1a790db7a4163c41162c31ca3cd10bf4f6993ee6942577f7655442e97ac"
+    },
+    {
+      "byteLength": 1289,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_CURRENT_PRODUCT_REJECTION_RECEIPT.json",
+      "sha256": "ab2af3ffcef50f62af5ffce5560253d96fd64ea4811e6b84ad60dd0bcf9aa092"
+    },
+    {
+      "byteLength": 38471,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_NEGATIVE_CONTROL_RECEIPT.json",
+      "sha256": "5c2e0678760af8ec8116c8661ac8e716a4377507a41655930e4f997b40cd1bef"
+    },
+    {
+      "byteLength": 511,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_ORACLE_IDENTITY.json",
+      "sha256": "9d4bf3ef540b3df638252631ebebf437840476beba4c6b38d5b8ca3d226bbca0"
+    },
+    {
+      "byteLength": 2740,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_ORACLE_SELF_TEST_RECEIPT.json",
+      "sha256": "7e84ddd9b3196fda13c47540cb83959c88aaa7a85f9770ade46a45da659522ba"
+    },
+    {
+      "byteLength": 6341,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_SHARED_ERROR_SOURCE_RECEIPT.json",
+      "sha256": "6579b09cc31550f68b682cf04d2becd3526d3192db3fd8540ddeba41ec44428f"
+    },
+    {
+      "byteLength": 14901,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_SOURCE_GATE.json",
+      "sha256": "1d8756533902b74ba51d3778373662feadd3c46d9e71b135419dacdb09a390d2"
+    },
+    {
+      "byteLength": 1635,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/TDT_RESAMPLE_RUNTIME_01_R3_ZERO_RUNTIME_CPU_FALLBACK_RECEIPT.json",
+      "sha256": "c831e6367e05efaa3f4ef990ade826b4aa9f69058d0c70e99c8c249deb526ceb"
+    },
+    {
+      "byteLength": 1747,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/r3-runtime-smoke.json",
+      "sha256": "eb88f521af318e9de62e2e1a32e4820d0571f17b4090604e6ead2e51638ad08d"
+    },
+    {
+      "byteLength": 9265,
+      "relative": "artifacts/resample-runtime-01-r3/source-bake/r3-source-contract.json",
+      "sha256": "85336811b5f7794e87c98c7c7c1b7cb1eb767bf8af439ffa344205cbdb709dd8"
+    },
+    {
+      "byteLength": 554735,
+      "relative": "fixtures/resample-runtime-01-r3/TDT_RESAMPLE_RUNTIME_01_R3_FIXTURE_MANIFEST.json",
+      "sha256": "50680a02de0bcef84caf0d9f501fa3c3a63aab4e5855f90d2d982cf8ab4cf907"
+    },
+    {
+      "byteLength": 8836,
+      "relative": "fixtures/resample-runtime-01-r3/sources/SOURCE_PAYLOAD_DIGESTS.json",
+      "sha256": "0f1298a3e4de9f4f9bc4cb91c1f4bce325546411296bcdd9c12163765a953c4f"
+    },
+    {
+      "byteLength": 23990,
+      "relative": "package.json",
+      "sha256": "fa42abf9f9034fd2405e0c97cc5facc4fba69b5700b57c0e2f2a1b2698ed6a45"
+    },
+    {
+      "byteLength": 9277,
+      "relative": "patches/TDT_RESAMPLE_RUNTIME_01_R3_CHANGED_FILE_MANIFEST.json",
+      "sha256": "34b4f9fdecfc60102322666af1b5c981fa098785b56a5bebd7677db831661224"
+    },
+    {
+      "byteLength": 768163,
+      "relative": "patches/TDT_RESAMPLE_RUNTIME_01_R3_independent_fractional_phase_ewa_oracle.diff",
+      "sha256": "5dda491485d35e1da0c3ef60582213f2ec44359a3afc15389ecc532000a8d68e"
+    },
+    {
+      "byteLength": 68525,
+      "relative": "specs/TDT-RESAMPLE-RUNTIME-01-R3_INDEPENDENT_FRACTIONAL_PHASE_EWA_ORACLE_CONTINUOUS_SOURCE_LATTICE_COORDINATE_TRUTH_SHARED_PRODUCT_REFERENCE_ERROR_DETECTION_ROUND_CENTERED_NEGATIVE_CONTROL_ZERO_RUNTIME_CPU_FALLBACK_SEAL_SPEC.md",
+      "sha256": "52b595e2d5b3708c40eb7fd09d1bb932d2f387333d233ce3711e4274d6b44043"
+    },
+    {
+      "byteLength": 886,
+      "relative": "tools/resample-runtime-01-r3/canonical-probe.mjs",
+      "sha256": "b6854a700b577d6c97ac39b3424546dee07fa7567cadec8df7cb0d1417f0c9c9"
+    },
+    {
+      "byteLength": 653,
+      "relative": "tools/resample-runtime-01-r3/ewa-f64-oracle-matrix-check.mjs",
+      "sha256": "70ab2f6647e85db42c3d7d87906b4a5ea30a45a2f59c6bf8ff1599448045f147"
+    },
+    {
+      "byteLength": 4221,
+      "relative": "tools/resample-runtime-01-r3/ewa-f64-oracle.mjs",
+      "sha256": "4713e75989495a59d85d38625312b24110c3b850e4687ef3250a1c6b87154ed3"
+    },
+    {
+      "byteLength": 2980,
+      "relative": "tools/resample-runtime-01-r3/finalize.mjs",
+      "sha256": "6e06aead1dec0f97ee0fc5d09e6545d22a5cfd30b25719b07c102cf24c8b8cc0"
+    },
+    {
+      "byteLength": 10095,
+      "relative": "tools/resample-runtime-01-r3/gate.mjs",
+      "sha256": "3de55b0e8e51b74a820ee7b8e3be21c38d169d67915c35e150d64578e041e95e"
+    },
+    {
+      "byteLength": 13535,
+      "relative": "tools/resample-runtime-01-r3/generate-phase-fixtures.mjs",
+      "sha256": "574b642987144c9facdbbe1c018d2f5e4d4cb9fa551cab717e1d37c6abf5a2e0"
+    },
+    {
+      "byteLength": 13276,
+      "relative": "tools/resample-runtime-01-r3/lib.mjs",
+      "sha256": "b40ad8024876b3e996108700dcc1a4e1fe9281e3f47cf538c7f62bbcd18fc35a"
+    },
+    {
+      "byteLength": 2001,
+      "relative": "tools/resample-runtime-01-r3/r2-shared-error-model.mjs",
+      "sha256": "b03072312418fa5ee3e47972d34b74c0a92efee8fca8bf0bb115df551b5505b5"
+    },
+    {
+      "byteLength": 3331,
+      "relative": "tools/resample-runtime-01-r3/round-centered-negative-control.mjs",
+      "sha256": "ceefb9342c692e802705c04b4284610eb8982bafc18ed74b2dd81b65aed58fe2"
+    },
+    {
+      "byteLength": 574,
+      "relative": "tools/resample-runtime-01-r3/run.mjs",
+      "sha256": "53041c40f720f82aca010926044243d480d5eff6823d603500d1caec609a0b4f"
+    },
+    {
+      "byteLength": 4705,
+      "relative": "tools/resample-runtime-01-r3/runtime-smoke.mjs",
+      "sha256": "2af78d254a40b4435789d8fa5470557e5212e90e84a249e7353f74ece86ee7c1"
+    },
+    {
+      "byteLength": 6020,
+      "relative": "tools/resample-runtime-01-r3/verify-fractional-phase.mjs",
+      "sha256": "e87eaabe1512881ad5ee85658ee67b337e8780e1be44e55c323979f66924202b"
+    },
+    {
+      "byteLength": 9396,
+      "relative": "tools/resample-runtime-01-r3/verify-oracle-self-tests.mjs",
+      "sha256": "303e4df99ef0c42e760075209ed9902454b76e7e6bc88f39dfabc8b00d69412f"
+    },
+    {
+      "byteLength": 4653,
+      "relative": "tools/resample-runtime-01-r3/verify-shared-error-source.mjs",
+      "sha256": "cd7ace39921037b18c669e2dcc1b12347b1a3e8c7d76022848b7334559df3996"
+    },
+    {
+      "byteLength": 6798,
+      "relative": "tools/resample-runtime-01-r3/verify-source-contract.mjs",
+      "sha256": "b65680bab72595dac45dd5c4acafc0a8e85f566d3a8ab8e4caf98137cb20f36e"
+    },
+    {
+      "byteLength": 4629,
+      "relative": "tools/resample-runtime-01-r3/verify-zero-runtime-cpu-fallback.mjs",
+      "sha256": "556a7cab2d83ed7caf66b038045ca66023c9ea295ada6cb3b66a39068ba056b6"
+    }
+  ],
+  "gateCounts": {
+    "DEFERRED": 2,
+    "PASS": 86
+  },
+  "packagedElectronClaims": false,
+  "parentPatchId": "TDT-RESAMPLE-RUNTIME-01-R2",
+  "parentZipSha256": "5f352059892cf3e061ebbcd1a4ee4b10634565351492d02d384a82f53c64199b",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R3",
+  "physicalGpuClaims": false,
+  "productPromoted": false,
+  "productRepairPerformed": false,
+  "productionPointerMutated": false,
+  "requiredRepairPatch": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "schemaVersion": 1,
+  "sealedFileCount": 33,
+  "sourceSealSha256": "361728d364d5faf89c2f940e27a1de6fa78380ea1c21005d08b783177e2200e7",
+  "state": "RESAMPLE_RUNTIME_R3_ORACLE_BAKED_CURRENT_PRODUCT_REJECTED",
+  "verifiedState": "RESAMPLE_RUNTIME_R3_ORACLE_VERIFIED_R4_REQUIRED"
+}

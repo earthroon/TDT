@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "checks": [
+    {
+      "id": "planner-id",
+      "pass": true
+    },
+    {
+      "id": "profile-id",
+      "pass": true
+    },
+    {
+      "id": "role-neutral",
+      "pass": true
+    },
+    {
+      "id": "kernel-sensitive",
+      "pass": true
+    },
+    {
+      "id": "exact-target",
+      "pass": true
+    },
+    {
+      "id": "support",
+      "pass": true
+    },
+    {
+      "id": "legacy-reject",
+      "pass": true,
+      "value": true
+    }
+  ],
+  "planDigest": "be679e64cf9eb6f32632e464fa0c34de58e3b4cc7f1c3850e0ebb194300dee04",
+  "stageCount": 2
+}

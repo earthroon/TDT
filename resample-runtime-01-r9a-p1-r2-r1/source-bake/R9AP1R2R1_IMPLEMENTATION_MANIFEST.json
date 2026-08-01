@@ -1,0 +1,143 @@
+{
+  "entries": [
+    {
+      "byteLength": 43568,
+      "relativePath": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1_LOST_OPERATION_TERMINAL_REJECTION_PREVIEW_DEFERRED_EXPORT_MAP_RECOVERY_EVENT_CORRELATION_SEAL_SPEC.md",
+      "sha256": "e5a868ba29cdcdd01b999af6d25c1e70c68987313f505302d288ab20f8a2ea92"
+    },
+    {
+      "byteLength": 205,
+      "relativePath": "specs/TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1_LOST_OPERATION_TERMINAL_REJECTION_PREVIEW_DEFERRED_EXPORT_MAP_RECOVERY_EVENT_CORRELATION_SEAL_SPEC.md.sha256",
+      "sha256": "3692d36b426a98e752ee9e988fce47cb541fd94a0efafc5436b71275138614b4"
+    },
+    {
+      "byteLength": 2689,
+      "relativePath": "README_TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R1_APPLIED.md",
+      "sha256": "2d19a582b45e396ef6bd5d273b9d850591ecd0c2abf6fb80db82ee99e2aea338"
+    },
+    {
+      "byteLength": 48016,
+      "relativePath": "package.json",
+      "sha256": "a1d2c8c73bd29ebce05a48aac4c25c8c5889a170843b49c91bbfb39163120752"
+    },
+    {
+      "byteLength": 332960,
+      "relativePath": "patches/TDT_RESAMPLE_RUNTIME_01_R9A_P1_R2_R1_lost_operation_terminal_rejection_preview_deferred_export_map_recovery_event_correlation.diff",
+      "sha256": "d74372aca9323a162d63016c9e498ed4bb31f69843d5d19db3eb84540230cab7"
+    },
+    {
+      "byteLength": 7027,
+      "relativePath": "app/src/runtime/preview/preview-frame-scheduler.ts",
+      "sha256": "d9f63bbbbeebb16bb141095db7d902ab23909b1817b0c14c093421741afb672b"
+    },
+    {
+      "byteLength": 30988,
+      "relativePath": "app/src/runtime/preview/preview-presenter-service.ts",
+      "sha256": "0674102adabc9e27c96a4e0532e41d44a442fef69a1c183434a248015ec68947"
+    },
+    {
+      "byteLength": 2326,
+      "relativePath": "app/src/runtime/preview/preview-presenter-types.ts",
+      "sha256": "8fd401675405b89adaeed8438469c6fecca333e72606333c1519d5f77d96e2a9"
+    },
+    {
+      "byteLength": 61489,
+      "relativePath": "app/src/runtime/export/export-authority-service.ts",
+      "sha256": "ba48c4761c2d01a6baf9b39fc1b6f6fa7cd0bbca93d3cf7d53ba4dca8bcd1079"
+    },
+    {
+      "byteLength": 26150,
+      "relativePath": "app/src/runtime/codecs/encoder-registry-service.ts",
+      "sha256": "492d1c90d832d60099b6c6584dea79d250d048cffb428c3cf199b26c13af1561"
+    },
+    {
+      "byteLength": 44971,
+      "relativePath": "app/legacy-runtime/core/compute/qmap_webgpu/ewa_single_submit_runtime_r9a.mjs",
+      "sha256": "f0f47bcd2fe23e98b7ed46a3744d75a2e823e0ecf84ed47eb45f51aae1606ccf"
+    },
+    {
+      "byteLength": 4357,
+      "relativePath": "app/legacy-runtime/input/export_gpu_texture_readback_r9a_p1_r2_r1.mjs",
+      "sha256": "27400420f2f3ad22a8908514faf9e4adb85d899fad51389f3a188c254c537397"
+    },
+    {
+      "byteLength": 36320,
+      "relativePath": "app/legacy-runtime/export_manager.js",
+      "sha256": "06fca82f88c37f7cc829dd16309efdcc93143ef6cb12270a3f8b422f633c3e18"
+    },
+    {
+      "byteLength": 36666,
+      "relativePath": "app/src/runtime/gpu/gpu-device-authority-service.ts",
+      "sha256": "f323be1739130c4bc57bdce727580ac31302383a6e1080190a4d8a630f955596"
+    },
+    {
+      "byteLength": 346,
+      "relativePath": "app/src/runtime/gpu/gpu-service.ts",
+      "sha256": "ee678c9e90223ed44d69f8bfa1bb47066fff89ab6c60bd598d7236618d871b0a"
+    },
+    {
+      "byteLength": 17038,
+      "relativePath": "app/src/runtime/recovery/r9a-p1-r2-recovery-holder-service.ts",
+      "sha256": "639c629d4fbc3e7707fcf1fae2bb19b0889a89f3446cccb697087e7d1bc646d3"
+    },
+    {
+      "byteLength": 4076,
+      "relativePath": "app/src/runtime/recovery/r9a-p1-r2-recovery-types.ts",
+      "sha256": "68bd7c435f4303c8698fce9595d741c9eadb97e10a29b9bbd2d35b5e04ee25c0"
+    },
+    {
+      "byteLength": 14180,
+      "relativePath": "app/src/runtime/qualification/r9a-p1-r2-recovery-runner.ts",
+      "sha256": "3dcf2e20e909b2d2542997717f2f46c7c2eb273bfd8d7fbc27e81196e311e4b9"
+    },
+    {
+      "byteLength": 18090,
+      "relativePath": "app/src/env.d.ts",
+      "sha256": "48ec6a1427ccb58e9718bf9ccb0ffa4c9ba2d56a7797fbfb5503dbae185bb7d2"
+    },
+    {
+      "byteLength": 6437,
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r2/recovery-permit-authority.mjs",
+      "sha256": "79ceb9615fcd181cc683755e5a47813d1a41cacc323e40c354574838d5685302"
+    },
+    {
+      "byteLength": 15030,
+      "relativePath": "app/electron/resample-runtime-r9a-p1-r1/qualification-run-coordinator.mjs",
+      "sha256": "dd88354da9caf28ce2db1abc9049710754ffe2c72c320da5225b33b82e3b5176"
+    },
+    {
+      "byteLength": 5470,
+      "relativePath": "preload.cjs",
+      "sha256": "927457d0c4f62d7dcfdee3dd478ef8cb22419cef76f968c318e728475f23a34c"
+    },
+    {
+      "byteLength": 35133,
+      "relativePath": "app/src/boot/stable-error.ts",
+      "sha256": "f73f54dd513445b6bf6a8c7981ce9f8075dcaa707bdb4253dc76e52764b80646"
+    },
+    {
+      "byteLength": 4809,
+      "relativePath": "tools/resample-runtime-01-r9a-p1-r2-r1/lib.mjs",
+      "sha256": "b5c4ed28dd87d9948023fc225f8d8c12dcd1c77fea9246f0f114c48816793d6b"
+    },
+    {
+      "byteLength": 40142,
+      "relativePath": "tools/resample-runtime-01-r9a-p1-r2-r1/verify-source.mjs",
+      "sha256": "46208aca374cda18fb3ebb2d9d5b32a048db6988e8d25dac88d6e891a09a9c1e"
+    },
+    {
+      "byteLength": 9108,
+      "relativePath": "tools/resample-runtime-01-r9a-p1-r2-r1/finalize-packaged.mjs",
+      "sha256": "928ac16c6ef91deb7fd0b548a31ee2d3bbf6003eea055d3ead7a7064177f61bd"
+    },
+    {
+      "byteLength": 793,
+      "relativePath": "tools/resample-runtime-01-r9a-p1-r2-r1/verify-packaged.mjs",
+      "sha256": "8a9c5f339944e86614c9e5293ef6a030cac7b1c1182b8dfac808d607b655c8e6"
+    }
+  ],
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1",
+  "schemaId": "tdt.r9a-p1-r2-r1.implementation-manifest.v1",
+  "schemaVersion": 1,
+  "selfSha256": "1f3e8428da66cf5c621de76359fa44cf9c1b2c0eb2e3f1a1f60ed636b7b5df00"
+}

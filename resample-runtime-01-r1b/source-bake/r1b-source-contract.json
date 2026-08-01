@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R1B",
+  "pass": true,
+  "counts": {
+    "pass": 44,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "RB01",
+      "pass": true,
+      "message": "spec identity",
+      "detail": null
+    },
+    {
+      "id": "RB02",
+      "pass": true,
+      "message": "DeltaK facade preserved",
+      "detail": null
+    },
+    {
+      "id": "RB03",
+      "pass": true,
+      "message": "Export facade preserved",
+      "detail": null
+    },
+    {
+      "id": "RB04",
+      "pass": true,
+      "message": "planner identity",
+      "detail": null
+    },
+    {
+      "id": "RB05",
+      "pass": true,
+      "message": "checked integer planning",
+      "detail": null
+    },
+    {
+      "id": "RB06",
+      "pass": true,
+      "message": "no floating log or randomness",
+      "detail": null
+    },
+    {
+      "id": "RB07",
+      "pass": true,
+      "message": "identity plan handled",
+      "detail": null
+    },
+    {
+      "id": "RB08",
+      "pass": true,
+      "message": "exact target passed",
+      "detail": null
+    },
+    {
+      "id": "RB09",
+      "pass": true,
+      "message": "monotonic planner loop",
+      "detail": null
+    },
+    {
+      "id": "RB10",
+      "pass": true,
+      "message": "upscale rejected",
+      "detail": null
+    },
+    {
+      "id": "RB11",
+      "pass": true,
+      "message": "plan identity fields",
+      "detail": null
+    },
+    {
+      "id": "RB12",
+      "pass": true,
+      "message": "stage count limit",
+      "detail": null
+    },
+    {
+      "id": "RB13",
+      "pass": true,
+      "message": "integer terminal exception explicit",
+      "detail": null
+    },
+    {
+      "id": "RB14",
+      "pass": true,
+      "message": "planner records frozen",
+      "detail": null
+    },
+    {
+      "id": "RB15",
+      "pass": true,
+      "message": "profiles present",
+      "detail": null
+    },
+    {
+      "id": "RB16",
+      "pass": true,
+      "message": "support revalidated before dispatch",
+      "detail": null
+    },
+    {
+      "id": "RB17",
+      "pass": true,
+      "message": "DeltaK stage loop",
+      "detail": null
+    },
+    {
+      "id": "RB18",
+      "pass": true,
+      "message": "DeltaK stage ABI",
+      "detail": null
+    },
+    {
+      "id": "RB19",
+      "pass": true,
+      "message": "DeltaK core one final execution receipt",
+      "detail": null
+    },
+    {
+      "id": "RB20",
+      "pass": true,
+      "message": "normalized tensor field mapping",
+      "detail": null
+    },
+    {
+      "id": "RB21",
+      "pass": true,
+      "message": "DeltaK intermediate disposal",
+      "detail": null
+    },
+    {
+      "id": "RB22",
+      "pass": true,
+      "message": "per-stage device validation",
+      "detail": null
+    },
+    {
+      "id": "RB23",
+      "pass": true,
+      "message": "DeltaK cancellation checks",
+      "detail": null
+    },
+    {
+      "id": "RB24",
+      "pass": true,
+      "message": "GPUTexture return preserved",
+      "detail": null
+    },
+    {
+      "id": "RB25",
+      "pass": true,
+      "message": "single upload contract",
+      "detail": null
+    },
+    {
+      "id": "RB26",
+      "pass": true,
+      "message": "single final readback",
+      "detail": null
+    },
+    {
+      "id": "RB27",
+      "pass": true,
+      "message": "zero intermediate readback",
+      "detail": null
+    },
+    {
+      "id": "RB28",
+      "pass": true,
+      "message": "format split",
+      "detail": null
+    },
+    {
+      "id": "RB29",
+      "pass": true,
+      "message": "linear intermediate recompose",
+      "detail": null
+    },
+    {
+      "id": "RB30",
+      "pass": true,
+      "message": "export ABI stage offsets",
+      "detail": null
+    },
+    {
+      "id": "RB31",
+      "pass": true,
+      "message": "uniform writes serialized",
+      "detail": null
+    },
+    {
+      "id": "RB32",
+      "pass": true,
+      "message": "final byte length exact",
+      "detail": null
+    },
+    {
+      "id": "RB33",
+      "pass": true,
+      "message": "row padding stripped",
+      "detail": null
+    },
+    {
+      "id": "RB34",
+      "pass": true,
+      "message": "export disposal",
+      "detail": null
+    },
+    {
+      "id": "RB35",
+      "pass": true,
+      "message": "identity returns copy",
+      "detail": null
+    },
+    {
+      "id": "RB36",
+      "pass": true,
+      "message": "physical lattice radius clamp",
+      "detail": null
+    },
+    {
+      "id": "RB37",
+      "pass": true,
+      "message": "WGSL stage ABI fields",
+      "detail": null
+    },
+    {
+      "id": "RB38",
+      "pass": true,
+      "message": "stage receipts",
+      "detail": null
+    },
+    {
+      "id": "RB39",
+      "pass": true,
+      "message": "chain receipt",
+      "detail": null
+    },
+    {
+      "id": "RB40",
+      "pass": true,
+      "message": "forbidden fallback telemetry",
+      "detail": null
+    },
+    {
+      "id": "RB41",
+      "pass": true,
+      "message": "no hidden resize fallback",
+      "detail": null
+    },
+    {
+      "id": "RB42",
+      "pass": true,
+      "message": "new WGSL asset exists",
+      "detail": null
+    },
+    {
+      "id": "RB43",
+      "pass": true,
+      "message": "WGSL asset generator sealed",
+      "detail": null
+    },
+    {
+      "id": "RB44",
+      "pass": true,
+      "message": "no production pointer mutation",
+      "detail": null
+    }
+  ],
+  "shaderDigests": {
+    "product": "4fa6d0b7ef10f017be64c2ae088fa16b26124798fa9452ba9d91f2678dd39fc8",
+    "reference": "a5783e1607b030b547a1a83a6ae7fbd0562bbe7fc7a16fb5399ce25c31bf11c8",
+    "lowpass": "3a4f788db3793ea98de2b4228e9220b15229eb731adc202062e3d3cc369ac029",
+    "final": "0ee118825690f13c27539649df0e528f3131488fd3a4ffefd2f6b84163343970",
+    "linear": "941885d39505ed6c830d0d8926509472b95604315a1b5a51562374043f161faf"
+  }
+}

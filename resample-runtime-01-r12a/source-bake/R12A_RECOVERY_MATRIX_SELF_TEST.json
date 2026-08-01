@@ -1,0 +1,48 @@
+{
+  "ambiguousMismatchQuarantined": true,
+  "cases": [
+    {
+      "action": "RESUME_OR_DISCARD_STAGING",
+      "state": "CREATED"
+    },
+    {
+      "action": "RESUME_OR_DISCARD_STAGING",
+      "state": "STAGED_CANARY_PASSED"
+    },
+    {
+      "action": "RECONSTRUCT_ADMISSION_BLOCK_AND_RESUME_DRAIN",
+      "state": "DRAIN_INTENT_WRITTEN"
+    },
+    {
+      "action": "RESUME_ACTIVATION_OR_EXPLICIT_ABORT",
+      "state": "SESSION_DRAINED"
+    },
+    {
+      "action": "RESUME_ACTIVATION_OR_EXPLICIT_ABORT",
+      "state": "PACKAGE_COMMITTED"
+    },
+    {
+      "action": "RECONSTRUCT_POINTER_EFFECT_AND_RELAUNCH",
+      "state": "POINTER_CAS_COMMITTED"
+    },
+    {
+      "action": "RESUME_STABLE_LAUNCHER_HANDOFF",
+      "state": "RELAUNCH_REQUESTED"
+    },
+    {
+      "action": "RETRY_R11A_REATTESTATION_HIDDEN",
+      "state": "TARGET_PROCESS_STARTED"
+    },
+    {
+      "action": "RECONSTRUCT_COMMIT_MARKER",
+      "state": "R11A_REATTESTED"
+    }
+  ],
+  "idempotentDecisionInputs": true,
+  "normalWindowBeforeCommitAllowed": false,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "previousPackageNormalSessionAllowed": false,
+  "schemaVersion": 1,
+  "selfSha256": "681361a8761eaf98588d10f62c1e386a7ff47ee6324b1fd92a5d41d45d9a0b5d"
+}

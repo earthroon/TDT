@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-SURFACE-LIFECYCLE-01",
+  "title": "Canonical Surface Registry / Ownership Transfer / Typed Disposal / Peak Residency Accounting / Device Epoch Binding / Preview-Export Pinning / Compatibility Mirror Retirement Seal",
+  "state": "SURFACE_LIFECYCLE_SOURCE_BAKED_AWAITING_PACKAGED_RUNTIME",
+  "generatedAtUtc": "2026-07-25T13:31:41Z",
+  "gateCounts": {
+    "PASS": 52,
+    "DEFERRED": 8,
+    "FAIL": 0
+  },
+  "productionPointerMutated": false,
+  "packagedClaims": false,
+  "changedFileCount": 22,
+  "files": [
+    {
+      "relative": "app/src/boot/runtime-modules.ts",
+      "status": "modified",
+      "sha256": "fe6ff60712182d6f339fd96854c5bc83efe103b0f8f34687b0ca4f10525df8f2",
+      "byteLength": 16510
+    },
+    {
+      "relative": "app/src/boot/stable-error.ts",
+      "status": "modified",
+      "sha256": "92c22a99bec092e40827b1e9bb73f291bacc910e10fb9e8fb8a2b406b4119072",
+      "byteLength": 21817
+    },
+    {
+      "relative": "app/src/runtime/active-graph/generated-active-runtime-graph.json",
+      "status": "modified",
+      "sha256": "8fecbacf6c4e9cc2f6ce18efa86fc83158e9f165c02a71e2901a0671a430a4d2",
+      "byteLength": 165909
+    },
+    {
+      "relative": "app/src/runtime/decode/decoder-registry-service.ts",
+      "status": "modified",
+      "sha256": "e6d5ba359e9a6d69159d0bc139cf2ea7a0260f13c30a9643ced339ae96d20846",
+      "byteLength": 3967
+    },
+    {
+      "relative": "app/src/runtime/export/export-authority-service.ts",
+      "status": "modified",
+      "sha256": "61a0f9ff99d945d8a130eeb2e8d4e17375acdedfbf0f61c050f922cb0afefe0d",
+      "byteLength": 51122
+    },
+    {
+      "relative": "app/src/runtime/pipeline/legacy-final-surface-bridge-service.ts",
+      "status": "modified",
+      "sha256": "84b08857d34e4c272e49c7de8480df640276b715ca948d67dbc06770074da10c",
+      "byteLength": 11519
+    },
+    {
+      "relative": "app/src/runtime/pipeline/pipeline-service.ts",
+      "status": "modified",
+      "sha256": "f4fb3b16fb2002b1e2d5a907457bb7da373048385614deae372a4fa81b015f0d",
+      "byteLength": 5010
+    },
+    {
+      "relative": "app/src/runtime/preview/preview-presenter-service.ts",
+      "status": "modified",
+      "sha256": "aedb94712107364e3219c16aba7ec2c0f811b02d609cf35c76bac6c985091d76",
+      "byteLength": 2452
+    },
+    {
+      "relative": "app/src/runtime/service-token.ts",
+      "status": "modified",
+      "sha256": "c7fadff420090c9bff35d5f095c97c02be44ee51044c339dc7b4ac19b3eb7fc2",
+      "byteLength": 1072
+    },
+    {
+      "relative": "app/src/runtime/surfaces/surface-registry-authority-service.ts",
+      "status": "added",
+      "sha256": "3fd29010a438b442001edddf27809a99ae099fcea083d87e6aa80d8b513bb825",
+      "byteLength": 25106
+    },
+    {
+      "relative": "app/src/runtime/surfaces/surface-types.ts",
+      "status": "added",
+      "sha256": "489335e6a3505a05da4aede307ba6666f2199711bc1da7769446b577a7e2581e",
+      "byteLength": 4011
+    },
+    {
+      "relative": "package.json",
+      "status": "modified",
+      "sha256": "5775d9e60763465d49f86270194a3f1da4d0d1b7e817557d89ad51b629dfe4cd",
+      "byteLength": 15259
+    },
+    {
+      "relative": "specs/TDT-SURFACE-LIFECYCLE-01_CANONICAL_SURFACE_REGISTRY_OWNERSHIP_TRANSFER_TYPED_DISPOSAL_PEAK_RESIDENCY_DEVICE_EPOCH_BINDING_PREVIEW_EXPORT_PINNING_COMPATIBILITY_MIRROR_RETIREMENT_SPEC.md",
+      "status": "added",
+      "sha256": "51c6bfbc45bfdbde5ae759cc537f455cb34f188718b5be29c7fc74954767c3ba",
+      "byteLength": 52098
+    },
+    {
+      "relative": "tools/active-graph-01/generate-active-graph.mjs",
+      "status": "modified",
+      "sha256": "3ae43adb310b4b3615b6aa61a794e69f2bb68b4b50b44d3012c31d54c9c43ba3",
+      "byteLength": 14163
+    },
+    {
+      "relative": "tools/gate-export-promotion-01.mjs",
+      "status": "modified",
+      "sha256": "e42b302437ee83eaec598237950c8b5d95070ee1f9d6b3bffa969a3968074f45",
+      "byteLength": 6595
+    },
+    {
+      "relative": "tools/surface-lifecycle-01/audit-surface-call-sites.mjs",
+      "status": "added",
+      "sha256": "50789ac38a26d689e70b51f9e32b069fd88a78dd121ccb366f58bdc1f5b71063",
+      "byteLength": 1385
+    },
+    {
+      "relative": "tools/surface-lifecycle-01/gate-surface-lifecycle-01.mjs",
+      "status": "added",
+      "sha256": "68172035d855595dbe3865b1851474ed86d45e2595a086aa37362aac88a38a60",
+      "byteLength": 1518
+    },
+    {
+      "relative": "tools/surface-lifecycle-01/lib.mjs",
+      "status": "added",
+      "sha256": "cc8718d0d017995b75a7f365e610ad0c949209c606430b5c6e49b30395b8c999",
+      "byteLength": 1788
+    },
+    {
+      "relative": "tools/surface-lifecycle-01/run-surface-runtime-smoke.mjs",
+      "status": "added",
+      "sha256": "aad47881cac885318b837f1892cccef78a2533de9e45948284e1b19cd8007ae0",
+      "byteLength": 7522
+    },
+    {
+      "relative": "tools/surface-lifecycle-01/run.mjs",
+      "status": "added",
+      "sha256": "40bbfbad7cffac3fd29921353e0d0dbb9734d148eb195c45ff34c6019c130b3e",
+      "byteLength": 399
+    },
+    {
+      "relative": "tools/surface-lifecycle-01/verify-source-contract.mjs",
+      "status": "added",
+      "sha256": "f8e4a2883b8139223ebd2e1e4612173699772742f2e8f287190f2c6a83723672",
+      "byteLength": 4295
+    },
+    {
+      "relative": "tools/verify-r7-export-truth.mjs",
+      "status": "modified",
+      "sha256": "63682563ed94a11d7767f423bfbcfd0b3a0502f0bf96d5902c518e09c00e61c0",
+      "byteLength": 9050
+    }
+  ],
+  "evidence": {
+    "changedFileManifestSha256": "99ad37174b1f9e7e7590d140c486013cd67f560883ea37f3a2455676ee1e41a2",
+    "sourceGateSha256": "9d511439ca0ffa5e3305045250cf98906363d1ca75ffa87d0c48b752643ae482",
+    "sourceContractSha256": "eb249e25872697e43a1e3bd3149c500204a66a877aa126aebd213067530f4b28",
+    "callSiteAuditSha256": "d55ea4a57226493c82c253a709917621c266e4fa1c9d7f63920a353f790273f9",
+    "runtimeSmokeSha256": "2c874cd08d55d29d40f41b1b1f7b52f02b8c29cac93c653d5b733754f0a72279",
+    "regressionSummarySha256": "8fce24fc4392d70cceee988bb3291422f45137a3335576814fcf225de420c2da",
+    "specSha256": "51c6bfbc45bfdbde5ae759cc537f455cb34f188718b5be29c7fc74954767c3ba",
+    "parentArtifactSha256": "75bbf6c78dc3b41eb85aa2ef88b99018fb74a31c84edfd8c3b2337ea237dc5cf"
+  },
+  "sourceSealSha256": "bafdb5cfc49406f4b27556aa739297eb495f375c007a67234b26ff4839e44ced"
+}

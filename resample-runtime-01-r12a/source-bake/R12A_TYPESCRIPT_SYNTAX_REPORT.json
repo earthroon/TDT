@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "diagnostics": 0,
+      "file": "app/src/runtime/update/runtime-update-service.ts",
+      "outputBytes": 3633
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/runtime/admission/installed-admission-service.ts",
+      "outputBytes": 9190
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/runtime/service-token.ts",
+      "outputBytes": 1810
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/env.d.ts",
+      "outputBytes": 0
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/boot/runtime-modules.ts",
+      "outputBytes": 32521
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/boot/bootstrap-renderer.ts",
+      "outputBytes": 7152
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/runtime/preview/preview-presenter-service.ts",
+      "outputBytes": 26364
+    },
+    {
+      "diagnostics": 0,
+      "file": "app/src/runtime/export/export-authority-service.ts",
+      "outputBytes": 58524
+    }
+  ],
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R12A",
+  "schemaVersion": 1,
+  "selfSha256": "4301277d3ba558a1408031ed744306134abe9a7f6b7f98d4bffaa806bab1d7d2"
+}

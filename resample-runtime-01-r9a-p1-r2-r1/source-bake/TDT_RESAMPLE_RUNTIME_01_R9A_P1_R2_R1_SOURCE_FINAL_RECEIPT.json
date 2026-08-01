@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 86,
+    "PENDING": 26
+  },
+  "explicitPipelineRebuildClosureClaimed": false,
+  "fullViteProductionBuild": "NOT_RUN_DEPENDENCY_REGISTRY_UNAVAILABLE",
+  "historicalPackagedPassCarryForward": 0,
+  "implementationManifestSelfSha256": "1f3e8428da66cf5c621de76359fa44cf9c1b2c0eb2e3f1a1f60ed636b7b5df00",
+  "packagedPhysicalPassCount": 0,
+  "parentInputIdentitySelfSha256": "41b65c43d4e656f28164365f785939edf6af69146a7a6fad7e5183fb4c4ff551",
+  "parentSpecSha256": "558802cedbce5128263c3ca91f0d5749f75108a7a56d3529322c73403132fed9",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R1",
+  "permitFullFieldIntegrityClosureClaimed": false,
+  "physicalReplayCycleCount": 0,
+  "productionPointerMutated": false,
+  "receiptKind": "resample-runtime-r9a-p1-r2-r1-source-final",
+  "schemaId": "tdt.r9a-p1-r2-r1.source-final-receipt.v1",
+  "schemaVersion": 1,
+  "selfSha256": "1d34a5728d143ca2066ddd6672dcf66053fea3f4cc3f7ca337b928d874ca5c3a",
+  "sourceGateReportSelfSha256": "8e36b0c2e49dc51daaa3019284ab54cd2f6f4a35d370f0c2d3f416de841b219e",
+  "specSha256": "e5a868ba29cdcdd01b999af6d25c1e70c68987313f505302d288ab20f8a2ea92",
+  "state": "AWAITING_THREE_CYCLE_PACKAGED_PHYSICAL_REPLAY"
+}

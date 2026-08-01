@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R7",
+  "pass": true,
+  "planCount": 10,
+  "identityPlanCount": 1,
+  "multiStagePlanCount": 3
+}

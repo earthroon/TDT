@@ -1,0 +1,10 @@
+{
+  "electronMain": true,
+  "preload": true,
+  "r12aCoordinatorBinding": true,
+  "r12aJournalBinding": true,
+  "rendererService": true,
+  "runtimeModule": true,
+  "schemaVersion": 1,
+  "selfSha256": "dbcf29db9e5da19df6e83ff2abb883ac672c29a2a8a3f12a6fcba5955af05a5d"
+}

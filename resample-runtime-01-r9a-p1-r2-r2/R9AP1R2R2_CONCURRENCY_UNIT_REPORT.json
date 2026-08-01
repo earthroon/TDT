@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.r9a-p1-r2-r2.concurrency-unit-report.v1",
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A-P1-R2-R2",
+  "fulfilledCount": 1,
+  "rejectedCount": 1,
+  "rejectedCode": "E_R9AP1R2R2_NONCE_REPLAY"
+}

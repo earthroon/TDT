@@ -1,0 +1,25 @@
+{
+  "currentAuthority": "TDT-RESAMPLE-RUNTIME-01-R9A",
+  "historicalPassCarryForward": 0,
+  "historicalReceiptsDeleted": false,
+  "localActivationPointerMutated": false,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R9A",
+  "productionPointerMutated": false,
+  "reason": "R9A changes canonical command submission, validation, uniform allocation, and performance identity",
+  "replayOrder": [
+    "TDT-RESAMPLE-RUNTIME-01-R10A",
+    "TDT-RESAMPLE-RUNTIME-01-R11A",
+    "TDT-RESAMPLE-RUNTIME-01-R12A",
+    "TDT-RESAMPLE-RUNTIME-01-R13A"
+  ],
+  "schemaId": "tdt.resample.downstream-invalidation.r9a.v1",
+  "schemaVersion": 1,
+  "supersededReceipts": [
+    "TDT-RESAMPLE-RUNTIME-01-R9",
+    "TDT-RESAMPLE-RUNTIME-01-R10",
+    "TDT-RESAMPLE-RUNTIME-01-R11",
+    "TDT-RESAMPLE-RUNTIME-01-R12",
+    "TDT-RESAMPLE-RUNTIME-01-R13"
+  ],
+  "selfSha256": "f7459b207dd65e2f0b293b07ec71a3e3cac2055eeda8105152f3d7738d724cad"
+}

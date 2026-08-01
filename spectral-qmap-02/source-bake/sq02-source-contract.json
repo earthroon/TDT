@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 69,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "file:app/src/runtime/analysis/spectral/spectral-fft-types.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/spectral/spectral-stockham-plan.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/spectral/spectral-fft-receipt.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/spectral/spectral-fft-job-arena.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/spectral/spectral-fft-validation.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/src/runtime/analysis/spectral/spectral-stockham-executor-service.ts",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/spectral/shaders/stockham-radix2-stage.wgsl",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/spectral/shaders/complex-transpose-16x16.wgsl",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/spectral/shaders/direct-dft-reference.wgsl",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/spectral/shaders/complex-compare.wgsl",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/spectral/shaders/writer-ownership-validation.wgsl",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-fixture-generator.wgsl",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "file:specs/TDT-SPECTRAL-QMAP-02_BATCHED_STOCKHAM_2D_WEBGPU_FFT_SINGLE_WRITER_BUTTERFLY_TRANSPOSE_ZERO_INTERMEDIATE_READBACK_SEAL_SPEC.md",
+      "pass": true,
+      "detail": "required source exists"
+    },
+    {
+      "id": "types:window-spatial-complex.v1",
+      "pass": true,
+      "detail": "window-spatial-complex.v1"
+    },
+    {
+      "id": "types:window-frequency-complex.v1",
+      "pass": true,
+      "detail": "window-frequency-complex.v1"
+    },
+    {
+      "id": "types:tdt.spectral.stockham-2d-webgpu.v1",
+      "pass": true,
+      "detail": "tdt.spectral.stockham-2d-webgpu.v1"
+    },
+    {
+      "id": "types:dadum.gpu.consumer.fft-qmap",
+      "pass": true,
+      "detail": "dadum.gpu.consumer.fft-qmap"
+    },
+    {
+      "id": "types:tdt.analysis.consumer.spectral-fft-executor",
+      "pass": true,
+      "detail": "tdt.analysis.consumer.spectral-fft-executor"
+    },
+    {
+      "id": "plan-power-of-two",
+      "pass": true,
+      "detail": "power of two gate"
+    },
+    {
+      "id": "plan-range",
+      "pass": true,
+      "detail": "8..256 range"
+    },
+    {
+      "id": "plan-safe-integer",
+      "pass": true,
+      "detail": "safe arithmetic"
+    },
+    {
+      "id": "plan-device-limits",
+      "pass": true,
+      "detail": "device limits"
+    },
+    {
+      "id": "plan-deterministic",
+      "pass": true,
+      "detail": "no random/time"
+    },
+    {
+      "id": "plan-natural-layout",
+      "pass": true,
+      "detail": "natural order layout"
+    },
+    {
+      "id": "service:copyBufferToBuffer(inputBuffer",
+      "pass": true,
+      "detail": "copyBufferToBuffer(inputBuffer"
+    },
+    {
+      "id": "service:rowStageCount",
+      "pass": true,
+      "detail": "rowStageCount"
+    },
+    {
+      "id": "service:complex-transpose-16x16",
+      "pass": true,
+      "detail": "complex-transpose-16x16"
+    },
+    {
+      "id": "service:columnStageCount",
+      "pass": true,
+      "detail": "columnStageCount"
+    },
+    {
+      "id": "service:markSubmission",
+      "pass": true,
+      "detail": "markSubmission"
+    },
+    {
+      "id": "service:markFenceCompletion",
+      "pass": true,
+      "detail": "markFenceCompletion"
+    },
+    {
+      "id": "service:publishField",
+      "pass": true,
+      "detail": "publishField"
+    },
+    {
+      "id": "service:intermediatePixelReadbackCount: 0",
+      "pass": true,
+      "detail": "intermediatePixelReadbackCount: 0"
+    },
+    {
+      "id": "service:cpuPixelComputeUsed: false",
+      "pass": true,
+      "detail": "cpuPixelComputeUsed: false"
+    },
+    {
+      "id": "service:webglPixelComputeUsed: false",
+      "pass": true,
+      "detail": "webglPixelComputeUsed: false"
+    },
+    {
+      "id": "service:canvasPixelComputeUsed: false",
+      "pass": true,
+      "detail": "canvasPixelComputeUsed: false"
+    },
+    {
+      "id": "service:registerRecoveryParticipant",
+      "pass": true,
+      "detail": "registerRecoveryParticipant"
+    },
+    {
+      "id": "service-zero-map",
+      "pass": true,
+      "detail": "zero intermediate readback"
+    },
+    {
+      "id": "service-no-device-creation",
+      "pass": true,
+      "detail": "GPU Authority only"
+    },
+    {
+      "id": "service-assets",
+      "pass": true,
+      "detail": "product shader assets"
+    },
+    {
+      "id": "service-one-submit-per-chunk",
+      "pass": true,
+      "detail": "one command buffer per chunk"
+    },
+    {
+      "id": "service-input-pin",
+      "pass": true,
+      "detail": "input pin lifecycle"
+    },
+    {
+      "id": "service-output-owned",
+      "pass": true,
+      "detail": "output ownership transfer"
+    },
+    {
+      "id": "service-cancel",
+      "pass": true,
+      "detail": "cancellation"
+    },
+    {
+      "id": "service-device-epoch",
+      "pass": true,
+      "detail": "device epoch"
+    },
+    {
+      "id": "registry-version",
+      "pass": true,
+      "detail": "tdt.analysis.semantic-registry.gpu-tile-atlas-01.v1"
+    },
+    {
+      "id": "semantic:tdt.analysis.spectral.window-spatial-complex.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-spatial-complex.v1"
+    },
+    {
+      "id": "semantic:tdt.analysis.spectral.window-frequency-complex.v1",
+      "pass": true,
+      "detail": "tdt.analysis.spectral.window-frequency-complex.v1"
+    },
+    {
+      "id": "producer-canonical",
+      "pass": true,
+      "detail": "canonical"
+    },
+    {
+      "id": "producer-version",
+      "pass": true,
+      "detail": "1.0.0"
+    },
+    {
+      "id": "producer-input",
+      "pass": true,
+      "detail": "input semantic"
+    },
+    {
+      "id": "producer-output",
+      "pass": true,
+      "detail": "output semantic"
+    },
+    {
+      "id": "producer-assets",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "id": "asset:dadum.asset.shader.spectral-stockham-radix2-stage-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-stockham-radix2-stage-v1"
+    },
+    {
+      "id": "asset:dadum.asset.shader.spectral-complex-transpose-16x16-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-complex-transpose-16x16-v1"
+    },
+    {
+      "id": "asset:dadum.asset.shader.spectral-direct-dft-reference-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-direct-dft-reference-v1"
+    },
+    {
+      "id": "asset:dadum.asset.shader.spectral-complex-compare-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-complex-compare-v1"
+    },
+    {
+      "id": "asset:dadum.asset.shader.spectral-writer-ownership-validation-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-writer-ownership-validation-v1"
+    },
+    {
+      "id": "asset:dadum.asset.shader.spectral-fixture-generator-v1",
+      "pass": true,
+      "detail": "dadum.asset.shader.spectral-fixture-generator-v1"
+    },
+    {
+      "id": "module-order",
+      "pass": true,
+      "detail": "12198,18133,21919"
+    },
+    {
+      "id": "module-service",
+      "pass": true,
+      "detail": "service registered"
+    },
+    {
+      "id": "module-consumer",
+      "pass": true,
+      "detail": "consumer registered"
+    },
+    {
+      "id": "service-token",
+      "pass": true,
+      "detail": "service token"
+    },
+    {
+      "id": "facade-preserved",
+      "pass": true,
+      "detail": "legacy exports"
+    },
+    {
+      "id": "facade-cpu-reject",
+      "pass": true,
+      "detail": "CPU arrays rejected"
+    },
+    {
+      "id": "builder-preserved",
+      "pass": true,
+      "detail": "builder facade"
+    },
+    {
+      "id": "stable-errors",
+      "pass": true,
+      "detail": "24 errors"
+    },
+    {
+      "id": "parent-zip",
+      "pass": true,
+      "detail": "parent zip"
+    },
+    {
+      "id": "parent-seal",
+      "pass": true,
+      "detail": "parent seal"
+    },
+    {
+      "id": "r2-preserved",
+      "pass": true,
+      "detail": "R2 preserved"
+    }
+  ],
+  "physicalGpuClaims": false
+}

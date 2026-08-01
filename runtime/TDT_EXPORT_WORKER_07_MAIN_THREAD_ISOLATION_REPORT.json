@@ -1,0 +1,18 @@
+{
+  "schema": "tdt-export-worker-07-main-thread-isolation-report-v1",
+  "generatedAt": "2026-07-24T17:11:04.827Z",
+  "status": "SOURCE_BAKED_UNPROMOTED",
+  "patchId": "TDT-EXPORT-WORKER-07",
+  "promotionEligible": false,
+  "bridgeImportsGetLcms": 0,
+  "bridgeBuildsDocumentPlan": 0,
+  "bridgeDefinesPlaneSplit": 0,
+  "bridgeUsesGlobalIccProfileBuffer": 0,
+  "activeRawWorkerConstructors": 0,
+  "workerOwnsLcms": true,
+  "workerOwnsPlanePreparation": true,
+  "workerOwnsDocumentPlan": true,
+  "workerOwnsSerializer": true,
+  "workerOwnsStructureVerifier": true,
+  "finalMainThreadIsolationSourceVerified": true
+}

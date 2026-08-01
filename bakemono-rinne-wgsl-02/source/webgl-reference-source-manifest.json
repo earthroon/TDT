@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "schemaId": "tdt.effect.bakemono-rinne.webgl-include-expansion-manifest.v2",
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "formulaSourcePath": "app/legacy-runtime/shaders/rinne_bakemono_fusion_frag.glsl",
+  "utilitySourcePath": "app/legacy-runtime/shaders/glsl_util.glsl",
+  "formulaSourceDigest": "88a33809136a3a3dafd1397e2a017a9c644e866ae9fb29ed54990a554f9601e1",
+  "utilitySourceDigest": "410558cb4697e8e692e0321b1376d690725be582badb99d85e39e3ae830905c1",
+  "expandedFragmentDigest": "8a90074b610df1215f74b83cbcf229d965843212672fc85f4febf5c083d2c905",
+  "vertexShaderDigest": "139e9fbcf9621f28e6bca1f86abf326d253cd71abecca26ff26d8ec5d7357b92",
+  "includeReplacementCount": 1,
+  "onlyIncludeSubstitution": true,
+  "precisionQualifierPreserved": true,
+  "webgl2Port": false,
+  "manifestDigest": "7af35d2bd4dab7128f8d53edfb3ec999f186ebc6b2c40cab8f37fee717fc6cba"
+}

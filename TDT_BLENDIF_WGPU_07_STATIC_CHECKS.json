@@ -1,0 +1,10 @@
+{
+  "params_struct_v2_present": true,
+  "wgsl_bridge_present": true,
+  "true_splitmask_absent": true,
+  "wgsl_forbidden_uniform_refs_absent": true,
+  "pack_params_v2_present": true,
+  "pack_uint_slots_present": true,
+  "mapper_split_params_present": true,
+  "apply_script_absent": true
+}

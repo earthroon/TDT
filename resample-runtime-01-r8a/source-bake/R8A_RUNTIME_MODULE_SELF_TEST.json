@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "webpAdapterExports": [
+    "ensureWebPReady",
+    "encodeRGBAtoWebP",
+    "encodeRGBAtoWebPLossless",
+    "encodeLosslessRGBA",
+    "WebP"
+  ],
+  "webpImportTimeDomQueryCount": 0,
+  "repeatedDeviceLossCyclesPassed": 3,
+  "bridgeReplacementPassed": true,
+  "participantCountPlateau": 1,
+  "recoverySnapshot": {
+    "authority": "tdt.resample.repeated-device-loss-registration.r8a.v1",
+    "participantId": "dadum.gpu.participant.export-downscale-r8a",
+    "recoveryGeneration": 4,
+    "installedStateGeneration": 4,
+    "invalidationCount": 4,
+    "disposeCount": 4,
+    "participantRegistrationCount": 2,
+    "participantCount": 1,
+    "hasCurrentState": false
+  },
+  "actualKernelIdentityPropagated": true,
+  "shaderDigestCount": 2,
+  "identityDigest": "76c8f793b62ce8e676da6c44ab424a6c47d01f098c222325c5836ab66b7f2576",
+  "selfSha256": "fd3c2c98c6fffc66753c6e7e8e7cb02f121075d7b40f7690668e099864a6ec0e"
+}

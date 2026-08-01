@@ -1,0 +1,20 @@
+{
+  "patch_id": "TDT-BLENDIF-WGPU-09",
+  "status": "PASS",
+  "checks": {
+    "srgbToLinear1": true,
+    "srgbToLinear3": true,
+    "oklabLFromLinearRgb": true,
+    "oklabLFromSrgb": true,
+    "metric0_oklab": true,
+    "default_oklab": true,
+    "rec709_constants_absent": true,
+    "use_oklab_literal_absent_core": true,
+    "ui_label_oklab": true,
+    "metric_labels_schema": true,
+    "metric_space_not_forced_oklab": true,
+    "params_struct_unchanged_v2": true,
+    "split_mask_still_present": true,
+    "no_apply_script_created": true
+  }
+}

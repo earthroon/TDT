@@ -1,0 +1,2 @@
+import fs from 'node:fs';import path from 'node:path';import {runArtifact,runId,runDir,seal} from './lib.mjs';import {R10_REJECTED_STATE} from './identity.mjs';
+const reason=process.argv.slice(2).join(' ')||'operator-rejected';const receipt=seal({schemaVersion:1,runId:runId(),state:R10_REJECTED_STATE,reason,terminal:true,pointerMutationAttempted:false,createdAt:new Date().toISOString()});runArtifact('R10_REJECTION_RECEIPT.json',receipt);fs.writeFileSync(path.join(runDir(),'REJECTED'),'1\n',{flag:'wx'});console.log(JSON.stringify(receipt,null,2));

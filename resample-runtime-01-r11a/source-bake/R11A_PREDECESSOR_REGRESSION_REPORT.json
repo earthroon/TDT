@@ -1,0 +1,13 @@
+{
+  "fail": 0,
+  "isolatedRun": true,
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R11A",
+  "predecessor": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "predecessorTreeMutated": false,
+  "releasePending": 300,
+  "schemaVersion": 1,
+  "selfSha256": "521306d1b1ca02d0c102529cfde4e73300fc6dfc82a921b9d68ea53f488aa1d2",
+  "sourcePass": 260,
+  "terminalStateObserved": true
+}

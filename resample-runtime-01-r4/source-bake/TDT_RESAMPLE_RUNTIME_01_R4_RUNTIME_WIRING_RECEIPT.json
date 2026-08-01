@@ -1,0 +1,134 @@
+{
+  "canonicalRuntimeUsesR4": true,
+  "checks": [
+    {
+      "detail": null,
+      "id": "WIRE-ewa_aniso_tile_r4_r4.wgsl",
+      "message": "canonical loader references R4 asset",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-ewa_aniso_tile_r6_r4.wgsl",
+      "message": "canonical loader references R4 asset",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-ewa_aniso_tile_validation_r4_r4.wgsl",
+      "message": "canonical loader references R4 asset",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-ewa_aniso_tile_validation_r6_r4.wgsl",
+      "message": "canonical loader references R4 asset",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-ewa_aniso_reference_v3_r4.wgsl",
+      "message": "canonical loader references R4 asset",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-profile",
+      "message": "canonical selector uses R4 proof",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-no-r2",
+      "message": "R2 selector not canonical",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-coordinateConventionId",
+      "message": "bundle identity present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-productCoordinateId",
+      "message": "bundle identity present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-tileCoverageProofId",
+      "message": "bundle identity present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-profileSchemaId",
+      "message": "bundle identity present",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-cache",
+      "message": "pipeline cache identity includes coordinate convention",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-manifest-ewa_aniso_tile_r4_r4.wgsl",
+      "message": "runtime asset manifest admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-graph-ewa_aniso_tile_r4_r4.wgsl",
+      "message": "active graph admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-admission-ewa_aniso_tile_r4_r4.wgsl",
+      "message": "static admission admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-manifest-ewa_aniso_tile_r6_r4.wgsl",
+      "message": "runtime asset manifest admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-graph-ewa_aniso_tile_r6_r4.wgsl",
+      "message": "active graph admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-admission-ewa_aniso_tile_r6_r4.wgsl",
+      "message": "static admission admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-manifest-ewa_aniso_reference_v3_r4.wgsl",
+      "message": "runtime asset manifest admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-graph-ewa_aniso_reference_v3_r4.wgsl",
+      "message": "active graph admits R4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "id": "WIRE-admission-ewa_aniso_reference_v3_r4.wgsl",
+      "message": "static admission admits R4",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R4",
+  "schemaVersion": 1
+}

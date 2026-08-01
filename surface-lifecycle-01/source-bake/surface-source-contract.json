@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "checks": {
+    "specIdentity": true,
+    "serviceRegistered": true,
+    "bootOrder": true,
+    "capabilities": true,
+    "typedSchema": true,
+    "deterministicId": true,
+    "typedDisposers": true,
+    "cpuValidation": true,
+    "gpuEpochValidation": true,
+    "borrowLifecycle": true,
+    "pinLifecycle": true,
+    "deferredDisposal": true,
+    "deviceLossParticipant": true,
+    "opaqueFinalZero": true,
+    "opaqueDecodedZero": true,
+    "finalPreRegistration": true,
+    "noMandatoryCpuCopy": true,
+    "previousFinalInvalidation": true,
+    "exportPinFinally": true,
+    "previewPinFinally": true,
+    "facadeFrozen": true,
+    "rgbaMirrorAssignmentZero": true,
+    "stableErrors": true,
+    "packageScript": true,
+    "productionPointerAbsent": true
+  },
+  "failed": [],
+  "pass": true
+}

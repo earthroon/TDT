@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"tdt.r9a-p1.residency-samples.v1","type":"object","required":["schemaVersion","schemaId","measured","rows"],"properties":{"schemaId":{"const":"tdt.r9a-p1.residency-raw.v1"},"measured":{"minimum":1024},"rows":{"type":"array"}}}

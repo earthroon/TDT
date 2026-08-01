@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "leaseSchemaId": "tdt.rollout.admission-lease.r13.v1",
+  "singleUse": true,
+  "expectedR10GenerationBound": true,
+  "expectedR10RawHashBound": true,
+  "pointerMutationPerformed": false,
+  "pass": true,
+  "selfSha256": "a20b2a00ec0c4850599194041a8f539b3c396d80cf83d61fec7d659baacc734f"
+}

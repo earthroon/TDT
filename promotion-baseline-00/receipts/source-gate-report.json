@@ -1,0 +1,424 @@
+{
+  "checkSetDigest": "7f3953df60ff498bc34b8278bd7eb55fe9e61aa4a76e9cae750cf1c7de15dfdb",
+  "checks": [
+    {
+      "detail": null,
+      "id": "file:specs/TDT-PROMOTION-BASELINE-00_CANONICAL_DEPENDENCY_LOCK_DUAL_CLEAN_EMIT_PACKAGED_ELECTRON_RUNTIME_ADMISSION_SPEC.md",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/lib.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/run.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/audit-input.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/run-lock-promotion.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/run-dual-emit.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/run-dual-package.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/launch-packaged-candidate.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/probe-runtime-health.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/run-cross-format-save-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/verify-worker-restart.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/verify-relaunch.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/run-test-pointer-recovery.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:tools/promotion-baseline-00/issue-baseline-receipt.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "file:app/src/runtime/promotion/promotion-baseline-00-harness.ts",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "script:verify:promotion-baseline-00",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "script:verify:promotion-baseline-00-source",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "script:verify:p0:lock",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "script:verify:p0:emit",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "script:verify:p0:package",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "script:verify:p0:e2e",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "electron:receipt-sink-packaged-guard",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "electron:phase-identity",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "preload:receipt-sink",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "preload:token-not-returned",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "worker:forced-crash-packaged-only",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "worker:idle-precondition",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "worker:generation-advance",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "runtime:harness-called-after-terminal",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "runtime:cross-format-list",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "runtime:rgba16-smoke",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "runtime:worker-restart-smoke",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "lock:candidate-persisted",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "lock:frozen-cache-evidence",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "package:dual-clean",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "package:win-x64-unpacked",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "pointer:production-mutation-forbidden",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "pointer:test-only-cas",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "final:ceiling",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "final:no-product-promotion",
+      "status": "PASS"
+    },
+    {
+      "detail": [],
+      "id": "source:no-false-final-receipt",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:audit-input.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:create-clean-workspace.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:finalize-source-bake.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:gate-source.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:issue-baseline-receipt.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:launch-packaged-candidate.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:lib.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:probe-runtime-health.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:run-cross-format-save-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:run-dual-emit.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:run-dual-package.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:run-lock-promotion.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:run-test-pointer-recovery.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:run.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:transpile-source-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:verify-child-receipts.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:verify-emitted-identity.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:verify-lock-receipt.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:verify-package-identity.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:verify-relaunch.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "syntax:verify-worker-restart.mjs",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "typescript:promotion-surface-transpile",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "child-gate:build-lock",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "id": "child-gate:build-emit",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "childLockPromoted": false,
+        "childLockState": "INPUT_PROFILE_SEALED",
+        "parity": {
+          "exact": false,
+          "mismatches": [
+            {
+              "actual": "^3.10.1",
+              "expected": "3.10.1",
+              "group": "dependencies",
+              "name": "jszip"
+            },
+            {
+              "actual": "^2.1.0",
+              "expected": "2.1.0",
+              "group": "dependencies",
+              "name": "pako"
+            },
+            {
+              "actual": null,
+              "expected": "3.0.1",
+              "group": "dependencies",
+              "name": "pinia"
+            },
+            {
+              "actual": "^0.33.2",
+              "expected": "0.33.2",
+              "group": "dependencies",
+              "name": "sharp"
+            },
+            {
+              "actual": null,
+              "expected": "3.5.40",
+              "group": "dependencies",
+              "name": "vue"
+            },
+            {
+              "actual": null,
+              "expected": "2.18.4",
+              "group": "devDependencies",
+              "name": "@napi-rs/cli"
+            },
+            {
+              "actual": null,
+              "expected": "6.0.7",
+              "group": "devDependencies",
+              "name": "@vitejs/plugin-vue"
+            },
+            {
+              "actual": "^29.0.0",
+              "expected": "29.0.0",
+              "group": "devDependencies",
+              "name": "electron"
+            },
+            {
+              "actual": "^24.13.3",
+              "expected": "24.13.3",
+              "group": "devDependencies",
+              "name": "electron-builder"
+            },
+            {
+              "actual": null,
+              "expected": "5.9.3",
+              "group": "devDependencies",
+              "name": "typescript"
+            },
+            {
+              "actual": null,
+              "expected": "8.1.5",
+              "group": "devDependencies",
+              "name": "vite"
+            },
+            {
+              "actual": null,
+              "expected": "3.2.2",
+              "group": "devDependencies",
+              "name": "vue-tsc"
+            }
+          ],
+          "nonExact": []
+        }
+      },
+      "id": "current-source:lock-truth-consistent",
+      "status": "PASS"
+    }
+  ],
+  "createdAt": "2026-07-26T07:27:41.719Z",
+  "failCount": 0,
+  "passCount": 66,
+  "schemaVersion": 1,
+  "selfDigest": "40a34276651eeeef8d0f65fd775ae924e71be41185a189b1be0b26a253ac6b9a",
+  "specId": "TDT-PROMOTION-BASELINE-00",
+  "state": "SOURCE_BAKED_UNPROMOTED",
+  "status": "PASS"
+}

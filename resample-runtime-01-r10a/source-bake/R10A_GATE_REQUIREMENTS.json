@@ -1,0 +1,2251 @@
+{
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R10A",
+  "releaseMandatory": [
+    {
+      "id": "R10A-P001",
+      "requirement": "R9A_PHYSICAL_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P002",
+      "requirement": "R9A_PHYSICAL_RECEIPT_SCHEMA_VALID"
+    },
+    {
+      "id": "R10A-P003",
+      "requirement": "R9A_PHYSICAL_RECEIPT_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P004",
+      "requirement": "R9A_FINAL_STATE_EXACT"
+    },
+    {
+      "id": "R10A-P005",
+      "requirement": "R9A_TOTAL_PASS_500"
+    },
+    {
+      "id": "R10A-P006",
+      "requirement": "R9A_SOURCE_PASS_286"
+    },
+    {
+      "id": "R10A-P007",
+      "requirement": "R9A_PHYSICAL_PASS_214"
+    },
+    {
+      "id": "R10A-P008",
+      "requirement": "R9A_PENDING_ZERO"
+    },
+    {
+      "id": "R10A-P009",
+      "requirement": "R9A_DEFERRED_ZERO"
+    },
+    {
+      "id": "R10A-P010",
+      "requirement": "R9A_SKIPPED_ZERO"
+    },
+    {
+      "id": "R10A-P011",
+      "requirement": "R9A_FAIL_ZERO"
+    },
+    {
+      "id": "R10A-P012",
+      "requirement": "R9A_PRODUCTION_POINTER_MUTATION_FALSE"
+    },
+    {
+      "id": "R10A-P013",
+      "requirement": "R9A_LOCAL_POINTER_MUTATION_FALSE"
+    },
+    {
+      "id": "R10A-P014",
+      "requirement": "R9A_BUILD_ID_PRESENT"
+    },
+    {
+      "id": "R10A-P015",
+      "requirement": "R9A_PACKAGE_CONTENT_ID_PRESENT"
+    },
+    {
+      "id": "R10A-P016",
+      "requirement": "R9A_PACKAGE_PATH_PRESENT"
+    },
+    {
+      "id": "R10A-P017",
+      "requirement": "R9A_PACKAGE_EXISTS"
+    },
+    {
+      "id": "R10A-P018",
+      "requirement": "R9A_PACKAGE_READ_ONLY"
+    },
+    {
+      "id": "R10A-P019",
+      "requirement": "R9A_PACKAGE_PRE_HASH_PRESENT"
+    },
+    {
+      "id": "R10A-P020",
+      "requirement": "R9A_PACKAGE_POST_HASH_PRESENT"
+    },
+    {
+      "id": "R10A-P021",
+      "requirement": "R9A_PACKAGE_PRE_POST_EQUAL"
+    },
+    {
+      "id": "R10A-P022",
+      "requirement": "R9A_RUNTIME_CLOSURE_DIGEST_PRESENT"
+    },
+    {
+      "id": "R10A-P023",
+      "requirement": "R9A_CHILD_MANIFEST_COMPLETE"
+    },
+    {
+      "id": "R10A-P024",
+      "requirement": "R9A_ADAPTER_PROFILE_PRESENT"
+    },
+    {
+      "id": "R10A-P025",
+      "requirement": "R9A_D3D12_HARDWARE_TRUE"
+    },
+    {
+      "id": "R10A-P026",
+      "requirement": "R9A_SOFTWARE_ADAPTER_FALSE"
+    },
+    {
+      "id": "R10A-P027",
+      "requirement": "R9A_TIMESTAMP_QUERY_TRUE"
+    },
+    {
+      "id": "R10A-P028",
+      "requirement": "R9A_CANONICAL_ENCODER_COUNT_ONE"
+    },
+    {
+      "id": "R10A-P029",
+      "requirement": "R9A_CANONICAL_SUBMIT_COUNT_ONE"
+    },
+    {
+      "id": "R10A-P030",
+      "requirement": "R9A_EXPORT_PREMAP_FENCE_ZERO"
+    },
+    {
+      "id": "R10A-P031",
+      "requirement": "R9A_VALIDATION_DOUBLE_DISPATCH_ZERO"
+    },
+    {
+      "id": "R10A-P032",
+      "requirement": "R9A_UNIFORM_OVERWRITE_ZERO"
+    },
+    {
+      "id": "R10A-P033",
+      "requirement": "R9A_PERFORMANCE_CLOSURE_PASS"
+    },
+    {
+      "id": "R10A-P034",
+      "requirement": "R9A_RECEIPT_READ_ONLY"
+    },
+    {
+      "id": "R10A-P035",
+      "requirement": "TARGET_REBUILD_INPUT_SET_PRESENT"
+    },
+    {
+      "id": "R10A-P036",
+      "requirement": "TARGET_REBUILD_INPUT_SET_SELF_HASH"
+    },
+    {
+      "id": "R10A-P037",
+      "requirement": "TARGET_SOURCE_COMMIT_FROZEN"
+    },
+    {
+      "id": "R10A-P038",
+      "requirement": "TARGET_DEPENDENCY_LOCK_FROZEN"
+    },
+    {
+      "id": "R10A-P039",
+      "requirement": "TARGET_TOOLCHAIN_IDENTITY_FROZEN"
+    },
+    {
+      "id": "R10A-P040",
+      "requirement": "TARGET_BUILD_ENVIRONMENT_FROZEN"
+    },
+    {
+      "id": "R10A-P041",
+      "requirement": "TARGET_CLEAN_WORKTREE"
+    },
+    {
+      "id": "R10A-P042",
+      "requirement": "TARGET_NETWORK_DISABLED"
+    },
+    {
+      "id": "R10A-P043",
+      "requirement": "TARGET_EMIT_A_COMPLETE"
+    },
+    {
+      "id": "R10A-P044",
+      "requirement": "TARGET_EMIT_B_COMPLETE"
+    },
+    {
+      "id": "R10A-P045",
+      "requirement": "TARGET_EMIT_A_INPUT_DIGEST"
+    },
+    {
+      "id": "R10A-P046",
+      "requirement": "TARGET_EMIT_B_INPUT_DIGEST"
+    },
+    {
+      "id": "R10A-P047",
+      "requirement": "TARGET_EMIT_INPUT_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-P048",
+      "requirement": "TARGET_RUNTIME_CLOSURE_A_PRESENT"
+    },
+    {
+      "id": "R10A-P049",
+      "requirement": "TARGET_RUNTIME_CLOSURE_B_PRESENT"
+    },
+    {
+      "id": "R10A-P050",
+      "requirement": "TARGET_RUNTIME_CLOSURE_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-P051",
+      "requirement": "TARGET_ACTIVE_GRAPH_A_PRESENT"
+    },
+    {
+      "id": "R10A-P052",
+      "requirement": "TARGET_ACTIVE_GRAPH_B_PRESENT"
+    },
+    {
+      "id": "R10A-P053",
+      "requirement": "TARGET_ACTIVE_GRAPH_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-P054",
+      "requirement": "TARGET_PARSE_REPORT_A_PASS"
+    },
+    {
+      "id": "R10A-P055",
+      "requirement": "TARGET_PARSE_REPORT_B_PASS"
+    },
+    {
+      "id": "R10A-P056",
+      "requirement": "TARGET_PARSE_COUNT_EQUAL"
+    },
+    {
+      "id": "R10A-P057",
+      "requirement": "TARGET_GENERATED_WGSL_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-P058",
+      "requirement": "TARGET_R8A_KERNEL_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-P059",
+      "requirement": "TARGET_R9A_GRAPH_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-P060",
+      "requirement": "TARGET_R9A_SAMPLING_POLICY_EQUAL"
+    },
+    {
+      "id": "R10A-P061",
+      "requirement": "TARGET_R9A_UNIFORM_RING_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-P062",
+      "requirement": "TARGET_PACKAGE_ASSEMBLED_FROM_EMIT_A"
+    },
+    {
+      "id": "R10A-P063",
+      "requirement": "TARGET_PACKAGE_MANIFEST_COMPLETE"
+    },
+    {
+      "id": "R10A-P064",
+      "requirement": "TARGET_PACKAGE_PATH_NORMALIZED"
+    },
+    {
+      "id": "R10A-P065",
+      "requirement": "TARGET_PACKAGE_EXTRA_EXECUTABLE_ZERO"
+    },
+    {
+      "id": "R10A-P066",
+      "requirement": "TARGET_PACKAGE_SYMLINK_ZERO"
+    },
+    {
+      "id": "R10A-P067",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_RECOMPUTED"
+    },
+    {
+      "id": "R10A-P068",
+      "requirement": "TARGET_PACKAGE_CONTENT_ID_MATCH"
+    },
+    {
+      "id": "R10A-P069",
+      "requirement": "TARGET_PACKAGE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-P070",
+      "requirement": "TARGET_RUNTIME_CLOSURE_MATCH_R9A"
+    },
+    {
+      "id": "R10A-P071",
+      "requirement": "TARGET_BUILD_ID_MATCH_R9A"
+    },
+    {
+      "id": "R10A-P072",
+      "requirement": "TARGET_PACKAGE_ID_MATCH_R9A"
+    },
+    {
+      "id": "R10A-P073",
+      "requirement": "TARGET_FULL_PRODUCT_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P074",
+      "requirement": "TARGET_FULL_PRODUCT_PASS"
+    },
+    {
+      "id": "R10A-P075",
+      "requirement": "TARGET_FULL_PRODUCT_BLOCKERS_ZERO"
+    },
+    {
+      "id": "R10A-P076",
+      "requirement": "TARGET_FULL_PRODUCT_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-P077",
+      "requirement": "TARGET_QUALIFIED_PACKAGE_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P078",
+      "requirement": "TARGET_PACKAGE_MUTATION_ZERO"
+    },
+    {
+      "id": "R10A-P079",
+      "requirement": "PREVIOUS_MODE_DECLARED"
+    },
+    {
+      "id": "R10A-P080",
+      "requirement": "BOOTSTRAP_OR_EXISTING_MODE_VALID"
+    },
+    {
+      "id": "R10A-P081",
+      "requirement": "BOOTSTRAP_PREVIOUS_REQUIRED_WHEN_ACTIVE_NULL"
+    },
+    {
+      "id": "R10A-P082",
+      "requirement": "EXISTING_ACTIVE_REQUIRED_WHEN_NON_NULL"
+    },
+    {
+      "id": "R10A-P083",
+      "requirement": "PREVIOUS_BUILD_ID_PRESENT"
+    },
+    {
+      "id": "R10A-P084",
+      "requirement": "PREVIOUS_PACKAGE_ID_PRESENT"
+    },
+    {
+      "id": "R10A-P085",
+      "requirement": "PREVIOUS_PACKAGE_PATH_PRESENT"
+    },
+    {
+      "id": "R10A-P086",
+      "requirement": "PREVIOUS_PACKAGE_EXISTS"
+    },
+    {
+      "id": "R10A-P087",
+      "requirement": "PREVIOUS_PACKAGE_READ_ONLY"
+    },
+    {
+      "id": "R10A-P088",
+      "requirement": "PREVIOUS_PACKAGE_DISTINCT_FROM_TARGET"
+    },
+    {
+      "id": "R10A-P089",
+      "requirement": "PREVIOUS_RUNTIME_CLOSURE_PRESENT"
+    },
+    {
+      "id": "R10A-P090",
+      "requirement": "PREVIOUS_R8A_CURRENT_LINEAGE"
+    },
+    {
+      "id": "R10A-P091",
+      "requirement": "PREVIOUS_R9A_PHYSICAL_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P092",
+      "requirement": "PREVIOUS_R9A_PHYSICAL_PASS"
+    },
+    {
+      "id": "R10A-P093",
+      "requirement": "PREVIOUS_FULL_PRODUCT_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P094",
+      "requirement": "PREVIOUS_FULL_PRODUCT_PASS"
+    },
+    {
+      "id": "R10A-P095",
+      "requirement": "PREVIOUS_BUILD_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-P096",
+      "requirement": "PREVIOUS_PACKAGE_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-P097",
+      "requirement": "PREVIOUS_RUNTIME_CLOSURE_MATCH_OWN_R9A"
+    },
+    {
+      "id": "R10A-P098",
+      "requirement": "PREVIOUS_QUALIFIED_PACKAGE_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P099",
+      "requirement": "PREVIOUS_QUALIFICATION_SET_DIGEST_PRESENT"
+    },
+    {
+      "id": "R10A-P100",
+      "requirement": "PREVIOUS_POINTER_MAP_CANONICAL"
+    },
+    {
+      "id": "R10A-P101",
+      "requirement": "PREVIOUS_NO_SUPERSEDED_RECEIPT"
+    },
+    {
+      "id": "R10A-P102",
+      "requirement": "PREVIOUS_PACKAGE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-P103",
+      "requirement": "PREVIOUS_SOURCE_TREE_INACCESSIBLE"
+    },
+    {
+      "id": "R10A-P104",
+      "requirement": "PREVIOUS_DEV_SERVER_DISABLED"
+    },
+    {
+      "id": "R10A-P105",
+      "requirement": "PREVIOUS_NETWORK_DISABLED_SMOKE"
+    },
+    {
+      "id": "R10A-P106",
+      "requirement": "PREVIOUS_PREVIEW_SMOKE_CAPABLE"
+    },
+    {
+      "id": "R10A-P107",
+      "requirement": "PREVIOUS_STRICT_EXPORT_SMOKE_CAPABLE"
+    },
+    {
+      "id": "R10A-P108",
+      "requirement": "PREVIOUS_VALIDATION_COUNTER_ZERO"
+    },
+    {
+      "id": "R10A-P109",
+      "requirement": "PREVIOUS_SILENT_FALLBACK_ZERO"
+    },
+    {
+      "id": "R10A-P110",
+      "requirement": "PREVIOUS_PENDING_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P111",
+      "requirement": "PREVIOUS_ROLLBACK_ELIGIBLE"
+    },
+    {
+      "id": "R10A-P112",
+      "requirement": "PREVIOUS_FAKE_BUILD_ID_FORBIDDEN"
+    },
+    {
+      "id": "R10A-P113",
+      "requirement": "QUALIFICATION_SET_PRESENT"
+    },
+    {
+      "id": "R10A-P114",
+      "requirement": "QUALIFICATION_SET_SCHEMA_VALID"
+    },
+    {
+      "id": "R10A-P115",
+      "requirement": "QUALIFICATION_SET_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P116",
+      "requirement": "QUALIFICATION_SET_TARGET_BOUND"
+    },
+    {
+      "id": "R10A-P117",
+      "requirement": "QUALIFICATION_SET_PREVIOUS_BOUND"
+    },
+    {
+      "id": "R10A-P118",
+      "requirement": "QUALIFICATION_SET_R8A_RECEIPT_BOUND"
+    },
+    {
+      "id": "R10A-P119",
+      "requirement": "QUALIFICATION_SET_R9A_PHYSICAL_BOUND"
+    },
+    {
+      "id": "R10A-P120",
+      "requirement": "QUALIFICATION_SET_FULL_PRODUCT_BOUND"
+    },
+    {
+      "id": "R10A-P121",
+      "requirement": "QUALIFICATION_SET_REBUILD_BOUND"
+    },
+    {
+      "id": "R10A-P122",
+      "requirement": "QUALIFICATION_SET_ACTIVE_GRAPH_BOUND"
+    },
+    {
+      "id": "R10A-P123",
+      "requirement": "QUALIFICATION_SET_PARSE_REPORT_BOUND"
+    },
+    {
+      "id": "R10A-P124",
+      "requirement": "QUALIFICATION_SET_RUNTIME_CLOSURE_BOUND"
+    },
+    {
+      "id": "R10A-P125",
+      "requirement": "QUALIFICATION_SET_KERNEL_IDENTITY_BOUND"
+    },
+    {
+      "id": "R10A-P126",
+      "requirement": "QUALIFICATION_SET_COMMAND_GRAPH_BOUND"
+    },
+    {
+      "id": "R10A-P127",
+      "requirement": "QUALIFICATION_SET_UNIFORM_RING_BOUND"
+    },
+    {
+      "id": "R10A-P128",
+      "requirement": "QUALIFICATION_SET_SAMPLING_POLICY_BOUND"
+    },
+    {
+      "id": "R10A-P129",
+      "requirement": "QUALIFICATION_SET_DIGEST_RECOMPUTED"
+    },
+    {
+      "id": "R10A-P130",
+      "requirement": "QUALIFICATION_SET_MIXED_BUILD_ZERO"
+    },
+    {
+      "id": "R10A-P131",
+      "requirement": "QUALIFICATION_SET_MIXED_PACKAGE_ZERO"
+    },
+    {
+      "id": "R10A-P132",
+      "requirement": "QUALIFICATION_SET_SUPERSEDED_INPUT_ZERO"
+    },
+    {
+      "id": "R10A-P133",
+      "requirement": "OPERATOR_APPROVAL_PRESENT"
+    },
+    {
+      "id": "R10A-P134",
+      "requirement": "OPERATOR_APPROVAL_SCHEMA_VALID"
+    },
+    {
+      "id": "R10A-P135",
+      "requirement": "OPERATOR_APPROVAL_TARGET_BOUND"
+    },
+    {
+      "id": "R10A-P136",
+      "requirement": "OPERATOR_APPROVAL_PREVIOUS_BOUND"
+    },
+    {
+      "id": "R10A-P137",
+      "requirement": "OPERATOR_APPROVAL_POINTER_HASH_BOUND"
+    },
+    {
+      "id": "R10A-P138",
+      "requirement": "OPERATOR_APPROVAL_POINTER_GENERATION_BOUND"
+    },
+    {
+      "id": "R10A-P139",
+      "requirement": "OPERATOR_APPROVAL_QUALIFICATION_DIGEST_BOUND"
+    },
+    {
+      "id": "R10A-P140",
+      "requirement": "OPERATOR_APPROVAL_RUN_ID_BOUND"
+    },
+    {
+      "id": "R10A-P141",
+      "requirement": "OPERATOR_APPROVAL_EXPLICIT_TRUE"
+    },
+    {
+      "id": "R10A-P142",
+      "requirement": "OPERATOR_APPROVAL_NOT_EMBEDDED"
+    },
+    {
+      "id": "R10A-P143",
+      "requirement": "RUN_ID_UNIQUE"
+    },
+    {
+      "id": "R10A-P144",
+      "requirement": "EVIDENCE_DIRECTORY_EMPTY_AT_START"
+    },
+    {
+      "id": "R10A-P145",
+      "requirement": "GLOBAL_RELEASE_LOCK_ACQUIRED"
+    },
+    {
+      "id": "R10A-P146",
+      "requirement": "LOCK_OWNER_RUN_ID_MATCH"
+    },
+    {
+      "id": "R10A-P147",
+      "requirement": "LOCK_EXPECTED_POINTER_HASH_BOUND"
+    },
+    {
+      "id": "R10A-P148",
+      "requirement": "LOCK_EXPECTED_POINTER_GENERATION_BOUND"
+    },
+    {
+      "id": "R10A-P149",
+      "requirement": "LOCK_STALE_AUTO_DELETE_FORBIDDEN"
+    },
+    {
+      "id": "R10A-P150",
+      "requirement": "MAINTENANCE_BARRIER_ENTERED"
+    },
+    {
+      "id": "R10A-P151",
+      "requirement": "NEW_JOB_ADMISSION_BLOCKED"
+    },
+    {
+      "id": "R10A-P152",
+      "requirement": "PENDING_GPU_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P153",
+      "requirement": "PENDING_READBACK_ZERO"
+    },
+    {
+      "id": "R10A-P154",
+      "requirement": "PENDING_SAVE_ZERO"
+    },
+    {
+      "id": "R10A-P155",
+      "requirement": "ACTIVE_WORKER_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P156",
+      "requirement": "ACTIVE_RENDERER_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P157",
+      "requirement": "PROCESS_QUIESCENCE_RECEIPT"
+    },
+    {
+      "id": "R10A-P158",
+      "requirement": "ACTIVE_PROCESS_EXITED"
+    },
+    {
+      "id": "R10A-P159",
+      "requirement": "FORCED_KILL_UNUSED_OR_RECEIPTED"
+    },
+    {
+      "id": "R10A-P160",
+      "requirement": "POINTER_BEFORE_READ"
+    },
+    {
+      "id": "R10A-P161",
+      "requirement": "POINTER_BEFORE_SCHEMA_VALID"
+    },
+    {
+      "id": "R10A-P162",
+      "requirement": "POINTER_BEFORE_RAW_HASH_VALID"
+    },
+    {
+      "id": "R10A-P163",
+      "requirement": "POINTER_BEFORE_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P164",
+      "requirement": "POINTER_BEFORE_MIRRORS_EQUAL"
+    },
+    {
+      "id": "R10A-P165",
+      "requirement": "POINTER_EXPECTED_HASH_MATCH"
+    },
+    {
+      "id": "R10A-P166",
+      "requirement": "POINTER_EXPECTED_GENERATION_MATCH"
+    },
+    {
+      "id": "R10A-P167",
+      "requirement": "PROMOTION_INTENT_PRESENT"
+    },
+    {
+      "id": "R10A-P168",
+      "requirement": "PROMOTION_INTENT_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P169",
+      "requirement": "PROMOTION_INTENT_TARGET_EXACT"
+    },
+    {
+      "id": "R10A-P170",
+      "requirement": "PROMOTION_INTENT_PREVIOUS_EXACT"
+    },
+    {
+      "id": "R10A-P171",
+      "requirement": "PROMOTION_INTENT_QUALIFICATION_EXACT"
+    },
+    {
+      "id": "R10A-P172",
+      "requirement": "PROMOTION_INTENT_APPROVAL_EXACT"
+    },
+    {
+      "id": "R10A-P173",
+      "requirement": "PROMOTION_CAS_ATOMIC"
+    },
+    {
+      "id": "R10A-P174",
+      "requirement": "PROMOTION_GENERATION_PLUS_ONE"
+    },
+    {
+      "id": "R10A-P175",
+      "requirement": "PROMOTION_ACTIVE_TARGET_EXACT"
+    },
+    {
+      "id": "R10A-P176",
+      "requirement": "PROMOTION_PREVIOUS_EXACT"
+    },
+    {
+      "id": "R10A-P177",
+      "requirement": "PROMOTION_QUALIFICATION_MAP_EXACT"
+    },
+    {
+      "id": "R10A-P178",
+      "requirement": "PROMOTION_POINTER_MIRRORS_EQUAL"
+    },
+    {
+      "id": "R10A-P179",
+      "requirement": "PROMOTION_POINTER_READBACK_VALID"
+    },
+    {
+      "id": "R10A-P180",
+      "requirement": "PROMOTION_CAS_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P181",
+      "requirement": "PROMOTION_PACKAGE_UNCHANGED"
+    },
+    {
+      "id": "R10A-P182",
+      "requirement": "PROMOTION_NO_PARTIAL_SELECTION"
+    },
+    {
+      "id": "R10A-P183",
+      "requirement": "PROMOTED_RELAUNCH_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P184",
+      "requirement": "PROMOTED_LAUNCH_PATH_FROM_POINTER"
+    },
+    {
+      "id": "R10A-P185",
+      "requirement": "PROMOTED_BUILD_ID_EXACT"
+    },
+    {
+      "id": "R10A-P186",
+      "requirement": "PROMOTED_PACKAGE_ID_EXACT"
+    },
+    {
+      "id": "R10A-P187",
+      "requirement": "PROMOTED_RUNTIME_CLOSURE_EXACT"
+    },
+    {
+      "id": "R10A-P188",
+      "requirement": "PROMOTED_PACKAGE_PRE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-P189",
+      "requirement": "PROMOTED_R8A_KERNEL_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-P190",
+      "requirement": "PROMOTED_R9A_COMMAND_GRAPH_EXACT"
+    },
+    {
+      "id": "R10A-P191",
+      "requirement": "PROMOTED_ENCODER_COUNT_ONE"
+    },
+    {
+      "id": "R10A-P192",
+      "requirement": "PROMOTED_SUBMIT_COUNT_ONE"
+    },
+    {
+      "id": "R10A-P193",
+      "requirement": "PROMOTED_EXPORT_PREMAP_FENCE_ZERO"
+    },
+    {
+      "id": "R10A-P194",
+      "requirement": "PROMOTED_VALIDATION_COUNTER_ZERO"
+    },
+    {
+      "id": "R10A-P195",
+      "requirement": "PROMOTED_UNIFORM_OVERWRITE_ZERO"
+    },
+    {
+      "id": "R10A-P196",
+      "requirement": "PROMOTED_PREVIEW_SMOKE_PASS"
+    },
+    {
+      "id": "R10A-P197",
+      "requirement": "PROMOTED_STRICT_EXPORT_SMOKE_PASS"
+    },
+    {
+      "id": "R10A-P198",
+      "requirement": "PROMOTED_PREVIEW_EXPORT_IDENTITY_PASS"
+    },
+    {
+      "id": "R10A-P199",
+      "requirement": "PROMOTED_ALPHA_BORDER_DC_PASS"
+    },
+    {
+      "id": "R10A-P200",
+      "requirement": "PROMOTED_CPU_FALLBACK_FALSE"
+    },
+    {
+      "id": "R10A-P201",
+      "requirement": "PROMOTED_SILENT_FALLBACK_ZERO"
+    },
+    {
+      "id": "R10A-P202",
+      "requirement": "PROMOTED_SOURCE_TREE_INACCESSIBLE"
+    },
+    {
+      "id": "R10A-P203",
+      "requirement": "PROMOTED_DEV_SERVER_DISABLED"
+    },
+    {
+      "id": "R10A-P204",
+      "requirement": "PROMOTED_NETWORK_DISABLED"
+    },
+    {
+      "id": "R10A-P205",
+      "requirement": "PROMOTED_PENDING_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P206",
+      "requirement": "PROMOTED_RECEIPT_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P207",
+      "requirement": "PROMOTED_RECEIPT_PACKAGE_BOUND"
+    },
+    {
+      "id": "R10A-P208",
+      "requirement": "PROMOTED_SMOKE_GATE_PASS"
+    },
+    {
+      "id": "R10A-P209",
+      "requirement": "ROLLBACK_TRIGGER_PRESENT"
+    },
+    {
+      "id": "R10A-P210",
+      "requirement": "ROLLBACK_TRIGGER_EVIDENCE_BOUND"
+    },
+    {
+      "id": "R10A-P211",
+      "requirement": "ROLLBACK_TRIGGER_TARGET_FAILURE_NOT_REQUIRED"
+    },
+    {
+      "id": "R10A-P212",
+      "requirement": "ROLLBACK_INTENT_PRESENT"
+    },
+    {
+      "id": "R10A-P213",
+      "requirement": "ROLLBACK_INTENT_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P214",
+      "requirement": "ROLLBACK_INTENT_POINTER_HASH_BOUND"
+    },
+    {
+      "id": "R10A-P215",
+      "requirement": "ROLLBACK_INTENT_POINTER_GENERATION_BOUND"
+    },
+    {
+      "id": "R10A-P216",
+      "requirement": "ROLLBACK_INTENT_PREVIOUS_EXACT"
+    },
+    {
+      "id": "R10A-P217",
+      "requirement": "ROLLBACK_CAS_ATOMIC"
+    },
+    {
+      "id": "R10A-P218",
+      "requirement": "ROLLBACK_GENERATION_PLUS_ONE"
+    },
+    {
+      "id": "R10A-P219",
+      "requirement": "ROLLBACK_ACTIVE_PREVIOUS_EXACT"
+    },
+    {
+      "id": "R10A-P220",
+      "requirement": "ROLLBACK_PREVIOUS_TARGET_SNAPSHOT_EXACT"
+    },
+    {
+      "id": "R10A-P221",
+      "requirement": "ROLLBACK_QUALIFICATION_MAP_EXACT"
+    },
+    {
+      "id": "R10A-P222",
+      "requirement": "ROLLBACK_POINTER_MIRRORS_EQUAL"
+    },
+    {
+      "id": "R10A-P223",
+      "requirement": "ROLLBACK_POINTER_READBACK_VALID"
+    },
+    {
+      "id": "R10A-P224",
+      "requirement": "ROLLBACK_RELAUNCH_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P225",
+      "requirement": "ROLLBACK_LAUNCHED_PACKAGE_EXACT"
+    },
+    {
+      "id": "R10A-P226",
+      "requirement": "ROLLBACK_RUNTIME_CLOSURE_EXACT"
+    },
+    {
+      "id": "R10A-P227",
+      "requirement": "ROLLBACK_PACKAGE_PRE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-P228",
+      "requirement": "ROLLBACK_PREVIEW_SMOKE_PASS"
+    },
+    {
+      "id": "R10A-P229",
+      "requirement": "ROLLBACK_STRICT_EXPORT_SMOKE_PASS"
+    },
+    {
+      "id": "R10A-P230",
+      "requirement": "ROLLBACK_R8A_KERNEL_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-P231",
+      "requirement": "ROLLBACK_R9A_COMMAND_GRAPH_EXACT"
+    },
+    {
+      "id": "R10A-P232",
+      "requirement": "ROLLBACK_VALIDATION_COUNTER_ZERO"
+    },
+    {
+      "id": "R10A-P233",
+      "requirement": "ROLLBACK_CPU_FALLBACK_FALSE"
+    },
+    {
+      "id": "R10A-P234",
+      "requirement": "ROLLBACK_SILENT_FALLBACK_ZERO"
+    },
+    {
+      "id": "R10A-P235",
+      "requirement": "ROLLBACK_PENDING_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P236",
+      "requirement": "ROLLBACK_NO_PARTIAL_COMPONENT"
+    },
+    {
+      "id": "R10A-P237",
+      "requirement": "ROLLBACK_CAS_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P238",
+      "requirement": "ROLLBACK_SMOKE_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P239",
+      "requirement": "REPROMOTION_INTENT_PRESENT"
+    },
+    {
+      "id": "R10A-P240",
+      "requirement": "REPROMOTION_INTENT_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P241",
+      "requirement": "REPROMOTION_INTENT_POINTER_HASH_BOUND"
+    },
+    {
+      "id": "R10A-P242",
+      "requirement": "REPROMOTION_INTENT_POINTER_GENERATION_BOUND"
+    },
+    {
+      "id": "R10A-P243",
+      "requirement": "REPROMOTION_INTENT_TARGET_EXACT"
+    },
+    {
+      "id": "R10A-P244",
+      "requirement": "REPROMOTION_CAS_ATOMIC"
+    },
+    {
+      "id": "R10A-P245",
+      "requirement": "REPROMOTION_GENERATION_PLUS_ONE"
+    },
+    {
+      "id": "R10A-P246",
+      "requirement": "REPROMOTION_ACTIVE_TARGET_EXACT"
+    },
+    {
+      "id": "R10A-P247",
+      "requirement": "REPROMOTION_PREVIOUS_EXACT"
+    },
+    {
+      "id": "R10A-P248",
+      "requirement": "REPROMOTION_QUALIFICATION_MAP_EXACT"
+    },
+    {
+      "id": "R10A-P249",
+      "requirement": "REPROMOTION_POINTER_MIRRORS_EQUAL"
+    },
+    {
+      "id": "R10A-P250",
+      "requirement": "REPROMOTION_POINTER_READBACK_VALID"
+    },
+    {
+      "id": "R10A-P251",
+      "requirement": "FINAL_RELAUNCH_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P252",
+      "requirement": "FINAL_LAUNCHED_PACKAGE_EXACT"
+    },
+    {
+      "id": "R10A-P253",
+      "requirement": "FINAL_RUNTIME_CLOSURE_EXACT"
+    },
+    {
+      "id": "R10A-P254",
+      "requirement": "FINAL_PACKAGE_PRE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-P255",
+      "requirement": "FINAL_PREVIEW_SMOKE_PASS"
+    },
+    {
+      "id": "R10A-P256",
+      "requirement": "FINAL_STRICT_EXPORT_SMOKE_PASS"
+    },
+    {
+      "id": "R10A-P257",
+      "requirement": "FINAL_R8A_KERNEL_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-P258",
+      "requirement": "FINAL_R9A_COMMAND_GRAPH_EXACT"
+    },
+    {
+      "id": "R10A-P259",
+      "requirement": "FINAL_ENCODER_COUNT_ONE"
+    },
+    {
+      "id": "R10A-P260",
+      "requirement": "FINAL_SUBMIT_COUNT_ONE"
+    },
+    {
+      "id": "R10A-P261",
+      "requirement": "FINAL_VALIDATION_COUNTER_ZERO"
+    },
+    {
+      "id": "R10A-P262",
+      "requirement": "FINAL_CPU_FALLBACK_FALSE"
+    },
+    {
+      "id": "R10A-P263",
+      "requirement": "FINAL_SILENT_FALLBACK_ZERO"
+    },
+    {
+      "id": "R10A-P264",
+      "requirement": "FINAL_PENDING_JOB_ZERO"
+    },
+    {
+      "id": "R10A-P265",
+      "requirement": "FINAL_POINTER_TARGET_ACTIVE"
+    },
+    {
+      "id": "R10A-P266",
+      "requirement": "FINAL_POINTER_PREVIOUS_RECORDED"
+    },
+    {
+      "id": "R10A-P267",
+      "requirement": "REPROMOTION_CAS_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P268",
+      "requirement": "FINAL_SMOKE_RECEIPT_SEALED"
+    },
+    {
+      "id": "R10A-P269",
+      "requirement": "RELEASE_LEDGER_PRESENT"
+    },
+    {
+      "id": "R10A-P270",
+      "requirement": "RELEASE_LEDGER_HASH_CHAIN_VALID"
+    },
+    {
+      "id": "R10A-P271",
+      "requirement": "RELEASE_LEDGER_PROMOTION_INCLUDED"
+    },
+    {
+      "id": "R10A-P272",
+      "requirement": "RELEASE_LEDGER_ROLLBACK_INCLUDED"
+    },
+    {
+      "id": "R10A-P273",
+      "requirement": "RELEASE_LEDGER_REPROMOTION_INCLUDED"
+    },
+    {
+      "id": "R10A-P274",
+      "requirement": "RELEASE_LEDGER_GENERATIONS_CONSECUTIVE"
+    },
+    {
+      "id": "R10A-P275",
+      "requirement": "RELEASE_GATE_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P276",
+      "requirement": "RELEASE_GATE_COUNT_300_PASS"
+    },
+    {
+      "id": "R10A-P277",
+      "requirement": "RELEASE_GATE_PENDING_ZERO"
+    },
+    {
+      "id": "R10A-P278",
+      "requirement": "RELEASE_GATE_DEFERRED_ZERO"
+    },
+    {
+      "id": "R10A-P279",
+      "requirement": "RELEASE_GATE_SKIPPED_ZERO"
+    },
+    {
+      "id": "R10A-P280",
+      "requirement": "RELEASE_GATE_FAIL_ZERO"
+    },
+    {
+      "id": "R10A-P281",
+      "requirement": "FINAL_RELEASE_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P282",
+      "requirement": "FINAL_RELEASE_RECEIPT_SCHEMA_VALID"
+    },
+    {
+      "id": "R10A-P283",
+      "requirement": "FINAL_RELEASE_RECEIPT_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P284",
+      "requirement": "FINAL_RELEASE_STATE_EXACT"
+    },
+    {
+      "id": "R10A-P285",
+      "requirement": "FINAL_RELEASE_TARGET_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-P286",
+      "requirement": "FINAL_RELEASE_PREVIOUS_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-P287",
+      "requirement": "FINAL_RELEASE_QUALIFICATION_DIGEST_EXACT"
+    },
+    {
+      "id": "R10A-P288",
+      "requirement": "FINAL_RELEASE_POINTER_HASH_CHAIN_EXACT"
+    },
+    {
+      "id": "R10A-P289",
+      "requirement": "FINAL_RELEASE_WHOLE_BUILD_TRUE"
+    },
+    {
+      "id": "R10A-P290",
+      "requirement": "FINAL_RELEASE_LEGACY_FALLBACK_FALSE"
+    },
+    {
+      "id": "R10A-P291",
+      "requirement": "FINAL_RELEASE_BLOCKERS_EMPTY"
+    },
+    {
+      "id": "R10A-P292",
+      "requirement": "LINEAGE_RESTORATION_RECEIPT_PRESENT"
+    },
+    {
+      "id": "R10A-P293",
+      "requirement": "LINEAGE_RESTORATION_SCHEMA_VALID"
+    },
+    {
+      "id": "R10A-P294",
+      "requirement": "LINEAGE_RESTORATION_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-P295",
+      "requirement": "LINEAGE_HEAD_R10A_EXACT"
+    },
+    {
+      "id": "R10A-P296",
+      "requirement": "LINEAGE_ROOT_DIGEST_RECOMPUTED"
+    },
+    {
+      "id": "R10A-P297",
+      "requirement": "LINEAGE_CURRENT_RECEIPTS_EXACT"
+    },
+    {
+      "id": "R10A-P298",
+      "requirement": "LINEAGE_SUPERSEDED_RECEIPTS_EXACT"
+    },
+    {
+      "id": "R10A-P299",
+      "requirement": "LINEAGE_R11A_R12A_R13A_PENDING"
+    },
+    {
+      "id": "R10A-P300",
+      "requirement": "GLOBAL_LOCK_RELEASED_AFTER_FINALIZE"
+    }
+  ],
+  "schemaId": "tdt.resample.gate-catalog.r10a.v1",
+  "schemaVersion": 1,
+  "selfSha256": "65dd8babc00908a1a3e51a4c81beb5bef70be654b30e6d6e5aa6977f64bd4d7a",
+  "sourceMandatory": [
+    {
+      "id": "R10A-S001",
+      "requirement": "PARENT_ZIP_SHA256_FROZEN"
+    },
+    {
+      "id": "R10A-S002",
+      "requirement": "PARENT_SPEC_SHA256_FROZEN"
+    },
+    {
+      "id": "R10A-S003",
+      "requirement": "PARENT_SOURCE_RECEIPT_SHA256_FROZEN"
+    },
+    {
+      "id": "R10A-S004",
+      "requirement": "PARENT_SOURCE_STATE_EXACT"
+    },
+    {
+      "id": "R10A-S005",
+      "requirement": "PARENT_SOURCE_COUNTS_EXACT"
+    },
+    {
+      "id": "R10A-S006",
+      "requirement": "PARENT_NEXT_AUTHORITY_R10A"
+    },
+    {
+      "id": "R10A-S007",
+      "requirement": "R8A_SPEC_SHA256_FROZEN"
+    },
+    {
+      "id": "R10A-S008",
+      "requirement": "R8A_SOURCE_RECEIPT_SHA256_FROZEN"
+    },
+    {
+      "id": "R10A-S009",
+      "requirement": "R8A_SOURCE_STATE_EXACT"
+    },
+    {
+      "id": "R10A-S010",
+      "requirement": "R8A_ACTIVE_REQUIRED_PARSE_ZERO"
+    },
+    {
+      "id": "R10A-S011",
+      "requirement": "R8A_EXECUTOR_REGISTERED"
+    },
+    {
+      "id": "R10A-S012",
+      "requirement": "R8A_KERNEL_IDENTITY_PROPAGATED"
+    },
+    {
+      "id": "R10A-S013",
+      "requirement": "R8A_REPEATED_DEVICE_LOSS_THREE"
+    },
+    {
+      "id": "R10A-S014",
+      "requirement": "R8A_SILENT_FALLBACK_ZERO"
+    },
+    {
+      "id": "R10A-S015",
+      "requirement": "R8A_POINTER_MUTATION_FALSE"
+    },
+    {
+      "id": "R10A-S016",
+      "requirement": "R9A_DOWNSTREAM_INVALIDATION_PRESENT"
+    },
+    {
+      "id": "R10A-S017",
+      "requirement": "R8A_DOWNSTREAM_INVALIDATION_PRESENT"
+    },
+    {
+      "id": "R10A-S018",
+      "requirement": "HISTORICAL_R9_RECEIPT_READ_ONLY"
+    },
+    {
+      "id": "R10A-S019",
+      "requirement": "HISTORICAL_R10_RECEIPT_READ_ONLY"
+    },
+    {
+      "id": "R10A-S020",
+      "requirement": "HISTORICAL_R11_RECEIPT_READ_ONLY"
+    },
+    {
+      "id": "R10A-S021",
+      "requirement": "HISTORICAL_R12_RECEIPT_READ_ONLY"
+    },
+    {
+      "id": "R10A-S022",
+      "requirement": "HISTORICAL_R13_RECEIPT_READ_ONLY"
+    },
+    {
+      "id": "R10A-S023",
+      "requirement": "SUPERSEDED_RECEIPT_CARRY_FORWARD_ZERO"
+    },
+    {
+      "id": "R10A-S024",
+      "requirement": "REPLAY_ORDER_R10A_R11A_R12A_R13A"
+    },
+    {
+      "id": "R10A-S025",
+      "requirement": "CURRENT_POINTER_RAW_SHA_FROZEN"
+    },
+    {
+      "id": "R10A-S026",
+      "requirement": "POINTER_MIRRORS_EQUAL_SOURCE"
+    },
+    {
+      "id": "R10A-S027",
+      "requirement": "CURRENT_POINTER_SOURCE_UNCHANGED"
+    },
+    {
+      "id": "R10A-S028",
+      "requirement": "LINEAGE_ROOT_INPUT_ORDER_DECLARED"
+    },
+    {
+      "id": "R10A-S029",
+      "requirement": "PATCH_ID_EXACT"
+    },
+    {
+      "id": "R10A-S030",
+      "requirement": "R10A_SOLE_RELEASE_REPLAY_AUTHORITY"
+    },
+    {
+      "id": "R10A-S031",
+      "requirement": "R10_HISTORICAL_AUTHORITY_RETIRED"
+    },
+    {
+      "id": "R10A-S032",
+      "requirement": "R8A_RUNTIME_AUTHORITY_PRESERVED"
+    },
+    {
+      "id": "R10A-S033",
+      "requirement": "R9A_PHYSICAL_AUTHORITY_PRESERVED"
+    },
+    {
+      "id": "R10A-S034",
+      "requirement": "FULL_PRODUCT_AUTHORITY_PRESERVED"
+    },
+    {
+      "id": "R10A-S035",
+      "requirement": "PRODUCTION_POINTER_IDENTITY_PRESERVED"
+    },
+    {
+      "id": "R10A-S036",
+      "requirement": "WHOLE_BUILD_POINTER_ONLY"
+    },
+    {
+      "id": "R10A-S037",
+      "requirement": "NO_COMPONENT_POINTER"
+    },
+    {
+      "id": "R10A-S038",
+      "requirement": "NO_KERNEL_POINTER"
+    },
+    {
+      "id": "R10A-S039",
+      "requirement": "NO_ENCODER_POINTER"
+    },
+    {
+      "id": "R10A-S040",
+      "requirement": "NO_REMOTE_POINTER_MUTATION"
+    },
+    {
+      "id": "R10A-S041",
+      "requirement": "NO_SOURCE_MODE_POINTER_MUTATION"
+    },
+    {
+      "id": "R10A-S042",
+      "requirement": "NO_LOCAL_ACTIVATION_POINTER_MUTATION"
+    },
+    {
+      "id": "R10A-S043",
+      "requirement": "SOURCE_STATE_DECLARED"
+    },
+    {
+      "id": "R10A-S044",
+      "requirement": "FINAL_RELEASE_STATE_DECLARED"
+    },
+    {
+      "id": "R10A-S045",
+      "requirement": "FINAL_LINEAGE_STATE_DECLARED"
+    },
+    {
+      "id": "R10A-S046",
+      "requirement": "REJECTED_STATE_DECLARED"
+    },
+    {
+      "id": "R10A-S047",
+      "requirement": "STATE_TRANSITIONS_MONOTONIC"
+    },
+    {
+      "id": "R10A-S048",
+      "requirement": "STATE_SKIP_FORBIDDEN"
+    },
+    {
+      "id": "R10A-S049",
+      "requirement": "STATE_REGRESSION_FORBIDDEN"
+    },
+    {
+      "id": "R10A-S050",
+      "requirement": "NEXT_AUTHORITY_R11A_DECLARED"
+    },
+    {
+      "id": "R10A-S051",
+      "requirement": "REBUILD_INPUT_SET_SCHEMA"
+    },
+    {
+      "id": "R10A-S052",
+      "requirement": "CLEAN_EMIT_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S053",
+      "requirement": "RUNTIME_CLOSURE_MANIFEST_SCHEMA"
+    },
+    {
+      "id": "R10A-S054",
+      "requirement": "SIGNED_PACKAGE_MANIFEST_SCHEMA"
+    },
+    {
+      "id": "R10A-S055",
+      "requirement": "PACKAGE_REBUILD_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S056",
+      "requirement": "R8A_ADMISSION_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S057",
+      "requirement": "R9A_PHYSICAL_ADMISSION_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S058",
+      "requirement": "FULL_PRODUCT_ADMISSION_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S059",
+      "requirement": "QUALIFIED_PACKAGE_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S060",
+      "requirement": "QUALIFICATION_SET_SCHEMA"
+    },
+    {
+      "id": "R10A-S061",
+      "requirement": "OPERATOR_APPROVAL_SCHEMA"
+    },
+    {
+      "id": "R10A-S062",
+      "requirement": "TRANSITION_INTENT_SCHEMA"
+    },
+    {
+      "id": "R10A-S063",
+      "requirement": "PROMOTION_CAS_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S064",
+      "requirement": "ROLLBACK_CAS_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S065",
+      "requirement": "REPROMOTION_CAS_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S066",
+      "requirement": "RELAUNCH_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S067",
+      "requirement": "PROMOTED_SMOKE_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S068",
+      "requirement": "ROLLBACK_SMOKE_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S069",
+      "requirement": "FINAL_SMOKE_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S070",
+      "requirement": "RELEASE_LEDGER_SCHEMA"
+    },
+    {
+      "id": "R10A-S071",
+      "requirement": "FINAL_RELEASE_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S072",
+      "requirement": "LINEAGE_RESTORATION_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S073",
+      "requirement": "REJECTION_RECEIPT_SCHEMA"
+    },
+    {
+      "id": "R10A-S074",
+      "requirement": "RUN_LOCK_SCHEMA"
+    },
+    {
+      "id": "R10A-S075",
+      "requirement": "MAINTENANCE_BARRIER_SCHEMA"
+    },
+    {
+      "id": "R10A-S076",
+      "requirement": "CHILD_DIGEST_MANIFEST_SCHEMA"
+    },
+    {
+      "id": "R10A-S077",
+      "requirement": "CANONICAL_JSON_REQUIRED"
+    },
+    {
+      "id": "R10A-S078",
+      "requirement": "SELF_HASH_EXCLUSION_RULE"
+    },
+    {
+      "id": "R10A-S079",
+      "requirement": "RECEIPT_NO_CIRCULAR_HASH"
+    },
+    {
+      "id": "R10A-S080",
+      "requirement": "RECEIPT_IMMUTABLE_AFTER_SEAL"
+    },
+    {
+      "id": "R10A-S081",
+      "requirement": "VOLATILE_FIELD_EXCLUSION_POLICY"
+    },
+    {
+      "id": "R10A-S082",
+      "requirement": "ATOMIC_RECEIPT_WRITE"
+    },
+    {
+      "id": "R10A-S083",
+      "requirement": "CLEAN_WORKTREE_REQUIRED"
+    },
+    {
+      "id": "R10A-S084",
+      "requirement": "DEPENDENCY_LOCK_FROZEN"
+    },
+    {
+      "id": "R10A-S085",
+      "requirement": "REGISTRY_INPUT_IDENTITY_FROZEN"
+    },
+    {
+      "id": "R10A-S086",
+      "requirement": "BUILD_TOOLCHAIN_IDENTITY_FROZEN"
+    },
+    {
+      "id": "R10A-S087",
+      "requirement": "NODE_ELECTRON_CHROMIUM_VERSIONS_BOUND"
+    },
+    {
+      "id": "R10A-S088",
+      "requirement": "WINDOWS_X64_TARGET_BOUND"
+    },
+    {
+      "id": "R10A-S089",
+      "requirement": "RELEASE_PROFILE_FULL_PRODUCT"
+    },
+    {
+      "id": "R10A-S090",
+      "requirement": "NETWORK_DISABLED_DURING_BUILD"
+    },
+    {
+      "id": "R10A-S091",
+      "requirement": "SOURCE_DATE_EPOCH_POLICY_DECLARED"
+    },
+    {
+      "id": "R10A-S092",
+      "requirement": "NONDETERMINISTIC_BUILD_INPUT_FORBIDDEN"
+    },
+    {
+      "id": "R10A-S093",
+      "requirement": "DUAL_CLEAN_EMIT_REQUIRED"
+    },
+    {
+      "id": "R10A-S094",
+      "requirement": "EMIT_A_ISOLATED_DIRECTORY"
+    },
+    {
+      "id": "R10A-S095",
+      "requirement": "EMIT_B_ISOLATED_DIRECTORY"
+    },
+    {
+      "id": "R10A-S096",
+      "requirement": "EMIT_INPUT_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-S097",
+      "requirement": "UNSIGNED_RUNTIME_CLOSURE_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-S098",
+      "requirement": "ACTIVE_GRAPH_DIGEST_EQUAL"
+    },
+    {
+      "id": "R10A-S099",
+      "requirement": "ACTIVE_REQUIRED_PARSE_REPORT_EQUAL"
+    },
+    {
+      "id": "R10A-S100",
+      "requirement": "GENERATED_WGSL_MANIFEST_EQUAL"
+    },
+    {
+      "id": "R10A-S101",
+      "requirement": "R8A_KERNEL_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-S102",
+      "requirement": "R9A_COMMAND_GRAPH_IDENTITY_EQUAL"
+    },
+    {
+      "id": "R10A-S103",
+      "requirement": "R9A_SAMPLING_POLICY_EQUAL"
+    },
+    {
+      "id": "R10A-S104",
+      "requirement": "R9A_UNIFORM_RING_CONTRACT_EQUAL"
+    },
+    {
+      "id": "R10A-S105",
+      "requirement": "PACKAGE_ASSEMBLY_FROM_VERIFIED_EMIT_ONLY"
+    },
+    {
+      "id": "R10A-S106",
+      "requirement": "PACKAGE_SOURCE_TREE_EXCLUDED"
+    },
+    {
+      "id": "R10A-S107",
+      "requirement": "PACKAGE_DEV_SERVER_EXCLUDED"
+    },
+    {
+      "id": "R10A-S108",
+      "requirement": "PACKAGE_DEBUG_OVERRIDE_EXCLUDED"
+    },
+    {
+      "id": "R10A-S109",
+      "requirement": "PACKAGE_EXECUTABLE_CLOSURE_COMPLETE"
+    },
+    {
+      "id": "R10A-S110",
+      "requirement": "PACKAGE_EXTRA_EXECUTABLE_ZERO"
+    },
+    {
+      "id": "R10A-S111",
+      "requirement": "PACKAGE_PATH_COLLISION_ZERO"
+    },
+    {
+      "id": "R10A-S112",
+      "requirement": "PACKAGE_SYMLINK_REPARSE_ZERO"
+    },
+    {
+      "id": "R10A-S113",
+      "requirement": "PACKAGE_CONTENT_ID_SHA256"
+    },
+    {
+      "id": "R10A-S114",
+      "requirement": "PACKAGE_POST_BUILD_REHASH_REQUIRED"
+    },
+    {
+      "id": "R10A-S115",
+      "requirement": "PACKAGE_READ_ONLY_AFTER_QUALIFICATION"
+    },
+    {
+      "id": "R10A-S116",
+      "requirement": "BUILD_ID_CANONICAL_INPUT_DERIVED"
+    },
+    {
+      "id": "R10A-S117",
+      "requirement": "BUILD_ID_WALL_CLOCK_INDEPENDENT"
+    },
+    {
+      "id": "R10A-S118",
+      "requirement": "RUNTIME_CLOSURE_DIGEST_BOUND_TO_PACKAGE"
+    },
+    {
+      "id": "R10A-S119",
+      "requirement": "R8A_SOURCE_RECEIPT_CURRENT"
+    },
+    {
+      "id": "R10A-S120",
+      "requirement": "R8A_SOURCE_RECEIPT_REHASHED"
+    },
+    {
+      "id": "R10A-S121",
+      "requirement": "R8A_RECEIPT_PACKAGE_EXPECTATION_BOUND"
+    },
+    {
+      "id": "R10A-S122",
+      "requirement": "R9A_PHYSICAL_FINAL_REQUIRED"
+    },
+    {
+      "id": "R10A-S123",
+      "requirement": "R9A_FINAL_STATE_EXACT_RULE"
+    },
+    {
+      "id": "R10A-S124",
+      "requirement": "R9A_FINAL_COUNTS_500_PASS_RULE"
+    },
+    {
+      "id": "R10A-S125",
+      "requirement": "R9A_SOURCE_PASS_286_RULE"
+    },
+    {
+      "id": "R10A-S126",
+      "requirement": "R9A_PHYSICAL_PASS_214_RULE"
+    },
+    {
+      "id": "R10A-S127",
+      "requirement": "R9A_PENDING_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S128",
+      "requirement": "R9A_DEFERRED_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S129",
+      "requirement": "R9A_SKIPPED_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S130",
+      "requirement": "R9A_FAIL_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S131",
+      "requirement": "R9A_PACKAGE_IDENTITY_REQUIRED"
+    },
+    {
+      "id": "R10A-S132",
+      "requirement": "R9A_PACKAGE_PRE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-S133",
+      "requirement": "R9A_RUNTIME_CLOSURE_DIGEST_REQUIRED"
+    },
+    {
+      "id": "R10A-S134",
+      "requirement": "R9A_SINGLE_ENCODER_ONE_RULE"
+    },
+    {
+      "id": "R10A-S135",
+      "requirement": "R9A_SINGLE_SUBMIT_ONE_RULE"
+    },
+    {
+      "id": "R10A-S136",
+      "requirement": "R9A_EXPORT_PREMAP_FENCE_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S137",
+      "requirement": "R9A_VALIDATION_DOUBLE_DISPATCH_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S138",
+      "requirement": "R9A_UNIFORM_OVERWRITE_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S139",
+      "requirement": "R9A_PERFORMANCE_THRESHOLDS_PASS_RULE"
+    },
+    {
+      "id": "R10A-S140",
+      "requirement": "FULL_PRODUCT_RECEIPT_REQUIRED"
+    },
+    {
+      "id": "R10A-S141",
+      "requirement": "FULL_PRODUCT_BLOCKERS_EMPTY_RULE"
+    },
+    {
+      "id": "R10A-S142",
+      "requirement": "FULL_PRODUCT_PACKAGE_ID_EQUAL_RULE"
+    },
+    {
+      "id": "R10A-S143",
+      "requirement": "FULL_PRODUCT_BUILD_ID_EQUAL_RULE"
+    },
+    {
+      "id": "R10A-S144",
+      "requirement": "FULL_PRODUCT_RUNTIME_CLOSURE_EQUAL_RULE"
+    },
+    {
+      "id": "R10A-S145",
+      "requirement": "ACTIVE_GRAPH_RECEIPT_CURRENT"
+    },
+    {
+      "id": "R10A-S146",
+      "requirement": "JAVASCRIPT_PARSE_RECEIPT_CURRENT"
+    },
+    {
+      "id": "R10A-S147",
+      "requirement": "QUALIFICATION_MAP_CANONICAL_KEYS"
+    },
+    {
+      "id": "R10A-S148",
+      "requirement": "QUALIFICATION_SET_DIGEST_CANONICAL"
+    },
+    {
+      "id": "R10A-S149",
+      "requirement": "QUALIFICATION_INPUTS_SAME_PACKAGE"
+    },
+    {
+      "id": "R10A-S150",
+      "requirement": "MIXED_LINEAGE_ARTIFACT_ZERO"
+    },
+    {
+      "id": "R10A-S151",
+      "requirement": "SUPERSEDED_R9_RECEIPT_REJECTED"
+    },
+    {
+      "id": "R10A-S152",
+      "requirement": "SUPERSEDED_R10_RECEIPT_REJECTED"
+    },
+    {
+      "id": "R10A-S153",
+      "requirement": "POINTER_V2_READ_COMPATIBILITY"
+    },
+    {
+      "id": "R10A-S154",
+      "requirement": "POINTER_V3_WRITE_AUTHORITY"
+    },
+    {
+      "id": "R10A-S155",
+      "requirement": "POINTER_SCHEMA_DOWNGRADE_FORBIDDEN"
+    },
+    {
+      "id": "R10A-S156",
+      "requirement": "POINTER_UNKNOWN_FIELD_FAIL_CLOSED"
+    },
+    {
+      "id": "R10A-S157",
+      "requirement": "POINTER_CANONICAL_JSON"
+    },
+    {
+      "id": "R10A-S158",
+      "requirement": "POINTER_SELF_HASH_VALID"
+    },
+    {
+      "id": "R10A-S159",
+      "requirement": "POINTER_RAW_HASH_RECORDED"
+    },
+    {
+      "id": "R10A-S160",
+      "requirement": "POINTER_GENERATION_U64"
+    },
+    {
+      "id": "R10A-S161",
+      "requirement": "POINTER_MIRRORS_EQUAL"
+    },
+    {
+      "id": "R10A-S162",
+      "requirement": "POINTER_MIRROR_ATOMICITY"
+    },
+    {
+      "id": "R10A-S163",
+      "requirement": "POINTER_SAME_VOLUME_TEMP"
+    },
+    {
+      "id": "R10A-S164",
+      "requirement": "POINTER_FILE_FLUSH"
+    },
+    {
+      "id": "R10A-S165",
+      "requirement": "POINTER_READBACK_VERIFY"
+    },
+    {
+      "id": "R10A-S166",
+      "requirement": "POINTER_EXPECTED_HASH_REQUIRED"
+    },
+    {
+      "id": "R10A-S167",
+      "requirement": "POINTER_EXPECTED_GENERATION_REQUIRED"
+    },
+    {
+      "id": "R10A-S168",
+      "requirement": "CAS_HASH_AND_GENERATION_MATCH"
+    },
+    {
+      "id": "R10A-S169",
+      "requirement": "CAS_MISMATCH_NO_RETRY"
+    },
+    {
+      "id": "R10A-S170",
+      "requirement": "CAS_ABA_PREVENTION"
+    },
+    {
+      "id": "R10A-S171",
+      "requirement": "CAS_SINGLE_WRITER_LOCK"
+    },
+    {
+      "id": "R10A-S172",
+      "requirement": "CAS_PARTIAL_WRITE_NEGATIVE_CONTROL"
+    },
+    {
+      "id": "R10A-S173",
+      "requirement": "PROMOTION_INTENT_TARGET_BOUND"
+    },
+    {
+      "id": "R10A-S174",
+      "requirement": "PROMOTION_INTENT_PREVIOUS_BOUND"
+    },
+    {
+      "id": "R10A-S175",
+      "requirement": "PROMOTION_INTENT_QUALIFICATION_SET_BOUND"
+    },
+    {
+      "id": "R10A-S176",
+      "requirement": "PROMOTION_INTENT_APPROVAL_BOUND"
+    },
+    {
+      "id": "R10A-S177",
+      "requirement": "ROLLBACK_INTENT_PREVIOUS_EXACT_RULE"
+    },
+    {
+      "id": "R10A-S178",
+      "requirement": "REPROMOTION_INTENT_TARGET_EXACT_RULE"
+    },
+    {
+      "id": "R10A-S179",
+      "requirement": "TRANSITION_ID_192_BIT"
+    },
+    {
+      "id": "R10A-S180",
+      "requirement": "TRANSITION_KIND_ENUM"
+    },
+    {
+      "id": "R10A-S181",
+      "requirement": "GENERATION_INCREMENT_EXACT_ONE"
+    },
+    {
+      "id": "R10A-S182",
+      "requirement": "ACTIVE_QUALIFICATION_MAP_WRITTEN"
+    },
+    {
+      "id": "R10A-S183",
+      "requirement": "PREVIOUS_QUALIFICATION_MAP_WRITTEN"
+    },
+    {
+      "id": "R10A-S184",
+      "requirement": "CANDIDATE_FIELDS_CLEARED"
+    },
+    {
+      "id": "R10A-S185",
+      "requirement": "ROLLBACK_UNIT_WHOLE_BUILD_ONLY"
+    },
+    {
+      "id": "R10A-S186",
+      "requirement": "LEGACY_FALLBACK_FALSE"
+    },
+    {
+      "id": "R10A-S187",
+      "requirement": "PER_ENCODER_ROLLBACK_FALSE"
+    },
+    {
+      "id": "R10A-S188",
+      "requirement": "PER_KERNEL_ROLLBACK_FALSE"
+    },
+    {
+      "id": "R10A-S189",
+      "requirement": "SOURCE_POINTER_RAW_BYTES_UNCHANGED"
+    },
+    {
+      "id": "R10A-S190",
+      "requirement": "SOURCE_POINTER_GENERATION_UNCHANGED"
+    },
+    {
+      "id": "R10A-S191",
+      "requirement": "STABLE_LAUNCHER_REQUIRED"
+    },
+    {
+      "id": "R10A-S192",
+      "requirement": "LAUNCHED_PACKAGE_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-S193",
+      "requirement": "LAUNCHED_RUNTIME_CLOSURE_EXACT"
+    },
+    {
+      "id": "R10A-S194",
+      "requirement": "SOURCE_TREE_INACCESSIBLE_AT_RUNTIME"
+    },
+    {
+      "id": "R10A-S195",
+      "requirement": "NETWORK_DISABLED_DURING_SMOKE"
+    },
+    {
+      "id": "R10A-S196",
+      "requirement": "PROMOTED_PREVIEW_SMOKE_REQUIRED"
+    },
+    {
+      "id": "R10A-S197",
+      "requirement": "PROMOTED_STRICT_EXPORT_SMOKE_REQUIRED"
+    },
+    {
+      "id": "R10A-S198",
+      "requirement": "PROMOTED_R8A_KERNEL_IDENTITY_EXACT_RULE"
+    },
+    {
+      "id": "R10A-S199",
+      "requirement": "PROMOTED_R9A_SINGLE_SUBMIT_EXACT"
+    },
+    {
+      "id": "R10A-S200",
+      "requirement": "PROMOTED_VALIDATION_COUNTER_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S201",
+      "requirement": "PROMOTED_SILENT_FALLBACK_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S202",
+      "requirement": "PROMOTED_PENDING_JOB_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S203",
+      "requirement": "ROLLBACK_TRIGGER_EVIDENCE_BOUND_RULE"
+    },
+    {
+      "id": "R10A-S204",
+      "requirement": "ROLLBACK_TARGET_QUALIFIED"
+    },
+    {
+      "id": "R10A-S205",
+      "requirement": "ROLLBACK_PACKAGE_DISTINCT"
+    },
+    {
+      "id": "R10A-S206",
+      "requirement": "ROLLBACK_PREVIEW_SMOKE_REQUIRED"
+    },
+    {
+      "id": "R10A-S207",
+      "requirement": "ROLLBACK_STRICT_EXPORT_SMOKE_REQUIRED"
+    },
+    {
+      "id": "R10A-S208",
+      "requirement": "ROLLBACK_RUNTIME_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-S209",
+      "requirement": "ROLLBACK_PENDING_JOB_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S210",
+      "requirement": "REPROMOTION_REQUIRED"
+    },
+    {
+      "id": "R10A-S211",
+      "requirement": "REPROMOTION_TARGET_EXACT"
+    },
+    {
+      "id": "R10A-S212",
+      "requirement": "FINAL_PREVIEW_SMOKE_REQUIRED"
+    },
+    {
+      "id": "R10A-S213",
+      "requirement": "FINAL_STRICT_EXPORT_SMOKE_REQUIRED"
+    },
+    {
+      "id": "R10A-S214",
+      "requirement": "FINAL_R8A_R9A_IDENTITY_EXACT"
+    },
+    {
+      "id": "R10A-S215",
+      "requirement": "FINAL_POINTER_TARGET_ACTIVE_RULE"
+    },
+    {
+      "id": "R10A-S216",
+      "requirement": "FINAL_POINTER_PREVIOUS_RECORDED_RULE"
+    },
+    {
+      "id": "R10A-S217",
+      "requirement": "FINAL_PENDING_JOB_ZERO_RULE"
+    },
+    {
+      "id": "R10A-S218",
+      "requirement": "FINAL_PACKAGE_POST_HASH_EQUAL"
+    },
+    {
+      "id": "R10A-S219",
+      "requirement": "LINEAGE_SCHEMA_ID_EXACT"
+    },
+    {
+      "id": "R10A-S220",
+      "requirement": "LINEAGE_HEAD_R10A"
+    },
+    {
+      "id": "R10A-S221",
+      "requirement": "LINEAGE_ROOT_DIGEST_CANONICAL"
+    },
+    {
+      "id": "R10A-S222",
+      "requirement": "LINEAGE_ORDER_R8A_R9A_R10A"
+    },
+    {
+      "id": "R10A-S223",
+      "requirement": "R8A_SOURCE_RECEIPT_CURRENT_MARKER"
+    },
+    {
+      "id": "R10A-S224",
+      "requirement": "R9A_SOURCE_RECEIPT_CURRENT_MARKER"
+    },
+    {
+      "id": "R10A-S225",
+      "requirement": "R9A_PHYSICAL_RECEIPT_CURRENT_MARKER"
+    },
+    {
+      "id": "R10A-S226",
+      "requirement": "R10A_RELEASE_RECEIPT_CURRENT_MARKER"
+    },
+    {
+      "id": "R10A-S227",
+      "requirement": "R9_HISTORICAL_MARKER_SUPERSEDED"
+    },
+    {
+      "id": "R10A-S228",
+      "requirement": "R10_HISTORICAL_MARKER_SUPERSEDED"
+    },
+    {
+      "id": "R10A-S229",
+      "requirement": "R11_HISTORICAL_MARKER_SUPERSEDED"
+    },
+    {
+      "id": "R10A-S230",
+      "requirement": "R12_HISTORICAL_MARKER_SUPERSEDED"
+    },
+    {
+      "id": "R10A-S231",
+      "requirement": "R13_HISTORICAL_MARKER_SUPERSEDED"
+    },
+    {
+      "id": "R10A-S232",
+      "requirement": "R11A_STATUS_REQUIRED_NOT_CURRENT"
+    },
+    {
+      "id": "R10A-S233",
+      "requirement": "R12A_STATUS_REQUIRED_NOT_CURRENT"
+    },
+    {
+      "id": "R10A-S234",
+      "requirement": "R13A_STATUS_REQUIRED_NOT_CURRENT"
+    },
+    {
+      "id": "R10A-S235",
+      "requirement": "CURRENT_PROMOTION_EVIDENCE_NO_OLD_RECEIPT"
+    },
+    {
+      "id": "R10A-S236",
+      "requirement": "HISTORICAL_RECEIPTS_NOT_DELETED"
+    },
+    {
+      "id": "R10A-S237",
+      "requirement": "HISTORICAL_RECEIPTS_BYTE_IMMUTABLE"
+    },
+    {
+      "id": "R10A-S238",
+      "requirement": "LINEAGE_CHILD_DIGESTS_RECOMPUTED"
+    },
+    {
+      "id": "R10A-S239",
+      "requirement": "LINEAGE_RECEIPT_FINAL_WRITER_SINGLE"
+    },
+    {
+      "id": "R10A-S240",
+      "requirement": "LINEAGE_RESTORATION_AFTER_RELEASE_SEAL"
+    },
+    {
+      "id": "R10A-S241",
+      "requirement": "LINEAGE_NO_POINTER_MUTATION"
+    },
+    {
+      "id": "R10A-S242",
+      "requirement": "NEXT_REPLAY_ORDER_R11A_R12A_R13A"
+    },
+    {
+      "id": "R10A-S243",
+      "requirement": "SOURCE_VERIFY_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S244",
+      "requirement": "REBUILD_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S245",
+      "requirement": "ADMIT_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S246",
+      "requirement": "PROMOTE_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S247",
+      "requirement": "ROLLBACK_DRILL_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S248",
+      "requirement": "FINALIZE_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S249",
+      "requirement": "REJECT_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S250",
+      "requirement": "PREDECESSOR_REGRESSION_COMMAND_DECLARED"
+    },
+    {
+      "id": "R10A-S251",
+      "requirement": "WINDOWS_RELEASE_ENTRYPOINT_DECLARED"
+    },
+    {
+      "id": "R10A-S252",
+      "requirement": "STABLE_ERROR_CODE_REGISTRY"
+    },
+    {
+      "id": "R10A-S253",
+      "requirement": "NEGATIVE_CONTROL_MANIFEST_DECLARED"
+    },
+    {
+      "id": "R10A-S254",
+      "requirement": "ACTIVE_GRAPH_ADMISSION_REQUIRED"
+    },
+    {
+      "id": "R10A-S255",
+      "requirement": "ACTIVE_REQUIRED_PARSE_CLOSURE_REQUIRED"
+    },
+    {
+      "id": "R10A-S256",
+      "requirement": "R8_R9A_BEHAVIORAL_REGRESSION_REQUIRED"
+    },
+    {
+      "id": "R10A-S257",
+      "requirement": "OUTPUT_DIRECTORY_EMPTY_GUARD"
+    },
+    {
+      "id": "R10A-S258",
+      "requirement": "RUN_ID_UNIQUE_REQUIRED"
+    },
+    {
+      "id": "R10A-S259",
+      "requirement": "SOURCE_GATE_COUNT_260_EXACT"
+    },
+    {
+      "id": "R10A-S260",
+      "requirement": "RELEASE_GATE_COUNT_300_DECLARED"
+    }
+  ],
+  "specSha256": "a81c2a65af855663137ab3269351d9ef17e1eb2c7ec71fbcfcdf81c6ba282aea"
+}

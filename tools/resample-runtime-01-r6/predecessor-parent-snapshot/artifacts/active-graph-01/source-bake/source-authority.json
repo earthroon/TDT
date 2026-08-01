@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "files": [
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/icms-auto-binding.js",
+      "sourceSha256": "dfe52b4d7f77b9f3438b8f0dadbf054411cdb4b673a02c16a679bde7bb6244a8",
+      "sourceByteLength": 135
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-ash-qmap-binding.js",
+      "sourceSha256": "ef497f3065856af0ecd69357f6779e248de55f56c885e6142b1bb23f45fef648",
+      "sourceByteLength": 337
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-batch-queue.js",
+      "sourceSha256": "0c8301cc5bb879e4214074463f9401673f74dd8ac1efd0fbfda3f1e61fe6571f",
+      "sourceByteLength": 170
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-delta-k-controls.js",
+      "sourceSha256": "1bd239816d12363e066479a0186cba40139adff086c6e61f3e5bc24d682ef11d",
+      "sourceByteLength": 212
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-filter-worker-bridge.js",
+      "sourceSha256": "c6b8018e13a188b688d2cce872669029d5e2cc921dcd882a46b84178839752d1",
+      "sourceByteLength": 359
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-main-entry.js",
+      "sourceSha256": "b463073746dc63946ef988253c1b0d9c210736dc707d0856ea305e33db51ab04",
+      "sourceByteLength": 1321
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/active-graph/legacy-spot-psd-binding.js",
+      "sourceSha256": "a06cd54f144d1c27951233b8e7cafc5d4fe78780851566dda2adf3de1f0897fc",
+      "sourceByteLength": 2242
+    },
+    {
+      "sourceRelative": "app/legacy-runtime/main.js",
+      "sourceSha256": "6cf010e49a5cc8e4aa2e4f924f1242932d28b3a9042bcb4d52d4c1fd88e75529",
+      "sourceByteLength": 187506
+    },
+    {
+      "sourceRelative": "app/src/boot/runtime-modules.ts",
+      "sourceSha256": "4e32f48035149b41404a5010aeeb51235550f2ff9333c3044134b8089945caab",
+      "sourceByteLength": 30676
+    },
+    {
+      "sourceRelative": "app/src/boot/stable-error.ts",
+      "sourceSha256": "29a407bf3e921462af90bef582800d79287c38459101d7d9b851c48c8426afef",
+      "sourceByteLength": 32250
+    },
+    {
+      "sourceRelative": "app/src/env.d.ts",
+      "sourceSha256": "8075ef1a97766aee49bda156d6288b7b327eb775e3ee812cbb586104a2fe9158",
+      "sourceByteLength": 11460
+    },
+    {
+      "sourceRelative": "app/src/legacy/legacy-runtime-adapter.ts",
+      "sourceSha256": "ba77588f774b0d07ea0f88a28f7d2c12f0b3a026d920046e73e6cdab4b6d5a76",
+      "sourceByteLength": 8333
+    },
+    {
+      "sourceRelative": "app/src/runtime/active-graph/active-graph-service.ts",
+      "sourceSha256": "4ab0197bf3897a50a1aff6b0b1d343cf28d2dd950a661644b0020403b3146b6b",
+      "sourceByteLength": 5967
+    },
+    {
+      "sourceRelative": "app/src/runtime/assets/runtime-asset-authority.ts",
+      "sourceSha256": "49e72a1403dc6103cdeff0d59123d912a02d94ffdc6843915d586572641ea34f",
+      "sourceByteLength": 4083
+    },
+    {
+      "sourceRelative": "app/src/runtime/decode/decoder-registry-service.ts",
+      "sourceSha256": "e6d5ba359e9a6d69159d0bc139cf2ea7a0260f13c30a9643ced339ae96d20846",
+      "sourceByteLength": 3967
+    },
+    {
+      "sourceRelative": "app/src/runtime/export/export-authority-service.ts",
+      "sourceSha256": "15fcc26d31990cc3df099b31bb025b2bd48a19eae7a5170cc1c29e6e7b341079",
+      "sourceByteLength": 53675
+    },
+    {
+      "sourceRelative": "app/src/runtime/pipeline/legacy-final-surface-bridge-service.ts",
+      "sourceSha256": "c0c2603bdc8c9d1c3f7479228ca112864862a0a8418e7150fa00193cbcc0c205",
+      "sourceByteLength": 14106
+    },
+    {
+      "sourceRelative": "app/src/runtime/pipeline/pipeline-service.ts",
+      "sourceSha256": "a9cb5b45fb83dd7e55e88bb19254ad543ca8071486fb06f5a6e990763cc7eed8",
+      "sourceByteLength": 10392
+    },
+    {
+      "sourceRelative": "app/src/runtime/preview/preview-presenter-service.ts",
+      "sourceSha256": "b01a16a657eebab1de948a7db749adc7b0f9395a55b8d7de4701879d1b9bac3e",
+      "sourceByteLength": 24194
+    },
+    {
+      "sourceRelative": "app/src/runtime/sequence/deterministic-sequence-service.ts",
+      "sourceSha256": "e8fed173b6ef65bf3428aeef30a760d8cd39292feaa3d258a9f4779417826e63",
+      "sourceByteLength": 1768
+    },
+    {
+      "sourceRelative": "app/src/runtime/service-token.ts",
+      "sourceSha256": "4b70bfee616a4994a43585659b1392e7419e6c62e38f74dd99effcfc04de29a8",
+      "sourceByteLength": 1704
+    },
+    {
+      "sourceRelative": "app/src/runtime/side-effects/side-effect-registry.ts",
+      "sourceSha256": "7607259459256fba3b9e312343ac1f1e27dd9af004e6eca4a1103bb1ea82506d",
+      "sourceByteLength": 11354
+    },
+    {
+      "sourceRelative": "app/src/runtime/surfaces/surface-registry-authority-service.ts",
+      "sourceSha256": "3fd29010a438b442001edddf27809a99ae099fcea083d87e6aa80d8b513bb825",
+      "sourceByteLength": 25106
+    },
+    {
+      "sourceRelative": "app/src/runtime/surfaces/surface-types.ts",
+      "sourceSha256": "be02dd62b2bcd0edf9a564143ea1582949d823f99dfcdb7a18ae5ede3ee18c04",
+      "sourceByteLength": 4030
+    },
+    {
+      "sourceRelative": "app/src/runtime/workers/encoder-worker-broker-service.ts",
+      "sourceSha256": "7835005d901eda0d38f82f98d5458f2f665009a206df43ded61814e317b0a6bc",
+      "sourceByteLength": 50882
+    },
+    {
+      "sourceRelative": "electron.mjs",
+      "sourceSha256": "7c88fb238596d6b8a5b7433c5c323eea86e8c273df80c7e7141d0ce3c95ae55e",
+      "sourceByteLength": 20086
+    },
+    {
+      "sourceRelative": "package-lock.json",
+      "sourceSha256": "b0cfe25ad61ee5a6c95d637c347ff592e38c633a706a8e940351e3790932e847",
+      "sourceByteLength": 164589
+    },
+    {
+      "sourceRelative": "package.json",
+      "sourceSha256": "cd336b160bc83f47f650e35a7116eae3c56c92a4a5d6f3a3024674ab91349ac5",
+      "sourceByteLength": 25824
+    },
+    {
+      "sourceRelative": "preload.cjs",
+      "sourceSha256": "587dcf54a639eeaa9591c2faf0837b3688685746bd19e9bef73cc1c7d94aec4c",
+      "sourceByteLength": 2350
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/audit-randomness.mjs",
+      "sourceSha256": "55ea802e67753575b23584b3d21115f56f3645dd0e80ca5fae4a82ae35800163",
+      "sourceByteLength": 2052
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/finalize-source-bake.mjs",
+      "sourceSha256": "62910d4cf79a766e3d79bbd9221f59e2a81e5ac0589ce34c05633c216967a1db",
+      "sourceByteLength": 2476
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/gate-source.mjs",
+      "sourceSha256": "1b74ba816c26d30b2581fb548b9dbeef82b88f9c40b1c63a65233851ebfefd12",
+      "sourceByteLength": 13530
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/generate-active-graph.mjs",
+      "sourceSha256": "3ae43adb310b4b3615b6aa61a794e69f2bb68b4b50b44d3012c31d54c9c43ba3",
+      "sourceByteLength": 14163
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/generate-all.mjs",
+      "sourceSha256": "6b731da4f7c76b1cd8363b5d4c5600164de31b28f83ee164c984bddcf688381d",
+      "sourceByteLength": 455
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/generate-runtime-asset-manifest.mjs",
+      "sourceSha256": "6315a856b9e9a4aa57736829f0a636fd9982b82c86d7dd9af32b8cc6ef8dd193",
+      "sourceByteLength": 17589
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/lib.mjs",
+      "sourceSha256": "49d825c1fa9b9e3de093acda67698fc41d50caf810e6a641864c1e1bfbb2559a",
+      "sourceByteLength": 4455
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/regression-suite.mjs",
+      "sourceSha256": "0369d0d8380125709c34c618b0ed3761870fa8316bb55509bfc0e36aa4cae538",
+      "sourceByteLength": 2258
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/run-packaged-observation.mjs",
+      "sourceSha256": "d1ae68564e2f9b171ca0203d585e1e25d22bb09893b703174df81a1934f3b7e6",
+      "sourceByteLength": 767
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/run.mjs",
+      "sourceSha256": "3718a08f753a21844b3ca46da1899b6cf852e9404230d1f343897edb46a381ca",
+      "sourceByteLength": 414
+    },
+    {
+      "sourceRelative": "tools/active-graph-01/transpile-source-check.mjs",
+      "sourceSha256": "be013797b52efcda1a96367c6439179b849135c39b1cfc82d863a379adf86021",
+      "sourceByteLength": 1811
+    },
+    {
+      "sourceRelative": "tools/runtime-manifest-lib.mjs",
+      "sourceSha256": "1d3842c0efa41cfac909eb572291da37a981d75164d857f3f46b56fbb119075c",
+      "sourceByteLength": 7672
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/audit-surface-call-sites.mjs",
+      "sourceSha256": "50789ac38a26d689e70b51f9e32b069fd88a78dd121ccb366f58bdc1f5b71063",
+      "sourceByteLength": 1385
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/gate-surface-lifecycle-01.mjs",
+      "sourceSha256": "68172035d855595dbe3865b1851474ed86d45e2595a086aa37362aac88a38a60",
+      "sourceByteLength": 1518
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/lib.mjs",
+      "sourceSha256": "cc8718d0d017995b75a7f365e610ad0c949209c606430b5c6e49b30395b8c999",
+      "sourceByteLength": 1788
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/run-surface-runtime-smoke.mjs",
+      "sourceSha256": "aad47881cac885318b837f1892cccef78a2533de9e45948284e1b19cd8007ae0",
+      "sourceByteLength": 7522
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/run.mjs",
+      "sourceSha256": "40bbfbad7cffac3fd29921353e0d0dbb9734d148eb195c45ff34c6019c130b3e",
+      "sourceByteLength": 399
+    },
+    {
+      "sourceRelative": "tools/surface-lifecycle-01/verify-source-contract.mjs",
+      "sourceSha256": "500f8f88dc54ccb43bf36306d6e9338e6b97ddc96e2e45f477d47dc08f05833c",
+      "sourceByteLength": 4360
+    },
+    {
+      "sourceRelative": "vite.config.ts",
+      "sourceSha256": "e81cc19272cc39ec2142f5be4a402785bf1cdac031ee55cfde1017f8af7fd0dc",
+      "sourceByteLength": 1084
+    }
+  ],
+  "digest": "d6c63c4b7347ee233ba97dac38a7a42f31be7c317867629868d26046635ef738"
+}

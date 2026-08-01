@@ -1,0 +1,248 @@
+{
+  "failCount": 0,
+  "passCount": 48,
+  "schemaVersion": 1,
+  "selfSha256": "111332b3be799344f5ccb857df32287abee0080d23c4f3b09527546620ef608b",
+  "tests": [
+    {
+      "errorCode": "E_R14A_ROOT_THRESHOLD_NOT_MET",
+      "name": "root-threshold-underflow",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROOT_VERSION_ROLLBACK",
+      "name": "root-version-replay",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLE_CONFUSION",
+      "name": "delegated-role-confusion",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROOT_METADATA_INVALID",
+      "name": "manifest-signature-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_PACKAGE_DIGEST_MISMATCH",
+      "name": "stream-digest-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_PACKAGE_LENGTH_MISMATCH",
+      "name": "stream-length-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_RELEASE_SEQUENCE_ROLLBACK",
+      "name": "normal-release-floor-rollback",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_METADATA_FREEZE",
+      "name": "delegated-metadata-freeze",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_LOG_LEAF_MISSING",
+      "name": "leaf-manifest-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_INCLUSION_PROOF_INVALID",
+      "name": "inclusion-path-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_CONSISTENCY_PROOF_INVALID",
+      "name": "consistency-prefix-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_CHECKPOINT_INVALID",
+      "name": "checkpoint-root-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_WITNESS_QUORUM_NOT_MET",
+      "name": "witness-quorum-underflow",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_LOG_SPLIT_VIEW",
+      "name": "checkpoint-split-view",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLE_CONFUSION",
+      "name": "revocation-threshold-underflow",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_KEY_REVOKED",
+      "name": "revoked-signature-rejected",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_MIRROR_BYTE_DIVERGENCE",
+      "name": "mirror-byte-divergence",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_PACKAGE_LENGTH_MISMATCH",
+      "name": "mirror-length-divergence",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_CONTENT_TRANSFORM_FORBIDDEN",
+      "name": "cdn-content-transform",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_RANGE_GAP",
+      "name": "range-gap",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_RANGE_OVERLAP",
+      "name": "range-overlap",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_MIRROR_BYTE_DIVERGENCE",
+      "name": "range-generation-mix",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_PACKAGE_DIGEST_MISMATCH",
+      "name": "range-chunk-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_PREVERIFY_EXECUTION",
+      "name": "preverify-execution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_LOCAL_TRUST_STATE_INVALID",
+      "name": "local-trust-seal-tamper",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_LOCAL_TRUST_STATE_ROLLBACK",
+      "name": "local-trust-regression",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLLBACK_PERMIT_REQUIRED",
+      "name": "rollback-permit-missing",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLLBACK_PERMIT_INVALID",
+      "name": "rollback-permit-expired",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLLBACK_PERMIT_INVALID",
+      "name": "rollback-permit-replay",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLLBACK_PERMIT_INVALID",
+      "name": "rollback-permit-target-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_RELEASE_WITHDRAWN",
+      "name": "withdrawn-release",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_R12A_ADMISSION_MISSING",
+      "name": "r12a-binding-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_R13A_BINDING_MISSING",
+      "name": "r13a-plan-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_FINALIZER_REVALIDATION_FAILED",
+      "name": "finalizer-summary-trust",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_FINALIZER_REVALIDATION_FAILED",
+      "name": "finalizer-pointer-mutation",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_MIRROR_BYTE_DIVERGENCE",
+      "name": "finalizer-mirror-missing",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROOT_METADATA_INVALID",
+      "name": "manifest-root-version-mismatch",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_KEY_EXPIRED",
+      "name": "expired-targets-metadata",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_ROLE_CONFUSION",
+      "name": "unknown-role",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_WITNESS_QUORUM_NOT_MET",
+      "name": "duplicate-witness-not-quorum",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_MANIFEST_INVALID",
+      "name": "release-envelope-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_MIRROR_BYTE_DIVERGENCE",
+      "name": "mirror-object-generation-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_PACKAGE_DIGEST_MISMATCH",
+      "name": "distribution-stream-receipt-substitution",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "E_R14A_MIRROR_BYTE_DIVERGENCE",
+      "name": "immutable-cache-overwrite",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_CONTRACT_ASSERTION",
+      "name": "static-fail-closed-family-45",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_CONTRACT_ASSERTION",
+      "name": "static-fail-closed-family-46",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_CONTRACT_ASSERTION",
+      "name": "static-fail-closed-family-47",
+      "status": "PASS"
+    },
+    {
+      "errorCode": "STATIC_CONTRACT_ASSERTION",
+      "name": "static-fail-closed-family-48",
+      "status": "PASS"
+    }
+  ]
+}

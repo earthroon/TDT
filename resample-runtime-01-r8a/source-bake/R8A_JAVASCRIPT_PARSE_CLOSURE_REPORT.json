@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-RESAMPLE-RUNTIME-01-R8A",
+  "pass": true,
+  "authority": "tdt.active-runtime.javascript-parse-closure.r8a.v1",
+  "activeRequiredJavaScriptCount": 243,
+  "activeRequiredParsePassCount": 243,
+  "activeRequiredParseFailCount": 0,
+  "activeRequiredUnparsedCount": 0,
+  "parseReportSha256": "d88c61e914fa1e3bf259a638829ad20100b8b5a5332a202f60126ab120de19f7",
+  "activeGraphDigest": "84209cce7a2d948c22727fa8a4ecc35511b2b817db0704e80198ddc5c6fd9ca4",
+  "staticAdmissionDigest": "04552855a0845d131a7113e59556d3dc64261ed450aea111ca08afa1665b1cb0",
+  "runtimeAssetManifestDigest": "742037fba07ed6d5aa20026db38c05f5e6af20b8bee51789faef813504a2466e",
+  "selfSha256": "e1be5f19861e60c6c03ddd0287879af4d7e667560842416f00c60e9cb3b83c40"
+}

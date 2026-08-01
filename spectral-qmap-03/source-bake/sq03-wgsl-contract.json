@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "passed": 81,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-power-normalize.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-power-normalize.wgsl"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-reduce.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-reduce.wgsl"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-merge.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-merge.wgsl"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-finalize-fields.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-finalize-fields.wgsl"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-reduction-reference.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-reduction-reference.wgsl"
+    },
+    {
+      "name": "file:app/legacy-runtime/core/analysis/spectral/shaders/spectral-field-set-compare.wgsl",
+      "pass": true,
+      "detail": "app/legacy-runtime/core/analysis/spectral/shaders/spectral-field-set-compare.wgsl"
+    },
+    {
+      "name": "power:z.x*z.x+z.y*z.y",
+      "pass": true,
+      "detail": "z.x*z.x+z.y*z.y"
+    },
+    {
+      "name": "power:f32(p.totalBins)*f32(p.totalBins)",
+      "pass": true,
+      "detail": "f32(p.totalBins)*f32(p.totalBins)"
+    },
+    {
+      "name": "power:isFinite",
+      "pass": true,
+      "detail": "isFinite"
+    },
+    {
+      "name": "power:atomicOr",
+      "pass": true,
+      "detail": "atomicOr"
+    },
+    {
+      "name": "power-no-sqrt",
+      "pass": true,
+      "detail": "power pass does not take magnitude root"
+    },
+    {
+      "name": "power-no-log",
+      "pass": true,
+      "detail": "power pass does not compute entropy"
+    },
+    {
+      "name": "partial:var<workgroup> lane",
+      "pass": true,
+      "detail": "var<workgroup> lane"
+    },
+    {
+      "name": "partial:workgroupBarrier",
+      "pass": true,
+      "detail": "workgroupBarrier"
+    },
+    {
+      "name": "partial:owner = ky > 0 || (ky == 0 && kx > 0)",
+      "pass": true,
+      "detail": "owner = ky > 0 || (ky == 0 && kx > 0)"
+    },
+    {
+      "name": "partial:pair = power[base + natural] + power[base + mirror]",
+      "pass": true,
+      "detail": "pair = power[base + natural] + power[base + mirror]"
+    },
+    {
+      "name": "partial:momentCos2",
+      "pass": true,
+      "detail": "momentCos2"
+    },
+    {
+      "name": "partial:momentSin2",
+      "pass": true,
+      "detail": "momentSin2"
+    },
+    {
+      "name": "partial:peakIndex",
+      "pass": true,
+      "detail": "peakIndex"
+    },
+    {
+      "name": "partial:secondIndex",
+      "pass": true,
+      "detail": "secondIndex"
+    },
+    {
+      "name": "partial:candidateCount",
+      "pass": true,
+      "detail": "candidateCount"
+    },
+    {
+      "name": "partial:failureMask = atomicLoad(&windowFailure[window])",
+      "pass": true,
+      "detail": "failureMask = atomicLoad(&windowFailure[window])"
+    },
+    {
+      "name": "partial:insertCandidate(r, b.secondPower, b.secondIndex)",
+      "pass": true,
+      "detail": "insertCandidate(r, b.secondPower, b.secondIndex)"
+    },
+    {
+      "name": "partial-no-float-atomic",
+      "pass": true,
+      "detail": "no float atomics"
+    },
+    {
+      "name": "partial-uniform-barrier",
+      "pass": true,
+      "detail": "all lanes write before barrier"
+    },
+    {
+      "name": "merge:inputCount",
+      "pass": true,
+      "detail": "inputCount"
+    },
+    {
+      "name": "merge:outputCount",
+      "pass": true,
+      "detail": "outputCount"
+    },
+    {
+      "name": "merge:workgroupBarrier",
+      "pass": true,
+      "detail": "workgroupBarrier"
+    },
+    {
+      "name": "merge:better(",
+      "pass": true,
+      "detail": "better("
+    },
+    {
+      "name": "merge:ai < bi",
+      "pass": true,
+      "detail": "ai < bi"
+    },
+    {
+      "name": "merge:insertCandidate(r, b.peakPower, b.peakIndex)",
+      "pass": true,
+      "detail": "insertCandidate(r, b.peakPower, b.peakIndex)"
+    },
+    {
+      "name": "merge:insertCandidate(r, b.secondPower, b.secondIndex)",
+      "pass": true,
+      "detail": "insertCandidate(r, b.secondPower, b.secondIndex)"
+    },
+    {
+      "name": "final:minimumBandPower",
+      "pass": true,
+      "detail": "minimumBandPower"
+    },
+    {
+      "name": "final:log(r.bandPower) - r.sumPLogP / r.bandPower",
+      "pass": true,
+      "detail": "log(r.bandPower) - r.sumPLogP / r.bandPower"
+    },
+    {
+      "name": "final:(fy * fy - fx * fx) / radiusSquared",
+      "pass": true,
+      "detail": "(fy * fy - fx * fx) / radiusSquared"
+    },
+    {
+      "name": "final:(-2.0 * fx * fy) / radiusSquared",
+      "pass": true,
+      "detail": "(-2.0 * fx * fy) / radiusSquared"
+    },
+    {
+      "name": "final:min(peakShare, min(dominance, angularCoherence))",
+      "pass": true,
+      "detail": "min(peakShare, min(dominance, angularCoherence))"
+    },
+    {
+      "name": "final:atan2(coefficient.y, coefficient.x)",
+      "pass": true,
+      "detail": "atan2(coefficient.y, coefficient.x)"
+    },
+    {
+      "name": "final:6.283185307179586",
+      "pass": true,
+      "detail": "6.283185307179586"
+    },
+    {
+      "name": "final:sqrt(max(r.peakPower, 0.0))",
+      "pass": true,
+      "detail": "sqrt(max(r.peakPower, 0.0))"
+    },
+    {
+      "name": "final:summary[window]",
+      "pass": true,
+      "detail": "summary[window]"
+    },
+    {
+      "name": "final-peak-not-moment-orientation",
+      "pass": true,
+      "detail": "published orientation comes from selected peak"
+    },
+    {
+      "name": "reference:Independent direct reduction",
+      "pass": true,
+      "detail": "Independent direct reduction"
+    },
+    {
+      "name": "reference:@workgroup_size(1)",
+      "pass": true,
+      "detail": "@workgroup_size(1)"
+    },
+    {
+      "name": "reference:for (var natural = 0u; natural < p.totalBins",
+      "pass": true,
+      "detail": "for (var natural = 0u; natural < p.totalBins"
+    },
+    {
+      "name": "reference:power[base + natural]",
+      "pass": true,
+      "detail": "power[base + natural]"
+    },
+    {
+      "name": "reference:candidateCount",
+      "pass": true,
+      "detail": "candidateCount"
+    },
+    {
+      "name": "reference:peakIndex",
+      "pass": true,
+      "detail": "peakIndex"
+    },
+    {
+      "name": "reference:secondIndex",
+      "pass": true,
+      "detail": "secondIndex"
+    },
+    {
+      "name": "reference:entropy[window]",
+      "pass": true,
+      "detail": "entropy[window]"
+    },
+    {
+      "name": "reference:orientation[window]",
+      "pass": true,
+      "detail": "orientation[window]"
+    },
+    {
+      "name": "reference:phase[window]",
+      "pass": true,
+      "detail": "phase[window]"
+    },
+    {
+      "name": "reference:summary[window]",
+      "pass": true,
+      "detail": "summary[window]"
+    },
+    {
+      "name": "reference-not-placeholder",
+      "pass": true,
+      "detail": "direct reference performs full reduction"
+    },
+    {
+      "name": "compare:nonFiniteCount",
+      "pass": true,
+      "detail": "nonFiniteCount"
+    },
+    {
+      "name": "compare:powerMismatchCount",
+      "pass": true,
+      "detail": "powerMismatchCount"
+    },
+    {
+      "name": "compare:entropyMismatchCount",
+      "pass": true,
+      "detail": "entropyMismatchCount"
+    },
+    {
+      "name": "compare:orientationMismatchCount",
+      "pass": true,
+      "detail": "orientationMismatchCount"
+    },
+    {
+      "name": "compare:phaseMismatchCount",
+      "pass": true,
+      "detail": "phaseMismatchCount"
+    },
+    {
+      "name": "compare:summaryMismatchCount",
+      "pass": true,
+      "detail": "summaryMismatchCount"
+    },
+    {
+      "name": "compare:maxPowerAbsErrorBits",
+      "pass": true,
+      "detail": "maxPowerAbsErrorBits"
+    },
+    {
+      "name": "compare:maxEntropyAbsErrorBits",
+      "pass": true,
+      "detail": "maxEntropyAbsErrorBits"
+    },
+    {
+      "name": "compare:minOrientationDotBits",
+      "pass": true,
+      "detail": "minOrientationDotBits"
+    },
+    {
+      "name": "compare:maxPhaseAngularErrorBits",
+      "pass": true,
+      "detail": "maxPhaseAngularErrorBits"
+    },
+    {
+      "name": "compare:firstMismatchWindow",
+      "pass": true,
+      "detail": "firstMismatchWindow"
+    },
+    {
+      "name": "compare:firstMismatchChannel",
+      "pass": true,
+      "detail": "firstMismatchChannel"
+    },
+    {
+      "name": "compare:atomicMin(&result.firstMismatchPacked",
+      "pass": true,
+      "detail": "atomicMin(&result.firstMismatchPacked"
+    },
+    {
+      "name": "compare:fn finalize_first_mismatch()",
+      "pass": true,
+      "detail": "fn finalize_first_mismatch()"
+    },
+    {
+      "name": "compare-not-exact-only",
+      "pass": true,
+      "detail": "tolerance-aware comparison"
+    },
+    {
+      "name": "balanced:app/legacy-runtime/core/analysis/spectral/shaders/spectral-power-normalize.wgsl",
+      "pass": true,
+      "detail": "balanced braces"
+    },
+    {
+      "name": "compute:app/legacy-runtime/core/analysis/spectral/shaders/spectral-power-normalize.wgsl",
+      "pass": true,
+      "detail": "compute entry point"
+    },
+    {
+      "name": "balanced:app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-reduce.wgsl",
+      "pass": true,
+      "detail": "balanced braces"
+    },
+    {
+      "name": "compute:app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-reduce.wgsl",
+      "pass": true,
+      "detail": "compute entry point"
+    },
+    {
+      "name": "balanced:app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-merge.wgsl",
+      "pass": true,
+      "detail": "balanced braces"
+    },
+    {
+      "name": "compute:app/legacy-runtime/core/analysis/spectral/shaders/spectral-partial-merge.wgsl",
+      "pass": true,
+      "detail": "compute entry point"
+    },
+    {
+      "name": "balanced:app/legacy-runtime/core/analysis/spectral/shaders/spectral-finalize-fields.wgsl",
+      "pass": true,
+      "detail": "balanced braces"
+    },
+    {
+      "name": "compute:app/legacy-runtime/core/analysis/spectral/shaders/spectral-finalize-fields.wgsl",
+      "pass": true,
+      "detail": "compute entry point"
+    },
+    {
+      "name": "balanced:app/legacy-runtime/core/analysis/spectral/shaders/spectral-reduction-reference.wgsl",
+      "pass": true,
+      "detail": "balanced braces"
+    },
+    {
+      "name": "compute:app/legacy-runtime/core/analysis/spectral/shaders/spectral-reduction-reference.wgsl",
+      "pass": true,
+      "detail": "compute entry point"
+    },
+    {
+      "name": "balanced:app/legacy-runtime/core/analysis/spectral/shaders/spectral-field-set-compare.wgsl",
+      "pass": true,
+      "detail": "balanced braces"
+    },
+    {
+      "name": "compute:app/legacy-runtime/core/analysis/spectral/shaders/spectral-field-set-compare.wgsl",
+      "pass": true,
+      "detail": "compute entry point"
+    }
+  ]
+}

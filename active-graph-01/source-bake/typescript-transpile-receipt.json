@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-ACTIVE-GRAPH-01",
+  "status": "PASS",
+  "records": [
+    {
+      "sourceRelative": "app/src/boot/runtime-modules.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/legacy/legacy-runtime-adapter.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/runtime/active-graph/active-graph-service.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/runtime/assets/runtime-asset-authority.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/runtime/side-effects/side-effect-registry.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/runtime/sequence/deterministic-sequence-service.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/runtime/workers/encoder-worker-broker-service.ts",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "sourceRelative": "app/src/runtime/service-token.ts",
+      "status": "PASS",
+      "errors": []
+    }
+  ],
+  "receiptDigest": "0f0e8fabaa86ffaa6ea9f74e02e00bb4e3ccfb6055bc8119727a9d942bc1dabe"
+}

@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-BAKEMONO-RINNE-WGSL-02",
+  "gateCount": 192,
+  "gates": [
+    {
+      "id": "BKR02-PAR-001",
+      "description": "parent ZIP digest exact"
+    },
+    {
+      "id": "BKR02-PAR-002",
+      "description": "WGSL-01 spec digest exact"
+    },
+    {
+      "id": "BKR02-PAR-003",
+      "description": "formula authority path exact"
+    },
+    {
+      "id": "BKR02-PAR-004",
+      "description": "formula authority digest exact"
+    },
+    {
+      "id": "BKR02-PAR-005",
+      "description": "utility authority path exact"
+    },
+    {
+      "id": "BKR02-PAR-006",
+      "description": "utility authority digest exact"
+    },
+    {
+      "id": "BKR02-PAR-007",
+      "description": "formula ID exact"
+    },
+    {
+      "id": "BKR02-PAR-008",
+      "description": "compatibility profile ID exact"
+    },
+    {
+      "id": "BKR02-PAR-009",
+      "description": "color contract ID exact"
+    },
+    {
+      "id": "BKR02-PAR-010",
+      "description": "surface adapter ID exact"
+    },
+    {
+      "id": "BKR02-PAR-011",
+      "description": "scalar profile exact"
+    },
+    {
+      "id": "BKR02-PAR-012",
+      "description": "mask profile exact"
+    },
+    {
+      "id": "BKR02-PAR-013",
+      "description": "phase contract exact"
+    },
+    {
+      "id": "BKR02-PAR-014",
+      "description": "output authority SHADOW_ONLY"
+    },
+    {
+      "id": "BKR02-PAR-015",
+      "description": "canonical profile denied"
+    },
+    {
+      "id": "BKR02-PAR-016",
+      "description": "no legacy tensor authority imported"
+    },
+    {
+      "id": "BKR02-PAR-017",
+      "description": "parent receipt verified"
+    },
+    {
+      "id": "BKR02-PAR-018",
+      "description": "parent receipt byte preserved"
+    },
+    {
+      "id": "BKR02-PAR-019",
+      "description": "parent mutation negative control"
+    },
+    {
+      "id": "BKR02-PAR-020",
+      "description": "second formula authority negative control"
+    },
+    {
+      "id": "BKR02-GEN-001",
+      "description": "generator exists"
+    },
+    {
+      "id": "BKR02-GEN-002",
+      "description": "generated WGSL exists"
+    },
+    {
+      "id": "BKR02-GEN-003",
+      "description": "generated manifest exists"
+    },
+    {
+      "id": "BKR02-GEN-004",
+      "description": "kernel ID exact"
+    },
+    {
+      "id": "BKR02-GEN-005",
+      "description": "kernel ABI ID exact"
+    },
+    {
+      "id": "BKR02-GEN-006",
+      "description": "pipeline family ID exact"
+    },
+    {
+      "id": "BKR02-GEN-007",
+      "description": "workgroup size 8×8×1"
+    },
+    {
+      "id": "BKR02-GEN-008",
+      "description": "bounds guard exists"
+    },
+    {
+      "id": "BKR02-GEN-009",
+      "description": "exactly one compute entrypoint"
+    },
+    {
+      "id": "BKR02-GEN-010",
+      "description": "output storage rgba16float"
+    },
+    {
+      "id": "BKR02-GEN-011",
+      "description": "no sampler binding"
+    },
+    {
+      "id": "BKR02-GEN-012",
+      "description": "textureLoad only"
+    },
+    {
+      "id": "BKR02-GEN-013",
+      "description": "no storage read access"
+    },
+    {
+      "id": "BKR02-GEN-014",
+      "description": "no atomics in product kernel"
+    },
+    {
+      "id": "BKR02-GEN-015",
+      "description": "no timestamp or random source"
+    },
+    {
+      "id": "BKR02-GEN-016",
+      "description": "no JavaScript-injected shader patch at runtime"
+    },
+    {
+      "id": "BKR02-GEN-017",
+      "description": "generator inputs recorded"
+    },
+    {
+      "id": "BKR02-GEN-018",
+      "description": "generated digest recorded"
+    },
+    {
+      "id": "BKR02-GEN-019",
+      "description": "line count recorded"
+    },
+    {
+      "id": "BKR02-GEN-020",
+      "description": "byte length recorded"
+    },
+    {
+      "id": "BKR02-GEN-021",
+      "description": "double generation byte exact"
+    },
+    {
+      "id": "BKR02-GEN-022",
+      "description": "manifest digest reproducible"
+    },
+    {
+      "id": "BKR02-GEN-023",
+      "description": "generated source manual edit detected"
+    },
+    {
+      "id": "BKR02-GEN-024",
+      "description": "tau correction mutant rejected"
+    },
+    {
+      "id": "BKR02-GEN-025",
+      "description": "matrix transpose mutant rejected"
+    },
+    {
+      "id": "BKR02-GEN-026",
+      "description": "hidden sRGB decode mutant rejected"
+    },
+    {
+      "id": "BKR02-GEN-027",
+      "description": "smoothstep builtin-order mutant rejected"
+    },
+    {
+      "id": "BKR02-GEN-028",
+      "description": "hidden R1C gate mutant rejected"
+    },
+    {
+      "id": "BKR02-ABI-001",
+      "description": "BGL has bindings 0..7 exact"
+    },
+    {
+      "id": "BKR02-ABI-002",
+      "description": "base binding exact"
+    },
+    {
+      "id": "BKR02-ABI-003",
+      "description": "qmap binding exact"
+    },
+    {
+      "id": "BKR02-ABI-004",
+      "description": "scalar binding exact"
+    },
+    {
+      "id": "BKR02-ABI-005",
+      "description": "alphaDepth binding exact"
+    },
+    {
+      "id": "BKR02-ABI-006",
+      "description": "highlight binding exact"
+    },
+    {
+      "id": "BKR02-ABI-007",
+      "description": "edge binding exact"
+    },
+    {
+      "id": "BKR02-ABI-008",
+      "description": "output binding exact"
+    },
+    {
+      "id": "BKR02-ABI-009",
+      "description": "uniform binding exact"
+    },
+    {
+      "id": "BKR02-ABI-010",
+      "description": "uniform size 128"
+    },
+    {
+      "id": "BKR02-ABI-011",
+      "description": "every offset exact"
+    },
+    {
+      "id": "BKR02-ABI-012",
+      "description": "ABI version exact"
+    },
+    {
+      "id": "BKR02-ABI-013",
+      "description": "profile enum exact"
+    },
+    {
+      "id": "BKR02-ABI-014",
+      "description": "scalar enum exact"
+    },
+    {
+      "id": "BKR02-ABI-015",
+      "description": "mask enum exact"
+    },
+    {
+      "id": "BKR02-ABI-016",
+      "description": "phase wrap enum exact"
+    },
+    {
+      "id": "BKR02-ABI-017",
+      "description": "output authority enum shadow"
+    },
+    {
+      "id": "BKR02-ABI-018",
+      "description": "format enum rgba16float"
+    },
+    {
+      "id": "BKR02-ABI-019",
+      "description": "checksum valid"
+    },
+    {
+      "id": "BKR02-ABI-020",
+      "description": "reserved words zero"
+    },
+    {
+      "id": "BKR02-ABI-021",
+      "description": "q and scalar no alias"
+    },
+    {
+      "id": "BKR02-ABI-022",
+      "description": "output no input alias"
+    },
+    {
+      "id": "BKR02-ABI-023",
+      "description": "dimensions exact"
+    },
+    {
+      "id": "BKR02-ABI-024",
+      "description": "format descriptors required"
+    },
+    {
+      "id": "BKR02-ABI-025",
+      "description": "Tensor binding absent"
+    },
+    {
+      "id": "BKR02-ABI-026",
+      "description": "canonical profile request denied"
+    },
+    {
+      "id": "BKR02-ABI-027",
+      "description": "parameter mutation negative control"
+    },
+    {
+      "id": "BKR02-ABI-028",
+      "description": "offset mutation negative control"
+    },
+    {
+      "id": "BKR02-COL-001",
+      "description": "input rgba16float"
+    },
+    {
+      "id": "BKR02-COL-002",
+      "description": "input linear contract"
+    },
+    {
+      "id": "BKR02-COL-003",
+      "description": "input premultiplied contract"
+    },
+    {
+      "id": "BKR02-COL-004",
+      "description": "safe unpremultiply"
+    },
+    {
+      "id": "BKR02-COL-005",
+      "description": "alphaEpsilon honored"
+    },
+    {
+      "id": "BKR02-COL-006",
+      "description": "linearToSrgb threshold exact"
+    },
+    {
+      "id": "BKR02-COL-007",
+      "description": "linearToSrgb exponent exact"
+    },
+    {
+      "id": "BKR02-COL-008",
+      "description": "no internal rgb2lab decode"
+    },
+    {
+      "id": "BKR02-COL-009",
+      "description": "RGB→XYZ scalar expressions exact"
+    },
+    {
+      "id": "BKR02-COL-010",
+      "description": "XYZ→RGB scalar expressions exact"
+    },
+    {
+      "id": "BKR02-COL-011",
+      "description": "Lab branch exact"
+    },
+    {
+      "id": "BKR02-COL-012",
+      "description": "CMYK black branch exact"
+    },
+    {
+      "id": "BKR02-COL-013",
+      "description": "CMYK output remains internally unclamped"
+    },
+    {
+      "id": "BKR02-COL-014",
+      "description": "final finite guard"
+    },
+    {
+      "id": "BKR02-COL-015",
+      "description": "encoded output clamp adapter"
+    },
+    {
+      "id": "BKR02-COL-016",
+      "description": "srgbToLinear threshold exact"
+    },
+    {
+      "id": "BKR02-COL-017",
+      "description": "output premultiply"
+    },
+    {
+      "id": "BKR02-COL-018",
+      "description": "alpha preserved"
+    },
+    {
+      "id": "BKR02-COL-019",
+      "description": "zero alpha RGB zero"
+    },
+    {
+      "id": "BKR02-COL-020",
+      "description": "output format rgba16float"
+    },
+    {
+      "id": "BKR02-COL-021",
+      "description": "row-major correction mutant rejected"
+    },
+    {
+      "id": "BKR02-COL-022",
+      "description": "straight-alpha output mutant rejected"
+    },
+    {
+      "id": "BKR02-COL-023",
+      "description": "hidden RGB leak mutant rejected"
+    },
+    {
+      "id": "BKR02-COL-024",
+      "description": "nonfinite passthrough mutant rejected"
+    },
+    {
+      "id": "BKR02-RUN-001",
+      "description": "shadow request purpose required"
+    },
+    {
+      "id": "BKR02-RUN-002",
+      "description": "admitted device required"
+    },
+    {
+      "id": "BKR02-RUN-003",
+      "description": "runtime epoch recorded"
+    },
+    {
+      "id": "BKR02-RUN-004",
+      "description": "device epoch recorded"
+    },
+    {
+      "id": "BKR02-RUN-005",
+      "description": "device identity recorded"
+    },
+    {
+      "id": "BKR02-RUN-006",
+      "description": "formula receipt verified"
+    },
+    {
+      "id": "BKR02-RUN-007",
+      "description": "phase receipt verified"
+    },
+    {
+      "id": "BKR02-RUN-008",
+      "description": "input descriptor verified"
+    },
+    {
+      "id": "BKR02-RUN-009",
+      "description": "recorder performs no submit"
+    },
+    {
+      "id": "BKR02-RUN-010",
+      "description": "shadow wrapper submits exactly once"
+    },
+    {
+      "id": "BKR02-RUN-011",
+      "description": "dispatch count exactly one"
+    },
+    {
+      "id": "BKR02-RUN-012",
+      "description": "workgroup count exact"
+    },
+    {
+      "id": "BKR02-RUN-013",
+      "description": "output texture caller-owned"
+    },
+    {
+      "id": "BKR02-RUN-014",
+      "description": "destroy idempotent"
+    },
+    {
+      "id": "BKR02-RUN-015",
+      "description": "no Surface Registry publish"
+    },
+    {
+      "id": "BKR02-RUN-016",
+      "description": "no Preview publish"
+    },
+    {
+      "id": "BKR02-RUN-017",
+      "description": "no Export publish"
+    },
+    {
+      "id": "BKR02-RUN-018",
+      "description": "no terminalTexture replacement"
+    },
+    {
+      "id": "BKR02-RUN-019",
+      "description": "no R9A import"
+    },
+    {
+      "id": "BKR02-RUN-020",
+      "description": "no direct adapter request"
+    },
+    {
+      "id": "BKR02-RUN-021",
+      "description": "product module has no readback"
+    },
+    {
+      "id": "BKR02-RUN-022",
+      "description": "missing texture fails closed"
+    },
+    {
+      "id": "BKR02-RUN-023",
+      "description": "alias fails closed"
+    },
+    {
+      "id": "BKR02-RUN-024",
+      "description": "canonical authority request fails closed"
+    },
+    {
+      "id": "BKR02-CPU-001",
+      "description": "parent f32 oracle imported"
+    },
+    {
+      "id": "BKR02-CPU-002",
+      "description": "no duplicate formula oracle"
+    },
+    {
+      "id": "BKR02-CPU-003",
+      "description": "f16 encoder deterministic"
+    },
+    {
+      "id": "BKR02-CPU-004",
+      "description": "f16 decoder deterministic"
+    },
+    {
+      "id": "BKR02-CPU-005",
+      "description": "round-to-nearest-even fixture"
+    },
+    {
+      "id": "BKR02-CPU-006",
+      "description": "uploaded bits drive oracle"
+    },
+    {
+      "id": "BKR02-CPU-007",
+      "description": "output f16 quantization modeled"
+    },
+    {
+      "id": "BKR02-CPU-008",
+      "description": "fixture count minimum"
+    },
+    {
+      "id": "BKR02-CPU-009",
+      "description": "1×1 fixtures present"
+    },
+    {
+      "id": "BKR02-CPU-010",
+      "description": "odd dimension fixtures present"
+    },
+    {
+      "id": "BKR02-CPU-011",
+      "description": "alpha ramp present"
+    },
+    {
+      "id": "BKR02-CPU-012",
+      "description": "q threshold fixtures present"
+    },
+    {
+      "id": "BKR02-CPU-013",
+      "description": "phase quadrants present"
+    },
+    {
+      "id": "BKR02-CPU-014",
+      "description": "mask combinations present"
+    },
+    {
+      "id": "BKR02-CPU-015",
+      "description": "CMYK black branch present"
+    },
+    {
+      "id": "BKR02-CPU-016",
+      "description": "Lab threshold fixture present"
+    },
+    {
+      "id": "BKR02-CPU-017",
+      "description": "out-of-gamut candidate present"
+    },
+    {
+      "id": "BKR02-CPU-018",
+      "description": "tolerance metrics complete"
+    },
+    {
+      "id": "BKR02-CPU-019",
+      "description": "alpha mismatch count field"
+    },
+    {
+      "id": "BKR02-CPU-020",
+      "description": "nonfinite count field"
+    },
+    {
+      "id": "BKR02-CPU-021",
+      "description": "first mismatch localization"
+    },
+    {
+      "id": "BKR02-CPU-022",
+      "description": "tolerance widening mutation rejected"
+    },
+    {
+      "id": "BKR02-CPU-023",
+      "description": "logical f32 instead of f16 truth rejected"
+    },
+    {
+      "id": "BKR02-CPU-024",
+      "description": "fixture digest mutation rejected"
+    },
+    {
+      "id": "BKR02-GL-001",
+      "description": "hidden Electron harness exists"
+    },
+    {
+      "id": "BKR02-GL-002",
+      "description": "authority fragment bytes loaded"
+    },
+    {
+      "id": "BKR02-GL-003",
+      "description": "authority utility bytes loaded"
+    },
+    {
+      "id": "BKR02-GL-004",
+      "description": "only include substitution allowed"
+    },
+    {
+      "id": "BKR02-GL-005",
+      "description": "expanded fragment digest recorded"
+    },
+    {
+      "id": "BKR02-GL-006",
+      "description": "vertex shader digest recorded"
+    },
+    {
+      "id": "BKR02-GL-007",
+      "description": "original mediump preserved"
+    },
+    {
+      "id": "BKR02-GL-008",
+      "description": "no WebGL2 formula port"
+    },
+    {
+      "id": "BKR02-GL-009",
+      "description": "texture dimensions exact"
+    },
+    {
+      "id": "BKR02-GL-010",
+      "description": "texel-center coordinates"
+    },
+    {
+      "id": "BKR02-GL-011",
+      "description": "clamp-to-edge explicit"
+    },
+    {
+      "id": "BKR02-GL-012",
+      "description": "sampling filter recorded"
+    },
+    {
+      "id": "BKR02-GL-013",
+      "description": "RGBA8 observed output"
+    },
+    {
+      "id": "BKR02-GL-014",
+      "description": "readPixels test-only module"
+    },
+    {
+      "id": "BKR02-GL-015",
+      "description": "quantizer contract exact"
+    },
+    {
+      "id": "BKR02-GL-016",
+      "description": "LSB metrics complete"
+    },
+    {
+      "id": "BKR02-GL-017",
+      "description": "precision report recorded"
+    },
+    {
+      "id": "BKR02-GL-018",
+      "description": "reference source mutation rejected"
+    },
+    {
+      "id": "BKR02-GL-019",
+      "description": "CPU oracle impersonation rejected"
+    },
+    {
+      "id": "BKR02-GL-020",
+      "description": "unavailable context remains PENDING"
+    },
+    {
+      "id": "BKR02-AUT-001",
+      "description": "kernel receipt schema exact"
+    },
+    {
+      "id": "BKR02-AUT-002",
+      "description": "dispatch receipt schema exact"
+    },
+    {
+      "id": "BKR02-AUT-003",
+      "description": "CPU parity receipt schema exact"
+    },
+    {
+      "id": "BKR02-AUT-004",
+      "description": "WebGL parity receipt schema exact"
+    },
+    {
+      "id": "BKR02-AUT-005",
+      "description": "qualification receipt schema exact"
+    },
+    {
+      "id": "BKR02-AUT-006",
+      "description": "generated WGSL digest lineage"
+    },
+    {
+      "id": "BKR02-AUT-007",
+      "description": "ABI digest lineage"
+    },
+    {
+      "id": "BKR02-AUT-008",
+      "description": "formula receipt lineage"
+    },
+    {
+      "id": "BKR02-AUT-009",
+      "description": "phase receipt lineage"
+    },
+    {
+      "id": "BKR02-AUT-010",
+      "description": "input set digest lineage"
+    },
+    {
+      "id": "BKR02-AUT-011",
+      "description": "fixture manifest digest lineage"
+    },
+    {
+      "id": "BKR02-AUT-012",
+      "description": "output semantic exact"
+    },
+    {
+      "id": "BKR02-AUT-013",
+      "description": "output authority shadow exact"
+    },
+    {
+      "id": "BKR02-AUT-014",
+      "description": "canonical final claim false"
+    },
+    {
+      "id": "BKR02-AUT-015",
+      "description": "Surface Registry publish false"
+    },
+    {
+      "id": "BKR02-AUT-016",
+      "description": "Preview authority false"
+    },
+    {
+      "id": "BKR02-AUT-017",
+      "description": "Export authority false"
+    },
+    {
+      "id": "BKR02-AUT-018",
+      "description": "R9A graph claim false"
+    },
+    {
+      "id": "BKR02-AUT-019",
+      "description": "receipt self-hash verified"
+    },
+    {
+      "id": "BKR02-AUT-020",
+      "description": "child receipt mutation detected"
+    },
+    {
+      "id": "BKR02-AUT-021",
+      "description": "missing WebGL physical is PENDING"
+    },
+    {
+      "id": "BKR02-AUT-022",
+      "description": "source-only cannot claim physical pass"
+    },
+    {
+      "id": "BKR02-AUT-023",
+      "description": "physical pass still shadow-only"
+    },
+    {
+      "id": "BKR02-AUT-024",
+      "description": "stable error code set exact"
+    }
+  ]
+}
