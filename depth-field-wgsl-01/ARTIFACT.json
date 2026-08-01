@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "patchId": "TDT-DEPTH-FIELD-WGSL-01",
+  "state": "SOURCE_BAKED_AWAITING_PHYSICAL_GPU",
+  "sourceFinalReceipt": {
+    "schemaVersion": 1,
+    "schemaId": "tdt.analysis.depth.source-final-receipt.wgsl01.v1",
+    "patchId": "TDT-DEPTH-FIELD-WGSL-01",
+    "state": "SOURCE_BAKED_AWAITING_PHYSICAL_GPU",
+    "parentArtifact": {
+      "name": "70_TDT_BAKEMONO_RINNE_WGSL_06_CANONICAL_FIELD_AUTHORITY_SOURCE_BAKED_AWAITING_QMAP_PRODUCER_AND_PHYSICAL_GPU (2).zip",
+      "sha256": "3cb00cefabcc1cf58f4295e911082d447f87eb49494bb14c124644afe3a5042c"
+    },
+    "spec": {
+      "name": "TDT-DEPTH-FIELD-WGSL-01_FINAL_EWA_TERMINAL_R1C_TANGENT_RELIEF_ANALYSIS_AUTHORITY_ZERO_READBACK_SEAL_SPEC.md",
+      "sha256": "957584484197df65ca4d78bb0c0664b6aadaf37b2b2ddfc45cef6589a9fe5859"
+    },
+    "codeZip": {
+      "name": "71_TDT_DEPTH_FIELD_WGSL_01_TANGENT_RELIEF_ANALYSIS_FIELD_SOURCE_BAKED_AWAITING_PHYSICAL_GPU.zip",
+      "sha256": "2a4639e5b8557c241f7169dac5b7679bfe0f1238baa10f9dbf4d805325d8b0b6",
+      "bytes": 6261979,
+      "containsSpec": false,
+      "containsManifest": false,
+      "containsArtifact": false,
+      "containsNestedZip": false
+    },
+    "sourceTreeDigest": "9d65fbd910c3120399c349a48d1b1ebb25789ec89c06e874aa25158fccddc20f",
+    "implementationManifestDigest": "2dc632dda82fcf2c2f254231458da4384ffd15048ad9c75ff69cad52f0762453",
+    "changedFileManifestDigest": "f3f7040649b6837da3448f4af1ea055e21c7436e9b96b1795909b3eaa6e4c5e9",
+    "verification": {
+      "sourceGate": {
+        "pass": 256,
+        "total": 256,
+        "reportSha256": "5c59339ca2766b3b20189639c34dd2374ae1201cab4f4f0329b007f3d02761d4"
+      },
+      "negativeControl": {
+        "detected": 72,
+        "total": 72,
+        "reportSha256": "b4bcdc3f0ee1f5f9b05882a9aa2f941da1b12fcc09d568fed536fb7e0afadd3f"
+      },
+      "graphUnit": {
+        "status": "PASS",
+        "passCount": 7,
+        "reportSha256": "424e484cd8daa1953377a0a872b372922bf47c604abb4d9c00843fab87d4ae71"
+      },
+      "activeGraph": {
+        "pass": 30,
+        "deferred": 10,
+        "fail": 0,
+        "graphDigest": "dcf38fc5ca286181ffa77f9a08a42ef41b0dbca726fc8fd23bf20e19e33d10eb"
+      },
+      "patchApply": {
+        "dryRun": "PASS",
+        "apply": "PASS",
+        "contentDiff": "ZERO"
+      },
+      "zipReextract": {
+        "sourceGate": "256/256 PASS",
+        "negativeControl": "72/72 DETECTED",
+        "graphUnit": "PASS",
+        "exclusionAudit": "PASS"
+      },
+      "typescript": {
+        "strict": "PASS",
+        "newErrorCount": 0
+      },
+      "physical": {
+        "pass": 0,
+        "pending": 80,
+        "fail": 0,
+        "gpuClaim": false
+      }
+    },
+    "authority": {
+      "semanticId": "tdt.analysis.depth.tangent-relief.v1",
+      "producerId": "tdt.analysis.producer.depth.tangent-relief.wgsl",
+      "claimLevel": "EFFECTIVE_EXECUTION_AFTER_FENCE",
+      "finalTextureMutation": false,
+      "callerDepthTextureAdmission": false
+    },
+    "physicalHold": {
+      "reason": "npm registry 404 for @napi-rs/cli@2.18.4",
+      "physicalGpuPassClaim": false
+    },
+    "productionPointerMutation": false,
+    "receiptDigest": "56e182ed3ca1241ceb4ff003751a874b63ae4cf3a276816c54340b8727acd7f2"
+  },
+  "evidenceSummary": {
+    "sourceGate": "256/256 PASS",
+    "negativeControls": "72/72 DETECTED",
+    "graphUnit": "PASS",
+    "activeGraph": "30 PASS / 10 DEFERRED",
+    "physical": "0 PASS / 80 PENDING"
+  },
+  "evidenceDigests": {
+    "sourceGateReportSha256": "5c59339ca2766b3b20189639c34dd2374ae1201cab4f4f0329b007f3d02761d4",
+    "negativeControlReportSha256": "b4bcdc3f0ee1f5f9b05882a9aa2f941da1b12fcc09d568fed536fb7e0afadd3f",
+    "graphUnitReportSha256": "424e484cd8daa1953377a0a872b372922bf47c604abb4d9c00843fab87d4ae71",
+    "physicalGateReportSha256": "11772c0fccf9dc310b8ea68420a7011193d40a937e8a21290c944fc8886f3446",
+    "zipExclusionReportSha256": "00817a906a58d1488119616adc8c99588cacc7460f6d47b428ecd94b148cc6c6"
+  },
+  "codeZipPublishedToGitHub": false,
+  "artifactDigest": "0b393181f6c98d01067a684a14cb49f3e19570f18a84e2c669cf3fad3d1dc3d4"
+}
